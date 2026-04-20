@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+  <!-- Disquet dot-grid mark on a transparent background so the browser's
+       tab/chrome colour shows through. Pattern matches DotsMark.tsx:
+         1 1 0 1 0 1 1
+         1 0 1 1 1 0 1
+         1 0 1 0 1 0 1
+         1 0 1 1 1 0 1
+         1 1 0 0 0 1 1
+       Faint dots at opacity 0.15 keep the grid readable without crowding. -->
+  <g fill="#111110">
+    <!-- Row 0 -->
+    <circle cx="3.4" cy="7.5" r="1.5"/>
+    <circle cx="7.6" cy="7.5" r="1.5"/>
+    <circle cx="11.8" cy="7.5" r="1.5" opacity="0.15"/>
+    <circle cx="16" cy="7.5" r="1.5"/>
+    <circle cx="20.2" cy="7.5" r="1.5" opacity="0.15"/>
+    <circle cx="24.4" cy="7.5" r="1.5"/>
+    <circle cx="28.6" cy="7.5" r="1.5"/>
+    <!-- Row 1 -->
+    <circle cx="3.4" cy="11.7" r="1.5"/>
+    <circle cx="7.6" cy="11.7" r="1.5" opacity="0.15"/>
+    <circle cx="11.8" cy="11.7" r="1.5"/>
+    <circle cx="16" cy="11.7" r="1.5"/>
+    <circle cx="20.2" cy="11.7" r="1.5"/>
+    <circle cx="24.4" cy="11.7" r="1.5" opacity="0.15"/>
+    <circle cx="28.6" cy="11.7" r="1.5"/>
+    <!-- Row 2 -->
+    <circle cx="3.4" cy="15.9" r="1.5"/>
+    <circle cx="7.6" cy="15.9" r="1.5" opacity="0.15"/>
+    <circle cx="11.8" cy="15.9" r="1.5"/>
+    <circle cx="16" cy="15.9" r="1.5" opacity="0.15"/>
+    <circle cx="20.2" cy="15.9" r="1.5"/>
+    <circle cx="24.4" cy="15.9" r="1.5" opacity="0.15"/>
+    <circle cx="28.6" cy="15.9" r="1.5"/>
+    <!-- Row 3 -->
+    <circle cx="3.4" cy="20.1" r="1.5"/>
+    <circle cx="7.6" cy="20.1" r="1.5" opacity="0.15"/>
+    <circle cx="11.8" cy="20.1" r="1.5"/>
+    <circle cx="16" cy="20.1" r="1.5"/>
+    <circle cx="20.2" cy="20.1" r="1.5"/>
+    <circle cx="24.4" cy="20.1" r="1.5" opacity="0.15"/>
+    <circle cx="28.6" cy="20.1" r="1.5"/>
+    <!-- Row 4 -->
+    <circle cx="3.4" cy="24.3" r="1.5"/>
+    <circle cx="7.6" cy="24.3" r="1.5"/>
+    <circle cx="11.8" cy="24.3" r="1.5" opacity="0.15"/>
+    <circle cx="16" cy="24.3" r="1.5" opacity="0.15"/>
+    <circle cx="20.2" cy="24.3" r="1.5" opacity="0.15"/>
+    <circle cx="24.4" cy="24.3" r="1.5"/>
+    <circle cx="28.6" cy="24.3" r="1.5"/>
+  </g>
+</svg>

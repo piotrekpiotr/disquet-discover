@@ -1,0 +1,4 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "_comment": "Cron jobs have been moved to GitHub Actions (.github/workflows/daily-generate.yml and weekly-send.yml) so scheduling is portable across hosting providers and can straddle DST correctly. The schema link stays so the Vercel dashboard recognises the repo as a Next.js app."
+}

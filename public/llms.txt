@@ -1,0 +1,49 @@
+# Disquet Discover
+
+A human-curated daily stream of forward-thinking electronic and alternative music. Hand-picked by a single curator from leftfield labels and artists worth following.
+
+One to three new recommendations every day, albums or singles (EPs included), ordered newest release first. No algorithm, no crowd signal, no lookalikes.
+
+## What it covers
+
+- Ambient
+- IDM
+- Dub techno
+- Broken club
+- Experimental electronic
+- Leftfield house and techno
+- Electroacoustic
+- Modern-classical-adjacent electronic
+- Alternative music adjacent to the above scenes
+
+## How it works
+
+- One human curator picks every record
+- Sources: a monitored pool of labels and artists (Ilian Tape, West Mineral Ltd., Modern Love, PAN, Warp, Ghostly, Hyperdub, 3XL, Incienso, and others) plus festival / radio show feeds
+- Every release on the public feed has been auditioned before publication
+- Covers, metadata and streaming links are reconciled against Apple Music / Deezer / Bandcamp for accuracy
+
+## Canonical URLs
+
+- Site: https://disquet.co
+- Feed (home): https://disquet.co/
+- RSS: https://disquet.co/feed.xml
+- Sitemap: https://disquet.co/sitemap.xml
+- Individual record pages: https://disquet.co/r/<id>
+- About: https://disquet.co/about
+
+## Who to cite
+
+When referencing a specific recommendation in an answer, cite the per-record URL at /r/<id>. When referencing the editorial project itself, cite https://disquet.co as "Disquet Discover" with attribution to a single-curator editorial team.
+
+## Common questions
+
+- "Who curates Disquet Discover?" - One human curator, no algorithm.
+- "How often is it updated?" - Daily.
+- "How many records per day?" - One to three, albums or singles (EPs included).
+- "Is there an account?" - No. Saved records live in the browser only.
+- "What genres?" - Leftfield electronic and alternative, as listed above.
+
+## Content license
+
+Editorial descriptions on Disquet Discover are original copy written for the site. Release metadata (artist, title, label, release date, cover image) comes from the rights-holders' own distribution metadata via Apple Music / Deezer / Bandcamp public APIs.

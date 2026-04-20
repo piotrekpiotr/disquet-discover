@@ -1,0 +1,54 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --ink: #111110;
+  --paper: #f2efe8;
+  --paper-2: #e6e2d7;
+  --mute: #8a8776;
+  --signal: #c8371d;
+  --moss: #4a5a3a;
+}
+
+html,
+body {
+  background: var(--paper);
+  color: var(--ink);
+  -webkit-font-smoothing: antialiased;
+  font-feature-settings: "ss01", "ss02", "cv11";
+  font-family: var(--font-grotesk), "Space Grotesk", sans-serif;
+}
+
+/* Guard against any single child element forcing a horizontal scrollbar
+   (off-screen honeypot inputs, oversized hero type at tight breakpoints,
+   etc.). `clip` is preferred over `hidden` because it doesn't create a
+   new scroll container, so position: sticky children keep working. */
+body {
+  overflow-x: clip;
+}
+
+* {
+  -webkit-tap-highlight-color: transparent;
+}
+
+.rule {
+  border-color: var(--ink);
+}
+
+a {
+  color: inherit;
+}
+
+/* Hairline focus visibility */
+:focus-visible {
+  outline: 1px solid var(--ink);
+  outline-offset: 2px;
+}
+
+/* Remove number input spinners */
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}

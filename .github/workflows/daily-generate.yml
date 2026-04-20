@@ -1,0 +1,75 @@
+# Generate the next batch of pending recommendations every morning.
+#
+# Schedule: 04:00 UTC daily
+#   - 06:00 Warsaw in CEST (late March to late October) - the user's target
+#   - 05:00 Warsaw in CET  (winter)
+# Vercel/Railway cron can't straddle DST transitions either; picking 04:00
+# UTC keeps summer-time bang-on and shifts the winter run an hour earlier,
+# which is better than drifting into the workday in summer.
+#
+# The job runs the existing sync scripts against Discogs / iTunes,
+# appends new `status: "pending"` records to data/recommendations.json,
+# and commits the result back to main. The hosting provider (Vercel,
+# Railway, wherever) auto-redeploys on the push, so by ~06:10 Warsaw time
+# the new batch is live in /admin.
+#
+# Manual runs: use the "Run workflow" button on the Actions tab. Useful
+# for backfilling or testing without waiting for the schedule.
+
+name: Generate daily recommendation pool
+
+on:
+  schedule:
+    - cron: "0 4 * * *"
+  workflow_dispatch: {}
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Check out repo
+        uses: actions/checkout@v4
+        with:
+          # We need the full history so the commit we push has a valid parent
+          # even on first-time runs.
+          fetch-depth: 0
+
+      - name: Set up Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+          cache: npm
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Run label + artist sync
+        env:
+          # A Discogs personal-access token unlocks 60 req/min vs. 25 anon.
+          # Create one at https://www.discogs.com/settings/developers and
+          # save it in Settings -> Secrets -> Actions as DISCOGS_TOKEN.
+          DISCOGS_TOKEN: ${{ secrets.DISCOGS_TOKEN }}
+        run: |
+          # The sync scripts cap themselves per-label / per-artist, so the
+          # sum is usually well under 20 new pending records per run.
+          node scripts/sync-labels.mjs
+          # If/when sync-artists.mjs exists, add it here. Also add
+          # sync-festivals / sync-nts when their parsers are ready.
+
+      - name: Commit the generated batch
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          # Only commit if something actually changed; skip the push otherwise.
+          if [ -n "$(git status --porcelain data/)" ]; then
+            git config user.name  "disquet-bot"
+            git config user.email "disquet-bot@users.noreply.github.com"
+            git add data/
+            git commit -m "daily pool: new pending batch ($(date -u +%Y-%m-%d))"
+            git push
+          else
+            echo "No new records this run - nothing to commit."
+          fi
