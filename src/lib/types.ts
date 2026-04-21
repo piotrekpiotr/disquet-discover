@@ -51,6 +51,12 @@ export interface Recommendation {
   approvedAt?: string | null;
   /** Optional real cover image (from iTunes/etc). Falls back to motif when null. */
   coverImageUrl?: string | null;
+  /** Press sources that have also written about this artist/release around
+   *  the time we discovered it. Populated by the daily sync (e.g. The
+   *  Quietus RSS). Admin UI uses this to highlight higher-signal records
+   *  in the pending queue. Empty array / undefined means "no press signal",
+   *  not "no press coverage exists". */
+  pressMentions?: string[];
   /** Cover art treatment hint (used as fallback when coverImageUrl is null) */
   cover: {
     /** Background color */

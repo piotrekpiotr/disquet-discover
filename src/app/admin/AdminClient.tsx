@@ -304,12 +304,23 @@ export function AdminClient({
                     </div>
                   </div>
                   <div className="md:col-span-6 flex flex-col gap-2">
-                    <div className="font-mono text-[10px] uppercase tracking-widest text-mute flex gap-3 flex-wrap">
+                    <div className="font-mono text-[10px] uppercase tracking-widest text-mute flex gap-3 flex-wrap items-center">
                       <span>{rec.label}</span>
                       <span>·</span>
                       <span>{rec.type === "single" ? "Single" : rec.type === "ep" ? "EP" : "Album"}</span>
                       <span>·</span>
                       <span>Released {rec.releaseDate}</span>
+                      {rec.pressMentions && rec.pressMentions.length > 0 && (
+                        <>
+                          <span>·</span>
+                          <span
+                            className="border border-signal text-signal px-1.5 py-0.5"
+                            title={`Covered by: ${rec.pressMentions.join(", ")}`}
+                          >
+                            Press: {rec.pressMentions.join(", ")}
+                          </span>
+                        </>
+                      )}
                     </div>
                     <div
                       className="font-display font-black text-[24px] sm:text-[28px] leading-[0.95]"

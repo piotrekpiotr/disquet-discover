@@ -23,9 +23,51 @@ import { LABELS } from "./monitoring.mjs";
 const FILE = path.resolve("data/recommendations.json");
 const CANDIDATES_FILE = path.resolve("data/label-candidate-artists.json");
 const MIN_YEAR = 2024;
-const PER_LABEL_LIMIT = 3; // max new records to add per label per run
+const PER_LABEL_LIMIT = 2; // max new records to add per label per run
+// Hard cap on new pending records created per run. The curator can only
+// realistically vet ~10 records a day, so keep the pool small and high-signal
+// rather than flooding the admin panel.
+const MAX_NEW_TOTAL = 10;
 const UA = "disquet-discover/1.0 +local";
 const TOKEN = process.env.DISCOGS_TOKEN || "";
+
+// Cross-reference source: The Quietus. When the site is writing about an
+// artist, it's a signal the release is worth extra attention — we tag any
+// matching record with `pressMentions: ["quietus"]` so the admin UI can
+// highlight it. This is best-effort: if the feed can't be fetched we fall
+// back to `""` (empty string) and no records get boosted that run.
+const QUIETUS_RSS = "https://thequietus.com/feed";
+
+async function fetchQuietusText() {
+  try {
+    const res = await fetch(QUIETUS_RSS, { headers: { "User-Agent": UA } });
+    if (!res.ok) return "";
+    const xml = await res.text();
+    // Cheap parse: we only need substring containment, not proper XML. Strip
+    // tags and CDATA markers, lower-case, collapse whitespace.
+    return xml
+      .replace(/<!\[CDATA\[|\]\]>/g, " ")
+      .replace(/<[^>]+>/g, " ")
+      .replace(/\s+/g, " ")
+      .toLowerCase();
+  } catch {
+    return "";
+  }
+}
+
+/**
+ * Returns an array of press sources that mention this artist/title, or [] if
+ * none. Matching is deliberately loose (case-insensitive substring) because
+ * press spells artists inconsistently. False positives here are harmless —
+ * the admin still has final say.
+ */
+function pressMentionsFor(artist, title, quietusText) {
+  const out = [];
+  if (quietusText && artist && artist.length >= 3) {
+    if (quietusText.includes(artist.toLowerCase())) out.push("quietus");
+  }
+  return out;
+}
 
 function slugify(s) {
   return (s || "")
@@ -109,6 +151,15 @@ async function main() {
     items.map((it) => `${it.artist.toLowerCase()}|${it.title.toLowerCase()}`),
   );
 
+  // Fetch the press feed once, up front. If it fails we keep going with an
+  // empty string; pressMentionsFor() will just return [] for every record.
+  const quietusText = await fetchQuietusText();
+  if (quietusText) {
+    console.log(`Fetched Quietus feed (${quietusText.length} chars of text).`);
+  } else {
+    console.log("Quietus feed unavailable; continuing without press signal.");
+  }
+
   /** @type {Record<string,{seenOn:string[], titleExamples:string[]}>} */
   const candidateArtists = {};
   // load existing candidates so we accumulate across runs
@@ -120,7 +171,9 @@ async function main() {
   }
 
   let addedTotal = 0;
+  let hitCap = false;
   for (const label of LABELS) {
+    if (hitCap) break; // global cap already reached
     process.stdout.write(`${label}: `);
     let addedForThisLabel = 0;
     try {
@@ -166,6 +219,8 @@ async function main() {
         existingIds.add(id);
         existingKey.add(key);
 
+        const mentions = pressMentionsFor(artist, title, quietusText);
+
         items.push({
           id,
           type,
@@ -187,9 +242,17 @@ async function main() {
           approvedAt: null,
           coverImageUrl: primary,
           cover: { bg: "#111110", fg: "#f2efe8", motif: "disc" },
+          // Non-empty when another trusted source has also been writing about
+          // the artist. Admin UI uses this to highlight high-signal records.
+          pressMentions: mentions,
         });
         addedForThisLabel++;
         addedTotal++;
+
+        if (addedTotal >= MAX_NEW_TOTAL) {
+          hitCap = true;
+          break; // stop processing this label's results
+        }
 
         // polite delay between detail fetches
         await new Promise((r2) => setTimeout(r2, TOKEN ? 1100 : 2500));
@@ -207,7 +270,8 @@ async function main() {
   }
 
   console.log(
-    `\nAdded ${addedTotal} records across ${LABELS.length} labels.`,
+    `\nAdded ${addedTotal} records across ${LABELS.length} labels` +
+      (hitCap ? ` (capped at ${MAX_NEW_TOTAL}).` : "."),
   );
   console.log(
     `Candidate artists discovered: ${Object.keys(candidateArtists).length}. ` +

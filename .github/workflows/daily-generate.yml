@@ -53,11 +53,26 @@ jobs:
           # save it in Settings -> Secrets -> Actions as DISCOGS_TOKEN.
           DISCOGS_TOKEN: ${{ secrets.DISCOGS_TOKEN }}
         run: |
-          # The sync scripts cap themselves per-label / per-artist, so the
-          # sum is usually well under 20 new pending records per run.
+          # The sync scripts cap the run at MAX_NEW_TOTAL (currently 10)
+          # so the curator only gets a bite-sized batch each morning.
           node scripts/sync-labels.mjs
           # If/when sync-artists.mjs exists, add it here. Also add
           # sync-festivals / sync-nts when their parsers are ready.
+
+      - name: Write descriptions for the new pending batch
+        # `continue-on-error` means a missing key, bad model name, quota
+        # hit, or API outage won't break the whole workflow — the records
+        # are still committed without descriptions and the curator can
+        # retry manually from their Mac.
+        continue-on-error: true
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          DISCOGS_TOKEN: ${{ secrets.DISCOGS_TOKEN }}
+          # Override if the default model ID in write-descriptions.mjs ever
+          # goes stale; set DISQUET_MODEL in Actions secrets to pin a model.
+          DISQUET_MODEL: ${{ secrets.DISQUET_MODEL }}
+        run: |
+          node scripts/write-descriptions.mjs --only-pending --limit 15
 
       - name: Commit the generated batch
         env:
