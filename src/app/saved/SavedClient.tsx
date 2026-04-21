@@ -90,10 +90,21 @@ export function SavedClient() {
       {items.map((rec, i) => (
         <RecommendationCard key={rec.id} rec={rec} index={i} />
       ))}
-      <div className="border-t border-ink px-6 sm:px-8 py-16 flex flex-col items-center gap-3">
+      <div className="border-t border-ink px-6 sm:px-8 py-16 flex flex-col items-center gap-4">
         <div className="font-mono text-[11px] uppercase tracking-widest text-mute">
           End of your saved list.
         </div>
+        {/* Exports the saved list as a printable PDF. The /saved/export
+            route opens a clean, print-styled view and auto-triggers the
+            browser's print dialog, where the user picks "Save as PDF". No
+            backend, no extra dependency, no login. */}
+        <Link
+          href="/saved/export"
+          target="_blank"
+          className="font-mono text-[10px] uppercase tracking-widest border border-ink px-5 py-2 hover:bg-ink hover:text-paper transition-colors"
+        >
+          Export as PDF
+        </Link>
       </div>
     </>
   );

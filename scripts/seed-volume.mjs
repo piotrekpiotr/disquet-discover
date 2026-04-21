@@ -21,11 +21,32 @@
  * How it works:
  *   The `build` script copies `data/` → `data-seed/`. At container start:
  *
- *   1. `recommendations.json` — MERGE by record id. For every record in the
- *      seed that is NOT already in the volume, append it (pending). Records
- *      that exist in the volume are left exactly as-is, preserving curator
- *      status changes, description edits, cover tweaks, etc. This is the
- *      daily-pool bridge: new seed records flow in, admin state survives.
+ *   1. `recommendations.json` — FIELD-LEVEL MERGE by record id.
+ *
+ *      For records in the seed that don't exist on the volume: append.
+ *
+ *      For records that exist in both, the rule is "non-empty volume value
+ *      wins, otherwise take seed". Concretely:
+ *
+ *        - `status` and `approvedAt` are ALWAYS taken from the volume.
+ *          These are curator-set — daily syncs must never touch them.
+ *        - Every other field (description, embed, coverImageUrl, links.*,
+ *          tags, pressMentions, …) uses the seed's value only when the
+ *          volume's value is empty / missing / null / "" / []. If the
+ *          volume has a non-empty value, it's kept.
+ *
+ *      Why this shape:
+ *
+ *        - Enrichment scripts (backfill-embeds, write-descriptions, etc.)
+ *          write into the repo → into the seed. With the old "volume
+ *          wins wholesale" rule, those enrichments never reached records
+ *          that had already been minted as pending. Curators saw empty
+ *          descriptions / missing players forever.
+ *        - The per-field "non-empty wins" rule lets enrichment flow into
+ *          any field the curator hasn't customised, while still protecting
+ *          any field the curator has actually edited. To force a refresh
+ *          of an admin-edited description, the curator clears the field
+ *          in the admin UI; the next deploy then picks up the seed value.
  *
  *   2. Everything else (`newsletter-queue.json`, `label-candidate-artists.json`,
  *      backup files) — SEED ONCE. If the file is missing on the volume, copy
@@ -64,10 +85,71 @@ async function writeJson(p, value) {
 }
 
 /**
- * Merge any new records from the seed file into the target file, keyed by id.
- * The volume's version of each record wins — we only append records whose id
- * is absent on the volume. This is what lets the daily GitHub Actions pool
- * reach production without clobbering curator edits.
+ * "Empty" in merge terms: a field the curator has never filled in and a
+ * script might legitimately backfill. We explicitly do NOT treat `false` or
+ * `0` as empty, so boolean flags / numeric heights survive. See header
+ * comment for the full merge policy.
+ */
+function isEmptyValue(v) {
+  if (v === null || v === undefined) return true;
+  if (typeof v === "string" && v.trim() === "") return true;
+  if (Array.isArray(v) && v.length === 0) return true;
+  return false;
+}
+
+/**
+ * Field-level merge: volume value wins when it's non-empty, otherwise we
+ * take seed. Applied to top-level fields AND individually to every key in
+ * the `links` subobject so e.g. a real bandcamp URL can be upgraded while
+ * a curator-edited spotify URL stays put.
+ *
+ * `status` and `approvedAt` are taken from the volume unconditionally —
+ * curatorial state is never overwritten by a sync.
+ */
+function mergeRecord(volumeRec, seedRec) {
+  const out = { ...seedRec, ...volumeRec };
+
+  // Curator-only fields — volume always wins, even if (somehow) empty.
+  out.status = volumeRec.status ?? seedRec.status;
+  out.approvedAt = "approvedAt" in volumeRec ? volumeRec.approvedAt : seedRec.approvedAt;
+
+  // For every other top-level key, prefer a non-empty volume value; else seed.
+  const keys = new Set([...Object.keys(seedRec), ...Object.keys(volumeRec)]);
+  for (const k of keys) {
+    if (k === "status" || k === "approvedAt") continue;
+    if (k === "links") continue; // handled below, per-sub-key
+    const volumeVal = volumeRec[k];
+    const seedVal = seedRec[k];
+    if (isEmptyValue(volumeVal) && !isEmptyValue(seedVal)) {
+      out[k] = seedVal;
+    } else if (k in volumeRec) {
+      out[k] = volumeVal;
+    } else {
+      out[k] = seedVal;
+    }
+  }
+
+  // links: per-key merge so a backfilled real album URL can replace an
+  // initial search URL, without wiping curator-set overrides on sibling keys.
+  const seedLinks = seedRec.links || {};
+  const volLinks = volumeRec.links || {};
+  const mergedLinks = { ...seedLinks };
+  for (const k of Object.keys(volLinks)) {
+    if (!isEmptyValue(volLinks[k])) {
+      mergedLinks[k] = volLinks[k];
+    } else if (!(k in seedLinks)) {
+      mergedLinks[k] = volLinks[k]; // preserve explicit null/"" if seed has no opinion
+    }
+  }
+  out.links = mergedLinks;
+
+  return out;
+}
+
+/**
+ * Merge seed records into target by id, with per-field policy. Appends
+ * records that don't exist on the volume. Returns { merged, addedCount,
+ * updatedCount } so the caller can log what actually changed.
  */
 async function mergeRecommendations(seedPath, targetPath) {
   const seed = await readJson(seedPath);
@@ -100,25 +182,54 @@ async function mergeRecommendations(seedPath, targetPath) {
     return;
   }
 
-  const currentIds = new Set(current.map((r) => r && r.id).filter(Boolean));
-  const additions = seed.filter((r) => r && r.id && !currentIds.has(r.id));
+  const seedById = new Map(
+    seed.filter((r) => r && r.id).map((r) => [r.id, r]),
+  );
+  const merged = [];
+  let added = 0;
+  let updated = 0;
 
-  if (additions.length === 0) {
+  // Walk every volume record first, merging it with any matching seed entry.
+  const seenSeedIds = new Set();
+  for (const vol of current) {
+    if (!vol || !vol.id) {
+      merged.push(vol);
+      continue;
+    }
+    const seedRec = seedById.get(vol.id);
+    if (!seedRec) {
+      merged.push(vol);
+      continue;
+    }
+    seenSeedIds.add(vol.id);
+    const mergedRec = mergeRecord(vol, seedRec);
+    // Cheap change detection: serialize both; if they differ, we "updated".
+    if (JSON.stringify(mergedRec) !== JSON.stringify(vol)) updated++;
+    merged.push(mergedRec);
+  }
+
+  // Append any seed records that had no volume counterpart.
+  for (const [id, seedRec] of seedById) {
+    if (seenSeedIds.has(id)) continue;
+    merged.push(seedRec);
+    added++;
+  }
+
+  if (added === 0 && updated === 0) {
     console.log(
-      `[seed-volume] ${RECOMMENDATIONS}: nothing new to merge (volume has ${current.length} record(s))`,
+      `[seed-volume] ${RECOMMENDATIONS}: nothing to change (volume has ${current.length} record(s))`,
     );
     return;
   }
 
-  const merged = [...current, ...additions];
   // Keep the same newest-first ordering the app expects.
   merged.sort((a, b) =>
     (b.releaseDate || "").localeCompare(a.releaseDate || ""),
   );
   await writeJson(targetPath, merged);
   console.log(
-    `[seed-volume] ${RECOMMENDATIONS}: merged ${additions.length} new record(s) ` +
-      `(volume now ${merged.length} total)`,
+    `[seed-volume] ${RECOMMENDATIONS}: ${added} new record(s), ` +
+      `${updated} updated record(s) (volume now ${merged.length} total)`,
   );
 }
 
@@ -132,7 +243,7 @@ async function main() {
 
   await fs.mkdir(TARGET_DIR, { recursive: true });
 
-  // 1) Merge recommendations.json (id-keyed union; volume wins).
+  // 1) Merge recommendations.json (field-level, "non-empty volume wins").
   const seedRec = path.join(SEED_DIR, RECOMMENDATIONS);
   if (await exists(seedRec)) {
     try {

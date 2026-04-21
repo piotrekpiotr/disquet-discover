@@ -1,0 +1,198 @@
+/*
+ * Print + screen styles for /saved/export.
+ *
+ * Scoped to this route via the page wrapping all content in .pdf-sheet.
+ * The on-screen preview mimics the printed page so the visitor can sanity
+ * check before hitting "Save as PDF" in the system dialog.
+ *
+ * Typography intentionally uses `Georgia` / `ui-monospace` system fallbacks
+ * instead of the site's webfonts. Why: browser print engines often fail to
+ * embed webfonts reliably in the generated PDF, especially on Safari. Using
+ * solid system fonts guarantees the PDF looks the same on every Mac/Windows
+ * machine the reader opens it on.
+ */
+
+/* ---------- shared (screen + print) ---------- */
+
+.pdf-sheet {
+  box-sizing: border-box;
+  width: 210mm; /* A4 width; US Letter is 216mm — the extra 6mm just pads */
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 14mm 16mm;
+  background: #ffffff;
+  color: #111110;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 10.5pt;
+  line-height: 1.45;
+}
+
+.pdf-header {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  border-bottom: 1px solid #111110;
+  padding-bottom: 8mm;
+  margin-bottom: 10mm;
+}
+
+.pdf-wordmark {
+  font-family: "Helvetica Neue", Arial, sans-serif;
+  font-weight: 900;
+  font-size: 28pt;
+  letter-spacing: -0.03em;
+  line-height: 1;
+}
+
+.pdf-subtitle {
+  font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
+  font-size: 8pt;
+  text-transform: uppercase;
+  letter-spacing: 0.14em;
+  color: #666;
+}
+
+.pdf-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 10mm;
+}
+
+.pdf-row {
+  display: grid;
+  grid-template-columns: 32mm 1fr;
+  gap: 8mm;
+  align-items: flex-start;
+  /* Avoid splitting a record across pages when possible. */
+  break-inside: avoid;
+  page-break-inside: avoid;
+}
+
+.pdf-cover {
+  width: 32mm;
+  height: 32mm;
+  object-fit: cover;
+  display: block;
+  border: 0.4pt solid #111110;
+}
+
+.pdf-cover-placeholder {
+  background: #111110;
+}
+
+.pdf-meta {
+  display: flex;
+  flex-direction: column;
+  gap: 2.5mm;
+}
+
+.pdf-meta-top {
+  font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
+  font-size: 7.5pt;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  color: #555;
+}
+
+.pdf-artist {
+  font-family: "Helvetica Neue", Arial, sans-serif;
+  font-weight: 900;
+  font-size: 14pt;
+  letter-spacing: -0.015em;
+  line-height: 1.1;
+}
+
+.pdf-title {
+  font-family: Georgia, "Times New Roman", serif;
+  font-style: italic;
+  font-weight: 400;
+  color: #555;
+  letter-spacing: 0;
+}
+
+.pdf-tags {
+  font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
+  font-size: 7.5pt;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: #777;
+}
+
+.pdf-description {
+  margin: 0;
+  max-width: 56em; /* character-based measure; caps line length for readability */
+}
+
+.pdf-link {
+  font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
+  font-size: 7.5pt;
+  color: #555;
+  letter-spacing: 0.04em;
+}
+
+.pdf-footer {
+  border-top: 1px solid #111110;
+  padding-top: 5mm;
+  margin-top: 14mm;
+  font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
+  font-size: 7.5pt;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  color: #666;
+  text-align: center;
+}
+
+/* ---------- screen-only toolbar ---------- */
+
+.print-toolbar {
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  background: #f2efe8;
+  border-bottom: 1px solid #111110;
+}
+.print-toolbar .toolbar-inner {
+  max-width: 210mm;
+  margin: 0 auto;
+  padding: 12px 16mm;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+}
+
+/* ---------- print-only rules ---------- */
+
+@media print {
+  /* Hide everything that isn't the PDF sheet. The global header, footer,
+     consent banner etc. inherit from layout.tsx — they are rendered in the
+     DOM, so we explicitly hide them for print. */
+  body > :not(main),
+  header[role="banner"],
+  footer {
+    display: none !important;
+  }
+  .print-toolbar {
+    display: none !important;
+  }
+  body {
+    background: #ffffff !important;
+  }
+  .pdf-sheet {
+    padding: 10mm 12mm;
+  }
+  /* Tighten gaps slightly so more records fit per page without cramping. */
+  .pdf-list {
+    gap: 8mm;
+  }
+  /* Ensure cover images don't try to scale weirdly across page breaks. */
+  .pdf-cover {
+    break-inside: avoid;
+  }
+  @page {
+    margin: 10mm 10mm;
+  }
+}
