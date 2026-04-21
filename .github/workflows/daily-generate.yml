@@ -31,16 +31,16 @@ jobs:
 
     steps:
       - name: Check out repo
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
         with:
           # We need the full history so the commit we push has a valid parent
           # even on first-time runs.
           fetch-depth: 0
 
       - name: Set up Node
-        uses: actions/setup-node@v4
+        uses: actions/setup-node@v5
         with:
-          node-version: "20"
+          node-version: "22"
           cache: npm
 
       - name: Install dependencies
@@ -58,6 +58,19 @@ jobs:
           node scripts/sync-labels.mjs
           # If/when sync-artists.mjs exists, add it here. Also add
           # sync-festivals / sync-nts when their parsers are ready.
+
+      - name: Backfill embedded players for new records
+        # Tries Apple Music / Deezer first, then Bandcamp. Each script skips
+        # records that already have an embed, so they're safe to re-run. A
+        # failure here (rate limit, network) just leaves the record without
+        # an embed — the public site falls back to a search-links card.
+        continue-on-error: true
+        env:
+          DISCOGS_TOKEN: ${{ secrets.DISCOGS_TOKEN }}
+        run: |
+          node scripts/enrich-labels-and-embeds.mjs || true
+          node scripts/backfill-embeds.mjs || true
+          node scripts/backfill-bandcamp.mjs || true
 
       - name: Write descriptions for the new pending batch
         # `continue-on-error` means a missing key, bad model name, quota

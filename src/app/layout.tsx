@@ -74,11 +74,24 @@ export const metadata: Metadata = {
     description: SITE_DESCRIPTION,
     url: SITE_URL,
     locale: "en_US",
+    // Site-wide fallback preview image (the Disquet wordmark). Per-record
+    // pages in /r/[id] override this with their own cover art via their
+    // own generateMetadata() — so this only shows for /, /about, /privacy,
+    // /terms and any social share of the root URL.
+    images: [
+      {
+        url: "/og-default.png",
+        width: 1200,
+        height: 630,
+        alt: SITE_NAME,
+      },
+    ],
   },
   twitter: {
     card: "summary_large_image",
     title: `${SITE_NAME} - ${SITE_TAGLINE}`,
     description: SITE_DESCRIPTION,
+    images: ["/og-default.png"],
   },
   robots: {
     index: true,

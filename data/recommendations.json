@@ -6,7 +6,7 @@
     "title": "As Time Explodes (Live Album)",
     "label": "Reprise Records",
     "releaseDate": "2026-04-18",
-    "description": "",
+    "description": "A thirteen, track live document from Young and his current band, issued for Record Store Day in a limited edition on Reprise. Not electronic, but included for the archivists.",
     "tags": [
       "rock"
     ],
@@ -34,7 +34,7 @@
     "title": "Sound Mirrors",
     "label": "Ninja Tune",
     "releaseDate": "2026-04-18",
-    "description": "",
+    "description": "Ninja Tune bosses return to the long, player format for Record Store Day, twelve tracks stretching across breaks, downtempo, deep house and future jazz. A wide remit handled by people who have spent decades working exactly this territory.",
     "tags": [
       "electronic"
     ],
@@ -42,9 +42,14 @@
       "bandcamp": "https://bandcamp.com/search?q=Coldcut%20Sound%20Mirrors&item_type=a",
       "spotify": "https://open.spotify.com/search/Coldcut%20Sound%20Mirrors",
       "soundcloud": "https://soundcloud.com/search?q=Coldcut%20Sound%20Mirrors",
-      "youtube": "https://www.youtube.com/results?search_query=Coldcut%20Sound%20Mirrors"
+      "youtube": "https://www.youtube.com/results?search_query=Coldcut%20Sound%20Mirrors",
+      "apple": "https://music.apple.com/us/album/sound-mirrors/416319067?uo=4"
     },
-    "embed": null,
+    "embed": {
+      "provider": "apple",
+      "src": "https://embed.music.apple.com/us/album/416319067?theme=light",
+      "height": 450
+    },
     "musicVideoUrl": null,
     "status": "pending",
     "approvedAt": null,
@@ -62,7 +67,7 @@
     "title": "Live At Metropolis",
     "label": "Ninja Tune",
     "releaseDate": "2026-04-18",
-    "description": "",
+    "description": "A six, track Metropolis session pressed for Record Store Day, catching Yanya's indie rock in a room, sounding document for Ninja Tune.",
     "tags": [
       "rock"
     ],
@@ -90,7 +95,7 @@
     "title": "MindsEye",
     "label": "Erased Tapes Records",
     "releaseDate": "2026-04-18",
-    "description": "",
+    "description": "Rival Consoles heads to the screen for Erased Tapes, ten tracks pulling his techno instincts toward something harsher and more industrial. Pressed at 45 RPM across a limited 12\", with soundtrack duties shaping the edges.",
     "tags": [
       "electronic"
     ],
@@ -98,9 +103,14 @@
       "bandcamp": "https://bandcamp.com/search?q=Rival%20Consoles%20MindsEye&item_type=a",
       "spotify": "https://open.spotify.com/search/Rival%20Consoles%20MindsEye",
       "soundcloud": "https://soundcloud.com/search?q=Rival%20Consoles%20MindsEye",
-      "youtube": "https://www.youtube.com/results?search_query=Rival%20Consoles%20MindsEye"
+      "youtube": "https://www.youtube.com/results?search_query=Rival%20Consoles%20MindsEye",
+      "apple": "https://music.apple.com/us/album/mindseye/1817450122?uo=4"
     },
-    "embed": null,
+    "embed": {
+      "provider": "apple",
+      "src": "https://embed.music.apple.com/us/album/1817450122?theme=light",
+      "height": 450
+    },
     "musicVideoUrl": null,
     "status": "pending",
     "approvedAt": null,
@@ -118,7 +128,7 @@
     "title": "1983",
     "label": "Plug Research",
     "releaseDate": "2026-04-17",
-    "description": "Plug Research reissues the beat-splatter debut that introduced Steven Ellison's signal vocabulary - jazzy, warped, already unmistakably Brainfeeder-adjacent. Nothing here has aged into the period it came from.",
+    "description": "Remastered reissue of the Flying Lotus debut for Record Store Day, ten tracks sitting at the intersection of IDM, downtempo and nascent future jazz that would define the Brainfeeder house style.",
     "tags": [
       "electronic"
     ],
@@ -149,9 +159,9 @@
     "type": "album",
     "artist": "Meitei",
     "title": "AGATE",
-    "label": "",
+    "label": "Kitchen. Label",
     "releaseDate": "2026-04-17",
-    "description": "",
+    "description": "Seven pieces of ambient electronics from Meitei, arriving on Kitchen. Label in a limited LP pressing. Shelve near Chihei Hatakeyama if you need a pointer.",
     "tags": [
       "idm/experimental"
     ],
@@ -184,7 +194,7 @@
     "title": "478 freestyle (feat. Celeste)",
     "label": "",
     "releaseDate": "2026-04-17",
-    "description": "A new single from Dean Blunt. Tagged alternative. Preview text only.",
+    "description": "A new Dean Blunt single with Celeste on the mic, the title doing its usual job of telling you almost nothing.",
     "tags": [
       "alternative"
     ],
@@ -208,8 +218,7 @@
       "bg": "#111110",
       "fg": "#f2efe8",
       "motif": "disc"
-    },
-    "descriptionPreview": true
+    }
   },
   {
     "id": "mu-tate-life-of-mu",
@@ -218,7 +227,7 @@
     "title": "life of mu",
     "label": "",
     "releaseDate": "2026-04-17",
-    "description": "A new album from mu tate. Tagged ambient. Preview text only.",
+    "description": "A full length from mu tate arriving in April, with label, genre and tracklist all still undisclosed. Worth flagging now and circling back once more of it surfaces.",
     "tags": [
       "ambient"
     ],
@@ -242,8 +251,7 @@
       "bg": "#111110",
       "fg": "#f2efe8",
       "motif": "disc"
-    },
-    "descriptionPreview": true
+    }
   },
   {
     "id": "tycho-3-epoch",
@@ -252,7 +260,7 @@
     "title": "Epoch",
     "label": "Ghostly International",
     "releaseDate": "2026-04-17",
-    "description": "Album by Tycho (3) on Ghostly International. Filed under electronic. Holding slot for the real description.",
+    "description": "Limited repress of the Ghostly ambient/chillwave set across eleven tracks, returning to vinyl in April 2026 for those who missed the original run.",
     "tags": [
       "electronic"
     ],
@@ -276,8 +284,7 @@
       "bg": "#111110",
       "fg": "#f2efe8",
       "motif": "disc"
-    },
-    "descriptionPreview": true
+    }
   },
   {
     "id": "martyn-heavy-sound",
@@ -286,7 +293,7 @@
     "title": "Heavy Sound",
     "label": "3024",
     "releaseDate": "2026-04-15",
-    "description": "Single by Martyn on 3024. Filed under downtempo. Holding slot for the real description.",
+    "description": "A single broken, beat cut on Martyn's own 3024, leaning into the breaks and future jazz end of the catalogue. Self, released house business for anyone still working through the label's back pages.",
     "tags": [
       "downtempo"
     ],
@@ -310,8 +317,7 @@
       "bg": "#111110",
       "fg": "#f2efe8",
       "motif": "disc"
-    },
-    "descriptionPreview": true
+    }
   },
   {
     "id": "gustav-kemps-lonesome-for-a-storm",
@@ -320,7 +326,7 @@
     "title": "Lonesome For A Storm",
     "label": "Motion Ward",
     "releaseDate": "2026-04-13",
-    "description": "Gustav Kemps returns with a album through Motion Ward, the kind of folk, world, & country that rewards a second listen. Editorial copy still to come.",
+    "description": "Fifteen folk pieces from Gustav Kemps, filed under Motion Ward, a label more often associated with ambient and club edges than acoustic songform. The incongruity is likely the point.",
     "tags": [
       "folk, world, & country"
     ],
@@ -344,8 +350,7 @@
       "bg": "#111110",
       "fg": "#f2efe8",
       "motif": "disc"
-    },
-    "descriptionPreview": true
+    }
   },
   {
     "id": "squarepusher-kammerkonzert",
@@ -354,7 +359,7 @@
     "title": "Kammerkonzert",
     "label": "Warp Records",
     "releaseDate": "2026-04-10",
-    "description": "Warp Records issues album from Squarepusher. Tagged electronic. Preview text only.",
+    "description": "Squarepusher returns to Warp with a fifteen, track set that leans further into the jazz end of his catalogue, framed as chamber music rather than club fare. Experimental enough to reward close listening, familiar enough for anyone who has followed the Warp lineage.",
     "tags": [
       "electronic"
     ],
@@ -378,8 +383,7 @@
       "bg": "#111110",
       "fg": "#f2efe8",
       "motif": "disc"
-    },
-    "descriptionPreview": true
+    }
   },
   {
     "id": "hoavi-architectonics",
@@ -388,7 +392,7 @@
     "title": "Architectonics",
     "label": "Peak Oil",
     "releaseDate": "2026-04-10",
-    "description": "Album by hoavi on Peak Oil. Filed under electronic. Holding slot for the real description.",
+    "description": "Eleven pieces from hoavi for Peak Oil, threading gamelan textures through dub techno haze and abstract ambient drift. Quiet company for anyone still playing Topdown Dialectic.",
     "tags": [
       "electronic"
     ],
@@ -412,8 +416,7 @@
       "bg": "#111110",
       "fg": "#f2efe8",
       "motif": "disc"
-    },
-    "descriptionPreview": true
+    }
   },
   {
     "id": "dagmar-zuniga-in-filth-your-mystery-is-kingdom-far-smile-peasant-in-yellow-music",
@@ -422,7 +425,7 @@
     "title": "In Filth Your Mystery Is Kingdom / Far-Smile Peasant In Yellow Music",
     "label": "AD 93",
     "releaseDate": "2026-04-10",
-    "description": "New album from Dagmar Zuniga, out on AD 93. Sits in the electronic corner. Preview description pending editorial review.",
+    "description": "Fourteen tracks for AD 93 that sit awkwardly between folk song and electronic abstraction, its lo, fi psychedelia frayed enough to feel half, remembered. For listeners drawn to the stranger corners of the label's roster.",
     "tags": [
       "electronic"
     ],
@@ -446,8 +449,7 @@
       "bg": "#111110",
       "fg": "#f2efe8",
       "motif": "disc"
-    },
-    "descriptionPreview": true
+    }
   },
   {
     "id": "noir-boy-george-polytoxicomane-de-toi",
@@ -456,7 +458,7 @@
     "title": "Polytoxicomane De Toi",
     "label": "Pan European Recording",
     "releaseDate": "2026-04-10",
-    "description": "Noir Boy George drops a EP on Pan European Recording, leaning electronic. Description still in the queue.",
+    "description": "Six tracks of French darkwave on Pan European, pitched somewhere between pop gesture and nocturnal sulk. Recommended if the gloomier corners of the label's roster are already on your shelf.",
     "tags": [
       "electronic"
     ],
@@ -480,8 +482,7 @@
       "bg": "#111110",
       "fg": "#f2efe8",
       "motif": "disc"
-    },
-    "descriptionPreview": true
+    }
   },
   {
     "id": "who-cares-20-who-cares",
@@ -532,9 +533,14 @@
       "bandcamp": "https://bandcamp.com/search?q=Upsammy%2C%20Valentina%20Magaletti%20Seismo&item_type=a",
       "spotify": "https://open.spotify.com/search/Upsammy%2C%20Valentina%20Magaletti%20Seismo",
       "soundcloud": "https://soundcloud.com/search?q=Upsammy%2C%20Valentina%20Magaletti%20Seismo",
-      "youtube": "https://www.youtube.com/results?search_query=Upsammy%2C%20Valentina%20Magaletti%20Seismo"
+      "youtube": "https://www.youtube.com/results?search_query=Upsammy%2C%20Valentina%20Magaletti%20Seismo",
+      "apple": "https://music.apple.com/us/album/seismo/1867239458?uo=4"
     },
-    "embed": null,
+    "embed": {
+      "provider": "apple",
+      "src": "https://embed.music.apple.com/us/album/1867239458?theme=light",
+      "height": 450
+    },
     "musicVideoUrl": null,
     "status": "pending",
     "approvedAt": null,
@@ -1074,9 +1080,14 @@
       "bandcamp": "https://bandcamp.com/search?q=Scotch%20Rolex*%2C%20Shackleton%20%26%20Omutaba%20The%20III%20Hands%20Of%20Doom&item_type=a",
       "spotify": "https://open.spotify.com/search/Scotch%20Rolex*%2C%20Shackleton%20%26%20Omutaba%20The%20III%20Hands%20Of%20Doom",
       "soundcloud": "https://soundcloud.com/search?q=Scotch%20Rolex*%2C%20Shackleton%20%26%20Omutaba%20The%20III%20Hands%20Of%20Doom",
-      "youtube": "https://www.youtube.com/results?search_query=Scotch%20Rolex*%2C%20Shackleton%20%26%20Omutaba%20The%20III%20Hands%20Of%20Doom"
+      "youtube": "https://www.youtube.com/results?search_query=Scotch%20Rolex*%2C%20Shackleton%20%26%20Omutaba%20The%20III%20Hands%20Of%20Doom",
+      "apple": "https://music.apple.com/us/album/three-hands-of-doom/1788928474?uo=4"
     },
-    "embed": null,
+    "embed": {
+      "provider": "apple",
+      "src": "https://embed.music.apple.com/us/album/1788928474?theme=light",
+      "height": 450
+    },
     "musicVideoUrl": null,
     "status": "pending",
     "approvedAt": null,
@@ -1608,9 +1619,14 @@
       "bandcamp": "https://bandcamp.com/search?q=Evita%20Manji%20Spandrel%3F&item_type=a",
       "spotify": "https://open.spotify.com/search/Evita%20Manji%20Spandrel%3F",
       "soundcloud": "https://soundcloud.com/search?q=Evita%20Manji%20Spandrel%3F",
-      "youtube": "https://www.youtube.com/results?search_query=Evita%20Manji%20Spandrel%3F"
+      "youtube": "https://www.youtube.com/results?search_query=Evita%20Manji%20Spandrel%3F",
+      "apple": "https://music.apple.com/us/album/spandrel/1656696502?uo=4"
     },
-    "embed": null,
+    "embed": {
+      "provider": "apple",
+      "src": "https://embed.music.apple.com/us/album/1656696502?theme=light",
+      "height": 450
+    },
     "musicVideoUrl": null,
     "status": "pending",
     "approvedAt": null,
@@ -1840,9 +1856,14 @@
       "bandcamp": "https://bandcamp.com/search?q=Peter%20Gabriel%20In%20The%20Big%20Room&item_type=a",
       "spotify": "https://open.spotify.com/search/Peter%20Gabriel%20In%20The%20Big%20Room",
       "soundcloud": "https://soundcloud.com/search?q=Peter%20Gabriel%20In%20The%20Big%20Room",
-      "youtube": "https://www.youtube.com/results?search_query=Peter%20Gabriel%20In%20The%20Big%20Room"
+      "youtube": "https://www.youtube.com/results?search_query=Peter%20Gabriel%20In%20The%20Big%20Room",
+      "apple": "https://music.apple.com/us/album/in-the-big-room/1822588757?uo=4"
     },
-    "embed": null,
+    "embed": {
+      "provider": "apple",
+      "src": "https://embed.music.apple.com/us/album/1822588757?theme=light",
+      "height": 450
+    },
     "musicVideoUrl": null,
     "status": "pending",
     "approvedAt": null,
@@ -2564,9 +2585,14 @@
       "bandcamp": "https://bandcamp.com/search?q=Casket%20Cassette%20Chainless&item_type=a",
       "spotify": "https://open.spotify.com/search/Casket%20Cassette%20Chainless",
       "soundcloud": "https://soundcloud.com/search?q=Casket%20Cassette%20Chainless",
-      "youtube": "https://www.youtube.com/results?search_query=Casket%20Cassette%20Chainless"
+      "youtube": "https://www.youtube.com/results?search_query=Casket%20Cassette%20Chainless",
+      "apple": "https://music.apple.com/us/album/chainless-ep/1667140802?uo=4"
     },
-    "embed": null,
+    "embed": {
+      "provider": "apple",
+      "src": "https://embed.music.apple.com/us/album/1667140802?theme=light",
+      "height": 450
+    },
     "musicVideoUrl": null,
     "status": "pending",
     "approvedAt": null,
@@ -2694,9 +2720,14 @@
       "bandcamp": "https://bandcamp.com/search?q=Marshall%20Jefferson%20Move%20Your%20Body%20(Lee%20Foss%20%26%20Micah%20Baxter%20Remix)&item_type=a",
       "spotify": "https://open.spotify.com/search/Marshall%20Jefferson%20Move%20Your%20Body%20(Lee%20Foss%20%26%20Micah%20Baxter%20Remix)",
       "soundcloud": "https://soundcloud.com/search?q=Marshall%20Jefferson%20Move%20Your%20Body%20(Lee%20Foss%20%26%20Micah%20Baxter%20Remix)",
-      "youtube": "https://www.youtube.com/results?search_query=Marshall%20Jefferson%20Move%20Your%20Body%20(Lee%20Foss%20%26%20Micah%20Baxter%20Remix)"
+      "youtube": "https://www.youtube.com/results?search_query=Marshall%20Jefferson%20Move%20Your%20Body%20(Lee%20Foss%20%26%20Micah%20Baxter%20Remix)",
+      "apple": "https://music.apple.com/us/album/move-your-body-lee-foss-micah-baxter-remix-single/1872492133?uo=4"
     },
-    "embed": null,
+    "embed": {
+      "provider": "apple",
+      "src": "https://embed.music.apple.com/us/album/1872492133?theme=light",
+      "height": 450
+    },
     "musicVideoUrl": null,
     "status": "pending",
     "approvedAt": null,
@@ -2790,9 +2821,14 @@
       "bandcamp": "https://bandcamp.com/search?q=Nightmares%20On%20Wax%20Vs%20Adrian%20Sherwood%20Flippin'%20Eck&item_type=a",
       "spotify": "https://open.spotify.com/search/Nightmares%20On%20Wax%20Vs%20Adrian%20Sherwood%20Flippin'%20Eck",
       "soundcloud": "https://soundcloud.com/search?q=Nightmares%20On%20Wax%20Vs%20Adrian%20Sherwood%20Flippin'%20Eck",
-      "youtube": "https://www.youtube.com/results?search_query=Nightmares%20On%20Wax%20Vs%20Adrian%20Sherwood%20Flippin'%20Eck"
+      "youtube": "https://www.youtube.com/results?search_query=Nightmares%20On%20Wax%20Vs%20Adrian%20Sherwood%20Flippin'%20Eck",
+      "deezer": "https://www.deezer.com/album/898044192"
     },
-    "embed": null,
+    "embed": {
+      "provider": "deezer",
+      "src": "https://widget.deezer.com/widget/light/album/898044192",
+      "height": 300
+    },
     "musicVideoUrl": null,
     "status": "pending",
     "approvedAt": null,
@@ -2818,9 +2854,14 @@
       "bandcamp": "https://bandcamp.com/search?q=Kwes.%20Kinds&item_type=a",
       "spotify": "https://open.spotify.com/search/Kwes.%20Kinds",
       "soundcloud": "https://soundcloud.com/search?q=Kwes.%20Kinds",
-      "youtube": "https://www.youtube.com/results?search_query=Kwes.%20Kinds"
+      "youtube": "https://www.youtube.com/results?search_query=Kwes.%20Kinds",
+      "apple": "https://music.apple.com/us/album/kinds/1857771327?uo=4"
     },
-    "embed": null,
+    "embed": {
+      "provider": "apple",
+      "src": "https://embed.music.apple.com/us/album/1857771327?theme=light",
+      "height": 450
+    },
     "musicVideoUrl": null,
     "status": "pending",
     "approvedAt": null,
@@ -2982,9 +3023,14 @@
       "bandcamp": "https://bandcamp.com/search?q=Danny%20Brown%20(2)%20Stardust&item_type=a",
       "spotify": "https://open.spotify.com/search/Danny%20Brown%20(2)%20Stardust",
       "soundcloud": "https://soundcloud.com/search?q=Danny%20Brown%20(2)%20Stardust",
-      "youtube": "https://www.youtube.com/results?search_query=Danny%20Brown%20(2)%20Stardust"
+      "youtube": "https://www.youtube.com/results?search_query=Danny%20Brown%20(2)%20Stardust",
+      "deezer": "https://www.deezer.com/album/816893031"
     },
-    "embed": null,
+    "embed": {
+      "provider": "deezer",
+      "src": "https://widget.deezer.com/widget/light/album/816893031",
+      "height": 300
+    },
     "musicVideoUrl": null,
     "status": "pending",
     "approvedAt": null,
@@ -3010,9 +3056,14 @@
       "bandcamp": "https://bandcamp.com/search?q=Black%20Marble%20It's%20Immaterial&item_type=a",
       "spotify": "https://open.spotify.com/search/Black%20Marble%20It's%20Immaterial",
       "soundcloud": "https://soundcloud.com/search?q=Black%20Marble%20It's%20Immaterial",
-      "youtube": "https://www.youtube.com/results?search_query=Black%20Marble%20It's%20Immaterial"
+      "youtube": "https://www.youtube.com/results?search_query=Black%20Marble%20It's%20Immaterial",
+      "apple": "https://music.apple.com/us/album/its-immaterial/1133654912?uo=4"
     },
-    "embed": null,
+    "embed": {
+      "provider": "apple",
+      "src": "https://embed.music.apple.com/us/album/1133654912?theme=light",
+      "height": 450
+    },
     "musicVideoUrl": null,
     "status": "pending",
     "approvedAt": null,
@@ -3063,12 +3114,16 @@
       "electronic"
     ],
     "links": {
-      "bandcamp": "https://bandcamp.com/search?q=Mertens*%20%26%20Steenkiste%20The%20Flicker&item_type=a",
+      "bandcamp": "https://manychantsrecords.bandcamp.com/album/the-flicker",
       "spotify": "https://open.spotify.com/search/Mertens*%20%26%20Steenkiste%20The%20Flicker",
       "soundcloud": "https://soundcloud.com/search?q=Mertens*%20%26%20Steenkiste%20The%20Flicker",
       "youtube": "https://www.youtube.com/results?search_query=Mertens*%20%26%20Steenkiste%20The%20Flicker"
     },
-    "embed": null,
+    "embed": {
+      "provider": "bandcamp",
+      "src": "https://bandcamp.com/EmbeddedPlayer/album=2256376863/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=true/artwork=small/transparent=true/",
+      "height": 470
+    },
     "musicVideoUrl": null,
     "status": "pending",
     "approvedAt": null,
@@ -3292,9 +3347,14 @@
       "bandcamp": "https://bandcamp.com/search?q=Duckwrth%20I%20Wanna%20Be%20Your%20Dog%20Again&item_type=a",
       "spotify": "https://open.spotify.com/search/Duckwrth%20I%20Wanna%20Be%20Your%20Dog%20Again",
       "soundcloud": "https://soundcloud.com/search?q=Duckwrth%20I%20Wanna%20Be%20Your%20Dog%20Again",
-      "youtube": "https://www.youtube.com/results?search_query=Duckwrth%20I%20Wanna%20Be%20Your%20Dog%20Again"
+      "youtube": "https://www.youtube.com/results?search_query=Duckwrth%20I%20Wanna%20Be%20Your%20Dog%20Again",
+      "deezer": "https://www.deezer.com/album/897580222"
     },
-    "embed": null,
+    "embed": {
+      "provider": "deezer",
+      "src": "https://widget.deezer.com/widget/light/album/897580222",
+      "height": 300
+    },
     "musicVideoUrl": null,
     "status": "pending",
     "approvedAt": null,
@@ -3354,9 +3414,14 @@
       "bandcamp": "https://bandcamp.com/search?q=Various%20Mastery%20Quantum%20Sound&item_type=a",
       "spotify": "https://open.spotify.com/search/Various%20Mastery%20Quantum%20Sound",
       "soundcloud": "https://soundcloud.com/search?q=Various%20Mastery%20Quantum%20Sound",
-      "youtube": "https://www.youtube.com/results?search_query=Various%20Mastery%20Quantum%20Sound"
+      "youtube": "https://www.youtube.com/results?search_query=Various%20Mastery%20Quantum%20Sound",
+      "apple": "https://music.apple.com/us/album/mastery-quantum-sound/1858319759?uo=4"
     },
-    "embed": null,
+    "embed": {
+      "provider": "apple",
+      "src": "https://embed.music.apple.com/us/album/1858319759?theme=light",
+      "height": 450
+    },
     "musicVideoUrl": null,
     "status": "pending",
     "approvedAt": null,
@@ -3875,9 +3940,14 @@
       "bandcamp": "https://bandcamp.com/search?q=Shackleton%20Euphoria%20Bound&item_type=a",
       "spotify": "https://open.spotify.com/search/Shackleton%20Euphoria%20Bound",
       "soundcloud": "https://soundcloud.com/search?q=Shackleton%20Euphoria%20Bound",
-      "youtube": "https://www.youtube.com/results?search_query=Shackleton%20Euphoria%20Bound"
+      "youtube": "https://www.youtube.com/results?search_query=Shackleton%20Euphoria%20Bound",
+      "apple": "https://music.apple.com/us/album/euphoria-bound/1857976558?uo=4"
     },
-    "embed": null,
+    "embed": {
+      "provider": "apple",
+      "src": "https://embed.music.apple.com/us/album/1857976558?theme=light",
+      "height": 450
+    },
     "musicVideoUrl": null,
     "status": "pending",
     "approvedAt": null,
@@ -3998,9 +4068,14 @@
       "bandcamp": "https://bandcamp.com/search?q=Hagen%20Stoll%2C%20Rilla%20Evolution&item_type=a",
       "spotify": "https://open.spotify.com/search/Hagen%20Stoll%2C%20Rilla%20Evolution",
       "soundcloud": "https://soundcloud.com/search?q=Hagen%20Stoll%2C%20Rilla%20Evolution",
-      "youtube": "https://www.youtube.com/results?search_query=Hagen%20Stoll%2C%20Rilla%20Evolution"
+      "youtube": "https://www.youtube.com/results?search_query=Hagen%20Stoll%2C%20Rilla%20Evolution",
+      "deezer": "https://www.deezer.com/album/877098262"
     },
-    "embed": null,
+    "embed": {
+      "provider": "deezer",
+      "src": "https://widget.deezer.com/widget/light/album/877098262",
+      "height": 300
+    },
     "musicVideoUrl": null,
     "status": "pending",
     "approvedAt": null,
@@ -4055,9 +4130,14 @@
       "bandcamp": "https://bandcamp.com/search?q=Helix%20(3)%20Scrap%20Metal&item_type=a",
       "spotify": "https://open.spotify.com/search/Helix%20(3)%20Scrap%20Metal",
       "soundcloud": "https://soundcloud.com/search?q=Helix%20(3)%20Scrap%20Metal",
-      "youtube": "https://www.youtube.com/results?search_query=Helix%20(3)%20Scrap%20Metal"
+      "youtube": "https://www.youtube.com/results?search_query=Helix%20(3)%20Scrap%20Metal",
+      "apple": "https://music.apple.com/us/album/scrap-metal/1864042854?uo=4"
     },
-    "embed": null,
+    "embed": {
+      "provider": "apple",
+      "src": "https://embed.music.apple.com/us/album/1864042854?theme=light",
+      "height": 450
+    },
     "musicVideoUrl": null,
     "status": "pending",
     "approvedAt": null,
@@ -4083,9 +4163,14 @@
       "bandcamp": "https://bandcamp.com/search?q=Squeeze%20(2)%20Play&item_type=a",
       "spotify": "https://open.spotify.com/search/Squeeze%20(2)%20Play",
       "soundcloud": "https://soundcloud.com/search?q=Squeeze%20(2)%20Play",
-      "youtube": "https://www.youtube.com/results?search_query=Squeeze%20(2)%20Play"
+      "youtube": "https://www.youtube.com/results?search_query=Squeeze%20(2)%20Play",
+      "apple": "https://music.apple.com/us/album/lets-play-piano-music/1787663262?uo=4"
     },
-    "embed": null,
+    "embed": {
+      "provider": "apple",
+      "src": "https://embed.music.apple.com/us/album/1787663262?theme=light",
+      "height": 450
+    },
     "musicVideoUrl": null,
     "status": "pending",
     "approvedAt": null,
@@ -4145,9 +4230,14 @@
       "bandcamp": "https://bandcamp.com/search?q=Der%20W%C3%BCrfler%20I%20Love%20The%20Darkness%20Remixed&item_type=a",
       "spotify": "https://open.spotify.com/search/Der%20W%C3%BCrfler%20I%20Love%20The%20Darkness%20Remixed",
       "soundcloud": "https://soundcloud.com/search?q=Der%20W%C3%BCrfler%20I%20Love%20The%20Darkness%20Remixed",
-      "youtube": "https://www.youtube.com/results?search_query=Der%20W%C3%BCrfler%20I%20Love%20The%20Darkness%20Remixed"
+      "youtube": "https://www.youtube.com/results?search_query=Der%20W%C3%BCrfler%20I%20Love%20The%20Darkness%20Remixed",
+      "apple": "https://music.apple.com/us/album/i-love-the-darkness-remixed-single/1871248535?uo=4"
     },
-    "embed": null,
+    "embed": {
+      "provider": "apple",
+      "src": "https://embed.music.apple.com/us/album/1871248535?theme=light",
+      "height": 450
+    },
     "musicVideoUrl": null,
     "status": "pending",
     "approvedAt": null,
@@ -4377,9 +4467,14 @@
       "bandcamp": "https://bandcamp.com/search?q=Popbot%20Simulated%20Microcosm&item_type=a",
       "spotify": "https://open.spotify.com/search/Popbot%20Simulated%20Microcosm",
       "soundcloud": "https://soundcloud.com/search?q=Popbot%20Simulated%20Microcosm",
-      "youtube": "https://www.youtube.com/results?search_query=Popbot%20Simulated%20Microcosm"
+      "youtube": "https://www.youtube.com/results?search_query=Popbot%20Simulated%20Microcosm",
+      "apple": "https://music.apple.com/us/album/simulated-microcosm/1733803618?uo=4"
     },
-    "embed": null,
+    "embed": {
+      "provider": "apple",
+      "src": "https://embed.music.apple.com/us/album/1733803618?theme=light",
+      "height": 450
+    },
     "musicVideoUrl": null,
     "status": "pending",
     "approvedAt": null,
@@ -4467,9 +4562,14 @@
       "bandcamp": "https://bandcamp.com/search?q=Youth%20Avoiders%20Defiance&item_type=a",
       "spotify": "https://open.spotify.com/search/Youth%20Avoiders%20Defiance",
       "soundcloud": "https://soundcloud.com/search?q=Youth%20Avoiders%20Defiance",
-      "youtube": "https://www.youtube.com/results?search_query=Youth%20Avoiders%20Defiance"
+      "youtube": "https://www.youtube.com/results?search_query=Youth%20Avoiders%20Defiance",
+      "apple": "https://music.apple.com/us/album/defiance/1862463868?uo=4"
     },
-    "embed": null,
+    "embed": {
+      "provider": "apple",
+      "src": "https://embed.music.apple.com/us/album/1862463868?theme=light",
+      "height": 450
+    },
     "musicVideoUrl": null,
     "status": "pending",
     "approvedAt": null,
@@ -5052,9 +5152,14 @@
       "bandcamp": "https://bandcamp.com/search?q=Gazzara%20The%20World%20Of%20Gazzara&item_type=a",
       "spotify": "https://open.spotify.com/search/Gazzara%20The%20World%20Of%20Gazzara",
       "soundcloud": "https://soundcloud.com/search?q=Gazzara%20The%20World%20Of%20Gazzara",
-      "youtube": "https://www.youtube.com/results?search_query=Gazzara%20The%20World%20Of%20Gazzara"
+      "youtube": "https://www.youtube.com/results?search_query=Gazzara%20The%20World%20Of%20Gazzara",
+      "apple": "https://music.apple.com/us/album/the-world-of-gazzara/1886081173?uo=4"
     },
-    "embed": null,
+    "embed": {
+      "provider": "apple",
+      "src": "https://embed.music.apple.com/us/album/1886081173?theme=light",
+      "height": 450
+    },
     "musicVideoUrl": null,
     "status": "pending",
     "approvedAt": null,
@@ -5080,9 +5185,14 @@
       "bandcamp": "https://bandcamp.com/search?q=Call%20Sign%20Cobra%20Call%20Sign%20Cobra%20II&item_type=a",
       "spotify": "https://open.spotify.com/search/Call%20Sign%20Cobra%20Call%20Sign%20Cobra%20II",
       "soundcloud": "https://soundcloud.com/search?q=Call%20Sign%20Cobra%20Call%20Sign%20Cobra%20II",
-      "youtube": "https://www.youtube.com/results?search_query=Call%20Sign%20Cobra%20Call%20Sign%20Cobra%20II"
+      "youtube": "https://www.youtube.com/results?search_query=Call%20Sign%20Cobra%20Call%20Sign%20Cobra%20II",
+      "apple": "https://music.apple.com/us/album/call-sign-cobra-2/79384465?uo=4"
     },
-    "embed": null,
+    "embed": {
+      "provider": "apple",
+      "src": "https://embed.music.apple.com/us/album/79384465?theme=light",
+      "height": 450
+    },
     "musicVideoUrl": null,
     "status": "pending",
     "approvedAt": null,
@@ -5345,9 +5455,14 @@
       "bandcamp": "https://bandcamp.com/search?q=Mohammad%20Reza%20Mortazavi%20Swamp%20(Ricardo%20Villalobos%20Variation)&item_type=a",
       "spotify": "https://open.spotify.com/search/Mohammad%20Reza%20Mortazavi%20Swamp%20(Ricardo%20Villalobos%20Variation)",
       "soundcloud": "https://soundcloud.com/search?q=Mohammad%20Reza%20Mortazavi%20Swamp%20(Ricardo%20Villalobos%20Variation)",
-      "youtube": "https://www.youtube.com/results?search_query=Mohammad%20Reza%20Mortazavi%20Swamp%20(Ricardo%20Villalobos%20Variation)"
+      "youtube": "https://www.youtube.com/results?search_query=Mohammad%20Reza%20Mortazavi%20Swamp%20(Ricardo%20Villalobos%20Variation)",
+      "apple": "https://music.apple.com/us/album/swamp-ricardo-villalobos-version-ep/1852759583?uo=4"
     },
-    "embed": null,
+    "embed": {
+      "provider": "apple",
+      "src": "https://embed.music.apple.com/us/album/1852759583?theme=light",
+      "height": 450
+    },
     "musicVideoUrl": null,
     "status": "pending",
     "approvedAt": null,
@@ -5604,9 +5719,14 @@
       "bandcamp": "https://bandcamp.com/search?q=Material%20Things%20%2F%20Pike%20Rain%20%26%20Cymbals&item_type=a",
       "spotify": "https://open.spotify.com/search/Material%20Things%20%2F%20Pike%20Rain%20%26%20Cymbals",
       "soundcloud": "https://soundcloud.com/search?q=Material%20Things%20%2F%20Pike%20Rain%20%26%20Cymbals",
-      "youtube": "https://www.youtube.com/results?search_query=Material%20Things%20%2F%20Pike%20Rain%20%26%20Cymbals"
+      "youtube": "https://www.youtube.com/results?search_query=Material%20Things%20%2F%20Pike%20Rain%20%26%20Cymbals",
+      "apple": "https://music.apple.com/us/album/rain-cymbals/1853248336?uo=4"
     },
-    "embed": null,
+    "embed": {
+      "provider": "apple",
+      "src": "https://embed.music.apple.com/us/album/1853248336?theme=light",
+      "height": 450
+    },
     "musicVideoUrl": null,
     "status": "pending",
     "approvedAt": null,
@@ -5632,9 +5752,14 @@
       "bandcamp": "https://bandcamp.com/search?q=Kara-Lis%20Coverdale%20Changes%20In%20Air&item_type=a",
       "spotify": "https://open.spotify.com/search/Kara-Lis%20Coverdale%20Changes%20In%20Air",
       "soundcloud": "https://soundcloud.com/search?q=Kara-Lis%20Coverdale%20Changes%20In%20Air",
-      "youtube": "https://www.youtube.com/results?search_query=Kara-Lis%20Coverdale%20Changes%20In%20Air"
+      "youtube": "https://www.youtube.com/results?search_query=Kara-Lis%20Coverdale%20Changes%20In%20Air",
+      "apple": "https://music.apple.com/us/album/changes-in-air/1833241635?uo=4"
     },
-    "embed": null,
+    "embed": {
+      "provider": "apple",
+      "src": "https://embed.music.apple.com/us/album/1833241635?theme=light",
+      "height": 450
+    },
     "musicVideoUrl": null,
     "status": "pending",
     "approvedAt": null,
@@ -5693,9 +5818,14 @@
       "bandcamp": "https://bandcamp.com/search?q=Fabiano%20Do%20Nascimento%20Cavejaz&item_type=a",
       "spotify": "https://open.spotify.com/search/Fabiano%20Do%20Nascimento%20Cavejaz",
       "soundcloud": "https://soundcloud.com/search?q=Fabiano%20Do%20Nascimento%20Cavejaz",
-      "youtube": "https://www.youtube.com/results?search_query=Fabiano%20Do%20Nascimento%20Cavejaz"
+      "youtube": "https://www.youtube.com/results?search_query=Fabiano%20Do%20Nascimento%20Cavejaz",
+      "apple": "https://music.apple.com/us/album/cavejaz/1837566395?uo=4"
     },
-    "embed": null,
+    "embed": {
+      "provider": "apple",
+      "src": "https://embed.music.apple.com/us/album/1837566395?theme=light",
+      "height": 450
+    },
     "musicVideoUrl": null,
     "status": "pending",
     "approvedAt": null,
@@ -5721,9 +5851,14 @@
       "bandcamp": "https://bandcamp.com/search?q=Ken%20Ishii%20Jelly%20Tones&item_type=a",
       "spotify": "https://open.spotify.com/search/Ken%20Ishii%20Jelly%20Tones",
       "soundcloud": "https://soundcloud.com/search?q=Ken%20Ishii%20Jelly%20Tones",
-      "youtube": "https://www.youtube.com/results?search_query=Ken%20Ishii%20Jelly%20Tones"
+      "youtube": "https://www.youtube.com/results?search_query=Ken%20Ishii%20Jelly%20Tones",
+      "apple": "https://music.apple.com/us/album/jelly-tones/1114540793?uo=4"
     },
-    "embed": null,
+    "embed": {
+      "provider": "apple",
+      "src": "https://embed.music.apple.com/us/album/1114540793?theme=light",
+      "height": 450
+    },
     "musicVideoUrl": null,
     "status": "pending",
     "approvedAt": null,
@@ -5953,9 +6088,14 @@
       "bandcamp": "https://bandcamp.com/search?q=Low%20End%20Activist%20Airdrop%20II&item_type=a",
       "spotify": "https://open.spotify.com/search/Low%20End%20Activist%20Airdrop%20II",
       "soundcloud": "https://soundcloud.com/search?q=Low%20End%20Activist%20Airdrop%20II",
-      "youtube": "https://www.youtube.com/results?search_query=Low%20End%20Activist%20Airdrop%20II"
+      "youtube": "https://www.youtube.com/results?search_query=Low%20End%20Activist%20Airdrop%20II",
+      "apple": "https://music.apple.com/us/album/airdrop-ii/1846157583?uo=4"
     },
-    "embed": null,
+    "embed": {
+      "provider": "apple",
+      "src": "https://embed.music.apple.com/us/album/1846157583?theme=light",
+      "height": 450
+    },
     "musicVideoUrl": null,
     "status": "pending",
     "approvedAt": null,
@@ -5981,9 +6121,14 @@
       "bandcamp": "https://bandcamp.com/search?q=JJJJJerome%20Ellis%20Vesper%20Sparrow&item_type=a",
       "spotify": "https://open.spotify.com/search/JJJJJerome%20Ellis%20Vesper%20Sparrow",
       "soundcloud": "https://soundcloud.com/search?q=JJJJJerome%20Ellis%20Vesper%20Sparrow",
-      "youtube": "https://www.youtube.com/results?search_query=JJJJJerome%20Ellis%20Vesper%20Sparrow"
+      "youtube": "https://www.youtube.com/results?search_query=JJJJJerome%20Ellis%20Vesper%20Sparrow",
+      "apple": "https://music.apple.com/us/album/vesper-sparrow/1833560061?uo=4"
     },
-    "embed": null,
+    "embed": {
+      "provider": "apple",
+      "src": "https://embed.music.apple.com/us/album/1833560061?theme=light",
+      "height": 450
+    },
     "musicVideoUrl": null,
     "status": "pending",
     "approvedAt": null,
@@ -6009,9 +6154,14 @@
       "bandcamp": "https://bandcamp.com/search?q=CoLD%20SToRAGE%20Wipe'out''%20-%20The%20Zero%20Gravity%20Soundtrack%20Vol.%202&item_type=a",
       "spotify": "https://open.spotify.com/search/CoLD%20SToRAGE%20Wipe'out''%20-%20The%20Zero%20Gravity%20Soundtrack%20Vol.%202",
       "soundcloud": "https://soundcloud.com/search?q=CoLD%20SToRAGE%20Wipe'out''%20-%20The%20Zero%20Gravity%20Soundtrack%20Vol.%202",
-      "youtube": "https://www.youtube.com/results?search_query=CoLD%20SToRAGE%20Wipe'out''%20-%20The%20Zero%20Gravity%20Soundtrack%20Vol.%202"
+      "youtube": "https://www.youtube.com/results?search_query=CoLD%20SToRAGE%20Wipe'out''%20-%20The%20Zero%20Gravity%20Soundtrack%20Vol.%202",
+      "apple": "https://music.apple.com/us/album/wipe-out-the-zero-gravity-soundtrack-vol-2/1837160649?uo=4"
     },
-    "embed": null,
+    "embed": {
+      "provider": "apple",
+      "src": "https://embed.music.apple.com/us/album/1837160649?theme=light",
+      "height": 450
+    },
     "musicVideoUrl": null,
     "status": "pending",
     "approvedAt": null,
@@ -6065,9 +6215,14 @@
       "bandcamp": "https://bandcamp.com/search?q=Kali%20Malone%20%2B%20Drew%20McDowall%20Magnetism&item_type=a",
       "spotify": "https://open.spotify.com/search/Kali%20Malone%20%2B%20Drew%20McDowall%20Magnetism",
       "soundcloud": "https://soundcloud.com/search?q=Kali%20Malone%20%2B%20Drew%20McDowall%20Magnetism",
-      "youtube": "https://www.youtube.com/results?search_query=Kali%20Malone%20%2B%20Drew%20McDowall%20Magnetism"
+      "youtube": "https://www.youtube.com/results?search_query=Kali%20Malone%20%2B%20Drew%20McDowall%20Magnetism",
+      "apple": "https://music.apple.com/us/album/magnetism/1822852084?uo=4"
     },
-    "embed": null,
+    "embed": {
+      "provider": "apple",
+      "src": "https://embed.music.apple.com/us/album/1822852084?theme=light",
+      "height": 450
+    },
     "musicVideoUrl": null,
     "status": "pending",
     "approvedAt": null,
@@ -6160,9 +6315,14 @@
       "bandcamp": "https://bandcamp.com/search?q=84%20Days%2084%20Days&item_type=a",
       "spotify": "https://open.spotify.com/search/84%20Days%2084%20Days",
       "soundcloud": "https://soundcloud.com/search?q=84%20Days%2084%20Days",
-      "youtube": "https://www.youtube.com/results?search_query=84%20Days%2084%20Days"
+      "youtube": "https://www.youtube.com/results?search_query=84%20Days%2084%20Days",
+      "deezer": "https://www.deezer.com/album/803247701"
     },
-    "embed": null,
+    "embed": {
+      "provider": "deezer",
+      "src": "https://widget.deezer.com/widget/light/album/803247701",
+      "height": 300
+    },
     "musicVideoUrl": null,
     "status": "pending",
     "approvedAt": null,
@@ -6320,12 +6480,16 @@
       "electronic"
     ],
     "links": {
-      "bandcamp": "https://bandcamp.com/search?q=Yu%20Su%20Foundry%20%2F%20Bonita&item_type=a",
+      "bandcamp": "https://yusu.bandcamp.com/album/foundry-bonita",
       "spotify": "https://open.spotify.com/search/Yu%20Su%20Foundry%20%2F%20Bonita",
       "soundcloud": "https://soundcloud.com/search?q=Yu%20Su%20Foundry%20%2F%20Bonita",
       "youtube": "https://www.youtube.com/results?search_query=Yu%20Su%20Foundry%20%2F%20Bonita"
     },
-    "embed": null,
+    "embed": {
+      "provider": "bandcamp",
+      "src": "https://bandcamp.com/EmbeddedPlayer/album=2375300815/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=true/artwork=small/transparent=true/",
+      "height": 470
+    },
     "musicVideoUrl": null,
     "status": "pending",
     "approvedAt": null,
@@ -6385,9 +6549,14 @@
       "bandcamp": "https://bandcamp.com/search?q=Jensen%20Interceptor%20(2)%20Interception&item_type=a",
       "spotify": "https://open.spotify.com/search/Jensen%20Interceptor%20(2)%20Interception",
       "soundcloud": "https://soundcloud.com/search?q=Jensen%20Interceptor%20(2)%20Interception",
-      "youtube": "https://www.youtube.com/results?search_query=Jensen%20Interceptor%20(2)%20Interception"
+      "youtube": "https://www.youtube.com/results?search_query=Jensen%20Interceptor%20(2)%20Interception",
+      "apple": "https://music.apple.com/us/album/interception/1857965447?uo=4"
     },
-    "embed": null,
+    "embed": {
+      "provider": "apple",
+      "src": "https://embed.music.apple.com/us/album/1857965447?theme=light",
+      "height": 450
+    },
     "musicVideoUrl": null,
     "status": "pending",
     "approvedAt": null,
@@ -6441,9 +6610,14 @@
       "bandcamp": "https://bandcamp.com/search?q=%C2%B5-Ziq%201979&item_type=a",
       "spotify": "https://open.spotify.com/search/%C2%B5-Ziq%201979",
       "soundcloud": "https://soundcloud.com/search?q=%C2%B5-Ziq%201979",
-      "youtube": "https://www.youtube.com/results?search_query=%C2%B5-Ziq%201979"
+      "youtube": "https://www.youtube.com/results?search_query=%C2%B5-Ziq%201979",
+      "apple": "https://music.apple.com/us/album/1979/1832702288?uo=4"
     },
-    "embed": null,
+    "embed": {
+      "provider": "apple",
+      "src": "https://embed.music.apple.com/us/album/1832702288?theme=light",
+      "height": 450
+    },
     "musicVideoUrl": null,
     "status": "pending",
     "approvedAt": null,
@@ -6469,9 +6643,14 @@
       "bandcamp": "https://bandcamp.com/search?q=DJ%20Galen%20The%20Death%20Of%20Music&item_type=a",
       "spotify": "https://open.spotify.com/search/DJ%20Galen%20The%20Death%20Of%20Music",
       "soundcloud": "https://soundcloud.com/search?q=DJ%20Galen%20The%20Death%20Of%20Music",
-      "youtube": "https://www.youtube.com/results?search_query=DJ%20Galen%20The%20Death%20Of%20Music"
+      "youtube": "https://www.youtube.com/results?search_query=DJ%20Galen%20The%20Death%20Of%20Music",
+      "apple": "https://music.apple.com/us/album/the-death-of-music/1834457962?uo=4"
     },
-    "embed": null,
+    "embed": {
+      "provider": "apple",
+      "src": "https://embed.music.apple.com/us/album/1834457962?theme=light",
+      "height": 450
+    },
     "musicVideoUrl": null,
     "status": "pending",
     "approvedAt": null,
@@ -6798,9 +6977,14 @@
       "bandcamp": "https://bandcamp.com/search?q=Operator%20(17)%20The%20Spectral%20Citadel&item_type=a",
       "spotify": "https://open.spotify.com/search/Operator%20(17)%20The%20Spectral%20Citadel",
       "soundcloud": "https://soundcloud.com/search?q=Operator%20(17)%20The%20Spectral%20Citadel",
-      "youtube": "https://www.youtube.com/results?search_query=Operator%20(17)%20The%20Spectral%20Citadel"
+      "youtube": "https://www.youtube.com/results?search_query=Operator%20(17)%20The%20Spectral%20Citadel",
+      "apple": "https://music.apple.com/us/album/the-spectral-citadel-ep/1848321217?uo=4"
     },
-    "embed": null,
+    "embed": {
+      "provider": "apple",
+      "src": "https://embed.music.apple.com/us/album/1848321217?theme=light",
+      "height": 450
+    },
     "musicVideoUrl": null,
     "status": "pending",
     "approvedAt": null,
@@ -6860,9 +7044,14 @@
       "bandcamp": "https://bandcamp.com/search?q=El%20Piyi%20Mov.%20Amplio&item_type=a",
       "spotify": "https://open.spotify.com/search/El%20Piyi%20Mov.%20Amplio",
       "soundcloud": "https://soundcloud.com/search?q=El%20Piyi%20Mov.%20Amplio",
-      "youtube": "https://www.youtube.com/results?search_query=El%20Piyi%20Mov.%20Amplio"
+      "youtube": "https://www.youtube.com/results?search_query=El%20Piyi%20Mov.%20Amplio",
+      "apple": "https://music.apple.com/us/album/mov-amplio/1855863252?uo=4"
     },
-    "embed": null,
+    "embed": {
+      "provider": "apple",
+      "src": "https://embed.music.apple.com/us/album/1855863252?theme=light",
+      "height": 450
+    },
     "musicVideoUrl": null,
     "status": "pending",
     "approvedAt": null,
@@ -6888,9 +7077,14 @@
       "bandcamp": "https://bandcamp.com/search?q=Djrum%20Broken%20Glass%20Arch&item_type=a",
       "spotify": "https://open.spotify.com/search/Djrum%20Broken%20Glass%20Arch",
       "soundcloud": "https://soundcloud.com/search?q=Djrum%20Broken%20Glass%20Arch",
-      "youtube": "https://www.youtube.com/results?search_query=Djrum%20Broken%20Glass%20Arch"
+      "youtube": "https://www.youtube.com/results?search_query=Djrum%20Broken%20Glass%20Arch",
+      "apple": "https://music.apple.com/us/album/broken-glass-arch-single/1289640776?uo=4"
     },
-    "embed": null,
+    "embed": {
+      "provider": "apple",
+      "src": "https://embed.music.apple.com/us/album/1289640776?theme=light",
+      "height": 450
+    },
     "musicVideoUrl": null,
     "status": "pending",
     "approvedAt": null,
@@ -6916,9 +7110,14 @@
       "bandcamp": "https://bandcamp.com/search?q=Kult%20Masek%2C%20Petr%20Vrba%20Fumarola&item_type=a",
       "spotify": "https://open.spotify.com/search/Kult%20Masek%2C%20Petr%20Vrba%20Fumarola",
       "soundcloud": "https://soundcloud.com/search?q=Kult%20Masek%2C%20Petr%20Vrba%20Fumarola",
-      "youtube": "https://www.youtube.com/results?search_query=Kult%20Masek%2C%20Petr%20Vrba%20Fumarola"
+      "youtube": "https://www.youtube.com/results?search_query=Kult%20Masek%2C%20Petr%20Vrba%20Fumarola",
+      "apple": "https://music.apple.com/us/album/fumarola/1843671679?uo=4"
     },
-    "embed": null,
+    "embed": {
+      "provider": "apple",
+      "src": "https://embed.music.apple.com/us/album/1843671679?theme=light",
+      "height": 450
+    },
     "musicVideoUrl": null,
     "status": "pending",
     "approvedAt": null,
@@ -6978,9 +7177,14 @@
       "bandcamp": "https://bandcamp.com/search?q=Arkayla%20Don%E2%80%99t%20Look%20For%20Answers&item_type=a",
       "spotify": "https://open.spotify.com/search/Arkayla%20Don%E2%80%99t%20Look%20For%20Answers",
       "soundcloud": "https://soundcloud.com/search?q=Arkayla%20Don%E2%80%99t%20Look%20For%20Answers",
-      "youtube": "https://www.youtube.com/results?search_query=Arkayla%20Don%E2%80%99t%20Look%20For%20Answers"
+      "youtube": "https://www.youtube.com/results?search_query=Arkayla%20Don%E2%80%99t%20Look%20For%20Answers",
+      "deezer": "https://www.deezer.com/album/831649221"
     },
-    "embed": null,
+    "embed": {
+      "provider": "deezer",
+      "src": "https://widget.deezer.com/widget/light/album/831649221",
+      "height": 300
+    },
     "musicVideoUrl": null,
     "status": "pending",
     "approvedAt": null,
@@ -7170,9 +7374,14 @@
       "bandcamp": "https://bandcamp.com/search?q=%C2%B5-Ziq%20Houzz%2014&item_type=a",
       "spotify": "https://open.spotify.com/search/%C2%B5-Ziq%20Houzz%2014",
       "soundcloud": "https://soundcloud.com/search?q=%C2%B5-Ziq%20Houzz%2014",
-      "youtube": "https://www.youtube.com/results?search_query=%C2%B5-Ziq%20Houzz%2014"
+      "youtube": "https://www.youtube.com/results?search_query=%C2%B5-Ziq%20Houzz%2014",
+      "apple": "https://music.apple.com/us/album/houzz-14-single/1832701829?uo=4"
     },
-    "embed": null,
+    "embed": {
+      "provider": "apple",
+      "src": "https://embed.music.apple.com/us/album/1832701829?theme=light",
+      "height": 450
+    },
     "musicVideoUrl": null,
     "status": "pending",
     "approvedAt": null,
@@ -7232,9 +7441,14 @@
       "bandcamp": "https://bandcamp.com/search?q=Richard%20Hronsk%C3%BD%20Pohreb&item_type=a",
       "spotify": "https://open.spotify.com/search/Richard%20Hronsk%C3%BD%20Pohreb",
       "soundcloud": "https://soundcloud.com/search?q=Richard%20Hronsk%C3%BD%20Pohreb",
-      "youtube": "https://www.youtube.com/results?search_query=Richard%20Hronsk%C3%BD%20Pohreb"
+      "youtube": "https://www.youtube.com/results?search_query=Richard%20Hronsk%C3%BD%20Pohreb",
+      "apple": "https://music.apple.com/us/album/pohreb/1828752122?uo=4"
     },
-    "embed": null,
+    "embed": {
+      "provider": "apple",
+      "src": "https://embed.music.apple.com/us/album/1828752122?theme=light",
+      "height": 450
+    },
     "musicVideoUrl": null,
     "status": "pending",
     "approvedAt": null,
@@ -7598,9 +7812,14 @@
       "bandcamp": "https://bandcamp.com/search?q=Kara-Lis%20Coverdale%20A%20Series%20Of%20Actions%20In%20A%20Sphere%20Of%20Forever&item_type=a",
       "spotify": "https://open.spotify.com/search/Kara-Lis%20Coverdale%20A%20Series%20Of%20Actions%20In%20A%20Sphere%20Of%20Forever",
       "soundcloud": "https://soundcloud.com/search?q=Kara-Lis%20Coverdale%20A%20Series%20Of%20Actions%20In%20A%20Sphere%20Of%20Forever",
-      "youtube": "https://www.youtube.com/results?search_query=Kara-Lis%20Coverdale%20A%20Series%20Of%20Actions%20In%20A%20Sphere%20Of%20Forever"
+      "youtube": "https://www.youtube.com/results?search_query=Kara-Lis%20Coverdale%20A%20Series%20Of%20Actions%20In%20A%20Sphere%20Of%20Forever",
+      "apple": "https://music.apple.com/us/album/a-series-of-actions-in-a-sphere-of-forever/1816943293?uo=4"
     },
-    "embed": null,
+    "embed": {
+      "provider": "apple",
+      "src": "https://embed.music.apple.com/us/album/1816943293?theme=light",
+      "height": 450
+    },
     "musicVideoUrl": null,
     "status": "pending",
     "approvedAt": null,
@@ -7795,9 +8014,14 @@
       "bandcamp": "https://bandcamp.com/search?q=James%20K%20Friend&item_type=a",
       "spotify": "https://open.spotify.com/search/James%20K%20Friend",
       "soundcloud": "https://soundcloud.com/search?q=James%20K%20Friend",
-      "youtube": "https://www.youtube.com/results?search_query=James%20K%20Friend"
+      "youtube": "https://www.youtube.com/results?search_query=James%20K%20Friend",
+      "apple": "https://music.apple.com/us/album/friend/1807352076?uo=4"
     },
-    "embed": null,
+    "embed": {
+      "provider": "apple",
+      "src": "https://embed.music.apple.com/us/album/1807352076?theme=light",
+      "height": 450
+    },
     "musicVideoUrl": null,
     "status": "pending",
     "approvedAt": null,
@@ -7823,9 +8047,14 @@
       "bandcamp": "https://bandcamp.com/search?q=Akasha%20System%20Heliocene&item_type=a",
       "spotify": "https://open.spotify.com/search/Akasha%20System%20Heliocene",
       "soundcloud": "https://soundcloud.com/search?q=Akasha%20System%20Heliocene",
-      "youtube": "https://www.youtube.com/results?search_query=Akasha%20System%20Heliocene"
+      "youtube": "https://www.youtube.com/results?search_query=Akasha%20System%20Heliocene",
+      "apple": "https://music.apple.com/us/album/heliocene/1823633142?uo=4"
     },
-    "embed": null,
+    "embed": {
+      "provider": "apple",
+      "src": "https://embed.music.apple.com/us/album/1823633142?theme=light",
+      "height": 450
+    },
     "musicVideoUrl": null,
     "status": "pending",
     "approvedAt": null,
@@ -7885,9 +8114,14 @@
       "bandcamp": "https://bandcamp.com/search?q=Model%20Martel%20A%20Thousand%20Couple%20Times&item_type=a",
       "spotify": "https://open.spotify.com/search/Model%20Martel%20A%20Thousand%20Couple%20Times",
       "soundcloud": "https://soundcloud.com/search?q=Model%20Martel%20A%20Thousand%20Couple%20Times",
-      "youtube": "https://www.youtube.com/results?search_query=Model%20Martel%20A%20Thousand%20Couple%20Times"
+      "youtube": "https://www.youtube.com/results?search_query=Model%20Martel%20A%20Thousand%20Couple%20Times",
+      "apple": "https://music.apple.com/us/album/a-thousand-couple-times/1832351280?uo=4"
     },
-    "embed": null,
+    "embed": {
+      "provider": "apple",
+      "src": "https://embed.music.apple.com/us/album/1832351280?theme=light",
+      "height": 450
+    },
     "musicVideoUrl": null,
     "status": "pending",
     "approvedAt": null,
@@ -8013,9 +8247,14 @@
       "bandcamp": "https://bandcamp.com/search?q=Ami%20Taf%20Ra%20The%20Prophet%20And%20The%20Madman&item_type=a",
       "spotify": "https://open.spotify.com/search/Ami%20Taf%20Ra%20The%20Prophet%20And%20The%20Madman",
       "soundcloud": "https://soundcloud.com/search?q=Ami%20Taf%20Ra%20The%20Prophet%20And%20The%20Madman",
-      "youtube": "https://www.youtube.com/results?search_query=Ami%20Taf%20Ra%20The%20Prophet%20And%20The%20Madman"
+      "youtube": "https://www.youtube.com/results?search_query=Ami%20Taf%20Ra%20The%20Prophet%20And%20The%20Madman",
+      "apple": "https://music.apple.com/us/album/the-prophet-and-the-madman/1816167839?uo=4"
     },
-    "embed": null,
+    "embed": {
+      "provider": "apple",
+      "src": "https://embed.music.apple.com/us/album/1816167839?theme=light",
+      "height": 450
+    },
     "musicVideoUrl": null,
     "status": "pending",
     "approvedAt": null,
@@ -8041,9 +8280,14 @@
       "bandcamp": "https://bandcamp.com/search?q=Luke%20Schneider%20For%20Dancing%20In%20Quiet%20Light&item_type=a",
       "spotify": "https://open.spotify.com/search/Luke%20Schneider%20For%20Dancing%20In%20Quiet%20Light",
       "soundcloud": "https://soundcloud.com/search?q=Luke%20Schneider%20For%20Dancing%20In%20Quiet%20Light",
-      "youtube": "https://www.youtube.com/results?search_query=Luke%20Schneider%20For%20Dancing%20In%20Quiet%20Light"
+      "youtube": "https://www.youtube.com/results?search_query=Luke%20Schneider%20For%20Dancing%20In%20Quiet%20Light",
+      "apple": "https://music.apple.com/us/album/for-dancing-in-quiet-light/1814159463?uo=4"
     },
-    "embed": null,
+    "embed": {
+      "provider": "apple",
+      "src": "https://embed.music.apple.com/us/album/1814159463?theme=light",
+      "height": 450
+    },
     "musicVideoUrl": null,
     "status": "pending",
     "approvedAt": null,
@@ -8069,9 +8313,14 @@
       "bandcamp": "https://bandcamp.com/search?q=Purelink%20Signs&item_type=a",
       "spotify": "https://open.spotify.com/search/Purelink%20Signs",
       "soundcloud": "https://soundcloud.com/search?q=Purelink%20Signs",
-      "youtube": "https://www.youtube.com/results?search_query=Purelink%20Signs"
+      "youtube": "https://www.youtube.com/results?search_query=Purelink%20Signs",
+      "apple": "https://music.apple.com/us/album/signs/1702765808?uo=4"
     },
-    "embed": null,
+    "embed": {
+      "provider": "apple",
+      "src": "https://embed.music.apple.com/us/album/1702765808?theme=light",
+      "height": 450
+    },
     "musicVideoUrl": null,
     "status": "pending",
     "approvedAt": null,
@@ -8097,9 +8346,14 @@
       "bandcamp": "https://bandcamp.com/search?q=Valentina%20Magaletti%20%26%20YPY%20Kansai%20Bruises&item_type=a",
       "spotify": "https://open.spotify.com/search/Valentina%20Magaletti%20%26%20YPY%20Kansai%20Bruises",
       "soundcloud": "https://soundcloud.com/search?q=Valentina%20Magaletti%20%26%20YPY%20Kansai%20Bruises",
-      "youtube": "https://www.youtube.com/results?search_query=Valentina%20Magaletti%20%26%20YPY%20Kansai%20Bruises"
+      "youtube": "https://www.youtube.com/results?search_query=Valentina%20Magaletti%20%26%20YPY%20Kansai%20Bruises",
+      "apple": "https://music.apple.com/us/album/kansai-bruises/1812711733?uo=4"
     },
-    "embed": null,
+    "embed": {
+      "provider": "apple",
+      "src": "https://embed.music.apple.com/us/album/1812711733?theme=light",
+      "height": 450
+    },
     "musicVideoUrl": null,
     "status": "pending",
     "approvedAt": null,
@@ -8329,9 +8583,14 @@
       "bandcamp": "https://bandcamp.com/search?q=Angel%20Hunt%20Globelight&item_type=a",
       "spotify": "https://open.spotify.com/search/Angel%20Hunt%20Globelight",
       "soundcloud": "https://soundcloud.com/search?q=Angel%20Hunt%20Globelight",
-      "youtube": "https://www.youtube.com/results?search_query=Angel%20Hunt%20Globelight"
+      "youtube": "https://www.youtube.com/results?search_query=Angel%20Hunt%20Globelight",
+      "apple": "https://music.apple.com/us/album/globelight-single/1816994360?uo=4"
     },
-    "embed": null,
+    "embed": {
+      "provider": "apple",
+      "src": "https://embed.music.apple.com/us/album/1816994360?theme=light",
+      "height": 450
+    },
     "musicVideoUrl": null,
     "status": "pending",
     "approvedAt": null,
@@ -8424,9 +8683,14 @@
       "bandcamp": "https://bandcamp.com/search?q=Ren%C3%A9%20Najera%20Painted%20Life&item_type=a",
       "spotify": "https://open.spotify.com/search/Ren%C3%A9%20Najera%20Painted%20Life",
       "soundcloud": "https://soundcloud.com/search?q=Ren%C3%A9%20Najera%20Painted%20Life",
-      "youtube": "https://www.youtube.com/results?search_query=Ren%C3%A9%20Najera%20Painted%20Life"
+      "youtube": "https://www.youtube.com/results?search_query=Ren%C3%A9%20Najera%20Painted%20Life",
+      "apple": "https://music.apple.com/us/album/painted-life/1817707626?uo=4"
     },
-    "embed": null,
+    "embed": {
+      "provider": "apple",
+      "src": "https://embed.music.apple.com/us/album/1817707626?theme=light",
+      "height": 450
+    },
     "musicVideoUrl": null,
     "status": "pending",
     "approvedAt": null,
@@ -8519,9 +8783,14 @@
       "bandcamp": "https://bandcamp.com/search?q=Joey%20Beltram%20Classics&item_type=a",
       "spotify": "https://open.spotify.com/search/Joey%20Beltram%20Classics",
       "soundcloud": "https://soundcloud.com/search?q=Joey%20Beltram%20Classics",
-      "youtube": "https://www.youtube.com/results?search_query=Joey%20Beltram%20Classics"
+      "youtube": "https://www.youtube.com/results?search_query=Joey%20Beltram%20Classics",
+      "apple": "https://music.apple.com/us/album/classics/1105040878?uo=4"
     },
-    "embed": null,
+    "embed": {
+      "provider": "apple",
+      "src": "https://embed.music.apple.com/us/album/1105040878?theme=light",
+      "height": 450
+    },
     "musicVideoUrl": null,
     "status": "pending",
     "approvedAt": null,
@@ -8615,9 +8884,14 @@
       "bandcamp": "https://bandcamp.com/search?q=mu%20tate%2C%20Nexcyia%2C%20Exzald%20S%20Labe%CC%80ge&item_type=a",
       "spotify": "https://open.spotify.com/search/mu%20tate%2C%20Nexcyia%2C%20Exzald%20S%20Labe%CC%80ge",
       "soundcloud": "https://soundcloud.com/search?q=mu%20tate%2C%20Nexcyia%2C%20Exzald%20S%20Labe%CC%80ge",
-      "youtube": "https://www.youtube.com/results?search_query=mu%20tate%2C%20Nexcyia%2C%20Exzald%20S%20Labe%CC%80ge"
+      "youtube": "https://www.youtube.com/results?search_query=mu%20tate%2C%20Nexcyia%2C%20Exzald%20S%20Labe%CC%80ge",
+      "apple": "https://music.apple.com/us/album/labe-ge/1826869540?uo=4"
     },
-    "embed": null,
+    "embed": {
+      "provider": "apple",
+      "src": "https://embed.music.apple.com/us/album/1826869540?theme=light",
+      "height": 450
+    },
     "musicVideoUrl": null,
     "status": "pending",
     "approvedAt": null,
@@ -8643,9 +8917,14 @@
       "bandcamp": "https://bandcamp.com/search?q=Raphael%20Rogi%C5%84ski%20%26%20Ru%C5%BEi%C4%8Dnjak%20Tajni%20Bura&item_type=a",
       "spotify": "https://open.spotify.com/search/Raphael%20Rogi%C5%84ski%20%26%20Ru%C5%BEi%C4%8Dnjak%20Tajni%20Bura",
       "soundcloud": "https://soundcloud.com/search?q=Raphael%20Rogi%C5%84ski%20%26%20Ru%C5%BEi%C4%8Dnjak%20Tajni%20Bura",
-      "youtube": "https://www.youtube.com/results?search_query=Raphael%20Rogi%C5%84ski%20%26%20Ru%C5%BEi%C4%8Dnjak%20Tajni%20Bura"
+      "youtube": "https://www.youtube.com/results?search_query=Raphael%20Rogi%C5%84ski%20%26%20Ru%C5%BEi%C4%8Dnjak%20Tajni%20Bura",
+      "apple": "https://music.apple.com/us/album/bura-feat-ru%C5%BEi%C4%8Dnjak-tajni/1828021049?uo=4"
     },
-    "embed": null,
+    "embed": {
+      "provider": "apple",
+      "src": "https://embed.music.apple.com/us/album/1828021049?theme=light",
+      "height": 450
+    },
     "musicVideoUrl": null,
     "status": "pending",
     "approvedAt": null,
@@ -8739,9 +9018,14 @@
       "bandcamp": "https://bandcamp.com/search?q=xtclvr%20Blessed%20Loops&item_type=a",
       "spotify": "https://open.spotify.com/search/xtclvr%20Blessed%20Loops",
       "soundcloud": "https://soundcloud.com/search?q=xtclvr%20Blessed%20Loops",
-      "youtube": "https://www.youtube.com/results?search_query=xtclvr%20Blessed%20Loops"
+      "youtube": "https://www.youtube.com/results?search_query=xtclvr%20Blessed%20Loops",
+      "apple": "https://music.apple.com/us/album/blessed-loops/1829579771?uo=4"
     },
-    "embed": null,
+    "embed": {
+      "provider": "apple",
+      "src": "https://embed.music.apple.com/us/album/1829579771?theme=light",
+      "height": 450
+    },
     "musicVideoUrl": null,
     "status": "pending",
     "approvedAt": null,
@@ -8767,9 +9051,14 @@
       "bandcamp": "https://bandcamp.com/search?q=Dadub%20How%20To%20Shoulder%20The%20Radiance%20Of%20Revelations&item_type=a",
       "spotify": "https://open.spotify.com/search/Dadub%20How%20To%20Shoulder%20The%20Radiance%20Of%20Revelations",
       "soundcloud": "https://soundcloud.com/search?q=Dadub%20How%20To%20Shoulder%20The%20Radiance%20Of%20Revelations",
-      "youtube": "https://www.youtube.com/results?search_query=Dadub%20How%20To%20Shoulder%20The%20Radiance%20Of%20Revelations"
+      "youtube": "https://www.youtube.com/results?search_query=Dadub%20How%20To%20Shoulder%20The%20Radiance%20Of%20Revelations",
+      "apple": "https://music.apple.com/us/album/how-to-shoulder-the-radiance-of-revelations/1798460924?uo=4"
     },
-    "embed": null,
+    "embed": {
+      "provider": "apple",
+      "src": "https://embed.music.apple.com/us/album/1798460924?theme=light",
+      "height": 450
+    },
     "musicVideoUrl": null,
     "status": "pending",
     "approvedAt": null,
@@ -8795,9 +9084,14 @@
       "bandcamp": "https://bandcamp.com/search?q=Akira%20Umeda%20%26%20Metal%20Preyers%20Clube%20Da%20Mariposa%20M%C3%B3rbida&item_type=a",
       "spotify": "https://open.spotify.com/search/Akira%20Umeda%20%26%20Metal%20Preyers%20Clube%20Da%20Mariposa%20M%C3%B3rbida",
       "soundcloud": "https://soundcloud.com/search?q=Akira%20Umeda%20%26%20Metal%20Preyers%20Clube%20Da%20Mariposa%20M%C3%B3rbida",
-      "youtube": "https://www.youtube.com/results?search_query=Akira%20Umeda%20%26%20Metal%20Preyers%20Clube%20Da%20Mariposa%20M%C3%B3rbida"
+      "youtube": "https://www.youtube.com/results?search_query=Akira%20Umeda%20%26%20Metal%20Preyers%20Clube%20Da%20Mariposa%20M%C3%B3rbida",
+      "apple": "https://music.apple.com/us/album/clube-da-mariposa-mo-rbida/1819766877?uo=4"
     },
-    "embed": null,
+    "embed": {
+      "provider": "apple",
+      "src": "https://embed.music.apple.com/us/album/1819766877?theme=light",
+      "height": 450
+    },
     "musicVideoUrl": null,
     "status": "pending",
     "approvedAt": null,
@@ -8890,9 +9184,14 @@
       "bandcamp": "https://bandcamp.com/search?q=Carla%20Boregas%20%26%20Anelena%20Toku%20%2F%20Fronte%20Violeta%20Fronte%20Violeta&item_type=a",
       "spotify": "https://open.spotify.com/search/Carla%20Boregas%20%26%20Anelena%20Toku%20%2F%20Fronte%20Violeta%20Fronte%20Violeta",
       "soundcloud": "https://soundcloud.com/search?q=Carla%20Boregas%20%26%20Anelena%20Toku%20%2F%20Fronte%20Violeta%20Fronte%20Violeta",
-      "youtube": "https://www.youtube.com/results?search_query=Carla%20Boregas%20%26%20Anelena%20Toku%20%2F%20Fronte%20Violeta%20Fronte%20Violeta"
+      "youtube": "https://www.youtube.com/results?search_query=Carla%20Boregas%20%26%20Anelena%20Toku%20%2F%20Fronte%20Violeta%20Fronte%20Violeta",
+      "apple": "https://music.apple.com/us/album/fronte-violeta/1802087973?uo=4"
     },
-    "embed": null,
+    "embed": {
+      "provider": "apple",
+      "src": "https://embed.music.apple.com/us/album/1802087973?theme=light",
+      "height": 450
+    },
     "musicVideoUrl": null,
     "status": "pending",
     "approvedAt": null,
@@ -8918,9 +9217,14 @@
       "bandcamp": "https://bandcamp.com/search?q=Various%20Latency%20alla%20Villa%20Medici%20III&item_type=a",
       "spotify": "https://open.spotify.com/search/Various%20Latency%20alla%20Villa%20Medici%20III",
       "soundcloud": "https://soundcloud.com/search?q=Various%20Latency%20alla%20Villa%20Medici%20III",
-      "youtube": "https://www.youtube.com/results?search_query=Various%20Latency%20alla%20Villa%20Medici%20III"
+      "youtube": "https://www.youtube.com/results?search_query=Various%20Latency%20alla%20Villa%20Medici%20III",
+      "apple": "https://music.apple.com/us/album/latency-alla-villa-medici-ii/1820155618?uo=4"
     },
-    "embed": null,
+    "embed": {
+      "provider": "apple",
+      "src": "https://embed.music.apple.com/us/album/1820155618?theme=light",
+      "height": 450
+    },
     "musicVideoUrl": null,
     "status": "pending",
     "approvedAt": null,
@@ -8980,9 +9284,14 @@
       "bandcamp": "https://bandcamp.com/search?q=Nil%C3%BCfer%20Yanya%20Dancing%20Shoes&item_type=a",
       "spotify": "https://open.spotify.com/search/Nil%C3%BCfer%20Yanya%20Dancing%20Shoes",
       "soundcloud": "https://soundcloud.com/search?q=Nil%C3%BCfer%20Yanya%20Dancing%20Shoes",
-      "youtube": "https://www.youtube.com/results?search_query=Nil%C3%BCfer%20Yanya%20Dancing%20Shoes"
+      "youtube": "https://www.youtube.com/results?search_query=Nil%C3%BCfer%20Yanya%20Dancing%20Shoes",
+      "apple": "https://music.apple.com/us/album/dancing-shoes-ep/1807973507?uo=4"
     },
-    "embed": null,
+    "embed": {
+      "provider": "apple",
+      "src": "https://embed.music.apple.com/us/album/1807973507?theme=light",
+      "height": 450
+    },
     "musicVideoUrl": null,
     "status": "pending",
     "approvedAt": null,
@@ -9008,9 +9317,14 @@
       "bandcamp": "https://bandcamp.com/search?q=Coil%20Black%20Antlers&item_type=a",
       "spotify": "https://open.spotify.com/search/Coil%20Black%20Antlers",
       "soundcloud": "https://soundcloud.com/search?q=Coil%20Black%20Antlers",
-      "youtube": "https://www.youtube.com/results?search_query=Coil%20Black%20Antlers"
+      "youtube": "https://www.youtube.com/results?search_query=Coil%20Black%20Antlers",
+      "apple": "https://music.apple.com/us/album/black-antlers/1802022541?uo=4"
     },
-    "embed": null,
+    "embed": {
+      "provider": "apple",
+      "src": "https://embed.music.apple.com/us/album/1802022541?theme=light",
+      "height": 450
+    },
     "musicVideoUrl": null,
     "status": "pending",
     "approvedAt": null,
@@ -9069,9 +9383,14 @@
       "bandcamp": "https://bandcamp.com/search?q=Alien%20D%20For%20The%20Early%20Hours%20Of%20A%20World%20In%20Bloom&item_type=a",
       "spotify": "https://open.spotify.com/search/Alien%20D%20For%20The%20Early%20Hours%20Of%20A%20World%20In%20Bloom",
       "soundcloud": "https://soundcloud.com/search?q=Alien%20D%20For%20The%20Early%20Hours%20Of%20A%20World%20In%20Bloom",
-      "youtube": "https://www.youtube.com/results?search_query=Alien%20D%20For%20The%20Early%20Hours%20Of%20A%20World%20In%20Bloom"
+      "youtube": "https://www.youtube.com/results?search_query=Alien%20D%20For%20The%20Early%20Hours%20Of%20A%20World%20In%20Bloom",
+      "apple": "https://music.apple.com/us/album/for-the-early-hours-of-a-world-in-bloom/1812848463?uo=4"
     },
-    "embed": null,
+    "embed": {
+      "provider": "apple",
+      "src": "https://embed.music.apple.com/us/album/1812848463?theme=light",
+      "height": 450
+    },
     "musicVideoUrl": null,
     "status": "pending",
     "approvedAt": null,
@@ -9131,9 +9450,14 @@
       "bandcamp": "https://bandcamp.com/search?q=Mammo%20(2)%20General%20Patterns&item_type=a",
       "spotify": "https://open.spotify.com/search/Mammo%20(2)%20General%20Patterns",
       "soundcloud": "https://soundcloud.com/search?q=Mammo%20(2)%20General%20Patterns",
-      "youtube": "https://www.youtube.com/results?search_query=Mammo%20(2)%20General%20Patterns"
+      "youtube": "https://www.youtube.com/results?search_query=Mammo%20(2)%20General%20Patterns",
+      "apple": "https://music.apple.com/us/album/general-patterns/1817150629?uo=4"
     },
-    "embed": null,
+    "embed": {
+      "provider": "apple",
+      "src": "https://embed.music.apple.com/us/album/1817150629?theme=light",
+      "height": 450
+    },
     "musicVideoUrl": null,
     "status": "pending",
     "approvedAt": null,
@@ -9193,9 +9517,14 @@
       "bandcamp": "https://bandcamp.com/search?q=Car%20Culture%20Nothingburger%20EP&item_type=a",
       "spotify": "https://open.spotify.com/search/Car%20Culture%20Nothingburger%20EP",
       "soundcloud": "https://soundcloud.com/search?q=Car%20Culture%20Nothingburger%20EP",
-      "youtube": "https://www.youtube.com/results?search_query=Car%20Culture%20Nothingburger%20EP"
+      "youtube": "https://www.youtube.com/results?search_query=Car%20Culture%20Nothingburger%20EP",
+      "apple": "https://music.apple.com/us/album/nothingburger-ep-ep/1816053267?uo=4"
     },
-    "embed": null,
+    "embed": {
+      "provider": "apple",
+      "src": "https://embed.music.apple.com/us/album/1816053267?theme=light",
+      "height": 450
+    },
     "musicVideoUrl": null,
     "status": "pending",
     "approvedAt": null,
@@ -9322,9 +9651,14 @@
       "bandcamp": "https://bandcamp.com/search?q=Casey%20MQ%20The%20Heirloom%20(Original%20Motion%20Picture%20Soundtrack)&item_type=a",
       "spotify": "https://open.spotify.com/search/Casey%20MQ%20The%20Heirloom%20(Original%20Motion%20Picture%20Soundtrack)",
       "soundcloud": "https://soundcloud.com/search?q=Casey%20MQ%20The%20Heirloom%20(Original%20Motion%20Picture%20Soundtrack)",
-      "youtube": "https://www.youtube.com/results?search_query=Casey%20MQ%20The%20Heirloom%20(Original%20Motion%20Picture%20Soundtrack)"
+      "youtube": "https://www.youtube.com/results?search_query=Casey%20MQ%20The%20Heirloom%20(Original%20Motion%20Picture%20Soundtrack)",
+      "apple": "https://music.apple.com/us/album/the-heirloom-original-motion-picture-soundtrack/1815989025?uo=4"
     },
-    "embed": null,
+    "embed": {
+      "provider": "apple",
+      "src": "https://embed.music.apple.com/us/album/1815989025?theme=light",
+      "height": 450
+    },
     "musicVideoUrl": null,
     "status": "pending",
     "approvedAt": null,
@@ -9384,9 +9718,14 @@
       "bandcamp": "https://bandcamp.com/search?q=Feloneezy%20Unlimited%20Peace&item_type=a",
       "spotify": "https://open.spotify.com/search/Feloneezy%20Unlimited%20Peace",
       "soundcloud": "https://soundcloud.com/search?q=Feloneezy%20Unlimited%20Peace",
-      "youtube": "https://www.youtube.com/results?search_query=Feloneezy%20Unlimited%20Peace"
+      "youtube": "https://www.youtube.com/results?search_query=Feloneezy%20Unlimited%20Peace",
+      "apple": "https://music.apple.com/us/album/unlimited-peace-ep/1818603591?uo=4"
     },
-    "embed": null,
+    "embed": {
+      "provider": "apple",
+      "src": "https://embed.music.apple.com/us/album/1818603591?theme=light",
+      "height": 450
+    },
     "musicVideoUrl": null,
     "status": "pending",
     "approvedAt": null,
@@ -9412,9 +9751,14 @@
       "bandcamp": "https://bandcamp.com/search?q=secret%20getii%20Xochicuicatl&item_type=a",
       "spotify": "https://open.spotify.com/search/secret%20getii%20Xochicuicatl",
       "soundcloud": "https://soundcloud.com/search?q=secret%20getii%20Xochicuicatl",
-      "youtube": "https://www.youtube.com/results?search_query=secret%20getii%20Xochicuicatl"
+      "youtube": "https://www.youtube.com/results?search_query=secret%20getii%20Xochicuicatl",
+      "apple": "https://music.apple.com/us/album/xochicuicatl/1818602472?uo=4"
     },
-    "embed": null,
+    "embed": {
+      "provider": "apple",
+      "src": "https://embed.music.apple.com/us/album/1818602472?theme=light",
+      "height": 450
+    },
     "musicVideoUrl": null,
     "status": "pending",
     "approvedAt": null,
@@ -9542,9 +9886,14 @@
       "bandcamp": "https://bandcamp.com/search?q=Cortex%20Of%20Light%20Illuminotecnica&item_type=a",
       "spotify": "https://open.spotify.com/search/Cortex%20Of%20Light%20Illuminotecnica",
       "soundcloud": "https://soundcloud.com/search?q=Cortex%20Of%20Light%20Illuminotecnica",
-      "youtube": "https://www.youtube.com/results?search_query=Cortex%20Of%20Light%20Illuminotecnica"
+      "youtube": "https://www.youtube.com/results?search_query=Cortex%20Of%20Light%20Illuminotecnica",
+      "apple": "https://music.apple.com/us/album/illuminotecnica/1829404218?uo=4"
     },
-    "embed": null,
+    "embed": {
+      "provider": "apple",
+      "src": "https://embed.music.apple.com/us/album/1829404218?theme=light",
+      "height": 450
+    },
     "musicVideoUrl": null,
     "status": "pending",
     "approvedAt": null,
@@ -9570,9 +9919,14 @@
       "bandcamp": "https://bandcamp.com/search?q=Qasim%20Naqvi%20Endling&item_type=a",
       "spotify": "https://open.spotify.com/search/Qasim%20Naqvi%20Endling",
       "soundcloud": "https://soundcloud.com/search?q=Qasim%20Naqvi%20Endling",
-      "youtube": "https://www.youtube.com/results?search_query=Qasim%20Naqvi%20Endling"
+      "youtube": "https://www.youtube.com/results?search_query=Qasim%20Naqvi%20Endling",
+      "apple": "https://music.apple.com/us/album/endling/1797595123?uo=4"
     },
-    "embed": null,
+    "embed": {
+      "provider": "apple",
+      "src": "https://embed.music.apple.com/us/album/1797595123?theme=light",
+      "height": 450
+    },
     "musicVideoUrl": null,
     "status": "pending",
     "approvedAt": null,
@@ -9663,12 +10017,16 @@
       "electronic"
     ],
     "links": {
-      "bandcamp": "https://bandcamp.com/search?q=Commodo%20x%20Gantz%20(2)%2089!%20Gloom&item_type=a",
+      "bandcamp": "https://iliantape.bandcamp.com/album/itx038-89-gloom",
       "spotify": "https://open.spotify.com/search/Commodo%20x%20Gantz%20(2)%2089!%20Gloom",
       "soundcloud": "https://soundcloud.com/search?q=Commodo%20x%20Gantz%20(2)%2089!%20Gloom",
       "youtube": "https://www.youtube.com/results?search_query=Commodo%20x%20Gantz%20(2)%2089!%20Gloom"
     },
-    "embed": null,
+    "embed": {
+      "provider": "bandcamp",
+      "src": "https://bandcamp.com/EmbeddedPlayer/album=3530204444/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=true/artwork=small/transparent=true/",
+      "height": 470
+    },
     "musicVideoUrl": null,
     "status": "pending",
     "approvedAt": null,
@@ -9694,9 +10052,14 @@
       "bandcamp": "https://bandcamp.com/search?q=Priori%20(2)%20This%20but%20More%20(Loidis%20Reconfiguration)&item_type=a",
       "spotify": "https://open.spotify.com/search/Priori%20(2)%20This%20but%20More%20(Loidis%20Reconfiguration)",
       "soundcloud": "https://soundcloud.com/search?q=Priori%20(2)%20This%20but%20More%20(Loidis%20Reconfiguration)",
-      "youtube": "https://www.youtube.com/results?search_query=Priori%20(2)%20This%20but%20More%20(Loidis%20Reconfiguration)"
+      "youtube": "https://www.youtube.com/results?search_query=Priori%20(2)%20This%20but%20More%20(Loidis%20Reconfiguration)",
+      "apple": "https://music.apple.com/us/album/this-but-more-loidis-reconfiguration-single/1812122741?uo=4"
     },
-    "embed": null,
+    "embed": {
+      "provider": "apple",
+      "src": "https://embed.music.apple.com/us/album/1812122741?theme=light",
+      "height": 450
+    },
     "musicVideoUrl": null,
     "status": "pending",
     "approvedAt": null,
@@ -9722,9 +10085,14 @@
       "bandcamp": "https://bandcamp.com/search?q=Burial%20Burial&item_type=a",
       "spotify": "https://open.spotify.com/search/Burial%20Burial",
       "soundcloud": "https://soundcloud.com/search?q=Burial%20Burial",
-      "youtube": "https://www.youtube.com/results?search_query=Burial%20Burial"
+      "youtube": "https://www.youtube.com/results?search_query=Burial%20Burial",
+      "apple": "https://music.apple.com/us/album/burial/1674002850?uo=4"
     },
-    "embed": null,
+    "embed": {
+      "provider": "apple",
+      "src": "https://embed.music.apple.com/us/album/1674002850?theme=light",
+      "height": 450
+    },
     "musicVideoUrl": null,
     "status": "pending",
     "approvedAt": null,
@@ -9750,9 +10118,14 @@
       "bandcamp": "https://bandcamp.com/search?q=EIII%20Refractions&item_type=a",
       "spotify": "https://open.spotify.com/search/EIII%20Refractions",
       "soundcloud": "https://soundcloud.com/search?q=EIII%20Refractions",
-      "youtube": "https://www.youtube.com/results?search_query=EIII%20Refractions"
+      "youtube": "https://www.youtube.com/results?search_query=EIII%20Refractions",
+      "apple": "https://music.apple.com/us/album/refractions/1891342675?uo=4"
     },
-    "embed": null,
+    "embed": {
+      "provider": "apple",
+      "src": "https://embed.music.apple.com/us/album/1891342675?theme=light",
+      "height": 450
+    },
     "musicVideoUrl": null,
     "status": "pending",
     "approvedAt": null,
@@ -9879,9 +10252,14 @@
       "bandcamp": "https://bandcamp.com/search?q=Wrecked%20Lightship%20Drained%20Strands&item_type=a",
       "spotify": "https://open.spotify.com/search/Wrecked%20Lightship%20Drained%20Strands",
       "soundcloud": "https://soundcloud.com/search?q=Wrecked%20Lightship%20Drained%20Strands",
-      "youtube": "https://www.youtube.com/results?search_query=Wrecked%20Lightship%20Drained%20Strands"
+      "youtube": "https://www.youtube.com/results?search_query=Wrecked%20Lightship%20Drained%20Strands",
+      "apple": "https://music.apple.com/us/album/drained-strands/1800784937?uo=4"
     },
-    "embed": null,
+    "embed": {
+      "provider": "apple",
+      "src": "https://embed.music.apple.com/us/album/1800784937?theme=light",
+      "height": 450
+    },
     "musicVideoUrl": null,
     "status": "pending",
     "approvedAt": null,
@@ -9941,9 +10319,14 @@
       "bandcamp": "https://bandcamp.com/search?q=Jenny%20Hval%20Iris%20Silver%20Mist&item_type=a",
       "spotify": "https://open.spotify.com/search/Jenny%20Hval%20Iris%20Silver%20Mist",
       "soundcloud": "https://soundcloud.com/search?q=Jenny%20Hval%20Iris%20Silver%20Mist",
-      "youtube": "https://www.youtube.com/results?search_query=Jenny%20Hval%20Iris%20Silver%20Mist"
+      "youtube": "https://www.youtube.com/results?search_query=Jenny%20Hval%20Iris%20Silver%20Mist",
+      "apple": "https://music.apple.com/us/album/iris-silver-mist/1794783301?uo=4"
     },
-    "embed": null,
+    "embed": {
+      "provider": "apple",
+      "src": "https://embed.music.apple.com/us/album/1794783301?theme=light",
+      "height": 450
+    },
     "musicVideoUrl": null,
     "status": "pending",
     "approvedAt": null,
@@ -9969,9 +10352,14 @@
       "bandcamp": "https://bandcamp.com/search?q=Lucy%20Railton%20Blue%20Veil&item_type=a",
       "spotify": "https://open.spotify.com/search/Lucy%20Railton%20Blue%20Veil",
       "soundcloud": "https://soundcloud.com/search?q=Lucy%20Railton%20Blue%20Veil",
-      "youtube": "https://www.youtube.com/results?search_query=Lucy%20Railton%20Blue%20Veil"
+      "youtube": "https://www.youtube.com/results?search_query=Lucy%20Railton%20Blue%20Veil",
+      "apple": "https://music.apple.com/us/album/blue-veil/1790524544?uo=4"
     },
-    "embed": null,
+    "embed": {
+      "provider": "apple",
+      "src": "https://embed.music.apple.com/us/album/1790524544?theme=light",
+      "height": 450
+    },
     "musicVideoUrl": null,
     "status": "pending",
     "approvedAt": null,
@@ -9997,9 +10385,14 @@
       "bandcamp": "https://bandcamp.com/search?q=Pye%20Corner%20Audio%20Where%20Things%20Are%20Hollow%3A%20No%20Tomorrow&item_type=a",
       "spotify": "https://open.spotify.com/search/Pye%20Corner%20Audio%20Where%20Things%20Are%20Hollow%3A%20No%20Tomorrow",
       "soundcloud": "https://soundcloud.com/search?q=Pye%20Corner%20Audio%20Where%20Things%20Are%20Hollow%3A%20No%20Tomorrow",
-      "youtube": "https://www.youtube.com/results?search_query=Pye%20Corner%20Audio%20Where%20Things%20Are%20Hollow%3A%20No%20Tomorrow"
+      "youtube": "https://www.youtube.com/results?search_query=Pye%20Corner%20Audio%20Where%20Things%20Are%20Hollow%3A%20No%20Tomorrow",
+      "apple": "https://music.apple.com/us/album/where-things-are-hollow-no-tomorrow/1783525344?uo=4"
     },
-    "embed": null,
+    "embed": {
+      "provider": "apple",
+      "src": "https://embed.music.apple.com/us/album/1783525344?theme=light",
+      "height": 450
+    },
     "musicVideoUrl": null,
     "status": "pending",
     "approvedAt": null,
@@ -10258,9 +10651,14 @@
       "bandcamp": "https://bandcamp.com/search?q=Salami%20Rose%20Joe%20Louis%20Lorings&item_type=a",
       "spotify": "https://open.spotify.com/search/Salami%20Rose%20Joe%20Louis%20Lorings",
       "soundcloud": "https://soundcloud.com/search?q=Salami%20Rose%20Joe%20Louis%20Lorings",
-      "youtube": "https://www.youtube.com/results?search_query=Salami%20Rose%20Joe%20Louis%20Lorings"
+      "youtube": "https://www.youtube.com/results?search_query=Salami%20Rose%20Joe%20Louis%20Lorings",
+      "deezer": "https://www.deezer.com/album/715690781"
     },
-    "embed": null,
+    "embed": {
+      "provider": "deezer",
+      "src": "https://widget.deezer.com/widget/light/album/715690781",
+      "height": 300
+    },
     "musicVideoUrl": null,
     "status": "pending",
     "approvedAt": null,
@@ -10286,9 +10684,14 @@
       "bandcamp": "https://bandcamp.com/search?q=Hinode%20Tapes%20%26%20Hiroki%20Chiba%20Ita&item_type=a",
       "spotify": "https://open.spotify.com/search/Hinode%20Tapes%20%26%20Hiroki%20Chiba%20Ita",
       "soundcloud": "https://soundcloud.com/search?q=Hinode%20Tapes%20%26%20Hiroki%20Chiba%20Ita",
-      "youtube": "https://www.youtube.com/results?search_query=Hinode%20Tapes%20%26%20Hiroki%20Chiba%20Ita"
+      "youtube": "https://www.youtube.com/results?search_query=Hinode%20Tapes%20%26%20Hiroki%20Chiba%20Ita",
+      "apple": "https://music.apple.com/us/album/ita/1810245830?uo=4"
     },
-    "embed": null,
+    "embed": {
+      "provider": "apple",
+      "src": "https://embed.music.apple.com/us/album/1810245830?theme=light",
+      "height": 450
+    },
     "musicVideoUrl": null,
     "status": "pending",
     "approvedAt": null,
@@ -10777,9 +11180,14 @@
       "bandcamp": "https://bandcamp.com/search?q=Walt%20McClements%20On%20A%20Painted%20Ocean&item_type=a",
       "spotify": "https://open.spotify.com/search/Walt%20McClements%20On%20A%20Painted%20Ocean",
       "soundcloud": "https://soundcloud.com/search?q=Walt%20McClements%20On%20A%20Painted%20Ocean",
-      "youtube": "https://www.youtube.com/results?search_query=Walt%20McClements%20On%20A%20Painted%20Ocean"
+      "youtube": "https://www.youtube.com/results?search_query=Walt%20McClements%20On%20A%20Painted%20Ocean",
+      "apple": "https://music.apple.com/us/album/on-a-painted-ocean/1789163252?uo=4"
     },
-    "embed": null,
+    "embed": {
+      "provider": "apple",
+      "src": "https://embed.music.apple.com/us/album/1789163252?theme=light",
+      "height": 450
+    },
     "musicVideoUrl": null,
     "status": "pending",
     "approvedAt": null,
@@ -10805,9 +11213,14 @@
       "bandcamp": "https://bandcamp.com/search?q=patioworld%20Moonlight%20Beach&item_type=a",
       "spotify": "https://open.spotify.com/search/patioworld%20Moonlight%20Beach",
       "soundcloud": "https://soundcloud.com/search?q=patioworld%20Moonlight%20Beach",
-      "youtube": "https://www.youtube.com/results?search_query=patioworld%20Moonlight%20Beach"
+      "youtube": "https://www.youtube.com/results?search_query=patioworld%20Moonlight%20Beach",
+      "apple": "https://music.apple.com/us/album/moonlight-beach/1794344932?uo=4"
     },
-    "embed": null,
+    "embed": {
+      "provider": "apple",
+      "src": "https://embed.music.apple.com/us/album/1794344932?theme=light",
+      "height": 450
+    },
     "musicVideoUrl": null,
     "status": "pending",
     "approvedAt": null,
@@ -10833,9 +11246,14 @@
       "bandcamp": "https://bandcamp.com/search?q=Fraufraulein%20greater%20honeyguide&item_type=a",
       "spotify": "https://open.spotify.com/search/Fraufraulein%20greater%20honeyguide",
       "soundcloud": "https://soundcloud.com/search?q=Fraufraulein%20greater%20honeyguide",
-      "youtube": "https://www.youtube.com/results?search_query=Fraufraulein%20greater%20honeyguide"
+      "youtube": "https://www.youtube.com/results?search_query=Fraufraulein%20greater%20honeyguide",
+      "apple": "https://music.apple.com/us/album/greater-honeyguide/1801772197?uo=4"
     },
-    "embed": null,
+    "embed": {
+      "provider": "apple",
+      "src": "https://embed.music.apple.com/us/album/1801772197?theme=light",
+      "height": 450
+    },
     "musicVideoUrl": null,
     "status": "pending",
     "approvedAt": null,
@@ -11031,9 +11449,14 @@
       "bandcamp": "https://bandcamp.com/search?q=Travellers%20Rest%20Where%20Your%20Quest%20Ends&item_type=a",
       "spotify": "https://open.spotify.com/search/Travellers%20Rest%20Where%20Your%20Quest%20Ends",
       "soundcloud": "https://soundcloud.com/search?q=Travellers%20Rest%20Where%20Your%20Quest%20Ends",
-      "youtube": "https://www.youtube.com/results?search_query=Travellers%20Rest%20Where%20Your%20Quest%20Ends"
+      "youtube": "https://www.youtube.com/results?search_query=Travellers%20Rest%20Where%20Your%20Quest%20Ends",
+      "apple": "https://music.apple.com/us/album/where-your-quest-ends/1821049425?uo=4"
     },
-    "embed": null,
+    "embed": {
+      "provider": "apple",
+      "src": "https://embed.music.apple.com/us/album/1821049425?theme=light",
+      "height": 450
+    },
     "musicVideoUrl": null,
     "status": "pending",
     "approvedAt": null,
@@ -11059,9 +11482,14 @@
       "bandcamp": "https://bandcamp.com/search?q=Surface%20Access%20Advanced%20Surface%20Habitat&item_type=a",
       "spotify": "https://open.spotify.com/search/Surface%20Access%20Advanced%20Surface%20Habitat",
       "soundcloud": "https://soundcloud.com/search?q=Surface%20Access%20Advanced%20Surface%20Habitat",
-      "youtube": "https://www.youtube.com/results?search_query=Surface%20Access%20Advanced%20Surface%20Habitat"
+      "youtube": "https://www.youtube.com/results?search_query=Surface%20Access%20Advanced%20Surface%20Habitat",
+      "apple": "https://music.apple.com/us/album/advanced-surface-habitat-single/1794360081?uo=4"
     },
-    "embed": null,
+    "embed": {
+      "provider": "apple",
+      "src": "https://embed.music.apple.com/us/album/1794360081?theme=light",
+      "height": 450
+    },
     "musicVideoUrl": null,
     "status": "pending",
     "approvedAt": null,
@@ -11087,9 +11515,14 @@
       "bandcamp": "https://bandcamp.com/search?q=Unknown%20Mortal%20Orchestra%20IC-02%20Bogota&item_type=a",
       "spotify": "https://open.spotify.com/search/Unknown%20Mortal%20Orchestra%20IC-02%20Bogota",
       "soundcloud": "https://soundcloud.com/search?q=Unknown%20Mortal%20Orchestra%20IC-02%20Bogota",
-      "youtube": "https://www.youtube.com/results?search_query=Unknown%20Mortal%20Orchestra%20IC-02%20Bogota"
+      "youtube": "https://www.youtube.com/results?search_query=Unknown%20Mortal%20Orchestra%20IC-02%20Bogota",
+      "apple": "https://music.apple.com/us/album/ic-02-bogot%C3%A1/1785033327?uo=4"
     },
-    "embed": null,
+    "embed": {
+      "provider": "apple",
+      "src": "https://embed.music.apple.com/us/album/1785033327?theme=light",
+      "height": 450
+    },
     "musicVideoUrl": null,
     "status": "pending",
     "approvedAt": null,
@@ -11245,9 +11678,14 @@
       "bandcamp": "https://bandcamp.com/search?q=Daniel%20Brandt%20(2)%20Without%20Us&item_type=a",
       "spotify": "https://open.spotify.com/search/Daniel%20Brandt%20(2)%20Without%20Us",
       "soundcloud": "https://soundcloud.com/search?q=Daniel%20Brandt%20(2)%20Without%20Us",
-      "youtube": "https://www.youtube.com/results?search_query=Daniel%20Brandt%20(2)%20Without%20Us"
+      "youtube": "https://www.youtube.com/results?search_query=Daniel%20Brandt%20(2)%20Without%20Us",
+      "apple": "https://music.apple.com/us/album/without-us/1783590249?uo=4"
     },
-    "embed": null,
+    "embed": {
+      "provider": "apple",
+      "src": "https://embed.music.apple.com/us/album/1783590249?theme=light",
+      "height": 450
+    },
     "musicVideoUrl": null,
     "status": "pending",
     "approvedAt": null,
@@ -11273,9 +11711,14 @@
       "bandcamp": "https://bandcamp.com/search?q=Lucy%20Liyou%20Every%20Video%20Without%20Your%20Face%2C%20Every%20Sound%20Without%20Your%20Name&item_type=a",
       "spotify": "https://open.spotify.com/search/Lucy%20Liyou%20Every%20Video%20Without%20Your%20Face%2C%20Every%20Sound%20Without%20Your%20Name",
       "soundcloud": "https://soundcloud.com/search?q=Lucy%20Liyou%20Every%20Video%20Without%20Your%20Face%2C%20Every%20Sound%20Without%20Your%20Name",
-      "youtube": "https://www.youtube.com/results?search_query=Lucy%20Liyou%20Every%20Video%20Without%20Your%20Face%2C%20Every%20Sound%20Without%20Your%20Name"
+      "youtube": "https://www.youtube.com/results?search_query=Lucy%20Liyou%20Every%20Video%20Without%20Your%20Face%2C%20Every%20Sound%20Without%20Your%20Name",
+      "deezer": "https://www.deezer.com/album/701137811"
     },
-    "embed": null,
+    "embed": {
+      "provider": "deezer",
+      "src": "https://widget.deezer.com/widget/light/album/701137811",
+      "height": 300
+    },
     "musicVideoUrl": null,
     "status": "pending",
     "approvedAt": null,
@@ -11368,9 +11811,14 @@
       "bandcamp": "https://bandcamp.com/search?q=OK%20EG%2C%20Priori%20(2)%20Serpentine&item_type=a",
       "spotify": "https://open.spotify.com/search/OK%20EG%2C%20Priori%20(2)%20Serpentine",
       "soundcloud": "https://soundcloud.com/search?q=OK%20EG%2C%20Priori%20(2)%20Serpentine",
-      "youtube": "https://www.youtube.com/results?search_query=OK%20EG%2C%20Priori%20(2)%20Serpentine"
+      "youtube": "https://www.youtube.com/results?search_query=OK%20EG%2C%20Priori%20(2)%20Serpentine",
+      "apple": "https://music.apple.com/us/album/serpentine-ep/1799248532?uo=4"
     },
-    "embed": null,
+    "embed": {
+      "provider": "apple",
+      "src": "https://embed.music.apple.com/us/album/1799248532?theme=light",
+      "height": 450
+    },
     "musicVideoUrl": null,
     "status": "pending",
     "approvedAt": null,
@@ -11560,9 +12008,14 @@
       "bandcamp": "https://bandcamp.com/search?q=Patrick%20Shiroishi%20%26%20Piotr%20Kurek%20Greyhound%20Days&item_type=a",
       "spotify": "https://open.spotify.com/search/Patrick%20Shiroishi%20%26%20Piotr%20Kurek%20Greyhound%20Days",
       "soundcloud": "https://soundcloud.com/search?q=Patrick%20Shiroishi%20%26%20Piotr%20Kurek%20Greyhound%20Days",
-      "youtube": "https://www.youtube.com/results?search_query=Patrick%20Shiroishi%20%26%20Piotr%20Kurek%20Greyhound%20Days"
+      "youtube": "https://www.youtube.com/results?search_query=Patrick%20Shiroishi%20%26%20Piotr%20Kurek%20Greyhound%20Days",
+      "apple": "https://music.apple.com/us/album/greyhound-days/1790993824?uo=4"
     },
-    "embed": null,
+    "embed": {
+      "provider": "apple",
+      "src": "https://embed.music.apple.com/us/album/1790993824?theme=light",
+      "height": 450
+    },
     "musicVideoUrl": null,
     "status": "pending",
     "approvedAt": null,
@@ -11617,9 +12070,14 @@
       "bandcamp": "https://bandcamp.com/search?q=Beth%20Morgan%20(2)%20Irish%20Eyes%20(Cover)&item_type=a",
       "spotify": "https://open.spotify.com/search/Beth%20Morgan%20(2)%20Irish%20Eyes%20(Cover)",
       "soundcloud": "https://soundcloud.com/search?q=Beth%20Morgan%20(2)%20Irish%20Eyes%20(Cover)",
-      "youtube": "https://www.youtube.com/results?search_query=Beth%20Morgan%20(2)%20Irish%20Eyes%20(Cover)"
+      "youtube": "https://www.youtube.com/results?search_query=Beth%20Morgan%20(2)%20Irish%20Eyes%20(Cover)",
+      "apple": "https://music.apple.com/us/album/irish-eyes-cover-single/1795592775?uo=4"
     },
-    "embed": null,
+    "embed": {
+      "provider": "apple",
+      "src": "https://embed.music.apple.com/us/album/1795592775?theme=light",
+      "height": 450
+    },
     "musicVideoUrl": null,
     "status": "pending",
     "approvedAt": null,
@@ -11642,12 +12100,16 @@
       "electronic"
     ],
     "links": {
-      "bandcamp": "https://bandcamp.com/search?q=MPU101%20MPU106&item_type=a",
+      "bandcamp": "https://iliantape.bandcamp.com/album/itx036-mpu106",
       "spotify": "https://open.spotify.com/search/MPU101%20MPU106",
       "soundcloud": "https://soundcloud.com/search?q=MPU101%20MPU106",
       "youtube": "https://www.youtube.com/results?search_query=MPU101%20MPU106"
     },
-    "embed": null,
+    "embed": {
+      "provider": "bandcamp",
+      "src": "https://bandcamp.com/EmbeddedPlayer/album=1575999546/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=true/artwork=small/transparent=true/",
+      "height": 470
+    },
     "musicVideoUrl": null,
     "status": "pending",
     "approvedAt": null,
@@ -11707,9 +12169,14 @@
       "bandcamp": "https://bandcamp.com/search?q=Homeskin%20Soul%20Washed%20Bleach&item_type=a",
       "spotify": "https://open.spotify.com/search/Homeskin%20Soul%20Washed%20Bleach",
       "soundcloud": "https://soundcloud.com/search?q=Homeskin%20Soul%20Washed%20Bleach",
-      "youtube": "https://www.youtube.com/results?search_query=Homeskin%20Soul%20Washed%20Bleach"
+      "youtube": "https://www.youtube.com/results?search_query=Homeskin%20Soul%20Washed%20Bleach",
+      "apple": "https://music.apple.com/us/album/soul-washed-bleach/1792116407?uo=4"
     },
-    "embed": null,
+    "embed": {
+      "provider": "apple",
+      "src": "https://embed.music.apple.com/us/album/1792116407?theme=light",
+      "height": 450
+    },
     "musicVideoUrl": null,
     "status": "pending",
     "approvedAt": null,
@@ -11837,9 +12304,14 @@
       "bandcamp": "https://bandcamp.com/search?q=Maciej%20Polak%201977&item_type=a",
       "spotify": "https://open.spotify.com/search/Maciej%20Polak%201977",
       "soundcloud": "https://soundcloud.com/search?q=Maciej%20Polak%201977",
-      "youtube": "https://www.youtube.com/results?search_query=Maciej%20Polak%201977"
+      "youtube": "https://www.youtube.com/results?search_query=Maciej%20Polak%201977",
+      "deezer": "https://www.deezer.com/album/697921311"
     },
-    "embed": null,
+    "embed": {
+      "provider": "deezer",
+      "src": "https://widget.deezer.com/widget/light/album/697921311",
+      "height": 300
+    },
     "musicVideoUrl": null,
     "status": "pending",
     "approvedAt": null,
@@ -11865,9 +12337,14 @@
       "bandcamp": "https://bandcamp.com/search?q=Maciek%20Polak%201977&item_type=a",
       "spotify": "https://open.spotify.com/search/Maciek%20Polak%201977",
       "soundcloud": "https://soundcloud.com/search?q=Maciek%20Polak%201977",
-      "youtube": "https://www.youtube.com/results?search_query=Maciek%20Polak%201977"
+      "youtube": "https://www.youtube.com/results?search_query=Maciek%20Polak%201977",
+      "apple": "https://music.apple.com/us/album/1977/1790414663?uo=4"
     },
-    "embed": null,
+    "embed": {
+      "provider": "apple",
+      "src": "https://embed.music.apple.com/us/album/1790414663?theme=light",
+      "height": 450
+    },
     "musicVideoUrl": null,
     "status": "pending",
     "approvedAt": null,
@@ -11893,9 +12370,14 @@
       "bandcamp": "https://bandcamp.com/search?q=Sharon%20Van%20Etten%20%26%20The%20Attachment%20Theory%20Sharon%20Van%20Etten%20%26%20The%20Attachment%20Theory&item_type=a",
       "spotify": "https://open.spotify.com/search/Sharon%20Van%20Etten%20%26%20The%20Attachment%20Theory%20Sharon%20Van%20Etten%20%26%20The%20Attachment%20Theory",
       "soundcloud": "https://soundcloud.com/search?q=Sharon%20Van%20Etten%20%26%20The%20Attachment%20Theory%20Sharon%20Van%20Etten%20%26%20The%20Attachment%20Theory",
-      "youtube": "https://www.youtube.com/results?search_query=Sharon%20Van%20Etten%20%26%20The%20Attachment%20Theory%20Sharon%20Van%20Etten%20%26%20The%20Attachment%20Theory"
+      "youtube": "https://www.youtube.com/results?search_query=Sharon%20Van%20Etten%20%26%20The%20Attachment%20Theory%20Sharon%20Van%20Etten%20%26%20The%20Attachment%20Theory",
+      "deezer": "https://www.deezer.com/album/648650981"
     },
-    "embed": null,
+    "embed": {
+      "provider": "deezer",
+      "src": "https://widget.deezer.com/widget/light/album/648650981",
+      "height": 300
+    },
     "musicVideoUrl": null,
     "status": "pending",
     "approvedAt": null,
@@ -11955,9 +12437,14 @@
       "bandcamp": "https://bandcamp.com/search?q=Teleself%20Eternal%20Game&item_type=a",
       "spotify": "https://open.spotify.com/search/Teleself%20Eternal%20Game",
       "soundcloud": "https://soundcloud.com/search?q=Teleself%20Eternal%20Game",
-      "youtube": "https://www.youtube.com/results?search_query=Teleself%20Eternal%20Game"
+      "youtube": "https://www.youtube.com/results?search_query=Teleself%20Eternal%20Game",
+      "apple": "https://music.apple.com/us/album/eternal-game-ep/1788885033?uo=4"
     },
-    "embed": null,
+    "embed": {
+      "provider": "apple",
+      "src": "https://embed.music.apple.com/us/album/1788885033?theme=light",
+      "height": 450
+    },
     "musicVideoUrl": null,
     "status": "pending",
     "approvedAt": null,
@@ -12118,9 +12605,14 @@
       "bandcamp": "https://bandcamp.com/search?q=Usof%20Stay%20Longer&item_type=a",
       "spotify": "https://open.spotify.com/search/Usof%20Stay%20Longer",
       "soundcloud": "https://soundcloud.com/search?q=Usof%20Stay%20Longer",
-      "youtube": "https://www.youtube.com/results?search_query=Usof%20Stay%20Longer"
+      "youtube": "https://www.youtube.com/results?search_query=Usof%20Stay%20Longer",
+      "apple": "https://music.apple.com/us/album/stay-longer/1791213789?uo=4"
     },
-    "embed": null,
+    "embed": {
+      "provider": "apple",
+      "src": "https://embed.music.apple.com/us/album/1791213789?theme=light",
+      "height": 450
+    },
     "musicVideoUrl": null,
     "status": "pending",
     "approvedAt": null,
@@ -12214,9 +12706,14 @@
       "bandcamp": "https://bandcamp.com/search?q=Studio%20(2)%20West%20Coast&item_type=a",
       "spotify": "https://open.spotify.com/search/Studio%20(2)%20West%20Coast",
       "soundcloud": "https://soundcloud.com/search?q=Studio%20(2)%20West%20Coast",
-      "youtube": "https://www.youtube.com/results?search_query=Studio%20(2)%20West%20Coast"
+      "youtube": "https://www.youtube.com/results?search_query=Studio%20(2)%20West%20Coast",
+      "apple": "https://music.apple.com/us/album/they-are-not-like-us-west-coast-funk-single/1758446184?uo=4"
     },
-    "embed": null,
+    "embed": {
+      "provider": "apple",
+      "src": "https://embed.music.apple.com/us/album/1758446184?theme=light",
+      "height": 450
+    },
     "musicVideoUrl": null,
     "status": "pending",
     "approvedAt": null,
@@ -12242,9 +12739,14 @@
       "bandcamp": "https://bandcamp.com/search?q=Beth%20Morgan%20(2)%20Sacrifice&item_type=a",
       "spotify": "https://open.spotify.com/search/Beth%20Morgan%20(2)%20Sacrifice",
       "soundcloud": "https://soundcloud.com/search?q=Beth%20Morgan%20(2)%20Sacrifice",
-      "youtube": "https://www.youtube.com/results?search_query=Beth%20Morgan%20(2)%20Sacrifice"
+      "youtube": "https://www.youtube.com/results?search_query=Beth%20Morgan%20(2)%20Sacrifice",
+      "deezer": "https://www.deezer.com/album/693917061"
     },
-    "embed": null,
+    "embed": {
+      "provider": "deezer",
+      "src": "https://widget.deezer.com/widget/light/album/693917061",
+      "height": 300
+    },
     "musicVideoUrl": null,
     "status": "pending",
     "approvedAt": null,
@@ -12270,9 +12772,14 @@
       "bandcamp": "https://bandcamp.com/search?q=Ale%20Hop%20And%20Titi%20Bakorta%20Mapambazuko&item_type=a",
       "spotify": "https://open.spotify.com/search/Ale%20Hop%20And%20Titi%20Bakorta%20Mapambazuko",
       "soundcloud": "https://soundcloud.com/search?q=Ale%20Hop%20And%20Titi%20Bakorta%20Mapambazuko",
-      "youtube": "https://www.youtube.com/results?search_query=Ale%20Hop%20And%20Titi%20Bakorta%20Mapambazuko"
+      "youtube": "https://www.youtube.com/results?search_query=Ale%20Hop%20And%20Titi%20Bakorta%20Mapambazuko",
+      "apple": "https://music.apple.com/us/album/mapambazuko/1775219226?uo=4"
     },
-    "embed": null,
+    "embed": {
+      "provider": "apple",
+      "src": "https://embed.music.apple.com/us/album/1775219226?theme=light",
+      "height": 450
+    },
     "musicVideoUrl": null,
     "status": "pending",
     "approvedAt": null,
@@ -12332,9 +12839,14 @@
       "bandcamp": "https://bandcamp.com/search?q=Kite%20(6)%20feat.%20Nina%20Persson%20Heartless%20Places&item_type=a",
       "spotify": "https://open.spotify.com/search/Kite%20(6)%20feat.%20Nina%20Persson%20Heartless%20Places",
       "soundcloud": "https://soundcloud.com/search?q=Kite%20(6)%20feat.%20Nina%20Persson%20Heartless%20Places",
-      "youtube": "https://www.youtube.com/results?search_query=Kite%20(6)%20feat.%20Nina%20Persson%20Heartless%20Places"
+      "youtube": "https://www.youtube.com/results?search_query=Kite%20(6)%20feat.%20Nina%20Persson%20Heartless%20Places",
+      "apple": "https://music.apple.com/us/album/heartless-places-feat-nina-persson-live-single/1833205596?uo=4"
     },
-    "embed": null,
+    "embed": {
+      "provider": "apple",
+      "src": "https://embed.music.apple.com/us/album/1833205596?theme=light",
+      "height": 450
+    },
     "musicVideoUrl": null,
     "status": "pending",
     "approvedAt": null,
@@ -12357,12 +12869,16 @@
       "electronic"
     ],
     "links": {
-      "bandcamp": "https://bandcamp.com/search?q=Various%20E-A-D-C&item_type=a",
+      "bandcamp": "https://opaltapes.bandcamp.com/album/e-a-d-c",
       "spotify": "https://open.spotify.com/search/Various%20E-A-D-C",
       "soundcloud": "https://soundcloud.com/search?q=Various%20E-A-D-C",
       "youtube": "https://www.youtube.com/results?search_query=Various%20E-A-D-C"
     },
-    "embed": null,
+    "embed": {
+      "provider": "bandcamp",
+      "src": "https://bandcamp.com/EmbeddedPlayer/album=239507760/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=true/artwork=small/transparent=true/",
+      "height": 470
+    },
     "musicVideoUrl": null,
     "status": "pending",
     "approvedAt": null,
@@ -12388,9 +12904,14 @@
       "bandcamp": "https://bandcamp.com/search?q=The%20Moonlandingz%20Interplanetary%20Class%20Classics&item_type=a",
       "spotify": "https://open.spotify.com/search/The%20Moonlandingz%20Interplanetary%20Class%20Classics",
       "soundcloud": "https://soundcloud.com/search?q=The%20Moonlandingz%20Interplanetary%20Class%20Classics",
-      "youtube": "https://www.youtube.com/results?search_query=The%20Moonlandingz%20Interplanetary%20Class%20Classics"
+      "youtube": "https://www.youtube.com/results?search_query=The%20Moonlandingz%20Interplanetary%20Class%20Classics",
+      "apple": "https://music.apple.com/us/album/interplanetary-class-classics-deluxe-edition/1454447022?uo=4"
     },
-    "embed": null,
+    "embed": {
+      "provider": "apple",
+      "src": "https://embed.music.apple.com/us/album/1454447022?theme=light",
+      "height": 450
+    },
     "musicVideoUrl": null,
     "status": "pending",
     "approvedAt": null,
@@ -12683,9 +13204,14 @@
       "bandcamp": "https://bandcamp.com/search?q=Burial%20Street%20Halo&item_type=a",
       "spotify": "https://open.spotify.com/search/Burial%20Street%20Halo",
       "soundcloud": "https://soundcloud.com/search?q=Burial%20Street%20Halo",
-      "youtube": "https://www.youtube.com/results?search_query=Burial%20Street%20Halo"
+      "youtube": "https://www.youtube.com/results?search_query=Burial%20Street%20Halo",
+      "apple": "https://music.apple.com/us/album/street-halo-single/892571794?uo=4"
     },
-    "embed": null,
+    "embed": {
+      "provider": "apple",
+      "src": "https://embed.music.apple.com/us/album/892571794?theme=light",
+      "height": 450
+    },
     "musicVideoUrl": null,
     "status": "pending",
     "approvedAt": null,
@@ -12711,9 +13237,14 @@
       "bandcamp": "https://bandcamp.com/search?q=Burial%20Untrue&item_type=a",
       "spotify": "https://open.spotify.com/search/Burial%20Untrue",
       "soundcloud": "https://soundcloud.com/search?q=Burial%20Untrue",
-      "youtube": "https://www.youtube.com/results?search_query=Burial%20Untrue"
+      "youtube": "https://www.youtube.com/results?search_query=Burial%20Untrue",
+      "apple": "https://music.apple.com/us/album/untrue/893175779?uo=4"
     },
-    "embed": null,
+    "embed": {
+      "provider": "apple",
+      "src": "https://embed.music.apple.com/us/album/893175779?theme=light",
+      "height": 450
+    },
     "musicVideoUrl": null,
     "status": "pending",
     "approvedAt": null,
@@ -12739,9 +13270,14 @@
       "bandcamp": "https://bandcamp.com/search?q=Jameszoo%2C%20Asko%7CSch%C3%B6nberg%20Music%20For%2017%20Musicians&item_type=a",
       "spotify": "https://open.spotify.com/search/Jameszoo%2C%20Asko%7CSch%C3%B6nberg%20Music%20For%2017%20Musicians",
       "soundcloud": "https://soundcloud.com/search?q=Jameszoo%2C%20Asko%7CSch%C3%B6nberg%20Music%20For%2017%20Musicians",
-      "youtube": "https://www.youtube.com/results?search_query=Jameszoo%2C%20Asko%7CSch%C3%B6nberg%20Music%20For%2017%20Musicians"
+      "youtube": "https://www.youtube.com/results?search_query=Jameszoo%2C%20Asko%7CSch%C3%B6nberg%20Music%20For%2017%20Musicians",
+      "deezer": "https://www.deezer.com/album/742779641"
     },
-    "embed": null,
+    "embed": {
+      "provider": "deezer",
+      "src": "https://widget.deezer.com/widget/light/album/742779641",
+      "height": 300
+    },
     "musicVideoUrl": null,
     "status": "pending",
     "approvedAt": null,
@@ -12767,9 +13303,14 @@
       "bandcamp": "https://bandcamp.com/search?q=Leaving%20Time%20Angel%20In%20The%20Sand&item_type=a",
       "spotify": "https://open.spotify.com/search/Leaving%20Time%20Angel%20In%20The%20Sand",
       "soundcloud": "https://soundcloud.com/search?q=Leaving%20Time%20Angel%20In%20The%20Sand",
-      "youtube": "https://www.youtube.com/results?search_query=Leaving%20Time%20Angel%20In%20The%20Sand"
+      "youtube": "https://www.youtube.com/results?search_query=Leaving%20Time%20Angel%20In%20The%20Sand",
+      "apple": "https://music.apple.com/us/album/angel-in-the-sand/1761216454?uo=4"
     },
-    "embed": null,
+    "embed": {
+      "provider": "apple",
+      "src": "https://embed.music.apple.com/us/album/1761216454?theme=light",
+      "height": 450
+    },
     "musicVideoUrl": null,
     "status": "pending",
     "approvedAt": null,
@@ -12795,9 +13336,14 @@
       "bandcamp": "https://bandcamp.com/search?q=High%20Vis%20Guided%20Tour&item_type=a",
       "spotify": "https://open.spotify.com/search/High%20Vis%20Guided%20Tour",
       "soundcloud": "https://soundcloud.com/search?q=High%20Vis%20Guided%20Tour",
-      "youtube": "https://www.youtube.com/results?search_query=High%20Vis%20Guided%20Tour"
+      "youtube": "https://www.youtube.com/results?search_query=High%20Vis%20Guided%20Tour",
+      "deezer": "https://www.deezer.com/album/617441381"
     },
-    "embed": null,
+    "embed": {
+      "provider": "deezer",
+      "src": "https://widget.deezer.com/widget/light/album/617441381",
+      "height": 300
+    },
     "musicVideoUrl": null,
     "status": "pending",
     "approvedAt": null,
@@ -12823,9 +13369,14 @@
       "bandcamp": "https://bandcamp.com/search?q=Bloodbath%20Grand%20Morbid%20Funeral&item_type=a",
       "spotify": "https://open.spotify.com/search/Bloodbath%20Grand%20Morbid%20Funeral",
       "soundcloud": "https://soundcloud.com/search?q=Bloodbath%20Grand%20Morbid%20Funeral",
-      "youtube": "https://www.youtube.com/results?search_query=Bloodbath%20Grand%20Morbid%20Funeral"
+      "youtube": "https://www.youtube.com/results?search_query=Bloodbath%20Grand%20Morbid%20Funeral",
+      "apple": "https://music.apple.com/us/album/grand-morbid-funeral/930602791?uo=4"
     },
-    "embed": null,
+    "embed": {
+      "provider": "apple",
+      "src": "https://embed.music.apple.com/us/album/930602791?theme=light",
+      "height": 450
+    },
     "musicVideoUrl": null,
     "status": "pending",
     "approvedAt": null,
@@ -12851,9 +13402,14 @@
       "bandcamp": "https://bandcamp.com/search?q=Carrier%20(11)%20The%20Fan%20Dance&item_type=a",
       "spotify": "https://open.spotify.com/search/Carrier%20(11)%20The%20Fan%20Dance",
       "soundcloud": "https://soundcloud.com/search?q=Carrier%20(11)%20The%20Fan%20Dance",
-      "youtube": "https://www.youtube.com/results?search_query=Carrier%20(11)%20The%20Fan%20Dance"
+      "youtube": "https://www.youtube.com/results?search_query=Carrier%20(11)%20The%20Fan%20Dance",
+      "apple": "https://music.apple.com/us/album/the-fan-dance-single/1831745158?uo=4"
     },
-    "embed": null,
+    "embed": {
+      "provider": "apple",
+      "src": "https://embed.music.apple.com/us/album/1831745158?theme=light",
+      "height": 450
+    },
     "musicVideoUrl": null,
     "status": "pending",
     "approvedAt": null,
@@ -12879,9 +13435,14 @@
       "bandcamp": "https://bandcamp.com/search?q=Modern%20Color%20From%20The%20Leaves%20Of%20Your%20Garden&item_type=a",
       "spotify": "https://open.spotify.com/search/Modern%20Color%20From%20The%20Leaves%20Of%20Your%20Garden",
       "soundcloud": "https://soundcloud.com/search?q=Modern%20Color%20From%20The%20Leaves%20Of%20Your%20Garden",
-      "youtube": "https://www.youtube.com/results?search_query=Modern%20Color%20From%20The%20Leaves%20Of%20Your%20Garden"
+      "youtube": "https://www.youtube.com/results?search_query=Modern%20Color%20From%20The%20Leaves%20Of%20Your%20Garden",
+      "apple": "https://music.apple.com/us/album/from-the-leaves-of-your-garden/1504812635?uo=4"
     },
-    "embed": null,
+    "embed": {
+      "provider": "apple",
+      "src": "https://embed.music.apple.com/us/album/1504812635?theme=light",
+      "height": 450
+    },
     "musicVideoUrl": null,
     "status": "pending",
     "approvedAt": null,
@@ -12907,9 +13468,14 @@
       "bandcamp": "https://bandcamp.com/search?q=Emahoy%20Tsege-Mariam%20Gebru*%2C%20Maya%20Dunietz%20Emahoy%20Tsege-Mariam%20Gebru%20Played%20By%20Maya%20Dunietz%20%26%20String%20Ensemble%20Live%20In%20Paris&item_type=a",
       "spotify": "https://open.spotify.com/search/Emahoy%20Tsege-Mariam%20Gebru*%2C%20Maya%20Dunietz%20Emahoy%20Tsege-Mariam%20Gebru%20Played%20By%20Maya%20Dunietz%20%26%20String%20Ensemble%20Live%20In%20Paris",
       "soundcloud": "https://soundcloud.com/search?q=Emahoy%20Tsege-Mariam%20Gebru*%2C%20Maya%20Dunietz%20Emahoy%20Tsege-Mariam%20Gebru%20Played%20By%20Maya%20Dunietz%20%26%20String%20Ensemble%20Live%20In%20Paris",
-      "youtube": "https://www.youtube.com/results?search_query=Emahoy%20Tsege-Mariam%20Gebru*%2C%20Maya%20Dunietz%20Emahoy%20Tsege-Mariam%20Gebru%20Played%20By%20Maya%20Dunietz%20%26%20String%20Ensemble%20Live%20In%20Paris"
+      "youtube": "https://www.youtube.com/results?search_query=Emahoy%20Tsege-Mariam%20Gebru*%2C%20Maya%20Dunietz%20Emahoy%20Tsege-Mariam%20Gebru%20Played%20By%20Maya%20Dunietz%20%26%20String%20Ensemble%20Live%20In%20Paris",
+      "apple": "https://music.apple.com/us/album/emahoy-tsege-mariam-gebru-played-by-maya-dunietz-string/1820154555?uo=4"
     },
-    "embed": null,
+    "embed": {
+      "provider": "apple",
+      "src": "https://embed.music.apple.com/us/album/1820154555?theme=light",
+      "height": 450
+    },
     "musicVideoUrl": null,
     "status": "pending",
     "approvedAt": null,
@@ -12935,9 +13501,14 @@
       "bandcamp": "https://bandcamp.com/search?q=Earl%20Sweatshirt%20I%20Don't%20Like%20Shit%2C%20I%20Don't%20Go%20Outside%3A%20An%20Album%20By%20Earl%20Sweatshirt&item_type=a",
       "spotify": "https://open.spotify.com/search/Earl%20Sweatshirt%20I%20Don't%20Like%20Shit%2C%20I%20Don't%20Go%20Outside%3A%20An%20Album%20By%20Earl%20Sweatshirt",
       "soundcloud": "https://soundcloud.com/search?q=Earl%20Sweatshirt%20I%20Don't%20Like%20Shit%2C%20I%20Don't%20Go%20Outside%3A%20An%20Album%20By%20Earl%20Sweatshirt",
-      "youtube": "https://www.youtube.com/results?search_query=Earl%20Sweatshirt%20I%20Don't%20Like%20Shit%2C%20I%20Don't%20Go%20Outside%3A%20An%20Album%20By%20Earl%20Sweatshirt"
+      "youtube": "https://www.youtube.com/results?search_query=Earl%20Sweatshirt%20I%20Don't%20Like%20Shit%2C%20I%20Don't%20Go%20Outside%3A%20An%20Album%20By%20Earl%20Sweatshirt",
+      "deezer": "https://www.deezer.com/album/9907414"
     },
-    "embed": null,
+    "embed": {
+      "provider": "deezer",
+      "src": "https://widget.deezer.com/widget/light/album/9907414",
+      "height": 300
+    },
     "musicVideoUrl": null,
     "status": "pending",
     "approvedAt": null,
@@ -12960,12 +13531,16 @@
       "electronic"
     ],
     "links": {
-      "bandcamp": "https://bandcamp.com/search?q=QBRNTHSS%20Disorder&item_type=a",
+      "bandcamp": "https://rottentrash.bandcamp.com/album/disorder",
       "spotify": "https://open.spotify.com/search/QBRNTHSS%20Disorder",
       "soundcloud": "https://soundcloud.com/search?q=QBRNTHSS%20Disorder",
       "youtube": "https://www.youtube.com/results?search_query=QBRNTHSS%20Disorder"
     },
-    "embed": null,
+    "embed": {
+      "provider": "bandcamp",
+      "src": "https://bandcamp.com/EmbeddedPlayer/album=3142253196/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=true/artwork=small/transparent=true/",
+      "height": 470
+    },
     "musicVideoUrl": null,
     "status": "pending",
     "approvedAt": null,
@@ -12991,9 +13566,14 @@
       "bandcamp": "https://bandcamp.com/search?q=DOVS%20Psychic%20Geography&item_type=a",
       "spotify": "https://open.spotify.com/search/DOVS%20Psychic%20Geography",
       "soundcloud": "https://soundcloud.com/search?q=DOVS%20Psychic%20Geography",
-      "youtube": "https://www.youtube.com/results?search_query=DOVS%20Psychic%20Geography"
+      "youtube": "https://www.youtube.com/results?search_query=DOVS%20Psychic%20Geography",
+      "apple": "https://music.apple.com/us/album/psychic-geography/1777347806?uo=4"
     },
-    "embed": null,
+    "embed": {
+      "provider": "apple",
+      "src": "https://embed.music.apple.com/us/album/1777347806?theme=light",
+      "height": 450
+    },
     "musicVideoUrl": null,
     "status": "pending",
     "approvedAt": null,
@@ -13019,9 +13599,14 @@
       "bandcamp": "https://bandcamp.com/search?q=Spinners%20Spinners&item_type=a",
       "spotify": "https://open.spotify.com/search/Spinners%20Spinners",
       "soundcloud": "https://soundcloud.com/search?q=Spinners%20Spinners",
-      "youtube": "https://www.youtube.com/results?search_query=Spinners%20Spinners"
+      "youtube": "https://www.youtube.com/results?search_query=Spinners%20Spinners",
+      "apple": "https://music.apple.com/us/album/rhino-hi-five-the-spinners-ep/145090466?uo=4"
     },
-    "embed": null,
+    "embed": {
+      "provider": "apple",
+      "src": "https://embed.music.apple.com/us/album/145090466?theme=light",
+      "height": 450
+    },
     "musicVideoUrl": null,
     "status": "pending",
     "approvedAt": null,
@@ -13047,9 +13632,14 @@
       "bandcamp": "https://bandcamp.com/search?q=Kool%20%26%20The%20Gang%20Wild%20And%20Peaceful&item_type=a",
       "spotify": "https://open.spotify.com/search/Kool%20%26%20The%20Gang%20Wild%20And%20Peaceful",
       "soundcloud": "https://soundcloud.com/search?q=Kool%20%26%20The%20Gang%20Wild%20And%20Peaceful",
-      "youtube": "https://www.youtube.com/results?search_query=Kool%20%26%20The%20Gang%20Wild%20And%20Peaceful"
+      "youtube": "https://www.youtube.com/results?search_query=Kool%20%26%20The%20Gang%20Wild%20And%20Peaceful",
+      "apple": "https://music.apple.com/us/album/wild-and-peaceful/1442286038?uo=4"
     },
-    "embed": null,
+    "embed": {
+      "provider": "apple",
+      "src": "https://embed.music.apple.com/us/album/1442286038?theme=light",
+      "height": 450
+    },
     "musicVideoUrl": null,
     "status": "pending",
     "approvedAt": null,
@@ -13075,9 +13665,14 @@
       "bandcamp": "https://bandcamp.com/search?q=James%20Brown%20The%20Payback&item_type=a",
       "spotify": "https://open.spotify.com/search/James%20Brown%20The%20Payback",
       "soundcloud": "https://soundcloud.com/search?q=James%20Brown%20The%20Payback",
-      "youtube": "https://www.youtube.com/results?search_query=James%20Brown%20The%20Payback"
+      "youtube": "https://www.youtube.com/results?search_query=James%20Brown%20The%20Payback",
+      "apple": "https://music.apple.com/us/album/the-payback-aquasky-remix-single/1481510872?uo=4"
     },
-    "embed": null,
+    "embed": {
+      "provider": "apple",
+      "src": "https://embed.music.apple.com/us/album/1481510872?theme=light",
+      "height": 450
+    },
     "musicVideoUrl": null,
     "status": "pending",
     "approvedAt": null,
@@ -13272,9 +13867,14 @@
       "bandcamp": "https://bandcamp.com/search?q=Relaxer%20(2)%20Break&item_type=a",
       "spotify": "https://open.spotify.com/search/Relaxer%20(2)%20Break",
       "soundcloud": "https://soundcloud.com/search?q=Relaxer%20(2)%20Break",
-      "youtube": "https://www.youtube.com/results?search_query=Relaxer%20(2)%20Break"
+      "youtube": "https://www.youtube.com/results?search_query=Relaxer%20(2)%20Break",
+      "apple": "https://music.apple.com/us/album/break/1774809783?uo=4"
     },
-    "embed": null,
+    "embed": {
+      "provider": "apple",
+      "src": "https://embed.music.apple.com/us/album/1774809783?theme=light",
+      "height": 450
+    },
     "musicVideoUrl": null,
     "status": "pending",
     "approvedAt": null,
@@ -13300,9 +13900,14 @@
       "bandcamp": "https://bandcamp.com/search?q=Fan%20Club%20Orchestra%20VL_Stay&item_type=a",
       "spotify": "https://open.spotify.com/search/Fan%20Club%20Orchestra%20VL_Stay",
       "soundcloud": "https://soundcloud.com/search?q=Fan%20Club%20Orchestra%20VL_Stay",
-      "youtube": "https://www.youtube.com/results?search_query=Fan%20Club%20Orchestra%20VL_Stay"
+      "youtube": "https://www.youtube.com/results?search_query=Fan%20Club%20Orchestra%20VL_Stay",
+      "apple": "https://music.apple.com/us/album/vl-stay/1778070992?uo=4"
     },
-    "embed": null,
+    "embed": {
+      "provider": "apple",
+      "src": "https://embed.music.apple.com/us/album/1778070992?theme=light",
+      "height": 450
+    },
     "musicVideoUrl": null,
     "status": "pending",
     "approvedAt": null,
@@ -13328,9 +13933,14 @@
       "bandcamp": "https://bandcamp.com/search?q=Home%20Baker%20Kitchen%20Songs&item_type=a",
       "spotify": "https://open.spotify.com/search/Home%20Baker%20Kitchen%20Songs",
       "soundcloud": "https://soundcloud.com/search?q=Home%20Baker%20Kitchen%20Songs",
-      "youtube": "https://www.youtube.com/results?search_query=Home%20Baker%20Kitchen%20Songs"
+      "youtube": "https://www.youtube.com/results?search_query=Home%20Baker%20Kitchen%20Songs",
+      "apple": "https://music.apple.com/us/album/kitchen-songs-ep/1779588195?uo=4"
     },
-    "embed": null,
+    "embed": {
+      "provider": "apple",
+      "src": "https://embed.music.apple.com/us/album/1779588195?theme=light",
+      "height": 450
+    },
     "musicVideoUrl": null,
     "status": "pending",
     "approvedAt": null,
@@ -13356,9 +13966,14 @@
       "bandcamp": "https://bandcamp.com/search?q=Yazmin%20Lacey%20The%20Feels&item_type=a",
       "spotify": "https://open.spotify.com/search/Yazmin%20Lacey%20The%20Feels",
       "soundcloud": "https://soundcloud.com/search?q=Yazmin%20Lacey%20The%20Feels",
-      "youtube": "https://www.youtube.com/results?search_query=Yazmin%20Lacey%20The%20Feels"
+      "youtube": "https://www.youtube.com/results?search_query=Yazmin%20Lacey%20The%20Feels",
+      "apple": "https://music.apple.com/us/album/the-feels-single/1776518997?uo=4"
     },
-    "embed": null,
+    "embed": {
+      "provider": "apple",
+      "src": "https://embed.music.apple.com/us/album/1776518997?theme=light",
+      "height": 450
+    },
     "musicVideoUrl": null,
     "status": "pending",
     "approvedAt": null,
@@ -13418,9 +14033,14 @@
       "bandcamp": "https://bandcamp.com/search?q=990x%20Ruins&item_type=a",
       "spotify": "https://open.spotify.com/search/990x%20Ruins",
       "soundcloud": "https://soundcloud.com/search?q=990x%20Ruins",
-      "youtube": "https://www.youtube.com/results?search_query=990x%20Ruins"
+      "youtube": "https://www.youtube.com/results?search_query=990x%20Ruins",
+      "apple": "https://music.apple.com/us/album/ruins/1822451144?uo=4"
     },
-    "embed": null,
+    "embed": {
+      "provider": "apple",
+      "src": "https://embed.music.apple.com/us/album/1822451144?theme=light",
+      "height": 450
+    },
     "musicVideoUrl": null,
     "status": "pending",
     "approvedAt": null,
@@ -13446,9 +14066,14 @@
       "bandcamp": "https://bandcamp.com/search?q=Cybermission%20Zona&item_type=a",
       "spotify": "https://open.spotify.com/search/Cybermission%20Zona",
       "soundcloud": "https://soundcloud.com/search?q=Cybermission%20Zona",
-      "youtube": "https://www.youtube.com/results?search_query=Cybermission%20Zona"
+      "youtube": "https://www.youtube.com/results?search_query=Cybermission%20Zona",
+      "apple": "https://music.apple.com/us/album/zona-ep/1776802164?uo=4"
     },
-    "embed": null,
+    "embed": {
+      "provider": "apple",
+      "src": "https://embed.music.apple.com/us/album/1776802164?theme=light",
+      "height": 450
+    },
     "musicVideoUrl": null,
     "status": "pending",
     "approvedAt": null,
@@ -13474,9 +14099,14 @@
       "bandcamp": "https://bandcamp.com/search?q=Jack%20J%20Blue%20Desert&item_type=a",
       "spotify": "https://open.spotify.com/search/Jack%20J%20Blue%20Desert",
       "soundcloud": "https://soundcloud.com/search?q=Jack%20J%20Blue%20Desert",
-      "youtube": "https://www.youtube.com/results?search_query=Jack%20J%20Blue%20Desert"
+      "youtube": "https://www.youtube.com/results?search_query=Jack%20J%20Blue%20Desert",
+      "apple": "https://music.apple.com/us/album/blue-desert/1769722234?uo=4"
     },
-    "embed": null,
+    "embed": {
+      "provider": "apple",
+      "src": "https://embed.music.apple.com/us/album/1769722234?theme=light",
+      "height": 450
+    },
     "musicVideoUrl": null,
     "status": "pending",
     "approvedAt": null,
@@ -13565,9 +14195,14 @@
       "bandcamp": "https://bandcamp.com/search?q=Daniailyas%20Enough%20For%20Me%20To%20Remain&item_type=a",
       "spotify": "https://open.spotify.com/search/Daniailyas%20Enough%20For%20Me%20To%20Remain",
       "soundcloud": "https://soundcloud.com/search?q=Daniailyas%20Enough%20For%20Me%20To%20Remain",
-      "youtube": "https://www.youtube.com/results?search_query=Daniailyas%20Enough%20For%20Me%20To%20Remain"
+      "youtube": "https://www.youtube.com/results?search_query=Daniailyas%20Enough%20For%20Me%20To%20Remain",
+      "apple": "https://music.apple.com/us/album/enough-for-me-to-remain-ep/1766348282?uo=4"
     },
-    "embed": null,
+    "embed": {
+      "provider": "apple",
+      "src": "https://embed.music.apple.com/us/album/1766348282?theme=light",
+      "height": 450
+    },
     "musicVideoUrl": null,
     "status": "pending",
     "approvedAt": null,
@@ -13689,9 +14324,14 @@
       "bandcamp": "https://bandcamp.com/search?q=Daniel%20Szwed%20Sun's%20Mother&item_type=a",
       "spotify": "https://open.spotify.com/search/Daniel%20Szwed%20Sun's%20Mother",
       "soundcloud": "https://soundcloud.com/search?q=Daniel%20Szwed%20Sun's%20Mother",
-      "youtube": "https://www.youtube.com/results?search_query=Daniel%20Szwed%20Sun's%20Mother"
+      "youtube": "https://www.youtube.com/results?search_query=Daniel%20Szwed%20Sun's%20Mother",
+      "apple": "https://music.apple.com/us/album/suns-mother/1776609354?uo=4"
     },
-    "embed": null,
+    "embed": {
+      "provider": "apple",
+      "src": "https://embed.music.apple.com/us/album/1776609354?theme=light",
+      "height": 450
+    },
     "musicVideoUrl": null,
     "status": "pending",
     "approvedAt": null,
@@ -13819,9 +14459,14 @@
       "bandcamp": "https://bandcamp.com/search?q=Reymour%20NoLand&item_type=a",
       "spotify": "https://open.spotify.com/search/Reymour%20NoLand",
       "soundcloud": "https://soundcloud.com/search?q=Reymour%20NoLand",
-      "youtube": "https://www.youtube.com/results?search_query=Reymour%20NoLand"
+      "youtube": "https://www.youtube.com/results?search_query=Reymour%20NoLand",
+      "apple": "https://music.apple.com/us/album/noland/1763976228?uo=4"
     },
-    "embed": null,
+    "embed": {
+      "provider": "apple",
+      "src": "https://embed.music.apple.com/us/album/1763976228?theme=light",
+      "height": 450
+    },
     "musicVideoUrl": null,
     "status": "pending",
     "approvedAt": null,
@@ -13847,9 +14492,14 @@
       "bandcamp": "https://bandcamp.com/search?q=Alto%20Aria%20Some%20Things%20Are%20Not%20Meant%20To%20Hold%20II&item_type=a",
       "spotify": "https://open.spotify.com/search/Alto%20Aria%20Some%20Things%20Are%20Not%20Meant%20To%20Hold%20II",
       "soundcloud": "https://soundcloud.com/search?q=Alto%20Aria%20Some%20Things%20Are%20Not%20Meant%20To%20Hold%20II",
-      "youtube": "https://www.youtube.com/results?search_query=Alto%20Aria%20Some%20Things%20Are%20Not%20Meant%20To%20Hold%20II"
+      "youtube": "https://www.youtube.com/results?search_query=Alto%20Aria%20Some%20Things%20Are%20Not%20Meant%20To%20Hold%20II",
+      "apple": "https://music.apple.com/us/album/some-things-are-not-meant-to-hold-ii-single/1765502226?uo=4"
     },
-    "embed": null,
+    "embed": {
+      "provider": "apple",
+      "src": "https://embed.music.apple.com/us/album/1765502226?theme=light",
+      "height": 450
+    },
     "musicVideoUrl": null,
     "status": "pending",
     "approvedAt": null,
@@ -13875,9 +14525,14 @@
       "bandcamp": "https://bandcamp.com/search?q=Various%2029%20Speedway%3A%20UltraBody&item_type=a",
       "spotify": "https://open.spotify.com/search/Various%2029%20Speedway%3A%20UltraBody",
       "soundcloud": "https://soundcloud.com/search?q=Various%2029%20Speedway%3A%20UltraBody",
-      "youtube": "https://www.youtube.com/results?search_query=Various%2029%20Speedway%3A%20UltraBody"
+      "youtube": "https://www.youtube.com/results?search_query=Various%2029%20Speedway%3A%20UltraBody",
+      "apple": "https://music.apple.com/us/album/29-speedway-ultrabody/1762249363?uo=4"
     },
-    "embed": null,
+    "embed": {
+      "provider": "apple",
+      "src": "https://embed.music.apple.com/us/album/1762249363?theme=light",
+      "height": 450
+    },
     "musicVideoUrl": null,
     "status": "pending",
     "approvedAt": null,
@@ -13903,9 +14558,14 @@
       "bandcamp": "https://bandcamp.com/search?q=Various%20Orsova&item_type=a",
       "spotify": "https://open.spotify.com/search/Various%20Orsova",
       "soundcloud": "https://soundcloud.com/search?q=Various%20Orsova",
-      "youtube": "https://www.youtube.com/results?search_query=Various%20Orsova"
+      "youtube": "https://www.youtube.com/results?search_query=Various%20Orsova",
+      "apple": "https://music.apple.com/us/album/orsova-ep/1760411423?uo=4"
     },
-    "embed": null,
+    "embed": {
+      "provider": "apple",
+      "src": "https://embed.music.apple.com/us/album/1760411423?theme=light",
+      "height": 450
+    },
     "musicVideoUrl": null,
     "status": "pending",
     "approvedAt": null,
@@ -13965,9 +14625,14 @@
       "bandcamp": "https://bandcamp.com/search?q=chantssss%20Shyness&item_type=a",
       "spotify": "https://open.spotify.com/search/chantssss%20Shyness",
       "soundcloud": "https://soundcloud.com/search?q=chantssss%20Shyness",
-      "youtube": "https://www.youtube.com/results?search_query=chantssss%20Shyness"
+      "youtube": "https://www.youtube.com/results?search_query=chantssss%20Shyness",
+      "apple": "https://music.apple.com/us/album/shyness/1835635028?uo=4"
     },
-    "embed": null,
+    "embed": {
+      "provider": "apple",
+      "src": "https://embed.music.apple.com/us/album/1835635028?theme=light",
+      "height": 450
+    },
     "musicVideoUrl": null,
     "status": "pending",
     "approvedAt": null,
@@ -13993,9 +14658,14 @@
       "bandcamp": "https://bandcamp.com/search?q=Tymek%20Papior%20Rugs%2FCarpets&item_type=a",
       "spotify": "https://open.spotify.com/search/Tymek%20Papior%20Rugs%2FCarpets",
       "soundcloud": "https://soundcloud.com/search?q=Tymek%20Papior%20Rugs%2FCarpets",
-      "youtube": "https://www.youtube.com/results?search_query=Tymek%20Papior%20Rugs%2FCarpets"
+      "youtube": "https://www.youtube.com/results?search_query=Tymek%20Papior%20Rugs%2FCarpets",
+      "apple": "https://music.apple.com/us/album/rugs-carpets/1760743670?uo=4"
     },
-    "embed": null,
+    "embed": {
+      "provider": "apple",
+      "src": "https://embed.music.apple.com/us/album/1760743670?theme=light",
+      "height": 450
+    },
     "musicVideoUrl": null,
     "status": "pending",
     "approvedAt": null,
@@ -14089,9 +14759,14 @@
       "bandcamp": "https://bandcamp.com/search?q=Throwing%20Snow%20Isthmus&item_type=a",
       "spotify": "https://open.spotify.com/search/Throwing%20Snow%20Isthmus",
       "soundcloud": "https://soundcloud.com/search?q=Throwing%20Snow%20Isthmus",
-      "youtube": "https://www.youtube.com/results?search_query=Throwing%20Snow%20Isthmus"
+      "youtube": "https://www.youtube.com/results?search_query=Throwing%20Snow%20Isthmus",
+      "apple": "https://music.apple.com/us/album/isthmus/1751886599?uo=4"
     },
-    "embed": null,
+    "embed": {
+      "provider": "apple",
+      "src": "https://embed.music.apple.com/us/album/1751886599?theme=light",
+      "height": 450
+    },
     "musicVideoUrl": null,
     "status": "pending",
     "approvedAt": null,
@@ -14151,9 +14826,14 @@
       "bandcamp": "https://bandcamp.com/search?q=Downstairs%20People%20DSP&item_type=a",
       "spotify": "https://open.spotify.com/search/Downstairs%20People%20DSP",
       "soundcloud": "https://soundcloud.com/search?q=Downstairs%20People%20DSP",
-      "youtube": "https://www.youtube.com/results?search_query=Downstairs%20People%20DSP"
+      "youtube": "https://www.youtube.com/results?search_query=Downstairs%20People%20DSP",
+      "deezer": "https://www.deezer.com/album/578477691"
     },
-    "embed": null,
+    "embed": {
+      "provider": "deezer",
+      "src": "https://widget.deezer.com/widget/light/album/578477691",
+      "height": 300
+    },
     "musicVideoUrl": null,
     "status": "pending",
     "approvedAt": null,
@@ -14309,9 +14989,14 @@
       "bandcamp": "https://bandcamp.com/search?q=Haruspex%20Palace%20Haruspex%20Palace&item_type=a",
       "spotify": "https://open.spotify.com/search/Haruspex%20Palace%20Haruspex%20Palace",
       "soundcloud": "https://soundcloud.com/search?q=Haruspex%20Palace%20Haruspex%20Palace",
-      "youtube": "https://www.youtube.com/results?search_query=Haruspex%20Palace%20Haruspex%20Palace"
+      "youtube": "https://www.youtube.com/results?search_query=Haruspex%20Palace%20Haruspex%20Palace",
+      "apple": "https://music.apple.com/us/album/haruspex-palace/1743248971?uo=4"
     },
-    "embed": null,
+    "embed": {
+      "provider": "apple",
+      "src": "https://embed.music.apple.com/us/album/1743248971?theme=light",
+      "height": 450
+    },
     "musicVideoUrl": null,
     "status": "pending",
     "approvedAt": null,
@@ -14337,9 +15022,14 @@
       "bandcamp": "https://bandcamp.com/search?q=GB%20(31)%20Gusse%20Music&item_type=a",
       "spotify": "https://open.spotify.com/search/GB%20(31)%20Gusse%20Music",
       "soundcloud": "https://soundcloud.com/search?q=GB%20(31)%20Gusse%20Music",
-      "youtube": "https://www.youtube.com/results?search_query=GB%20(31)%20Gusse%20Music"
+      "youtube": "https://www.youtube.com/results?search_query=GB%20(31)%20Gusse%20Music",
+      "apple": "https://music.apple.com/us/album/gusse-music/1745519528?uo=4"
     },
-    "embed": null,
+    "embed": {
+      "provider": "apple",
+      "src": "https://embed.music.apple.com/us/album/1745519528?theme=light",
+      "height": 450
+    },
     "musicVideoUrl": null,
     "status": "pending",
     "approvedAt": null,
@@ -14365,9 +15055,14 @@
       "bandcamp": "https://bandcamp.com/search?q=Hysterical%20Love%20Project%20Lashes&item_type=a",
       "spotify": "https://open.spotify.com/search/Hysterical%20Love%20Project%20Lashes",
       "soundcloud": "https://soundcloud.com/search?q=Hysterical%20Love%20Project%20Lashes",
-      "youtube": "https://www.youtube.com/results?search_query=Hysterical%20Love%20Project%20Lashes"
+      "youtube": "https://www.youtube.com/results?search_query=Hysterical%20Love%20Project%20Lashes",
+      "apple": "https://music.apple.com/us/album/lashes/1720756491?uo=4"
     },
-    "embed": null,
+    "embed": {
+      "provider": "apple",
+      "src": "https://embed.music.apple.com/us/album/1720756491?theme=light",
+      "height": 450
+    },
     "musicVideoUrl": null,
     "status": "pending",
     "approvedAt": null,
@@ -14393,9 +15088,14 @@
       "bandcamp": "https://bandcamp.com/search?q=Stacks%20(3)%20Want&item_type=a",
       "spotify": "https://open.spotify.com/search/Stacks%20(3)%20Want",
       "soundcloud": "https://soundcloud.com/search?q=Stacks%20(3)%20Want",
-      "youtube": "https://www.youtube.com/results?search_query=Stacks%20(3)%20Want"
+      "youtube": "https://www.youtube.com/results?search_query=Stacks%20(3)%20Want",
+      "apple": "https://music.apple.com/us/album/want/1739172780?uo=4"
     },
-    "embed": null,
+    "embed": {
+      "provider": "apple",
+      "src": "https://embed.music.apple.com/us/album/1739172780?theme=light",
+      "height": 450
+    },
     "musicVideoUrl": null,
     "status": "pending",
     "approvedAt": null,
@@ -14421,9 +15121,14 @@
       "bandcamp": "https://bandcamp.com/search?q=Hotspring%20Apodelia&item_type=a",
       "spotify": "https://open.spotify.com/search/Hotspring%20Apodelia",
       "soundcloud": "https://soundcloud.com/search?q=Hotspring%20Apodelia",
-      "youtube": "https://www.youtube.com/results?search_query=Hotspring%20Apodelia"
+      "youtube": "https://www.youtube.com/results?search_query=Hotspring%20Apodelia",
+      "apple": "https://music.apple.com/us/album/apodelia/1738839470?uo=4"
     },
-    "embed": null,
+    "embed": {
+      "provider": "apple",
+      "src": "https://embed.music.apple.com/us/album/1738839470?theme=light",
+      "height": 450
+    },
     "musicVideoUrl": null,
     "status": "pending",
     "approvedAt": null,
@@ -14449,9 +15154,14 @@
       "bandcamp": "https://bandcamp.com/search?q=Absis%20Fenix%20E.P.&item_type=a",
       "spotify": "https://open.spotify.com/search/Absis%20Fenix%20E.P.",
       "soundcloud": "https://soundcloud.com/search?q=Absis%20Fenix%20E.P.",
-      "youtube": "https://www.youtube.com/results?search_query=Absis%20Fenix%20E.P."
+      "youtube": "https://www.youtube.com/results?search_query=Absis%20Fenix%20E.P.",
+      "deezer": "https://www.deezer.com/album/569665641"
     },
-    "embed": null,
+    "embed": {
+      "provider": "deezer",
+      "src": "https://widget.deezer.com/widget/light/album/569665641",
+      "height": 300
+    },
     "musicVideoUrl": null,
     "status": "pending",
     "approvedAt": null,
@@ -14477,9 +15187,14 @@
       "bandcamp": "https://bandcamp.com/search?q=Earl%20Sweatshirt%20Doris&item_type=a",
       "spotify": "https://open.spotify.com/search/Earl%20Sweatshirt%20Doris",
       "soundcloud": "https://soundcloud.com/search?q=Earl%20Sweatshirt%20Doris",
-      "youtube": "https://www.youtube.com/results?search_query=Earl%20Sweatshirt%20Doris"
+      "youtube": "https://www.youtube.com/results?search_query=Earl%20Sweatshirt%20Doris",
+      "deezer": "https://www.deezer.com/album/6866562"
     },
-    "embed": null,
+    "embed": {
+      "provider": "deezer",
+      "src": "https://widget.deezer.com/widget/light/album/6866562",
+      "height": 300
+    },
     "musicVideoUrl": null,
     "status": "pending",
     "approvedAt": null,
@@ -14570,12 +15285,16 @@
       "electronic"
     ],
     "links": {
-      "bandcamp": "https://bandcamp.com/search?q=Naemi%20Dust%20Devil&item_type=a",
+      "bandcamp": "https://naemi.bandcamp.com/album/dust-devil",
       "spotify": "https://open.spotify.com/search/Naemi%20Dust%20Devil",
       "soundcloud": "https://soundcloud.com/search?q=Naemi%20Dust%20Devil",
       "youtube": "https://www.youtube.com/results?search_query=Naemi%20Dust%20Devil"
     },
-    "embed": null,
+    "embed": {
+      "provider": "bandcamp",
+      "src": "https://bandcamp.com/EmbeddedPlayer/album=325901528/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=true/artwork=small/transparent=true/",
+      "height": 470
+    },
     "musicVideoUrl": null,
     "status": "pending",
     "approvedAt": null,
@@ -14635,9 +15354,14 @@
       "bandcamp": "https://bandcamp.com/search?q=Nikolaienko%20Meta&item_type=a",
       "spotify": "https://open.spotify.com/search/Nikolaienko%20Meta",
       "soundcloud": "https://soundcloud.com/search?q=Nikolaienko%20Meta",
-      "youtube": "https://www.youtube.com/results?search_query=Nikolaienko%20Meta"
+      "youtube": "https://www.youtube.com/results?search_query=Nikolaienko%20Meta",
+      "apple": "https://music.apple.com/us/album/meta-vi-single/1743066417?uo=4"
     },
-    "embed": null,
+    "embed": {
+      "provider": "apple",
+      "src": "https://embed.music.apple.com/us/album/1743066417?theme=light",
+      "height": 450
+    },
     "musicVideoUrl": null,
     "status": "pending",
     "approvedAt": null,
@@ -14663,9 +15387,14 @@
       "bandcamp": "https://bandcamp.com/search?q=Ulla*%20%26%20Ultrafog%20It%20Means%20A%20Lot&item_type=a",
       "spotify": "https://open.spotify.com/search/Ulla*%20%26%20Ultrafog%20It%20Means%20A%20Lot",
       "soundcloud": "https://soundcloud.com/search?q=Ulla*%20%26%20Ultrafog%20It%20Means%20A%20Lot",
-      "youtube": "https://www.youtube.com/results?search_query=Ulla*%20%26%20Ultrafog%20It%20Means%20A%20Lot"
+      "youtube": "https://www.youtube.com/results?search_query=Ulla*%20%26%20Ultrafog%20It%20Means%20A%20Lot",
+      "apple": "https://music.apple.com/us/album/it-means-a-lot/1738932960?uo=4"
     },
-    "embed": null,
+    "embed": {
+      "provider": "apple",
+      "src": "https://embed.music.apple.com/us/album/1738932960?theme=light",
+      "height": 450
+    },
     "musicVideoUrl": null,
     "status": "pending",
     "approvedAt": null,
@@ -14725,9 +15454,14 @@
       "bandcamp": "https://bandcamp.com/search?q=NUG%20(4)%20Bong%20Boat&item_type=a",
       "spotify": "https://open.spotify.com/search/NUG%20(4)%20Bong%20Boat",
       "soundcloud": "https://soundcloud.com/search?q=NUG%20(4)%20Bong%20Boat",
-      "youtube": "https://www.youtube.com/results?search_query=NUG%20(4)%20Bong%20Boat"
+      "youtube": "https://www.youtube.com/results?search_query=NUG%20(4)%20Bong%20Boat",
+      "apple": "https://music.apple.com/us/album/bong-boat/1743290295?uo=4"
     },
-    "embed": null,
+    "embed": {
+      "provider": "apple",
+      "src": "https://embed.music.apple.com/us/album/1743290295?theme=light",
+      "height": 450
+    },
     "musicVideoUrl": null,
     "status": "pending",
     "approvedAt": null,
@@ -14753,9 +15487,14 @@
       "bandcamp": "https://bandcamp.com/search?q=Oro%20Azul%20Water%20Seeds&item_type=a",
       "spotify": "https://open.spotify.com/search/Oro%20Azul%20Water%20Seeds",
       "soundcloud": "https://soundcloud.com/search?q=Oro%20Azul%20Water%20Seeds",
-      "youtube": "https://www.youtube.com/results?search_query=Oro%20Azul%20Water%20Seeds"
+      "youtube": "https://www.youtube.com/results?search_query=Oro%20Azul%20Water%20Seeds",
+      "apple": "https://music.apple.com/us/album/water-seeds-ep/1730408799?uo=4"
     },
-    "embed": null,
+    "embed": {
+      "provider": "apple",
+      "src": "https://embed.music.apple.com/us/album/1730408799?theme=light",
+      "height": 450
+    },
     "musicVideoUrl": null,
     "status": "pending",
     "approvedAt": null,
@@ -14815,9 +15554,14 @@
       "bandcamp": "https://bandcamp.com/search?q=Xenia%20Reaper%20Luvaphy&item_type=a",
       "spotify": "https://open.spotify.com/search/Xenia%20Reaper%20Luvaphy",
       "soundcloud": "https://soundcloud.com/search?q=Xenia%20Reaper%20Luvaphy",
-      "youtube": "https://www.youtube.com/results?search_query=Xenia%20Reaper%20Luvaphy"
+      "youtube": "https://www.youtube.com/results?search_query=Xenia%20Reaper%20Luvaphy",
+      "apple": "https://music.apple.com/us/album/luvaphy/1732929965?uo=4"
     },
-    "embed": null,
+    "embed": {
+      "provider": "apple",
+      "src": "https://embed.music.apple.com/us/album/1732929965?theme=light",
+      "height": 450
+    },
     "musicVideoUrl": null,
     "status": "pending",
     "approvedAt": null,
@@ -14877,9 +15621,14 @@
       "bandcamp": "https://bandcamp.com/search?q=Kamil%20Dossar%20Third%20Installment%20%2F%20Silk%20Examples&item_type=a",
       "spotify": "https://open.spotify.com/search/Kamil%20Dossar%20Third%20Installment%20%2F%20Silk%20Examples",
       "soundcloud": "https://soundcloud.com/search?q=Kamil%20Dossar%20Third%20Installment%20%2F%20Silk%20Examples",
-      "youtube": "https://www.youtube.com/results?search_query=Kamil%20Dossar%20Third%20Installment%20%2F%20Silk%20Examples"
+      "youtube": "https://www.youtube.com/results?search_query=Kamil%20Dossar%20Third%20Installment%20%2F%20Silk%20Examples",
+      "apple": "https://music.apple.com/us/album/third-installment-silk-examples-single/1732989713?uo=4"
     },
-    "embed": null,
+    "embed": {
+      "provider": "apple",
+      "src": "https://embed.music.apple.com/us/album/1732989713?theme=light",
+      "height": 450
+    },
     "musicVideoUrl": null,
     "status": "pending",
     "approvedAt": null,
@@ -14905,9 +15654,14 @@
       "bandcamp": "https://bandcamp.com/search?q=Kevin%20(259)%20Laundry&item_type=a",
       "spotify": "https://open.spotify.com/search/Kevin%20(259)%20Laundry",
       "soundcloud": "https://soundcloud.com/search?q=Kevin%20(259)%20Laundry",
-      "youtube": "https://www.youtube.com/results?search_query=Kevin%20(259)%20Laundry"
+      "youtube": "https://www.youtube.com/results?search_query=Kevin%20(259)%20Laundry",
+      "apple": "https://music.apple.com/us/album/laundry-feat-ben-bondy/1736168570?uo=4"
     },
-    "embed": null,
+    "embed": {
+      "provider": "apple",
+      "src": "https://embed.music.apple.com/us/album/1736168570?theme=light",
+      "height": 450
+    },
     "musicVideoUrl": null,
     "status": "pending",
     "approvedAt": null,
@@ -14995,9 +15749,14 @@
       "bandcamp": "https://bandcamp.com/search?q=Sta%C5%9B%20Czekalski%20Przygody&item_type=a",
       "spotify": "https://open.spotify.com/search/Sta%C5%9B%20Czekalski%20Przygody",
       "soundcloud": "https://soundcloud.com/search?q=Sta%C5%9B%20Czekalski%20Przygody",
-      "youtube": "https://www.youtube.com/results?search_query=Sta%C5%9B%20Czekalski%20Przygody"
+      "youtube": "https://www.youtube.com/results?search_query=Sta%C5%9B%20Czekalski%20Przygody",
+      "apple": "https://music.apple.com/us/album/przygody/1728527846?uo=4"
     },
-    "embed": null,
+    "embed": {
+      "provider": "apple",
+      "src": "https://embed.music.apple.com/us/album/1728527846?theme=light",
+      "height": 450
+    },
     "musicVideoUrl": null,
     "status": "pending",
     "approvedAt": null,
@@ -15023,9 +15782,14 @@
       "bandcamp": "https://bandcamp.com/search?q=Dungeon%20Soft%20Abstract%20Narcissist&item_type=a",
       "spotify": "https://open.spotify.com/search/Dungeon%20Soft%20Abstract%20Narcissist",
       "soundcloud": "https://soundcloud.com/search?q=Dungeon%20Soft%20Abstract%20Narcissist",
-      "youtube": "https://www.youtube.com/results?search_query=Dungeon%20Soft%20Abstract%20Narcissist"
+      "youtube": "https://www.youtube.com/results?search_query=Dungeon%20Soft%20Abstract%20Narcissist",
+      "apple": "https://music.apple.com/us/album/abstract-narcissist-ep/1732451073?uo=4"
     },
-    "embed": null,
+    "embed": {
+      "provider": "apple",
+      "src": "https://embed.music.apple.com/us/album/1732451073?theme=light",
+      "height": 450
+    },
     "musicVideoUrl": null,
     "status": "pending",
     "approvedAt": null,
@@ -15114,9 +15878,14 @@
       "bandcamp": "https://bandcamp.com/search?q=Earl%20Sweatshirt%20%26%20The%20Alchemist%20Voir%20Dire&item_type=a",
       "spotify": "https://open.spotify.com/search/Earl%20Sweatshirt%20%26%20The%20Alchemist%20Voir%20Dire",
       "soundcloud": "https://soundcloud.com/search?q=Earl%20Sweatshirt%20%26%20The%20Alchemist%20Voir%20Dire",
-      "youtube": "https://www.youtube.com/results?search_query=Earl%20Sweatshirt%20%26%20The%20Alchemist%20Voir%20Dire"
+      "youtube": "https://www.youtube.com/results?search_query=Earl%20Sweatshirt%20%26%20The%20Alchemist%20Voir%20Dire",
+      "deezer": "https://www.deezer.com/album/485684855"
     },
-    "embed": null,
+    "embed": {
+      "provider": "deezer",
+      "src": "https://widget.deezer.com/widget/light/album/485684855",
+      "height": 300
+    },
     "musicVideoUrl": null,
     "status": "pending",
     "approvedAt": null,
@@ -15176,9 +15945,14 @@
       "bandcamp": "https://bandcamp.com/search?q=Trystero%20Sfumare%20e%20Vedere&item_type=a",
       "spotify": "https://open.spotify.com/search/Trystero%20Sfumare%20e%20Vedere",
       "soundcloud": "https://soundcloud.com/search?q=Trystero%20Sfumare%20e%20Vedere",
-      "youtube": "https://www.youtube.com/results?search_query=Trystero%20Sfumare%20e%20Vedere"
+      "youtube": "https://www.youtube.com/results?search_query=Trystero%20Sfumare%20e%20Vedere",
+      "apple": "https://music.apple.com/us/album/sfumare-e-vedere/1718971605?uo=4"
     },
-    "embed": null,
+    "embed": {
+      "provider": "apple",
+      "src": "https://embed.music.apple.com/us/album/1718971605?theme=light",
+      "height": 450
+    },
     "musicVideoUrl": null,
     "status": "pending",
     "approvedAt": null,
@@ -15267,9 +16041,14 @@
       "bandcamp": "https://bandcamp.com/search?q=Lamina%20(4)%20Olas%20Curativas&item_type=a",
       "spotify": "https://open.spotify.com/search/Lamina%20(4)%20Olas%20Curativas",
       "soundcloud": "https://soundcloud.com/search?q=Lamina%20(4)%20Olas%20Curativas",
-      "youtube": "https://www.youtube.com/results?search_query=Lamina%20(4)%20Olas%20Curativas"
+      "youtube": "https://www.youtube.com/results?search_query=Lamina%20(4)%20Olas%20Curativas",
+      "deezer": "https://www.deezer.com/album/654033911"
     },
-    "embed": null,
+    "embed": {
+      "provider": "deezer",
+      "src": "https://widget.deezer.com/widget/light/album/654033911",
+      "height": 300
+    },
     "musicVideoUrl": null,
     "status": "pending",
     "approvedAt": null,
@@ -15295,9 +16074,14 @@
       "bandcamp": "https://bandcamp.com/search?q=Hennadii%20Boichenko%20Sea%20Songs&item_type=a",
       "spotify": "https://open.spotify.com/search/Hennadii%20Boichenko%20Sea%20Songs",
       "soundcloud": "https://soundcloud.com/search?q=Hennadii%20Boichenko%20Sea%20Songs",
-      "youtube": "https://www.youtube.com/results?search_query=Hennadii%20Boichenko%20Sea%20Songs"
+      "youtube": "https://www.youtube.com/results?search_query=Hennadii%20Boichenko%20Sea%20Songs",
+      "apple": "https://music.apple.com/us/album/sea-songs-ep/1730104506?uo=4"
     },
-    "embed": null,
+    "embed": {
+      "provider": "apple",
+      "src": "https://embed.music.apple.com/us/album/1730104506?theme=light",
+      "height": 450
+    },
     "musicVideoUrl": null,
     "status": "pending",
     "approvedAt": null,
@@ -15323,9 +16107,14 @@
       "bandcamp": "https://bandcamp.com/search?q=Jonny%20From%20Space%20Back%20Then%20I%20Didn't%20But%20Now%20I%20Do&item_type=a",
       "spotify": "https://open.spotify.com/search/Jonny%20From%20Space%20Back%20Then%20I%20Didn't%20But%20Now%20I%20Do",
       "soundcloud": "https://soundcloud.com/search?q=Jonny%20From%20Space%20Back%20Then%20I%20Didn't%20But%20Now%20I%20Do",
-      "youtube": "https://www.youtube.com/results?search_query=Jonny%20From%20Space%20Back%20Then%20I%20Didn't%20But%20Now%20I%20Do"
+      "youtube": "https://www.youtube.com/results?search_query=Jonny%20From%20Space%20Back%20Then%20I%20Didn't%20But%20Now%20I%20Do",
+      "apple": "https://music.apple.com/us/album/back-then-i-didnt-but-now-i-do/1721534297?uo=4"
     },
-    "embed": null,
+    "embed": {
+      "provider": "apple",
+      "src": "https://embed.music.apple.com/us/album/1721534297?theme=light",
+      "height": 450
+    },
     "musicVideoUrl": null,
     "status": "pending",
     "approvedAt": null,
