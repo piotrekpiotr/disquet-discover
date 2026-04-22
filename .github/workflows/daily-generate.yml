@@ -52,6 +52,13 @@ jobs:
         # artists we already track (Purelink, Rainy Miller, etc.). Runs first
         # so the high-signal same-day hits claim pool slots before the
         # Discogs label pass (which mostly surfaces catalogue lag).
+        #
+        # `id` lets later steps read the exit code so we can loudly flag a
+        # run where sync-itunes aborted (the script exits 2 if >30% of
+        # artists hit a transient iTunes block). `continue-on-error` keeps
+        # the rest of the pipeline running so at least sync-labels + the
+        # commit still ship whatever they can.
+        id: sync_itunes
         continue-on-error: true
         run: node scripts/sync-itunes.mjs
 
@@ -111,4 +118,24 @@ jobs:
             git push
           else
             echo "No new records this run - nothing to commit."
+          fi
+
+      # Run-health summary posted to the Actions page. The curator can see at
+      # a glance whether iTunes rate-limited the runner (a key failure mode
+      # that silently dropped a whole day of releases on 2026-04-22). If the
+      # iTunes step aborted (exit 2) this job also fails so the curator gets
+      # an email from GitHub and knows to re-run manually.
+      - name: Run-health summary
+        if: always()
+        run: |
+          echo "## Daily pool run summary" >> "$GITHUB_STEP_SUMMARY"
+          echo "" >> "$GITHUB_STEP_SUMMARY"
+          echo "- iTunes sync outcome: \`${{ steps.sync_itunes.outcome }}\`" >> "$GITHUB_STEP_SUMMARY"
+          echo "" >> "$GITHUB_STEP_SUMMARY"
+          if [ "${{ steps.sync_itunes.outcome }}" = "failure" ]; then
+            echo "⚠️  iTunes sync aborted or exited non-zero. This usually means" >> "$GITHUB_STEP_SUMMARY"
+            echo "the runner IP was throttled by Apple. Re-run the workflow" >> "$GITHUB_STEP_SUMMARY"
+            echo "(likely a different IP) or run \`node scripts/sync-itunes.mjs\`" >> "$GITHUB_STEP_SUMMARY"
+            echo "locally from your Mac and push the result." >> "$GITHUB_STEP_SUMMARY"
+            exit 1
           fi

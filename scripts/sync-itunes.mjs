@@ -133,6 +133,30 @@ function searchUrls(artist, title) {
   };
 }
 
+/**
+ * Call the iTunes search API with retry + backoff.
+ *
+ * Why retry matters: on 2026-04-22 a workflow run silently produced zero
+ * new pending records despite Purelink, Cinna Peyghamy, and ~10 other
+ * tracked artists all shipping brand-new releases. Running the same
+ * script locally the same hour found every one of them. The most likely
+ * explanation is that GitHub-hosted runner IPs hit a transient iTunes
+ * rate-limit / 403 burst, and the old `if (!res.ok) return []` swallowed
+ * every failed artist without a peep — the workflow's `continue-on-error`
+ * then masked the 249-for-249 failure. End result: a whole day of
+ * releases missed from the admin panel.
+ *
+ * Hardening:
+ *   - Log every non-200 so the Actions log has a paper trail.
+ *   - Retry up to RETRIES times with exponential backoff + jitter.
+ *     iTunes doesn't publish a rate cap, but anecdotal reports put it
+ *     at ~20 req/sec per IP; we pace at 200ms and give failures space.
+ *   - On final failure, throw rather than silently return []. The caller
+ *     wraps in try/catch and continues to the next artist, but the
+ *     failure is counted and printed in the run summary so a catastrophic
+ *     pass-through is visible instead of invisible.
+ */
+const RETRIES = 3;
 async function lookup(artist) {
   // attribute=artistTerm keeps the search scoped to the artist field, not
   // a fuzzy match across track/album titles. Crucial for short names like
@@ -140,23 +164,35 @@ async function lookup(artist) {
   //
   // entity=album returns RELEASE collections — LPs, EPs, AND singles-as-
   // collections (titled e.g. "Barrons Hotel - Single"). That's the canonical
-  // "a new release came out" unit. Earlier versions of this script ran a
-  // second entity=musicTrack pass to catch singles, but musicTrack returns
-  // individual song records with different IDs/URLs, and iTunes catalogues
-  // most new singles as collections already. The two passes were actually
-  // creating a hole where singles fell through: the album pass filtered
-  // them out, the track pass couldn't match them to release metadata.
-  // Single pass, keep everything — simpler and catches every release type.
+  // "a new release came out" unit.
   const term = encodeURIComponent(artist);
   const url = `https://itunes.apple.com/search?term=${term}&entity=album&limit=25&media=music&attribute=artistTerm`;
-  try {
-    const res = await fetch(url, { headers: { "User-Agent": UA } });
-    if (!res.ok) return [];
-    const json = await res.json();
-    return Array.isArray(json.results) ? json.results : [];
-  } catch {
-    return [];
+  let lastErr = null;
+  for (let attempt = 1; attempt <= RETRIES; attempt++) {
+    try {
+      const res = await fetch(url, { headers: { "User-Agent": UA } });
+      if (res.ok) {
+        const json = await res.json();
+        return Array.isArray(json.results) ? json.results : [];
+      }
+      lastErr = new Error(`iTunes ${res.status} for ${artist}`);
+      // 403 / 429 / 5xx: back off and retry. Progressive: 0.6s, 1.8s, 5.4s
+      // + a little jitter to avoid synchronised retries across a batch.
+      const delay = 600 * Math.pow(3, attempt - 1) + Math.random() * 400;
+      console.log(
+        `  [retry ${attempt}/${RETRIES}] ${artist}: ${res.status}, waiting ${Math.round(delay)}ms`,
+      );
+      await new Promise((r) => setTimeout(r, delay));
+    } catch (e) {
+      lastErr = e;
+      const delay = 600 * Math.pow(3, attempt - 1) + Math.random() * 400;
+      console.log(
+        `  [retry ${attempt}/${RETRIES}] ${artist}: ${e.message}, waiting ${Math.round(delay)}ms`,
+      );
+      await new Promise((r) => setTimeout(r, delay));
+    }
   }
+  throw lastErr || new Error(`iTunes lookup failed for ${artist}`);
 }
 
 function normalizeArtist(a) {
@@ -223,13 +259,26 @@ async function main() {
 
   let addedTotal = 0;
   let hitCap = false;
+  // Track artists where the lookup hard-failed after retries, so we can
+  // surface the count in the run summary. A non-zero failure count is a
+  // loud signal that CI ran against a throttled IP and the run is
+  // suspect — far better than pretending all 249 artists simply had no
+  // new releases.
+  const lookupFailures = [];
 
   for (const artist of ARTISTS) {
     if (hitCap) break;
     let addedForArtist = 0;
     const newThisArtist = [];
 
-    const results = await lookup(artist);
+    let results;
+    try {
+      results = await lookup(artist);
+    } catch (e) {
+      lookupFailures.push({ artist, error: e.message });
+      console.log(`  ${artist}: LOOKUP FAILED after retries (${e.message})`);
+      continue;
+    }
     // Keep strict artist matches only; then dedupe by collectionId.
     const mine = results.filter((r) => matchesArtist(r, artist));
     const seen = new Set();
@@ -346,6 +395,33 @@ async function main() {
       (hitCap ? ` (capped at ${MAX_NEW_TOTAL})` : "") +
       `. Pool now ${items.length} total.`,
   );
+  if (lookupFailures.length > 0) {
+    console.log(
+      `[sync-itunes] WARNING: ${lookupFailures.length}/${ARTISTS.length} ` +
+        `artists failed lookup after retries:`,
+    );
+    for (const f of lookupFailures.slice(0, 20)) {
+      console.log(`   - ${f.artist}: ${f.error}`);
+    }
+    if (lookupFailures.length > 20) {
+      console.log(`   ...and ${lookupFailures.length - 20} more`);
+    }
+    // Catastrophic threshold: more than 30% of artists failed. Almost
+    // always this means the runner's IP got throttled/blocked by Apple
+    // and every subsequent artist is a false negative. Exit non-zero so
+    // the workflow's `continue-on-error` logs a red ✗ on the Actions
+    // page — the curator sees it on the next visit and can manually
+    // rerun from their Mac, which uses a residential IP that iTunes
+    // almost never rate-limits.
+    const failureRate = lookupFailures.length / ARTISTS.length;
+    if (failureRate > 0.3) {
+      console.error(
+        `[sync-itunes] ABORT: ${Math.round(failureRate * 100)}% of artists ` +
+          `failed lookup — treating the run as suspect. Exiting non-zero.`,
+      );
+      process.exit(2);
+    }
+  }
 }
 
 main().catch((e) => {

@@ -12,9 +12,18 @@ import { useState } from "react";
  *     double opt-in means the user still has to click a link in their
  *     inbox before they're subscribed - the copy reflects that honestly.
  *   - On failure we show a plain inline error (no red flash, no modal).
+ *
+ * GDPR / RODO consent:
+ *   The dedicated checkbox below the email field is the site's "clear
+ *   affirmative action" per Art. 4(11) GDPR. It is NOT pre-checked
+ *   (pre-ticked boxes are explicitly disallowed under the regulation —
+ *   see the CJEU Planet49 ruling, C-673/17) and is a hard requirement to
+ *   submit. Submitting the form records that consent by the act of POST;
+ *   Buttondown's confirmation click is the double-opt-in receipt.
  */
 export function NewsletterSignup() {
   const [email, setEmail] = useState("");
+  const [consent, setConsent] = useState(false);
   const [state, setState] = useState<"idle" | "submitting" | "ok" | "error">(
     "idle",
   );
@@ -24,6 +33,15 @@ export function NewsletterSignup() {
     e.preventDefault();
     const form = e.currentTarget;
     const trap = (form.elements.namedItem("_trap") as HTMLInputElement)?.value || "";
+    // Defensive: the checkbox has `required`, but also guard here in case
+    // a browser extension bypasses HTML validation.
+    if (!consent) {
+      setErrMsg(
+        "Please tick the consent box so we can send you the newsletter.",
+      );
+      setState("error");
+      return;
+    }
     setState("submitting");
     setErrMsg(null);
     try {
@@ -114,12 +132,50 @@ export function NewsletterSignup() {
         />
         <button
           type="submit"
-          disabled={state === "submitting"}
-          className="border border-ink px-3 py-1.5 hover:bg-ink hover:text-paper disabled:opacity-50"
+          disabled={state === "submitting" || !consent}
+          className="border border-ink px-3 py-1.5 hover:bg-ink hover:text-paper disabled:opacity-50 disabled:cursor-not-allowed"
         >
           {state === "submitting" ? "..." : "Subscribe"}
         </button>
       </div>
+
+      {/*
+        GDPR / RODO consent. Required, never pre-checked (CJEU Planet49
+        C-673/17 — pre-ticked boxes don't meet "unambiguous indication of
+        the data subject's wishes"). Links to the privacy policy so the
+        consent is informed. Kept visually subordinate to the email input
+        so the form reads as one unit, not two steps.
+      */}
+      <label className="flex items-start gap-2 normal-case tracking-normal font-body text-[11px] leading-[1.45] text-mute sm:justify-end sm:text-right max-w-xs sm:ml-auto">
+        <input
+          type="checkbox"
+          checked={consent}
+          onChange={(e) => setConsent(e.target.checked)}
+          required
+          aria-describedby="newsletter-consent-copy"
+          className="mt-[3px] accent-ink flex-shrink-0"
+        />
+        <span id="newsletter-consent-copy">
+          I agree to receive the weekly newsletter and to my email being
+          stored by{" "}
+          <a
+            href="https://buttondown.com"
+            target="_blank"
+            rel="noreferrer noopener"
+            className="underline underline-offset-2 hover:text-ink"
+          >
+            Buttondown
+          </a>{" "}
+          for that purpose. See the{" "}
+          <a
+            href="/privacy"
+            className="underline underline-offset-2 hover:text-ink"
+          >
+            privacy policy
+          </a>
+          .
+        </span>
+      </label>
 
       {errMsg && (
         <div className="text-signal normal-case tracking-normal font-body text-[12px]">

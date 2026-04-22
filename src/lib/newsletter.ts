@@ -6,8 +6,14 @@
  * Why Buttondown:
  *   - Free up to 100 subs, $9/mo past that. Matches the editorial tone.
  *   - JSON API with a simple "one send at a time" model.
- *   - Double opt-in is opt-in at the account level; when enabled the API
- *     send on create auto-sends the confirmation mail.
+ *   - Double opt-in via the API: create the subscriber with
+ *     `type: "unactivated"` and Buttondown ships the confirmation email
+ *     automatically. It flips the record to `regular` when the recipient
+ *     clicks the link. (The account-level "require double opt-in" toggle
+ *     only applies to Buttondown-hosted signup pages, NOT API calls, so
+ *     we have to set the type explicitly or no confirmation ever goes
+ *     out — this was the root cause of the "I never got an email" bug
+ *     on launch.)
  *   - Appends the `List-Unsubscribe` + `List-Unsubscribe-Post` headers
  *     automatically and provides `{{unsubscribe_url}}` as a template var,
  *     so the emails we build only need to interpolate that string.
@@ -84,23 +90,52 @@ async function buttondown<T = unknown>(
  * Add a subscriber. Buttondown's `POST /subscribers` returns 201 on new,
  * 200 on idempotent re-add. We set `notes` to a timestamp so the admin can
  * see when each subscription started when reviewing on Buttondown's UI.
+ *
+ * `type: "unactivated"` is what triggers Buttondown to send the double
+ * opt-in confirmation email. The subscriber stays unactivated (won't
+ * receive any newsletter sends) until they click the confirmation link,
+ * at which point Buttondown flips them to `regular`. If you set type to
+ * `regular` directly, Buttondown treats the subscriber as already
+ * confirmed and never mails them — which is what silently broke the
+ * launch-day signup form.
+ *
+ * 400 responses from Buttondown often mean "already a subscriber" — we
+ * surface those upstream as errors, but the API route treats them as a
+ * generic upstream failure so we don't leak membership state.
  */
 export async function subscribe(email: string): Promise<void> {
   const payload = {
     email_address: email,
     tags: [SUBSCRIBER_TAG],
-    // "regular" is the default; stated explicitly here for clarity.
-    type: "regular",
+    type: "unactivated",
     notes: `signup:${new Date().toISOString()}`,
   };
   if (!apiKey()) {
     await devEcho("subscribe", payload);
     return;
   }
-  await buttondown("/subscribers", {
+  // Hand-rolled call (not `buttondown()`) so we can inspect the 400 body
+  // and tell "already subscribed" apart from "real validation error".
+  // Buttondown returns 400 with code "email_already_exists" (or a 201 with
+  // the existing record on newer API versions) when the address is already
+  // on file. We swallow that case so repeat submitters still see the
+  // "check your inbox" state, keeping the endpoint non-enumerable.
+  const res = await fetch(`${API_BASE}/subscribers`, {
     method: "POST",
+    headers: {
+      "content-type": "application/json",
+      Authorization: `Token ${apiKey()}`,
+    },
     body: JSON.stringify(payload),
   });
+  if (res.ok) return;
+  const text = await res.text();
+  if (res.status === 400 && /already|exists|duplicate/i.test(text)) {
+    // Treat "already on the list" as success; Buttondown won't resend a
+    // confirmation email to an already-activated subscriber anyway.
+    return;
+  }
+  throw new Error(`Buttondown ${res.status}: ${text.slice(0, 300)}`);
 }
 
 /**

@@ -1,5 +1,243 @@
 [
   {
+    "id": "ital-tek-mind-abandon",
+    "type": "album",
+    "artist": "Ital Tek",
+    "title": "Mind Abandon",
+    "label": "Planet Mu",
+    "releaseDate": "2026-05-15",
+    "description": "",
+    "tags": [
+      "electronic"
+    ],
+    "links": {
+      "apple": "https://music.apple.com/us/album/mind-abandon/1882797733",
+      "bandcamp": "https://bandcamp.com/search?q=Ital%20Tek%20Mind%20Abandon&item_type=a",
+      "spotify": "https://open.spotify.com/search/Ital%20Tek%20Mind%20Abandon",
+      "soundcloud": "https://soundcloud.com/search?q=Ital%20Tek%20Mind%20Abandon",
+      "youtube": "https://www.youtube.com/results?search_query=Ital%20Tek%20Mind%20Abandon"
+    },
+    "embed": {
+      "provider": "apple",
+      "src": "https://embed.music.apple.com/us/album/1882797733?theme=light",
+      "height": 450
+    },
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/77/fa/42/77fa42bf-bb92-48b1-ba32-f9769bd48b8c/124374.jpg/600x600bb.jpg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
+    "id": "olof-dreijer-loud-bloom",
+    "type": "album",
+    "artist": "Olof Dreijer",
+    "title": "Loud Bloom",
+    "label": "Rabid Records under exclusive license to dh2",
+    "releaseDate": "2026-05-08",
+    "description": "",
+    "tags": [
+      "electronic"
+    ],
+    "links": {
+      "apple": "https://music.apple.com/us/album/loud-bloom/1875081346",
+      "bandcamp": "https://bandcamp.com/search?q=Olof%20Dreijer%20Loud%20Bloom&item_type=a",
+      "spotify": "https://open.spotify.com/search/Olof%20Dreijer%20Loud%20Bloom",
+      "soundcloud": "https://soundcloud.com/search?q=Olof%20Dreijer%20Loud%20Bloom",
+      "youtube": "https://www.youtube.com/results?search_query=Olof%20Dreijer%20Loud%20Bloom"
+    },
+    "embed": {
+      "provider": "apple",
+      "src": "https://embed.music.apple.com/us/album/1875081346?theme=light",
+      "height": 450
+    },
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/bd/ab/69/bdab6922-7448-84e2-5000-0fcbd3eb6c90/198704994739_Cover.jpg/600x600bb.jpg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
+    "id": "heith-tarawangsawelas-duori",
+    "type": "album",
+    "artist": "Heith & Tarawangsawelas",
+    "title": "Duori",
+    "label": "Stroom",
+    "releaseDate": "2026-05-05",
+    "description": "",
+    "tags": [
+      "worldwide"
+    ],
+    "links": {
+      "apple": "https://music.apple.com/us/album/duori/1884093561",
+      "bandcamp": "https://bandcamp.com/search?q=Heith%20%26%20Tarawangsawelas%20Duori&item_type=a",
+      "spotify": "https://open.spotify.com/search/Heith%20%26%20Tarawangsawelas%20Duori",
+      "soundcloud": "https://soundcloud.com/search?q=Heith%20%26%20Tarawangsawelas%20Duori",
+      "youtube": "https://www.youtube.com/results?search_query=Heith%20%26%20Tarawangsawelas%20Duori"
+    },
+    "embed": {
+      "provider": "apple",
+      "src": "https://embed.music.apple.com/us/album/1884093561?theme=light",
+      "height": 450
+    },
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/9c/85/90/9c859048-5439-32fb-c844-5d91cf8ebc29/820200576453.jpg/600x600bb.jpg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
+    "id": "smerz-spring-summer",
+    "type": "single",
+    "artist": "Smerz",
+    "title": "Spring summer",
+    "label": "Escho",
+    "releaseDate": "2026-04-22",
+    "description": "",
+    "tags": [
+      "alternative"
+    ],
+    "links": {
+      "apple": "https://music.apple.com/us/album/spring-summer-single/1889927288",
+      "bandcamp": "https://bandcamp.com/search?q=Smerz%20Spring%20summer&item_type=a",
+      "spotify": "https://open.spotify.com/search/Smerz%20Spring%20summer",
+      "soundcloud": "https://soundcloud.com/search?q=Smerz%20Spring%20summer",
+      "youtube": "https://www.youtube.com/results?search_query=Smerz%20Spring%20summer"
+    },
+    "embed": {
+      "provider": "apple",
+      "src": "https://embed.music.apple.com/us/album/1889927288?theme=light",
+      "height": 450
+    },
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/68/c9/df/68c9df42-1707-60c8-63eb-d6522a281c38/cover.jpg/600x600bb.jpg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
+    "id": "forest-swords-wasteman-original-motion-picture-soundtrack",
+    "type": "album",
+    "artist": "Forest Swords",
+    "title": "Wasteman (Original Motion Picture Soundtrack)",
+    "label": "Dense Truth",
+    "releaseDate": "2026-04-22",
+    "description": "",
+    "tags": [
+      "soundtrack"
+    ],
+    "links": {
+      "apple": "https://music.apple.com/us/album/wasteman-original-motion-picture-soundtrack/1893153091",
+      "bandcamp": "https://bandcamp.com/search?q=Forest%20Swords%20Wasteman%20(Original%20Motion%20Picture%20Soundtrack)&item_type=a",
+      "spotify": "https://open.spotify.com/search/Forest%20Swords%20Wasteman%20(Original%20Motion%20Picture%20Soundtrack)",
+      "soundcloud": "https://soundcloud.com/search?q=Forest%20Swords%20Wasteman%20(Original%20Motion%20Picture%20Soundtrack)",
+      "youtube": "https://www.youtube.com/results?search_query=Forest%20Swords%20Wasteman%20(Original%20Motion%20Picture%20Soundtrack)"
+    },
+    "embed": {
+      "provider": "apple",
+      "src": "https://embed.music.apple.com/us/album/1893153091?theme=light",
+      "height": 450
+    },
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/79/00/ee/7900ee9c-9924-5d8f-fd74-d052f34cc5d5/8721466551029.png/600x600bb.jpg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
+    "id": "purelink-rainy-miller-barrons-hotel-yellow-bones",
+    "type": "single",
+    "artist": "Purelink & Rainy Miller",
+    "title": "Barrons Hotel / Yellow Bones",
+    "label": "Fixed Abode",
+    "releaseDate": "2026-04-21",
+    "description": "",
+    "tags": [
+      "alternative"
+    ],
+    "links": {
+      "apple": "https://music.apple.com/us/album/barrons-hotel-yellow-bones-single/1889498440",
+      "bandcamp": "https://bandcamp.com/search?q=Purelink%20%26%20Rainy%20Miller%20Barrons%20Hotel%20%2F%20Yellow%20Bones&item_type=a",
+      "spotify": "https://open.spotify.com/search/Purelink%20%26%20Rainy%20Miller%20Barrons%20Hotel%20%2F%20Yellow%20Bones",
+      "soundcloud": "https://soundcloud.com/search?q=Purelink%20%26%20Rainy%20Miller%20Barrons%20Hotel%20%2F%20Yellow%20Bones",
+      "youtube": "https://www.youtube.com/results?search_query=Purelink%20%26%20Rainy%20Miller%20Barrons%20Hotel%20%2F%20Yellow%20Bones"
+    },
+    "embed": {
+      "provider": "apple",
+      "src": "https://embed.music.apple.com/us/album/1889498440?theme=light",
+      "height": 450
+    },
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/7b/87/a8/7b87a8df-7068-8ea2-fedf-fd8003bdf5d4/5060644138090.png/600x600bb.jpg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
+    "id": "cinna-peyghamy-zur",
+    "type": "single",
+    "artist": "Cinna Peyghamy",
+    "title": "Zur زور",
+    "label": "Other People, distributed by Stem",
+    "releaseDate": "2026-04-21",
+    "description": "",
+    "tags": [
+      "electronic"
+    ],
+    "links": {
+      "apple": "https://music.apple.com/us/album/zur-%D8%B2%D9%88%D8%B1-single/1892424114",
+      "bandcamp": "https://bandcamp.com/search?q=Cinna%20Peyghamy%20Zur%20%D8%B2%D9%88%D8%B1&item_type=a",
+      "spotify": "https://open.spotify.com/search/Cinna%20Peyghamy%20Zur%20%D8%B2%D9%88%D8%B1",
+      "soundcloud": "https://soundcloud.com/search?q=Cinna%20Peyghamy%20Zur%20%D8%B2%D9%88%D8%B1",
+      "youtube": "https://www.youtube.com/results?search_query=Cinna%20Peyghamy%20Zur%20%D8%B2%D9%88%D8%B1"
+    },
+    "embed": {
+      "provider": "apple",
+      "src": "https://embed.music.apple.com/us/album/1892424114?theme=light",
+      "height": 450
+    },
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/0f/29/db/0f29dbc8-ca45-5666-bf75-8da1ca953dc1/193436468039_OPpackshot.jpg/600x600bb.jpg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
     "id": "neil-young-the-chrome-hearts-as-time-explodes-live-album",
     "type": "album",
     "artist": "Neil Young & The Chrome Hearts",
@@ -287,6 +525,74 @@
     }
   },
   {
+    "id": "clark-relentless-opponent",
+    "type": "single",
+    "artist": "Clark",
+    "title": "Relentless Opponent",
+    "label": "Throttle Records Ltd",
+    "releaseDate": "2026-04-17",
+    "description": "",
+    "tags": [
+      "electronic"
+    ],
+    "links": {
+      "apple": "https://music.apple.com/us/album/relentless-opponent-single/1885892194",
+      "bandcamp": "https://bandcamp.com/search?q=Clark%20Relentless%20Opponent&item_type=a",
+      "spotify": "https://open.spotify.com/search/Clark%20Relentless%20Opponent",
+      "soundcloud": "https://soundcloud.com/search?q=Clark%20Relentless%20Opponent",
+      "youtube": "https://www.youtube.com/results?search_query=Clark%20Relentless%20Opponent"
+    },
+    "embed": {
+      "provider": "apple",
+      "src": "https://embed.music.apple.com/us/album/1885892194?theme=light",
+      "height": 450
+    },
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/5a/02/c0/5a02c0ad-86b5-e925-2ea2-3d844618abeb/3663729435606_cover.jpg/600x600bb.jpg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
+    "id": "ben-frost-palestine-36",
+    "type": "album",
+    "artist": "Ben Frost",
+    "title": "Palestine 36",
+    "label": "Invada Records",
+    "releaseDate": "2026-04-17",
+    "description": "",
+    "tags": [
+      "soundtrack"
+    ],
+    "links": {
+      "apple": "https://music.apple.com/us/album/palestine-36/1892088606",
+      "bandcamp": "https://bandcamp.com/search?q=Ben%20Frost%20Palestine%2036&item_type=a",
+      "spotify": "https://open.spotify.com/search/Ben%20Frost%20Palestine%2036",
+      "soundcloud": "https://soundcloud.com/search?q=Ben%20Frost%20Palestine%2036",
+      "youtube": "https://www.youtube.com/results?search_query=Ben%20Frost%20Palestine%2036"
+    },
+    "embed": {
+      "provider": "apple",
+      "src": "https://embed.music.apple.com/us/album/1892088606?theme=light",
+      "height": 450
+    },
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/07/ca/05/07ca0507-2150-1bf7-528a-7f2ca417a790/65229.jpg/600x600bb.jpg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
     "id": "h-lls-lucy-park-guerillaz",
     "type": "single",
     "artist": "H.LLS & Lucy Park",
@@ -353,6 +659,40 @@
       "fg": "#f2efe8",
       "motif": "disc"
     }
+  },
+  {
+    "id": "heith-tarawangsawelas-blue-kembang",
+    "type": "single",
+    "artist": "Heith & Tarawangsawelas",
+    "title": "Blue Kembang",
+    "label": "Stroom",
+    "releaseDate": "2026-04-14",
+    "description": "",
+    "tags": [
+      "worldwide"
+    ],
+    "links": {
+      "apple": "https://music.apple.com/us/album/blue-kembang-single/1884422787",
+      "bandcamp": "https://bandcamp.com/search?q=Heith%20%26%20Tarawangsawelas%20Blue%20Kembang&item_type=a",
+      "spotify": "https://open.spotify.com/search/Heith%20%26%20Tarawangsawelas%20Blue%20Kembang",
+      "soundcloud": "https://soundcloud.com/search?q=Heith%20%26%20Tarawangsawelas%20Blue%20Kembang",
+      "youtube": "https://www.youtube.com/results?search_query=Heith%20%26%20Tarawangsawelas%20Blue%20Kembang"
+    },
+    "embed": {
+      "provider": "apple",
+      "src": "https://embed.music.apple.com/us/album/1884422787?theme=light",
+      "height": 450
+    },
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/07/35/54/073554b5-7cc8-35e3-4abb-9eee41419fc0/820200559593.jpg/600x600bb.jpg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
   },
   {
     "id": "gustav-kemps-lonesome-for-a-storm",
@@ -755,6 +1095,74 @@
       "fg": "#f2efe8",
       "motif": "disc"
     }
+  },
+  {
+    "id": "rival-consoles-in-reverse-polygonia-remix",
+    "type": "single",
+    "artist": "Rival Consoles",
+    "title": "In Reverse (Polygonia Remix)",
+    "label": "Erased Tapes Records Ltd.",
+    "releaseDate": "2026-04-08",
+    "description": "",
+    "tags": [
+      "electronic"
+    ],
+    "links": {
+      "apple": "https://music.apple.com/us/album/in-reverse-polygonia-remix-single/1885892578",
+      "bandcamp": "https://bandcamp.com/search?q=Rival%20Consoles%20In%20Reverse%20(Polygonia%20Remix)&item_type=a",
+      "spotify": "https://open.spotify.com/search/Rival%20Consoles%20In%20Reverse%20(Polygonia%20Remix)",
+      "soundcloud": "https://soundcloud.com/search?q=Rival%20Consoles%20In%20Reverse%20(Polygonia%20Remix)",
+      "youtube": "https://www.youtube.com/results?search_query=Rival%20Consoles%20In%20Reverse%20(Polygonia%20Remix)"
+    },
+    "embed": {
+      "provider": "apple",
+      "src": "https://embed.music.apple.com/us/album/1885892578?theme=light",
+      "height": 450
+    },
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/c8/94/b4/c894b41f-18a4-0c37-2eeb-05d01991c3a5/3663729437471_cover.jpg/600x600bb.jpg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
+    "id": "olof-dreijer-plastic-camelia-laurel",
+    "type": "single",
+    "artist": "Olof Dreijer",
+    "title": "Plastic Camelia / Laurel",
+    "label": "Rabid Records under exclusive license to dh2",
+    "releaseDate": "2026-04-08",
+    "description": "",
+    "tags": [
+      "electronic"
+    ],
+    "links": {
+      "apple": "https://music.apple.com/us/album/plastic-camelia-laurel-single/1885876283",
+      "bandcamp": "https://bandcamp.com/search?q=Olof%20Dreijer%20Plastic%20Camelia%20%2F%20Laurel&item_type=a",
+      "spotify": "https://open.spotify.com/search/Olof%20Dreijer%20Plastic%20Camelia%20%2F%20Laurel",
+      "soundcloud": "https://soundcloud.com/search?q=Olof%20Dreijer%20Plastic%20Camelia%20%2F%20Laurel",
+      "youtube": "https://www.youtube.com/results?search_query=Olof%20Dreijer%20Plastic%20Camelia%20%2F%20Laurel"
+    },
+    "embed": {
+      "provider": "apple",
+      "src": "https://embed.music.apple.com/us/album/1885876283?theme=light",
+      "height": 450
+    },
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/8f/29/60/8f296013-520f-f95d-5226-f1f8eac7e2d1/823375065388_Cover.jpg/600x600bb.jpg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
   },
   {
     "id": "aphex-twin-selected-ambient-works-85-92",
