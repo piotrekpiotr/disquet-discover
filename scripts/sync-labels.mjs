@@ -24,10 +24,12 @@ const FILE = path.resolve("data/recommendations.json");
 const CANDIDATES_FILE = path.resolve("data/label-candidate-artists.json");
 const MIN_YEAR = 2024;
 const PER_LABEL_LIMIT = 2; // max new records to add per label per run
-// Hard cap on new pending records created per run. The curator can only
-// realistically vet ~10 records a day, so keep the pool small and high-signal
-// rather than flooding the admin panel.
-const MAX_NEW_TOTAL = 10;
+// Hard cap on new pending records created per run. Deliberately higher than
+// the per-day curator throughput — see the shuffle note below. Because we
+// shuffle the label order each run, the cap doesn't systematically starve
+// any particular label; any individual run might still hit the cap, but
+// over a week every label gets its fair share of attention.
+const MAX_NEW_TOTAL = Number(process.env.SYNC_LABELS_MAX_NEW || 25);
 const UA = "disquet-discover/1.0 +local";
 const TOKEN = process.env.DISCOGS_TOKEN || "";
 
@@ -170,9 +172,20 @@ async function main() {
     // first run, file doesn't exist yet
   }
 
+  // Shuffle label order each run. Without this, the static array order +
+  // MAX_NEW_TOTAL cap meant labels near the end (Other People, YUKU, ...)
+  // were almost never reached — the cap fired on the first 5–6 labels and
+  // everything else was silently skipped. A Fisher–Yates shuffle gives
+  // every label roughly equal odds of being visited over time.
+  const shuffled = [...LABELS];
+  for (let i = shuffled.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]];
+  }
+
   let addedTotal = 0;
   let hitCap = false;
-  for (const label of LABELS) {
+  for (const label of shuffled) {
     if (hitCap) break; // global cap already reached
     process.stdout.write(`${label}: `);
     let addedForThisLabel = 0;

@@ -257,6 +257,32 @@ export const ARTISTS = [
   "Pharoah Sanders",
   "DJ Plead",
   "Lyra Pramuk",
+
+  // Added 2026-04 - curator-requested expansion.
+  "aya",
+  "96 Back",
+  "Oli XL",
+  "Clock DVA",
+  "ex_libris",
+  "Richie Culver",
+  "Esdeekid",
+  "Jim Legxacy",
+  "Xexa",
+  "xtclvr",
+  "Klein",
+  "Hype Williams",
+  "ML Buch",
+  "Blood Orange",
+  "Oklou",
+  "Croatian Amor",
+  "Dijon",
+  "Matthew Herbert",
+  "Cinna Peyghamy",
+  "Ricardo Villalobos",
+  "fakemink",
+  "Tiga",
+  // "Susumu Yokota" and "Laurel Halo" already present above; kept single entry.
+  "Rainy Miller",
 ];
 
 /**
@@ -345,6 +371,7 @@ export const LABELS = [
   "Orange Milk Records",
   "OST", // ost.music.life - small experimental imprint
   "00effort",
+  "YUKU",
 ];
 
 /**
@@ -363,6 +390,11 @@ export const FESTIVALS = [
     name: "Berlin Atonal",
     location: "Berlin, Germany",
     url: "https://berlin-atonal.com/",
+  },
+  {
+    name: "Rewire",
+    location: "The Hague, Netherlands",
+    url: "https://www.rewirefestival.nl/programme",
   },
 ];
 

@@ -287,6 +287,36 @@
     }
   },
   {
+    "id": "h-lls-lucy-park-guerillaz",
+    "type": "single",
+    "artist": "H.LLS & Lucy Park",
+    "title": "GUERILLAZ",
+    "label": "",
+    "releaseDate": "2026-04-16",
+    "description": "",
+    "tags": [
+      "alternative"
+    ],
+    "links": {
+      "apple": "https://music.apple.com/us/album/guerillaz/1886836559",
+      "bandcamp": "https://bandcamp.com/search?q=H.LLS%20%26%20Lucy%20Park%20GUERILLAZ&item_type=a",
+      "spotify": "https://open.spotify.com/search/H.LLS%20%26%20Lucy%20Park%20GUERILLAZ",
+      "soundcloud": "https://soundcloud.com/search?q=H.LLS%20%26%20Lucy%20Park%20GUERILLAZ",
+      "youtube": "https://www.youtube.com/results?search_query=H.LLS%20%26%20Lucy%20Park%20GUERILLAZ"
+    },
+    "embed": null,
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/e9/4c/65/e94c65b8-25e3-dcac-53ae-6654ab7df29f/810129961034.jpg/600x600bb.jpg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
     "id": "martyn-heavy-sound",
     "type": "single",
     "artist": "Martyn",
@@ -550,6 +580,36 @@
       "fg": "#f2efe8",
       "motif": "disc"
     }
+  },
+  {
+    "id": "ppp-piezo-dj-plead-dj-python-bborn-again",
+    "type": "ep",
+    "artist": "PPP, Piezo, Dj Plead & DJ Python",
+    "title": "Bborn Again",
+    "label": "Wisdom Teeth",
+    "releaseDate": "2026-04-10",
+    "description": "",
+    "tags": [
+      "electronic"
+    ],
+    "links": {
+      "apple": "https://music.apple.com/us/album/bborn-again-ep/1878350817",
+      "bandcamp": "https://bandcamp.com/search?q=PPP%2C%20Piezo%2C%20Dj%20Plead%20%26%20DJ%20Python%20Bborn%20Again&item_type=a",
+      "spotify": "https://open.spotify.com/search/PPP%2C%20Piezo%2C%20Dj%20Plead%20%26%20DJ%20Python%20Bborn%20Again",
+      "soundcloud": "https://soundcloud.com/search?q=PPP%2C%20Piezo%2C%20Dj%20Plead%20%26%20DJ%20Python%20Bborn%20Again",
+      "youtube": "https://www.youtube.com/results?search_query=PPP%2C%20Piezo%2C%20Dj%20Plead%20%26%20DJ%20Python%20Bborn%20Again"
+    },
+    "embed": null,
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/a7/ac/68/a7ac6844-2df1-9d14-bd6b-b691e7a02e11/16214.jpg/600x600bb.jpg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
   },
   {
     "id": "aloisius-vernacular",

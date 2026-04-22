@@ -4,16 +4,21 @@ import { DotsMark } from "./DotsMark";
 import { useFavorites } from "./FavoriteButton";
 
 /**
- * Sticky site header. The "Saved" nav item is context-aware:
- *   - zero saved items  → rendered as a muted, non-clickable span with an
- *     on-hover tooltip explaining where saved records will appear.
- *   - one or more saved → rendered as a live link to /saved with a count
- *     badge and the standard hover underline.
+ * Sticky site header. "Saved" is always a real link to /saved:
+ *   - zero saved items  → link with no badge; the /saved page itself shows
+ *     a friendly "Nothing saved yet" empty state and a pointer back to the
+ *     feed.
+ *   - one or more saved → link with a count badge.
  *
- * Favourites live in localStorage (see FavoriteButton) so this component
- * must be client-rendered. The hook returns [] on the server / first
- * paint, which means SSR always sees the empty state - fine, it hydrates
- * on the client with the real count.
+ * It used to render as a non-clickable <span> in the empty state. Problem:
+ * favourites live in localStorage (see FavoriteButton). The hook returns []
+ * on the server AND on the first client paint — it only picks up real data
+ * after the client-side effect runs. So a visitor clicking "Saved" right
+ * after hitting Save would sometimes hit the static span (no navigation),
+ * then the count would hydrate to 1, then the next click would work but
+ * land on an already-empty /saved because the navigation had effectively
+ * been a no-op. Always rendering a link makes the target reachable in one
+ * click, and /saved handles every state itself.
  */
 export function Header() {
   const { favorites } = useFavorites();
@@ -57,34 +62,24 @@ export function Header() {
 }
 
 function SavedNavItem({ count }: { count: number }) {
-  if (count > 0) {
-    return (
-      <Link
-        href="/saved"
-        className="hover:underline underline-offset-4 flex items-baseline gap-1 shrink-0"
-      >
-        Saved
-        {/* tabular-nums keeps 1 / 10 / 100 / 1000 at a consistent digit width,
-            so the following nav items don't shift as the count grows. */}
+  // Always a real link. The /saved page renders its own empty state when
+  // nothing is saved; routing is the header's job, not gating.
+  return (
+    <Link
+      href="/saved"
+      className="hover:underline underline-offset-4 flex items-baseline gap-1 shrink-0"
+    >
+      Saved
+      {count > 0 && (
+        // tabular-nums keeps 1 / 10 / 100 / 1000 at a consistent digit width,
+        // so the following nav items don't shift as the count grows.
         <span
           className="text-mute text-[9px] tabular-nums"
           style={{ fontVariantNumeric: "tabular-nums" }}
         >
           ({count})
         </span>
-      </Link>
-    );
-  }
-  // Empty state: muted, unclickable, tooltip on hover.
-  return (
-    <span className="relative group text-mute cursor-help select-none shrink-0">
-      Saved
-      <span
-        role="tooltip"
-        className="pointer-events-none absolute top-full right-0 mt-3 w-64 bg-ink text-paper px-3 py-2 font-mono text-[9px] normal-case tracking-wider leading-[1.5] opacity-0 group-hover:opacity-100 group-focus-visible:opacity-100 transition-opacity duration-150 z-50"
-      >
-        Nothing here yet. Hit <span className="uppercase tracking-widest">Save</span> on a record and it&apos;ll land here for you to come back to.
-      </span>
-    </span>
+      )}
+    </Link>
   );
 }

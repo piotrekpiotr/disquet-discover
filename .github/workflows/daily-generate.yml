@@ -46,18 +46,29 @@ jobs:
       - name: Install dependencies
         run: npm ci
 
-      - name: Run label + artist sync
+      - name: Run per-artist Apple Music sync
+        # PRIMARY same-day source. iTunes publishes releases the moment a
+        # label uploads them, so this is how we catch brand-new drops from
+        # artists we already track (Purelink, Rainy Miller, etc.). Runs first
+        # so the high-signal same-day hits claim pool slots before the
+        # Discogs label pass (which mostly surfaces catalogue lag).
+        continue-on-error: true
+        run: node scripts/sync-itunes.mjs
+
+      - name: Run label sync (Discogs)
         env:
           # A Discogs personal-access token unlocks 60 req/min vs. 25 anon.
           # Create one at https://www.discogs.com/settings/developers and
           # save it in Settings -> Secrets -> Actions as DISCOGS_TOKEN.
           DISCOGS_TOKEN: ${{ secrets.DISCOGS_TOKEN }}
+        continue-on-error: true
         run: |
-          # The sync scripts cap the run at MAX_NEW_TOTAL (currently 10)
-          # so the curator only gets a bite-sized batch each morning.
+          # sync-labels now shuffles the label list per run so every label
+          # in monitoring.mjs gets fair coverage over time, and the global
+          # cap (SYNC_LABELS_MAX_NEW) is high enough that the curator still
+          # gets a bite-sized batch each morning without starving the tail
+          # of the list.
           node scripts/sync-labels.mjs
-          # If/when sync-artists.mjs exists, add it here. Also add
-          # sync-festivals / sync-nts when their parsers are ready.
 
       - name: Backfill embedded players for new records
         # Tries Apple Music / Deezer first, then Bandcamp. Each script skips
