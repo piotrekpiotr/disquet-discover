@@ -295,7 +295,8 @@
       "Hyperdub"
     ],
     "titleExamples": [
-      "Hexed!"
+      "Hexed!",
+      "im hole"
     ]
   },
   "DJ Haram": {
@@ -1411,10 +1412,12 @@
   },
   "Michel Banabila": {
     "seenOn": [
-      "12th Isle"
+      "12th Isle",
+      "Knekelhuis"
     ],
     "titleExamples": [
-      "Through Global Frequency"
+      "Through Global Frequency",
+      "Unspeakable Visions"
     ]
   },
   "Innis Chonnel & Loris S. Sarid": {
@@ -1800,6 +1803,7 @@
       "YOUNG"
     ],
     "titleExamples": [
+      "Superbloom",
       "Superbloom"
     ]
   },
@@ -3000,6 +3004,70 @@
     ],
     "titleExamples": [
       "Αν Είχαν Τ' Άστρα Δάκρυα"
+    ]
+  },
+  "Fireground (2)": {
+    "seenOn": [
+      "Ilian Tape"
+    ],
+    "titleExamples": [
+      "Smile As One"
+    ]
+  },
+  "Zenker Brothers": {
+    "seenOn": [
+      "Ilian Tape"
+    ],
+    "titleExamples": [
+      "Illusion"
+    ]
+  },
+  "Time is Away": {
+    "seenOn": [
+      "Knekelhuis"
+    ],
+    "titleExamples": [
+      "Turn On Arabic Radio Oscura"
+    ]
+  },
+  "Arlo Parks": {
+    "seenOn": [
+      "YOUNG"
+    ],
+    "titleExamples": [
+      "Ambiguous Desire"
+    ]
+  },
+  "Rosegarden Funeral Party": {
+    "seenOn": [
+      "YOUNG"
+    ],
+    "titleExamples": [
+      "Martyr"
+    ]
+  },
+  "Burial / Kode9": {
+    "seenOn": [
+      "Hyperdub"
+    ],
+    "titleExamples": [
+      "Phoneglow / Eyes Go Blank"
+    ]
+  },
+  "Dry Cleaning": {
+    "seenOn": [
+      "Warp Records"
+    ],
+    "titleExamples": [
+      "Secret Love"
+    ]
+  },
+  "Autechre = アウテカ": {
+    "seenOn": [
+      "Warp Records"
+    ],
+    "titleExamples": [
+      "Confield = コンフィールド"
     ]
   }
 }
