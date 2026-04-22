@@ -31,7 +31,8 @@
       "Latency",
       "29 Speedway",
       "Opal Tapes",
-      "12th Isle"
+      "12th Isle",
+      "Short Span"
     ],
     "titleExamples": [
       "Mastery Quantum Sound",
@@ -696,6 +697,7 @@
     ],
     "titleExamples": [
       "Serpentine",
+      "Serpentine",
       "Serpentine"
     ]
   },
@@ -1156,7 +1158,8 @@
       "Short Span"
     ],
     "titleExamples": [
-      "Ambeesh"
+      "Ambeesh",
+      "The Fool"
     ]
   },
   "Black Heat": {
@@ -1188,6 +1191,7 @@
       "29 Speedway"
     ],
     "titleExamples": [
+      "Corrosiv",
       "Corrosiv",
       "Corrosiv"
     ]
@@ -1845,7 +1849,8 @@
       "Brainfeeder"
     ],
     "titleExamples": [
-      "Lorings"
+      "Lorings",
+      "Zdenka 2080"
     ]
   },
   "Jameszoo, Asko|Schönberg": {
@@ -2093,7 +2098,8 @@
       "Peak Oil"
     ],
     "titleExamples": [
-      "Drained Strands"
+      "Drained Strands",
+      "Antiposition"
     ]
   },
   "Purelink": {
@@ -2433,7 +2439,8 @@
     ],
     "titleExamples": [
       "Houzz 14",
-      "1979"
+      "1979",
+      "Escorial"
     ]
   },
   "DOVS": {
@@ -2513,6 +2520,7 @@
       "29 Speedway"
     ],
     "titleExamples": [
+      "For Barney, Who Was A Bad Dog, But A Good Boy, And Very Much Loved",
       "For Barney, Who Was A Bad Dog, But A Good Boy, And Very Much Loved"
     ]
   },
@@ -3068,6 +3076,166 @@
     ],
     "titleExamples": [
       "Confield = コンフィールド"
+    ]
+  },
+  "Coldplay": {
+    "seenOn": [
+      "Brainfeeder"
+    ],
+    "titleExamples": [
+      "Moon Music"
+    ]
+  },
+  "Muskila": {
+    "seenOn": [
+      "YUKU"
+    ],
+    "titleExamples": [
+      "Jah Nam"
+    ]
+  },
+  "Anmon": {
+    "seenOn": [
+      "YUKU"
+    ],
+    "titleExamples": [
+      "Deux"
+    ]
+  },
+  "Swallow The Sun": {
+    "seenOn": [
+      "AMF Records"
+    ],
+    "titleExamples": [
+      "Songs From The North I, II & III"
+    ]
+  },
+  "mary in the junkyard": {
+    "seenOn": [
+      "AMF Records"
+    ],
+    "titleExamples": [
+      "This Is My California"
+    ]
+  },
+  "Misfits": {
+    "seenOn": [
+      "Youth"
+    ],
+    "titleExamples": [
+      "1977: The Manny Martinez Tapes"
+    ]
+  },
+  "Jo Passed": {
+    "seenOn": [
+      "Youth"
+    ],
+    "titleExamples": [
+      "Away"
+    ]
+  },
+  "Priori (2), Loidis": {
+    "seenOn": [
+      "NAFF"
+    ],
+    "titleExamples": [
+      "This But More (Loidis Reconfiguration)"
+    ]
+  },
+  "Cousin & Priori (2)": {
+    "seenOn": [
+      "NAFF"
+    ],
+    "titleExamples": [
+      "Fly In Amber"
+    ]
+  },
+  "Ida Urd & Ingri Høyland": {
+    "seenOn": [
+      "Balmat"
+    ],
+    "titleExamples": [
+      "Duvet"
+    ]
+  },
+  "Lifted (4)": {
+    "seenOn": [
+      "Peak Oil"
+    ],
+    "titleExamples": [
+      "3"
+    ]
+  },
+  "Chaka Chawasarira": {
+    "seenOn": [
+      "Nyege Nyege Tapes"
+    ],
+    "titleExamples": [
+      "Useza"
+    ]
+  },
+  "DJ Tobzy Imole Giwa": {
+    "seenOn": [
+      "Nyege Nyege Tapes"
+    ],
+    "titleExamples": [
+      "Lagos City Unloaded"
+    ]
+  },
+  "Hotinga": {
+    "seenOn": [
+      "Lapsus"
+    ],
+    "titleExamples": [
+      "I Don't Care EP"
+    ]
+  },
+  "Maqossa": {
+    "seenOn": [
+      "Lapsus"
+    ],
+    "titleExamples": [
+      "Don't Stop EP"
+    ]
+  },
+  "Nightmares On Wax VS Adrian Sherwood = ナイトメアズ・オン・ワックス* VS エイドリアン・シャーウッド": {
+    "seenOn": [
+      "Warp Records"
+    ],
+    "titleExamples": [
+      "In A Space Outta Dub = イン・ア・スペース・アウタ・ダブ"
+    ]
+  },
+  "Jeru The Damaja": {
+    "seenOn": [
+      "Warp Records"
+    ],
+    "titleExamples": [
+      "Blessed The Evolution"
+    ]
+  },
+  "Barker": {
+    "seenOn": [
+      "Smalltown Supersound"
+    ],
+    "titleExamples": [
+      "Stochastic Drift"
+    ]
+  },
+  "Hieroglyphic Being": {
+    "seenOn": [
+      "Smalltown Supersound"
+    ],
+    "titleExamples": [
+      "Dance Music 4 Bad People"
+    ]
+  },
+  "Sallow Moth": {
+    "seenOn": [
+      "Isla"
+    ],
+    "titleExamples": [
+      "Deformity In Ceremony"
     ]
   }
 }
