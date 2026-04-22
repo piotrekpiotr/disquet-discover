@@ -18,7 +18,8 @@
  */
 import { promises as fs } from "node:fs";
 import path from "node:path";
-import { LABELS } from "./monitoring.mjs";
+import { LABELS as BASE_LABELS } from "./monitoring.mjs";
+import { fetchMonitoringExtras, mergeUnique } from "./fetch-extras.mjs";
 
 const FILE = path.resolve("data/recommendations.json");
 const CANDIDATES_FILE = path.resolve("data/label-candidate-artists.json");
@@ -170,6 +171,17 @@ async function main() {
     Object.assign(candidateArtists, prev);
   } catch {
     // first run, file doesn't exist yet
+  }
+
+  // Merge hardcoded LABELS with curator-added extras from the live site.
+  // Same contract as sync-itunes: /api/monitoring-extras failure falls
+  // back gracefully to the hardcoded base list.
+  const extras = await fetchMonitoringExtras();
+  const LABELS = mergeUnique(BASE_LABELS, extras.labels);
+  if (LABELS.length > BASE_LABELS.length) {
+    console.log(
+      `Merged ${LABELS.length - BASE_LABELS.length} curator-added label(s) into run.`,
+    );
   }
 
   // Shuffle label order each run. Without this, the static array order +

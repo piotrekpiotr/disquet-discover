@@ -43,7 +43,8 @@
  */
 import { promises as fs } from "node:fs";
 import path from "node:path";
-import { ARTISTS } from "./monitoring.mjs";
+import { ARTISTS as BASE_ARTISTS } from "./monitoring.mjs";
+import { fetchMonitoringExtras, mergeUnique } from "./fetch-extras.mjs";
 
 const FILE = path.resolve("data/recommendations.json");
 const UA = "disquet-discover/1.0 +itunes";
@@ -253,8 +254,15 @@ async function main() {
   // Rainy Miller both in ARTISTS) only creates one record.
   const addedCollectionIds = new Set();
 
+  // Merge the hardcoded ARTISTS list with curator-added extras served from
+  // the live site's /api/monitoring-extras. This lets the curator add a
+  // new artist via /admin/monitoring and have it picked up on the next
+  // daily run — no code change, no deploy.
+  const extras = await fetchMonitoringExtras();
+  const ARTISTS = mergeUnique(BASE_ARTISTS, extras.artists);
+
   console.log(
-    `[sync-itunes] scanning ${ARTISTS.length} artists for releases since ${FRESH_SINCE}`,
+    `[sync-itunes] scanning ${ARTISTS.length} artists (${BASE_ARTISTS.length} base + ${ARTISTS.length - BASE_ARTISTS.length} extras) for releases since ${FRESH_SINCE}`,
   );
 
   let addedTotal = 0;

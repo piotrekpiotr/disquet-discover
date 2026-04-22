@@ -61,12 +61,22 @@ export async function POST(req: NextRequest) {
   //    helper but inlined so this route has zero extra module surface area.
   const facts = await discogsFacts(rec, DISCOGS_TOKEN).catch(() => null);
 
+  // 1b. Bandcamp fallback. When a record has a real Bandcamp album URL, the
+  //     page's og:description and ldjson often carry the artist's own
+  //     one-liner — exactly the kind of primary-source material the prompt
+  //     should be anchored on when Discogs has nothing. We scrape it
+  //     opportunistically (best-effort, bounded time) and pass it as extra
+  //     context. We don't copy it verbatim; the system prompt still
+  //     requires original voice, but the artist's phrasing becomes useful
+  //     raw material for Claude to observe around.
+  const bandcampBlurb = await bandcampBlurbFor(rec).catch(() => "");
+
   // 2. Ask Claude for a fresh description. Uses the exact same system prompt
   //    as the CLI so the admin-triggered copy matches the voice of every
   //    other description on the site.
   let description: string;
   try {
-    description = await writeDescription(rec, facts, LLM_KEY, MODEL);
+    description = await writeDescription(rec, facts, bandcampBlurb, LLM_KEY, MODEL);
   } catch (e) {
     const msg = e instanceof Error ? e.message : "llm error";
     return NextResponse.json({ error: msg }, { status: 502 });
@@ -212,9 +222,63 @@ async function discogsFacts(item: Recommendation, token: string): Promise<Facts 
   return null;
 }
 
+/**
+ * Pull the artist-written blurb off a Bandcamp release page.
+ *
+ * Why: Bandcamp is often the only place a brand-new release has ANY
+ * primary-source description, written by the artist themselves. For fresh
+ * drops that Discogs hasn't touched yet (2026-* same-day releases), this
+ * is the single highest-quality signal available. We don't copy it; we
+ * pass it to Claude as raw context so the generated copy has something
+ * specific to anchor on.
+ *
+ * Only fires when:
+ *   - The record has a real Bandcamp album URL (not a search fallback).
+ *   - The URL returns 200 within a short timeout.
+ *
+ * Parses og:description from the HTML, which Bandcamp populates with the
+ * trimmed artist-supplied blurb for the release.
+ */
+async function bandcampBlurbFor(item: Recommendation): Promise<string> {
+  const url = item.links?.bandcamp;
+  if (!url) return "";
+  // Skip search-fallback URLs; they return a listing page, not a release.
+  if (!/^https:\/\/[^/]+\.bandcamp\.com\/(album|track)\//i.test(url)) return "";
+  const ac = new AbortController();
+  const timer = setTimeout(() => ac.abort(), 5000);
+  try {
+    const res = await fetch(url, {
+      headers: { "User-Agent": UA, Accept: "text/html" },
+      signal: ac.signal,
+    });
+    if (!res.ok) return "";
+    const html = await res.text();
+    const m = html.match(
+      /<meta\s+property=["']og:description["']\s+content=["']([^"']+)["']/i,
+    );
+    if (!m) return "";
+    // Decode the most common HTML entities — Bandcamp escapes quotes and
+    // ampersands in meta content. Keeps the blurb natural without pulling
+    // in a full HTML-decoder dependency.
+    return m[1]
+      .replace(/&amp;/g, "&")
+      .replace(/&quot;/g, '"')
+      .replace(/&#39;/g, "'")
+      .replace(/&lt;/g, "<")
+      .replace(/&gt;/g, ">")
+      .trim()
+      .slice(0, 800); // cap so an essay-length blurb doesn't crowd the prompt
+  } catch {
+    return "";
+  } finally {
+    clearTimeout(timer);
+  }
+}
+
 async function writeDescription(
   item: Recommendation,
   facts: Facts | null,
+  bandcampBlurb: string,
   key: string,
   model: string,
 ): Promise<string> {
@@ -275,11 +339,37 @@ IF METADATA IS SPARSE (no genres, no styles, no tags — common for same-day
 releases not yet in Discogs) the user will set metadataSparse: true. In that
 case, anchor the description in what is widely known about the artist and
 label in public musical discourse, written as observation rather than as a
-biographical claim. Do not fabricate a specific storyline for THIS release.`;
+biographical claim. Do not fabricate a specific storyline for THIS release.
+
+HOUSE VOICE — study these five site-native descriptions. This is the
+target: specific, quietly confident, one sentence of frame plus an
+observational second clause. Shelving pointers and "for fans of" hints are
+welcome. Placeholder phrasing ("A single from X on Y") is not.
+
+EXAMPLES OF THE RIGHT VOICE:
+1. "Plug Research reissues the beat-splatter debut that introduced Steven Ellison's signal vocabulary, jazzy, warped, already unmistakably Brainfeeder-adjacent. Nothing here has aged into the period it came from."
+2. "Seven pieces of ambient electronics from Meitei, arriving on Kitchen. Label in a limited LP pressing. Shelve near Chihei Hatakeyama if you need a pointer."
+3. "The famously reclusive Chain Reaction alumnus resurfaces with another studio of glassy, narcotic dub techno. Loops drift rather than lock; for anyone still returning to Butterfly Effects."
+4. "Two long-form Lopatin sketches extended into the kind of elastic, synth-warped ambient he has been quietly refining since Magic Oneohtrix. Warp doing what Warp does."
+5. "A loose, after-hours 12\\" from the Houndstooth regular: woody percussion and half-heard voices sat somewhere between jungle and the more wistful end of Hessle Audio. Contained, not quiet."
+
+Note the shape: a specific framing in the first clause (what it is, where
+it sits), a second clause that names a reference point or gives a pointer.
+No adjective pile-ups. No PR-blurb rhetoric. Write like someone who buys
+records, not someone paid to sell them.`;
+
+  // Bandcamp blurb (if we scraped one) is passed as a SEPARATE block, clearly
+  // labelled as artist-supplied primary-source material. Claude can borrow
+  // facts from it (personnel, musical direction the artist states) but must
+  // not copy sentences verbatim — the system prompt's originality rule still
+  // applies.
+  const bandcampBlock = bandcampBlurb
+    ? `\n\nArtist-supplied blurb from Bandcamp (primary source, use as factual ground but do NOT copy phrasing):\n"""\n${bandcampBlurb}\n"""\n`
+    : "";
 
   const user = `Write the description for this release. Verified metadata only:
 
-${JSON.stringify(meta, null, 2)}
+${JSON.stringify(meta, null, 2)}${bandcampBlock}
 
 Output just the description, nothing else.`;
 

@@ -1,5 +1,6 @@
 "use client";
 import { useState, useTransition, useEffect, useCallback } from "react";
+import Link from "next/link";
 import type { Recommendation, Status } from "@/lib/types";
 import { CoverArt } from "@/components/CoverArt";
 import { EmbedPlayer } from "@/components/EmbedPlayer";
@@ -47,6 +48,16 @@ export function AdminClient({
   const [regenState, setRegenState] = useState<
     Record<string, "pending" | { error: string } | undefined>
   >({});
+  // "Add release by URL / artist+title" panel state. Kept collapsed by
+  // default so it doesn't clutter the main curation view — the curator
+  // clicks the header to expand it when they want to pull in a record the
+  // daily syncs missed.
+  const [addOpen, setAddOpen] = useState(false);
+  const [addUrl, setAddUrl] = useState("");
+  const [addArtist, setAddArtist] = useState("");
+  const [addTitle, setAddTitle] = useState("");
+  const [addBusy, setAddBusy] = useState(false);
+  const [addMsg, setAddMsg] = useState<string | null>(null);
 
   const fetchPage = async (f: Status | "all", off: number) => {
     const url = `/api/pool?filter=${f}&offset=${off}`;
@@ -208,6 +219,67 @@ export function AdminClient({
     }
   };
 
+  /**
+   * Manually pull a release into the pool by Apple Music / Bandcamp URL, or
+   * by artist + title. Posts to /api/pool/add which does the iTunes lookup
+   * or Bandcamp JSON-LD scrape server-side and returns a fully-shaped
+   * Recommendation. We prepend it to the current list (when visible under
+   * the active filter) so the curator sees it immediately, bump the
+   * pending/total counts, and clear the form.
+   *
+   * This is the "small tips" path — a reader emails about a friend's
+   * single, we paste the URL, record lands in Pool. Curator still has to
+   * click Publish and optionally Regenerate description.
+   */
+  const addRelease = async (e: React.FormEvent) => {
+    e.preventDefault();
+    const url = addUrl.trim();
+    const artist = addArtist.trim();
+    const title = addTitle.trim();
+    if (!url && !(artist && title)) {
+      setAddMsg("Paste a URL, or fill in both artist and title.");
+      return;
+    }
+    setAddBusy(true);
+    setAddMsg(null);
+    try {
+      const res = await fetch("/api/pool/add", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ url, artist, title }),
+      });
+      const body = (await res.json().catch(() => ({}))) as
+        | { item: Recommendation }
+        | { error: string };
+      if (!res.ok || "error" in body) {
+        setAddMsg(
+          "error" in body && body.error
+            ? body.error
+            : `Failed (HTTP ${res.status}).`,
+        );
+        return;
+      }
+      const added = body.item;
+      // Only show it in the list if the current filter would include it.
+      if (filter === "all" || filter === "pending") {
+        setItems((prev) => [added, ...prev.filter((r) => r.id !== added.id)]);
+      }
+      setCounts((c) => ({
+        ...c,
+        total: c.total + 1,
+        pending: c.pending + 1,
+      }));
+      setAddMsg(`Added: ${added.artist} – ${added.title}. Scroll down to find it in Pool.`);
+      setAddUrl("");
+      setAddArtist("");
+      setAddTitle("");
+    } catch (err) {
+      setAddMsg(err instanceof Error ? err.message : "Network error.");
+    } finally {
+      setAddBusy(false);
+    }
+  };
+
   const sendNewsletter = async () => {
     if (queue.queued.length === 0) {
       setSendMsg("Queue is empty. Tick some records to include first.");
@@ -284,6 +356,12 @@ export function AdminClient({
               <div>Published - {counts.approved}</div>
               <div>Rejected - {counts.rejected}</div>
               <div>Total - {counts.total}</div>
+              <Link
+                href="/admin/monitoring"
+                className="hover:text-ink underline"
+              >
+                Monitoring →
+              </Link>
               <LogoutButton />
             </div>
           </div>
@@ -312,6 +390,91 @@ export function AdminClient({
               <div className="font-mono text-[10px] uppercase tracking-widest text-ink">
                 {sendMsg}
               </div>
+            )}
+          </div>
+
+          {/* Manual add-release panel. Collapsed by default; curator
+              expands it to paste an Apple Music or Bandcamp URL, or type
+              artist + title, and /api/pool/add does the rest. The record
+              lands in the pending pool. */}
+          <div className="border-t border-ink pt-4 flex flex-col gap-3">
+            <button
+              onClick={() => setAddOpen((v) => !v)}
+              className="font-mono text-[10px] uppercase tracking-widest text-ink text-left self-start hover:underline"
+            >
+              {addOpen ? "▾ Add release by URL / search" : "▸ Add release by URL / search"}
+            </button>
+            {addOpen && (
+              <form
+                onSubmit={addRelease}
+                className="flex flex-col gap-3 border border-ink p-4"
+              >
+                <label className="flex flex-col gap-1">
+                  <span className="font-mono text-[10px] uppercase tracking-widest text-mute">
+                    Apple Music or Bandcamp URL
+                  </span>
+                  <input
+                    type="url"
+                    value={addUrl}
+                    onChange={(e) => setAddUrl(e.target.value)}
+                    placeholder="https://music.apple.com/... or https://artist.bandcamp.com/album/..."
+                    className="border border-ink px-3 py-2 font-mono text-[11px] bg-paper"
+                    disabled={addBusy}
+                  />
+                </label>
+                <div className="font-mono text-[9px] uppercase tracking-widest text-mute">
+                  — or —
+                </div>
+                <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
+                  <label className="flex flex-col gap-1">
+                    <span className="font-mono text-[10px] uppercase tracking-widest text-mute">
+                      Artist
+                    </span>
+                    <input
+                      type="text"
+                      value={addArtist}
+                      onChange={(e) => setAddArtist(e.target.value)}
+                      placeholder="e.g. Meitei"
+                      className="border border-ink px-3 py-2 font-mono text-[11px] bg-paper"
+                      disabled={addBusy}
+                    />
+                  </label>
+                  <label className="flex flex-col gap-1">
+                    <span className="font-mono text-[10px] uppercase tracking-widest text-mute">
+                      Title
+                    </span>
+                    <input
+                      type="text"
+                      value={addTitle}
+                      onChange={(e) => setAddTitle(e.target.value)}
+                      placeholder="e.g. Kofū III"
+                      className="border border-ink px-3 py-2 font-mono text-[11px] bg-paper"
+                      disabled={addBusy}
+                    />
+                  </label>
+                </div>
+                <div className="flex items-center gap-3 flex-wrap">
+                  <button
+                    type="submit"
+                    disabled={addBusy}
+                    className="font-mono text-[10px] uppercase tracking-widest border border-ink px-4 py-2 hover:bg-ink hover:text-paper disabled:opacity-40 disabled:cursor-not-allowed"
+                  >
+                    {addBusy ? "Adding…" : "Add to pool"}
+                  </button>
+                  {addMsg && (
+                    <span className="font-mono text-[10px] uppercase tracking-widest text-ink">
+                      {addMsg}
+                    </span>
+                  )}
+                </div>
+                <p className="font-mono text-[9px] uppercase tracking-widest text-mute leading-relaxed">
+                  Lands as pending. Paste the exact Apple Music release URL
+                  (…/id&lt;number&gt;) or the Bandcamp album/track page.
+                  Artist + title uses iTunes search — expect a fuzzy match.
+                  After adding, click &quot;Regenerate description&quot; on
+                  the record for a house-voice write-up.
+                </p>
+              </form>
             )}
           </div>
 

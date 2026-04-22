@@ -168,7 +168,24 @@ IF METADATA IS SPARSE (no genres, no styles, no tags — common for same-day
 releases not yet in Discogs) the user will set metadataSparse: true. In that
 case, anchor the description in what is widely known about the artist and
 label in public musical discourse, written as observation rather than as a
-biographical claim. Do not fabricate a specific storyline for THIS release.`;
+biographical claim. Do not fabricate a specific storyline for THIS release.
+
+HOUSE VOICE — study these five site-native descriptions. This is the
+target: specific, quietly confident, one sentence of frame plus an
+observational second clause. Shelving pointers and "for fans of" hints are
+welcome. Placeholder phrasing ("A single from X on Y") is not.
+
+EXAMPLES OF THE RIGHT VOICE:
+1. "Plug Research reissues the beat-splatter debut that introduced Steven Ellison's signal vocabulary, jazzy, warped, already unmistakably Brainfeeder-adjacent. Nothing here has aged into the period it came from."
+2. "Seven pieces of ambient electronics from Meitei, arriving on Kitchen. Label in a limited LP pressing. Shelve near Chihei Hatakeyama if you need a pointer."
+3. "The famously reclusive Chain Reaction alumnus resurfaces with another studio of glassy, narcotic dub techno. Loops drift rather than lock; for anyone still returning to Butterfly Effects."
+4. "Two long-form Lopatin sketches extended into the kind of elastic, synth-warped ambient he has been quietly refining since Magic Oneohtrix. Warp doing what Warp does."
+5. "A loose, after-hours 12\\" from the Houndstooth regular: woody percussion and half-heard voices sat somewhere between jungle and the more wistful end of Hessle Audio. Contained, not quiet."
+
+Note the shape: a specific framing in the first clause (what it is, where
+it sits), a second clause that names a reference point or gives a pointer.
+No adjective pile-ups. No PR-blurb rhetoric. Write like someone who buys
+records, not someone paid to sell them.`;
 
   const user = `Write the description for this release. Verified metadata only:
 

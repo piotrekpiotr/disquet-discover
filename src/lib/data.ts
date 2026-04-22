@@ -85,6 +85,26 @@ export type EditablePatch = Partial<
   >
 >;
 
+/**
+ * Append a brand-new record to the pool. Used by the admin "Add release"
+ * form to push a manually-sourced single/album into the pending queue.
+ *
+ * Rejects if a record with the same id already exists (callers should
+ * pick a unique slug). Returns the stored record so the caller can mirror
+ * it back into the admin UI without a reload.
+ */
+export async function addItem(rec: Recommendation): Promise<Recommendation | null> {
+  const items = await loadAll();
+  if (items.some((r) => r.id === rec.id)) return null;
+  items.push(rec);
+  // Keep the in-memory order newest-first so the next getAll() (uncached)
+  // matches what you just appended. Not strictly required — getAll()
+  // re-sorts — but it keeps the on-disk file readable.
+  items.sort((a, b) => (b.releaseDate || "").localeCompare(a.releaseDate || ""));
+  await persist(items);
+  return rec;
+}
+
 /** Apply a partial edit to a single item. Returns the updated record. */
 export async function updateItem(
   id: string,
