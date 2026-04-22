@@ -1,4 +1,4 @@
-import { NextResponse } from "next/server";
+import { NextRequest, NextResponse } from "next/server";
 
 export const dynamic = "force-dynamic";
 export const runtime = "nodejs";
@@ -24,8 +24,16 @@ export const runtime = "nodejs";
  *
  * Auth: matched by middleware's PROTECTED_PREFIXES under /api/admin.
  */
-export async function GET() {
+export async function GET(req: NextRequest) {
   const key = process.env.BUTTONDOWN_API_KEY;
+  // Optional write-through probe: ?probe=1 creates a disposable test
+  // subscriber, reads back the `type` Buttondown assigned it, and deletes
+  // it. This is the ground-truth test for "is the deployed code sending
+  // type=unactivated, and is Buttondown honoring it". If the probe comes
+  // back with type="regular" despite us sending type="unactivated",
+  // Buttondown's account-level DOI is off. If the probe fails at POST,
+  // the deployed code doesn't have the fix.
+  const probe = req.nextUrl.searchParams.get("probe") === "1";
   const out: {
     hasKey: boolean;
     fromName: string | null;
@@ -39,6 +47,13 @@ export async function GET() {
       creation_date?: string;
       tags?: string[];
     }> | null;
+    probe: null | {
+      requestedType: "unactivated";
+      actualType: string | null;
+      createStatus: number;
+      createBody: string;
+      cleanupStatus: number | null;
+    };
   } = {
     hasKey: Boolean(key),
     fromName: process.env.NEWSLETTER_FROM_NAME || null,
@@ -47,6 +62,7 @@ export async function GET() {
     apiError: null,
     newsletters: null,
     recentSubscribers: null,
+    probe: null,
   };
 
   if (!key) {
@@ -105,6 +121,71 @@ export async function GET() {
     }
   } catch {
     /* non-fatal; keep what we have */
+  }
+
+  // Probe 3 (opt-in via ?probe=1): create-read-delete a disposable subscriber
+  // so we can see the ACTUAL `type` Buttondown assigns when the deployed code
+  // sends `type: "unactivated"`. This is the definitive test — if Railway is
+  // running an old build that sends `type: "regular"` the probe will too, and
+  // we'll see `actualType: "regular"` despite `requestedType: "unactivated"`.
+  if (probe) {
+    const testEmail = `probe+${Date.now()}@disquet.co`;
+    let createStatus = 0;
+    let createBody = "";
+    let actualType: string | null = null;
+    let cleanupStatus: number | null = null;
+    try {
+      const createRes = await fetch(
+        "https://api.buttondown.email/v1/subscribers",
+        {
+          method: "POST",
+          headers: {
+            "content-type": "application/json",
+            Authorization: `Token ${key}`,
+          },
+          body: JSON.stringify({
+            email_address: testEmail,
+            type: "unactivated",
+            tags: ["probe"],
+            notes: `probe:${new Date().toISOString()}`,
+          }),
+        },
+      );
+      createStatus = createRes.status;
+      const text = await createRes.text();
+      createBody = text.slice(0, 400);
+      if (createRes.ok) {
+        try {
+          const parsed = JSON.parse(text) as { type?: string };
+          actualType = parsed.type || null;
+        } catch {
+          actualType = null;
+        }
+      }
+    } catch (e) {
+      createBody = "network error: " + (e instanceof Error ? e.message : String(e));
+    }
+    // Clean up — don't leave probe+<timestamp>@disquet.co cluttering the
+    // subscriber list, and definitely don't let it count against any free
+    // tier limits.
+    if (createStatus > 0 && createStatus < 500) {
+      try {
+        const delRes = await fetch(
+          `https://api.buttondown.email/v1/subscribers/${encodeURIComponent(testEmail)}`,
+          { method: "DELETE", headers: { Authorization: `Token ${key}` } },
+        );
+        cleanupStatus = delRes.status;
+      } catch {
+        cleanupStatus = -1;
+      }
+    }
+    out.probe = {
+      requestedType: "unactivated",
+      actualType,
+      createStatus,
+      createBody,
+      cleanupStatus,
+    };
   }
 
   return NextResponse.json(out);
