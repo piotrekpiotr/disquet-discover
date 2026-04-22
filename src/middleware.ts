@@ -6,6 +6,7 @@
  *   - /api/curate                   (status changes)
  *   - /api/edit                     (record edits)
  *   - /api/pool                     (admin list endpoint)
+ *   - /api/regenerate-description   (admin-only: force-rewrite one record)
  *   - /api/newsletter/queue         (newsletter queue add/remove)
  *   - /api/newsletter/send          (trigger newsletter send)
  *
@@ -32,7 +33,13 @@ const PROTECTED_EXACT = [
   "/api/newsletter/queue",
   "/api/newsletter/send",
 ];
-const PROTECTED_PREFIXES = ["/admin", "/api/curate", "/api/edit", "/api/pool"];
+const PROTECTED_PREFIXES = [
+  "/admin",
+  "/api/curate",
+  "/api/edit",
+  "/api/pool",
+  "/api/regenerate-description",
+];
 const LOGIN_PATH = "/admin/login";
 const LOGIN_API = "/api/admin/login";
 
@@ -83,6 +90,7 @@ export const config = {
     "/api/edit/:path*",
     "/api/pool/:path*",
     "/api/admin/:path*",
+    "/api/regenerate-description",
     "/api/newsletter/queue",
     "/api/newsletter/send",
   ],

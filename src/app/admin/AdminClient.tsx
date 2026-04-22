@@ -40,6 +40,13 @@ export function AdminClient({
   const [queue, setQueue] = useState<QueueState>({ queued: [], sent: [], max: 10 });
   const [sending, setSending] = useState(false);
   const [sendMsg, setSendMsg] = useState<string | null>(null);
+  // Per-record "regenerating…" state for the admin-side description rewriter.
+  // Keyed by record id; stores either "pending" (spinner) or an error string
+  // we surface under the description so the curator sees what went wrong
+  // (rate-limit, missing key, upstream 500, etc.) without opening devtools.
+  const [regenState, setRegenState] = useState<
+    Record<string, "pending" | { error: string } | undefined>
+  >({});
 
   const fetchPage = async (f: Status | "all", off: number) => {
     const url = `/api/pool?filter=${f}&offset=${off}`;
@@ -148,6 +155,56 @@ export function AdminClient({
         n.delete(id);
         return n;
       });
+    }
+  };
+
+  /**
+   * Force a fresh Claude-written description for a single record. Hits the
+   * admin-only /api/regenerate-description endpoint, which mirrors the daily
+   * write-descriptions.mjs prompt. Used when the daily CLI run hit its
+   * --limit cap before getting to a record and we're stuck with a
+   * "[preview copy]" placeholder.
+   *
+   * On success: updates the record's description (and label, if the endpoint
+   * backfilled it from Discogs) in place — no reload needed, the card flips
+   * to the fresh copy.
+   */
+  const regenerateDescription = async (id: string) => {
+    setRegenState((s) => ({ ...s, [id]: "pending" }));
+    try {
+      const res = await fetch("/api/regenerate-description", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ id }),
+      });
+      const body = (await res.json().catch(() => ({}))) as
+        | { description: string; label?: string }
+        | { error: string };
+      if (!res.ok || "error" in body) {
+        const err = "error" in body ? body.error : `HTTP ${res.status}`;
+        setRegenState((s) => ({ ...s, [id]: { error: err } }));
+        return;
+      }
+      setItems((prev) =>
+        prev.map((r) =>
+          r.id === id
+            ? {
+                ...r,
+                description: body.description,
+                label: body.label || r.label,
+                descriptionPreview: false,
+              }
+            : r,
+        ),
+      );
+      setRegenState((s) => {
+        const next = { ...s };
+        delete next[id];
+        return next;
+      });
+    } catch (e) {
+      const msg = e instanceof Error ? e.message : "network error";
+      setRegenState((s) => ({ ...s, [id]: { error: msg } }));
     }
   };
 
@@ -339,6 +396,29 @@ export function AdminClient({
                         </span>
                       )}
                     </p>
+                    {/* Regenerate-description control. Calls the admin-only
+                        /api/regenerate-description endpoint which reruns the
+                        same Claude prompt as the daily write-descriptions
+                        CLI. Handy when the CLI's --limit cap left a record
+                        stuck on its placeholder. */}
+                    <div className="flex items-center gap-3 flex-wrap">
+                      <button
+                        onClick={() => regenerateDescription(rec.id)}
+                        disabled={regenState[rec.id] === "pending"}
+                        className="font-mono text-[9px] uppercase tracking-widest border border-mute text-mute px-2 py-1 hover:bg-ink hover:text-paper hover:border-ink disabled:opacity-40 disabled:cursor-not-allowed"
+                      >
+                        {regenState[rec.id] === "pending"
+                          ? "Regenerating…"
+                          : "Regenerate description"}
+                      </button>
+                      {regenState[rec.id] &&
+                        regenState[rec.id] !== "pending" &&
+                        typeof regenState[rec.id] === "object" && (
+                          <span className="font-mono text-[9px] uppercase tracking-widest text-signal">
+                            {(regenState[rec.id] as { error: string }).error}
+                          </span>
+                        )}
+                    </div>
                     <ul className="flex flex-wrap gap-x-3 gap-y-1 font-mono text-[10px] uppercase tracking-widest text-mute">
                       {rec.tags.map((t) => (
                         <li key={t}>, {t}</li>

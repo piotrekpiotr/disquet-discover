@@ -133,12 +133,22 @@ function searchUrls(artist, title) {
   };
 }
 
-async function lookup(artist, entity) {
+async function lookup(artist) {
   // attribute=artistTerm keeps the search scoped to the artist field, not
   // a fuzzy match across track/album titles. Crucial for short names like
   // "aya" or "LOG" that would otherwise drown in noise.
+  //
+  // entity=album returns RELEASE collections — LPs, EPs, AND singles-as-
+  // collections (titled e.g. "Barrons Hotel - Single"). That's the canonical
+  // "a new release came out" unit. Earlier versions of this script ran a
+  // second entity=musicTrack pass to catch singles, but musicTrack returns
+  // individual song records with different IDs/URLs, and iTunes catalogues
+  // most new singles as collections already. The two passes were actually
+  // creating a hole where singles fell through: the album pass filtered
+  // them out, the track pass couldn't match them to release metadata.
+  // Single pass, keep everything — simpler and catches every release type.
   const term = encodeURIComponent(artist);
-  const url = `https://itunes.apple.com/search?term=${term}&entity=${entity}&limit=25&media=music&attribute=artistTerm`;
+  const url = `https://itunes.apple.com/search?term=${term}&entity=album&limit=25&media=music&attribute=artistTerm`;
   try {
     const res = await fetch(url, { headers: { "User-Agent": UA } });
     if (!res.ok) return [];
@@ -219,113 +229,98 @@ async function main() {
     let addedForArtist = 0;
     const newThisArtist = [];
 
-    for (const entity of ["album", "musicTrack"]) {
+    const results = await lookup(artist);
+    // Keep strict artist matches only; then dedupe by collectionId.
+    const mine = results.filter((r) => matchesArtist(r, artist));
+    const seen = new Set();
+    const unique = [];
+    for (const r of mine) {
+      const key = r.collectionId || r.trackId;
+      if (!key || seen.has(key)) continue;
+      seen.add(key);
+      unique.push(r);
+    }
+    unique.sort((a, b) =>
+      (b.releaseDate || "").localeCompare(a.releaseDate || ""),
+    );
+
+    // Freshness gate — only recent drops qualify for the daily batch.
+    const fresh = unique.filter(
+      (r) => (r.releaseDate || "").slice(0, 10) >= FRESH_SINCE,
+    );
+
+    // Every fresh collection is a candidate — LP, EP, or single-as-collection.
+    // ARTIST_LIMIT below keeps any one artist from filling the pool if they
+    // drop a reissue pack with ten singles on the same day.
+    for (const pick of fresh) {
       if (addedForArtist >= ARTIST_LIMIT) break;
 
-      const results = await lookup(artist, entity);
-      // Keep strict artist matches only; then dedupe by collection/track id.
-      const mine = results.filter((r) => matchesArtist(r, artist));
-      const seen = new Set();
-      const unique = [];
-      for (const r of mine) {
-        const key = r.collectionId || r.trackId;
-        if (!key || seen.has(key)) continue;
-        seen.add(key);
-        unique.push(r);
+      const rawTitle = pick.collectionName || pick.trackName || "";
+      const title = cleanTitle(rawTitle);
+      if (!title) continue;
+
+      // For collab releases we want to preserve the full credited name
+      // ("Purelink & Rainy Miller") rather than the single tracked artist
+      // that triggered the hit. This way the site shows the real artist
+      // string that appears on the release itself.
+      const displayArtist = pick.artistName || artist;
+
+      const dedupeKey = `${normalizeArtist(displayArtist)}|${title.toLowerCase()}`;
+      if (existingKey.has(dedupeKey)) continue;
+      // Also dedupe by Apple collectionId within this run so the same
+      // collab isn't added twice when a second tracked artist hits it.
+      const collectionId = pick.collectionId || pick.trackId;
+      if (collectionId && addedCollectionIds.has(collectionId)) continue;
+
+      const releaseDate = (pick.releaseDate || "").slice(0, 10);
+      const art = artworkLarge(pick.artworkUrl100 || pick.artworkUrl60);
+      const apple = (pick.collectionViewUrl || pick.trackViewUrl || "")
+        .split("?")[0];
+      const type = pickReleaseType(pick);
+      const tag = (pick.primaryGenreName || "").toLowerCase();
+      const s = searchUrls(displayArtist, title);
+
+      let id = `${slugify(displayArtist)}-${slugify(title)}`.slice(0, 80);
+      if (existingIds.has(id)) id = `${id}-it`;
+      if (existingIds.has(id)) continue;
+      existingIds.add(id);
+      existingKey.add(dedupeKey);
+      if (collectionId) addedCollectionIds.add(collectionId);
+
+      newThisArtist.push({
+        id,
+        type,
+        artist: displayArtist,
+        title,
+        // Best-effort label parse from iTunes copyright. enrich-labels
+        // runs later and can overwrite this with the Discogs canonical
+        // form when a match exists.
+        label: labelFromCopyright(pick.copyright),
+        releaseDate: releaseDate || `${new Date().getUTCFullYear()}-01-01`,
+        description: "",
+        tags: tag ? [tag] : [],
+        links: {
+          apple,
+          bandcamp: s.bandcamp,
+          spotify: s.spotify,
+          soundcloud: s.soundcloud,
+          youtube: s.youtube,
+        },
+        embed: null,
+        musicVideoUrl: null,
+        status: "pending",
+        approvedAt: null,
+        coverImageUrl: art || null,
+        cover: { bg: "#111110", fg: "#f2efe8", motif: "disc" },
+        pressMentions: [],
+      });
+      addedForArtist++;
+      addedTotal++;
+
+      if (addedTotal >= MAX_NEW_TOTAL) {
+        hitCap = true;
+        break;
       }
-      unique.sort((a, b) =>
-        (b.releaseDate || "").localeCompare(a.releaseDate || ""),
-      );
-
-      // Freshness gate — only recent drops qualify for the daily batch.
-      const fresh = unique.filter(
-        (r) => (r.releaseDate || "").slice(0, 10) >= FRESH_SINCE,
-      );
-
-      // Keep album pass = LP/EP only, track pass = singles only. Prevents
-      // the single pass from re-adding an LP's lead single as a separate
-      // record when the LP already came through on the album pass.
-      const candidates =
-        entity === "album"
-          ? fresh.filter((r) => pickReleaseType(r) !== "single")
-          : fresh.filter((r) => pickReleaseType(r) === "single");
-
-      for (const pick of candidates) {
-        if (addedForArtist >= ARTIST_LIMIT) break;
-
-        const rawTitle = pick.collectionName || pick.trackName || "";
-        const title = cleanTitle(rawTitle);
-        if (!title) continue;
-
-        // For collab releases we want to preserve the full credited name
-        // ("Purelink & Rainy Miller") rather than the single tracked artist
-        // that triggered the hit. This way the site shows the real artist
-        // string that appears on the release itself.
-        const displayArtist = pick.artistName || artist;
-
-        const dedupeKey = `${normalizeArtist(displayArtist)}|${title.toLowerCase()}`;
-        if (existingKey.has(dedupeKey)) continue;
-        // Also dedupe by Apple collectionId within this run so the same
-        // collab isn't added twice when a second tracked artist hits it.
-        const collectionId = pick.collectionId || pick.trackId;
-        if (collectionId && addedCollectionIds.has(collectionId)) continue;
-
-        const releaseDate = (pick.releaseDate || "").slice(0, 10);
-        const art = artworkLarge(pick.artworkUrl100 || pick.artworkUrl60);
-        const apple = (pick.collectionViewUrl || pick.trackViewUrl || "")
-          .split("?")[0];
-        const type = pickReleaseType(pick);
-        const tag = (pick.primaryGenreName || "").toLowerCase();
-        const s = searchUrls(displayArtist, title);
-
-        let id = `${slugify(displayArtist)}-${slugify(title)}`.slice(0, 80);
-        if (existingIds.has(id)) id = `${id}-it`;
-        if (existingIds.has(id)) continue;
-        existingIds.add(id);
-        existingKey.add(dedupeKey);
-        if (collectionId) addedCollectionIds.add(collectionId);
-
-        newThisArtist.push({
-          id,
-          type,
-          artist: displayArtist,
-          // Preserve the artist's/label's capitalisation from iTunes for
-          // any secondary artist field iTunes returns (trackName may read
-          // "Title (feat. X)"); keep the primary artist as our canonical.
-          title,
-          // Best-effort label parse from iTunes copyright. enrich-labels
-          // runs later and can overwrite this with the Discogs canonical
-          // form when a match exists.
-          label: labelFromCopyright(pick.copyright),
-          releaseDate: releaseDate || `${new Date().getUTCFullYear()}-01-01`,
-          description: "",
-          tags: tag ? [tag] : [],
-          links: {
-            apple,
-            bandcamp: s.bandcamp,
-            spotify: s.spotify,
-            soundcloud: s.soundcloud,
-            youtube: s.youtube,
-          },
-          embed: null,
-          musicVideoUrl: null,
-          status: "pending",
-          approvedAt: null,
-          coverImageUrl: art || null,
-          cover: { bg: "#111110", fg: "#f2efe8", motif: "disc" },
-          pressMentions: [],
-        });
-        addedForArtist++;
-        addedTotal++;
-
-        if (addedTotal >= MAX_NEW_TOTAL) {
-          hitCap = true;
-          break;
-        }
-      }
-
-      // polite spacing between the album pass and the singles pass
-      await new Promise((r) => setTimeout(r, 200));
     }
 
     if (newThisArtist.length > 0) {

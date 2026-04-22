@@ -160,6 +160,63 @@ export function ExportClient() {
                 {rec.description && (
                   <p className="pdf-description">{rec.description}</p>
                 )}
+                {/*
+                 * Streaming / store links.
+                 *
+                 * Rendered as real <a href> tags so the browser's print-to-
+                 * PDF engine embeds them as live hyperlinks in the saved
+                 * file — Chrome, Safari and Firefox all honour anchors as
+                 * PDF link annotations, turning the export into a
+                 * functional listening list the reader can click through.
+                 *
+                 * Order roughly matches the on-site recommendation card so
+                 * the PDF reads as the same object in print form.
+                 */}
+                {rec.links && (
+                  <div className="pdf-links">
+                    {rec.links.apple && (
+                      <a href={rec.links.apple} target="_blank" rel="noopener noreferrer">
+                        Apple Music
+                      </a>
+                    )}
+                    {rec.links.bandcamp && (
+                      <a
+                        href={rec.links.bandcamp}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        Bandcamp
+                      </a>
+                    )}
+                    {rec.links.spotify && (
+                      <a
+                        href={rec.links.spotify}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        Spotify
+                      </a>
+                    )}
+                    {rec.links.soundcloud && (
+                      <a
+                        href={rec.links.soundcloud}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        SoundCloud
+                      </a>
+                    )}
+                    {rec.links.youtube && (
+                      <a
+                        href={rec.links.youtube}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        YouTube
+                      </a>
+                    )}
+                  </div>
+                )}
                 <div className="pdf-link">
                   {SITE_URL.replace(/^https?:\/\//, "")}/r/{rec.id}
                 </div>

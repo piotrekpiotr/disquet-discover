@@ -5,11 +5,22 @@
  * The on-screen preview mimics the printed page so the visitor can sanity
  * check before hitting "Save as PDF" in the system dialog.
  *
- * Typography intentionally uses `Georgia` / `ui-monospace` system fallbacks
- * instead of the site's webfonts. Why: browser print engines often fail to
- * embed webfonts reliably in the generated PDF, especially on Safari. Using
- * solid system fonts guarantees the PDF looks the same on every Mac/Windows
- * machine the reader opens it on.
+ * Typography:
+ *   - Body / title / description uses `Georgia` as a system-guaranteed
+ *     serif. Browser print engines can flake on webfonts (Safari especially)
+ *     and this is the readable content, so system fonts here trade a tiny
+ *     bit of brand character for guaranteed legibility in the PDF.
+ *   - The "Disquet" wordmark at the top uses the site's real Archivo font
+ *     (loaded site-wide via Next.js Google Fonts). Consistent wordmark
+ *     across web and PDF matters more than absolute print safety for this
+ *     single headline. Falls back through Helvetica Black → Arial Black
+ *     if Archivo doesn't render for any reason.
+ *
+ * Background:
+ *   The sheet uses #f2efe8 (the site's `paper` colour). The transparent
+ *   logo used to be on a pure-white sheet — the user pointed out that
+ *   looked off vs. the rest of the brand, so we match the site paper here
+ *   and the wordmark blends as on every other page.
  */
 
 /* ---------- shared (screen + print) ---------- */
@@ -20,7 +31,9 @@
   max-width: 100%;
   margin: 0 auto;
   padding: 14mm 16mm;
-  background: #ffffff;
+  /* Site paper colour so the wordmark + cards look like the rest of the
+     brand. Print styles below force pure white to save toner. */
+  background: #f2efe8;
   color: #111110;
   font-family: Georgia, "Times New Roman", serif;
   font-size: 10.5pt;
@@ -37,11 +50,16 @@
 }
 
 .pdf-wordmark {
-  font-family: "Helvetica Neue", Arial, sans-serif;
+  /* Matches the site header: Archivo Black with slight negative tracking.
+     var(--font-archivo) is provided by next/font/google at <html> level in
+     src/app/layout.tsx and propagates to this route. */
+  font-family: var(--font-archivo), Archivo, "Helvetica Neue", "Arial Black",
+    Arial, sans-serif;
   font-weight: 900;
-  font-size: 28pt;
-  letter-spacing: -0.03em;
+  font-size: 32pt;
+  letter-spacing: -0.04em;
   line-height: 1;
+  color: #111110;
 }
 
 .pdf-subtitle {
@@ -131,6 +149,38 @@
   font-size: 7.5pt;
   color: #555;
   letter-spacing: 0.04em;
+}
+
+/*
+ * Streaming / store links row beneath each record.
+ *
+ * Rendered as real <a> tags so the browser's print-to-PDF engine embeds
+ * live clickable hyperlinks in the exported file — the whole point of the
+ * reader being able to click through to Bandcamp / Apple / Spotify / YT
+ * from the PDF they saved. The style deliberately mirrors the "pill"
+ * treatment on the live recommendation cards so the PDF feels like a
+ * printed version of the same object.
+ */
+.pdf-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 3mm 5mm;
+  margin-top: 1.5mm;
+}
+.pdf-links a {
+  font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
+  font-size: 7.5pt;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: #111110;
+  /* Explicit underline in both screen + print so the link affordance is
+     obvious on the printed page even when the click target isn't. */
+  text-decoration: underline;
+  text-underline-offset: 2px;
+  text-decoration-thickness: 0.5pt;
+}
+.pdf-links a:hover {
+  color: #c8371d; /* site signal red — screen only; print ignores :hover */
 }
 
 .pdf-footer {
