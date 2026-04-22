@@ -224,19 +224,38 @@ async function writeDescription(
     format: item.type,
     label: facts?.label || item.label || "unknown",
     releaseDate: item.releaseDate,
+    // Merge Discogs genres/styles with the iTunes primary-genre tag the
+    // record already carries. Brand-new 2026-* singles often have no
+    // Discogs entry yet (catalogue lag), so falling back to the iTunes
+    // tag is what keeps the prompt from running empty.
     genres: facts?.genres || [],
     styles: facts?.styles || [],
+    tags: item.tags || [],
     trackCount: facts?.tracklistLength || null,
     physicalFormat: facts?.format || "",
+    // Flag sparse-metadata runs so the prompt knows to lean on its own
+    // knowledge of the artist/label rather than parrot the thin JSON.
+    metadataSparse:
+      !(facts?.genres?.length) &&
+      !(facts?.styles?.length) &&
+      !(item.tags?.length),
   };
 
-  // System prompt: copied verbatim from scripts/write-descriptions.mjs so the
-  // voice, originality rules, and length constraints are identical to the
-  // daily batch. Kept inline (not imported from the script) because that
-  // script is a .mjs Node CLI and this is the Next Node route — one source
-  // of truth would mean refactoring both, and the duplication is small.
+  // System prompt: mirrors scripts/write-descriptions.mjs but with the
+  // "metadata sparse" allowance that lets Claude draw on general knowledge
+  // of a named artist's sonic register and a named label's aesthetic when
+  // Discogs has no detail yet. Without that allowance, same-day releases
+  // from well-known artists (Purelink, Cinna Peyghamy) get a dry metadata
+  // recitation like "A single from X on Y, out April 2026" because the
+  // fact rules block every other angle. We still forbid invented specifics
+  // about THIS release.
   const system = `You write terse 1-2 sentence music recommendations for Disquet Discover.
-Your job is to describe an electronic record using ONLY the verified metadata the user provides.
+Your job is to describe an electronic record for an editorial site. Use the
+verified metadata the user provides, and — ONLY for facts that are not
+specific to this particular release — you MAY lean on general knowledge of
+the named artist's established sonic register and the named label's known
+aesthetic. Treat everything about this specific release (tracks, personnel,
+tempos, sequence claims) as unverified.
 
 ORIGINALITY RULES:
 - DO NOT copy Boomkat / Bleep / Juno / Resident Advisor / Pitchfork sentence structure or signature phrases. No "in which X meets Y", no "hypercolour", no "heavy-lidded", no "pocket symphony", no "spacious low-end", no "mutant / mutoid / liminal / sun-bleached / moss-covered / crystalline". Avoid any adjective pile-up you have seen in a record-shop blurb a hundred times.
@@ -244,12 +263,19 @@ ORIGINALITY RULES:
 - The description must feel like it was written for this site specifically, not reusable copy from another shop.
 
 HARD FACT RULES:
-- DO NOT invent producer names, real names, band members, collaborators, tracks, lyrics, samples, studio details, backstories, influences, or any biographical claim.
+- DO NOT invent producer names, real names, band members, collaborators, tracks, lyrics, samples, studio details, backstories, or specific biographical claims about THIS release.
 - DO NOT claim a release is "first", "debut", "return", "comeback", "third LP", "follow-up to X", or give any sequence/ordering claim unless the metadata explicitly states it.
-- DO NOT describe specific musical details you cannot verify (tempos, BPMs, lengths, instrumentation like "harp" or "saxophone", track names). You may reference the genres/styles that ARE provided.
+- DO NOT describe specific musical details of THIS release that you cannot verify (exact tempos/BPMs, track names, lyrics, individual track durations, or instrumentation specific to a particular track). You MAY reference the genres/styles/tags that ARE provided OR the sonic register the artist is widely known for (e.g. Purelink's ambient dub, Cinna Peyghamy's tombak-and-synth work).
 - DO NOT use em-dashes or en-dashes. Use commas or periods.
+- DO NOT start with "A single from X" or "An album from X" — too close to placeholder copy.
 - DO suggest "for fans of" with at most ONE well-known contemporary who is widely associated with the SAME LABEL or the same genre cluster. If you are not confident the pairing is public knowledge, omit it.
-- Keep it under 280 characters. Two sentences max. Prefer one.`;
+- Keep it under 280 characters. Two sentences max. Prefer one.
+
+IF METADATA IS SPARSE (no genres, no styles, no tags — common for same-day
+releases not yet in Discogs) the user will set metadataSparse: true. In that
+case, anchor the description in what is widely known about the artist and
+label in public musical discourse, written as observation rather than as a
+biographical claim. Do not fabricate a specific storyline for THIS release.`;
 
   const user = `Write the description for this release. Verified metadata only:
 
