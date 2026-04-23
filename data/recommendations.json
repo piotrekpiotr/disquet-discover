@@ -6,7 +6,7 @@
     "title": "Mind Abandon",
     "label": "Planet Mu",
     "releaseDate": "2026-05-15",
-    "description": "",
+    "description": "Ital Tek back on Planet Mu, still working the seam between cinematic bass weight and frayed, half, dissolved electronics he has been carving out since Bodied. Filed close to the label's Kuedo corner.",
     "tags": [
       "electronic"
     ],
@@ -40,7 +40,7 @@
     "title": "Loud Bloom",
     "label": "Rabid Records under exclusive license to dh2",
     "releaseDate": "2026-05-08",
-    "description": "",
+    "description": "One half of The Knife returning with a full, length on his own Rabid, licensed out to dh2. Expect the polyrhythmic, tropics, adjacent club constructions he has been issuing in EP, sized doses for years, now stretched to album length.",
     "tags": [
       "electronic"
     ],
@@ -74,7 +74,7 @@
     "title": "Duori",
     "label": "Stroom",
     "releaseDate": "2026-05-05",
-    "description": "",
+    "description": "Heith's Milan, circuit electronics meet Tarawangsawelas' two, string Sundanese bowing, landing on Stroom where this kind of cross, wired ritual music tends to find its natural shelf. Filed near Gabber Modus Operandi for anyone who wants the pointer.",
     "tags": [
       "worldwide"
     ],
@@ -108,7 +108,7 @@
     "title": "Spring summer",
     "label": "Escho",
     "releaseDate": "2026-04-22",
-    "description": "",
+    "description": "Smerz return to Escho with another single in their oblique pop register, the production as exposed and unbothered as ever. Vocals up close, structures still refusing to behave.",
     "tags": [
       "alternative"
     ],
@@ -142,7 +142,7 @@
     "title": "Wasteman (Original Motion Picture Soundtrack)",
     "label": "Dense Truth",
     "releaseDate": "2026-04-22",
-    "description": "",
+    "description": "Forest Swords scores a feature, out via his own Dense Truth imprint. Expect the same corroded, ritual, feeling electronics that marked Compassion, arranged here for picture.",
     "tags": [
       "soundtrack"
     ],
@@ -170,13 +170,83 @@
     "pressMentions": []
   },
   {
+    "id": "tricky-marta-out-of-place",
+    "type": "single",
+    "artist": "Tricky & Marta",
+    "title": "Out of Place",
+    "label": "False Idols",
+    "releaseDate": "2026-04-22",
+    "description": "Tricky pairs with Marta for a single on his own False Idols, the imprint that has housed most of his work since leaving the majors. Expect the murk and half, whispered vocal trade, offs he has been refining for three decades.",
+    "tags": [
+      "alternative"
+    ],
+    "links": {
+      "apple": "https://music.apple.com/us/album/out-of-place-single/1888198027",
+      "bandcamp": "https://bandcamp.com/search?q=Tricky%20%26%20Marta%20Out%20of%20Place&item_type=a",
+      "spotify": "https://open.spotify.com/search/Tricky%20%26%20Marta%20Out%20of%20Place",
+      "soundcloud": "https://soundcloud.com/search?q=Tricky%20%26%20Marta%20Out%20of%20Place",
+      "youtube": "https://www.youtube.com/results?search_query=Tricky%20%26%20Marta%20Out%20of%20Place",
+      "deezer": "https://www.deezer.com/album/948026141"
+    },
+    "embed": {
+      "provider": "deezer",
+      "src": "https://widget.deezer.com/widget/light/album/948026141",
+      "height": 300
+    },
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/d0/04/50/d0045081-29e7-1797-5fcb-10561d633976/4062548141368.png/600x600bb.jpg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
+    "id": "alan-jan-alan-abrahams-jan-jelinek-all-one",
+    "type": "single",
+    "artist": "Alan & Jan, Alan Abrahams & Jan Jelinek",
+    "title": "All One",
+    "label": "Faitiche",
+    "releaseDate": "2026-04-22",
+    "description": "Alan Abrahams and Jan Jelinek pair up on Faitiche, which usually means patient, process, led electronics with the edges left audible. For anyone who followed Jelinek's Loop, finding, Jazz, Records into its quieter offshoots.",
+    "tags": [
+      "idm/experimental"
+    ],
+    "links": {
+      "apple": "https://music.apple.com/us/album/all-one-single/1886126271",
+      "bandcamp": "https://bandcamp.com/search?q=Alan%20%26%20Jan%2C%20Alan%20Abrahams%20%26%20Jan%20Jelinek%20All%20One&item_type=a",
+      "spotify": "https://open.spotify.com/search/Alan%20%26%20Jan%2C%20Alan%20Abrahams%20%26%20Jan%20Jelinek%20All%20One",
+      "soundcloud": "https://soundcloud.com/search?q=Alan%20%26%20Jan%2C%20Alan%20Abrahams%20%26%20Jan%20Jelinek%20All%20One",
+      "youtube": "https://www.youtube.com/results?search_query=Alan%20%26%20Jan%2C%20Alan%20Abrahams%20%26%20Jan%20Jelinek%20All%20One",
+      "deezer": "https://www.deezer.com/album/947210921"
+    },
+    "embed": {
+      "provider": "deezer",
+      "src": "https://widget.deezer.com/widget/light/album/947210921",
+      "height": 300
+    },
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/3c/2d/ba/3c2dbadc-1c75-ce59-dfcc-8042f56e1e1c/880918279688.jpg/600x600bb.jpg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
     "id": "purelink-rainy-miller-barrons-hotel-yellow-bones",
     "type": "single",
     "artist": "Purelink & Rainy Miller",
     "title": "Barrons Hotel / Yellow Bones",
     "label": "Fixed Abode",
     "releaseDate": "2026-04-21",
-    "description": "",
+    "description": "Purelink's ambient dub meets Rainy Miller's bruised, post, everything songcraft on Fixed Abode, a pairing that makes more sense the longer you sit with either catalogue. For anyone who rinsed Signs or Desquite.",
     "tags": [
       "alternative"
     ],
@@ -210,7 +280,7 @@
     "title": "Zur زور",
     "label": "Other People, distributed by Stem",
     "releaseDate": "2026-04-21",
-    "description": "",
+    "description": "Peyghamy's tombak, driven electronics land on Other People, where his patient, percussion, first approach fits neatly alongside the label's long, running interest in acoustic, electronic hybrids. For anyone tracking the Nicolas Jaar orbit.",
     "tags": [
       "electronic"
     ],
@@ -531,7 +601,7 @@
     "title": "Relentless Opponent",
     "label": "Throttle Records Ltd",
     "releaseDate": "2026-04-17",
-    "description": "",
+    "description": "Clark forwards a single on his own Throttle imprint, IDM and techno filtered through the granular, almost orchestral density he has leaned into since Death Peak. Digital only for now.",
     "tags": [
       "electronic"
     ],
@@ -565,7 +635,7 @@
     "title": "Palestine 36",
     "label": "Invada Records",
     "releaseDate": "2026-04-17",
-    "description": "",
+    "description": "Frost scoring a period film for Invada, eight cues leaning on the industrial and noise textures he has pushed through A U R O R A and his Lynch work. Shelve near Tim Hecker's soundtrack output if you need a pointer.",
     "tags": [
       "soundtrack"
     ],
@@ -585,6 +655,41 @@
     "status": "pending",
     "approvedAt": null,
     "coverImageUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/07/ca/05/07ca0507-2150-1bf7-528a-7f2ca417a790/65229.jpg/600x600bb.jpg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
+    "id": "sages-olafur-arnalds-loreen-echoes",
+    "type": "single",
+    "artist": "SAGES, Ólafur Arnalds & Loreen",
+    "title": "Echoes",
+    "label": "A Mercury KX Release; Ólafur Arnalds, under exclusive license to Universal Music Operations Limited",
+    "releaseDate": "2026-04-17",
+    "description": "Ólafur Arnalds lends his string, and, piano palette to a Mercury KX pop single fronted by Loreen and SAGES, the neoclassical vocabulary repurposed as scaffolding for a large, format vocal. For listeners who followed Arnalds' Island Songs crossover work more than the ambient sides.",
+    "tags": [
+      "pop"
+    ],
+    "links": {
+      "apple": "https://music.apple.com/us/album/echoes-single/1889551139",
+      "bandcamp": "https://bandcamp.com/search?q=SAGES%2C%20%C3%93lafur%20Arnalds%20%26%20Loreen%20Echoes&item_type=a",
+      "spotify": "https://open.spotify.com/search/SAGES%2C%20%C3%93lafur%20Arnalds%20%26%20Loreen%20Echoes",
+      "soundcloud": "https://soundcloud.com/search?q=SAGES%2C%20%C3%93lafur%20Arnalds%20%26%20Loreen%20Echoes",
+      "youtube": "https://www.youtube.com/results?search_query=SAGES%2C%20%C3%93lafur%20Arnalds%20%26%20Loreen%20Echoes",
+      "deezer": "https://www.deezer.com/album/958340611"
+    },
+    "embed": {
+      "provider": "deezer",
+      "src": "https://widget.deezer.com/widget/light/album/958340611",
+      "height": 300
+    },
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/a6/86/89/a68689fb-11d4-8c45-1077-bd1fcfde3a6f/26UMGIM36284.rgb.jpg/600x600bb.jpg",
     "cover": {
       "bg": "#111110",
       "fg": "#f2efe8",
@@ -667,7 +772,7 @@
     "title": "Blue Kembang",
     "label": "Stroom",
     "releaseDate": "2026-04-14",
-    "description": "",
+    "description": "Heith's metallic, ritual, leaning electronics meet Tarawangsawelas' Sundanese two, string drone on Stroom, a pairing that makes more sense the longer you sit with it. For anyone following Ghédalia Tazartès reissues or the stranger corners of the label's catalogue.",
     "tags": [
       "worldwide"
     ],
@@ -1031,6 +1136,76 @@
     "pressMentions": []
   },
   {
+    "id": "amelie-lens-whatever-you-do",
+    "type": "single",
+    "artist": "Amelie Lens",
+    "title": "Whatever You Do",
+    "label": "Sony Music Entertainment Germany GmbH",
+    "releaseDate": "2026-04-10",
+    "description": "The Belgian techno mainstay turns up on Sony Germany rather than her usual Lenske channel, a single built for the kind of peak, time functionality her sets have always traded in. File next to Charlotte de Witte if you need a coordinate.",
+    "tags": [
+      "dance"
+    ],
+    "links": {
+      "apple": "https://music.apple.com/us/album/whatever-you-do-single/1889596654",
+      "bandcamp": "https://bandcamp.com/search?q=Amelie%20Lens%20Whatever%20You%20Do&item_type=a",
+      "spotify": "https://open.spotify.com/search/Amelie%20Lens%20Whatever%20You%20Do",
+      "soundcloud": "https://soundcloud.com/search?q=Amelie%20Lens%20Whatever%20You%20Do",
+      "youtube": "https://www.youtube.com/results?search_query=Amelie%20Lens%20Whatever%20You%20Do",
+      "deezer": "https://www.deezer.com/album/951686571"
+    },
+    "embed": {
+      "provider": "deezer",
+      "src": "https://widget.deezer.com/widget/light/album/951686571",
+      "height": 300
+    },
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/88/d3/16/88d31610-d997-70bd-7aff-d1afd47deb68/196874262986.jpg/600x600bb.jpg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
+    "id": "lone-hyperphantasia",
+    "type": "album",
+    "artist": "Lone",
+    "title": "Hyperphantasia",
+    "label": "Greco-Roman",
+    "releaseDate": "2026-04-10",
+    "description": "Lone returns to Greco, Roman with sixteen tracks spread across the full Magicwire palette: rave, era breaks, warm house, downtempo and ambient smudges all accounted for. Maximalist as ever, and shelved somewhere between Bibio and his own Galaxy Garden.",
+    "tags": [
+      "electronic"
+    ],
+    "links": {
+      "apple": "https://music.apple.com/us/album/hyperphantasia/1856659191",
+      "bandcamp": "https://bandcamp.com/search?q=Lone%20Hyperphantasia&item_type=a",
+      "spotify": "https://open.spotify.com/search/Lone%20Hyperphantasia",
+      "soundcloud": "https://soundcloud.com/search?q=Lone%20Hyperphantasia",
+      "youtube": "https://www.youtube.com/results?search_query=Lone%20Hyperphantasia",
+      "deezer": "https://www.deezer.com/album/865303492"
+    },
+    "embed": {
+      "provider": "deezer",
+      "src": "https://widget.deezer.com/widget/light/album/865303492",
+      "height": 300
+    },
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/02/f3/01/02f30125-42c6-5682-6797-8b8c063481e3/cover.jpg/600x600bb.jpg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
     "id": "aloisius-vernacular",
     "type": "album",
     "artist": "Aloisius",
@@ -1165,6 +1340,39 @@
     "pressMentions": []
   },
   {
+    "id": "oma-totem-exercicis-ritmics-volum-2",
+    "type": "ep",
+    "artist": "Oma Totem",
+    "title": "Exercicis Ritmics Volum 2",
+    "label": "Hivern Discs",
+    "releaseDate": "2026-04-08",
+    "description": "",
+    "tags": [
+      "electronic"
+    ],
+    "links": {
+      "bandcamp": "https://omatotem.bandcamp.com/album/exercicis-r-tmics-volum-2",
+      "spotify": "https://open.spotify.com/search/Oma%20Totem%20Exercicis%20Ritmics%20Volum%202",
+      "soundcloud": "https://soundcloud.com/search?q=Oma%20Totem%20Exercicis%20Ritmics%20Volum%202",
+      "youtube": "https://www.youtube.com/results?search_query=Oma%20Totem%20Exercicis%20Ritmics%20Volum%202"
+    },
+    "embed": {
+      "provider": "bandcamp",
+      "src": "https://bandcamp.com/EmbeddedPlayer/album=88329237/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=true/artwork=small/transparent=true/",
+      "height": 470
+    },
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://i.discogs.com/rkZcnOK_AL38938-n47fqZnCrrmqzyJ1EyPysF0L07Y/rs:fit/g:sm/q:90/h:592/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM3MDY0/OTA0LTE3NzY4NTk3/MjYtNTA0OC5qcGVn.jpeg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
     "id": "aphex-twin-selected-ambient-works-85-92",
     "type": "album",
     "artist": "Aphex Twin",
@@ -1196,6 +1404,35 @@
       "fg": "#f2efe8",
       "motif": "disc"
     }
+  },
+  {
+    "id": "idra-kayne-christos-alexopoulos-",
+    "type": "single",
+    "artist": "Idra Kayne, Christos Alexopoulos",
+    "title": "Τι Κι Αν Δεν Είσαι Ήρωας",
+    "label": "Heaven OST",
+    "releaseDate": "2026-04-06",
+    "description": "",
+    "tags": [
+      "stage & screen"
+    ],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=Idra%20Kayne%2C%20Christos%20Alexopoulos%20%CE%A4%CE%B9%20%CE%9A%CE%B9%20%CE%91%CE%BD%20%CE%94%CE%B5%CE%BD%20%CE%95%CE%AF%CF%83%CE%B1%CE%B9%20%CE%89%CF%81%CF%89%CE%B1%CF%82&item_type=a",
+      "spotify": "https://open.spotify.com/search/Idra%20Kayne%2C%20Christos%20Alexopoulos%20%CE%A4%CE%B9%20%CE%9A%CE%B9%20%CE%91%CE%BD%20%CE%94%CE%B5%CE%BD%20%CE%95%CE%AF%CF%83%CE%B1%CE%B9%20%CE%89%CF%81%CF%89%CE%B1%CF%82",
+      "soundcloud": "https://soundcloud.com/search?q=Idra%20Kayne%2C%20Christos%20Alexopoulos%20%CE%A4%CE%B9%20%CE%9A%CE%B9%20%CE%91%CE%BD%20%CE%94%CE%B5%CE%BD%20%CE%95%CE%AF%CF%83%CE%B1%CE%B9%20%CE%89%CF%81%CF%89%CE%B1%CF%82",
+      "youtube": "https://www.youtube.com/results?search_query=Idra%20Kayne%2C%20Christos%20Alexopoulos%20%CE%A4%CE%B9%20%CE%9A%CE%B9%20%CE%91%CE%BD%20%CE%94%CE%B5%CE%BD%20%CE%95%CE%AF%CF%83%CE%B1%CE%B9%20%CE%89%CF%81%CF%89%CE%B1%CF%82"
+    },
+    "embed": null,
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://i.discogs.com/5d2JtCieAMZ0zDOypMtpQjiepZ6442ej0BsAReYb_Sc/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM3MDE0/NjQ4LTE3NzU2OTI4/NDAtNDM5Ni5qcGVn.jpeg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
   },
   {
     "id": "boards-of-canada-untitled",
@@ -2259,6 +2496,39 @@
       "motif": "disc"
     },
     "descriptionPreview": true
+  },
+  {
+    "id": "sonic-youth-of-today-aka-syt",
+    "type": "album",
+    "artist": "Sonic Youth of Today",
+    "title": "AKA SYT",
+    "label": "Grabaciones Bonicas",
+    "releaseDate": "2026-03-19",
+    "description": "",
+    "tags": [
+      "rock"
+    ],
+    "links": {
+      "bandcamp": "https://discosvertebrales.bandcamp.com/album/aka-syt",
+      "spotify": "https://open.spotify.com/search/Sonic%20Youth%20of%20Today%20AKA%20SYT",
+      "soundcloud": "https://soundcloud.com/search?q=Sonic%20Youth%20of%20Today%20AKA%20SYT",
+      "youtube": "https://www.youtube.com/results?search_query=Sonic%20Youth%20of%20Today%20AKA%20SYT"
+    },
+    "embed": {
+      "provider": "bandcamp",
+      "src": "https://bandcamp.com/EmbeddedPlayer/album=479241197/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=true/artwork=small/transparent=true/",
+      "height": 470
+    },
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://i.discogs.com/5OKj63Dztj9F1GKZrh_QaRAz-K7Db0RAQW_FN5xf9_M/rs:fit/g:sm/q:90/h:600/w:392/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM2ODMz/OTY1LTE3NzQ0NjAz/MjUtNTU3Ni5qcGVn.jpeg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
   },
   {
     "id": "elsa-berzigotti-rosabella-allen-letters-hung-up-on-a-line",
@@ -5982,6 +6252,74 @@
     "pressMentions": []
   },
   {
+    "id": "youth-of-today-break-down-the-walls",
+    "type": "album",
+    "artist": "Youth Of Today",
+    "title": "Break Down The Walls",
+    "label": "Revelation Records (8)",
+    "releaseDate": "2026-01-01",
+    "description": "",
+    "tags": [
+      "rock"
+    ],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=Youth%20Of%20Today%20Break%20Down%20The%20Walls&item_type=a",
+      "spotify": "https://open.spotify.com/search/Youth%20Of%20Today%20Break%20Down%20The%20Walls",
+      "soundcloud": "https://soundcloud.com/search?q=Youth%20Of%20Today%20Break%20Down%20The%20Walls",
+      "youtube": "https://www.youtube.com/results?search_query=Youth%20Of%20Today%20Break%20Down%20The%20Walls",
+      "deezer": "https://www.deezer.com/album/1154778"
+    },
+    "embed": {
+      "provider": "deezer",
+      "src": "https://widget.deezer.com/widget/light/album/1154778",
+      "height": 300
+    },
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://i.discogs.com/TS9xKoj_BJDctWeEWwb_Ut-Tp8fcwHbFhG3CtBDlmhs/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM2OTM3/MDk1LTE3NzQ5ODk4/MzYtMzEyMC5qcGVn.jpeg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
+    "id": "bonobo-the-north-borders",
+    "type": "album",
+    "artist": "Bonobo",
+    "title": "The North Borders",
+    "label": "Ninja Tune",
+    "releaseDate": "2026-01-01",
+    "description": "",
+    "tags": [
+      "electronic"
+    ],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=Bonobo%20The%20North%20Borders&item_type=a",
+      "spotify": "https://open.spotify.com/search/Bonobo%20The%20North%20Borders",
+      "soundcloud": "https://soundcloud.com/search?q=Bonobo%20The%20North%20Borders",
+      "youtube": "https://www.youtube.com/results?search_query=Bonobo%20The%20North%20Borders",
+      "deezer": "https://www.deezer.com/album/6367728"
+    },
+    "embed": {
+      "provider": "deezer",
+      "src": "https://widget.deezer.com/widget/light/album/6367728",
+      "height": 300
+    },
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://i.discogs.com/GjfRlcWlKou0YvFasf2yEctZ0SUS4hVjN0cOvK44HN8/rs:fit/g:sm/q:90/h:600/w:596/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM3MTQy/NDA2LTE3NzY4NTk2/MzYtOTA2Ny5qcGVn.jpeg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
     "id": "daniel-lopatin-marty-supreme-original-soundtrack",
     "type": "album",
     "artist": "Daniel Lopatin",
@@ -6551,6 +6889,40 @@
     "pressMentions": []
   },
   {
+    "id": "ken-ishii-garden-on-the-palm",
+    "type": "album",
+    "artist": "Ken Ishii",
+    "title": "Garden On The Palm",
+    "label": "R & S Records",
+    "releaseDate": "2025-11-27",
+    "description": "",
+    "tags": [
+      "electronic"
+    ],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=Ken%20Ishii%20Garden%20On%20The%20Palm&item_type=a",
+      "spotify": "https://open.spotify.com/search/Ken%20Ishii%20Garden%20On%20The%20Palm",
+      "soundcloud": "https://soundcloud.com/search?q=Ken%20Ishii%20Garden%20On%20The%20Palm",
+      "youtube": "https://www.youtube.com/results?search_query=Ken%20Ishii%20Garden%20On%20The%20Palm",
+      "deezer": "https://www.deezer.com/album/822829631"
+    },
+    "embed": {
+      "provider": "deezer",
+      "src": "https://widget.deezer.com/widget/light/album/822829631",
+      "height": 300
+    },
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://i.discogs.com/xwX54d74vpJMwL3gx2AvcaNGzeeuOttrpaLI-2YyHYc/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM1OTU2/Njg0LTE3NjYwNTY0/ODAtNzY3Mi5qcGVn.jpeg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
     "id": "material-things-pike-rain-cymbals",
     "type": "album",
     "artist": "Material Things / Pike",
@@ -7110,6 +7482,40 @@
     }
   },
   {
+    "id": "sara-udon-ii-ii",
+    "type": "ep",
+    "artist": "Sara Udon",
+    "title": "II = II",
+    "label": "Modern Love",
+    "releaseDate": "2025-11-14",
+    "description": "",
+    "tags": [
+      "electronic"
+    ],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=Sara%20Udon%20II%20%3D%20II&item_type=a",
+      "spotify": "https://open.spotify.com/search/Sara%20Udon%20II%20%3D%20II",
+      "soundcloud": "https://soundcloud.com/search?q=Sara%20Udon%20II%20%3D%20II",
+      "youtube": "https://www.youtube.com/results?search_query=Sara%20Udon%20II%20%3D%20II",
+      "deezer": "https://www.deezer.com/album/869572962"
+    },
+    "embed": {
+      "provider": "deezer",
+      "src": "https://widget.deezer.com/widget/light/album/869572962",
+      "height": 300
+    },
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://i.discogs.com/Z6mgza7dq2d-8dilVRsmBYUJX4b5ZG-DubRLxBiKwPs/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM1NjY2/OTQxLTE3NjM4MjY2/MTktMzYwMy5qcGVn.jpeg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
     "id": "zenker-brothers-illusion",
     "type": "ep",
     "artist": "Zenker Brothers",
@@ -7275,6 +7681,39 @@
       "fg": "#f2efe8",
       "motif": "disc"
     }
+  },
+  {
+    "id": "ziq-manzana",
+    "type": "album",
+    "artist": "µ-Ziq",
+    "title": "Manzana",
+    "label": "Balmat",
+    "releaseDate": "2025-11-07",
+    "description": "",
+    "tags": [
+      "electronic"
+    ],
+    "links": {
+      "bandcamp": "https://mikeparadinas.bandcamp.com/album/manzana",
+      "spotify": "https://open.spotify.com/search/%C2%B5-Ziq%20Manzana",
+      "soundcloud": "https://soundcloud.com/search?q=%C2%B5-Ziq%20Manzana",
+      "youtube": "https://www.youtube.com/results?search_query=%C2%B5-Ziq%20Manzana"
+    },
+    "embed": {
+      "provider": "bandcamp",
+      "src": "https://bandcamp.com/EmbeddedPlayer/album=663853083/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=true/artwork=small/transparent=true/",
+      "height": 470
+    },
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://i.discogs.com/KuTEpjrqZdmUyK3cRLb9hVCC_Vn4VV9IYSvvPqzm29I/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM1NTk2/MzkwLTE3NjI1MzM3/MjktMzI4NC5qcGVn.jpeg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
   },
   {
     "id": "stenny-sharp-fragments",
@@ -8005,6 +8444,40 @@
       "fg": "#f2efe8",
       "motif": "disc"
     }
+  },
+  {
+    "id": "carrier-11-rhythm-immortal",
+    "type": "album",
+    "artist": "Carrier (11)",
+    "title": "Rhythm Immortal",
+    "label": "Modern Love",
+    "releaseDate": "2025-10-22",
+    "description": "",
+    "tags": [
+      "electronic"
+    ],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=Carrier%20(11)%20Rhythm%20Immortal&item_type=a",
+      "spotify": "https://open.spotify.com/search/Carrier%20(11)%20Rhythm%20Immortal",
+      "soundcloud": "https://soundcloud.com/search?q=Carrier%20(11)%20Rhythm%20Immortal",
+      "youtube": "https://www.youtube.com/results?search_query=Carrier%20(11)%20Rhythm%20Immortal",
+      "deezer": "https://www.deezer.com/album/812321721"
+    },
+    "embed": {
+      "provider": "deezer",
+      "src": "https://widget.deezer.com/widget/light/album/812321721",
+      "height": 300
+    },
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://i.discogs.com/QBhUCsD7OprHewDzS0NO1v2-8dIemv2ItA6alLhyPcs/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM1Njkw/ODMwLTE3NjM0MDI0/MzUtNDM3OS5qcGVn.jpeg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
   },
   {
     "id": "mohammad-reza-mortazavi-nexus",
@@ -9881,6 +10354,40 @@
     }
   },
   {
+    "id": "giant-claw-decadent-stress-chamber",
+    "type": "album",
+    "artist": "Giant Claw",
+    "title": "Decadent Stress Chamber",
+    "label": "Orange Milk Records",
+    "releaseDate": "2025-07-24",
+    "description": "",
+    "tags": [
+      "electronic"
+    ],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=Giant%20Claw%20Decadent%20Stress%20Chamber&item_type=a",
+      "spotify": "https://open.spotify.com/search/Giant%20Claw%20Decadent%20Stress%20Chamber",
+      "soundcloud": "https://soundcloud.com/search?q=Giant%20Claw%20Decadent%20Stress%20Chamber",
+      "youtube": "https://www.youtube.com/results?search_query=Giant%20Claw%20Decadent%20Stress%20Chamber",
+      "deezer": "https://www.deezer.com/album/759610511"
+    },
+    "embed": {
+      "provider": "deezer",
+      "src": "https://widget.deezer.com/widget/light/album/759610511",
+      "height": 300
+    },
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://i.discogs.com/Elx6tWmaqu57mXG66YQ-pKCRXAM_i7npfYkRQGHnViE/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM0NzQ4/NDA2LTE3NTQ0ODE4/NjEtNTQwNi5qcGVn.jpeg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
     "id": "dj-haram-beside-myself",
     "type": "album",
     "artist": "DJ Haram",
@@ -10872,6 +11379,35 @@
     "status": "pending",
     "approvedAt": null,
     "coverImageUrl": "https://i.discogs.com/VDKFraIyhoaKFoEfJ4hGtSMk_M1Venz1BTMjlTsL8CQ/rs:fit/g:sm/q:90/h:596/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM0MDMz/MjMzLTE3NDc3NDU4/MTctMzk2OC5qcGVn.jpeg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
+    "id": "stephen-vitiello-with-brendan-canty-and-hahn-rowe-second",
+    "type": "album",
+    "artist": "Stephen Vitiello With Brendan Canty And Hahn Rowe",
+    "title": "Second",
+    "label": "Balmat",
+    "releaseDate": "2025-06-06",
+    "description": "",
+    "tags": [
+      "electronic"
+    ],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=Stephen%20Vitiello%20With%20Brendan%20Canty%20And%20Hahn%20Rowe%20Second&item_type=a",
+      "spotify": "https://open.spotify.com/search/Stephen%20Vitiello%20With%20Brendan%20Canty%20And%20Hahn%20Rowe%20Second",
+      "soundcloud": "https://soundcloud.com/search?q=Stephen%20Vitiello%20With%20Brendan%20Canty%20And%20Hahn%20Rowe%20Second",
+      "youtube": "https://www.youtube.com/results?search_query=Stephen%20Vitiello%20With%20Brendan%20Canty%20And%20Hahn%20Rowe%20Second"
+    },
+    "embed": null,
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://i.discogs.com/37BubgP_l6Sw8peDmxQxpjJftM0E_mf54wk42wzUyZc/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM0MjY3/MDY2LTE3NDk5MTE0/ODQtOTg5OC5qcGVn.jpeg",
     "cover": {
       "bg": "#111110",
       "fg": "#f2efe8",
@@ -12140,6 +12676,40 @@
     "pressMentions": []
   },
   {
+    "id": "quickly-quickly-i-heard-that-noise",
+    "type": "album",
+    "artist": "quickly, quickly",
+    "title": "I Heard That Noise",
+    "label": "Ghostly International",
+    "releaseDate": "2025-04-18",
+    "description": "",
+    "tags": [
+      "rock"
+    ],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=quickly%2C%20quickly%20I%20Heard%20That%20Noise&item_type=a",
+      "spotify": "https://open.spotify.com/search/quickly%2C%20quickly%20I%20Heard%20That%20Noise",
+      "soundcloud": "https://soundcloud.com/search?q=quickly%2C%20quickly%20I%20Heard%20That%20Noise",
+      "youtube": "https://www.youtube.com/results?search_query=quickly%2C%20quickly%20I%20Heard%20That%20Noise",
+      "deezer": "https://www.deezer.com/album/679605261"
+    },
+    "embed": {
+      "provider": "deezer",
+      "src": "https://widget.deezer.com/widget/light/album/679605261",
+      "height": 300
+    },
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://i.discogs.com/_qPEi3kkk7iC4vy8kFLDbwSaDlxeRD-0D7Ed4cUq1jI/rs:fit/g:sm/q:90/h:600/w:596/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTMzODI3/NjIyLTE3NDU3Nzc0/MjMtODE4MC5qcGVn.jpeg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
     "id": "snares-2-fusion",
     "type": "album",
     "artist": "Snares (2)",
@@ -12469,6 +13039,40 @@
       "fg": "#f2efe8",
       "motif": "disc"
     }
+  },
+  {
+    "id": "ntski-calla",
+    "type": "album",
+    "artist": "NTsKi",
+    "title": "Calla",
+    "label": "Orange Milk Records",
+    "releaseDate": "2025-04-04",
+    "description": "",
+    "tags": [
+      "electronic"
+    ],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=NTsKi%20Calla&item_type=a",
+      "spotify": "https://open.spotify.com/search/NTsKi%20Calla",
+      "soundcloud": "https://soundcloud.com/search?q=NTsKi%20Calla",
+      "youtube": "https://www.youtube.com/results?search_query=NTsKi%20Calla",
+      "deezer": "https://www.deezer.com/album/504195281"
+    },
+    "embed": {
+      "provider": "deezer",
+      "src": "https://widget.deezer.com/widget/light/album/504195281",
+      "height": 300
+    },
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://i.discogs.com/dvZ0Exups-gbdUtkG4i3GRKqV0DN764ZmezdB3SwbFM/rs:fit/g:sm/q:90/h:600/w:380/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM0MjMx/MzMzLTE3NDk1NzQ3/MDktNzE0OC5wbmc.jpeg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
   },
   {
     "id": "fraufraulein-greater-honeyguide",
@@ -12807,6 +13411,40 @@
     }
   },
   {
+    "id": "unknown-mortal-orchestra-ic-02-bogota-l",
+    "type": "album",
+    "artist": "Unknown Mortal Orchestra",
+    "title": "IC-02 Bogotá",
+    "label": "Jagjaguwar",
+    "releaseDate": "2025-03-28",
+    "description": "",
+    "tags": [
+      "rock"
+    ],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=Unknown%20Mortal%20Orchestra%20IC-02%20Bogot%C3%A1&item_type=a",
+      "spotify": "https://open.spotify.com/search/Unknown%20Mortal%20Orchestra%20IC-02%20Bogot%C3%A1",
+      "soundcloud": "https://soundcloud.com/search?q=Unknown%20Mortal%20Orchestra%20IC-02%20Bogot%C3%A1",
+      "youtube": "https://www.youtube.com/results?search_query=Unknown%20Mortal%20Orchestra%20IC-02%20Bogot%C3%A1",
+      "deezer": "https://www.deezer.com/album/683167071"
+    },
+    "embed": {
+      "provider": "deezer",
+      "src": "https://widget.deezer.com/widget/light/album/683167071",
+      "height": 300
+    },
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://i.discogs.com/HBhQhynn25xcdTaUmXqSxGxJOR6w9_Jc06_WNjB7kQ0/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM0OTEz/MTg2LTE3NTYwNjg2/NDMtNDY1NC5qcGVn.jpeg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
     "id": "djrum-waxcap",
     "type": "single",
     "artist": "Djrum",
@@ -13003,6 +13641,40 @@
     }
   },
   {
+    "id": "lonnie-holley-tonky",
+    "type": "album",
+    "artist": "Lonnie Holley",
+    "title": "Tonky",
+    "label": "Jagjaguwar",
+    "releaseDate": "2025-03-21",
+    "description": "",
+    "tags": [
+      "electronic"
+    ],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=Lonnie%20Holley%20Tonky&item_type=a",
+      "spotify": "https://open.spotify.com/search/Lonnie%20Holley%20Tonky",
+      "soundcloud": "https://soundcloud.com/search?q=Lonnie%20Holley%20Tonky",
+      "youtube": "https://www.youtube.com/results?search_query=Lonnie%20Holley%20Tonky",
+      "deezer": "https://www.deezer.com/album/682712571"
+    },
+    "embed": {
+      "provider": "deezer",
+      "src": "https://widget.deezer.com/widget/light/album/682712571",
+      "height": 300
+    },
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://i.discogs.com/BO8Z3oToTjcwfPcFHBldbN9YCZACp9LUPadsUly8nA8/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTMzNTk1/MDQ0LTE3NDM3MDU5/NzItNjI3OC5qcGVn.jpeg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
     "id": "james-massiah-holland-park-hot-winter-dreaming-about-being-closer",
     "type": "single",
     "artist": "James Massiah",
@@ -13101,6 +13773,40 @@
       "fg": "#f2efe8",
       "motif": "disc"
     }
+  },
+  {
+    "id": "traka-2-aptid",
+    "type": "ep",
+    "artist": "Traka (2)",
+    "title": "APTID",
+    "label": "YUKU",
+    "releaseDate": "2025-03-13",
+    "description": "",
+    "tags": [
+      "electronic"
+    ],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=Traka%20(2)%20APTID&item_type=a",
+      "spotify": "https://open.spotify.com/search/Traka%20(2)%20APTID",
+      "soundcloud": "https://soundcloud.com/search?q=Traka%20(2)%20APTID",
+      "youtube": "https://www.youtube.com/results?search_query=Traka%20(2)%20APTID",
+      "deezer": "https://www.deezer.com/album/693938791"
+    },
+    "embed": {
+      "provider": "deezer",
+      "src": "https://widget.deezer.com/widget/light/album/693938791",
+      "height": 300
+    },
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://i.discogs.com/6QOAMwetoLOD9en8l9lGNBBiwJx9GHEq5621s3uNwts/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTMzNjc0/MzI4LTE3NDQ0NTYw/NDMtNDA1NS5qcGVn.jpeg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
   },
   {
     "id": "upsammy-open-catalyst",
@@ -13326,6 +14032,40 @@
     "status": "pending",
     "approvedAt": null,
     "coverImageUrl": "https://i.discogs.com/ciwzCyVkq4_7oEgPAj4ca80O8sQP0vvLxm88fqrzKRw/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTMzMzQ3/MDYzLTE3NDE0Mzky/MTItMTQwNy5qcGVn.jpeg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
+    "id": "forest-swords-bolted-deconstructed",
+    "type": "album",
+    "artist": "Forest Swords",
+    "title": "Bolted (Deconstructed)",
+    "label": "Ninja Tune",
+    "releaseDate": "2025-03-07",
+    "description": "",
+    "tags": [
+      "electronic"
+    ],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=Forest%20Swords%20Bolted%20(Deconstructed)&item_type=a",
+      "spotify": "https://open.spotify.com/search/Forest%20Swords%20Bolted%20(Deconstructed)",
+      "soundcloud": "https://soundcloud.com/search?q=Forest%20Swords%20Bolted%20(Deconstructed)",
+      "youtube": "https://www.youtube.com/results?search_query=Forest%20Swords%20Bolted%20(Deconstructed)",
+      "deezer": "https://www.deezer.com/album/710774001"
+    },
+    "embed": {
+      "provider": "deezer",
+      "src": "https://widget.deezer.com/widget/light/album/710774001",
+      "height": 300
+    },
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://i.discogs.com/DqRqQkU0F5ycMecBOrZLDiYISA3q81YWqcGcL2Qp4nk/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTMzNTM1/Mzc3LTE3NDMxNDY2/OTQtNjE4NS5qcGVn.jpeg",
     "cover": {
       "bg": "#111110",
       "fg": "#f2efe8",
@@ -13595,6 +14335,69 @@
       "motif": "disc"
     },
     "descriptionPreview": true
+  },
+  {
+    "id": "soreab-fragments-of-utopia",
+    "type": "single",
+    "artist": "Soreab",
+    "title": "Fragments of Utopia",
+    "label": "YUKU",
+    "releaseDate": "2025-02-13",
+    "description": "",
+    "tags": [
+      "electronic"
+    ],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=Soreab%20Fragments%20of%20Utopia&item_type=a",
+      "spotify": "https://open.spotify.com/search/Soreab%20Fragments%20of%20Utopia",
+      "soundcloud": "https://soundcloud.com/search?q=Soreab%20Fragments%20of%20Utopia",
+      "youtube": "https://www.youtube.com/results?search_query=Soreab%20Fragments%20of%20Utopia",
+      "deezer": "https://www.deezer.com/album/693812631"
+    },
+    "embed": {
+      "provider": "deezer",
+      "src": "https://widget.deezer.com/widget/light/album/693812631",
+      "height": 300
+    },
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://i.discogs.com/9teIT2Zymzimbq4pptORVBWht6T4Ty-8SsHFZzvZqPc/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM2ODA2/OTQ0LTE3NzM4MjUx/MjItNTU0MC5qcGVn.jpeg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
+    "id": "ariel-kalma-asa-tone-",
+    "type": "ep",
+    "artist": "Ariel Kalma & Asa Tone",
+    "title": "◯",
+    "label": "Good Morning Tapes",
+    "releaseDate": "2025-02-13",
+    "description": "",
+    "tags": [
+      "electronic"
+    ],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=Ariel%20Kalma%20%26%20Asa%20Tone%20%E2%97%AF&item_type=a",
+      "spotify": "https://open.spotify.com/search/Ariel%20Kalma%20%26%20Asa%20Tone%20%E2%97%AF",
+      "soundcloud": "https://soundcloud.com/search?q=Ariel%20Kalma%20%26%20Asa%20Tone%20%E2%97%AF",
+      "youtube": "https://www.youtube.com/results?search_query=Ariel%20Kalma%20%26%20Asa%20Tone%20%E2%97%AF"
+    },
+    "embed": null,
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://i.discogs.com/KGa9UZg0CM3viEbcws1gPAqd1vqybqvmq9zjgHpR60Q/rs:fit/g:sm/q:90/h:570/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTMzMTUy/NTcxLTE3Mzk2Nzgz/NDMtNzcxMS5wbmc.jpeg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
   },
   {
     "id": "dj-python-mas-amable",
@@ -15159,6 +15962,103 @@
     }
   },
   {
+    "id": "galcher-lustwerk-information",
+    "type": "album",
+    "artist": "Galcher Lustwerk",
+    "title": "Information",
+    "label": "Ghostly International",
+    "releaseDate": "2025-01-01",
+    "description": "",
+    "tags": [
+      "electronic"
+    ],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=Galcher%20Lustwerk%20Information&item_type=a",
+      "spotify": "https://open.spotify.com/search/Galcher%20Lustwerk%20Information",
+      "soundcloud": "https://soundcloud.com/search?q=Galcher%20Lustwerk%20Information",
+      "youtube": "https://www.youtube.com/results?search_query=Galcher%20Lustwerk%20Information",
+      "deezer": "https://www.deezer.com/album/114789142"
+    },
+    "embed": {
+      "provider": "deezer",
+      "src": "https://widget.deezer.com/widget/light/album/114789142",
+      "height": 300
+    },
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://i.discogs.com/oUBav25u0FaOSCNmYvgnhU2mezpRKiNv-f7mGf4_EzE/rs:fit/g:sm/q:90/h:598/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTMzMzA5/NDgzLTE3NDI2OTg3/NDYtODQ2Ny5qcGVn.jpeg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
+    "id": "jaydee-plastic-dreams",
+    "type": "single",
+    "artist": "Jaydee",
+    "title": "Plastic Dreams",
+    "label": "R & S Records",
+    "releaseDate": "2025-01-01",
+    "description": "",
+    "tags": [
+      "electronic"
+    ],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=Jaydee%20Plastic%20Dreams&item_type=a",
+      "spotify": "https://open.spotify.com/search/Jaydee%20Plastic%20Dreams",
+      "soundcloud": "https://soundcloud.com/search?q=Jaydee%20Plastic%20Dreams",
+      "youtube": "https://www.youtube.com/results?search_query=Jaydee%20Plastic%20Dreams",
+      "deezer": "https://www.deezer.com/album/56881542"
+    },
+    "embed": {
+      "provider": "deezer",
+      "src": "https://widget.deezer.com/widget/light/album/56881542",
+      "height": 300
+    },
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://i.discogs.com/jiAEezOJg3AJGVpPm9QvQuEkFAtN_SwdsuJEfPVDSxE/rs:fit/g:sm/q:90/h:590/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM0OTI2/MzY1LTE3NTYyMDQw/NDYtMTU5Mi5qcGVn.jpeg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
+    "id": "crust-15-cell",
+    "type": "single",
+    "artist": "Crust (15)",
+    "title": "Cell",
+    "label": "Good Morning Tapes",
+    "releaseDate": "2025-01-01",
+    "description": "",
+    "tags": [
+      "electronic"
+    ],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=Crust%20(15)%20Cell&item_type=a",
+      "spotify": "https://open.spotify.com/search/Crust%20(15)%20Cell",
+      "soundcloud": "https://soundcloud.com/search?q=Crust%20(15)%20Cell",
+      "youtube": "https://www.youtube.com/results?search_query=Crust%20(15)%20Cell"
+    },
+    "embed": null,
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://i.discogs.com/PkYWioocZJHAUzti6KeU7nM9X-hzNddhmOyUNuVliBM/rs:fit/g:sm/q:90/h:600/w:380/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTMzMTYx/ODc0LTE3NDIxMzg3/NDItMjc1NC5qcGVn.jpeg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
     "id": "aphex-twin-music-from-the-merch-desk-2016-2023",
     "type": "album",
     "artist": "Aphex Twin",
@@ -15292,6 +16192,40 @@
       "motif": "disc"
     },
     "descriptionPreview": true
+  },
+  {
+    "id": "earl-sweatshirt-feet-of-clay",
+    "type": "ep",
+    "artist": "Earl Sweatshirt",
+    "title": "Feet Of Clay",
+    "label": "Tan Cressida",
+    "releaseDate": "2024-11-29",
+    "description": "",
+    "tags": [
+      "hip hop"
+    ],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=Earl%20Sweatshirt%20Feet%20Of%20Clay&item_type=a",
+      "spotify": "https://open.spotify.com/search/Earl%20Sweatshirt%20Feet%20Of%20Clay",
+      "soundcloud": "https://soundcloud.com/search?q=Earl%20Sweatshirt%20Feet%20Of%20Clay",
+      "youtube": "https://www.youtube.com/results?search_query=Earl%20Sweatshirt%20Feet%20Of%20Clay",
+      "deezer": "https://www.deezer.com/album/116822372"
+    },
+    "embed": {
+      "provider": "deezer",
+      "src": "https://widget.deezer.com/widget/light/album/116822372",
+      "height": 300
+    },
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://i.discogs.com/g0c5Q4_Na9kX4fSRVixPJBUJ1M6b7glhBY6GdCLA1bM/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTMyNDE4/ODY3LTE3Mzc0MDM1/NzMtNjkzMC5qcGVn.jpeg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
   },
   {
     "id": "djrum-meaning-s-edge",
@@ -17217,6 +18151,40 @@
     }
   },
   {
+    "id": "archetype-12-the-ick",
+    "type": "album",
+    "artist": "Archetype (12)",
+    "title": "The Ick",
+    "label": "Knekelhuis",
+    "releaseDate": "2024-03-27",
+    "description": "",
+    "tags": [
+      "electronic"
+    ],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=Archetype%20(12)%20The%20Ick&item_type=a",
+      "spotify": "https://open.spotify.com/search/Archetype%20(12)%20The%20Ick",
+      "soundcloud": "https://soundcloud.com/search?q=Archetype%20(12)%20The%20Ick",
+      "youtube": "https://www.youtube.com/results?search_query=Archetype%20(12)%20The%20Ick",
+      "deezer": "https://www.deezer.com/album/550857992"
+    },
+    "embed": {
+      "provider": "deezer",
+      "src": "https://widget.deezer.com/widget/light/album/550857992",
+      "height": 300
+    },
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://i.discogs.com/MyToSTbOi8WV5XvK8Ki0yiYFFaFZvM4qxgtDe7GGDHI/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTMwMjY5/MzgxLTE3MTE5Njc4/ODItODc3NS5qcGVn.jpeg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
     "id": "four-tet-three",
     "type": "album",
     "artist": "Four Tet",
@@ -17802,5 +18770,34 @@
       "fg": "#f2efe8",
       "motif": "disc"
     }
+  },
+  {
+    "id": "various-best-of-musique-2024",
+    "type": "album",
+    "artist": "Various",
+    "title": "Best Of Musique 2024",
+    "label": "Les Inrockuptibles",
+    "releaseDate": "2024-01-01",
+    "description": "",
+    "tags": [
+      "electronic"
+    ],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=Various%20Best%20Of%20Musique%202024&item_type=a",
+      "spotify": "https://open.spotify.com/search/Various%20Best%20Of%20Musique%202024",
+      "soundcloud": "https://soundcloud.com/search?q=Various%20Best%20Of%20Musique%202024",
+      "youtube": "https://www.youtube.com/results?search_query=Various%20Best%20Of%20Musique%202024"
+    },
+    "embed": null,
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://i.discogs.com/OVJ4anbhJtPLvBfFrd7TQMEsynpeY1_ww8BZNTIs-Tc/rs:fit/g:sm/q:90/h:583/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTMyNDk3/OTI5LTE3MzM1NjUw/NTgtNDg1Ni5qcGVn.jpeg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
   }
 ]

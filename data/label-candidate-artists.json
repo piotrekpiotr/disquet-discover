@@ -32,7 +32,8 @@
       "29 Speedway",
       "Opal Tapes",
       "12th Isle",
-      "Short Span"
+      "Short Span",
+      "Knekelhuis"
     ],
     "titleExamples": [
       "Mastery Quantum Sound",
@@ -1042,7 +1043,8 @@
       "Ninja Tune"
     ],
     "titleExamples": [
-      "Black Sands"
+      "Black Sands",
+      "The North Borders"
     ]
   },
   "Anthony Naples": {
@@ -1074,6 +1076,7 @@
       "Hivern Discs"
     ],
     "titleExamples": [
+      "Exercicis Ritmics Volum 2",
       "Exercicis Ritmics Volum 2",
       "Exercicis Ritmics Volum 2"
     ]
@@ -2187,7 +2190,8 @@
       "Modern Love"
     ],
     "titleExamples": [
-      "The Fan Dance"
+      "The Fan Dance",
+      "Rhythm Immortal"
     ]
   },
   "David Bowie": {
@@ -2260,7 +2264,8 @@
     ],
     "titleExamples": [
       "I Don't Like Shit, I Don't Go Outside: An Album By Earl Sweatshirt",
-      "Doris"
+      "Doris",
+      "Feet Of Clay"
     ]
   },
   "Earl Sweatshirt & The Alchemist": {
@@ -2397,7 +2402,8 @@
       "R&S Records"
     ],
     "titleExamples": [
-      "Jelly Tones"
+      "Jelly Tones",
+      "Garden On The Palm"
     ]
   },
   "Coldcut": {
@@ -2520,6 +2526,7 @@
       "29 Speedway"
     ],
     "titleExamples": [
+      "For Barney, Who Was A Bad Dog, But A Good Boy, And Very Much Loved",
       "For Barney, Who Was A Bad Dog, But A Good Boy, And Very Much Loved",
       "For Barney, Who Was A Bad Dog, But A Good Boy, And Very Much Loved"
     ]
@@ -2649,6 +2656,7 @@
       "Ghostly International"
     ],
     "titleExamples": [
+      "Shinbangumi",
       "Shinbangumi"
     ]
   },
@@ -2906,7 +2914,8 @@
       "Jagjaguwar"
     ],
     "titleExamples": [
-      "IC-02 Bogota"
+      "IC-02 Bogota",
+      "IC-02 Bogotá"
     ]
   },
   "Pretty V": {
@@ -3236,6 +3245,150 @@
     ],
     "titleExamples": [
       "Deformity In Ceremony"
+    ]
+  },
+  "Archetype (12)": {
+    "seenOn": [
+      "Knekelhuis"
+    ],
+    "titleExamples": [
+      "The Ick"
+    ]
+  },
+  "Subjects (7)": {
+    "seenOn": [
+      "Youth"
+    ],
+    "titleExamples": [
+      "Half Alive Rehearsal"
+    ]
+  },
+  "Youth Of Today": {
+    "seenOn": [
+      "Youth"
+    ],
+    "titleExamples": [
+      "Break Down The Walls"
+    ]
+  },
+  "Sonic Youth of Today": {
+    "seenOn": [
+      "Youth"
+    ],
+    "titleExamples": [
+      "AKA SYT"
+    ]
+  },
+  "Lonnie Holley": {
+    "seenOn": [
+      "Jagjaguwar"
+    ],
+    "titleExamples": [
+      "Tonky"
+    ]
+  },
+  "Soreab": {
+    "seenOn": [
+      "YUKU"
+    ],
+    "titleExamples": [
+      "Fragments of Utopia"
+    ]
+  },
+  "Traka (2)": {
+    "seenOn": [
+      "YUKU"
+    ],
+    "titleExamples": [
+      "APTID"
+    ]
+  },
+  "Sara Udon": {
+    "seenOn": [
+      "Modern Love"
+    ],
+    "titleExamples": [
+      "II = II"
+    ]
+  },
+  "Giant Claw": {
+    "seenOn": [
+      "Orange Milk Records"
+    ],
+    "titleExamples": [
+      "Decadent Stress Chamber"
+    ]
+  },
+  "NTsKi": {
+    "seenOn": [
+      "Orange Milk Records"
+    ],
+    "titleExamples": [
+      "Calla"
+    ]
+  },
+  "Forest Swords": {
+    "seenOn": [
+      "Ninja Tune"
+    ],
+    "titleExamples": [
+      "Bolted (Deconstructed)"
+    ]
+  },
+  "quickly, quickly": {
+    "seenOn": [
+      "Ghostly International"
+    ],
+    "titleExamples": [
+      "I Heard That Noise"
+    ]
+  },
+  "Galcher Lustwerk": {
+    "seenOn": [
+      "Ghostly International"
+    ],
+    "titleExamples": [
+      "Information"
+    ]
+  },
+  "Jaydee": {
+    "seenOn": [
+      "R&S Records"
+    ],
+    "titleExamples": [
+      "Plastic Dreams"
+    ]
+  },
+  "Crust (15)": {
+    "seenOn": [
+      "Good Morning Tapes"
+    ],
+    "titleExamples": [
+      "Cell"
+    ]
+  },
+  "Ariel Kalma & Asa Tone": {
+    "seenOn": [
+      "Good Morning Tapes"
+    ],
+    "titleExamples": [
+      "◯"
+    ]
+  },
+  "Stephen Vitiello With Brendan Canty And Hahn Rowe": {
+    "seenOn": [
+      "Balmat"
+    ],
+    "titleExamples": [
+      "Second"
+    ]
+  },
+  "Idra Kayne, Christos Alexopoulos": {
+    "seenOn": [
+      "OST"
+    ],
+    "titleExamples": [
+      "Τι Κι Αν Δεν Είσαι Ήρωας"
     ]
   }
 }
