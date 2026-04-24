@@ -7,6 +7,7 @@ import {
   setConsent,
   type ConsentState,
 } from "@/lib/consent";
+import { ServiceLink } from "./ServiceLink";
 
 /**
  * Embed priority, when we start storing multiple providers per record:
@@ -201,15 +202,14 @@ export function EmbedPlayer({
       {((chosen && mayLoadEmbed) || (musicVideoUrl && showEmbed && mayLoadEmbed)) && activeServices.length > 0 && (
         <div className="flex flex-wrap gap-x-5 gap-y-2 font-mono text-[10px] uppercase tracking-widest">
           {activeServices.map((k) => (
-            <a
+            <ServiceLink
               key={k}
-              href={links[k]}
-              target="_blank"
-              rel="noreferrer noopener"
+              service={k}
+              webUrl={links[k]!}
               className="border-b border-ink hover:text-signal hover:border-signal"
             >
               {SERVICE_LABELS[k]} ↗
-            </a>
+            </ServiceLink>
           ))}
         </div>
       )}
@@ -259,18 +259,32 @@ function FallbackCard({
         {primary.length > 0 && primary[0].isSearch ? " (opens a search)" : ""}:
       </p>
       <div className="flex flex-wrap gap-2">
-        {primary.map(({ key, href, isSearch }) => (
-          <a
-            key={`${key}-${isSearch ? "s" : "d"}`}
-            href={href}
-            target="_blank"
-            rel="noreferrer noopener"
-            className="font-mono text-[10px] uppercase tracking-widest border border-ink px-4 py-2 hover:bg-ink hover:text-paper transition-colors"
-          >
-            {isSearch ? "Search " : "Open "}
-            {SERVICE_LABELS[key]} ↗
-          </a>
-        ))}
+        {primary.map(({ key, href, isSearch }) =>
+          // Direct release links get the deep-link treatment; search URLs
+          // stay as plain anchors (there's no native app screen for
+          // "spotify search results for 'Artist Title'", and deep-linking
+          // to such a URI would just open the user's library).
+          isSearch ? (
+            <a
+              key={`${key}-s`}
+              href={href}
+              target="_blank"
+              rel="noreferrer noopener"
+              className="font-mono text-[10px] uppercase tracking-widest border border-ink px-4 py-2 hover:bg-ink hover:text-paper transition-colors"
+            >
+              Search {SERVICE_LABELS[key]} ↗
+            </a>
+          ) : (
+            <ServiceLink
+              key={`${key}-d`}
+              service={key}
+              webUrl={href}
+              className="font-mono text-[10px] uppercase tracking-widest border border-ink px-4 py-2 hover:bg-ink hover:text-paper transition-colors"
+            >
+              Open {SERVICE_LABELS[key]} ↗
+            </ServiceLink>
+          ),
+        )}
         {musicVideoUrl && (
           <button
             onClick={onPlayVideo}
