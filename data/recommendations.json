@@ -1371,6 +1371,71 @@
     "pressMentions": []
   },
   {
+    "id": "klein-otro-perro-a-ese-hueso",
+    "type": "single",
+    "artist": "Klein",
+    "title": "Otro Perro A Ese Hueso",
+    "label": "",
+    "releaseDate": "2026-04-17",
+    "description": "Klein back in her own orbit, which has always meant sacred music, R&B and tape, damaged sound design colliding without warning. Expect nothing settled; she rarely offers it.",
+    "tags": [],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=Klein%20Otro%20Perro%20A%20Ese%20Hueso&item_type=a",
+      "spotify": "https://open.spotify.com/search/Klein%20Otro%20Perro%20A%20Ese%20Hueso",
+      "soundcloud": "https://soundcloud.com/search?q=Klein%20Otro%20Perro%20A%20Ese%20Hueso",
+      "youtube": "https://www.youtube.com/results?search_query=Klein%20Otro%20Perro%20A%20Ese%20Hueso",
+      "deezer": "https://www.deezer.com/album/958506811",
+      "apple": "https://music.apple.com/us/album/otro-perro-a-ese-hueso-single/1892270526?uo=4"
+    },
+    "embed": {
+      "provider": "apple",
+      "src": "https://embed.music.apple.com/us/album/1892270526?theme=light",
+      "height": 450
+    },
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://cdn-images.dzcdn.net/images/cover/b741fff599769ed7f13424cdb4b27df1/1000x1000-000000-80-0-0.jpg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
+    "id": "klein-burn-quik-shubz-mix",
+    "type": "single",
+    "artist": "Klein",
+    "title": "burn quik (shubz mix)",
+    "label": "",
+    "releaseDate": "2026-04-17",
+    "description": "A shubz mix of burn quik from Klein, who has spent the last several years turning R&B, choral fragments and sound design into something closer to theatre than song. Self, released, as her work tends to be.",
+    "tags": [],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=Klein%20burn%20quik%20(shubz%20mix)&item_type=a",
+      "spotify": "https://open.spotify.com/search/Klein%20burn%20quik%20(shubz%20mix)",
+      "soundcloud": "https://soundcloud.com/search?q=Klein%20burn%20quik%20(shubz%20mix)",
+      "youtube": "https://www.youtube.com/results?search_query=Klein%20burn%20quik%20(shubz%20mix)",
+      "deezer": "https://www.deezer.com/album/963129851"
+    },
+    "embed": {
+      "provider": "deezer",
+      "src": "https://widget.deezer.com/widget/light/album/963129851",
+      "height": 300
+    },
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://cdn-images.dzcdn.net/images/cover/a4b72320b6312ffe0fe73eb4aebed625/1000x1000-000000-80-0-0.jpg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
     "id": "h-lls-lucy-park-guerillaz",
     "type": "single",
     "artist": "H.LLS & Lucy Park",
@@ -2076,7 +2141,7 @@
     "title": "Flow Free",
     "label": "Future Classic",
     "releaseDate": "2026-04-10",
-    "description": "",
+    "description": "Panama and Christian Löffler meet on Future Classic, which on paper reads like a neat alignment of the label's smoother Australian end and Löffler's forest, ambient house. File alongside Ben Böhmer.",
     "tags": [
       "electronic"
     ],
@@ -2110,7 +2175,7 @@
     "title": "Bborn Again",
     "label": "",
     "releaseDate": "2026-04-10",
-    "description": "",
+    "description": "New one from DJ Plead, still working that lopsided edge where club percussion and MENA rhythmic cues rub against each other without settling. For anyone who stuck with the Nervous Horizon material.",
     "tags": [],
     "links": {
       "bandcamp": "https://bandcamp.com/search?q=DJ%20Plead%20Bborn%20Again&item_type=a",
@@ -2143,7 +2208,7 @@
     "title": "Kammerkonzert = カンマーコンツェルト",
     "label": "Warp Records",
     "releaseDate": "2026-04-10",
-    "description": "",
+    "description": "Tom Jenkinson's long tenure on Warp continues with a fourteen, track set that leans audibly toward the jazz side of his ledger, experimental in the composerly sense the title implies. Limited LP pressing for those who file him next to Autechre.",
     "tags": [
       "electronic"
     ],
@@ -2172,7 +2237,7 @@
     "title": "My Favorite Things",
     "label": "Atlantic",
     "releaseDate": "2026-04-10",
-    "description": "",
+    "description": "Atlantic return to the 1961 modal landmark where Coltrane rerouted a show tune into a vehicle for soprano saxophone and McCoy Tyner's suspended chords. Four tracks, reissue pressing; foundational listening that doesn't need defending.",
     "tags": [
       "jazz"
     ],
@@ -2192,6 +2257,72 @@
     "status": "pending",
     "approvedAt": null,
     "coverImageUrl": "https://i.discogs.com/T4WnvHhcbhXOzIqng8EvFzlsmpRjJZM0lk6ayUZ5DwQ/rs:fit/g:sm/q:90/h:600/w:593/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM3MDU3/NDQ5LTE3NzYyOTU3/NjgtNDk4Ni5qcGVn.jpeg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
+    "id": "k-lone-parl-cu-me",
+    "type": "single",
+    "artist": "k-lone",
+    "title": "parl cu me",
+    "label": "",
+    "releaseDate": "2026-04-10",
+    "description": "K, LONE steps out from Wisdom Teeth with a single whose label is, for now, undisclosed. Expect the same soft, focus take on UK club music, percussive but rarely insistent, that has defined his recent twelves.",
+    "tags": [],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=k-lone%20parl%20cu%20me&item_type=a",
+      "spotify": "https://open.spotify.com/search/k-lone%20parl%20cu%20me",
+      "soundcloud": "https://soundcloud.com/search?q=k-lone%20parl%20cu%20me",
+      "youtube": "https://www.youtube.com/results?search_query=k-lone%20parl%20cu%20me",
+      "deezer": "https://www.deezer.com/album/935571761"
+    },
+    "embed": {
+      "provider": "deezer",
+      "src": "https://widget.deezer.com/widget/light/album/935571761",
+      "height": 300
+    },
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://cdn-images.dzcdn.net/images/cover/5028b8b824960b4a74b66d719e76e100/1000x1000-000000-80-0-0.jpg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
+    "id": "lime-garden-maybe-not-tonight",
+    "type": "album",
+    "artist": "Lime Garden",
+    "title": "Maybe Not Tonight",
+    "label": "So Young Records",
+    "releaseDate": "2026-04-10",
+    "description": "Second Lime Garden LP for So Young, ten tracks of the Brighton quartet's guitar, forward alt, pop in a numbered limited pressing. Shelve near Dry Cleaning if you need a pointer, though the register here is warmer.",
+    "tags": [
+      "pop"
+    ],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=Lime%20Garden%20Maybe%20Not%20Tonight&item_type=a",
+      "spotify": "https://open.spotify.com/search/Lime%20Garden%20Maybe%20Not%20Tonight",
+      "soundcloud": "https://soundcloud.com/search?q=Lime%20Garden%20Maybe%20Not%20Tonight",
+      "youtube": "https://www.youtube.com/results?search_query=Lime%20Garden%20Maybe%20Not%20Tonight",
+      "apple": "https://music.apple.com/us/album/maybe-not-tonight-single/1847599498?uo=4"
+    },
+    "embed": {
+      "provider": "apple",
+      "src": "https://embed.music.apple.com/us/album/1847599498?theme=light",
+      "height": 450
+    },
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://i.discogs.com/8F6nYGP5P6Yit788-bXceM8mqgjZGN-gZ18_7NTwm8U/rs:fit/g:sm/q:90/h:565/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM3MDI3/ODg3LTE3NzU4MzA0/MDktMTQ4MC5qcGVn.jpeg",
     "cover": {
       "bg": "#111110",
       "fg": "#f2efe8",
@@ -2435,7 +2566,7 @@
     "title": "walking shoe",
     "label": "ost euro",
     "releaseDate": "2026-04-06",
-    "description": "",
+    "description": "Four tracks from Kvisha on Ost Euro, splitting the difference between functional minimal techno and the fussier bleep, and, click end of IDM. A 12\" for anyone who still files Minus next to Skam.",
     "tags": [
       "electronic"
     ],
@@ -2803,7 +2934,7 @@
     "title": "Till Your Mind Is Shining (Dark-Side Mix)",
     "label": "Real World Records",
     "releaseDate": "2026-04-02",
-    "description": "",
+    "description": "A remix cut from the Real World camp, Gabriel's songcraft pulled toward its shadowed edge rather than its widescreen one. One track, sequenced for late listening rather than radio.",
     "tags": [
       "rock"
     ],
@@ -3195,7 +3326,7 @@
     "title": "High Cube",
     "label": "Geographic North",
     "releaseDate": "2026-03-27",
-    "description": "Foote/Dickow drops a EP on Geographic North, leaning electronic. Description still in the queue.",
+    "description": "Six tracks of ambient, experimental techno from the Foote/Dickow pairing, landing on Atlanta's Geographic North in a limited 12\" pressing. Closer to the label's patient, zoned, out end than its dancefloor side.",
     "tags": [
       "electronic"
     ],
@@ -3219,8 +3350,7 @@
       "bg": "#111110",
       "fg": "#f2efe8",
       "motif": "disc"
-    },
-    "descriptionPreview": true
+    }
   },
   {
     "id": "kinact-kinshasa-in-action",
@@ -3229,7 +3359,7 @@
     "title": "Kinshasa In Action",
     "label": "Nyege Nyege Tapes",
     "releaseDate": "2026-03-27",
-    "description": "A electronic album from Kinact, released via Nyege Nyege Tapes. Pending final write-up.",
+    "description": "Eleven tracks of Kinshasa street noise, scrap, metal percussion and Afrobeat rhythm pushed into the red, exactly the kind of document Nyege Nyege Tapes exists to issue. For anyone shelving Jako Maron near their field, recording LPs.",
     "tags": [
       "electronic"
     ],
@@ -3253,8 +3383,7 @@
       "bg": "#111110",
       "fg": "#f2efe8",
       "motif": "disc"
-    },
-    "descriptionPreview": true
+    }
   },
   {
     "id": "augie-march-moo-you-bloody-choir",
@@ -3263,7 +3392,7 @@
     "title": "Moo, You Bloody Choir",
     "label": "Sony Music",
     "releaseDate": "2026-03-27",
-    "description": "",
+    "description": "Augie March's widescreen literary indie rock gets another Columbia pressing, fourteen tracks of the wordy, melodically overgrown songwriting the band has traded in for two decades. Shelve with the Go, Betweens if you need a pointer.",
     "tags": [
       "rock"
     ],
@@ -3330,7 +3459,7 @@
     "title": "Bursting Dementia",
     "label": "Into It Records",
     "releaseDate": "2026-03-25",
-    "description": "Another album from Psychicthrob, again through Into It Records. Rock territory. Placeholder copy for the admin preview.",
+    "description": "Ten tracks of technical death metal with thrash bones, reissued through Into It Records. Shelve near the mid, period Death and Atheist end of the shelf if you need bearings.",
     "tags": [
       "rock"
     ],
@@ -3353,8 +3482,7 @@
       "bg": "#111110",
       "fg": "#f2efe8",
       "motif": "disc"
-    },
-    "descriptionPreview": true
+    }
   },
   {
     "id": "ok-eg-geko01",
@@ -3396,7 +3524,7 @@
     "title": "The Moth",
     "label": "Motion Ward",
     "releaseDate": "2026-03-23",
-    "description": "Cancer House's latest EP on Motion Ward occupies the electronic space. Editorial copy still in draft.",
+    "description": "Six tracks of smudged neofolk and post, rock debris from Cancer House, landing on Motion Ward in a limited LP run. Closer to a tape, warped song cycle than an ambient record, though the dark, ambient haze is doing plenty of the structural work.",
     "tags": [
       "electronic"
     ],
@@ -3420,8 +3548,7 @@
       "bg": "#111110",
       "fg": "#f2efe8",
       "motif": "disc"
-    },
-    "descriptionPreview": true
+    }
   },
   {
     "id": "bonobo-black-sands",
@@ -5965,6 +6092,40 @@
       "motif": "disc"
     },
     "descriptionPreview": true
+  },
+  {
+    "id": "casket-cassette-love-letters-to-ghosts",
+    "type": "album",
+    "artist": "Casket Cassette",
+    "title": "Love Letters To Ghosts",
+    "label": "Young And Cold Records",
+    "releaseDate": "2026-02-01",
+    "description": "",
+    "tags": [
+      "electronic"
+    ],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=Casket%20Cassette%20Love%20Letters%20To%20Ghosts&item_type=a",
+      "spotify": "https://open.spotify.com/search/Casket%20Cassette%20Love%20Letters%20To%20Ghosts",
+      "soundcloud": "https://soundcloud.com/search?q=Casket%20Cassette%20Love%20Letters%20To%20Ghosts",
+      "youtube": "https://www.youtube.com/results?search_query=Casket%20Cassette%20Love%20Letters%20To%20Ghosts",
+      "apple": "https://music.apple.com/us/album/love-letters-to-ghosts/1713358413?uo=4"
+    },
+    "embed": {
+      "provider": "apple",
+      "src": "https://embed.music.apple.com/us/album/1713358413?theme=light",
+      "height": 450
+    },
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://i.discogs.com/jKGfAZ3LJbtdTWEhyH7hov6kVIAOrtelV2R4N56sjdY/rs:fit/g:sm/q:90/h:582/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM2NDU1/OTc5LTE3NzI2Njky/OTUtODk0NS5qcGVn.jpeg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
   },
   {
     "id": "kelly-moran-don-t-trust-mirrors",
@@ -18790,6 +18951,40 @@
     "pressMentions": []
   },
   {
+    "id": "stock-exchange-girls-nikkei-pet-index",
+    "type": "album",
+    "artist": "Stock Exchange Girls",
+    "title": "Nikkei Pet Index",
+    "label": "Wild Youth Digital",
+    "releaseDate": "2025-05-09",
+    "description": "",
+    "tags": [
+      "electronic"
+    ],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=Stock%20Exchange%20Girls%20Nikkei%20Pet%20Index&item_type=a",
+      "spotify": "https://open.spotify.com/search/Stock%20Exchange%20Girls%20Nikkei%20Pet%20Index",
+      "soundcloud": "https://soundcloud.com/search?q=Stock%20Exchange%20Girls%20Nikkei%20Pet%20Index",
+      "youtube": "https://www.youtube.com/results?search_query=Stock%20Exchange%20Girls%20Nikkei%20Pet%20Index",
+      "deezer": "https://www.deezer.com/album/752686011"
+    },
+    "embed": {
+      "provider": "deezer",
+      "src": "https://widget.deezer.com/widget/light/album/752686011",
+      "height": 300
+    },
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://i.discogs.com/5y8uu8AxGrVk5J0hDi00qOCa9Ob8M1T_oAowq15KRxo/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM0MDYw/MDY2LTE3NDc5OTc1/NjgtNzMxNy5qcGVn.jpeg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
     "id": "andrea-99-living-room",
     "type": "album",
     "artist": "Andrea (99)",
@@ -18985,6 +19180,35 @@
     "status": "pending",
     "approvedAt": null,
     "coverImageUrl": "https://i.discogs.com/c3ubSyuYJPPrpdhxk5nXtKSwSipgqoSTvAYSgOqxQfQ/rs:fit/g:sm/q:90/h:600/w:599/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTMzNzM0/NTgwLTE3NDY1OTAx/OTgtMjYwOC5qcGVn.jpeg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
+    "id": "rules-9-ross-quinn-holding-on-to-you",
+    "type": "single",
+    "artist": "Rules (9), Ross Quinn",
+    "title": "Holding On To You",
+    "label": "Helix Records (7)",
+    "releaseDate": "2025-05-02",
+    "description": "",
+    "tags": [
+      "electronic"
+    ],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=Rules%20(9)%2C%20Ross%20Quinn%20Holding%20On%20To%20You&item_type=a",
+      "spotify": "https://open.spotify.com/search/Rules%20(9)%2C%20Ross%20Quinn%20Holding%20On%20To%20You",
+      "soundcloud": "https://soundcloud.com/search?q=Rules%20(9)%2C%20Ross%20Quinn%20Holding%20On%20To%20You",
+      "youtube": "https://www.youtube.com/results?search_query=Rules%20(9)%2C%20Ross%20Quinn%20Holding%20On%20To%20You"
+    },
+    "embed": null,
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://i.discogs.com/WpDWKI7hFpfvY3-K2dn43pHfGxRADiBihu3saiuwRc4/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTMzODcx/MjE1LTE3NDYyMDYw/MTktMTM2OC5qcGVn.jpeg",
     "cover": {
       "bg": "#111110",
       "fg": "#f2efe8",
@@ -26594,6 +26818,39 @@
     "pressMentions": []
   },
   {
+    "id": "bellhoss-a-rose-a-thorn",
+    "type": "ep",
+    "artist": "bellhoss",
+    "title": "A Rose, A Thorn",
+    "label": "Snappy Little Numbers",
+    "releaseDate": "2025-01-01",
+    "description": "",
+    "tags": [
+      "rock"
+    ],
+    "links": {
+      "bandcamp": "https://bellhoss.bandcamp.com/album/a-rose-a-thorn",
+      "spotify": "https://open.spotify.com/search/bellhoss%20A%20Rose%2C%20A%20Thorn",
+      "soundcloud": "https://soundcloud.com/search?q=bellhoss%20A%20Rose%2C%20A%20Thorn",
+      "youtube": "https://www.youtube.com/results?search_query=bellhoss%20A%20Rose%2C%20A%20Thorn"
+    },
+    "embed": {
+      "provider": "bandcamp",
+      "src": "https://bandcamp.com/EmbeddedPlayer/album=1638148786/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=true/artwork=small/transparent=true/",
+      "height": 470
+    },
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://i.discogs.com/0NiDjolPZXeFpbfC-Gdqg06cjq2P5mP9tjYoEGeb1DQ/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM0Nzc4/OTk2LTE3NTQ3NzQw/NDEtNTczMC5qcGVn.jpeg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
     "id": "andy-stott-faith-in-strangers",
     "type": "album",
     "artist": "Andy Stott",
@@ -27053,6 +27310,40 @@
     "status": "pending",
     "approvedAt": null,
     "coverImageUrl": "https://i.discogs.com/AN1buO7x3FsEnbPiAlWmeS2z0Y7WuXjltihpJs521Z8/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTMyNzQ0/NzY5LTE3MzU5NDEw/MzEtOTU2OC5qcGVn.jpeg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
+    "id": "noisefarm-lose-yourself",
+    "type": "single",
+    "artist": "Noisefarm",
+    "title": "Lose Yourself",
+    "label": "Heaven OST",
+    "releaseDate": "2024-11-28",
+    "description": "",
+    "tags": [
+      "rock"
+    ],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=Noisefarm%20Lose%20Yourself&item_type=a",
+      "spotify": "https://open.spotify.com/search/Noisefarm%20Lose%20Yourself",
+      "soundcloud": "https://soundcloud.com/search?q=Noisefarm%20Lose%20Yourself",
+      "youtube": "https://www.youtube.com/results?search_query=Noisefarm%20Lose%20Yourself",
+      "deezer": "https://www.deezer.com/album/673329811"
+    },
+    "embed": {
+      "provider": "deezer",
+      "src": "https://widget.deezer.com/widget/light/album/673329811",
+      "height": 300
+    },
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://i.discogs.com/b3Zu8wbqsJduXFSnF9GirfMzifsPQuz5t9U7l8k3c_U/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTMyNDI1/MDIwLTE3MzI4Mzk4/MDEtODIxNi5qcGVn.jpeg",
     "cover": {
       "bg": "#111110",
       "fg": "#f2efe8",
@@ -29345,6 +29636,40 @@
     "pressMentions": []
   },
   {
+    "id": "hagen-stoll-rkustik",
+    "type": "album",
+    "artist": "Hagen Stoll",
+    "title": "Rkustik",
+    "label": "Plattenbau Ost",
+    "releaseDate": "2024-08-17",
+    "description": "",
+    "tags": [
+      "rock"
+    ],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=Hagen%20Stoll%20Rkustik&item_type=a",
+      "spotify": "https://open.spotify.com/search/Hagen%20Stoll%20Rkustik",
+      "soundcloud": "https://soundcloud.com/search?q=Hagen%20Stoll%20Rkustik",
+      "youtube": "https://www.youtube.com/results?search_query=Hagen%20Stoll%20Rkustik",
+      "deezer": "https://www.deezer.com/album/625511371"
+    },
+    "embed": {
+      "provider": "deezer",
+      "src": "https://widget.deezer.com/widget/light/album/625511371",
+      "height": 300
+    },
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://i.discogs.com/tp1nnix6oeC1elptv2WBO2kOHJCiDXuPog6ovu6lzns/rs:fit/g:sm/q:90/h:581/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM0NDkw/ODI3LTE3NTIwNTYx/MTktMzM5Ni5qcGVn.jpeg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
     "id": "family-dinner-2-god-looks-out-for-fools",
     "type": "album",
     "artist": "Family Dinner (2)",
@@ -30383,6 +30708,40 @@
     "status": "pending",
     "approvedAt": null,
     "coverImageUrl": "https://i.discogs.com/hBLOusZ22dcAEJMV2y7yas4h2rhuD51zSKJht0hh1DQ/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTMxMTg5/MzU3LTE3MjA2NzM2/NTQtMTE4NC5qcGVn.jpeg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
+    "id": "maude-vos-5th-generation-angel",
+    "type": "ep",
+    "artist": "Maude Vôs",
+    "title": "5th Generation Angel",
+    "label": "YUKU",
+    "releaseDate": "2024-06-28",
+    "description": "",
+    "tags": [
+      "electronic"
+    ],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=Maude%20V%C3%B4s%205th%20Generation%20Angel&item_type=a",
+      "spotify": "https://open.spotify.com/search/Maude%20V%C3%B4s%205th%20Generation%20Angel",
+      "soundcloud": "https://soundcloud.com/search?q=Maude%20V%C3%B4s%205th%20Generation%20Angel",
+      "youtube": "https://www.youtube.com/results?search_query=Maude%20V%C3%B4s%205th%20Generation%20Angel",
+      "deezer": "https://www.deezer.com/album/596213972"
+    },
+    "embed": {
+      "provider": "deezer",
+      "src": "https://widget.deezer.com/widget/light/album/596213972",
+      "height": 300
+    },
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://i.discogs.com/YNxFnJOerji0DAA1nT0BRBKYJ1q70IjpFYpfpIn68oI/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTMxNDQx/MjI5LTE3MjMyMjQ5/NzctODYzMS5qcGVn.jpeg",
     "cover": {
       "bg": "#111110",
       "fg": "#f2efe8",
@@ -32077,6 +32436,40 @@
     "pressMentions": []
   },
   {
+    "id": "lakker-pathway",
+    "type": "ep",
+    "artist": "Lakker",
+    "title": "Pathway",
+    "label": "YUKU",
+    "releaseDate": "2024-04-11",
+    "description": "",
+    "tags": [
+      "electronic"
+    ],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=Lakker%20Pathway&item_type=a",
+      "spotify": "https://open.spotify.com/search/Lakker%20Pathway",
+      "soundcloud": "https://soundcloud.com/search?q=Lakker%20Pathway",
+      "youtube": "https://www.youtube.com/results?search_query=Lakker%20Pathway",
+      "deezer": "https://www.deezer.com/album/578110151"
+    },
+    "embed": {
+      "provider": "deezer",
+      "src": "https://widget.deezer.com/widget/light/album/578110151",
+      "height": 300
+    },
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://i.discogs.com/sYhDbq6HbF_y61600pPHSuDDQEYRAuZAgs-neT7NeRk/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTMwNjMw/MTQyLTE3MTUyNDY5/NzUtODg1My5wbmc.jpeg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
     "id": "nug-4-bong-boat",
     "type": "album",
     "artist": "NUG (4)",
@@ -33385,6 +33778,40 @@
     }
   },
   {
+    "id": "chewlie-transforming-matter",
+    "type": "album",
+    "artist": "Chewlie",
+    "title": "Transforming Matter",
+    "label": "YUKU",
+    "releaseDate": "2024-02-16",
+    "description": "",
+    "tags": [
+      "electronic"
+    ],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=Chewlie%20Transforming%20Matter&item_type=a",
+      "spotify": "https://open.spotify.com/search/Chewlie%20Transforming%20Matter",
+      "soundcloud": "https://soundcloud.com/search?q=Chewlie%20Transforming%20Matter",
+      "youtube": "https://www.youtube.com/results?search_query=Chewlie%20Transforming%20Matter",
+      "deezer": "https://www.deezer.com/album/536459732"
+    },
+    "embed": {
+      "provider": "deezer",
+      "src": "https://widget.deezer.com/widget/light/album/536459732",
+      "height": 300
+    },
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://i.discogs.com/zaqnAE3cuCtEuOcmVF0w0ws6N_bMKJHhIRvgzhBc3WE/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI5ODE3/NTcxLTE3MDgwNzk3/NjQtNjE5OC5qcGVn.jpeg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
     "id": "mary-in-the-junkyard-ghost",
     "type": "single",
     "artist": "mary in the junkyard",
@@ -34524,6 +34951,35 @@
     "status": "pending",
     "approvedAt": null,
     "coverImageUrl": "https://i.discogs.com/28VqQmMCuoS6KD0htbK4z0LNOMNN_8vf9LaKgbucZsg/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI5NzQ1/MjA1LTE3MDc0Nzk3/MjItNTY4OC5qcGVn.jpeg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
+    "id": "rilla-raufaser",
+    "type": "album",
+    "artist": "Rilla",
+    "title": "Raufaser",
+    "label": "Plattenbau Ost",
+    "releaseDate": "2024-01-01",
+    "description": "",
+    "tags": [
+      "hip hop"
+    ],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=Rilla%20Raufaser&item_type=a",
+      "spotify": "https://open.spotify.com/search/Rilla%20Raufaser",
+      "soundcloud": "https://soundcloud.com/search?q=Rilla%20Raufaser",
+      "youtube": "https://www.youtube.com/results?search_query=Rilla%20Raufaser"
+    },
+    "embed": null,
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://i.discogs.com/SZEW86dhY1qNcmE2CFLIBFzGwd7eS62IV3NndPMW9Ac/rs:fit/g:sm/q:90/h:600/w:445/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTMyMzE4/NDYwLTE3NDI4MTE4/MzktODc5Ny5qcGVn.jpeg",
     "cover": {
       "bg": "#111110",
       "fg": "#f2efe8",
