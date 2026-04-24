@@ -33,7 +33,8 @@
       "Opal Tapes",
       "12th Isle",
       "Short Span",
-      "Knekelhuis"
+      "Knekelhuis",
+      "Leaving Records"
     ],
     "titleExamples": [
       "Mastery Quantum Sound",
@@ -1811,6 +1812,7 @@
     ],
     "titleExamples": [
       "Superbloom",
+      "Superbloom",
       "Superbloom"
     ]
   },
@@ -1893,6 +1895,7 @@
       "Dais Records"
     ],
     "titleExamples": [
+      "A Strangeness In Motion (Early Pop Recordings • 1989-1999)",
       "A Strangeness In Motion (Early Pop Recordings • 1989-1999)"
     ]
   },
@@ -1909,7 +1912,9 @@
       "Dais Records"
     ],
     "titleExamples": [
-      "An Object In Motion"
+      "An Object In Motion",
+      "An Object In Motion",
+      "Modern Mirror"
     ]
   },
   "Kite (6) feat. Nina Persson": {
@@ -2403,7 +2408,8 @@
     ],
     "titleExamples": [
       "Jelly Tones",
-      "Garden On The Palm"
+      "Garden On The Palm",
+      "Sleeping Madness"
     ]
   },
   "Coldcut": {
@@ -2608,6 +2614,7 @@
       "PAN"
     ],
     "titleExamples": [
+      "Natural Selection",
       "Natural Selection"
     ]
   },
@@ -2624,6 +2631,7 @@
       "PAN"
     ],
     "titleExamples": [
+      "Live At Cafe OTO",
       "Live At Cafe OTO"
     ]
   },
@@ -2849,6 +2857,7 @@
       "Instant Classic"
     ],
     "titleExamples": [
+      "Eternity For A While",
       "Eternity For A While"
     ]
   },
@@ -3124,7 +3133,8 @@
       "AMF Records"
     ],
     "titleExamples": [
-      "This Is My California"
+      "This Is My California",
+      "Ghost"
     ]
   },
   "Misfits": {
@@ -3228,7 +3238,8 @@
       "Smalltown Supersound"
     ],
     "titleExamples": [
-      "Stochastic Drift"
+      "Stochastic Drift",
+      "Cosmic Microwave / Stochastic Dynamics In Non-Linear Systems"
     ]
   },
   "Hieroglyphic Being": {
@@ -3389,6 +3400,166 @@
     ],
     "titleExamples": [
       "Τι Κι Αν Δεν Είσαι Ήρωας"
+    ]
+  },
+  "BlankFor.ms": {
+    "seenOn": [
+      "Leaving Records"
+    ],
+    "titleExamples": [
+      "After The Town Was Swept Away"
+    ]
+  },
+  "Fabiano Nascimento": {
+    "seenOn": [
+      "Leaving Records"
+    ],
+    "titleExamples": [
+      "Cavejaz"
+    ]
+  },
+  "Zoh Amba": {
+    "seenOn": [
+      "Smalltown Supersound"
+    ],
+    "titleExamples": [
+      "Sun"
+    ]
+  },
+  "Terminal 11": {
+    "seenOn": [
+      "Opal Tapes"
+    ],
+    "titleExamples": [
+      "Suffocating Repetition"
+    ]
+  },
+  "Crown Of Cerberus": {
+    "seenOn": [
+      "Opal Tapes"
+    ],
+    "titleExamples": [
+      "Rabih"
+    ]
+  },
+  "feeo": {
+    "seenOn": [
+      "AD 93"
+    ],
+    "titleExamples": [
+      "Goodness"
+    ]
+  },
+  "Light-Space Modulator": {
+    "seenOn": [
+      "AD 93"
+    ],
+    "titleExamples": [
+      "The Rising Wave"
+    ]
+  },
+  "Okay Kaya": {
+    "seenOn": [
+      "Jagjaguwar"
+    ],
+    "titleExamples": [
+      "Watch This Liquid Pour Itself"
+    ]
+  },
+  "High Parasite": {
+    "seenOn": [
+      "AMF Records"
+    ],
+    "titleExamples": [
+      "Forever We Burn"
+    ]
+  },
+  "Fred Wesley & The JB's": {
+    "seenOn": [
+      "FELT"
+    ],
+    "titleExamples": [
+      "Damn Right I Am Somebody"
+    ]
+  },
+  "Rufus Featuring Chaka Khan": {
+    "seenOn": [
+      "FELT"
+    ],
+    "titleExamples": [
+      "Rufusized"
+    ]
+  },
+  "Marek Pospieszalski Octet & Zoh Amba": {
+    "seenOn": [
+      "Instant Classic"
+    ],
+    "titleExamples": [
+      "Now!"
+    ]
+  },
+  "Hizbut Jámm": {
+    "seenOn": [
+      "Instant Classic"
+    ],
+    "titleExamples": [
+      "Hizbut Jámm"
+    ]
+  },
+  "Guiding Lights (2)": {
+    "seenOn": [
+      "Instant Classic"
+    ],
+    "titleExamples": [
+      "the document"
+    ]
+  },
+  "Imaginary Number": {
+    "seenOn": [
+      "YUKU"
+    ],
+    "titleExamples": [
+      "IMN III"
+    ]
+  },
+  "Prayer (6)": {
+    "seenOn": [
+      "YUKU"
+    ],
+    "titleExamples": [
+      "Dream Of Heaven"
+    ]
+  },
+  "FKA Twigs": {
+    "seenOn": [
+      "YOUNG"
+    ],
+    "titleExamples": [
+      "Eusexua Afterglow"
+    ]
+  },
+  "The Aphex Twin": {
+    "seenOn": [
+      "R&S Records"
+    ],
+    "titleExamples": [
+      "Classics"
+    ]
+  },
+  "Cindytalk": {
+    "seenOn": [
+      "Dais Records"
+    ],
+    "titleExamples": [
+      "Camouflage Heart"
+    ]
+  },
+  "BRS": {
+    "seenOn": [
+      "PAN"
+    ],
+    "titleExamples": [
+      "PAN 003"
     ]
   }
 }
