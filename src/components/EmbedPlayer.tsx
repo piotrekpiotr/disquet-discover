@@ -160,25 +160,29 @@ export function EmbedPlayer({
   return (
     <div className="flex flex-col gap-3">
       {chosen && mayLoadEmbed ? (
-        // Width behaviour:
+        // Width behaviour: we respect the pasted embed's sizing exactly.
+        //
         //   - When the embed carries a fixed width (Bandcamp Big-artwork
         //     Standard player, any iframe the curator pasted with an
-        //     explicit width), we size the container to that width and
-        //     centre it. Forcing such players to 100% width stretches
-        //     Bandcamp's cover artwork to absurd sizes because the layout
-        //     is built for a fixed column.
-        //   - When no width is available (iTunes embeds, Deezer, Spotify's
-        //     responsive embed, Bandcamp's small-artwork tracklist variant
-        //     written by backfill-bandcamp), we keep the previous fluid
-        //     100% behaviour so the player fills the card.
-        //   - `inferWidth` provides a safety net for older Bandcamp records
-        //     that were saved before width was persisted.
+        //     explicit pixel width), we cap the container to that width.
+        //     Forcing such players to 100% width stretches Bandcamp's
+        //     cover artwork to absurd sizes because the layout is built
+        //     for a fixed column.
+        //   - When no width is available (Apple, Deezer, Spotify's
+        //     responsive embed, Bandcamp with `width: 100%` in the paste),
+        //     we render fluid so the player fills the card.
+        //   - `inferWidth` only kicks in as a safety net for historical
+        //     Bandcamp big-artwork records saved before width was
+        //     persisted; it never overrides a pasted width.
+        //
+        // Alignment: narrow fixed-width players are LEFT-aligned, not
+        // centred. Centring a 250px player inside the 10-col player row
+        // lands it in the middle of the card, visually detached from the
+        // cover art on the row above (see the curator's Martyn feedback).
+        // Left-aligning keeps the player's left edge under the cover's
+        // left edge so the record reads as a single compound block.
         <div
-          className={
-            inferWidth(chosen)
-              ? "border border-ink mx-auto"
-              : "border border-ink"
-          }
+          className="border border-ink"
           style={
             inferWidth(chosen)
               ? { width: "100%", maxWidth: `${inferWidth(chosen)}px` }

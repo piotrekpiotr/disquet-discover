@@ -97,12 +97,21 @@ async function fetchHtml(url) {
 // ---------- Bandcamp search + verify ----------
 
 /**
- * Extract album URLs from the Bandcamp search HTML. Dedupes, preserves order.
- * Format is always `https://{artist}.bandcamp.com/album/{slug}` (or a custom
- * domain, rare - those still work fine if present).
+ * Extract release URLs from the Bandcamp search HTML. Dedupes, preserves
+ * order. Bandcamp hosts two release URL shapes:
+ *   - `https://{artist}.bandcamp.com/album/{slug}`  (EPs, albums,
+ *     multi-track singles with a cover)
+ *   - `https://{artist}.bandcamp.com/track/{slug}`  (single-track pages;
+ *     Bandcamp shows a dedicated track page for each song, and for proper
+ *     "A-side single" releases the `/track/...` URL IS the release — no
+ *     album wrapper exists. Martyn's "Heavy Sound" single is this shape).
+ *
+ * Previously we only matched /album/, so singles were missed and fell back
+ * to search URLs. Track URLs embed with `track=<id>` in the player URL
+ * instead of `album=<id>`; the caller handles both shapes.
  */
 function parseSearchResults(html) {
-  const re = /https?:\/\/[a-z0-9-]+\.bandcamp\.com\/album\/[a-z0-9-]+/gi;
+  const re = /https?:\/\/[a-z0-9-]+\.bandcamp\.com\/(?:album|track)\/[a-z0-9-]+/gi;
   const seen = new Set();
   const out = [];
   let m;
@@ -114,6 +123,11 @@ function parseSearchResults(html) {
     if (out.length >= 5) break;
   }
   return out;
+}
+
+/** True when the release URL points at a single-track (standalone) page. */
+function isTrackUrl(url) {
+  return /\/track\/[a-z0-9-]+/i.test(url);
 }
 
 /**
@@ -130,12 +144,24 @@ function parseSearchResults(html) {
  *     we can't use it as an artist cross-check on label pages like
  *     westmineral.bandcamp.com (would say "West Mineral Ltd.").
  */
-function parseAlbumPage(html) {
-  // Album ID: any `album=<digits>` in the HTML. First hit is the canonical
-  // one (appears in the page's own embed iframe URL).
-  const idMatch = html.match(/album=(\d{5,})/);
-  const albumId = idMatch?.[1];
-  if (!albumId) return null;
+function parseAlbumPage(html, pageUrl) {
+  // On a /track/ page we want the track's numeric id (and its embed URL
+  // uses `track=<id>`). On an /album/ page we want album id (`album=<id>`).
+  // Bandcamp emits BOTH inside any given album page (each track row shows
+  // a track=... id), so we MUST pick the one that matches the URL type.
+  const isTrack = pageUrl ? isTrackUrl(pageUrl) : false;
+  let releaseId = null;
+  let embedKind = "album";
+  if (isTrack) {
+    const idMatch = html.match(/track=(\d{5,})/);
+    releaseId = idMatch?.[1] || null;
+    embedKind = "track";
+  } else {
+    const idMatch = html.match(/album=(\d{5,})/);
+    releaseId = idMatch?.[1] || null;
+    embedKind = "album";
+  }
+  if (!releaseId) return null;
 
   // og:title: "<title>, by <artist>"
   const ogTitle = html.match(
@@ -155,9 +181,11 @@ function parseAlbumPage(html) {
     }
   }
 
-  const trackCount = parseTrackCount(html);
+  // Track pages are always one track; don't parse a tracklist (there
+  // isn't one), just report 1 so the height formula picks the minimum.
+  const trackCount = isTrack ? 1 : parseTrackCount(html);
 
-  return { albumId, title, artist, trackCount };
+  return { releaseId, embedKind, title, artist, trackCount };
 }
 
 /**
@@ -227,7 +255,11 @@ async function findBandcampAlbum(item) {
   const artist = stripDiscogsSuffix(item.artist);
   const title = item.title;
   const q = encodeURIComponent(`${artist} ${title}`);
-  const searchUrl = `https://bandcamp.com/search?q=${q}&item_type=a`;
+  // Previously hardcoded `item_type=a` (albums only). Drop the filter so
+  // we also pick up track pages for singles — Martyn's "Heavy Sound" is
+  // a /track/ page on martyn.bandcamp.com with no /album/ wrapper, and
+  // this is the only way to resolve it.
+  const searchUrl = `https://bandcamp.com/search?q=${q}`;
 
   let html;
   try {
@@ -236,18 +268,26 @@ async function findBandcampAlbum(item) {
     return null;
   }
 
-  const candidates = parseSearchResults(html).slice(0, 3);
+  const allCandidates = parseSearchResults(html);
+  // Prefer album URLs first (multi-track releases), fall back to track URLs.
+  // For a single this ordering means we'd still prefer an album page that
+  // packages the single if Bandcamp has one, and only use the standalone
+  // track page when that's the only shape.
+  const candidates = [
+    ...allCandidates.filter((u) => !isTrackUrl(u)),
+    ...allCandidates.filter((u) => isTrackUrl(u)),
+  ].slice(0, 3);
   if (candidates.length === 0) return null;
 
-  for (const albumUrl of candidates) {
+  for (const releaseUrl of candidates) {
     await polite();
     let page;
     try {
-      page = await fetchHtml(albumUrl);
+      page = await fetchHtml(releaseUrl);
     } catch {
       continue;
     }
-    const info = parseAlbumPage(page);
+    const info = parseAlbumPage(page, releaseUrl);
     if (!info) continue;
 
     const aSim = tokenOverlap(artist, info.artist);
@@ -255,8 +295,9 @@ async function findBandcampAlbum(item) {
     if (aSim < 0.55 || tSim < 0.55) continue; // false-match guard
 
     return {
-      albumId: info.albumId,
-      albumUrl,
+      releaseId: info.releaseId,
+      embedKind: info.embedKind, // "album" | "track"
+      releaseUrl,
       verifiedArtist: info.artist,
       verifiedTitle: info.title,
       trackCount: info.trackCount,
@@ -306,17 +347,21 @@ async function main() {
         // an Apple embed and a Bandcamp link is exactly the intended
         // state after this runs.
         if (needsEmbed) {
-          const height = computeBandcampHeight(bc.trackCount);
+          // Track pages use a fixed, short player — Bandcamp itself
+          // emits height=120 for `track=<id>` single-track embeds, and
+          // the track-count-based formula for albums is irrelevant
+          // (there's only one track). Albums keep the responsive
+          // `size=large/tracklist=true` template sized to the parsed
+          // track count.
+          const isTrackEmbed = bc.embedKind === "track";
+          const height = isTrackEmbed ? 120 : computeBandcampHeight(bc.trackCount);
           item.embed = {
             provider: "bandcamp",
-            // size=large + artwork=small + tracklist=true. Height is sized
-            // per-record from the track count we parsed out of the album
-            // page, so a 3-track EP gets ~375px and a 16-track album gets
-            // ~700px without either clipping the tracklist or leaving a
-            // dead band under it.
-            src:
-              `https://bandcamp.com/EmbeddedPlayer/album=${bc.albumId}` +
-              `/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=true/artwork=small/transparent=true/`,
+            src: isTrackEmbed
+              ? `https://bandcamp.com/EmbeddedPlayer/track=${bc.releaseId}` +
+                `/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/artwork=small/transparent=true/`
+              : `https://bandcamp.com/EmbeddedPlayer/album=${bc.releaseId}` +
+                `/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=true/artwork=small/transparent=true/`,
             height,
           };
           foundEmbed++;
@@ -325,11 +370,12 @@ async function main() {
         }
         // Upgrade the stored link if it was a search URL (or missing).
         if (linkIsSearchOrMissing(item.links?.bandcamp)) {
-          item.links = { ...(item.links || {}), bandcamp: bc.albumUrl };
+          item.links = { ...(item.links || {}), bandcamp: bc.releaseUrl };
         }
+        const kindTag = bc.embedKind === "track" ? "track" : "album";
         const tag = needsEmbed
-          ? `bandcamp:${bc.albumId} ${bc.trackCount ? `(${bc.trackCount} tracks)` : ""}`
-          : `link-only bandcamp:${bc.albumId}`;
+          ? `bandcamp:${kindTag}=${bc.releaseId} ${bc.trackCount ? `(${bc.trackCount} tracks)` : ""}`
+          : `link-only bandcamp:${kindTag}=${bc.releaseId}`;
         console.log(
           `${tag} (${bc.verifiedArtist} - ${bc.verifiedTitle})`,
         );
