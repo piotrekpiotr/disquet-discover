@@ -362,6 +362,12 @@ export function AdminClient({
               >
                 Monitoring →
               </Link>
+              <Link
+                href="/admin/candidates"
+                className="hover:text-ink underline"
+              >
+                Candidates →
+              </Link>
               <LogoutButton />
             </div>
           </div>

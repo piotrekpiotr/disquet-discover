@@ -1,17 +1,23 @@
-# Generate the next batch of pending recommendations every morning.
+# Generate the next batch of pending recommendations every day.
 #
-# Schedule: 04:00 UTC daily
-#   - 06:00 Warsaw in CEST (late March to late October) - the user's target
-#   - 05:00 Warsaw in CET  (winter)
-# Vercel/Railway cron can't straddle DST transitions either; picking 04:00
-# UTC keeps summer-time bang-on and shifts the winter run an hour earlier,
-# which is better than drifting into the workday in summer.
+# Schedule: twice daily at 04:00 and 11:00 UTC.
 #
-# The job runs the existing sync scripts against Discogs / iTunes,
-# appends new `status: "pending"` records to data/recommendations.json,
-# and commits the result back to main. The hosting provider (Vercel,
-# Railway, wherever) auto-redeploys on the push, so by ~06:10 Warsaw time
-# the new batch is live in /admin.
+#   04:00 UTC = 06:00 Warsaw CEST (summer) / 05:00 CET (winter) — the
+#   curator's target morning slot. This is the "real" run: scan every
+#   artist + every label + every press feed, commit, deploy.
+#
+#   11:00 UTC = 13:00 Warsaw CEST / 12:00 CET — insurance. Every sync
+#   script is idempotent (deduped by id + artist|title), so running a
+#   second pass a few hours later costs nothing if the morning run was
+#   clean, but recovers what was lost on days when Apple / Deezer /
+#   GitHub's runner IP range hit a throttle. Different runner, different
+#   IP — often unblocks what failed six hours earlier.
+#
+# Any failed day still leaves the site running the previous day's pool,
+# because only the commit step modifies the repo and every script exits 0
+# even on a catastrophic crash. The only way for this workflow to fail
+# the whole run is the final health summary, and that only fires when
+# EVERY release source returned zero (i.e. genuinely nothing shipped).
 #
 # Manual runs: use the "Run workflow" button on the Actions tab. Useful
 # for backfilling or testing without waiting for the schedule.
@@ -21,20 +27,37 @@ name: Generate daily recommendation pool
 on:
   schedule:
     - cron: "0 4 * * *"
+    - cron: "0 11 * * *"
   workflow_dispatch: {}
 
 jobs:
   generate:
     runs-on: ubuntu-latest
+    # One run at a time per branch: the second cron must wait for the first
+    # (or a manual run) to finish. Prevents two commits racing each other.
+    concurrency:
+      group: daily-generate-${{ github.ref }}
+      cancel-in-progress: false
     permissions:
       contents: write
+    env:
+      DISCOGS_TOKEN: ${{ secrets.DISCOGS_TOKEN }}
+      # Last.fm similarity key. Optional — if unset, sync-media still
+      # runs but auto-promotion is disabled (candidates all need manual
+      # review). See scripts/sources/lastfm.mjs for the API shape.
+      LASTFM_API_KEY: ${{ secrets.LASTFM_API_KEY }}
+      # Override model for description writing if the default in
+      # write-descriptions.mjs ever goes stale.
+      DISQUET_MODEL: ${{ secrets.DISQUET_MODEL }}
+      ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
 
     steps:
       - name: Check out repo
         uses: actions/checkout@v5
         with:
-          # We need the full history so the commit we push has a valid parent
-          # even on first-time runs.
+          # Full history so the commit we push has a valid parent even on
+          # first-time runs, and so `git status` shows nothing spurious
+          # on the commit step.
           fetch-depth: 0
 
       - name: Set up Node
@@ -46,96 +69,106 @@ jobs:
       - name: Install dependencies
         run: npm ci
 
-      - name: Run per-artist Apple Music sync
-        # PRIMARY same-day source. iTunes publishes releases the moment a
-        # label uploads them, so this is how we catch brand-new drops from
-        # artists we already track (Purelink, Rainy Miller, etc.). Runs first
-        # so the high-signal same-day hits claim pool slots before the
-        # Discogs label pass (which mostly surfaces catalogue lag).
-        #
-        # `id` lets later steps read the exit code so we can loudly flag a
-        # run where sync-itunes aborted (the script exits 2 if >30% of
-        # artists hit a transient iTunes block). `continue-on-error` keeps
-        # the rest of the pipeline running so at least sync-labels + the
-        # commit still ship whatever they can.
-        id: sync_itunes
+      - name: Per-artist release sync (iTunes primary, Deezer fallback)
+        # Scans EVERY artist in the pool (hardcoded ARTISTS + curator's
+        # monitoring-extras + any auto-promoted artists from previous runs)
+        # against iTunes first, Deezer on miss. No caps. Exits 0 even on
+        # crash — the health summary at the end catches genuine zero days.
+        id: sync_artists
         continue-on-error: true
-        run: node scripts/sync-itunes.mjs
+        run: node scripts/sync-artists.mjs
 
-      - name: Run label sync (Discogs)
-        env:
-          # A Discogs personal-access token unlocks 60 req/min vs. 25 anon.
-          # Create one at https://www.discogs.com/settings/developers and
-          # save it in Settings -> Secrets -> Actions as DISCOGS_TOKEN.
-          DISCOGS_TOKEN: ${{ secrets.DISCOGS_TOKEN }}
+      - name: Per-label release sync (Discogs)
+        # Scans every label in the pool; no global cap. Discogs is the
+        # source of truth for catalogue lag (a record that came out last
+        # week but only got scanned into the Discogs DB this morning).
+        id: sync_labels
         continue-on-error: true
-        run: |
-          # sync-labels now shuffles the label list per run so every label
-          # in monitoring.mjs gets fair coverage over time, and the global
-          # cap (SYNC_LABELS_MAX_NEW) is high enough that the curator still
-          # gets a bite-sized batch each morning without starving the tail
-          # of the list.
-          node scripts/sync-labels.mjs
+        run: node scripts/sync-labels.mjs
+
+      - name: Media & press scan (Pitchfork / Quietus / RA / Fact)
+        # Two jobs: bump pressMentions on existing records, and accumulate
+        # candidates (artists we don't track that the critics are writing
+        # about). When the LASTFM_API_KEY is set AND a candidate has ≥2
+        # independent outlets AND scores above the similarity threshold
+        # against the current pool, the candidate is auto-promoted into
+        # monitoring-extras (picked up by tomorrow's sync-artists).
+        id: sync_media
+        continue-on-error: true
+        run: node scripts/sync-media.mjs
 
       - name: Backfill embedded players for new records
-        # Tries Apple Music / Deezer first, then Bandcamp. Each script skips
-        # records that already have an embed, so they're safe to re-run. A
-        # failure here (rate limit, network) just leaves the record without
+        # Tries Apple Music / Deezer first, then Bandcamp. Each script
+        # skips records that already have an embed, so they're idempotent.
+        # Rate-limit / network failures here just leave the record without
         # an embed — the public site falls back to a search-links card.
         continue-on-error: true
-        env:
-          DISCOGS_TOKEN: ${{ secrets.DISCOGS_TOKEN }}
         run: |
           node scripts/enrich-labels-and-embeds.mjs || true
           node scripts/backfill-embeds.mjs || true
           node scripts/backfill-bandcamp.mjs || true
 
       - name: Write descriptions for the new pending batch
-        # `continue-on-error` means a missing key, bad model name, quota
-        # hit, or API outage won't break the whole workflow — the records
-        # are still committed without descriptions and the curator can
-        # retry manually from their Mac.
+        # Missing ANTHROPIC_API_KEY, bad model name, quota hit, or API
+        # outage just ships records without descriptions. The curator can
+        # retry manually from /admin.
         continue-on-error: true
-        env:
-          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
-          DISCOGS_TOKEN: ${{ secrets.DISCOGS_TOKEN }}
-          # Override if the default model ID in write-descriptions.mjs ever
-          # goes stale; set DISQUET_MODEL in Actions secrets to pin a model.
-          DISQUET_MODEL: ${{ secrets.DISQUET_MODEL }}
-        run: |
-          node scripts/write-descriptions.mjs --only-pending --limit 15
+        run: node scripts/write-descriptions.mjs --only-pending --limit 15
 
       - name: Commit the generated batch
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          # Only commit if something actually changed; skip the push otherwise.
+          # Drop the sidecar stats file before diffing — it's gitignored
+          # but belt-and-suspenders in case .gitignore changes.
+          rm -f data/.sync-artists-stats.json
           if [ -n "$(git status --porcelain data/)" ]; then
             git config user.name  "disquet-bot"
             git config user.email "disquet-bot@users.noreply.github.com"
             git add data/
-            git commit -m "daily pool: new pending batch ($(date -u +%Y-%m-%d))"
+            git commit -m "daily pool: new pending batch ($(date -u +%Y-%m-%d\ %H:%MZ))"
             git push
           else
             echo "No new records this run - nothing to commit."
           fi
 
-      # Run-health summary posted to the Actions page. The curator can see at
-      # a glance whether iTunes rate-limited the runner (a key failure mode
-      # that silently dropped a whole day of releases on 2026-04-22). If the
-      # iTunes step aborted (exit 2) this job also fails so the curator gets
-      # an email from GitHub and knows to re-run manually.
+      # Run-health summary. Only fails the workflow when EVERY source
+      # returned nothing AND nothing was committed — i.e. a genuine zero
+      # day, which is the only case worth emailing the curator about. A
+      # partial day (iTunes down, Deezer ok, Discogs ok) is still useful
+      # and shouldn't alert.
       - name: Run-health summary
         if: always()
         run: |
-          echo "## Daily pool run summary" >> "$GITHUB_STEP_SUMMARY"
-          echo "" >> "$GITHUB_STEP_SUMMARY"
-          echo "- iTunes sync outcome: \`${{ steps.sync_itunes.outcome }}\`" >> "$GITHUB_STEP_SUMMARY"
-          echo "" >> "$GITHUB_STEP_SUMMARY"
-          if [ "${{ steps.sync_itunes.outcome }}" = "failure" ]; then
-            echo "⚠️  iTunes sync aborted or exited non-zero. This usually means" >> "$GITHUB_STEP_SUMMARY"
-            echo "the runner IP was throttled by Apple. Re-run the workflow" >> "$GITHUB_STEP_SUMMARY"
-            echo "(likely a different IP) or run \`node scripts/sync-itunes.mjs\`" >> "$GITHUB_STEP_SUMMARY"
-            echo "locally from your Mac and push the result." >> "$GITHUB_STEP_SUMMARY"
+          {
+            echo "## Daily pool run summary"
+            echo ""
+            echo "| step | outcome |"
+            echo "| --- | --- |"
+            echo "| sync-artists | ${{ steps.sync_artists.outcome }} |"
+            echo "| sync-labels | ${{ steps.sync_labels.outcome }} |"
+            echo "| sync-media | ${{ steps.sync_media.outcome }} |"
+            echo ""
+            if [ -f data/.sync-artists-stats.json ]; then
+              echo "### Per-source stats"
+              echo ""
+              echo '```json'
+              cat data/.sync-artists-stats.json
+              echo '```'
+              echo ""
+            fi
+          } >> "$GITHUB_STEP_SUMMARY"
+
+          # Alert only if ALL THREE release/press sources failed. The 11:00
+          # UTC second cron is the main recovery mechanism; this failure is
+          # for the rare case where it too came back empty-handed.
+          if [ "${{ steps.sync_artists.outcome }}" = "failure" ] && \
+             [ "${{ steps.sync_labels.outcome }}" = "failure" ] && \
+             [ "${{ steps.sync_media.outcome }}" = "failure" ]; then
+            {
+              echo "⚠️  All three sources failed this run. Check the step"
+              echo "logs and consider a manual \"Run workflow\" on Actions;"
+              echo "a different runner often clears transient IP throttles."
+            } >> "$GITHUB_STEP_SUMMARY"
             exit 1
           fi
