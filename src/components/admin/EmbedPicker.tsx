@@ -48,8 +48,27 @@ function detectProvider(src: string): EmbedProvider | null {
   return null;
 }
 
-/** Parse an <iframe ... src=... height=...> blob. Returns fields if found. */
-function parseIframeBlob(blob: string): { src?: string; height?: number } {
+/**
+ * Parse an `<iframe ...>` blob. Returns src, height, and width if found.
+ *
+ * Height can arrive three ways depending on the source:
+ *   - `height="654"`       — Spotify / Apple Music / YouTube all ship this.
+ *   - `style="height: 654px"` — Bandcamp's "Share / Embed" dialog uses this
+ *     (and only this — there's no height attribute). Missing it silently
+ *     made Bandcamp's tall large-player render at the default 450px and
+ *     clip the tracklist, which is what the curator hit.
+ *   - missing          — we return undefined and the card falls back to its
+ *                        default height. Better than guessing.
+ *
+ * Width is parsed on the same principle; we don't use it yet (the card is
+ * fluid 100%), but returning it lets the save logic persist a hint for
+ * future responsive work.
+ */
+function parseIframeBlob(blob: string): {
+  src?: string;
+  height?: number;
+  width?: number;
+} {
   // Accept either a literal <iframe> tag or just a URL on its own line.
   const trimmed = blob.trim();
   if (!trimmed) return {};
@@ -57,11 +76,26 @@ function parseIframeBlob(blob: string): { src?: string; height?: number } {
   if (/^https?:\/\//i.test(trimmed) && !trimmed.includes("<")) {
     return { src: trimmed };
   }
+
   const srcMatch = trimmed.match(/\bsrc\s*=\s*["']([^"']+)["']/i);
-  const heightMatch = trimmed.match(/\bheight\s*=\s*["']?(\d{2,4})["']?/i);
+
+  // Attribute form: height="123" / height='123' / height=123
+  const heightAttr = trimmed.match(/\bheight\s*=\s*["']?(\d{2,4})["']?/i);
+  const widthAttr = trimmed.match(/\bwidth\s*=\s*["']?(\d{2,4})["']?/i);
+
+  // Style form inside style="...". We only look inside the style attribute
+  // so we don't accidentally pick up a height: value elsewhere in the blob.
+  const styleBlock = trimmed.match(/\bstyle\s*=\s*["']([^"']+)["']/i)?.[1] || "";
+  const heightStyle = styleBlock.match(/(?:^|[;\s])height\s*:\s*(\d{2,4})\s*px\b/i);
+  const widthStyle = styleBlock.match(/(?:^|[;\s])width\s*:\s*(\d{2,4})\s*px\b/i);
+
+  const heightRaw = heightAttr?.[1] || heightStyle?.[1];
+  const widthRaw = widthAttr?.[1] || widthStyle?.[1];
+
   return {
     src: srcMatch?.[1],
-    height: heightMatch ? Number(heightMatch[1]) : undefined,
+    height: heightRaw ? Number(heightRaw) : undefined,
+    width: widthRaw ? Number(widthRaw) : undefined,
   };
 }
 
@@ -85,18 +119,46 @@ export function EmbedPicker({
   const [err, setErr] = useState<string | null>(null);
   const [ok, setOk] = useState(false);
 
-  /** Populate the form from a pasted iframe / URL blob. */
-  const applyBlob = () => {
-    const parsed = parseIframeBlob(blob);
+  /**
+   * Populate the form from an iframe / URL blob. Called both by the
+   * explicit "Parse paste" button (with quiet=false — show an error if
+   * no src was found) and automatically on paste (quiet=true — don't
+   * shout an error when someone's still typing).
+   */
+  const applyBlobFrom = (text: string, quiet: boolean) => {
+    const parsed = parseIframeBlob(text);
     if (!parsed.src) {
-      setErr("Couldn't find an iframe src in that blob.");
+      if (!quiet) setErr("Couldn't find an iframe src in that blob.");
       return;
     }
     setErr(null);
     setSrc(parsed.src);
+    // Height is what makes Bandcamp's tall player (654px) render correctly
+    // without the curator touching the number field. If the iframe has no
+    // height we leave the existing value alone — saving without a height
+    // means EmbedPlayer uses its default 450 which is right for Apple /
+    // Spotify / Deezer.
     if (parsed.height) setHeight(String(parsed.height));
     const detected = detectProvider(parsed.src);
     if (detected) setProvider(detected);
+  };
+
+  const applyBlob = () => applyBlobFrom(blob, /*quiet=*/ false);
+
+  /**
+   * Auto-parse as soon as a blob is pasted — the curator shouldn't have
+   * to paste, then click "Parse paste", then click Save. We read the
+   * clipboard payload directly (rather than waiting for React's
+   * controlled-input round-trip) so src + height + provider all land in
+   * one step, which is what "adapt to the pasted embed code" should feel
+   * like.
+   */
+  const onBlobPaste = (e: React.ClipboardEvent<HTMLTextAreaElement>) => {
+    const text = e.clipboardData.getData("text");
+    if (!text) return;
+    // Let the textarea show the paste in the normal flow; apply on the
+    // next tick so `blob` state is also up to date.
+    setTimeout(() => applyBlobFrom(text, /*quiet=*/ true), 0);
   };
 
   const save = async (newEmbed: Embed | null) => {
@@ -156,6 +218,7 @@ export function EmbedPicker({
         <textarea
           value={blob}
           onChange={(e) => setBlob(e.target.value)}
+          onPaste={onBlobPaste}
           rows={3}
           className="border border-ink bg-paper px-2 py-1 font-mono text-[11px] focus:outline-none focus:bg-paper-2/40"
           placeholder='<iframe style="border: 0; width: 350px; height: 470px;" src="https://bandcamp.com/EmbeddedPlayer/album=..." ...></iframe>'

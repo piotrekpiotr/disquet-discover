@@ -103,7 +103,7 @@ export function buildAppUrl(
     case "spotify":
       return spotifyAppUrl(u);
     case "apple":
-      return appleAppUrl(u);
+      return appleAppUrl(u, platform);
     case "deezer":
       return isMobile(platform) ? deezerAppUrl(u) : null;
     case "tidal":
@@ -132,11 +132,18 @@ function spotifyAppUrl(u: URL): string | null {
   return `spotify:${m[1].toLowerCase()}:${m[2]}`;
 }
 
-function appleAppUrl(u: URL): string | null {
+function appleAppUrl(u: URL, platform: Platform): string | null {
   if (!u.hostname.endsWith("music.apple.com")) return null;
-  // Swap the scheme; keep host, path, query. itmss:// is what both the
-  // macOS Music app and the iOS Music app register as their URL handler.
-  return `itmss://${u.hostname}${u.pathname}${u.search}${u.hash}`;
+  // Scheme differs by platform:
+  //   macOS Music app registers BOTH `music://` and `itmss://`. `itmss://`
+  //     is the longer-standing one and works reliably across macOS versions,
+  //     so we keep using it there.
+  //   iOS Music app registers `music://`. `itmss://` on iOS routes through
+  //     the iTunes Store handler, which on modern iOS punts many URLs to
+  //     the App Store or silently does nothing — which is exactly what was
+  //     happening before this fix (tapping the link was a no-op).
+  const scheme = platform === "ios" ? "music" : "itmss";
+  return `${scheme}://${u.hostname}${u.pathname}${u.search}${u.hash}`;
 }
 
 function deezerAppUrl(u: URL): string | null {

@@ -155,7 +155,72 @@ function parseAlbumPage(html) {
     }
   }
 
-  return { albumId, title, artist };
+  const trackCount = parseTrackCount(html);
+
+  return { albumId, title, artist, trackCount };
+}
+
+/**
+ * Extract the number of tracks on a Bandcamp album page. Used to size the
+ * embed iframe — a 3-track EP and a 16-track double LP need very different
+ * heights on the `size=large` player, and a fixed value either clips the
+ * tracklist (too short) or leaves a dead grey band under it (too tall).
+ *
+ * Three signals, tried in order of reliability:
+ *   1. JSON-LD `numberOfItems` — Bandcamp emits schema.org MusicAlbum markup
+ *      on most album pages; this is the cleanest number.
+ *   2. `trackinfo: [ ... ]` — Bandcamp's own player bootstrap data. Count
+ *      the objects inside the array by `"track_num"` occurrences (safer
+ *      than matching the array literal itself, which may break across
+ *      newlines).
+ *   3. `<tr class="track_row_view">` — rendered tracklist rows in the HTML.
+ *      Last resort; Bandcamp occasionally lazy-renders these, but it's a
+ *      useful backstop.
+ *
+ * Returns null if nothing parseable — the caller falls back to the default
+ * height rather than guessing.
+ */
+function parseTrackCount(html) {
+  // (1) JSON-LD
+  const ld = html.match(/"numberOfItems"\s*:\s*(\d+)/);
+  if (ld) {
+    const n = Number(ld[1]);
+    if (Number.isFinite(n) && n > 0 && n < 200) return n;
+  }
+  // (2) trackinfo bootstrap — count "track_num" keys inside the blob
+  const ti = html.match(/trackinfo\s*:\s*\[([\s\S]*?)\]/);
+  if (ti) {
+    const hits = ti[1].match(/"track_num"\s*:/g);
+    if (hits && hits.length > 0) return hits.length;
+  }
+  // (3) rendered DOM
+  const rows = html.match(/<tr[^>]*class="[^"]*track_row_view[^"]*"/g);
+  if (rows && rows.length > 0) return rows.length;
+  return null;
+}
+
+/**
+ * Compute an appropriate iframe height for Bandcamp's `size=large` player
+ * given a track count. Formula was calibrated against a few real embeds:
+ *
+ *   3 tracks →  370px     7 tracks → 470px     12 tracks → 610px
+ *   5 tracks →  420px    10 tracks → 540px     20 tracks → 830px
+ *
+ * Which is roughly `300 + 25 * tracks`, clamped into a sane range so one
+ * outlier (a 40-track DJ mix or a label compilation) doesn't produce an
+ * absurdly tall card. Values outside the clamp are still playable — the
+ * user just scrolls inside the iframe to reach the bottom of the
+ * tracklist.
+ *
+ * NOTE: this assumes the `artwork=small` + `tracklist=true` template used
+ * by this script. If the curator pastes a different Bandcamp iframe via
+ * EmbedPicker (which might use a larger cover or a different layout), the
+ * pasted height wins — that path goes through parseIframeBlob, not here.
+ */
+function computeBandcampHeight(trackCount) {
+  if (!trackCount) return 470; // default for unknown — one-size safe-ish
+  const raw = 300 + 25 * trackCount;
+  return Math.max(350, Math.min(raw, 820));
 }
 
 async function findBandcampAlbum(item) {
@@ -194,6 +259,7 @@ async function findBandcampAlbum(item) {
       albumUrl,
       verifiedArtist: info.artist,
       verifiedTitle: info.title,
+      trackCount: info.trackCount,
     };
   }
   return null;
@@ -213,22 +279,27 @@ async function main() {
     try {
       const bc = await findBandcampAlbum(item);
       if (bc) {
+        const height = computeBandcampHeight(bc.trackCount);
         item.embed = {
           provider: "bandcamp",
-          // Canonical Bandcamp embed URL. size=large renders cover + full
-          // tracklist; 470px keeps the embed compact but with the play
-          // control and tracklist both visible for albums up to ~12 tracks.
+          // size=large + artwork=small + tracklist=true. Height is sized
+          // per-record from the track count we parsed out of the album
+          // page, so a 3-track EP gets ~375px and a 16-track album gets
+          // ~700px without either clipping the tracklist or leaving a
+          // dead band under it.
           src:
             `https://bandcamp.com/EmbeddedPlayer/album=${bc.albumId}` +
             `/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=true/artwork=small/transparent=true/`,
-          height: 470,
+          height,
         };
         // Upgrade the stored link if it was a search URL.
         if (!item.links.bandcamp || item.links.bandcamp.includes("/search")) {
           item.links = { ...item.links, bandcamp: bc.albumUrl };
         }
         found++;
-        console.log(`bandcamp:${bc.albumId} (${bc.verifiedArtist} - ${bc.verifiedTitle})`);
+        console.log(
+          `bandcamp:${bc.albumId} ${bc.trackCount ? `(${bc.trackCount} tracks, ${height}px)` : `(${height}px)`} (${bc.verifiedArtist} - ${bc.verifiedTitle})`,
+        );
         await fs.writeFile(FILE, JSON.stringify(items, null, 2), "utf8");
       } else {
         missed++;

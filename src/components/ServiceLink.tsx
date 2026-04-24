@@ -2,7 +2,12 @@
 import { useEffect, useRef, useState } from "react";
 import type { ReactNode } from "react";
 import type { Links } from "@/lib/types";
-import { buildAppUrl, detectPlatform, type Platform } from "@/lib/music-links";
+import {
+  buildAppUrl,
+  detectPlatform,
+  isMobile,
+  type Platform,
+} from "@/lib/music-links";
 
 /**
  * A link to a music service that prefers opening the native app (when the
@@ -91,72 +96,39 @@ export function ServiceLink({
     inFlightRef.current = true;
     e.preventDefault();
 
-    // Claim a fallback tab while the user gesture is still valid. Opening
-    // from inside setTimeout would be popup-blocked on most browsers.
-    const fallbackTab = window.open("", "_blank");
-
-    let finished = false;
-    const cleanup = () => {
-      finished = true;
-      inFlightRef.current = false;
-      document.removeEventListener("visibilitychange", onVis);
-    };
-
-    const onVis = () => {
-      if (document.visibilityState === "hidden") {
-        // App opened → browser backgrounded this tab. Close the still-empty
-        // fallback tab so the user doesn't return to a blank page.
-        clearTimeout(timer);
-        if (fallbackTab && !fallbackTab.closed) {
-          try {
-            fallbackTab.close();
-          } catch {
-            // Some browsers refuse to close tabs they didn't open; swallow.
-          }
-        }
-        cleanup();
-      }
-    };
-    document.addEventListener("visibilitychange", onVis);
-
-    const timer = window.setTimeout(() => {
-      if (finished) return;
-      // Still visible after FALLBACK_MS → app didn't open. Point the
-      // pre-opened tab at the website.
-      if (fallbackTab && !fallbackTab.closed) {
-        try {
-          fallbackTab.location.href = webUrl;
-        } catch {
-          // Cross-origin shenanigans — open a brand new tab as a last
-          // resort. On browsers that blocked the pre-open, this is the
-          // only path that's left anyway.
-          window.open(webUrl, "_blank", "noopener,noreferrer");
-        }
-      } else {
-        window.open(webUrl, "_blank", "noopener,noreferrer");
-      }
-      cleanup();
-    }, FALLBACK_MS);
-
-    // Kick the OS protocol handler. Using window.location on the current
-    // tab (not an iframe) because Chromium blocks iframe navigations to
-    // custom schemes. If the scheme is registered, the app opens and the
-    // current tab is backgrounded (onVis fires). If it isn't, modern
-    // browsers don't navigate away; our fallback handles that case.
-    try {
-      window.location.href = appUrl;
-    } catch {
-      // If setting location throws for some reason, fall back immediately.
-      clearTimeout(timer);
-      if (fallbackTab && !fallbackTab.closed) {
-        try {
-          fallbackTab.location.href = webUrl;
-        } catch {
-          window.open(webUrl, "_blank", "noopener,noreferrer");
-        }
-      }
-      cleanup();
+    // Two completely different strategies, because mobile Safari and
+    // desktop Chrome/Safari disagree sharply on what's legal mid-click:
+    //
+    //   - On DESKTOP, we can call `window.open("", "_blank")` while the
+    //     user-gesture context is live, claim that tab, then navigate it
+    //     to the fallback web URL later if the app didn't open. This
+    //     preserves the original disquet.co tab.
+    //
+    //   - On MOBILE (iOS Safari especially), `window.open("", "_blank")`
+    //     is reliably popup-blocked — it returns `null`, and no amount of
+    //     cleverness will un-block it. That's why the Apple Music tap was
+    //     "doing nothing" before this fix: we pre-opened a null tab, set
+    //     location.href to itmss:// (which iOS silently rejected), the
+    //     timer fired, tried to navigate the null fallbackTab, and
+    //     `window.open(webUrl, "_blank")` from inside a timeout is also
+    //     popup-blocked since the user gesture has expired. End result: a
+    //     page that looks like it reloaded and nothing happened.
+    //
+    //     On mobile we use current-tab navigation for everything. If the
+    //     app opens, great — our tab backgrounds. If it doesn't, 1.5s
+    //     later we navigate the current tab itself to the web URL. The
+    //     visitor loses the disquet.co page and can hit Back to return —
+    //     worse UX than desktop, but it actually works.
+    if (isMobile(platform)) {
+      handleMobile(appUrl, webUrl, () => {
+        inFlightRef.current = false;
+      });
+      return;
     }
+
+    handleDesktop(appUrl, webUrl, () => {
+      inFlightRef.current = false;
+    });
   }
 
   return (
@@ -170,4 +142,116 @@ export function ServiceLink({
       {children}
     </a>
   );
+}
+
+/**
+ * Mobile deep-link attempt. Current-tab navigation for both the app URI
+ * and the fallback, because window.open popups aren't reliably allowed
+ * mid-click on iOS Safari. If the app handles the scheme, the current
+ * tab backgrounds (visibilitychange fires) and we stand down. Otherwise
+ * we navigate the same tab to the website.
+ *
+ * A subtle bit: when the OS hand-off happens, some iOS versions fire
+ * `pagehide` instead of (or in addition to) visibilitychange. We listen
+ * to both so we don't later navigate on top of a successful launch.
+ */
+function handleMobile(appUrl: string, webUrl: string, done: () => void) {
+  let cancelled = false;
+  const stopAll = () => {
+    cancelled = true;
+    document.removeEventListener("visibilitychange", onVis);
+    window.removeEventListener("pagehide", stopAll);
+    window.removeEventListener("blur", stopAll);
+    done();
+  };
+  const onVis = () => {
+    if (document.visibilityState === "hidden") stopAll();
+  };
+  document.addEventListener("visibilitychange", onVis);
+  window.addEventListener("pagehide", stopAll, { once: true });
+  window.addEventListener("blur", stopAll, { once: true });
+
+  window.setTimeout(() => {
+    if (cancelled) return;
+    // App didn't open. Take the current tab to the web URL instead; the
+    // user can tap Back to return to us. On iOS this is also the ONLY
+    // remaining window-opening action available (the gesture is gone,
+    // popups are blocked).
+    window.location.href = webUrl;
+    stopAll();
+  }, FALLBACK_MS);
+
+  // Kick the native URI scheme in the current tab. If registered, the OS
+  // pauses this tab and opens the app.
+  try {
+    window.location.href = appUrl;
+  } catch {
+    // Immediate fallback
+    window.location.href = webUrl;
+    stopAll();
+  }
+}
+
+/**
+ * Desktop deep-link attempt. Pre-open a blank tab while the user gesture
+ * is valid, try the app URI in the current tab, and if the timer fires
+ * before the page backgrounds, point the pre-opened tab at the website.
+ * This keeps the disquet.co tab untouched on desktop — the visitor
+ * expects a new tab for an external link there.
+ */
+function handleDesktop(appUrl: string, webUrl: string, done: () => void) {
+  const fallbackTab = window.open("", "_blank");
+
+  let finished = false;
+  const cleanup = () => {
+    if (finished) return;
+    finished = true;
+    document.removeEventListener("visibilitychange", onVis);
+    done();
+  };
+
+  const onVis = () => {
+    if (document.visibilityState === "hidden") {
+      clearTimeout(timer);
+      if (fallbackTab && !fallbackTab.closed) {
+        try {
+          fallbackTab.close();
+        } catch {
+          /* swallow */
+        }
+      }
+      cleanup();
+    }
+  };
+  document.addEventListener("visibilitychange", onVis);
+
+  const timer = window.setTimeout(() => {
+    if (finished) return;
+    if (fallbackTab && !fallbackTab.closed) {
+      try {
+        fallbackTab.location.href = webUrl;
+      } catch {
+        window.open(webUrl, "_blank", "noopener,noreferrer");
+      }
+    } else {
+      window.open(webUrl, "_blank", "noopener,noreferrer");
+    }
+    cleanup();
+  }, FALLBACK_MS);
+
+  try {
+    window.location.href = appUrl;
+  } catch {
+    clearTimeout(timer);
+    if (fallbackTab && !fallbackTab.closed) {
+      try {
+        fallbackTab.location.href = webUrl;
+      } catch {
+        window.open(webUrl, "_blank", "noopener,noreferrer");
+      }
+    } else {
+      window.open(webUrl, "_blank", "noopener,noreferrer");
+    }
+    cleanup();
+  }
 }
