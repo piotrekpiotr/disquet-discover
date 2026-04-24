@@ -14,6 +14,12 @@ export interface Embed {
   src: string;
   /** Optional custom height in px */
   height?: number;
+  /** Optional fixed width in px. When set, the player renders at that
+   *  width (capped to the card's content width) and is centered rather
+   *  than stretched full-bleed. Needed for Bandcamp's "big artwork"
+   *  Standard layout, which is laid out for a fixed 350px column and
+   *  grows the cover art uncontrollably if forced to fluid 100%. */
+  width?: number;
 }
 
 export interface Links {

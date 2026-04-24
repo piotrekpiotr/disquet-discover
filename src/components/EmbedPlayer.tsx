@@ -47,6 +47,26 @@ function pickEmbed(embed: Embed | null | undefined): Embed | null {
   return embed;
 }
 
+/**
+ * Infer a sensible fixed width for a Bandcamp embed whose stored record
+ * didn't carry one. Historical records pasted from Bandcamp's Share/Embed
+ * dialog before width was persisted show up here — without this, they
+ * stretched the cover artwork to the full card width. The heuristic:
+ *
+ *   - `artwork=big` in the src  →  350px  (Bandcamp's "Standard" layout,
+ *     cover-over-tracklist; ships as width:350 in Bandcamp's own snippet
+ *     and is unusable at any other width).
+ *   - anything else              →  null  (treat as fluid — the auto-
+ *     backfilled `artwork=small` variant is fine at 100% width).
+ */
+function inferWidth(embed: Embed): number | undefined {
+  if (embed.width) return embed.width;
+  if (embed.provider === "bandcamp" && /\/artwork=big\b/.test(embed.src)) {
+    return 350;
+  }
+  return undefined;
+}
+
 const SERVICE_ORDER: Array<keyof Links> = [
   "bandcamp",
   "spotify",
@@ -140,7 +160,31 @@ export function EmbedPlayer({
   return (
     <div className="flex flex-col gap-3">
       {chosen && mayLoadEmbed ? (
-        <div className="border border-ink">
+        // Width behaviour:
+        //   - When the embed carries a fixed width (Bandcamp Big-artwork
+        //     Standard player, any iframe the curator pasted with an
+        //     explicit width), we size the container to that width and
+        //     centre it. Forcing such players to 100% width stretches
+        //     Bandcamp's cover artwork to absurd sizes because the layout
+        //     is built for a fixed column.
+        //   - When no width is available (iTunes embeds, Deezer, Spotify's
+        //     responsive embed, Bandcamp's small-artwork tracklist variant
+        //     written by backfill-bandcamp), we keep the previous fluid
+        //     100% behaviour so the player fills the card.
+        //   - `inferWidth` provides a safety net for older Bandcamp records
+        //     that were saved before width was persisted.
+        <div
+          className={
+            inferWidth(chosen)
+              ? "border border-ink mx-auto"
+              : "border border-ink"
+          }
+          style={
+            inferWidth(chosen)
+              ? { width: "100%", maxWidth: `${inferWidth(chosen)}px` }
+              : undefined
+          }
+        >
           <iframe
             src={chosen.src}
             style={{

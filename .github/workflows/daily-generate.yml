@@ -46,6 +46,12 @@ jobs:
       # runs but auto-promotion is disabled (candidates all need manual
       # review). See scripts/sources/lastfm.mjs for the API shape.
       LASTFM_API_KEY: ${{ secrets.LASTFM_API_KEY }}
+      # Spotify Web API (Client Credentials) — used by backfill-spotify
+      # to replace "open.spotify.com/search/…" links with real album
+      # URLs, so the card's Spotify button can deep-link into the native
+      # app. If either secret is missing, the step self-skips.
+      SPOTIFY_CLIENT_ID: ${{ secrets.SPOTIFY_CLIENT_ID }}
+      SPOTIFY_CLIENT_SECRET: ${{ secrets.SPOTIFY_CLIENT_SECRET }}
       # Override model for description writing if the default in
       # write-descriptions.mjs ever goes stale.
       DISQUET_MODEL: ${{ secrets.DISQUET_MODEL }}
@@ -102,11 +108,27 @@ jobs:
         # skips records that already have an embed, so they're idempotent.
         # Rate-limit / network failures here just leave the record without
         # an embed — the public site falls back to a search-links card.
+        #
+        # backfill-bandcamp also upgrades links.bandcamp from the seed
+        # search URL to the real album URL even when a higher-priority
+        # embed was already set — so the "Bandcamp" row on a record
+        # ultimately deep-links to the right page regardless of which
+        # service gave us the player.
         continue-on-error: true
         run: |
           node scripts/enrich-labels-and-embeds.mjs || true
           node scripts/backfill-embeds.mjs || true
           node scripts/backfill-bandcamp.mjs || true
+
+      - name: Resolve Spotify album URLs (search → real album link)
+        # Spotify's Client Credentials flow — no user OAuth. Finds the
+        # actual album URL for each record whose links.spotify is still a
+        # search URL, so the "Spotify" row on a record card deep-links
+        # into the native app instead of opening a search page.
+        # Self-skips when SPOTIFY_CLIENT_ID / SECRET aren't set, so this
+        # step is safe to keep enabled even on forks without the secret.
+        continue-on-error: true
+        run: node scripts/backfill-spotify.mjs || true
 
       - name: Write descriptions for the new pending batch
         # Missing ANTHROPIC_API_KEY, bad model name, quota hit, or API

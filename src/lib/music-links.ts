@@ -43,7 +43,22 @@ import type { Links } from "./types";
  *     Mobile only; Tidal's desktop app is less ubiquitous so we stay on web
  *     there.
  *
- *   SoundCloud / YouTube / Bandcamp
+ *   SoundCloud
+ *     Universal Links / App Links DO intercept `soundcloud.com/...` on
+ *     mobile, but the SoundCloud app silently redirects URLs it doesn't
+ *     recognise as a concrete track/set/user to the app's home screen.
+ *     Our seed-time link is
+ *       `https://soundcloud.com/search?q=<artist> <title>`
+ *     which hits exactly that case — visitor taps the row, the app opens,
+ *     but lands on Home with no search performed. The workaround is the
+ *     `soundcloud://search?q=<q>` URI scheme (undocumented but stable
+ *     across recent app versions): the OS hands it to the app, which opens
+ *     the in-app search screen with the query pre-filled. For direct
+ *     release URLs (e.g. `/artist/sets/album-slug` — which we don't
+ *     currently resolve but can, later), Universal Links already do the
+ *     right thing, so we return null there and let the browser handle it.
+ *
+ *   YouTube / Bandcamp
  *     No URI scheme needed — on mobile, the OS's Universal Links (iOS) and
  *     App Links (Android) intercept the https URL and hand it to the
  *     installed app automatically. On desktop, there's no consumer native
@@ -108,10 +123,16 @@ export function buildAppUrl(
       return isMobile(platform) ? deezerAppUrl(u) : null;
     case "tidal":
       return isMobile(platform) ? tidalAppUrl(u) : null;
-    // SoundCloud / YouTube / Bandcamp: rely on mobile Universal/App Links
-    // for the https URL on mobile, and there's no meaningful desktop native
-    // target. Return null and let the browser handle the <a> normally.
     case "soundcloud":
+      // Only intervene on mobile search URLs. On desktop the browser
+      // opens the web URL in a new tab, which is what we want. For
+      // concrete release URLs on mobile, Universal Links already route
+      // correctly — we only need to fix the search-URL case where the
+      // app silently lands on Home.
+      return isMobile(platform) ? soundcloudAppUrl(u) : null;
+    // YouTube / Bandcamp: rely on mobile Universal/App Links for the https
+    // URL on mobile, and there's no meaningful desktop native target.
+    // Return null and let the browser handle the <a> normally.
     case "youtube":
     case "bandcamp":
       return null;
@@ -149,6 +170,23 @@ function appleAppUrl(u: URL, platform: Platform): string | null {
 function deezerAppUrl(u: URL): string | null {
   if (!/(^|\.)deezer\.com$/.test(u.hostname)) return null;
   return `deezer://${u.hostname}${u.pathname}${u.search}`;
+}
+
+function soundcloudAppUrl(u: URL): string | null {
+  if (!/(^|\.)soundcloud\.com$/.test(u.hostname)) return null;
+  // Search URLs (`/search?q=…`) are the only shape we currently store for
+  // records we haven't resolved to a real SoundCloud album. Convert those
+  // to the app's search scheme so the SoundCloud app opens on the search
+  // screen instead of Home. Everything else (a future resolved album URL
+  // at `/artist/sets/slug`, a track URL at `/artist/track-slug`) should
+  // stay as the https URL so Universal Links / App Links route it
+  // natively — we return null there.
+  if (u.pathname.toLowerCase().startsWith("/search")) {
+    const q = u.searchParams.get("q") || "";
+    if (!q) return null;
+    return `soundcloud://search?q=${encodeURIComponent(q)}`;
+  }
+  return null;
 }
 
 function tidalAppUrl(u: URL): string | null {

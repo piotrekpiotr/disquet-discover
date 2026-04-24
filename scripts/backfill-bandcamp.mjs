@@ -267,38 +267,71 @@ async function findBandcampAlbum(item) {
 
 // ---------- main ----------
 
+/**
+ * True when links.bandcamp is unset or is still a search URL — i.e. we
+ * haven't resolved a real album page yet and another Bandcamp lookup
+ * would be useful.
+ */
+function linkIsSearchOrMissing(url) {
+  if (!url) return true;
+  return url.includes("/search");
+}
+
 async function main() {
   const items = JSON.parse(await fs.readFile(FILE, "utf8"));
-  let found = 0;
+  let foundEmbed = 0;
+  let foundLinkOnly = 0;
   let missed = 0;
+  let skipped = 0;
 
   for (const item of items) {
-    if (item.embed) continue;
+    const needsEmbed = !item.embed;
+    const needsLink = linkIsSearchOrMissing(item.links?.bandcamp);
+
+    // Nothing to do: this record already has an embed AND a real Bandcamp
+    // album URL. Previously we `continue`d on the embed check alone, which
+    // meant records that got an Apple/Deezer embed first never had their
+    // Bandcamp link upgraded from the seed search URL.
+    if (!needsEmbed && !needsLink) {
+      skipped++;
+      continue;
+    }
 
     process.stdout.write(`${item.artist} - ${item.title}: `);
     try {
       const bc = await findBandcampAlbum(item);
       if (bc) {
-        const height = computeBandcampHeight(bc.trackCount);
-        item.embed = {
-          provider: "bandcamp",
-          // size=large + artwork=small + tracklist=true. Height is sized
-          // per-record from the track count we parsed out of the album
-          // page, so a 3-track EP gets ~375px and a 16-track album gets
-          // ~700px without either clipping the tracklist or leaving a
-          // dead band under it.
-          src:
-            `https://bandcamp.com/EmbeddedPlayer/album=${bc.albumId}` +
-            `/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=true/artwork=small/transparent=true/`,
-          height,
-        };
-        // Upgrade the stored link if it was a search URL.
-        if (!item.links.bandcamp || item.links.bandcamp.includes("/search")) {
-          item.links = { ...item.links, bandcamp: bc.albumUrl };
+        // Only write an embed when the record doesn't already have one
+        // from a higher-priority source (Apple / Deezer). A record with
+        // an Apple embed and a Bandcamp link is exactly the intended
+        // state after this runs.
+        if (needsEmbed) {
+          const height = computeBandcampHeight(bc.trackCount);
+          item.embed = {
+            provider: "bandcamp",
+            // size=large + artwork=small + tracklist=true. Height is sized
+            // per-record from the track count we parsed out of the album
+            // page, so a 3-track EP gets ~375px and a 16-track album gets
+            // ~700px without either clipping the tracklist or leaving a
+            // dead band under it.
+            src:
+              `https://bandcamp.com/EmbeddedPlayer/album=${bc.albumId}` +
+              `/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=true/artwork=small/transparent=true/`,
+            height,
+          };
+          foundEmbed++;
+        } else {
+          foundLinkOnly++;
         }
-        found++;
+        // Upgrade the stored link if it was a search URL (or missing).
+        if (linkIsSearchOrMissing(item.links?.bandcamp)) {
+          item.links = { ...(item.links || {}), bandcamp: bc.albumUrl };
+        }
+        const tag = needsEmbed
+          ? `bandcamp:${bc.albumId} ${bc.trackCount ? `(${bc.trackCount} tracks)` : ""}`
+          : `link-only bandcamp:${bc.albumId}`;
         console.log(
-          `bandcamp:${bc.albumId} ${bc.trackCount ? `(${bc.trackCount} tracks, ${height}px)` : `(${height}px)`} (${bc.verifiedArtist} - ${bc.verifiedTitle})`,
+          `${tag} (${bc.verifiedArtist} - ${bc.verifiedTitle})`,
         );
         await fs.writeFile(FILE, JSON.stringify(items, null, 2), "utf8");
       } else {
@@ -312,7 +345,9 @@ async function main() {
     await polite();
   }
 
-  console.log(`\nBandcamp backfill: found=${found}, missed=${missed}.`);
+  console.log(
+    `\nBandcamp backfill: embed=${foundEmbed}, link-only=${foundLinkOnly}, missed=${missed}, skipped=${skipped}.`,
+  );
 }
 
 main().catch((e) => {

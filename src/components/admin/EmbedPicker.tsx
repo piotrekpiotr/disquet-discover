@@ -114,6 +114,13 @@ export function EmbedPicker({
   const [height, setHeight] = useState<string>(
     current?.height ? String(current.height) : "",
   );
+  // Width is optional and mostly matters for Bandcamp's big-artwork Standard
+  // player (350px), which otherwise stretches uncontrollably inside the
+  // card. For every other provider leaving this blank is the right default —
+  // EmbedPlayer only applies a fixed width when this is set.
+  const [width, setWidth] = useState<string>(
+    current?.width ? String(current.width) : "",
+  );
   const [blob, setBlob] = useState("");
   const [saving, setSaving] = useState(false);
   const [err, setErr] = useState<string | null>(null);
@@ -139,6 +146,13 @@ export function EmbedPicker({
     // means EmbedPlayer uses its default 450 which is right for Apple /
     // Spotify / Deezer.
     if (parsed.height) setHeight(String(parsed.height));
+    // Width is also picked up from the paste. Bandcamp's Big-artwork
+    // Standard player ships as `width: 350px` and MUST be kept at that
+    // width or the cover art stretches the whole card. For other
+    // providers (Apple, Spotify, Deezer) width is usually absent from
+    // the blob or explicitly fluid, so we only overwrite when the parse
+    // yielded a real number.
+    if (parsed.width) setWidth(String(parsed.width));
     const detected = detectProvider(parsed.src);
     if (detected) setProvider(detected);
   };
@@ -188,10 +202,12 @@ export function EmbedPicker({
       return;
     }
     const h = Number(height);
+    const w = Number(width);
     const embed: Embed = {
       provider,
       src: src.trim(),
       ...(Number.isFinite(h) && h > 0 ? { height: h } : {}),
+      ...(Number.isFinite(w) && w > 0 ? { width: w } : {}),
     };
     void save(embed);
   };
@@ -274,18 +290,38 @@ export function EmbedPicker({
         />
       </div>
 
-      <div className="flex flex-col gap-2 max-w-[160px]">
-        <label className="font-mono text-[9px] uppercase tracking-widest text-mute">
-          Height (px, optional)
-        </label>
-        <input
-          type="number"
-          inputMode="numeric"
-          value={height}
-          onChange={(e) => setHeight(e.target.value)}
-          className="border border-ink bg-paper px-2 py-1 font-mono text-[11px] focus:outline-none focus:bg-paper-2/40"
-          placeholder="450"
-        />
+      <div className="flex flex-wrap gap-4">
+        <div className="flex flex-col gap-2 max-w-[160px]">
+          <label className="font-mono text-[9px] uppercase tracking-widest text-mute">
+            Height (px, optional)
+          </label>
+          <input
+            type="number"
+            inputMode="numeric"
+            value={height}
+            onChange={(e) => setHeight(e.target.value)}
+            className="border border-ink bg-paper px-2 py-1 font-mono text-[11px] focus:outline-none focus:bg-paper-2/40"
+            placeholder="450"
+          />
+        </div>
+        {/*
+          Width only needs to be set when the embed is a fixed-layout player
+          (Bandcamp big-artwork Standard = 350px). For fluid players, leave
+          blank and the iframe fills the card.
+        */}
+        <div className="flex flex-col gap-2 max-w-[160px]">
+          <label className="font-mono text-[9px] uppercase tracking-widest text-mute">
+            Width (px, optional)
+          </label>
+          <input
+            type="number"
+            inputMode="numeric"
+            value={width}
+            onChange={(e) => setWidth(e.target.value)}
+            className="border border-ink bg-paper px-2 py-1 font-mono text-[11px] focus:outline-none focus:bg-paper-2/40"
+            placeholder="fluid"
+          />
+        </div>
       </div>
 
       <div className="flex items-center gap-3 flex-wrap">
