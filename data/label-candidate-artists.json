@@ -3334,6 +3334,7 @@
     ],
     "titleExamples": [
       "Half Alive Rehearsal",
+      "Half Alive Rehearsal",
       "Half Alive Rehearsal"
     ]
   },
@@ -3570,6 +3571,7 @@
       "Instant Classic"
     ],
     "titleExamples": [
+      "Hizbut Jámm",
       "Hizbut Jámm",
       "Hizbut Jámm"
     ]
@@ -3918,6 +3920,7 @@
       "Short Span"
     ],
     "titleExamples": [
+      "Universo E.P.",
       "Universo E.P."
     ]
   },
@@ -3974,6 +3977,7 @@
       "Hyperdub"
     ],
     "titleExamples": [
+      "You Said You'd Hold My Hand Through The Fire",
       "You Said You'd Hold My Hand Through The Fire"
     ]
   },
@@ -4407,6 +4411,7 @@
       "Ilian Tape"
     ],
     "titleExamples": [
+      "Secrets Of The Nebula",
       "Secrets Of The Nebula"
     ]
   },
@@ -4504,7 +4509,8 @@
       "Numbers"
     ],
     "titleExamples": [
-      "A Rose, A Thorn + Hiding EP"
+      "A Rose, A Thorn + Hiding EP",
+      "A Rose, A Thorn"
     ]
   },
   "Shell Company & Older Brother": {
@@ -4887,6 +4893,7 @@
       "OST"
     ],
     "titleExamples": [
+      "Στα Όνειρά Μου",
       "Στα Όνειρά Μου"
     ]
   },
@@ -4929,7 +4936,8 @@
       "OST"
     ],
     "titleExamples": [
-      "Schwarz Auf Weiß"
+      "Schwarz Auf Weiß",
+      "Raufaser"
     ]
   },
   "bambinodj": {
@@ -4977,6 +4985,7 @@
       "OST"
     ],
     "titleExamples": [
+      "Να Μείνουμε Πάντα Παιδιά",
       "Να Μείνουμε Πάντα Παιδιά"
     ]
   },
@@ -5009,7 +5018,8 @@
       "OST"
     ],
     "titleExamples": [
-      "All Made Up"
+      "All Made Up",
+      "Lose Yourself"
     ]
   },
   "Στέφανος Κορκολής": {
@@ -5025,6 +5035,7 @@
       "YOUNG"
     ],
     "titleExamples": [
+      "I Don't Like What It Does to Me",
       "I Don't Like What It Does to Me"
     ]
   },
@@ -5057,6 +5068,7 @@
       "YOUNG"
     ],
     "titleExamples": [
+      "Gone",
       "Gone"
     ]
   },
@@ -5449,6 +5461,7 @@
       "PAN"
     ],
     "titleExamples": [
+      "The First Day & Night",
       "The First Day & Night"
     ]
   },
@@ -5899,7 +5912,8 @@
       "YUKU"
     ],
     "titleExamples": [
-      "Gateway"
+      "Gateway",
+      "Pathway"
     ]
   },
   "Fearful X MTWN X Riko Dan": {
@@ -6378,6 +6392,46 @@
     ],
     "titleExamples": [
       "Malibu = 말리부"
+    ]
+  },
+  "Maude Vôs": {
+    "seenOn": [
+      "YUKU"
+    ],
+    "titleExamples": [
+      "5th Generation Angel"
+    ]
+  },
+  "Chewlie": {
+    "seenOn": [
+      "YUKU"
+    ],
+    "titleExamples": [
+      "Transforming Matter"
+    ]
+  },
+  "Stock Exchange Girls": {
+    "seenOn": [
+      "Youth"
+    ],
+    "titleExamples": [
+      "Nikkei Pet Index"
+    ]
+  },
+  "Lime Garden": {
+    "seenOn": [
+      "YOUNG"
+    ],
+    "titleExamples": [
+      "Maybe Not Tonight"
+    ]
+  },
+  "Rules (9), Ross Quinn": {
+    "seenOn": [
+      "Helix Records"
+    ],
+    "titleExamples": [
+      "Holding On To You"
     ]
   }
 }
