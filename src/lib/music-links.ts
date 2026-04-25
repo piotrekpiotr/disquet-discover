@@ -116,7 +116,7 @@ export function buildAppUrl(
 
   switch (service) {
     case "spotify":
-      return spotifyAppUrl(u, platform);
+      return spotifyAppUrl(u);
     case "apple":
       return appleAppUrl(u, platform);
     case "deezer":
@@ -141,52 +141,40 @@ export function buildAppUrl(
   }
 }
 
-function spotifyAppUrl(u: URL, platform: Platform): string | null {
+function spotifyAppUrl(u: URL): string | null {
   if (!/(^|\.)spotify\.com$/.test(u.hostname)) return null;
   // Match /album/ID, /track/ID, /playlist/ID, /artist/ID, /show/ID, /episode/ID.
   // Tolerate an optional /intl-xx/ region segment (open.spotify.com ships
-  // these for localised share URLs). These URIs work on all platforms
-  // when the Spotify app is installed.
+  // these for localised share URLs). These URIs are stable across the
+  // Spotify desktop and mobile apps.
+  //
+  // We deliberately do NOT try to deep-link search URLs (/search/<q>).
+  // Two attempts at this both regressed real usage:
+  //
+  //   1. Emitting `spotify:search:<query>` on desktop — `window.location
+  //      .href = "spotify:search:..."` in ServiceLink's desktop path
+  //      disrupts the current tab when no handler responds (Chrome /
+  //      Safari macOS), perceived as a page reload.
+  //
+  //   2. Emitting it on mobile only — iOS Safari shows the modal
+  //      "cannot open this page" alert when it tries to navigate to a
+  //      spotify: URI that the installed Spotify version doesn't accept
+  //      (search variants are inconsistently supported across versions),
+  //      blocking the page before the 1.5s fallback timer can run.
+  //
+  // The Spotify URI scheme docs say `spotify:search:<query>` is valid,
+  // but real-device behaviour disagrees. Without a way to test against
+  // every Spotify version + iOS / Android combo, the safe shape is to
+  // let the anchor's plain target="_blank" open the web search URL —
+  // exactly how YouTube and Bandcamp work in this same module. Mobile
+  // Spotify's Universal Links may intercept and open the app's browse
+  // screen (not search results), which the curator has accepted as
+  // the current behaviour.
   const m = u.pathname.match(
     /(?:^|\/)(?:intl-[a-z-]+\/)?(album|track|playlist|artist|show|episode)\/([A-Za-z0-9]+)/i,
   );
-  if (m) return `spotify:${m[1].toLowerCase()}:${m[2]}`;
-
-  // Search URLs (`/search/<query>`) — MOBILE ONLY. Same shape as the
-  // SoundCloud fix above:
-  //
-  //   - https://open.spotify.com/search/<q> via Universal Links lands
-  //     on the Spotify app's BROWSE screen, ignoring the query — the
-  //     curator-reported pain point.
-  //   - The `spotify:search:<encoded query>` URI scheme (documented in
-  //     Spotify's content-linking guide) opens the in-app search with
-  //     the query pre-filled.
-  //
-  //   - On DESKTOP we keep returning null. An earlier attempt to emit
-  //     this URI on desktop caused tab reloads: ServiceLink's desktop
-  //     path navigates the current tab via `window.location.href`, and
-  //     desktop browsers handle unknown protocol handlers more
-  //     aggressively than iOS (sometimes prompting, sometimes briefly
-  //     navigating to an un-loadable state). The desktop search-URL
-  //     experience falls back to opening open.spotify.com/search in a
-  //     new tab — the curator confirmed that's acceptable.
-  //
-  // Empty queries return null so the click falls through to the
-  // anchor's plain target="_blank".
-  if (isMobile(platform)) {
-    const searchPath = u.pathname.match(
-      /(?:^|\/)(?:intl-[a-z-]+\/)?search(?:\/(.+))?/i,
-    );
-    if (searchPath) {
-      const fromPath = searchPath[1] ? decodeURIComponent(searchPath[1]) : "";
-      const fromQuery = u.searchParams.get("q") || "";
-      const q = (fromPath || fromQuery).trim();
-      if (!q) return null;
-      return `spotify:search:${encodeURIComponent(q)}`;
-    }
-  }
-
-  return null;
+  if (!m) return null;
+  return `spotify:${m[1].toLowerCase()}:${m[2]}`;
 }
 
 function appleAppUrl(u: URL, platform: Platform): string | null {
