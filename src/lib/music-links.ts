@@ -116,7 +116,7 @@ export function buildAppUrl(
 
   switch (service) {
     case "spotify":
-      return spotifyAppUrl(u);
+      return spotifyAppUrl(u, platform);
     case "apple":
       return appleAppUrl(u, platform);
     case "deezer":
@@ -141,30 +141,52 @@ export function buildAppUrl(
   }
 }
 
-function spotifyAppUrl(u: URL): string | null {
+function spotifyAppUrl(u: URL, platform: Platform): string | null {
   if (!/(^|\.)spotify\.com$/.test(u.hostname)) return null;
   // Match /album/ID, /track/ID, /playlist/ID, /artist/ID, /show/ID, /episode/ID.
   // Tolerate an optional /intl-xx/ region segment (open.spotify.com ships
-  // these for localised share URLs).
-  //
-  // We deliberately do NOT try to deep-link search URLs (/search/<query>).
-  // The `spotify:search:<query>` URI scheme is documented but its
-  // behaviour across desktop Spotify, Spotify mobile, and the various
-  // browser protocol-handler implementations is inconsistent: on some
-  // configurations the OS-level navigation (`window.location.href =
-  // "spotify:search:…"` in ServiceLink's desktop path) disrupts the
-  // current tab without ever reaching the Spotify app, which the user
-  // perceives as the site reloading. Search URLs fall through to the
-  // anchor's plain target="_blank" — open.spotify.com/search opens in
-  // a new tab, and on mobile Spotify Universal Links route the https
-  // URL to the installed app where supported. Same pattern as YouTube
-  // and Bandcamp, where we also rely on Universal Links rather than
-  // emitting a custom URI scheme.
+  // these for localised share URLs). These URIs work on all platforms
+  // when the Spotify app is installed.
   const m = u.pathname.match(
     /(?:^|\/)(?:intl-[a-z-]+\/)?(album|track|playlist|artist|show|episode)\/([A-Za-z0-9]+)/i,
   );
-  if (!m) return null;
-  return `spotify:${m[1].toLowerCase()}:${m[2]}`;
+  if (m) return `spotify:${m[1].toLowerCase()}:${m[2]}`;
+
+  // Search URLs (`/search/<query>`) — MOBILE ONLY. Same shape as the
+  // SoundCloud fix above:
+  //
+  //   - https://open.spotify.com/search/<q> via Universal Links lands
+  //     on the Spotify app's BROWSE screen, ignoring the query — the
+  //     curator-reported pain point.
+  //   - The `spotify:search:<encoded query>` URI scheme (documented in
+  //     Spotify's content-linking guide) opens the in-app search with
+  //     the query pre-filled.
+  //
+  //   - On DESKTOP we keep returning null. An earlier attempt to emit
+  //     this URI on desktop caused tab reloads: ServiceLink's desktop
+  //     path navigates the current tab via `window.location.href`, and
+  //     desktop browsers handle unknown protocol handlers more
+  //     aggressively than iOS (sometimes prompting, sometimes briefly
+  //     navigating to an un-loadable state). The desktop search-URL
+  //     experience falls back to opening open.spotify.com/search in a
+  //     new tab — the curator confirmed that's acceptable.
+  //
+  // Empty queries return null so the click falls through to the
+  // anchor's plain target="_blank".
+  if (isMobile(platform)) {
+    const searchPath = u.pathname.match(
+      /(?:^|\/)(?:intl-[a-z-]+\/)?search(?:\/(.+))?/i,
+    );
+    if (searchPath) {
+      const fromPath = searchPath[1] ? decodeURIComponent(searchPath[1]) : "";
+      const fromQuery = u.searchParams.get("q") || "";
+      const q = (fromPath || fromQuery).trim();
+      if (!q) return null;
+      return `spotify:search:${encodeURIComponent(q)}`;
+    }
+  }
+
+  return null;
 }
 
 function appleAppUrl(u: URL, platform: Platform): string | null {
