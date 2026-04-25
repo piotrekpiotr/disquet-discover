@@ -51,9 +51,9 @@
       "deezer": "https://www.deezer.com/album/948061621"
     },
     "embed": {
-      "provider": "deezer",
-      "src": "https://widget.deezer.com/widget/light/album/948061621",
-      "height": 300
+      "provider": "apple",
+      "src": "https://embed.music.apple.com/us/album/1888217647?theme=light",
+      "height": 450
     },
     "musicVideoUrl": null,
     "status": "pending",
@@ -161,6 +161,40 @@
     "status": "pending",
     "approvedAt": null,
     "coverImageUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/18/f7/ee/18f7ee40-b891-3d7f-e0b3-e4e2470cbdac/5056818808906.png/600x600bb.jpg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
+    "id": "visible-cloaks-paradessence",
+    "type": "album",
+    "artist": "Visible Cloaks",
+    "title": "Paradessence",
+    "label": "RVNG Intl.",
+    "releaseDate": "2026-05-22",
+    "description": "The Portland duo return to RVNG with another set of synthetic ambient assembled from MIDI, era textures and translation errors. Same patient, slightly uncanny register their listeners have come to expect from the label.",
+    "tags": [
+      "ambient"
+    ],
+    "links": {
+      "bandcamp": "https://visiblecloaks.bandcamp.com/album/paradessence",
+      "spotify": "https://open.spotify.com/search/Visible%20Cloaks%20Paradessence",
+      "soundcloud": "https://soundcloud.com/search?q=Visible%20Cloaks%20Paradessence",
+      "youtube": "https://www.youtube.com/results?search_query=Visible%20Cloaks%20Paradessence",
+      "apple": "https://music.apple.com/us/album/paradessence/1874379250"
+    },
+    "embed": {
+      "provider": "apple",
+      "src": "https://embed.music.apple.com/us/album/1874379250?theme=light",
+      "height": 450
+    },
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/80/8e/2a/808e2a0c-990e-03d0-8fb0-e468ddc74afb/62189.jpg/600x600bb.jpg",
     "cover": {
       "bg": "#111110",
       "fg": "#f2efe8",
@@ -728,9 +762,9 @@
       "deezer": "https://www.deezer.com/album/948026141"
     },
     "embed": {
-      "provider": "deezer",
-      "src": "https://widget.deezer.com/widget/light/album/948026141",
-      "height": 300
+      "provider": "apple",
+      "src": "https://embed.music.apple.com/us/album/1888198027?theme=light",
+      "height": 450
     },
     "musicVideoUrl": null,
     "status": "pending",
@@ -763,9 +797,9 @@
       "deezer": "https://www.deezer.com/album/947210921"
     },
     "embed": {
-      "provider": "deezer",
-      "src": "https://widget.deezer.com/widget/light/album/947210921",
-      "height": 300
+      "provider": "apple",
+      "src": "https://embed.music.apple.com/us/album/1886126271?theme=light",
+      "height": 450
     },
     "musicVideoUrl": null,
     "status": "pending",
@@ -810,7 +844,9 @@
       "fg": "#f2efe8",
       "motif": "disc"
     },
-    "pressMentions": []
+    "pressMentions": [
+      "ra"
+    ]
   },
   {
     "id": "tricky-out-of-place",
@@ -961,12 +997,13 @@
       "spotify": "https://open.spotify.com/search/Neil%20Young%20%26%20The%20Chrome%20Hearts%20As%20Time%20Explodes%20(Live%20Album)",
       "soundcloud": "https://soundcloud.com/search?q=Neil%20Young%20%26%20The%20Chrome%20Hearts%20As%20Time%20Explodes%20(Live%20Album)",
       "youtube": "https://www.youtube.com/results?search_query=Neil%20Young%20%26%20The%20Chrome%20Hearts%20As%20Time%20Explodes%20(Live%20Album)",
-      "deezer": "https://www.deezer.com/album/931149231"
+      "deezer": "https://www.deezer.com/album/931149231",
+      "apple": "https://music.apple.com/us/album/as-time-explodes-the-live-album/1881785625?uo=4"
     },
     "embed": {
-      "provider": "deezer",
-      "src": "https://widget.deezer.com/widget/light/album/931149231",
-      "height": 300
+      "provider": "apple",
+      "src": "https://embed.music.apple.com/us/album/1881785625?theme=light",
+      "height": 450
     },
     "musicVideoUrl": null,
     "status": "pending",
@@ -1325,9 +1362,9 @@
       "deezer": "https://www.deezer.com/album/958340611"
     },
     "embed": {
-      "provider": "deezer",
-      "src": "https://widget.deezer.com/widget/light/album/958340611",
-      "height": 300
+      "provider": "apple",
+      "src": "https://embed.music.apple.com/us/album/1889567505?theme=light",
+      "height": 450
     },
     "musicVideoUrl": null,
     "status": "pending",
@@ -1356,12 +1393,13 @@
       "spotify": "https://open.spotify.com/search/Jessie%20Ware%20Superbloom",
       "soundcloud": "https://soundcloud.com/search?q=Jessie%20Ware%20Superbloom",
       "youtube": "https://www.youtube.com/results?search_query=Jessie%20Ware%20Superbloom",
-      "deezer": "https://www.deezer.com/album/958349621"
+      "deezer": "https://www.deezer.com/album/958349621",
+      "apple": "https://music.apple.com/us/album/superbloom/1869414259?uo=4"
     },
     "embed": {
-      "provider": "deezer",
-      "src": "https://widget.deezer.com/widget/light/album/958349621",
-      "height": 300
+      "provider": "apple",
+      "src": "https://embed.music.apple.com/us/album/1869414259?theme=light",
+      "height": 450
     },
     "musicVideoUrl": null,
     "status": "pending",
@@ -1603,6 +1641,40 @@
     "pressMentions": []
   },
   {
+    "id": "synkro-look-at-yourself",
+    "type": "ep",
+    "artist": "Synkro",
+    "title": "Look At Yourself",
+    "label": "Synkro Musik",
+    "releaseDate": "2026-04-17",
+    "description": "Two tracks from Synkro on Mindset, splitting the difference between juke's footwork pulse and the more reflective end of his techno work. Cut at variable speeds, which tells you most of what you need to know about how it's meant to be played.",
+    "tags": [
+      "dance"
+    ],
+    "links": {
+      "bandcamp": "https://synkro.bandcamp.com/album/look-at-yourself",
+      "spotify": "https://open.spotify.com/search/Synkro%20Look%20At%20Yourself",
+      "soundcloud": "https://soundcloud.com/search?q=Synkro%20Look%20At%20Yourself",
+      "youtube": "https://www.youtube.com/results?search_query=Synkro%20Look%20At%20Yourself",
+      "apple": "https://music.apple.com/us/album/look-at-yourself-ep/1892430981"
+    },
+    "embed": {
+      "provider": "apple",
+      "src": "https://embed.music.apple.com/us/album/1892430981?theme=light",
+      "height": 450
+    },
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/ed/27/33/ed2733c2-f813-f74a-0dbc-806de198603e/cover.jpg/600x600bb.jpg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
     "id": "h-lls-lucy-park-guerillaz",
     "type": "single",
     "artist": "H.LLS & Lucy Park",
@@ -1622,9 +1694,9 @@
       "deezer": "https://www.deezer.com/album/944446641"
     },
     "embed": {
-      "provider": "deezer",
-      "src": "https://widget.deezer.com/widget/light/album/944446641",
-      "height": 300
+      "provider": "apple",
+      "src": "https://embed.music.apple.com/us/album/1886836559?theme=light",
+      "height": 450
     },
     "musicVideoUrl": null,
     "status": "pending",
@@ -2146,9 +2218,9 @@
       "deezer": "https://www.deezer.com/album/922656331"
     },
     "embed": {
-      "provider": "deezer",
-      "src": "https://widget.deezer.com/widget/light/album/922656331",
-      "height": 300
+      "provider": "apple",
+      "src": "https://embed.music.apple.com/us/album/1878350817?theme=light",
+      "height": 450
     },
     "musicVideoUrl": null,
     "status": "pending",
@@ -2181,9 +2253,9 @@
       "deezer": "https://www.deezer.com/album/920382971"
     },
     "embed": {
-      "provider": "deezer",
-      "src": "https://widget.deezer.com/widget/light/album/920382971",
-      "height": 300
+      "provider": "apple",
+      "src": "https://embed.music.apple.com/us/album/1867239458?theme=light",
+      "height": 450
     },
     "musicVideoUrl": null,
     "status": "pending",
@@ -2216,9 +2288,9 @@
       "deezer": "https://www.deezer.com/album/852539722"
     },
     "embed": {
-      "provider": "deezer",
-      "src": "https://widget.deezer.com/widget/light/album/852539722",
-      "height": 300
+      "provider": "apple",
+      "src": "https://embed.music.apple.com/us/album/1851567057?theme=light",
+      "height": 450
     },
     "musicVideoUrl": null,
     "status": "pending",
@@ -2251,9 +2323,9 @@
       "deezer": "https://www.deezer.com/album/951686571"
     },
     "embed": {
-      "provider": "deezer",
-      "src": "https://widget.deezer.com/widget/light/album/951686571",
-      "height": 300
+      "provider": "apple",
+      "src": "https://embed.music.apple.com/us/album/1889596654?theme=light",
+      "height": 450
     },
     "musicVideoUrl": null,
     "status": "pending",
@@ -2286,9 +2358,9 @@
       "deezer": "https://www.deezer.com/album/865303492"
     },
     "embed": {
-      "provider": "deezer",
-      "src": "https://widget.deezer.com/widget/light/album/865303492",
-      "height": 300
+      "provider": "apple",
+      "src": "https://embed.music.apple.com/us/album/1856659191?theme=light",
+      "height": 450
     },
     "musicVideoUrl": null,
     "status": "pending",
@@ -2445,12 +2517,13 @@
       "spotify": "https://open.spotify.com/search/k-lone%20parl%20cu%20me",
       "soundcloud": "https://soundcloud.com/search?q=k-lone%20parl%20cu%20me",
       "youtube": "https://www.youtube.com/results?search_query=k-lone%20parl%20cu%20me",
-      "deezer": "https://www.deezer.com/album/935571761"
+      "deezer": "https://www.deezer.com/album/935571761",
+      "apple": "https://music.apple.com/us/album/parl-cu-me-single/1883583770?uo=4"
     },
     "embed": {
-      "provider": "deezer",
-      "src": "https://widget.deezer.com/widget/light/album/935571761",
-      "height": 300
+      "provider": "apple",
+      "src": "https://embed.music.apple.com/us/album/1883583770?theme=light",
+      "height": 450
     },
     "musicVideoUrl": null,
     "status": "pending",
@@ -3352,7 +3425,10 @@
       "bg": "#111110",
       "fg": "#f2efe8",
       "motif": "disc"
-    }
+    },
+    "pressMentions": [
+      "ra"
+    ]
   },
   {
     "id": "adult-kissing-luck-goodbye",
@@ -3617,7 +3693,10 @@
       "bg": "#111110",
       "fg": "#f2efe8",
       "motif": "disc"
-    }
+    },
+    "pressMentions": [
+      "ra"
+    ]
   },
   {
     "id": "psychicthrob-bursting-dementia",
@@ -3733,12 +3812,13 @@
       "spotify": "https://open.spotify.com/search/Bonobo%20Black%20Sands",
       "soundcloud": "https://soundcloud.com/search?q=Bonobo%20Black%20Sands",
       "youtube": "https://www.youtube.com/results?search_query=Bonobo%20Black%20Sands",
-      "deezer": "https://www.deezer.com/album/935909"
+      "deezer": "https://www.deezer.com/album/935909",
+      "apple": "https://music.apple.com/us/album/black-sands-remixed-bonus-track-version/495911812?uo=4"
     },
     "embed": {
-      "provider": "deezer",
-      "src": "https://widget.deezer.com/widget/light/album/935909",
-      "height": 300
+      "provider": "apple",
+      "src": "https://embed.music.apple.com/us/album/495911812?theme=light",
+      "height": 450
     },
     "musicVideoUrl": null,
     "status": "pending",
@@ -4052,7 +4132,7 @@
     "title": "Rust",
     "label": "Young And Cold Records",
     "releaseDate": "2026-03-15",
-    "description": "Another album from Darkways, again through Young And Cold Records. Electronic territory. Placeholder copy for the admin preview.",
+    "description": "Ten tracks of post, punk leaning into goth rock and darkwave, due on Young And Cold next March. Cold guitars and drum, machine drive in the lineage the label has been quietly reinforcing for years.",
     "tags": [
       "electronic"
     ],
@@ -4076,8 +4156,7 @@
       "bg": "#111110",
       "fg": "#f2efe8",
       "motif": "disc"
-    },
-    "descriptionPreview": true
+    }
   },
   {
     "id": "nala-sinephro-the-smashing-machine",
@@ -4086,7 +4165,7 @@
     "title": "The Smashing Machine",
     "label": "Warp Records",
     "releaseDate": "2026-03-13",
-    "description": "Nala Sinephro's latest album on Warp Records occupies the stage & screen space. Editorial copy still in draft.",
+    "description": "Sinephro scores Benny Safdie's wrestling drama for Warp, eight pieces extending the harp, and, modular calm of Endlessness into picture work. The pedal, steel ambient crowd will follow her here without complaint.",
     "tags": [
       "stage & screen"
     ],
@@ -4110,8 +4189,7 @@
       "bg": "#111110",
       "fg": "#f2efe8",
       "motif": "disc"
-    },
-    "descriptionPreview": true
+    }
   },
   {
     "id": "paperclip-minimiser-ii",
@@ -4120,7 +4198,7 @@
     "title": "II",
     "label": "Peak Oil",
     "releaseDate": "2026-03-13",
-    "description": "New album from Paperclip Minimiser, out on Peak Oil. Sits in the electronic corner. Preview description pending editorial review.",
+    "description": "Seven tracks of abstracted IDM and ambient drift on Peak Oil, the LA imprint quietly building a catalogue of after, hours electronics. Sits comfortably alongside Pendant or Topdown Dialectic if you need a shelving cue.",
     "tags": [
       "electronic"
     ],
@@ -4144,8 +4222,7 @@
       "bg": "#111110",
       "fg": "#f2efe8",
       "motif": "disc"
-    },
-    "descriptionPreview": true
+    }
   },
   {
     "id": "cut-worms-transmitter",
@@ -4154,7 +4231,7 @@
     "title": "Transmitter",
     "label": "Jagjaguwar",
     "releaseDate": "2026-03-13",
-    "description": "New album from Cut Worms, out on Jagjaguwar. Sits in the rock corner. Preview description pending editorial review.",
+    "description": "Max Clarke's Cut Worms project lands on Jagjaguwar with ten more songs in his AM, radio, Everly, leaning songbook mode. Limited LP pressing for those filing alongside Andy Shauf or Hamilton Leithauser.",
     "tags": [
       "rock"
     ],
@@ -4178,8 +4255,7 @@
       "bg": "#111110",
       "fg": "#f2efe8",
       "motif": "disc"
-    },
-    "descriptionPreview": true
+    }
   },
   {
     "id": "peter-gabriel-in-the-big-room",
@@ -4188,7 +4264,7 @@
     "title": "In The Big Room",
     "label": "Real World Records",
     "releaseDate": "2026-03-13",
-    "description": "",
+    "description": "Fourteen tracks of Gabriel on his own Real World imprint, sitting where his art, rock instincts have always sat: ornate, studio, deep, occasionally brushing against downtempo electronics. For listeners who still reach for Up more than So.",
     "tags": [
       "rock"
     ],
@@ -4221,7 +4297,7 @@
     "title": "World Of Trance 20 (Extended Mixes)",
     "label": "ZYX Music",
     "releaseDate": "2026-03-13",
-    "description": "",
+    "description": "Talla 2XLC's long, running uplifting, trance compendium reaches its twentieth installment on ZYX, this time in extended, mix form across eight tracks. Strictly for the hands, in, the, air faithful; shelve next to your Armada and Black Hole stacks.",
     "tags": [
       "electronic"
     ],
@@ -4250,7 +4326,7 @@
     "title": "In A Space Outta Dub",
     "label": "Warp Records",
     "releaseDate": "2026-03-12",
-    "description": "Nightmares On Wax vs Adrian Sherwood's latest album on Warp Records occupies the electronic space. Editorial copy still in draft.",
+    "description": "Sherwood takes the controls to Nightmares On Wax material, running the downtempo catalogue through On, U Sound's mixing, desk physics. Warp leaning into its trip hop lineage, with the dub engineer who actually built that sound at the faders.",
     "tags": [
       "electronic"
     ],
@@ -4274,8 +4350,7 @@
       "bg": "#111110",
       "fg": "#f2efe8",
       "motif": "disc"
-    },
-    "descriptionPreview": true
+    }
   },
   {
     "id": "past-self-2-die-cry-hate",
@@ -4284,7 +4359,7 @@
     "title": "Die Cry Hate",
     "label": "Young And Cold Records",
     "releaseDate": "2026-03-10",
-    "description": "Another EP from Past Self (2), again through Young And Cold Records. Electronic territory. Placeholder copy for the admin preview.",
+    "description": "Seven tracks of darkwave and goth, leaning post, punk reissued through Young And Cold, the Augsburg label that has been quietly mapping this corner of the synth, pop continuum for years. For shelves where Lebanon Hanover already lives.",
     "tags": [
       "electronic"
     ],
@@ -4308,8 +4383,7 @@
       "bg": "#111110",
       "fg": "#f2efe8",
       "motif": "disc"
-    },
-    "descriptionPreview": true
+    }
   },
   {
     "id": "glob-deejay-glob",
@@ -4318,7 +4392,7 @@
     "title": "glob",
     "label": "NAFF",
     "releaseDate": "2026-03-10",
-    "description": "glob deejay's latest EP on NAFF occupies the electronic space. Editorial copy still in draft.",
+    "description": "Five tracks of microhouse threaded with dub techno haze on NAFF, the kind of record that rewards a louder system than you think it needs. For anyone keeping tabs on the label's quieter end.",
     "tags": [
       "electronic"
     ],
@@ -4342,8 +4416,7 @@
       "bg": "#111110",
       "fg": "#f2efe8",
       "motif": "disc"
-    },
-    "descriptionPreview": true
+    }
   },
   {
     "id": "innis-chonnel-loris-s-sarid-looking-for-mount-sylvan",
@@ -4352,7 +4425,7 @@
     "title": "Looking For Mount Sylvan",
     "label": "12th Isle",
     "releaseDate": "2026-03-10",
-    "description": "Album by Innis Chonnel & Loris S. Sarid on 12th Isle. Filed under electronic. Holding slot for the real description.",
+    "description": "A collaborative LP for 12th Isle, eight tracks of pastoral ambient and downtempo drift in keeping with Sarid's gentler new, age leanings and the label's wider Glasgow, via, elsewhere catalogue. For anyone who reaches for Ulla when the weather turns.",
     "tags": [
       "electronic"
     ],
@@ -4376,8 +4449,7 @@
       "bg": "#111110",
       "fg": "#f2efe8",
       "motif": "disc"
-    },
-    "descriptionPreview": true
+    }
   },
   {
     "id": "eye-22-sabine",
@@ -4386,7 +4458,7 @@
     "title": "Sabine",
     "label": "Knekelhuis",
     "releaseDate": "2026-03-06",
-    "description": "Knekelhuis issues album from Eye (22). Tagged electronic. Preview text only.",
+    "description": "Knekelhuis pulls Eye's Sabine back into print, eight tracks of cold synth, pop tilting into minimal techno that fit the label's ongoing excavation of post, punk era electronics. Remastered for this repress; sits comfortably next to Mark Du Mosch.",
     "tags": [
       "electronic"
     ],
@@ -4410,8 +4482,7 @@
       "bg": "#111110",
       "fg": "#f2efe8",
       "motif": "disc"
-    },
-    "descriptionPreview": true
+    }
   },
   {
     "id": "flying-lotus-big-mama",
@@ -4420,7 +4491,7 @@
     "title": "Big Mama",
     "label": "Brainfeeder",
     "releaseDate": "2026-03-06",
-    "description": "Single by Flying Lotus on Brainfeeder. Filed under electronic. Holding slot for the real description.",
+    "description": "Ellison back on his own label with a single, sided 12\", seven sketches that read more like a notebook dump than a proper EP: abstract beat work shaded with future, jazz harmony and the occasional chiptune squelch. Brainfeeder housekeeping, but the good kind.",
     "tags": [
       "electronic"
     ],
@@ -4429,12 +4500,13 @@
       "spotify": "https://open.spotify.com/search/Flying%20Lotus%20Big%20Mama",
       "soundcloud": "https://soundcloud.com/search?q=Flying%20Lotus%20Big%20Mama",
       "youtube": "https://www.youtube.com/results?search_query=Flying%20Lotus%20Big%20Mama",
-      "deezer": "https://www.deezer.com/album/930895581"
+      "deezer": "https://www.deezer.com/album/930895581",
+      "apple": "https://music.apple.com/us/album/big-mama/1868763221?uo=4"
     },
     "embed": {
-      "provider": "deezer",
-      "src": "https://widget.deezer.com/widget/light/album/930895581",
-      "height": 300
+      "provider": "apple",
+      "src": "https://embed.music.apple.com/us/album/1868763221?theme=light",
+      "height": 450
     },
     "musicVideoUrl": null,
     "status": "pending",
@@ -4444,8 +4516,7 @@
       "bg": "#111110",
       "fg": "#f2efe8",
       "motif": "disc"
-    },
-    "descriptionPreview": true
+    }
   },
   {
     "id": "mj-guider-another-weird-dream",
@@ -4454,7 +4525,7 @@
     "title": "Another/Weird Dream",
     "label": "Modern Love",
     "releaseDate": "2026-03-06",
-    "description": "MJ Guider drops a single on Modern Love, leaning electronic. Description still in the queue.",
+    "description": "A two, track 7\" from MJ Guider on Modern Love, the New Orleans producer's blurred shoegaze, into, dub register pressed to its smallest possible format. Sits comfortably next to Grouper on the shelf.",
     "tags": [
       "electronic"
     ],
@@ -4473,8 +4544,7 @@
       "bg": "#111110",
       "fg": "#f2efe8",
       "motif": "disc"
-    },
-    "descriptionPreview": true
+    }
   },
   {
     "id": "celliacus-celliacus",
@@ -4819,12 +4889,13 @@
       "spotify": "https://open.spotify.com/search/Past%20Self%20(2)%20Premonitions",
       "soundcloud": "https://soundcloud.com/search?q=Past%20Self%20(2)%20Premonitions",
       "youtube": "https://www.youtube.com/results?search_query=Past%20Self%20(2)%20Premonitions",
-      "deezer": "https://www.deezer.com/album/665121701"
+      "deezer": "https://www.deezer.com/album/665121701",
+      "apple": "https://music.apple.com/us/album/premonitions-ep-ep/1777774439?uo=4"
     },
     "embed": {
-      "provider": "deezer",
-      "src": "https://widget.deezer.com/widget/light/album/665121701",
-      "height": 300
+      "provider": "apple",
+      "src": "https://embed.music.apple.com/us/album/1777774439?theme=light",
+      "height": 450
     },
     "musicVideoUrl": null,
     "status": "pending",
@@ -4853,12 +4924,13 @@
       "spotify": "https://open.spotify.com/search/Death%20Of%20Lovers%20The%20Acrobat",
       "soundcloud": "https://soundcloud.com/search?q=Death%20Of%20Lovers%20The%20Acrobat",
       "youtube": "https://www.youtube.com/results?search_query=Death%20Of%20Lovers%20The%20Acrobat",
-      "deezer": "https://www.deezer.com/album/104501232"
+      "deezer": "https://www.deezer.com/album/104501232",
+      "apple": "https://music.apple.com/us/album/the-acrobat/1473812901?uo=4"
     },
     "embed": {
-      "provider": "deezer",
-      "src": "https://widget.deezer.com/widget/light/album/104501232",
-      "height": 300
+      "provider": "apple",
+      "src": "https://embed.music.apple.com/us/album/1473812901?theme=light",
+      "height": 450
     },
     "musicVideoUrl": null,
     "status": "pending",
@@ -4984,12 +5056,13 @@
       "spotify": "https://open.spotify.com/search/Passarani%20Analog%20Fingerprints%20Vol.%200",
       "soundcloud": "https://soundcloud.com/search?q=Passarani%20Analog%20Fingerprints%20Vol.%200",
       "youtube": "https://www.youtube.com/results?search_query=Passarani%20Analog%20Fingerprints%20Vol.%200",
-      "deezer": "https://www.deezer.com/album/945518351"
+      "deezer": "https://www.deezer.com/album/945518351",
+      "apple": "https://music.apple.com/us/album/analog-fingerprints-vol-0/1879512117?uo=4"
     },
     "embed": {
-      "provider": "deezer",
-      "src": "https://widget.deezer.com/widget/light/album/945518351",
-      "height": 300
+      "provider": "apple",
+      "src": "https://embed.music.apple.com/us/album/1879512117?theme=light",
+      "height": 450
     },
     "musicVideoUrl": null,
     "status": "pending",
@@ -5283,12 +5356,13 @@
       "spotify": "https://open.spotify.com/search/Kassel%20Jaeger%20%26%20Stephan%20Mathieu%20%26%20Akira%20Rabelais%20Zauberberg",
       "soundcloud": "https://soundcloud.com/search?q=Kassel%20Jaeger%20%26%20Stephan%20Mathieu%20%26%20Akira%20Rabelais%20Zauberberg",
       "youtube": "https://www.youtube.com/results?search_query=Kassel%20Jaeger%20%26%20Stephan%20Mathieu%20%26%20Akira%20Rabelais%20Zauberberg",
-      "deezer": "https://www.deezer.com/album/951646001"
+      "deezer": "https://www.deezer.com/album/951646001",
+      "apple": "https://music.apple.com/us/album/zauberberg/1868396997?uo=4"
     },
     "embed": {
-      "provider": "deezer",
-      "src": "https://widget.deezer.com/widget/light/album/951646001",
-      "height": 300
+      "provider": "apple",
+      "src": "https://embed.music.apple.com/us/album/1868396997?theme=light",
+      "height": 450
     },
     "musicVideoUrl": null,
     "status": "pending",
@@ -5446,12 +5520,13 @@
       "spotify": "https://open.spotify.com/search/Chantal%20Michelle%20All%20Things%20Might%20Spill",
       "soundcloud": "https://soundcloud.com/search?q=Chantal%20Michelle%20All%20Things%20Might%20Spill",
       "youtube": "https://www.youtube.com/results?search_query=Chantal%20Michelle%20All%20Things%20Might%20Spill",
-      "deezer": "https://www.deezer.com/album/849605562"
+      "deezer": "https://www.deezer.com/album/849605562",
+      "apple": "https://music.apple.com/us/album/all-things-might-spill/1850494273?uo=4"
     },
     "embed": {
-      "provider": "deezer",
-      "src": "https://widget.deezer.com/widget/light/album/849605562",
-      "height": 300
+      "provider": "apple",
+      "src": "https://embed.music.apple.com/us/album/1850494273?theme=light",
+      "height": 450
     },
     "musicVideoUrl": null,
     "status": "pending",
@@ -5480,12 +5555,13 @@
       "spotify": "https://open.spotify.com/search/TOPS%20(3)%20I%20Feel%20Alive",
       "soundcloud": "https://soundcloud.com/search?q=TOPS%20(3)%20I%20Feel%20Alive",
       "youtube": "https://www.youtube.com/results?search_query=TOPS%20(3)%20I%20Feel%20Alive",
-      "deezer": "https://www.deezer.com/album/771622831"
+      "deezer": "https://www.deezer.com/album/771622831",
+      "apple": "https://music.apple.com/us/album/i-feel-alive/1820216359?uo=4"
     },
     "embed": {
-      "provider": "deezer",
-      "src": "https://widget.deezer.com/widget/light/album/771622831",
-      "height": 300
+      "provider": "apple",
+      "src": "https://embed.music.apple.com/us/album/1820216359?theme=light",
+      "height": 450
     },
     "musicVideoUrl": null,
     "status": "pending",
@@ -6136,12 +6212,13 @@
       "spotify": "https://open.spotify.com/search/Maara%20(2)%20Ultra%20Villain",
       "soundcloud": "https://soundcloud.com/search?q=Maara%20(2)%20Ultra%20Villain",
       "youtube": "https://www.youtube.com/results?search_query=Maara%20(2)%20Ultra%20Villain",
-      "deezer": "https://www.deezer.com/album/876271732"
+      "deezer": "https://www.deezer.com/album/876271732",
+      "apple": "https://music.apple.com/us/album/the-chase-ultra-villain-single/1853101402?uo=4"
     },
     "embed": {
-      "provider": "deezer",
-      "src": "https://widget.deezer.com/widget/light/album/876271732",
-      "height": 300
+      "provider": "apple",
+      "src": "https://embed.music.apple.com/us/album/1853101402?theme=light",
+      "height": 450
     },
     "musicVideoUrl": null,
     "status": "pending",
@@ -6170,12 +6247,13 @@
       "spotify": "https://open.spotify.com/search/The%20Gamits%20In%20The%20Red",
       "soundcloud": "https://soundcloud.com/search?q=The%20Gamits%20In%20The%20Red",
       "youtube": "https://www.youtube.com/results?search_query=The%20Gamits%20In%20The%20Red",
-      "deezer": "https://www.deezer.com/album/700207061"
+      "deezer": "https://www.deezer.com/album/700207061",
+      "apple": "https://music.apple.com/us/album/in-the-red-single/1791471460?uo=4"
     },
     "embed": {
-      "provider": "deezer",
-      "src": "https://widget.deezer.com/widget/light/album/700207061",
-      "height": 300
+      "provider": "apple",
+      "src": "https://embed.music.apple.com/us/album/1791471460?theme=light",
+      "height": 450
     },
     "musicVideoUrl": null,
     "status": "pending",
@@ -6470,12 +6548,13 @@
       "spotify": "https://open.spotify.com/search/Michel%20Banabila%20Through%20Global%20Frequency",
       "soundcloud": "https://soundcloud.com/search?q=Michel%20Banabila%20Through%20Global%20Frequency",
       "youtube": "https://www.youtube.com/results?search_query=Michel%20Banabila%20Through%20Global%20Frequency",
-      "deezer": "https://www.deezer.com/album/787830691"
+      "deezer": "https://www.deezer.com/album/787830691",
+      "apple": "https://music.apple.com/us/album/through-global-frequency/1826540961?uo=4"
     },
     "embed": {
-      "provider": "deezer",
-      "src": "https://widget.deezer.com/widget/light/album/787830691",
-      "height": 300
+      "provider": "apple",
+      "src": "https://embed.music.apple.com/us/album/1826540961?theme=light",
+      "height": 450
     },
     "musicVideoUrl": null,
     "status": "pending",
@@ -6504,12 +6583,13 @@
       "spotify": "https://open.spotify.com/search/Takeo.K%20Home%20Is%20Everywhere%20and%20Nowhere%20at%20Once",
       "soundcloud": "https://soundcloud.com/search?q=Takeo.K%20Home%20Is%20Everywhere%20and%20Nowhere%20at%20Once",
       "youtube": "https://www.youtube.com/results?search_query=Takeo.K%20Home%20Is%20Everywhere%20and%20Nowhere%20at%20Once",
-      "deezer": "https://www.deezer.com/album/891136912"
+      "deezer": "https://www.deezer.com/album/891136912",
+      "apple": "https://music.apple.com/us/album/home-is-everywhere-and-nowhere-at-once/1866349308?uo=4"
     },
     "embed": {
-      "provider": "deezer",
-      "src": "https://widget.deezer.com/widget/light/album/891136912",
-      "height": 300
+      "provider": "apple",
+      "src": "https://embed.music.apple.com/us/album/1866349308?theme=light",
+      "height": 450
     },
     "musicVideoUrl": null,
     "status": "pending",
@@ -6553,7 +6633,10 @@
       "bg": "#111110",
       "fg": "#f2efe8",
       "motif": "disc"
-    }
+    },
+    "pressMentions": [
+      "ra"
+    ]
   },
   {
     "id": "bon-iver-naeem-can-t-you-hear-crying-live-from-la-prima-estate-festival-lido-di-",
@@ -6778,6 +6861,35 @@
     "status": "pending",
     "approvedAt": null,
     "coverImageUrl": "https://i.discogs.com/I-AMoWpKMAQvX3ABe-yhAbZg3vWttvRx72WU-c2Lo8Q/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM2NDU4/MTkwLTE3NzA2ODAw/ODItMjU5MC5qcGVn.jpeg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
+    "id": "peter-gabriel-been-undone-full-moon-version",
+    "type": "single",
+    "artist": "Peter Gabriel",
+    "title": "Been Undone (Full Moon Version)",
+    "label": "Real World Records",
+    "releaseDate": "2026-01-26",
+    "description": "",
+    "tags": [
+      "electronic"
+    ],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=Peter%20Gabriel%20Been%20Undone%20(Full%20Moon%20Version)&item_type=a",
+      "spotify": "https://open.spotify.com/search/Peter%20Gabriel%20Been%20Undone%20(Full%20Moon%20Version)",
+      "soundcloud": "https://soundcloud.com/search?q=Peter%20Gabriel%20Been%20Undone%20(Full%20Moon%20Version)",
+      "youtube": "https://www.youtube.com/results?search_query=Peter%20Gabriel%20Been%20Undone%20(Full%20Moon%20Version)"
+    },
+    "embed": null,
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://i.discogs.com/UegEPq5dTohBogrm18m56zQ8VXMFP0YnRaOiJBHLR2I/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM2MzI1/OTE1LTE3Njk0NTk2/NjItNjY1MS5qcGVn.jpeg",
     "cover": {
       "bg": "#111110",
       "fg": "#f2efe8",
@@ -7557,12 +7669,13 @@
       "spotify": "https://open.spotify.com/search/Trauma%20Ray%20Carnival",
       "soundcloud": "https://soundcloud.com/search?q=Trauma%20Ray%20Carnival",
       "youtube": "https://www.youtube.com/results?search_query=Trauma%20Ray%20Carnival",
-      "deezer": "https://www.deezer.com/album/845481262"
+      "deezer": "https://www.deezer.com/album/845481262",
+      "apple": "https://music.apple.com/us/album/carnival-ep/1849010586?uo=4"
     },
     "embed": {
-      "provider": "deezer",
-      "src": "https://widget.deezer.com/widget/light/album/845481262",
-      "height": 300
+      "provider": "apple",
+      "src": "https://embed.music.apple.com/us/album/1849010586?theme=light",
+      "height": 450
     },
     "musicVideoUrl": null,
     "status": "pending",
@@ -7692,12 +7805,13 @@
       "spotify": "https://open.spotify.com/search/Soul%20Blind%20Feel%20It%20All%20Around",
       "soundcloud": "https://soundcloud.com/search?q=Soul%20Blind%20Feel%20It%20All%20Around",
       "youtube": "https://www.youtube.com/results?search_query=Soul%20Blind%20Feel%20It%20All%20Around",
-      "deezer": "https://www.deezer.com/album/329356037"
+      "deezer": "https://www.deezer.com/album/329356037",
+      "apple": "https://music.apple.com/us/album/feel-it-all-around/1631021988?uo=4"
     },
     "embed": {
-      "provider": "deezer",
-      "src": "https://widget.deezer.com/widget/light/album/329356037",
-      "height": 300
+      "provider": "apple",
+      "src": "https://embed.music.apple.com/us/album/1631021988?theme=light",
+      "height": 450
     },
     "musicVideoUrl": null,
     "status": "pending",
@@ -7915,12 +8029,13 @@
       "spotify": "https://open.spotify.com/search/Black%20Heat%20No%20Time%20To%20Burn",
       "soundcloud": "https://soundcloud.com/search?q=Black%20Heat%20No%20Time%20To%20Burn",
       "youtube": "https://www.youtube.com/results?search_query=Black%20Heat%20No%20Time%20To%20Burn",
-      "deezer": "https://www.deezer.com/album/344894"
+      "deezer": "https://www.deezer.com/album/344894",
+      "apple": "https://music.apple.com/us/album/no-time-to-burn/276974821?uo=4"
     },
     "embed": {
-      "provider": "deezer",
-      "src": "https://widget.deezer.com/widget/light/album/344894",
-      "height": 300
+      "provider": "apple",
+      "src": "https://embed.music.apple.com/us/album/276974821?theme=light",
+      "height": 450
     },
     "musicVideoUrl": null,
     "status": "pending",
@@ -8170,12 +8285,13 @@
       "spotify": "https://open.spotify.com/search/Youth%20Of%20Today%20Break%20Down%20The%20Walls",
       "soundcloud": "https://soundcloud.com/search?q=Youth%20Of%20Today%20Break%20Down%20The%20Walls",
       "youtube": "https://www.youtube.com/results?search_query=Youth%20Of%20Today%20Break%20Down%20The%20Walls",
-      "deezer": "https://www.deezer.com/album/1154778"
+      "deezer": "https://www.deezer.com/album/1154778",
+      "apple": "https://music.apple.com/us/album/start-whenever-were-not-in-this-to-break-down-the-walls-alone/292566847?uo=4"
     },
     "embed": {
-      "provider": "deezer",
-      "src": "https://widget.deezer.com/widget/light/album/1154778",
-      "height": 300
+      "provider": "apple",
+      "src": "https://embed.music.apple.com/us/album/292566847?theme=light",
+      "height": 450
     },
     "musicVideoUrl": null,
     "status": "pending",
@@ -8204,12 +8320,13 @@
       "spotify": "https://open.spotify.com/search/Bonobo%20The%20North%20Borders",
       "soundcloud": "https://soundcloud.com/search?q=Bonobo%20The%20North%20Borders",
       "youtube": "https://www.youtube.com/results?search_query=Bonobo%20The%20North%20Borders",
-      "deezer": "https://www.deezer.com/album/6367728"
+      "deezer": "https://www.deezer.com/album/6367728",
+      "apple": "https://music.apple.com/us/album/the-north-borders-tour-live/911410971?uo=4"
     },
     "embed": {
-      "provider": "deezer",
-      "src": "https://widget.deezer.com/widget/light/album/6367728",
-      "height": 300
+      "provider": "apple",
+      "src": "https://embed.music.apple.com/us/album/911410971?theme=light",
+      "height": 450
     },
     "musicVideoUrl": null,
     "status": "pending",
@@ -8238,12 +8355,13 @@
       "spotify": "https://open.spotify.com/search/1000%20Rabbits%20Virgin%20Soil",
       "soundcloud": "https://soundcloud.com/search?q=1000%20Rabbits%20Virgin%20Soil",
       "youtube": "https://www.youtube.com/results?search_query=1000%20Rabbits%20Virgin%20Soil",
-      "deezer": "https://www.deezer.com/album/905161002"
+      "deezer": "https://www.deezer.com/album/905161002",
+      "apple": "https://music.apple.com/us/album/virgin-soil-single/1869639680?uo=4"
     },
     "embed": {
-      "provider": "deezer",
-      "src": "https://widget.deezer.com/widget/light/album/905161002",
-      "height": 300
+      "provider": "apple",
+      "src": "https://embed.music.apple.com/us/album/1869639680?theme=light",
+      "height": 450
     },
     "musicVideoUrl": null,
     "status": "pending",
@@ -8272,12 +8390,13 @@
       "spotify": "https://open.spotify.com/search/Nala%20Sinephro%20Space%201.8",
       "soundcloud": "https://soundcloud.com/search?q=Nala%20Sinephro%20Space%201.8",
       "youtube": "https://www.youtube.com/results?search_query=Nala%20Sinephro%20Space%201.8",
-      "deezer": "https://www.deezer.com/album/254771042"
+      "deezer": "https://www.deezer.com/album/254771042",
+      "apple": "https://music.apple.com/us/album/space-1-8/1576882000?uo=4"
     },
     "embed": {
-      "provider": "deezer",
-      "src": "https://widget.deezer.com/widget/light/album/254771042",
-      "height": 300
+      "provider": "apple",
+      "src": "https://embed.music.apple.com/us/album/1576882000?theme=light",
+      "height": 450
     },
     "musicVideoUrl": null,
     "status": "pending",
@@ -8312,6 +8431,35 @@
     "status": "pending",
     "approvedAt": null,
     "coverImageUrl": "https://i.discogs.com/TBnWBycmg9W9hF73cp-8g-OqI6LtH4_MYSDFif_NbKA/rs:fit/g:sm/q:90/h:450/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM2OTAz/Nzg2LTE3NzQ3MDUw/MDEtMjQzNC5qcGVn.jpeg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
+    "id": "junior-reid-wrap-up-a-draw",
+    "type": "single",
+    "artist": "Junior Reid",
+    "title": "Wrap Up A Draw",
+    "label": "Youth Promotion",
+    "releaseDate": "2026-01-01",
+    "description": "",
+    "tags": [
+      "reggae"
+    ],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=Junior%20Reid%20Wrap%20Up%20A%20Draw&item_type=a",
+      "spotify": "https://open.spotify.com/search/Junior%20Reid%20Wrap%20Up%20A%20Draw",
+      "soundcloud": "https://soundcloud.com/search?q=Junior%20Reid%20Wrap%20Up%20A%20Draw",
+      "youtube": "https://www.youtube.com/results?search_query=Junior%20Reid%20Wrap%20Up%20A%20Draw"
+    },
+    "embed": null,
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://i.discogs.com/SmM71qkEoalq4UIid47YZQcWDrHFezBuljyXT8w-zTg/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM3MTY4/NDE5LTE3NzcxMDUw/NjQtMjIyNC5qcGVn.jpeg",
     "cover": {
       "bg": "#111110",
       "fg": "#f2efe8",
@@ -8369,12 +8517,13 @@
       "spotify": "https://open.spotify.com/search/Blue%20Magic%20Blue%20Magic",
       "soundcloud": "https://soundcloud.com/search?q=Blue%20Magic%20Blue%20Magic",
       "youtube": "https://www.youtube.com/results?search_query=Blue%20Magic%20Blue%20Magic",
-      "deezer": "https://www.deezer.com/album/90687"
+      "deezer": "https://www.deezer.com/album/90687",
+      "apple": "https://music.apple.com/us/album/soulful-spell-the-best-of-blue-magic/68113667?uo=4"
     },
     "embed": {
-      "provider": "deezer",
-      "src": "https://widget.deezer.com/widget/light/album/90687",
-      "height": 300
+      "provider": "apple",
+      "src": "https://embed.music.apple.com/us/album/68113667?theme=light",
+      "height": 450
     },
     "musicVideoUrl": null,
     "status": "pending",
@@ -8863,12 +9012,13 @@
       "spotify": "https://open.spotify.com/search/Department%20(7)%20Department",
       "soundcloud": "https://soundcloud.com/search?q=Department%20(7)%20Department",
       "youtube": "https://www.youtube.com/results?search_query=Department%20(7)%20Department",
-      "deezer": "https://www.deezer.com/album/627204171"
+      "deezer": "https://www.deezer.com/album/627204171",
+      "apple": "https://music.apple.com/us/album/department-feat-staev-ep/1853658905?uo=4"
     },
     "embed": {
-      "provider": "deezer",
-      "src": "https://widget.deezer.com/widget/light/album/627204171",
-      "height": 300
+      "provider": "apple",
+      "src": "https://embed.music.apple.com/us/album/1853658905?theme=light",
+      "height": 450
     },
     "musicVideoUrl": null,
     "status": "pending",
@@ -9831,7 +9981,10 @@
       "bg": "#111110",
       "fg": "#f2efe8",
       "motif": "disc"
-    }
+    },
+    "pressMentions": [
+      "ra"
+    ]
   },
   {
     "id": "fabiano-do-nascimento-cavejaz",
@@ -10261,7 +10414,10 @@
       "fg": "#f2efe8",
       "motif": "disc"
     },
-    "descriptionPreview": true
+    "descriptionPreview": true,
+    "pressMentions": [
+      "ra"
+    ]
   },
   {
     "id": "klawo-peko-mi-y-atz-odme-osaka-cuts",
@@ -10362,7 +10518,10 @@
       "bg": "#111110",
       "fg": "#f2efe8",
       "motif": "disc"
-    }
+    },
+    "pressMentions": [
+      "ra"
+    ]
   },
   {
     "id": "jjjjjerome-ellis-vesper-sparrow",
@@ -25806,7 +25965,9 @@
       "fg": "#f2efe8",
       "motif": "disc"
     },
-    "pressMentions": []
+    "pressMentions": [
+      "ra"
+    ]
   },
   {
     "id": "modern-love-story-housearrest",
@@ -32722,7 +32883,9 @@
       "fg": "#f2efe8",
       "motif": "disc"
     },
-    "pressMentions": []
+    "pressMentions": [
+      "ra"
+    ]
   },
   {
     "id": "lakker-pathway",
