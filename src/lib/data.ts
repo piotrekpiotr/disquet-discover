@@ -4,23 +4,55 @@ import type { Recommendation, Status } from "./types";
 
 const DATA_FILE = path.join(process.cwd(), "data", "recommendations.json");
 
-let cache: Recommendation[] | null = null;
+// In-memory cache keyed by the file's last-modified timestamp. When the
+// disk file is mutated by something OUTSIDE this process — git pull,
+// scripted backfill, hand-edit, the daily-generate workflow committing
+// a fresh batch — the cached `items` go stale. Old behaviour was a
+// permanent module-level variable that only invalidated on `persist()`,
+// which silently served stale data to readers (the public feed
+// rendered without records the curator could clearly see were
+// approved). Stat-on-read is cheap (~tens of microseconds) and lets
+// the cache survive only as long as it's actually correct.
+let cache: { items: Recommendation[]; mtimeMs: number } | null = null;
 let writeQueue: Promise<void> = Promise.resolve();
 
 async function loadAll(): Promise<Recommendation[]> {
-  if (cache) return cache;
+  // Stat first to learn whether the cache is still good. If the file
+  // doesn't exist (first-run, weird CWD) we re-read, which will
+  // surface the underlying error to the caller.
+  let mtimeMs: number;
+  try {
+    const stat = await fs.stat(DATA_FILE);
+    mtimeMs = stat.mtimeMs;
+  } catch {
+    cache = null;
+    const raw = await fs.readFile(DATA_FILE, "utf-8");
+    return JSON.parse(raw) as Recommendation[];
+  }
+  if (cache && cache.mtimeMs === mtimeMs) return cache.items;
   const raw = await fs.readFile(DATA_FILE, "utf-8");
-  cache = JSON.parse(raw) as Recommendation[];
-  return cache;
+  const items = JSON.parse(raw) as Recommendation[];
+  cache = { items, mtimeMs };
+  return items;
 }
 
 async function persist(items: Recommendation[]): Promise<void> {
-  cache = items;
   // Serialize writes to avoid concurrent file corruption
   writeQueue = writeQueue.then(() =>
     fs.writeFile(DATA_FILE, JSON.stringify(items, null, 2), "utf-8"),
   );
   await writeQueue;
+  // Refresh cache with the new mtime so the next loadAll() short-
+  // circuits to in-memory data without re-reading the file we just
+  // wrote. Stat after the write so the mtime we cache matches the
+  // file's actual on-disk timestamp (some filesystems round mtime to
+  // seconds, so reusing Date.now() would mismatch on the next stat).
+  try {
+    const stat = await fs.stat(DATA_FILE);
+    cache = { items, mtimeMs: stat.mtimeMs };
+  } catch {
+    cache = null;
+  }
 }
 
 /** All items, newest releaseDate first. */

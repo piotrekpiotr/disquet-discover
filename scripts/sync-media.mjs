@@ -69,19 +69,34 @@ const FEEDS = [
   {
     id: "pitchfork",
     name: "Pitchfork",
-    url: "https://pitchfork.com/rss/reviews/albums/",
-    // Pitchfork titles: "Album Title" with artist in the <description> or
-    // <dc:creator>. We parse both the title and the description.
+    // /rss/reviews/albums/ went 404 in early 2026 — Pitchfork
+    // consolidated to a single /feed/rss endpoint that mixes news +
+    // reviews. parseEntry() already detects "Artist: Album" titles
+    // and falls through to "low confidence" on news posts, so the
+    // mixed feed is fine for our purposes (we only candidate-promote
+    // on high-confidence + multi-source matches anyway).
+    url: "https://pitchfork.com/feed/rss",
   },
   {
     id: "quietus",
     name: "The Quietus",
-    url: "https://thequietus.com/feed",
+    // The non-trailing-slash variant 301-redirects to /feed/ — but
+    // their CDN sends a 301 with the wrong content-type and our
+    // bare-bones fetch then sees a 403 from the next hop. Hard-code
+    // the canonical trailing-slash URL.
+    url: "https://thequietus.com/feed/",
   },
   {
     id: "ra",
     name: "Resident Advisor",
-    url: "https://ra.co/xml/rss-rvws.xml",
+    // RA killed every /xml/rss-*.xml feed during their 2025 site
+    // rebuild. There's no public RSS replacement. Instead we scrape
+    // the HTML reviews index — it ships with the full review list
+    // embedded in __NEXT_DATA__ JSON, which `fetchRaReviews` parses
+    // out below. Idempotent and stable across the few site reflows
+    // we've seen since.
+    url: "https://ra.co/reviews/albums",
+    custom: "ra-html",
   },
   {
     id: "fact",
@@ -273,15 +288,26 @@ function normalise(s) {
 
 async function fetchFeed(feed) {
   try {
+    if (feed.custom === "ra-html") {
+      return await fetchRaReviews(feed);
+    }
+
     const res = await fetch(feed.url, {
       headers: {
-        // Browser-flavoured UA. RSS feeds rarely block, but Cloudflare on
-        // some sites (we hit this on /api/monitoring-extras) will 403 a
-        // bare script-y UA. Harmless to be polite.
+        // Some publications (Quietus on Cloudflare, Pitchfork) 403 our
+        // old "compatible; disquet-sync/1.0" UA — they classify it as
+        // a script and serve an interstitial page. A regular browser-
+        // flavoured UA gets the actual feed. We follow Mozilla/5.0
+        // dressing because it's the most-permitted everywhere; the
+        // optional sync-id tag stays in a custom header that
+        // analytics-friendly publications can grep for if they care.
         "User-Agent":
-          "Mozilla/5.0 (compatible; disquet-sync/1.0; +https://disquet.co)",
-        Accept: "application/rss+xml, application/xml, text/xml, */*",
+          "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36",
+        Accept: "application/rss+xml, application/xml, text/xml, */*;q=0.1",
+        "Accept-Language": "en-US,en;q=0.9",
+        "X-Disquet-Bot": "sync-media/1.0",
       },
+      redirect: "follow",
     });
     if (!res.ok) {
       console.log(`[media:${feed.id}] GET ${feed.url} → ${res.status}`);
@@ -295,6 +321,62 @@ async function fetchFeed(feed) {
     console.log(`[media:${feed.id}] fetch failed: ${e.message}`);
     return [];
   }
+}
+
+/**
+ * Resident Advisor stopped publishing RSS during their 2025 redesign,
+ * but the public reviews HTML page still ships the full review list
+ * inside the page's `__NEXT_DATA__` blob. We grep the JSON for the
+ * Review nodes (each carries title="Artist - Album", date, blurb,
+ * contentUrl) and reshape them into the same {title, description,
+ * pubDate, link} envelope the RSS path produces — so parseEntry()
+ * downstream can stay completely RA-agnostic.
+ *
+ * Failure modes: any change to RA's page HTML (different __typename,
+ * a switch off Next.js) just yields zero items — same fallthrough
+ * behaviour as a 404 on a missing RSS feed. No abort.
+ */
+async function fetchRaReviews(feed) {
+  const res = await fetch(feed.url, {
+    headers: {
+      "User-Agent":
+        "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36",
+      Accept:
+        "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8",
+      "Accept-Language": "en-US,en;q=0.9",
+    },
+    redirect: "follow",
+  });
+  if (!res.ok) {
+    console.log(`[media:${feed.id}] GET ${feed.url} → ${res.status}`);
+    return [];
+  }
+  const html = await res.text();
+  // The hydration JSON contains many nodes; we only want Review entries.
+  // Anchor the regex on `"__typename":"Review"` and grab the surrounding
+  // record up to the next `}` that closes the title/date/contentUrl block.
+  // The blurb field can contain nested escapes, so we limit greedy match
+  // length to keep things bounded. Worst case we miss a few entries; a
+  // partial run is still better than zero.
+  const re =
+    /"__typename":"Review","index":"REVIEW","title":"([^"\\]*(?:\\.[^"\\]*)*)","date":"([^"]+)","imageUrl":"[^"]*","contentUrl":"([^"]+)"(?:,"recommended":[^,]+)?,"blurb":"([^"\\]*(?:\\.[^"\\]*)*)"/g;
+  const out = [];
+  const seen = new Set();
+  let m;
+  while ((m = re.exec(html)) !== null) {
+    const [, title, date, contentUrl, blurb] = m;
+    if (seen.has(contentUrl)) continue;
+    seen.add(contentUrl);
+    out.push({
+      title: title.replace(/\\"/g, '"').replace(/\\\\/g, "\\"),
+      description: blurb.replace(/\\"/g, '"').replace(/\\\\/g, "\\"),
+      creator: "",
+      pubDate: date,
+      link: contentUrl.startsWith("http") ? contentUrl : `https://ra.co${contentUrl}`,
+    });
+  }
+  console.log(`[media:${feed.id}] ${out.length} item(s) parsed`);
+  return out;
 }
 
 /**

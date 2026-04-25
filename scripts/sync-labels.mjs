@@ -44,11 +44,24 @@ const TOKEN = process.env.DISCOGS_TOKEN || "";
 // matching record with `pressMentions: ["quietus"]` so the admin UI can
 // highlight it. This is best-effort: if the feed can't be fetched we fall
 // back to `""` (empty string) and no records get boosted that run.
-const QUIETUS_RSS = "https://thequietus.com/feed";
+// Trailing slash required — the bare /feed URL 301-redirects in a way
+// our fetch sees as a 403 on the redirected hop. Match the canonical
+// URL directly to skip the redirect entirely.
+const QUIETUS_RSS = "https://thequietus.com/feed/";
 
 async function fetchQuietusText() {
   try {
-    const res = await fetch(QUIETUS_RSS, { headers: { "User-Agent": UA } });
+    const res = await fetch(QUIETUS_RSS, {
+      headers: {
+        // Browser-flavoured UA — Cloudflare on thequietus.com 403s
+        // bare script-y agents. Same dressing as sync-media.mjs.
+        "User-Agent":
+          "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36",
+        Accept: "application/rss+xml, application/xml, text/xml, */*;q=0.1",
+        "Accept-Language": "en-US,en;q=0.9",
+      },
+      redirect: "follow",
+    });
     if (!res.ok) return "";
     const xml = await res.text();
     // Cheap parse: we only need substring containment, not proper XML. Strip

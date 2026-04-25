@@ -65,7 +65,19 @@ export async function fetchMonitoringExtras() {
     const ctl = new AbortController();
     const timeout = setTimeout(() => ctl.abort(), 10_000);
     const res = await fetch(url, {
-      headers: { "User-Agent": "disquet-sync/1.0 +extras" },
+      headers: {
+        // Site sits behind Cloudflare on Railway, and CF was 403-ing
+        // the previous "disquet-sync/1.0 +extras" UA from the GitHub
+        // Actions runner IP range as scripted traffic. A real browser
+        // UA passes CF's bot heuristics; the X-Disquet-Bot custom
+        // header keeps the request self-identifying for our own logs
+        // without tripping the heuristic.
+        "User-Agent":
+          "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36",
+        Accept: "application/json, */*;q=0.1",
+        "Accept-Language": "en-US,en;q=0.9",
+        "X-Disquet-Bot": "sync-extras/1.0",
+      },
       signal: ctl.signal,
     });
     clearTimeout(timeout);
