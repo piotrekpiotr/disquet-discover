@@ -1156,7 +1156,8 @@
       "Shelter Press"
     ],
     "titleExamples": [
-      "E"
+      "E",
+      "E At Home"
     ]
   },
   "Picture (6)": {
@@ -3856,7 +3857,8 @@
       "Leaving Records"
     ],
     "titleExamples": [
-      "Land’s End Eternal"
+      "Land’s End Eternal",
+      "Land's End Eternal"
     ]
   },
   "Sam Gendel": {
@@ -3921,6 +3923,7 @@
     ],
     "titleExamples": [
       "Universo E.P.",
+      "Universo E.P.",
       "Universo E.P."
     ]
   },
@@ -3977,6 +3980,7 @@
       "Hyperdub"
     ],
     "titleExamples": [
+      "You Said You'd Hold My Hand Through The Fire",
       "You Said You'd Hold My Hand Through The Fire",
       "You Said You'd Hold My Hand Through The Fire"
     ]
@@ -4411,6 +4415,7 @@
       "Ilian Tape"
     ],
     "titleExamples": [
+      "Secrets Of The Nebula",
       "Secrets Of The Nebula",
       "Secrets Of The Nebula"
     ]
@@ -4894,6 +4899,7 @@
     ],
     "titleExamples": [
       "Στα Όνειρά Μου",
+      "Στα Όνειρά Μου",
       "Στα Όνειρά Μου"
     ]
   },
@@ -4986,6 +4992,7 @@
     ],
     "titleExamples": [
       "Να Μείνουμε Πάντα Παιδιά",
+      "Να Μείνουμε Πάντα Παιδιά",
       "Να Μείνουμε Πάντα Παιδιά"
     ]
   },
@@ -5036,6 +5043,7 @@
     ],
     "titleExamples": [
       "I Don't Like What It Does to Me",
+      "I Don't Like What It Does to Me",
       "I Don't Like What It Does to Me"
     ]
   },
@@ -5068,6 +5076,7 @@
       "YOUNG"
     ],
     "titleExamples": [
+      "Gone",
       "Gone",
       "Gone"
     ]
@@ -5461,6 +5470,7 @@
       "PAN"
     ],
     "titleExamples": [
+      "The First Day & Night",
       "The First Day & Night",
       "The First Day & Night"
     ]
@@ -6432,6 +6442,30 @@
     ],
     "titleExamples": [
       "Holding On To You"
+    ]
+  },
+  "HHY & The Kampala Unit": {
+    "seenOn": [
+      "Nyege Nyege Tapes"
+    ],
+    "titleExamples": [
+      "Turbo Meltdown"
+    ]
+  },
+  "Gia Margaret": {
+    "seenOn": [
+      "Jagjaguwar"
+    ],
+    "titleExamples": [
+      "Singing"
+    ]
+  },
+  "Harry Romero": {
+    "seenOn": [
+      "Numbers"
+    ],
+    "titleExamples": [
+      "Feels Good EP"
     ]
   }
 }
