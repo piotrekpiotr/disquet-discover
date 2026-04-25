@@ -46,12 +46,11 @@ jobs:
       # runs but auto-promotion is disabled (candidates all need manual
       # review). See scripts/sources/lastfm.mjs for the API shape.
       LASTFM_API_KEY: ${{ secrets.LASTFM_API_KEY }}
-      # Spotify Web API (Client Credentials) — used by backfill-spotify
-      # to replace "open.spotify.com/search/…" links with real album
-      # URLs, so the card's Spotify button can deep-link into the native
-      # app. If either secret is missing, the step self-skips.
-      SPOTIFY_CLIENT_ID: ${{ secrets.SPOTIFY_CLIENT_ID }}
-      SPOTIFY_CLIENT_SECRET: ${{ secrets.SPOTIFY_CLIENT_SECRET }}
+      # No Spotify auth needed any more — backfill-spotify resolves
+      # album URLs via the public Songlink/Odesli API, which takes an
+      # Apple/Deezer URL and returns the Spotify equivalent. The old
+      # Client-Credentials flow now requires a paid Spotify Premium
+      # account so we dropped it; Songlink covers the same ground.
       # Override model for description writing if the default in
       # write-descriptions.mjs ever goes stale.
       DISQUET_MODEL: ${{ secrets.DISQUET_MODEL }}
@@ -120,13 +119,24 @@ jobs:
           node scripts/backfill-embeds.mjs || true
           node scripts/backfill-bandcamp.mjs || true
 
+      - name: Upgrade Deezer embeds to Apple Music when iTunes can match
+        # backfill-embeds.mjs picks Apple first, falls back to Deezer when
+        # iTunes throttles. Records that landed on Deezer because of a
+        # throttle (not a genuine miss) get revisited here on a fresh
+        # runner IP and promoted to Apple when iTunes finally answers.
+        # Idempotent: only touches deezer-provider embeds. Self-skips
+        # everything else.
+        continue-on-error: true
+        run: node scripts/upgrade-deezer-to-apple.mjs || true
+
       - name: Resolve Spotify album URLs (search → real album link)
-        # Spotify's Client Credentials flow — no user OAuth. Finds the
-        # actual album URL for each record whose links.spotify is still a
-        # search URL, so the "Spotify" row on a record card deep-links
-        # into the native app instead of opening a search page.
-        # Self-skips when SPOTIFY_CLIENT_ID / SECRET aren't set, so this
-        # step is safe to keep enabled even on forks without the secret.
+        # Songlink/Odesli public API — no auth required. Feeds each
+        # record's existing Apple or Deezer URL to Songlink and gets
+        # back the matching Spotify album URL, so the "Spotify" row on
+        # a record card deep-links into the native app instead of
+        # opening a search page. Records without an Apple/Deezer seed
+        # (the rare ones where every release-discovery source missed)
+        # stay on the search URL.
         continue-on-error: true
         run: node scripts/backfill-spotify.mjs || true
 

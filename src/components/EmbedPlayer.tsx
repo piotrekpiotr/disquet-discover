@@ -48,23 +48,83 @@ function pickEmbed(embed: Embed | null | undefined): Embed | null {
 }
 
 /**
- * Infer a sensible fixed width for a Bandcamp embed whose stored record
- * didn't carry one. Historical records pasted from Bandcamp's Share/Embed
- * dialog before width was persisted show up here — without this, they
- * stretched the cover artwork to the full card width. The heuristic:
+ * Apple-Music album URL → embed URL. Apple's official embed iframe just
+ * rewrites the host (`music.apple.com` → `embed.music.apple.com`) and
+ * tacks `?theme=light`. Used when we have a confident album link but no
+ * stored embed (or an embed we want to override).
  *
- *   - `artwork=big` in the src  →  350px  (Bandcamp's "Standard" layout,
- *     cover-over-tracklist; ships as width:350 in Bandcamp's own snippet
- *     and is unusable at any other width).
- *   - anything else              →  null  (treat as fluid — the auto-
- *     backfilled `artwork=small` variant is fine at 100% width).
+ * Returns null if the URL doesn't look like a real Apple Music album
+ * page — search pages, artist pages, and anything off-host stay as-is.
  */
-function inferWidth(embed: Embed): number | undefined {
+function appleEmbedFromAlbumUrl(url: string | undefined): string | null {
+  if (!url) return null;
+  try {
+    const u = new URL(url);
+    if (!u.hostname.endsWith("music.apple.com")) return null;
+    if (!/\/album\//i.test(u.pathname)) return null;
+    return `https://embed.music.apple.com${u.pathname}?theme=light`;
+  } catch {
+    return null;
+  }
+}
+
+/**
+ * Last-line provider preference at render time. Deezer is the curator's
+ * least-loved player ("only as a very last resort"), so when a record has
+ * BOTH a Deezer-stored embed AND a confident Apple album URL in
+ * links.apple, swap the embed to Apple on the fly. This gives an instant
+ * upgrade for the long tail of records where backfill-embeds.mjs landed
+ * on Deezer because iTunes throttled at the time, even before the
+ * matching upgrade-deezer-to-apple.mjs pass has run on disk.
+ *
+ * The transformation is purely cosmetic — it doesn't mutate the stored
+ * record. The next time backfill or the upgrade script runs, the disk
+ * record gets the same swap applied permanently.
+ */
+function preferAppleOverDeezer(
+  embed: Embed | null,
+  links: Links,
+): Embed | null {
+  if (!embed || embed.provider !== "deezer") return embed;
+  const appleSrc = appleEmbedFromAlbumUrl(links.apple);
+  if (!appleSrc) return embed;
+  return { provider: "apple", src: appleSrc, height: 450 };
+}
+
+/**
+ * Pick a sensible max-width for the embed container so the border around
+ * the iframe doesn't stretch to the full 10-column player row on desktop.
+ * The player row is wider than any music-service embed is designed for,
+ * so without a cap the border looks orphaned around an off-centre player.
+ *
+ *   1. Curator-set width on the embed (from EmbedPicker / iframe paste)
+ *      always wins. Pasting a 350px Bandcamp Big-artwork blob keeps it
+ *      at 350px — that's the whole point of persisting width.
+ *   2. Bandcamp Big-artwork (artwork=big in the src) is hard-locked at
+ *      350px when no width was stored. Bandcamp's layout is built for a
+ *      fixed column and stretching it grows the cover absurdly.
+ *   3. Everything else falls back to provider-typical maximums that match
+ *      the embed's natural rendered size — Apple Music caps around 660,
+ *      Spotify the same, Bandcamp slim/responsive ~700, YouTube 720.
+ *      The container uses `width: 100%; maxWidth: <cap>` so the border
+ *      tracks the player and the player itself remains responsive on
+ *      narrower screens.
+ */
+const PROVIDER_MAX_WIDTH: Record<Embed["provider"], number> = {
+  bandcamp: 700,
+  apple: 660,
+  spotify: 660,
+  deezer: 700,
+  soundcloud: 700,
+  youtube: 720,
+};
+
+function inferWidth(embed: Embed): number {
   if (embed.width) return embed.width;
   if (embed.provider === "bandcamp" && /\/artwork=big\b/.test(embed.src)) {
     return 350;
   }
-  return undefined;
+  return PROVIDER_MAX_WIDTH[embed.provider] ?? 700;
 }
 
 const SERVICE_ORDER: Array<keyof Links> = [
@@ -120,7 +180,7 @@ export function EmbedPlayer({
   searchQuery?: string;
 }) {
   const [showEmbed, setShowEmbed] = useState(false);
-  const chosen = pickEmbed(embed);
+  const chosen = preferAppleOverDeezer(pickEmbed(embed), links);
 
   // Consent gate: third-party iframes (Bandcamp, Spotify, YouTube, ...) set
   // their own cookies the moment they load. Under ePrivacy Art. 5(3) that
@@ -183,11 +243,7 @@ export function EmbedPlayer({
         // left edge so the record reads as a single compound block.
         <div
           className="border border-ink"
-          style={
-            inferWidth(chosen)
-              ? { width: "100%", maxWidth: `${inferWidth(chosen)}px` }
-              : undefined
-          }
+          style={{ width: "100%", maxWidth: `${inferWidth(chosen)}px` }}
         >
           <iframe
             src={chosen.src}

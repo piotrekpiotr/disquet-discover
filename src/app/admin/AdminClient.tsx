@@ -35,6 +35,20 @@ export function AdminClient({
   const [counts, setCounts] = useState<Counts>(initialCounts);
   const [hasMore, setHasMore] = useState(initialHasMore);
   const [offset, setOffset] = useState(initialItems.length);
+  // Single unified search across the whole pool. We deliberately chose
+  // ONE search input over per-tab inputs because the typical curator
+  // workflow is "find this record fast" — they don't care which tab
+  // it currently lives on, only what the artist or title is. The four
+  // status tabs become refinements OVER the search results: counts on
+  // each tab show how many search hits live there, so a single click
+  // jumps to the right one. Empty query restores the normal flow.
+  //
+  // `searchInput` is the controlled <input> value (updates on every
+  // keystroke); `searchQuery` is the debounced version we actually
+  // send to the server. The 200ms gap keeps typing snappy without
+  // hammering /api/pool on every key.
+  const [searchInput, setSearchInput] = useState("");
+  const [searchQuery, setSearchQuery] = useState("");
   const [isPending, startTransition] = useTransition();
   const [busyIds, setBusyIds] = useState<Set<string>>(new Set());
   const [editingId, setEditingId] = useState<string | null>(null);
@@ -59,9 +73,12 @@ export function AdminClient({
   const [addBusy, setAddBusy] = useState(false);
   const [addMsg, setAddMsg] = useState<string | null>(null);
 
-  const fetchPage = async (f: Status | "all", off: number) => {
-    const url = `/api/pool?filter=${f}&offset=${off}`;
-    const res = await fetch(url, { cache: "no-store" });
+  const fetchPage = async (f: Status | "all", off: number, q = "") => {
+    const params = new URLSearchParams({ filter: f, offset: String(off) });
+    if (q.trim()) params.set("q", q.trim());
+    const res = await fetch(`/api/pool?${params.toString()}`, {
+      cache: "no-store",
+    });
     if (!res.ok) throw new Error("Failed");
     return (await res.json()) as {
       items: Recommendation[];
@@ -85,12 +102,25 @@ export function AdminClient({
     loadQueue();
   }, [loadQueue]);
 
-  // Reload when filter changes
+  // Debounce the search input so typing doesn't hammer /api/pool. 200ms
+  // is short enough to feel instant once you stop typing, long enough
+  // to absorb a typical word-by-word query. Cleared queries also flush
+  // through this same debounce so the empty state resyncs in one tick.
+  useEffect(() => {
+    const id = window.setTimeout(() => {
+      setSearchQuery(searchInput.trim());
+    }, 200);
+    return () => window.clearTimeout(id);
+  }, [searchInput]);
+
+  // Reload when filter OR search changes. The two dimensions intersect
+  // (search results AND status), so a change to either re-fetches from
+  // offset=0 with the new combined criteria.
   useEffect(() => {
     let cancelled = false;
     (async () => {
       try {
-        const data = await fetchPage(filter, 0);
+        const data = await fetchPage(filter, 0, searchQuery);
         if (cancelled) return;
         setItems(data.items);
         setOffset(data.items.length);
@@ -101,11 +131,11 @@ export function AdminClient({
     return () => {
       cancelled = true;
     };
-  }, [filter]);
+  }, [filter, searchQuery]);
 
   const loadMore = () => {
     startTransition(async () => {
-      const data = await fetchPage(filter, offset);
+      const data = await fetchPage(filter, offset, searchQuery);
       setItems((prev) => [...prev, ...data.items]);
       setOffset(offset + data.items.length);
       setHasMore(data.hasMore);
@@ -125,7 +155,7 @@ export function AdminClient({
       setItems((prev) =>
         prev.map((r) => (r.id === id ? { ...r, status } : r)),
       );
-      const data = await fetchPage(filter, 0);
+      const data = await fetchPage(filter, 0, searchQuery);
       setCounts(data.counts);
     } finally {
       setBusyIds((s) => {
@@ -484,20 +514,58 @@ export function AdminClient({
             )}
           </div>
 
-          <div className="flex gap-1 border-t border-ink pt-4">
-            {FILTERS.map((f) => (
-              <button
-                key={f.key}
-                onClick={() => setFilter(f.key)}
-                className={`font-mono text-[10px] uppercase tracking-widest px-4 py-2 border ${
-                  filter === f.key
-                    ? "bg-ink text-paper border-ink"
-                    : "border-ink hover:bg-ink hover:text-paper"
-                }`}
-              >
-                {f.label} ({f.key === "all" ? counts.total : counts[f.key]})
-              </button>
-            ))}
+          {/* Unified search across the whole pool. Matches artist + title
+              + label, intersects with the active tab. The label text and
+              tab counts both update live as you type — empty input is a
+              no-op so the page behaves exactly as before when nobody is
+              actively searching. */}
+          <div className="border-t border-ink pt-4 flex flex-col gap-3">
+            <div className="flex items-center gap-3 flex-wrap">
+              <label className="flex items-center gap-3 flex-1 min-w-[260px] border border-ink px-3 py-2">
+                <span className="font-mono text-[10px] uppercase tracking-widest text-mute shrink-0">
+                  Search
+                </span>
+                <input
+                  type="search"
+                  value={searchInput}
+                  onChange={(e) => setSearchInput(e.target.value)}
+                  placeholder="Artist, title, or label…"
+                  className="flex-1 bg-transparent outline-none font-mono text-[11px] placeholder:text-mute"
+                />
+                {searchInput && (
+                  <button
+                    type="button"
+                    onClick={() => setSearchInput("")}
+                    className="font-mono text-[9px] uppercase tracking-widest text-mute hover:text-ink shrink-0"
+                    aria-label="Clear search"
+                  >
+                    Clear ✕
+                  </button>
+                )}
+              </label>
+              {searchQuery && (
+                <span className="font-mono text-[10px] uppercase tracking-widest text-mute">
+                  {counts.total} match{counts.total === 1 ? "" : "es"} for{" "}
+                  <span className="text-ink">&quot;{searchQuery}&quot;</span>
+                </span>
+              )}
+            </div>
+
+            <div className="flex flex-wrap gap-1">
+              {FILTERS.map((f) => (
+                <button
+                  key={f.key}
+                  onClick={() => setFilter(f.key)}
+                  className={`font-mono text-[10px] uppercase tracking-widest px-4 py-2 border ${
+                    filter === f.key
+                      ? "bg-ink text-paper border-ink"
+                      : "border-ink hover:bg-ink hover:text-paper"
+                  }`}
+                >
+                  {f.label} ({f.key === "all" ? counts.total : counts[f.key]})
+                </button>
+              ))}
+            </div>
           </div>
         </div>
       </section>

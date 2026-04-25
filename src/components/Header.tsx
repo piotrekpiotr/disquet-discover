@@ -1,6 +1,5 @@
 "use client";
 import Link from "next/link";
-import { DotsMark } from "./DotsMark";
 import { useFavorites } from "./FavoriteButton";
 
 /**
@@ -28,7 +27,6 @@ export function Header() {
     <header className="sticky top-0 z-50 bg-paper border-b border-ink">
       <div className="flex items-center justify-between px-6 sm:px-8 py-3.5">
         <Link href="/" className="flex items-center gap-3 no-underline text-ink">
-          <DotsMark size={26} />
           <span className="flex items-baseline gap-2">
             <span
               className="font-display font-black text-[18px] leading-none"

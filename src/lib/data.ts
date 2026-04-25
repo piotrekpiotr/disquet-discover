@@ -155,10 +155,39 @@ export async function getFeedPage(cursor?: string | null) {
   return { items, nextCursor, hasMore };
 }
 
-/** Admin pool: 15 at a time, paginated by offset. */
-export async function getPoolPage(filter: Status | "all", offset: number, limit = 15) {
+/**
+ * Case-insensitive substring match against the fields the curator is
+ * most likely to recall: artist, title, label. Empty / whitespace-only
+ * queries are treated as "no filter" so the function is safe to call
+ * unconditionally — the admin UI passes `q` through whether or not the
+ * search bar is in use, and the server doesn't have to care.
+ */
+function matchesSearch(rec: Recommendation, q: string): boolean {
+  const needle = q.trim().toLowerCase();
+  if (!needle) return true;
+  const haystack = `${rec.artist} ${rec.title} ${rec.label}`.toLowerCase();
+  return haystack.includes(needle);
+}
+
+/**
+ * Admin pool: 15 at a time, paginated by offset. Optional `q` is a
+ * case-insensitive substring matched against artist + title + label;
+ * when non-empty the result is the cross-status search hit list,
+ * intersected with the chosen `filter` (so the four tabs continue to
+ * act as refinements over the search rather than competing controls).
+ */
+export async function getPoolPage(
+  filter: Status | "all",
+  offset: number,
+  limit = 15,
+  q = "",
+) {
   const all = await getAll();
-  const filtered = filter === "all" ? all : all.filter((r) => r.status === filter);
+  const byStatus =
+    filter === "all" ? all : all.filter((r) => r.status === filter);
+  const filtered = q.trim()
+    ? byStatus.filter((r) => matchesSearch(r, q))
+    : byStatus;
   const items = filtered.slice(offset, offset + limit);
   return { items, total: filtered.length, hasMore: offset + limit < filtered.length };
 }
@@ -180,13 +209,20 @@ export async function getLatestPublishedAt(): Promise<string | null> {
   return latest;
 }
 
-/** Build a counts summary for admin tabs. */
-export async function getCounts() {
+/**
+ * Build a counts summary for admin tabs. When a search query is
+ * supplied, counts reflect only records that match the query — so the
+ * tab labels show how many results live in each status, helping the
+ * curator jump straight to the right tab. Without a query (default),
+ * the counts are global and the tabs behave as before.
+ */
+export async function getCounts(q = "") {
   const all = await getAll();
+  const pool = q.trim() ? all.filter((r) => matchesSearch(r, q)) : all;
   return {
-    total: all.length,
-    pending: all.filter((r) => r.status === "pending").length,
-    approved: all.filter((r) => r.status === "approved").length,
-    rejected: all.filter((r) => r.status === "rejected").length,
+    total: pool.length,
+    pending: pool.filter((r) => r.status === "pending").length,
+    approved: pool.filter((r) => r.status === "approved").length,
+    rejected: pool.filter((r) => r.status === "rejected").length,
   };
 }

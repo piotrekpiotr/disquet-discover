@@ -1062,8 +1062,8 @@
       "height": 450
     },
     "musicVideoUrl": null,
-    "status": "pending",
-    "approvedAt": null,
+    "status": "approved",
+    "approvedAt": "2026-04-25T08:00:00.000Z",
     "coverImageUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/93/c2/85/93c28533-6992-285b-98db-48d115813ba8/840200577458_cover.jpg/600x600bb.jpg",
     "cover": {
       "bg": "#111110",
