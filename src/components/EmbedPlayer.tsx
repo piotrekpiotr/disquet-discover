@@ -127,14 +127,21 @@ function inferWidth(embed: Embed): number {
   return PROVIDER_MAX_WIDTH[embed.provider] ?? 700;
 }
 
+// Curator-set order under each release card. Bandcamp leads (cleanest
+// listening UX, no walls), Apple second (universal app, clean web
+// player), Spotify third (largest install base, deep-links via
+// spotify:search:<q> when no album URL is resolved). YouTube and
+// SoundCloud round out the visible row. Tidal and Deezer trail at
+// the end — Deezer specifically is the curator's least-loved player
+// ("only as a very last resort"), so it sits last.
 const SERVICE_ORDER: Array<keyof Links> = [
   "bandcamp",
-  "spotify",
   "apple",
-  "deezer",
+  "spotify",
+  "youtube",
   "soundcloud",
   "tidal",
-  "youtube",
+  "deezer",
 ];
 
 const SERVICE_LABELS: Record<keyof Links, string> = {

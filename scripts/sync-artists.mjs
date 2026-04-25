@@ -36,6 +36,7 @@ import { ARTISTS as BASE_ARTISTS } from "./monitoring.mjs";
 import { fetchMonitoringExtras, mergeUnique } from "./fetch-extras.mjs";
 import * as itunes from "./sources/itunes.mjs";
 import * as deezer from "./sources/deezer.mjs";
+import * as lastfmReleases from "./sources/lastfm-releases.mjs";
 
 const FILE = path.resolve("data/recommendations.json");
 const STATS_FILE = path.resolve("data/.sync-artists-stats.json");
@@ -116,11 +117,20 @@ async function scanArtist(artist, stats) {
 
   // iTunes is primary because it tends to have richer metadata (label
   // guess via copyright, genre, Apple Music deep link). Deezer fills the
-  // gaps when Apple 403s or returns nothing.
+  // gaps when Apple 403s or returns nothing. Last.fm is the third leg —
+  // it scrapes the artist page's "Latest release" pointer (sourced from
+  // MusicBrainz inside Last.fm's render layer), which sometimes catches
+  // niche / Bandcamp-only releases neither Apple nor Deezer indexes. We
+  // run Last.fm UNCONDITIONALLY (not as a fallback) because its release
+  // is often DIFFERENT from what iTunes returned — a Bandcamp-exclusive
+  // EP alongside an Apple-listed single, say. The dedup-by-(artist|title)
+  // step in runSource keeps duplicates from sneaking in when the same
+  // release is on multiple sources.
   await runSource("itunes", itunes);
   if (collected.length === 0) {
     await runSource("deezer", deezer);
   }
+  await runSource("lastfm", lastfmReleases);
 
   return collected;
 }
@@ -136,8 +146,13 @@ function toRecommendation(release, existingIds) {
   let id = `${slugify(release.artist)}-${slugify(release.title)}`.slice(0, 80);
   // Collisions happen when two artists release an eponymous track. Append
   // a two-letter source tag so we don't silently replace one with the
-  // other. -ap = apple/itunes, -dz = deezer.
-  const tag = release.source === "itunes" ? "ap" : "dz";
+  // other. -ap = apple/itunes, -dz = deezer, -lf = lastfm.
+  const tag =
+    release.source === "itunes"
+      ? "ap"
+      : release.source === "deezer"
+        ? "dz"
+        : "lf";
   if (existingIds.has(id)) id = `${id}-${tag}`;
   if (existingIds.has(id)) return null; // double collision — give up, try next release
 
@@ -153,6 +168,10 @@ function toRecommendation(release, existingIds) {
   if (release.source === "deezer" && release.externalUrl) {
     links.deezer = release.externalUrl;
   }
+  // Last.fm doesn't carry a public-streaming URL we want to surface.
+  // The card falls back to search URLs for every service; the next
+  // backfill-embeds pass will populate links.apple / links.deezer when
+  // iTunes or Deezer eventually indexes the release.
 
   return {
     id,
@@ -199,6 +218,7 @@ async function main() {
   const stats = {
     itunes: { attempted: 0, succeeded: 0, failed: 0, nonEmpty: 0, failures: [] },
     deezer: { attempted: 0, succeeded: 0, failed: 0, nonEmpty: 0, failures: [] },
+    lastfm: { attempted: 0, succeeded: 0, failed: 0, nonEmpty: 0, failures: [] },
     addedTotal: 0,
     artistsWithAdditions: 0,
   };
@@ -253,7 +273,9 @@ async function main() {
       `iTunes: ${stats.itunes.succeeded}/${stats.itunes.attempted} ok ` +
       `(${stats.itunes.nonEmpty} had releases, ${stats.itunes.failed} failed). ` +
       `Deezer fallback: ${stats.deezer.attempted} attempted, ` +
-      `${stats.deezer.succeeded} ok, ${stats.deezer.failed} failed.`,
+      `${stats.deezer.succeeded} ok, ${stats.deezer.failed} failed. ` +
+      `Last.fm: ${stats.lastfm.succeeded}/${stats.lastfm.attempted} ok ` +
+      `(${stats.lastfm.nonEmpty} had releases, ${stats.lastfm.failed} failed).`,
   );
 
   if (stats.itunes.failed > 0) {

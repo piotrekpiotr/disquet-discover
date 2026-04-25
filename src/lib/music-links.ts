@@ -149,8 +149,29 @@ function spotifyAppUrl(u: URL): string | null {
   const m = u.pathname.match(
     /(?:^|\/)(?:intl-[a-z-]+\/)?(album|track|playlist|artist|show|episode)\/([A-Za-z0-9]+)/i,
   );
-  if (!m) return null;
-  return `spotify:${m[1].toLowerCase()}:${m[2]}`;
+  if (m) return `spotify:${m[1].toLowerCase()}:${m[2]}`;
+
+  // Search URLs (`/search/<query>`) deep-link via `spotify:search:<query>`
+  // — documented in Spotify's URI scheme spec, opens the in-app search
+  // screen with the query pre-filled. Without this branch the search
+  // URL falls through to a browser tab even when the user has the
+  // Spotify app installed, which is the curator-reported pain point.
+  // The query may sit in the path (`/search/foo%20bar`) or in `?q=`;
+  // we handle both. Empty queries return null so the click falls back
+  // to opening the web search page (better than `spotify:search:` with
+  // no query, which Spotify treats as a no-op on some clients).
+  const searchPath = u.pathname.match(
+    /(?:^|\/)(?:intl-[a-z-]+\/)?search(?:\/(.+))?/i,
+  );
+  if (searchPath) {
+    const fromPath = searchPath[1] ? decodeURIComponent(searchPath[1]) : "";
+    const fromQuery = u.searchParams.get("q") || "";
+    const q = (fromPath || fromQuery).trim();
+    if (!q) return null;
+    return `spotify:search:${encodeURIComponent(q)}`;
+  }
+
+  return null;
 }
 
 function appleAppUrl(u: URL, platform: Platform): string | null {

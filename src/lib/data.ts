@@ -158,13 +158,47 @@ export async function updateItem(
 }
 
 /**
+ * Composite sort key: "<releaseDate>|<id>". Two records that share a
+ * release date were not comparable under the old date-only cursor —
+ * the cursor was set to the page boundary's date and the next page
+ * filtered `releaseDate < cursor`, which silently dropped any sibling
+ * records with the SAME date. With three albums on 2026-04-17, only
+ * two made it into page 1 and the third disappeared from pagination
+ * entirely (mu tate / life of mu was the canonical victim).
+ *
+ * Adding the id as a tiebreaker turns the order into a strict
+ * monotonic sequence, so a `key < cursor` filter is safe even when
+ * the page boundary lands inside a same-date cluster. Id-as-tiebreak
+ * is arbitrary but stable; the UI shows release dates and the date
+ * grouping reads naturally regardless of intra-date ordering.
+ */
+function feedKey(r: Recommendation): string {
+  return `${r.releaseDate}|${r.id}`;
+}
+
+/**
  * Get a public-feed page of 5: 2 singles + 3 albums-or-EPs.
- * Pulls from approved items only, ordered newest releaseDate first.
- * `cursor` is the releaseDate of the last item from the previous page (exclusive).
+ *
+ * Records are ordered by composite (releaseDate, id) descending. The
+ * `cursor` is the feedKey of the last item shown on the previous page;
+ * a fresh request omits it. Records with the SAME releaseDate as the
+ * cursor's record stay eligible for the next page so long as their id
+ * is "smaller" — without this, same-day siblings vanish.
+ *
+ * Backwards compat: if a caller still passes a bare YYYY-MM-DD string
+ * (the old cursor shape), `key < cursor + "|"` happens to behave
+ * identically for the date-discriminated common case, so legacy
+ * cursors keep paginating the way they used to.
  */
 export async function getFeedPage(cursor?: string | null) {
   const approved = await getByStatus("approved");
-  const filtered = cursor ? approved.filter((r) => r.releaseDate < cursor) : approved;
+  // Strict monotonic order: newer date first, then larger id first.
+  const sorted = [...approved].sort((a, b) =>
+    feedKey(b).localeCompare(feedKey(a)),
+  );
+  const filtered = cursor
+    ? sorted.filter((r) => feedKey(r) < cursor)
+    : sorted;
 
   const singles = filtered.filter((r) => r.type === "single");
   const longs = filtered.filter((r) => r.type === "album" || r.type === "ep");
@@ -172,10 +206,11 @@ export async function getFeedPage(cursor?: string | null) {
   const pageSingles = singles.slice(0, 2);
   const pageLongs = longs.slice(0, 3);
   const items = [...pageSingles, ...pageLongs].sort((a, b) =>
-    b.releaseDate.localeCompare(a.releaseDate),
+    feedKey(b).localeCompare(feedKey(a)),
   );
 
-  const nextCursor = items.length > 0 ? items[items.length - 1].releaseDate : null;
+  const nextCursor =
+    items.length > 0 ? feedKey(items[items.length - 1]) : null;
   // hasMore: there must be enough remaining items of *each* required type
   const remainingAfter = filtered.filter(
     (r) => !items.find((i) => i.id === r.id),
