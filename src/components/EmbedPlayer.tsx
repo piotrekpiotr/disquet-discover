@@ -252,18 +252,46 @@ export function EmbedPlayer({
           className="border border-ink"
           style={{ width: "100%", maxWidth: `${inferWidth(chosen)}px` }}
         >
-          <iframe
-            src={chosen.src}
-            style={{
-              width: "100%",
-              height: `${chosen.height ?? 450}px`,
-              border: 0,
-              display: "block",
-            }}
-            allow="autoplay; clipboard-write; encrypted-media; picture-in-picture"
-            loading="lazy"
-            title="Player"
-          />
+          {chosen.provider === "youtube" ? (
+            // YouTube videos must keep a 16:9 aspect ratio at every
+            // container width — the curator pastes the standard
+            // 560×315 embed but the player row narrows on smaller
+            // viewports, and a fixed-px height would letterbox or
+            // over-tall the video. `aspectRatio: "16 / 9"` is a one-
+            // line responsive ratio: width is 100% of the (capped)
+            // container, height is computed by the browser to keep
+            // the ratio. Also extends the iframe `allow` list to the
+            // attributes YouTube's own embed snippet ships, and
+            // explicitly opts into fullscreen — without it the YT
+            // player's fullscreen button is greyed out.
+            <iframe
+              src={chosen.src}
+              style={{
+                width: "100%",
+                aspectRatio: "16 / 9",
+                border: 0,
+                display: "block",
+              }}
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              allowFullScreen
+              referrerPolicy="strict-origin-when-cross-origin"
+              loading="lazy"
+              title="Player"
+            />
+          ) : (
+            <iframe
+              src={chosen.src}
+              style={{
+                width: "100%",
+                height: `${chosen.height ?? 450}px`,
+                border: 0,
+                display: "block",
+              }}
+              allow="autoplay; clipboard-write; encrypted-media; picture-in-picture"
+              loading="lazy"
+              title="Player"
+            />
+          )}
         </div>
       ) : chosen ? (
         // Click-to-load facade. No iframe in the DOM until the user opts in,

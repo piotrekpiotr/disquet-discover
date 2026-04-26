@@ -40,12 +40,63 @@ function detectProvider(src: string): EmbedProvider | null {
     if (h.includes("spotify.com")) return "spotify";
     if (h.includes("deezer.com")) return "deezer";
     if (h.includes("soundcloud.com")) return "soundcloud";
-    if (h.includes("youtube.com") || h.includes("youtube-nocookie.com"))
+    if (
+      h.includes("youtube.com") ||
+      h.includes("youtube-nocookie.com") ||
+      h === "youtu.be"
+    )
       return "youtube";
   } catch {
     /* not a URL */
   }
   return null;
+}
+
+/**
+ * YouTube is unforgiving about the iframe `src` URL — only the
+ * `youtube.com/embed/<id>` form actually loads inside an iframe. The
+ * `watch?v=<id>` URL refuses to embed (responds with `X-Frame-Options:
+ * SAMEORIGIN`), and `youtu.be/<id>` is a redirect, not an embeddable
+ * page. Convert both to the embed form so the curator can paste any
+ * YouTube URL they have to hand without thinking about which one is
+ * the iframe-friendly one. Iframes (already embed URLs) and unknown
+ * shapes pass through untouched.
+ */
+function normalizeYouTubeSrc(src: string): string {
+  try {
+    const u = new URL(src);
+    // Already an embed URL — preserve the query string (si=, t=, etc).
+    if (
+      (u.hostname.includes("youtube.com") ||
+        u.hostname.includes("youtube-nocookie.com")) &&
+      /^\/embed\//.test(u.pathname)
+    ) {
+      return src;
+    }
+    // youtu.be/<id>?<params> → youtube.com/embed/<id>?<params>
+    if (u.hostname === "youtu.be") {
+      const id = u.pathname.replace(/^\//, "").split("/")[0];
+      if (!id) return src;
+      const qs = u.search ? u.search : "";
+      return `https://www.youtube.com/embed/${id}${qs}`;
+    }
+    // youtube.com/watch?v=<id>&t=… → youtube.com/embed/<id>?t=…
+    if (
+      u.hostname.includes("youtube.com") &&
+      u.pathname === "/watch" &&
+      u.searchParams.has("v")
+    ) {
+      const id = u.searchParams.get("v");
+      if (!id) return src;
+      const params = new URLSearchParams(u.searchParams);
+      params.delete("v");
+      const qs = params.toString();
+      return `https://www.youtube.com/embed/${id}${qs ? `?${qs}` : ""}`;
+    }
+  } catch {
+    /* not a URL — leave alone */
+  }
+  return src;
 }
 
 /**
@@ -139,7 +190,11 @@ export function EmbedPicker({
       return;
     }
     setErr(null);
-    setSrc(parsed.src);
+    // Normalise YouTube watch / youtu.be URLs into the embed form
+    // YouTube actually permits in iframes. No-op for other providers
+    // and for already-correct embed URLs.
+    const normalisedSrc = normalizeYouTubeSrc(parsed.src);
+    setSrc(normalisedSrc);
     // Height is what makes Bandcamp's tall player (654px) render correctly
     // without the curator touching the number field. If the iframe has no
     // height we leave the existing value alone — saving without a height
@@ -153,7 +208,7 @@ export function EmbedPicker({
     // the blob or explicitly fluid, so we only overwrite when the parse
     // yielded a real number.
     if (parsed.width) setWidth(String(parsed.width));
-    const detected = detectProvider(parsed.src);
+    const detected = detectProvider(normalisedSrc);
     if (detected) setProvider(detected);
   };
 
@@ -203,9 +258,14 @@ export function EmbedPicker({
     }
     const h = Number(height);
     const w = Number(width);
+    // Normalise on save too: catches the case where the curator
+    // typed/pasted a YouTube watch URL into the explicit "Iframe src
+    // URL" input (skipping the iframe-blob textarea path) and clicked
+    // Save without re-running the parser.
+    const finalSrc = normalizeYouTubeSrc(src.trim());
     const embed: Embed = {
       provider,
-      src: src.trim(),
+      src: finalSrc,
       ...(Number.isFinite(h) && h > 0 ? { height: h } : {}),
       ...(Number.isFinite(w) && w > 0 ? { width: w } : {}),
     };
