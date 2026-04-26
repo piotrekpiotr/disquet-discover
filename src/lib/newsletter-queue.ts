@@ -82,16 +82,23 @@ export async function readQueueState(): Promise<State> {
   return load();
 }
 
-/** Add a record to the queue. Rejects once MAX_QUEUE is reached. */
+/**
+ * Add a record to the queue. Rejects on duplicates within the SAME
+ * queue, or once MAX_QUEUE is reached. A record that's gone out in a
+ * previous newsletter CAN be re-queued — `sent` is now informational
+ * (UI badge so the curator knows "this featured before"), not a hard
+ * gate. Curators frequently want to re-feature a release weeks/months
+ * later in a different mailing, and the previous "block forever after
+ * one send" rule made that impossible.
+ */
 export async function addToQueue(
   id: string,
 ): Promise<
   | { ok: true; state: State }
-  | { ok: false; reason: "full" | "already-sent" | "already-queued" }
+  | { ok: false; reason: "full" | "already-queued" }
 > {
   const state = await load();
   if (state.queued.includes(id)) return { ok: false, reason: "already-queued" };
-  if (state.sent.includes(id)) return { ok: false, reason: "already-sent" };
   if (state.queued.length >= MAX_QUEUE) return { ok: false, reason: "full" };
   const next: State = { ...state, queued: [...state.queued, id] };
   await save(next);

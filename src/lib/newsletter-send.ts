@@ -1,15 +1,19 @@
 /**
- * Send pipeline for the weekly newsletter. Manual trigger only — the admin
- * panel POSTs to /api/newsletter/send, which calls this.
+ * Draft-creation pipeline for the newsletter. Triggered manually from the
+ * admin panel's "Create draft" button.
  *
  * Flow:
  *   1. Load the queue state. Refuse if queue is empty.
  *   2. Load all recommendations. Resolve queued IDs, filter to approved.
  *      If every queued record has since been un-approved, refuse.
  *   3. Render HTML + text with the shared email template.
- *   4. Send via Buttondown.
- *   5. On success, move the sent IDs from queued -> sent, append history.
- *      This prevents the curator from ever re-sending the same record.
+ *   4. POST to Buttondown — this creates a DRAFT, not an actual send.
+ *      The curator opens the draft in Buttondown's web UI to preview /
+ *      tweak / publish. See sendBroadcast() in newsletter.ts.
+ *   5. On success, clear the queue and append a history entry. We
+ *      DON'T block re-queueing the same record into a future newsletter —
+ *      the `sent` accumulator is informational only (chip badge in admin
+ *      shows "sent N× before"); the curator can re-feature anything.
  */
 import { promises as fs } from "node:fs";
 import path from "node:path";

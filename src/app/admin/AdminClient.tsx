@@ -183,8 +183,8 @@ export function AdminClient({
         setSendMsg(
           err === "full"
             ? `Queue is full (max ${queue.max}). Send or unqueue first.`
-            : err === "already-sent"
-              ? "That record has already been sent in a previous newsletter."
+            : err === "already-queued"
+              ? "Already in this newsletter — uncheck first."
               : "Couldn't update the queue. Try again.",
         );
         return;
@@ -316,9 +316,9 @@ export function AdminClient({
       return;
     }
     const confirmed = window.confirm(
-      `Send the weekly newsletter now with ${queue.queued.length} record${
+      `Create a Buttondown draft with ${queue.queued.length} record${
         queue.queued.length === 1 ? "" : "s"
-      }? This cannot be undone.`,
+      }?\n\nThe draft is created in your Buttondown account; you then review it on buttondown.com and click "Publish" there to actually send it to subscribers.`,
     );
     if (!confirmed) return;
     setSending(true);
@@ -350,9 +350,9 @@ export function AdminClient({
         return;
       }
       setSendMsg(
-        `Sent! "${body.subject}" with ${body.recordCount} record${
+        `Draft "${body.subject}" created in Buttondown (${body.recordCount} record${
           body.recordCount === 1 ? "" : "s"
-        }.`,
+        }). Review and click Publish on buttondown.com to send it to subscribers.`,
       );
       await loadQueue();
     } catch {
@@ -364,7 +364,15 @@ export function AdminClient({
 
   const visible = items.filter((r) => filter === "all" || r.status === filter);
   const queuedSet = new Set(queue.queued);
-  const sentSet = new Set(queue.sent);
+  // Count how many times each record has gone out before. `queue.sent`
+  // accumulates a fresh entry per send, so duplicates here are valid:
+  // a record sent in two newsletters appears twice. The chip below
+  // shows this count so the curator sees "you've featured this 2×
+  // already" without it blocking re-queue.
+  const sentCount = new Map<string, number>();
+  for (const id of queue.sent) {
+    sentCount.set(id, (sentCount.get(id) || 0) + 1);
+  }
   const queueFull = queue.queued.length >= queue.max;
 
   return (
@@ -406,20 +414,24 @@ export function AdminClient({
           <div className="border-t border-ink pt-4 flex flex-col gap-3">
             <div className="flex items-center justify-between gap-4 flex-wrap">
               <div className="font-mono text-[10px] uppercase tracking-widest text-mute flex flex-wrap gap-x-4 gap-y-1">
-                <span className="text-ink">Weekly newsletter</span>
+                <span className="text-ink">Newsletter</span>
                 <span>
-                  Queued, {queue.queued.length} / {queue.max}
+                  In next draft, {queue.queued.length} / {queue.max}
                 </span>
-                <span>Sent all-time, {queue.sent.length}</span>
+                <span>Sends all-time, {queue.sent.length}</span>
+                <span className="text-mute/70">
+                  · Drafts are created in Buttondown — publish from there
+                </span>
               </div>
               <button
                 onClick={sendNewsletter}
                 disabled={sending || queue.queued.length === 0}
                 className="font-mono text-[10px] uppercase tracking-widest border border-ink px-4 py-2 hover:bg-ink hover:text-paper disabled:opacity-40 disabled:cursor-not-allowed"
+                title="Creates a draft on Buttondown — you publish it from there"
               >
                 {sending
-                  ? "Sending…"
-                  : `Send newsletter (${queue.queued.length})`}
+                  ? "Creating draft…"
+                  : `Create draft (${queue.queued.length})`}
               </button>
             </div>
             {sendMsg && (
@@ -578,13 +590,17 @@ export function AdminClient({
         <ul className="divide-y divide-ink border-b border-ink">
           {visible.map((rec, i) => {
             const isQueued = queuedSet.has(rec.id);
-            const isSent = sentSet.has(rec.id);
+            const sentTimes = sentCount.get(rec.id) || 0;
+            const isSent = sentTimes > 0;
             const canQueue = rec.status === "approved";
-            // Allow "remove" even if disabled-for-add, so user can un-queue.
+            // `isSent` is purely informational now (badge below shows
+            // how many times this record has gone out before). The
+            // curator can re-queue a previously-sent record for the
+            // next mailing — common when re-featuring a release in a
+            // monthly recap or a themed roundup.
             const checkboxDisabled =
               busyIds.has(rec.id) ||
               !canQueue ||
-              isSent ||
               (!isQueued && queueFull);
             return (
               <li key={rec.id} className="px-6 sm:px-8 py-6 flex flex-col gap-5">
@@ -696,18 +712,23 @@ export function AdminClient({
                       Reset to pool
                     </button>
                     {/* Newsletter queue toggle. Only appears on approved
-                        records; also greyed once this record has shipped in
-                        any previous newsletter. */}
+                        records. Records that have shipped in previous
+                        newsletters CAN be re-queued — the badge surfaces
+                        the previous-send count so the curator sees
+                        history at a glance without it blocking re-use. */}
                     <label
                       className={`font-mono text-[10px] uppercase tracking-widest flex items-center gap-2 border px-3 py-2 ${
                         isQueued
                           ? "border-ink bg-ink text-paper"
-                          : isSent
-                            ? "border-mute text-mute cursor-not-allowed"
-                            : canQueue
-                              ? "border-ink hover:bg-ink hover:text-paper cursor-pointer"
-                              : "border-mute text-mute cursor-not-allowed"
+                          : canQueue && !queueFull
+                            ? "border-ink hover:bg-ink hover:text-paper cursor-pointer"
+                            : "border-mute text-mute cursor-not-allowed"
                       } ${checkboxDisabled && !isQueued ? "opacity-40 cursor-not-allowed" : ""}`}
+                      title={
+                        isSent
+                          ? `Previously sent in ${sentTimes} newsletter${sentTimes === 1 ? "" : "s"} — re-queue is allowed`
+                          : undefined
+                      }
                     >
                       <input
                         type="checkbox"
@@ -717,15 +738,15 @@ export function AdminClient({
                         className="accent-ink"
                       />
                       <span>
-                        {isSent
-                          ? "Sent in newsletter ●"
-                          : isQueued
-                            ? "In next newsletter ✓"
-                            : !canQueue
-                              ? "Newsletter (publish first)"
-                              : queueFull
-                                ? "Queue full"
-                                : "In next newsletter"}
+                        {isQueued
+                          ? "In next draft ✓"
+                          : !canQueue
+                            ? "Newsletter (publish first)"
+                            : queueFull
+                              ? "Queue full"
+                              : isSent
+                                ? `Add to draft (sent ${sentTimes}× before)`
+                                : "Add to next draft"}
                       </span>
                     </label>
                   </div>

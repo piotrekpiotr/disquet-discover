@@ -164,9 +164,22 @@ export async function unsubscribe(email: string): Promise<void> {
 }
 
 /**
- * Send a one-off email to every subscriber tagged with the standard
- * subscriber tag. `subject`, `html`, `text` are the three payloads Buttondown
- * understands.
+ * Create a Buttondown email DRAFT for the next mailing.
+ *
+ * IMPORTANT — this does NOT send to subscribers. POST /v1/emails with
+ * the payload below creates the email in Buttondown's "Drafts" state;
+ * the curator must then click "Publish" inside Buttondown's UI to
+ * actually push it to subscribers. This is intentional: it gives the
+ * curator a chance to preview the rendered email, tweak the subject /
+ * intro text on Buttondown's side, and only then commit the send.
+ *
+ * Why we don't auto-publish:
+ *   The Buttondown API supports an `about_to_send` status that would
+ *   skip the draft and ship immediately. We deliberately don't use it —
+ *   the curator wanted the preview-then-publish loop ("If that's the
+ *   route - confirm it and I'll try sending manually"). If that
+ *   preference ever flips, set `status: "about_to_send"` in the
+ *   payload below; everything else stays the same.
  *
  * `email_type: "public"` means the send is archived on the
  * buttondown.email/<slug> page (free public archive - we want it: helps SEO
@@ -186,6 +199,8 @@ export async function sendBroadcast(opts: {
     body_text: opts.text,
     email_type: "public",
     tags_included: [SUBSCRIBER_TAG],
+    // Status omitted on purpose → Buttondown defaults to "draft".
+    // See the function-level comment above for the rationale.
   };
   if (!apiKey()) {
     await devEcho("send", {
