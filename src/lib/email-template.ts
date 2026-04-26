@@ -57,26 +57,62 @@ const BODY_STACK =
   "-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif";
 const DISPLAY_STACK = "Georgia, 'Times New Roman', Times, serif";
 
-/** Render the per-service link row for a single record. */
+/**
+ * Render the per-service link row for a single record.
+ *
+ * Order mirrors EmbedPlayer.SERVICE_ORDER exactly so a release reads
+ * the same in the inbox as on the website. Empty/missing keys are
+ * filtered out — the curator clearing a service URL in /admin (which,
+ * since the updateItem replace-not-merge fix, actually wipes the
+ * stored value) drops that chip from the next mailing automatically.
+ *
+ * Apple Music deep-linking from email — note for future readers:
+ *   The website's ServiceLink uses a JS dance (window.location.href =
+ *   "itmss://…" + visibility timer + fallback to web URL) to deep-link
+ *   into the native Apple Music app on click. That JS DOES NOT run in
+ *   email clients — every major one (Gmail, Outlook, Apple Mail, etc.)
+ *   strips <script> and JS-driven attributes for security. So we
+ *   deliberately stick with the plain `https://music.apple.com/<path>`
+ *   URL and rely on Universal Links to do the OS-level handoff:
+ *
+ *     - iOS Mail.app / Gmail iOS / Outlook iOS → tap routes to Apple
+ *       Music app via Universal Link entitlement; no script needed.
+ *     - macOS Mail.app → click routes to the desktop Apple Music app
+ *       similarly.
+ *     - Browser-based webmail / Linux / non-Apple desktop → click opens
+ *       `music.apple.com` in the default browser (web player).
+ *
+ *   Net effect from the reader's POV is identical to the website's
+ *   click handler: app opens if installed, web fallback otherwise.
+ *   Replacing the https URL with `itmss://` would actively break the
+ *   web fallback path (custom URI schemes aren't forwarded by webmail
+ *   to a default handler), so we keep https. This is the same reason
+ *   YouTube / Bandcamp links also stay as plain https in the website's
+ *   ServiceLink — let the OS do the right thing.
+ */
 function linkRow(links: Links): string {
   const ORDER: Array<keyof Links> = [
     "bandcamp",
-    "spotify",
     "apple",
-    "deezer",
+    "spotify",
+    "youtube",
     "soundcloud",
     "tidal",
-    "youtube",
+    "deezer",
   ];
   const LABELS: Record<keyof Links, string> = {
     bandcamp: "Bandcamp",
-    spotify: "Spotify",
     apple: "Apple Music",
-    deezer: "Deezer",
+    spotify: "Spotify",
+    youtube: "YouTube",
     soundcloud: "SoundCloud",
     tidal: "Tidal",
-    youtube: "YouTube",
+    deezer: "Deezer",
   };
+  // Truthiness filter only: curator-cleared fields are empty strings or
+  // missing keys (both falsy), and so don't render. Auto-populated
+  // search URLs from sync-artists are still strings, so they DO render
+  // — same as the website's feed, which is what the curator asked for.
   const active = ORDER.filter((k) => links[k]);
   if (active.length === 0) return "";
   return active
@@ -231,10 +267,18 @@ export function renderText(opts: {
     lines.push(`${rec.artist} - ${rec.title}`);
     lines.push(meta);
     if (rec.description) lines.push(rec.description);
+    // Order mirrors linkRow() / EmbedPlayer.SERVICE_ORDER. Falsy filter
+    // drops curator-cleared fields, same rule as the HTML version.
     const serviceLinks = (
-      ["bandcamp", "spotify", "apple", "deezer", "soundcloud", "youtube"] as Array<
-        keyof Links
-      >
+      [
+        "bandcamp",
+        "apple",
+        "spotify",
+        "youtube",
+        "soundcloud",
+        "tidal",
+        "deezer",
+      ] as Array<keyof Links>
     )
       .filter((k) => rec.links[k])
       .map((k) => `${k}: ${rec.links[k]}`)
