@@ -116,7 +116,19 @@ export function buildAppUrl(
 
   switch (service) {
     case "spotify":
-      return spotifyAppUrl(u);
+      // MOBILE ONLY for the URI scheme. On desktop, the click handler's
+      // `window.open("", "_blank")` is rejected by Safari (empty URL),
+      // and the 1.5-s fallback `window.open(webUrl, "_blank")` from
+      // inside setTimeout is popup-blocked everywhere because the user
+      // gesture has expired by then. Net result: nothing visible
+      // happens when the curator clicks a Spotify chip on desktop with
+      // a real album/track URL — the exact bug report. Returning null
+      // on desktop matches the soundcloud / deezer / tidal pattern in
+      // this same switch: anchor's `target="_blank"` opens the web
+      // URL in a new tab, which always works. Curator with the Spotify
+      // desktop app installed can use the web player's "Open in
+      // Spotify" button to jump to the native app.
+      return isMobile(platform) ? spotifyAppUrl(u) : null;
     case "apple":
       return appleAppUrl(u, platform);
     case "deezer":
