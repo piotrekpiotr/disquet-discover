@@ -4,8 +4,14 @@ import type { Recommendation, ReleaseType } from "@/lib/types";
 import { CoverArt } from "@/components/CoverArt";
 import { EmbedPicker } from "@/components/admin/EmbedPicker";
 
-type LinkKey = "bandcamp" | "spotify" | "soundcloud" | "apple" | "tidal" | "youtube";
-const LINK_KEYS: LinkKey[] = ["bandcamp", "spotify", "soundcloud", "apple", "tidal", "youtube"];
+// Every link key the public site can render. Order matches the curator-
+// preferred display order from EmbedPlayer's SERVICE_ORDER (bandcamp,
+// apple, spotify, youtube, soundcloud, tidal, deezer). Keep ALL link
+// types editable from here — without `deezer` in the list, the form
+// can't clear a deezer URL that backfill-embeds.mjs auto-set, and the
+// "send canonical state" save behaviour below would silently wipe it.
+type LinkKey = "bandcamp" | "apple" | "spotify" | "youtube" | "soundcloud" | "tidal" | "deezer";
+const LINK_KEYS: LinkKey[] = ["bandcamp", "apple", "spotify", "youtube", "soundcloud", "tidal", "deezer"];
 
 export function EditForm({
   rec,
@@ -32,11 +38,12 @@ export function EditForm({
   const [musicVideoUrl, setMusicVideoUrl] = useState(rec.musicVideoUrl ?? "");
   const [links, setLinks] = useState<Record<LinkKey, string>>({
     bandcamp: rec.links.bandcamp ?? "",
-    spotify: rec.links.spotify ?? "",
-    soundcloud: rec.links.soundcloud ?? "",
     apple: rec.links.apple ?? "",
-    tidal: rec.links.tidal ?? "",
+    spotify: rec.links.spotify ?? "",
     youtube: rec.links.youtube ?? "",
+    soundcloud: rec.links.soundcloud ?? "",
+    tidal: rec.links.tidal ?? "",
+    deezer: rec.links.deezer ?? "",
   });
   const [saving, setSaving] = useState(false);
   const [error, setError] = useState<string | null>(null);

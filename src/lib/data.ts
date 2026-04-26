@@ -149,7 +149,18 @@ export async function updateItem(
   const merged: Recommendation = {
     ...current,
     ...patch,
-    links: patch.links ? { ...current.links, ...patch.links } : current.links,
+    // `links`: REPLACE not merge. The admin EditForm sends the full
+    // canonical link map on every save (every key the form knows about,
+    // omitted iff that field is empty). With a merge, an emptied field
+    // just disappears from the patch and the old value sticks around —
+    // so clearing a Bandcamp URL in admin "didn't" clear it. Replacing
+    // makes empty mean empty.
+    //
+    // Patches from elsewhere (EmbedPicker, status changes, etc.) don't
+    // include `links` at all, so the conditional below preserves
+    // current.links untouched on those paths — only EditForm's full-
+    // state save can wipe a link.
+    links: patch.links ? patch.links : current.links,
     cover: patch.cover ? { ...current.cover, ...patch.cover } : current.cover,
   };
   items[idx] = merged;
