@@ -6,7 +6,15 @@ import { CoverArt } from "@/components/CoverArt";
 import { EmbedPlayer } from "@/components/EmbedPlayer";
 import { EditForm } from "@/components/admin/EditForm";
 
-type Counts = { total: number; pending: number; approved: number; rejected: number };
+type Counts = {
+  total: number;
+  pending: number;
+  approved: number;
+  rejected: number;
+  future: number;
+};
+
+type AdminFilter = Status | "all" | "future";
 
 type QueueState = {
   queued: string[];
@@ -14,10 +22,16 @@ type QueueState = {
   max: number;
 };
 
-const FILTERS: Array<{ key: Status | "all"; label: string }> = [
+const FILTERS: Array<{ key: AdminFilter; label: string }> = [
   { key: "pending", label: "Pool" },
   { key: "approved", label: "Published" },
   { key: "rejected", label: "Rejected" },
+  // "Future" surfaces records whose releaseDate is after today,
+  // regardless of status. Lets the curator separate "needs deciding
+  // now" (Pool) from "scheduled for later" (Future). The Pool tab
+  // explicitly excludes future-dated records server-side so they
+  // don't clutter the working queue.
+  { key: "future", label: "Future" },
   { key: "all", label: "All" },
 ];
 
@@ -30,7 +44,7 @@ export function AdminClient({
   initialCounts: Counts;
   initialHasMore: boolean;
 }) {
-  const [filter, setFilter] = useState<Status | "all">("pending");
+  const [filter, setFilter] = useState<AdminFilter>("pending");
   const [items, setItems] = useState<Recommendation[]>(initialItems);
   const [counts, setCounts] = useState<Counts>(initialCounts);
   const [hasMore, setHasMore] = useState(initialHasMore);
@@ -73,7 +87,7 @@ export function AdminClient({
   const [addBusy, setAddBusy] = useState(false);
   const [addMsg, setAddMsg] = useState<string | null>(null);
 
-  const fetchPage = async (f: Status | "all", off: number, q = "") => {
+  const fetchPage = async (f: AdminFilter, off: number, q = "") => {
     const params = new URLSearchParams({ filter: f, offset: String(off) });
     if (q.trim()) params.set("q", q.trim());
     const res = await fetch(`/api/pool?${params.toString()}`, {
@@ -290,14 +304,26 @@ export function AdminClient({
         return;
       }
       const added = body.item;
-      // Only show it in the list if the current filter would include it.
-      if (filter === "all" || filter === "pending") {
+      const addedIsFuture =
+        (added.releaseDate || "") > new Date().toISOString().slice(0, 10);
+      // Show in current list iff the active filter would surface it.
+      // Pool excludes future releases (they live in the Future tab),
+      // so a future-dated add only shows inline when the user is on
+      // All or Future itself.
+      const shouldShow =
+        filter === "all" ||
+        (filter === "pending" && !addedIsFuture) ||
+        (filter === "future" && addedIsFuture);
+      if (shouldShow) {
         setItems((prev) => [added, ...prev.filter((r) => r.id !== added.id)]);
       }
       setCounts((c) => ({
         ...c,
         total: c.total + 1,
-        pending: c.pending + 1,
+        // New records are always status=pending; only the date-bucket
+        // changes whether they count toward Pool or Future.
+        pending: c.pending + (addedIsFuture ? 0 : 1),
+        future: c.future + (addedIsFuture ? 1 : 0),
       }));
       setAddMsg(`Added: ${added.artist} – ${added.title}. Scroll down to find it in Pool.`);
       setAddUrl("");
@@ -362,7 +388,18 @@ export function AdminClient({
     }
   };
 
-  const visible = items.filter((r) => filter === "all" || r.status === filter);
+  // Client-side fallback filter. The server already enforces these rules
+  // in getPoolPage(); this is just defensive so a record that arrived in
+  // `items` from a different filter context (e.g. an addRelease prepend
+  // while filter=pending) doesn't visually leak into the wrong tab.
+  const todayIso = new Date().toISOString().slice(0, 10);
+  const visible = items.filter((r) => {
+    if (filter === "all") return true;
+    if (filter === "future") return (r.releaseDate || "") > todayIso;
+    if (filter === "pending")
+      return r.status === "pending" && (r.releaseDate || "") <= todayIso;
+    return r.status === filter;
+  });
   const queuedSet = new Set(queue.queued);
   // Count how many times each record has gone out before. `queue.sent`
   // accumulates a fresh entry per send, so duplicates here are valid:
@@ -393,6 +430,7 @@ export function AdminClient({
               <div>Pool - {counts.pending}</div>
               <div>Published - {counts.approved}</div>
               <div>Rejected - {counts.rejected}</div>
+              <div>Future - {counts.future}</div>
               <div>Total - {counts.total}</div>
               <Link
                 href="/admin/monitoring"

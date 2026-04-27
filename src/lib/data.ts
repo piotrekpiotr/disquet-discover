@@ -248,21 +248,55 @@ function matchesSearch(rec: Recommendation, q: string): boolean {
 }
 
 /**
+ * "Today" in YYYY-MM-DD form. Used by the future-release filter so
+ * single-day differences are deterministic across timezones (we
+ * compare YYYY-MM-DD strings, not Date objects).
+ */
+function todayIso(): string {
+  return new Date().toISOString().slice(0, 10);
+}
+
+/** Filter dimension that's orthogonal to status — UI 5th tab. */
+export type AdminFilter = Status | "all" | "future";
+
+/**
  * Admin pool: 15 at a time, paginated by offset. Optional `q` is a
  * case-insensitive substring matched against artist + title + label;
  * when non-empty the result is the cross-status search hit list,
- * intersected with the chosen `filter` (so the four tabs continue to
- * act as refinements over the search rather than competing controls).
+ * intersected with the chosen `filter`.
+ *
+ * Filter dimension semantics:
+ *   - "pending"  → status === pending AND releaseDate <= today.
+ *     Releases with a future releaseDate (announce-now-drop-later
+ *     singles like Tricky's 17-July one-off) are EXCLUDED from the
+ *     working Pool tab so the curator's queue stays focused on what's
+ *     ready to publish today.
+ *   - "approved", "rejected" → straightforward status filter, no date
+ *     constraint. Already-approved future releases stay in Published.
+ *   - "all"     → everything, every status, every date.
+ *   - "future"  → releaseDate > today, regardless of status. Sister
+ *     view to Pool that surfaces the announced-but-unreleased queue.
  */
 export async function getPoolPage(
-  filter: Status | "all",
+  filter: AdminFilter,
   offset: number,
   limit = 15,
   q = "",
 ) {
   const all = await getAll();
-  const byStatus =
-    filter === "all" ? all : all.filter((r) => r.status === filter);
+  const today = todayIso();
+  let byStatus: Recommendation[];
+  if (filter === "all") {
+    byStatus = all;
+  } else if (filter === "future") {
+    byStatus = all.filter((r) => (r.releaseDate || "") > today);
+  } else if (filter === "pending") {
+    byStatus = all.filter(
+      (r) => r.status === "pending" && (r.releaseDate || "") <= today,
+    );
+  } else {
+    byStatus = all.filter((r) => r.status === filter);
+  }
   const filtered = q.trim()
     ? byStatus.filter((r) => matchesSearch(r, q))
     : byStatus;
@@ -293,14 +327,22 @@ export async function getLatestPublishedAt(): Promise<string | null> {
  * tab labels show how many results live in each status, helping the
  * curator jump straight to the right tab. Without a query (default),
  * the counts are global and the tabs behave as before.
+ *
+ * `pending` matches the Pool tab's filter (status=pending AND
+ * releaseDate<=today) so the count on the tab matches what the tab
+ * actually displays. `future` is a sibling count for the Future tab.
  */
 export async function getCounts(q = "") {
   const all = await getAll();
   const pool = q.trim() ? all.filter((r) => matchesSearch(r, q)) : all;
+  const today = todayIso();
   return {
     total: pool.length,
-    pending: pool.filter((r) => r.status === "pending").length,
+    pending: pool.filter(
+      (r) => r.status === "pending" && (r.releaseDate || "") <= today,
+    ).length,
     approved: pool.filter((r) => r.status === "approved").length,
     rejected: pool.filter((r) => r.status === "rejected").length,
+    future: pool.filter((r) => (r.releaseDate || "") > today).length,
   };
 }

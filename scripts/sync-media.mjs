@@ -47,6 +47,10 @@ import {
   AUTO_PROMOTE_MATCH_THRESHOLD,
   AUTO_PROMOTE_POOL_COUNT_THRESHOLD,
 } from "./sources/lastfm.mjs";
+import {
+  buildFingerprint as buildLastfmTagFingerprint,
+  findTagCandidates as findLastfmTagCandidates,
+} from "./sources/lastfm-tags.mjs";
 
 const RECS_FILE = path.resolve("data/recommendations.json");
 const CANDIDATES_FILE = path.resolve("data/media-candidates.json");
@@ -102,6 +106,25 @@ const FEEDS = [
     id: "fact",
     name: "Fact Magazine",
     url: "https://www.factmag.com/feed/",
+  },
+  {
+    // Bandcamp Daily — editorial coverage of the Bandcamp catalogue.
+    // Strong signal for our genre (lots of left-field electronic /
+    // experimental coverage Pitchfork/Quietus skip). RSS works without
+    // headers, JSON-LD inside is overkill — the regular RSS extracts
+    // fine.
+    id: "bandcamp_daily",
+    name: "Bandcamp Daily",
+    url: "https://daily.bandcamp.com/feed",
+  },
+  {
+    // Stereogum — broader pop/indie coverage. "Album Of The Week" and
+    // "Premature Evaluation" recurring columns give clean (artist,
+    // title) tuples. Most of the rest is news that won't auto-promote
+    // (single-source + Last.fm-similarity gate handles that).
+    id: "stereogum",
+    name: "Stereogum",
+    url: "https://www.stereogum.com/feed",
   },
 ];
 
@@ -202,17 +225,34 @@ function parseEntry(entry, sourceId) {
   const title = (entry.title || "").trim();
   const desc = (entry.description || "").trim();
 
-  // Pitchfork: <title> is just the album title; <description> has "Artist's"
-  // possessive or a "— Artist Name" byline. Best signal is creator.
+  // Pitchfork: their /feed/rss is a MIXED feed (news + reviews + lists)
+  // since the late-2025 RSS consolidation. The "Artist: Album" colon
+  // shape is how album reviews are titled, but news/list articles show
+  // as "11 New Albums You Should Listen to Now: Kehlani, Loukeman, …"
+  // — same colon shape, completely different meaning. Earlier versions
+  // of this code blindly pulled the part before the colon as the
+  // artist name, polluting media-candidates.json with junk like
+  // "11 New Albums You Should Listen to Now". The reject list below
+  // catches those, plus the "What Critics Are Saying About …" / "Pin
+  // Drops" / "The Best New Music" ledes.
   if (sourceId === "pitchfork") {
-    // Pitchfork titles often look like "Artist: Album" or just "Album"
+    const NEWS_LEDE = /^(?:\d+\s+(?:new\s+)?(?:albums?|songs?|tracks?|releases?|things?)|the\s+(?:best|biggest)\s|what\s+(?:critics?|to)\s|pin\s+drops?|listen|watch|stream|read|album premiere|track premiere|q&a|interview|essay|feature|news|the week in music|tracking)/i;
+    if (NEWS_LEDE.test(title)) {
+      return { artist: "", releaseTitle: title, confidence: "low" };
+    }
     const colon = title.match(/^([^:]+):\s*(.+)$/);
     if (colon) {
-      return {
-        artist: colon[1].trim(),
-        releaseTitle: colon[2].trim(),
-        confidence: "high",
-      };
+      const artist = colon[1].trim();
+      // Even with the lede filter, sentences ending in a colon ("X
+      // returns from hiatus: Y") are the news pattern; treat artists
+      // longer than ~40 chars or containing a verb-ish whitespace
+      // pattern as low-confidence. 40 is the cutoff because real
+      // multi-artist credits ("Sam Gendel & Sam Wilkes & Philippe
+      // Melanson") fit comfortably under that.
+      if (artist.length > 40 || /\bnew\b|\bbest\b|\btop\b/i.test(artist)) {
+        return { artist: "", releaseTitle: title, confidence: "low" };
+      }
+      return { artist, releaseTitle: colon[2].trim(), confidence: "high" };
     }
     // Fallback: pull artist from description's "Listen to X's new album" style
     const descMatch = desc.match(/^([A-Z][\w\s&.'-]+?)'s\s+(?:new\s+)?(?:album|EP|single|record)/i);
@@ -221,6 +261,99 @@ function parseEntry(entry, sourceId) {
         artist: descMatch[1].trim(),
         releaseTitle: title,
         confidence: "low",
+      };
+    }
+    return { artist: "", releaseTitle: title, confidence: "low" };
+  }
+
+  // Bandcamp Daily: their RSS is editorial-flavoured ("Artist's New
+  // Album X Is …", "On Y's Latest Record …", "The Best New Z").
+  // We treat the daily.bandcamp.com feed mostly as a press-boost
+  // signal — match artist names that already exist in the pool — and
+  // only rarely accept it as a candidate source (low-confidence
+  // default). Daily often profiles 5–10 artists in a single article;
+  // pulling a single canonical artist out of those is unreliable.
+  if (sourceId === "bandcamp_daily") {
+    // Skip the editorial-feature ledes that don't yield (artist, title)
+    // tuples cleanly. "Various Artists" entries also skip — they're
+    // VA comps, not single-artist releases, and adding "Various Artists"
+    // to the candidate file would be useless noise.
+    const FEATURE_LEDE =
+      /^(?:essential releases|underground medicine|the merch table|read|listen|watch|stream|q&a|interview|the best new|big ups|hidden gems|how|why|where|when|tracking|retracing|the week in)/i;
+    if (FEATURE_LEDE.test(title)) {
+      return { artist: "", releaseTitle: title, confidence: "low" };
+    }
+    if (/^various artists\b/i.test(title)) {
+      return { artist: "", releaseTitle: title, confidence: "low" };
+    }
+    // "Album of the Day: Artist - Title" — the explicit review column.
+    const aotd = title.match(
+      /^Album of the Day:\s*(.+?)\s+[-–—,]\s+["“]?(.+?)["”]?$/i,
+    );
+    if (aotd) {
+      return {
+        artist: aotd[1].trim(),
+        releaseTitle: aotd[2].trim(),
+        confidence: "high",
+      };
+    }
+    // The recurring track/album-of-the-week column ships as
+    //   `Artist, "Title"` (comma + smart-quoted title)
+    // for both single tracks ("Carla dal Forno, "Confession"") and
+    // albums. This is the most common high-signal shape on the feed.
+    const commaQuoted = title.match(
+      /^(.+?)[,]\s+[“"”'']([^“”"'']+)[“"”'']\s*$/,
+    );
+    if (commaQuoted) {
+      const artist = commaQuoted[1].trim();
+      // Reject obvious non-artist openers (rare but cheap to guard).
+      if (artist.length < 80 && !FEATURE_LEDE.test(artist)) {
+        return {
+          artist,
+          releaseTitle: commaQuoted[2].trim(),
+          confidence: "high",
+        };
+      }
+    }
+    // "On Artist's New X" / "With Artist's New X" — pull artist, leave
+    // title vague.
+    const possessive = title.match(
+      /^(?:On|With|For)\s+([A-Z][\w\s&.'-]+?)'s\s+(?:new\s+)?(?:album|EP|single|record|debut|LP)/i,
+    );
+    if (possessive) {
+      return {
+        artist: possessive[1].trim(),
+        releaseTitle: "",
+        confidence: "low",
+      };
+    }
+    return { artist: "", releaseTitle: title, confidence: "low" };
+  }
+
+  // Stereogum: heavy on news/lists. Real review titles live as
+  // "Album Of The Week: Artist – Title" or "Premature Evaluation:
+  // Artist – Title". Both are clean signals when they fire. Most of
+  // the rest is news that won't yield a useful artist tuple.
+  if (sourceId === "stereogum") {
+    const m = title.match(
+      /^(?:Album Of The Week|Premature Evaluation|Heavy Rotation):\s*(.+?)\s+[-–—,]\s+["“]?(.+?)["”]?$/i,
+    );
+    if (m) {
+      return {
+        artist: m[1].trim(),
+        releaseTitle: m[2].trim(),
+        confidence: "high",
+      };
+    }
+    // "Artist Drops/Shares/Releases X" style — same as Fact below.
+    const verb = title.match(
+      /^([A-Z][\w\s&.'-]+?)\s+(?:shares?|announces?|drops?|releases?|returns? with|unveils?|previews?)\s+(?:new\s+)?(?:album|EP|single|track|record|LP)?\s*["“'']?([^"”'']+?)["”'']?$/i,
+    );
+    if (verb) {
+      return {
+        artist: verb[1].trim(),
+        releaseTitle: verb[2].trim(),
+        confidence: "high",
       };
     }
     return { artist: "", releaseTitle: title, confidence: "low" };
@@ -462,6 +595,22 @@ async function main() {
     for (const entry of entries) {
       const parsed = parseEntry(entry, feed.id);
       if (!parsed.artist) continue;
+      // Universal artist-name reject. Cheap defenses against the most
+      // common false-positives every parser produces: "Various
+      // Artists" comp credits, suspiciously short tokens that are
+      // usually article remnants ("USC"-style), and the residual
+      // "N new albums…" lede that occasionally slips past a per-
+      // source LEDE check. Cheap to add at the orchestrator so we
+      // don't keep re-implementing it inside each source branch.
+      const cleaned = parsed.artist.trim();
+      if (
+        /^various\s+artists?\b/i.test(cleaned) ||
+        /^(va|v\.a\.)\s*$/i.test(cleaned) ||
+        /^\d+\s+(?:new|best|top)\b/i.test(cleaned) ||
+        cleaned.length < 2
+      ) {
+        continue;
+      }
       const artistKey = normalise(parsed.artist);
 
       // Job 1: boost pressMentions on existing records for this artist.
@@ -504,6 +653,54 @@ async function main() {
       candidates[displayName] = cur;
       candidateMentions++;
     }
+  }
+
+  // Last.fm tag-based discovery. Runs AFTER the press feeds so the
+  // pool-tag fingerprint is built from the same POOL_ARTISTS the press
+  // pass used (consistent excludeKeys). For every fingerprint tag
+  // (top 20 most-frequent tags across the pool), Last.fm's
+  // tag.getTopArtists returns ~50 names ranked by listen count; we
+  // surface the non-pool ones with their tag-overlap count as the
+  // score. A candidate appearing under N>=2 of our fingerprint tags
+  // is a strong scene-fit signal — counts as ONE source ("lastfm-tags")
+  // for the auto-promote gate but ALSO records the matching tags so
+  // the curator sees the why on /admin/candidates.
+  //
+  // The fingerprint cache (data/lastfm-tag-fingerprint.json) has 7-day
+  // TTL — pool composition changes slowly. The actual tag.getTopArtists
+  // calls are made every run so candidate volume reflects whichever
+  // artists Last.fm has been promoting recently.
+  try {
+    const fingerprint = await buildLastfmTagFingerprint(POOL_ARTISTS);
+    if (fingerprint) {
+      const tagRows = await findLastfmTagCandidates(fingerprint, pooledSet);
+      for (const row of tagRows) {
+        const cur = candidates[row.name] || {
+          firstSeen: today,
+          lastSeen: today,
+          sources: [],
+          titleHints: [],
+          mentions: 0,
+        };
+        cur.lastSeen = today;
+        cur.mentions++;
+        if (!cur.sources.includes("lastfm-tags")) {
+          cur.sources.push("lastfm-tags");
+        }
+        // Stash the matching pool tags so the candidates UI can show
+        // "matched on: ambient · dub techno · idm" as the rationale.
+        // Stored on a sibling field rather than titleHints so press-
+        // candidate hints stay distinguishable from tag matches.
+        cur.poolTags = Array.from(
+          new Set([...(cur.poolTags || []), ...row.tags]),
+        ).slice(0, 8);
+        cur.poolTagOverlap = Math.max(cur.poolTagOverlap || 0, row.score);
+        candidates[row.name] = cur;
+        candidateMentions++;
+      }
+    }
+  } catch (e) {
+    console.log(`[lastfm-tags] failed: ${e.message}`);
   }
 
   // Auto-promotion pass. Runs AFTER all feeds are accumulated so a

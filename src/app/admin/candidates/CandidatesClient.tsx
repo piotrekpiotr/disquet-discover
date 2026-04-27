@@ -195,6 +195,22 @@ export function CandidatesClient({
                       {row.titleHints.length > 3 && ", …"}
                     </div>
                   )}
+                  {row.poolTags && row.poolTags.length > 0 && (
+                    // Surfaced when sync-media's Last.fm tag-discovery
+                    // step matched this artist on N of the pool's
+                    // genre-fingerprint tags. Curator can read at-a-
+                    // glance "yes that's our scene" without leaving
+                    // the page.
+                    <div className="font-mono text-[10px] uppercase tracking-widest text-mute leading-snug">
+                      matched on {row.poolTagOverlap || row.poolTags.length} pool tag
+                      {(row.poolTagOverlap || row.poolTags.length) === 1 ? "" : "s"}
+                      :{" "}
+                      <span className="text-ink">
+                        {row.poolTags.slice(0, 6).join(" · ")}
+                        {row.poolTags.length > 6 ? " · …" : ""}
+                      </span>
+                    </div>
+                  )}
                 </div>
                 <div className="flex gap-2 shrink-0">
                   <button

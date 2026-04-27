@@ -62,6 +62,18 @@ export interface MediaCandidate {
    */
   autoPromoted?: boolean;
   autoPromoteScore?: AutoPromoteScore;
+  /**
+   * Populated by the Last.fm tag-discovery source — the subset of our
+   * pool's tag fingerprint that this candidate ALSO appears under.
+   * UI renders this as a small "matched on: ambient · idm · dub
+   * techno" subtitle so the curator immediately sees why the
+   * algorithm thought this artist was scene-adjacent.
+   */
+  poolTags?: string[];
+  /** Count of fingerprint tags the candidate hit (denormalised from
+   *  poolTags.length to stay forward-compatible if we ever truncate
+   *  the displayed list). */
+  poolTagOverlap?: number;
 }
 
 export type MediaCandidates = Record<string, MediaCandidate>;
@@ -131,6 +143,11 @@ function sanitise(raw: unknown): MediaCandidates {
       promoted: v.promoted === true ? true : undefined,
       autoPromoted: v.autoPromoted === true ? true : undefined,
       autoPromoteScore: sanitisedScore,
+      poolTags: Array.isArray(v.poolTags)
+        ? v.poolTags.filter((s): s is string => typeof s === "string")
+        : undefined,
+      poolTagOverlap:
+        typeof v.poolTagOverlap === "number" ? v.poolTagOverlap : undefined,
     };
   }
   return out;

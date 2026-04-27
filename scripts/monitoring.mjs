@@ -200,6 +200,35 @@ export const ARTISTS = [
   "Synkro",
   "Visible Cloaks",
   "Nikita, the Wicked",
+  // Heavy / psych / stoner-rock additions — Colour Haze + Causa Sui are
+  // long-running Nasoni / El Paraiso family acts, included for the
+  // catalog-completeness bias on those labels.
+  "Colour Haze",
+  "Causa Sui",
+  // Beats / hybrid / left-pop wave.
+  "Shlohmo",
+  "Thundercat",
+  "Nia Archives",
+  // Curator typed "Bauuer" — the canonical iTunes/Deezer/Spotify spelling
+  // is "Baauer" (double-a). Using the correct spelling so the daily sync
+  // actually matches release metadata.
+  "Baauer",
+  // PPP — iTunes credits collab releases (e.g. "Wisco" 2026-03-10) as
+  // "PPP, Piezo, Dj Plead & DJ Python", but the leading artist token
+  // "PPP" is what iTunes/Deezer index as the canonical artist (Deezer
+  // shows 37 albums under "PPP"). Adding the short form so the loose-
+  // match logic in scanArtist picks up everything credited that way.
+  "PPP",
+  // SURF GANG — appears in iTunes under that exact uppercase form
+  // (collabs like "John Glacier & SURF GANG", "Jawnino & SURF GANG").
+  "SURF GANG",
+  // Xang — Deezer has 55 albums under this exact name. iTunes search
+  // for the bare token is noisy (gets unrelated MC Xang etc.) but the
+  // Deezer-fallback path in sync-artists handles that case cleanly.
+  "Xang",
+  // Polish indie/electronic act, multiple recent releases on iTunes
+  // ("Sorry, nie tu" 2024, "SIEKA" 2026-02-19, "Brudna - Bielizna" 2026-04-03).
+  "Kosmonauci",
   "Jlin",
   "Koreless",
   "Mark Pritchard",
