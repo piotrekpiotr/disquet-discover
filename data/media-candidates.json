@@ -1,25 +1,180 @@
 {
   "11 New Albums You Should Listen to Now": {
     "firstSeen": "2026-04-25",
-    "lastSeen": "2026-04-26",
+    "lastSeen": "2026-04-27",
     "sources": [
       "pitchfork"
     ],
     "titleHints": [
       "Kehlani, Loukeman, and More"
     ],
-    "mentions": 3
+    "mentions": 4
   },
   "What Critics Are Saying About Michael": {
     "firstSeen": "2026-04-25",
-    "lastSeen": "2026-04-26",
+    "lastSeen": "2026-04-27",
     "sources": [
       "pitchfork"
     ],
     "titleHints": [
       "“Like Being Frog-Marched Through a Wax Museum”"
     ],
-    "mentions": 3
+    "mentions": 4
+  },
+  "Jump Source": {
+    "firstSeen": "2026-04-25",
+    "lastSeen": "2026-04-27",
+    "sources": [
+      "ra"
+    ],
+    "titleHints": [
+      "Fold"
+    ],
+    "mentions": 4
+  },
+  "John Summit": {
+    "firstSeen": "2026-04-25",
+    "lastSeen": "2026-04-27",
+    "sources": [
+      "ra"
+    ],
+    "titleHints": [
+      "CTRL ESCAPE"
+    ],
+    "mentions": 4
+  },
+  "Various Artists": {
+    "firstSeen": "2026-04-25",
+    "lastSeen": "2026-04-27",
+    "sources": [
+      "ra"
+    ],
+    "titleHints": [
+      "Djax-Up-Beats 1990-2005: Volume 1 - The Acid Trip",
+      "When There Is No Sun"
+    ],
+    "mentions": 8
+  },
+  "Actress \\u0026 Suzanne Ciani": {
+    "firstSeen": "2026-04-25",
+    "lastSeen": "2026-04-27",
+    "sources": [
+      "ra"
+    ],
+    "titleHints": [
+      "Concrète Waves"
+    ],
+    "mentions": 4
+  },
+  "Avalon Emerson \\u0026 the Charm": {
+    "firstSeen": "2026-04-25",
+    "lastSeen": "2026-04-27",
+    "sources": [
+      "ra"
+    ],
+    "titleHints": [
+      "Written Into Changes"
+    ],
+    "mentions": 4
+  },
+  "Simo Cell \\u0026 Abdullah Miniawy": {
+    "firstSeen": "2026-04-25",
+    "lastSeen": "2026-04-27",
+    "sources": [
+      "ra"
+    ],
+    "titleHints": [
+      "Dying Is the Internet"
+    ],
+    "mentions": 4
+  },
+  "Decoder": {
+    "firstSeen": "2026-04-25",
+    "lastSeen": "2026-04-27",
+    "sources": [
+      "ra"
+    ],
+    "titleHints": [
+      "Prakasa"
+    ],
+    "mentions": 4
+  },
+  "Peaches": {
+    "firstSeen": "2026-04-25",
+    "lastSeen": "2026-04-27",
+    "sources": [
+      "ra"
+    ],
+    "titleHints": [
+      "No Lube So Rude"
+    ],
+    "mentions": 4
+  },
+  "Butter Sessions": {
+    "firstSeen": "2026-04-25",
+    "lastSeen": "2026-04-27",
+    "sources": [
+      "ra"
+    ],
+    "titleHints": [
+      "15 Years of Butter Sessions"
+    ],
+    "mentions": 4
+  },
+  "Daphni": {
+    "firstSeen": "2026-04-25",
+    "lastSeen": "2026-04-27",
+    "sources": [
+      "ra"
+    ],
+    "titleHints": [
+      "Butterfly"
+    ],
+    "mentions": 4
+  },
+  "Mor Elian": {
+    "firstSeen": "2026-04-25",
+    "lastSeen": "2026-04-27",
+    "sources": [
+      "ra"
+    ],
+    "titleHints": [
+      "Solid Space"
+    ],
+    "mentions": 4
+  },
+  "Eris Drew": {
+    "firstSeen": "2026-04-25",
+    "lastSeen": "2026-04-27",
+    "sources": [
+      "ra"
+    ],
+    "titleHints": [
+      "DJ-Kicks: Eris Drew"
+    ],
+    "mentions": 4
+  },
+  "Charlotte de Witte": {
+    "firstSeen": "2026-04-25",
+    "lastSeen": "2026-04-27",
+    "sources": [
+      "ra"
+    ],
+    "titleHints": [
+      "Charlotte de Witte"
+    ],
+    "mentions": 4
+  },
+  "Siblings Detail Sexual Assault Lawsuit Against Michael Jackson Estate": {
+    "firstSeen": "2026-04-27",
+    "lastSeen": "2026-04-27",
+    "sources": [
+      "pitchfork"
+    ],
+    "titleHints": [
+      "“We Were Groomed”"
+    ],
+    "mentions": 1
   },
   "PinkPantheress, Robyn, More to Guest on Zara Larsson’s Midnight Sun": {
     "firstSeen": "2026-04-25",
@@ -29,150 +184,6 @@
     ],
     "titleHints": [
       "Girls Trip"
-    ],
-    "mentions": 3
-  },
-  "Jump Source": {
-    "firstSeen": "2026-04-25",
-    "lastSeen": "2026-04-26",
-    "sources": [
-      "ra"
-    ],
-    "titleHints": [
-      "Fold"
-    ],
-    "mentions": 3
-  },
-  "John Summit": {
-    "firstSeen": "2026-04-25",
-    "lastSeen": "2026-04-26",
-    "sources": [
-      "ra"
-    ],
-    "titleHints": [
-      "CTRL ESCAPE"
-    ],
-    "mentions": 3
-  },
-  "Various Artists": {
-    "firstSeen": "2026-04-25",
-    "lastSeen": "2026-04-26",
-    "sources": [
-      "ra"
-    ],
-    "titleHints": [
-      "Djax-Up-Beats 1990-2005: Volume 1 - The Acid Trip",
-      "When There Is No Sun"
-    ],
-    "mentions": 6
-  },
-  "Actress \\u0026 Suzanne Ciani": {
-    "firstSeen": "2026-04-25",
-    "lastSeen": "2026-04-26",
-    "sources": [
-      "ra"
-    ],
-    "titleHints": [
-      "Concrète Waves"
-    ],
-    "mentions": 3
-  },
-  "Avalon Emerson \\u0026 the Charm": {
-    "firstSeen": "2026-04-25",
-    "lastSeen": "2026-04-26",
-    "sources": [
-      "ra"
-    ],
-    "titleHints": [
-      "Written Into Changes"
-    ],
-    "mentions": 3
-  },
-  "Simo Cell \\u0026 Abdullah Miniawy": {
-    "firstSeen": "2026-04-25",
-    "lastSeen": "2026-04-26",
-    "sources": [
-      "ra"
-    ],
-    "titleHints": [
-      "Dying Is the Internet"
-    ],
-    "mentions": 3
-  },
-  "Decoder": {
-    "firstSeen": "2026-04-25",
-    "lastSeen": "2026-04-26",
-    "sources": [
-      "ra"
-    ],
-    "titleHints": [
-      "Prakasa"
-    ],
-    "mentions": 3
-  },
-  "Peaches": {
-    "firstSeen": "2026-04-25",
-    "lastSeen": "2026-04-26",
-    "sources": [
-      "ra"
-    ],
-    "titleHints": [
-      "No Lube So Rude"
-    ],
-    "mentions": 3
-  },
-  "Butter Sessions": {
-    "firstSeen": "2026-04-25",
-    "lastSeen": "2026-04-26",
-    "sources": [
-      "ra"
-    ],
-    "titleHints": [
-      "15 Years of Butter Sessions"
-    ],
-    "mentions": 3
-  },
-  "Daphni": {
-    "firstSeen": "2026-04-25",
-    "lastSeen": "2026-04-26",
-    "sources": [
-      "ra"
-    ],
-    "titleHints": [
-      "Butterfly"
-    ],
-    "mentions": 3
-  },
-  "Mor Elian": {
-    "firstSeen": "2026-04-25",
-    "lastSeen": "2026-04-26",
-    "sources": [
-      "ra"
-    ],
-    "titleHints": [
-      "Solid Space"
-    ],
-    "mentions": 3
-  },
-  "Eris Drew": {
-    "firstSeen": "2026-04-25",
-    "lastSeen": "2026-04-26",
-    "sources": [
-      "ra"
-    ],
-    "titleHints": [
-      "DJ-Kicks: Eris Drew"
-    ],
-    "mentions": 3
-  },
-  "Charlotte de Witte": {
-    "firstSeen": "2026-04-25",
-    "lastSeen": "2026-04-26",
-    "sources": [
-      "ra"
-    ],
-    "titleHints": [
-      "Charlotte de Witte"
     ],
     "mentions": 3
   }
