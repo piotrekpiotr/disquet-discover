@@ -8,7 +8,7 @@
     "titleHints": [
       "“How Shit Go”"
     ],
-    "mentions": 1
+    "mentions": 2
   },
   "41": {
     "firstSeen": "2026-04-28",
@@ -19,7 +19,7 @@
     "titleHints": [
       "“Addicted” [ft. Fivio Foreign]"
     ],
-    "mentions": 1
+    "mentions": 2
   },
   "Jump Source": {
     "firstSeen": "2026-04-25",
@@ -31,7 +31,7 @@
     "titleHints": [
       "Fold"
     ],
-    "mentions": 6
+    "mentions": 8
   },
   "Quiet Light": {
     "firstSeen": "2026-04-28",
@@ -44,7 +44,14 @@
       "Blue Angel Sparkling Silver 2",
       "Blue Angel Sparkling Silver Angel 2"
     ],
-    "mentions": 2
+    "mentions": 3,
+    "promoted": true,
+    "autoPromoted": true,
+    "autoPromoteScore": {
+      "topMatch": 0.283848,
+      "poolMatchCount": 2,
+      "bestPoolArtist": "james K"
+    }
   },
   "Starker": {
     "firstSeen": "2026-04-28",
@@ -56,7 +63,7 @@
     "titleHints": [
       "LIVING TYPE DANGEROUS Vol. 1"
     ],
-    "mentions": 2
+    "mentions": 4
   },
   "Ppp Piezo Dj Plead Dj Python": {
     "firstSeen": "2026-04-28",
@@ -68,7 +75,7 @@
     "titleHints": [
       "“Wisco”"
     ],
-    "mentions": 2
+    "mentions": 4
   },
   "414junglebaby": {
     "firstSeen": "2026-04-28",
@@ -80,7 +87,7 @@
     "titleHints": [
       "“Yo Baby”"
     ],
-    "mentions": 2
+    "mentions": 4
   },
   "Gelli Haha": {
     "firstSeen": "2026-04-28",
@@ -92,7 +99,7 @@
     "titleHints": [
       "“Klouds Will Carry Me to Sleep”"
     ],
-    "mentions": 2
+    "mentions": 4
   },
   "Lightris": {
     "firstSeen": "2026-04-28",
@@ -104,7 +111,7 @@
     "titleHints": [
       "“Up Down”"
     ],
-    "mentions": 2
+    "mentions": 4
   },
   "Tara Clerkin Trio": {
     "firstSeen": "2026-04-28",
@@ -116,7 +123,14 @@
     "titleHints": [
       "“Somewhere Good”"
     ],
-    "mentions": 2
+    "mentions": 4,
+    "promoted": true,
+    "autoPromoted": true,
+    "autoPromoteScore": {
+      "topMatch": 0.527197,
+      "poolMatchCount": 4,
+      "bestPoolArtist": "Moin"
+    }
   },
   "Zayok": {
     "firstSeen": "2026-04-28",
@@ -128,7 +142,7 @@
     "titleHints": [
       "“Oh! Give me something to believe in”"
     ],
-    "mentions": 2
+    "mentions": 4
   },
   "Iceage": {
     "firstSeen": "2026-04-28",
@@ -140,7 +154,7 @@
     "titleHints": [
       "“Star”"
     ],
-    "mentions": 2
+    "mentions": 4
   },
   "Aldous Harding": {
     "firstSeen": "2026-04-28",
@@ -152,7 +166,14 @@
     "titleHints": [
       "“One Stop”"
     ],
-    "mentions": 2
+    "mentions": 4,
+    "promoted": true,
+    "autoPromoted": true,
+    "autoPromoteScore": {
+      "topMatch": 0.535302,
+      "poolMatchCount": 1,
+      "bestPoolArtist": "Joanne Robertson"
+    }
   },
   "Wednesday": {
     "firstSeen": "2026-04-28",
@@ -165,18 +186,42 @@
       "Bleeds",
       "“Elderberry Wine”"
     ],
-    "mentions": 2
+    "mentions": 4
   },
   "John Summit": {
     "firstSeen": "2026-04-25",
     "lastSeen": "2026-04-28",
     "sources": [
-      "ra"
+      "ra",
+      "lastfm-tags"
     ],
     "titleHints": [
       "CTRL ESCAPE"
     ],
-    "mentions": 5
+    "mentions": 7,
+    "poolTags": [
+      "house",
+      "techno"
+    ],
+    "poolTagOverlap": 2
+  },
+  "Megan Thee Stallion": {
+    "firstSeen": "2026-04-28",
+    "lastSeen": "2026-04-28",
+    "sources": [
+      "stereogum",
+      "lastfm-tags"
+    ],
+    "titleHints": [
+      "Split With Klay Thompson, Exit From Moulin Rouge!"
+    ],
+    "mentions": 3,
+    "poolTags": [
+      "hip hop",
+      "hip-hop",
+      "rap"
+    ],
+    "poolTagOverlap": 3
   },
   "Actress \\u0026 Suzanne Ciani": {
     "firstSeen": "2026-04-25",
@@ -187,7 +232,7 @@
     "titleHints": [
       "Concrète Waves"
     ],
-    "mentions": 5
+    "mentions": 6
   },
   "Avalon Emerson \\u0026 the Charm": {
     "firstSeen": "2026-04-25",
@@ -198,7 +243,7 @@
     "titleHints": [
       "Written Into Changes"
     ],
-    "mentions": 5
+    "mentions": 6
   },
   "Simo Cell \\u0026 Abdullah Miniawy": {
     "firstSeen": "2026-04-25",
@@ -209,7 +254,7 @@
     "titleHints": [
       "Dying Is the Internet"
     ],
-    "mentions": 5
+    "mentions": 6
   },
   "Decoder": {
     "firstSeen": "2026-04-25",
@@ -220,7 +265,7 @@
     "titleHints": [
       "Prakasa"
     ],
-    "mentions": 5
+    "mentions": 6
   },
   "Peaches": {
     "firstSeen": "2026-04-25",
@@ -231,7 +276,7 @@
     "titleHints": [
       "No Lube So Rude"
     ],
-    "mentions": 5
+    "mentions": 6
   },
   "Butter Sessions": {
     "firstSeen": "2026-04-25",
@@ -242,7 +287,7 @@
     "titleHints": [
       "15 Years of Butter Sessions"
     ],
-    "mentions": 5
+    "mentions": 6
   },
   "Daphni": {
     "firstSeen": "2026-04-25",
@@ -253,7 +298,7 @@
     "titleHints": [
       "Butterfly"
     ],
-    "mentions": 5
+    "mentions": 6
   },
   "Mor Elian": {
     "firstSeen": "2026-04-25",
@@ -264,7 +309,7 @@
     "titleHints": [
       "Solid Space"
     ],
-    "mentions": 5
+    "mentions": 6
   },
   "Eris Drew": {
     "firstSeen": "2026-04-25",
@@ -275,7 +320,7 @@
     "titleHints": [
       "DJ-Kicks: Eris Drew"
     ],
-    "mentions": 5
+    "mentions": 6
   },
   "Charlotte de Witte": {
     "firstSeen": "2026-04-25",
@@ -286,7 +331,7 @@
     "titleHints": [
       "Charlotte de Witte"
     ],
-    "mentions": 5
+    "mentions": 6
   },
   "Kehlani": {
     "firstSeen": "2026-04-28",
@@ -297,7 +342,7 @@
     "titleHints": [
       "Kehlani"
     ],
-    "mentions": 1
+    "mentions": 2
   },
   "Mikaela Davis": {
     "firstSeen": "2026-04-28",
@@ -308,7 +353,7 @@
     "titleHints": [
       "Graceland Way"
     ],
-    "mentions": 1
+    "mentions": 2
   },
   "Annea Lockwood": {
     "firstSeen": "2026-04-28",
@@ -319,7 +364,7 @@
     "titleHints": [
       "World Rhythms"
     ],
-    "mentions": 1
+    "mentions": 2
   },
   "Loukeman": {
     "firstSeen": "2026-04-28",
@@ -330,7 +375,7 @@
     "titleHints": [
       "Sd-3"
     ],
-    "mentions": 1
+    "mentions": 2
   },
   "Sonic Youth": {
     "firstSeen": "2026-04-28",
@@ -352,7 +397,7 @@
     "titleHints": [
       "Book of Love"
     ],
-    "mentions": 1
+    "mentions": 2
   },
   "Foo Fighters": {
     "firstSeen": "2026-04-28",
@@ -363,7 +408,7 @@
     "titleHints": [
       "Your Favorite Toy"
     ],
-    "mentions": 1
+    "mentions": 2
   },
   "Alvarius B": {
     "firstSeen": "2026-04-28",
@@ -374,7 +419,7 @@
     "titleHints": [
       "Malarial Dream"
     ],
-    "mentions": 1
+    "mentions": 2
   },
   "Hedvig Mollestad Weejuns": {
     "firstSeen": "2026-04-28",
@@ -385,7 +430,7 @@
     "titleHints": [
       "Bitches Blues"
     ],
-    "mentions": 1
+    "mentions": 2
   },
   "Carla Dal Forno": {
     "firstSeen": "2026-04-28",
@@ -396,7 +441,7 @@
     "titleHints": [
       "Confession"
     ],
-    "mentions": 1
+    "mentions": 2
   },
   "Portrayal Of Guilt": {
     "firstSeen": "2026-04-28",
@@ -407,7 +452,7 @@
     "titleHints": [
       "…Beginning of the End"
     ],
-    "mentions": 1
+    "mentions": 2
   },
   "Friko": {
     "firstSeen": "2026-04-28",
@@ -418,7 +463,7 @@
     "titleHints": [
       "Something Worth Waiting For"
     ],
-    "mentions": 1
+    "mentions": 2
   },
   "Yaya Bey": {
     "firstSeen": "2026-04-28",
@@ -429,7 +474,7 @@
     "titleHints": [
       "Fidelity"
     ],
-    "mentions": 1
+    "mentions": 2
   },
   "Black Nile": {
     "firstSeen": "2026-04-28",
@@ -440,7 +485,7 @@
     "titleHints": [
       "Indigo Garden"
     ],
-    "mentions": 1
+    "mentions": 2
   },
   "Justine Skye": {
     "firstSeen": "2026-04-28",
@@ -451,7 +496,7 @@
     "titleHints": [
       "CANDY"
     ],
-    "mentions": 1
+    "mentions": 2
   },
   "National Photo Committee": {
     "firstSeen": "2026-04-28",
@@ -462,7 +507,7 @@
     "titleHints": [
       "Red Hot Photo Committee"
     ],
-    "mentions": 1
+    "mentions": 2
   },
   "Sexyy Red": {
     "firstSeen": "2026-04-28",
@@ -473,7 +518,7 @@
     "titleHints": [
       "Yo Favorite Trappa Favorite Rappa"
     ],
-    "mentions": 1
+    "mentions": 2
   },
   "Rikki G Godd": {
     "firstSeen": "2026-04-28",
@@ -484,7 +529,7 @@
     "titleHints": [
       "Cost of Living"
     ],
-    "mentions": 1
+    "mentions": 2
   },
   "Kathryn Mohr": {
     "firstSeen": "2026-04-28",
@@ -495,7 +540,7 @@
     "titleHints": [
       "Carve"
     ],
-    "mentions": 1
+    "mentions": 2
   },
   "Frog": {
     "firstSeen": "2026-04-28",
@@ -506,7 +551,7 @@
     "titleHints": [
       "Frog for Sale"
     ],
-    "mentions": 1
+    "mentions": 2
   },
   "Handle": {
     "firstSeen": "2026-04-28",
@@ -517,7 +562,7 @@
     "titleHints": [
       "COLLIDE"
     ],
-    "mentions": 1
+    "mentions": 2
   },
   "Asha Bhosle": {
     "firstSeen": "2026-04-28",
@@ -528,7 +573,7 @@
     "titleHints": [
       "“Dum Maro Dum”"
     ],
-    "mentions": 1
+    "mentions": 2
   },
   "Angela Autumn": {
     "firstSeen": "2026-04-28",
@@ -539,7 +584,7 @@
     "titleHints": [
       "“trampstamp”"
     ],
-    "mentions": 1
+    "mentions": 2
   },
   "Massive Attack Tom Waits": {
     "firstSeen": "2026-04-28",
@@ -550,7 +595,7 @@
     "titleHints": [
       "“Boots on the Ground”"
     ],
-    "mentions": 1
+    "mentions": 2
   },
   "Allstar Jr": {
     "firstSeen": "2026-04-28",
@@ -561,7 +606,7 @@
     "titleHints": [
       "“Mob Untied”"
     ],
-    "mentions": 1
+    "mentions": 2
   },
   "Undrcvr Hunnakay": {
     "firstSeen": "2026-04-28",
@@ -572,7 +617,7 @@
     "titleHints": [
       "“flee”"
     ],
-    "mentions": 1
+    "mentions": 2
   },
   "Dyltwosix": {
     "firstSeen": "2026-04-28",
@@ -583,7 +628,7 @@
     "titleHints": [
       "“Lived and Ive Learned”"
     ],
-    "mentions": 1
+    "mentions": 2
   },
   "Momo Dj Texas Trill": {
     "firstSeen": "2026-04-28",
@@ -594,7 +639,7 @@
     "titleHints": [
       "“Do the Ratchet”"
     ],
-    "mentions": 1
+    "mentions": 2
   },
   "Charles Mingus": {
     "firstSeen": "2026-04-28",
@@ -605,7 +650,7 @@
     "titleHints": [
       "“Fables of Faubus”"
     ],
-    "mentions": 1
+    "mentions": 2
   },
   "Ejae Audrey Nuna Rei Ami": {
     "firstSeen": "2026-04-28",
@@ -616,7 +661,7 @@
     "titleHints": [
       "“Golden”"
     ],
-    "mentions": 1
+    "mentions": 2
   },
   "Minutemen": {
     "firstSeen": "2026-04-28",
@@ -627,7 +672,7 @@
     "titleHints": [
       "“Corona”"
     ],
-    "mentions": 1
+    "mentions": 2
   },
   "Mop": {
     "firstSeen": "2026-04-28",
@@ -638,7 +683,7 @@
     "titleHints": [
       "“Ante Up (Robbing-Hoodz Theory)”"
     ],
-    "mentions": 1
+    "mentions": 2
   },
   "Kacey Musgraves": {
     "firstSeen": "2026-04-28",
@@ -649,7 +694,7 @@
     "titleHints": [
       "“Dry Spell”"
     ],
-    "mentions": 1
+    "mentions": 2
   },
   "David Wise": {
     "firstSeen": "2026-04-28",
@@ -660,7 +705,7 @@
     "titleHints": [
       "“Stickerbush Symphony”"
     ],
-    "mentions": 1
+    "mentions": 2
   },
   "1 Umbrella": {
     "firstSeen": "2026-04-28",
@@ -671,7 +716,7 @@
     "titleHints": [
       "“One of Those”"
     ],
-    "mentions": 1
+    "mentions": 2
   },
   "Brat Star": {
     "firstSeen": "2026-04-28",
@@ -682,7 +727,7 @@
     "titleHints": [
       "“Margot Tenenbaum”"
     ],
-    "mentions": 1
+    "mentions": 2
   },
   "My New Band Believe": {
     "firstSeen": "2026-04-28",
@@ -693,7 +738,7 @@
     "titleHints": [
       "My New Band Believe"
     ],
-    "mentions": 1
+    "mentions": 2
   },
   "Wendy Eisenberg": {
     "firstSeen": "2026-04-28",
@@ -704,7 +749,7 @@
     "titleHints": [
       "Wendy Eisenberg"
     ],
-    "mentions": 1
+    "mentions": 2
   },
   "Neurosis": {
     "firstSeen": "2026-04-28",
@@ -715,7 +760,7 @@
     "titleHints": [
       "An Undying Love for a Burning World"
     ],
-    "mentions": 1
+    "mentions": 2
   },
   "Underscores": {
     "firstSeen": "2026-04-28",
@@ -726,7 +771,7 @@
     "titleHints": [
       "U"
     ],
-    "mentions": 1
+    "mentions": 2
   },
   "Grace Ives": {
     "firstSeen": "2026-04-28",
@@ -737,7 +782,7 @@
     "titleHints": [
       "Girlfriend"
     ],
-    "mentions": 1
+    "mentions": 2
   },
   "Sideshow": {
     "firstSeen": "2026-04-28",
@@ -748,7 +793,7 @@
     "titleHints": [
       "TIGRAY FUNK"
     ],
-    "mentions": 1
+    "mentions": 2
   },
   "Zel": {
     "firstSeen": "2026-04-28",
@@ -759,7 +804,7 @@
     "titleHints": [
       "Still Right Here"
     ],
-    "mentions": 1
+    "mentions": 2
   },
   "Twisted Teens": {
     "firstSeen": "2026-04-28",
@@ -770,7 +815,7 @@
     "titleHints": [
       "Blame the Clown"
     ],
-    "mentions": 1
+    "mentions": 2
   },
   "Lord Jah Monte Ogbon": {
     "firstSeen": "2026-04-28",
@@ -781,7 +826,7 @@
     "titleHints": [
       "As of Now"
     ],
-    "mentions": 1
+    "mentions": 2
   },
   "Ratboys": {
     "firstSeen": "2026-04-28",
@@ -792,7 +837,7 @@
     "titleHints": [
       "Singin’ to an Empty Chair"
     ],
-    "mentions": 1
+    "mentions": 2
   },
   "Mandy Indiana": {
     "firstSeen": "2026-04-28",
@@ -803,7 +848,7 @@
     "titleHints": [
       "URGH"
     ],
-    "mentions": 1
+    "mentions": 2
   },
   "Xaviersobased": {
     "firstSeen": "2026-04-28",
@@ -814,7 +859,7 @@
     "titleHints": [
       "Xavier"
     ],
-    "mentions": 1
+    "mentions": 2
   },
   "Otto Benson": {
     "firstSeen": "2026-04-28",
@@ -825,7 +870,7 @@
     "titleHints": [
       "Peanut"
     ],
-    "mentions": 1
+    "mentions": 2
   },
   "Kp Skywalka": {
     "firstSeen": "2026-04-28",
@@ -836,7 +881,7 @@
     "titleHints": [
       "I Tried to Tell You"
     ],
-    "mentions": 1
+    "mentions": 2
   },
   "Wnc Whopbezzy 70th Street Carlos": {
     "firstSeen": "2026-04-28",
@@ -847,7 +892,7 @@
     "titleHints": [
       "Out the Blue"
     ],
-    "mentions": 1
+    "mentions": 2
   },
   "Rosalia": {
     "firstSeen": "2026-04-28",
@@ -858,7 +903,7 @@
     "titleHints": [
       "LUX"
     ],
-    "mentions": 1
+    "mentions": 2
   },
   "Sudan Archives": {
     "firstSeen": "2026-04-28",
@@ -869,7 +914,7 @@
     "titleHints": [
       "The BPM"
     ],
-    "mentions": 1
+    "mentions": 2
   },
   "Feeo": {
     "firstSeen": "2026-04-28",
@@ -891,7 +936,7 @@
     "titleHints": [
       "Through the Wall"
     ],
-    "mentions": 1
+    "mentions": 2
   },
   "Geese": {
     "firstSeen": "2026-04-28",
@@ -902,7 +947,7 @@
     "titleHints": [
       "Getting Killed"
     ],
-    "mentions": 1
+    "mentions": 2
   },
   "Algernon Cadwallader": {
     "firstSeen": "2026-04-28",
@@ -913,7 +958,7 @@
     "titleHints": [
       "Trying Not to Have a Thought"
     ],
-    "mentions": 1
+    "mentions": 2
   },
   "Ella Mai": {
     "firstSeen": "2026-04-28",
@@ -924,7 +969,7 @@
     "titleHints": [
       "“There Goes My Heart”"
     ],
-    "mentions": 1
+    "mentions": 2
   },
   "Rooster": {
     "firstSeen": "2026-04-28",
@@ -935,7 +980,7 @@
     "titleHints": [
       "“Nuketown Blues”"
     ],
-    "mentions": 1
+    "mentions": 2
   },
   "Dexter In The Newsagent": {
     "firstSeen": "2026-04-28",
@@ -946,7 +991,7 @@
     "titleHints": [
       "“Special”"
     ],
-    "mentions": 1
+    "mentions": 2
   },
   "Ivvys": {
     "firstSeen": "2026-04-28",
@@ -957,7 +1002,7 @@
     "titleHints": [
       "“ig reels”"
     ],
-    "mentions": 1
+    "mentions": 2
   },
   "Alex G": {
     "firstSeen": "2026-04-28",
@@ -968,7 +1013,7 @@
     "titleHints": [
       "“Afterlife”"
     ],
-    "mentions": 1
+    "mentions": 2
   },
   "Mavi": {
     "firstSeen": "2026-04-28",
@@ -979,7 +1024,7 @@
     "titleHints": [
       "“Landgrab” [ft. Earl Sweatshirt]"
     ],
-    "mentions": 1
+    "mentions": 2
   },
   "Youngboy Never Broke Again Playboi Carti": {
     "firstSeen": "2026-04-28",
@@ -990,7 +1035,7 @@
     "titleHints": [
       "“Alive”"
     ],
-    "mentions": 1
+    "mentions": 2
   },
   "Fakemink Ecco2k Mechatok": {
     "firstSeen": "2026-04-28",
@@ -1001,7 +1046,7 @@
     "titleHints": [
       "“MAKKA”"
     ],
-    "mentions": 1
+    "mentions": 2
   },
   "Ryan Davis And The Roadhouse Band": {
     "firstSeen": "2026-04-28",
@@ -1012,7 +1057,7 @@
     "titleHints": [
       "“New Threats From the Soul”"
     ],
-    "mentions": 1
+    "mentions": 2
   },
   "Lana Del Rey": {
     "firstSeen": "2026-04-28",
@@ -1023,7 +1068,7 @@
     "titleHints": [
       "“Henry, come on”"
     ],
-    "mentions": 1
+    "mentions": 2
   },
   "This Is Lorelei": {
     "firstSeen": "2026-04-28",
@@ -1034,7 +1079,7 @@
     "titleHints": [
       "“Dancing in the Club (MJ Lenderman Version)”"
     ],
-    "mentions": 1
+    "mentions": 2
   },
   "Feeble Little Horse": {
     "firstSeen": "2026-04-28",
@@ -1045,7 +1090,7 @@
     "titleHints": [
       "“This Is Real”"
     ],
-    "mentions": 1
+    "mentions": 2
   },
   "509 Bmg": {
     "firstSeen": "2026-04-28",
@@ -1056,7 +1101,7 @@
     "titleHints": [
       "“Special Request to All Nice and Decent Real Niggaz (Stop Hatin)”"
     ],
-    "mentions": 1
+    "mentions": 2
   },
   "Irmin Schmidt": {
     "firstSeen": "2026-04-28",
@@ -1166,7 +1211,7 @@
     "titleHints": [
       "Orange"
     ],
-    "mentions": 1
+    "mentions": 2
   },
   "Carla dal Forno": {
     "firstSeen": "2026-04-28",
@@ -1177,7 +1222,7 @@
     "titleHints": [
       "Confession"
     ],
-    "mentions": 1
+    "mentions": 2
   },
   "Fat Ray & Raphy": {
     "firstSeen": "2026-04-28",
@@ -1188,7 +1233,7 @@
     "titleHints": [
       "Santa Rosa"
     ],
-    "mentions": 1
+    "mentions": 2
   },
   "Jimmy Scott": {
     "firstSeen": "2026-04-28",
@@ -1199,7 +1244,7 @@
     "titleHints": [
       "Falling In Love Is Wonderful (2026 Remaster)"
     ],
-    "mentions": 1
+    "mentions": 2
   },
   "Neo Geodesia": {
     "firstSeen": "2026-04-28",
@@ -1210,7 +1255,7 @@
     "titleHints": [
       "Oknha Stamina"
     ],
-    "mentions": 1
+    "mentions": 2
   },
   "Eve Maret": {
     "firstSeen": "2026-04-28",
@@ -1221,7 +1266,7 @@
     "titleHints": [
       "Diamond Cutter"
     ],
-    "mentions": 1
+    "mentions": 2
   },
   "Rocketship": {
     "firstSeen": "2026-04-28",
@@ -1232,7 +1277,7 @@
     "titleHints": [
       "A Certain Smile, A Certain Sadness (30th Anniversary Edition)"
     ],
-    "mentions": 1
+    "mentions": 2
   },
   "Hannah Lew": {
     "firstSeen": "2026-04-28",
@@ -1243,7 +1288,7 @@
     "titleHints": [
       "Hannah Lew"
     ],
-    "mentions": 1
+    "mentions": 2
   },
   "Rosa Pistola": {
     "firstSeen": "2026-04-28",
@@ -1254,7 +1299,7 @@
     "titleHints": [
       "Incorregible"
     ],
-    "mentions": 1
+    "mentions": 2
   },
   "Prism Shores": {
     "firstSeen": "2026-04-28",
@@ -1265,7 +1310,7 @@
     "titleHints": [
       "Softest Attack"
     ],
-    "mentions": 1
+    "mentions": 2
   },
   "Juni Habel": {
     "firstSeen": "2026-04-28",
@@ -1276,7 +1321,7 @@
     "titleHints": [
       "Evergreen In Your Mind"
     ],
-    "mentions": 1
+    "mentions": 2
   },
   "Lero Lero": {
     "firstSeen": "2026-04-28",
@@ -1287,7 +1332,7 @@
     "titleHints": [
       "Lero Lero"
     ],
-    "mentions": 1
+    "mentions": 2
   },
   "Makthaverskan": {
     "firstSeen": "2026-04-28",
@@ -1298,18 +1343,7 @@
     "titleHints": [
       "Glass and Bones"
     ],
-    "mentions": 1
-  },
-  "Megan Thee Stallion": {
-    "firstSeen": "2026-04-28",
-    "lastSeen": "2026-04-28",
-    "sources": [
-      "stereogum"
-    ],
-    "titleHints": [
-      "Split With Klay Thompson, Exit From Moulin Rouge!"
-    ],
-    "mentions": 1
+    "mentions": 2
   },
   "Glaive & Kurtains": {
     "firstSeen": "2026-04-28",
@@ -1320,7 +1354,7 @@
     "titleHints": [
       "Collaborative Album God Save The Three: Hear “The Troubles"
     ],
-    "mentions": 1
+    "mentions": 2
   },
   "Hurry": {
     "firstSeen": "2026-04-28",
@@ -1331,7 +1365,7 @@
     "titleHints": [
       "Zoned Out: Hear The Title Track"
     ],
-    "mentions": 1
+    "mentions": 2
   },
   "USC": {
     "firstSeen": "2026-04-28",
@@ -1342,7 +1376,7 @@
     "titleHints": [
       "Travis Scott Course"
     ],
-    "mentions": 1
+    "mentions": 2
   },
   "Orphan Donor": {
     "firstSeen": "2026-04-28",
@@ -1353,7 +1387,7 @@
     "titleHints": [
       "Ailments: Hear “Show Me The Way"
     ],
-    "mentions": 1
+    "mentions": 2
   },
   "Rosco P Coldchain & Nicholas Craven": {
     "firstSeen": "2026-04-28",
@@ -1364,7 +1398,1870 @@
     "titleHints": [
       "Collaborative Album Play With Something Safe"
     ],
-    "mentions": 1
+    "mentions": 2
+  },
+  "Daft Punk": {
+    "firstSeen": "2026-04-28",
+    "lastSeen": "2026-04-28",
+    "sources": [
+      "lastfm-tags"
+    ],
+    "titleHints": [],
+    "mentions": 1,
+    "poolTags": [
+      "electronic",
+      "electronica",
+      "house",
+      "techno"
+    ],
+    "poolTagOverlap": 4
+  },
+  "50 Cent": {
+    "firstSeen": "2026-04-28",
+    "lastSeen": "2026-04-28",
+    "sources": [
+      "lastfm-tags"
+    ],
+    "titleHints": [],
+    "mentions": 1,
+    "poolTags": [
+      "hip hop",
+      "hip-hop",
+      "rap"
+    ],
+    "poolTagOverlap": 3
+  },
+  "Air": {
+    "firstSeen": "2026-04-28",
+    "lastSeen": "2026-04-28",
+    "sources": [
+      "lastfm-tags"
+    ],
+    "titleHints": [],
+    "mentions": 1,
+    "poolTags": [
+      "ambient",
+      "electronic",
+      "electronica"
+    ],
+    "poolTagOverlap": 3
+  },
+  "B.o.B": {
+    "firstSeen": "2026-04-28",
+    "lastSeen": "2026-04-28",
+    "sources": [
+      "lastfm-tags"
+    ],
+    "titleHints": [],
+    "mentions": 1,
+    "poolTags": [
+      "hip hop",
+      "hip-hop",
+      "rap"
+    ],
+    "poolTagOverlap": 3
+  },
+  "Cardi B": {
+    "firstSeen": "2026-04-28",
+    "lastSeen": "2026-04-28",
+    "sources": [
+      "lastfm-tags"
+    ],
+    "titleHints": [],
+    "mentions": 1,
+    "poolTags": [
+      "hip hop",
+      "hip-hop",
+      "rap"
+    ],
+    "poolTagOverlap": 3
+  },
+  "Childish Gambino": {
+    "firstSeen": "2026-04-28",
+    "lastSeen": "2026-04-28",
+    "sources": [
+      "lastfm-tags"
+    ],
+    "titleHints": [],
+    "mentions": 1,
+    "poolTags": [
+      "hip hop",
+      "hip-hop",
+      "rap"
+    ],
+    "poolTagOverlap": 3
+  },
+  "Clean Bandit": {
+    "firstSeen": "2026-04-28",
+    "lastSeen": "2026-04-28",
+    "sources": [
+      "lastfm-tags"
+    ],
+    "titleHints": [],
+    "mentions": 1,
+    "poolTags": [
+      "electronic",
+      "electronica",
+      "experimental"
+    ],
+    "poolTagOverlap": 3
+  },
+  "Denzel Curry": {
+    "firstSeen": "2026-04-28",
+    "lastSeen": "2026-04-28",
+    "sources": [
+      "lastfm-tags"
+    ],
+    "titleHints": [],
+    "mentions": 1,
+    "poolTags": [
+      "hip hop",
+      "hip-hop",
+      "rap"
+    ],
+    "poolTagOverlap": 3
+  },
+  "Disclosure": {
+    "firstSeen": "2026-04-28",
+    "lastSeen": "2026-04-28",
+    "sources": [
+      "lastfm-tags"
+    ],
+    "titleHints": [],
+    "mentions": 1,
+    "poolTags": [
+      "electronic",
+      "house",
+      "uk garage"
+    ],
+    "poolTagOverlap": 3
+  },
+  "Drake": {
+    "firstSeen": "2026-04-28",
+    "lastSeen": "2026-04-28",
+    "sources": [
+      "lastfm-tags"
+    ],
+    "titleHints": [],
+    "mentions": 1,
+    "poolTags": [
+      "hip hop",
+      "hip-hop",
+      "rap"
+    ],
+    "poolTagOverlap": 3
+  },
+  "Eminem": {
+    "firstSeen": "2026-04-28",
+    "lastSeen": "2026-04-28",
+    "sources": [
+      "lastfm-tags"
+    ],
+    "titleHints": [],
+    "mentions": 1,
+    "poolTags": [
+      "hip hop",
+      "hip-hop",
+      "rap"
+    ],
+    "poolTagOverlap": 3
+  },
+  "Flo Rida": {
+    "firstSeen": "2026-04-28",
+    "lastSeen": "2026-04-28",
+    "sources": [
+      "lastfm-tags"
+    ],
+    "titleHints": [],
+    "mentions": 1,
+    "poolTags": [
+      "hip hop",
+      "hip-hop",
+      "rap"
+    ],
+    "poolTagOverlap": 3
+  },
+  "Fred again..": {
+    "firstSeen": "2026-04-28",
+    "lastSeen": "2026-04-28",
+    "sources": [
+      "lastfm-tags"
+    ],
+    "titleHints": [],
+    "mentions": 1,
+    "poolTags": [
+      "electronic",
+      "house",
+      "uk garage"
+    ],
+    "poolTagOverlap": 3
+  },
+  "Future": {
+    "firstSeen": "2026-04-28",
+    "lastSeen": "2026-04-28",
+    "sources": [
+      "lastfm-tags"
+    ],
+    "titleHints": [],
+    "mentions": 1,
+    "poolTags": [
+      "hip hop",
+      "hip-hop",
+      "rap"
+    ],
+    "poolTagOverlap": 3
+  },
+  "G-Eazy": {
+    "firstSeen": "2026-04-28",
+    "lastSeen": "2026-04-28",
+    "sources": [
+      "lastfm-tags"
+    ],
+    "titleHints": [],
+    "mentions": 1,
+    "poolTags": [
+      "hip hop",
+      "hip-hop",
+      "rap"
+    ],
+    "poolTagOverlap": 3
+  },
+  "J. Cole": {
+    "firstSeen": "2026-04-28",
+    "lastSeen": "2026-04-28",
+    "sources": [
+      "lastfm-tags"
+    ],
+    "titleHints": [],
+    "mentions": 1,
+    "poolTags": [
+      "hip hop",
+      "hip-hop",
+      "rap"
+    ],
+    "poolTagOverlap": 3
+  },
+  "Kanye West": {
+    "firstSeen": "2026-04-28",
+    "lastSeen": "2026-04-28",
+    "sources": [
+      "lastfm-tags"
+    ],
+    "titleHints": [],
+    "mentions": 1,
+    "poolTags": [
+      "hip hop",
+      "hip-hop",
+      "rap"
+    ],
+    "poolTagOverlap": 3
+  },
+  "Kid Cudi": {
+    "firstSeen": "2026-04-28",
+    "lastSeen": "2026-04-28",
+    "sources": [
+      "lastfm-tags"
+    ],
+    "titleHints": [],
+    "mentions": 1,
+    "poolTags": [
+      "hip hop",
+      "hip-hop",
+      "rap"
+    ],
+    "poolTagOverlap": 3
+  },
+  "Lil Baby": {
+    "firstSeen": "2026-04-28",
+    "lastSeen": "2026-04-28",
+    "sources": [
+      "lastfm-tags"
+    ],
+    "titleHints": [],
+    "mentions": 1,
+    "poolTags": [
+      "hip hop",
+      "hip-hop",
+      "rap"
+    ],
+    "poolTagOverlap": 3
+  },
+  "Lil' Wayne": {
+    "firstSeen": "2026-04-28",
+    "lastSeen": "2026-04-28",
+    "sources": [
+      "lastfm-tags"
+    ],
+    "titleHints": [],
+    "mentions": 1,
+    "poolTags": [
+      "hip hop",
+      "hip-hop",
+      "rap"
+    ],
+    "poolTagOverlap": 3
+  },
+  "Lucy": {
+    "firstSeen": "2026-04-28",
+    "lastSeen": "2026-04-28",
+    "sources": [
+      "lastfm-tags"
+    ],
+    "titleHints": [],
+    "mentions": 1,
+    "poolTags": [
+      "idm",
+      "minimal techno",
+      "techno"
+    ],
+    "poolTagOverlap": 3
+  },
+  "Mac Miller": {
+    "firstSeen": "2026-04-28",
+    "lastSeen": "2026-04-28",
+    "sources": [
+      "lastfm-tags"
+    ],
+    "titleHints": [],
+    "mentions": 1,
+    "poolTags": [
+      "hip hop",
+      "hip-hop",
+      "rap"
+    ],
+    "poolTagOverlap": 3
+  },
+  "Moby": {
+    "firstSeen": "2026-04-28",
+    "lastSeen": "2026-04-28",
+    "sources": [
+      "lastfm-tags"
+    ],
+    "titleHints": [],
+    "mentions": 1,
+    "poolTags": [
+      "ambient",
+      "electronic",
+      "electronica"
+    ],
+    "poolTagOverlap": 3
+  },
+  "Pitbull": {
+    "firstSeen": "2026-04-28",
+    "lastSeen": "2026-04-28",
+    "sources": [
+      "lastfm-tags"
+    ],
+    "titleHints": [],
+    "mentions": 1,
+    "poolTags": [
+      "hip hop",
+      "hip-hop",
+      "rap"
+    ],
+    "poolTagOverlap": 3
+  },
+  "Rae Sremmurd": {
+    "firstSeen": "2026-04-28",
+    "lastSeen": "2026-04-28",
+    "sources": [
+      "lastfm-tags"
+    ],
+    "titleHints": [],
+    "mentions": 1,
+    "poolTags": [
+      "hip hop",
+      "hip-hop",
+      "rap"
+    ],
+    "poolTagOverlap": 3
+  },
+  "The Prodigy": {
+    "firstSeen": "2026-04-28",
+    "lastSeen": "2026-04-28",
+    "sources": [
+      "lastfm-tags"
+    ],
+    "titleHints": [],
+    "mentions": 1,
+    "poolTags": [
+      "electronic",
+      "electronica",
+      "techno"
+    ],
+    "poolTagOverlap": 3
+  },
+  "Tycho": {
+    "firstSeen": "2026-04-28",
+    "lastSeen": "2026-04-28",
+    "sources": [
+      "lastfm-tags"
+    ],
+    "titleHints": [],
+    "mentions": 1,
+    "poolTags": [
+      "ambient",
+      "downtempo",
+      "idm"
+    ],
+    "poolTagOverlap": 3
+  },
+  "Wisp": {
+    "firstSeen": "2026-04-28",
+    "lastSeen": "2026-04-28",
+    "sources": [
+      "lastfm-tags"
+    ],
+    "titleHints": [],
+    "mentions": 1,
+    "poolTags": [
+      "ambient",
+      "electronica",
+      "idm"
+    ],
+    "poolTagOverlap": 3
+  },
+  "¥$": {
+    "firstSeen": "2026-04-28",
+    "lastSeen": "2026-04-28",
+    "sources": [
+      "lastfm-tags"
+    ],
+    "titleHints": [],
+    "mentions": 1,
+    "poolTags": [
+      "hip-hop",
+      "rap"
+    ],
+    "poolTagOverlap": 2
+  },
+  "21 Savage": {
+    "firstSeen": "2026-04-28",
+    "lastSeen": "2026-04-28",
+    "sources": [
+      "lastfm-tags"
+    ],
+    "titleHints": [],
+    "mentions": 1,
+    "poolTags": [
+      "hip hop",
+      "hip-hop"
+    ],
+    "poolTagOverlap": 2
+  },
+  "2Pac": {
+    "firstSeen": "2026-04-28",
+    "lastSeen": "2026-04-28",
+    "sources": [
+      "lastfm-tags"
+    ],
+    "titleHints": [],
+    "mentions": 1,
+    "poolTags": [
+      "hip-hop",
+      "rap"
+    ],
+    "poolTagOverlap": 2
+  },
+  "3OH!3": {
+    "firstSeen": "2026-04-28",
+    "lastSeen": "2026-04-28",
+    "sources": [
+      "lastfm-tags"
+    ],
+    "titleHints": [],
+    "mentions": 1,
+    "poolTags": [
+      "electronic",
+      "electronica"
+    ],
+    "poolTagOverlap": 2
+  },
+  "A Boogie wit da Hoodie": {
+    "firstSeen": "2026-04-28",
+    "lastSeen": "2026-04-28",
+    "sources": [
+      "lastfm-tags"
+    ],
+    "titleHints": [],
+    "mentions": 1,
+    "poolTags": [
+      "hip hop",
+      "rap"
+    ],
+    "poolTagOverlap": 2
+  },
+  "A Tribe Called Quest": {
+    "firstSeen": "2026-04-28",
+    "lastSeen": "2026-04-28",
+    "sources": [
+      "lastfm-tags"
+    ],
+    "titleHints": [],
+    "mentions": 1,
+    "poolTags": [
+      "hip hop",
+      "hip-hop"
+    ],
+    "poolTagOverlap": 2
+  },
+  "A$AP Rocky": {
+    "firstSeen": "2026-04-28",
+    "lastSeen": "2026-04-28",
+    "sources": [
+      "lastfm-tags"
+    ],
+    "titleHints": [],
+    "mentions": 1,
+    "poolTags": [
+      "hip-hop",
+      "rap"
+    ],
+    "poolTagOverlap": 2
+  },
+  "Accelera Deck": {
+    "firstSeen": "2026-04-28",
+    "lastSeen": "2026-04-28",
+    "sources": [
+      "lastfm-tags"
+    ],
+    "titleHints": [],
+    "mentions": 1,
+    "poolTags": [
+      "glitch",
+      "idm"
+    ],
+    "poolTagOverlap": 2
+  },
+  "Adventure Time": {
+    "firstSeen": "2026-04-28",
+    "lastSeen": "2026-04-28",
+    "sources": [
+      "lastfm-tags"
+    ],
+    "titleHints": [],
+    "mentions": 1,
+    "poolTags": [
+      "downtempo",
+      "experimental"
+    ],
+    "poolTagOverlap": 2
+  },
+  "Alan Fitzpatrick": {
+    "firstSeen": "2026-04-28",
+    "lastSeen": "2026-04-28",
+    "sources": [
+      "lastfm-tags"
+    ],
+    "titleHints": [],
+    "mentions": 1,
+    "poolTags": [
+      "minimal",
+      "techno"
+    ],
+    "poolTagOverlap": 2
+  },
+  "Alle Farben": {
+    "firstSeen": "2026-04-28",
+    "lastSeen": "2026-04-28",
+    "sources": [
+      "lastfm-tags"
+    ],
+    "titleHints": [],
+    "mentions": 1,
+    "poolTags": [
+      "minimal",
+      "minimal techno"
+    ],
+    "poolTagOverlap": 2
+  },
+  "Âme": {
+    "firstSeen": "2026-04-28",
+    "lastSeen": "2026-04-28",
+    "sources": [
+      "lastfm-tags"
+    ],
+    "titleHints": [],
+    "mentions": 1,
+    "poolTags": [
+      "deep house",
+      "minimal"
+    ],
+    "poolTagOverlap": 2
+  },
+  "Anja Schneider": {
+    "firstSeen": "2026-04-28",
+    "lastSeen": "2026-04-28",
+    "sources": [
+      "lastfm-tags"
+    ],
+    "titleHints": [],
+    "mentions": 1,
+    "poolTags": [
+      "minimal",
+      "minimal techno"
+    ],
+    "poolTagOverlap": 2
+  },
+  "Anna": {
+    "firstSeen": "2026-04-28",
+    "lastSeen": "2026-04-28",
+    "sources": [
+      "lastfm-tags"
+    ],
+    "titleHints": [],
+    "mentions": 1,
+    "poolTags": [
+      "minimal",
+      "minimal techno"
+    ],
+    "poolTagOverlap": 2
+  },
+  "Argy": {
+    "firstSeen": "2026-04-28",
+    "lastSeen": "2026-04-28",
+    "sources": [
+      "lastfm-tags"
+    ],
+    "titleHints": [],
+    "mentions": 1,
+    "poolTags": [
+      "minimal",
+      "minimal techno"
+    ],
+    "poolTagOverlap": 2
+  },
+  "Avalon Emerson": {
+    "firstSeen": "2026-04-28",
+    "lastSeen": "2026-04-28",
+    "sources": [
+      "lastfm-tags"
+    ],
+    "titleHints": [],
+    "mentions": 1,
+    "poolTags": [
+      "deep house",
+      "techno"
+    ],
+    "poolTagOverlap": 2
+  },
+  "Avicii": {
+    "firstSeen": "2026-04-28",
+    "lastSeen": "2026-04-28",
+    "sources": [
+      "lastfm-tags"
+    ],
+    "titleHints": [],
+    "mentions": 1,
+    "poolTags": [
+      "electronic",
+      "house"
+    ],
+    "poolTagOverlap": 2
+  },
+  "Axel Boman": {
+    "firstSeen": "2026-04-28",
+    "lastSeen": "2026-04-28",
+    "sources": [
+      "lastfm-tags"
+    ],
+    "titleHints": [],
+    "mentions": 1,
+    "poolTags": [
+      "deep house",
+      "minimal techno"
+    ],
+    "poolTagOverlap": 2
+  },
+  "Baby Keem": {
+    "firstSeen": "2026-04-28",
+    "lastSeen": "2026-04-28",
+    "sources": [
+      "lastfm-tags"
+    ],
+    "titleHints": [],
+    "mentions": 1,
+    "poolTags": [
+      "hip-hop",
+      "rap"
+    ],
+    "poolTagOverlap": 2
+  },
+  "Barker": {
+    "firstSeen": "2026-04-28",
+    "lastSeen": "2026-04-28",
+    "sources": [
+      "lastfm-tags"
+    ],
+    "titleHints": [],
+    "mentions": 1,
+    "poolTags": [
+      "dub techno",
+      "techno"
+    ],
+    "poolTagOverlap": 2
+  },
+  "Basement Jaxx": {
+    "firstSeen": "2026-04-28",
+    "lastSeen": "2026-04-28",
+    "sources": [
+      "lastfm-tags"
+    ],
+    "titleHints": [],
+    "mentions": 1,
+    "poolTags": [
+      "electronica",
+      "house"
+    ],
+    "poolTagOverlap": 2
+  },
+  "bbno$": {
+    "firstSeen": "2026-04-28",
+    "lastSeen": "2026-04-28",
+    "sources": [
+      "lastfm-tags"
+    ],
+    "titleHints": [],
+    "mentions": 1,
+    "poolTags": [
+      "hip hop",
+      "rap"
+    ],
+    "poolTagOverlap": 2
+  },
+  "Bicep": {
+    "firstSeen": "2026-04-28",
+    "lastSeen": "2026-04-28",
+    "sources": [
+      "lastfm-tags"
+    ],
+    "titleHints": [],
+    "mentions": 1,
+    "poolTags": [
+      "house",
+      "techno"
+    ],
+    "poolTagOverlap": 2
+  },
+  "Boris Brejcha": {
+    "firstSeen": "2026-04-28",
+    "lastSeen": "2026-04-28",
+    "sources": [
+      "lastfm-tags"
+    ],
+    "titleHints": [],
+    "mentions": 1,
+    "poolTags": [
+      "minimal",
+      "minimal techno"
+    ],
+    "poolTagOverlap": 2
+  },
+  "Brian Eno": {
+    "firstSeen": "2026-04-28",
+    "lastSeen": "2026-04-28",
+    "sources": [
+      "lastfm-tags"
+    ],
+    "titleHints": [],
+    "mentions": 1,
+    "poolTags": [
+      "ambient",
+      "experimental"
+    ],
+    "poolTagOverlap": 2
+  },
+  "Calvin Harris": {
+    "firstSeen": "2026-04-28",
+    "lastSeen": "2026-04-28",
+    "sources": [
+      "lastfm-tags"
+    ],
+    "titleHints": [],
+    "mentions": 1,
+    "poolTags": [
+      "electronic",
+      "electronica"
+    ],
+    "poolTagOverlap": 2
+  },
+  "Chief Keef": {
+    "firstSeen": "2026-04-28",
+    "lastSeen": "2026-04-28",
+    "sources": [
+      "lastfm-tags"
+    ],
+    "titleHints": [],
+    "mentions": 1,
+    "poolTags": [
+      "hip-hop",
+      "rap"
+    ],
+    "poolTagOverlap": 2
+  },
+  "Crystal Castles": {
+    "firstSeen": "2026-04-28",
+    "lastSeen": "2026-04-28",
+    "sources": [
+      "lastfm-tags"
+    ],
+    "titleHints": [],
+    "mentions": 1,
+    "poolTags": [
+      "electronic",
+      "electronica"
+    ],
+    "poolTagOverlap": 2
+  },
+  "David Guetta": {
+    "firstSeen": "2026-04-28",
+    "lastSeen": "2026-04-28",
+    "sources": [
+      "lastfm-tags"
+    ],
+    "titleHints": [],
+    "mentions": 1,
+    "poolTags": [
+      "house",
+      "techno"
+    ],
+    "poolTagOverlap": 2
+  },
+  "Diplo": {
+    "firstSeen": "2026-04-28",
+    "lastSeen": "2026-04-28",
+    "sources": [
+      "lastfm-tags"
+    ],
+    "titleHints": [],
+    "mentions": 1,
+    "poolTags": [
+      "electronic",
+      "electronica"
+    ],
+    "poolTagOverlap": 2
+  },
+  "DJ Khaled": {
+    "firstSeen": "2026-04-28",
+    "lastSeen": "2026-04-28",
+    "sources": [
+      "lastfm-tags"
+    ],
+    "titleHints": [],
+    "mentions": 1,
+    "poolTags": [
+      "hip hop",
+      "hip-hop"
+    ],
+    "poolTagOverlap": 2
+  },
+  "Doechii": {
+    "firstSeen": "2026-04-28",
+    "lastSeen": "2026-04-28",
+    "sources": [
+      "lastfm-tags"
+    ],
+    "titleHints": [],
+    "mentions": 1,
+    "poolTags": [
+      "hip hop",
+      "rap"
+    ],
+    "poolTagOverlap": 2
+  },
+  "Duke Dumont": {
+    "firstSeen": "2026-04-28",
+    "lastSeen": "2026-04-28",
+    "sources": [
+      "lastfm-tags"
+    ],
+    "titleHints": [],
+    "mentions": 1,
+    "poolTags": [
+      "deep house",
+      "house"
+    ],
+    "poolTagOverlap": 2
+  },
+  "Einmusik": {
+    "firstSeen": "2026-04-28",
+    "lastSeen": "2026-04-28",
+    "sources": [
+      "lastfm-tags"
+    ],
+    "titleHints": [],
+    "mentions": 1,
+    "poolTags": [
+      "minimal",
+      "minimal techno"
+    ],
+    "poolTagOverlap": 2
+  },
+  "Empire of the Sun": {
+    "firstSeen": "2026-04-28",
+    "lastSeen": "2026-04-28",
+    "sources": [
+      "lastfm-tags"
+    ],
+    "titleHints": [],
+    "mentions": 1,
+    "poolTags": [
+      "electronic",
+      "electronica"
+    ],
+    "poolTagOverlap": 2
+  },
+  "Ethel Cain": {
+    "firstSeen": "2026-04-28",
+    "lastSeen": "2026-04-28",
+    "sources": [
+      "lastfm-tags"
+    ],
+    "titleHints": [],
+    "mentions": 1,
+    "poolTags": [
+      "ambient",
+      "drone"
+    ],
+    "poolTagOverlap": 2
+  },
+  "FKA twigs": {
+    "firstSeen": "2026-04-28",
+    "lastSeen": "2026-04-28",
+    "sources": [
+      "lastfm-tags"
+    ],
+    "titleHints": [],
+    "mentions": 1,
+    "poolTags": [
+      "electronic",
+      "experimental"
+    ],
+    "poolTagOverlap": 2
+  },
+  "Grimes": {
+    "firstSeen": "2026-04-28",
+    "lastSeen": "2026-04-28",
+    "sources": [
+      "lastfm-tags"
+    ],
+    "titleHints": [],
+    "mentions": 1,
+    "poolTags": [
+      "electronic",
+      "experimental"
+    ],
+    "poolTagOverlap": 2
+  },
+  "Grouper": {
+    "firstSeen": "2026-04-28",
+    "lastSeen": "2026-04-28",
+    "sources": [
+      "lastfm-tags"
+    ],
+    "titleHints": [],
+    "mentions": 1,
+    "poolTags": [
+      "ambient",
+      "drone"
+    ],
+    "poolTagOverlap": 2
+  },
+  "Gui Boratto": {
+    "firstSeen": "2026-04-28",
+    "lastSeen": "2026-04-28",
+    "sources": [
+      "lastfm-tags"
+    ],
+    "titleHints": [],
+    "mentions": 1,
+    "poolTags": [
+      "minimal",
+      "minimal techno"
+    ],
+    "poolTagOverlap": 2
+  },
+  "Gunna": {
+    "firstSeen": "2026-04-28",
+    "lastSeen": "2026-04-28",
+    "sources": [
+      "lastfm-tags"
+    ],
+    "titleHints": [],
+    "mentions": 1,
+    "poolTags": [
+      "hip hop",
+      "rap"
+    ],
+    "poolTagOverlap": 2
+  },
+  "Ilkae": {
+    "firstSeen": "2026-04-28",
+    "lastSeen": "2026-04-28",
+    "sources": [
+      "lastfm-tags"
+    ],
+    "titleHints": [],
+    "mentions": 1,
+    "poolTags": [
+      "glitch",
+      "idm"
+    ],
+    "poolTagOverlap": 2
+  },
+  "Joey Bada$$": {
+    "firstSeen": "2026-04-28",
+    "lastSeen": "2026-04-28",
+    "sources": [
+      "lastfm-tags"
+    ],
+    "titleHints": [],
+    "mentions": 1,
+    "poolTags": [
+      "hip hop",
+      "hip-hop"
+    ],
+    "poolTagOverlap": 2
+  },
+  "John Tejada": {
+    "firstSeen": "2026-04-28",
+    "lastSeen": "2026-04-28",
+    "sources": [
+      "lastfm-tags"
+    ],
+    "titleHints": [],
+    "mentions": 1,
+    "poolTags": [
+      "minimal",
+      "minimal techno"
+    ],
+    "poolTagOverlap": 2
+  },
+  "Jungle": {
+    "firstSeen": "2026-04-28",
+    "lastSeen": "2026-04-28",
+    "sources": [
+      "lastfm-tags"
+    ],
+    "titleHints": [],
+    "mentions": 1,
+    "poolTags": [
+      "electronic",
+      "techno"
+    ],
+    "poolTagOverlap": 2
+  },
+  "Justice": {
+    "firstSeen": "2026-04-28",
+    "lastSeen": "2026-04-28",
+    "sources": [
+      "lastfm-tags"
+    ],
+    "titleHints": [],
+    "mentions": 1,
+    "poolTags": [
+      "electronic",
+      "electronica"
+    ],
+    "poolTagOverlap": 2
+  },
+  "Kaskade": {
+    "firstSeen": "2026-04-28",
+    "lastSeen": "2026-04-28",
+    "sources": [
+      "lastfm-tags"
+    ],
+    "titleHints": [],
+    "mentions": 1,
+    "poolTags": [
+      "deep house",
+      "house"
+    ],
+    "poolTagOverlap": 2
+  },
+  "KAYTRANADA": {
+    "firstSeen": "2026-04-28",
+    "lastSeen": "2026-04-28",
+    "sources": [
+      "lastfm-tags"
+    ],
+    "titleHints": [],
+    "mentions": 1,
+    "poolTags": [
+      "electronic",
+      "experimental"
+    ],
+    "poolTagOverlap": 2
+  },
+  "Kerri Chandler": {
+    "firstSeen": "2026-04-28",
+    "lastSeen": "2026-04-28",
+    "sources": [
+      "lastfm-tags"
+    ],
+    "titleHints": [],
+    "mentions": 1,
+    "poolTags": [
+      "deep house",
+      "house"
+    ],
+    "poolTagOverlap": 2
+  },
+  "Kiki": {
+    "firstSeen": "2026-04-28",
+    "lastSeen": "2026-04-28",
+    "sources": [
+      "lastfm-tags"
+    ],
+    "titleHints": [],
+    "mentions": 1,
+    "poolTags": [
+      "minimal",
+      "minimal techno"
+    ],
+    "poolTagOverlap": 2
+  },
+  "kiyo": {
+    "firstSeen": "2026-04-28",
+    "lastSeen": "2026-04-28",
+    "sources": [
+      "lastfm-tags"
+    ],
+    "titleHints": [],
+    "mentions": 1,
+    "poolTags": [
+      "glitch",
+      "idm"
+    ],
+    "poolTagOverlap": 2
+  },
+  "Kodak Black": {
+    "firstSeen": "2026-04-28",
+    "lastSeen": "2026-04-28",
+    "sources": [
+      "lastfm-tags"
+    ],
+    "titleHints": [],
+    "mentions": 1,
+    "poolTags": [
+      "hip hop",
+      "rap"
+    ],
+    "poolTagOverlap": 2
+  },
+  "Kollektiv Turmstrasse": {
+    "firstSeen": "2026-04-28",
+    "lastSeen": "2026-04-28",
+    "sources": [
+      "lastfm-tags"
+    ],
+    "titleHints": [],
+    "mentions": 1,
+    "poolTags": [
+      "minimal",
+      "minimal techno"
+    ],
+    "poolTagOverlap": 2
+  },
+  "Lawrence": {
+    "firstSeen": "2026-04-28",
+    "lastSeen": "2026-04-28",
+    "sources": [
+      "lastfm-tags"
+    ],
+    "titleHints": [],
+    "mentions": 1,
+    "poolTags": [
+      "minimal",
+      "minimal techno"
+    ],
+    "poolTagOverlap": 2
+  },
+  "LCD Soundsystem": {
+    "firstSeen": "2026-04-28",
+    "lastSeen": "2026-04-28",
+    "sources": [
+      "lastfm-tags"
+    ],
+    "titleHints": [],
+    "mentions": 1,
+    "poolTags": [
+      "electronic",
+      "electronica"
+    ],
+    "poolTagOverlap": 2
+  },
+  "Lemâitre": {
+    "firstSeen": "2026-04-28",
+    "lastSeen": "2026-04-28",
+    "sources": [
+      "lastfm-tags"
+    ],
+    "titleHints": [],
+    "mentions": 1,
+    "poolTags": [
+      "electronica",
+      "glitch"
+    ],
+    "poolTagOverlap": 2
+  },
+  "Lil Tecca": {
+    "firstSeen": "2026-04-28",
+    "lastSeen": "2026-04-28",
+    "sources": [
+      "lastfm-tags"
+    ],
+    "titleHints": [],
+    "mentions": 1,
+    "poolTags": [
+      "hip-hop",
+      "rap"
+    ],
+    "poolTagOverlap": 2
+  },
+  "Lil Yachty": {
+    "firstSeen": "2026-04-28",
+    "lastSeen": "2026-04-28",
+    "sources": [
+      "lastfm-tags"
+    ],
+    "titleHints": [],
+    "mentions": 1,
+    "poolTags": [
+      "hip hop",
+      "rap"
+    ],
+    "poolTagOverlap": 2
+  },
+  "M.A.N.D.Y.": {
+    "firstSeen": "2026-04-28",
+    "lastSeen": "2026-04-28",
+    "sources": [
+      "lastfm-tags"
+    ],
+    "titleHints": [],
+    "mentions": 1,
+    "poolTags": [
+      "minimal",
+      "minimal techno"
+    ],
+    "poolTagOverlap": 2
+  },
+  "M83": {
+    "firstSeen": "2026-04-28",
+    "lastSeen": "2026-04-28",
+    "sources": [
+      "lastfm-tags"
+    ],
+    "titleHints": [],
+    "mentions": 1,
+    "poolTags": [
+      "electronic",
+      "electronica"
+    ],
+    "poolTagOverlap": 2
+  },
+  "Machinedrum": {
+    "firstSeen": "2026-04-28",
+    "lastSeen": "2026-04-28",
+    "sources": [
+      "lastfm-tags"
+    ],
+    "titleHints": [],
+    "mentions": 1,
+    "poolTags": [
+      "glitch",
+      "idm"
+    ],
+    "poolTagOverlap": 2
+  },
+  "Major Lazer": {
+    "firstSeen": "2026-04-28",
+    "lastSeen": "2026-04-28",
+    "sources": [
+      "lastfm-tags"
+    ],
+    "titleHints": [],
+    "mentions": 1,
+    "poolTags": [
+      "dub",
+      "electronic"
+    ],
+    "poolTagOverlap": 2
+  },
+  "Mall Grab": {
+    "firstSeen": "2026-04-28",
+    "lastSeen": "2026-04-28",
+    "sources": [
+      "lastfm-tags"
+    ],
+    "titleHints": [],
+    "mentions": 1,
+    "poolTags": [
+      "deep house",
+      "techno"
+    ],
+    "poolTagOverlap": 2
+  },
+  "Moderat": {
+    "firstSeen": "2026-04-28",
+    "lastSeen": "2026-04-28",
+    "sources": [
+      "lastfm-tags"
+    ],
+    "titleHints": [],
+    "mentions": 1,
+    "poolTags": [
+      "glitch",
+      "idm"
+    ],
+    "poolTagOverlap": 2
+  },
+  "Nas": {
+    "firstSeen": "2026-04-28",
+    "lastSeen": "2026-04-28",
+    "sources": [
+      "lastfm-tags"
+    ],
+    "titleHints": [],
+    "mentions": 1,
+    "poolTags": [
+      "hip hop",
+      "hip-hop"
+    ],
+    "poolTagOverlap": 2
+  },
+  "Nicki Minaj": {
+    "firstSeen": "2026-04-28",
+    "lastSeen": "2026-04-28",
+    "sources": [
+      "lastfm-tags"
+    ],
+    "titleHints": [],
+    "mentions": 1,
+    "poolTags": [
+      "hip-hop",
+      "rap"
+    ],
+    "poolTagOverlap": 2
+  },
+  "Oliver Koletzki": {
+    "firstSeen": "2026-04-28",
+    "lastSeen": "2026-04-28",
+    "sources": [
+      "lastfm-tags"
+    ],
+    "titleHints": [],
+    "mentions": 1,
+    "poolTags": [
+      "minimal",
+      "minimal techno"
+    ],
+    "poolTagOverlap": 2
+  },
+  "Orbital": {
+    "firstSeen": "2026-04-28",
+    "lastSeen": "2026-04-28",
+    "sources": [
+      "lastfm-tags"
+    ],
+    "titleHints": [],
+    "mentions": 1,
+    "poolTags": [
+      "idm",
+      "techno"
+    ],
+    "poolTagOverlap": 2
+  },
+  "Owl City": {
+    "firstSeen": "2026-04-28",
+    "lastSeen": "2026-04-28",
+    "sources": [
+      "lastfm-tags"
+    ],
+    "titleHints": [],
+    "mentions": 1,
+    "poolTags": [
+      "electronic",
+      "electronica"
+    ],
+    "poolTagOverlap": 2
+  },
+  "Peggy Gou": {
+    "firstSeen": "2026-04-28",
+    "lastSeen": "2026-04-28",
+    "sources": [
+      "lastfm-tags"
+    ],
+    "titleHints": [],
+    "mentions": 1,
+    "poolTags": [
+      "house",
+      "techno"
+    ],
+    "poolTagOverlap": 2
+  },
+  "Phantogram": {
+    "firstSeen": "2026-04-28",
+    "lastSeen": "2026-04-28",
+    "sources": [
+      "lastfm-tags"
+    ],
+    "titleHints": [],
+    "mentions": 1,
+    "poolTags": [
+      "electronic",
+      "experimental"
+    ],
+    "poolTagOverlap": 2
+  },
+  "PinkPantheress": {
+    "firstSeen": "2026-04-28",
+    "lastSeen": "2026-04-28",
+    "sources": [
+      "lastfm-tags"
+    ],
+    "titleHints": [],
+    "mentions": 1,
+    "poolTags": [
+      "electronic",
+      "uk garage"
+    ],
+    "poolTagOverlap": 2
+  },
+  "Porter Ricks": {
+    "firstSeen": "2026-04-28",
+    "lastSeen": "2026-04-28",
+    "sources": [
+      "lastfm-tags"
+    ],
+    "titleHints": [],
+    "mentions": 1,
+    "poolTags": [
+      "dub techno",
+      "minimal techno"
+    ],
+    "poolTagOverlap": 2
+  },
+  "Post Malone": {
+    "firstSeen": "2026-04-28",
+    "lastSeen": "2026-04-28",
+    "sources": [
+      "lastfm-tags"
+    ],
+    "titleHints": [],
+    "mentions": 1,
+    "poolTags": [
+      "hip-hop",
+      "rap"
+    ],
+    "poolTagOverlap": 2
+  },
+  "Rodriguez Jr.": {
+    "firstSeen": "2026-04-28",
+    "lastSeen": "2026-04-28",
+    "sources": [
+      "lastfm-tags"
+    ],
+    "titleHints": [],
+    "mentions": 1,
+    "poolTags": [
+      "minimal",
+      "minimal techno"
+    ],
+    "poolTagOverlap": 2
+  },
+  "Rone": {
+    "firstSeen": "2026-04-28",
+    "lastSeen": "2026-04-28",
+    "sources": [
+      "lastfm-tags"
+    ],
+    "titleHints": [],
+    "mentions": 1,
+    "poolTags": [
+      "minimal",
+      "minimal techno"
+    ],
+    "poolTagOverlap": 2
+  },
+  "Route 94": {
+    "firstSeen": "2026-04-28",
+    "lastSeen": "2026-04-28",
+    "sources": [
+      "lastfm-tags"
+    ],
+    "titleHints": [],
+    "mentions": 1,
+    "poolTags": [
+      "deep house",
+      "house"
+    ],
+    "poolTagOverlap": 2
+  },
+  "Sara Landry": {
+    "firstSeen": "2026-04-28",
+    "lastSeen": "2026-04-28",
+    "sources": [
+      "lastfm-tags"
+    ],
+    "titleHints": [],
+    "mentions": 1,
+    "poolTags": [
+      "minimal techno",
+      "techno"
+    ],
+    "poolTagOverlap": 2
+  },
+  "SBTRKT": {
+    "firstSeen": "2026-04-28",
+    "lastSeen": "2026-04-28",
+    "sources": [
+      "lastfm-tags"
+    ],
+    "titleHints": [],
+    "mentions": 1,
+    "poolTags": [
+      "dubstep",
+      "uk garage"
+    ],
+    "poolTagOverlap": 2
+  },
+  "Seekae": {
+    "firstSeen": "2026-04-28",
+    "lastSeen": "2026-04-28",
+    "sources": [
+      "lastfm-tags"
+    ],
+    "titleHints": [],
+    "mentions": 1,
+    "poolTags": [
+      "electronica",
+      "glitch"
+    ],
+    "poolTagOverlap": 2
+  },
+  "Shed": {
+    "firstSeen": "2026-04-28",
+    "lastSeen": "2026-04-28",
+    "sources": [
+      "lastfm-tags"
+    ],
+    "titleHints": [],
+    "mentions": 1,
+    "poolTags": [
+      "dub techno",
+      "minimal techno"
+    ],
+    "poolTagOverlap": 2
+  },
+  "Skepta": {
+    "firstSeen": "2026-04-28",
+    "lastSeen": "2026-04-28",
+    "sources": [
+      "lastfm-tags"
+    ],
+    "titleHints": [],
+    "mentions": 1,
+    "poolTags": [
+      "dubstep",
+      "uk garage"
+    ],
+    "poolTagOverlap": 2
+  },
+  "Skrillex": {
+    "firstSeen": "2026-04-28",
+    "lastSeen": "2026-04-28",
+    "sources": [
+      "lastfm-tags"
+    ],
+    "titleHints": [],
+    "mentions": 1,
+    "poolTags": [
+      "dubstep",
+      "electronica"
+    ],
+    "poolTagOverlap": 2
+  },
+  "Solomun": {
+    "firstSeen": "2026-04-28",
+    "lastSeen": "2026-04-28",
+    "sources": [
+      "lastfm-tags"
+    ],
+    "titleHints": [],
+    "mentions": 1,
+    "poolTags": [
+      "deep house",
+      "minimal"
+    ],
+    "poolTagOverlap": 2
+  },
+  "Stephan Bodzin": {
+    "firstSeen": "2026-04-28",
+    "lastSeen": "2026-04-28",
+    "sources": [
+      "lastfm-tags"
+    ],
+    "titleHints": [],
+    "mentions": 1,
+    "poolTags": [
+      "minimal",
+      "minimal techno"
+    ],
+    "poolTagOverlap": 2
+  },
+  "Stromae": {
+    "firstSeen": "2026-04-28",
+    "lastSeen": "2026-04-28",
+    "sources": [
+      "lastfm-tags"
+    ],
+    "titleHints": [],
+    "mentions": 1,
+    "poolTags": [
+      "electronic",
+      "electronica"
+    ],
+    "poolTagOverlap": 2
+  },
+  "Swedish House Mafia": {
+    "firstSeen": "2026-04-28",
+    "lastSeen": "2026-04-28",
+    "sources": [
+      "lastfm-tags"
+    ],
+    "titleHints": [],
+    "mentions": 1,
+    "poolTags": [
+      "electronic",
+      "house"
+    ],
+    "poolTagOverlap": 2
+  },
+  "Sweet Trip": {
+    "firstSeen": "2026-04-28",
+    "lastSeen": "2026-04-28",
+    "sources": [
+      "lastfm-tags"
+    ],
+    "titleHints": [],
+    "mentions": 1,
+    "poolTags": [
+      "glitch",
+      "idm"
+    ],
+    "poolTagOverlap": 2
+  },
+  "The Chainsmokers": {
+    "firstSeen": "2026-04-28",
+    "lastSeen": "2026-04-28",
+    "sources": [
+      "lastfm-tags"
+    ],
+    "titleHints": [],
+    "mentions": 1,
+    "poolTags": [
+      "electronic",
+      "house"
+    ],
+    "poolTagOverlap": 2
+  },
+  "The Kid LAROI": {
+    "firstSeen": "2026-04-28",
+    "lastSeen": "2026-04-28",
+    "sources": [
+      "lastfm-tags"
+    ],
+    "titleHints": [],
+    "mentions": 1,
+    "poolTags": [
+      "hip-hop",
+      "rap"
+    ],
+    "poolTagOverlap": 2
+  },
+  "The Living Tombstone": {
+    "firstSeen": "2026-04-28",
+    "lastSeen": "2026-04-28",
+    "sources": [
+      "lastfm-tags"
+    ],
+    "titleHints": [],
+    "mentions": 1,
+    "poolTags": [
+      "dubstep",
+      "electronic"
+    ],
+    "poolTagOverlap": 2
+  },
+  "The Notorious B.I.G.": {
+    "firstSeen": "2026-04-28",
+    "lastSeen": "2026-04-28",
+    "sources": [
+      "lastfm-tags"
+    ],
+    "titleHints": [],
+    "mentions": 1,
+    "poolTags": [
+      "hip-hop",
+      "rap"
+    ],
+    "poolTagOverlap": 2
+  },
+  "The Weeknd": {
+    "firstSeen": "2026-04-28",
+    "lastSeen": "2026-04-28",
+    "sources": [
+      "lastfm-tags"
+    ],
+    "titleHints": [],
+    "mentions": 1,
+    "poolTags": [
+      "dubstep",
+      "electronic"
+    ],
+    "poolTagOverlap": 2
+  },
+  "Tiësto": {
+    "firstSeen": "2026-04-28",
+    "lastSeen": "2026-04-28",
+    "sources": [
+      "lastfm-tags"
+    ],
+    "titleHints": [],
+    "mentions": 1,
+    "poolTags": [
+      "electronica",
+      "techno"
+    ],
+    "poolTagOverlap": 2
+  },
+  "Travi$ Scott": {
+    "firstSeen": "2026-04-28",
+    "lastSeen": "2026-04-28",
+    "sources": [
+      "lastfm-tags"
+    ],
+    "titleHints": [],
+    "mentions": 1,
+    "poolTags": [
+      "hip-hop",
+      "rap"
+    ],
+    "poolTagOverlap": 2
+  },
+  "Tyler, The Creator": {
+    "firstSeen": "2026-04-28",
+    "lastSeen": "2026-04-28",
+    "sources": [
+      "lastfm-tags"
+    ],
+    "titleHints": [],
+    "mentions": 1,
+    "poolTags": [
+      "hip-hop",
+      "rap"
+    ],
+    "poolTagOverlap": 2
+  },
+  "Underworld": {
+    "firstSeen": "2026-04-28",
+    "lastSeen": "2026-04-28",
+    "sources": [
+      "lastfm-tags"
+    ],
+    "titleHints": [],
+    "mentions": 1,
+    "poolTags": [
+      "electronica",
+      "techno"
+    ],
+    "poolTagOverlap": 2
+  },
+  "Wiz Khalifa": {
+    "firstSeen": "2026-04-28",
+    "lastSeen": "2026-04-28",
+    "sources": [
+      "lastfm-tags"
+    ],
+    "titleHints": [],
+    "mentions": 1,
+    "poolTags": [
+      "hip-hop",
+      "rap"
+    ],
+    "poolTagOverlap": 2
+  },
+  "Worakls": {
+    "firstSeen": "2026-04-28",
+    "lastSeen": "2026-04-28",
+    "sources": [
+      "lastfm-tags"
+    ],
+    "titleHints": [],
+    "mentions": 1,
+    "poolTags": [
+      "minimal",
+      "minimal techno"
+    ],
+    "poolTagOverlap": 2
+  },
+  "XXXTENTACION": {
+    "firstSeen": "2026-04-28",
+    "lastSeen": "2026-04-28",
+    "sources": [
+      "lastfm-tags"
+    ],
+    "titleHints": [],
+    "mentions": 1,
+    "poolTags": [
+      "hip-hop",
+      "rap"
+    ],
+    "poolTagOverlap": 2
+  },
+  "Youandewan": {
+    "firstSeen": "2026-04-28",
+    "lastSeen": "2026-04-28",
+    "sources": [
+      "lastfm-tags"
+    ],
+    "titleHints": [],
+    "mentions": 1,
+    "poolTags": [
+      "deep house",
+      "minimal"
+    ],
+    "poolTagOverlap": 2
+  },
+  "Zedd": {
+    "firstSeen": "2026-04-28",
+    "lastSeen": "2026-04-28",
+    "sources": [
+      "lastfm-tags"
+    ],
+    "titleHints": [],
+    "mentions": 1,
+    "poolTags": [
+      "electronic",
+      "house"
+    ],
+    "poolTagOverlap": 2
+  },
+  "ZHU": {
+    "firstSeen": "2026-04-28",
+    "lastSeen": "2026-04-28",
+    "sources": [
+      "lastfm-tags"
+    ],
+    "titleHints": [],
+    "mentions": 1,
+    "poolTags": [
+      "deep house",
+      "house"
+    ],
+    "poolTagOverlap": 2
   },
   "11 New Albums You Should Listen to Now": {
     "firstSeen": "2026-04-25",
