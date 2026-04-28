@@ -1,4 +1,1371 @@
 {
+  "22": {
+    "firstSeen": "2026-04-28",
+    "lastSeen": "2026-04-28",
+    "sources": [
+      "pitchfork_tracks"
+    ],
+    "titleHints": [
+      "“How Shit Go”"
+    ],
+    "mentions": 1
+  },
+  "41": {
+    "firstSeen": "2026-04-28",
+    "lastSeen": "2026-04-28",
+    "sources": [
+      "pitchfork_tracks"
+    ],
+    "titleHints": [
+      "“Addicted” [ft. Fivio Foreign]"
+    ],
+    "mentions": 1
+  },
+  "Jump Source": {
+    "firstSeen": "2026-04-25",
+    "lastSeen": "2026-04-28",
+    "sources": [
+      "ra",
+      "pitchfork_albums"
+    ],
+    "titleHints": [
+      "Fold"
+    ],
+    "mentions": 6
+  },
+  "Quiet Light": {
+    "firstSeen": "2026-04-28",
+    "lastSeen": "2026-04-28",
+    "sources": [
+      "pitchfork_albums",
+      "quietus"
+    ],
+    "titleHints": [
+      "Blue Angel Sparkling Silver 2",
+      "Blue Angel Sparkling Silver Angel 2"
+    ],
+    "mentions": 2
+  },
+  "Starker": {
+    "firstSeen": "2026-04-28",
+    "lastSeen": "2026-04-28",
+    "sources": [
+      "pitchfork_albums",
+      "pitchfork_best_albums"
+    ],
+    "titleHints": [
+      "LIVING TYPE DANGEROUS Vol. 1"
+    ],
+    "mentions": 2
+  },
+  "Ppp Piezo Dj Plead Dj Python": {
+    "firstSeen": "2026-04-28",
+    "lastSeen": "2026-04-28",
+    "sources": [
+      "pitchfork_tracks",
+      "pitchfork_best_tracks"
+    ],
+    "titleHints": [
+      "“Wisco”"
+    ],
+    "mentions": 2
+  },
+  "414junglebaby": {
+    "firstSeen": "2026-04-28",
+    "lastSeen": "2026-04-28",
+    "sources": [
+      "pitchfork_tracks",
+      "pitchfork_best_tracks"
+    ],
+    "titleHints": [
+      "“Yo Baby”"
+    ],
+    "mentions": 2
+  },
+  "Gelli Haha": {
+    "firstSeen": "2026-04-28",
+    "lastSeen": "2026-04-28",
+    "sources": [
+      "pitchfork_tracks",
+      "pitchfork_best_tracks"
+    ],
+    "titleHints": [
+      "“Klouds Will Carry Me to Sleep”"
+    ],
+    "mentions": 2
+  },
+  "Lightris": {
+    "firstSeen": "2026-04-28",
+    "lastSeen": "2026-04-28",
+    "sources": [
+      "pitchfork_tracks",
+      "pitchfork_best_tracks"
+    ],
+    "titleHints": [
+      "“Up Down”"
+    ],
+    "mentions": 2
+  },
+  "Tara Clerkin Trio": {
+    "firstSeen": "2026-04-28",
+    "lastSeen": "2026-04-28",
+    "sources": [
+      "pitchfork_tracks",
+      "pitchfork_best_tracks"
+    ],
+    "titleHints": [
+      "“Somewhere Good”"
+    ],
+    "mentions": 2
+  },
+  "Zayok": {
+    "firstSeen": "2026-04-28",
+    "lastSeen": "2026-04-28",
+    "sources": [
+      "pitchfork_tracks",
+      "pitchfork_best_tracks"
+    ],
+    "titleHints": [
+      "“Oh! Give me something to believe in”"
+    ],
+    "mentions": 2
+  },
+  "Iceage": {
+    "firstSeen": "2026-04-28",
+    "lastSeen": "2026-04-28",
+    "sources": [
+      "pitchfork_tracks",
+      "pitchfork_best_tracks"
+    ],
+    "titleHints": [
+      "“Star”"
+    ],
+    "mentions": 2
+  },
+  "Aldous Harding": {
+    "firstSeen": "2026-04-28",
+    "lastSeen": "2026-04-28",
+    "sources": [
+      "pitchfork_tracks",
+      "pitchfork_best_tracks"
+    ],
+    "titleHints": [
+      "“One Stop”"
+    ],
+    "mentions": 2
+  },
+  "Wednesday": {
+    "firstSeen": "2026-04-28",
+    "lastSeen": "2026-04-28",
+    "sources": [
+      "pitchfork_best_albums",
+      "pitchfork_best_tracks"
+    ],
+    "titleHints": [
+      "Bleeds",
+      "“Elderberry Wine”"
+    ],
+    "mentions": 2
+  },
+  "John Summit": {
+    "firstSeen": "2026-04-25",
+    "lastSeen": "2026-04-28",
+    "sources": [
+      "ra"
+    ],
+    "titleHints": [
+      "CTRL ESCAPE"
+    ],
+    "mentions": 5
+  },
+  "Actress \\u0026 Suzanne Ciani": {
+    "firstSeen": "2026-04-25",
+    "lastSeen": "2026-04-28",
+    "sources": [
+      "ra"
+    ],
+    "titleHints": [
+      "Concrète Waves"
+    ],
+    "mentions": 5
+  },
+  "Avalon Emerson \\u0026 the Charm": {
+    "firstSeen": "2026-04-25",
+    "lastSeen": "2026-04-28",
+    "sources": [
+      "ra"
+    ],
+    "titleHints": [
+      "Written Into Changes"
+    ],
+    "mentions": 5
+  },
+  "Simo Cell \\u0026 Abdullah Miniawy": {
+    "firstSeen": "2026-04-25",
+    "lastSeen": "2026-04-28",
+    "sources": [
+      "ra"
+    ],
+    "titleHints": [
+      "Dying Is the Internet"
+    ],
+    "mentions": 5
+  },
+  "Decoder": {
+    "firstSeen": "2026-04-25",
+    "lastSeen": "2026-04-28",
+    "sources": [
+      "ra"
+    ],
+    "titleHints": [
+      "Prakasa"
+    ],
+    "mentions": 5
+  },
+  "Peaches": {
+    "firstSeen": "2026-04-25",
+    "lastSeen": "2026-04-28",
+    "sources": [
+      "ra"
+    ],
+    "titleHints": [
+      "No Lube So Rude"
+    ],
+    "mentions": 5
+  },
+  "Butter Sessions": {
+    "firstSeen": "2026-04-25",
+    "lastSeen": "2026-04-28",
+    "sources": [
+      "ra"
+    ],
+    "titleHints": [
+      "15 Years of Butter Sessions"
+    ],
+    "mentions": 5
+  },
+  "Daphni": {
+    "firstSeen": "2026-04-25",
+    "lastSeen": "2026-04-28",
+    "sources": [
+      "ra"
+    ],
+    "titleHints": [
+      "Butterfly"
+    ],
+    "mentions": 5
+  },
+  "Mor Elian": {
+    "firstSeen": "2026-04-25",
+    "lastSeen": "2026-04-28",
+    "sources": [
+      "ra"
+    ],
+    "titleHints": [
+      "Solid Space"
+    ],
+    "mentions": 5
+  },
+  "Eris Drew": {
+    "firstSeen": "2026-04-25",
+    "lastSeen": "2026-04-28",
+    "sources": [
+      "ra"
+    ],
+    "titleHints": [
+      "DJ-Kicks: Eris Drew"
+    ],
+    "mentions": 5
+  },
+  "Charlotte de Witte": {
+    "firstSeen": "2026-04-25",
+    "lastSeen": "2026-04-28",
+    "sources": [
+      "ra"
+    ],
+    "titleHints": [
+      "Charlotte de Witte"
+    ],
+    "mentions": 5
+  },
+  "Kehlani": {
+    "firstSeen": "2026-04-28",
+    "lastSeen": "2026-04-28",
+    "sources": [
+      "pitchfork_albums"
+    ],
+    "titleHints": [
+      "Kehlani"
+    ],
+    "mentions": 1
+  },
+  "Mikaela Davis": {
+    "firstSeen": "2026-04-28",
+    "lastSeen": "2026-04-28",
+    "sources": [
+      "pitchfork_albums"
+    ],
+    "titleHints": [
+      "Graceland Way"
+    ],
+    "mentions": 1
+  },
+  "Annea Lockwood": {
+    "firstSeen": "2026-04-28",
+    "lastSeen": "2026-04-28",
+    "sources": [
+      "pitchfork_albums"
+    ],
+    "titleHints": [
+      "World Rhythms"
+    ],
+    "mentions": 1
+  },
+  "Loukeman": {
+    "firstSeen": "2026-04-28",
+    "lastSeen": "2026-04-28",
+    "sources": [
+      "pitchfork_albums"
+    ],
+    "titleHints": [
+      "Sd-3"
+    ],
+    "mentions": 1
+  },
+  "Sonic Youth": {
+    "firstSeen": "2026-04-28",
+    "lastSeen": "2026-04-28",
+    "sources": [
+      "pitchfork_albums"
+    ],
+    "titleHints": [
+      "Diamond Seas"
+    ],
+    "mentions": 1
+  },
+  "Book Of Love": {
+    "firstSeen": "2026-04-28",
+    "lastSeen": "2026-04-28",
+    "sources": [
+      "pitchfork_albums"
+    ],
+    "titleHints": [
+      "Book of Love"
+    ],
+    "mentions": 1
+  },
+  "Foo Fighters": {
+    "firstSeen": "2026-04-28",
+    "lastSeen": "2026-04-28",
+    "sources": [
+      "pitchfork_albums"
+    ],
+    "titleHints": [
+      "Your Favorite Toy"
+    ],
+    "mentions": 1
+  },
+  "Alvarius B": {
+    "firstSeen": "2026-04-28",
+    "lastSeen": "2026-04-28",
+    "sources": [
+      "pitchfork_albums"
+    ],
+    "titleHints": [
+      "Malarial Dream"
+    ],
+    "mentions": 1
+  },
+  "Hedvig Mollestad Weejuns": {
+    "firstSeen": "2026-04-28",
+    "lastSeen": "2026-04-28",
+    "sources": [
+      "pitchfork_albums"
+    ],
+    "titleHints": [
+      "Bitches Blues"
+    ],
+    "mentions": 1
+  },
+  "Carla Dal Forno": {
+    "firstSeen": "2026-04-28",
+    "lastSeen": "2026-04-28",
+    "sources": [
+      "pitchfork_albums"
+    ],
+    "titleHints": [
+      "Confession"
+    ],
+    "mentions": 1
+  },
+  "Portrayal Of Guilt": {
+    "firstSeen": "2026-04-28",
+    "lastSeen": "2026-04-28",
+    "sources": [
+      "pitchfork_albums"
+    ],
+    "titleHints": [
+      "…Beginning of the End"
+    ],
+    "mentions": 1
+  },
+  "Friko": {
+    "firstSeen": "2026-04-28",
+    "lastSeen": "2026-04-28",
+    "sources": [
+      "pitchfork_albums"
+    ],
+    "titleHints": [
+      "Something Worth Waiting For"
+    ],
+    "mentions": 1
+  },
+  "Yaya Bey": {
+    "firstSeen": "2026-04-28",
+    "lastSeen": "2026-04-28",
+    "sources": [
+      "pitchfork_albums"
+    ],
+    "titleHints": [
+      "Fidelity"
+    ],
+    "mentions": 1
+  },
+  "Black Nile": {
+    "firstSeen": "2026-04-28",
+    "lastSeen": "2026-04-28",
+    "sources": [
+      "pitchfork_albums"
+    ],
+    "titleHints": [
+      "Indigo Garden"
+    ],
+    "mentions": 1
+  },
+  "Justine Skye": {
+    "firstSeen": "2026-04-28",
+    "lastSeen": "2026-04-28",
+    "sources": [
+      "pitchfork_albums"
+    ],
+    "titleHints": [
+      "CANDY"
+    ],
+    "mentions": 1
+  },
+  "National Photo Committee": {
+    "firstSeen": "2026-04-28",
+    "lastSeen": "2026-04-28",
+    "sources": [
+      "pitchfork_albums"
+    ],
+    "titleHints": [
+      "Red Hot Photo Committee"
+    ],
+    "mentions": 1
+  },
+  "Sexyy Red": {
+    "firstSeen": "2026-04-28",
+    "lastSeen": "2026-04-28",
+    "sources": [
+      "pitchfork_albums"
+    ],
+    "titleHints": [
+      "Yo Favorite Trappa Favorite Rappa"
+    ],
+    "mentions": 1
+  },
+  "Rikki G Godd": {
+    "firstSeen": "2026-04-28",
+    "lastSeen": "2026-04-28",
+    "sources": [
+      "pitchfork_albums"
+    ],
+    "titleHints": [
+      "Cost of Living"
+    ],
+    "mentions": 1
+  },
+  "Kathryn Mohr": {
+    "firstSeen": "2026-04-28",
+    "lastSeen": "2026-04-28",
+    "sources": [
+      "pitchfork_albums"
+    ],
+    "titleHints": [
+      "Carve"
+    ],
+    "mentions": 1
+  },
+  "Frog": {
+    "firstSeen": "2026-04-28",
+    "lastSeen": "2026-04-28",
+    "sources": [
+      "pitchfork_albums"
+    ],
+    "titleHints": [
+      "Frog for Sale"
+    ],
+    "mentions": 1
+  },
+  "Handle": {
+    "firstSeen": "2026-04-28",
+    "lastSeen": "2026-04-28",
+    "sources": [
+      "pitchfork_albums"
+    ],
+    "titleHints": [
+      "COLLIDE"
+    ],
+    "mentions": 1
+  },
+  "Asha Bhosle": {
+    "firstSeen": "2026-04-28",
+    "lastSeen": "2026-04-28",
+    "sources": [
+      "pitchfork_tracks"
+    ],
+    "titleHints": [
+      "“Dum Maro Dum”"
+    ],
+    "mentions": 1
+  },
+  "Angela Autumn": {
+    "firstSeen": "2026-04-28",
+    "lastSeen": "2026-04-28",
+    "sources": [
+      "pitchfork_tracks"
+    ],
+    "titleHints": [
+      "“trampstamp”"
+    ],
+    "mentions": 1
+  },
+  "Massive Attack Tom Waits": {
+    "firstSeen": "2026-04-28",
+    "lastSeen": "2026-04-28",
+    "sources": [
+      "pitchfork_tracks"
+    ],
+    "titleHints": [
+      "“Boots on the Ground”"
+    ],
+    "mentions": 1
+  },
+  "Allstar Jr": {
+    "firstSeen": "2026-04-28",
+    "lastSeen": "2026-04-28",
+    "sources": [
+      "pitchfork_tracks"
+    ],
+    "titleHints": [
+      "“Mob Untied”"
+    ],
+    "mentions": 1
+  },
+  "Undrcvr Hunnakay": {
+    "firstSeen": "2026-04-28",
+    "lastSeen": "2026-04-28",
+    "sources": [
+      "pitchfork_tracks"
+    ],
+    "titleHints": [
+      "“flee”"
+    ],
+    "mentions": 1
+  },
+  "Dyltwosix": {
+    "firstSeen": "2026-04-28",
+    "lastSeen": "2026-04-28",
+    "sources": [
+      "pitchfork_tracks"
+    ],
+    "titleHints": [
+      "“Lived and Ive Learned”"
+    ],
+    "mentions": 1
+  },
+  "Momo Dj Texas Trill": {
+    "firstSeen": "2026-04-28",
+    "lastSeen": "2026-04-28",
+    "sources": [
+      "pitchfork_tracks"
+    ],
+    "titleHints": [
+      "“Do the Ratchet”"
+    ],
+    "mentions": 1
+  },
+  "Charles Mingus": {
+    "firstSeen": "2026-04-28",
+    "lastSeen": "2026-04-28",
+    "sources": [
+      "pitchfork_tracks"
+    ],
+    "titleHints": [
+      "“Fables of Faubus”"
+    ],
+    "mentions": 1
+  },
+  "Ejae Audrey Nuna Rei Ami": {
+    "firstSeen": "2026-04-28",
+    "lastSeen": "2026-04-28",
+    "sources": [
+      "pitchfork_tracks"
+    ],
+    "titleHints": [
+      "“Golden”"
+    ],
+    "mentions": 1
+  },
+  "Minutemen": {
+    "firstSeen": "2026-04-28",
+    "lastSeen": "2026-04-28",
+    "sources": [
+      "pitchfork_tracks"
+    ],
+    "titleHints": [
+      "“Corona”"
+    ],
+    "mentions": 1
+  },
+  "Mop": {
+    "firstSeen": "2026-04-28",
+    "lastSeen": "2026-04-28",
+    "sources": [
+      "pitchfork_tracks"
+    ],
+    "titleHints": [
+      "“Ante Up (Robbing-Hoodz Theory)”"
+    ],
+    "mentions": 1
+  },
+  "Kacey Musgraves": {
+    "firstSeen": "2026-04-28",
+    "lastSeen": "2026-04-28",
+    "sources": [
+      "pitchfork_tracks"
+    ],
+    "titleHints": [
+      "“Dry Spell”"
+    ],
+    "mentions": 1
+  },
+  "David Wise": {
+    "firstSeen": "2026-04-28",
+    "lastSeen": "2026-04-28",
+    "sources": [
+      "pitchfork_tracks"
+    ],
+    "titleHints": [
+      "“Stickerbush Symphony”"
+    ],
+    "mentions": 1
+  },
+  "1 Umbrella": {
+    "firstSeen": "2026-04-28",
+    "lastSeen": "2026-04-28",
+    "sources": [
+      "pitchfork_tracks"
+    ],
+    "titleHints": [
+      "“One of Those”"
+    ],
+    "mentions": 1
+  },
+  "Brat Star": {
+    "firstSeen": "2026-04-28",
+    "lastSeen": "2026-04-28",
+    "sources": [
+      "pitchfork_tracks"
+    ],
+    "titleHints": [
+      "“Margot Tenenbaum”"
+    ],
+    "mentions": 1
+  },
+  "My New Band Believe": {
+    "firstSeen": "2026-04-28",
+    "lastSeen": "2026-04-28",
+    "sources": [
+      "pitchfork_best_albums"
+    ],
+    "titleHints": [
+      "My New Band Believe"
+    ],
+    "mentions": 1
+  },
+  "Wendy Eisenberg": {
+    "firstSeen": "2026-04-28",
+    "lastSeen": "2026-04-28",
+    "sources": [
+      "pitchfork_best_albums"
+    ],
+    "titleHints": [
+      "Wendy Eisenberg"
+    ],
+    "mentions": 1
+  },
+  "Neurosis": {
+    "firstSeen": "2026-04-28",
+    "lastSeen": "2026-04-28",
+    "sources": [
+      "pitchfork_best_albums"
+    ],
+    "titleHints": [
+      "An Undying Love for a Burning World"
+    ],
+    "mentions": 1
+  },
+  "Underscores": {
+    "firstSeen": "2026-04-28",
+    "lastSeen": "2026-04-28",
+    "sources": [
+      "pitchfork_best_albums"
+    ],
+    "titleHints": [
+      "U"
+    ],
+    "mentions": 1
+  },
+  "Grace Ives": {
+    "firstSeen": "2026-04-28",
+    "lastSeen": "2026-04-28",
+    "sources": [
+      "pitchfork_best_albums"
+    ],
+    "titleHints": [
+      "Girlfriend"
+    ],
+    "mentions": 1
+  },
+  "Sideshow": {
+    "firstSeen": "2026-04-28",
+    "lastSeen": "2026-04-28",
+    "sources": [
+      "pitchfork_best_albums"
+    ],
+    "titleHints": [
+      "TIGRAY FUNK"
+    ],
+    "mentions": 1
+  },
+  "Zel": {
+    "firstSeen": "2026-04-28",
+    "lastSeen": "2026-04-28",
+    "sources": [
+      "pitchfork_best_albums"
+    ],
+    "titleHints": [
+      "Still Right Here"
+    ],
+    "mentions": 1
+  },
+  "Twisted Teens": {
+    "firstSeen": "2026-04-28",
+    "lastSeen": "2026-04-28",
+    "sources": [
+      "pitchfork_best_albums"
+    ],
+    "titleHints": [
+      "Blame the Clown"
+    ],
+    "mentions": 1
+  },
+  "Lord Jah Monte Ogbon": {
+    "firstSeen": "2026-04-28",
+    "lastSeen": "2026-04-28",
+    "sources": [
+      "pitchfork_best_albums"
+    ],
+    "titleHints": [
+      "As of Now"
+    ],
+    "mentions": 1
+  },
+  "Ratboys": {
+    "firstSeen": "2026-04-28",
+    "lastSeen": "2026-04-28",
+    "sources": [
+      "pitchfork_best_albums"
+    ],
+    "titleHints": [
+      "Singin’ to an Empty Chair"
+    ],
+    "mentions": 1
+  },
+  "Mandy Indiana": {
+    "firstSeen": "2026-04-28",
+    "lastSeen": "2026-04-28",
+    "sources": [
+      "pitchfork_best_albums"
+    ],
+    "titleHints": [
+      "URGH"
+    ],
+    "mentions": 1
+  },
+  "Xaviersobased": {
+    "firstSeen": "2026-04-28",
+    "lastSeen": "2026-04-28",
+    "sources": [
+      "pitchfork_best_albums"
+    ],
+    "titleHints": [
+      "Xavier"
+    ],
+    "mentions": 1
+  },
+  "Otto Benson": {
+    "firstSeen": "2026-04-28",
+    "lastSeen": "2026-04-28",
+    "sources": [
+      "pitchfork_best_albums"
+    ],
+    "titleHints": [
+      "Peanut"
+    ],
+    "mentions": 1
+  },
+  "Kp Skywalka": {
+    "firstSeen": "2026-04-28",
+    "lastSeen": "2026-04-28",
+    "sources": [
+      "pitchfork_best_albums"
+    ],
+    "titleHints": [
+      "I Tried to Tell You"
+    ],
+    "mentions": 1
+  },
+  "Wnc Whopbezzy 70th Street Carlos": {
+    "firstSeen": "2026-04-28",
+    "lastSeen": "2026-04-28",
+    "sources": [
+      "pitchfork_best_albums"
+    ],
+    "titleHints": [
+      "Out the Blue"
+    ],
+    "mentions": 1
+  },
+  "Rosalia": {
+    "firstSeen": "2026-04-28",
+    "lastSeen": "2026-04-28",
+    "sources": [
+      "pitchfork_best_albums"
+    ],
+    "titleHints": [
+      "LUX"
+    ],
+    "mentions": 1
+  },
+  "Sudan Archives": {
+    "firstSeen": "2026-04-28",
+    "lastSeen": "2026-04-28",
+    "sources": [
+      "pitchfork_best_albums"
+    ],
+    "titleHints": [
+      "The BPM"
+    ],
+    "mentions": 1
+  },
+  "Feeo": {
+    "firstSeen": "2026-04-28",
+    "lastSeen": "2026-04-28",
+    "sources": [
+      "pitchfork_best_albums"
+    ],
+    "titleHints": [
+      "Goodness"
+    ],
+    "mentions": 1
+  },
+  "Rochelle Jordan": {
+    "firstSeen": "2026-04-28",
+    "lastSeen": "2026-04-28",
+    "sources": [
+      "pitchfork_best_albums"
+    ],
+    "titleHints": [
+      "Through the Wall"
+    ],
+    "mentions": 1
+  },
+  "Geese": {
+    "firstSeen": "2026-04-28",
+    "lastSeen": "2026-04-28",
+    "sources": [
+      "pitchfork_best_albums"
+    ],
+    "titleHints": [
+      "Getting Killed"
+    ],
+    "mentions": 1
+  },
+  "Algernon Cadwallader": {
+    "firstSeen": "2026-04-28",
+    "lastSeen": "2026-04-28",
+    "sources": [
+      "pitchfork_best_albums"
+    ],
+    "titleHints": [
+      "Trying Not to Have a Thought"
+    ],
+    "mentions": 1
+  },
+  "Ella Mai": {
+    "firstSeen": "2026-04-28",
+    "lastSeen": "2026-04-28",
+    "sources": [
+      "pitchfork_best_tracks"
+    ],
+    "titleHints": [
+      "“There Goes My Heart”"
+    ],
+    "mentions": 1
+  },
+  "Rooster": {
+    "firstSeen": "2026-04-28",
+    "lastSeen": "2026-04-28",
+    "sources": [
+      "pitchfork_best_tracks"
+    ],
+    "titleHints": [
+      "“Nuketown Blues”"
+    ],
+    "mentions": 1
+  },
+  "Dexter In The Newsagent": {
+    "firstSeen": "2026-04-28",
+    "lastSeen": "2026-04-28",
+    "sources": [
+      "pitchfork_best_tracks"
+    ],
+    "titleHints": [
+      "“Special”"
+    ],
+    "mentions": 1
+  },
+  "Ivvys": {
+    "firstSeen": "2026-04-28",
+    "lastSeen": "2026-04-28",
+    "sources": [
+      "pitchfork_best_tracks"
+    ],
+    "titleHints": [
+      "“ig reels”"
+    ],
+    "mentions": 1
+  },
+  "Alex G": {
+    "firstSeen": "2026-04-28",
+    "lastSeen": "2026-04-28",
+    "sources": [
+      "pitchfork_best_tracks"
+    ],
+    "titleHints": [
+      "“Afterlife”"
+    ],
+    "mentions": 1
+  },
+  "Mavi": {
+    "firstSeen": "2026-04-28",
+    "lastSeen": "2026-04-28",
+    "sources": [
+      "pitchfork_best_tracks"
+    ],
+    "titleHints": [
+      "“Landgrab” [ft. Earl Sweatshirt]"
+    ],
+    "mentions": 1
+  },
+  "Youngboy Never Broke Again Playboi Carti": {
+    "firstSeen": "2026-04-28",
+    "lastSeen": "2026-04-28",
+    "sources": [
+      "pitchfork_best_tracks"
+    ],
+    "titleHints": [
+      "“Alive”"
+    ],
+    "mentions": 1
+  },
+  "Fakemink Ecco2k Mechatok": {
+    "firstSeen": "2026-04-28",
+    "lastSeen": "2026-04-28",
+    "sources": [
+      "pitchfork_best_tracks"
+    ],
+    "titleHints": [
+      "“MAKKA”"
+    ],
+    "mentions": 1
+  },
+  "Ryan Davis And The Roadhouse Band": {
+    "firstSeen": "2026-04-28",
+    "lastSeen": "2026-04-28",
+    "sources": [
+      "pitchfork_best_tracks"
+    ],
+    "titleHints": [
+      "“New Threats From the Soul”"
+    ],
+    "mentions": 1
+  },
+  "Lana Del Rey": {
+    "firstSeen": "2026-04-28",
+    "lastSeen": "2026-04-28",
+    "sources": [
+      "pitchfork_best_tracks"
+    ],
+    "titleHints": [
+      "“Henry, come on”"
+    ],
+    "mentions": 1
+  },
+  "This Is Lorelei": {
+    "firstSeen": "2026-04-28",
+    "lastSeen": "2026-04-28",
+    "sources": [
+      "pitchfork_best_tracks"
+    ],
+    "titleHints": [
+      "“Dancing in the Club (MJ Lenderman Version)”"
+    ],
+    "mentions": 1
+  },
+  "Feeble Little Horse": {
+    "firstSeen": "2026-04-28",
+    "lastSeen": "2026-04-28",
+    "sources": [
+      "pitchfork_best_tracks"
+    ],
+    "titleHints": [
+      "“This Is Real”"
+    ],
+    "mentions": 1
+  },
+  "509 Bmg": {
+    "firstSeen": "2026-04-28",
+    "lastSeen": "2026-04-28",
+    "sources": [
+      "pitchfork_best_tracks"
+    ],
+    "titleHints": [
+      "“Special Request to All Nice and Decent Real Niggaz (Stop Hatin)”"
+    ],
+    "mentions": 1
+  },
+  "Irmin Schmidt": {
+    "firstSeen": "2026-04-28",
+    "lastSeen": "2026-04-28",
+    "sources": [
+      "quietus"
+    ],
+    "titleHints": [
+      "Requiem"
+    ],
+    "mentions": 1
+  },
+  "Bali Gamelan Sound": {
+    "firstSeen": "2026-04-28",
+    "lastSeen": "2026-04-28",
+    "sources": [
+      "quietus"
+    ],
+    "titleHints": [
+      "Topeng Semar Pegulingan"
+    ],
+    "mentions": 1
+  },
+  "Tanya Donelly and Chris Brokaw": {
+    "firstSeen": "2026-04-28",
+    "lastSeen": "2026-04-28",
+    "sources": [
+      "quietus"
+    ],
+    "titleHints": [
+      "The Undone Is Done Again"
+    ],
+    "mentions": 1
+  },
+  "Gnod": {
+    "firstSeen": "2026-04-28",
+    "lastSeen": "2026-04-28",
+    "sources": [
+      "quietus"
+    ],
+    "titleHints": [
+      "Chronicles Of Gnowt Vol.1"
+    ],
+    "mentions": 1
+  },
+  "Nine Inch Noize": {
+    "firstSeen": "2026-04-28",
+    "lastSeen": "2026-04-28",
+    "sources": [
+      "quietus"
+    ],
+    "titleHints": [
+      "Nine Inch Noize"
+    ],
+    "mentions": 1
+  },
+  "Graham Dunning": {
+    "firstSeen": "2026-04-28",
+    "lastSeen": "2026-04-28",
+    "sources": [
+      "quietus"
+    ],
+    "titleHints": [
+      "Quern"
+    ],
+    "mentions": 1
+  },
+  "Naná Rizinni": {
+    "firstSeen": "2026-04-28",
+    "lastSeen": "2026-04-28",
+    "sources": [
+      "quietus"
+    ],
+    "titleHints": [
+      "Epiblast"
+    ],
+    "mentions": 1
+  },
+  "Abigail Snail": {
+    "firstSeen": "2026-04-28",
+    "lastSeen": "2026-04-28",
+    "sources": [
+      "quietus"
+    ],
+    "titleHints": [
+      "Rad Berms"
+    ],
+    "mentions": 1
+  },
+  "Debit": {
+    "firstSeen": "2026-04-28",
+    "lastSeen": "2026-04-28",
+    "sources": [
+      "ra"
+    ],
+    "titleHints": [
+      "Desaceleradas"
+    ],
+    "mentions": 1
+  },
+  "White Fence": {
+    "firstSeen": "2026-04-28",
+    "lastSeen": "2026-04-28",
+    "sources": [
+      "bandcamp_daily"
+    ],
+    "titleHints": [
+      "Orange"
+    ],
+    "mentions": 1
+  },
+  "Carla dal Forno": {
+    "firstSeen": "2026-04-28",
+    "lastSeen": "2026-04-28",
+    "sources": [
+      "bandcamp_daily"
+    ],
+    "titleHints": [
+      "Confession"
+    ],
+    "mentions": 1
+  },
+  "Fat Ray & Raphy": {
+    "firstSeen": "2026-04-28",
+    "lastSeen": "2026-04-28",
+    "sources": [
+      "bandcamp_daily"
+    ],
+    "titleHints": [
+      "Santa Rosa"
+    ],
+    "mentions": 1
+  },
+  "Jimmy Scott": {
+    "firstSeen": "2026-04-28",
+    "lastSeen": "2026-04-28",
+    "sources": [
+      "bandcamp_daily"
+    ],
+    "titleHints": [
+      "Falling In Love Is Wonderful (2026 Remaster)"
+    ],
+    "mentions": 1
+  },
+  "Neo Geodesia": {
+    "firstSeen": "2026-04-28",
+    "lastSeen": "2026-04-28",
+    "sources": [
+      "bandcamp_daily"
+    ],
+    "titleHints": [
+      "Oknha Stamina"
+    ],
+    "mentions": 1
+  },
+  "Eve Maret": {
+    "firstSeen": "2026-04-28",
+    "lastSeen": "2026-04-28",
+    "sources": [
+      "bandcamp_daily"
+    ],
+    "titleHints": [
+      "Diamond Cutter"
+    ],
+    "mentions": 1
+  },
+  "Rocketship": {
+    "firstSeen": "2026-04-28",
+    "lastSeen": "2026-04-28",
+    "sources": [
+      "bandcamp_daily"
+    ],
+    "titleHints": [
+      "A Certain Smile, A Certain Sadness (30th Anniversary Edition)"
+    ],
+    "mentions": 1
+  },
+  "Hannah Lew": {
+    "firstSeen": "2026-04-28",
+    "lastSeen": "2026-04-28",
+    "sources": [
+      "bandcamp_daily"
+    ],
+    "titleHints": [
+      "Hannah Lew"
+    ],
+    "mentions": 1
+  },
+  "Rosa Pistola": {
+    "firstSeen": "2026-04-28",
+    "lastSeen": "2026-04-28",
+    "sources": [
+      "bandcamp_daily"
+    ],
+    "titleHints": [
+      "Incorregible"
+    ],
+    "mentions": 1
+  },
+  "Prism Shores": {
+    "firstSeen": "2026-04-28",
+    "lastSeen": "2026-04-28",
+    "sources": [
+      "bandcamp_daily"
+    ],
+    "titleHints": [
+      "Softest Attack"
+    ],
+    "mentions": 1
+  },
+  "Juni Habel": {
+    "firstSeen": "2026-04-28",
+    "lastSeen": "2026-04-28",
+    "sources": [
+      "bandcamp_daily"
+    ],
+    "titleHints": [
+      "Evergreen In Your Mind"
+    ],
+    "mentions": 1
+  },
+  "Lero Lero": {
+    "firstSeen": "2026-04-28",
+    "lastSeen": "2026-04-28",
+    "sources": [
+      "bandcamp_daily"
+    ],
+    "titleHints": [
+      "Lero Lero"
+    ],
+    "mentions": 1
+  },
+  "Makthaverskan": {
+    "firstSeen": "2026-04-28",
+    "lastSeen": "2026-04-28",
+    "sources": [
+      "bandcamp_daily"
+    ],
+    "titleHints": [
+      "Glass and Bones"
+    ],
+    "mentions": 1
+  },
+  "Megan Thee Stallion": {
+    "firstSeen": "2026-04-28",
+    "lastSeen": "2026-04-28",
+    "sources": [
+      "stereogum"
+    ],
+    "titleHints": [
+      "Split With Klay Thompson, Exit From Moulin Rouge!"
+    ],
+    "mentions": 1
+  },
+  "Glaive & Kurtains": {
+    "firstSeen": "2026-04-28",
+    "lastSeen": "2026-04-28",
+    "sources": [
+      "stereogum"
+    ],
+    "titleHints": [
+      "Collaborative Album God Save The Three: Hear “The Troubles"
+    ],
+    "mentions": 1
+  },
+  "Hurry": {
+    "firstSeen": "2026-04-28",
+    "lastSeen": "2026-04-28",
+    "sources": [
+      "stereogum"
+    ],
+    "titleHints": [
+      "Zoned Out: Hear The Title Track"
+    ],
+    "mentions": 1
+  },
+  "USC": {
+    "firstSeen": "2026-04-28",
+    "lastSeen": "2026-04-28",
+    "sources": [
+      "stereogum"
+    ],
+    "titleHints": [
+      "Travis Scott Course"
+    ],
+    "mentions": 1
+  },
+  "Orphan Donor": {
+    "firstSeen": "2026-04-28",
+    "lastSeen": "2026-04-28",
+    "sources": [
+      "stereogum"
+    ],
+    "titleHints": [
+      "Ailments: Hear “Show Me The Way"
+    ],
+    "mentions": 1
+  },
+  "Rosco P Coldchain & Nicholas Craven": {
+    "firstSeen": "2026-04-28",
+    "lastSeen": "2026-04-28",
+    "sources": [
+      "stereogum"
+    ],
+    "titleHints": [
+      "Collaborative Album Play With Something Safe"
+    ],
+    "mentions": 1
+  },
   "11 New Albums You Should Listen to Now": {
     "firstSeen": "2026-04-25",
     "lastSeen": "2026-04-27",
@@ -21,28 +1388,6 @@
     ],
     "mentions": 4
   },
-  "Jump Source": {
-    "firstSeen": "2026-04-25",
-    "lastSeen": "2026-04-27",
-    "sources": [
-      "ra"
-    ],
-    "titleHints": [
-      "Fold"
-    ],
-    "mentions": 4
-  },
-  "John Summit": {
-    "firstSeen": "2026-04-25",
-    "lastSeen": "2026-04-27",
-    "sources": [
-      "ra"
-    ],
-    "titleHints": [
-      "CTRL ESCAPE"
-    ],
-    "mentions": 4
-  },
   "Various Artists": {
     "firstSeen": "2026-04-25",
     "lastSeen": "2026-04-27",
@@ -54,116 +1399,6 @@
       "When There Is No Sun"
     ],
     "mentions": 8
-  },
-  "Actress \\u0026 Suzanne Ciani": {
-    "firstSeen": "2026-04-25",
-    "lastSeen": "2026-04-27",
-    "sources": [
-      "ra"
-    ],
-    "titleHints": [
-      "Concrète Waves"
-    ],
-    "mentions": 4
-  },
-  "Avalon Emerson \\u0026 the Charm": {
-    "firstSeen": "2026-04-25",
-    "lastSeen": "2026-04-27",
-    "sources": [
-      "ra"
-    ],
-    "titleHints": [
-      "Written Into Changes"
-    ],
-    "mentions": 4
-  },
-  "Simo Cell \\u0026 Abdullah Miniawy": {
-    "firstSeen": "2026-04-25",
-    "lastSeen": "2026-04-27",
-    "sources": [
-      "ra"
-    ],
-    "titleHints": [
-      "Dying Is the Internet"
-    ],
-    "mentions": 4
-  },
-  "Decoder": {
-    "firstSeen": "2026-04-25",
-    "lastSeen": "2026-04-27",
-    "sources": [
-      "ra"
-    ],
-    "titleHints": [
-      "Prakasa"
-    ],
-    "mentions": 4
-  },
-  "Peaches": {
-    "firstSeen": "2026-04-25",
-    "lastSeen": "2026-04-27",
-    "sources": [
-      "ra"
-    ],
-    "titleHints": [
-      "No Lube So Rude"
-    ],
-    "mentions": 4
-  },
-  "Butter Sessions": {
-    "firstSeen": "2026-04-25",
-    "lastSeen": "2026-04-27",
-    "sources": [
-      "ra"
-    ],
-    "titleHints": [
-      "15 Years of Butter Sessions"
-    ],
-    "mentions": 4
-  },
-  "Daphni": {
-    "firstSeen": "2026-04-25",
-    "lastSeen": "2026-04-27",
-    "sources": [
-      "ra"
-    ],
-    "titleHints": [
-      "Butterfly"
-    ],
-    "mentions": 4
-  },
-  "Mor Elian": {
-    "firstSeen": "2026-04-25",
-    "lastSeen": "2026-04-27",
-    "sources": [
-      "ra"
-    ],
-    "titleHints": [
-      "Solid Space"
-    ],
-    "mentions": 4
-  },
-  "Eris Drew": {
-    "firstSeen": "2026-04-25",
-    "lastSeen": "2026-04-27",
-    "sources": [
-      "ra"
-    ],
-    "titleHints": [
-      "DJ-Kicks: Eris Drew"
-    ],
-    "mentions": 4
-  },
-  "Charlotte de Witte": {
-    "firstSeen": "2026-04-25",
-    "lastSeen": "2026-04-27",
-    "sources": [
-      "ra"
-    ],
-    "titleHints": [
-      "Charlotte de Witte"
-    ],
-    "mentions": 4
   },
   "Siblings Detail Sexual Assault Lawsuit Against Michael Jackson Estate": {
     "firstSeen": "2026-04-27",

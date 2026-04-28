@@ -70,16 +70,35 @@ const UA = "disquet-discover/1.0 +media";
 const AUTO_PROMOTE_MIN_SOURCES = 2;
 
 const FEEDS = [
+  // Pitchfork has multiple per-section RSS feeds since the 2025
+  // consolidation. Subscribing to the focused review feeds (rather
+  // than the catch-all /feed/rss) keeps signal-to-noise high — every
+  // entry is an actual review, parseable by URL slug. parseEntry's
+  // pitchfork_review branch handles all four; the (best/) variants
+  // get a higher floor (curated picks = stronger signal).
   {
-    id: "pitchfork",
-    name: "Pitchfork",
-    // /rss/reviews/albums/ went 404 in early 2026 — Pitchfork
-    // consolidated to a single /feed/rss endpoint that mixes news +
-    // reviews. parseEntry() already detects "Artist: Album" titles
-    // and falls through to "low confidence" on news posts, so the
-    // mixed feed is fine for our purposes (we only candidate-promote
-    // on high-confidence + multi-source matches anyway).
-    url: "https://pitchfork.com/feed/rss",
+    id: "pitchfork_albums",
+    name: "Pitchfork — Album Reviews",
+    url: "https://pitchfork.com/feed/feed-album-reviews/rss",
+    custom: "pitchfork_review",
+  },
+  {
+    id: "pitchfork_tracks",
+    name: "Pitchfork — Track Reviews",
+    url: "https://pitchfork.com/feed/feed-track-reviews/rss",
+    custom: "pitchfork_review",
+  },
+  {
+    id: "pitchfork_best_albums",
+    name: "Pitchfork — Best New Albums",
+    url: "https://pitchfork.com/feed/reviews/best/albums/rss",
+    custom: "pitchfork_review",
+  },
+  {
+    id: "pitchfork_best_tracks",
+    name: "Pitchfork — Best New Tracks",
+    url: "https://pitchfork.com/feed/reviews/best/tracks/rss",
+    custom: "pitchfork_review",
   },
   {
     id: "quietus",
@@ -106,6 +125,16 @@ const FEEDS = [
     id: "fact",
     name: "Fact Magazine",
     url: "https://www.factmag.com/feed/",
+  },
+  {
+    // FADER — broader pop/rap focus, lower hit-rate for our genre but
+    // occasionally surfaces an electronic name. The /rss path is 404;
+    // /feed is the working alternative as of 2026-04. parseEntry has
+    // no FADER-specific branch — falls through to the universal junk
+    // filter, so most news entries are dropped naturally.
+    id: "fader",
+    name: "FADER",
+    url: "https://www.thefader.com/feed",
   },
   {
     // Bandcamp Daily — editorial coverage of the Bandcamp catalogue.
@@ -221,41 +250,142 @@ function decodeEntities(s) {
  * if the artist appears in an existing record, but they don't create
  * candidate entries (too noisy).
  */
+/**
+ * URL-slugify a string the same way Pitchfork does: lowercase, strip
+ * diacritics, replace runs of non-alphanumerics with single hyphens,
+ * trim leading/trailing hyphens. We need it to match against the slug
+ * embedded in their review URLs.
+ */
+function pitchforkSlugify(s) {
+  return (s || "")
+    .toLowerCase()
+    .normalize("NFD")
+    .replace(/[̀-ͯ]/g, "")
+    .replace(/['']/g, "")
+    .replace(/[^a-z0-9]+/g, "-")
+    .replace(/^-|-$/g, "");
+}
+
+/**
+ * Reverse the Pitchfork slug back into a display-name guess. We keep
+ * each segment Title-Cased; not perfect ("dj python" → "Dj Python"
+ * vs the real "DJ Python"), but the iTunes/Last.fm lookup downstream
+ * tolerates light casing differences and the curator can correct the
+ * canonical form when they promote the candidate.
+ */
+function pitchforkUnslugify(slug) {
+  return (slug || "")
+    .split("-")
+    .filter(Boolean)
+    .map((w) => w.charAt(0).toUpperCase() + w.slice(1))
+    .join(" ");
+}
+
+/**
+ * Pull (artist, title) out of a Pitchfork review URL by peeling the
+ * known title-slug off the end of the URL's path slug.
+ *
+ *   link  = https://pitchfork.com/reviews/albums/mikaela-davis-graceland-way/
+ *   title = "Graceland Way"
+ *      ↓
+ *   urlSlug   = "mikaela-davis-graceland-way"
+ *   titleSlug = "graceland-way"
+ *   artistSlug = "mikaela-davis"  ← what we want
+ *
+ * Returns null when the URL isn't a recognisable review path. Returns
+ * a `confidence: "low"` row when the slug peeling collapses (self-
+ * titled album, single-word artist + single-word title, etc.) — the
+ * candidate still gets logged but the auto-promote gate downstream
+ * skips low-confidence entries.
+ */
+function parsePitchforkReviewUrl(link, title) {
+  if (!link || !title) return null;
+  const m = link.match(/\/reviews\/(?:albums|tracks)\/([^/?]+)\/?(?:\?|$)/i);
+  if (!m) return null;
+  const urlSlug = m[1];
+  const titleSlug = pitchforkSlugify(title);
+
+  // Self-title or pathological collapse — surface as low-confidence
+  // with the slug as artist guess. Curator can confirm.
+  if (urlSlug === titleSlug) {
+    return {
+      artist: pitchforkUnslugify(urlSlug),
+      releaseTitle: title,
+      confidence: "low",
+    };
+  }
+
+  // The clean case: titleSlug appears at the end of urlSlug, prefixed
+  // by an artist segment.
+  if (titleSlug && urlSlug.endsWith("-" + titleSlug)) {
+    const artistSlug = urlSlug.slice(0, -("-" + titleSlug).length);
+    return {
+      artist: pitchforkUnslugify(artistSlug),
+      releaseTitle: title,
+      confidence: "high",
+    };
+  }
+
+  // Fallback: title contained punctuation our slugify normalised
+  // differently than Pitchfork's. Best-effort: split on the LAST
+  // hyphen-segment and take everything before as the artist.
+  const lastDash = urlSlug.lastIndexOf("-");
+  if (lastDash > 0) {
+    const artistSlug = urlSlug.slice(0, lastDash);
+    return {
+      artist: pitchforkUnslugify(artistSlug),
+      releaseTitle: title,
+      confidence: "low",
+    };
+  }
+
+  return {
+    artist: pitchforkUnslugify(urlSlug),
+    releaseTitle: title,
+    confidence: "low",
+  };
+}
+
 function parseEntry(entry, sourceId) {
   const title = (entry.title || "").trim();
   const desc = (entry.description || "").trim();
 
-  // Pitchfork: their /feed/rss is a MIXED feed (news + reviews + lists)
-  // since the late-2025 RSS consolidation. The "Artist: Album" colon
-  // shape is how album reviews are titled, but news/list articles show
-  // as "11 New Albums You Should Listen to Now: Kehlani, Loukeman, …"
-  // — same colon shape, completely different meaning. Earlier versions
-  // of this code blindly pulled the part before the colon as the
-  // artist name, polluting media-candidates.json with junk like
-  // "11 New Albums You Should Listen to Now". The reject list below
-  // catches those, plus the "What Critics Are Saying About …" / "Pin
-  // Drops" / "The Best New Music" ledes.
-  if (sourceId === "pitchfork") {
-    const NEWS_LEDE = /^(?:\d+\s+(?:new\s+)?(?:albums?|songs?|tracks?|releases?|things?)|the\s+(?:best|biggest)\s|what\s+(?:critics?|to)\s|pin\s+drops?|listen|watch|stream|read|album premiere|track premiere|q&a|interview|essay|feature|news|the week in music|tracking)/i;
-    if (NEWS_LEDE.test(title)) {
-      return { artist: "", releaseTitle: title, confidence: "low" };
-    }
-    const colon = title.match(/^([^:]+):\s*(.+)$/);
-    if (colon) {
-      const artist = colon[1].trim();
-      // Even with the lede filter, sentences ending in a colon ("X
-      // returns from hiatus: Y") are the news pattern; treat artists
-      // longer than ~40 chars or containing a verb-ish whitespace
-      // pattern as low-confidence. 40 is the cutoff because real
-      // multi-artist credits ("Sam Gendel & Sam Wilkes & Philippe
-      // Melanson") fit comfortably under that.
-      if (artist.length > 40 || /\bnew\b|\bbest\b|\btop\b/i.test(artist)) {
-        return { artist: "", releaseTitle: title, confidence: "low" };
-      }
-      return { artist, releaseTitle: colon[2].trim(), confidence: "high" };
-    }
-    // Fallback: pull artist from description's "Listen to X's new album" style
-    const descMatch = desc.match(/^([A-Z][\w\s&.'-]+?)'s\s+(?:new\s+)?(?:album|EP|single|record)/i);
+  // Pitchfork's per-section review feeds (album-reviews, track-reviews,
+  // best/albums, best/tracks). These all share the same item shape:
+  //
+  //   <title>            → just the album/track name (no artist!)
+  //   <link>             → /reviews/albums/<artist-slug>-<title-slug>/
+  //   <dc:creator>       → the REVIEWER's name (Alfred Soto), not the artist
+  //   <description>      → blurb, sometimes mentions the artist
+  //
+  // The link URL is the reliable way in: take the slug after
+  // /reviews/albums/ or /reviews/tracks/, then peel the title-slug
+  // off the end and reverse-slugify the remainder into the artist
+  // name. Confidence is "high" when the slug peeling is unambiguous
+  // (title-slug found at the end of the URL slug), "low" when the
+  // slugs collapse to the same string (self-titled album, single-
+  // word artist=album like "Kehlani-Kehlani") or no clean split is
+  // possible.
+  //
+  // Best New variants (pitchfork_best_albums / pitchfork_best_tracks)
+  // get the SAME shape but represent a tighter editorial pick — the
+  // orchestrator simply trusts them more by virtue of running both
+  // feeds; an artist appearing on best/albums AND album-reviews
+  // counts as a 2-source signal naturally.
+  if (
+    sourceId === "pitchfork_albums" ||
+    sourceId === "pitchfork_tracks" ||
+    sourceId === "pitchfork_best_albums" ||
+    sourceId === "pitchfork_best_tracks"
+  ) {
+    const fromUrl = parsePitchforkReviewUrl(entry.link, title);
+    if (fromUrl) return fromUrl;
+    // Description fallback for the rare case the link isn't where we
+    // expect it to be (Pitchfork sometimes ships .com/feature/<slug>
+    // for special-issue reviews).
+    const descMatch = desc.match(
+      /^([A-Z][\w\s&.'-]+?)'s\s+(?:new\s+)?(?:album|EP|single|record)/i,
+    );
     if (descMatch) {
       return {
         artist: descMatch[1].trim(),
@@ -374,24 +504,83 @@ function parseEntry(entry, sourceId) {
     return { artist: "", releaseTitle: title, confidence: "low" };
   }
 
-  // Quietus: highly variable. "A Quietus Interview: Artist" or feature
-  // headlines. We pull the best-guess artist but default to low confidence
-  // because the Quietus publishes essays/features as well as reviews.
+  // Quietus: highly variable. The cleanest signal is the URL path —
+  // /quietus-reviews/ entries are real album reviews, with title in
+  // the canonical "Artist – Album" en-dash shape. Examples observed:
+  //
+  //   title  = "Irmin Schmidt – Requiem"
+  //   link   = /quietus-reviews/irmin-schmidt-requiem-review/
+  //
+  //   title  = "Live Album of the Week: Cabaret Voltaire's …"
+  //   link   = /quietus-reviews/reissue-of-the-week/cabaret-voltaire/
+  //
+  // The first shape is the easy one. The second is a special-issue
+  // column where the title prefixes a column name; we still try to
+  // pull an artist from "Artist's …" possessive after the colon.
+  // Any item whose link is NOT under /quietus-reviews/ falls through
+  // to low-confidence — features, news, opinion essays.
   if (sourceId === "quietus") {
+    const link = (entry.link || "").trim();
+    const isReview = /\/quietus-reviews\//i.test(link);
+
+    // Clean en-dash / hyphen review title: "Artist – Album"
+    const enDash = title.match(/^(.+?)\s+[-–—]\s+(.+)$/);
+    if (isReview && enDash) {
+      return {
+        artist: enDash[1].trim(),
+        releaseTitle: enDash[2].trim(),
+        confidence: "high",
+      };
+    }
+
+    // "X of the Week: Artist's Title" / "Album of the Week: Artist - Title"
+    const colonIntro = title.match(
+      /^(?:Album|EP|Track|Live\s+Album|Reissue)\s+of\s+the\s+Week:\s*(.+)$/i,
+    );
+    if (isReview && colonIntro) {
+      const inner = colonIntro[1].trim();
+      const innerEn = inner.match(/^(.+?)\s+[-–—]\s+(.+)$/);
+      if (innerEn) {
+        return {
+          artist: innerEn[1].trim(),
+          releaseTitle: innerEn[2].trim(),
+          confidence: "high",
+        };
+      }
+      const possessive = inner.match(
+        /^([A-Z][\w\s&.'-]+?)['']s\s+(.+)$/,
+      );
+      if (possessive) {
+        return {
+          artist: possessive[1].trim(),
+          releaseTitle: possessive[2].trim(),
+          confidence: "high",
+        };
+      }
+    }
+
+    // Legacy "Artist - Title - Reviewed" pattern — kept for older
+    // entries that may still pull through in the feed window.
+    const legacyReview = title.match(
+      /^(.+?)\s+[-–—]\s+(.+?)\s+(?:Reviewed|Review|review)/i,
+    );
+    if (legacyReview) {
+      return {
+        artist: legacyReview[1].trim(),
+        releaseTitle: legacyReview[2].trim(),
+        confidence: "high",
+      };
+    }
+
+    // Interview / feature / opinion piece — lower confidence, we pull
+    // an artist guess for press-mention boosting (already-pool
+    // artists get tagged) but don't candidate-promote them.
     const interview = title.match(/Interview:?\s+(.+?)(?:\s+[-–—]|$)/i);
     if (interview) {
       return {
         artist: interview[1].trim(),
         releaseTitle: "",
         confidence: "low",
-      };
-    }
-    const review = title.match(/^(.+?)\s+[-–—]\s+(.+?)\s+(?:Reviewed|Review|review)/i);
-    if (review) {
-      return {
-        artist: review[1].trim(),
-        releaseTitle: review[2].trim(),
-        confidence: "high",
       };
     }
     return { artist: "", releaseTitle: title, confidence: "low" };

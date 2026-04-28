@@ -225,7 +225,9 @@
       "fg": "#f2efe8",
       "motif": "disc"
     },
-    "pressMentions": []
+    "pressMentions": [
+      "pitchfork_tracks"
+    ]
   },
   {
     "id": "boards-of-canada-inferno-continuous-mix",
@@ -252,7 +254,9 @@
       "fg": "#f2efe8",
       "motif": "disc"
     },
-    "pressMentions": []
+    "pressMentions": [
+      "pitchfork_tracks"
+    ]
   },
   {
     "id": "visible-cloaks-paradessence",
@@ -1273,7 +1277,8 @@
       "motif": "disc"
     },
     "pressMentions": [
-      "ra"
+      "ra",
+      "pitchfork_best_tracks"
     ]
   },
   {
@@ -1997,7 +2002,9 @@
       "fg": "#f2efe8",
       "motif": "disc"
     },
-    "pressMentions": []
+    "pressMentions": [
+      "pitchfork_albums"
+    ]
   },
   {
     "id": "fakemink-night-blooming-jasmine",
@@ -2345,7 +2352,11 @@
       "fg": "#f2efe8",
       "motif": "disc"
     },
-    "pressMentions": []
+    "pressMentions": [
+      "pitchfork_albums",
+      "pitchfork_tracks",
+      "pitchfork_best_tracks"
+    ]
   },
   {
     "id": "aleksandra-s-yz-i-carry-the-strength",
@@ -3679,7 +3690,11 @@
       "bg": "#111110",
       "fg": "#f2efe8",
       "motif": "disc"
-    }
+    },
+    "pressMentions": [
+      "pitchfork_tracks",
+      "pitchfork_best_tracks"
+    ]
   },
   {
     "id": "rival-consoles-in-reverse-polygonia-remix",
@@ -3813,7 +3828,10 @@
       "bg": "#111110",
       "fg": "#f2efe8",
       "motif": "disc"
-    }
+    },
+    "pressMentions": [
+      "pitchfork_tracks"
+    ]
   },
   {
     "id": "idra-kayne-christos-alexopoulos-",
@@ -3903,7 +3921,10 @@
       "bg": "#111110",
       "fg": "#f2efe8",
       "motif": "disc"
-    }
+    },
+    "pressMentions": [
+      "pitchfork_tracks"
+    ]
   },
   {
     "id": "bon-iver-volumes-one-selections-from-music-concerts-2019-2023-bon-ive",
@@ -4472,7 +4493,8 @@
       "motif": "disc"
     },
     "pressMentions": [
-      "ra"
+      "ra",
+      "pitchfork_best_tracks"
     ]
   },
   {
@@ -4774,7 +4796,8 @@
       "motif": "disc"
     },
     "pressMentions": [
-      "ra"
+      "ra",
+      "pitchfork_best_albums"
     ]
   },
   {
@@ -9782,7 +9805,10 @@
       "fg": "#f2efe8",
       "motif": "disc"
     },
-    "descriptionPreview": true
+    "descriptionPreview": true,
+    "pressMentions": [
+      "pitchfork_best_albums"
+    ]
   },
   {
     "id": "kensuke-ushio-chainsaw-man-the-movie-reze-arc-original-soundtrack-summer-s-end-l",
@@ -9884,7 +9910,10 @@
       "fg": "#f2efe8",
       "motif": "disc"
     },
-    "descriptionPreview": true
+    "descriptionPreview": true,
+    "pressMentions": [
+      "pitchfork_best_albums"
+    ]
   },
   {
     "id": "fields-of-mist-beats-in-space-189-call-super-dj-mix",
@@ -11140,7 +11169,8 @@
       "motif": "disc"
     },
     "pressMentions": [
-      "ra"
+      "ra",
+      "pitchfork_best_albums"
     ]
   },
   {
