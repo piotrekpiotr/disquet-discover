@@ -17,10 +17,47 @@ import type { CandidateRow } from "@/lib/media-candidates";
  */
 const SOURCE_LABEL: Record<string, string> = {
   pitchfork: "Pitchfork",
+  pitchfork_albums: "Pitchfork Albums",
+  pitchfork_tracks: "Pitchfork Tracks",
+  pitchfork_best_albums: "Pitchfork Best New Albums",
+  pitchfork_best_tracks: "Pitchfork Best New Tracks",
   quietus: "Quietus",
   ra: "Resident Advisor",
   fact: "Fact",
+  bandcamp_daily: "Bandcamp Daily",
+  stereogum: "Stereogum",
+  fader: "FADER",
+  thewire: "The Wire",
+  xlr8r: "XLR8R",
+  "bandcamp-discover": "Bandcamp",
+  "lastfm-tags": "Last.fm tag match",
 };
+
+/**
+ * Build a "Listen" URL for a candidate. Preference order:
+ *   1. Bandcamp release URL (set by the bandcamp-discover source) —
+ *      the curator can audition the actual record in one click.
+ *   2. Apple Music search — search URL works on every Apple device,
+ *      Universal Links on iOS/macOS open the Apple Music app.
+ *
+ * The user explicitly asked for ONE listen link per candidate
+ * (Apple preferred, Bandcamp fallback), so we don't render a row of
+ * service chips here — just the single best target.
+ */
+function buildListenLink(row: CandidateRow): { href: string; label: string } {
+  if (row.bandcampUrl) {
+    return { href: row.bandcampUrl, label: "Listen on Bandcamp ↗" };
+  }
+  // Apple Music search — search-page URL works on every browser /
+  // app and routes to the native player on Apple devices via
+  // Universal Links. Build "<artist> <title>" when we have a primary
+  // title for tighter results, fall back to artist alone otherwise.
+  const term = row.primaryTitle
+    ? `${row.name} ${row.primaryTitle}`
+    : row.name;
+  const href = `https://music.apple.com/us/search?term=${encodeURIComponent(term)}`;
+  return { href, label: "Search Apple Music ↗" };
+}
 
 export function CandidatesClient({
   initial,
@@ -168,16 +205,11 @@ export function CandidatesClient({
                 key={row.name}
                 className="flex items-start justify-between gap-4 py-4 flex-wrap"
               >
-                <div className="flex flex-col gap-1 flex-1 min-w-0">
+                <div className="flex flex-col gap-1.5 flex-1 min-w-0">
                   <div className="font-body text-[18px] leading-snug">
                     {row.name}
                   </div>
                   <div className="font-mono text-[10px] uppercase tracking-widest text-mute flex items-baseline gap-3 flex-wrap">
-                    <span>
-                      {(row.sources || [])
-                        .map((s) => SOURCE_LABEL[s] || s)
-                        .join(" · ") || "—"}
-                    </span>
                     <span>{row.mentions} mention(s)</span>
                     <span>last seen {row.lastSeen || "?"}</span>
                   </div>
@@ -209,6 +241,58 @@ export function CandidatesClient({
                         {row.poolTags.slice(0, 6).join(" · ")}
                         {row.poolTags.length > 6 ? " · …" : ""}
                       </span>
+                    </div>
+                  )}
+
+                  {/* Source pills — each press source the candidate
+                      surfaced from gets a pill linking to that exact
+                      article. Sources without a stored link render
+                      as plain text ("ra · pitchfork_albums") for
+                      legacy candidates from before sourceLinks was
+                      tracked; the next CI sync refreshes them. The
+                      Listen CTA (Bandcamp release URL when available,
+                      Apple Music search otherwise) appears on the
+                      same row so the curator can audition before
+                      promoting. */}
+                  {((row.sources && row.sources.length > 0) ||
+                    row.bandcampUrl) && (
+                    <div className="flex flex-wrap gap-2 pt-1">
+                      {(row.sources || []).map((src) => {
+                        const url = row.sourceLinks?.[src];
+                        const label = SOURCE_LABEL[src] || src;
+                        return url ? (
+                          <a
+                            key={src}
+                            href={url}
+                            target="_blank"
+                            rel="noreferrer noopener"
+                            className="font-mono text-[10px] uppercase tracking-widest border border-ink px-2 py-1 hover:bg-ink hover:text-paper"
+                          >
+                            {label} ↗
+                          </a>
+                        ) : (
+                          <span
+                            key={src}
+                            className="font-mono text-[10px] uppercase tracking-widest border border-mute text-mute px-2 py-1"
+                            title="No article URL stored — older candidate, refreshed on next sync"
+                          >
+                            {label}
+                          </span>
+                        );
+                      })}
+                      {(() => {
+                        const listen = buildListenLink(row);
+                        return (
+                          <a
+                            href={listen.href}
+                            target="_blank"
+                            rel="noreferrer noopener"
+                            className="font-mono text-[10px] uppercase tracking-widest bg-ink text-paper border border-ink px-2 py-1 hover:bg-paper hover:text-ink"
+                          >
+                            {listen.label}
+                          </a>
+                        );
+                      })()}
                     </div>
                   )}
                 </div>

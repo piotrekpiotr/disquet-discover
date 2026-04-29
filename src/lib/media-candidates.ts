@@ -74,6 +74,29 @@ export interface MediaCandidate {
    *  poolTags.length to stay forward-compatible if we ever truncate
    *  the displayed list). */
   poolTagOverlap?: number;
+  /**
+   * Per-source article URLs. Keyed by the same source id used in
+   * `sources` (ra, pitchfork_albums, quietus, …). Lets the
+   * /admin/candidates UI render "where each mention came from" as
+   * clickable pills so the curator can read the actual review /
+   * blurb before promoting or dismissing. Latest-wins per source —
+   * we overwrite when a newer mention from the same source comes in.
+   */
+  sourceLinks?: Record<string, string>;
+  /**
+   * Direct Bandcamp album/track URL when the candidate came from the
+   * bandcamp-discover source. Stored separately from titleHints so
+   * the UI can wire a "Listen ↗" CTA without parsing a URL out of
+   * editorial text.
+   */
+  bandcampUrl?: string;
+  /**
+   * Best-guess release title to use when constructing search URLs
+   * (Apple Music search benefits from "<artist> <title>" over just
+   * "<artist>"). Populated from the most recent press mention's
+   * title hint or the bandcamp-discover release title.
+   */
+  primaryTitle?: string;
 }
 
 export type MediaCandidates = Record<string, MediaCandidate>;
@@ -148,9 +171,27 @@ function sanitise(raw: unknown): MediaCandidates {
         : undefined,
       poolTagOverlap:
         typeof v.poolTagOverlap === "number" ? v.poolTagOverlap : undefined,
+      sourceLinks: sanitiseSourceLinks(v.sourceLinks),
+      bandcampUrl:
+        typeof v.bandcampUrl === "string" && v.bandcampUrl.startsWith("http")
+          ? v.bandcampUrl
+          : undefined,
+      primaryTitle:
+        typeof v.primaryTitle === "string" ? v.primaryTitle : undefined,
     };
   }
   return out;
+}
+
+function sanitiseSourceLinks(v: unknown): Record<string, string> | undefined {
+  if (!v || typeof v !== "object" || Array.isArray(v)) return undefined;
+  const out: Record<string, string> = {};
+  for (const [k, val] of Object.entries(v as Record<string, unknown>)) {
+    if (typeof val === "string" && val.startsWith("http") && k.length < 50) {
+      out[k] = val;
+    }
+  }
+  return Object.keys(out).length ? out : undefined;
 }
 
 async function persist(data: MediaCandidates): Promise<void> {

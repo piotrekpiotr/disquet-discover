@@ -51,6 +51,7 @@ import {
   buildFingerprint as buildLastfmTagFingerprint,
   findTagCandidates as findLastfmTagCandidates,
 } from "./sources/lastfm-tags.mjs";
+import { findFreshReleases as findBandcampReleases } from "./sources/bandcamp-discover.mjs";
 
 const RECS_FILE = path.resolve("data/recommendations.json");
 const CANDIDATES_FILE = path.resolve("data/media-candidates.json");
@@ -135,6 +136,25 @@ const FEEDS = [
     id: "fader",
     name: "FADER",
     url: "https://www.thefader.com/feed",
+  },
+  {
+    // The Wire — long-form criticism / experimental + avant-garde
+    // coverage. Their `/feed/` URL is 404; `/rss` is the canonical
+    // endpoint. ~90 items per pull, mostly columns and essays.
+    // High-signal entries are "Artist - Album reviewed" style, the
+    // rest is feature-writing junk we let the universal filter drop.
+    id: "thewire",
+    name: "The Wire",
+    url: "https://www.thewire.co.uk/rss",
+  },
+  {
+    // XLR8R — electronic/dance focus, news-flavoured ("Artist
+    // Returns With New Album", "Artist to Release X on Label Y").
+    // Small feed (~10 items) but high genre fit and clean parseable
+    // verb patterns. Same parser as Fact handles it.
+    id: "xlr8r",
+    name: "XLR8R",
+    url: "https://xlr8r.com/feed/",
   },
   {
     // Bandcamp Daily — editorial coverage of the Bandcamp catalogue.
@@ -601,6 +621,85 @@ function parseEntry(entry, sourceId) {
     return { artist: "", releaseTitle: title, confidence: "low" };
   }
 
+  // XLR8R uses very similar verb-driven headlines:
+  //   "Bjarki Returns with New Album"
+  //   "Beatrice Dillon to Launch Label with Double-Single"
+  //   "The Mole to Release Fifth Album on Circus Company"
+  //   "Curses to Release New Album"
+  // Reuse Fact's verb pattern but also recognise "Artist to <verb> X"
+  // — the future-tense form Fact rarely uses but XLR8R prefers.
+  if (sourceId === "xlr8r") {
+    // "Artist to Release/Launch/etc X" form — bigger-news "coming soon"
+    // shape. The X may include "Album/Single/EP" or be free-form.
+    const future = title.match(
+      /^([A-Z][\w\s&.'-]+?)\s+to\s+(?:release|launch|drop|unveil|return\s+with|share|preview)\s+(?:new\s+|fifth\s+|debut\s+)?(?:album|EP|single|track|record|LP|label)?\s*[""'']?(.+?)[""'']?$/i,
+    );
+    if (future) {
+      return {
+        artist: future[1].trim(),
+        releaseTitle: future[2].trim().replace(/[""'']/g, ""),
+        confidence: "high",
+      };
+    }
+    // Same pattern as Fact for present-tense headlines.
+    const present = title.match(
+      /^([A-Z][\w\s&.'-]+?)\s+(?:shares?|announces?|drops?|releases?|returns? with|unveils?|previews?)\s+(?:new\s+|fifth\s+|debut\s+)?(?:album|EP|single|track|record|LP)?\s*[""'']?(.+?)[""'']?$/i,
+    );
+    if (present) {
+      return {
+        artist: present[1].trim(),
+        releaseTitle: present[2].trim().replace(/[""'']/g, ""),
+        confidence: "high",
+      };
+    }
+    return { artist: "", releaseTitle: title, confidence: "low" };
+  }
+
+  // The Wire — long-form essay-heavy publication. Most titles are
+  // column / interview ledes that don't yield a clean (artist, title)
+  // tuple. We catch only the few clean shapes:
+  //
+  //   "Artist – Album reviewed"      — explicit review headline
+  //   "Premiere: Artist - Title"     — single/track premiere
+  //   "Soundcheck: Artist"           — recurring artist column
+  //   "Invisible Jukebox: Artist"    — recurring interview
+  //
+  // Everything else falls through to low-confidence (the universal
+  // junk filter then drops the obvious non-artist openers).
+  if (sourceId === "thewire") {
+    const reviewed = title.match(
+      /^(.+?)\s+[-–—]\s+(.+?)\s+reviewed\b/i,
+    );
+    if (reviewed) {
+      return {
+        artist: reviewed[1].trim(),
+        releaseTitle: reviewed[2].trim(),
+        confidence: "high",
+      };
+    }
+    const premiere = title.match(
+      /^Premiere:\s*([A-Z][\w\s&.'-]+?)\s+[-–—]\s+(.+)$/i,
+    );
+    if (premiere) {
+      return {
+        artist: premiere[1].trim(),
+        releaseTitle: premiere[2].trim(),
+        confidence: "high",
+      };
+    }
+    const column = title.match(
+      /^(?:Soundcheck|Invisible Jukebox(?:\s+mix)?|Office Ambience):\s*(.+)$/i,
+    );
+    if (column) {
+      return {
+        artist: column[1].trim(),
+        releaseTitle: "",
+        confidence: "low",
+      };
+    }
+    return { artist: "", releaseTitle: title, confidence: "low" };
+  }
+
   return { artist: "", releaseTitle: title, confidence: "low" };
 }
 
@@ -839,6 +938,20 @@ async function main() {
           cur.titleHints.push(parsed.releaseTitle);
         }
       }
+      // Per-source article URL — latest mention from each source
+      // wins. The /admin/candidates UI renders these as clickable
+      // pills so the curator can read the actual review/blurb in
+      // one click before deciding promote vs dismiss.
+      if (entry.link && /^https?:\/\//i.test(entry.link)) {
+        cur.sourceLinks = cur.sourceLinks || {};
+        cur.sourceLinks[feed.id] = entry.link;
+      }
+      // Stash the most recent release title so we can build a
+      // reasonable "<artist> <title>" Apple Music search at render
+      // time, instead of just searching the artist alone.
+      if (parsed.releaseTitle) {
+        cur.primaryTitle = parsed.releaseTitle;
+      }
       candidates[displayName] = cur;
       candidateMentions++;
     }
@@ -890,6 +1003,76 @@ async function main() {
     }
   } catch (e) {
     console.log(`[lastfm-tags] failed: ${e.message}`);
+  }
+
+  // Bandcamp Discover — fresh-release-by-tag pass. Uses Bandcamp's
+  // public Discover JSON API (NOT a third-party scraper, NOT HTML
+  // parsing — see scripts/sources/bandcamp-discover.mjs for why).
+  // For each fingerprint tag we pull the latest 48 releases sorted
+  // by date; any release whose artist isn't already in the pool
+  // becomes a candidate. The Bandcamp URL is stashed in titleHints
+  // so the curator can click straight to the album page.
+  try {
+    // Reuse the Last.fm fingerprint when available; fall back to the
+    // module's hardcoded electronic-genre tags when not. The
+    // fingerprint variable from above isn't always defined in this
+    // scope (skipped when no LASTFM_API_KEY); guard accordingly.
+    let fingerprintTags = null;
+    try {
+      const fp = await buildLastfmTagFingerprint(POOL_ARTISTS);
+      fingerprintTags = fp?.fingerprint || null;
+    } catch {
+      // Already logged inside buildLastfmTagFingerprint; fall through
+      // to the source's FALLBACK_TAGS list.
+    }
+    const bcRows = await findBandcampReleases({
+      pooledSet,
+      tags: fingerprintTags,
+    });
+    for (const row of bcRows) {
+      const cur = candidates[row.name] || {
+        firstSeen: today,
+        lastSeen: today,
+        sources: [],
+        titleHints: [],
+        mentions: 0,
+      };
+      cur.lastSeen = today;
+      cur.mentions++;
+      if (!cur.sources.includes("bandcamp-discover")) {
+        cur.sources.push("bandcamp-discover");
+      }
+      // Stash the release title in titleHints (clean, no embedded
+      // URL) so the candidate renders cleanly. The Bandcamp URL goes
+      // on the dedicated bandcampUrl field below — the UI uses it
+      // for the "Listen ↗" CTA and we can keep titleHints purely
+      // human-readable.
+      if (row.releaseTitle && !cur.titleHints.includes(row.releaseTitle)) {
+        cur.titleHints.unshift(row.releaseTitle);
+        cur.titleHints = cur.titleHints.slice(0, 5);
+      }
+      if (row.url) {
+        cur.bandcampUrl = row.url;
+        // Also record on sourceLinks so the per-source pills row in
+        // the UI shows a clickable "bandcamp ↗" alongside any press
+        // mentions — same shape as RA / pitchfork links.
+        cur.sourceLinks = cur.sourceLinks || {};
+        cur.sourceLinks["bandcamp-discover"] = row.url;
+      }
+      if (row.releaseTitle && !cur.primaryTitle) {
+        cur.primaryTitle = row.releaseTitle;
+      }
+      // Tag context — same field the Last.fm tag-discovery branch
+      // populates. Merging both source's tag arrays gives the
+      // curator a fuller picture of why this name surfaced.
+      cur.poolTags = Array.from(
+        new Set([...(cur.poolTags || []), ...row.tags]),
+      ).slice(0, 8);
+      candidates[row.name] = cur;
+      candidateMentions++;
+    }
+  } catch (e) {
+    console.log(`[bandcamp-discover] failed: ${e.message}`);
   }
 
   // Auto-promotion pass. Runs AFTER all feeds are accumulated so a

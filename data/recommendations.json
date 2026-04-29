@@ -1440,7 +1440,9 @@
       "fg": "#f2efe8",
       "motif": "disc"
     },
-    "pressMentions": []
+    "pressMentions": [
+      "pitchfork_albums"
+    ]
   },
   {
     "id": "purelink-rainy-miller-barrons-hotel-yellow-bones",
@@ -1957,7 +1959,10 @@
       "bg": "#111110",
       "fg": "#f2efe8",
       "motif": "disc"
-    }
+    },
+    "pressMentions": [
+      "xlr8r"
+    ]
   },
   {
     "id": "meitei-agate",
@@ -2677,7 +2682,11 @@
       "fg": "#f2efe8",
       "motif": "disc"
     },
-    "pressMentions": []
+    "pressMentions": [
+      "pitchfork_albums",
+      "pitchfork_tracks",
+      "pitchfork_best_tracks"
+    ]
   },
   {
     "id": "h-lls-lucy-park-guerillaz",
@@ -5912,7 +5921,10 @@
       "bg": "#111110",
       "fg": "#f2efe8",
       "motif": "disc"
-    }
+    },
+    "pressMentions": [
+      "xlr8r"
+    ]
   },
   {
     "id": "mj-guider-another-weird-dream",
@@ -14233,7 +14245,9 @@
       "fg": "#f2efe8",
       "motif": "disc"
     },
-    "pressMentions": []
+    "pressMentions": [
+      "pitchfork_best_albums"
+    ]
   },
   {
     "id": "car-culture-rest-here",
@@ -14613,7 +14627,9 @@
       "fg": "#f2efe8",
       "motif": "disc"
     },
-    "pressMentions": []
+    "pressMentions": [
+      "pitchfork_tracks"
+    ]
   },
   {
     "id": "crushed-4-no-scope",
@@ -14940,7 +14956,9 @@
       "fg": "#f2efe8",
       "motif": "disc"
     },
-    "pressMentions": []
+    "pressMentions": [
+      "pitchfork_best_albums"
+    ]
   },
   {
     "id": "ok-eg-silent-green",
@@ -27367,7 +27385,9 @@
       "fg": "#f2efe8",
       "motif": "disc"
     },
-    "pressMentions": []
+    "pressMentions": [
+      "pitchfork_albums"
+    ]
   },
   {
     "id": "sonic-youth-who-ate-all-the-cracklin-oat-bran",
@@ -27396,7 +27416,9 @@
       "fg": "#f2efe8",
       "motif": "disc"
     },
-    "pressMentions": []
+    "pressMentions": [
+      "pitchfork_albums"
+    ]
   },
   {
     "id": "emahoy-tsege-mariam-gebru-maya-dunietz-emahoy-tsege-mariam-gebru-played-by-maya-",
@@ -28844,7 +28866,9 @@
       "fg": "#f2efe8",
       "motif": "disc"
     },
-    "pressMentions": []
+    "pressMentions": [
+      "pitchfork_albums"
+    ]
   },
   {
     "id": "atsushi-izumi-observable",
