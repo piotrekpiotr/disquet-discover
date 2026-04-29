@@ -34,6 +34,25 @@ const SOURCE_LABEL: Record<string, string> = {
 };
 
 /**
+ * Pretty-format a YYYY-MM-DD article date for the admin UI. Uses
+ * en-GB ("28 Apr 2026") because that's the format the rest of the
+ * site uses (RecommendationCard.tsx, email-template.ts) and the
+ * curator's Polish/UK reading habits prefer day-first. Falls back
+ * to the raw string on parse failure rather than throwing — defensive
+ * because legacy candidates may have malformed values.
+ */
+function formatArticleDate(iso: string): string {
+  if (!iso) return "";
+  const ts = Date.parse(iso);
+  if (Number.isNaN(ts)) return iso;
+  return new Date(ts).toLocaleDateString("en-GB", {
+    day: "2-digit",
+    month: "short",
+    year: "numeric",
+  });
+}
+
+/**
  * Build a "Listen" URL for a candidate. Preference order:
  *   1. Bandcamp release URL (set by the bandcamp-discover source) —
  *      the curator can audition the actual record in one click.
@@ -183,7 +202,13 @@ export function CandidatesClient({
                         .map((s) => SOURCE_LABEL[s] || s)
                         .join(" · ") || "—"}
                     </span>
-                    <span>last seen {row.lastSeen || "?"}</span>
+                    <span>
+                      {row.latestArticleDate
+                        ? `Latest article: ${formatArticleDate(row.latestArticleDate)}`
+                        : row.lastSeen
+                          ? `Last refreshed: ${formatArticleDate(row.lastSeen)}`
+                          : ""}
+                    </span>
                   </div>
                 </li>
               ))}
@@ -210,8 +235,28 @@ export function CandidatesClient({
                     {row.name}
                   </div>
                   <div className="font-mono text-[10px] uppercase tracking-widest text-mute flex items-baseline gap-3 flex-wrap">
-                    <span>{row.mentions} mention(s)</span>
-                    <span>last seen {row.lastSeen || "?"}</span>
+                    <span>{row.mentions} mention{row.mentions === 1 ? "" : "s"}</span>
+                    {row.latestArticleDate ? (
+                      // The DATE OF THE ARTICLE / BANDCAMP RELEASE,
+                      // not when our cron last touched the candidate.
+                      // Title-attr exposes the system-side lastSeen
+                      // for anyone curious about staleness.
+                      <span
+                        title={
+                          row.lastSeen
+                            ? `Most recently seen by sync on ${row.lastSeen}`
+                            : undefined
+                        }
+                      >
+                        Latest article: {formatArticleDate(row.latestArticleDate)}
+                      </span>
+                    ) : row.lastSeen ? (
+                      // Legacy candidates without a stored article
+                      // date — show sync date as a fallback. Next
+                      // sync that re-mentions them will populate
+                      // latestArticleDate and this line goes away.
+                      <span>Last refreshed: {formatArticleDate(row.lastSeen)}</span>
+                    ) : null}
                   </div>
                   {row.titleHints?.length > 0 && (
                     <div className="font-body text-[13px] text-ink/70 leading-snug">

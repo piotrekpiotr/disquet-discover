@@ -97,6 +97,16 @@ export interface MediaCandidate {
    * title hint or the bandcamp-discover release title.
    */
   primaryTitle?: string;
+  /**
+   * Most recent article OR release publication date the press
+   * sources have reported for this candidate (YYYY-MM-DD). Distinct
+   * from `lastSeen` which is the system-side "when did sync-media
+   * last touch this row" — the curator cares about editorial
+   * freshness ("article from 23 April"), not when our cron job ran.
+   * Populated from RSS pubDate fields and Bandcamp releaseDate.
+   * Latest-wins across all sources.
+   */
+  latestArticleDate?: string;
 }
 
 export type MediaCandidates = Record<string, MediaCandidate>;
@@ -178,6 +188,11 @@ function sanitise(raw: unknown): MediaCandidates {
           : undefined,
       primaryTitle:
         typeof v.primaryTitle === "string" ? v.primaryTitle : undefined,
+      latestArticleDate:
+        typeof v.latestArticleDate === "string" &&
+        /^\d{4}-\d{2}-\d{2}$/.test(v.latestArticleDate)
+          ? v.latestArticleDate
+          : undefined,
     };
   }
   return out;

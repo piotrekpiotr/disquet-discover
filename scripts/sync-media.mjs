@@ -276,6 +276,21 @@ function decodeEntities(s) {
  * trim leading/trailing hyphens. We need it to match against the slug
  * embedded in their review URLs.
  */
+/**
+ * Convert any RSS / iso / human-readable date string to YYYY-MM-DD,
+ * or "" on parse failure. Used for the candidate `latestArticleDate`
+ * field — we want the date the article was published, not when our
+ * sync ran. Date.parse handles RFC 822 ("Tue, 28 Apr 2026 04:03:00
+ * +0000"), ISO 8601, and the Bandcamp shape ("07 Mar 2026 20:17:57
+ * GMT") natively across Node runtimes.
+ */
+function parsePubDate(s) {
+  if (!s || typeof s !== "string") return "";
+  const ts = Date.parse(s.trim());
+  if (Number.isNaN(ts)) return "";
+  return new Date(ts).toISOString().slice(0, 10);
+}
+
 function pitchforkSlugify(s) {
   return (s || "")
     .toLowerCase()
@@ -952,6 +967,19 @@ async function main() {
       if (parsed.releaseTitle) {
         cur.primaryTitle = parsed.releaseTitle;
       }
+      // Latest article publication date — what the curator actually
+      // wants to see ("23 April 2026") rather than the system-side
+      // sync timestamp. RSS pubDate parses cleanly via Date.parse.
+      // Take max across all sources to keep the freshest mention's
+      // date as the headline number.
+      const articleDate = parsePubDate(entry.pubDate);
+      if (articleDate) {
+        cur.latestArticleDate = cur.latestArticleDate
+          ? articleDate > cur.latestArticleDate
+            ? articleDate
+            : cur.latestArticleDate
+          : articleDate;
+      }
       candidates[displayName] = cur;
       candidateMentions++;
     }
@@ -1061,6 +1089,18 @@ async function main() {
       }
       if (row.releaseTitle && !cur.primaryTitle) {
         cur.primaryTitle = row.releaseTitle;
+      }
+      // Bandcamp's row.releaseDate is already YYYY-MM-DD (parsed by
+      // bandcamp-discover.mjs from the API's publish_date). Use the
+      // same max-wins rule as the press loop above so a candidate
+      // surfaced from BOTH press AND bandcamp keeps the most recent
+      // date overall.
+      if (row.releaseDate) {
+        cur.latestArticleDate = cur.latestArticleDate
+          ? row.releaseDate > cur.latestArticleDate
+            ? row.releaseDate
+            : cur.latestArticleDate
+          : row.releaseDate;
       }
       // Tag context — same field the Last.fm tag-discovery branch
       // populates. Merging both source's tag arrays gives the

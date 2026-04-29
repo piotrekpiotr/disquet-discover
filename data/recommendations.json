@@ -2188,7 +2188,10 @@
       "bg": "#111110",
       "fg": "#f2efe8",
       "motif": "disc"
-    }
+    },
+    "pressMentions": [
+      "xlr8r"
+    ]
   },
   {
     "id": "meitei-agate",
@@ -6272,7 +6275,10 @@
       "bg": "#111110",
       "fg": "#f2efe8",
       "motif": "disc"
-    }
+    },
+    "pressMentions": [
+      "xlr8r"
+    ]
   },
   {
     "id": "mj-guider-another-weird-dream",
