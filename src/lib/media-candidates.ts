@@ -107,6 +107,16 @@ export interface MediaCandidate {
    * Latest-wins across all sources.
    */
   latestArticleDate?: string;
+  /**
+   * Real Apple Music album URL (collectionViewUrl) when iTunes
+   * Search API found a confident match for the candidate at sync
+   * time. UI prefers this over a search URL because Apple Music's
+   * iOS app, when opened via Universal Link to a /search/ URL,
+   * lands on an empty results page — clicking through to a real
+   * /album/ URL routes to the actual album. Sync stores it once and
+   * reuses on every subsequent run.
+   */
+  appleMusicUrl?: string;
 }
 
 export type MediaCandidates = Record<string, MediaCandidate>;
@@ -193,6 +203,11 @@ function sanitise(raw: unknown): MediaCandidates {
         /^\d{4}-\d{2}-\d{2}$/.test(v.latestArticleDate)
           ? v.latestArticleDate
           : undefined,
+      appleMusicUrl:
+        typeof v.appleMusicUrl === "string" &&
+        v.appleMusicUrl.startsWith("https://music.apple.com")
+          ? v.appleMusicUrl
+          : undefined,
     };
   }
   return out;
@@ -238,7 +253,18 @@ export async function listCandidates(opts: {
   const visible = opts.includeHidden
     ? rows
     : rows.filter((r) => !r.dismissed && !r.promoted);
+  // Primary sort: most recent ARTICLE date first. The curator's
+  // mental model is "what's the latest thing the press wrote about
+  // that I haven't seen yet" — date-desc surfaces fresh material at
+  // the top regardless of how many sources picked it up. Secondary
+  // tiebreaker on source count so when two candidates share an
+  // article date the multi-source one wins (stronger signal).
+  // lastSeen falls in last as a final fallback for legacy rows that
+  // predate latestArticleDate tracking.
   visible.sort((a, b) => {
+    const da = a.latestArticleDate || "";
+    const db = b.latestArticleDate || "";
+    if (da !== db) return db.localeCompare(da);
     const sa = (a.sources || []).length;
     const sb = (b.sources || []).length;
     if (sb !== sa) return sb - sa;

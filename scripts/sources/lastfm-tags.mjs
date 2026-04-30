@@ -160,7 +160,7 @@ async function polite() {
  * Empty array on any error — fingerprint building is best-effort,
  * losing a few artists' tags doesn't significantly bias the result.
  */
-async function topTagsForArtist(artistName) {
+export async function topTagsForArtist(artistName) {
   try {
     const j = await lastfmGet("artist.getTopTags", { artist: artistName });
     const raw = j?.toptags?.tag;

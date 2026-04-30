@@ -53,30 +53,83 @@ function formatArticleDate(iso: string): string {
 }
 
 /**
- * Build a "Listen" URL for a candidate. Preference order:
- *   1. Bandcamp release URL (set by the bandcamp-discover source) —
- *      the curator can audition the actual record in one click.
- *   2. Apple Music search — search URL works on every Apple device,
- *      Universal Links on iOS/macOS open the Apple Music app.
- *
- * The user explicitly asked for ONE listen link per candidate
- * (Apple preferred, Bandcamp fallback), so we don't render a row of
- * service chips here — just the single best target.
+ * Build the "Listen" CTA. Preference order:
+ *   1. iTunes-resolved Apple Music album URL (set by sync-media's
+ *      apple-resolve pass). Universal Links route this directly to
+ *      the album page in the Apple Music iOS app, fixing the empty-
+ *      search-page-on-mobile problem the search URL alone has.
+ *   2. Bandcamp release URL (from the bandcamp-discover source) —
+ *      audition the actual record in one click.
+ *   3. Apple Music search URL — fallback when neither resolved
+ *      above. Still opens the iOS app via Universal Link, but lands
+ *      on the search-results page (which on iOS is empty until you
+ *      manually re-enter the query — the limitation #1 fixes).
  */
 function buildListenLink(row: CandidateRow): { href: string; label: string } {
-  if (row.bandcampUrl) {
-    return { href: row.bandcampUrl, label: "Listen on Bandcamp ↗" };
+  if (row.appleMusicUrl) {
+    return { href: row.appleMusicUrl, label: "Apple Music ↗" };
   }
-  // Apple Music search — search-page URL works on every browser /
-  // app and routes to the native player on Apple devices via
-  // Universal Links. Build "<artist> <title>" when we have a primary
-  // title for tighter results, fall back to artist alone otherwise.
-  const term = row.primaryTitle
-    ? `${row.name} ${row.primaryTitle}`
-    : row.name;
+  if (row.bandcampUrl) {
+    return { href: row.bandcampUrl, label: "Bandcamp ↗" };
+  }
+  const term = row.primaryTitle ? `${row.name} ${row.primaryTitle}` : row.name;
   const href = `https://music.apple.com/us/search?term=${encodeURIComponent(term)}`;
-  return { href, label: "Search Apple Music ↗" };
+  return { href, label: "Apple Music search ↗" };
 }
+
+/** Build a YouTube search URL for "<artist> <title>". */
+function buildYouTubeSearchUrl(row: CandidateRow): string {
+  const term = row.primaryTitle ? `${row.name} ${row.primaryTitle}` : row.name;
+  return `https://www.youtube.com/results?search_query=${encodeURIComponent(term)}`;
+}
+
+/**
+ * Decide which "section" a candidate belongs in for the grouped
+ * view. Multi-source candidates always go to the "Cross-source" bucket
+ * (strongest signal — multiple outlets independently picked them up).
+ * Otherwise they land under their single source. Returns the section
+ * key; SECTION_ORDER below decides display order.
+ */
+function sectionFor(row: CandidateRow): string {
+  const sources = row.sources || [];
+  if (sources.length >= 2) return "_multi";
+  return sources[0] || "_unknown";
+}
+
+/**
+ * Display-order priority for source sections. Curator-relevance
+ * descending: cross-source first (strongest signal), then
+ * Bandcamp-discover (genre-fresh releases), then editorial picks
+ * (Best New Albums/Tracks), then per-publication, then algorithmic
+ * (Last.fm tag match) at the bottom. Anything unmapped falls in
+ * alphabetical at the very end so an unexpected source still
+ * renders rather than disappearing silently.
+ */
+const SECTION_ORDER = [
+  "_multi",
+  "bandcamp-discover",
+  "pitchfork_best_albums",
+  "pitchfork_best_tracks",
+  "pitchfork_albums",
+  "pitchfork_tracks",
+  "ra",
+  "quietus",
+  "thewire",
+  "bandcamp_daily",
+  "xlr8r",
+  "stereogum",
+  "fact",
+  "fader",
+  "lastfm-tags",
+  "pitchfork",
+  "_unknown",
+];
+
+const SECTION_LABEL: Record<string, string> = {
+  _multi: "Cross-source picks",
+  _unknown: "Other",
+  ...SOURCE_LABEL,
+};
 
 export function CandidatesClient({
   initial,
@@ -224,12 +277,42 @@ export function CandidatesClient({
             more tomorrow — or they may be dismissed / already promoted.)
           </div>
         ) : (
-          <ul className="flex flex-col divide-y divide-ink/20 border-t border-ink">
-            {rows.map((row) => (
-              <li
-                key={row.name}
-                className="flex items-start justify-between gap-4 py-4 flex-wrap"
-              >
+          // Group rows by source / cross-source bucket so the list
+          // reads as a navigable index instead of one long
+          // alphabetical sea. Sections render in SECTION_ORDER (most
+          // curator-relevant first); within a section the existing
+          // listCandidates sort (article-date desc, then source-count
+          // tiebreaker) decides ordering.
+          (() => {
+            const buckets = new Map<string, CandidateRow[]>();
+            for (const row of rows) {
+              const key = sectionFor(row);
+              if (!buckets.has(key)) buckets.set(key, []);
+              buckets.get(key)!.push(row);
+            }
+            const orderedKeys = [
+              ...SECTION_ORDER.filter((k) => buckets.has(k)),
+              ...[...buckets.keys()].filter((k) => !SECTION_ORDER.includes(k)),
+            ];
+            return (
+              <div className="flex flex-col gap-10">
+                {orderedKeys.map((key) => {
+                  const items = buckets.get(key) || [];
+                  if (items.length === 0) return null;
+                  return (
+                    <div key={key} className="flex flex-col gap-2">
+                      <h2 className="font-display font-black text-[20px] sm:text-[24px] tracking-tightest border-b border-ink pb-2">
+                        {SECTION_LABEL[key] || key}{" "}
+                        <span className="font-mono text-[11px] uppercase tracking-widest text-mute font-normal">
+                          ({items.length})
+                        </span>
+                      </h2>
+                      <ul className="flex flex-col divide-y divide-ink/20">
+                        {items.map((row) => (
+                          <li
+                            key={row.name}
+                            className="flex items-start justify-between gap-4 py-4 flex-wrap"
+                          >
                 <div className="flex flex-col gap-1.5 flex-1 min-w-0">
                   <div className="font-body text-[18px] leading-snug">
                     {row.name}
@@ -338,6 +421,18 @@ export function CandidatesClient({
                           </a>
                         );
                       })()}
+                      {/* YouTube search — secondary listen option.
+                          Clean fallback when the curator wants a
+                          quick video-style audition or when Apple/
+                          Bandcamp don't carry the release. */}
+                      <a
+                        href={buildYouTubeSearchUrl(row)}
+                        target="_blank"
+                        rel="noreferrer noopener"
+                        className="font-mono text-[10px] uppercase tracking-widest border border-ink px-2 py-1 hover:bg-ink hover:text-paper"
+                      >
+                        YouTube ↗
+                      </a>
                     </div>
                   )}
                 </div>
@@ -358,8 +453,14 @@ export function CandidatesClient({
                   </button>
                 </div>
               </li>
-            ))}
-          </ul>
+                        ))}
+                      </ul>
+                    </div>
+                  );
+                })}
+              </div>
+            );
+          })()
         )}
       </section>
     </div>

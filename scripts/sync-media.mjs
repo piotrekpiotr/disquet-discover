@@ -50,8 +50,10 @@ import {
 import {
   buildFingerprint as buildLastfmTagFingerprint,
   findTagCandidates as findLastfmTagCandidates,
+  topTagsForArtist as lastfmTopTagsForArtist,
 } from "./sources/lastfm-tags.mjs";
 import { findFreshReleases as findBandcampReleases } from "./sources/bandcamp-discover.mjs";
+import { reasonToReject as candidateRejectReason } from "./sources/candidate-filter.mjs";
 
 const RECS_FILE = path.resolve("data/recommendations.json");
 const CANDIDATES_FILE = path.resolve("data/media-candidates.json");
@@ -1113,6 +1115,104 @@ async function main() {
     }
   } catch (e) {
     console.log(`[bandcamp-discover] failed: ${e.message}`);
+  }
+
+  // Genre / artist filter pass. Walks every candidate (existing AND
+  // new this run) and removes any that hit the blacklist. Runs AFTER
+  // the press loops so a candidate that picked up tags from
+  // bandcamp-discover OR lastfm-tags during this run gets evaluated
+  // with the freshest signal. For press-only candidates (Pitchfork,
+  // RA, etc.) that have no poolTags at all, we OPTIONALLY enrich
+  // them with Last.fm `artist.getTopTags` first — that's how an
+  // unwanted artist like "Foo Fighters" gets caught even though the
+  // press feed didn't carry a genre tag.
+  //
+  // The Last.fm enrichment only fires when LASTFM_API_KEY is set
+  // (CI has it; local dev usually doesn't). When the key is absent
+  // the filter still works on the manual artist blacklist + the
+  // pre-2026 cutoff + whatever poolTags candidates already had.
+  if (process.env.LASTFM_API_KEY) {
+    let enriched = 0;
+    for (const [name, cand] of Object.entries(candidates)) {
+      if (cand.dismissed || cand.promoted) continue;
+      if (Array.isArray(cand.poolTags) && cand.poolTags.length > 0) continue;
+      const tags = await lastfmTopTagsForArtist(name);
+      if (tags && tags.length > 0) {
+        cand.poolTags = tags;
+        candidates[name] = cand;
+        enriched++;
+      }
+    }
+    if (enriched > 0) {
+      console.log(
+        `[candidate-filter] enriched ${enriched} press-only candidate(s) with Last.fm tags for filter`,
+      );
+    }
+  }
+  let filteredOut = 0;
+  for (const [name, cand] of Object.entries(candidates)) {
+    if (cand.dismissed || cand.promoted) continue;
+    const reason = candidateRejectReason({ name, ...cand });
+    if (reason) {
+      delete candidates[name];
+      filteredOut++;
+    }
+  }
+  if (filteredOut > 0) {
+    console.log(
+      `[candidate-filter] removed ${filteredOut} candidate(s) (genre / artist / pre-2026 blacklist)`,
+    );
+  }
+
+  // Apple Music URL resolution — replaces the search-page CTA with
+  // a real album URL where iTunes Search can match. Universal Links
+  // route /album/ URLs cleanly into the iOS Apple Music app's
+  // album page; /search/ URLs open the app to an empty search
+  // results page (Apple's app doesn't auto-execute the query). One
+  // iTunes lookup per un-resolved candidate, ~250ms each, no auth.
+  // We skip candidates that already have appleMusicUrl from a prior
+  // run so the lookup pool only grows by NEW candidates each cycle.
+  let appleResolved = 0;
+  let appleSkipped = 0;
+  for (const [name, cand] of Object.entries(candidates)) {
+    if (cand.dismissed || cand.promoted) continue;
+    if (cand.appleMusicUrl) {
+      appleSkipped++;
+      continue;
+    }
+    const term = cand.primaryTitle ? `${name} ${cand.primaryTitle}` : name;
+    try {
+      const url = `https://itunes.apple.com/search?term=${encodeURIComponent(
+        term,
+      )}&media=music&entity=album&limit=3`;
+      const res = await fetch(url, {
+        headers: {
+          "User-Agent": "disquet-discover/1.0 +candidate-resolve",
+        },
+      });
+      if (res.ok) {
+        const j = await res.json();
+        const hit = (j?.results || []).find(
+          (r) =>
+            typeof r?.collectionViewUrl === "string" &&
+            r.collectionViewUrl.startsWith("https://music.apple.com"),
+        );
+        if (hit) {
+          cand.appleMusicUrl = hit.collectionViewUrl;
+          candidates[name] = cand;
+          appleResolved++;
+        }
+      }
+    } catch {
+      /* swallow — fall back to search URL in UI */
+    }
+    // Polite spacing — iTunes throttles when burst-called.
+    await new Promise((r) => setTimeout(r, 250));
+  }
+  if (appleResolved > 0 || appleSkipped > 0) {
+    console.log(
+      `[apple-resolve] new=${appleResolved} cached=${appleSkipped}`,
+    );
   }
 
   // Auto-promotion pass. Runs AFTER all feeds are accumulated so a
