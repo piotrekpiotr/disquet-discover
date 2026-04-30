@@ -141,6 +141,12 @@ export function CandidatesClient({
   const [rows, setRows] = useState<CandidateRow[]>(initial);
   const [busyName, setBusyName] = useState<string | null>(null);
   const [msg, setMsg] = useState<string | null>(null);
+  // Active tab — null means "no tab chosen yet, default to the
+  // first non-empty section". We resolve null at render time
+  // against the current `rows` rather than at mount, so as
+  // candidates are promoted/dismissed the default still falls on a
+  // section that exists.
+  const [activeTab, setActiveTab] = useState<string | null>(null);
 
   const act = async (name: string, action: "promote" | "dismiss") => {
     setBusyName(name);
@@ -277,12 +283,14 @@ export function CandidatesClient({
             more tomorrow — or they may be dismissed / already promoted.)
           </div>
         ) : (
-          // Group rows by source / cross-source bucket so the list
-          // reads as a navigable index instead of one long
-          // alphabetical sea. Sections render in SECTION_ORDER (most
-          // curator-relevant first); within a section the existing
-          // listCandidates sort (article-date desc, then source-count
-          // tiebreaker) decides ordering.
+          // Group rows by source / cross-source bucket and render as
+          // TABS rather than stacked sections. With 14+ sources the
+          // stacked layout meant scrolling past everything to reach
+          // the bottom; tabs let the curator jump straight to a
+          // medium they want to triage. Order of tabs follows
+          // SECTION_ORDER (most curator-relevant first); within a
+          // tab the existing listCandidates sort (article-date
+          // desc, then source-count tiebreaker) decides ordering.
           (() => {
             const buckets = new Map<string, CandidateRow[]>();
             for (const row of rows) {
@@ -292,27 +300,57 @@ export function CandidatesClient({
             }
             const orderedKeys = [
               ...SECTION_ORDER.filter((k) => buckets.has(k)),
-              ...[...buckets.keys()].filter((k) => !SECTION_ORDER.includes(k)),
+              ...[...buckets.keys()].filter(
+                (k) => !SECTION_ORDER.includes(k),
+              ),
             ];
+            // Resolve the active tab against current data — when a
+            // tab is emptied (curator promoted everything in it) we
+            // fall back to the first non-empty tab so the page
+            // never renders an empty body.
+            const currentTab =
+              activeTab && buckets.has(activeTab)
+                ? activeTab
+                : orderedKeys[0] || null;
+            const items = currentTab ? buckets.get(currentTab) || [] : [];
             return (
-              <div className="flex flex-col gap-10">
-                {orderedKeys.map((key) => {
-                  const items = buckets.get(key) || [];
-                  if (items.length === 0) return null;
-                  return (
-                    <div key={key} className="flex flex-col gap-2">
-                      <h2 className="font-display font-black text-[20px] sm:text-[24px] tracking-tightest border-b border-ink pb-2">
-                        {SECTION_LABEL[key] || key}{" "}
-                        <span className="font-mono text-[11px] uppercase tracking-widest text-mute font-normal">
-                          ({items.length})
-                        </span>
-                      </h2>
-                      <ul className="flex flex-col divide-y divide-ink/20">
-                        {items.map((row) => (
-                          <li
-                            key={row.name}
-                            className="flex items-start justify-between gap-4 py-4 flex-wrap"
-                          >
+              <div className="flex flex-col gap-6">
+                {/* Tab strip. Horizontally scrollable on narrow
+                    viewports so 14+ tabs don't wrap into a giant
+                    multi-row strip. -mx-* lets the strip bleed to
+                    the section edges so the first tab aligns with
+                    the rest of the page's gutter. */}
+                <div
+                  className="flex gap-2 overflow-x-auto -mx-6 sm:-mx-8 px-6 sm:px-8 pb-1"
+                  style={{ scrollbarWidth: "thin" }}
+                >
+                  {orderedKeys.map((key) => {
+                    const isActive = key === currentTab;
+                    const count = buckets.get(key)?.length || 0;
+                    return (
+                      <button
+                        key={key}
+                        type="button"
+                        onClick={() => setActiveTab(key)}
+                        className={`shrink-0 font-mono text-[10px] uppercase tracking-widest border px-3 py-2 ${
+                          isActive
+                            ? "border-ink bg-ink text-paper"
+                            : "border-ink hover:bg-ink hover:text-paper"
+                        }`}
+                      >
+                        {SECTION_LABEL[key] || key} ({count})
+                      </button>
+                    );
+                  })}
+                </div>
+                {currentTab && (
+                  <div key={currentTab} className="flex flex-col gap-2">
+                    <ul className="flex flex-col divide-y divide-ink/20 border-t border-ink">
+                      {items.map((row) => (
+                        <li
+                          key={row.name}
+                          className="flex items-start justify-between gap-4 py-4 flex-wrap"
+                        >
                 <div className="flex flex-col gap-1.5 flex-1 min-w-0">
                   <div className="font-body text-[18px] leading-snug">
                     {row.name}
@@ -453,11 +491,10 @@ export function CandidatesClient({
                   </button>
                 </div>
               </li>
-                        ))}
-                      </ul>
-                    </div>
-                  );
-                })}
+                      ))}
+                    </ul>
+                  </div>
+                )}
               </div>
             );
           })()
