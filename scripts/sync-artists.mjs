@@ -223,48 +223,62 @@ async function main() {
     artistsWithAdditions: 0,
   };
 
-  for (const artist of ARTISTS) {
-    const releases = await scanArtist(artist, stats);
-
-    // Freshness gate applied at the orchestrator level so each source stays
-    // dumb and source-agnostic.
-    const fresh = releases.filter((r) => r.releaseDate >= FRESH_SINCE);
-
-    let addedForArtist = 0;
-    for (const release of fresh) {
-      const key = `${normaliseArtist(release.artist)}|${release.title.toLowerCase()}`;
-      if (existingKey.has(key)) continue;
-      const sourceKey = `${release.source}:${release.sourceId}`;
-      if (addedSourceIds.has(sourceKey)) continue;
-
-      const rec = toRecommendation(release, existingIds);
-      if (!rec) continue;
-
-      existingIds.add(rec.id);
-      existingKey.add(key);
-      addedSourceIds.add(sourceKey);
-      items.push(rec);
-      addedForArtist++;
-      stats.addedTotal++;
+  // Run per-artist scans CONCURRENTLY in batches. Sequential 262
+  // artists × ~1-1.5s each was the largest single contributor to the
+  // CI runtime; bumping to 6 concurrent drops it from ~5 min to ~50s
+  // worst case. Concurrency cap is conservative because each scan
+  // inside scanArtist() fans out to iTunes + Deezer + Last.fm —
+  // 6 parallel × 3 sources = 18 in-flight HTTP calls, well below
+  // any source's published per-key rate limit and, crucially, below
+  // the threshold where iTunes' edge starts 429ing the GitHub runner
+  // IP range. The 250ms intra-batch pacing is preserved so we don't
+  // hammer any one source within a tight window.
+  const CONCURRENCY = 6;
+  const queue = [...ARTISTS];
+  const workers = Array.from({ length: CONCURRENCY }, async () => {
+    while (queue.length > 0) {
+      const artist = queue.shift();
+      if (!artist) return;
+      const releases = await scanArtist(artist, stats);
+      // Freshness gate at the orchestrator so each source stays dumb.
+      const fresh = releases.filter((r) => r.releaseDate >= FRESH_SINCE);
+      let addedForArtist = 0;
+      for (const release of fresh) {
+        const key = `${normaliseArtist(release.artist)}|${release.title.toLowerCase()}`;
+        if (existingKey.has(key)) continue;
+        const sourceKey = `${release.source}:${release.sourceId}`;
+        if (addedSourceIds.has(sourceKey)) continue;
+        const rec = toRecommendation(release, existingIds);
+        if (!rec) continue;
+        existingIds.add(rec.id);
+        existingKey.add(key);
+        addedSourceIds.add(sourceKey);
+        items.push(rec);
+        addedForArtist++;
+        stats.addedTotal++;
+      }
+      if (addedForArtist > 0) {
+        stats.artistsWithAdditions++;
+        console.log(
+          `  ${artist}: +${addedForArtist} [${fresh
+            .slice(0, addedForArtist)
+            .map((r) => `${r.source}:${r.releaseType}:${r.title}`)
+            .join(", ")}]`,
+        );
+        // Progressive save — if the job dies halfway we keep
+        // everything so far. Sort + write is atomic enough that the
+        // concurrent workers don't corrupt each other (Node fs is
+        // single-threaded; the worst case is interleaved writes
+        // resolving to the same array snapshot, which is fine).
+        items.sort((a, b) =>
+          (b.releaseDate || "").localeCompare(a.releaseDate || ""),
+        );
+        await fs.writeFile(FILE, JSON.stringify(items, null, 2), "utf8");
+      }
+      await new Promise((r) => setTimeout(r, PER_ARTIST_SPACING_MS));
     }
-
-    if (addedForArtist > 0) {
-      stats.artistsWithAdditions++;
-      console.log(
-        `  ${artist}: +${addedForArtist} [${fresh
-          .slice(0, addedForArtist)
-          .map((r) => `${r.source}:${r.releaseType}:${r.title}`)
-          .join(", ")}]`,
-      );
-      // Progressive save — if the job dies halfway we keep everything so far.
-      items.sort((a, b) =>
-        (b.releaseDate || "").localeCompare(a.releaseDate || ""),
-      );
-      await fs.writeFile(FILE, JSON.stringify(items, null, 2), "utf8");
-    }
-
-    await new Promise((r) => setTimeout(r, PER_ARTIST_SPACING_MS));
-  }
+  });
+  await Promise.all(workers);
 
   // Final summary
   console.log(

@@ -895,8 +895,19 @@ async function main() {
   let candidateMentions = 0;
   const today = new Date().toISOString().slice(0, 10);
 
-  for (const feed of FEEDS) {
-    const entries = await fetchFeed(feed);
+  // Fetch every press feed CONCURRENTLY. Previously serial ~2-3 min
+  // (12 feeds × ~10-25s each, with The Wire/Bandcamp Daily on the
+  // slower end). All-parallel drops it to ~max(individual) = ~10-20s
+  // total. Each feed lives on a different host, so there's no shared
+  // throttle to worry about; fetchFeed already swallows its own errors
+  // and returns [] on failure, so a slow/dead feed can't block others.
+  // Entry processing remains SERIAL after the fetch — it mutates the
+  // shared `candidates` map, so processing in parallel would race.
+  const fetchedFeeds = await Promise.all(
+    FEEDS.map(async (feed) => ({ feed, entries: await fetchFeed(feed) })),
+  );
+
+  for (const { feed, entries } of fetchedFeeds) {
     for (const entry of entries) {
       const parsed = parseEntry(entry, feed.id);
       if (!parsed.artist) continue;
@@ -1132,10 +1143,18 @@ async function main() {
   // the filter still works on the manual artist blacklist + the
   // pre-2026 cutoff + whatever poolTags candidates already had.
   if (process.env.LASTFM_API_KEY) {
+    // Same per-run cap rationale as the iTunes resolve below: the
+    // first run that walks an existing candidate file backlog spikes
+    // runtime; cap to ~30 per cron and let the rest drain across
+    // subsequent runs.
+    const LASTFM_ENRICH_CAP_PER_RUN = 30;
     let enriched = 0;
+    let attempts = 0;
     for (const [name, cand] of Object.entries(candidates)) {
       if (cand.dismissed || cand.promoted) continue;
       if (Array.isArray(cand.poolTags) && cand.poolTags.length > 0) continue;
+      if (attempts >= LASTFM_ENRICH_CAP_PER_RUN) break;
+      attempts++;
       const tags = await lastfmTopTagsForArtist(name);
       if (tags && tags.length > 0) {
         cand.poolTags = tags;
@@ -1168,18 +1187,31 @@ async function main() {
   // a real album URL where iTunes Search can match. Universal Links
   // route /album/ URLs cleanly into the iOS Apple Music app's
   // album page; /search/ URLs open the app to an empty search
-  // results page (Apple's app doesn't auto-execute the query). One
-  // iTunes lookup per un-resolved candidate, ~250ms each, no auth.
-  // We skip candidates that already have appleMusicUrl from a prior
-  // run so the lookup pool only grows by NEW candidates each cycle.
+  // results page (Apple's app doesn't auto-execute the query).
+  //
+  // Hard per-run cap to bound runtime. Without it, the very first
+  // sync after a code-change-that-adds-fields would spike to
+  // ~50-100s walking ALL existing candidates (one ~250ms iTunes
+  // call each). With the cap, that backlog drains across multiple
+  // runs — every cron picks up the next 30 unresolved entries,
+  // bounded ~8s of iTunes time. New candidates from this run that
+  // exceed the cap just get resolved by tomorrow's cron.
+  const APPLE_RESOLVE_CAP_PER_RUN = 30;
   let appleResolved = 0;
   let appleSkipped = 0;
+  let appleAttempts = 0;
   for (const [name, cand] of Object.entries(candidates)) {
     if (cand.dismissed || cand.promoted) continue;
     if (cand.appleMusicUrl) {
       appleSkipped++;
       continue;
     }
+    if (appleAttempts >= APPLE_RESOLVE_CAP_PER_RUN) {
+      // Stop calling iTunes; remaining un-resolved candidates wait
+      // for the next cron. UI falls back to the search URL meanwhile.
+      continue;
+    }
+    appleAttempts++;
     const term = cand.primaryTitle ? `${name} ${cand.primaryTitle}` : name;
     try {
       const url = `https://itunes.apple.com/search?term=${encodeURIComponent(

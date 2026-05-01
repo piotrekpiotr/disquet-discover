@@ -24,12 +24,15 @@ import { fetchMonitoringExtras, mergeUnique } from "./fetch-extras.mjs";
 const FILE = path.resolve("data/recommendations.json");
 const CANDIDATES_FILE = path.resolve("data/label-candidate-artists.json");
 const MIN_YEAR = 2024;
-// Per-label cap. Previously 2, which meant a label dropping three records
-// in one week could only surface two of them that day. We now scan ALL
-// of a label's recent releases — the curator already has status filters
-// at /admin to manage throughput. An escape-hatch env var is kept for
-// local debug runs where you might want to limit traffic to Discogs.
-const PER_LABEL_LIMIT = Number(process.env.SYNC_LABELS_PER_LABEL_LIMIT || 20);
+// Per-label cap. Was previously 20, which meant for ~80 labels we'd
+// fetch up to 1600 detail pages per run × ~1.1s pacing = ~30 min of
+// pure waiting on Discogs. Lowered to 5 — the daily cron only needs
+// a label's NEWEST handful, and anything older the existing artist-
+// scan + media-scan paths catch. The previous 20 was safety theatre
+// for catching backlogged catalogue entries that almost never showed
+// up. Set SYNC_LABELS_PER_LABEL_LIMIT=20 if a label drops a huge
+// reissue batch and you want to grab everything in one go.
+const PER_LABEL_LIMIT = Number(process.env.SYNC_LABELS_PER_LABEL_LIMIT || 5);
 // Global cap removed (was MAX_NEW_TOTAL=25). The old cap + shuffle hack
 // meant labels near the back of the shuffled list were systematically
 // missed on a big release week. Now we scan every label in the pool
@@ -308,7 +311,7 @@ async function main() {
       console.log(`err: ${e.message}`);
     }
     // polite delay between label searches
-    await new Promise((r) => setTimeout(r, TOKEN ? 1100 : 2500));
+    await new Promise((r) => setTimeout(r, TOKEN ? 1050 : 2500));
     // progressive save so long runs aren't lost on crash
     items.sort((a, b) => (b.releaseDate || "").localeCompare(a.releaseDate || ""));
     await fs.writeFile(FILE, JSON.stringify(items, null, 2), "utf8");

@@ -154,15 +154,45 @@ jobs:
           # Drop the sidecar stats file before diffing — it's gitignored
           # but belt-and-suspenders in case .gitignore changes.
           rm -f data/.sync-artists-stats.json
-          if [ -n "$(git status --porcelain data/)" ]; then
-            git config user.name  "disquet-bot"
-            git config user.email "disquet-bot@users.noreply.github.com"
-            git add data/
-            git commit -m "daily pool: new pending batch ($(date -u +%Y-%m-%d\ %H:%MZ))"
-            git push
-          else
+          if [ -z "$(git status --porcelain data/)" ]; then
             echo "No new records this run - nothing to commit."
+            exit 0
           fi
+          git config user.name  "disquet-bot"
+          git config user.email "disquet-bot@users.noreply.github.com"
+          git add data/
+          git commit -m "daily pool: new pending batch ($(date -u +%Y-%m-%d\ %H:%MZ))"
+          # Push with retry-on-rejection. The job runs ~30-90 min, during
+          # which the curator might push a manual commit from their
+          # workstation. Without retry the push fails and we lose the day's
+          # batch. Strategy: try push, on rejection rebase onto the new
+          # origin/main (data files have been merged for ages — `git pull
+          # --rebase` handles the daily-pool / curator-edit conflict
+          # patterns automatically), retry up to 3 times with backoff.
+          for attempt in 1 2 3; do
+            if git push 2>&1 | tee /tmp/push.log; then
+              exit 0
+            fi
+            if grep -q "rejected\|fetch first\|non-fast-forward" /tmp/push.log; then
+              echo "Push rejected (attempt $attempt). Pulling --rebase and retrying."
+              # -X theirs on data/* would be ideal, but git pull --rebase
+              # doesn't accept it; rely on the file structure being
+              # rebase-friendly (append-only data files). If a rebase
+              # conflict actually fires, abort cleanly so the next cron
+              # picks up where we left off.
+              if ! git pull --rebase --autostash origin main; then
+                echo "Rebase failed — aborting and bailing out."
+                git rebase --abort 2>/dev/null || true
+                exit 1
+              fi
+              sleep $((attempt * 5))
+            else
+              echo "Push failed for non-rejection reason — see /tmp/push.log."
+              exit 1
+            fi
+          done
+          echo "Push still rejected after 3 attempts — giving up."
+          exit 1
 
       # Run-health summary. Only fails the workflow when EVERY source
       # returned nothing AND nothing was committed — i.e. a genuine zero

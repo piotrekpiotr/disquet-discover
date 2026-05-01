@@ -335,6 +335,10 @@ export const LABELS = [
   "Hyperdub",
   "Warp Records",
   "Brainfeeder",
+  // LuckyMe — Glasgow imprint that has covered the Hudson Mohawke /
+  // Lunice / Rustie axis plus more recent leftfield names. Discogs
+  // indexes them under the literal "LuckyMe" name (no space).
+  "LuckyMe",
   "Leaving Records",
   "Dais Records",
   "Sferic",
