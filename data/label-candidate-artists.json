@@ -2835,7 +2835,8 @@
       "Short Span"
     ],
     "titleExamples": [
-      "Foundry / Bonita"
+      "Foundry / Bonita",
+      "Foundry"
     ]
   },
   "Spinners": {
@@ -7655,6 +7656,7 @@
       "R&S Records"
     ],
     "titleExamples": [
+      "Children Of The Sea",
       "Children Of The Sea"
     ]
   },
@@ -7672,6 +7674,55 @@
     ],
     "titleExamples": [
       "Fold"
+    ]
+  },
+  "Ben Vida": {
+    "seenOn": [
+      "Shelter Press"
+    ],
+    "titleExamples": [
+      "Oblivion Seekers"
+    ]
+  },
+  "upsammy* & Valentina Magaletti": {
+    "seenOn": [
+      "PAN"
+    ],
+    "titleExamples": [
+      "Seismo"
+    ]
+  },
+  "Verses GT": {
+    "seenOn": [
+      "LuckyMe"
+    ],
+    "titleExamples": [
+      "Forever (Tom VR Remix)"
+    ]
+  },
+  "Iglooghost": {
+    "seenOn": [
+      "LuckyMe"
+    ],
+    "titleExamples": [
+      "Bronze Claw Iso",
+      "Tidal Memory Exo"
+    ]
+  },
+  "Eli Keszler": {
+    "seenOn": [
+      "LuckyMe"
+    ],
+    "titleExamples": [
+      "Eli Keszler"
+    ]
+  },
+  "Jacques Greene + Nosaj Thing Present Verses GT": {
+    "seenOn": [
+      "LuckyMe"
+    ],
+    "titleExamples": [
+      "Verses GT"
     ]
   }
 }

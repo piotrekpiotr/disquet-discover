@@ -942,6 +942,106 @@
     "pressMentions": []
   },
   {
+    "id": "bigmoo-dj-shadow-b3nte-don-t-threaten-me-with-a-good-time-dtwagt",
+    "type": "single",
+    "artist": "BIGMOO, DJ Shadow & B3nte",
+    "title": "Don't Threaten Me With A Good Time (DTWAGT)",
+    "label": "Actuation",
+    "releaseDate": "2026-05-01",
+    "description": "An unlikely three, way on Actuation, with DJ Shadow lending his name to a club, leaning cut well outside the Mo' Wax frame most listeners file him under. File under curiosity until the room hears it.",
+    "tags": [
+      "electronic"
+    ],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=BIGMOO%2C%20DJ%20Shadow%20%26%20B3nte%20Don't%20Threaten%20Me%20With%20A%20Good%20Time%20(DTWAGT)&item_type=a",
+      "spotify": "https://open.spotify.com/search/BIGMOO%2C%20DJ%20Shadow%20%26%20B3nte%20Don't%20Threaten%20Me%20With%20A%20Good%20Time%20(DTWAGT)",
+      "soundcloud": "https://soundcloud.com/search?q=BIGMOO%2C%20DJ%20Shadow%20%26%20B3nte%20Don't%20Threaten%20Me%20With%20A%20Good%20Time%20(DTWAGT)",
+      "youtube": "https://www.youtube.com/results?search_query=BIGMOO%2C%20DJ%20Shadow%20%26%20B3nte%20Don't%20Threaten%20Me%20With%20A%20Good%20Time%20(DTWAGT)",
+      "apple": "https://music.apple.com/us/album/dont-threaten-me-with-a-good-time-dtwagt-single/1895390533"
+    },
+    "embed": null,
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/6d/95/56/6d95563f-599b-9c02-442e-d31fda63262c/8721026073954_cover.jpg/600x600bb.jpg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
+    "id": "synkro-north-star",
+    "type": "single",
+    "artist": "Synkro",
+    "title": "North Star",
+    "label": "",
+    "releaseDate": "2026-05-01",
+    "description": "Synkro back in single, track mode, which historically means the producer's long, running fold of garage residue, dub weight and Apollo, style ambience pulled into something closer to a club tool. Worth a check for anyone still spinning Changes.",
+    "tags": [],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=Synkro%20North%20Star&item_type=a",
+      "spotify": "https://open.spotify.com/search/Synkro%20North%20Star",
+      "soundcloud": "https://soundcloud.com/search?q=Synkro%20North%20Star",
+      "youtube": "https://www.youtube.com/results?search_query=Synkro%20North%20Star",
+      "deezer": "https://www.deezer.com/album/946439641",
+      "apple": "https://music.apple.com/us/album/north-star-single/1887291631?uo=4"
+    },
+    "embed": {
+      "provider": "apple",
+      "src": "https://embed.music.apple.com/us/album/1887291631?theme=light",
+      "height": 450
+    },
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://cdn-images.dzcdn.net/images/cover/8ad95e3a0acafaf992261e0d1d7e3226/1000x1000-000000-80-0-0.jpg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
+    "id": "yu-su-foundry",
+    "type": "album",
+    "artist": "Yu Su",
+    "title": "Foundry",
+    "label": "Short Span",
+    "releaseDate": "2026-05-01",
+    "description": "Yu Su lands on Short Span with eight tracks that pull her dub, ambient and club instincts into the same frame, more textural than rhythmic but never fully settling either way. For anyone tracking her since Yellow River Blue.",
+    "tags": [
+      "electronic"
+    ],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=Yu%20Su%20Foundry&item_type=a",
+      "spotify": "https://open.spotify.com/search/Yu%20Su%20Foundry",
+      "soundcloud": "https://soundcloud.com/search?q=Yu%20Su%20Foundry",
+      "youtube": "https://www.youtube.com/results?search_query=Yu%20Su%20Foundry",
+      "deezer": "https://www.deezer.com/album/850724162",
+      "apple": "https://music.apple.com/us/album/foundry/1880148334?uo=4"
+    },
+    "embed": {
+      "provider": "apple",
+      "src": "https://embed.music.apple.com/us/album/1880148334?theme=light",
+      "height": 450
+    },
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://i.discogs.com/6bJMXs7cxZU3lMn1lGzSFbdIbpPxnxin06zJDh_A83s/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM3MjIy/MzE3LTE3Nzc2MzQ2/OTEtMzA0Ny5qcGVn.jpeg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": [
+      "pitchfork_albums"
+    ]
+  },
+  {
     "id": "jump-source-patrick-holland-priori-fold",
     "type": "album",
     "artist": "Jump Source, Patrick Holland & Priori",
@@ -957,9 +1057,14 @@
       "spotify": "https://open.spotify.com/search/Jump%20Source%2C%20Patrick%20Holland%20%26%20Priori%20Fold",
       "soundcloud": "https://soundcloud.com/search?q=Jump%20Source%2C%20Patrick%20Holland%20%26%20Priori%20Fold",
       "youtube": "https://www.youtube.com/results?search_query=Jump%20Source%2C%20Patrick%20Holland%20%26%20Priori%20Fold",
-      "apple": "https://music.apple.com/us/album/fold/1876022817"
+      "apple": "https://music.apple.com/us/album/fold/1876022817",
+      "deezer": "https://www.deezer.com/album/915365741"
     },
-    "embed": null,
+    "embed": {
+      "provider": "apple",
+      "src": "https://embed.music.apple.com/us/album/1876022817?theme=light",
+      "height": 450
+    },
     "musicVideoUrl": null,
     "status": "pending",
     "approvedAt": null,
@@ -1744,6 +1849,41 @@
     "pressMentions": []
   },
   {
+    "id": "vlmv-there-will-come-soft-rains",
+    "type": "album",
+    "artist": "VLMV",
+    "title": "There Will Come Soft Rains",
+    "label": "Pelagic Records",
+    "releaseDate": "2026-04-24",
+    "description": "Nine tracks of patient, vocal, led post, rock from VLMV, landing on Pelagic in a limited LP pressing. The label's heavier roster aside, this sits closer to the hushed, slow, build end of the catalogue, for anyone still working through Hammock or Lowercase Noises.",
+    "tags": [
+      "rock"
+    ],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=VLMV%20There%20Will%20Come%20Soft%20Rains&item_type=a",
+      "spotify": "https://open.spotify.com/search/VLMV%20There%20Will%20Come%20Soft%20Rains",
+      "soundcloud": "https://soundcloud.com/search?q=VLMV%20There%20Will%20Come%20Soft%20Rains",
+      "youtube": "https://www.youtube.com/results?search_query=VLMV%20There%20Will%20Come%20Soft%20Rains",
+      "deezer": "https://www.deezer.com/album/912008481",
+      "apple": "https://music.apple.com/us/album/there-will-come-soft-rains/1874688160?uo=4"
+    },
+    "embed": {
+      "provider": "apple",
+      "src": "https://embed.music.apple.com/us/album/1874688160?theme=light",
+      "height": 450
+    },
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://i.discogs.com/vKhdE_0-UoHjSI7mzlBqJp95hXkhdv41DJPev2XTjVo/rs:fit/g:sm/q:90/h:600/w:595/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM3MjE3/MTU3LTE3Nzc2MzEy/NjEtNjU0OS5qcGVn.jpeg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
     "id": "matthew-herbert-rosebush-pruning-original-soundtrack-album",
     "type": "album",
     "artist": "Matthew Herbert",
@@ -2496,6 +2636,39 @@
     "status": "pending",
     "approvedAt": null,
     "coverImageUrl": "https://i.discogs.com/O29SdU1r_83nggfUGrdJMe-aUDVsdGjB-FHpjPIJjIQ/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM3MTU0/MTc4LTE3Nzc1NDY5/NTgtNDEzNy5qcGVn.jpeg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
+    "id": "vladislav-delay-fourteen",
+    "type": "single",
+    "artist": "Vladislav Delay",
+    "title": "fourteen",
+    "label": "",
+    "releaseDate": "2026-04-21",
+    "description": "Sasu Ripatti continues whatever ongoing serial project this appears to be, the kind of granular, weather, system electronics he has worked in since Multila. Title and date are most of what we know; the rest will reveal itself on play.",
+    "tags": [],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=Vladislav%20Delay%20fourteen&item_type=a",
+      "spotify": "https://open.spotify.com/search/Vladislav%20Delay%20fourteen",
+      "soundcloud": "https://soundcloud.com/search?q=Vladislav%20Delay%20fourteen",
+      "youtube": "https://www.youtube.com/results?search_query=Vladislav%20Delay%20fourteen",
+      "deezer": "https://www.deezer.com/album/926407211",
+      "apple": "https://music.apple.com/us/album/fourteen-single/1879864112?uo=4"
+    },
+    "embed": {
+      "provider": "apple",
+      "src": "https://embed.music.apple.com/us/album/1879864112?theme=light",
+      "height": 450
+    },
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://cdn-images.dzcdn.net/images/cover/3b736c862632b7090e7790dc8ca65b1a/1000x1000-000000-80-0-0.jpg",
     "cover": {
       "bg": "#111110",
       "fg": "#f2efe8",
@@ -4853,6 +5026,41 @@
     "pressMentions": []
   },
   {
+    "id": "upsammy-valentina-magaletti-seismo-l",
+    "type": "album",
+    "artist": "upsammy* & Valentina Magaletti",
+    "title": "Seismo",
+    "label": "Pan (3)",
+    "releaseDate": "2026-04-10",
+    "description": "upsammy and Valentina Magaletti convene on PAN for eight pieces of percussion, led electronics, Magaletti's drum vocabulary brushing against upsammy's modular tilt. Sits closer to free improvisation than club abstraction; for ears tuned to Eli Keszler.",
+    "tags": [
+      "electronic"
+    ],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=upsammy*%20%26%20Valentina%20Magaletti%20Seismo&item_type=a",
+      "spotify": "https://open.spotify.com/search/upsammy*%20%26%20Valentina%20Magaletti%20Seismo",
+      "soundcloud": "https://soundcloud.com/search?q=upsammy*%20%26%20Valentina%20Magaletti%20Seismo",
+      "youtube": "https://www.youtube.com/results?search_query=upsammy*%20%26%20Valentina%20Magaletti%20Seismo",
+      "deezer": "https://www.deezer.com/album/920382971",
+      "apple": "https://music.apple.com/us/album/seismo/1867239458?uo=4"
+    },
+    "embed": {
+      "provider": "apple",
+      "src": "https://embed.music.apple.com/us/album/1867239458?theme=light",
+      "height": 450
+    },
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://i.discogs.com/qqnIdZZJSKnyYGats66EkhDvSah5Cudh6wHp_Mv2ZBM/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM3MjIy/NDgyLTE3Nzc2MzYy/ODMtNjUxNi5qcGVn.jpeg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
     "id": "aloisius-vernacular",
     "type": "album",
     "artist": "Aloisius",
@@ -7161,6 +7369,40 @@
     "pressMentions": []
   },
   {
+    "id": "verses-gt-forever-tom-vr-remix",
+    "type": "single",
+    "artist": "Verses GT",
+    "title": "Forever (Tom VR Remix)",
+    "label": "LuckyMe",
+    "releaseDate": "2026-03-04",
+    "description": "Tom VR takes the Verses GT track for a walk through his usual zone between low, slung house and dubbed, out techno, arriving on LuckyMe in digital form. Pairs naturally with anything off Time Dance.",
+    "tags": [
+      "electronic"
+    ],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=Verses%20GT%20Forever%20(Tom%20VR%20Remix)&item_type=a",
+      "spotify": "https://open.spotify.com/search/Verses%20GT%20Forever%20(Tom%20VR%20Remix)",
+      "soundcloud": "https://soundcloud.com/search?q=Verses%20GT%20Forever%20(Tom%20VR%20Remix)",
+      "youtube": "https://www.youtube.com/results?search_query=Verses%20GT%20Forever%20(Tom%20VR%20Remix)",
+      "deezer": "https://www.deezer.com/album/910050771"
+    },
+    "embed": {
+      "provider": "deezer",
+      "src": "https://widget.deezer.com/widget/light/album/910050771",
+      "height": 300
+    },
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://i.discogs.com/-IPQVUKMRtGYxOiLTc3rpLH7im6f4anmUHurHD0WPqQ/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM2Njc3/NzU4LTE3NzI2NDI2/NzctNDM0NS5qcGVn.jpeg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
     "id": "loraine-james-detached-from-the-rest-of-you",
     "type": "album",
     "artist": "Loraine James",
@@ -9415,7 +9657,7 @@
     "title": "Chala (My Soul Is On A Loop)",
     "label": "Ninja Tune",
     "releaseDate": "2026-01-22",
-    "description": "Barry Can't Swim drops a single on Ninja Tune, leaning electronic. Description still in the queue.",
+    "description": "Barry Can't Swim eases off the dancefloor for Ninja Tune, a downtempo single whose parenthetical title does most of the heavy lifting. Patient, melodic, and built for headphones rather than peak time.",
     "tags": [
       "electronic"
     ],
@@ -9440,8 +9682,7 @@
       "bg": "#111110",
       "fg": "#f2efe8",
       "motif": "disc"
-    },
-    "descriptionPreview": true
+    }
   },
   {
     "id": "john-williams-4-harry-potter-and-the-prisoner-of-azkaban-music-from-and-inspired",
@@ -9450,7 +9691,7 @@
     "title": "Harry Potter And The Prisoner Of Azkaban (Music From And Inspired By The Motion Picture) = ハリー・ポッターとアズカバンの囚人 [オリジナル・サウンドトラック]",
     "label": "Warner Sunset Records",
     "releaseDate": "2026-01-21",
-    "description": "",
+    "description": "Warner Sunset returns Williams' 2004 Azkaban score to physical format in a limited Japanese pressing, the entry in the franchise where the writing turns properly Prokofiev, shadowed and stops being children's music. 21 cues across the album.",
     "tags": [
       "stage & screen"
     ],
@@ -9479,7 +9720,7 @@
     "title": "Blade Runner",
     "label": "EastWest",
     "releaseDate": "2026-01-21",
-    "description": "",
+    "description": "EastWest reissues the score that more or less wrote the rulebook for cinematic synth ambient, twelve tracks of CS, 80 haze, noir saxophone and weather. Foundational listening for anyone tracking how film music drifted into the ambient canon.",
     "tags": [
       "electronic"
     ],
@@ -9513,7 +9754,7 @@
     "title": "Been Undone (Bright-Side Mix)",
     "label": "Real World Records",
     "releaseDate": "2026-01-18",
-    "description": "",
+    "description": "An alternate mix from Gabriel's own Real World, sitting at the polished end of his late, period catalogue rather than its stranger corners. One for listeners who've stayed with him past i/o.",
     "tags": [
       "electronic"
     ],
@@ -9547,7 +9788,7 @@
     "title": "I Love The Darkness Remixed",
     "label": "Wild Youth Digital",
     "releaseDate": "2026-01-17",
-    "description": "",
+    "description": "A two, track remix package from Der Würfler on Wild Youth Digital, working the title cut through a nu, disco lens. For the crate that still has room next to Mushrooms Project.",
     "tags": [
       "electronic"
     ],
@@ -9580,7 +9821,7 @@
     "title": "balança e paixão",
     "label": "Modern Love",
     "releaseDate": "2026-01-16",
-    "description": "New album from xavisphone, out on Modern Love. Sits in the electronic corner. Preview description pending editorial review.",
+    "description": "Twelve tracks of experimental favela funk landing on Modern Love, a label more often associated with Mancunian gloom than Rio percussion. The collision is the point; expect the rhythm to be load, bearing and the edit work to be unkind.",
     "tags": [
       "electronic"
     ],
@@ -9604,8 +9845,7 @@
       "bg": "#111110",
       "fg": "#f2efe8",
       "motif": "disc"
-    },
-    "descriptionPreview": true
+    }
   },
   {
     "id": "surface-access-transfer",
@@ -9614,7 +9854,7 @@
     "title": "Transfer",
     "label": "Other People",
     "releaseDate": "2026-01-16",
-    "description": "Surface Access drops a EP on Other People, leaning electronic. Description still in the queue.",
+    "description": "Two tracks of dub techno on Nicolas Jaar's Other People, pressed as a 45rpm 12\". The label has been quietly drifting toward the format's slower, more eroded register; this fits.",
     "tags": [
       "electronic"
     ],
@@ -9638,8 +9878,7 @@
       "bg": "#111110",
       "fg": "#f2efe8",
       "motif": "disc"
-    },
-    "descriptionPreview": true
+    }
   },
   {
     "id": "rain-dogs-3-under-the-influence",
@@ -9648,7 +9887,7 @@
     "title": "Under the Influence",
     "label": ".jpeg Artefacts",
     "releaseDate": "2026-01-15",
-    "description": "Another EP from Rain Dogs (3), again through.jpeg Artefacts. Electronic territory. Placeholder copy for the admin preview.",
+    "description": "Five tracks of post, punk leaning into darkwave on .jpeg Artefacts, cut at 45 for the extra weight. Guitars and drum machines doing the usual cold dance, shelve near the gloomier end of the Avant! catalogue.",
     "tags": [
       "electronic"
     ],
@@ -9673,8 +9912,7 @@
       "bg": "#111110",
       "fg": "#f2efe8",
       "motif": "disc"
-    },
-    "descriptionPreview": true
+    }
   },
   {
     "id": "echo-the-bunnymen-heaven-up-here",
@@ -16320,6 +16558,35 @@
     "pressMentions": []
   },
   {
+    "id": "jacques-greene-nosaj-thing-present-verses-gt-verses-gt",
+    "type": "album",
+    "artist": "Jacques Greene + Nosaj Thing Present Verses GT",
+    "title": "Verses GT",
+    "label": "LuckyMe",
+    "releaseDate": "2025-09-12",
+    "description": "",
+    "tags": [
+      "electronic"
+    ],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=Jacques%20Greene%20%2B%20Nosaj%20Thing%20Present%20Verses%20GT%20Verses%20GT&item_type=a",
+      "spotify": "https://open.spotify.com/search/Jacques%20Greene%20%2B%20Nosaj%20Thing%20Present%20Verses%20GT%20Verses%20GT",
+      "soundcloud": "https://soundcloud.com/search?q=Jacques%20Greene%20%2B%20Nosaj%20Thing%20Present%20Verses%20GT%20Verses%20GT",
+      "youtube": "https://www.youtube.com/results?search_query=Jacques%20Greene%20%2B%20Nosaj%20Thing%20Present%20Verses%20GT%20Verses%20GT"
+    },
+    "embed": null,
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://i.discogs.com/GZr0YGGD_ZzEDC-QaOd1DoatlGtNg3KKlzkUXNDtjak/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM1MTcw/MjQzLTE3NzMyNzc1/MzctOTQwOC5wbmc.jpeg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
     "id": "mount-xlr-phase-i",
     "type": "ep",
     "artist": "Mount XLR",
@@ -16820,6 +17087,40 @@
     "status": "pending",
     "approvedAt": null,
     "coverImageUrl": "https://i.discogs.com/vM0VHVg9P1dy7nBEmN7ZhyrW10tP9rrBeC0-Pu2V9Dc/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM1MjU0/Nzc0LTE3NTk5OTYz/MjAtNDgwOS5wbmc.jpeg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
+    "id": "iglooghost-bronze-claw-iso",
+    "type": "ep",
+    "artist": "Iglooghost",
+    "title": "Bronze Claw Iso",
+    "label": "LuckyMe",
+    "releaseDate": "2025-09-05",
+    "description": "",
+    "tags": [
+      "electronic"
+    ],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=Iglooghost%20Bronze%20Claw%20Iso&item_type=a",
+      "spotify": "https://open.spotify.com/search/Iglooghost%20Bronze%20Claw%20Iso",
+      "soundcloud": "https://soundcloud.com/search?q=Iglooghost%20Bronze%20Claw%20Iso",
+      "youtube": "https://www.youtube.com/results?search_query=Iglooghost%20Bronze%20Claw%20Iso",
+      "deezer": "https://www.deezer.com/album/785959821"
+    },
+    "embed": {
+      "provider": "deezer",
+      "src": "https://widget.deezer.com/widget/light/album/785959821",
+      "height": 300
+    },
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://i.discogs.com/znq3cIO3qkMThL6jHQ7p0OSK1nzR7_fMY9NKQXoFAWs/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM1MDQz/ODkwLTE3NTczMzc4/MTItODA1MC5qcGVn.jpeg",
     "cover": {
       "bg": "#111110",
       "fg": "#f2efe8",
@@ -18817,12 +19118,13 @@
       "spotify": "https://open.spotify.com/search/Giv%C4%93on%20Beloved",
       "soundcloud": "https://soundcloud.com/search?q=Giv%C4%93on%20Beloved",
       "youtube": "https://www.youtube.com/results?search_query=Giv%C4%93on%20Beloved",
-      "deezer": "https://www.deezer.com/album/784198581"
+      "deezer": "https://www.deezer.com/album/784198581",
+      "apple": "https://music.apple.com/us/album/beloved/1815356726?uo=4"
     },
     "embed": {
-      "provider": "deezer",
-      "src": "https://widget.deezer.com/widget/light/album/784198581",
-      "height": 300
+      "provider": "apple",
+      "src": "https://embed.music.apple.com/us/album/1815356726?theme=light",
+      "height": 450
     },
     "musicVideoUrl": null,
     "status": "pending",
@@ -20455,6 +20757,40 @@
     "pressMentions": []
   },
   {
+    "id": "iglooghost-tidal-memory-exo",
+    "type": "album",
+    "artist": "Iglooghost",
+    "title": "Tidal Memory Exo",
+    "label": "LuckyMe",
+    "releaseDate": "2025-05-30",
+    "description": "",
+    "tags": [
+      "electronic"
+    ],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=Iglooghost%20Tidal%20Memory%20Exo&item_type=a",
+      "spotify": "https://open.spotify.com/search/Iglooghost%20Tidal%20Memory%20Exo",
+      "soundcloud": "https://soundcloud.com/search?q=Iglooghost%20Tidal%20Memory%20Exo",
+      "youtube": "https://www.youtube.com/results?search_query=Iglooghost%20Tidal%20Memory%20Exo",
+      "deezer": "https://www.deezer.com/album/556677142"
+    },
+    "embed": {
+      "provider": "deezer",
+      "src": "https://widget.deezer.com/widget/light/album/556677142",
+      "height": 300
+    },
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://i.discogs.com/sffJKIm7W9nY4u7ljwT-tgqRZsYbztYpiVVQLFlLr0k/rs:fit/g:sm/q:90/h:588/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM0MTI5/NDQxLTE3NDg2MjEy/NTAtMTExOC5qcGVn.jpeg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
     "id": "claire-rousay-gretchen-korsmo-quilted-lament",
     "type": "album",
     "artist": "Claire Rousay & Gretchen Korsmo",
@@ -21446,6 +21782,40 @@
     "status": "pending",
     "approvedAt": null,
     "coverImageUrl": "https://i.discogs.com/BQpR7mtc9L4Clhgocfs1KNivXTjuNpayXwayKr3pA2o/rs:fit/g:sm/q:90/h:596/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTMzOTE4/MjQ2LTE3NDY2NDc4/OTMtNjk5Ny5qcGVn.jpeg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
+    "id": "eli-keszler-eli-keszler",
+    "type": "album",
+    "artist": "Eli Keszler",
+    "title": "Eli Keszler",
+    "label": "LuckyMe",
+    "releaseDate": "2025-05-02",
+    "description": "",
+    "tags": [
+      "electronic"
+    ],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=Eli%20Keszler%20Eli%20Keszler&item_type=a",
+      "spotify": "https://open.spotify.com/search/Eli%20Keszler%20Eli%20Keszler",
+      "soundcloud": "https://soundcloud.com/search?q=Eli%20Keszler%20Eli%20Keszler",
+      "youtube": "https://www.youtube.com/results?search_query=Eli%20Keszler%20Eli%20Keszler",
+      "deezer": "https://www.deezer.com/album/710711621"
+    },
+    "embed": {
+      "provider": "deezer",
+      "src": "https://widget.deezer.com/widget/light/album/710711621",
+      "height": 300
+    },
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://i.discogs.com/N9EZYdLDBschiPd5y5DURLm85z41PDAtjzIdAZYibnI/rs:fit/g:sm/q:90/h:532/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTMzOTU2/ODkyLTE3NTIyMDEw/NjktNzMwOC5qcGVn.jpeg",
     "cover": {
       "bg": "#111110",
       "fg": "#f2efe8",
