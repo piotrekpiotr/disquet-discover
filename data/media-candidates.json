@@ -1,40 +1,30 @@
 {
-  "22": {
-    "firstSeen": "2026-04-28",
-    "lastSeen": "2026-04-30",
-    "sources": [
-      "pitchfork_tracks"
-    ],
-    "titleHints": [
-      "“How Shit Go”"
-    ],
-    "mentions": 5,
-    "sourceLinks": {
-      "pitchfork_tracks": "https://pitchfork.com/reviews/tracks/22-how-shit-go/"
-    },
-    "primaryTitle": "“How Shit Go”",
-    "latestArticleDate": "2026-03-10",
-    "appleMusicUrl": "https://music.apple.com/us/album/how-it-go-single/1829833671?uo=4"
-  },
   "41": {
     "firstSeen": "2026-04-28",
-    "lastSeen": "2026-04-30",
+    "lastSeen": "2026-05-01",
     "sources": [
       "pitchfork_tracks"
     ],
     "titleHints": [
       "“Addicted” [ft. Fivio Foreign]"
     ],
-    "mentions": 5,
+    "mentions": 7,
     "sourceLinks": {
       "pitchfork_tracks": "https://pitchfork.com/reviews/tracks/41-addicted-ft-fivio-foreign/"
     },
     "primaryTitle": "“Addicted” [ft. Fivio Foreign]",
-    "latestArticleDate": "2026-04-07"
+    "latestArticleDate": "2026-04-07",
+    "poolTags": [
+      "rap",
+      "hip-hop",
+      "new york",
+      "drill",
+      "41"
+    ]
   },
   "Starker": {
     "firstSeen": "2026-04-28",
-    "lastSeen": "2026-04-30",
+    "lastSeen": "2026-05-01",
     "sources": [
       "pitchfork_albums",
       "pitchfork_best_albums"
@@ -42,17 +32,24 @@
     "titleHints": [
       "LIVING TYPE DANGEROUS Vol. 1"
     ],
-    "mentions": 10,
+    "mentions": 14,
     "sourceLinks": {
       "pitchfork_albums": "https://pitchfork.com/reviews/albums/starker-living-type-dangerous-vol-1/",
       "pitchfork_best_albums": "https://pitchfork.com/reviews/albums/starker-living-type-dangerous-vol-1/"
     },
     "primaryTitle": "LIVING TYPE DANGEROUS Vol. 1",
-    "latestArticleDate": "2026-04-23"
+    "latestArticleDate": "2026-04-23",
+    "poolTags": [
+      "hip-hop",
+      "ambient",
+      "techno",
+      "hip hop",
+      "industrial"
+    ]
   },
   "Ppp Piezo Dj Plead Dj Python": {
     "firstSeen": "2026-04-28",
-    "lastSeen": "2026-04-30",
+    "lastSeen": "2026-05-01",
     "sources": [
       "pitchfork_tracks",
       "pitchfork_best_tracks"
@@ -60,7 +57,7 @@
     "titleHints": [
       "“Wisco”"
     ],
-    "mentions": 10,
+    "mentions": 14,
     "sourceLinks": {
       "pitchfork_tracks": "https://pitchfork.com/reviews/tracks/ppp-piezo-dj-plead-dj-python-wisco/",
       "pitchfork_best_tracks": "https://pitchfork.com/reviews/tracks/ppp-piezo-dj-plead-dj-python-wisco/"
@@ -71,7 +68,7 @@
   },
   "414junglebaby": {
     "firstSeen": "2026-04-28",
-    "lastSeen": "2026-04-30",
+    "lastSeen": "2026-05-01",
     "sources": [
       "pitchfork_tracks",
       "pitchfork_best_tracks"
@@ -79,7 +76,7 @@
     "titleHints": [
       "“Yo Baby”"
     ],
-    "mentions": 10,
+    "mentions": 14,
     "sourceLinks": {
       "pitchfork_tracks": "https://pitchfork.com/reviews/tracks/414junglebaby-yo-baby/",
       "pitchfork_best_tracks": "https://pitchfork.com/reviews/tracks/414junglebaby-yo-baby/"
@@ -89,7 +86,7 @@
   },
   "Lightris": {
     "firstSeen": "2026-04-28",
-    "lastSeen": "2026-04-30",
+    "lastSeen": "2026-05-01",
     "sources": [
       "pitchfork_tracks",
       "pitchfork_best_tracks"
@@ -97,18 +94,23 @@
     "titleHints": [
       "“Up Down”"
     ],
-    "mentions": 10,
+    "mentions": 14,
     "sourceLinks": {
       "pitchfork_tracks": "https://pitchfork.com/reviews/tracks/lightris-up-down/",
       "pitchfork_best_tracks": "https://pitchfork.com/reviews/tracks/lightris-up-down/"
     },
     "primaryTitle": "“Up Down”",
     "latestArticleDate": "2026-03-20",
-    "appleMusicUrl": "https://music.apple.com/us/album/up-down-single/1885408868?uo=4"
+    "appleMusicUrl": "https://music.apple.com/us/album/up-down-single/1885408868?uo=4",
+    "poolTags": [
+      "milwaukee",
+      "wisconsin",
+      "lowend"
+    ]
   },
   "Zayok": {
     "firstSeen": "2026-04-28",
-    "lastSeen": "2026-04-30",
+    "lastSeen": "2026-05-01",
     "sources": [
       "pitchfork_tracks",
       "pitchfork_best_tracks"
@@ -116,17 +118,24 @@
     "titleHints": [
       "“Oh! Give me something to believe in”"
     ],
-    "mentions": 10,
+    "mentions": 14,
     "sourceLinks": {
       "pitchfork_tracks": "https://pitchfork.com/reviews/tracks/zayok-oh-give-me-something-to-believe-in/",
       "pitchfork_best_tracks": "https://pitchfork.com/reviews/tracks/zayok-oh-give-me-something-to-believe-in/"
     },
     "primaryTitle": "“Oh! Give me something to believe in”",
-    "latestArticleDate": "2026-03-13"
+    "latestArticleDate": "2026-03-13",
+    "poolTags": [
+      "glitch pop",
+      "experimental hip hop",
+      "alternative rnb",
+      "digicore",
+      "indietronica"
+    ]
   },
   "Carla dal Forno": {
     "firstSeen": "2026-04-28",
-    "lastSeen": "2026-04-30",
+    "lastSeen": "2026-05-01",
     "sources": [
       "bandcamp_daily",
       "quietus"
@@ -134,18 +143,78 @@
     "titleHints": [
       "Confession"
     ],
-    "mentions": 8,
+    "mentions": 10,
     "sourceLinks": {
       "quietus": "https://thequietus.com/quietus-reviews/carla-dal-forno-confession-review/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=carla-dal-forno-confession-review",
       "bandcamp_daily": "https://daily.bandcamp.com/album-of-the-day/carla-dal-forno-confession-review"
     },
     "primaryTitle": "Confession",
     "latestArticleDate": "2026-04-28",
-    "appleMusicUrl": "https://music.apple.com/us/album/confession/1875260543?uo=4"
+    "appleMusicUrl": "https://music.apple.com/us/album/confession/1875260543?uo=4",
+    "poolTags": [
+      "darkwave",
+      "experimental",
+      "lo-fi",
+      "minimal wave",
+      "ambient"
+    ]
+  },
+  "Neurosis": {
+    "firstSeen": "2026-04-28",
+    "lastSeen": "2026-05-01",
+    "sources": [
+      "pitchfork_best_albums",
+      "bandcamp-discover"
+    ],
+    "titleHints": [
+      "An Undying Love For A Burning World",
+      "An Undying Love for a Burning World"
+    ],
+    "mentions": 8,
+    "sourceLinks": {
+      "pitchfork_best_albums": "https://pitchfork.com/reviews/albums/neurosis-an-undying-love-for-a-burning-world/",
+      "bandcamp-discover": "https://neurosis.bandcamp.com/album/an-undying-love-for-a-burning-world"
+    },
+    "primaryTitle": "An Undying Love for a Burning World",
+    "latestArticleDate": "2026-03-26",
+    "bandcampUrl": "https://neurosis.bandcamp.com/album/an-undying-love-for-a-burning-world",
+    "poolTags": [
+      "ambient",
+      "deep house",
+      "downtempo",
+      "drone",
+      "dub",
+      "dub techno",
+      "dubstep",
+      "electronic"
+    ]
+  },
+  "Megan Thee Stallion": {
+    "firstSeen": "2026-04-28",
+    "lastSeen": "2026-05-01",
+    "sources": [
+      "stereogum",
+      "lastfm-tags"
+    ],
+    "titleHints": [
+      "Split With Klay Thompson, Exit From Moulin Rouge!"
+    ],
+    "mentions": 6,
+    "sourceLinks": {
+      "stereogum": "https://stereogum.com/2497163/megan-thee-stallion-announces-split-with-klay-thompson-exit-from-moulin-rouge/news/"
+    },
+    "primaryTitle": "Split With Klay Thompson, Exit From Moulin Rouge!",
+    "latestArticleDate": "2026-04-28",
+    "poolTags": [
+      "hip hop",
+      "hip-hop",
+      "rap"
+    ],
+    "poolTagOverlap": 3
   },
   "Jump Source": {
     "firstSeen": "2026-04-25",
-    "lastSeen": "2026-04-28",
+    "lastSeen": "2026-04-30",
     "sources": [
       "ra",
       "pitchfork_albums"
@@ -153,38 +222,30 @@
     "titleHints": [
       "Fold"
     ],
-    "mentions": 6,
-    "appleMusicUrl": "https://music.apple.com/us/album/shattered-affect-single/1875093501?uo=4"
-  },
-  "Quiet Light": {
-    "firstSeen": "2026-04-28",
-    "lastSeen": "2026-04-28",
-    "sources": [
-      "pitchfork_albums",
-      "quietus"
-    ],
-    "titleHints": [
-      "Blue Angel Sparkling Silver 2",
-      "Blue Angel Sparkling Silver Angel 2"
-    ],
-    "mentions": 6,
+    "mentions": 8,
+    "appleMusicUrl": "https://music.apple.com/us/album/shattered-affect-single/1875093501?uo=4",
     "sourceLinks": {
-      "pitchfork_albums": "https://pitchfork.com/reviews/albums/quiet-light-blue-angel-sparkling-silver-2/",
-      "quietus": "https://thequietus.com/quietus-reviews/quiet-light-blue-angel-sparkling-silver-angel-2-review/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=quiet-light-blue-angel-sparkling-silver-angel-2-review"
+      "pitchfork_albums": "https://pitchfork.com/reviews/albums/jump-source-fold/",
+      "ra": "https://ra.co/reviews/36349"
     },
-    "primaryTitle": "Blue Angel Sparkling Silver Angel 2",
-    "appleMusicUrl": "https://music.apple.com/us/album/blue-angel-sparkling-silver/1697042651?uo=4"
+    "primaryTitle": "Fold",
+    "latestArticleDate": "2026-04-28",
+    "poolTags": [
+      "house",
+      "electronic",
+      "techno"
+    ]
   },
   "Actress \\u0026 Suzanne Ciani": {
     "firstSeen": "2026-04-25",
-    "lastSeen": "2026-04-30",
+    "lastSeen": "2026-05-01",
     "sources": [
       "ra"
     ],
     "titleHints": [
       "Concrète Waves"
     ],
-    "mentions": 9,
+    "mentions": 11,
     "sourceLinks": {
       "ra": "https://ra.co/reviews/36345"
     },
@@ -193,14 +254,14 @@
   },
   "Avalon Emerson \\u0026 the Charm": {
     "firstSeen": "2026-04-25",
-    "lastSeen": "2026-04-30",
+    "lastSeen": "2026-05-01",
     "sources": [
       "ra"
     ],
     "titleHints": [
       "Written Into Changes"
     ],
-    "mentions": 9,
+    "mentions": 11,
     "sourceLinks": {
       "ra": "https://ra.co/reviews/36341"
     },
@@ -209,14 +270,14 @@
   },
   "Simo Cell \\u0026 Abdullah Miniawy": {
     "firstSeen": "2026-04-25",
-    "lastSeen": "2026-04-30",
+    "lastSeen": "2026-05-01",
     "sources": [
       "ra"
     ],
     "titleHints": [
       "Dying Is the Internet"
     ],
-    "mentions": 9,
+    "mentions": 11,
     "sourceLinks": {
       "ra": "https://ra.co/reviews/36340"
     },
@@ -225,47 +286,61 @@
   },
   "Decoder": {
     "firstSeen": "2026-04-25",
-    "lastSeen": "2026-04-30",
+    "lastSeen": "2026-05-01",
     "sources": [
       "ra"
     ],
     "titleHints": [
       "Prakasa"
     ],
-    "mentions": 9,
+    "mentions": 11,
     "sourceLinks": {
       "ra": "https://ra.co/reviews/36337"
     },
     "primaryTitle": "Prakasa",
     "latestArticleDate": "2026-02-20",
-    "appleMusicUrl": "https://music.apple.com/us/album/prakasa/1876282391?uo=4"
+    "appleMusicUrl": "https://music.apple.com/us/album/prakasa/1876282391?uo=4",
+    "poolTags": [
+      "post-hardcore",
+      "ambient",
+      "drum and bass",
+      "experimental",
+      "techstep"
+    ]
   },
   "Peaches": {
     "firstSeen": "2026-04-25",
-    "lastSeen": "2026-04-30",
+    "lastSeen": "2026-05-01",
     "sources": [
       "ra"
     ],
     "titleHints": [
       "No Lube So Rude"
     ],
-    "mentions": 9,
+    "mentions": 11,
     "sourceLinks": {
       "ra": "https://ra.co/reviews/36336"
     },
     "primaryTitle": "No Lube So Rude",
-    "latestArticleDate": "2026-02-17"
+    "latestArticleDate": "2026-02-17",
+    "poolTags": [
+      "electroclash",
+      "electronic",
+      "electro",
+      "electronica",
+      "dance"
+    ]
   },
   "Butter Sessions": {
     "firstSeen": "2026-04-25",
-    "lastSeen": "2026-04-30",
+    "lastSeen": "2026-05-01",
     "sources": [
       "ra"
     ],
     "titleHints": [
       "15 Years of Butter Sessions"
     ],
-    "mentions": 9,
+    "mentions": 11,
     "sourceLinks": {
       "ra": "https://ra.co/reviews/36334"
     },
@@ -275,267 +350,158 @@
   },
   "Daphni": {
     "firstSeen": "2026-04-25",
-    "lastSeen": "2026-04-30",
+    "lastSeen": "2026-05-01",
     "sources": [
       "ra"
     ],
     "titleHints": [
       "Butterfly"
     ],
-    "mentions": 9,
+    "mentions": 11,
     "sourceLinks": {
       "ra": "https://ra.co/reviews/36333"
     },
     "primaryTitle": "Butterfly",
     "latestArticleDate": "2026-02-05",
-    "appleMusicUrl": "https://music.apple.com/us/album/butterfly/1849916838?uo=4"
-  },
-  "Kehlani": {
-    "firstSeen": "2026-04-28",
-    "lastSeen": "2026-04-30",
-    "sources": [
-      "pitchfork_albums"
-    ],
-    "titleHints": [
-      "Kehlani"
-    ],
-    "mentions": 5,
-    "sourceLinks": {
-      "pitchfork_albums": "https://pitchfork.com/reviews/albums/kehlani-kehlani/"
-    },
-    "primaryTitle": "Kehlani",
-    "latestArticleDate": "2026-04-28",
-    "appleMusicUrl": "https://music.apple.com/us/album/kehlani/1895059387?uo=4"
+    "appleMusicUrl": "https://music.apple.com/us/album/butterfly/1849916838?uo=4",
+    "poolTags": [
+      "house",
+      "experimental",
+      "electronic",
+      "techno",
+      "afrobeat"
+    ]
   },
   "Annea Lockwood": {
     "firstSeen": "2026-04-28",
-    "lastSeen": "2026-04-30",
+    "lastSeen": "2026-05-01",
     "sources": [
       "pitchfork_albums"
     ],
     "titleHints": [
       "World Rhythms"
     ],
-    "mentions": 5,
+    "mentions": 7,
     "sourceLinks": {
       "pitchfork_albums": "https://pitchfork.com/reviews/albums/annea-lockwood-world-rhythms/"
     },
     "primaryTitle": "World Rhythms",
     "latestArticleDate": "2026-04-28",
-    "appleMusicUrl": "https://music.apple.com/us/album/world-rhythms-feat-vanessa-tomlinson-lawrence-english/1889035489?uo=4"
+    "appleMusicUrl": "https://music.apple.com/us/album/world-rhythms-feat-vanessa-tomlinson-lawrence-english/1889035489?uo=4",
+    "poolTags": [
+      "contemporary classical",
+      "avant-garde",
+      "field recording",
+      "electronic",
+      "nature"
+    ]
   },
   "Loukeman": {
     "firstSeen": "2026-04-28",
-    "lastSeen": "2026-04-30",
+    "lastSeen": "2026-05-01",
     "sources": [
       "pitchfork_albums"
     ],
     "titleHints": [
       "Sd-3"
     ],
-    "mentions": 5,
+    "mentions": 7,
     "sourceLinks": {
       "pitchfork_albums": "https://pitchfork.com/reviews/albums/loukeman-sd-3/"
     },
     "primaryTitle": "Sd-3",
     "latestArticleDate": "2026-04-27",
-    "appleMusicUrl": "https://music.apple.com/us/album/sd-3/1876897145?uo=4"
-  },
-  "Sonic Youth": {
-    "firstSeen": "2026-04-28",
-    "lastSeen": "2026-04-30",
-    "sources": [
-      "pitchfork_albums"
-    ],
-    "titleHints": [
-      "Diamond Seas"
-    ],
-    "mentions": 3,
-    "sourceLinks": {
-      "pitchfork_albums": "https://pitchfork.com/reviews/albums/sonic-youth-diamond-seas/"
-    },
-    "primaryTitle": "Diamond Seas",
-    "latestArticleDate": "2026-04-27",
-    "appleMusicUrl": "https://music.apple.com/us/album/the-diamond-sea/1442964974?uo=4"
-  },
-  "Alvarius B": {
-    "firstSeen": "2026-04-28",
-    "lastSeen": "2026-04-30",
-    "sources": [
-      "pitchfork_albums"
-    ],
-    "titleHints": [
-      "Malarial Dream"
-    ],
-    "mentions": 5,
-    "sourceLinks": {
-      "pitchfork_albums": "https://pitchfork.com/reviews/albums/alvarius-b-malarial-dream/"
-    },
-    "primaryTitle": "Malarial Dream",
-    "latestArticleDate": "2026-04-24",
-    "appleMusicUrl": "https://music.apple.com/us/album/malarial-dream/1885605979?uo=4"
-  },
-  "Hedvig Mollestad Weejuns": {
-    "firstSeen": "2026-04-28",
-    "lastSeen": "2026-04-30",
-    "sources": [
-      "pitchfork_albums"
-    ],
-    "titleHints": [
-      "Bitches Blues"
-    ],
-    "mentions": 5,
-    "sourceLinks": {
-      "pitchfork_albums": "https://pitchfork.com/reviews/albums/hedvig-mollestad-weejuns-bitches-blues/"
-    },
-    "primaryTitle": "Bitches Blues",
-    "latestArticleDate": "2026-04-24",
-    "appleMusicUrl": "https://music.apple.com/us/album/bitches-blues/1865164601?uo=4"
+    "appleMusicUrl": "https://music.apple.com/us/album/sd-3/1876897145?uo=4",
+    "poolTags": [
+      "house",
+      "canada",
+      "outsider house",
+      "toronto",
+      "ontario"
+    ]
   },
   "Carla Dal Forno": {
     "firstSeen": "2026-04-28",
-    "lastSeen": "2026-04-30",
+    "lastSeen": "2026-05-01",
     "sources": [
       "pitchfork_albums"
     ],
     "titleHints": [
       "Confession"
     ],
-    "mentions": 5,
+    "mentions": 7,
     "sourceLinks": {
       "pitchfork_albums": "https://pitchfork.com/reviews/albums/carla-dal-forno-confession/"
     },
     "primaryTitle": "Confession",
     "latestArticleDate": "2026-04-23",
-    "appleMusicUrl": "https://music.apple.com/us/album/confession/1875260543?uo=4"
+    "appleMusicUrl": "https://music.apple.com/us/album/confession/1875260543?uo=4",
+    "poolTags": [
+      "darkwave",
+      "experimental",
+      "lo-fi",
+      "minimal wave",
+      "ambient"
+    ]
   },
   "Portrayal Of Guilt": {
     "firstSeen": "2026-04-28",
-    "lastSeen": "2026-04-30",
+    "lastSeen": "2026-05-01",
     "sources": [
       "pitchfork_albums"
     ],
     "titleHints": [
       "…Beginning of the End"
     ],
-    "mentions": 5,
+    "mentions": 7,
     "sourceLinks": {
       "pitchfork_albums": "https://pitchfork.com/reviews/albums/portrayal-of-guilt-beginning-of-the-end/"
     },
     "primaryTitle": "…Beginning of the End",
     "latestArticleDate": "2026-04-23",
-    "appleMusicUrl": "https://music.apple.com/us/album/beginning-of-the-end/1874721863?uo=4"
-  },
-  "Yaya Bey": {
-    "firstSeen": "2026-04-28",
-    "lastSeen": "2026-04-30",
-    "sources": [
-      "pitchfork_albums"
-    ],
-    "titleHints": [
-      "Fidelity"
-    ],
-    "mentions": 5,
-    "sourceLinks": {
-      "pitchfork_albums": "https://pitchfork.com/reviews/albums/yaya-bey-fidelity/"
-    },
-    "primaryTitle": "Fidelity",
-    "latestArticleDate": "2026-04-22"
-  },
-  "Black Nile": {
-    "firstSeen": "2026-04-28",
-    "lastSeen": "2026-04-30",
-    "sources": [
-      "pitchfork_albums"
-    ],
-    "titleHints": [
-      "Indigo Garden"
-    ],
-    "mentions": 5,
-    "sourceLinks": {
-      "pitchfork_albums": "https://pitchfork.com/reviews/albums/black-nile-indigo-garden/"
-    },
-    "primaryTitle": "Indigo Garden",
-    "latestArticleDate": "2026-04-22",
-    "appleMusicUrl": "https://music.apple.com/us/album/indigo-garden/1872187292?uo=4"
-  },
-  "Justine Skye": {
-    "firstSeen": "2026-04-28",
-    "lastSeen": "2026-04-30",
-    "sources": [
-      "pitchfork_albums"
-    ],
-    "titleHints": [
-      "CANDY"
-    ],
-    "mentions": 5,
-    "sourceLinks": {
-      "pitchfork_albums": "https://pitchfork.com/reviews/albums/justine-skye-candy/"
-    },
-    "primaryTitle": "CANDY",
-    "latestArticleDate": "2026-04-22"
-  },
-  "National Photo Committee": {
-    "firstSeen": "2026-04-28",
-    "lastSeen": "2026-04-30",
-    "sources": [
-      "pitchfork_albums"
-    ],
-    "titleHints": [
-      "Red Hot Photo Committee"
-    ],
-    "mentions": 5,
-    "sourceLinks": {
-      "pitchfork_albums": "https://pitchfork.com/reviews/albums/national-photo-committee-red-hot-photo-committee/"
-    },
-    "primaryTitle": "Red Hot Photo Committee",
-    "latestArticleDate": "2026-04-22",
-    "appleMusicUrl": "https://music.apple.com/us/album/red-hot-photo-committee/1886821420?uo=4"
+    "appleMusicUrl": "https://music.apple.com/us/album/beginning-of-the-end/1874721863?uo=4",
+    "poolTags": [
+      "screamo",
+      "black metal",
+      "post-hardcore",
+      "emoviolence",
+      "powerviolence"
+    ]
   },
   "Asha Bhosle": {
     "firstSeen": "2026-04-28",
-    "lastSeen": "2026-04-30",
+    "lastSeen": "2026-05-01",
     "sources": [
       "pitchfork_tracks"
     ],
     "titleHints": [
       "“Dum Maro Dum”"
     ],
-    "mentions": 5,
+    "mentions": 7,
     "sourceLinks": {
       "pitchfork_tracks": "https://pitchfork.com/reviews/tracks/asha-bhosle-dum-maro-dum/"
     },
     "primaryTitle": "“Dum Maro Dum”",
     "latestArticleDate": "2026-04-18",
-    "appleMusicUrl": "https://music.apple.com/us/album/dum-maro-dum-uk-garage-mix-single/1809774606?uo=4"
-  },
-  "Angela Autumn": {
-    "firstSeen": "2026-04-28",
-    "lastSeen": "2026-04-30",
-    "sources": [
-      "pitchfork_tracks"
-    ],
-    "titleHints": [
-      "“trampstamp”"
-    ],
-    "mentions": 5,
-    "sourceLinks": {
-      "pitchfork_tracks": "https://pitchfork.com/reviews/tracks/angela-autumn-trampstamp/"
-    },
-    "primaryTitle": "“trampstamp”",
-    "latestArticleDate": "2026-04-16",
-    "appleMusicUrl": "https://music.apple.com/us/album/trampstamp-single/1893023860?uo=4"
+    "appleMusicUrl": "https://music.apple.com/us/album/dum-maro-dum-uk-garage-mix-single/1809774606?uo=4",
+    "poolTags": [
+      "bollywood",
+      "indian",
+      "hindi",
+      "world",
+      "desi"
+    ]
   },
   "Massive Attack Tom Waits": {
     "firstSeen": "2026-04-28",
-    "lastSeen": "2026-04-30",
+    "lastSeen": "2026-05-01",
     "sources": [
       "pitchfork_tracks"
     ],
     "titleHints": [
       "“Boots on the Ground”"
     ],
-    "mentions": 5,
+    "mentions": 7,
     "sourceLinks": {
       "pitchfork_tracks": "https://pitchfork.com/reviews/tracks/massive-attack-tom-waits-boots-on-the-ground/"
     },
@@ -545,30 +511,34 @@
   },
   "Allstar Jr": {
     "firstSeen": "2026-04-28",
-    "lastSeen": "2026-04-30",
+    "lastSeen": "2026-05-01",
     "sources": [
       "pitchfork_tracks"
     ],
     "titleHints": [
       "“Mob Untied”"
     ],
-    "mentions": 5,
+    "mentions": 7,
     "sourceLinks": {
       "pitchfork_tracks": "https://pitchfork.com/reviews/tracks/allstar-jr-mob-untied/"
     },
     "primaryTitle": "“Mob Untied”",
-    "latestArticleDate": "2026-04-16"
+    "latestArticleDate": "2026-04-16",
+    "poolTags": [
+      "detroit rap",
+      "rap"
+    ]
   },
   "Undrcvr Hunnakay": {
     "firstSeen": "2026-04-28",
-    "lastSeen": "2026-04-30",
+    "lastSeen": "2026-05-01",
     "sources": [
       "pitchfork_tracks"
     ],
     "titleHints": [
       "“flee”"
     ],
-    "mentions": 5,
+    "mentions": 7,
     "sourceLinks": {
       "pitchfork_tracks": "https://pitchfork.com/reviews/tracks/undrcvr-hunnakay-flee/"
     },
@@ -577,31 +547,37 @@
   },
   "Dyltwosix": {
     "firstSeen": "2026-04-28",
-    "lastSeen": "2026-04-30",
+    "lastSeen": "2026-05-01",
     "sources": [
       "pitchfork_tracks"
     ],
     "titleHints": [
       "“Lived and Ive Learned”"
     ],
-    "mentions": 5,
+    "mentions": 7,
     "sourceLinks": {
       "pitchfork_tracks": "https://pitchfork.com/reviews/tracks/dyltwosix-lived-and-ive-learned/"
     },
     "primaryTitle": "“Lived and Ive Learned”",
     "latestArticleDate": "2026-04-09",
-    "appleMusicUrl": "https://music.apple.com/us/album/lived-and-ive-learned-single/1886552595?uo=4"
+    "appleMusicUrl": "https://music.apple.com/us/album/lived-and-ive-learned-single/1886552595?uo=4",
+    "poolTags": [
+      "next up",
+      "rap",
+      "one of the ones",
+      "canada"
+    ]
   },
   "Momo Dj Texas Trill": {
     "firstSeen": "2026-04-28",
-    "lastSeen": "2026-04-30",
+    "lastSeen": "2026-05-01",
     "sources": [
       "pitchfork_tracks"
     ],
     "titleHints": [
       "“Do the Ratchet”"
     ],
-    "mentions": 5,
+    "mentions": 7,
     "sourceLinks": {
       "pitchfork_tracks": "https://pitchfork.com/reviews/tracks/momo-dj-texas-trill-do-the-ratchet/"
     },
@@ -610,96 +586,102 @@
   },
   "Charles Mingus": {
     "firstSeen": "2026-04-28",
-    "lastSeen": "2026-04-30",
+    "lastSeen": "2026-05-01",
     "sources": [
       "pitchfork_tracks"
     ],
     "titleHints": [
       "“Fables of Faubus”"
     ],
-    "mentions": 5,
+    "mentions": 7,
     "sourceLinks": {
       "pitchfork_tracks": "https://pitchfork.com/reviews/tracks/charles-mingus-fables-of-faubus/"
     },
     "primaryTitle": "“Fables of Faubus”",
     "latestArticleDate": "2026-04-04",
-    "appleMusicUrl": "https://music.apple.com/us/album/mingus-ah-um-legacy-edition/315947000?uo=4"
+    "appleMusicUrl": "https://music.apple.com/us/album/mingus-ah-um-legacy-edition/315947000?uo=4",
+    "poolTags": [
+      "jazz",
+      "bebop",
+      "avant-garde",
+      "bass",
+      "post-bop"
+    ]
   },
   "Ejae Audrey Nuna Rei Ami": {
     "firstSeen": "2026-04-28",
-    "lastSeen": "2026-04-30",
+    "lastSeen": "2026-05-01",
     "sources": [
       "pitchfork_tracks"
     ],
     "titleHints": [
       "“Golden”"
     ],
-    "mentions": 5,
+    "mentions": 7,
     "sourceLinks": {
       "pitchfork_tracks": "https://pitchfork.com/reviews/tracks/ejae-audrey-nuna-rei-ami-golden/"
     },
     "primaryTitle": "“Golden”",
     "latestArticleDate": "2026-03-28"
   },
-  "Minutemen": {
-    "firstSeen": "2026-04-28",
-    "lastSeen": "2026-04-30",
-    "sources": [
-      "pitchfork_tracks"
-    ],
-    "titleHints": [
-      "“Corona”"
-    ],
-    "mentions": 5,
-    "sourceLinks": {
-      "pitchfork_tracks": "https://pitchfork.com/reviews/tracks/minutemen-corona/"
-    },
-    "primaryTitle": "“Corona”",
-    "latestArticleDate": "2026-03-21"
-  },
   "Mop": {
     "firstSeen": "2026-04-28",
-    "lastSeen": "2026-04-30",
+    "lastSeen": "2026-05-01",
     "sources": [
       "pitchfork_tracks"
     ],
     "titleHints": [
       "“Ante Up (Robbing-Hoodz Theory)”"
     ],
-    "mentions": 5,
+    "mentions": 7,
     "sourceLinks": {
       "pitchfork_tracks": "https://pitchfork.com/reviews/tracks/mop-ante-up-robbing-hoodz-theory/"
     },
     "primaryTitle": "“Ante Up (Robbing-Hoodz Theory)”",
-    "latestArticleDate": "2026-03-14"
+    "latestArticleDate": "2026-03-14",
+    "poolTags": [
+      "hip-hop",
+      "rap",
+      "hardcore rap",
+      "hip hop",
+      "new york"
+    ],
+    "appleMusicUrl": "https://music.apple.com/us/album/ante-up-remix-ep/1560865955?uo=4"
   },
   "David Wise": {
     "firstSeen": "2026-04-28",
-    "lastSeen": "2026-04-30",
+    "lastSeen": "2026-05-01",
     "sources": [
       "pitchfork_tracks"
     ],
     "titleHints": [
       "“Stickerbush Symphony”"
     ],
-    "mentions": 5,
+    "mentions": 7,
     "sourceLinks": {
       "pitchfork_tracks": "https://pitchfork.com/reviews/tracks/david-wise-stickerbush-symphony/"
     },
     "primaryTitle": "“Stickerbush Symphony”",
     "latestArticleDate": "2026-03-07",
-    "appleMusicUrl": "https://music.apple.com/us/album/stickerbush-symphony-from-donkey-kong-country-2-bramble/1735012179?uo=4"
+    "appleMusicUrl": "https://music.apple.com/us/album/stickerbush-symphony-from-donkey-kong-country-2-bramble/1735012179?uo=4",
+    "poolTags": [
+      "video game music",
+      "soundtrack",
+      "ambient",
+      "electronic",
+      "composer"
+    ]
   },
   "1 Umbrella": {
     "firstSeen": "2026-04-28",
-    "lastSeen": "2026-04-30",
+    "lastSeen": "2026-05-01",
     "sources": [
       "pitchfork_tracks"
     ],
     "titleHints": [
       "“One of Those”"
     ],
-    "mentions": 5,
+    "mentions": 7,
     "sourceLinks": {
       "pitchfork_tracks": "https://pitchfork.com/reviews/tracks/1-umbrella-one-of-those/"
     },
@@ -707,324 +689,141 @@
     "latestArticleDate": "2026-03-05",
     "appleMusicUrl": "https://music.apple.com/us/album/1-umbrella/1880790301?uo=4"
   },
-  "Brat Star": {
-    "firstSeen": "2026-04-28",
-    "lastSeen": "2026-04-30",
-    "sources": [
-      "pitchfork_tracks"
-    ],
-    "titleHints": [
-      "“Margot Tenenbaum”"
-    ],
-    "mentions": 5,
-    "sourceLinks": {
-      "pitchfork_tracks": "https://pitchfork.com/reviews/tracks/brat-star-margot-tenenbaum/"
-    },
-    "primaryTitle": "“Margot Tenenbaum”",
-    "latestArticleDate": "2026-03-02"
-  },
-  "My New Band Believe": {
-    "firstSeen": "2026-04-28",
-    "lastSeen": "2026-04-30",
-    "sources": [
-      "pitchfork_best_albums"
-    ],
-    "titleHints": [
-      "My New Band Believe"
-    ],
-    "mentions": 5,
-    "sourceLinks": {
-      "pitchfork_best_albums": "https://pitchfork.com/reviews/albums/my-new-band-believe-my-new-band-believe/"
-    },
-    "primaryTitle": "My New Band Believe",
-    "latestArticleDate": "2026-04-10"
-  },
-  "Wendy Eisenberg": {
-    "firstSeen": "2026-04-28",
-    "lastSeen": "2026-04-30",
-    "sources": [
-      "pitchfork_best_albums"
-    ],
-    "titleHints": [
-      "Wendy Eisenberg"
-    ],
-    "mentions": 5,
-    "sourceLinks": {
-      "pitchfork_best_albums": "https://pitchfork.com/reviews/albums/wendy-eisenberg-wendy-eisenberg/"
-    },
-    "primaryTitle": "Wendy Eisenberg",
-    "latestArticleDate": "2026-04-09"
-  },
-  "Neurosis": {
-    "firstSeen": "2026-04-28",
-    "lastSeen": "2026-04-30",
-    "sources": [
-      "pitchfork_best_albums"
-    ],
-    "titleHints": [
-      "An Undying Love for a Burning World"
-    ],
-    "mentions": 5,
-    "sourceLinks": {
-      "pitchfork_best_albums": "https://pitchfork.com/reviews/albums/neurosis-an-undying-love-for-a-burning-world/"
-    },
-    "primaryTitle": "An Undying Love for a Burning World",
-    "latestArticleDate": "2026-03-26"
-  },
-  "Underscores": {
-    "firstSeen": "2026-04-28",
-    "lastSeen": "2026-04-30",
-    "sources": [
-      "pitchfork_best_albums"
-    ],
-    "titleHints": [
-      "U"
-    ],
-    "mentions": 5,
-    "sourceLinks": {
-      "pitchfork_best_albums": "https://pitchfork.com/reviews/albums/underscores-u/"
-    },
-    "primaryTitle": "U",
-    "latestArticleDate": "2026-03-23",
-    "appleMusicUrl": "https://music.apple.com/us/album/its-you-underscores-its-u-remix-single/1874511392?uo=4"
-  },
-  "Grace Ives": {
-    "firstSeen": "2026-04-28",
-    "lastSeen": "2026-04-30",
-    "sources": [
-      "pitchfork_best_albums"
-    ],
-    "titleHints": [
-      "Girlfriend"
-    ],
-    "mentions": 5,
-    "sourceLinks": {
-      "pitchfork_best_albums": "https://pitchfork.com/reviews/albums/grace-ives-girlfriend/"
-    },
-    "primaryTitle": "Girlfriend",
-    "latestArticleDate": "2026-03-20"
-  },
   "Sideshow": {
     "firstSeen": "2026-04-28",
-    "lastSeen": "2026-04-30",
+    "lastSeen": "2026-05-01",
     "sources": [
       "pitchfork_best_albums"
     ],
     "titleHints": [
       "TIGRAY FUNK"
     ],
-    "mentions": 5,
+    "mentions": 7,
     "sourceLinks": {
       "pitchfork_best_albums": "https://pitchfork.com/reviews/albums/sideshow-tigray-funk/"
     },
     "primaryTitle": "TIGRAY FUNK",
-    "latestArticleDate": "2026-03-04"
+    "latestArticleDate": "2026-03-04",
+    "poolTags": [
+      "dub",
+      "emo",
+      "rap",
+      "post-hardcore",
+      "midwest emo"
+    ]
   },
   "Zel": {
     "firstSeen": "2026-04-28",
-    "lastSeen": "2026-04-30",
+    "lastSeen": "2026-05-01",
     "sources": [
       "pitchfork_best_albums"
     ],
     "titleHints": [
       "Still Right Here"
     ],
-    "mentions": 5,
+    "mentions": 7,
     "sourceLinks": {
       "pitchfork_best_albums": "https://pitchfork.com/reviews/albums/zel-still-right-here/"
     },
     "primaryTitle": "Still Right Here",
     "latestArticleDate": "2026-02-25",
-    "appleMusicUrl": "https://music.apple.com/us/album/im-still-here-single/1459719063?uo=4"
-  },
-  "Twisted Teens": {
-    "firstSeen": "2026-04-28",
-    "lastSeen": "2026-04-30",
-    "sources": [
-      "pitchfork_best_albums"
-    ],
-    "titleHints": [
-      "Blame the Clown"
-    ],
-    "mentions": 5,
-    "sourceLinks": {
-      "pitchfork_best_albums": "https://pitchfork.com/reviews/albums/twisted-teens-blame-the-clown/"
-    },
-    "primaryTitle": "Blame the Clown",
-    "latestArticleDate": "2026-02-23",
-    "appleMusicUrl": "https://music.apple.com/us/album/blame-the-clown/1866571109?uo=4"
+    "appleMusicUrl": "https://music.apple.com/us/album/im-still-here-single/1459719063?uo=4",
+    "poolTags": [
+      "rap",
+      "hip-hop",
+      "russian"
+    ]
   },
   "Lord Jah Monte Ogbon": {
     "firstSeen": "2026-04-28",
-    "lastSeen": "2026-04-30",
+    "lastSeen": "2026-05-01",
     "sources": [
       "pitchfork_best_albums"
     ],
     "titleHints": [
       "As of Now"
     ],
-    "mentions": 5,
+    "mentions": 7,
     "sourceLinks": {
       "pitchfork_best_albums": "https://pitchfork.com/reviews/albums/lord-jah-monte-ogbon-as-of-now/"
     },
     "primaryTitle": "As of Now",
-    "latestArticleDate": "2026-02-10"
-  },
-  "Ratboys": {
-    "firstSeen": "2026-04-28",
-    "lastSeen": "2026-04-30",
-    "sources": [
-      "pitchfork_best_albums"
-    ],
-    "titleHints": [
-      "Singin’ to an Empty Chair"
-    ],
-    "mentions": 5,
-    "sourceLinks": {
-      "pitchfork_best_albums": "https://pitchfork.com/reviews/albums/ratboys-singin-to-an-empty-chair/"
-    },
-    "primaryTitle": "Singin’ to an Empty Chair",
-    "latestArticleDate": "2026-02-06"
+    "latestArticleDate": "2026-02-10",
+    "appleMusicUrl": "https://music.apple.com/us/album/im-signed-to-lex-now-im-up-single/1829753743?uo=4"
   },
   "Mandy Indiana": {
     "firstSeen": "2026-04-28",
-    "lastSeen": "2026-04-30",
+    "lastSeen": "2026-05-01",
     "sources": [
       "pitchfork_best_albums"
     ],
     "titleHints": [
       "URGH"
     ],
-    "mentions": 5,
+    "mentions": 7,
     "sourceLinks": {
       "pitchfork_best_albums": "https://pitchfork.com/reviews/albums/mandy-indiana-urgh/"
     },
     "primaryTitle": "URGH",
-    "latestArticleDate": "2026-02-05"
+    "latestArticleDate": "2026-02-05",
+    "appleMusicUrl": "https://music.apple.com/us/album/urgh/1846434012?uo=4"
   },
   "Xaviersobased": {
     "firstSeen": "2026-04-28",
-    "lastSeen": "2026-04-30",
+    "lastSeen": "2026-05-01",
     "sources": [
       "pitchfork_best_albums"
     ],
     "titleHints": [
       "Xavier"
     ],
-    "mentions": 5,
+    "mentions": 7,
     "sourceLinks": {
       "pitchfork_best_albums": "https://pitchfork.com/reviews/albums/xaviersobased-xavier/"
     },
     "primaryTitle": "Xavier",
-    "latestArticleDate": "2026-02-03"
+    "latestArticleDate": "2026-02-03",
+    "poolTags": [
+      "plugg",
+      "jerk",
+      "based",
+      "cloud rap",
+      "digicore"
+    ]
   },
   "Otto Benson": {
     "firstSeen": "2026-04-28",
-    "lastSeen": "2026-04-30",
+    "lastSeen": "2026-05-01",
     "sources": [
       "pitchfork_best_albums"
     ],
     "titleHints": [
       "Peanut"
     ],
-    "mentions": 5,
+    "mentions": 7,
     "sourceLinks": {
       "pitchfork_best_albums": "https://pitchfork.com/reviews/albums/otto-benson-peanut/"
     },
     "primaryTitle": "Peanut",
-    "latestArticleDate": "2026-01-27"
-  },
-  "Ella Mai": {
-    "firstSeen": "2026-04-28",
-    "lastSeen": "2026-04-30",
-    "sources": [
-      "pitchfork_best_tracks"
-    ],
-    "titleHints": [
-      "“There Goes My Heart”"
-    ],
-    "mentions": 5,
-    "sourceLinks": {
-      "pitchfork_best_tracks": "https://pitchfork.com/reviews/tracks/ella-mai-there-goes-my-heart/"
-    },
-    "primaryTitle": "“There Goes My Heart”",
-    "latestArticleDate": "2026-02-09"
-  },
-  "Irmin Schmidt": {
-    "firstSeen": "2026-04-28",
-    "lastSeen": "2026-04-30",
-    "sources": [
-      "quietus"
-    ],
-    "titleHints": [
-      "Requiem"
-    ],
-    "mentions": 5,
-    "sourceLinks": {
-      "quietus": "https://thequietus.com/quietus-reviews/irmin-schmidt-requiem-review/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=irmin-schmidt-requiem-review"
-    },
-    "primaryTitle": "Requiem",
-    "latestArticleDate": "2026-04-27"
-  },
-  "Bali Gamelan Sound": {
-    "firstSeen": "2026-04-28",
-    "lastSeen": "2026-04-30",
-    "sources": [
-      "quietus"
-    ],
-    "titleHints": [
-      "Topeng Semar Pegulingan"
-    ],
-    "mentions": 5,
-    "sourceLinks": {
-      "quietus": "https://thequietus.com/quietus-reviews/bali-gamelan-sound-topeng-semar-pegulingan-review/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=bali-gamelan-sound-topeng-semar-pegulingan-review"
-    },
-    "primaryTitle": "Topeng Semar Pegulingan",
-    "latestArticleDate": "2026-04-23"
-  },
-  "Tanya Donelly and Chris Brokaw": {
-    "firstSeen": "2026-04-28",
-    "lastSeen": "2026-04-30",
-    "sources": [
-      "quietus"
-    ],
-    "titleHints": [
-      "The Undone Is Done Again"
-    ],
-    "mentions": 5,
-    "sourceLinks": {
-      "quietus": "https://thequietus.com/quietus-reviews/tanya-donelly-and-chris-brokaw-the-undone-is-done-again-review/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=tanya-donelly-and-chris-brokaw-the-undone-is-done-again-review"
-    },
-    "primaryTitle": "The Undone Is Done Again",
-    "latestArticleDate": "2026-04-22"
-  },
-  "Gnod": {
-    "firstSeen": "2026-04-28",
-    "lastSeen": "2026-04-30",
-    "sources": [
-      "quietus"
-    ],
-    "titleHints": [
-      "Chronicles Of Gnowt Vol.1"
-    ],
-    "mentions": 5,
-    "sourceLinks": {
-      "quietus": "https://thequietus.com/quietus-reviews/gnod-chronicles-of-gnowt-vol-1-review/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=gnod-chronicles-of-gnowt-vol-1-review"
-    },
-    "primaryTitle": "Chronicles Of Gnowt Vol.1",
-    "latestArticleDate": "2026-04-22",
-    "appleMusicUrl": "https://music.apple.com/us/album/chronicles-of-gnowt-vol-1/1863455667?uo=4"
+    "latestArticleDate": "2026-01-27",
+    "poolTags": [
+      "lo-fi",
+      "new york",
+      "experimental indie",
+      "brooklyn",
+      "lo-fi indie"
+    ]
   },
   "Fat Ray & Raphy": {
     "firstSeen": "2026-04-28",
-    "lastSeen": "2026-04-30",
+    "lastSeen": "2026-05-01",
     "sources": [
       "bandcamp_daily"
     ],
     "titleHints": [
       "Santa Rosa"
     ],
-    "mentions": 5,
+    "mentions": 7,
     "sourceLinks": {
       "bandcamp_daily": "https://daily.bandcamp.com/album-of-the-day/fat-ray-raphy-santa-rosa-review"
     },
@@ -1033,23 +832,24 @@
   },
   "Neo Geodesia": {
     "firstSeen": "2026-04-28",
-    "lastSeen": "2026-04-30",
+    "lastSeen": "2026-05-01",
     "sources": [
       "bandcamp_daily"
     ],
     "titleHints": [
       "Oknha Stamina"
     ],
-    "mentions": 5,
+    "mentions": 7,
     "sourceLinks": {
       "bandcamp_daily": "https://daily.bandcamp.com/album-of-the-day/neo-geodesia-oknha-stamina-review"
     },
     "primaryTitle": "Oknha Stamina",
-    "latestArticleDate": "2026-04-20"
+    "latestArticleDate": "2026-04-20",
+    "appleMusicUrl": "https://music.apple.com/us/album/oknha-stamina/1868379131?uo=4"
   },
   "WAX": {
     "firstSeen": "2026-04-28",
-    "lastSeen": "2026-04-30",
+    "lastSeen": "2026-05-01",
     "sources": [
       "bandcamp-discover"
     ],
@@ -1057,7 +857,7 @@
       "No. 11110",
       "No. 11110 — https://wax10001.bandcamp.com/album/no-11110"
     ],
-    "mentions": 4,
+    "mentions": 6,
     "poolTags": [
       "ambient",
       "ambient-techno",
@@ -1077,7 +877,7 @@
   },
   "Flamingosis": {
     "firstSeen": "2026-04-28",
-    "lastSeen": "2026-04-30",
+    "lastSeen": "2026-05-01",
     "sources": [
       "bandcamp-discover"
     ],
@@ -1085,7 +885,7 @@
       "Mood Provider 4",
       "Mood Provider 4 — https://flamingosis1.bandcamp.com/album/mood-provider-4"
     ],
-    "mentions": 4,
+    "mentions": 6,
     "poolTags": [
       "ambient",
       "ambient-techno",
@@ -1105,7 +905,7 @@
   },
   "Kobaryo": {
     "firstSeen": "2026-04-28",
-    "lastSeen": "2026-04-30",
+    "lastSeen": "2026-05-01",
     "sources": [
       "bandcamp-discover"
     ],
@@ -1113,7 +913,7 @@
       "SUPER WORLD REBOOT",
       "SUPER WORLD REBOOT — https://hitnex.bandcamp.com/album/super-world-reboot"
     ],
-    "mentions": 4,
+    "mentions": 6,
     "poolTags": [
       "ambient",
       "ambient-techno",
@@ -1129,39 +929,12 @@
       "bandcamp-discover": "https://hitnex.bandcamp.com/album/super-world-reboot"
     },
     "primaryTitle": "SUPER WORLD REBOOT",
-    "latestArticleDate": "2026-04-27"
-  },
-  "USAO": {
-    "firstSeen": "2026-04-28",
-    "lastSeen": "2026-04-30",
-    "sources": [
-      "bandcamp-discover"
-    ],
-    "titleHints": [
-      "SUPERNOVA",
-      "SUPERNOVA — https://usao.bandcamp.com/album/supernova"
-    ],
-    "mentions": 4,
-    "poolTags": [
-      "ambient",
-      "ambient-techno",
-      "deep-house",
-      "downtempo",
-      "dub",
-      "dub-techno",
-      "experimental-electronic",
-      "idm"
-    ],
-    "bandcampUrl": "https://usao.bandcamp.com/album/supernova",
-    "sourceLinks": {
-      "bandcamp-discover": "https://usao.bandcamp.com/album/supernova"
-    },
-    "primaryTitle": "SUPERNOVA",
-    "latestArticleDate": "2026-04-27"
+    "latestArticleDate": "2026-04-27",
+    "appleMusicUrl": "https://music.apple.com/us/album/super-world-reboot/1895454623?uo=4"
   },
   "Goose": {
     "firstSeen": "2026-04-28",
-    "lastSeen": "2026-04-30",
+    "lastSeen": "2026-05-01",
     "sources": [
       "bandcamp-discover"
     ],
@@ -1169,7 +942,7 @@
       "2026/04/25 Toyota Music Factory, Irving, TX",
       "2026/04/25 Toyota Music Factory, Irving, TX — https://goosetheband.bandcamp.com/album/2026-04-25-toyota-music-factory-irving-tx"
     ],
-    "mentions": 4,
+    "mentions": 6,
     "poolTags": [
       "ambient",
       "ambient-techno",
@@ -1189,7 +962,7 @@
   },
   "BOGSIDE SNIPER SQUADRON": {
     "firstSeen": "2026-04-28",
-    "lastSeen": "2026-04-30",
+    "lastSeen": "2026-05-01",
     "sources": [
       "bandcamp-discover"
     ],
@@ -1197,7 +970,7 @@
       "BOGSIDE SNIPER SQUADRON",
       "BOGSIDE SNIPER SQUADRON — https://bogsidesnipersquadron.bandcamp.com/album/bogside-sniper-squadron"
     ],
-    "mentions": 4,
+    "mentions": 6,
     "poolTags": [
       "ambient",
       "ambient-techno",
@@ -1215,37 +988,9 @@
     "primaryTitle": "BOGSIDE SNIPER SQUADRON",
     "latestArticleDate": "2026-04-25"
   },
-  "FM-84": {
-    "firstSeen": "2026-04-28",
-    "lastSeen": "2026-04-30",
-    "sources": [
-      "bandcamp-discover"
-    ],
-    "titleHints": [
-      "Radio",
-      "Radio — https://fm84.bandcamp.com/album/radio"
-    ],
-    "mentions": 4,
-    "poolTags": [
-      "ambient",
-      "ambient-techno",
-      "deep-house",
-      "downtempo",
-      "dub",
-      "dub-techno",
-      "experimental-electronic",
-      "idm"
-    ],
-    "bandcampUrl": "https://fm84.bandcamp.com/album/radio",
-    "sourceLinks": {
-      "bandcamp-discover": "https://fm84.bandcamp.com/album/radio"
-    },
-    "primaryTitle": "Radio",
-    "latestArticleDate": "2026-04-25"
-  },
   "Kaatayra": {
     "firstSeen": "2026-04-28",
-    "lastSeen": "2026-04-30",
+    "lastSeen": "2026-05-01",
     "sources": [
       "bandcamp-discover"
     ],
@@ -1253,7 +998,7 @@
       "Caminhos de Água",
       "Caminhos de Água — https://kaatayra.bandcamp.com/album/caminhos-de-gua"
     ],
-    "mentions": 4,
+    "mentions": 6,
     "poolTags": [
       "ambient",
       "ambient-techno",
@@ -1273,7 +1018,7 @@
   },
   "Cynthoni": {
     "firstSeen": "2026-04-28",
-    "lastSeen": "2026-04-30",
+    "lastSeen": "2026-05-01",
     "sources": [
       "bandcamp-discover"
     ],
@@ -1281,7 +1026,7 @@
       "CYNT",
       "CYNT — https://cynthoni.bandcamp.com/album/cynt"
     ],
-    "mentions": 4,
+    "mentions": 6,
     "poolTags": [
       "ambient",
       "ambient-techno",
@@ -1301,7 +1046,7 @@
   },
   "Korn": {
     "firstSeen": "2026-04-28",
-    "lastSeen": "2026-04-30",
+    "lastSeen": "2026-05-01",
     "sources": [
       "bandcamp-discover"
     ],
@@ -1309,7 +1054,7 @@
       "Reward the Scars",
       "Reward the Scars — https://kornofficial.bandcamp.com/album/reward-the-scars"
     ],
-    "mentions": 4,
+    "mentions": 6,
     "poolTags": [
       "ambient",
       "ambient-techno",
@@ -1325,11 +1070,12 @@
       "bandcamp-discover": "https://kornofficial.bandcamp.com/album/reward-the-scars"
     },
     "primaryTitle": "Reward the Scars",
-    "latestArticleDate": "2026-04-23"
+    "latestArticleDate": "2026-04-23",
+    "appleMusicUrl": "https://music.apple.com/us/album/reward-the-scars-single/1893159527?uo=4"
   },
   "GRPPLNG": {
     "firstSeen": "2026-04-28",
-    "lastSeen": "2026-04-30",
+    "lastSeen": "2026-05-01",
     "sources": [
       "bandcamp-discover"
     ],
@@ -1337,7 +1083,7 @@
       "H's All Around EP",
       "H's All Around EP — https://grpplng.bandcamp.com/album/hs-all-around-ep"
     ],
-    "mentions": 4,
+    "mentions": 6,
     "poolTags": [
       "ambient",
       "ambient-techno",
@@ -1357,7 +1103,7 @@
   },
   "Taylor Moore": {
     "firstSeen": "2026-04-28",
-    "lastSeen": "2026-04-30",
+    "lastSeen": "2026-05-01",
     "sources": [
       "bandcamp-discover"
     ],
@@ -1365,7 +1111,7 @@
       "Worlds Beyond Number: The Wizard, the Witch, and the Wild One, Book One (Original Soundtrack)",
       "Worlds Beyond Number: The Wizard, the Witch, and the Wild One, Book One (Original Soundtrack) — https://taylormooremusic.bandcamp.com/album/worlds-beyond-number-the-wizard-the-witch-and-the-wild-one-book-one-original-soundtrack"
     ],
-    "mentions": 4,
+    "mentions": 6,
     "poolTags": [
       "ambient",
       "ambient-techno",
@@ -1381,11 +1127,12 @@
       "bandcamp-discover": "https://taylormooremusic.bandcamp.com/album/worlds-beyond-number-the-wizard-the-witch-and-the-wild-one-book-one-original-soundtrack"
     },
     "primaryTitle": "Worlds Beyond Number: The Wizard, the Witch, and the Wild One, Book One (Original Soundtrack)",
-    "latestArticleDate": "2026-04-20"
+    "latestArticleDate": "2026-04-20",
+    "appleMusicUrl": "https://music.apple.com/us/album/wicked-the-original-motion-picture-score/1780442290?uo=4"
   },
   "Massive Attack, Tom Waits": {
     "firstSeen": "2026-04-28",
-    "lastSeen": "2026-04-30",
+    "lastSeen": "2026-05-01",
     "sources": [
       "bandcamp-discover"
     ],
@@ -1393,7 +1140,7 @@
       "Boots on the Ground",
       "Boots on the Ground — https://massiveattack.bandcamp.com/album/boots-on-the-ground"
     ],
-    "mentions": 4,
+    "mentions": 6,
     "poolTags": [
       "ambient",
       "ambient-techno",
@@ -1409,11 +1156,12 @@
       "bandcamp-discover": "https://massiveattack.bandcamp.com/album/boots-on-the-ground"
     },
     "primaryTitle": "Boots on the Ground",
-    "latestArticleDate": "2026-04-16"
+    "latestArticleDate": "2026-04-16",
+    "appleMusicUrl": "https://music.apple.com/us/album/boots-on-the-ground-single/1614297681?uo=4"
   },
   "Dee-1": {
     "firstSeen": "2026-04-28",
-    "lastSeen": "2026-04-30",
+    "lastSeen": "2026-05-01",
     "sources": [
       "bandcamp-discover"
     ],
@@ -1421,7 +1169,7 @@
       "The Shift",
       "The Shift — https://dee1raps.bandcamp.com/album/the-shift"
     ],
-    "mentions": 4,
+    "mentions": 6,
     "poolTags": [
       "ambient",
       "ambient-techno",
@@ -1437,11 +1185,12 @@
       "bandcamp-discover": "https://dee1raps.bandcamp.com/album/the-shift"
     },
     "primaryTitle": "The Shift",
-    "latestArticleDate": "2026-04-10"
+    "latestArticleDate": "2026-04-10",
+    "appleMusicUrl": "https://music.apple.com/us/album/superfly-soundtrack-from-the-motion-picture/1048472205?uo=4"
   },
   "π. Διονύσιος Ταμπάκης": {
     "firstSeen": "2026-04-28",
-    "lastSeen": "2026-04-30",
+    "lastSeen": "2026-05-01",
     "sources": [
       "bandcamp-discover"
     ],
@@ -1449,7 +1198,7 @@
       "Paradise Metal",
       "Paradise Metal — https://heatcrimes.bandcamp.com/album/paradise-metal"
     ],
-    "mentions": 4,
+    "mentions": 6,
     "poolTags": [
       "ambient",
       "ambient-techno",
@@ -1469,7 +1218,7 @@
   },
   "Plini": {
     "firstSeen": "2026-04-28",
-    "lastSeen": "2026-04-30",
+    "lastSeen": "2026-05-01",
     "sources": [
       "bandcamp-discover"
     ],
@@ -1477,7 +1226,7 @@
       "An Unnameable Desire",
       "An Unnameable Desire — https://plini.bandcamp.com/album/an-unnameable-desire"
     ],
-    "mentions": 4,
+    "mentions": 6,
     "poolTags": [
       "ambient",
       "ambient-techno",
@@ -1498,7 +1247,7 @@
   },
   "Angine de Poitrine": {
     "firstSeen": "2026-04-28",
-    "lastSeen": "2026-04-30",
+    "lastSeen": "2026-05-01",
     "sources": [
       "bandcamp-discover"
     ],
@@ -1506,7 +1255,7 @@
       "Vol.II",
       "Vol.II — https://anginedepoitrine.bandcamp.com/album/vol-ii"
     ],
-    "mentions": 4,
+    "mentions": 6,
     "poolTags": [
       "ambient",
       "ambient-techno",
@@ -1525,38 +1274,9 @@
     "latestArticleDate": "2026-03-07",
     "appleMusicUrl": "https://music.apple.com/us/album/vol-ii/1876355936?uo=4"
   },
-  "The Standing Stones": {
-    "firstSeen": "2026-04-28",
-    "lastSeen": "2026-04-30",
-    "sources": [
-      "bandcamp-discover"
-    ],
-    "titleHints": [
-      "Twa Sisters Featuring Iona Zajac & Daragh Lynch",
-      "Twa Sisters Featuring Iona Zajac & Daragh Lynch — https://thestandingstones.bandcamp.com/album/twa-sisters-featuring-iona-zajac-daragh-lynch"
-    ],
-    "mentions": 4,
-    "poolTags": [
-      "ambient",
-      "ambient-techno",
-      "deep-house",
-      "downtempo",
-      "dub",
-      "dub-techno",
-      "experimental-electronic",
-      "idm"
-    ],
-    "bandcampUrl": "https://thestandingstones.bandcamp.com/album/twa-sisters-featuring-iona-zajac-daragh-lynch",
-    "sourceLinks": {
-      "bandcamp-discover": "https://thestandingstones.bandcamp.com/album/twa-sisters-featuring-iona-zajac-daragh-lynch"
-    },
-    "primaryTitle": "Twa Sisters Featuring Iona Zajac & Daragh Lynch",
-    "latestArticleDate": "2026-03-01",
-    "appleMusicUrl": "https://music.apple.com/us/album/the-burning-of-auchindoun-single/1856722900?uo=4"
-  },
   "portrayal of guilt": {
     "firstSeen": "2026-04-28",
-    "lastSeen": "2026-04-30",
+    "lastSeen": "2026-05-01",
     "sources": [
       "bandcamp-discover"
     ],
@@ -1564,7 +1284,7 @@
       "…Beginning of the End",
       "…Beginning of the End — https://portrayalofguilt.bandcamp.com/album/beginning-of-the-end"
     ],
-    "mentions": 4,
+    "mentions": 6,
     "poolTags": [
       "ambient",
       "ambient-techno",
@@ -1580,11 +1300,12 @@
       "bandcamp-discover": "https://portrayalofguilt.bandcamp.com/album/beginning-of-the-end"
     },
     "primaryTitle": "…Beginning of the End",
-    "latestArticleDate": "2026-02-25"
+    "latestArticleDate": "2026-02-25",
+    "appleMusicUrl": "https://music.apple.com/us/album/beginning-of-the-end/1874721863?uo=4"
   },
   "CAVS": {
     "firstSeen": "2026-04-28",
-    "lastSeen": "2026-04-30",
+    "lastSeen": "2026-05-01",
     "sources": [
       "bandcamp-discover"
     ],
@@ -1592,7 +1313,7 @@
       "Sojourn",
       "Sojourn — https://cavs.bandcamp.com/album/sojourn-4"
     ],
-    "mentions": 4,
+    "mentions": 6,
     "poolTags": [
       "ambient",
       "ambient-techno",
@@ -1613,7 +1334,7 @@
   },
   "At The Gates": {
     "firstSeen": "2026-04-28",
-    "lastSeen": "2026-04-30",
+    "lastSeen": "2026-05-01",
     "sources": [
       "bandcamp-discover"
     ],
@@ -1621,7 +1342,7 @@
       "The Ghost of a Future Dead (24-bit HD audio)",
       "The Ghost of a Future Dead (24-bit HD audio) — https://centurymedia.bandcamp.com/album/the-ghost-of-a-future-dead-24-bit-hd-audio"
     ],
-    "mentions": 4,
+    "mentions": 6,
     "poolTags": [
       "ambient",
       "ambient-techno",
@@ -1642,7 +1363,7 @@
   },
   "Failure": {
     "firstSeen": "2026-04-28",
-    "lastSeen": "2026-04-30",
+    "lastSeen": "2026-05-01",
     "sources": [
       "bandcamp-discover"
     ],
@@ -1650,7 +1371,7 @@
       "Location Lost",
       "Location Lost — https://failureband.bandcamp.com/album/location-lost"
     ],
-    "mentions": 4,
+    "mentions": 6,
     "poolTags": [
       "ambient",
       "ambient-techno",
@@ -1666,7 +1387,2582 @@
       "bandcamp-discover": "https://failureband.bandcamp.com/album/location-lost"
     },
     "primaryTitle": "Location Lost",
-    "latestArticleDate": "2026-02-17"
+    "latestArticleDate": "2026-02-17",
+    "appleMusicUrl": "https://music.apple.com/us/album/location-lost/1867015665?uo=4"
+  },
+  "Ayman Fanous": {
+    "firstSeen": "2026-04-29",
+    "lastSeen": "2026-05-01",
+    "sources": [
+      "bandcamp_daily"
+    ],
+    "titleHints": [
+      "Brooklyn Stories 1-5"
+    ],
+    "mentions": 4,
+    "sourceLinks": {
+      "bandcamp_daily": "https://daily.bandcamp.com/album-of-the-day/ayman-fanous-brooklyn-stories-1-5-review"
+    },
+    "primaryTitle": "Brooklyn Stories 1-5",
+    "latestArticleDate": "2026-04-28",
+    "poolTags": [
+      "guitar",
+      "improv",
+      "avant-garde",
+      "contemporary classical",
+      "free improvisation"
+    ],
+    "appleMusicUrl": "https://music.apple.com/us/album/brooklyn-stories-1/1884370582?uo=4"
+  },
+  "Port Sleep": {
+    "firstSeen": "2026-04-29",
+    "lastSeen": "2026-05-01",
+    "sources": [
+      "bandcamp-discover"
+    ],
+    "titleHints": [
+      "As Long as This Warmth Remains"
+    ],
+    "mentions": 4,
+    "bandcampUrl": "https://portsleep.bandcamp.com/album/as-long-as-this-warmth-remains",
+    "sourceLinks": {
+      "bandcamp-discover": "https://portsleep.bandcamp.com/album/as-long-as-this-warmth-remains"
+    },
+    "primaryTitle": "As Long as This Warmth Remains",
+    "latestArticleDate": "2026-04-28",
+    "poolTags": [
+      "ambient",
+      "ambient-techno",
+      "deep-house",
+      "downtempo",
+      "dub",
+      "dub-techno",
+      "experimental-electronic",
+      "idm"
+    ]
+  },
+  "Yazz Ahmed": {
+    "firstSeen": "2026-04-29",
+    "lastSeen": "2026-05-01",
+    "sources": [
+      "bandcamp-discover"
+    ],
+    "titleHints": [
+      "Shinrin-Yoku"
+    ],
+    "mentions": 4,
+    "bandcampUrl": "https://yazzahmed.bandcamp.com/album/shinrin-yoku",
+    "sourceLinks": {
+      "bandcamp-discover": "https://yazzahmed.bandcamp.com/album/shinrin-yoku"
+    },
+    "primaryTitle": "Shinrin-Yoku",
+    "latestArticleDate": "2026-04-28",
+    "poolTags": [
+      "ambient",
+      "ambient-techno",
+      "deep-house",
+      "downtempo",
+      "dub",
+      "dub-techno",
+      "experimental-electronic",
+      "idm"
+    ],
+    "appleMusicUrl": "https://music.apple.com/us/album/shinrin-yoku-ep/1887919144?uo=4"
+  },
+  "jarguna & Chris Russell": {
+    "firstSeen": "2026-04-29",
+    "lastSeen": "2026-05-01",
+    "sources": [
+      "bandcamp-discover"
+    ],
+    "titleHints": [
+      "Wind of Dissonance"
+    ],
+    "mentions": 4,
+    "bandcampUrl": "https://projektrecords.bandcamp.com/album/wind-of-dissonance",
+    "sourceLinks": {
+      "bandcamp-discover": "https://projektrecords.bandcamp.com/album/wind-of-dissonance"
+    },
+    "primaryTitle": "Wind of Dissonance",
+    "latestArticleDate": "2026-04-28",
+    "poolTags": [
+      "ambient",
+      "ambient-techno",
+      "deep-house",
+      "downtempo",
+      "dub",
+      "dub-techno",
+      "experimental-electronic",
+      "idm"
+    ]
+  },
+  "Fugazi": {
+    "firstSeen": "2026-04-29",
+    "lastSeen": "2026-05-01",
+    "sources": [
+      "bandcamp-discover"
+    ],
+    "titleHints": [
+      "Albini Sessions (Benefit for Letters Charity)"
+    ],
+    "mentions": 4,
+    "bandcampUrl": "https://fugazi.bandcamp.com/album/albini-sessions-benefit-for-letters-charity",
+    "sourceLinks": {
+      "bandcamp-discover": "https://fugazi.bandcamp.com/album/albini-sessions-benefit-for-letters-charity"
+    },
+    "primaryTitle": "Albini Sessions (Benefit for Letters Charity)",
+    "latestArticleDate": "2026-03-06",
+    "poolTags": [
+      "ambient",
+      "ambient-techno",
+      "deep-house",
+      "downtempo",
+      "dub",
+      "dub-techno",
+      "experimental-electronic",
+      "idm"
+    ]
+  },
+  "KNEECAP": {
+    "firstSeen": "2026-04-29",
+    "lastSeen": "2026-05-01",
+    "sources": [
+      "bandcamp-discover"
+    ],
+    "titleHints": [
+      "FENIAN"
+    ],
+    "mentions": 4,
+    "bandcampUrl": "https://kneecap.bandcamp.com/album/fenian",
+    "sourceLinks": {
+      "bandcamp-discover": "https://kneecap.bandcamp.com/album/fenian"
+    },
+    "primaryTitle": "FENIAN",
+    "latestArticleDate": "2026-01-09",
+    "poolTags": [
+      "ambient",
+      "ambient-techno",
+      "deep-house",
+      "downtempo",
+      "dub",
+      "dub-techno",
+      "experimental-electronic",
+      "idm"
+    ]
+  },
+  "Kneecap": {
+    "firstSeen": "2026-04-30",
+    "lastSeen": "2026-05-01",
+    "sources": [
+      "pitchfork_albums"
+    ],
+    "titleHints": [
+      "FENIAN"
+    ],
+    "mentions": 3,
+    "sourceLinks": {
+      "pitchfork_albums": "https://pitchfork.com/reviews/albums/kneecap-fenian/"
+    },
+    "primaryTitle": "FENIAN",
+    "latestArticleDate": "2026-04-30",
+    "poolTags": [
+      "rap",
+      "hip-hop",
+      "irish",
+      "hip hop",
+      "ireland"
+    ]
+  },
+  "Kuru": {
+    "firstSeen": "2026-04-30",
+    "lastSeen": "2026-05-01",
+    "sources": [
+      "pitchfork_albums"
+    ],
+    "titleHints": [
+      "Backstage hologram"
+    ],
+    "mentions": 3,
+    "sourceLinks": {
+      "pitchfork_albums": "https://pitchfork.com/reviews/albums/kuru-backstage-hologram/"
+    },
+    "primaryTitle": "Backstage hologram",
+    "latestArticleDate": "2026-04-30",
+    "poolTags": [
+      "digicore",
+      "brutal death metal",
+      "hyperpop",
+      "trap",
+      "grindcore"
+    ],
+    "appleMusicUrl": "https://music.apple.com/us/album/backstage-hologram/1890530996?uo=4"
+  },
+  "Charbel Harber": {
+    "firstSeen": "2026-04-30",
+    "lastSeen": "2026-05-01",
+    "sources": [
+      "bandcamp_daily"
+    ],
+    "titleHints": [
+      "May a soft sun bless your sky while you wait for the inevitable"
+    ],
+    "mentions": 3,
+    "sourceLinks": {
+      "bandcamp_daily": "https://daily.bandcamp.com/album-of-the-day/charbel-harber-may-a-soft-sun-bless-your-sky-while-you-wait-for-the-inevitable-review"
+    },
+    "primaryTitle": "May a soft sun bless your sky while you wait for the inevitable",
+    "latestArticleDate": "2026-04-29"
+  },
+  "Brutalismus 3000": {
+    "firstSeen": "2026-04-30",
+    "lastSeen": "2026-05-01",
+    "sources": [
+      "stereogum"
+    ],
+    "titleHints": [
+      "Harmony, Share Boys Noize Collab “I Bring My Gun To The Function"
+    ],
+    "mentions": 3,
+    "sourceLinks": {
+      "stereogum": "https://stereogum.com/2497383/brutalismus-3000-announce-new-album-harmony-share-boys-noize-collab-i-bring-my-gun-to-the-function/music/"
+    },
+    "primaryTitle": "Harmony, Share Boys Noize Collab “I Bring My Gun To The Function",
+    "latestArticleDate": "2026-04-29",
+    "poolTags": [
+      "techno",
+      "gabber",
+      "early hardstyle",
+      "hardcore techno",
+      "industrial"
+    ]
+  },
+  "Woodsist Festival": {
+    "firstSeen": "2026-04-30",
+    "lastSeen": "2026-05-01",
+    "sources": [
+      "stereogum"
+    ],
+    "titleHints": [
+      "2026 Lineup With Destroyer, Cate Le Bon, & More"
+    ],
+    "mentions": 3,
+    "sourceLinks": {
+      "stereogum": "https://stereogum.com/2497348/woodsist-festival-announces-2026-lineup-with-destroyer-cate-le-bon-more/news/"
+    },
+    "primaryTitle": "2026 Lineup With Destroyer, Cate Le Bon, & More",
+    "latestArticleDate": "2026-04-29"
+  },
+  "Marc Almond": {
+    "firstSeen": "2026-04-30",
+    "lastSeen": "2026-05-01",
+    "sources": [
+      "bandcamp-discover"
+    ],
+    "titleHints": [
+      "Live At The Bowery Ballroom, New York"
+    ],
+    "mentions": 3,
+    "bandcampUrl": "https://marcalmond.bandcamp.com/album/live-at-the-bowery-ballroom-new-york",
+    "sourceLinks": {
+      "bandcamp-discover": "https://marcalmond.bandcamp.com/album/live-at-the-bowery-ballroom-new-york"
+    },
+    "primaryTitle": "Live At The Bowery Ballroom, New York",
+    "latestArticleDate": "2026-04-29",
+    "poolTags": [
+      "ambient",
+      "ambient-techno",
+      "deep-house",
+      "downtempo",
+      "dub",
+      "dub-techno",
+      "experimental-electronic",
+      "idm"
+    ]
+  },
+  "Stormkeep": {
+    "firstSeen": "2026-04-30",
+    "lastSeen": "2026-05-01",
+    "sources": [
+      "bandcamp-discover"
+    ],
+    "titleHints": [
+      "The Nocturnes Of Iswylm"
+    ],
+    "mentions": 3,
+    "bandcampUrl": "https://stormkeep-odl.bandcamp.com/album/the-nocturnes-of-iswylm-2",
+    "sourceLinks": {
+      "bandcamp-discover": "https://stormkeep-odl.bandcamp.com/album/the-nocturnes-of-iswylm-2"
+    },
+    "primaryTitle": "The Nocturnes Of Iswylm",
+    "latestArticleDate": "2026-04-28",
+    "poolTags": [
+      "ambient",
+      "ambient-techno",
+      "deep-house",
+      "downtempo",
+      "dub",
+      "dub-techno",
+      "experimental-electronic",
+      "idm"
+    ],
+    "appleMusicUrl": "https://music.apple.com/us/album/the-nocturnes-of-iswylm/1894088821?uo=4"
+  },
+  "Hajduk": {
+    "firstSeen": "2026-04-30",
+    "lastSeen": "2026-05-01",
+    "sources": [
+      "bandcamp-discover"
+    ],
+    "titleHints": [
+      "Хвърковата чета"
+    ],
+    "mentions": 3,
+    "bandcampUrl": "https://hajduk.bandcamp.com/album/--6",
+    "sourceLinks": {
+      "bandcamp-discover": "https://hajduk.bandcamp.com/album/--6"
+    },
+    "primaryTitle": "Хвърковата чета",
+    "latestArticleDate": "2026-03-21",
+    "poolTags": [
+      "ambient",
+      "ambient-techno",
+      "deep-house",
+      "downtempo",
+      "dub",
+      "dub-techno",
+      "experimental-electronic",
+      "idm"
+    ]
+  },
+  "Daft Punk": {
+    "firstSeen": "2026-04-30",
+    "lastSeen": "2026-05-01",
+    "sources": [
+      "lastfm-tags"
+    ],
+    "titleHints": [],
+    "mentions": 2,
+    "poolTags": [
+      "electronic",
+      "electronica",
+      "house",
+      "techno"
+    ],
+    "poolTagOverlap": 4,
+    "appleMusicUrl": "https://music.apple.com/us/album/random-access-memories/617154241?uo=4"
+  },
+  "50 Cent": {
+    "firstSeen": "2026-04-30",
+    "lastSeen": "2026-05-01",
+    "sources": [
+      "lastfm-tags"
+    ],
+    "titleHints": [],
+    "mentions": 2,
+    "poolTags": [
+      "hip hop",
+      "hip-hop",
+      "rap"
+    ],
+    "poolTagOverlap": 3,
+    "appleMusicUrl": "https://music.apple.com/us/album/the-massacre/1444007100?uo=4"
+  },
+  "Air": {
+    "firstSeen": "2026-04-30",
+    "lastSeen": "2026-05-01",
+    "sources": [
+      "lastfm-tags"
+    ],
+    "titleHints": [],
+    "mentions": 2,
+    "poolTags": [
+      "ambient",
+      "electronic",
+      "electronica"
+    ],
+    "poolTagOverlap": 3
+  },
+  "Cardi B": {
+    "firstSeen": "2026-04-30",
+    "lastSeen": "2026-05-01",
+    "sources": [
+      "lastfm-tags"
+    ],
+    "titleHints": [],
+    "mentions": 2,
+    "poolTags": [
+      "hip hop",
+      "hip-hop",
+      "rap"
+    ],
+    "poolTagOverlap": 3,
+    "appleMusicUrl": "https://music.apple.com/us/album/wap-feat-megan-thee-stallion-single/1526746983?uo=4"
+  },
+  "Childish Gambino": {
+    "firstSeen": "2026-04-30",
+    "lastSeen": "2026-05-01",
+    "sources": [
+      "lastfm-tags"
+    ],
+    "titleHints": [],
+    "mentions": 2,
+    "poolTags": [
+      "hip hop",
+      "hip-hop",
+      "rap"
+    ],
+    "poolTagOverlap": 3
+  },
+  "Clean Bandit": {
+    "firstSeen": "2026-04-30",
+    "lastSeen": "2026-05-01",
+    "sources": [
+      "lastfm-tags"
+    ],
+    "titleHints": [],
+    "mentions": 2,
+    "poolTags": [
+      "electronic",
+      "electronica",
+      "experimental"
+    ],
+    "poolTagOverlap": 3,
+    "appleMusicUrl": "https://music.apple.com/us/album/solo-feat-demi-lovato-leandro-da-silva-remix-single/1436359216?uo=4"
+  },
+  "Denzel Curry": {
+    "firstSeen": "2026-04-30",
+    "lastSeen": "2026-05-01",
+    "sources": [
+      "lastfm-tags"
+    ],
+    "titleHints": [],
+    "mentions": 2,
+    "poolTags": [
+      "hip hop",
+      "hip-hop",
+      "rap"
+    ],
+    "poolTagOverlap": 3,
+    "appleMusicUrl": "https://music.apple.com/us/album/chill-bill-remix-feat-d-r-a-m-denzel-curry-cousin-stizz-single/1146925543?uo=4"
+  },
+  "DJ Khaled": {
+    "firstSeen": "2026-04-30",
+    "lastSeen": "2026-05-01",
+    "sources": [
+      "lastfm-tags"
+    ],
+    "titleHints": [],
+    "mentions": 2,
+    "poolTags": [
+      "hip hop",
+      "hip-hop",
+      "rap"
+    ],
+    "poolTagOverlap": 3
+  },
+  "Drake": {
+    "firstSeen": "2026-04-30",
+    "lastSeen": "2026-05-01",
+    "sources": [
+      "lastfm-tags"
+    ],
+    "titleHints": [],
+    "mentions": 2,
+    "poolTags": [
+      "hip hop",
+      "hip-hop",
+      "rap"
+    ],
+    "poolTagOverlap": 3
+  },
+  "Eminem": {
+    "firstSeen": "2026-04-30",
+    "lastSeen": "2026-05-01",
+    "sources": [
+      "lastfm-tags"
+    ],
+    "titleHints": [],
+    "mentions": 2,
+    "poolTags": [
+      "hip hop",
+      "hip-hop",
+      "rap"
+    ],
+    "poolTagOverlap": 3
+  },
+  "Flo Rida": {
+    "firstSeen": "2026-04-30",
+    "lastSeen": "2026-05-01",
+    "sources": [
+      "lastfm-tags"
+    ],
+    "titleHints": [],
+    "mentions": 2,
+    "poolTags": [
+      "hip hop",
+      "hip-hop",
+      "rap"
+    ],
+    "poolTagOverlap": 3
+  },
+  "Future": {
+    "firstSeen": "2026-04-30",
+    "lastSeen": "2026-05-01",
+    "sources": [
+      "lastfm-tags"
+    ],
+    "titleHints": [],
+    "mentions": 2,
+    "poolTags": [
+      "hip hop",
+      "hip-hop",
+      "rap"
+    ],
+    "poolTagOverlap": 3
+  },
+  "G-Eazy": {
+    "firstSeen": "2026-04-30",
+    "lastSeen": "2026-05-01",
+    "sources": [
+      "lastfm-tags"
+    ],
+    "titleHints": [],
+    "mentions": 2,
+    "poolTags": [
+      "hip hop",
+      "hip-hop",
+      "rap"
+    ],
+    "poolTagOverlap": 3
+  },
+  "Grimes": {
+    "firstSeen": "2026-04-30",
+    "lastSeen": "2026-05-01",
+    "sources": [
+      "lastfm-tags"
+    ],
+    "titleHints": [],
+    "mentions": 2,
+    "poolTags": [
+      "electronic",
+      "experimental",
+      "psychedelic"
+    ],
+    "poolTagOverlap": 3
+  },
+  "J. Cole": {
+    "firstSeen": "2026-04-30",
+    "lastSeen": "2026-05-01",
+    "sources": [
+      "lastfm-tags"
+    ],
+    "titleHints": [],
+    "mentions": 2,
+    "poolTags": [
+      "hip hop",
+      "hip-hop",
+      "rap"
+    ],
+    "poolTagOverlap": 3
+  },
+  "Jungle": {
+    "firstSeen": "2026-04-30",
+    "lastSeen": "2026-05-01",
+    "sources": [
+      "lastfm-tags"
+    ],
+    "titleHints": [],
+    "mentions": 2,
+    "poolTags": [
+      "electronic",
+      "psychedelic",
+      "techno"
+    ],
+    "poolTagOverlap": 3
+  },
+  "Kanye West": {
+    "firstSeen": "2026-04-30",
+    "lastSeen": "2026-05-01",
+    "sources": [
+      "lastfm-tags"
+    ],
+    "titleHints": [],
+    "mentions": 2,
+    "poolTags": [
+      "hip hop",
+      "hip-hop",
+      "rap"
+    ],
+    "poolTagOverlap": 3
+  },
+  "Kid Cudi": {
+    "firstSeen": "2026-04-30",
+    "lastSeen": "2026-05-01",
+    "sources": [
+      "lastfm-tags"
+    ],
+    "titleHints": [],
+    "mentions": 2,
+    "poolTags": [
+      "hip hop",
+      "hip-hop",
+      "rap"
+    ],
+    "poolTagOverlap": 3
+  },
+  "Lil Baby": {
+    "firstSeen": "2026-04-30",
+    "lastSeen": "2026-05-01",
+    "sources": [
+      "lastfm-tags"
+    ],
+    "titleHints": [],
+    "mentions": 2,
+    "poolTags": [
+      "hip hop",
+      "hip-hop",
+      "rap"
+    ],
+    "poolTagOverlap": 3
+  },
+  "Lil' Wayne": {
+    "firstSeen": "2026-04-30",
+    "lastSeen": "2026-05-01",
+    "sources": [
+      "lastfm-tags"
+    ],
+    "titleHints": [],
+    "mentions": 2,
+    "poolTags": [
+      "hip hop",
+      "hip-hop",
+      "rap"
+    ],
+    "poolTagOverlap": 3
+  },
+  "Lucy": {
+    "firstSeen": "2026-04-30",
+    "lastSeen": "2026-05-01",
+    "sources": [
+      "lastfm-tags"
+    ],
+    "titleHints": [],
+    "mentions": 2,
+    "poolTags": [
+      "idm",
+      "minimal techno",
+      "techno"
+    ],
+    "poolTagOverlap": 3
+  },
+  "Mac Miller": {
+    "firstSeen": "2026-04-30",
+    "lastSeen": "2026-05-01",
+    "sources": [
+      "lastfm-tags"
+    ],
+    "titleHints": [],
+    "mentions": 2,
+    "poolTags": [
+      "hip hop",
+      "hip-hop",
+      "rap"
+    ],
+    "poolTagOverlap": 3
+  },
+  "Moby": {
+    "firstSeen": "2026-04-30",
+    "lastSeen": "2026-05-01",
+    "sources": [
+      "lastfm-tags"
+    ],
+    "titleHints": [],
+    "mentions": 2,
+    "poolTags": [
+      "ambient",
+      "electronic",
+      "electronica"
+    ],
+    "poolTagOverlap": 3
+  },
+  "Pitbull": {
+    "firstSeen": "2026-04-30",
+    "lastSeen": "2026-05-01",
+    "sources": [
+      "lastfm-tags"
+    ],
+    "titleHints": [],
+    "mentions": 2,
+    "poolTags": [
+      "hip hop",
+      "hip-hop",
+      "rap"
+    ],
+    "poolTagOverlap": 3
+  },
+  "Rae Sremmurd": {
+    "firstSeen": "2026-04-30",
+    "lastSeen": "2026-05-01",
+    "sources": [
+      "lastfm-tags"
+    ],
+    "titleHints": [],
+    "mentions": 2,
+    "poolTags": [
+      "hip hop",
+      "hip-hop",
+      "rap"
+    ],
+    "poolTagOverlap": 3
+  },
+  "The Prodigy": {
+    "firstSeen": "2026-04-30",
+    "lastSeen": "2026-05-01",
+    "sources": [
+      "lastfm-tags"
+    ],
+    "titleHints": [],
+    "mentions": 2,
+    "poolTags": [
+      "electronic",
+      "electronica",
+      "techno"
+    ],
+    "poolTagOverlap": 3,
+    "appleMusicUrl": "https://music.apple.com/us/album/nasty-remixes-ep/1895923536?uo=4"
+  },
+  "Tycho": {
+    "firstSeen": "2026-04-30",
+    "lastSeen": "2026-05-01",
+    "sources": [
+      "lastfm-tags"
+    ],
+    "titleHints": [],
+    "mentions": 2,
+    "poolTags": [
+      "ambient",
+      "downtempo",
+      "idm"
+    ],
+    "poolTagOverlap": 3,
+    "appleMusicUrl": "https://music.apple.com/us/album/dive-deluxe-version/1490459058?uo=4"
+  },
+  "¥$": {
+    "firstSeen": "2026-04-30",
+    "lastSeen": "2026-05-01",
+    "sources": [
+      "lastfm-tags"
+    ],
+    "titleHints": [],
+    "mentions": 2,
+    "poolTags": [
+      "hip-hop",
+      "rap"
+    ],
+    "poolTagOverlap": 2,
+    "appleMusicUrl": "https://music.apple.com/us/album/vultures-feat-bump-j-lil-durk-single/1762095248?uo=4"
+  },
+  "21 Savage": {
+    "firstSeen": "2026-04-30",
+    "lastSeen": "2026-05-01",
+    "sources": [
+      "lastfm-tags"
+    ],
+    "titleHints": [],
+    "mentions": 2,
+    "poolTags": [
+      "hip hop",
+      "hip-hop"
+    ],
+    "poolTagOverlap": 2,
+    "appleMusicUrl": "https://music.apple.com/us/album/i-am-i-was/1447452167?uo=4"
+  },
+  "2Pac": {
+    "firstSeen": "2026-04-30",
+    "lastSeen": "2026-05-01",
+    "sources": [
+      "lastfm-tags"
+    ],
+    "titleHints": [],
+    "mentions": 2,
+    "poolTags": [
+      "hip-hop",
+      "rap"
+    ],
+    "poolTagOverlap": 2,
+    "appleMusicUrl": "https://music.apple.com/us/album/all-eyez-on-me/1588492978?uo=4"
+  },
+  "3OH!3": {
+    "firstSeen": "2026-04-30",
+    "lastSeen": "2026-05-01",
+    "sources": [
+      "lastfm-tags"
+    ],
+    "titleHints": [],
+    "mentions": 2,
+    "poolTags": [
+      "electronic",
+      "electronica"
+    ],
+    "poolTagOverlap": 2,
+    "appleMusicUrl": "https://music.apple.com/us/album/3oh-3/643983308?uo=4"
+  },
+  "A Boogie wit da Hoodie": {
+    "firstSeen": "2026-04-30",
+    "lastSeen": "2026-05-01",
+    "sources": [
+      "lastfm-tags"
+    ],
+    "titleHints": [],
+    "mentions": 2,
+    "poolTags": [
+      "hip hop",
+      "rap"
+    ],
+    "poolTagOverlap": 2,
+    "appleMusicUrl": "https://music.apple.com/us/album/somebody-single/1711412420?uo=4"
+  },
+  "A Tribe Called Quest": {
+    "firstSeen": "2026-04-30",
+    "lastSeen": "2026-05-01",
+    "sources": [
+      "lastfm-tags"
+    ],
+    "titleHints": [],
+    "mentions": 2,
+    "poolTags": [
+      "hip hop",
+      "hip-hop"
+    ],
+    "poolTagOverlap": 2,
+    "appleMusicUrl": "https://music.apple.com/us/album/peoples-instinctive-travels-and-the-paths-of/1806751228?uo=4"
+  },
+  "A$AP Rocky": {
+    "firstSeen": "2026-04-30",
+    "lastSeen": "2026-05-01",
+    "sources": [
+      "lastfm-tags"
+    ],
+    "titleHints": [],
+    "mentions": 2,
+    "poolTags": [
+      "hip-hop",
+      "rap"
+    ],
+    "poolTagOverlap": 2
+  },
+  "Accelera Deck": {
+    "firstSeen": "2026-04-30",
+    "lastSeen": "2026-05-01",
+    "sources": [
+      "lastfm-tags"
+    ],
+    "titleHints": [],
+    "mentions": 2,
+    "poolTags": [
+      "glitch",
+      "idm"
+    ],
+    "poolTagOverlap": 2,
+    "appleMusicUrl": "https://music.apple.com/us/album/narcotic-beats/424957738?uo=4"
+  },
+  "Adventure Time": {
+    "firstSeen": "2026-04-30",
+    "lastSeen": "2026-05-01",
+    "sources": [
+      "lastfm-tags"
+    ],
+    "titleHints": [],
+    "mentions": 2,
+    "poolTags": [
+      "downtempo",
+      "experimental"
+    ],
+    "poolTagOverlap": 2
+  },
+  "Alan Fitzpatrick": {
+    "firstSeen": "2026-04-30",
+    "lastSeen": "2026-05-01",
+    "sources": [
+      "lastfm-tags"
+    ],
+    "titleHints": [],
+    "mentions": 2,
+    "poolTags": [
+      "minimal",
+      "techno"
+    ],
+    "poolTagOverlap": 2,
+    "appleMusicUrl": "https://music.apple.com/us/album/we-do-what-we-want-single/1715039089?uo=4"
+  },
+  "Alle Farben": {
+    "firstSeen": "2026-04-30",
+    "lastSeen": "2026-05-01",
+    "sources": [
+      "lastfm-tags"
+    ],
+    "titleHints": [],
+    "mentions": 2,
+    "poolTags": [
+      "minimal",
+      "minimal techno"
+    ],
+    "poolTagOverlap": 2,
+    "appleMusicUrl": "https://music.apple.com/us/album/fading-single/1438664281?uo=4"
+  },
+  "Âme": {
+    "firstSeen": "2026-04-30",
+    "lastSeen": "2026-05-01",
+    "sources": [
+      "lastfm-tags"
+    ],
+    "titleHints": [],
+    "mentions": 2,
+    "poolTags": [
+      "deep house",
+      "minimal"
+    ],
+    "poolTagOverlap": 2
+  },
+  "Anja Schneider": {
+    "firstSeen": "2026-04-30",
+    "lastSeen": "2026-05-01",
+    "sources": [
+      "lastfm-tags"
+    ],
+    "titleHints": [],
+    "mentions": 2,
+    "poolTags": [
+      "minimal",
+      "minimal techno"
+    ],
+    "poolTagOverlap": 2
+  },
+  "Anna": {
+    "firstSeen": "2026-04-30",
+    "lastSeen": "2026-05-01",
+    "sources": [
+      "lastfm-tags"
+    ],
+    "titleHints": [],
+    "mentions": 2,
+    "poolTags": [
+      "minimal",
+      "minimal techno"
+    ],
+    "poolTagOverlap": 2
+  },
+  "Argy": {
+    "firstSeen": "2026-04-30",
+    "lastSeen": "2026-05-01",
+    "sources": [
+      "lastfm-tags"
+    ],
+    "titleHints": [],
+    "mentions": 2,
+    "poolTags": [
+      "minimal",
+      "minimal techno"
+    ],
+    "poolTagOverlap": 2
+  },
+  "Axel Boman": {
+    "firstSeen": "2026-04-30",
+    "lastSeen": "2026-05-01",
+    "sources": [
+      "lastfm-tags"
+    ],
+    "titleHints": [],
+    "mentions": 2,
+    "poolTags": [
+      "deep house",
+      "minimal techno"
+    ],
+    "poolTagOverlap": 2
+  },
+  "B.o.B": {
+    "firstSeen": "2026-04-30",
+    "lastSeen": "2026-05-01",
+    "sources": [
+      "lastfm-tags"
+    ],
+    "titleHints": [],
+    "mentions": 2,
+    "poolTags": [
+      "hip hop",
+      "hip-hop"
+    ],
+    "poolTagOverlap": 2
+  },
+  "Baby Keem": {
+    "firstSeen": "2026-04-30",
+    "lastSeen": "2026-05-01",
+    "sources": [
+      "lastfm-tags"
+    ],
+    "titleHints": [],
+    "mentions": 2,
+    "poolTags": [
+      "hip-hop",
+      "rap"
+    ],
+    "poolTagOverlap": 2
+  },
+  "Barker": {
+    "firstSeen": "2026-04-30",
+    "lastSeen": "2026-05-01",
+    "sources": [
+      "lastfm-tags"
+    ],
+    "titleHints": [],
+    "mentions": 2,
+    "poolTags": [
+      "dub techno",
+      "techno"
+    ],
+    "poolTagOverlap": 2
+  },
+  "bbno$": {
+    "firstSeen": "2026-04-30",
+    "lastSeen": "2026-05-01",
+    "sources": [
+      "lastfm-tags"
+    ],
+    "titleHints": [],
+    "mentions": 2,
+    "poolTags": [
+      "hip hop",
+      "rap"
+    ],
+    "poolTagOverlap": 2
+  },
+  "Bicep": {
+    "firstSeen": "2026-04-30",
+    "lastSeen": "2026-05-01",
+    "sources": [
+      "lastfm-tags"
+    ],
+    "titleHints": [],
+    "mentions": 2,
+    "poolTags": [
+      "house",
+      "techno"
+    ],
+    "poolTagOverlap": 2
+  },
+  "Boris Brejcha": {
+    "firstSeen": "2026-04-30",
+    "lastSeen": "2026-05-01",
+    "sources": [
+      "lastfm-tags"
+    ],
+    "titleHints": [],
+    "mentions": 2,
+    "poolTags": [
+      "minimal",
+      "minimal techno"
+    ],
+    "poolTagOverlap": 2
+  },
+  "Brian Eno": {
+    "firstSeen": "2026-04-30",
+    "lastSeen": "2026-05-01",
+    "sources": [
+      "lastfm-tags"
+    ],
+    "titleHints": [],
+    "mentions": 2,
+    "poolTags": [
+      "ambient",
+      "experimental"
+    ],
+    "poolTagOverlap": 2
+  },
+  "Calvin Harris": {
+    "firstSeen": "2026-04-30",
+    "lastSeen": "2026-05-01",
+    "sources": [
+      "lastfm-tags"
+    ],
+    "titleHints": [],
+    "mentions": 2,
+    "poolTags": [
+      "electronic",
+      "electronica"
+    ],
+    "poolTagOverlap": 2
+  },
+  "Chief Keef": {
+    "firstSeen": "2026-04-30",
+    "lastSeen": "2026-05-01",
+    "sources": [
+      "lastfm-tags"
+    ],
+    "titleHints": [],
+    "mentions": 2,
+    "poolTags": [
+      "hip-hop",
+      "rap"
+    ],
+    "poolTagOverlap": 2
+  },
+  "Crystal Castles": {
+    "firstSeen": "2026-04-30",
+    "lastSeen": "2026-05-01",
+    "sources": [
+      "lastfm-tags"
+    ],
+    "titleHints": [],
+    "mentions": 2,
+    "poolTags": [
+      "electronic",
+      "electronica"
+    ],
+    "poolTagOverlap": 2
+  },
+  "David Guetta": {
+    "firstSeen": "2026-04-30",
+    "lastSeen": "2026-05-01",
+    "sources": [
+      "lastfm-tags"
+    ],
+    "titleHints": [],
+    "mentions": 2,
+    "poolTags": [
+      "house",
+      "techno"
+    ],
+    "poolTagOverlap": 2
+  },
+  "Diplo": {
+    "firstSeen": "2026-04-30",
+    "lastSeen": "2026-05-01",
+    "sources": [
+      "lastfm-tags"
+    ],
+    "titleHints": [],
+    "mentions": 2,
+    "poolTags": [
+      "electronic",
+      "electronica"
+    ],
+    "poolTagOverlap": 2
+  },
+  "Disclosure": {
+    "firstSeen": "2026-04-30",
+    "lastSeen": "2026-05-01",
+    "sources": [
+      "lastfm-tags"
+    ],
+    "titleHints": [],
+    "mentions": 2,
+    "poolTags": [
+      "electronic",
+      "house"
+    ],
+    "poolTagOverlap": 2
+  },
+  "Dominik Eulberg": {
+    "firstSeen": "2026-04-30",
+    "lastSeen": "2026-05-01",
+    "sources": [
+      "lastfm-tags"
+    ],
+    "titleHints": [],
+    "mentions": 2,
+    "poolTags": [
+      "minimal",
+      "minimal techno"
+    ],
+    "poolTagOverlap": 2
+  },
+  "Duke Dumont": {
+    "firstSeen": "2026-04-30",
+    "lastSeen": "2026-05-01",
+    "sources": [
+      "lastfm-tags"
+    ],
+    "titleHints": [],
+    "mentions": 2,
+    "poolTags": [
+      "deep house",
+      "house"
+    ],
+    "poolTagOverlap": 2
+  },
+  "Einmusik": {
+    "firstSeen": "2026-04-30",
+    "lastSeen": "2026-05-01",
+    "sources": [
+      "lastfm-tags"
+    ],
+    "titleHints": [],
+    "mentions": 2,
+    "poolTags": [
+      "minimal",
+      "minimal techno"
+    ],
+    "poolTagOverlap": 2
+  },
+  "Empire of the Sun": {
+    "firstSeen": "2026-04-30",
+    "lastSeen": "2026-05-01",
+    "sources": [
+      "lastfm-tags"
+    ],
+    "titleHints": [],
+    "mentions": 2,
+    "poolTags": [
+      "electronic",
+      "electronica"
+    ],
+    "poolTagOverlap": 2
+  },
+  "Ethel Cain": {
+    "firstSeen": "2026-04-30",
+    "lastSeen": "2026-05-01",
+    "sources": [
+      "lastfm-tags"
+    ],
+    "titleHints": [],
+    "mentions": 2,
+    "poolTags": [
+      "ambient",
+      "drone"
+    ],
+    "poolTagOverlap": 2
+  },
+  "FKA twigs": {
+    "firstSeen": "2026-04-30",
+    "lastSeen": "2026-05-01",
+    "sources": [
+      "lastfm-tags"
+    ],
+    "titleHints": [],
+    "mentions": 2,
+    "poolTags": [
+      "electronic",
+      "experimental"
+    ],
+    "poolTagOverlap": 2
+  },
+  "Fred again..": {
+    "firstSeen": "2026-04-30",
+    "lastSeen": "2026-05-01",
+    "sources": [
+      "lastfm-tags"
+    ],
+    "titleHints": [],
+    "mentions": 2,
+    "poolTags": [
+      "electronic",
+      "house"
+    ],
+    "poolTagOverlap": 2
+  },
+  "Grouper": {
+    "firstSeen": "2026-04-30",
+    "lastSeen": "2026-05-01",
+    "sources": [
+      "lastfm-tags"
+    ],
+    "titleHints": [],
+    "mentions": 2,
+    "poolTags": [
+      "ambient",
+      "drone"
+    ],
+    "poolTagOverlap": 2
+  },
+  "Gui Boratto": {
+    "firstSeen": "2026-04-30",
+    "lastSeen": "2026-05-01",
+    "sources": [
+      "lastfm-tags"
+    ],
+    "titleHints": [],
+    "mentions": 2,
+    "poolTags": [
+      "minimal",
+      "minimal techno"
+    ],
+    "poolTagOverlap": 2
+  },
+  "Gunna": {
+    "firstSeen": "2026-04-30",
+    "lastSeen": "2026-05-01",
+    "sources": [
+      "lastfm-tags"
+    ],
+    "titleHints": [],
+    "mentions": 2,
+    "poolTags": [
+      "hip hop",
+      "rap"
+    ],
+    "poolTagOverlap": 2
+  },
+  "Joey Bada$$": {
+    "firstSeen": "2026-04-30",
+    "lastSeen": "2026-05-01",
+    "sources": [
+      "lastfm-tags"
+    ],
+    "titleHints": [],
+    "mentions": 2,
+    "poolTags": [
+      "hip hop",
+      "hip-hop"
+    ],
+    "poolTagOverlap": 2
+  },
+  "John Tejada": {
+    "firstSeen": "2026-04-30",
+    "lastSeen": "2026-05-01",
+    "sources": [
+      "lastfm-tags"
+    ],
+    "titleHints": [],
+    "mentions": 2,
+    "poolTags": [
+      "minimal",
+      "minimal techno"
+    ],
+    "poolTagOverlap": 2
+  },
+  "Justice": {
+    "firstSeen": "2026-04-30",
+    "lastSeen": "2026-05-01",
+    "sources": [
+      "lastfm-tags"
+    ],
+    "titleHints": [],
+    "mentions": 2,
+    "poolTags": [
+      "electronic",
+      "electronica"
+    ],
+    "poolTagOverlap": 2
+  },
+  "KAYTRANADA": {
+    "firstSeen": "2026-04-30",
+    "lastSeen": "2026-05-01",
+    "sources": [
+      "lastfm-tags"
+    ],
+    "titleHints": [],
+    "mentions": 2,
+    "poolTags": [
+      "electronic",
+      "experimental"
+    ],
+    "poolTagOverlap": 2
+  },
+  "Kerri Chandler": {
+    "firstSeen": "2026-04-30",
+    "lastSeen": "2026-05-01",
+    "sources": [
+      "lastfm-tags"
+    ],
+    "titleHints": [],
+    "mentions": 2,
+    "poolTags": [
+      "deep house",
+      "house"
+    ],
+    "poolTagOverlap": 2
+  },
+  "Kiki": {
+    "firstSeen": "2026-04-30",
+    "lastSeen": "2026-05-01",
+    "sources": [
+      "lastfm-tags"
+    ],
+    "titleHints": [],
+    "mentions": 2,
+    "poolTags": [
+      "minimal",
+      "minimal techno"
+    ],
+    "poolTagOverlap": 2
+  },
+  "kiyo": {
+    "firstSeen": "2026-04-30",
+    "lastSeen": "2026-05-01",
+    "sources": [
+      "lastfm-tags"
+    ],
+    "titleHints": [],
+    "mentions": 2,
+    "poolTags": [
+      "glitch",
+      "idm"
+    ],
+    "poolTagOverlap": 2
+  },
+  "Kodak Black": {
+    "firstSeen": "2026-04-30",
+    "lastSeen": "2026-05-01",
+    "sources": [
+      "lastfm-tags"
+    ],
+    "titleHints": [],
+    "mentions": 2,
+    "poolTags": [
+      "hip hop",
+      "rap"
+    ],
+    "poolTagOverlap": 2
+  },
+  "Kollektiv Turmstrasse": {
+    "firstSeen": "2026-04-30",
+    "lastSeen": "2026-05-01",
+    "sources": [
+      "lastfm-tags"
+    ],
+    "titleHints": [],
+    "mentions": 2,
+    "poolTags": [
+      "minimal",
+      "minimal techno"
+    ],
+    "poolTagOverlap": 2
+  },
+  "Kygo": {
+    "firstSeen": "2026-04-30",
+    "lastSeen": "2026-05-01",
+    "sources": [
+      "lastfm-tags"
+    ],
+    "titleHints": [],
+    "mentions": 2,
+    "poolTags": [
+      "downtempo",
+      "house"
+    ],
+    "poolTagOverlap": 2
+  },
+  "Lawrence": {
+    "firstSeen": "2026-04-30",
+    "lastSeen": "2026-05-01",
+    "sources": [
+      "lastfm-tags"
+    ],
+    "titleHints": [],
+    "mentions": 2,
+    "poolTags": [
+      "minimal",
+      "minimal techno"
+    ],
+    "poolTagOverlap": 2
+  },
+  "LCD Soundsystem": {
+    "firstSeen": "2026-04-30",
+    "lastSeen": "2026-05-01",
+    "sources": [
+      "lastfm-tags"
+    ],
+    "titleHints": [],
+    "mentions": 2,
+    "poolTags": [
+      "electronic",
+      "electronica"
+    ],
+    "poolTagOverlap": 2
+  },
+  "Lemâitre": {
+    "firstSeen": "2026-04-30",
+    "lastSeen": "2026-05-01",
+    "sources": [
+      "lastfm-tags"
+    ],
+    "titleHints": [],
+    "mentions": 2,
+    "poolTags": [
+      "electronica",
+      "glitch"
+    ],
+    "poolTagOverlap": 2
+  },
+  "Lil Tecca": {
+    "firstSeen": "2026-04-30",
+    "lastSeen": "2026-05-01",
+    "sources": [
+      "lastfm-tags"
+    ],
+    "titleHints": [],
+    "mentions": 2,
+    "poolTags": [
+      "hip-hop",
+      "rap"
+    ],
+    "poolTagOverlap": 2
+  },
+  "Lil Yachty": {
+    "firstSeen": "2026-04-30",
+    "lastSeen": "2026-05-01",
+    "sources": [
+      "lastfm-tags"
+    ],
+    "titleHints": [],
+    "mentions": 2,
+    "poolTags": [
+      "hip hop",
+      "rap"
+    ],
+    "poolTagOverlap": 2
+  },
+  "M.A.N.D.Y.": {
+    "firstSeen": "2026-04-30",
+    "lastSeen": "2026-05-01",
+    "sources": [
+      "lastfm-tags"
+    ],
+    "titleHints": [],
+    "mentions": 2,
+    "poolTags": [
+      "minimal",
+      "minimal techno"
+    ],
+    "poolTagOverlap": 2
+  },
+  "M83": {
+    "firstSeen": "2026-04-30",
+    "lastSeen": "2026-05-01",
+    "sources": [
+      "lastfm-tags"
+    ],
+    "titleHints": [],
+    "mentions": 2,
+    "poolTags": [
+      "electronic",
+      "electronica"
+    ],
+    "poolTagOverlap": 2
+  },
+  "Machinedrum": {
+    "firstSeen": "2026-04-30",
+    "lastSeen": "2026-05-01",
+    "sources": [
+      "lastfm-tags"
+    ],
+    "titleHints": [],
+    "mentions": 2,
+    "poolTags": [
+      "glitch",
+      "idm"
+    ],
+    "poolTagOverlap": 2
+  },
+  "Major Lazer": {
+    "firstSeen": "2026-04-30",
+    "lastSeen": "2026-05-01",
+    "sources": [
+      "lastfm-tags"
+    ],
+    "titleHints": [],
+    "mentions": 2,
+    "poolTags": [
+      "dub",
+      "electronic"
+    ],
+    "poolTagOverlap": 2
+  },
+  "Mall Grab": {
+    "firstSeen": "2026-04-30",
+    "lastSeen": "2026-05-01",
+    "sources": [
+      "lastfm-tags"
+    ],
+    "titleHints": [],
+    "mentions": 2,
+    "poolTags": [
+      "deep house",
+      "techno"
+    ],
+    "poolTagOverlap": 2
+  },
+  "MGMT": {
+    "firstSeen": "2026-04-30",
+    "lastSeen": "2026-05-01",
+    "sources": [
+      "lastfm-tags"
+    ],
+    "titleHints": [],
+    "mentions": 2,
+    "poolTags": [
+      "electronic",
+      "psychedelic"
+    ],
+    "poolTagOverlap": 2
+  },
+  "Moderat": {
+    "firstSeen": "2026-04-30",
+    "lastSeen": "2026-05-01",
+    "sources": [
+      "lastfm-tags"
+    ],
+    "titleHints": [],
+    "mentions": 2,
+    "poolTags": [
+      "glitch",
+      "idm"
+    ],
+    "poolTagOverlap": 2
+  },
+  "Nas": {
+    "firstSeen": "2026-04-30",
+    "lastSeen": "2026-05-01",
+    "sources": [
+      "lastfm-tags"
+    ],
+    "titleHints": [],
+    "mentions": 2,
+    "poolTags": [
+      "hip hop",
+      "hip-hop"
+    ],
+    "poolTagOverlap": 2
+  },
+  "Nicki Minaj": {
+    "firstSeen": "2026-04-30",
+    "lastSeen": "2026-05-01",
+    "sources": [
+      "lastfm-tags"
+    ],
+    "titleHints": [],
+    "mentions": 2,
+    "poolTags": [
+      "hip-hop",
+      "rap"
+    ],
+    "poolTagOverlap": 2
+  },
+  "Oliver Koletzki": {
+    "firstSeen": "2026-04-30",
+    "lastSeen": "2026-05-01",
+    "sources": [
+      "lastfm-tags"
+    ],
+    "titleHints": [],
+    "mentions": 2,
+    "poolTags": [
+      "minimal",
+      "minimal techno"
+    ],
+    "poolTagOverlap": 2
+  },
+  "Orbital": {
+    "firstSeen": "2026-04-30",
+    "lastSeen": "2026-05-01",
+    "sources": [
+      "lastfm-tags"
+    ],
+    "titleHints": [],
+    "mentions": 2,
+    "poolTags": [
+      "idm",
+      "techno"
+    ],
+    "poolTagOverlap": 2
+  },
+  "Peggy Gou": {
+    "firstSeen": "2026-04-30",
+    "lastSeen": "2026-05-01",
+    "sources": [
+      "lastfm-tags"
+    ],
+    "titleHints": [],
+    "mentions": 2,
+    "poolTags": [
+      "house",
+      "techno"
+    ],
+    "poolTagOverlap": 2
+  },
+  "Phantogram": {
+    "firstSeen": "2026-04-30",
+    "lastSeen": "2026-05-01",
+    "sources": [
+      "lastfm-tags"
+    ],
+    "titleHints": [],
+    "mentions": 2,
+    "poolTags": [
+      "electronic",
+      "experimental"
+    ],
+    "poolTagOverlap": 2
+  },
+  "Porter Ricks": {
+    "firstSeen": "2026-04-30",
+    "lastSeen": "2026-05-01",
+    "sources": [
+      "lastfm-tags"
+    ],
+    "titleHints": [],
+    "mentions": 2,
+    "poolTags": [
+      "dub techno",
+      "minimal techno"
+    ],
+    "poolTagOverlap": 2
+  },
+  "Post Malone": {
+    "firstSeen": "2026-04-30",
+    "lastSeen": "2026-05-01",
+    "sources": [
+      "lastfm-tags"
+    ],
+    "titleHints": [],
+    "mentions": 2,
+    "poolTags": [
+      "hip-hop",
+      "rap"
+    ],
+    "poolTagOverlap": 2
+  },
+  "Purple Disco Machine": {
+    "firstSeen": "2026-04-30",
+    "lastSeen": "2026-05-01",
+    "sources": [
+      "lastfm-tags"
+    ],
+    "titleHints": [],
+    "mentions": 2,
+    "poolTags": [
+      "deep house",
+      "house"
+    ],
+    "poolTagOverlap": 2
+  },
+  "Rodriguez Jr.": {
+    "firstSeen": "2026-04-30",
+    "lastSeen": "2026-05-01",
+    "sources": [
+      "lastfm-tags"
+    ],
+    "titleHints": [],
+    "mentions": 2,
+    "poolTags": [
+      "minimal",
+      "minimal techno"
+    ],
+    "poolTagOverlap": 2
+  },
+  "Rone": {
+    "firstSeen": "2026-04-30",
+    "lastSeen": "2026-05-01",
+    "sources": [
+      "lastfm-tags"
+    ],
+    "titleHints": [],
+    "mentions": 2,
+    "poolTags": [
+      "minimal",
+      "minimal techno"
+    ],
+    "poolTagOverlap": 2
+  },
+  "Route 94": {
+    "firstSeen": "2026-04-30",
+    "lastSeen": "2026-05-01",
+    "sources": [
+      "lastfm-tags"
+    ],
+    "titleHints": [],
+    "mentions": 2,
+    "poolTags": [
+      "deep house",
+      "house"
+    ],
+    "poolTagOverlap": 2
+  },
+  "Sara Landry": {
+    "firstSeen": "2026-04-30",
+    "lastSeen": "2026-05-01",
+    "sources": [
+      "lastfm-tags"
+    ],
+    "titleHints": [],
+    "mentions": 2,
+    "poolTags": [
+      "minimal techno",
+      "techno"
+    ],
+    "poolTagOverlap": 2
+  },
+  "Seekae": {
+    "firstSeen": "2026-04-30",
+    "lastSeen": "2026-05-01",
+    "sources": [
+      "lastfm-tags"
+    ],
+    "titleHints": [],
+    "mentions": 2,
+    "poolTags": [
+      "electronica",
+      "glitch"
+    ],
+    "poolTagOverlap": 2
+  },
+  "Shed": {
+    "firstSeen": "2026-04-30",
+    "lastSeen": "2026-05-01",
+    "sources": [
+      "lastfm-tags"
+    ],
+    "titleHints": [],
+    "mentions": 2,
+    "poolTags": [
+      "dub techno",
+      "minimal techno"
+    ],
+    "poolTagOverlap": 2
+  },
+  "Skrillex": {
+    "firstSeen": "2026-04-30",
+    "lastSeen": "2026-05-01",
+    "sources": [
+      "lastfm-tags"
+    ],
+    "titleHints": [],
+    "mentions": 2,
+    "poolTags": [
+      "dubstep",
+      "electronica"
+    ],
+    "poolTagOverlap": 2
+  },
+  "Snoop Dogg": {
+    "firstSeen": "2026-04-30",
+    "lastSeen": "2026-05-01",
+    "sources": [
+      "lastfm-tags"
+    ],
+    "titleHints": [],
+    "mentions": 2,
+    "poolTags": [
+      "hip-hop",
+      "rap"
+    ],
+    "poolTagOverlap": 2
+  },
+  "Solomun": {
+    "firstSeen": "2026-04-30",
+    "lastSeen": "2026-05-01",
+    "sources": [
+      "lastfm-tags"
+    ],
+    "titleHints": [],
+    "mentions": 2,
+    "poolTags": [
+      "deep house",
+      "minimal"
+    ],
+    "poolTagOverlap": 2
+  },
+  "Stromae": {
+    "firstSeen": "2026-04-30",
+    "lastSeen": "2026-05-01",
+    "sources": [
+      "lastfm-tags"
+    ],
+    "titleHints": [],
+    "mentions": 2,
+    "poolTags": [
+      "electronic",
+      "electronica"
+    ],
+    "poolTagOverlap": 2
+  },
+  "Swedish House Mafia": {
+    "firstSeen": "2026-04-30",
+    "lastSeen": "2026-05-01",
+    "sources": [
+      "lastfm-tags"
+    ],
+    "titleHints": [],
+    "mentions": 2,
+    "poolTags": [
+      "electronic",
+      "house"
+    ],
+    "poolTagOverlap": 2
+  },
+  "Sweet Trip": {
+    "firstSeen": "2026-04-30",
+    "lastSeen": "2026-05-01",
+    "sources": [
+      "lastfm-tags"
+    ],
+    "titleHints": [],
+    "mentions": 2,
+    "poolTags": [
+      "glitch",
+      "idm"
+    ],
+    "poolTagOverlap": 2
+  },
+  "The Chainsmokers": {
+    "firstSeen": "2026-04-30",
+    "lastSeen": "2026-05-01",
+    "sources": [
+      "lastfm-tags"
+    ],
+    "titleHints": [],
+    "mentions": 2,
+    "poolTags": [
+      "electronic",
+      "house"
+    ],
+    "poolTagOverlap": 2
+  },
+  "The Kid LAROI": {
+    "firstSeen": "2026-04-30",
+    "lastSeen": "2026-05-01",
+    "sources": [
+      "lastfm-tags"
+    ],
+    "titleHints": [],
+    "mentions": 2,
+    "poolTags": [
+      "hip-hop",
+      "rap"
+    ],
+    "poolTagOverlap": 2
+  },
+  "The Living Tombstone": {
+    "firstSeen": "2026-04-30",
+    "lastSeen": "2026-05-01",
+    "sources": [
+      "lastfm-tags"
+    ],
+    "titleHints": [],
+    "mentions": 2,
+    "poolTags": [
+      "dubstep",
+      "electronic"
+    ],
+    "poolTagOverlap": 2
+  },
+  "The Notorious B.I.G.": {
+    "firstSeen": "2026-04-30",
+    "lastSeen": "2026-05-01",
+    "sources": [
+      "lastfm-tags"
+    ],
+    "titleHints": [],
+    "mentions": 2,
+    "poolTags": [
+      "hip-hop",
+      "rap"
+    ],
+    "poolTagOverlap": 2
+  },
+  "The Weeknd": {
+    "firstSeen": "2026-04-30",
+    "lastSeen": "2026-05-01",
+    "sources": [
+      "lastfm-tags"
+    ],
+    "titleHints": [],
+    "mentions": 2,
+    "poolTags": [
+      "dubstep",
+      "electronic"
+    ],
+    "poolTagOverlap": 2
+  },
+  "Tiësto": {
+    "firstSeen": "2026-04-30",
+    "lastSeen": "2026-05-01",
+    "sources": [
+      "lastfm-tags"
+    ],
+    "titleHints": [],
+    "mentions": 2,
+    "poolTags": [
+      "electronica",
+      "techno"
+    ],
+    "poolTagOverlap": 2
+  },
+  "Travi$ Scott": {
+    "firstSeen": "2026-04-30",
+    "lastSeen": "2026-05-01",
+    "sources": [
+      "lastfm-tags"
+    ],
+    "titleHints": [],
+    "mentions": 2,
+    "poolTags": [
+      "hip-hop",
+      "rap"
+    ],
+    "poolTagOverlap": 2
+  },
+  "Tyler, The Creator": {
+    "firstSeen": "2026-04-30",
+    "lastSeen": "2026-05-01",
+    "sources": [
+      "lastfm-tags"
+    ],
+    "titleHints": [],
+    "mentions": 2,
+    "poolTags": [
+      "hip-hop",
+      "rap"
+    ],
+    "poolTagOverlap": 2
+  },
+  "Underworld": {
+    "firstSeen": "2026-04-30",
+    "lastSeen": "2026-05-01",
+    "sources": [
+      "lastfm-tags"
+    ],
+    "titleHints": [],
+    "mentions": 2,
+    "poolTags": [
+      "electronica",
+      "techno"
+    ],
+    "poolTagOverlap": 2
+  },
+  "VAX": {
+    "firstSeen": "2026-04-30",
+    "lastSeen": "2026-05-01",
+    "sources": [
+      "lastfm-tags"
+    ],
+    "titleHints": [],
+    "mentions": 2,
+    "poolTags": [
+      "dubstep",
+      "idm"
+    ],
+    "poolTagOverlap": 2
+  },
+  "Wisp": {
+    "firstSeen": "2026-04-30",
+    "lastSeen": "2026-05-01",
+    "sources": [
+      "lastfm-tags"
+    ],
+    "titleHints": [],
+    "mentions": 2,
+    "poolTags": [
+      "ambient",
+      "idm"
+    ],
+    "poolTagOverlap": 2
+  },
+  "Wiz Khalifa": {
+    "firstSeen": "2026-04-30",
+    "lastSeen": "2026-05-01",
+    "sources": [
+      "lastfm-tags"
+    ],
+    "titleHints": [],
+    "mentions": 2,
+    "poolTags": [
+      "hip-hop",
+      "rap"
+    ],
+    "poolTagOverlap": 2
+  },
+  "Worakls": {
+    "firstSeen": "2026-04-30",
+    "lastSeen": "2026-05-01",
+    "sources": [
+      "lastfm-tags"
+    ],
+    "titleHints": [],
+    "mentions": 2,
+    "poolTags": [
+      "minimal",
+      "minimal techno"
+    ],
+    "poolTagOverlap": 2
+  },
+  "XXXTENTACION": {
+    "firstSeen": "2026-04-30",
+    "lastSeen": "2026-05-01",
+    "sources": [
+      "lastfm-tags"
+    ],
+    "titleHints": [],
+    "mentions": 2,
+    "poolTags": [
+      "hip-hop",
+      "rap"
+    ],
+    "poolTagOverlap": 2
+  },
+  "Youandewan": {
+    "firstSeen": "2026-04-30",
+    "lastSeen": "2026-05-01",
+    "sources": [
+      "lastfm-tags"
+    ],
+    "titleHints": [],
+    "mentions": 2,
+    "poolTags": [
+      "deep house",
+      "minimal"
+    ],
+    "poolTagOverlap": 2
+  },
+  "Zedd": {
+    "firstSeen": "2026-04-30",
+    "lastSeen": "2026-05-01",
+    "sources": [
+      "lastfm-tags"
+    ],
+    "titleHints": [],
+    "mentions": 2,
+    "poolTags": [
+      "electronic",
+      "house"
+    ],
+    "poolTagOverlap": 2
+  },
+  "ZHU": {
+    "firstSeen": "2026-04-30",
+    "lastSeen": "2026-05-01",
+    "sources": [
+      "lastfm-tags"
+    ],
+    "titleHints": [],
+    "mentions": 2,
+    "poolTags": [
+      "deep house",
+      "house"
+    ],
+    "poolTagOverlap": 2
+  },
+  "Knats": {
+    "firstSeen": "2026-05-01",
+    "lastSeen": "2026-05-01",
+    "sources": [
+      "pitchfork_albums"
+    ],
+    "titleHints": [
+      "A Great Day in Newcastle"
+    ],
+    "mentions": 1,
+    "sourceLinks": {
+      "pitchfork_albums": "https://pitchfork.com/reviews/albums/knats-a-great-day-in-newcastle/"
+    },
+    "primaryTitle": "A Great Day in Newcastle",
+    "latestArticleDate": "2026-05-01",
+    "poolTags": [
+      "jazz",
+      "experimental",
+      "avant-jazz",
+      "jazz fusion",
+      "avant-garde jazz"
+    ]
+  },
+  "Gobby": {
+    "firstSeen": "2026-05-01",
+    "lastSeen": "2026-05-01",
+    "sources": [
+      "pitchfork_albums"
+    ],
+    "titleHints": [
+      "i guess bro"
+    ],
+    "mentions": 1,
+    "sourceLinks": {
+      "pitchfork_albums": "https://pitchfork.com/reviews/albums/gobby-i-guess-bro/"
+    },
+    "primaryTitle": "i guess bro",
+    "latestArticleDate": "2026-05-01",
+    "poolTags": [
+      "experimental",
+      "electronic",
+      "outsider house",
+      "techno",
+      "psychedelic"
+    ]
+  },
+  "Pure Wrath": {
+    "firstSeen": "2026-05-01",
+    "lastSeen": "2026-05-01",
+    "sources": [
+      "bandcamp_daily"
+    ],
+    "titleHints": [
+      "Bleak Days Ahead"
+    ],
+    "mentions": 1,
+    "sourceLinks": {
+      "bandcamp_daily": "https://daily.bandcamp.com/album-of-the-day/pure-wrath-bleak-days-ahead-review"
+    },
+    "primaryTitle": "Bleak Days Ahead",
+    "latestArticleDate": "2026-04-30",
+    "poolTags": [
+      "black metal",
+      "atmospheric black metal",
+      "indonesian",
+      "indonesia",
+      "indonesian black metal"
+    ]
+  },
+  "HEALTH": {
+    "firstSeen": "2026-05-01",
+    "lastSeen": "2026-05-01",
+    "sources": [
+      "bandcamp-discover"
+    ],
+    "titleHints": [
+      "ADDENDUM EP"
+    ],
+    "mentions": 1,
+    "bandcampUrl": "https://youwillloveeachother.bandcamp.com/album/addendum-ep",
+    "sourceLinks": {
+      "bandcamp-discover": "https://youwillloveeachother.bandcamp.com/album/addendum-ep"
+    },
+    "primaryTitle": "ADDENDUM EP",
+    "latestArticleDate": "2026-04-30",
+    "poolTags": [
+      "ambient",
+      "deep house",
+      "downtempo",
+      "drone",
+      "dub",
+      "dub techno",
+      "dubstep",
+      "electronic"
+    ]
+  },
+  "WEEDIAN": {
+    "firstSeen": "2026-05-01",
+    "lastSeen": "2026-05-01",
+    "sources": [
+      "bandcamp-discover"
+    ],
+    "titleHints": [
+      "The Best Releases of April 2026"
+    ],
+    "mentions": 1,
+    "bandcampUrl": "https://weedian420.bandcamp.com/album/the-best-releases-of-april-2026",
+    "sourceLinks": {
+      "bandcamp-discover": "https://weedian420.bandcamp.com/album/the-best-releases-of-april-2026"
+    },
+    "primaryTitle": "The Best Releases of April 2026",
+    "latestArticleDate": "2026-04-30",
+    "poolTags": [
+      "ambient",
+      "deep house",
+      "downtempo",
+      "drone",
+      "dub",
+      "dub techno",
+      "dubstep",
+      "electronic"
+    ]
+  },
+  "see/saw": {
+    "firstSeen": "2026-05-01",
+    "lastSeen": "2026-05-01",
+    "sources": [
+      "bandcamp-discover"
+    ],
+    "titleHints": [
+      "teeter/totter: a see/saw benefit"
+    ],
+    "mentions": 1,
+    "bandcampUrl": "https://see-sawdotfun.bandcamp.com/album/teeter-totter-a-see-saw-benefit",
+    "sourceLinks": {
+      "bandcamp-discover": "https://see-sawdotfun.bandcamp.com/album/teeter-totter-a-see-saw-benefit"
+    },
+    "primaryTitle": "teeter/totter: a see/saw benefit",
+    "latestArticleDate": "2026-04-25",
+    "poolTags": [
+      "ambient",
+      "deep house",
+      "downtempo",
+      "drone",
+      "dub",
+      "dub techno",
+      "dubstep",
+      "electronic"
+    ]
+  },
+  "The Creem": {
+    "firstSeen": "2026-05-01",
+    "lastSeen": "2026-05-01",
+    "sources": [
+      "bandcamp-discover"
+    ],
+    "titleHints": [
+      "A Taste Of Cherry"
+    ],
+    "mentions": 1,
+    "bandcampUrl": "https://thecreem.bandcamp.com/album/a-taste-of-cherry",
+    "sourceLinks": {
+      "bandcamp-discover": "https://thecreem.bandcamp.com/album/a-taste-of-cherry"
+    },
+    "primaryTitle": "A Taste Of Cherry",
+    "latestArticleDate": "2026-04-23",
+    "poolTags": [
+      "ambient",
+      "deep house",
+      "downtempo",
+      "drone",
+      "dub",
+      "dub techno",
+      "dubstep",
+      "electronic"
+    ]
+  },
+  "Nu Genea": {
+    "firstSeen": "2026-05-01",
+    "lastSeen": "2026-05-01",
+    "sources": [
+      "bandcamp-discover"
+    ],
+    "titleHints": [
+      "People of the Moon"
+    ],
+    "mentions": 1,
+    "bandcampUrl": "https://nugenea.bandcamp.com/album/people-of-the-moon",
+    "sourceLinks": {
+      "bandcamp-discover": "https://nugenea.bandcamp.com/album/people-of-the-moon"
+    },
+    "primaryTitle": "People of the Moon",
+    "latestArticleDate": "2026-04-22",
+    "poolTags": [
+      "ambient",
+      "deep house",
+      "downtempo",
+      "drone",
+      "dub",
+      "dub techno",
+      "dubstep",
+      "electronic"
+    ]
+  },
+  "Younger Brother": {
+    "firstSeen": "2026-05-01",
+    "lastSeen": "2026-05-01",
+    "sources": [
+      "bandcamp-discover"
+    ],
+    "titleHints": [
+      "Mutually Assured Distraction"
+    ],
+    "mentions": 1,
+    "bandcampUrl": "https://youngerbrothermusic.bandcamp.com/album/mutually-assured-distraction",
+    "sourceLinks": {
+      "bandcamp-discover": "https://youngerbrothermusic.bandcamp.com/album/mutually-assured-distraction"
+    },
+    "primaryTitle": "Mutually Assured Distraction",
+    "latestArticleDate": "2026-04-06",
+    "poolTags": [
+      "ambient",
+      "deep house",
+      "downtempo",
+      "drone",
+      "dub",
+      "dub techno",
+      "dubstep",
+      "electronic"
+    ]
+  },
+  "Outer Worlds Jazz Ensemble": {
+    "firstSeen": "2026-05-01",
+    "lastSeen": "2026-05-01",
+    "sources": [
+      "bandcamp-discover"
+    ],
+    "titleHints": [
+      "The Kármán Line"
+    ],
+    "mentions": 1,
+    "bandcampUrl": "https://outerworldsjazzensemble.bandcamp.com/album/the-k-rm-n-line",
+    "sourceLinks": {
+      "bandcamp-discover": "https://outerworldsjazzensemble.bandcamp.com/album/the-k-rm-n-line"
+    },
+    "primaryTitle": "The Kármán Line",
+    "latestArticleDate": "2026-03-20",
+    "poolTags": [
+      "ambient",
+      "deep house",
+      "downtempo",
+      "drone",
+      "dub",
+      "dub techno",
+      "dubstep",
+      "electronic"
+    ]
+  },
+  "Black Nile": {
+    "firstSeen": "2026-04-28",
+    "lastSeen": "2026-04-30",
+    "sources": [
+      "pitchfork_albums"
+    ],
+    "titleHints": [
+      "Indigo Garden"
+    ],
+    "mentions": 6,
+    "sourceLinks": {
+      "pitchfork_albums": "https://pitchfork.com/reviews/albums/black-nile-indigo-garden/"
+    },
+    "primaryTitle": "Indigo Garden",
+    "latestArticleDate": "2026-04-22",
+    "appleMusicUrl": "https://music.apple.com/us/album/indigo-garden/1872187292?uo=4",
+    "poolTags": [
+      "try",
+      "jazz",
+      "funk_add_to_lidarr_batch_4",
+      "jazztronica"
+    ]
+  },
+  "National Photo Committee": {
+    "firstSeen": "2026-04-28",
+    "lastSeen": "2026-04-30",
+    "sources": [
+      "pitchfork_albums"
+    ],
+    "titleHints": [
+      "Red Hot Photo Committee"
+    ],
+    "mentions": 6,
+    "sourceLinks": {
+      "pitchfork_albums": "https://pitchfork.com/reviews/albums/national-photo-committee-red-hot-photo-committee/"
+    },
+    "primaryTitle": "Red Hot Photo Committee",
+    "latestArticleDate": "2026-04-22",
+    "appleMusicUrl": "https://music.apple.com/us/album/red-hot-photo-committee/1886821420?uo=4"
+  },
+  "Bali Gamelan Sound": {
+    "firstSeen": "2026-04-28",
+    "lastSeen": "2026-04-30",
+    "sources": [
+      "quietus"
+    ],
+    "titleHints": [
+      "Topeng Semar Pegulingan"
+    ],
+    "mentions": 5,
+    "sourceLinks": {
+      "quietus": "https://thequietus.com/quietus-reviews/bali-gamelan-sound-topeng-semar-pegulingan-review/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=bali-gamelan-sound-topeng-semar-pegulingan-review"
+    },
+    "primaryTitle": "Topeng Semar Pegulingan",
+    "latestArticleDate": "2026-04-23",
+    "poolTags": [
+      "indonesia",
+      "gamelan"
+    ]
+  },
+  "Tanya Donelly and Chris Brokaw": {
+    "firstSeen": "2026-04-28",
+    "lastSeen": "2026-04-30",
+    "sources": [
+      "quietus"
+    ],
+    "titleHints": [
+      "The Undone Is Done Again"
+    ],
+    "mentions": 5,
+    "sourceLinks": {
+      "quietus": "https://thequietus.com/quietus-reviews/tanya-donelly-and-chris-brokaw-the-undone-is-done-again-review/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=tanya-donelly-and-chris-brokaw-the-undone-is-done-again-review"
+    },
+    "primaryTitle": "The Undone Is Done Again",
+    "latestArticleDate": "2026-04-22",
+    "appleMusicUrl": "https://music.apple.com/us/album/the-undone-is-done-again-ep/1871165950?uo=4"
+  },
+  "USAO": {
+    "firstSeen": "2026-04-28",
+    "lastSeen": "2026-04-30",
+    "sources": [
+      "bandcamp-discover"
+    ],
+    "titleHints": [
+      "SUPERNOVA",
+      "SUPERNOVA — https://usao.bandcamp.com/album/supernova"
+    ],
+    "mentions": 5,
+    "poolTags": [
+      "ambient",
+      "ambient-techno",
+      "deep-house",
+      "downtempo",
+      "dub",
+      "dub-techno",
+      "experimental-electronic",
+      "idm"
+    ],
+    "bandcampUrl": "https://usao.bandcamp.com/album/supernova",
+    "sourceLinks": {
+      "bandcamp-discover": "https://usao.bandcamp.com/album/supernova"
+    },
+    "primaryTitle": "SUPERNOVA",
+    "latestArticleDate": "2026-04-27",
+    "appleMusicUrl": "https://music.apple.com/us/album/supernova/1894473792?uo=4"
+  },
+  "FM-84": {
+    "firstSeen": "2026-04-28",
+    "lastSeen": "2026-04-30",
+    "sources": [
+      "bandcamp-discover"
+    ],
+    "titleHints": [
+      "Radio",
+      "Radio — https://fm84.bandcamp.com/album/radio"
+    ],
+    "mentions": 5,
+    "poolTags": [
+      "ambient",
+      "ambient-techno",
+      "deep-house",
+      "downtempo",
+      "dub",
+      "dub-techno",
+      "experimental-electronic",
+      "idm"
+    ],
+    "bandcampUrl": "https://fm84.bandcamp.com/album/radio",
+    "sourceLinks": {
+      "bandcamp-discover": "https://fm84.bandcamp.com/album/radio"
+    },
+    "primaryTitle": "Radio",
+    "latestArticleDate": "2026-04-25",
+    "appleMusicUrl": "https://music.apple.com/us/album/radio-single/1895417168?uo=4"
+  },
+  "The Standing Stones": {
+    "firstSeen": "2026-04-28",
+    "lastSeen": "2026-04-30",
+    "sources": [
+      "bandcamp-discover"
+    ],
+    "titleHints": [
+      "Twa Sisters Featuring Iona Zajac & Daragh Lynch",
+      "Twa Sisters Featuring Iona Zajac & Daragh Lynch — https://thestandingstones.bandcamp.com/album/twa-sisters-featuring-iona-zajac-daragh-lynch"
+    ],
+    "mentions": 5,
+    "poolTags": [
+      "ambient",
+      "ambient-techno",
+      "deep-house",
+      "downtempo",
+      "dub",
+      "dub-techno",
+      "experimental-electronic",
+      "idm"
+    ],
+    "bandcampUrl": "https://thestandingstones.bandcamp.com/album/twa-sisters-featuring-iona-zajac-daragh-lynch",
+    "sourceLinks": {
+      "bandcamp-discover": "https://thestandingstones.bandcamp.com/album/twa-sisters-featuring-iona-zajac-daragh-lynch"
+    },
+    "primaryTitle": "Twa Sisters Featuring Iona Zajac & Daragh Lynch",
+    "latestArticleDate": "2026-03-01",
+    "appleMusicUrl": "https://music.apple.com/us/album/the-burning-of-auchindoun-single/1856722900?uo=4"
   },
   "CALM DOWN": {
     "firstSeen": "2026-04-28",
@@ -1678,7 +3974,7 @@
       "CALM DOWN",
       "CALM DOWN — https://klfrscommunications.bandcamp.com/album/calm-down"
     ],
-    "mentions": 4,
+    "mentions": 5,
     "poolTags": [
       "ambient",
       "ambient-techno",
@@ -1694,7 +3990,8 @@
       "bandcamp-discover": "https://klfrscommunications.bandcamp.com/album/calm-down"
     },
     "primaryTitle": "CALM DOWN",
-    "latestArticleDate": "2026-02-08"
+    "latestArticleDate": "2026-02-08",
+    "appleMusicUrl": "https://music.apple.com/us/album/calm-down-single/1640501237?uo=4"
   },
   "Forrest Fang": {
     "firstSeen": "2026-04-28",
@@ -1724,39 +4021,6 @@
     "latestArticleDate": "2026-03-20",
     "appleMusicUrl": "https://music.apple.com/us/album/radiance-and-the-receding-light/1875435891?uo=4"
   },
-  "Noah Kahan": {
-    "firstSeen": "2026-04-29",
-    "lastSeen": "2026-04-30",
-    "sources": [
-      "pitchfork_albums"
-    ],
-    "titleHints": [
-      "The Great Divide"
-    ],
-    "mentions": 2,
-    "sourceLinks": {
-      "pitchfork_albums": "https://pitchfork.com/reviews/albums/noah-kahan-the-great-divide/"
-    },
-    "primaryTitle": "The Great Divide",
-    "latestArticleDate": "2026-04-29",
-    "appleMusicUrl": "https://music.apple.com/us/album/the-great-divide-the-last-of-the-bugs/1894998012?uo=4"
-  },
-  "Angelo De Augustine": {
-    "firstSeen": "2026-04-29",
-    "lastSeen": "2026-04-30",
-    "sources": [
-      "pitchfork_albums"
-    ],
-    "titleHints": [
-      "Angel in Plainclothes"
-    ],
-    "mentions": 2,
-    "sourceLinks": {
-      "pitchfork_albums": "https://pitchfork.com/reviews/albums/angelo-de-augustine-angel-in-plainclothes/"
-    },
-    "primaryTitle": "Angel in Plainclothes",
-    "latestArticleDate": "2026-04-29"
-  },
   "Quentin Tolimieri": {
     "firstSeen": "2026-04-29",
     "lastSeen": "2026-04-30",
@@ -1772,39 +4036,14 @@
     },
     "primaryTitle": "Monochromes II",
     "latestArticleDate": "2026-04-29",
-    "appleMusicUrl": "https://music.apple.com/us/album/monochromes/1618311529?uo=4"
-  },
-  "Ayman Fanous": {
-    "firstSeen": "2026-04-29",
-    "lastSeen": "2026-04-30",
-    "sources": [
-      "bandcamp_daily"
-    ],
-    "titleHints": [
-      "Brooklyn Stories 1-5"
-    ],
-    "mentions": 2,
-    "sourceLinks": {
-      "bandcamp_daily": "https://daily.bandcamp.com/album-of-the-day/ayman-fanous-brooklyn-stories-1-5-review"
-    },
-    "primaryTitle": "Brooklyn Stories 1-5",
-    "latestArticleDate": "2026-04-28"
-  },
-  "Accept": {
-    "firstSeen": "2026-04-29",
-    "lastSeen": "2026-04-30",
-    "sources": [
-      "stereogum"
-    ],
-    "titleHints": [
-      "Remakes Album Teutonic Titans 1976-2026 Featuring 50 Guests Including Rob Halford, Tobias Forge, Billy Corgan, & Kirk Hammett"
-    ],
-    "mentions": 2,
-    "sourceLinks": {
-      "stereogum": "https://stereogum.com/2497261/accept-announce-remakes-album-teutonic-titans-1976-2026-featuring-50-guests-including-rob-halford-tobias-forge-billy-corgan-kirk-hammett/news/"
-    },
-    "primaryTitle": "Remakes Album Teutonic Titans 1976-2026 Featuring 50 Guests Including Rob Halford, Tobias Forge, Billy Corgan, & Kirk Hammett",
-    "latestArticleDate": "2026-04-28"
+    "appleMusicUrl": "https://music.apple.com/us/album/monochromes/1618311529?uo=4",
+    "poolTags": [
+      "piano",
+      "contemporary classical",
+      "experimental",
+      "composer",
+      "melodica"
+    ]
   },
   "Kalia Vandever": {
     "firstSeen": "2026-04-29",
@@ -1815,12 +4054,19 @@
     "titleHints": [
       "Mana: Hear “Hubbard Road"
     ],
-    "mentions": 2,
+    "mentions": 3,
     "sourceLinks": {
       "stereogum": "https://stereogum.com/2497249/kalia-vandever-announces-new-album-mana-hear-hubbard-road/music/"
     },
     "primaryTitle": "Mana: Hear “Hubbard Road",
-    "latestArticleDate": "2026-04-28"
+    "latestArticleDate": "2026-04-28",
+    "poolTags": [
+      "jazz",
+      "trombone",
+      "avant-jazz",
+      "composer",
+      "new york"
+    ]
   },
   "Hew": {
     "firstSeen": "2026-04-29",
@@ -1831,7 +4077,7 @@
     "titleHints": [
       "Debut Album Your Version: Hear The Title Track"
     ],
-    "mentions": 2,
+    "mentions": 3,
     "sourceLinks": {
       "stereogum": "https://stereogum.com/2497245/hew-announce-debut-album-your-version-hear-the-title-track/music/"
     },
@@ -1847,93 +4093,12 @@
     "titleHints": [
       "Co-Headline Tour"
     ],
-    "mentions": 2,
+    "mentions": 3,
     "sourceLinks": {
       "stereogum": "https://stereogum.com/2497233/liz-phair-sleater-kinney-announce-co-headline-tour/news/"
     },
     "primaryTitle": "Co-Headline Tour",
     "latestArticleDate": "2026-04-28"
-  },
-  "Port Sleep": {
-    "firstSeen": "2026-04-29",
-    "lastSeen": "2026-04-30",
-    "sources": [
-      "bandcamp-discover"
-    ],
-    "titleHints": [
-      "As Long as This Warmth Remains"
-    ],
-    "mentions": 2,
-    "bandcampUrl": "https://portsleep.bandcamp.com/album/as-long-as-this-warmth-remains",
-    "sourceLinks": {
-      "bandcamp-discover": "https://portsleep.bandcamp.com/album/as-long-as-this-warmth-remains"
-    },
-    "primaryTitle": "As Long as This Warmth Remains",
-    "latestArticleDate": "2026-04-28",
-    "poolTags": [
-      "ambient",
-      "ambient-techno",
-      "deep-house",
-      "downtempo",
-      "dub",
-      "dub-techno",
-      "experimental-electronic",
-      "idm"
-    ]
-  },
-  "Yazz Ahmed": {
-    "firstSeen": "2026-04-29",
-    "lastSeen": "2026-04-30",
-    "sources": [
-      "bandcamp-discover"
-    ],
-    "titleHints": [
-      "Shinrin-Yoku"
-    ],
-    "mentions": 2,
-    "bandcampUrl": "https://yazzahmed.bandcamp.com/album/shinrin-yoku",
-    "sourceLinks": {
-      "bandcamp-discover": "https://yazzahmed.bandcamp.com/album/shinrin-yoku"
-    },
-    "primaryTitle": "Shinrin-Yoku",
-    "latestArticleDate": "2026-04-28",
-    "poolTags": [
-      "ambient",
-      "ambient-techno",
-      "deep-house",
-      "downtempo",
-      "dub",
-      "dub-techno",
-      "experimental-electronic",
-      "idm"
-    ]
-  },
-  "jarguna & Chris Russell": {
-    "firstSeen": "2026-04-29",
-    "lastSeen": "2026-04-30",
-    "sources": [
-      "bandcamp-discover"
-    ],
-    "titleHints": [
-      "Wind of Dissonance"
-    ],
-    "mentions": 2,
-    "bandcampUrl": "https://projektrecords.bandcamp.com/album/wind-of-dissonance",
-    "sourceLinks": {
-      "bandcamp-discover": "https://projektrecords.bandcamp.com/album/wind-of-dissonance"
-    },
-    "primaryTitle": "Wind of Dissonance",
-    "latestArticleDate": "2026-04-28",
-    "poolTags": [
-      "ambient",
-      "ambient-techno",
-      "deep-house",
-      "downtempo",
-      "dub",
-      "dub-techno",
-      "experimental-electronic",
-      "idm"
-    ]
   },
   "Antiq": {
     "firstSeen": "2026-04-29",
@@ -1944,7 +4109,7 @@
     "titleHints": [
       "Assiégé Pour l'Éternité"
     ],
-    "mentions": 2,
+    "mentions": 3,
     "bandcampUrl": "https://antiqofficial.bandcamp.com/album/assi-g-pour-l-ternit",
     "sourceLinks": {
       "bandcamp-discover": "https://antiqofficial.bandcamp.com/album/assi-g-pour-l-ternit"
@@ -1971,7 +4136,7 @@
     "titleHints": [
       "Fela Kuti in Dub"
     ],
-    "mentions": 2,
+    "mentions": 3,
     "bandcampUrl": "https://captainyossarian.bandcamp.com/album/fela-kuti-in-dub",
     "sourceLinks": {
       "bandcamp-discover": "https://captainyossarian.bandcamp.com/album/fela-kuti-in-dub"
@@ -1989,220 +4154,6 @@
       "idm"
     ]
   },
-  "Fugazi": {
-    "firstSeen": "2026-04-29",
-    "lastSeen": "2026-04-30",
-    "sources": [
-      "bandcamp-discover"
-    ],
-    "titleHints": [
-      "Albini Sessions (Benefit for Letters Charity)"
-    ],
-    "mentions": 2,
-    "bandcampUrl": "https://fugazi.bandcamp.com/album/albini-sessions-benefit-for-letters-charity",
-    "sourceLinks": {
-      "bandcamp-discover": "https://fugazi.bandcamp.com/album/albini-sessions-benefit-for-letters-charity"
-    },
-    "primaryTitle": "Albini Sessions (Benefit for Letters Charity)",
-    "latestArticleDate": "2026-03-06",
-    "poolTags": [
-      "ambient",
-      "ambient-techno",
-      "deep-house",
-      "downtempo",
-      "dub",
-      "dub-techno",
-      "experimental-electronic",
-      "idm"
-    ]
-  },
-  "KNEECAP": {
-    "firstSeen": "2026-04-29",
-    "lastSeen": "2026-04-30",
-    "sources": [
-      "bandcamp-discover"
-    ],
-    "titleHints": [
-      "FENIAN"
-    ],
-    "mentions": 2,
-    "bandcampUrl": "https://kneecap.bandcamp.com/album/fenian",
-    "sourceLinks": {
-      "bandcamp-discover": "https://kneecap.bandcamp.com/album/fenian"
-    },
-    "primaryTitle": "FENIAN",
-    "latestArticleDate": "2026-01-09",
-    "poolTags": [
-      "ambient",
-      "ambient-techno",
-      "deep-house",
-      "downtempo",
-      "dub",
-      "dub-techno",
-      "experimental-electronic",
-      "idm"
-    ]
-  },
-  "Tori Amos": {
-    "firstSeen": "2026-04-30",
-    "lastSeen": "2026-04-30",
-    "sources": [
-      "pitchfork_albums"
-    ],
-    "titleHints": [
-      "In Times of Dragons"
-    ],
-    "mentions": 1,
-    "sourceLinks": {
-      "pitchfork_albums": "https://pitchfork.com/reviews/albums/tori-amos-in-times-of-dragons/"
-    },
-    "primaryTitle": "In Times of Dragons",
-    "latestArticleDate": "2026-04-30"
-  },
-  "Kneecap": {
-    "firstSeen": "2026-04-30",
-    "lastSeen": "2026-04-30",
-    "sources": [
-      "pitchfork_albums"
-    ],
-    "titleHints": [
-      "FENIAN"
-    ],
-    "mentions": 1,
-    "sourceLinks": {
-      "pitchfork_albums": "https://pitchfork.com/reviews/albums/kneecap-fenian/"
-    },
-    "primaryTitle": "FENIAN",
-    "latestArticleDate": "2026-04-30"
-  },
-  "Kuru": {
-    "firstSeen": "2026-04-30",
-    "lastSeen": "2026-04-30",
-    "sources": [
-      "pitchfork_albums"
-    ],
-    "titleHints": [
-      "Backstage hologram"
-    ],
-    "mentions": 1,
-    "sourceLinks": {
-      "pitchfork_albums": "https://pitchfork.com/reviews/albums/kuru-backstage-hologram/"
-    },
-    "primaryTitle": "Backstage hologram",
-    "latestArticleDate": "2026-04-30"
-  },
-  "Aja Ireland": {
-    "firstSeen": "2026-04-30",
-    "lastSeen": "2026-04-30",
-    "sources": [
-      "quietus"
-    ],
-    "titleHints": [
-      "Moult Mouth"
-    ],
-    "mentions": 1,
-    "sourceLinks": {
-      "quietus": "https://thequietus.com/quietus-reviews/aja-ireland-moult-mouth-review/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=aja-ireland-moult-mouth-review"
-    },
-    "primaryTitle": "Moult Mouth",
-    "latestArticleDate": "2026-04-30"
-  },
-  "Charbel Harber": {
-    "firstSeen": "2026-04-30",
-    "lastSeen": "2026-04-30",
-    "sources": [
-      "bandcamp_daily"
-    ],
-    "titleHints": [
-      "May a soft sun bless your sky while you wait for the inevitable"
-    ],
-    "mentions": 1,
-    "sourceLinks": {
-      "bandcamp_daily": "https://daily.bandcamp.com/album-of-the-day/charbel-harber-may-a-soft-sun-bless-your-sky-while-you-wait-for-the-inevitable-review"
-    },
-    "primaryTitle": "May a soft sun bless your sky while you wait for the inevitable",
-    "latestArticleDate": "2026-04-29"
-  },
-  "Cinder Well": {
-    "firstSeen": "2026-04-30",
-    "lastSeen": "2026-04-30",
-    "sources": [
-      "stereogum"
-    ],
-    "titleHints": [
-      "A Blooming Body: Hear “While The Womb Screams Silently"
-    ],
-    "mentions": 1,
-    "sourceLinks": {
-      "stereogum": "https://stereogum.com/2497423/cinder-well-announces-new-album-a-blooming-body-hear-while-the-womb-screams-silently/music/"
-    },
-    "primaryTitle": "A Blooming Body: Hear “While The Womb Screams Silently",
-    "latestArticleDate": "2026-04-29"
-  },
-  "Chanel Beads": {
-    "firstSeen": "2026-04-30",
-    "lastSeen": "2026-04-30",
-    "sources": [
-      "stereogum"
-    ],
-    "titleHints": [
-      "With The Same Title As His Last Album"
-    ],
-    "mentions": 1,
-    "sourceLinks": {
-      "stereogum": "https://stereogum.com/2497303/chanel-beads-announces-new-album-with-the-same-title-as-his-last-album/music/"
-    },
-    "primaryTitle": "With The Same Title As His Last Album",
-    "latestArticleDate": "2026-04-29"
-  },
-  "Brutalismus 3000": {
-    "firstSeen": "2026-04-30",
-    "lastSeen": "2026-04-30",
-    "sources": [
-      "stereogum"
-    ],
-    "titleHints": [
-      "Harmony, Share Boys Noize Collab “I Bring My Gun To The Function"
-    ],
-    "mentions": 1,
-    "sourceLinks": {
-      "stereogum": "https://stereogum.com/2497383/brutalismus-3000-announce-new-album-harmony-share-boys-noize-collab-i-bring-my-gun-to-the-function/music/"
-    },
-    "primaryTitle": "Harmony, Share Boys Noize Collab “I Bring My Gun To The Function",
-    "latestArticleDate": "2026-04-29"
-  },
-  "The Menzingers": {
-    "firstSeen": "2026-04-30",
-    "lastSeen": "2026-04-30",
-    "sources": [
-      "stereogum"
-    ],
-    "titleHints": [
-      "Everything I Ever Saw: Hear “Chance Encounters"
-    ],
-    "mentions": 1,
-    "sourceLinks": {
-      "stereogum": "https://stereogum.com/2497328/the-menzingers-announce-new-album-everything-i-ever-saw-hear-chance-encounters/music/"
-    },
-    "primaryTitle": "Everything I Ever Saw: Hear “Chance Encounters",
-    "latestArticleDate": "2026-04-29"
-  },
-  "Woodsist Festival": {
-    "firstSeen": "2026-04-30",
-    "lastSeen": "2026-04-30",
-    "sources": [
-      "stereogum"
-    ],
-    "titleHints": [
-      "2026 Lineup With Destroyer, Cate Le Bon, & More"
-    ],
-    "mentions": 1,
-    "sourceLinks": {
-      "stereogum": "https://stereogum.com/2497348/woodsist-festival-announces-2026-lineup-with-destroyer-cate-le-bon-more/news/"
-    },
-    "primaryTitle": "2026 Lineup With Destroyer, Cate Le Bon, & More",
-    "latestArticleDate": "2026-04-29"
-  },
   "Mopar Stars": {
     "firstSeen": "2026-04-30",
     "lastSeen": "2026-04-30",
@@ -2212,72 +4163,27 @@
     "titleHints": [
       "Debut Album Official Researchers Of The NJ Devil: Hear “Feast For The Smile"
     ],
-    "mentions": 1,
+    "mentions": 2,
     "sourceLinks": {
       "stereogum": "https://stereogum.com/2497330/mopar-stars-announce-debut-album-official-researchers-of-the-nj-devil-hear-feast-for-the-smile/music/"
     },
     "primaryTitle": "Debut Album Official Researchers Of The NJ Devil: Hear “Feast For The Smile",
-    "latestArticleDate": "2026-04-29"
-  },
-  "Finn Wolfhard": {
-    "firstSeen": "2026-04-30",
-    "lastSeen": "2026-04-30",
-    "sources": [
-      "stereogum"
-    ],
-    "titleHints": [
-      "Fire From The Hip: Hear “I’ll Let You Finish"
-    ],
-    "mentions": 1,
-    "sourceLinks": {
-      "stereogum": "https://stereogum.com/2497321/finn-wolfhard-announces-new-album-fire-from-the-hip-hear-ill-let-you-finish/music/"
-    },
-    "primaryTitle": "Fire From The Hip: Hear “I’ll Let You Finish",
-    "latestArticleDate": "2026-04-29"
-  },
-  "Marc Almond": {
-    "firstSeen": "2026-04-30",
-    "lastSeen": "2026-04-30",
-    "sources": [
-      "bandcamp-discover"
-    ],
-    "titleHints": [
-      "Live At The Bowery Ballroom, New York"
-    ],
-    "mentions": 1,
-    "bandcampUrl": "https://marcalmond.bandcamp.com/album/live-at-the-bowery-ballroom-new-york",
-    "sourceLinks": {
-      "bandcamp-discover": "https://marcalmond.bandcamp.com/album/live-at-the-bowery-ballroom-new-york"
-    },
-    "primaryTitle": "Live At The Bowery Ballroom, New York",
     "latestArticleDate": "2026-04-29",
     "poolTags": [
-      "ambient",
-      "ambient-techno",
-      "deep-house",
-      "downtempo",
-      "dub",
-      "dub-techno",
-      "experimental-electronic",
-      "idm"
+      "power pop"
     ]
   },
-  "Stormkeep": {
-    "firstSeen": "2026-04-30",
+  "Spiller, Sophie Ellis-Bextor, William Kiss, Jordan Brando, Luke Alessi, not without friends": {
+    "firstSeen": "2026-04-28",
     "lastSeen": "2026-04-30",
     "sources": [
       "bandcamp-discover"
     ],
     "titleHints": [
-      "The Nocturnes Of Iswylm"
+      "Groovejet (If This Ain't Love) - not without friends Extended Remix",
+      "GrooveJet (If This Ain’t Love) (not without friends Extended Remix) — https://defected.bandcamp.com/album/groovejet-if-this-ain-t-love-not-without-friends-extended-remix-1"
     ],
-    "mentions": 1,
-    "bandcampUrl": "https://stormkeep-odl.bandcamp.com/album/the-nocturnes-of-iswylm-2",
-    "sourceLinks": {
-      "bandcamp-discover": "https://stormkeep-odl.bandcamp.com/album/the-nocturnes-of-iswylm-2"
-    },
-    "primaryTitle": "The Nocturnes Of Iswylm",
-    "latestArticleDate": "2026-04-28",
+    "mentions": 2,
     "poolTags": [
       "ambient",
       "ambient-techno",
@@ -2287,34 +4193,14 @@
       "dub-techno",
       "experimental-electronic",
       "idm"
-    ]
-  },
-  "Hajduk": {
-    "firstSeen": "2026-04-30",
-    "lastSeen": "2026-04-30",
-    "sources": [
-      "bandcamp-discover"
     ],
-    "titleHints": [
-      "Хвърковата чета"
-    ],
-    "mentions": 1,
-    "bandcampUrl": "https://hajduk.bandcamp.com/album/--6",
+    "bandcampUrl": "https://defected.bandcamp.com/album/groovejet-if-this-aint-love-not-without-friends-extended-remix",
     "sourceLinks": {
-      "bandcamp-discover": "https://hajduk.bandcamp.com/album/--6"
+      "bandcamp-discover": "https://defected.bandcamp.com/album/groovejet-if-this-aint-love-not-without-friends-extended-remix"
     },
-    "primaryTitle": "Хвърковата чета",
-    "latestArticleDate": "2026-03-21",
-    "poolTags": [
-      "ambient",
-      "ambient-techno",
-      "deep-house",
-      "downtempo",
-      "dub",
-      "dub-techno",
-      "experimental-electronic",
-      "idm"
-    ]
+    "primaryTitle": "Groovejet (If This Ain't Love) - not without friends Extended Remix",
+    "latestArticleDate": "2026-04-16",
+    "appleMusicUrl": "https://music.apple.com/us/album/groovejet-if-this-aint-love-feat-sophie-ellis-bextor/1891941082?uo=4"
   },
   "Sexyy Red": {
     "firstSeen": "2026-04-28",
@@ -2330,7 +4216,14 @@
       "pitchfork_albums": "https://pitchfork.com/reviews/albums/sexyy-red-yo-favorite-trappa-favorite-rappa/"
     },
     "primaryTitle": "Yo Favorite Trappa Favorite Rappa",
-    "latestArticleDate": "2026-04-21"
+    "latestArticleDate": "2026-04-21",
+    "poolTags": [
+      "trap",
+      "trap queen",
+      "rap",
+      "missouri",
+      "hip-hop"
+    ]
   },
   "Rikki G Godd": {
     "firstSeen": "2026-04-28",
@@ -2348,23 +4241,6 @@
     "primaryTitle": "Cost of Living",
     "latestArticleDate": "2026-04-21"
   },
-  "Kathryn Mohr": {
-    "firstSeen": "2026-04-28",
-    "lastSeen": "2026-04-29",
-    "sources": [
-      "pitchfork_albums"
-    ],
-    "titleHints": [
-      "Carve"
-    ],
-    "mentions": 4,
-    "sourceLinks": {
-      "pitchfork_albums": "https://pitchfork.com/reviews/albums/kathryn-mohr-carve/"
-    },
-    "primaryTitle": "Carve",
-    "latestArticleDate": "2026-04-21",
-    "appleMusicUrl": "https://music.apple.com/us/album/cut-single/1742828473?uo=4"
-  },
   "Nine Inch Noize": {
     "firstSeen": "2026-04-28",
     "lastSeen": "2026-04-29",
@@ -2379,23 +4255,12 @@
       "quietus": "https://thequietus.com/quietus-reviews/nine-inch-noize-nine-inch-noize-nine-inch-nails-review/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=nine-inch-noize-nine-inch-noize-nine-inch-nails-review"
     },
     "primaryTitle": "Nine Inch Noize",
-    "latestArticleDate": "2026-04-21"
-  },
-  "Megan Thee Stallion": {
-    "firstSeen": "2026-04-28",
-    "lastSeen": "2026-04-29",
-    "sources": [
-      "stereogum"
-    ],
-    "titleHints": [
-      "Split With Klay Thompson, Exit From Moulin Rouge!"
-    ],
-    "mentions": 4,
-    "sourceLinks": {
-      "stereogum": "https://stereogum.com/2497163/megan-thee-stallion-announces-split-with-klay-thompson-exit-from-moulin-rouge/news/"
-    },
-    "primaryTitle": "Split With Klay Thompson, Exit From Moulin Rouge!",
-    "latestArticleDate": "2026-04-28"
+    "latestArticleDate": "2026-04-21",
+    "poolTags": [
+      "techno",
+      "industrial",
+      "ebm"
+    ]
   },
   "Glaive & Kurtains": {
     "firstSeen": "2026-04-28",
@@ -2411,23 +4276,14 @@
       "stereogum": "https://stereogum.com/2497121/glaive-kurtains-announce-new-collaborative-album-god-save-the-three-hear-the-troubles/music/"
     },
     "primaryTitle": "Collaborative Album God Save The Three: Hear “The Troubles",
-    "latestArticleDate": "2026-04-27"
-  },
-  "Hurry": {
-    "firstSeen": "2026-04-28",
-    "lastSeen": "2026-04-29",
-    "sources": [
-      "stereogum"
-    ],
-    "titleHints": [
-      "Zoned Out: Hear The Title Track"
-    ],
-    "mentions": 4,
-    "sourceLinks": {
-      "stereogum": "https://stereogum.com/2497090/hurry-announce-new-album-zoned-out-hear-the-title-track/music/"
-    },
-    "primaryTitle": "Zoned Out: Hear The Title Track",
-    "latestArticleDate": "2026-04-27"
+    "latestArticleDate": "2026-04-27",
+    "poolTags": [
+      "hyperpop",
+      "digicore",
+      "glaive",
+      "slowsilver03",
+      "kurtains"
+    ]
   },
   "MantisMash": {
     "firstSeen": "2026-04-28",
@@ -2542,38 +4398,6 @@
     "latestArticleDate": "2026-03-17",
     "appleMusicUrl": "https://music.apple.com/us/album/all-my-life-single/1895316260?uo=4"
   },
-  "Balming Tiger": {
-    "firstSeen": "2026-04-28",
-    "lastSeen": "2026-04-29",
-    "sources": [
-      "stereogum"
-    ],
-    "titleHints": [
-      "Gongbu: Hear “Home"
-    ],
-    "mentions": 2,
-    "sourceLinks": {
-      "stereogum": "https://stereogum.com/2497147/balming-tiger-announce-new-album-gongbu-hear-home/music/"
-    },
-    "primaryTitle": "Gongbu: Hear “Home",
-    "latestArticleDate": "2026-04-28"
-  },
-  "Ariana Grande": {
-    "firstSeen": "2026-04-29",
-    "lastSeen": "2026-04-29",
-    "sources": [
-      "stereogum"
-    ],
-    "titleHints": [
-      "petal"
-    ],
-    "mentions": 1,
-    "sourceLinks": {
-      "stereogum": "https://stereogum.com/2497200/ariana-grande-announces-new-album-petal/news/"
-    },
-    "primaryTitle": "petal",
-    "latestArticleDate": "2026-04-28"
-  },
   "L.O.T.I.O.N. Multinational Corporation": {
     "firstSeen": "2026-04-29",
     "lastSeen": "2026-04-29",
@@ -2588,7 +4412,14 @@
       "stereogum": "https://stereogum.com/2497192/l-o-t-i-o-n-multinational-corporation-announce-new-album-machine-hallucinations-hear-boots-on-the-ground/music/"
     },
     "primaryTitle": "Machine Hallucinations: Hear “Boots On The Ground",
-    "latestArticleDate": "2026-04-28"
+    "latestArticleDate": "2026-04-28",
+    "poolTags": [
+      "hardcore",
+      "punk",
+      "industrial",
+      "digital hardcore",
+      "united states"
+    ]
   },
   "Citizen": {
     "firstSeen": "2026-04-29",
@@ -2604,22 +4435,14 @@
       "stereogum": "https://stereogum.com/2497140/citizen-announce-new-album-halcyon-blues-hear-highs-and-lows/music/"
     },
     "primaryTitle": "Halcyon Blues: Hear “Highs And Lows",
-    "latestArticleDate": "2026-04-28"
-  },
-  "Frog": {
-    "firstSeen": "2026-04-28",
-    "lastSeen": "2026-04-28",
-    "sources": [
-      "pitchfork_albums"
-    ],
-    "titleHints": [
-      "Frog for Sale"
-    ],
-    "mentions": 3,
-    "sourceLinks": {
-      "pitchfork_albums": "https://pitchfork.com/reviews/albums/frog-frog-for-sale/"
-    },
-    "primaryTitle": "Frog for Sale"
+    "latestArticleDate": "2026-04-28",
+    "poolTags": [
+      "pop punk",
+      "emo",
+      "melodic hardcore",
+      "punk",
+      "post-hardcore"
+    ]
   },
   "Handle": {
     "firstSeen": "2026-04-28",
@@ -2634,37 +4457,14 @@
     "sourceLinks": {
       "pitchfork_albums": "https://pitchfork.com/reviews/albums/handle-collide/"
     },
-    "primaryTitle": "COLLIDE"
-  },
-  "Graham Dunning": {
-    "firstSeen": "2026-04-28",
-    "lastSeen": "2026-04-28",
-    "sources": [
-      "quietus"
-    ],
-    "titleHints": [
-      "Quern"
-    ],
-    "mentions": 3,
-    "sourceLinks": {
-      "quietus": "https://thequietus.com/quietus-reviews/graham-dunning-quern-review/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=graham-dunning-quern-review"
-    },
-    "primaryTitle": "Quern"
-  },
-  "Naná Rizinni": {
-    "firstSeen": "2026-04-28",
-    "lastSeen": "2026-04-28",
-    "sources": [
-      "quietus"
-    ],
-    "titleHints": [
-      "Epiblast"
-    ],
-    "mentions": 3,
-    "sourceLinks": {
-      "quietus": "https://thequietus.com/quietus-reviews/nana-rizinni-epiblast-review/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=nana-rizinni-epiblast-review"
-    },
-    "primaryTitle": "Epiblast"
+    "primaryTitle": "COLLIDE",
+    "poolTags": [
+      "post-punk",
+      "experimental",
+      "czech",
+      "art rock",
+      "windmill scene"
+    ]
   },
   "Abigail Snail": {
     "firstSeen": "2026-04-28",
@@ -2797,27 +4597,6 @@
       "bandcamp-discover": "https://humanwaste-vanrecords.bandcamp.com/album/misery-obsessions"
     },
     "primaryTitle": "Misery Obsessions"
-  },
-  "Spiller, Sophie Ellis-Bextor, William Kiss, Jordan Brando, Luke Alessi, not without friends": {
-    "firstSeen": "2026-04-28",
-    "lastSeen": "2026-04-28",
-    "sources": [
-      "bandcamp-discover"
-    ],
-    "titleHints": [
-      "GrooveJet (If This Ain’t Love) (not without friends Extended Remix) — https://defected.bandcamp.com/album/groovejet-if-this-ain-t-love-not-without-friends-extended-remix-1"
-    ],
-    "mentions": 1,
-    "poolTags": [
-      "ambient",
-      "ambient-techno",
-      "deep-house",
-      "downtempo",
-      "dub",
-      "dub-techno",
-      "experimental-electronic",
-      "idm"
-    ]
   },
   "iComplexity": {
     "firstSeen": "2026-04-28",
