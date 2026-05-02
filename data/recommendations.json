@@ -1,5 +1,32 @@
 [
   {
+    "id": "romare-oblivion",
+    "type": "album",
+    "artist": "Romare",
+    "title": "Oblivion",
+    "label": "",
+    "releaseDate": "2026-09-18",
+    "description": "Romare returns to long, form, the sample, collage producer whose previous albums for Ninja Tune leaned on dusty soul, blues fragments and house mechanics. No label confirmed yet, so treat the rest as speculation until the wax lands.",
+    "tags": [],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=Romare%20Oblivion&item_type=a",
+      "spotify": "https://open.spotify.com/search/Romare%20Oblivion",
+      "soundcloud": "https://soundcloud.com/search?q=Romare%20Oblivion",
+      "youtube": "https://www.youtube.com/results?search_query=Romare%20Oblivion"
+    },
+    "embed": null,
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": null,
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
     "id": "nia-archives-emotional-junglist",
     "type": "album",
     "artist": "Nia Archives",
@@ -30,6 +57,33 @@
     "pressMentions": [
       "stereogum"
     ]
+  },
+  {
+    "id": "nia-archives-emotional-junglist-explicit",
+    "type": "album",
+    "artist": "Nia Archives",
+    "title": "Emotional Junglist [Explicit]",
+    "label": "",
+    "releaseDate": "2026-07-24",
+    "description": "Nia Archives staying close to the lane she has built her name on, jungle breaks shot through with songwriting and a producer's pop instinct. The title pretty much tells you where it sits.",
+    "tags": [],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=Nia%20Archives%20Emotional%20Junglist%20%5BExplicit%5D&item_type=a",
+      "spotify": "https://open.spotify.com/search/Nia%20Archives%20Emotional%20Junglist%20%5BExplicit%5D",
+      "soundcloud": "https://soundcloud.com/search?q=Nia%20Archives%20Emotional%20Junglist%20%5BExplicit%5D",
+      "youtube": "https://www.youtube.com/results?search_query=Nia%20Archives%20Emotional%20Junglist%20%5BExplicit%5D"
+    },
+    "embed": null,
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": null,
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
   },
   {
     "id": "tricky-different-when-it-s-silent",
@@ -892,9 +946,14 @@
       "spotify": "https://open.spotify.com/search/Dom%20Dolla%20%26%20Tiga%20Don't%20Worry%20Baby",
       "soundcloud": "https://soundcloud.com/search?q=Dom%20Dolla%20%26%20Tiga%20Don't%20Worry%20Baby",
       "youtube": "https://www.youtube.com/results?search_query=Dom%20Dolla%20%26%20Tiga%20Don't%20Worry%20Baby",
-      "apple": "https://music.apple.com/us/album/dont-worry-baby-single/1894294408"
+      "apple": "https://music.apple.com/us/album/dont-worry-baby-single/1894294408",
+      "deezer": "https://www.deezer.com/album/970835081"
     },
-    "embed": null,
+    "embed": {
+      "provider": "apple",
+      "src": "https://embed.music.apple.com/us/album/1894294408?theme=light",
+      "height": 450
+    },
     "musicVideoUrl": null,
     "status": "pending",
     "approvedAt": null,
@@ -957,9 +1016,14 @@
       "spotify": "https://open.spotify.com/search/BIGMOO%2C%20DJ%20Shadow%20%26%20B3nte%20Don't%20Threaten%20Me%20With%20A%20Good%20Time%20(DTWAGT)",
       "soundcloud": "https://soundcloud.com/search?q=BIGMOO%2C%20DJ%20Shadow%20%26%20B3nte%20Don't%20Threaten%20Me%20With%20A%20Good%20Time%20(DTWAGT)",
       "youtube": "https://www.youtube.com/results?search_query=BIGMOO%2C%20DJ%20Shadow%20%26%20B3nte%20Don't%20Threaten%20Me%20With%20A%20Good%20Time%20(DTWAGT)",
-      "apple": "https://music.apple.com/us/album/dont-threaten-me-with-a-good-time-dtwagt-single/1895390533"
+      "apple": "https://music.apple.com/us/album/dont-threaten-me-with-a-good-time-dtwagt-single/1895390533",
+      "deezer": "https://www.deezer.com/album/968969621"
     },
-    "embed": null,
+    "embed": {
+      "provider": "apple",
+      "src": "https://embed.music.apple.com/us/album/1895390533?theme=light",
+      "height": 450
+    },
     "musicVideoUrl": null,
     "status": "pending",
     "approvedAt": null,
@@ -1075,6 +1139,69 @@
       "motif": "disc"
     },
     "pressMentions": []
+  },
+  {
+    "id": "k-lone-rinat",
+    "type": "single",
+    "artist": "k-lone",
+    "title": "Rinat",
+    "label": "",
+    "releaseDate": "2026-05-01",
+    "description": "New k, lone, label unannounced, arriving with the kind of dusty club, adjacent percussion and pastel ambient framing he has built into a recognisable hand since the Wisdom Teeth records. Worth flagging if Cool & Frozen Pt. 1 still gets play.",
+    "tags": [],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=k-lone%20Rinat&item_type=a",
+      "spotify": "https://open.spotify.com/search/k-lone%20Rinat",
+      "soundcloud": "https://soundcloud.com/search?q=k-lone%20Rinat",
+      "youtube": "https://www.youtube.com/results?search_query=k-lone%20Rinat",
+      "deezer": "https://www.deezer.com/album/945469891"
+    },
+    "embed": {
+      "provider": "deezer",
+      "src": "https://widget.deezer.com/widget/light/album/945469891",
+      "height": 300
+    },
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://cdn-images.dzcdn.net/images/cover/82decc4c93fceb36c35a28085f8d6666/1000x1000-000000-80-0-0.jpg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
+    "id": "tiga-don-t-worry-baby",
+    "type": "single",
+    "artist": "Tiga",
+    "title": "Don't Worry Baby",
+    "label": "",
+    "releaseDate": "2026-05-01",
+    "description": "New Tiga single dropping next spring, label unannounced. Whether it lands closer to the deadpan electroclash he built Turbo on or the bigger, room house he keeps drifting toward is the only real question.",
+    "tags": [],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=Tiga%20Don't%20Worry%20Baby&item_type=a",
+      "spotify": "https://open.spotify.com/search/Tiga%20Don't%20Worry%20Baby",
+      "soundcloud": "https://soundcloud.com/search?q=Tiga%20Don't%20Worry%20Baby",
+      "youtube": "https://www.youtube.com/results?search_query=Tiga%20Don't%20Worry%20Baby",
+      "deezer": "https://www.deezer.com/album/970835081"
+    },
+    "embed": null,
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://cdn-images.dzcdn.net/images/cover/0c6baf693b5feaebb22ee8966163196c/1000x1000-000000-80-0-0.jpg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": [
+      "pitchfork_tracks",
+      "pitchfork_best_tracks"
+    ]
   },
   {
     "id": "jump-source-patrick-holland-priori-fold",
@@ -10407,7 +10534,7 @@
     "title": "Irradiated",
     "label": "Appendix.Files",
     "releaseDate": "2026-01-01",
-    "description": "New album from Reinartz, out on Appendix.Files. Sits in the electronic corner. Preview description pending editorial review.",
+    "description": "Eight tracks of corroded dub techno and ambient drift on Appendix.Files, where the genre's usual gloss gets sanded down to something rougher and more chemical. For anyone whose Deepchord shelf has started leaning toward the noisier end.",
     "tags": [
       "electronic"
     ],
@@ -10430,8 +10557,7 @@
       "bg": "#111110",
       "fg": "#f2efe8",
       "motif": "disc"
-    },
-    "descriptionPreview": true
+    }
   },
   {
     "id": "street-dogs-street-dogs",
@@ -10440,7 +10566,7 @@
     "title": "Street Dogs",
     "label": "Hellcat Records",
     "releaseDate": "2026-01-01",
-    "description": "Album by Street Dogs on Hellcat Records. Filed under rock. Holding slot for the real description.",
+    "description": "Six tracks of Boston street punk on a 45 RPM 10\", pressed for Record Store Day on the label that has carried most of the band's catalogue. Built for the Oi! shelf, next to the Cock Sparrer reissues.",
     "tags": [
       "rock"
     ],
@@ -10464,8 +10590,7 @@
       "bg": "#111110",
       "fg": "#f2efe8",
       "motif": "disc"
-    },
-    "descriptionPreview": true
+    }
   },
   {
     "id": "dagmar-zuniga-in-filth-your-mystery-is-kingdom-far-smile-peasant-in-yellow-music-l",
@@ -10474,7 +10599,7 @@
     "title": "in filth your mystery is kingdom / far smile peasant in yellow music",
     "label": "AD 93",
     "releaseDate": "2026-01-01",
-    "description": "Dagmar Zuniga returns with a album through AD 93, the kind of rock that rewards a second listen. Editorial copy still to come.",
+    "description": "Fourteen tracks of warped folk and lo, fi psychedelia from Dagmar Zuniga, landing on AD 93 in a limited LP pressing. Stranger and more song, shaped than the label's club, facing catalogue, closer in spirit to Coby Sey's quieter corners.",
     "tags": [
       "rock"
     ],
@@ -10498,8 +10623,7 @@
       "bg": "#111110",
       "fg": "#f2efe8",
       "motif": "disc"
-    },
-    "descriptionPreview": true
+    }
   },
   {
     "id": "soul-blind-feel-it-all-around",
@@ -10508,7 +10632,7 @@
     "title": "Feel It All Around",
     "label": "Other People Records",
     "releaseDate": "2026-01-01",
-    "description": "Soul Blind returns with a album through Other People Records, the kind of rock that rewards a second listen. Editorial copy still to come.",
+    "description": "Eleven tracks of grunge weight pulled through shoegaze haze, the New York band leaning further into their guitar, album instincts for Other People. For anyone whose Hum and Failure records are still in heavy rotation.",
     "tags": [
       "rock"
     ],
@@ -10533,8 +10657,7 @@
       "bg": "#111110",
       "fg": "#f2efe8",
       "motif": "disc"
-    },
-    "descriptionPreview": true
+    }
   },
   {
     "id": "period-music-period-music",
@@ -10543,7 +10666,7 @@
     "title": "Period Music",
     "label": "Other People",
     "releaseDate": "2026-01-01",
-    "description": "EP by Period Music on Other People. Filed under electronic. Holding slot for the real description.",
+    "description": "Self, titled outing on Nicolas Jaar's Other People, a label that has long preferred records that resist clean genre placement. File alongside the imprint's quieter, more compositional side rather than its dance, floor entries.",
     "tags": [
       "electronic"
     ],
@@ -10567,8 +10690,7 @@
       "bg": "#111110",
       "fg": "#f2efe8",
       "motif": "disc"
-    },
-    "descriptionPreview": true
+    }
   },
   {
     "id": "mike-408-surf-gang-2-earl-sweatshirt-pompeii-utility",
@@ -10577,7 +10699,7 @@
     "title": "POMPEII//UTILITY",
     "label": "10K",
     "releaseDate": "2026-01-01",
-    "description": "A hip hop album from Mike (408), Surf Gang (2), Earl Sweatshirt, released via 10K. Pending final write-up.",
+    "description": "A 33, track double set pairing MIKE with Surf Gang and Earl Sweatshirt on 10K, which is roughly the entire current axis of underground New York rap in one sleeve. Long, sprawling, built to be lived with rather than skimmed.",
     "tags": [
       "hip hop"
     ],
@@ -10596,8 +10718,7 @@
       "bg": "#111110",
       "fg": "#f2efe8",
       "motif": "disc"
-    },
-    "descriptionPreview": true
+    }
   },
   {
     "id": "earl-sweatshirt-mike-408-surf-gang-2-pompeii-utility",
@@ -10606,7 +10727,7 @@
     "title": "Pompeii/Utility",
     "label": "10K",
     "releaseDate": "2026-01-01",
-    "description": "A hip hop album from Earl Sweatshirt, Mike (408), Surf Gang (2), released via 10K. Pending final write-up.",
+    "description": "Earl, MIKE and Surf Gang stretch out across 33 tracks for 10K, the kind of sprawl that suggests two records bolted together rather than edited down. Sits where Earl's last few have sat: blunted, conversational, in no hurry to resolve.",
     "tags": [
       "hip hop"
     ],
@@ -10625,8 +10746,7 @@
       "bg": "#111110",
       "fg": "#f2efe8",
       "motif": "disc"
-    },
-    "descriptionPreview": true
+    }
   },
   {
     "id": "junior-reid-not-try",
@@ -10635,7 +10755,7 @@
     "title": "Not Try",
     "label": "Youth Promotion",
     "releaseDate": "2026-01-01",
-    "description": "Junior Reid drops a single on Youth Promotion, leaning reggae. Description still in the queue.",
+    "description": "Junior Reid back on his own Youth Promotion imprint for a limited 7\", the format the catalogue was built for. Roots singing in its proper home, two sides at 45.",
     "tags": [
       "reggae"
     ],
@@ -10654,8 +10774,7 @@
       "bg": "#111110",
       "fg": "#f2efe8",
       "motif": "disc"
-    },
-    "descriptionPreview": true
+    }
   },
   {
     "id": "macha-3-bedhead-macha-loved-bedhead-bedhead-loved-macha",
@@ -10664,7 +10783,7 @@
     "title": "Macha Loved Bedhead • Bedhead Loved Macha",
     "label": "Numero Group",
     "releaseDate": "2026-01-01",
-    "description": "A rock EP from Macha (3) & Bedhead, released via Numero Group. Pending final write-up.",
+    "description": "Numero exhumes the brief 2000 collaboration between Athens' gamelan, inflected Macha and the Kadane brothers' Bedhead, six tracks of slowcore drift threaded with field recordings and tuned metal. For anyone whose Bedhead box still gets regular play.",
     "tags": [
       "rock"
     ],
@@ -10688,8 +10807,7 @@
       "bg": "#111110",
       "fg": "#f2efe8",
       "motif": "disc"
-    },
-    "descriptionPreview": true
+    }
   },
   {
     "id": "patricia-wolf-see-through",
@@ -10698,7 +10816,7 @@
     "title": "See-Through",
     "label": "Balmat",
     "releaseDate": "2026-01-01",
-    "description": "A electronic album from Patricia Wolf, released via Balmat. Pending final write-up.",
+    "description": "Twelve pieces of ambient and abstract electronics from the Portland sound artist, landing on Balmat where her field, recording sensibility fits neatly alongside the label's quieter end. For anyone who followed Lichen down the rabbit hole.",
     "tags": [
       "electronic"
     ],
@@ -10722,8 +10840,7 @@
       "bg": "#111110",
       "fg": "#f2efe8",
       "motif": "disc"
-    },
-    "descriptionPreview": true
+    }
   },
   {
     "id": "black-heat-no-time-to-burn",
@@ -10732,7 +10849,7 @@
     "title": "No Time To Burn",
     "label": "Strongly Felt",
     "releaseDate": "2026-01-01",
-    "description": "Black Heat drops a album on Strongly Felt, leaning funk / soul. Description still in the queue.",
+    "description": "Atlantic dusts off the 1974 Black Heat LP, nine tracks of horn, led DC funk with the loose, gospel, leaning swing that kept the band a crate, digger staple long after the original pressing went scarce. For anyone who wore out the Mr. Bongo reissues.",
     "tags": [
       "funk / soul"
     ],
@@ -10757,8 +10874,7 @@
       "bg": "#111110",
       "fg": "#f2efe8",
       "motif": "disc"
-    },
-    "descriptionPreview": true
+    }
   },
   {
     "id": "aloisius-2-vernacular",
@@ -17764,6 +17880,41 @@
     "pressMentions": []
   },
   {
+    "id": "r-j-f-cleaning-out-the-empty-administration-building",
+    "type": "album",
+    "artist": "R.J.F.",
+    "title": "Cleaning Out The Empty Administration Building",
+    "label": "Dais Records",
+    "releaseDate": "2025-08-15",
+    "description": "",
+    "tags": [
+      "electronic"
+    ],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=R.J.F.%20Cleaning%20Out%20The%20Empty%20Administration%20Building&item_type=a",
+      "spotify": "https://open.spotify.com/search/R.J.F.%20Cleaning%20Out%20The%20Empty%20Administration%20Building",
+      "soundcloud": "https://soundcloud.com/search?q=R.J.F.%20Cleaning%20Out%20The%20Empty%20Administration%20Building",
+      "youtube": "https://www.youtube.com/results?search_query=R.J.F.%20Cleaning%20Out%20The%20Empty%20Administration%20Building",
+      "deezer": "https://www.deezer.com/album/755761131",
+      "apple": "https://music.apple.com/us/album/cleaning-out-the-empty-administration-building/1813969501?uo=4"
+    },
+    "embed": {
+      "provider": "apple",
+      "src": "https://embed.music.apple.com/us/album/1813969501?theme=light",
+      "height": 450
+    },
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://i.discogs.com/zJ9KPN72BCUhKIUVDW-JSMMMUSkSIFrCed7rfx8BQJY/rs:fit/g:sm/q:90/h:596/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM0ODIy/MDc5LTE3NTUyNDc2/NTYtODI1OS5qcGVn.jpeg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
     "id": "grimwig-the-third-place",
     "type": "single",
     "artist": "Grimwig",
@@ -22730,12 +22881,13 @@
       "spotify": "https://open.spotify.com/search/Hieroglyphic%20Being%20Dance%20Music%204%20Bad%20People",
       "soundcloud": "https://soundcloud.com/search?q=Hieroglyphic%20Being%20Dance%20Music%204%20Bad%20People",
       "youtube": "https://www.youtube.com/results?search_query=Hieroglyphic%20Being%20Dance%20Music%204%20Bad%20People",
-      "deezer": "https://www.deezer.com/album/702707801"
+      "deezer": "https://www.deezer.com/album/702707801",
+      "apple": "https://music.apple.com/us/album/dance-music-4-bad-people/1792436986?uo=4"
     },
     "embed": {
-      "provider": "deezer",
-      "src": "https://widget.deezer.com/widget/light/album/702707801",
-      "height": 300
+      "provider": "apple",
+      "src": "https://embed.music.apple.com/us/album/1792436986?theme=light",
+      "height": 450
     },
     "musicVideoUrl": null,
     "status": "pending",
@@ -22764,12 +22916,13 @@
       "spotify": "https://open.spotify.com/search/Ash%20Fure%20Animal",
       "soundcloud": "https://soundcloud.com/search?q=Ash%20Fure%20Animal",
       "youtube": "https://www.youtube.com/results?search_query=Ash%20Fure%20Animal",
-      "deezer": "https://www.deezer.com/album/750493241"
+      "deezer": "https://www.deezer.com/album/750493241",
+      "apple": "https://music.apple.com/us/album/animal/1811835252?uo=4"
     },
     "embed": {
-      "provider": "deezer",
-      "src": "https://widget.deezer.com/widget/light/album/750493241",
-      "height": 300
+      "provider": "apple",
+      "src": "https://embed.music.apple.com/us/album/1811835252?theme=light",
+      "height": 450
     },
     "musicVideoUrl": null,
     "status": "pending",
@@ -23232,12 +23385,13 @@
       "spotify": "https://open.spotify.com/search/Indopan%20In%20Opulence",
       "soundcloud": "https://soundcloud.com/search?q=Indopan%20In%20Opulence",
       "youtube": "https://www.youtube.com/results?search_query=Indopan%20In%20Opulence",
-      "deezer": "https://www.deezer.com/album/707988601"
+      "deezer": "https://www.deezer.com/album/707988601",
+      "apple": "https://music.apple.com/us/album/in-opulence/1794347393?uo=4"
     },
     "embed": {
-      "provider": "deezer",
-      "src": "https://widget.deezer.com/widget/light/album/707988601",
-      "height": 300
+      "provider": "apple",
+      "src": "https://embed.music.apple.com/us/album/1794347393?theme=light",
+      "height": 450
     },
     "musicVideoUrl": null,
     "status": "pending",
@@ -23380,6 +23534,40 @@
     "status": "pending",
     "approvedAt": null,
     "coverImageUrl": "https://i.discogs.com/d0pw5xgqXVHgMCGvABUk2NsWMyafZu6g8GTKpl8QAp4/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTMzNjk0/MjI3LTE3NDQ2MjE3/MjgtNzc2NS5qcGVn.jpeg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
+    "id": "umru-matter-of-time",
+    "type": "ep",
+    "artist": "umru",
+    "title": "Matter Of Time",
+    "label": "LuckyMe",
+    "releaseDate": "2025-04-04",
+    "description": "",
+    "tags": [
+      "electronic"
+    ],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=umru%20Matter%20Of%20Time&item_type=a",
+      "spotify": "https://open.spotify.com/search/umru%20Matter%20Of%20Time",
+      "soundcloud": "https://soundcloud.com/search?q=umru%20Matter%20Of%20Time",
+      "youtube": "https://www.youtube.com/results?search_query=umru%20Matter%20Of%20Time",
+      "deezer": "https://www.deezer.com/album/712660551"
+    },
+    "embed": {
+      "provider": "deezer",
+      "src": "https://widget.deezer.com/widget/light/album/712660551",
+      "height": 300
+    },
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://i.discogs.com/F87ACU5YR2wfNBOyojt4jptMmX_0hmdIyttpSyrWsk8/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTMzODc5/MTg2LTE3NDYyODY5/OTUtNTczMS5qcGVn.jpeg",
     "cover": {
       "bg": "#111110",
       "fg": "#f2efe8",
@@ -25038,6 +25226,41 @@
     "pressMentions": []
   },
   {
+    "id": "sunareht-poly-armour",
+    "type": "ep",
+    "artist": "Sunareht",
+    "title": "Poly Armour",
+    "label": "LuckyMe",
+    "releaseDate": "2025-02-28",
+    "description": "",
+    "tags": [
+      "electronic"
+    ],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=Sunareht%20Poly%20Armour&item_type=a",
+      "spotify": "https://open.spotify.com/search/Sunareht%20Poly%20Armour",
+      "soundcloud": "https://soundcloud.com/search?q=Sunareht%20Poly%20Armour",
+      "youtube": "https://www.youtube.com/results?search_query=Sunareht%20Poly%20Armour",
+      "deezer": "https://www.deezer.com/album/672984131",
+      "apple": "https://music.apple.com/us/album/poly-armour-ep/1781014519?uo=4"
+    },
+    "embed": {
+      "provider": "apple",
+      "src": "https://embed.music.apple.com/us/album/1781014519?theme=light",
+      "height": 450
+    },
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://i.discogs.com/YiI6SoAmS8lApmf9GODnOoWzHJUWIkqjHsrKFBW3LKg/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTMzMzMz/OTA4LTE3NDEzMTA4/NTYtNDk3Ny5qcGVn.jpeg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
     "id": "mpu101-mpu106",
     "type": "album",
     "artist": "MPU101",
@@ -26217,6 +26440,35 @@
     "pressMentions": []
   },
   {
+    "id": "soo-joo-park-no-ghost",
+    "type": "ep",
+    "artist": "Soo Joo Park",
+    "title": "No Ghost",
+    "label": "LuckyMe",
+    "releaseDate": "2025-02-01",
+    "description": "",
+    "tags": [
+      "electronic"
+    ],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=Soo%20Joo%20Park%20No%20Ghost&item_type=a",
+      "spotify": "https://open.spotify.com/search/Soo%20Joo%20Park%20No%20Ghost",
+      "soundcloud": "https://soundcloud.com/search?q=Soo%20Joo%20Park%20No%20Ghost",
+      "youtube": "https://www.youtube.com/results?search_query=Soo%20Joo%20Park%20No%20Ghost"
+    },
+    "embed": null,
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://i.discogs.com/x0zd9YnfkrB9UGjpgLjdciTjNPXuBmpTc30r4cpPdHg/rs:fit/g:sm/q:90/h:598/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTMzNDcy/OTA0LTE3NDI1NzAx/MTAtNDk3MS5qcGVn.jpeg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
     "id": "usof-stay-longer",
     "type": "album",
     "artist": "Usof",
@@ -26266,12 +26518,13 @@
       "spotify": "https://open.spotify.com/search/Netsky%2C%20Cloves%20(2)%20California",
       "soundcloud": "https://soundcloud.com/search?q=Netsky%2C%20Cloves%20(2)%20California",
       "youtube": "https://www.youtube.com/results?search_query=Netsky%2C%20Cloves%20(2)%20California",
-      "deezer": "https://www.deezer.com/album/701186211"
+      "deezer": "https://www.deezer.com/album/701186211",
+      "apple": "https://music.apple.com/us/album/california-single/1790739399?uo=4"
     },
     "embed": {
-      "provider": "deezer",
-      "src": "https://widget.deezer.com/widget/light/album/701186211",
-      "height": 300
+      "provider": "apple",
+      "src": "https://embed.music.apple.com/us/album/1790739399?theme=light",
+      "height": 450
     },
     "musicVideoUrl": null,
     "status": "pending",
@@ -26470,12 +26723,13 @@
       "spotify": "https://open.spotify.com/search/Salami%20Rose%20Joe%20Louis%20Zdenka%202080",
       "soundcloud": "https://soundcloud.com/search?q=Salami%20Rose%20Joe%20Louis%20Zdenka%202080",
       "youtube": "https://www.youtube.com/results?search_query=Salami%20Rose%20Joe%20Louis%20Zdenka%202080",
-      "deezer": "https://www.deezer.com/album/100955232"
+      "deezer": "https://www.deezer.com/album/100955232",
+      "apple": "https://music.apple.com/us/album/zdenka-2080/1469654121?uo=4"
     },
     "embed": {
-      "provider": "deezer",
-      "src": "https://widget.deezer.com/widget/light/album/100955232",
-      "height": 300
+      "provider": "apple",
+      "src": "https://embed.music.apple.com/us/album/1469654121?theme=light",
+      "height": 450
     },
     "musicVideoUrl": null,
     "status": "pending",
@@ -27141,12 +27395,13 @@
       "spotify": "https://open.spotify.com/search/SNFU%20Let's%20Get%20It%20Right%20The%20First%20Time",
       "soundcloud": "https://soundcloud.com/search?q=SNFU%20Let's%20Get%20It%20Right%20The%20First%20Time",
       "youtube": "https://www.youtube.com/results?search_query=SNFU%20Let's%20Get%20It%20Right%20The%20First%20Time",
-      "deezer": "https://www.deezer.com/album/9353046"
+      "deezer": "https://www.deezer.com/album/9353046",
+      "apple": "https://music.apple.com/us/album/lets-get-it-right-the-first-time/932612759?uo=4"
     },
     "embed": {
-      "provider": "deezer",
-      "src": "https://widget.deezer.com/widget/light/album/9353046",
-      "height": 300
+      "provider": "apple",
+      "src": "https://embed.music.apple.com/us/album/932612759?theme=light",
+      "height": 450
     },
     "musicVideoUrl": null,
     "status": "pending",
@@ -32874,6 +33129,40 @@
     "pressMentions": []
   },
   {
+    "id": "eli-keszler-harka-ost",
+    "type": "album",
+    "artist": "Eli Keszler",
+    "title": "Harka OST",
+    "label": "LuckyMe",
+    "releaseDate": "2024-06-28",
+    "description": "",
+    "tags": [
+      "electronic"
+    ],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=Eli%20Keszler%20Harka%20OST&item_type=a",
+      "spotify": "https://open.spotify.com/search/Eli%20Keszler%20Harka%20OST",
+      "soundcloud": "https://soundcloud.com/search?q=Eli%20Keszler%20Harka%20OST",
+      "youtube": "https://www.youtube.com/results?search_query=Eli%20Keszler%20Harka%20OST",
+      "deezer": "https://www.deezer.com/album/598111552"
+    },
+    "embed": {
+      "provider": "deezer",
+      "src": "https://widget.deezer.com/widget/light/album/598111552",
+      "height": 300
+    },
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://i.discogs.com/6aj-vIwMzHwLqYpmIYI43mv-Ux4TA_YfjS9dPNBqyqE/rs:fit/g:sm/q:90/h:500/w:500/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTMxNjQy/Mzk2LTE3MjUzNjI0/NjItMTEwMi5qcGVn.jpeg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
     "id": "jensen-interceptor-2-thermaic-rise",
     "type": "ep",
     "artist": "Jensen Interceptor (2)",
@@ -36252,6 +36541,40 @@
     "status": "pending",
     "approvedAt": null,
     "coverImageUrl": "https://i.discogs.com/yOfriYisvjH0HedSxWu12TjMXjc3WQn0NMKlgCi2dmk/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI5Njc0/NzIzLTE3MDY4OTA5/NTItNTQxMC5qcGVn.jpeg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
+    "id": "sunareht-youth-ep",
+    "type": "ep",
+    "artist": "Sunareht",
+    "title": "Youth EP",
+    "label": "LuckyMe",
+    "releaseDate": "2024-02-02",
+    "description": "",
+    "tags": [
+      "electronic"
+    ],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=Sunareht%20Youth%20EP&item_type=a",
+      "spotify": "https://open.spotify.com/search/Sunareht%20Youth%20EP",
+      "soundcloud": "https://soundcloud.com/search?q=Sunareht%20Youth%20EP",
+      "youtube": "https://www.youtube.com/results?search_query=Sunareht%20Youth%20EP",
+      "deezer": "https://www.deezer.com/album/517267852"
+    },
+    "embed": {
+      "provider": "deezer",
+      "src": "https://widget.deezer.com/widget/light/album/517267852",
+      "height": 300
+    },
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://i.discogs.com/CQvLCTDkNRr0xghvWYDoUfmZzK90khPr2vtVUZHcx6Q/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI5NzQ1/NjY0LTE3MDc0ODI5/MDktNDE2Ni5qcGVn.jpeg",
     "cover": {
       "bg": "#111110",
       "fg": "#f2efe8",

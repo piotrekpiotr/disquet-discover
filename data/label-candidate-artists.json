@@ -7717,7 +7717,8 @@
       "LuckyMe"
     ],
     "titleExamples": [
-      "Eli Keszler"
+      "Eli Keszler",
+      "Harka OST"
     ]
   },
   "Jacques Greene + Nosaj Thing Present Verses GT": {
@@ -7733,7 +7734,9 @@
       "LuckyMe"
     ],
     "titleExamples": [
-      "Youth Remixes"
+      "Youth Remixes",
+      "Poly Armour",
+      "Youth EP"
     ]
   },
   "Nosaj Thing & Jacques Greene": {
@@ -7766,6 +7769,30 @@
     ],
     "titleExamples": [
       "1st Light"
+    ]
+  },
+  "umru": {
+    "seenOn": [
+      "LuckyMe"
+    ],
+    "titleExamples": [
+      "Matter Of Time"
+    ]
+  },
+  "Soo Joo Park": {
+    "seenOn": [
+      "LuckyMe"
+    ],
+    "titleExamples": [
+      "No Ghost"
+    ]
+  },
+  "R.J.F.": {
+    "seenOn": [
+      "Dais Records"
+    ],
+    "titleExamples": [
+      "Cleaning Out The Empty Administration Building"
     ]
   }
 }
