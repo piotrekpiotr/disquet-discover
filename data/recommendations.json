@@ -1277,6 +1277,34 @@
     ]
   },
   {
+    "id": "priori-fold",
+    "type": "album",
+    "artist": "Priori",
+    "title": "Fold",
+    "label": "",
+    "releaseDate": "2026-04-30",
+    "description": "Another long, player from the Montreal producer whose work for NAFF and ESP Institute has steadily refined a kind of damp, melodic club music that sounds half, dissolved. Worth checking if Francis Latreille's earlier records still get regular plays.",
+    "tags": [],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=Priori%20Fold&item_type=a",
+      "spotify": "https://open.spotify.com/search/Priori%20Fold",
+      "soundcloud": "https://soundcloud.com/search?q=Priori%20Fold",
+      "youtube": "https://www.youtube.com/results?search_query=Priori%20Fold",
+      "deezer": "https://www.deezer.com/album/915365741"
+    },
+    "embed": null,
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://cdn-images.dzcdn.net/images/cover/450d8979fe8e522e69b96aa4a365495b/1000x1000-000000-80-0-0.jpg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
     "id": "martyn-duval-timothy-no-one-plays-the-game",
     "type": "single",
     "artist": "Martyn & Duval Timothy",
@@ -1337,6 +1365,101 @@
     "status": "pending",
     "approvedAt": null,
     "coverImageUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/8a/ef/17/8aef17e2-917c-0336-78c8-4a0c2c132475/5056818808685.png/600x600bb.jpg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
+    "id": "nosaj-thing-devoted-curve",
+    "type": "single",
+    "artist": "Nosaj Thing",
+    "title": "Devoted / Curve",
+    "label": "",
+    "releaseDate": "2026-04-29",
+    "description": "Two new Nosaj Thing tracks paired on a single, working in the same brittle, melancholic beat register he's been mapping since Drift. For anyone whose Daedelus and Shlohmo records still get pulled down regularly.",
+    "tags": [],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=Nosaj%20Thing%20Devoted%20%2F%20Curve&item_type=a",
+      "spotify": "https://open.spotify.com/search/Nosaj%20Thing%20Devoted%20%2F%20Curve",
+      "soundcloud": "https://soundcloud.com/search?q=Nosaj%20Thing%20Devoted%20%2F%20Curve",
+      "youtube": "https://www.youtube.com/results?search_query=Nosaj%20Thing%20Devoted%20%2F%20Curve",
+      "deezer": "https://www.deezer.com/album/942681181"
+    },
+    "embed": null,
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://cdn-images.dzcdn.net/images/cover/bce62f2d50f6f43081673793e7756274/1000x1000-000000-80-0-0.jpg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
+    "id": "nia-archives-boys-in-blue",
+    "type": "single",
+    "artist": "Nia Archives",
+    "title": "Boys In Blue",
+    "label": "",
+    "releaseDate": "2026-04-29",
+    "description": "New single from Nia Archives, who has spent the last few years reshaping jungle into something closer to a singer, songwriter format without losing the breakbeat. File alongside the rest of her HIJINXX run.",
+    "tags": [],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=Nia%20Archives%20Boys%20In%20Blue&item_type=a",
+      "spotify": "https://open.spotify.com/search/Nia%20Archives%20Boys%20In%20Blue",
+      "soundcloud": "https://soundcloud.com/search?q=Nia%20Archives%20Boys%20In%20Blue",
+      "youtube": "https://www.youtube.com/results?search_query=Nia%20Archives%20Boys%20In%20Blue",
+      "deezer": "https://www.deezer.com/album/967374231"
+    },
+    "embed": {
+      "provider": "deezer",
+      "src": "https://widget.deezer.com/widget/light/album/967374231",
+      "height": 300
+    },
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://cdn-images.dzcdn.net/images/cover/467ce8bb909aa598558c25b2cb1d3407/1000x1000-000000-80-0-0.jpg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
+    "id": "robyn-ca7riel-paco-amoroso-blow-my-mind-ca7riel-paco-amoroso-version",
+    "type": "single",
+    "artist": "Robyn & CA7RIEL & Paco Amoroso",
+    "title": "Blow My Mind (CA7RIEL & Paco Amoroso Version)",
+    "label": "Young (5)",
+    "releaseDate": "2026-04-29",
+    "description": "Robyn hands \"Blow My Mind\" to CA7RIEL and Paco Amoroso, who pull the synth, pop frame toward their own off, kilter Buenos Aires sensibility. A one, track digital on Young; curiosity buy more than dancefloor staple.",
+    "tags": [
+      "electronic"
+    ],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=Robyn%20%26%20CA7RIEL%20%26%20Paco%20Amoroso%20Blow%20My%20Mind%20(CA7RIEL%20%26%20Paco%20Amoroso%20Version)&item_type=a",
+      "spotify": "https://open.spotify.com/search/Robyn%20%26%20CA7RIEL%20%26%20Paco%20Amoroso%20Blow%20My%20Mind%20(CA7RIEL%20%26%20Paco%20Amoroso%20Version)",
+      "soundcloud": "https://soundcloud.com/search?q=Robyn%20%26%20CA7RIEL%20%26%20Paco%20Amoroso%20Blow%20My%20Mind%20(CA7RIEL%20%26%20Paco%20Amoroso%20Version)",
+      "youtube": "https://www.youtube.com/results?search_query=Robyn%20%26%20CA7RIEL%20%26%20Paco%20Amoroso%20Blow%20My%20Mind%20(CA7RIEL%20%26%20Paco%20Amoroso%20Version)",
+      "deezer": "https://www.deezer.com/album/963988651",
+      "apple": "https://music.apple.com/us/album/blow-my-mind-ca7riel-paco-amoroso-version-single/1894344139?uo=4"
+    },
+    "embed": {
+      "provider": "apple",
+      "src": "https://embed.music.apple.com/us/album/1894344139?theme=light",
+      "height": 450
+    },
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://i.discogs.com/a2TdLwHahi5Ak1_ogDAguywTQ3HuIu-dH4v37E6EVvI/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM3MjM3/NDgyLTE3Nzc3Nzg1/MTgtOTUyMC5qcGVn.jpeg",
     "cover": {
       "bg": "#111110",
       "fg": "#f2efe8",
@@ -1672,7 +1795,9 @@
       "fg": "#f2efe8",
       "motif": "disc"
     },
-    "pressMentions": []
+    "pressMentions": [
+      "ra"
+    ]
   },
   {
     "id": "eliana-glass-e-at-home",
@@ -2065,6 +2190,41 @@
     "status": "pending",
     "approvedAt": null,
     "coverImageUrl": null,
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": [
+      "pitchfork_albums"
+    ]
+  },
+  {
+    "id": "quiet-light-blue-angel-sparkling-silver-2",
+    "type": "album",
+    "artist": "Quiet Light",
+    "title": "Blue Angel Sparkling Silver 2",
+    "label": "True Panther Records",
+    "releaseDate": "2026-04-24",
+    "description": "Twenty seven tracks of dream pop and studio experiment from Quiet Light, landing on True Panther at album length but built from sketch, sized pieces. Best treated as one long sit rather than picked through.",
+    "tags": [],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=Quiet%20Light%20Blue%20Angel%20Sparkling%20Silver%202&item_type=a",
+      "spotify": "https://open.spotify.com/search/Quiet%20Light%20Blue%20Angel%20Sparkling%20Silver%202",
+      "soundcloud": "https://soundcloud.com/search?q=Quiet%20Light%20Blue%20Angel%20Sparkling%20Silver%202",
+      "youtube": "https://www.youtube.com/results?search_query=Quiet%20Light%20Blue%20Angel%20Sparkling%20Silver%202",
+      "deezer": "https://www.deezer.com/album/896169412",
+      "apple": "https://music.apple.com/us/album/blue-angel-sparkling-silver/1697042651?uo=4"
+    },
+    "embed": {
+      "provider": "apple",
+      "src": "https://embed.music.apple.com/us/album/1697042651?theme=light",
+      "height": 450
+    },
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://cdn-images.dzcdn.net/images/cover/dc4b61f335ea8807e31ed6885c2f6b50/1000x1000-000000-80-0-0.jpg",
     "cover": {
       "bg": "#111110",
       "fg": "#f2efe8",
@@ -4192,7 +4352,9 @@
       "fg": "#f2efe8",
       "motif": "disc"
     },
-    "pressMentions": []
+    "pressMentions": [
+      "ra"
+    ]
   },
   {
     "id": "james-k-doom-bikini-hesaitix-remix",
@@ -4224,7 +4386,9 @@
       "fg": "#f2efe8",
       "motif": "disc"
     },
-    "pressMentions": []
+    "pressMentions": [
+      "ra"
+    ]
   },
   {
     "id": "plaid-come-unprepared",
@@ -10883,7 +11047,7 @@
     "title": "vernacular",
     "label": "life is beautiful records",
     "releaseDate": "2026-01-01",
-    "description": "Aloisius (2)'s latest album on life is beautiful records occupies the electronic space. Editorial copy still in draft.",
+    "description": "Seven tracks from Aloisius on Life Is Beautiful, sitting in the seam between electronic processing, rock instrumentation and modern classical writing. Experimental in the literal sense, less a genre tag than a working method.",
     "tags": [
       "electronic"
     ],
@@ -10907,8 +11071,7 @@
       "bg": "#111110",
       "fg": "#f2efe8",
       "motif": "disc"
-    },
-    "descriptionPreview": true
+    }
   },
   {
     "id": "gazzara-the-world-of-gazzara",
@@ -10917,7 +11080,7 @@
     "title": "The World Of Gazzara",
     "label": "Irma Records",
     "releaseDate": "2026-01-01",
-    "description": "",
+    "description": "Fifteen tracks of jazz, funk and acid jazz from the long, running Italian producer, landing where you'd expect it to land: Irma, the Bologna label that has been mining this exact seam since the late eighties. For the Montefiori Cocktail crowd.",
     "tags": [
       "jazz"
     ],
@@ -10950,7 +11113,7 @@
     "title": "Call Sign Cobra II",
     "label": "Snappy Little Numbers",
     "releaseDate": "2026-01-01",
-    "description": "",
+    "description": "Ten tracks of straight, ahead punk rock and roll, remastered and given a limited LP pressing through Snappy Little Numbers. The kind of record that lives or dies on the riff, and seems content with that arrangement.",
     "tags": [
       "rock"
     ],
@@ -10983,7 +11146,7 @@
     "title": "Confield = コンフィールド",
     "label": "Warp Records",
     "releaseDate": "2026-01-01",
-    "description": "",
+    "description": "Warp reissues the 2001 record where Autechre fully committed to algorithmic composition, rhythms generated rather than programmed and melody dissolving into structure. Still the album that splits the IDM canon cleanly into before and after.",
     "tags": [
       "electronic"
     ],
@@ -11012,7 +11175,7 @@
     "title": "1977: The Manny Martinez Tapes",
     "label": "Really Wasted Youth",
     "releaseDate": "2026-01-01",
-    "description": "",
+    "description": "Thirty, four tracks of 1977, vintage Misfits rehearsals attributed to original drummer Manny Martinez, surfacing as an unofficial limited pressing on Really Wasted Youth. Strictly for collectors already deep into the Glenn Danzig pre, Static Age archaeology.",
     "tags": [
       "rock"
     ],
@@ -11041,7 +11204,7 @@
     "title": "Away",
     "label": "Youth Riot",
     "releaseDate": "2026-01-01",
-    "description": "",
+    "description": "Eleven tracks of warped indie rock from the Vancouver outfit, landing on Youth Riot. Guitars still bend at strange angles, songwriting still buried under the noise on purpose.",
     "tags": [
       "rock"
     ],
@@ -11076,7 +11239,7 @@
     "title": "Blessed The Evolution",
     "label": "Mind Spray Records",
     "releaseDate": "2026-01-01",
-    "description": "",
+    "description": "Sixteen tracks of unrepentant boom bap from the Gang Starr Foundation veteran, self, released through Mind Spray. Jeru's lane has not moved, and that is the point.",
     "tags": [
       "hip hop"
     ],
@@ -11105,7 +11268,7 @@
     "title": "Break Down The Walls",
     "label": "Revelation Records (8)",
     "releaseDate": "2026-01-01",
-    "description": "",
+    "description": "Wishingwell presses up the 1986 Youth Of Today LP again, twelve tracks of straight edge hardcore that effectively set the template for the late, eighties NYHC stampede. Required shelf alongside Gorilla Biscuits.",
     "tags": [
       "rock"
     ],
@@ -11140,7 +11303,7 @@
     "title": "The North Borders",
     "label": "Ninja Tune",
     "releaseDate": "2026-01-01",
-    "description": "",
+    "description": "Ninja Tune press another round of Simon Green's 2013 set, the one where his downtempo widened out into something closer to soul, inflected bass music. Still the cleanest entry point to his catalogue if Black Sands felt too dusk, lit.",
     "tags": [
       "electronic"
     ],
@@ -11175,7 +11338,7 @@
     "title": "Virgin Soil",
     "label": "Young (5)",
     "releaseDate": "2026-01-01",
-    "description": "",
+    "description": "Two tracks of art rock pressed to a 45 by 1000 Rabbits for Young, format doing some of the framing here. The 7\" single as deliberate choice rather than budget call.",
     "tags": [
       "rock"
     ],
@@ -11289,6 +11452,41 @@
     "status": "pending",
     "approvedAt": null,
     "coverImageUrl": "https://i.discogs.com/SmM71qkEoalq4UIid47YZQcWDrHFezBuljyXT8w-zTg/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM3MTY4/NDE5LTE3NzcxMDUw/NjQtMjIyNC5qcGVn.jpeg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
+    "id": "fumitake-tamura-mijin",
+    "type": "album",
+    "artist": "Fumitake Tamura",
+    "title": "Mijin",
+    "label": "Leaving Records",
+    "releaseDate": "2026-01-01",
+    "description": "",
+    "tags": [
+      "hip hop"
+    ],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=Fumitake%20Tamura%20Mijin&item_type=a",
+      "spotify": "https://open.spotify.com/search/Fumitake%20Tamura%20Mijin",
+      "soundcloud": "https://soundcloud.com/search?q=Fumitake%20Tamura%20Mijin",
+      "youtube": "https://www.youtube.com/results?search_query=Fumitake%20Tamura%20Mijin",
+      "deezer": "https://www.deezer.com/album/879471482",
+      "apple": "https://music.apple.com/us/album/mijin/1862224258?uo=4"
+    },
+    "embed": {
+      "provider": "apple",
+      "src": "https://embed.music.apple.com/us/album/1862224258?theme=light",
+      "height": 450
+    },
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://i.discogs.com/wZ01EuUrd07rLGiUypT_697tS_aKoy3060m0LCk7hiY/rs:fit/g:sm/q:90/h:550/w:552/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM3MjM1/MTUxLTE3Nzc3NTEy/NTctMTIyMC5qcGVn.jpeg",
     "cover": {
       "bg": "#111110",
       "fg": "#f2efe8",
@@ -16822,7 +17020,9 @@
       "fg": "#f2efe8",
       "motif": "disc"
     },
-    "pressMentions": []
+    "pressMentions": [
+      "ra"
+    ]
   },
   {
     "id": "flur-2-plunge",
@@ -21902,6 +22102,41 @@
     "pressMentions": []
   },
   {
+    "id": "moin-2-belly-up",
+    "type": "ep",
+    "artist": "Moin (2)",
+    "title": "Belly Up",
+    "label": "AD 93",
+    "releaseDate": "2025-05-08",
+    "description": "",
+    "tags": [
+      "electronic"
+    ],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=Moin%20(2)%20Belly%20Up&item_type=a",
+      "spotify": "https://open.spotify.com/search/Moin%20(2)%20Belly%20Up",
+      "soundcloud": "https://soundcloud.com/search?q=Moin%20(2)%20Belly%20Up",
+      "youtube": "https://www.youtube.com/results?search_query=Moin%20(2)%20Belly%20Up",
+      "deezer": "https://www.deezer.com/album/725636271",
+      "apple": "https://music.apple.com/us/album/belly-up-ep/1801497703?uo=4"
+    },
+    "embed": {
+      "provider": "apple",
+      "src": "https://embed.music.apple.com/us/album/1801497703?theme=light",
+      "height": 450
+    },
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://i.discogs.com/nVAedk7UPP_1FfnEtsggFXMIFgJ5pN8izUW2wXO9R_0/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTMzOTUw/ODkyLTE3NDY5Njkw/MTQtOTk2MC5wbmc.jpeg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
     "id": "ace-box-shift-ace-box-sneak-100-eldorado",
     "type": "single",
     "artist": "Ace Box Shift",
@@ -23454,12 +23689,13 @@
       "spotify": "https://open.spotify.com/search/NTsKi%20Calla",
       "soundcloud": "https://soundcloud.com/search?q=NTsKi%20Calla",
       "youtube": "https://www.youtube.com/results?search_query=NTsKi%20Calla",
-      "deezer": "https://www.deezer.com/album/504195281"
+      "deezer": "https://www.deezer.com/album/504195281",
+      "apple": "https://music.apple.com/us/album/calla/1713342212?uo=4"
     },
     "embed": {
-      "provider": "deezer",
-      "src": "https://widget.deezer.com/widget/light/album/504195281",
-      "height": 300
+      "provider": "apple",
+      "src": "https://embed.music.apple.com/us/album/1713342212?theme=light",
+      "height": 450
     },
     "musicVideoUrl": null,
     "status": "pending",
@@ -23557,12 +23793,13 @@
       "spotify": "https://open.spotify.com/search/umru%20Matter%20Of%20Time",
       "soundcloud": "https://soundcloud.com/search?q=umru%20Matter%20Of%20Time",
       "youtube": "https://www.youtube.com/results?search_query=umru%20Matter%20Of%20Time",
-      "deezer": "https://www.deezer.com/album/712660551"
+      "deezer": "https://www.deezer.com/album/712660551",
+      "apple": "https://music.apple.com/us/album/matter-of-time-ep/1796266111?uo=4"
     },
     "embed": {
-      "provider": "deezer",
-      "src": "https://widget.deezer.com/widget/light/album/712660551",
-      "height": 300
+      "provider": "apple",
+      "src": "https://embed.music.apple.com/us/album/1796266111?theme=light",
+      "height": 450
     },
     "musicVideoUrl": null,
     "status": "pending",
@@ -26606,6 +26843,40 @@
     "pressMentions": []
   },
   {
+    "id": "maribou-state-hallucinating-love",
+    "type": "album",
+    "artist": "Maribou State",
+    "title": "Hallucinating Love",
+    "label": "Ninja Tune",
+    "releaseDate": "2025-01-31",
+    "description": "",
+    "tags": [
+      "electronic"
+    ],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=Maribou%20State%20Hallucinating%20Love&item_type=a",
+      "spotify": "https://open.spotify.com/search/Maribou%20State%20Hallucinating%20Love",
+      "soundcloud": "https://soundcloud.com/search?q=Maribou%20State%20Hallucinating%20Love",
+      "youtube": "https://www.youtube.com/results?search_query=Maribou%20State%20Hallucinating%20Love",
+      "deezer": "https://www.deezer.com/album/651022381"
+    },
+    "embed": {
+      "provider": "deezer",
+      "src": "https://widget.deezer.com/widget/light/album/651022381",
+      "height": 300
+    },
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://i.discogs.com/59uIU_4TLQW7j9avGQHt6a_2rLoLoWNxAuYQWykLXSs/rs:fit/g:sm/q:90/h:596/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTMzMDA4/MTAzLTE3MzgzNDIy/ODItMjIzMy5qcGVn.jpeg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
     "id": "sunareht-youth-remixes",
     "type": "ep",
     "artist": "Sunareht",
@@ -26621,12 +26892,13 @@
       "spotify": "https://open.spotify.com/search/Sunareht%20Youth%20Remixes",
       "soundcloud": "https://soundcloud.com/search?q=Sunareht%20Youth%20Remixes",
       "youtube": "https://www.youtube.com/results?search_query=Sunareht%20Youth%20Remixes",
-      "deezer": "https://www.deezer.com/album/695586631"
+      "deezer": "https://www.deezer.com/album/695586631",
+      "apple": "https://music.apple.com/us/album/youth-remixes-ep/1789758309?uo=4"
     },
     "embed": {
-      "provider": "deezer",
-      "src": "https://widget.deezer.com/widget/light/album/695586631",
-      "height": 300
+      "provider": "apple",
+      "src": "https://embed.music.apple.com/us/album/1789758309?theme=light",
+      "height": 450
     },
     "musicVideoUrl": null,
     "status": "pending",
@@ -30357,6 +30629,41 @@
     "pressMentions": []
   },
   {
+    "id": "tyson-28-chaos-ep",
+    "type": "ep",
+    "artist": "Tyson (28)",
+    "title": "Chaos EP",
+    "label": "LuckyMe",
+    "releaseDate": "2024-11-15",
+    "description": "",
+    "tags": [
+      "electronic"
+    ],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=Tyson%20(28)%20Chaos%20EP&item_type=a",
+      "spotify": "https://open.spotify.com/search/Tyson%20(28)%20Chaos%20EP",
+      "soundcloud": "https://soundcloud.com/search?q=Tyson%20(28)%20Chaos%20EP",
+      "youtube": "https://www.youtube.com/results?search_query=Tyson%20(28)%20Chaos%20EP",
+      "deezer": "https://www.deezer.com/album/607279502",
+      "apple": "https://music.apple.com/us/album/chaos-ep/1754196949?uo=4"
+    },
+    "embed": {
+      "provider": "apple",
+      "src": "https://embed.music.apple.com/us/album/1754196949?theme=light",
+      "height": 450
+    },
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://i.discogs.com/ZGinH3V1Y_eGEHkF26efVG8kx8Z-4Cz6xDOkI1LjwJc/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTMyNzg4/OTU2LTE3MzYzNTky/NTUtMTUyOS5qcGVn.jpeg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
     "id": "tenebre-basic-shapes",
     "type": "ep",
     "artist": "Ténèbre",
@@ -30896,6 +31203,41 @@
     "status": "pending",
     "approvedAt": null,
     "coverImageUrl": "https://i.discogs.com/vrKxrdotebLT-CaEeyPzkUl5sDYDvjtCPOfDdtAdvUQ/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTMyMDk3/NTY3LTE3Mjk4MjM3/NDktODA2NS5qcGVn.jpeg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
+    "id": "nathan-micay-blue-spring-5-year-epilogue",
+    "type": "single",
+    "artist": "Nathan Micay",
+    "title": "Blue Spring: 5 Year Epilogue",
+    "label": "LuckyMe",
+    "releaseDate": "2024-10-23",
+    "description": "",
+    "tags": [
+      "electronic"
+    ],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=Nathan%20Micay%20Blue%20Spring%3A%205%20Year%20Epilogue&item_type=a",
+      "spotify": "https://open.spotify.com/search/Nathan%20Micay%20Blue%20Spring%3A%205%20Year%20Epilogue",
+      "soundcloud": "https://soundcloud.com/search?q=Nathan%20Micay%20Blue%20Spring%3A%205%20Year%20Epilogue",
+      "youtube": "https://www.youtube.com/results?search_query=Nathan%20Micay%20Blue%20Spring%3A%205%20Year%20Epilogue",
+      "deezer": "https://www.deezer.com/album/633309041",
+      "apple": "https://music.apple.com/us/album/blue-spring-5-year-epilogue-single/1764646709?uo=4"
+    },
+    "embed": {
+      "provider": "apple",
+      "src": "https://embed.music.apple.com/us/album/1764646709?theme=light",
+      "height": 450
+    },
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://i.discogs.com/zSpjTJnItSKEyHQ5WhC2OWdQ3uY1gwxcrjCKtZCGMes/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTMyMTkw/Nzk4LTE3MzA2ODAx/NjItODI4OS5qcGVn.jpeg",
     "cover": {
       "bg": "#111110",
       "fg": "#f2efe8",
@@ -32889,6 +33231,40 @@
     "pressMentions": []
   },
   {
+    "id": "kucka-can-you-hear-me-dreaming",
+    "type": "album",
+    "artist": "Kučka",
+    "title": "Can You Hear Me Dreaming?",
+    "label": "LuckyMe",
+    "releaseDate": "2024-07-12",
+    "description": "",
+    "tags": [
+      "electronic"
+    ],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=Ku%C4%8Dka%20Can%20You%20Hear%20Me%20Dreaming%3F&item_type=a",
+      "spotify": "https://open.spotify.com/search/Ku%C4%8Dka%20Can%20You%20Hear%20Me%20Dreaming%3F",
+      "soundcloud": "https://soundcloud.com/search?q=Ku%C4%8Dka%20Can%20You%20Hear%20Me%20Dreaming%3F",
+      "youtube": "https://www.youtube.com/results?search_query=Ku%C4%8Dka%20Can%20You%20Hear%20Me%20Dreaming%3F",
+      "deezer": "https://www.deezer.com/album/557167902"
+    },
+    "embed": {
+      "provider": "deezer",
+      "src": "https://widget.deezer.com/widget/light/album/557167902",
+      "height": 300
+    },
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://i.discogs.com/Q1tdB99MSEHueM0jeOHD5jepDEagl4ssWpsffeN7wkQ/rs:fit/g:sm/q:90/h:594/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTMxMjYx/NTc2LTE3MjE1NzY4/OTYtMTkzOS5qcGVn.jpeg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
     "id": "downstairs-people-dsp",
     "type": "album",
     "artist": "Downstairs People",
@@ -34102,6 +34478,40 @@
     "status": "pending",
     "approvedAt": null,
     "coverImageUrl": "https://i.discogs.com/1aw5mDS_v2f0VcoKQI2kKMrefh3Kvv32wyn9V4BHHsQ/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTMwNzM1/MDk3LTE3MTYyMzQ0/MTctOTgxNy5qcGVn.jpeg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
+    "id": "nikki-nair-snake-ep",
+    "type": "ep",
+    "artist": "Nikki Nair",
+    "title": "Snake EP",
+    "label": "LuckyMe",
+    "releaseDate": "2024-05-17",
+    "description": "",
+    "tags": [
+      "electronic"
+    ],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=Nikki%20Nair%20Snake%20EP&item_type=a",
+      "spotify": "https://open.spotify.com/search/Nikki%20Nair%20Snake%20EP",
+      "soundcloud": "https://soundcloud.com/search?q=Nikki%20Nair%20Snake%20EP",
+      "youtube": "https://www.youtube.com/results?search_query=Nikki%20Nair%20Snake%20EP",
+      "deezer": "https://www.deezer.com/album/572549421"
+    },
+    "embed": {
+      "provider": "deezer",
+      "src": "https://widget.deezer.com/widget/light/album/572549421",
+      "height": 300
+    },
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://i.discogs.com/l57DyhLy-ph8npwG8XCBfJE-SC9JQO5-qi1fCzgEgiQ/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTMwNzg0/NjA1LTE3MTY3MjEw/MDEtNTI0My5qcGVn.jpeg",
     "cover": {
       "bg": "#111110",
       "fg": "#f2efe8",
@@ -37400,9 +37810,14 @@
       "bandcamp": "https://bandcamp.com/search?q=Various%20Best%20Of%20Musique%202024&item_type=a",
       "spotify": "https://open.spotify.com/search/Various%20Best%20Of%20Musique%202024",
       "soundcloud": "https://soundcloud.com/search?q=Various%20Best%20Of%20Musique%202024",
-      "youtube": "https://www.youtube.com/results?search_query=Various%20Best%20Of%20Musique%202024"
+      "youtube": "https://www.youtube.com/results?search_query=Various%20Best%20Of%20Musique%202024",
+      "deezer": "https://www.deezer.com/album/331908717"
     },
-    "embed": null,
+    "embed": {
+      "provider": "deezer",
+      "src": "https://widget.deezer.com/widget/light/album/331908717",
+      "height": 300
+    },
     "musicVideoUrl": null,
     "status": "pending",
     "approvedAt": null,
@@ -37436,6 +37851,40 @@
     "status": "pending",
     "approvedAt": null,
     "coverImageUrl": "https://i.discogs.com/VfsMC7vbCqkJMDvhnWq_q4leUs5veLnL_-Bx8s2uFws/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI5NzMy/MDU2LTE3MDc3OTAx/NzgtODczMy5qcGVn.jpeg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
+    "id": "sevendeaths-concrete-misery-decayed-edition",
+    "type": "album",
+    "artist": "Sevendeaths",
+    "title": "Concreté Misery Decayed Edition",
+    "label": "LuckyMe",
+    "releaseDate": "2024-01-01",
+    "description": "",
+    "tags": [
+      "electronic"
+    ],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=Sevendeaths%20Concret%C3%A9%20Misery%20Decayed%20Edition&item_type=a",
+      "spotify": "https://open.spotify.com/search/Sevendeaths%20Concret%C3%A9%20Misery%20Decayed%20Edition",
+      "soundcloud": "https://soundcloud.com/search?q=Sevendeaths%20Concret%C3%A9%20Misery%20Decayed%20Edition",
+      "youtube": "https://www.youtube.com/results?search_query=Sevendeaths%20Concret%C3%A9%20Misery%20Decayed%20Edition",
+      "deezer": "https://www.deezer.com/album/558852082"
+    },
+    "embed": {
+      "provider": "deezer",
+      "src": "https://widget.deezer.com/widget/light/album/558852082",
+      "height": 300
+    },
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://i.discogs.com/halTnzDTff5AP8R9FrRmpXoZpeBdqOKCZOKB8LGsYMA/rs:fit/g:sm/q:90/h:600/w:394/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI5ODk2/MjkxLTE3MDg2OTcz/MzUtNzQyNS5qcGVn.jpeg",
     "cover": {
       "bg": "#111110",
       "fg": "#f2efe8",
