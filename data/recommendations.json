@@ -1204,6 +1204,36 @@
     ]
   },
   {
+    "id": "amelie-lens-amelie-lens-021-dj-mix",
+    "type": "album",
+    "artist": "Amelie Lens",
+    "title": "Amelie Lens 021 (DJ Mix)",
+    "label": "",
+    "releaseDate": "2026-05-01",
+    "description": "Another entry in Lens's numbered mix series, the Belgian peak, time technician working in the lane she has made unmistakably hers: hard, fast, vocal, flecked, built for rooms that don't sit down.",
+    "tags": [
+      "techno"
+    ],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=Amelie%20Lens%20Amelie%20Lens%20021%20(DJ%20Mix)&item_type=a",
+      "spotify": "https://open.spotify.com/search/Amelie%20Lens%20Amelie%20Lens%20021%20(DJ%20Mix)",
+      "soundcloud": "https://soundcloud.com/search?q=Amelie%20Lens%20Amelie%20Lens%20021%20(DJ%20Mix)",
+      "youtube": "https://www.youtube.com/results?search_query=Amelie%20Lens%20Amelie%20Lens%20021%20(DJ%20Mix)",
+      "apple": "https://music.apple.com/us/album/amelie-lens-021-dj-mix/1893811690"
+    },
+    "embed": null,
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/44/7b/ff/447bff80-e5dd-c885-8caa-461cadb0d458/6f157254-2625-4694-83d6-527d5032cb60.jpg/600x600bb.jpg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
     "id": "jump-source-patrick-holland-priori-fold",
     "type": "album",
     "artist": "Jump Source, Patrick Holland & Priori",
@@ -11373,7 +11403,7 @@
     "title": "Space 1.8",
     "label": "Warp Records",
     "releaseDate": "2026-01-01",
-    "description": "",
+    "description": "Warp pulls Sinephro's harp and modular debut back into print, eight pieces that sit between spiritual jazz and ambient drift without ever forcing the meeting. For anyone who came in late via Endlessness.",
     "tags": [
       "electronic"
     ],
@@ -11408,7 +11438,7 @@
     "title": "Marco Flash - Alex Time - EP Volume 4",
     "label": "AUDIO MUSIC WORLD",
     "releaseDate": "2026-01-01",
-    "description": "",
+    "description": "Six tracks of house, deep house, disco and afrobeat threaded through a single 12\" on Audio Music World. Functional dancefloor material rather than headphone listening, sequenced for working DJs.",
     "tags": [
       "electronic"
     ],
@@ -11437,7 +11467,7 @@
     "title": "Wrap Up A Draw",
     "label": "Youth Promotion",
     "releaseDate": "2026-01-01",
-    "description": "",
+    "description": "Junior Reid back on his own Youth Promotion imprint with a two, sider pressed to 7\" at 45, the kind of singer, and, version artifact the label has run on for decades. Roots vocal collectors know where to file it.",
     "tags": [
       "reggae"
     ],
@@ -11466,7 +11496,7 @@
     "title": "Mijin",
     "label": "Leaving Records",
     "releaseDate": "2026-01-01",
-    "description": "",
+    "description": "Ten tracks of beat, craft from the Tokyo producer once known as Bun, landing on Leaving Records. The Hip Hop tag undersells it; expect the kind of hand, built, slightly off, grid instrumentals that sit comfortably alongside Matthewdavid's catalogue.",
     "tags": [
       "hip hop"
     ],
@@ -11501,7 +11531,7 @@
     "title": "Racional Vol 1",
     "label": "Strongly Felt",
     "releaseDate": "2025-12-30",
-    "description": "",
+    "description": "Another pass at the 1975 Racional sessions, the cult Brazilian funk, soul record Maia made while inside the Universo em Desencanto sect. Heavy, sweat, soaked grooves with the strangest lyrical premise in his catalogue; an unofficial LP for the curious.",
     "tags": [
       "latin"
     ],
@@ -11535,7 +11565,7 @@
     "title": "Blue Magic",
     "label": "Strongly Felt",
     "releaseDate": "2025-12-30",
-    "description": "",
+    "description": "Atlantic reissues the Philly soul group's self, titled set in a remastered, limited pressing, nine tracks of sweet ballads and lightly disco, tilted R&B from the Norman Harris orbit. For anyone shelving alongside Blue Notes or Delfonics.",
     "tags": [
       "funk / soul"
     ],
@@ -11570,7 +11600,7 @@
     "title": "Middle Man",
     "label": "Felt Sense Recordings",
     "releaseDate": "2025-12-29",
-    "description": "",
+    "description": "Five tracks of clipped, glitch, leaning minimal that sit closer to the tech house dancefloor than to laptop abstraction. Felt Sense keeping things lean; for anyone tracking the lineage from Perlon through to the current Sushitech crowd.",
     "tags": [
       "electronic"
     ],
@@ -11599,7 +11629,7 @@
     "title": "PK & STRAY",
     "label": "Death By Numbers",
     "releaseDate": "2025-12-27",
-    "description": "",
+    "description": "Six tracks of dungeon synth bleeding into hypnagogic indie pop, issued in a limited run by Death By Numbers. The genre tags read like a contradiction; in practice the seam is the point.",
     "tags": [
       "electronic"
     ],
@@ -11633,7 +11663,7 @@
     "title": "Marty Supreme (Original Soundtrack)",
     "label": "A24 Music",
     "releaseDate": "2025-12-25",
-    "description": "Daniel Lopatin drops a album on A24 Music, leaning soundtrack. Description still in the queue.",
+    "description": "Lopatin scoring a Safdie film again, twenty, three cues for A24 Music that lean into the synth register he has spent the last decade refining for screen work. Filed next to the Uncut Gems OST without much argument.",
     "tags": [
       "soundtrack"
     ],
@@ -11658,7 +11688,6 @@
       "fg": "#f2efe8",
       "motif": "disc"
     },
-    "descriptionPreview": true,
     "pressMentions": [
       "pitchfork_best_albums"
     ]
@@ -11670,7 +11699,7 @@
     "title": "Chainsaw Man The Movie: Reze Arc Original Soundtrack -Summer's End-",
     "label": "Mappa Records",
     "releaseDate": "2025-12-24",
-    "description": "",
+    "description": "Ushio scoring the Reze arc for Mappa, thirty cues of the same brittle, processed acoustic palette he brought to Devilman Crybaby and A Silent Voice. Score, as, record rather than fan, service; file with his Liminal Spaces work.",
     "tags": [
       "stage & screen"
     ],
@@ -11704,7 +11733,7 @@
     "title": "live at café blue gelato",
     "label": "",
     "releaseDate": "2025-12-19",
-    "description": "New single from shinetiac. Sits in the electronic corner. Preview description pending editorial review.",
+    "description": "A live document from shinetiac, self, released and tagged only as electronic, which fits the project's habit of putting unrehearsed material out before it has a chance to harden. Treat it as a field recording rather than a finished single.",
     "tags": [
       "electronic"
     ],
@@ -11728,8 +11757,7 @@
       "bg": "#111110",
       "fg": "#f2efe8",
       "motif": "disc"
-    },
-    "descriptionPreview": true
+    }
   },
   {
     "id": "lucrecia-dalt-caes",
@@ -11738,7 +11766,7 @@
     "title": "caes",
     "label": "",
     "releaseDate": "2025-12-19",
-    "description": "Single by Lucrecia Dalt. Filed under alternative. Holding slot for the real description.",
+    "description": "New Lucrecia Dalt, arriving without label info attached, which feels of a piece with her recent run of slow, dub, shadowed song forms where rhythm and voice keep slipping past each other. File alongside her RVNG output.",
     "tags": [
       "alternative"
     ],
@@ -11763,7 +11791,6 @@
       "fg": "#f2efe8",
       "motif": "disc"
     },
-    "descriptionPreview": true,
     "pressMentions": [
       "pitchfork_best_albums"
     ]
@@ -11775,7 +11802,7 @@
     "title": "Beats In Space 189: Call Super (DJ Mix)",
     "label": "",
     "releaseDate": "2025-12-18",
-    "description": "A dance album from Fields of Mist. Pending final write-up.",
+    "description": "Call Super takes the 189th Beats In Space slot, which on past form means a mix that wanders through club registers without ever settling into one lane. File alongside the rest of the BIS guest series.",
     "tags": [
       "dance"
     ],
@@ -11799,8 +11826,7 @@
       "bg": "#111110",
       "fg": "#f2efe8",
       "motif": "disc"
-    },
-    "descriptionPreview": true
+    }
   },
   {
     "id": "rat-heart-2-dancin-in-the-streets",
@@ -11809,7 +11835,7 @@
     "title": "Dancin' In The Streets",
     "label": "Modern Love",
     "releaseDate": "2025-12-18",
-    "description": "",
+    "description": "Twelve tracks of ambient and experimental drift from the Manchester producer, landing on Modern Love where the aesthetic fits like a glove. Closer to the label's Andy Stott end of the shelf than the dancefloor the title suggests.",
     "tags": [
       "electronic"
     ],
@@ -18359,9 +18385,14 @@
       "bandcamp": "https://bandcamp.com/search?q=ACA%20(YU)%20Late%20Night%20Fantasy%20EP&item_type=a",
       "spotify": "https://open.spotify.com/search/ACA%20(YU)%20Late%20Night%20Fantasy%20EP",
       "soundcloud": "https://soundcloud.com/search?q=ACA%20(YU)%20Late%20Night%20Fantasy%20EP",
-      "youtube": "https://www.youtube.com/results?search_query=ACA%20(YU)%20Late%20Night%20Fantasy%20EP"
+      "youtube": "https://www.youtube.com/results?search_query=ACA%20(YU)%20Late%20Night%20Fantasy%20EP",
+      "deezer": "https://www.deezer.com/album/782425411"
     },
-    "embed": null,
+    "embed": {
+      "provider": "deezer",
+      "src": "https://widget.deezer.com/widget/light/album/782425411",
+      "height": 300
+    },
     "musicVideoUrl": null,
     "status": "pending",
     "approvedAt": null,
@@ -34501,12 +34532,13 @@
       "spotify": "https://open.spotify.com/search/Nikki%20Nair%20Snake%20EP",
       "soundcloud": "https://soundcloud.com/search?q=Nikki%20Nair%20Snake%20EP",
       "youtube": "https://www.youtube.com/results?search_query=Nikki%20Nair%20Snake%20EP",
-      "deezer": "https://www.deezer.com/album/572549421"
+      "deezer": "https://www.deezer.com/album/572549421",
+      "apple": "https://music.apple.com/us/album/snake/1740994289?uo=4"
     },
     "embed": {
-      "provider": "deezer",
-      "src": "https://widget.deezer.com/widget/light/album/572549421",
-      "height": 300
+      "provider": "apple",
+      "src": "https://embed.music.apple.com/us/album/1740994289?theme=light",
+      "height": 450
     },
     "musicVideoUrl": null,
     "status": "pending",
@@ -35842,6 +35874,40 @@
     "pressMentions": []
   },
   {
+    "id": "eli-keszler-live-ii",
+    "type": "album",
+    "artist": "Eli Keszler",
+    "title": "LIVE II",
+    "label": "LuckyMe",
+    "releaseDate": "2024-03-22",
+    "description": "",
+    "tags": [
+      "electronic"
+    ],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=Eli%20Keszler%20LIVE%20II&item_type=a",
+      "spotify": "https://open.spotify.com/search/Eli%20Keszler%20LIVE%20II",
+      "soundcloud": "https://soundcloud.com/search?q=Eli%20Keszler%20LIVE%20II",
+      "youtube": "https://www.youtube.com/results?search_query=Eli%20Keszler%20LIVE%20II",
+      "deezer": "https://www.deezer.com/album/434330167"
+    },
+    "embed": {
+      "provider": "deezer",
+      "src": "https://widget.deezer.com/widget/light/album/434330167",
+      "height": 300
+    },
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://i.discogs.com/jAFkxE_xeCGbo3lzX6UWeYfvBCTJCgOJa73_sO6j528/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTMxNjQy/MjcwLTE3MjUzNjEz/OTEtMjI5OC5qcGVn.jpeg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
     "id": "mccoy-tyner-all-star-band-jazz-ost-west-festival-in-nurnberg-1986",
     "type": "ep",
     "artist": "McCoy Tyner All Star Band",
@@ -36974,12 +37040,13 @@
       "spotify": "https://open.spotify.com/search/Sunareht%20Youth%20EP",
       "soundcloud": "https://soundcloud.com/search?q=Sunareht%20Youth%20EP",
       "youtube": "https://www.youtube.com/results?search_query=Sunareht%20Youth%20EP",
-      "deezer": "https://www.deezer.com/album/517267852"
+      "deezer": "https://www.deezer.com/album/517267852",
+      "apple": "https://music.apple.com/us/album/youth-ep/1718641264?uo=4"
     },
     "embed": {
-      "provider": "deezer",
-      "src": "https://widget.deezer.com/widget/light/album/517267852",
-      "height": 300
+      "provider": "apple",
+      "src": "https://embed.music.apple.com/us/album/1718641264?theme=light",
+      "height": 450
     },
     "musicVideoUrl": null,
     "status": "pending",
@@ -37089,6 +37156,40 @@
     "status": "pending",
     "approvedAt": null,
     "coverImageUrl": "https://i.discogs.com/0NEoueNPbGuj4vK6yDNcZVCPMcOeYv3qX8Q5GoQxtr8/rs:fit/g:sm/q:90/h:600/w:553/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI5NTk2/MjI4LTE3MDYxOTkz/MDEtNDY5OC5qcGVn.jpeg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
+    "id": "sunareht-break-bandits",
+    "type": "single",
+    "artist": "Sunareht",
+    "title": "Break Bandits",
+    "label": "LuckyMe",
+    "releaseDate": "2024-01-19",
+    "description": "",
+    "tags": [
+      "electronic"
+    ],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=Sunareht%20Break%20Bandits&item_type=a",
+      "spotify": "https://open.spotify.com/search/Sunareht%20Break%20Bandits",
+      "soundcloud": "https://soundcloud.com/search?q=Sunareht%20Break%20Bandits",
+      "youtube": "https://www.youtube.com/results?search_query=Sunareht%20Break%20Bandits",
+      "deezer": "https://www.deezer.com/album/517137862"
+    },
+    "embed": {
+      "provider": "deezer",
+      "src": "https://widget.deezer.com/widget/light/album/517137862",
+      "height": 300
+    },
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://i.discogs.com/TERU-W1KaBD43RGrsQDnq3JWyE8qQ6Q-8J6ttaFqfVw/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI5NTQ5/MzQxLTE3MDU3ODMy/MDUtMjA0MC5qcGVn.jpeg",
     "cover": {
       "bg": "#111110",
       "fg": "#f2efe8",
@@ -37874,12 +37975,13 @@
       "spotify": "https://open.spotify.com/search/Sevendeaths%20Concret%C3%A9%20Misery%20Decayed%20Edition",
       "soundcloud": "https://soundcloud.com/search?q=Sevendeaths%20Concret%C3%A9%20Misery%20Decayed%20Edition",
       "youtube": "https://www.youtube.com/results?search_query=Sevendeaths%20Concret%C3%A9%20Misery%20Decayed%20Edition",
-      "deezer": "https://www.deezer.com/album/558852082"
+      "deezer": "https://www.deezer.com/album/558852082",
+      "apple": "https://music.apple.com/us/album/concret%C3%A9-misery-decayed-edition/1735343998?uo=4"
     },
     "embed": {
-      "provider": "deezer",
-      "src": "https://widget.deezer.com/widget/light/album/558852082",
-      "height": 300
+      "provider": "apple",
+      "src": "https://embed.music.apple.com/us/album/1735343998?theme=light",
+      "height": 450
     },
     "musicVideoUrl": null,
     "status": "pending",
