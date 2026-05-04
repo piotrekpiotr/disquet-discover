@@ -12330,7 +12330,7 @@
     "title": "Department",
     "label": "INDEX:Records",
     "releaseDate": "2025-12-12",
-    "description": "New single from Department (7), out on INDEX:Records. Sits in the electronic corner. Preview description pending editorial review.",
+    "description": "New material on INDEX:Records under the Department alias, the label continuing its run of leftfield club tools that lean closer to texture than function. Worth a look for anyone tracking the imprint's recent output.",
     "tags": [
       "electronic"
     ],
@@ -12355,8 +12355,7 @@
       "bg": "#111110",
       "fg": "#f2efe8",
       "motif": "disc"
-    },
-    "descriptionPreview": true
+    }
   },
   {
     "id": "fabiano-nascimento-cavejaz",
@@ -12365,7 +12364,7 @@
     "title": "Cavejaz",
     "label": "Leaving Records",
     "releaseDate": "2025-12-12",
-    "description": "",
+    "description": "Thirteen tracks of Brazilian guitar jazz from Fabiano Nascimento, landing on Leaving Records where his quieter bossa leanings have always sat comfortably alongside Carlos Niño's circle. One for the Sam Gendel shelf.",
     "tags": [
       "jazz"
     ],
@@ -12399,7 +12398,7 @@
     "title": "Collide",
     "label": "AD 93",
     "releaseDate": "2025-12-12",
-    "description": "",
+    "description": "Leif lands on AD 93 with eight tracks that pull his ambient instincts toward something with more drive, krautrock pulse cutting through the long, form drift. Less club, more motorik patience; for those still spinning Loris S. Sarid or the quieter end of the label's roster.",
     "tags": [
       "electronic"
     ],
@@ -12433,7 +12432,7 @@
     "title": "Swamp (Ricardo Villalobos Variation)",
     "label": "Latency",
     "releaseDate": "2025-12-09",
-    "description": "",
+    "description": "Latency hands a Mortazavi piece to Villalobos, who stretches the Iranian percussionist's tombak figures across his familiar minimal, techno scaffolding. Two takes on the same source, neither in a hurry to resolve.",
     "tags": [
       "electronic"
     ],
@@ -12466,7 +12465,7 @@
     "title": "Swamp (Ricardo Villalobos Variation)",
     "label": "Latency",
     "releaseDate": "2025-12-09",
-    "description": "",
+    "description": "Villalobos takes Mortazavi's Persian hand, percussion source material and stretches it into the kind of patient, micro, shuffled minimal techno he has been refining for two decades. Latency continuing to put unlikely pairings on wax.",
     "tags": [
       "electronic"
     ],
@@ -12495,7 +12494,7 @@
     "title": "Unriliście",
     "label": "Nowe Nagrania",
     "releaseDate": "2025-12-05",
-    "description": "A hip hop album from Noon, released via Nowe Nagrania. Pending final write-up.",
+    "description": "Thirty, one instrumental hip hop sketches from the veteran Polish beatmaker, sprawling at album length on Nowe Nagrania. The kind of dusted, sample, led work Noon has built a quiet reputation on, presented here without MCs in the way.",
     "tags": [
       "hip hop"
     ],
@@ -12519,8 +12518,7 @@
       "bg": "#111110",
       "fg": "#f2efe8",
       "motif": "disc"
-    },
-    "descriptionPreview": true
+    }
   },
   {
     "id": "stara-rzeka-wynos-sie-z-mojego-domu",
@@ -12529,7 +12527,7 @@
     "title": "Wynoś Się Z Mojego Domu",
     "label": "Instant Classic",
     "releaseDate": "2025-12-05",
-    "description": "Another album from Stara Rzeka, again through Instant Classic. Electronic territory. Placeholder copy for the admin preview.",
+    "description": "Kuba Ziołek's Stara Rzeka project returns to Instant Classic with nine tracks of neofolk pulled toward drone and electronics, the same Polish woodland psychedelia he has been mapping since Cień Chmury Nad Ukrytym Polem. For anyone who keeps that record close.",
     "tags": [
       "electronic"
     ],
@@ -12553,8 +12551,7 @@
       "bg": "#111110",
       "fg": "#f2efe8",
       "motif": "disc"
-    },
-    "descriptionPreview": true
+    }
   },
   {
     "id": "metal-preyers-retox-man",
@@ -12563,7 +12560,7 @@
     "title": "Retox Man",
     "label": "Nyege Nyege Tapes",
     "releaseDate": "2025-12-05",
-    "description": "",
+    "description": "Twelve tracks of abstract electronics from Metal Preyers on Nyege Nyege Tapes, the Kampala outpost continuing to host the project's collaged, debris, strewn end of the catalogue. Limited pressing; for anyone tracking Nihiloxica or the wider Hakuna Kulala orbit.",
     "tags": [
       "electronic"
     ],
@@ -12596,7 +12593,7 @@
     "title": "Pomegranates",
     "label": "Other People",
     "releaseDate": "2025-12-05",
-    "description": "",
+    "description": "Twenty pieces of ambient and experimental work from Jaar on his own Other People, pressed to bioplastic LP. Closer to the long, form, score, adjacent side of his catalogue than the dancefloor one.",
     "tags": [
       "electronic"
     ],
@@ -12630,7 +12627,7 @@
     "title": "Late Shift Silk",
     "label": "100% Silk",
     "releaseDate": "2025-12-05",
-    "description": "",
+    "description": "Eleven, track label compilation pulling 100% Silk back into its lane of basement deep house, acid wobble and lo, fi electro. Functional rather than ceremonial, which has always been the Silk way.",
     "tags": [
       "electronic"
     ],
@@ -12665,7 +12662,7 @@
     "title": "The Face Of The Earth",
     "label": "Ideologic Organ",
     "releaseDate": "2025-12-05",
-    "description": "",
+    "description": "Six pieces of voice and viola from Kenney and Kang, landing on Stephen O'Malley's Ideologic Organ where their Persian classical and free, improv lineage feels entirely at home. Devotional in temperament, not in genre.",
     "tags": [
       "jazz"
     ],
@@ -12732,7 +12729,7 @@
     "title": "Because I Told You So",
     "label": "Ilian Tape",
     "releaseDate": "2025-12-04",
-    "description": "EP by 1morning on Ilian Tape. Filed under electronic. Holding slot for the real description.",
+    "description": "Four tracks of techno on Ilian Tape, which by now is shorthand for a particular kind of swung, broken, step pressure. Shelve next to the Zenker Brothers if you need the family resemblance spelled out.",
     "tags": [
       "electronic"
     ],
@@ -12756,8 +12753,7 @@
       "bg": "#111110",
       "fg": "#f2efe8",
       "motif": "disc"
-    },
-    "descriptionPreview": true
+    }
   },
   {
     "id": "ultrafog-a-replica-screams",
@@ -12766,7 +12762,7 @@
     "title": "A Replica Screams",
     "label": "Ufonic",
     "releaseDate": "2025-12-03",
-    "description": "ultrafog drops a album on Ufonic, leaning alternative. Description still in the queue.",
+    "description": "Seven tracks of ambient and experimental electronics from ultrafog on their own Ufonic imprint, pressed as a 12\" stereo EP. Closer to the unsettled end of the genre than the consolatory one.",
     "tags": [
       "alternative"
     ],
@@ -12790,8 +12786,7 @@
       "bg": "#111110",
       "fg": "#f2efe8",
       "motif": "disc"
-    },
-    "descriptionPreview": true
+    }
   },
   {
     "id": "nailah-hunter-the-pavilion-of-dreams",
@@ -12800,7 +12795,7 @@
     "title": "The Pavilion Of Dreams",
     "label": "Leaving Records",
     "releaseDate": "2025-12-03",
-    "description": "",
+    "description": "Hunter steps further into the spiritual jazz lineage on Leaving Records, a one, sided, etched LP that suits her harp, and, voice register more than any club press could. For listeners shelving Alice Coltrane near Carlos Niño.",
     "tags": [
       "jazz"
     ],
@@ -12835,7 +12830,7 @@
     "title": "...And No One Else Wanted To Play (Deluxe Edition)",
     "label": "Trust Records (11)",
     "releaseDate": "2025-12-02",
-    "description": "",
+    "description": "Trust Records gives the 1985 SNFU debut a 42, track deluxe overhaul, expanding one of Canadian hardcore's foundational documents into something closer to a session archive. Skate, punk prehistory, presented as such.",
     "tags": [
       "rock"
     ],
@@ -26722,12 +26717,13 @@
       "spotify": "https://open.spotify.com/search/Fabiano%20do%20Nascimento%20Solstice%20Concert",
       "soundcloud": "https://soundcloud.com/search?q=Fabiano%20do%20Nascimento%20Solstice%20Concert",
       "youtube": "https://www.youtube.com/results?search_query=Fabiano%20do%20Nascimento%20Solstice%20Concert",
-      "deezer": "https://www.deezer.com/album/672995571"
+      "deezer": "https://www.deezer.com/album/672995571",
+      "apple": "https://music.apple.com/us/album/solstice-concert-live/1780843827?uo=4"
     },
     "embed": {
-      "provider": "deezer",
-      "src": "https://widget.deezer.com/widget/light/album/672995571",
-      "height": 300
+      "provider": "apple",
+      "src": "https://embed.music.apple.com/us/album/1780843827?theme=light",
+      "height": 450
     },
     "musicVideoUrl": null,
     "status": "pending",
@@ -26791,12 +26787,13 @@
       "spotify": "https://open.spotify.com/search/Clima%20(9)%20Transient%20State",
       "soundcloud": "https://soundcloud.com/search?q=Clima%20(9)%20Transient%20State",
       "youtube": "https://www.youtube.com/results?search_query=Clima%20(9)%20Transient%20State",
-      "deezer": "https://www.deezer.com/album/691483121"
+      "deezer": "https://www.deezer.com/album/691483121",
+      "apple": "https://music.apple.com/us/album/transient-state-ep/1788861964?uo=4"
     },
     "embed": {
-      "provider": "deezer",
-      "src": "https://widget.deezer.com/widget/light/album/691483121",
-      "height": 300
+      "provider": "apple",
+      "src": "https://embed.music.apple.com/us/album/1788861964?theme=light",
+      "height": 450
     },
     "musicVideoUrl": null,
     "status": "pending",
@@ -27191,12 +27188,13 @@
       "spotify": "https://open.spotify.com/search/Maribou%20State%20Hallucinating%20Love",
       "soundcloud": "https://soundcloud.com/search?q=Maribou%20State%20Hallucinating%20Love",
       "youtube": "https://www.youtube.com/results?search_query=Maribou%20State%20Hallucinating%20Love",
-      "deezer": "https://www.deezer.com/album/651022381"
+      "deezer": "https://www.deezer.com/album/651022381",
+      "apple": "https://music.apple.com/us/album/hallucinating-love/1716587925?uo=4"
     },
     "embed": {
-      "provider": "deezer",
-      "src": "https://widget.deezer.com/widget/light/album/651022381",
-      "height": 300
+      "provider": "apple",
+      "src": "https://embed.music.apple.com/us/album/1716587925?theme=light",
+      "height": 450
     },
     "musicVideoUrl": null,
     "status": "pending",
@@ -27466,12 +27464,13 @@
       "spotify": "https://open.spotify.com/search/David%20Allred%20The%20Beautiful%20World",
       "soundcloud": "https://soundcloud.com/search?q=David%20Allred%20The%20Beautiful%20World",
       "youtube": "https://www.youtube.com/results?search_query=David%20Allred%20The%20Beautiful%20World",
-      "deezer": "https://www.deezer.com/album/650680711"
+      "deezer": "https://www.deezer.com/album/650680711",
+      "apple": "https://music.apple.com/us/album/the-beautiful-world/1771682157?uo=4"
     },
     "embed": {
-      "provider": "deezer",
-      "src": "https://widget.deezer.com/widget/light/album/650680711",
-      "height": 300
+      "provider": "apple",
+      "src": "https://embed.music.apple.com/us/album/1771682157?theme=light",
+      "height": 450
     },
     "musicVideoUrl": null,
     "status": "pending",
