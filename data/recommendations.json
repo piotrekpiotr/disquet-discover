@@ -179,6 +179,33 @@
     "pressMentions": []
   },
   {
+    "id": "aya-nuclear-weapon",
+    "type": "album",
+    "artist": "aya",
+    "title": "NUCLEAR WEAPON",
+    "label": "",
+    "releaseDate": "2026-06-12",
+    "description": "aya in album mode, where her Hyperdub, era voice work and broken club instincts tend to collapse into something genuinely strange. Worth flagging for anyone still living with im hole.",
+    "tags": [],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=aya%20NUCLEAR%20WEAPON&item_type=a",
+      "spotify": "https://open.spotify.com/search/aya%20NUCLEAR%20WEAPON",
+      "soundcloud": "https://soundcloud.com/search?q=aya%20NUCLEAR%20WEAPON",
+      "youtube": "https://www.youtube.com/results?search_query=aya%20NUCLEAR%20WEAPON"
+    },
+    "embed": null,
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": null,
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
     "id": "lyra-pramuk-hymnal-resung",
     "type": "ep",
     "artist": "Lyra Pramuk",
@@ -587,6 +614,33 @@
       "spotify": "https://open.spotify.com/search/The%20Field%20Now%20You%20Exist",
       "soundcloud": "https://soundcloud.com/search?q=The%20Field%20Now%20You%20Exist",
       "youtube": "https://www.youtube.com/results?search_query=The%20Field%20Now%20You%20Exist"
+    },
+    "embed": null,
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": null,
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
+    "id": "andrea-the-sound-of-his-truck",
+    "type": "album",
+    "artist": "Andrea",
+    "title": "the sound of his truck",
+    "label": "",
+    "releaseDate": "2026-05-14",
+    "description": "Andrea returning in long, form, with the Ilian Tape regular's usual instinct for grainy breaks and weighted low, end presumed but not yet heard. Label details still TBC; one for the Skee Mask shelf.",
+    "tags": [],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=Andrea%20the%20sound%20of%20his%20truck&item_type=a",
+      "spotify": "https://open.spotify.com/search/Andrea%20the%20sound%20of%20his%20truck",
+      "soundcloud": "https://soundcloud.com/search?q=Andrea%20the%20sound%20of%20his%20truck",
+      "youtube": "https://www.youtube.com/results?search_query=Andrea%20the%20sound%20of%20his%20truck"
     },
     "embed": null,
     "musicVideoUrl": null,
@@ -1234,6 +1288,39 @@
     "pressMentions": []
   },
   {
+    "id": "gas-kanner-mig-bast",
+    "type": "album",
+    "artist": "GAS",
+    "title": "känner mig bäst.",
+    "label": "",
+    "releaseDate": "2026-05-01",
+    "description": "Wolfgang Voigt under the GAS alias, where Schwarzwald loops and submerged 4/4 pulse have always done the talking. Title aside, expect the same forest, and, fog continuum that Königsforst and Pop established.",
+    "tags": [],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=GAS%20k%C3%A4nner%20mig%20b%C3%A4st.&item_type=a",
+      "spotify": "https://open.spotify.com/search/GAS%20k%C3%A4nner%20mig%20b%C3%A4st.",
+      "soundcloud": "https://soundcloud.com/search?q=GAS%20k%C3%A4nner%20mig%20b%C3%A4st.",
+      "youtube": "https://www.youtube.com/results?search_query=GAS%20k%C3%A4nner%20mig%20b%C3%A4st.",
+      "deezer": "https://www.deezer.com/album/968419821",
+      "apple": "https://music.apple.com/us/album/k%C3%A4nner-mig-b%C3%A4st-feat-saron-single/1895038248?uo=4"
+    },
+    "embed": {
+      "provider": "apple",
+      "src": "https://embed.music.apple.com/us/album/1895038248?theme=light",
+      "height": 450
+    },
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": null,
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
     "id": "jump-source-patrick-holland-priori-fold",
     "type": "album",
     "artist": "Jump Source, Patrick Holland & Priori",
@@ -1333,6 +1420,40 @@
       "motif": "disc"
     },
     "pressMentions": []
+  },
+  {
+    "id": "jpegmafia-babygirl",
+    "type": "single",
+    "artist": "Jpegmafia",
+    "title": "babygirl",
+    "label": "",
+    "releaseDate": "2026-04-30",
+    "description": "A standalone Jpegmafia single, dropping outside the album cycle and without label affiliation listed. Expect the usual blown, out collage rap and self, engineered chaos that has become his signature mode.",
+    "tags": [],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=Jpegmafia%20babygirl&item_type=a",
+      "spotify": "https://open.spotify.com/search/Jpegmafia%20babygirl",
+      "soundcloud": "https://soundcloud.com/search?q=Jpegmafia%20babygirl",
+      "youtube": "https://www.youtube.com/results?search_query=Jpegmafia%20babygirl",
+      "deezer": "https://www.deezer.com/album/949040211"
+    },
+    "embed": {
+      "provider": "deezer",
+      "src": "https://widget.deezer.com/widget/light/album/949040211",
+      "height": 300
+    },
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://cdn-images.dzcdn.net/images/cover/9f84adbfb8d564c975ca8f298d42729c/1000x1000-000000-80-0-0.jpg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": [
+      "stereogum"
+    ]
   },
   {
     "id": "martyn-duval-timothy-no-one-plays-the-game",
@@ -1498,6 +1619,34 @@
     "pressMentions": []
   },
   {
+    "id": "jacques-greene-devoted-curve",
+    "type": "single",
+    "artist": "Jacques Greene",
+    "title": "Devoted / Curve",
+    "label": "",
+    "releaseDate": "2026-04-29",
+    "description": "Two, tracker from the Montreal producer who has spent over a decade running vocal, house euphoria through a gauze of UK garage and shoegaze residue. For anyone who keeps Feel Infinite within reach.",
+    "tags": [],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=Jacques%20Greene%20Devoted%20%2F%20Curve&item_type=a",
+      "spotify": "https://open.spotify.com/search/Jacques%20Greene%20Devoted%20%2F%20Curve",
+      "soundcloud": "https://soundcloud.com/search?q=Jacques%20Greene%20Devoted%20%2F%20Curve",
+      "youtube": "https://www.youtube.com/results?search_query=Jacques%20Greene%20Devoted%20%2F%20Curve",
+      "deezer": "https://www.deezer.com/album/942681181"
+    },
+    "embed": null,
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://cdn-images.dzcdn.net/images/cover/bce62f2d50f6f43081673793e7756274/1000x1000-000000-80-0-0.jpg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
     "id": "dj-plead-ride-tv",
     "type": "single",
     "artist": "DJ Plead",
@@ -1553,6 +1702,38 @@
     "status": "pending",
     "approvedAt": null,
     "coverImageUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/a9/6c/3b/a96c3ba3-d57f-e3fe-e210-8dea69938268/artwork.jpg/600x600bb.jpg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
+    "id": "substance-substance",
+    "type": "album",
+    "artist": "Substance",
+    "title": "Substance",
+    "label": "",
+    "releaseDate": "2026-04-28",
+    "description": "Self, titled long, player from Substance, arriving in spring 2026 with no label or tracklist attached yet. File under wait, and, see; the name has been worn by enough producers that placement will depend entirely on which Substance this turns out to be.",
+    "tags": [],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=Substance%20Substance&item_type=a",
+      "spotify": "https://open.spotify.com/search/Substance%20Substance",
+      "soundcloud": "https://soundcloud.com/search?q=Substance%20Substance",
+      "youtube": "https://www.youtube.com/results?search_query=Substance%20Substance",
+      "deezer": "https://www.deezer.com/album/966488381"
+    },
+    "embed": {
+      "provider": "deezer",
+      "src": "https://widget.deezer.com/widget/light/album/966488381",
+      "height": 300
+    },
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": null,
     "cover": {
       "bg": "#111110",
       "fg": "#f2efe8",
@@ -1620,6 +1801,39 @@
     "status": "pending",
     "approvedAt": null,
     "coverImageUrl": "https://cdn-images.dzcdn.net/images/cover/5108a77e4778a33df2e3ea3604a79a06/1000x1000-000000-80-0-0.jpg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
+    "id": "log-self-my-response",
+    "type": "album",
+    "artist": "LOG",
+    "title": "SELF ~My Response~",
+    "label": "",
+    "releaseDate": "2026-04-27",
+    "description": "LOG turns up with a self, titled, adjacent full length, label unannounced, no tracklist surfaced yet. File under wait, and, see; the framing alone (SELF, parenthesised as a response) suggests something more interior than club, facing.",
+    "tags": [],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=LOG%20SELF%20~My%20Response~&item_type=a",
+      "spotify": "https://open.spotify.com/search/LOG%20SELF%20~My%20Response~",
+      "soundcloud": "https://soundcloud.com/search?q=LOG%20SELF%20~My%20Response~",
+      "youtube": "https://www.youtube.com/results?search_query=LOG%20SELF%20~My%20Response~",
+      "deezer": "https://www.deezer.com/album/966012691",
+      "apple": "https://music.apple.com/us/album/self-my-response/1894606987?uo=4"
+    },
+    "embed": {
+      "provider": "apple",
+      "src": "https://embed.music.apple.com/us/album/1894606987?theme=light",
+      "height": 450
+    },
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": null,
     "cover": {
       "bg": "#111110",
       "fg": "#f2efe8",
@@ -2263,6 +2477,33 @@
     "pressMentions": [
       "pitchfork_albums"
     ]
+  },
+  {
+    "id": "noon-water-signs",
+    "type": "album",
+    "artist": "Noon",
+    "title": "Water Signs",
+    "label": "",
+    "releaseDate": "2026-04-24",
+    "description": "Noon resurfaces with a full, length called Water Signs, arriving in spring without much in the way of advance signaling. Worth pencilling in if the name already means something to you.",
+    "tags": [],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=Noon%20Water%20Signs&item_type=a",
+      "spotify": "https://open.spotify.com/search/Noon%20Water%20Signs",
+      "soundcloud": "https://soundcloud.com/search?q=Noon%20Water%20Signs",
+      "youtube": "https://www.youtube.com/results?search_query=Noon%20Water%20Signs"
+    },
+    "embed": null,
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": null,
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
   },
   {
     "id": "matthew-herbert-rosebush-pruning-original-soundtrack-album",
@@ -11525,6 +11766,35 @@
     "pressMentions": []
   },
   {
+    "id": "cinna-peyghamy-music-for-tombak-synth",
+    "type": "album",
+    "artist": "Cinna Peyghamy",
+    "title": "Music For Tombak & Synth",
+    "label": "Other People",
+    "releaseDate": "2026-01-01",
+    "description": "Eight pieces from Peyghamy on Nicolas Jaar's Other People, pursuing the tombak and synthesizer dialogue he has been quietly mapping out for a few years now. The frame stays abstract; the hand drumming keeps it grounded.",
+    "tags": [
+      "electronic"
+    ],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=Cinna%20Peyghamy%20Music%20For%20Tombak%20%26%20Synth&item_type=a",
+      "spotify": "https://open.spotify.com/search/Cinna%20Peyghamy%20Music%20For%20Tombak%20%26%20Synth",
+      "soundcloud": "https://soundcloud.com/search?q=Cinna%20Peyghamy%20Music%20For%20Tombak%20%26%20Synth",
+      "youtube": "https://www.youtube.com/results?search_query=Cinna%20Peyghamy%20Music%20For%20Tombak%20%26%20Synth"
+    },
+    "embed": null,
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://i.discogs.com/8tY_vrXXuXBMLup3zZO1CGFAivY57NGGOQ_pLt9YI78/rs:fit/g:sm/q:90/h:599/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM3MjM5/ODcwLTE3Nzc4MTAy/MDctMjIzNC5wbmc.jpeg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
     "id": "tim-maia-racional-vol-1",
     "type": "album",
     "artist": "Tim Maia",
@@ -11869,7 +12139,7 @@
     "title": "Blurrr / Goodness",
     "label": "AD 93",
     "releaseDate": "2025-12-18",
-    "description": "",
+    "description": "A split LP on AD 93 pairing Joanne Robertson's haunted folk drift with feeo's quieter electronic sketches across 26 tracks. Sequenced as two halves of the same dim room, for those still playing Blue Car at low volume.",
     "tags": [
       "electronic"
     ],
@@ -11898,7 +12168,7 @@
     "title": "Talismann 2",
     "label": "Plattenbau Ost",
     "releaseDate": "2025-12-17",
-    "description": "",
+    "description": "Thirteen tracks of German vocal pop from Hagen Stoll on his own Plattenbau Ost imprint, picking up the Talismann thread. Outside the usual remit here, but flagged for completists tracking the label.",
     "tags": [
       "pop"
     ],
@@ -11932,7 +12202,7 @@
     "title": "Short Tracks",
     "label": "Short Span",
     "releaseDate": "2025-12-16",
-    "description": "",
+    "description": "Twenty, two miniatures spread across abstract ambient, downtempo and dub techno, the conceit being right there in the label's name. Useful as a sampler if you're auditioning unfamiliar names in the Short Span orbit.",
     "tags": [
       "electronic"
     ],
@@ -11966,7 +12236,7 @@
     "title": "Goonator 3000",
     "label": "Not On Label",
     "releaseDate": "2025-12-16",
-    "description": "",
+    "description": "Three tracks of pop rap self released as a digital mini, no label apparatus around it. The kind of file, only drop that lives or dies on word of mouth.",
     "tags": [
       "hip hop"
     ],
@@ -11995,7 +12265,7 @@
     "title": "Studies On A River",
     "label": "Good Morning Tapes",
     "releaseDate": "2025-12-15",
-    "description": "A electronic EP from Hinako Omori, released via Good Morning Tapes. Pending final write-up.",
+    "description": "Four ambient pieces from Omori on Good Morning Tapes, synth work folded into water recordings in the way the label tends to favour. Limited LP; sits comfortably alongside Ulla or Pauline Anna Strom on the shelf.",
     "tags": [
       "electronic"
     ],
@@ -12019,8 +12289,7 @@
       "bg": "#111110",
       "fg": "#f2efe8",
       "motif": "disc"
-    },
-    "descriptionPreview": true
+    }
   },
   {
     "id": "drames-rurals-drames-rurals-shackleton-mixes",
@@ -12029,7 +12298,7 @@
     "title": "Drames Rurals (Shackleton Mixes)",
     "label": "Hivern Discs",
     "releaseDate": "2025-12-15",
-    "description": "Single by Drames Rurals on Hivern Discs. Filed under electronic. Holding slot for the real description.",
+    "description": "Shackleton turns his attention to Drames Rurals for Hivern, three reworks that drag the source material into his familiar world of skeletal percussion and dread, tinted dub. For anyone still tracking the Skull Disco lineage.",
     "tags": [
       "electronic"
     ],
@@ -12052,8 +12321,7 @@
       "bg": "#111110",
       "fg": "#f2efe8",
       "motif": "disc"
-    },
-    "descriptionPreview": true
+    }
   },
   {
     "id": "department-7-department",
@@ -20990,6 +21258,40 @@
     "status": "pending",
     "approvedAt": null,
     "coverImageUrl": "https://i.discogs.com/tGttWcHeWsADEtUGTeyiAaCctOBHAPFlRVPUm5bV7u8/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM0NDcw/MzY3LTE3NTYyNTQ3/MjQtNTA4Ni5qcGVn.jpeg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
+    "id": "john-lennon-walls-and-bridges",
+    "type": "album",
+    "artist": "John Lennon",
+    "title": "Walls And Bridges",
+    "label": "Capitol Records (2)",
+    "releaseDate": "2025-06-01",
+    "description": "",
+    "tags": [
+      "rock"
+    ],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=John%20Lennon%20Walls%20And%20Bridges&item_type=a",
+      "spotify": "https://open.spotify.com/search/John%20Lennon%20Walls%20And%20Bridges",
+      "soundcloud": "https://soundcloud.com/search?q=John%20Lennon%20Walls%20And%20Bridges",
+      "youtube": "https://www.youtube.com/results?search_query=John%20Lennon%20Walls%20And%20Bridges",
+      "deezer": "https://www.deezer.com/album/660829"
+    },
+    "embed": {
+      "provider": "deezer",
+      "src": "https://widget.deezer.com/widget/light/album/660829",
+      "height": 300
+    },
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://i.discogs.com/OfrmFvYb1CLboVfoqJ1-In6ahOL7L-36upa_KPTPc_s/rs:fit/g:sm/q:90/h:598/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM3MjI1/NzU4LTE3Nzc4MjYy/ODktOTMwNS5qcGVn.jpeg",
     "cover": {
       "bg": "#111110",
       "fg": "#f2efe8",
