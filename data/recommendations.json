@@ -791,6 +791,41 @@
     "pressMentions": []
   },
   {
+    "id": "lucrecia-dalt-alex-lazaro-synonym-mask",
+    "type": "single",
+    "artist": "Lucrecia Dalt & Alex Lázaro",
+    "title": "Synonym Mask",
+    "label": "Kuboraum Editions",
+    "releaseDate": "2026-05-05",
+    "description": "Dalt and percussionist Alex Lázaro turn up on Kuboraum's editions imprint, which tracks given how cleanly her recent body, horror, adjacent electronics fit the eyewear label's austere mood. Pair with anyone still living inside ¡Ay!.",
+    "tags": [
+      "electronic"
+    ],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=Lucrecia%20Dalt%20%26%20Alex%20L%C3%A1zaro%20Synonym%20Mask&item_type=a",
+      "spotify": "https://open.spotify.com/search/Lucrecia%20Dalt%20%26%20Alex%20L%C3%A1zaro%20Synonym%20Mask",
+      "soundcloud": "https://soundcloud.com/search?q=Lucrecia%20Dalt%20%26%20Alex%20L%C3%A1zaro%20Synonym%20Mask",
+      "youtube": "https://www.youtube.com/results?search_query=Lucrecia%20Dalt%20%26%20Alex%20L%C3%A1zaro%20Synonym%20Mask",
+      "apple": "https://music.apple.com/us/album/synonym-mask-single/1893369745",
+      "deezer": "https://www.deezer.com/album/961277271"
+    },
+    "embed": {
+      "provider": "apple",
+      "src": "https://embed.music.apple.com/us/album/1893369745?theme=light",
+      "height": 450
+    },
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/ca/e2/46/cae24616-71ab-d6a1-56fb-a11e2782650f/4062548142662.png/600x600bb.jpg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
     "id": "kendrick-lamar-everybody-sensitive",
     "type": "album",
     "artist": "Kendrick Lamar",
@@ -1309,6 +1344,33 @@
       "src": "https://embed.music.apple.com/us/album/1895038248?theme=light",
       "height": 450
     },
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": null,
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
+    "id": "massive-attack-teardrop-future-funk-squad-remix",
+    "type": "single",
+    "artist": "Massive Attack",
+    "title": "Teardrop (Future Funk Squad Remix)",
+    "label": "",
+    "releaseDate": "2026-05-01",
+    "description": "Future Funk Squad take the scissors to one of the most overplayed trip, hop records of the late nineties, leaning, predictably, toward the breakbeat end of things. File alongside the long tail of Mezzanine rework projects rather than the original.",
+    "tags": [],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=Massive%20Attack%20Teardrop%20(Future%20Funk%20Squad%20Remix)&item_type=a",
+      "spotify": "https://open.spotify.com/search/Massive%20Attack%20Teardrop%20(Future%20Funk%20Squad%20Remix)",
+      "soundcloud": "https://soundcloud.com/search?q=Massive%20Attack%20Teardrop%20(Future%20Funk%20Squad%20Remix)",
+      "youtube": "https://www.youtube.com/results?search_query=Massive%20Attack%20Teardrop%20(Future%20Funk%20Squad%20Remix)"
+    },
+    "embed": null,
     "musicVideoUrl": null,
     "status": "pending",
     "approvedAt": null,
@@ -2940,6 +3002,41 @@
     "pressMentions": [
       "pitchfork_albums"
     ]
+  },
+  {
+    "id": "swans-live-rope",
+    "type": "album",
+    "artist": "Swans",
+    "title": "Live Rope",
+    "label": "Young God Records",
+    "releaseDate": "2026-04-22",
+    "description": "A live document from Gira's Swans on Young God, seven pieces given to the slow, build endurance the band has made its life's work. Filed under rock only because no other shelf will hold it.",
+    "tags": [
+      "rock"
+    ],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=Swans%20Live%20Rope&item_type=a",
+      "spotify": "https://open.spotify.com/search/Swans%20Live%20Rope",
+      "soundcloud": "https://soundcloud.com/search?q=Swans%20Live%20Rope",
+      "youtube": "https://www.youtube.com/results?search_query=Swans%20Live%20Rope",
+      "deezer": "https://www.deezer.com/album/954160361",
+      "apple": "https://music.apple.com/us/album/live-rope/1890577394?uo=4"
+    },
+    "embed": {
+      "provider": "apple",
+      "src": "https://embed.music.apple.com/us/album/1890577394?theme=light",
+      "height": 450
+    },
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://i.discogs.com/vH_HfxhZ5yEq3Hjls3PfsQFtD0wHCyi341fYPXCl_R0/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM3MjUy/OTUzLTE3Nzc5MzM3/NzAtMjcyNC5qcGVn.jpeg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
   },
   {
     "id": "purelink-rainy-miller-barrons-hotel-yellow-bones",
@@ -5987,6 +6084,35 @@
     ]
   },
   {
+    "id": "txaxoxtxsxaxtxexoxtxaxtxcxpxsxaxmxexwxixnxpxixoxnxaxlxaxaxtxwxwxixpxsxaxsxbxixwx",
+    "type": "single",
+    "artist": "TxAxOxTxSxAxTxExOxTxAxTxCxPxSxAxMxExWxIxNxPxIxOxNxAxLxAxAxTxWxWxIxPxSxAxSxBxIxWxAxHxTxSxLxOxOxTxSxAxCxAxSxLxNxSxSxIxBxIxAxRxSxAxLxTxMxOxOxTxVxRxSxTxTxWxOxPxSxNxTxMxOxOxTxTxJxBxTxAxAxRxTxAxAxRxTxAxOxCxWxPxWxNxSxUxTxWxNxOxOxTxOxTxTxOxTxTxOxWxTxBxHxIxSxIxTxSxHxRxWxTxHxBxIxSxTxRxSxWxRxAxOxTxMxOxOxBxWxHxSxHxTxLxWxLxSxCxExNxFxSxCxExPxCxWxCxSxCxTxTxExRxHxExAxWxSxTxIxTxSxOxBxOxTxLxRxTxMxCxHxTxBxSxRxTxFxExMxAxTxSxSxAxLxWxAxFxCxBxBxTxFxCxLxLxKxSxFxCxCxSxPxSxIxBxTxLxBxIxAxBxSxFxCxBxOxHxExAxSxSxOxAxLxKxSxWxIxAxHxCxTxHxSxLxDxWxBxFxTxAxSxAxWxAxIxOxKxCxAxSxDxLxMxAxPxGxTxOxTxVxFxPxSxSxCxLxWxTxMxOxOxTxOxOxOxMxSxGxTxCxTxBxLxSxFxAxNxAxBxAxGxWxWxGxWxCxPxCxLxTxWxSxWxGxWxQxWxCxPxUxLxTxSxCxLxPxLxPxAxNxSxGxWxAxLxPxAxFxCxPxSxGxOxPxBxLxCxWxCxSxMxOxTxCxAxAxGxBxTxPxLxFxPxCxCxWxCxSxMxMxSxMxOxTxCxAxGxBxTxPxLxDxTxCxTxTxOxWxPxTxAxIxAxTxHxNxWxFxDxCxCxTxLxMxCxFxOxHxAxMxTxSxIxTxTxTxCxBxCxOxTxHxTxIxGxLxBxSxSxAxSxTxTxGxGxLxIxAxTxAxGxWxWxTxHxIxCxBxOxLxTxSxCxPxSxIxTxTxTxCxCxBxAxTxSxIxTxTxCxOxTxHxIxTxNxRxSxHxTxKxMxAxWxMxNxLxVxWxTxLxIxTxSxIxTxGxLxGxAxSxSxPxPxGxRxAxMxIxTxFxFxYxFxSxExGxExCxFxW",
+    "title": "kill all samplecore artists",
+    "label": "Not On Label (There’s An Old Television Set At The End Of The Alley That Continuously Plays Static At Midnight, Even When Its Not Plugged In. One Night A Loli Approached This Tv While It Was Playing Static And She Broke It With A Hammer. The Static Leaked Out Of The Screen And Created A Static Loli, Named Static-chan. Static-chan Immediately Broke Into A Record Store And Lifted The Music Out Of The Vinyl Records So That They Would Only Play Surface Noise, The Music Out Of Tapes To Just Be Tape Noise, And Replaced The Audio On Cds With Pure White Noise. She Used The White Noise Of The Ocean To Travel To Oakland Where The Bandcamp Hq Is. She Infects Their Servers Which Replaces All Of The Music On Bandcamp With Shitty Hnw. The Loli Who Let Static-chan Escape Now Feeds Static-chan Expired Precure Curry, Which Causes Static-chan To Turn Entirely Red. Her Eyes Explode And When She Talks Its The Sounds Of Blenders. The Loli Realizes There’s Morse Code Hidden In The Blender Sounds That Reads The Following: Egg Mcmuffins And Turkey Stuffings Stuff A Loli With A Futa Cock Bok-bok Take The Futa Cock Leg Lock Knee Socks Futa Cum Socks Particle Board I’m Bored The Loli Chest Is A Board Sexy Flat Cutting Board Omoge Hoarde Eat A Swordfish Served On A Loli Knight’s Sword Which Is Also Her Cock That She Slays Loli Dragons With By Fucking Them And She Slayed A Whole Island Of Kanna Clones And Spider Drones Loli Moans And Pained Groans Telekinesis Of The Virtual Frying Pan Sizzle Sizzle Canninibal Loli Gristle With The Milk Of Thistle Oppai Oh My She’s Going To Cry The Bullied Loli Swing From A Noose Attacked By A Goose Whose Who Guess Who Chicken Poo Loli Teeth Stew Crunchy Like Peanuts Loli Pee And Futa Nuts And Guts And Slabs Of Human Meat Chicken Feet Loli Feet Phonetic Footjob Cheesegrater Orgasm Of Particle Board Loli Chefs Who Cook Silver Salmon Meat Made Of Tin Cans And Greasy Burgers That Pink Lolis Devour To Create The Tanks Of Wikipedia Pages That Are Deleted I Am The Harsh Noise Walrus Floppy Disk Chocolate Chip Cookie The Lolis Made Cookies Full Of Balls Of Hair And Tortured Mice Say It Thrice Thrice Cream Busted Spleen Carene Off The Highway Into The Graveyard Loli Bard Sings A Sorrowful Song To The Ghostly Throng Ghost Loli In A Thong Among Us Amogus Broken Bones Of Children Bear Den Half-eaten Loli Corpse Hair In Pigtails Still She Fits The Bill Of The Missing Glistening Blood On Hello Kitty Hair-ties Chicken Pies Sold In The Factory Boiling Tallow Derived Of Hospital Patients The Robotic Nurse Shows Her Titties Kitties Kittens Meow Azunyan Is My Wife Meteor Knife Life No Life Virtual World The Lava Swirled In The Golem Loli’s Gaping Asshole Swollen Pus Pussy Gulls Run Amok In Twenty Flocks Fuck You Futa Special Glue Elmers Glue Cashew)",
+    "releaseDate": "2026-04-04",
+    "description": "",
+    "tags": [
+      "electronic"
+    ],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=TxAxOxTxSxAxTxExOxTxAxTxCxPxSxAxMxExWxIxNxPxIxOxNxAxLxAxAxTxWxWxIxPxSxAxSxBxIxWxAxHxTxSxLxOxOxTxSxAxCxAxSxLxNxSxSxIxBxIxAxRxSxAxLxTxMxOxOxTxVxRxSxTxTxWxOxPxSxNxTxMxOxOxTxTxJxBxTxAxAxRxTxAxAxRxTxAxOxCxWxPxWxNxSxUxTxWxNxOxOxTxOxTxTxOxTxTxOxWxTxBxHxIxSxIxTxSxHxRxWxTxHxBxIxSxTxRxSxWxRxAxOxTxMxOxOxBxWxHxSxHxTxLxWxLxSxCxExNxFxSxCxExPxCxWxCxSxCxTxTxExRxHxExAxWxSxTxIxTxSxOxBxOxTxLxRxTxMxCxHxTxBxSxRxTxFxExMxAxTxSxSxAxLxWxAxFxCxBxBxTxFxCxLxLxKxSxFxCxCxSxPxSxIxBxTxLxBxIxAxBxSxFxCxBxOxHxExAxSxSxOxAxLxKxSxWxIxAxHxCxTxHxSxLxDxWxBxFxTxAxSxAxWxAxIxOxKxCxAxSxDxLxMxAxPxGxTxOxTxVxFxPxSxSxCxLxWxTxMxOxOxTxOxOxOxMxSxGxTxCxTxBxLxSxFxAxNxAxBxAxGxWxWxGxWxCxPxCxLxTxWxSxWxGxWxQxWxCxPxUxLxTxSxCxLxPxLxPxAxNxSxGxWxAxLxPxAxFxCxPxSxGxOxPxBxLxCxWxCxSxMxOxTxCxAxAxGxBxTxPxLxFxPxCxCxWxCxSxMxMxSxMxOxTxCxAxGxBxTxPxLxDxTxCxTxTxOxWxPxTxAxIxAxTxHxNxWxFxDxCxCxTxLxMxCxFxOxHxAxMxTxSxIxTxTxTxCxBxCxOxTxHxTxIxGxLxBxSxSxAxSxTxTxGxGxLxIxAxTxAxGxWxWxTxHxIxCxBxOxLxTxSxCxPxSxIxTxTxTxCxCxBxAxTxSxIxTxTxCxOxTxHxIxTxNxRxSxHxTxKxMxAxWxMxNxLxVxWxTxLxIxTxSxIxTxGxLxGxAxSxSxPxPxGxRxAxMxIxTxFxFxYxFxSxExGxExCxFxW%20kill%20all%20samplecore%20artists&item_type=a",
+      "spotify": "https://open.spotify.com/search/TxAxOxTxSxAxTxExOxTxAxTxCxPxSxAxMxExWxIxNxPxIxOxNxAxLxAxAxTxWxWxIxPxSxAxSxBxIxWxAxHxTxSxLxOxOxTxSxAxCxAxSxLxNxSxSxIxBxIxAxRxSxAxLxTxMxOxOxTxVxRxSxTxTxWxOxPxSxNxTxMxOxOxTxTxJxBxTxAxAxRxTxAxAxRxTxAxOxCxWxPxWxNxSxUxTxWxNxOxOxTxOxTxTxOxTxTxOxWxTxBxHxIxSxIxTxSxHxRxWxTxHxBxIxSxTxRxSxWxRxAxOxTxMxOxOxBxWxHxSxHxTxLxWxLxSxCxExNxFxSxCxExPxCxWxCxSxCxTxTxExRxHxExAxWxSxTxIxTxSxOxBxOxTxLxRxTxMxCxHxTxBxSxRxTxFxExMxAxTxSxSxAxLxWxAxFxCxBxBxTxFxCxLxLxKxSxFxCxCxSxPxSxIxBxTxLxBxIxAxBxSxFxCxBxOxHxExAxSxSxOxAxLxKxSxWxIxAxHxCxTxHxSxLxDxWxBxFxTxAxSxAxWxAxIxOxKxCxAxSxDxLxMxAxPxGxTxOxTxVxFxPxSxSxCxLxWxTxMxOxOxTxOxOxOxMxSxGxTxCxTxBxLxSxFxAxNxAxBxAxGxWxWxGxWxCxPxCxLxTxWxSxWxGxWxQxWxCxPxUxLxTxSxCxLxPxLxPxAxNxSxGxWxAxLxPxAxFxCxPxSxGxOxPxBxLxCxWxCxSxMxOxTxCxAxAxGxBxTxPxLxFxPxCxCxWxCxSxMxMxSxMxOxTxCxAxGxBxTxPxLxDxTxCxTxTxOxWxPxTxAxIxAxTxHxNxWxFxDxCxCxTxLxMxCxFxOxHxAxMxTxSxIxTxTxTxCxBxCxOxTxHxTxIxGxLxBxSxSxAxSxTxTxGxGxLxIxAxTxAxGxWxWxTxHxIxCxBxOxLxTxSxCxPxSxIxTxTxTxCxCxBxAxTxSxIxTxTxCxOxTxHxIxTxNxRxSxHxTxKxMxAxWxMxNxLxVxWxTxLxIxTxSxIxTxGxLxGxAxSxSxPxPxGxRxAxMxIxTxFxFxYxFxSxExGxExCxFxW%20kill%20all%20samplecore%20artists",
+      "soundcloud": "https://soundcloud.com/search?q=TxAxOxTxSxAxTxExOxTxAxTxCxPxSxAxMxExWxIxNxPxIxOxNxAxLxAxAxTxWxWxIxPxSxAxSxBxIxWxAxHxTxSxLxOxOxTxSxAxCxAxSxLxNxSxSxIxBxIxAxRxSxAxLxTxMxOxOxTxVxRxSxTxTxWxOxPxSxNxTxMxOxOxTxTxJxBxTxAxAxRxTxAxAxRxTxAxOxCxWxPxWxNxSxUxTxWxNxOxOxTxOxTxTxOxTxTxOxWxTxBxHxIxSxIxTxSxHxRxWxTxHxBxIxSxTxRxSxWxRxAxOxTxMxOxOxBxWxHxSxHxTxLxWxLxSxCxExNxFxSxCxExPxCxWxCxSxCxTxTxExRxHxExAxWxSxTxIxTxSxOxBxOxTxLxRxTxMxCxHxTxBxSxRxTxFxExMxAxTxSxSxAxLxWxAxFxCxBxBxTxFxCxLxLxKxSxFxCxCxSxPxSxIxBxTxLxBxIxAxBxSxFxCxBxOxHxExAxSxSxOxAxLxKxSxWxIxAxHxCxTxHxSxLxDxWxBxFxTxAxSxAxWxAxIxOxKxCxAxSxDxLxMxAxPxGxTxOxTxVxFxPxSxSxCxLxWxTxMxOxOxTxOxOxOxMxSxGxTxCxTxBxLxSxFxAxNxAxBxAxGxWxWxGxWxCxPxCxLxTxWxSxWxGxWxQxWxCxPxUxLxTxSxCxLxPxLxPxAxNxSxGxWxAxLxPxAxFxCxPxSxGxOxPxBxLxCxWxCxSxMxOxTxCxAxAxGxBxTxPxLxFxPxCxCxWxCxSxMxMxSxMxOxTxCxAxGxBxTxPxLxDxTxCxTxTxOxWxPxTxAxIxAxTxHxNxWxFxDxCxCxTxLxMxCxFxOxHxAxMxTxSxIxTxTxTxCxBxCxOxTxHxTxIxGxLxBxSxSxAxSxTxTxGxGxLxIxAxTxAxGxWxWxTxHxIxCxBxOxLxTxSxCxPxSxIxTxTxTxCxCxBxAxTxSxIxTxTxCxOxTxHxIxTxNxRxSxHxTxKxMxAxWxMxNxLxVxWxTxLxIxTxSxIxTxGxLxGxAxSxSxPxPxGxRxAxMxIxTxFxFxYxFxSxExGxExCxFxW%20kill%20all%20samplecore%20artists",
+      "youtube": "https://www.youtube.com/results?search_query=TxAxOxTxSxAxTxExOxTxAxTxCxPxSxAxMxExWxIxNxPxIxOxNxAxLxAxAxTxWxWxIxPxSxAxSxBxIxWxAxHxTxSxLxOxOxTxSxAxCxAxSxLxNxSxSxIxBxIxAxRxSxAxLxTxMxOxOxTxVxRxSxTxTxWxOxPxSxNxTxMxOxOxTxTxJxBxTxAxAxRxTxAxAxRxTxAxOxCxWxPxWxNxSxUxTxWxNxOxOxTxOxTxTxOxTxTxOxWxTxBxHxIxSxIxTxSxHxRxWxTxHxBxIxSxTxRxSxWxRxAxOxTxMxOxOxBxWxHxSxHxTxLxWxLxSxCxExNxFxSxCxExPxCxWxCxSxCxTxTxExRxHxExAxWxSxTxIxTxSxOxBxOxTxLxRxTxMxCxHxTxBxSxRxTxFxExMxAxTxSxSxAxLxWxAxFxCxBxBxTxFxCxLxLxKxSxFxCxCxSxPxSxIxBxTxLxBxIxAxBxSxFxCxBxOxHxExAxSxSxOxAxLxKxSxWxIxAxHxCxTxHxSxLxDxWxBxFxTxAxSxAxWxAxIxOxKxCxAxSxDxLxMxAxPxGxTxOxTxVxFxPxSxSxCxLxWxTxMxOxOxTxOxOxOxMxSxGxTxCxTxBxLxSxFxAxNxAxBxAxGxWxWxGxWxCxPxCxLxTxWxSxWxGxWxQxWxCxPxUxLxTxSxCxLxPxLxPxAxNxSxGxWxAxLxPxAxFxCxPxSxGxOxPxBxLxCxWxCxSxMxOxTxCxAxAxGxBxTxPxLxFxPxCxCxWxCxSxMxMxSxMxOxTxCxAxGxBxTxPxLxDxTxCxTxTxOxWxPxTxAxIxAxTxHxNxWxFxDxCxCxTxLxMxCxFxOxHxAxMxTxSxIxTxTxTxCxBxCxOxTxHxTxIxGxLxBxSxSxAxSxTxTxGxGxLxIxAxTxAxGxWxWxTxHxIxCxBxOxLxTxSxCxPxSxIxTxTxTxCxCxBxAxTxSxIxTxTxCxOxTxHxIxTxNxRxSxHxTxKxMxAxWxMxNxLxVxWxTxLxIxTxSxIxTxGxLxGxAxSxSxPxPxGxRxAxMxIxTxFxFxYxFxSxExGxExCxFxW%20kill%20all%20samplecore%20artists"
+    },
+    "embed": null,
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://i.discogs.com/eoEzSp-k7lAY4UV6c7qDxn-7-n7_x-QUA1c53kXlw0E/rs:fit/g:sm/q:90/h:600/w:564/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM3MjUy/NTMwLTE3Nzc5Mjk4/NjAtMjgzNi5qcGVn.jpeg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
     "id": "bon-iver-volumes-one-selections-from-music-concerts-2019-2023-bon-ive",
     "type": "album",
     "artist": "Bon Iver",
@@ -6486,6 +6612,41 @@
       "fg": "#f2efe8",
       "motif": "disc"
     }
+  },
+  {
+    "id": "sixth-june-everytime",
+    "type": "album",
+    "artist": "Sixth June",
+    "title": "Everytime",
+    "label": "Young And Cold Records",
+    "releaseDate": "2026-04-01",
+    "description": "Young And Cold reissues a remastered Sixth June LP across twelve tracks, the Serbian duo's cold synth, pop sitting where minimal wave and goth, adjacent darkwave overlap. White label test pressing for the Kaltes Grab crowd.",
+    "tags": [
+      "electronic"
+    ],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=Sixth%20June%20Everytime&item_type=a",
+      "spotify": "https://open.spotify.com/search/Sixth%20June%20Everytime",
+      "soundcloud": "https://soundcloud.com/search?q=Sixth%20June%20Everytime",
+      "youtube": "https://www.youtube.com/results?search_query=Sixth%20June%20Everytime",
+      "deezer": "https://www.deezer.com/album/77551092",
+      "apple": "https://music.apple.com/us/album/everytime/1338303164?uo=4"
+    },
+    "embed": {
+      "provider": "apple",
+      "src": "https://embed.music.apple.com/us/album/1338303164?theme=light",
+      "height": 450
+    },
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://i.discogs.com/qXdLJK_K2uO3vkfoyfBY3b-ig8IWHP28huSLcpH4zqg/rs:fit/g:sm/q:90/h:589/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM3MjQ5/NzcwLTE3Nzc5MTk4/NzMtMjg4NC5qcGVn.jpeg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
   },
   {
     "id": "shinichi-atobe-silent-way",
@@ -11795,6 +11956,43 @@
     "pressMentions": []
   },
   {
+    "id": "boards-of-canada-the-campfire-headphase",
+    "type": "album",
+    "artist": "Boards Of Canada",
+    "title": "The Campfire Headphase",
+    "label": "Warp Records",
+    "releaseDate": "2026-01-01",
+    "description": "Warp keeps the Boards Of Canada catalogue circulating with The Campfire Headphase, the one where the Sandison brothers folded detuned guitar into their tape, warped pastoral. Sits closer to dusk than to the Music Has The Right ecosystem most listeners arrive through.",
+    "tags": [
+      "electronic"
+    ],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=Boards%20Of%20Canada%20The%20Campfire%20Headphase&item_type=a",
+      "spotify": "https://open.spotify.com/search/Boards%20Of%20Canada%20The%20Campfire%20Headphase",
+      "soundcloud": "https://soundcloud.com/search?q=Boards%20Of%20Canada%20The%20Campfire%20Headphase",
+      "youtube": "https://www.youtube.com/results?search_query=Boards%20Of%20Canada%20The%20Campfire%20Headphase",
+      "deezer": "https://www.deezer.com/album/2795781",
+      "apple": "https://music.apple.com/us/album/the-campfire-headphase/81696254?uo=4"
+    },
+    "embed": {
+      "provider": "apple",
+      "src": "https://embed.music.apple.com/us/album/81696254?theme=light",
+      "height": 450
+    },
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://i.discogs.com/Qx11JO979Wu7yVra-lhiGYcoR1W1zpmddZ2SsdxaEGk/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM3MjUz/MDc5LTE3Nzc5NDU4/MTMtMTI3My5wbmc.jpeg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": [
+      "pitchfork_tracks"
+    ]
+  },
+  {
     "id": "tim-maia-racional-vol-1",
     "type": "album",
     "artist": "Tim Maia",
@@ -12859,7 +13057,7 @@
     "title": "Selfless",
     "label": "Mood Hut",
     "releaseDate": "2025-12-01",
-    "description": "Musicentrydelete's latest album on Mood Hut occupies the electronic space. Editorial copy still in draft.",
+    "description": "Ten tracks of dub, house and techno on Mood Hut, the Vancouver imprint still drawing the same humid, slightly off, kilter line through dancefloor music it always has. For anyone shelving Pender Street Steppers nearby.",
     "tags": [
       "electronic"
     ],
@@ -12883,8 +13081,7 @@
       "bg": "#111110",
       "fg": "#f2efe8",
       "motif": "disc"
-    },
-    "descriptionPreview": true
+    }
   },
   {
     "id": "the-beatles-free-as-a-bird-real-love",
@@ -12893,7 +13090,7 @@
     "title": "Free As A Bird / Real Love = フリー・アズ・ア・バード / リアル・ラヴ",
     "label": "Apple Records",
     "releaseDate": "2025-11-28",
-    "description": "",
+    "description": "Apple pairs the two mid, 90s Threetles reconstructions on a single Japanese pressing, three decades after they first surfaced as Anthology bait. A collector object more than a listening one, but the Jeff Lynne haze still has its defenders.",
     "tags": [
       "rock"
     ],
@@ -12921,7 +13118,7 @@
     "title": "Jah Nam",
     "label": "YUKU",
     "releaseDate": "2025-11-28",
-    "description": "",
+    "description": "Eight tracks from Muskila on YUKU, splicing dub techno's chamber pressure with the skitter of footwork and juke. An odd hybrid on paper that the label has been quietly building a case for.",
     "tags": [
       "electronic"
     ],
@@ -12956,7 +13153,7 @@
     "title": "Anomaly Index",
     "label": "Nyege Nyege Tapes",
     "releaseDate": "2025-11-28",
-    "description": "",
+    "description": "Two pieces from Nkisi for Nyege Nyege Tapes, pairing field recordings with the kind of percussive noise her Initiation discs sharpened into a method. Less club, facing than her earlier work; closer to ritual document.",
     "tags": [
       "electronic"
     ],
@@ -12989,7 +13186,7 @@
     "title": "Free As A Bird / Real Love",
     "label": "Apple Records",
     "releaseDate": "2025-11-28",
-    "description": "",
+    "description": "Apple reissues the two mid, 90s Threetles reconstructions as a limited 7\", thirty years on from the Anthology rollout. Catalogue housekeeping more than revelation, but the format finally suits the songs.",
     "tags": [
       "rock"
     ],
@@ -13018,7 +13215,7 @@
     "title": "Córdoba #GU48 (Collector's Edition)",
     "label": "Global Underground (3)",
     "releaseDate": "2025-11-28",
-    "description": "",
+    "description": "Guy J takes the GU mix, series chair for the Córdoba edition, 46 tracks pulled across progressive house, breaks and downtempo into the long, arc shape Global Underground built its name on. Deluxe pressing for the people who still buy these as objects.",
     "tags": [
       "electronic"
     ],
@@ -13047,7 +13244,7 @@
     "title": "Leijonaa Metsästän",
     "label": "Roihis Musica",
     "releaseDate": "2025-11-28",
-    "description": "",
+    "description": "Twelve tracks of Finnish conscious rap from Asa, reissued on Roihis Musica. The kind of record where the writing carries the weight; shelve near Paleface if you want a domestic reference point.",
     "tags": [
       "hip hop"
     ],
@@ -13082,7 +13279,7 @@
     "title": "Forever, I've Been Being Born",
     "label": "Ideologic Organ",
     "releaseDate": "2025-11-28",
-    "description": "",
+    "description": "Jesse Sykes returns to Southern Lord with ten songs of weathered, slow, burning folk rock, the kind of songwriting where the room around the voice does as much work as the voice itself. Limited LP pressing tied to Record Store Day.",
     "tags": [
       "rock"
     ],
@@ -13115,7 +13312,7 @@
     "title": "Garden On The Palm",
     "label": "R & S Records",
     "releaseDate": "2025-11-27",
-    "description": "",
+    "description": "Ken Ishii's R&S, era headtrip gets another pressing, seven tracks of the angular, slightly alien Tokyo techno that put him on the label's map in the first place. Sits comfortably next to Beaumont Hannant if you're filing chronologically.",
     "tags": [
       "electronic"
     ],
@@ -13150,7 +13347,7 @@
     "title": "Sleeping Madness",
     "label": "R & S Records",
     "releaseDate": "2025-11-27",
-    "description": "",
+    "description": "Ken Ishii back on R&S in reissue form, eleven tracks spanning the techno, breaks and house registers he was already braiding together in the mid, 90s. A useful one if your Jelly Tones is wearing thin.",
     "tags": [
       "electronic"
     ],
@@ -21276,12 +21473,13 @@
       "spotify": "https://open.spotify.com/search/John%20Lennon%20Walls%20And%20Bridges",
       "soundcloud": "https://soundcloud.com/search?q=John%20Lennon%20Walls%20And%20Bridges",
       "youtube": "https://www.youtube.com/results?search_query=John%20Lennon%20Walls%20And%20Bridges",
-      "deezer": "https://www.deezer.com/album/660829"
+      "deezer": "https://www.deezer.com/album/660829",
+      "apple": "https://music.apple.com/us/album/walls-and-bridges/1440854452?uo=4"
     },
     "embed": {
-      "provider": "deezer",
-      "src": "https://widget.deezer.com/widget/light/album/660829",
-      "height": 300
+      "provider": "apple",
+      "src": "https://embed.music.apple.com/us/album/1440854452?theme=light",
+      "height": 450
     },
     "musicVideoUrl": null,
     "status": "pending",
@@ -33578,12 +33776,13 @@
       "spotify": "https://open.spotify.com/search/Ku%C4%8Dka%20Can%20You%20Hear%20Me%20Dreaming%3F",
       "soundcloud": "https://soundcloud.com/search?q=Ku%C4%8Dka%20Can%20You%20Hear%20Me%20Dreaming%3F",
       "youtube": "https://www.youtube.com/results?search_query=Ku%C4%8Dka%20Can%20You%20Hear%20Me%20Dreaming%3F",
-      "deezer": "https://www.deezer.com/album/557167902"
+      "deezer": "https://www.deezer.com/album/557167902",
+      "apple": "https://music.apple.com/us/album/can-you-hear-me-dreaming/1734797360?uo=4"
     },
     "embed": {
-      "provider": "deezer",
-      "src": "https://widget.deezer.com/widget/light/album/557167902",
-      "height": 300
+      "provider": "apple",
+      "src": "https://embed.music.apple.com/us/album/1734797360?theme=light",
+      "height": 450
     },
     "musicVideoUrl": null,
     "status": "pending",
