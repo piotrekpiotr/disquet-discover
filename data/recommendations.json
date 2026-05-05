@@ -826,6 +826,39 @@
     "pressMentions": []
   },
   {
+    "id": "heith-duori",
+    "type": "album",
+    "artist": "Heith",
+    "title": "Duori",
+    "label": "",
+    "releaseDate": "2026-05-05",
+    "description": "New long, player from Heith, the Milan, based producer whose work for PAN has threaded folk, horror atmospheres through grainy club electronics. Label unconfirmed at time of writing; expect the same uneasy register.",
+    "tags": [],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=Heith%20Duori&item_type=a",
+      "spotify": "https://open.spotify.com/search/Heith%20Duori",
+      "soundcloud": "https://soundcloud.com/search?q=Heith%20Duori",
+      "youtube": "https://www.youtube.com/results?search_query=Heith%20Duori",
+      "deezer": "https://www.deezer.com/album/936898221",
+      "apple": "https://music.apple.com/us/album/duori-single/1882786766?uo=4"
+    },
+    "embed": {
+      "provider": "apple",
+      "src": "https://embed.music.apple.com/us/album/1882786766?theme=light",
+      "height": 450
+    },
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://cdn-images.dzcdn.net/images/cover/82940a3dca1caf7367a39f78e08a8b17/1000x1000-000000-80-0-0.jpg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
     "id": "kendrick-lamar-everybody-sensitive",
     "type": "album",
     "artist": "Kendrick Lamar",
@@ -1375,6 +1408,77 @@
     "status": "pending",
     "approvedAt": null,
     "coverImageUrl": null,
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
+    "id": "ana-roxanne-poem-1",
+    "type": "album",
+    "artist": "Ana Roxanne",
+    "title": "Poem 1",
+    "label": "Kranky",
+    "releaseDate": "2026-05-01",
+    "description": "Nine pieces of vocal, leaning ambient from Ana Roxanne, landing on Kranky where this kind of slow, devotional drift has always made sense. For anyone who held onto Because of a Flower.",
+    "tags": [],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=Ana%20Roxanne%20Poem%201&item_type=a",
+      "spotify": "https://open.spotify.com/search/Ana%20Roxanne%20Poem%201",
+      "soundcloud": "https://soundcloud.com/search?q=Ana%20Roxanne%20Poem%201",
+      "youtube": "https://www.youtube.com/results?search_query=Ana%20Roxanne%20Poem%201",
+      "deezer": "https://www.deezer.com/album/917903281",
+      "apple": "https://music.apple.com/us/album/poem-1/1876977313?uo=4"
+    },
+    "embed": {
+      "provider": "apple",
+      "src": "https://embed.music.apple.com/us/album/1876977313?theme=light",
+      "height": 450
+    },
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://cdn-images.dzcdn.net/images/cover/8470aab7f1ff49ea37dd02fcb8b77337/1000x1000-000000-80-0-0.jpg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": [
+      "pitchfork_albums",
+      "pitchfork_best_albums"
+    ]
+  },
+  {
+    "id": "obeka-a-world-no-more",
+    "type": "album",
+    "artist": "Obeka",
+    "title": "A World No More",
+    "label": "YUKU",
+    "releaseDate": "2026-05-01",
+    "description": "Eleven tracks of global club tessellation from Obeka on YUKU, where kuduro, gqom and dancehall pressure, points fold into bass music without anyone bothering to flag the seams. Sits comfortably alongside the deconstructed end of the Príncipe roster.",
+    "tags": [
+      "electronic"
+    ],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=Obeka%20A%20World%20No%20More&item_type=a",
+      "spotify": "https://open.spotify.com/search/Obeka%20A%20World%20No%20More",
+      "soundcloud": "https://soundcloud.com/search?q=Obeka%20A%20World%20No%20More",
+      "youtube": "https://www.youtube.com/results?search_query=Obeka%20A%20World%20No%20More",
+      "deezer": "https://www.deezer.com/album/841121082",
+      "apple": "https://music.apple.com/us/album/a-world-no-more/1847349323?uo=4"
+    },
+    "embed": {
+      "provider": "apple",
+      "src": "https://embed.music.apple.com/us/album/1847349323?theme=light",
+      "height": 450
+    },
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://i.discogs.com/sSzmvV-H549c8mqmppyiyT8PF2wMR1oPDHvcTUTrDUo/rs:fit/g:sm/q:90/h:598/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM3MjUw/OTA0LTE3Nzc5NjI2/NDItODkwMC5qcGVn.jpeg",
     "cover": {
       "bg": "#111110",
       "fg": "#f2efe8",
@@ -13381,7 +13485,7 @@
     "title": "Innerelements",
     "label": "R & S Records",
     "releaseDate": "2025-11-27",
-    "description": "",
+    "description": "R&S returns to Ishii's mid, 90s catalogue with a thirteen, track set straddling techno, minimal and the more abstract corners of his work. A useful entry point if you only know him through Jelly Tones.",
     "tags": [
       "electronic"
     ],
@@ -13416,7 +13520,7 @@
     "title": "Rain & Cymbals",
     "label": "12th Isle",
     "releaseDate": "2025-11-26",
-    "description": "",
+    "description": "A split LP on 12th Isle pairing Material Things and Pike across six tracks that drift between Berlin, school patience, dub weight and concrète clutter. Sits comfortably with the rest of the Glasgow label's catalogue.",
     "tags": [
       "electronic"
     ],
@@ -13449,7 +13553,7 @@
     "title": "Magnetism = マグネティズム",
     "label": "Ideologic Organ",
     "releaseDate": "2025-11-26",
-    "description": "",
+    "description": "Malone and McDowall meet on Stephen O'Malley's Ideologic Organ for five pieces of slow electroacoustic drone, organ minimalism brushing against modular weight. Sits comfortably alongside her own Living Torch.",
     "tags": [
       "electronic"
     ],
@@ -13478,7 +13582,7 @@
     "title": "Changes In Air",
     "label": "Smalltown Supersound",
     "releaseDate": "2025-11-25",
-    "description": "",
+    "description": "Coverdale on Smalltown Supersound, five pieces of organ, haunted ambient and modern classical that keep the slow harmonic drift of her earlier work intact. Sits comfortably next to Sarah Davachi if you're shelving by mood.",
     "tags": [
       "electronic"
     ],
@@ -13548,7 +13652,7 @@
     "title": "Cavejaz",
     "label": "Leaving Records",
     "releaseDate": "2025-11-21",
-    "description": "",
+    "description": "Thirteen tracks of Brazilian guitar work from Fabiano Do Nascimento, landing on Leaving Records and leaning into the bossa lineage rather than away from it. For anyone shelving Arthur Verocai near Matthewdavid's more pastoral output.",
     "tags": [
       "jazz"
     ],
@@ -13581,7 +13685,7 @@
     "title": "Jelly Tones",
     "label": "R & S Records",
     "releaseDate": "2025-11-21",
-    "description": "",
+    "description": "R & S brings back the 1995 Ishii album that paired Detroit, leaning techno with the cartoon melodicism of his Tokyo studio years. Still the obvious entry point if you came to him via Extra.",
     "tags": [
       "electronic"
     ],
@@ -13614,7 +13718,7 @@
     "title": "I Don't Care EP",
     "label": "Lapsus Music",
     "releaseDate": "2025-11-21",
-    "description": "",
+    "description": "Two tracks of minimal techno from Hotinga on Lapsus, the Barcelona label that has long favored the drier, more functional end of the style. Tool music for the back half of the night.",
     "tags": [
       "electronic"
     ],
@@ -13643,7 +13747,7 @@
     "title": "Deformity In Ceremony",
     "label": "Lilang Isla",
     "releaseDate": "2025-11-21",
-    "description": "",
+    "description": "Twelve tracks of dense, riff, forward death metal from Sallow Moth, pressed as a limited EP on Lilang Isla. Closer to the project's solo, demo, feel lineage than to anything polished for the pit.",
     "tags": [
       "rock"
     ],
@@ -13678,7 +13782,7 @@
     "title": "Anthology 4",
     "label": "Apple Records",
     "releaseDate": "2025-11-21",
-    "description": "",
+    "description": "A fourth Anthology volume from the Beatles, gathering 36 outtakes, demos and alternate passes across the catalogue for Apple. Strictly for the deep, shelf collectors who have already worn through the 1995, 96 set.",
     "tags": [
       "rock"
     ],
@@ -13712,7 +13816,7 @@
     "title": "Infinity Gradient",
     "label": "Erased Tapes Records",
     "releaseDate": "2025-11-21",
-    "description": "",
+    "description": "Perich's 1, bit electronics paired with James McVinnie's organ across eight pieces for Erased Tapes, the math, rigid pulse rubbing against pipework that breathes. Sits comfortably next to Nils Frahm's more austere keyboard work on the label.",
     "tags": [
       "electronic"
     ],
@@ -13747,7 +13851,7 @@
     "title": "Blue Permutations",
     "label": "Lilang Isla",
     "releaseDate": "2025-11-21",
-    "description": "",
+    "description": "Four tracks of death metal from Sallow Moth, the solo project's catalogue continues on Lilang Isla in a limited EP pressing. For listeners tracking the more compositional, riff, dense end of the underground.",
     "tags": [
       "rock"
     ],
@@ -13781,7 +13885,7 @@
     "title": "Allergic",
     "label": "NAFF",
     "releaseDate": "2025-11-20",
-    "description": "",
+    "description": "Two tracks from B. McQueen and Priori on NAFF, sitting in the gap between dub techno's drift and dubstep's weight without committing to either. A 10\" at 45, which suits the format: short, dense, room for low end.",
     "tags": [
       "electronic"
     ],
