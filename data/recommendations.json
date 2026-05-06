@@ -145,6 +145,36 @@
     "pressMentions": []
   },
   {
+    "id": "felicia-atkinson-sans-visage",
+    "type": "album",
+    "artist": "Felicia Atkinson",
+    "title": "Sans Visage",
+    "label": "SHELTER PRESS",
+    "releaseDate": "2026-06-26",
+    "description": "Felicia Atkinson turns to soundtrack work on her own Shelter Press, the natural extension of a practice that has long sat between musique concrète, spoken word, and the quietest end of contemporary composition. For listeners already deep into Cassandra Jenkins or Kali Malone's tape pieces.",
+    "tags": [
+      "soundtrack"
+    ],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=Felicia%20Atkinson%20Sans%20Visage&item_type=a",
+      "spotify": "https://open.spotify.com/search/Felicia%20Atkinson%20Sans%20Visage",
+      "soundcloud": "https://soundcloud.com/search?q=Felicia%20Atkinson%20Sans%20Visage",
+      "youtube": "https://www.youtube.com/results?search_query=Felicia%20Atkinson%20Sans%20Visage",
+      "apple": "https://music.apple.com/us/album/sans-visage/1895033862"
+    },
+    "embed": null,
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/71/7d/c1/717dc100-2590-d009-c4aa-1704d94105e2/65409.jpg/600x600bb.jpg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
     "id": "baauer-u",
     "type": "album",
     "artist": "Baauer",
@@ -757,6 +787,39 @@
     ]
   },
   {
+    "id": "gyrofield-your-fight",
+    "type": "ep",
+    "artist": "gyrofield",
+    "title": "Your Fight",
+    "label": "",
+    "releaseDate": "2026-05-06",
+    "description": "Kimchi Tse continues operating in the seam between drum and bass, deconstructed club and the heavier end of leftfield bass, where most of her recent work has lived. Self, released territory by the looks of it, and worth a listen if you've been following her trajectory since the Critical sides.",
+    "tags": [],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=gyrofield%20Your%20Fight&item_type=a",
+      "spotify": "https://open.spotify.com/search/gyrofield%20Your%20Fight",
+      "soundcloud": "https://soundcloud.com/search?q=gyrofield%20Your%20Fight",
+      "youtube": "https://www.youtube.com/results?search_query=gyrofield%20Your%20Fight",
+      "deezer": "https://www.deezer.com/album/958779751",
+      "apple": "https://music.apple.com/us/album/your-fight-single/1893025906?uo=4"
+    },
+    "embed": {
+      "provider": "apple",
+      "src": "https://embed.music.apple.com/us/album/1893025906?theme=light",
+      "height": 450
+    },
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://cdn-images.dzcdn.net/images/cover/203680b66afbcb7301b301a0be5d41b4/1000x1000-000000-80-0-0.jpg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
     "id": "heith-tarawangsawelas-duori",
     "type": "album",
     "artist": "Heith & Tarawangsawelas",
@@ -859,6 +922,77 @@
     "pressMentions": []
   },
   {
+    "id": "lucrecia-dalt-synonym-mask",
+    "type": "single",
+    "artist": "Lucrecia Dalt",
+    "title": "Synonym Mask",
+    "label": "",
+    "releaseDate": "2026-05-05",
+    "description": "Lucrecia Dalt in single form, which usually means her particular weave of bolero ghosts, dub negative space and uneasy synthesis arrives compressed rather than expansive. Worth a listen for anyone who has stayed with her since ¡Ay!.",
+    "tags": [],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=Lucrecia%20Dalt%20Synonym%20Mask&item_type=a",
+      "spotify": "https://open.spotify.com/search/Lucrecia%20Dalt%20Synonym%20Mask",
+      "soundcloud": "https://soundcloud.com/search?q=Lucrecia%20Dalt%20Synonym%20Mask",
+      "youtube": "https://www.youtube.com/results?search_query=Lucrecia%20Dalt%20Synonym%20Mask",
+      "deezer": "https://www.deezer.com/album/961277271",
+      "apple": "https://music.apple.com/us/album/synonym-mask-single/1893369745?uo=4"
+    },
+    "embed": {
+      "provider": "apple",
+      "src": "https://embed.music.apple.com/us/album/1893369745?theme=light",
+      "height": 450
+    },
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://cdn-images.dzcdn.net/images/cover/3df5dcaa3150126424d129ed2ea2b49a/1000x1000-000000-80-0-0.jpg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
+    "id": "kelela-linknb",
+    "type": "single",
+    "artist": "Kelela",
+    "title": "Linknb",
+    "label": "Warp Records",
+    "releaseDate": "2026-05-05",
+    "description": "Kelela on Warp, leaning further from the R&B production she made her name in toward something tagged dream pop and indie rock. A curious left turn on paper; worth hearing before deciding what it actually is.",
+    "tags": [
+      "electronic"
+    ],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=Kelela%20Linknb&item_type=a",
+      "spotify": "https://open.spotify.com/search/Kelela%20Linknb",
+      "soundcloud": "https://soundcloud.com/search?q=Kelela%20Linknb",
+      "youtube": "https://www.youtube.com/results?search_query=Kelela%20Linknb",
+      "deezer": "https://www.deezer.com/album/958873731"
+    },
+    "embed": {
+      "provider": "deezer",
+      "src": "https://widget.deezer.com/widget/light/album/958873731",
+      "height": 300
+    },
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://i.discogs.com/q38m-X81cI26EU8IO6NvQGjsyr6q3lzDfUSWCwhlTwQ/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM3MjU3/MjYxLTE3NzgwMjA0/ODMtNTgzNC5qcGVn.jpeg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": [
+      "pitchfork_tracks",
+      "pitchfork_best_tracks",
+      "stereogum"
+    ]
+  },
+  {
     "id": "kendrick-lamar-everybody-sensitive",
     "type": "album",
     "artist": "Kendrick Lamar",
@@ -874,6 +1008,72 @@
       "youtube": "https://www.youtube.com/results?search_query=Kendrick%20Lamar%20Everybody%20Sensitive"
     },
     "embed": null,
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": null,
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
+    "id": "plaid-photography",
+    "type": "album",
+    "artist": "Plaid",
+    "title": "Photography",
+    "label": "",
+    "releaseDate": "2026-05-03",
+    "description": "Plaid stay in the lane they have occupied since the Black Dog years: melodic, fastidious IDM with a softness most of their peers never bothered with. New full, length, no other details to report.",
+    "tags": [],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=Plaid%20Photography&item_type=a",
+      "spotify": "https://open.spotify.com/search/Plaid%20Photography",
+      "soundcloud": "https://soundcloud.com/search?q=Plaid%20Photography",
+      "youtube": "https://www.youtube.com/results?search_query=Plaid%20Photography",
+      "deezer": "https://www.deezer.com/album/960720621",
+      "apple": "https://music.apple.com/us/album/photography-single/1893162116?uo=4"
+    },
+    "embed": {
+      "provider": "apple",
+      "src": "https://embed.music.apple.com/us/album/1893162116?theme=light",
+      "height": 450
+    },
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": null,
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
+    "id": "lone-hecate",
+    "type": "album",
+    "artist": "Lone",
+    "title": "hecate",
+    "label": "",
+    "releaseDate": "2026-05-02",
+    "description": "Lone returns to album length, the rave, melodic palette he has worked in since Galaxy Garden presumably still in play. Label details are still unconfirmed; one to watch for fans of the brighter end of R&S.",
+    "tags": [],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=Lone%20hecate&item_type=a",
+      "spotify": "https://open.spotify.com/search/Lone%20hecate",
+      "soundcloud": "https://soundcloud.com/search?q=Lone%20hecate",
+      "youtube": "https://www.youtube.com/results?search_query=Lone%20hecate",
+      "deezer": "https://www.deezer.com/album/972148091",
+      "apple": "https://music.apple.com/us/album/hecate-single/1895836820?uo=4"
+    },
+    "embed": {
+      "provider": "apple",
+      "src": "https://embed.music.apple.com/us/album/1895836820?theme=light",
+      "height": 450
+    },
     "musicVideoUrl": null,
     "status": "pending",
     "approvedAt": null,
@@ -917,7 +1117,9 @@
       "fg": "#f2efe8",
       "motif": "disc"
     },
-    "pressMentions": []
+    "pressMentions": [
+      "pitchfork_albums"
+    ]
   },
   {
     "id": "four-tet-baby-love-cry",
@@ -1479,6 +1681,99 @@
     "status": "pending",
     "approvedAt": null,
     "coverImageUrl": "https://i.discogs.com/sSzmvV-H549c8mqmppyiyT8PF2wMR1oPDHvcTUTrDUo/rs:fit/g:sm/q:90/h:598/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM3MjUw/OTA0LTE3Nzc5NjI2/NDItODkwMC5qcGVn.jpeg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
+    "id": "floating-points-falling-to-earth",
+    "type": "album",
+    "artist": "Floating Points",
+    "title": "Falling to Earth",
+    "label": "Deutsche Grammophon",
+    "releaseDate": "2026-05-01",
+    "description": "Sam Shepherd lands at Deutsche Grammophon for a long, form neo, classical piece, the orchestral instinct from Promises pushed further from the dancefloor. For anyone who followed the Pharoah Sanders collaboration into its quieter corners.",
+    "tags": [],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=Floating%20Points%20Falling%20to%20Earth&item_type=a",
+      "spotify": "https://open.spotify.com/search/Floating%20Points%20Falling%20to%20Earth",
+      "soundcloud": "https://soundcloud.com/search?q=Floating%20Points%20Falling%20to%20Earth",
+      "youtube": "https://www.youtube.com/results?search_query=Floating%20Points%20Falling%20to%20Earth",
+      "deezer": "https://www.deezer.com/album/968420141",
+      "apple": "https://music.apple.com/us/album/falling-to-earth-ep/1894269249?uo=4"
+    },
+    "embed": {
+      "provider": "apple",
+      "src": "https://embed.music.apple.com/us/album/1894269249?theme=light",
+      "height": 450
+    },
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": null,
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
+    "id": "noon-geschwister",
+    "type": "album",
+    "artist": "Noon",
+    "title": "Geschwister",
+    "label": "",
+    "releaseDate": "2026-05-01",
+    "description": "Noon returns with a full, length called Geschwister, German for siblings, the title doing more legwork than any blurb could. Label and tracklist still under wraps, worth a watch for anyone who has followed the project this far.",
+    "tags": [],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=Noon%20Geschwister&item_type=a",
+      "spotify": "https://open.spotify.com/search/Noon%20Geschwister",
+      "soundcloud": "https://soundcloud.com/search?q=Noon%20Geschwister",
+      "youtube": "https://www.youtube.com/results?search_query=Noon%20Geschwister",
+      "deezer": "https://www.deezer.com/album/971967981",
+      "apple": "https://music.apple.com/us/album/geschwister-single/1896084252?uo=4"
+    },
+    "embed": {
+      "provider": "apple",
+      "src": "https://embed.music.apple.com/us/album/1896084252?theme=light",
+      "height": 450
+    },
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": null,
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
+    "id": "amelie-lens-amelie-lens-021",
+    "type": "album",
+    "artist": "Amelie Lens",
+    "title": "Amelie Lens 021",
+    "label": "",
+    "releaseDate": "2026-05-01",
+    "description": "Lens in album form, the Belgian techno headliner stepping outside the festival peak, time remit she is best known for. Worth hearing on its own terms before the floor reclaims it.",
+    "tags": [],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=Amelie%20Lens%20Amelie%20Lens%20021&item_type=a",
+      "spotify": "https://open.spotify.com/search/Amelie%20Lens%20Amelie%20Lens%20021",
+      "soundcloud": "https://soundcloud.com/search?q=Amelie%20Lens%20Amelie%20Lens%20021",
+      "youtube": "https://www.youtube.com/results?search_query=Amelie%20Lens%20Amelie%20Lens%20021"
+    },
+    "embed": null,
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": null,
     "cover": {
       "bg": "#111110",
       "fg": "#f2efe8",
@@ -5954,7 +6249,8 @@
     },
     "pressMentions": [
       "pitchfork_tracks",
-      "pitchfork_best_tracks"
+      "pitchfork_best_tracks",
+      "stereogum"
     ]
   },
   {
@@ -8167,7 +8463,10 @@
       "bg": "#111110",
       "fg": "#f2efe8",
       "motif": "disc"
-    }
+    },
+    "pressMentions": [
+      "pitchfork_albums"
+    ]
   },
   {
     "id": "dave-angel-the-family-ep",
@@ -13919,7 +14218,7 @@
     "title": "Amami (feat. Minami Kizuki)",
     "label": "",
     "releaseDate": "2025-11-19",
-    "description": "Another single from Yussef Dayes. Worldwide territory. Placeholder copy for the admin preview.",
+    "description": "Yussef Dayes pairs with Japanese folk singer Minami Kizuki on a single that should, on paper, sit some distance from the drummer's South London jazz orbit. Worth a listen for anyone tracking where his collaborations keep wandering.",
     "tags": [
       "worldwide"
     ],
@@ -13943,8 +14242,7 @@
       "bg": "#111110",
       "fg": "#f2efe8",
       "motif": "disc"
-    },
-    "descriptionPreview": true
+    }
   },
   {
     "id": "js-donny-death-folk",
@@ -13953,7 +14251,7 @@
     "title": "Death Folk",
     "label": "Bamboo Shows",
     "releaseDate": "2025-11-18",
-    "description": "Js Donny returns with a EP through Bamboo Shows, the kind of rock that rewards a second listen. Editorial copy still to come.",
+    "description": "Six tracks pitched between alternative rock, folk metal and doom on Bamboo Shows, less a pastiche than a working, out of where those three modes share a tempo. Heavy without theatrics.",
     "tags": [
       "rock"
     ],
@@ -13978,8 +14276,7 @@
       "bg": "#111110",
       "fg": "#f2efe8",
       "motif": "disc"
-    },
-    "descriptionPreview": true
+    }
   },
   {
     "id": "various-eastside-hardcore-vol-i-an-eastern-european-sampler",
@@ -13988,7 +14285,7 @@
     "title": "Eastside Hardcore Vol. I (An Eastern European Sampler)",
     "label": "Frabylon",
     "releaseDate": "2025-11-16",
-    "description": "",
+    "description": "Eight, band hardcore sampler from Frabylon mapping the current Eastern European scene, pressed in limited quantity. A scene document more than a curated mixtape, useful if you have been tracking the region past the obvious Czech and Polish names.",
     "tags": [
       "rock"
     ],
@@ -14017,7 +14314,7 @@
     "title": "sorry i thought you were someone else",
     "label": "Incienso",
     "releaseDate": "2025-11-14",
-    "description": "Album by k-lone on Incienso. Filed under house. Holding slot for the real description.",
+    "description": "K, Lone lands on Incienso with ten tracks of minimal, garage, inflected house that keeps the Wisdom Teeth lightness intact while sitting comfortably in the label's downtown lineage. Reference point: Anthony Naples in his most dancefloor, leaning mode.",
     "tags": [
       "house"
     ],
@@ -14041,8 +14338,7 @@
       "bg": "#111110",
       "fg": "#f2efe8",
       "motif": "disc"
-    },
-    "descriptionPreview": true
+    }
   },
   {
     "id": "low-end-activist-airdrop-iii",
@@ -14051,7 +14347,7 @@
     "title": "Airdrop III",
     "label": "Peak Oil",
     "releaseDate": "2025-11-14",
-    "description": "Low End Activist returns with a album through Peak Oil, the kind of electronic that rewards a second listen. Editorial copy still to come.",
+    "description": "Low End Activist lands on Peak Oil with ten tracks pulling UK garage into the rougher, more abstract terrain the label tends to favour. Sound system music for people who own Beneath records.",
     "tags": [
       "electronic"
     ],
@@ -14077,7 +14373,6 @@
       "fg": "#f2efe8",
       "motif": "disc"
     },
-    "descriptionPreview": true,
     "pressMentions": [
       "ra"
     ]
@@ -14089,7 +14384,7 @@
     "title": "Osaka Cuts",
     "label": "Coastline Northern Cuts",
     "releaseDate": "2025-11-14",
-    "description": "Single by Klawo, Peko, Miły Atz, Odme on Coastline Northern Cuts. Filed under hip hop. Holding slot for the real description.",
+    "description": "A three, track 7\" from the Polish Coastline Northern Cuts crew, splitting the difference between hip hop, jazz and R&B in the kind of short, looped sketches the label has built its catalogue on. Cut at both 33 and 45, so flip accordingly.",
     "tags": [
       "hip hop"
     ],
@@ -14113,8 +14408,7 @@
       "bg": "#111110",
       "fg": "#f2efe8",
       "motif": "disc"
-    },
-    "descriptionPreview": true
+    }
   },
   {
     "id": "tenemik-bemenet-kimenet",
@@ -22095,6 +22389,74 @@
     "status": "pending",
     "approvedAt": null,
     "coverImageUrl": "https://i.discogs.com/rtreq5ZRjPp9958f_KsY8Y-UJqcQRDsyz68Or6JmyDY/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM0MDU0/NTU4LTE3NDc5Mzk4/NDMtNDk5OS5qcGVn.jpeg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
+    "id": "hakushi-hasegawa-somoku-from-the-first-take",
+    "type": "single",
+    "artist": "Hakushi Hasegawa",
+    "title": "Somoku - From The First Take",
+    "label": "Brainfeeder",
+    "releaseDate": "2025-05-22",
+    "description": "",
+    "tags": [
+      "electronic"
+    ],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=Hakushi%20Hasegawa%20Somoku%20-%20From%20The%20First%20Take&item_type=a",
+      "spotify": "https://open.spotify.com/search/Hakushi%20Hasegawa%20Somoku%20-%20From%20The%20First%20Take",
+      "soundcloud": "https://soundcloud.com/search?q=Hakushi%20Hasegawa%20Somoku%20-%20From%20The%20First%20Take",
+      "youtube": "https://www.youtube.com/results?search_query=Hakushi%20Hasegawa%20Somoku%20-%20From%20The%20First%20Take",
+      "deezer": "https://www.deezer.com/album/746083531"
+    },
+    "embed": {
+      "provider": "deezer",
+      "src": "https://widget.deezer.com/widget/light/album/746083531",
+      "height": 300
+    },
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://i.discogs.com/Ct9HLEvNHjboRH7l7SimdhsjoLUCvLgvETkK7CjunNA/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM3MjYy/ODgzLTE3NzgwNDI1/NjMtNzU5OS5qcGVn.jpeg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
+    "id": "hakushi-hasegawa-outside-soto-from-the-first-take",
+    "type": "single",
+    "artist": "Hakushi Hasegawa",
+    "title": "Outside (Soto) - From The First Take",
+    "label": "Brainfeeder",
+    "releaseDate": "2025-05-22",
+    "description": "",
+    "tags": [
+      "pop"
+    ],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=Hakushi%20Hasegawa%20Outside%20(Soto)%20-%20From%20The%20First%20Take&item_type=a",
+      "spotify": "https://open.spotify.com/search/Hakushi%20Hasegawa%20Outside%20(Soto)%20-%20From%20The%20First%20Take",
+      "soundcloud": "https://soundcloud.com/search?q=Hakushi%20Hasegawa%20Outside%20(Soto)%20-%20From%20The%20First%20Take",
+      "youtube": "https://www.youtube.com/results?search_query=Hakushi%20Hasegawa%20Outside%20(Soto)%20-%20From%20The%20First%20Take",
+      "deezer": "https://www.deezer.com/album/746076801"
+    },
+    "embed": {
+      "provider": "deezer",
+      "src": "https://widget.deezer.com/widget/light/album/746076801",
+      "height": 300
+    },
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://i.discogs.com/yuT0uKdDcIyVe4wsYyDGojYvUvcytqUDqgbLGZN7yfA/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM3MjYy/ODkyLTE3NzgwNDI3/MjUtNzEzNS5qcGVn.jpeg",
     "cover": {
       "bg": "#111110",
       "fg": "#f2efe8",
