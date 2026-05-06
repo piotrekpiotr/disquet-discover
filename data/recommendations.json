@@ -145,6 +145,36 @@
     "pressMentions": []
   },
   {
+    "id": "lee-gamble-spray-spray",
+    "type": "single",
+    "artist": "Lee Gamble",
+    "title": "Spray Spray",
+    "label": "Kuboraum Editions",
+    "releaseDate": "2026-07-03",
+    "description": "Lee Gamble surfaces on Kuboraum Editions, the eyewear house's curatorial offshoot, working in the same fractured club abstraction he has been chasing since Mnestic Pressure. Sits comfortably alongside the rest of the Hyperdub, adjacent shelf.",
+    "tags": [
+      "electronic"
+    ],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=Lee%20Gamble%20Spray%20Spray&item_type=a",
+      "spotify": "https://open.spotify.com/search/Lee%20Gamble%20Spray%20Spray",
+      "soundcloud": "https://soundcloud.com/search?q=Lee%20Gamble%20Spray%20Spray",
+      "youtube": "https://www.youtube.com/results?search_query=Lee%20Gamble%20Spray%20Spray",
+      "apple": "https://music.apple.com/us/album/spray-spray-single/1893370675"
+    },
+    "embed": null,
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/54/c8/55/54c8557e-c50f-d76c-12c9-dd7e21638019/4062548142853.png/600x600bb.jpg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
     "id": "felicia-atkinson-sans-visage",
     "type": "album",
     "artist": "Felicia Atkinson",
@@ -787,6 +817,41 @@
     ]
   },
   {
+    "id": "peter-gabriel-live-at-womad-1982",
+    "type": "album",
+    "artist": "Peter Gabriel",
+    "title": "Live At WOMAD 1982",
+    "label": "Real World Records",
+    "releaseDate": "2026-05-08",
+    "description": "Real World pulls an archival WOMAD set from its own founder, captured in the year the festival began and Gabriel was pivoting from prog frontman toward the cross, cultural rhythm work that would define the label. A document more than a reissue.",
+    "tags": [
+      "rock"
+    ],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=Peter%20Gabriel%20Live%20At%20WOMAD%201982&item_type=a",
+      "spotify": "https://open.spotify.com/search/Peter%20Gabriel%20Live%20At%20WOMAD%201982",
+      "soundcloud": "https://soundcloud.com/search?q=Peter%20Gabriel%20Live%20At%20WOMAD%201982",
+      "youtube": "https://www.youtube.com/results?search_query=Peter%20Gabriel%20Live%20At%20WOMAD%201982",
+      "deezer": "https://www.deezer.com/album/793762991",
+      "apple": "https://music.apple.com/us/album/live-at-womad-1982/1828960687?uo=4"
+    },
+    "embed": {
+      "provider": "apple",
+      "src": "https://embed.music.apple.com/us/album/1828960687?theme=light",
+      "height": 450
+    },
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://i.discogs.com/nG_ZArBe7AEMRdQyspjxQJC5x_mITUFkk64oGjgQYXI/rs:fit/g:sm/q:90/h:600/w:595/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM3MjY1/NzYwLTE3NzgwNzI1/NDktNjAzNC5qcGVn.jpeg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
     "id": "gyrofield-your-fight",
     "type": "ep",
     "artist": "gyrofield",
@@ -818,6 +883,40 @@
       "motif": "disc"
     },
     "pressMentions": []
+  },
+  {
+    "id": "aldous-harding-coats",
+    "type": "single",
+    "artist": "Aldous Harding",
+    "title": "Coats",
+    "label": "",
+    "releaseDate": "2026-05-06",
+    "description": "Aldous Harding trails a single ahead of whatever comes next, which on past form means folk, pop sung in a voice that keeps shifting register on you. Label and tracklist still unconfirmed.",
+    "tags": [],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=Aldous%20Harding%20Coats&item_type=a",
+      "spotify": "https://open.spotify.com/search/Aldous%20Harding%20Coats",
+      "soundcloud": "https://soundcloud.com/search?q=Aldous%20Harding%20Coats",
+      "youtube": "https://www.youtube.com/results?search_query=Aldous%20Harding%20Coats",
+      "deezer": "https://www.deezer.com/album/961100841"
+    },
+    "embed": {
+      "provider": "deezer",
+      "src": "https://widget.deezer.com/widget/light/album/961100841",
+      "height": 300
+    },
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://cdn-images.dzcdn.net/images/cover/c0fab408a214c70e58e3fffcb5c7ed1b/1000x1000-000000-80-0-0.jpg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": [
+      "pitchfork_best_tracks"
+    ]
   },
   {
     "id": "heith-tarawangsawelas-duori",
@@ -1782,6 +1881,33 @@
     "pressMentions": []
   },
   {
+    "id": "gas-kanner-mig-bast-feat-saron",
+    "type": "album",
+    "artist": "GAS",
+    "title": "känner mig bäst. (feat. Saron)",
+    "label": "",
+    "releaseDate": "2026-05-01",
+    "description": "Wolfgang Voigt's GAS project named on a feature credit feels unlikely, so this is presumably a different GAS operating in Swedish, language pop or rap territory. Without label or tag confirmation, file under wait, and, see.",
+    "tags": [],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=GAS%20k%C3%A4nner%20mig%20b%C3%A4st.%20(feat.%20Saron)&item_type=a",
+      "spotify": "https://open.spotify.com/search/GAS%20k%C3%A4nner%20mig%20b%C3%A4st.%20(feat.%20Saron)",
+      "soundcloud": "https://soundcloud.com/search?q=GAS%20k%C3%A4nner%20mig%20b%C3%A4st.%20(feat.%20Saron)",
+      "youtube": "https://www.youtube.com/results?search_query=GAS%20k%C3%A4nner%20mig%20b%C3%A4st.%20(feat.%20Saron)"
+    },
+    "embed": null,
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": null,
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
     "id": "jump-source-patrick-holland-priori-fold",
     "type": "album",
     "artist": "Jump Source, Patrick Holland & Priori",
@@ -2100,6 +2226,34 @@
     "status": "pending",
     "approvedAt": null,
     "coverImageUrl": "https://cdn-images.dzcdn.net/images/cover/bce62f2d50f6f43081673793e7756274/1000x1000-000000-80-0-0.jpg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
+    "id": "andrea-softskin",
+    "type": "single",
+    "artist": "Andrea",
+    "title": "Softskin",
+    "label": "",
+    "releaseDate": "2026-04-29",
+    "description": "New Andrea, the Ilian Tape regular whose records sit between broken techno and a kind of frayed, melodic drum programming that the label has made its house style. Worth a listen if Two Worlds Just Touched still gets pulled off the shelf.",
+    "tags": [],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=Andrea%20Softskin&item_type=a",
+      "spotify": "https://open.spotify.com/search/Andrea%20Softskin",
+      "soundcloud": "https://soundcloud.com/search?q=Andrea%20Softskin",
+      "youtube": "https://www.youtube.com/results?search_query=Andrea%20Softskin",
+      "deezer": "https://www.deezer.com/album/951072941"
+    },
+    "embed": null,
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://cdn-images.dzcdn.net/images/cover/bcd0fe3629cb899f6ec853a326d917fb/1000x1000-000000-80-0-0.jpg",
     "cover": {
       "bg": "#111110",
       "fg": "#f2efe8",
@@ -8064,6 +8218,41 @@
     "status": "pending",
     "approvedAt": null,
     "coverImageUrl": "https://i.discogs.com/bi2Fp5MFJh5_KJhkOBnMJvrpQjKT4j2HTeocWjwubpE/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM2NzY4/NjA0LTE3NzM0ODM0/ODQtODA0MS5qcGVn.jpeg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
+    "id": "human-safari-children-of-the-sea",
+    "type": "ep",
+    "artist": "Human Safari",
+    "title": "Children Of The Sea",
+    "label": "R & S Records",
+    "releaseDate": "2026-03-13",
+    "description": "Four tracks of techno on R & S, a label still trading on the deep, water blues palette it has carried for decades. Sits closer to the rolling, hypnotic side of the catalogue than the rave end.",
+    "tags": [
+      "electronic"
+    ],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=Human%20Safari%20Children%20Of%20The%20Sea&item_type=a",
+      "spotify": "https://open.spotify.com/search/Human%20Safari%20Children%20Of%20The%20Sea",
+      "soundcloud": "https://soundcloud.com/search?q=Human%20Safari%20Children%20Of%20The%20Sea",
+      "youtube": "https://www.youtube.com/results?search_query=Human%20Safari%20Children%20Of%20The%20Sea",
+      "deezer": "https://www.deezer.com/album/900549502",
+      "apple": "https://music.apple.com/us/album/children-of-the-sea-ep/1870360084?uo=4"
+    },
+    "embed": {
+      "provider": "apple",
+      "src": "https://embed.music.apple.com/us/album/1870360084?theme=light",
+      "height": 450
+    },
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://i.discogs.com/glMjeg_RBJ3Q6oimatJpYkqMD-1R4QnzD2MXidxw7XU/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM3MjY1/NzE1LTE3NzgwNzAz/MTAtMjMzMi5qcGVn.jpeg",
     "cover": {
       "bg": "#111110",
       "fg": "#f2efe8",
@@ -14417,7 +14606,7 @@
     "title": "Bemenet / Kimenet",
     "label": "Coastline Northern Cuts",
     "releaseDate": "2025-11-14",
-    "description": "Tenemik returns with a album through Coastline Northern Cuts, the kind of electronic that rewards a second listen. Editorial copy still to come.",
+    "description": "Seven tracks from Tenemik on Coastline Northern Cuts, pulling dub techno toward krautrock's longer arcs without ever quite settling in either camp. Patient, abstract, more rhythm, as, drift than rhythm, as, grid.",
     "tags": [
       "electronic"
     ],
@@ -14442,8 +14631,7 @@
       "bg": "#111110",
       "fg": "#f2efe8",
       "motif": "disc"
-    },
-    "descriptionPreview": true
+    }
   },
   {
     "id": "low-end-activist-airdrop-ii",
@@ -14452,7 +14640,7 @@
     "title": "Airdrop II",
     "label": "Peak Oil",
     "releaseDate": "2025-11-14",
-    "description": "",
+    "description": "Low End Activist lands on Peak Oil with ten tracks moving between bass weight, drum and bass pressure and grainier experimental terrain. A natural fit for anyone tracking Pessimist's recent output.",
     "tags": [
       "electronic"
     ],
@@ -14488,7 +14676,7 @@
     "title": "Vesper Sparrow",
     "label": "Shelter Press",
     "releaseDate": "2025-11-14",
-    "description": "",
+    "description": "Six pieces from JJJJJerome Ellis on Shelter Press, threading spoken word through free improvisation and concrète textures in the way the label has long made room for. Sits comfortably alongside Moor Mother on the shelf.",
     "tags": [
       "electronic"
     ],
@@ -14521,7 +14709,7 @@
     "title": "Wipe'out'' - The Zero Gravity Soundtrack Vol. 2",
     "label": "Lapsus Records",
     "releaseDate": "2025-11-14",
-    "description": "",
+    "description": "Lapsus continues its archival work on Tim Wright's Wipeout scores, gathering 22 tracks across the drum and bass, electro and trance vocabulary that PlayStation, era racing burned into a generation. Remastered, on LP, for those who treat game soundtracks as a serious shelf.",
     "tags": [
       "electronic"
     ],
@@ -14554,7 +14742,7 @@
     "title": "Big Mama EP",
     "label": "Lapsus Music",
     "releaseDate": "2025-11-14",
-    "description": "",
+    "description": "Two, tracker of straight, ahead house from Fiorella on Lapsus, the Barcelona label that tends to favour the cleaner, club, functional end of the spectrum. Built for the floor rather than the headphones.",
     "tags": [
       "electronic"
     ],
@@ -14582,7 +14770,7 @@
     "title": "II = II",
     "label": "Modern Love",
     "releaseDate": "2025-11-14",
-    "description": "",
+    "description": "Four pieces of experimental drone for Modern Love, Sara Udon working in the smudged, low, light register the label has spent two decades shaping. Sits comfortably alongside Rainer Veil for anyone tracking that lineage.",
     "tags": [
       "electronic"
     ],
@@ -14617,7 +14805,7 @@
     "title": "A Body Like A Home",
     "label": "Other People",
     "releaseDate": "2025-11-14",
-    "description": "",
+    "description": "Thirteen pieces from Alejandra Cárdenas on Nicolas Jaar's Other People, drawing field recording, sound poetry, drone and cumbia into the same room without smoothing the edges between them. Voice and document treated as instruments; shelve near Lara Sarkissian.",
     "tags": [
       "electronic"
     ],
@@ -14652,7 +14840,7 @@
     "title": "Illusion",
     "label": "Ilian Tape",
     "releaseDate": "2025-11-13",
-    "description": "",
+    "description": "Four, track 12\" from the Munich brothers on their own Ilian Tape, working the broken, dust, flecked techno register the label has spent a decade defining. For anyone tracking the Skee Mask adjacent end of the catalogue.",
     "tags": [
       "electronic"
     ],
@@ -14686,7 +14874,7 @@
     "title": "Magnetism",
     "label": "Ideologic Organ",
     "releaseDate": "2025-11-09",
-    "description": "",
+    "description": "Malone and McDowall convene on Stephen O'Malley's Ideologic Organ for five pieces of slow, moving drone and electroacoustic minimalism, the kind of patient harmonic work both have built careers around. Sits comfortably next to the Coil, adjacent end of the label.",
     "tags": [
       "electronic"
     ],
@@ -22412,12 +22600,13 @@
       "spotify": "https://open.spotify.com/search/Hakushi%20Hasegawa%20Somoku%20-%20From%20The%20First%20Take",
       "soundcloud": "https://soundcloud.com/search?q=Hakushi%20Hasegawa%20Somoku%20-%20From%20The%20First%20Take",
       "youtube": "https://www.youtube.com/results?search_query=Hakushi%20Hasegawa%20Somoku%20-%20From%20The%20First%20Take",
-      "deezer": "https://www.deezer.com/album/746083531"
+      "deezer": "https://www.deezer.com/album/746083531",
+      "apple": "https://music.apple.com/us/album/somoku-from-the-first-take-single/1810054518?uo=4"
     },
     "embed": {
-      "provider": "deezer",
-      "src": "https://widget.deezer.com/widget/light/album/746083531",
-      "height": 300
+      "provider": "apple",
+      "src": "https://embed.music.apple.com/us/album/1810054518?theme=light",
+      "height": 450
     },
     "musicVideoUrl": null,
     "status": "pending",
@@ -22446,12 +22635,13 @@
       "spotify": "https://open.spotify.com/search/Hakushi%20Hasegawa%20Outside%20(Soto)%20-%20From%20The%20First%20Take",
       "soundcloud": "https://soundcloud.com/search?q=Hakushi%20Hasegawa%20Outside%20(Soto)%20-%20From%20The%20First%20Take",
       "youtube": "https://www.youtube.com/results?search_query=Hakushi%20Hasegawa%20Outside%20(Soto)%20-%20From%20The%20First%20Take",
-      "deezer": "https://www.deezer.com/album/746076801"
+      "deezer": "https://www.deezer.com/album/746076801",
+      "apple": "https://music.apple.com/us/album/outside-soto-from-the-first-take-single/1810054065?uo=4"
     },
     "embed": {
-      "provider": "deezer",
-      "src": "https://widget.deezer.com/widget/light/album/746076801",
-      "height": 300
+      "provider": "apple",
+      "src": "https://embed.music.apple.com/us/album/1810054065?theme=light",
+      "height": 450
     },
     "musicVideoUrl": null,
     "status": "pending",
@@ -34517,12 +34707,13 @@
       "spotify": "https://open.spotify.com/search/Eli%20Keszler%20Harka%20OST",
       "soundcloud": "https://soundcloud.com/search?q=Eli%20Keszler%20Harka%20OST",
       "youtube": "https://www.youtube.com/results?search_query=Eli%20Keszler%20Harka%20OST",
-      "deezer": "https://www.deezer.com/album/598111552"
+      "deezer": "https://www.deezer.com/album/598111552",
+      "apple": "https://music.apple.com/us/album/harka-ost/1750873478?uo=4"
     },
     "embed": {
-      "provider": "deezer",
-      "src": "https://widget.deezer.com/widget/light/album/598111552",
-      "height": 300
+      "provider": "apple",
+      "src": "https://embed.music.apple.com/us/album/1750873478?theme=light",
+      "height": 450
     },
     "musicVideoUrl": null,
     "status": "pending",
