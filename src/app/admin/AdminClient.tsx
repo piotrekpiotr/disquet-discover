@@ -76,6 +76,18 @@ export function AdminClient({
   const [regenState, setRegenState] = useState<
     Record<string, "pending" | { error: string } | undefined>
   >({});
+  // "Rewrite from my notes" state per record. `rewriteOpen[id]`
+  // toggles the inline textarea; `rewriteInput[id]` is the controlled
+  // value of the textarea; `rewriteState[id]` mirrors regenState
+  // semantics ("pending" while the API call is in flight, an error
+  // object when the upstream failed). All three keep their own slice
+  // of state instead of one combined object so opening the textarea
+  // for record A doesn't accidentally show record B's pending error.
+  const [rewriteOpen, setRewriteOpen] = useState<Record<string, boolean>>({});
+  const [rewriteInput, setRewriteInput] = useState<Record<string, string>>({});
+  const [rewriteState, setRewriteState] = useState<
+    Record<string, "pending" | { error: string } | undefined>
+  >({});
   // "Add release by URL / artist+title" panel state. Kept collapsed by
   // default so it doesn't clutter the main curation view — the curator
   // clicks the header to expand it when they want to pull in a record the
@@ -260,6 +272,63 @@ export function AdminClient({
     } catch (e) {
       const msg = e instanceof Error ? e.message : "network error";
       setRegenState((s) => ({ ...s, [id]: { error: msg } }));
+    }
+  };
+
+  /**
+   * Sister to regenerateDescription, but anchored on text the curator
+   * pasted in (Bandcamp blurb, Wikipedia excerpt, label one-pager,
+   * anything). Hits /api/rewrite-description, which paraphrases the
+   * input into the house voice at 2-4 sentences. On success replaces
+   * the description, closes the textarea, and clears the input —
+   * intentionally so an accidental second click can't re-submit
+   * stale input.
+   */
+  const rewriteFromInput = async (id: string) => {
+    const input = (rewriteInput[id] || "").trim();
+    if (!input) {
+      setRewriteState((s) => ({
+        ...s,
+        [id]: { error: "paste some source text first" },
+      }));
+      return;
+    }
+    setRewriteState((s) => ({ ...s, [id]: "pending" }));
+    try {
+      const res = await fetch("/api/rewrite-description", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ id, input }),
+      });
+      const body = (await res.json().catch(() => ({}))) as
+        | { description: string }
+        | { error: string };
+      if (!res.ok || "error" in body) {
+        const err = "error" in body ? body.error : `HTTP ${res.status}`;
+        setRewriteState((s) => ({ ...s, [id]: { error: err } }));
+        return;
+      }
+      setItems((prev) =>
+        prev.map((r) =>
+          r.id === id
+            ? {
+                ...r,
+                description: body.description,
+                descriptionPreview: false,
+              }
+            : r,
+        ),
+      );
+      setRewriteOpen((s) => ({ ...s, [id]: false }));
+      setRewriteInput((s) => ({ ...s, [id]: "" }));
+      setRewriteState((s) => {
+        const next = { ...s };
+        delete next[id];
+        return next;
+      });
+    } catch (e) {
+      const msg = e instanceof Error ? e.message : "network error";
+      setRewriteState((s) => ({ ...s, [id]: { error: msg } }));
     }
   };
 
@@ -687,11 +756,18 @@ export function AdminClient({
                         </span>
                       )}
                     </p>
-                    {/* Regenerate-description control. Calls the admin-only
-                        /api/regenerate-description endpoint which reruns the
-                        same Claude prompt as the daily write-descriptions
-                        CLI. Handy when the CLI's --limit cap left a record
-                        stuck on its placeholder. */}
+                    {/* Regenerate-description controls. Two paths:
+                        - "Regenerate description" calls
+                          /api/regenerate-description, which uses the
+                          same Discogs+Bandcamp+metadata prompt as the
+                          daily CLI. Handy when the CLI's --limit cap
+                          left a record stuck on its placeholder.
+                        - "Rewrite from my notes" toggles a textarea
+                          where the curator can paste source text
+                          (Bandcamp blurb, Wikipedia paragraph,
+                          press-release excerpt) and submit it for
+                          paraphrase-into-house-voice via
+                          /api/rewrite-description. */}
                     <div className="flex items-center gap-3 flex-wrap">
                       <button
                         onClick={() => regenerateDescription(rec.id)}
@@ -702,6 +778,20 @@ export function AdminClient({
                           ? "Regenerating…"
                           : "Regenerate description"}
                       </button>
+                      <button
+                        onClick={() =>
+                          setRewriteOpen((s) => ({
+                            ...s,
+                            [rec.id]: !s[rec.id],
+                          }))
+                        }
+                        disabled={rewriteState[rec.id] === "pending"}
+                        className="font-mono text-[9px] uppercase tracking-widest border border-mute text-mute px-2 py-1 hover:bg-ink hover:text-paper hover:border-ink disabled:opacity-40 disabled:cursor-not-allowed"
+                      >
+                        {rewriteOpen[rec.id]
+                          ? "▾ Rewrite from my notes"
+                          : "▸ Rewrite from my notes"}
+                      </button>
                       {regenState[rec.id] &&
                         regenState[rec.id] !== "pending" &&
                         typeof regenState[rec.id] === "object" && (
@@ -710,6 +800,70 @@ export function AdminClient({
                           </span>
                         )}
                     </div>
+                    {rewriteOpen[rec.id] && (
+                      <div className="flex flex-col gap-2 border border-ink/40 bg-paper-2/40 p-3">
+                        <label className="font-mono text-[9px] uppercase tracking-widest text-mute">
+                          Paste source text — Bandcamp blurb, Wikipedia
+                          excerpt, label one-pager, anything. We paraphrase
+                          it into 2-4 sentences in the house voice.
+                        </label>
+                        <textarea
+                          value={rewriteInput[rec.id] || ""}
+                          onChange={(e) =>
+                            setRewriteInput((s) => ({
+                              ...s,
+                              [rec.id]: e.target.value,
+                            }))
+                          }
+                          rows={5}
+                          maxLength={5000}
+                          placeholder="Paste the source text here…"
+                          className="border border-ink bg-paper px-2 py-1 font-mono text-[11px] focus:outline-none focus:bg-paper-2/40"
+                        />
+                        <div className="flex items-center gap-3 flex-wrap">
+                          <button
+                            onClick={() => rewriteFromInput(rec.id)}
+                            disabled={
+                              rewriteState[rec.id] === "pending" ||
+                              !(rewriteInput[rec.id] || "").trim()
+                            }
+                            className="font-mono text-[10px] uppercase tracking-widest bg-ink text-paper border border-ink px-3 py-1.5 hover:bg-paper hover:text-ink disabled:opacity-40 disabled:cursor-not-allowed"
+                          >
+                            {rewriteState[rec.id] === "pending"
+                              ? "Rewriting…"
+                              : "Rewrite"}
+                          </button>
+                          <button
+                            onClick={() => {
+                              setRewriteOpen((s) => ({
+                                ...s,
+                                [rec.id]: false,
+                              }));
+                              // Don't clear input on cancel — the
+                              // curator may want to reopen and tweak
+                              // their paste rather than start over.
+                            }}
+                            disabled={rewriteState[rec.id] === "pending"}
+                            className="font-mono text-[10px] uppercase tracking-widest border border-mute text-mute px-3 py-1.5 hover:bg-mute hover:text-paper disabled:opacity-40"
+                          >
+                            Cancel
+                          </button>
+                          <span className="font-mono text-[9px] uppercase tracking-widest text-mute">
+                            {(rewriteInput[rec.id] || "").length} / 5000
+                          </span>
+                          {rewriteState[rec.id] &&
+                            rewriteState[rec.id] !== "pending" &&
+                            typeof rewriteState[rec.id] === "object" && (
+                              <span className="font-mono text-[9px] uppercase tracking-widest text-signal">
+                                {
+                                  (rewriteState[rec.id] as { error: string })
+                                    .error
+                                }
+                              </span>
+                            )}
+                        </div>
+                      </div>
+                    )}
                     <ul className="flex flex-wrap gap-x-3 gap-y-1 font-mono text-[10px] uppercase tracking-widest text-mute">
                       {rec.tags.map((t) => (
                         <li key={t}>, {t}</li>
