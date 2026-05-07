@@ -397,5 +397,12 @@ Output just the description, nothing else.`;
     .map((c) => c.text)
     .join("")
     .trim();
-  return text.replace(/\s*[-–]\s*/g, ", ").replace(/\s+/g, " ").trim();
+  // Replace em-dashes (—) and en-dashes (–) with ", " to enforce
+  // the "no em/en-dash" voice rule. CRITICAL: regular hyphens (-)
+  // are NOT in the character class — they're load-bearing for
+  // compound modifiers ("Milan-based", "self-titled") and stripping
+  // them mangled real copy ("Milan, based Daniele Guerrini, recording
+  // as Heith"). The previous pattern `\s*[-–]\s*` matched regular
+  // hyphens too because `\s*` allows zero whitespace.
+  return text.replace(/\s*[—–]\s*/g, ", ").replace(/\s+/g, " ").trim();
 }

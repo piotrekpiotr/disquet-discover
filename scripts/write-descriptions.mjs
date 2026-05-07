@@ -217,7 +217,10 @@ Output just the description, nothing else.`;
     .map((c) => c.text)
     .join("")
     .trim();
-  return text.replace(/\s*[-–]\s*/g, ", ").replace(/\s+/g, " ").trim();
+  // Em/en-dash → ", ". Regular hyphens (-) preserved — they're
+  // load-bearing for compound modifiers ("Milan-based"). Earlier
+  // version `[-–]` ate hyphens too, mangling real copy.
+  return text.replace(/\s*[—–]\s*/g, ", ").replace(/\s+/g, " ").trim();
 }
 
 /** CLI flag parsing. Keep it tiny; no need for yargs. */

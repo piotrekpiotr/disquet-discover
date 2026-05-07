@@ -209,9 +209,12 @@ Output ONLY the new description (2-4 sentences). No preamble, no quotes around i
   // Strip any accidental wrapping quotes Claude sometimes adds when the
   // user prompt asks for "just the description". Mirror the
   // regenerator's em-dash → comma normalisation for in-house consistency.
+  // Em/en-dash → ", ". Regular hyphens (-) are PRESERVED because
+  // they're the right glue for compound modifiers ("Milan-based")
+  // and stripping them produced the "Milan, based" bug.
   return text
     .replace(/^["“]+|["”]+$/g, "")
-    .replace(/\s*[-–]\s*/g, ", ")
+    .replace(/\s*[—–]\s*/g, ", ")
     .replace(/\s+/g, " ")
     .trim();
 }

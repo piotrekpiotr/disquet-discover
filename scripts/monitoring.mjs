@@ -229,6 +229,29 @@ export const ARTISTS = [
   // Polish indie/electronic act, multiple recent releases on iTunes
   // ("Sorry, nie tu" 2024, "SIEKA" 2026-02-19, "Brudna - Bielizna" 2026-04-03).
   "Kosmonauci",
+  // Mr. Fingers — Larry Heard's project. iTunes lists it under
+  // "Mr. Fingers" exactly (with the period); also present in collab
+  // credits. Long-running deep-house lineage that fits the pool.
+  "Mr. Fingers",
+  // Nídia — Príncipe Discos artist. iTunes search for "Nidia"
+  // returns mostly false-positives; Deezer has the right artist as
+  // "Nidia" with 48 albums. The accented spelling is what the user
+  // ships and we keep — sync-artists' loose-match handles the
+  // accent vs. unaccented mismatch on iTunes by virtue of token
+  // normalisation in stripDiscogsSuffix-adjacent helpers.
+  "Nídia",
+  // KAVARI — uppercase per iTunes (PLAGUE MUSIC EP, Suture EP, PLEASE).
+  "KAVARI",
+  // Los Thuthanaka — Bolivian-American duo (Elysia + Joshua Chuquimia
+  // Crampton). Bandcamp-only at losthuthanaka.bandcamp.com; iTunes /
+  // Deezer don't index them. iTunes + Deezer will return 0 in
+  // sync-artists; the Last.fm releases scrape is the practical
+  // discovery path. Eventual upgrade: add a Bandcamp-artist source
+  // mirroring the bandcamp-label module so we can pull their
+  // discography directly. Pool name uses the readable title-case
+  // form; their own page title is uppercase but loose-match handles
+  // the variation.
+  "Los Thuthanaka",
   "Jlin",
   "Koreless",
   "Mark Pritchard",
@@ -409,6 +432,35 @@ export const LABELS = [
   "00effort",
   "YUKU",
 ];
+
+/**
+ * Bandcamp band_id per label, used by scripts/sources/bandcamp-label.mjs
+ * to pull each label's full discography (including pre-orders) via
+ * Bandcamp's mobile-app API. This closes the catalogue-lag gap our
+ * Discogs-only sync-labels.mjs leaves — Discogs takes weeks to
+ * catalogue digital releases, but the artist (or label) page on
+ * Bandcamp shows them the moment they're announced.
+ *
+ * To find a label's band_id:
+ *   1. Open its label.bandcamp.com homepage
+ *   2. View source / inspect any release link — the URL contains
+ *      `?label=<id>&tab=music` somewhere; that <id> is the band_id
+ *   3. OR run `node scripts/discover-bandcamp-band-ids.mjs` which
+ *      probes each label automatically and prints suggestions
+ *
+ * Labels not in this map are skipped by the bandcamp-label source —
+ * no regression vs. Discogs-only behaviour. Add as you discover them.
+ *
+ * The key MUST exactly match the LABELS-array entry (case + spacing)
+ * so sync-labels can look up the band_id without a fuzzy match.
+ */
+export const LABEL_BANDCAMP_BAND_IDS = {
+  "AD 93": 3346356205,
+  // Seeded with the label that prompted this work (the AD 93 / GB-
+  // Herzsprung miss). Extend as the curator validates band_ids for
+  // other labels — the discover script in scripts/ outputs candidate
+  // entries you can paste here.
+};
 
 /**
  * Festival lineup pages - scraped periodically to surface artists we don't

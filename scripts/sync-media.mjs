@@ -721,7 +721,16 @@ function parseEntry(entry, sourceId) {
 }
 
 function normalise(s) {
-  return (s || "").toLowerCase().trim();
+  // Strip diacritics so "Nídia" (pool) matches "Nidia" (Pitchfork URL
+  // slug reverse-slugified, since pitchforkSlugify drops accents).
+  // Without this, a pool member with an accented name surfaces as a
+  // candidate every time the press writes about them — the
+  // pooledSet.has(...) check fails on the accent mismatch.
+  return (s || "")
+    .toLowerCase()
+    .normalize("NFD")
+    .replace(/[̀-ͯ]/g, "")
+    .trim();
 }
 
 async function fetchFeed(feed) {

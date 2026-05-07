@@ -15,8 +15,11 @@ function clean(desc) {
   let d = desc;
   // HTML entity leftovers from earlier seed
   d = d.replace(/&amp;/g, "&");
-  // Replace em-dash / en-dash: if between two clauses → ", "; if inline parenthetical → ", "
-  d = d.replace(/\s*[-–]\s*/g, ", ");
+  // Replace em-dash (—) / en-dash (–) only — NOT regular hyphens (-)
+  // which are load-bearing in compound modifiers ("Milan-based",
+  // "self-titled"). The previous `[-–]` ate hyphens and produced
+  // "Milan, based Daniele Guerrini, recording as Heith"-class output.
+  d = d.replace(/\s*[—–]\s*/g, ", ");
   // Collapse double commas
   d = d.replace(/, ,/g, ", ").replace(/,,/g, ",");
   // Avoid comma-right-before-period artifacts

@@ -18,8 +18,12 @@
  */
 import { promises as fs } from "node:fs";
 import path from "node:path";
-import { LABELS as BASE_LABELS } from "./monitoring.mjs";
+import {
+  LABELS as BASE_LABELS,
+  LABEL_BANDCAMP_BAND_IDS,
+} from "./monitoring.mjs";
 import { fetchMonitoringExtras, mergeUnique } from "./fetch-extras.mjs";
+import { findLabelReleases as findBandcampLabelReleases } from "./sources/bandcamp-label.mjs";
 
 const FILE = path.resolve("data/recommendations.json");
 const CANDIDATES_FILE = path.resolve("data/label-candidate-artists.json");
@@ -319,9 +323,87 @@ async function main() {
   }
 
   console.log(
-    `\nAdded ${addedTotal} records across ${LABELS.length} labels` +
+    `\nDiscogs pass: Added ${addedTotal} records across ${LABELS.length} labels` +
       (hitCap ? ` (capped at ${MAX_NEW_TOTAL}).` : "."),
   );
+
+  // Bandcamp-label pass — runs AFTER Discogs to catch the digital +
+  // pre-order releases Discogs hasn't catalogued yet (the AD 93 / GB-
+  // Herzsprung 2026-04-30 miss class). Only labels with a band_id in
+  // LABEL_BANDCAMP_BAND_IDS get queried — labels not in the map are
+  // silently skipped, matching the previous Discogs-only behaviour
+  // for those labels.
+  //
+  // Dedup re-uses the existing existingKey + existingIds sets, so a
+  // release the Discogs pass already added (sometimes Discogs has the
+  // same release as Bandcamp, sometimes one beats the other to it)
+  // doesn't duplicate.
+  let bandcampAdded = 0;
+  let bandcampLabelsScanned = 0;
+  for (const label of LABELS) {
+    const bandId = LABEL_BANDCAMP_BAND_IDS[label];
+    if (!bandId) continue;
+    bandcampLabelsScanned++;
+    process.stdout.write(`bc:${label}: `);
+    try {
+      const releases = await findBandcampLabelReleases(label, bandId);
+      let addedForThisLabel = 0;
+      for (const release of releases) {
+        const key = `${release.artist.toLowerCase()}|${release.title.toLowerCase()}`;
+        if (existingKey.has(key)) continue;
+        // We accept future-dated releases here; the public feed and
+        // admin Future tab handle them appropriately.
+        let id = `${slugify(release.artist)}-${slugify(release.title)}`.slice(0, 80);
+        if (existingIds.has(id)) id = `${id}-bc`;
+        if (existingIds.has(id)) continue;
+        existingIds.add(id);
+        existingKey.add(key);
+        const s = searchUrls(release.artist, release.title);
+        items.push({
+          id,
+          type: release.releaseType === "track" ? "single" : "album",
+          artist: release.artist,
+          title: release.title,
+          label: release.label || label,
+          releaseDate: release.releaseDate,
+          description: "",
+          tags: [],
+          links: {
+            bandcamp: release.externalUrl || s.bandcamp,
+            spotify: s.spotify,
+            soundcloud: s.soundcloud,
+            youtube: s.youtube,
+          },
+          embed: null,
+          musicVideoUrl: null,
+          status: "pending",
+          approvedAt: null,
+          coverImageUrl: release.artworkUrl || null,
+          cover: { bg: "#111110", fg: "#f2efe8", motif: "disc" },
+          pressMentions: [],
+        });
+        addedForThisLabel++;
+        bandcampAdded++;
+      }
+      console.log(addedForThisLabel ? `+${addedForThisLabel}` : "no new");
+      // Bandcamp's mobile API hasn't shown rate-limit symptoms at our
+      // small label count. 200ms is a polite minimum.
+      await new Promise((r) => setTimeout(r, 200));
+    } catch (e) {
+      console.log(`err: ${e.message}`);
+    }
+  }
+  if (bandcampLabelsScanned > 0) {
+    items.sort((a, b) => (b.releaseDate || "").localeCompare(a.releaseDate || ""));
+    await fs.writeFile(FILE, JSON.stringify(items, null, 2), "utf8");
+    console.log(
+      `Bandcamp pass: Added ${bandcampAdded} records across ${bandcampLabelsScanned} label(s).`,
+    );
+  } else {
+    console.log(
+      "Bandcamp pass: 0 labels with band_ids configured — see LABEL_BANDCAMP_BAND_IDS in monitoring.mjs.",
+    );
+  }
   console.log(
     `Candidate artists discovered: ${Object.keys(candidateArtists).length}. ` +
       `See data/label-candidate-artists.json - promote the good ones into monitoring.mjs.`,

@@ -109,10 +109,10 @@ const TEMPLATES = [
     `${artist} drops a ${kind}${label ? ` on ${label}` : ""}${tag ? `, leaning ${tag}` : ""}. Description still in the queue.`,
 ];
 
-/** Normalise whitespace, trim, strip em-dashes to be safe. */
+/** Normalise whitespace, trim, replace em/en-dashes (NOT hyphens). */
 function clean(s) {
   return s
-    .replace(/\s*[-–]\s*/g, ", ")
+    .replace(/\s*[—–]\s*/g, ", ")
     .replace(/\s+/g, " ")
     .replace(/\s+\./g, ".")
     .trim();

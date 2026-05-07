@@ -68,7 +68,15 @@ function slugify(s) {
 }
 
 function normaliseArtist(a) {
-  return (a || "").toLowerCase().trim();
+  // Strip diacritics for dedup-key normalisation so "Nídia" and
+  // "Nidia" hash to the same key — iTunes/Deezer normalise accents
+  // inconsistently across endpoints, and the press feeds (Pitchfork
+  // URL slug → reverse-slug) drop them entirely.
+  return (a || "")
+    .toLowerCase()
+    .normalize("NFD")
+    .replace(/[̀-ͯ]/g, "")
+    .trim();
 }
 
 function searchUrls(artist, title) {
