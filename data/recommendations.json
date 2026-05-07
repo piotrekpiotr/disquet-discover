@@ -919,6 +919,38 @@
     ]
   },
   {
+    "id": "jpegmafia-war-over-land",
+    "type": "single",
+    "artist": "Jpegmafia",
+    "title": "War Over Land",
+    "label": "",
+    "releaseDate": "2026-05-06",
+    "description": "A new single from Peggy, who at this point is one of the few rappers whose self, production remains genuinely unpredictable from one release to the next. File alongside the more abrasive end of his catalogue until more is known.",
+    "tags": [],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=Jpegmafia%20War%20Over%20Land&item_type=a",
+      "spotify": "https://open.spotify.com/search/Jpegmafia%20War%20Over%20Land",
+      "soundcloud": "https://soundcloud.com/search?q=Jpegmafia%20War%20Over%20Land",
+      "youtube": "https://www.youtube.com/results?search_query=Jpegmafia%20War%20Over%20Land",
+      "deezer": "https://www.deezer.com/album/957991781"
+    },
+    "embed": {
+      "provider": "deezer",
+      "src": "https://widget.deezer.com/widget/light/album/957991781",
+      "height": 300
+    },
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://cdn-images.dzcdn.net/images/cover/0ddfbbb04a794d893e2769a16382580a/1000x1000-000000-80-0-0.jpg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
     "id": "heith-tarawangsawelas-duori",
     "type": "album",
     "artist": "Heith & Tarawangsawelas",
@@ -992,7 +1024,7 @@
     "type": "album",
     "artist": "Heith",
     "title": "Duori",
-    "label": "",
+    "label": "Stroom (2)",
     "releaseDate": "2026-05-05",
     "description": "New long, player from Heith, the Milan, based producer whose work for PAN has threaded folk, horror atmospheres through grainy club electronics. Label unconfirmed at time of writing; expect the same uneasy register.",
     "tags": [],
@@ -1090,6 +1122,35 @@
       "pitchfork_best_tracks",
       "stereogum"
     ]
+  },
+  {
+    "id": "jenna-sutela-aeolian-suite",
+    "type": "ep",
+    "artist": "Jenna Sutela",
+    "title": "Aeolian Suite",
+    "label": "Pan (3)",
+    "releaseDate": "2026-05-05",
+    "description": "Two pieces of sound art from Jenna Sutela on PAN, pressed as a 7\" at 33⅓. Sutela's work has long sat between biology, language, and listening, and the format here implies something compact rather than expansive.",
+    "tags": [
+      "non-music"
+    ],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=Jenna%20Sutela%20Aeolian%20Suite&item_type=a",
+      "spotify": "https://open.spotify.com/search/Jenna%20Sutela%20Aeolian%20Suite",
+      "soundcloud": "https://soundcloud.com/search?q=Jenna%20Sutela%20Aeolian%20Suite",
+      "youtube": "https://www.youtube.com/results?search_query=Jenna%20Sutela%20Aeolian%20Suite"
+    },
+    "embed": null,
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://i.discogs.com/itL4GV4N9UdtVW4jNywCqJk4ZD3OVBHjsCeuF-x0lXE/rs:fit/g:sm/q:90/h:590/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM3MjY5/NTI1LTE3NzgxMDMz/MDctOTEzNy5qcGVn.jpeg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
   },
   {
     "id": "kendrick-lamar-everybody-sensitive",
@@ -1749,7 +1810,8 @@
     },
     "pressMentions": [
       "pitchfork_albums",
-      "pitchfork_best_albums"
+      "pitchfork_best_albums",
+      "bandcamp_daily"
     ]
   },
   {
@@ -4193,6 +4255,35 @@
     "status": "pending",
     "approvedAt": null,
     "coverImageUrl": "https://i.discogs.com/jomDGgUwaxekwnbdK_W3dqA07eEdhkRQhZKJmwzzS8Q/rs:fit/g:sm/q:90/h:585/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM3MTAw/MTQ4LTE3NzY1Nzk0/ODctNzI3Ni5qcGVn.jpeg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
+    "id": "zodiac-youth-carnival-of-souls",
+    "type": "album",
+    "artist": "Zodiac Youth",
+    "title": "Carnival Of Souls",
+    "label": "Creation Youth",
+    "releaseDate": "2026-04-18",
+    "description": "Fourteen tracks of garage, leaning psych and punk filed under Creation Youth, pressed for Record Store Day. Shelve next to whichever McGee, orbit revivalists you keep within reach.",
+    "tags": [
+      "rock"
+    ],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=Zodiac%20Youth%20Carnival%20Of%20Souls&item_type=a",
+      "spotify": "https://open.spotify.com/search/Zodiac%20Youth%20Carnival%20Of%20Souls",
+      "soundcloud": "https://soundcloud.com/search?q=Zodiac%20Youth%20Carnival%20Of%20Souls",
+      "youtube": "https://www.youtube.com/results?search_query=Zodiac%20Youth%20Carnival%20Of%20Souls"
+    },
+    "embed": null,
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://i.discogs.com/Ot0T-sSk01MYqfu_x6WFfVfA8QlpWsUoHxIWtPFs8Zs/rs:fit/g:sm/q:90/h:579/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM3Mjcz/NTc1LTE3NzgxNDk1/NDktNDM1MS5qcGVn.jpeg",
     "cover": {
       "bg": "#111110",
       "fg": "#f2efe8",
@@ -14907,7 +14998,7 @@
     "title": "Mille Risposte (Dopplereffekt Isotopic Filter Re Structure)",
     "label": "Latency",
     "releaseDate": "2025-11-07",
-    "description": "A electronic single from Tarta Relena, released via Latency. Pending final write-up.",
+    "description": "Dopplereffekt put their isotopic electro grid under Tarta Relena's Catalan vocal duo, and the result sits closer to Drexciyan radio static than to anything you'd file under folk. Latency in matchmaker mode.",
     "tags": [
       "electronic"
     ],
@@ -14930,8 +15021,7 @@
       "bg": "#111110",
       "fg": "#f2efe8",
       "motif": "disc"
-    },
-    "descriptionPreview": true
+    }
   },
   {
     "id": "himera-now-i-know-what-dreams-are-made-of",
@@ -14940,7 +15030,7 @@
     "title": "Now I Know What Dreams Are Made Of",
     "label": "Unseelie",
     "releaseDate": "2025-11-07",
-    "description": "HIMERA's latest album on Unseelie occupies the electronic space. Editorial copy still in draft.",
+    "description": "Thirteen tracks of sugar, rushed hyperpop from HIMERA on Unseelie, where dance, pop hooks get pulled apart and reassembled at double speed. Sits comfortably alongside the Quannnic crowd if you need a shelving cue.",
     "tags": [
       "electronic"
     ],
@@ -14964,8 +15054,7 @@
       "bg": "#111110",
       "fg": "#f2efe8",
       "motif": "disc"
-    },
-    "descriptionPreview": true
+    }
   },
   {
     "id": "84-days-84-days",
@@ -14974,7 +15063,7 @@
     "title": "84 Days",
     "label": "Double Helix Records (2)",
     "releaseDate": "2025-11-07",
-    "description": "",
+    "description": "Eleven tracks of straight, ahead punk on Double Helix, pressed in a limited LP run. No frills in the framing and probably none in the playing either.",
     "tags": [
       "rock"
     ],
@@ -15007,7 +15096,7 @@
     "title": "Manzana",
     "label": "Balmat",
     "releaseDate": "2025-11-07",
-    "description": "",
+    "description": "Mike Paradinas lands on Balmat with thirteen tracks that wander through his familiar IDM, breakbeat and ambient territories without settling in any of them. Less a statement than a notebook, which suits the label.",
     "tags": [
       "electronic"
     ],
@@ -15040,7 +15129,7 @@
     "title": "Toso Toso",
     "label": "Leaving Records",
     "releaseDate": "2025-11-07",
-    "description": "",
+    "description": "Seven tracks of avant, jazz, glitch and pop pulled into the same room, arriving on Leaving in a limited LP pressing. Sits comfortably near the more song, shaped end of the label's catalogue, think Carlos Niño's wider orbit.",
     "tags": [
       "electronic"
     ],
@@ -15075,7 +15164,7 @@
     "title": "Minecraft Volume Alpha",
     "label": "Ghostly International",
     "releaseDate": "2025-11-07",
-    "description": "",
+    "description": "Ghostly reissues the soundtrack that scored a generation's idle building sessions, twenty, four pieces of plainspoken piano and soft, edged synth ambient from Daniel Rosenfeld. The music has long since outgrown the game.",
     "tags": [
       "electronic"
     ],
@@ -15109,7 +15198,7 @@
     "title": "The Unavoidable EP",
     "label": "A Sky Full Of Numbers",
     "releaseDate": "2025-11-07",
-    "description": "",
+    "description": "Four tracks from Winkles for A Sky Full Of Numbers, splitting the difference between techno propulsion and ambient drift, pressed to bioplastic 12\". Functional and reflective in roughly equal measure.",
     "tags": [
       "electronic"
     ],
@@ -15176,7 +15265,7 @@
     "title": "FILE 2",
     "label": "",
     "releaseDate": "2025-11-06",
-    "description": "H.LLS drops a single, leaning alternative. Description still in the queue.",
+    "description": "A second installment in the H.LLS FILE series, filed under alternative without much else by way of signposting. Self, released and brief, the kind of drop that asks you to take it on its own terms.",
     "tags": [
       "alternative"
     ],
@@ -15200,8 +15289,7 @@
       "bg": "#111110",
       "fg": "#f2efe8",
       "motif": "disc"
-    },
-    "descriptionPreview": true
+    }
   },
   {
     "id": "slow-riffs-simulacra",
@@ -15210,7 +15298,7 @@
     "title": "Simulacra",
     "label": "Mood Hut",
     "releaseDate": "2025-11-06",
-    "description": "Slow Riffs returns with a album through Mood Hut, the kind of electronic that rewards a second listen. Editorial copy still to come.",
+    "description": "Nine tracks of slow, moving downtempo and ambient with a tribal pulse, Slow Riffs landing on Mood Hut where that kind of unhurried, vaguely sun, warmed atmosphere has long been house style. For anyone who follows the Pender Street Steppers end of the catalogue.",
     "tags": [
       "electronic"
     ],
@@ -15234,8 +15322,7 @@
       "bg": "#111110",
       "fg": "#f2efe8",
       "motif": "disc"
-    },
-    "descriptionPreview": true
+    }
   },
   {
     "id": "nakibembe-embaire-group-naoyuki-uchida-phantom-keys",
@@ -15244,7 +15331,7 @@
     "title": "Phantom Keys",
     "label": "Nyege Nyege Tapes",
     "releaseDate": "2025-11-06",
-    "description": "",
+    "description": "Four tracks pairing the Busoga embaire xylophone troupe with Naoyuki Uchida's dub processing, exactly the kind of cross, wired meeting Nyege Nyege has built its catalogue on. The wood resonates, the delays do the rest.",
     "tags": [
       "electronic"
     ],
@@ -15277,7 +15364,7 @@
     "title": "Big city life EDITS",
     "label": "Escho",
     "releaseDate": "2025-11-05",
-    "description": "Another album from Smerz, again through Escho. Alternative territory. Placeholder copy for the admin preview.",
+    "description": "Smerz return to Escho with a fourteen, track edits set, the Norwegian duo's askew take on pop reworked into something looser and more club, leaning. For anyone who keeps revisiting Believer.",
     "tags": [
       "alternative"
     ],
@@ -15301,8 +15388,7 @@
       "bg": "#111110",
       "fg": "#f2efe8",
       "motif": "disc"
-    },
-    "descriptionPreview": true
+    }
   },
   {
     "id": "social-youth-cult-the-lighthouse",
@@ -15311,7 +15397,7 @@
     "title": "The Lighthouse",
     "label": "Not On Label (Social Youth Cult Self-released)",
     "releaseDate": "2025-11-02",
-    "description": "",
+    "description": "Self, released goth rock from Social Youth Cult, eight tracks of the genre's familiar furniture: chorused bass, declamatory vocals, the long shadow of the Sisters and early 4AD. For listeners still mining that seam.",
     "tags": [
       "rock"
     ],
@@ -32872,12 +32958,13 @@
       "spotify": "https://open.spotify.com/search/Coldplay%20Moon%20Music",
       "soundcloud": "https://soundcloud.com/search?q=Coldplay%20Moon%20Music",
       "youtube": "https://www.youtube.com/results?search_query=Coldplay%20Moon%20Music",
-      "deezer": "https://www.deezer.com/album/650278821"
+      "deezer": "https://www.deezer.com/album/650278821",
+      "apple": "https://music.apple.com/us/album/moon-music/1751728791?uo=4"
     },
     "embed": {
-      "provider": "deezer",
-      "src": "https://widget.deezer.com/widget/light/album/650278821",
-      "height": 300
+      "provider": "apple",
+      "src": "https://embed.music.apple.com/us/album/1751728791?theme=light",
+      "height": 450
     },
     "musicVideoUrl": null,
     "status": "pending",
