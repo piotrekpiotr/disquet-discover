@@ -96,6 +96,16 @@ front of Railway as edge / CDN.
   `releaseDate > today` regardless of status. Auto-transition: when a
   date arrives, records slide from Future → Pool/Published automatically
   via the live filter; no migration job needed.
+- **Tidal links**: populated by `scripts/backfill-spotify.mjs` (yes,
+  the filename's a misnomer — it now resolves both Spotify and
+  Tidal in one Songlink call). Tidal coverage via Songlink is
+  materially better than Spotify's for our genre (~30-50% hit rate
+  vs. ~0% for Spotify on niche electronic). Songlink returns
+  `listen.tidal.com/album/<id>` URLs; the script normalises to
+  `tidal.com/album/<id>` before writing. `tidalAppUrl` in
+  `music-links.ts` accepts both hosts. The Tidal URI scheme
+  `tidal://album/<id>` is mobile-only (per the standard
+  isMobile-gate pattern).
 - **Spotify links**:
   - URI scheme `spotify:album:<id>` only emitted on **mobile**
     (`isMobile(platform)` check). Desktop returns null and lets the

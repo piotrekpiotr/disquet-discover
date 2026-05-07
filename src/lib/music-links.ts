@@ -226,7 +226,17 @@ function soundcloudAppUrl(u: URL): string | null {
 }
 
 function tidalAppUrl(u: URL): string | null {
-  if (!/(^|\.)tidal\.com$/.test(u.hostname)) return null;
+  // Accept both tidal.com and listen.tidal.com — Songlink/Odesli
+  // returns the listen.* host as the canonical playable URL
+  // ("https://listen.tidal.com/album/<id>"), and the curator may
+  // paste either form in the admin Edit fields. Both route to the
+  // same content; the URI scheme below is host-agnostic.
+  if (
+    !/(^|\.)tidal\.com$/.test(u.hostname) &&
+    u.hostname !== "listen.tidal.com"
+  ) {
+    return null;
+  }
   const m = u.pathname.match(
     /(?:^|\/)(?:browse\/)?(album|track|playlist|artist|video|mix)\/([A-Za-z0-9-]+)/i,
   );

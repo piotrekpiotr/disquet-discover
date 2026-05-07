@@ -99,7 +99,8 @@
       "spotify": "https://open.spotify.com/search/Tricky%20Different%20When%20It's%20Silent",
       "soundcloud": "https://soundcloud.com/search?q=Tricky%20Different%20When%20It's%20Silent",
       "youtube": "https://www.youtube.com/results?search_query=Tricky%20Different%20When%20It's%20Silent",
-      "deezer": "https://www.deezer.com/album/961362351"
+      "deezer": "https://www.deezer.com/album/961362351",
+      "tidal": "https://tidal.com/album/515863434"
     },
     "embed": {
       "provider": "deezer",
@@ -220,7 +221,8 @@
       "spotify": "https://open.spotify.com/search/Baauer%20U",
       "soundcloud": "https://soundcloud.com/search?q=Baauer%20U",
       "youtube": "https://www.youtube.com/results?search_query=Baauer%20U",
-      "apple": "https://music.apple.com/us/album/u/1885857722"
+      "apple": "https://music.apple.com/us/album/u/1885857722",
+      "tidal": "https://tidal.com/album/507829730"
     },
     "embed": {
       "provider": "apple",
@@ -282,7 +284,8 @@
       "spotify": "https://open.spotify.com/search/Lyra%20Pramuk%20Hymnal%20(Resung)",
       "soundcloud": "https://soundcloud.com/search?q=Lyra%20Pramuk%20Hymnal%20(Resung)",
       "youtube": "https://www.youtube.com/results?search_query=Lyra%20Pramuk%20Hymnal%20(Resung)",
-      "deezer": "https://www.deezer.com/album/948061621"
+      "deezer": "https://www.deezer.com/album/948061621",
+      "tidal": "https://tidal.com/album/510375881"
     },
     "embed": {
       "provider": "apple",
@@ -316,7 +319,8 @@
       "bandcamp": "https://bandcamp.com/search?q=Clock%20DVA%20Thirst%20(2026%20Remaster)&item_type=a",
       "spotify": "https://open.spotify.com/search/Clock%20DVA%20Thirst%20(2026%20Remaster)",
       "soundcloud": "https://soundcloud.com/search?q=Clock%20DVA%20Thirst%20(2026%20Remaster)",
-      "youtube": "https://www.youtube.com/results?search_query=Clock%20DVA%20Thirst%20(2026%20Remaster)"
+      "youtube": "https://www.youtube.com/results?search_query=Clock%20DVA%20Thirst%20(2026%20Remaster)",
+      "tidal": "https://tidal.com/album/494059514"
     },
     "embed": {
       "provider": "apple",
@@ -350,7 +354,8 @@
       "bandcamp": "https://bandcamp.com/search?q=Ricardo%20Villalobos%20%26%20goat%20(JP)%20Without%20References%20%2F%20Cindy%20Van%20Acker%20(Ricardo%20Villalobos%20Variations)&item_type=a",
       "spotify": "https://open.spotify.com/search/Ricardo%20Villalobos%20%26%20goat%20(JP)%20Without%20References%20%2F%20Cindy%20Van%20Acker%20(Ricardo%20Villalobos%20Variations)",
       "soundcloud": "https://soundcloud.com/search?q=Ricardo%20Villalobos%20%26%20goat%20(JP)%20Without%20References%20%2F%20Cindy%20Van%20Acker%20(Ricardo%20Villalobos%20Variations)",
-      "youtube": "https://www.youtube.com/results?search_query=Ricardo%20Villalobos%20%26%20goat%20(JP)%20Without%20References%20%2F%20Cindy%20Van%20Acker%20(Ricardo%20Villalobos%20Variations)"
+      "youtube": "https://www.youtube.com/results?search_query=Ricardo%20Villalobos%20%26%20goat%20(JP)%20Without%20References%20%2F%20Cindy%20Van%20Acker%20(Ricardo%20Villalobos%20Variations)",
+      "tidal": "https://tidal.com/album/508432223"
     },
     "embed": {
       "provider": "apple",
@@ -382,7 +387,8 @@
       "spotify": "https://open.spotify.com/search/DJ%20Seinfeld%20If%20This%20Is%20It",
       "soundcloud": "https://soundcloud.com/search?q=DJ%20Seinfeld%20If%20This%20Is%20It",
       "youtube": "https://www.youtube.com/results?search_query=DJ%20Seinfeld%20If%20This%20Is%20It",
-      "deezer": "https://www.deezer.com/album/941746131"
+      "deezer": "https://www.deezer.com/album/941746131",
+      "tidal": "https://tidal.com/album/507844306"
     },
     "embed": {
       "provider": "deezer",
@@ -610,7 +616,8 @@
       "bandcamp": "https://italtek.bandcamp.com/album/mind-abandon",
       "spotify": "https://open.spotify.com/search/Ital%20Tek%20Mind%20Abandon",
       "soundcloud": "https://soundcloud.com/search?q=Ital%20Tek%20Mind%20Abandon",
-      "youtube": "https://www.youtube.com/results?search_query=Ital%20Tek%20Mind%20Abandon"
+      "youtube": "https://www.youtube.com/results?search_query=Ital%20Tek%20Mind%20Abandon",
+      "tidal": "https://tidal.com/album/504598147"
     },
     "embed": {
       "provider": "apple",
