@@ -1216,6 +1216,74 @@
     "pressMentions": []
   },
   {
+    "id": "ear-ne-plus-ultra",
+    "type": "single",
+    "artist": "ear",
+    "title": "Ne Plus Ultra",
+    "label": "ear",
+    "releaseDate": "2026-05-08",
+    "description": "Self-released electronica from ear, working under the kind of opaque artist/label naming that asks you to listen first and place it later. File under cipher, decide later where it lives on the shelf.",
+    "tags": [
+      "electronica"
+    ],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=ear%20Ne%20Plus%20Ultra&item_type=a",
+      "spotify": "https://open.spotify.com/search/ear%20Ne%20Plus%20Ultra",
+      "soundcloud": "https://soundcloud.com/search?q=ear%20Ne%20Plus%20Ultra",
+      "youtube": "https://www.youtube.com/results?search_query=ear%20Ne%20Plus%20Ultra",
+      "apple": "https://music.apple.com/us/album/ne-plus-ultra-single/1895982136",
+      "deezer": "https://www.deezer.com/album/975643201"
+    },
+    "embed": {
+      "provider": "apple",
+      "src": "https://embed.music.apple.com/us/album/1895982136?theme=light",
+      "height": 450
+    },
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/f6/6b/74/f66b7445-8f07-04b6-35e9-6fb1cba60313/823375155768_Cover.jpg/600x600bb.jpg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
+    "id": "vladislav-delay-vd5",
+    "type": "album",
+    "artist": "Vladislav Delay",
+    "title": "vd5",
+    "label": "We Jazz",
+    "releaseDate": "2026-05-08",
+    "description": "Sasu Ripatti continues his run on We Jazz, ten pieces pulling his granular electroacoustic instinct further into improvised territory. Closer to Whistleblowers than the dub-techno corner of his catalogue.",
+    "tags": [],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=Vladislav%20Delay%20vd5&item_type=a",
+      "spotify": "https://open.spotify.com/search/Vladislav%20Delay%20vd5",
+      "soundcloud": "https://soundcloud.com/search?q=Vladislav%20Delay%20vd5",
+      "youtube": "https://www.youtube.com/results?search_query=Vladislav%20Delay%20vd5",
+      "deezer": "https://www.deezer.com/album/922793851",
+      "apple": "https://music.apple.com/us/album/vd5/1878458957?uo=4"
+    },
+    "embed": {
+      "provider": "apple",
+      "src": "https://embed.music.apple.com/us/album/1878458957?theme=light",
+      "height": 450
+    },
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://cdn-images.dzcdn.net/images/cover/3b736c862632b7090e7790dc8ca65b1a/1000x1000-000000-80-0-0.jpg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
     "id": "james-blake-trying-times-a-colors-show",
     "type": "single",
     "artist": "James Blake",
@@ -1275,6 +1343,39 @@
     "status": "pending",
     "approvedAt": null,
     "coverImageUrl": "https://cdn-images.dzcdn.net/images/cover/fd7911d70d12e728473a84ea10d0244e/1000x1000-000000-80-0-0.jpg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
+    "id": "james-blake-trying-times-a-colors-show-lf",
+    "type": "album",
+    "artist": "James Blake",
+    "title": "Trying Times (A COLORS SHOW)",
+    "label": "",
+    "releaseDate": "2026-05-07",
+    "description": "Blake in the COLORS booth, which historically strips his arrangements back to voice, keys and the kind of restraint his full productions tend to bury. Worth hearing for anyone who preferred the early CMYK-era intimacy to the pop pivots.",
+    "tags": [],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=James%20Blake%20Trying%20Times%20(A%20COLORS%20SHOW)&item_type=a",
+      "spotify": "https://open.spotify.com/search/James%20Blake%20Trying%20Times%20(A%20COLORS%20SHOW)",
+      "soundcloud": "https://soundcloud.com/search?q=James%20Blake%20Trying%20Times%20(A%20COLORS%20SHOW)",
+      "youtube": "https://www.youtube.com/results?search_query=James%20Blake%20Trying%20Times%20(A%20COLORS%20SHOW)",
+      "deezer": "https://www.deezer.com/album/970267531",
+      "apple": "https://music.apple.com/us/album/trying-times-a-colors-show-single/1895832124?uo=4"
+    },
+    "embed": {
+      "provider": "apple",
+      "src": "https://embed.music.apple.com/us/album/1895832124?theme=light",
+      "height": 450
+    },
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": null,
     "cover": {
       "bg": "#111110",
       "fg": "#f2efe8",
@@ -2438,6 +2539,35 @@
     "pressMentions": [
       "pitchfork_albums"
     ]
+  },
+  {
+    "id": "daniel-wang-look-ma-no-drum-machine",
+    "type": "ep",
+    "artist": "Daniel Wang",
+    "title": "Look Ma, No Drum Machine!",
+    "label": "Balihu Records",
+    "releaseDate": "2026-05-01",
+    "description": "Wang back on his own Balihu imprint with five tracks of live-played disco-house, the title doing the explaining: no drum machines, just hands and tape feel. Remastered repress on a single 12\", for anyone who keeps a Metro Area record nearby.",
+    "tags": [
+      "electronic"
+    ],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=Daniel%20Wang%20Look%20Ma%2C%20No%20Drum%20Machine!&item_type=a",
+      "spotify": "https://open.spotify.com/search/Daniel%20Wang%20Look%20Ma%2C%20No%20Drum%20Machine!",
+      "soundcloud": "https://soundcloud.com/search?q=Daniel%20Wang%20Look%20Ma%2C%20No%20Drum%20Machine!",
+      "youtube": "https://www.youtube.com/results?search_query=Daniel%20Wang%20Look%20Ma%2C%20No%20Drum%20Machine!"
+    },
+    "embed": null,
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://i.discogs.com/VADjY1vaafiz6ed7NYe4JxPuOpXKXg-EExoBnpswZxo/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM3Mjgz/NjQ2LTE3NzgyNDI1/NjItODQwMS5qcGVn.jpeg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
   },
   {
     "id": "jump-source-patrick-holland-priori-fold",
@@ -10404,7 +10534,8 @@
       "soundcloud": "https://soundcloud.com/search?q=Aaron%20Shaw%20(4)%20And%20So%20It%20Is",
       "youtube": "https://www.youtube.com/results?search_query=Aaron%20Shaw%20(4)%20And%20So%20It%20Is",
       "deezer": "https://www.deezer.com/album/838713572",
-      "apple": "https://music.apple.com/us/album/and-so-it-is/1846463253?uo=4"
+      "apple": "https://music.apple.com/us/album/and-so-it-is/1846463253?uo=4",
+      "tidal": "https://tidal.com/album/467213486"
     },
     "embed": {
       "provider": "apple",
@@ -10469,7 +10600,8 @@
       "spotify": "https://open.spotify.com/search/Brookhurst%20Chernobyl%20Gesture",
       "soundcloud": "https://soundcloud.com/search?q=Brookhurst%20Chernobyl%20Gesture",
       "youtube": "https://www.youtube.com/results?search_query=Brookhurst%20Chernobyl%20Gesture",
-      "deezer": "https://www.deezer.com/album/880686792"
+      "deezer": "https://www.deezer.com/album/880686792",
+      "tidal": "https://tidal.com/album/483207611"
     },
     "embed": {
       "provider": "deezer",
@@ -10531,7 +10663,8 @@
       "soundcloud": "https://soundcloud.com/search?q=Julius%20Strieder%20Rich%20EP",
       "youtube": "https://www.youtube.com/results?search_query=Julius%20Strieder%20Rich%20EP",
       "deezer": "https://www.deezer.com/album/911881561",
-      "apple": "https://music.apple.com/us/album/rich-ep-ep/1874643577?uo=4"
+      "apple": "https://music.apple.com/us/album/rich-ep-ep/1874643577?uo=4",
+      "tidal": "https://tidal.com/album/495953215"
     },
     "embed": {
       "provider": "apple",
@@ -10597,7 +10730,8 @@
       "bandcamp": "https://bandcamp.com/search?q=James%20Blake%20Trying%20Times&item_type=a",
       "spotify": "https://open.spotify.com/search/James%20Blake%20Trying%20Times",
       "soundcloud": "https://soundcloud.com/search?q=James%20Blake%20Trying%20Times",
-      "youtube": "https://www.youtube.com/results?search_query=James%20Blake%20Trying%20Times"
+      "youtube": "https://www.youtube.com/results?search_query=James%20Blake%20Trying%20Times",
+      "tidal": "https://tidal.com/album/506614396"
     },
     "embed": {
       "provider": "apple",
@@ -10630,7 +10764,8 @@
       "spotify": "https://open.spotify.com/search/Various%20Mastery%20Quantum%20Sound",
       "soundcloud": "https://soundcloud.com/search?q=Various%20Mastery%20Quantum%20Sound",
       "youtube": "https://www.youtube.com/results?search_query=Various%20Mastery%20Quantum%20Sound",
-      "apple": "https://music.apple.com/us/album/mastery-quantum-sound/1858319759?uo=4"
+      "apple": "https://music.apple.com/us/album/mastery-quantum-sound/1858319759?uo=4",
+      "tidal": "https://tidal.com/album/478665900"
     },
     "embed": {
       "provider": "apple",
@@ -10724,7 +10859,8 @@
       "soundcloud": "https://soundcloud.com/search?q=Florian%20Hecker%20Natural%20Selection",
       "youtube": "https://www.youtube.com/results?search_query=Florian%20Hecker%20Natural%20Selection",
       "deezer": "https://www.deezer.com/album/861663982",
-      "apple": "https://music.apple.com/us/album/natural-selection/1854910808?uo=4"
+      "apple": "https://music.apple.com/us/album/natural-selection/1854910808?uo=4",
+      "tidal": "https://tidal.com/album/475836895"
     },
     "embed": {
       "provider": "apple",
@@ -10791,7 +10927,8 @@
       "spotify": "https://open.spotify.com/search/Skee%20Mask%20ISS012",
       "soundcloud": "https://soundcloud.com/search?q=Skee%20Mask%20ISS012",
       "youtube": "https://www.youtube.com/results?search_query=Skee%20Mask%20ISS012",
-      "deezer": "https://www.deezer.com/album/922668781"
+      "deezer": "https://www.deezer.com/album/922668781",
+      "tidal": "https://tidal.com/album/500383183"
     },
     "embed": {
       "provider": "deezer",
@@ -10825,7 +10962,8 @@
       "soundcloud": "https://soundcloud.com/search?q=Maara%20(2)%20Ultra%20Villain",
       "youtube": "https://www.youtube.com/results?search_query=Maara%20(2)%20Ultra%20Villain",
       "deezer": "https://www.deezer.com/album/876271732",
-      "apple": "https://music.apple.com/us/album/the-chase-ultra-villain-single/1853101402?uo=4"
+      "apple": "https://music.apple.com/us/album/the-chase-ultra-villain-single/1853101402?uo=4",
+      "tidal": "https://tidal.com/album/474053441"
     },
     "embed": {
       "provider": "apple",
@@ -10892,7 +11030,8 @@
       "spotify": "https://open.spotify.com/search/Deadbeat%20Kansai%20Botanicals",
       "soundcloud": "https://soundcloud.com/search?q=Deadbeat%20Kansai%20Botanicals",
       "youtube": "https://www.youtube.com/results?search_query=Deadbeat%20Kansai%20Botanicals",
-      "apple": "https://music.apple.com/us/album/kansai-botanicals/1870310682?uo=4"
+      "apple": "https://music.apple.com/us/album/kansai-botanicals/1870310682?uo=4",
+      "tidal": "https://tidal.com/album/491850303"
     },
     "embed": {
       "provider": "apple",
@@ -10957,7 +11096,8 @@
       "spotify": "https://open.spotify.com/search/Casket%20Cassette%20Love%20Letters%20To%20Ghosts",
       "soundcloud": "https://soundcloud.com/search?q=Casket%20Cassette%20Love%20Letters%20To%20Ghosts",
       "youtube": "https://www.youtube.com/results?search_query=Casket%20Cassette%20Love%20Letters%20To%20Ghosts",
-      "apple": "https://music.apple.com/us/album/love-letters-to-ghosts/1713358413?uo=4"
+      "apple": "https://music.apple.com/us/album/love-letters-to-ghosts/1713358413?uo=4",
+      "tidal": "https://tidal.com/album/323833908"
     },
     "embed": {
       "provider": "apple",
@@ -10991,7 +11131,8 @@
       "spotify": "https://open.spotify.com/search/Kelly%20Moran%20Don't%20Trust%20Mirrors",
       "soundcloud": "https://soundcloud.com/search?q=Kelly%20Moran%20Don't%20Trust%20Mirrors",
       "youtube": "https://www.youtube.com/results?search_query=Kelly%20Moran%20Don't%20Trust%20Mirrors",
-      "apple": "https://music.apple.com/us/album/dont-trust-mirrors/1832992315?uo=4"
+      "apple": "https://music.apple.com/us/album/dont-trust-mirrors/1832992315?uo=4",
+      "tidal": "https://tidal.com/album/453905606"
     },
     "embed": {
       "provider": "apple",
@@ -11024,7 +11165,8 @@
       "spotify": "https://open.spotify.com/search/David%20Moore%20(15)%20Graze%20The%20Bell",
       "soundcloud": "https://soundcloud.com/search?q=David%20Moore%20(15)%20Graze%20The%20Bell",
       "youtube": "https://www.youtube.com/results?search_query=David%20Moore%20(15)%20Graze%20The%20Bell",
-      "apple": "https://music.apple.com/us/album/graze-the-bell/1834500383?uo=4"
+      "apple": "https://music.apple.com/us/album/graze-the-bell/1834500383?uo=4",
+      "tidal": "https://tidal.com/album/455328684"
     },
     "embed": {
       "provider": "apple",
@@ -11085,7 +11227,8 @@
       "spotify": "https://open.spotify.com/search/Sofia%20Jernberg%20Voice",
       "soundcloud": "https://soundcloud.com/search?q=Sofia%20Jernberg%20Voice",
       "youtube": "https://www.youtube.com/results?search_query=Sofia%20Jernberg%20Voice",
-      "apple": "https://music.apple.com/us/album/voice/1894268067?uo=4"
+      "apple": "https://music.apple.com/us/album/voice/1894268067?uo=4",
+      "tidal": "https://tidal.com/album/516818185"
     },
     "embed": {
       "provider": "apple",
@@ -11118,7 +11261,8 @@
       "spotify": "https://open.spotify.com/search/Hotswing%20Banging%20On%20EP",
       "soundcloud": "https://soundcloud.com/search?q=Hotswing%20Banging%20On%20EP",
       "youtube": "https://www.youtube.com/results?search_query=Hotswing%20Banging%20On%20EP",
-      "deezer": "https://www.deezer.com/album/889329872"
+      "deezer": "https://www.deezer.com/album/889329872",
+      "tidal": "https://tidal.com/album/486482243"
     },
     "embed": {
       "provider": "deezer",
@@ -11152,7 +11296,8 @@
       "soundcloud": "https://soundcloud.com/search?q=Michel%20Banabila%20Through%20Global%20Frequency",
       "youtube": "https://www.youtube.com/results?search_query=Michel%20Banabila%20Through%20Global%20Frequency",
       "deezer": "https://www.deezer.com/album/787830691",
-      "apple": "https://music.apple.com/us/album/through-global-frequency/1826540961?uo=4"
+      "apple": "https://music.apple.com/us/album/through-global-frequency/1826540961?uo=4",
+      "tidal": "https://tidal.com/album/447938457"
     },
     "embed": {
       "provider": "apple",
@@ -15737,19 +15882,20 @@
     "title": "Songs for Nothing",
     "label": "AD 93",
     "releaseDate": "2025-11-07",
-    "description": "",
+    "description": "Olan Monk pushes further into smeared dream pop territory on AD 93, with shoegaze drift colliding against something distinctly Celtic at the edges. Ten tracks that sit closer to song-form than the label's usual club remit.",
     "tags": [],
     "links": {
       "bandcamp": "https://bandcamp.com/album/2354817462",
       "spotify": "https://open.spotify.com/search/Olan%20Monk%20Songs%20for%20Nothing",
       "soundcloud": "https://soundcloud.com/search?q=Olan%20Monk%20Songs%20for%20Nothing",
       "youtube": "https://www.youtube.com/results?search_query=Olan%20Monk%20Songs%20for%20Nothing",
-      "deezer": "https://www.deezer.com/album/793470501"
+      "deezer": "https://www.deezer.com/album/793470501",
+      "apple": "https://music.apple.com/us/album/songs-for-nothing/1828667864?uo=4"
     },
     "embed": {
-      "provider": "deezer",
-      "src": "https://widget.deezer.com/widget/light/album/793470501",
-      "height": 300
+      "provider": "apple",
+      "src": "https://embed.music.apple.com/us/album/1828667864?theme=light",
+      "height": 450
     },
     "musicVideoUrl": null,
     "status": "pending",
@@ -15968,7 +16114,7 @@
     "title": "Foundry / Bonita",
     "label": "Short Span",
     "releaseDate": "2025-11-01",
-    "description": "",
+    "description": "Yu Su steps toward the dancefloor on Short Span, a two-tracker that swaps her usual dubby drift for acid-flecked tech house and techno cut at 45. For anyone who clocked the harder edges in her DJ sets.",
     "tags": [
       "electronic"
     ],
@@ -16003,7 +16149,7 @@
     "title": "3",
     "label": "Peak Oil",
     "releaseDate": "2025-11-01",
-    "description": "",
+    "description": "Peak Oil reissues the Lifted collective's third, a record of slow-moving ambient jazz where the playing feels suspended rather than performed. Reference point if needed: the more horizontal corners of the Music From Memory catalogue.",
     "tags": [
       "electronic"
     ],
@@ -16038,7 +16184,7 @@
     "title": "#einaufden 1",
     "label": "Plattenbau Ost",
     "releaseDate": "2025-11-01",
-    "description": "",
+    "description": "Sixteen spoken-word tracks on CDr from Plattenbau Ost, filed under audiobook rather than music. One for the German-language shelf, not the listening chair.",
     "tags": [
       "non-music"
     ],
@@ -16067,7 +16213,7 @@
     "title": "Holy Cross Blues",
     "label": "Not On Label (The Deslondes Self-released)",
     "releaseDate": "2025-11-01",
-    "description": "",
+    "description": "Self-released country, folk and gospel from The Tumbleweeds, twelve tracks pressed to LP without label backing. Porch-music territory rather than revivalist costume; for anyone who follows the Deslondes orbit.",
     "tags": [
       "folk, world, & country"
     ],
@@ -16096,7 +16242,7 @@
     "title": "The Scottish Four Seasons",
     "label": "Not On Label (Isla Ratcliff self-released)",
     "releaseDate": "2025-11-01",
-    "description": "",
+    "description": "Self-released folk from Scottish fiddler Isla Ratcliff, fourteen tracks structured around the seasonal frame the title makes plain. Trad-leaning rather than crossover, shelve with Aidan O'Rourke or Lauren MacColl.",
     "tags": [
       "folk, world, & country"
     ],
@@ -16130,7 +16276,7 @@
     "title": "Subterra",
     "label": "INDEX:Records",
     "releaseDate": "2025-10-31",
-    "description": "",
+    "description": "Eight tracks of bass-weighted alt-pop from Beau Mahadev for INDEX:Records, where deconstructed club textures keep colliding with something closer to a song. For listeners tracking the IDM-pop overlap that LOFT and Iceboy Violet have been working through.",
     "tags": [
       "electronic"
     ],
@@ -16164,7 +16310,7 @@
     "title": "Barbaric Nature",
     "label": "Youth Attack",
     "releaseDate": "2025-10-31",
-    "description": "",
+    "description": "Twenty tracks of Cadaver Dog hardcore reissued through Mark McCoy's Youth Attack, a label that has long defined a particular strain of ugly, blown-out American HC. Limited LP, shelve next to Gas Chamber.",
     "tags": [
       "rock"
     ],
@@ -16197,7 +16343,7 @@
     "title": "Summertimes Blues (The First Singles & More)",
     "label": "Pan-Am Records",
     "releaseDate": "2025-10-31",
-    "description": "",
+    "description": "A Pan-Am compilation gathering early Beach Boys singles era material across fifteen tracks on a single 12\". Strictly for the surf-and-harmony shelf, archival rather than essential.",
     "tags": [
       "rock"
     ],
@@ -16226,7 +16372,7 @@
     "title": "Fog",
     "label": "Short Span",
     "releaseDate": "2025-10-31",
-    "description": "",
+    "description": "Seven tracks of low-lit downtempo for Short Span, sliding between ambient drift, dub weight and the looser end of bass music. Plays best at 2am, when the genre tags stop mattering.",
     "tags": [
       "electronic"
     ],
@@ -16260,7 +16406,7 @@
     "title": "Happy Xmas (War Is Over)",
     "label": "Apple Records",
     "releaseDate": "2025-10-31",
-    "description": "",
+    "description": "Apple revisits the 1971 Lennon/Ono Christmas single on a 7\", Harlem Community Choir intact. A protest song that long ago slipped into the seasonal canon, returned to its original format.",
     "tags": [
       "rock"
     ],
@@ -16466,12 +16612,13 @@
       "spotify": "https://open.spotify.com/search/Alpha%20Maid%20Is%20this%20a%20queue",
       "soundcloud": "https://soundcloud.com/search?q=Alpha%20Maid%20Is%20this%20a%20queue",
       "youtube": "https://www.youtube.com/results?search_query=Alpha%20Maid%20Is%20this%20a%20queue",
-      "deezer": "https://www.deezer.com/album/826078421"
+      "deezer": "https://www.deezer.com/album/826078421",
+      "apple": "https://music.apple.com/us/album/is-this-a-queue/1841620085?uo=4"
     },
     "embed": {
-      "provider": "deezer",
-      "src": "https://widget.deezer.com/widget/light/album/826078421",
-      "height": 300
+      "provider": "apple",
+      "src": "https://embed.music.apple.com/us/album/1841620085?theme=light",
+      "height": 450
     },
     "musicVideoUrl": null,
     "status": "pending",
