@@ -27,6 +27,33 @@
     "pressMentions": []
   },
   {
+    "id": "gb-herzsprung",
+    "type": "album",
+    "artist": "GB",
+    "title": "Herzsprung",
+    "label": "AD 93",
+    "releaseDate": "2026-08-21",
+    "description": "GB lands on AD 93, a label whose roster (Loraine James, Croww, Ehua) tends to favour rhythmic abstraction over genre fidelity. Sparse pre-release info, but the address alone tells you which shelf to clear.",
+    "tags": [],
+    "links": {
+      "bandcamp": "https://bandcamp.com/album/2660438157",
+      "spotify": "https://open.spotify.com/search/GB%20Herzsprung",
+      "soundcloud": "https://soundcloud.com/search?q=GB%20Herzsprung",
+      "youtube": "https://www.youtube.com/results?search_query=GB%20Herzsprung"
+    },
+    "embed": null,
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://f4.bcbits.com/img/a2996900205_10.jpg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
     "id": "nia-archives-emotional-junglist",
     "type": "album",
     "artist": "Nia Archives",
@@ -574,6 +601,33 @@
     "pressMentions": []
   },
   {
+    "id": "one-leg-one-eye-crone",
+    "type": "album",
+    "artist": "One Leg One Eye",
+    "title": "CRONE",
+    "label": "AD 93",
+    "releaseDate": "2026-05-22",
+    "description": "Another full-length on AD 93 from the Lankum-adjacent solo project, where Irish traditional song gets dragged through hum, drone and tape decay. Sits with the slow, eroded end of the label's roster.",
+    "tags": [],
+    "links": {
+      "bandcamp": "https://bandcamp.com/album/273742825",
+      "spotify": "https://open.spotify.com/search/One%20Leg%20One%20Eye%20CRONE",
+      "soundcloud": "https://soundcloud.com/search?q=One%20Leg%20One%20Eye%20CRONE",
+      "youtube": "https://www.youtube.com/results?search_query=One%20Leg%20One%20Eye%20CRONE"
+    },
+    "embed": null,
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://f4.bcbits.com/img/a1836210257_10.jpg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
     "id": "moin-pace-pe-pamant",
     "type": "album",
     "artist": "Moin",
@@ -737,7 +791,8 @@
       "bandcamp": "https://olofdreijer.bandcamp.com/album/loud-bloom",
       "spotify": "https://open.spotify.com/search/Olof%20Dreijer%20Loud%20Bloom",
       "soundcloud": "https://soundcloud.com/search?q=Olof%20Dreijer%20Loud%20Bloom",
-      "youtube": "https://www.youtube.com/results?search_query=Olof%20Dreijer%20Loud%20Bloom"
+      "youtube": "https://www.youtube.com/results?search_query=Olof%20Dreijer%20Loud%20Bloom",
+      "tidal": "https://tidal.com/album/496362330"
     },
     "embed": {
       "provider": "apple",
@@ -802,7 +857,8 @@
       "spotify": "https://open.spotify.com/search/Aldous%20Harding%20Train%20on%20the%20Island",
       "soundcloud": "https://soundcloud.com/search?q=Aldous%20Harding%20Train%20on%20the%20Island",
       "youtube": "https://www.youtube.com/results?search_query=Aldous%20Harding%20Train%20on%20the%20Island",
-      "apple": "https://music.apple.com/us/album/train-on-the-island/1876846303"
+      "apple": "https://music.apple.com/us/album/train-on-the-island/1876846303",
+      "tidal": "https://tidal.com/album/516381572"
     },
     "embed": {
       "provider": "apple",
@@ -820,7 +876,9 @@
     },
     "pressMentions": [
       "pitchfork_tracks",
-      "pitchfork_best_tracks"
+      "pitchfork_best_tracks",
+      "pitchfork_albums",
+      "pitchfork_best_albums"
     ]
   },
   {
@@ -840,7 +898,8 @@
       "soundcloud": "https://soundcloud.com/search?q=Peter%20Gabriel%20Live%20At%20WOMAD%201982",
       "youtube": "https://www.youtube.com/results?search_query=Peter%20Gabriel%20Live%20At%20WOMAD%201982",
       "deezer": "https://www.deezer.com/album/793762991",
-      "apple": "https://music.apple.com/us/album/live-at-womad-1982/1828960687?uo=4"
+      "apple": "https://music.apple.com/us/album/live-at-womad-1982/1828960687?uo=4",
+      "tidal": "https://tidal.com/album/450142868"
     },
     "embed": {
       "provider": "apple",
@@ -851,6 +910,371 @@
     "status": "pending",
     "approvedAt": null,
     "coverImageUrl": "https://i.discogs.com/nG_ZArBe7AEMRdQyspjxQJC5x_mITUFkk64oGjgQYXI/rs:fit/g:sm/q:90/h:600/w:595/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM3MjY1/NzYwLTE3NzgwNzI1/NDktNjAzNC5qcGVn.jpeg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
+    "id": "andrea-tu",
+    "type": "single",
+    "artist": "Andrea",
+    "title": "Tu",
+    "label": "",
+    "releaseDate": "2026-05-08",
+    "description": "New Andrea, the Ilian Tape regular whose records sit between broken techno and a kind of bruised, half-melted breakbeat. Worth checking on name alone if you've followed the Munich axis.",
+    "tags": [],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=Andrea%20Tu&item_type=a",
+      "spotify": "https://open.spotify.com/search/Andrea%20Tu",
+      "soundcloud": "https://soundcloud.com/search?q=Andrea%20Tu",
+      "youtube": "https://www.youtube.com/results?search_query=Andrea%20Tu",
+      "deezer": "https://www.deezer.com/album/961929471",
+      "apple": "https://music.apple.com/us/album/tu-fantasma-single/1818884426?uo=4"
+    },
+    "embed": {
+      "provider": "apple",
+      "src": "https://embed.music.apple.com/us/album/1818884426?theme=light",
+      "height": 450
+    },
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://cdn-images.dzcdn.net/images/cover/0678636c9188cc00617eae53f65bf6a6/1000x1000-000000-80-0-0.jpg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
+    "id": "vegyn-there-s-something-here-for-us-both",
+    "type": "single",
+    "artist": "Vegyn",
+    "title": "There’s Something Here for Us Both",
+    "label": "PLZ Make It Ruins",
+    "releaseDate": "2026-05-08",
+    "description": "Vegyn back on his own PLZ Make It Ruins, where the productions tend to land somewhere between bruised pop sketches and sleeker club-adjacent electronics. File alongside the rest of the imprint if you've been keeping up.",
+    "tags": [
+      "electronic"
+    ],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=Vegyn%20There%E2%80%99s%20Something%20Here%20for%20Us%20Both&item_type=a",
+      "spotify": "https://open.spotify.com/search/Vegyn%20There%E2%80%99s%20Something%20Here%20for%20Us%20Both",
+      "soundcloud": "https://soundcloud.com/search?q=Vegyn%20There%E2%80%99s%20Something%20Here%20for%20Us%20Both",
+      "youtube": "https://www.youtube.com/results?search_query=Vegyn%20There%E2%80%99s%20Something%20Here%20for%20Us%20Both",
+      "apple": "https://music.apple.com/us/album/theres-something-here-for-us-both-single/1893183905",
+      "deezer": "https://www.deezer.com/album/960829331"
+    },
+    "embed": {
+      "provider": "apple",
+      "src": "https://embed.music.apple.com/us/album/1893183905?theme=light",
+      "height": 450
+    },
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/ae/7a/9d/ae7a9d3d-4da3-0680-d289-8974a45e6420/824296306123_cover.jpg/600x600bb.jpg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
+    "id": "alee-noon-ton-absence",
+    "type": "single",
+    "artist": "Alee & NooN",
+    "title": "Ton absence",
+    "label": "Dayman Production",
+    "releaseDate": "2026-05-08",
+    "description": "A French pop single from Alee and NooN on Dayman Production, vocals out front, production kept clean and unfussy. Songwriting record more than a club one.",
+    "tags": [
+      "french pop"
+    ],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=Alee%20%26%20NooN%20Ton%20absence&item_type=a",
+      "spotify": "https://open.spotify.com/search/Alee%20%26%20NooN%20Ton%20absence",
+      "soundcloud": "https://soundcloud.com/search?q=Alee%20%26%20NooN%20Ton%20absence",
+      "youtube": "https://www.youtube.com/results?search_query=Alee%20%26%20NooN%20Ton%20absence",
+      "apple": "https://music.apple.com/us/album/ton-absence-single/1895121362",
+      "deezer": "https://www.deezer.com/album/967054891"
+    },
+    "embed": {
+      "provider": "apple",
+      "src": "https://embed.music.apple.com/us/album/1895121362?theme=light",
+      "height": 450
+    },
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/41/53/2e/41532ea6-2b5c-aa6f-16f4-eef3fe90cea9/3667007233724_cover.jpg/600x600bb.jpg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
+    "id": "vladislav-delay-quintet-vladislav-delay-vd5",
+    "type": "album",
+    "artist": "Vladislav Delay Quintet & Vladislav Delay",
+    "title": "Vd5",
+    "label": "We Jazz",
+    "releaseDate": "2026-05-08",
+    "description": "Sasu Ripatti convenes the Quintet again, this time on We Jazz, where his electroacoustic processing rubs against free-jazz physicality without resolving in either direction. For listeners who tracked the Honey Be Nuts pairing.",
+    "tags": [
+      "jazz"
+    ],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=Vladislav%20Delay%20Quintet%20%26%20Vladislav%20Delay%20Vd5&item_type=a",
+      "spotify": "https://open.spotify.com/search/Vladislav%20Delay%20Quintet%20%26%20Vladislav%20Delay%20Vd5",
+      "soundcloud": "https://soundcloud.com/search?q=Vladislav%20Delay%20Quintet%20%26%20Vladislav%20Delay%20Vd5",
+      "youtube": "https://www.youtube.com/results?search_query=Vladislav%20Delay%20Quintet%20%26%20Vladislav%20Delay%20Vd5",
+      "apple": "https://music.apple.com/us/album/vd5/1878458957",
+      "deezer": "https://www.deezer.com/album/922793851"
+    },
+    "embed": {
+      "provider": "apple",
+      "src": "https://embed.music.apple.com/us/album/1878458957?theme=light",
+      "height": 450
+    },
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/de/28/5d/de285d25-a996-5cb5-9900-079157ba0652/4062548136531.png/600x600bb.jpg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
+    "id": "john-tejada-plaid-start-motion",
+    "type": "single",
+    "artist": "John Tejada & Plaid",
+    "title": "Start Motion",
+    "label": "Palette Recordings",
+    "releaseDate": "2026-05-08",
+    "description": "Tejada and Plaid on Palette, two tracks splitting the difference between LA techno precision and the older Warp lineage of melodic electro. The pairing reads obvious on paper and mostly behaves that way on record.",
+    "tags": [
+      "house"
+    ],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=John%20Tejada%20%26%20Plaid%20Start%20Motion&item_type=a",
+      "spotify": "https://open.spotify.com/search/John%20Tejada%20%26%20Plaid%20Start%20Motion",
+      "soundcloud": "https://soundcloud.com/search?q=John%20Tejada%20%26%20Plaid%20Start%20Motion",
+      "youtube": "https://www.youtube.com/results?search_query=John%20Tejada%20%26%20Plaid%20Start%20Motion",
+      "apple": "https://music.apple.com/us/album/start-motion-single/1890497939",
+      "deezer": "https://www.deezer.com/album/953908261"
+    },
+    "embed": {
+      "provider": "apple",
+      "src": "https://embed.music.apple.com/us/album/1890497939?theme=light",
+      "height": 450
+    },
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/f7/30/90/f73090ad-09da-a999-9c0b-f37ec0dcb693/824296210093_cover.jpg/600x600bb.jpg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
+    "id": "dj-koze-real-you-know",
+    "type": "single",
+    "artist": "DJ Koze",
+    "title": "Real, You Know?!",
+    "label": "",
+    "releaseDate": "2026-05-08",
+    "description": "New Koze, the patient Hamburg edit-merchant whose tracks tend to wander somewhere between deep house, hip-hop and whatever pop fragment he has currently smuggled in. Title aside, take any specific claims with the usual Pampa-shaped pinch of salt until it lands.",
+    "tags": [],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=DJ%20Koze%20Real%2C%20You%20Know%3F!&item_type=a",
+      "spotify": "https://open.spotify.com/search/DJ%20Koze%20Real%2C%20You%20Know%3F!",
+      "soundcloud": "https://soundcloud.com/search?q=DJ%20Koze%20Real%2C%20You%20Know%3F!",
+      "youtube": "https://www.youtube.com/results?search_query=DJ%20Koze%20Real%2C%20You%20Know%3F!",
+      "deezer": "https://www.deezer.com/album/967388681"
+    },
+    "embed": null,
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://cdn-images.dzcdn.net/images/cover/3a621450106ed728a8a6c2cab7b0f588/1000x1000-000000-80-0-0.jpg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
+    "id": "synkro-midnight",
+    "type": "single",
+    "artist": "Synkro",
+    "title": "Midnight",
+    "label": "",
+    "releaseDate": "2026-05-08",
+    "description": "Synkro returns to the kind of rain-streaked, dub-leaning garage and 2-step territory he has been mapping since the Apollo and Tempa years. File next to Indigo if you need a coordinate.",
+    "tags": [],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=Synkro%20Midnight&item_type=a",
+      "spotify": "https://open.spotify.com/search/Synkro%20Midnight",
+      "soundcloud": "https://soundcloud.com/search?q=Synkro%20Midnight",
+      "youtube": "https://www.youtube.com/results?search_query=Synkro%20Midnight",
+      "deezer": "https://www.deezer.com/album/946439491",
+      "apple": "https://music.apple.com/us/album/midnight-single/1887291821?uo=4"
+    },
+    "embed": {
+      "provider": "apple",
+      "src": "https://embed.music.apple.com/us/album/1887291821?theme=light",
+      "height": 450
+    },
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://cdn-images.dzcdn.net/images/cover/b381408ff39abfb204e16e76ccdf84ab/1000x1000-000000-80-0-0.jpg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
+    "id": "xang-tricked",
+    "type": "single",
+    "artist": "Xang",
+    "title": "Tricked",
+    "label": "",
+    "releaseDate": "2026-05-08",
+    "description": "Xang turns up with a one-off called \"Tricked,\" self-released or near enough given the label trail goes cold. Worth a listen before the metadata catches up.",
+    "tags": [],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=Xang%20Tricked&item_type=a",
+      "spotify": "https://open.spotify.com/search/Xang%20Tricked",
+      "soundcloud": "https://soundcloud.com/search?q=Xang%20Tricked",
+      "youtube": "https://www.youtube.com/results?search_query=Xang%20Tricked",
+      "deezer": "https://www.deezer.com/album/976311451"
+    },
+    "embed": {
+      "provider": "deezer",
+      "src": "https://widget.deezer.com/widget/light/album/976311451",
+      "height": 300
+    },
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://cdn-images.dzcdn.net/images/cover/2cc8d19ef2a99bc74914c2d9a5d351c8/1000x1000-000000-80-0-0.jpg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
+    "id": "klein-sket",
+    "type": "single",
+    "artist": "Klein",
+    "title": "(sket)",
+    "label": "",
+    "releaseDate": "2026-05-08",
+    "description": "A new Klein single, arriving without label info or context, which feels appropriate for a producer whose work has always treated structure as something to be cracked open rather than assembled. File alongside the rest of her catalogue and expect to be unmoored.",
+    "tags": [],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=Klein%20(sket)&item_type=a",
+      "spotify": "https://open.spotify.com/search/Klein%20(sket)",
+      "soundcloud": "https://soundcloud.com/search?q=Klein%20(sket)",
+      "youtube": "https://www.youtube.com/results?search_query=Klein%20(sket)",
+      "deezer": "https://www.deezer.com/album/976451541"
+    },
+    "embed": {
+      "provider": "deezer",
+      "src": "https://widget.deezer.com/widget/light/album/976451541",
+      "height": 300
+    },
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://cdn-images.dzcdn.net/images/cover/bcc45f305c1a4ac0b43cad7344297e33/1000x1000-000000-80-0-0.jpg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
+    "id": "james-blake-trying-times-a-colors-show",
+    "type": "single",
+    "artist": "James Blake",
+    "title": "Trying Times - A COLORS SHOW",
+    "label": "COLORSxSTUDIOS",
+    "releaseDate": "2026-05-07",
+    "description": "Blake turns up at COLORS, which usually means voice and piano stripped to the bone for the studio's flat-coloured backdrop. Worth filing alongside the rest of his Assume Form-era ballad mode rather than the club-leaning material.",
+    "tags": [
+      "alternative"
+    ],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=James%20Blake%20Trying%20Times%20-%20A%20COLORS%20SHOW&item_type=a",
+      "spotify": "https://open.spotify.com/search/James%20Blake%20Trying%20Times%20-%20A%20COLORS%20SHOW",
+      "soundcloud": "https://soundcloud.com/search?q=James%20Blake%20Trying%20Times%20-%20A%20COLORS%20SHOW",
+      "youtube": "https://www.youtube.com/results?search_query=James%20Blake%20Trying%20Times%20-%20A%20COLORS%20SHOW",
+      "apple": "https://music.apple.com/us/album/trying-times-a-colors-show-single/1895832124",
+      "deezer": "https://www.deezer.com/album/970267531"
+    },
+    "embed": {
+      "provider": "apple",
+      "src": "https://embed.music.apple.com/us/album/1895832124?theme=light",
+      "height": 450
+    },
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/3a/1a/85/3a1a85a5-494f-7fe6-9caf-cd6cdd20c4d7/840054914768.png/600x600bb.jpg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
+    "id": "kosmos-the-woo",
+    "type": "single",
+    "artist": "KOSMOS",
+    "title": "The woo",
+    "label": "",
+    "releaseDate": "2026-05-07",
+    "description": "A KOSMOS single surfacing without label or tag information attached, which makes it one to audition before filing. Approach on its own terms until more context lands.",
+    "tags": [],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=KOSMOS%20The%20woo&item_type=a",
+      "spotify": "https://open.spotify.com/search/KOSMOS%20The%20woo",
+      "soundcloud": "https://soundcloud.com/search?q=KOSMOS%20The%20woo",
+      "youtube": "https://www.youtube.com/results?search_query=KOSMOS%20The%20woo",
+      "deezer": "https://www.deezer.com/album/978141721"
+    },
+    "embed": {
+      "provider": "deezer",
+      "src": "https://widget.deezer.com/widget/light/album/978141721",
+      "height": 300
+    },
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://cdn-images.dzcdn.net/images/cover/fd7911d70d12e728473a84ea10d0244e/1000x1000-000000-80-0-0.jpg",
     "cover": {
       "bg": "#111110",
       "fg": "#f2efe8",
@@ -922,7 +1346,9 @@
       "motif": "disc"
     },
     "pressMentions": [
-      "pitchfork_best_tracks"
+      "pitchfork_best_tracks",
+      "pitchfork_albums",
+      "pitchfork_best_albums"
     ]
   },
   {
@@ -1975,6 +2401,43 @@
       "motif": "disc"
     },
     "pressMentions": []
+  },
+  {
+    "id": "hekt-forever",
+    "type": "album",
+    "artist": "Hekt",
+    "title": "Forever",
+    "label": "Numbers.",
+    "releaseDate": "2026-05-01",
+    "description": "Thirteen tracks of dance-pop pulled through electro house, bassline and hyperpop, landing on Numbers. where that kind of genre-promiscuity tends to make sense. For anyone tracking the label's pop-leaning side near Sega Bodega.",
+    "tags": [
+      "electronic"
+    ],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=Hekt%20Forever&item_type=a",
+      "spotify": "https://open.spotify.com/search/Hekt%20Forever",
+      "soundcloud": "https://soundcloud.com/search?q=Hekt%20Forever",
+      "youtube": "https://www.youtube.com/results?search_query=Hekt%20Forever",
+      "deezer": "https://www.deezer.com/album/958122971",
+      "apple": "https://music.apple.com/us/album/forever/1891998772?uo=4"
+    },
+    "embed": {
+      "provider": "apple",
+      "src": "https://embed.music.apple.com/us/album/1891998772?theme=light",
+      "height": 450
+    },
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://i.discogs.com/5F42rcVnh1lIO_2gs7rnMWX4vRC4UZo_f-rGYRN4z_U/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM3Mjc3/MDQ5LTE3NzgxNzU2/MTgtNTgxNi5qcGVn.jpeg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": [
+      "pitchfork_albums"
+    ]
   },
   {
     "id": "jump-source-patrick-holland-priori-fold",
@@ -3182,6 +3645,39 @@
     "status": "pending",
     "approvedAt": null,
     "coverImageUrl": null,
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
+    "id": "mr-fingers-leev-ur-mynd",
+    "type": "album",
+    "artist": "Mr. Fingers",
+    "title": "Leev Ur Mynd",
+    "label": "Alleviated Records",
+    "releaseDate": "2026-04-24",
+    "description": "Larry Heard returns to his own Alleviated for another full-length under the Mr. Fingers name, twelve tracks moving through the deep house and acid registers he effectively codified. Foundational vocabulary, still being written by its author.",
+    "tags": [],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=Mr.%20Fingers%20Leev%20Ur%20Mynd&item_type=a",
+      "spotify": "https://open.spotify.com/search/Mr.%20Fingers%20Leev%20Ur%20Mynd",
+      "soundcloud": "https://soundcloud.com/search?q=Mr.%20Fingers%20Leev%20Ur%20Mynd",
+      "youtube": "https://www.youtube.com/results?search_query=Mr.%20Fingers%20Leev%20Ur%20Mynd",
+      "deezer": "https://www.deezer.com/album/942019231",
+      "apple": "https://music.apple.com/us/album/leev-ur-mynd/1885964367?uo=4"
+    },
+    "embed": {
+      "provider": "apple",
+      "src": "https://embed.music.apple.com/us/album/1885964367?theme=light",
+      "height": 450
+    },
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://cdn-images.dzcdn.net/images/cover/09239e0e2b501677af58681b6631c8d9/1000x1000-000000-80-0-0.jpg",
     "cover": {
       "bg": "#111110",
       "fg": "#f2efe8",
@@ -5306,7 +5802,9 @@
       "fg": "#f2efe8",
       "motif": "disc"
     },
-    "pressMentions": []
+    "pressMentions": [
+      "pitchfork_best_albums"
+    ]
   },
   {
     "id": "martyn-heavy-sound",
@@ -15233,6 +15731,38 @@
     "pressMentions": []
   },
   {
+    "id": "olan-monk-songs-for-nothing",
+    "type": "album",
+    "artist": "Olan Monk",
+    "title": "Songs for Nothing",
+    "label": "AD 93",
+    "releaseDate": "2025-11-07",
+    "description": "",
+    "tags": [],
+    "links": {
+      "bandcamp": "https://bandcamp.com/album/2354817462",
+      "spotify": "https://open.spotify.com/search/Olan%20Monk%20Songs%20for%20Nothing",
+      "soundcloud": "https://soundcloud.com/search?q=Olan%20Monk%20Songs%20for%20Nothing",
+      "youtube": "https://www.youtube.com/results?search_query=Olan%20Monk%20Songs%20for%20Nothing",
+      "deezer": "https://www.deezer.com/album/793470501"
+    },
+    "embed": {
+      "provider": "deezer",
+      "src": "https://widget.deezer.com/widget/light/album/793470501",
+      "height": 300
+    },
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://f4.bcbits.com/img/a2790909120_10.jpg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
     "id": "stenny-sharp-fragments",
     "type": "album",
     "artist": "Stenny",
@@ -15915,6 +16445,38 @@
     "status": "pending",
     "approvedAt": null,
     "coverImageUrl": "https://i.discogs.com/ZZVmQ9ekTLytJZl5VJi1TdQOJdT5mjunppLrucmW5Zw/rs:fit/g:sm/q:90/h:597/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM1NTIw/MzE2LTE3NjE4MzQw/OTgtODQ1OS5wbmc.jpeg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
+    "id": "alpha-maid-is-this-a-queue",
+    "type": "album",
+    "artist": "Alpha Maid",
+    "title": "Is this a queue",
+    "label": "AD 93",
+    "releaseDate": "2025-10-29",
+    "description": "",
+    "tags": [],
+    "links": {
+      "bandcamp": "https://bandcamp.com/album/1025523587",
+      "spotify": "https://open.spotify.com/search/Alpha%20Maid%20Is%20this%20a%20queue",
+      "soundcloud": "https://soundcloud.com/search?q=Alpha%20Maid%20Is%20this%20a%20queue",
+      "youtube": "https://www.youtube.com/results?search_query=Alpha%20Maid%20Is%20this%20a%20queue",
+      "deezer": "https://www.deezer.com/album/826078421"
+    },
+    "embed": {
+      "provider": "deezer",
+      "src": "https://widget.deezer.com/widget/light/album/826078421",
+      "height": 300
+    },
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://f4.bcbits.com/img/a3617466792_10.jpg",
     "cover": {
       "bg": "#111110",
       "fg": "#f2efe8",
@@ -19815,6 +20377,40 @@
     "pressMentions": []
   },
   {
+    "id": "feeo-the-mountain",
+    "type": "album",
+    "artist": "feeo",
+    "title": "The Mountain",
+    "label": "AD 93",
+    "releaseDate": "2025-07-30",
+    "description": "",
+    "tags": [],
+    "links": {
+      "bandcamp": "https://bandcamp.com/album/505850099",
+      "spotify": "https://open.spotify.com/search/feeo%20The%20Mountain",
+      "soundcloud": "https://soundcloud.com/search?q=feeo%20The%20Mountain",
+      "youtube": "https://www.youtube.com/results?search_query=feeo%20The%20Mountain",
+      "deezer": "https://www.deezer.com/album/775219011"
+    },
+    "embed": {
+      "provider": "deezer",
+      "src": "https://widget.deezer.com/widget/light/album/775219011",
+      "height": 300
+    },
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://f4.bcbits.com/img/a936526472_10.jpg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": [
+      "pitchfork_best_albums"
+    ]
+  },
+  {
     "id": "rene-najera-painted-life",
     "type": "album",
     "artist": "René Najera",
@@ -20405,6 +21001,38 @@
     "status": "pending",
     "approvedAt": null,
     "coverImageUrl": "https://i.discogs.com/YsCYWcaQHAa81xX1_r2NNRM63osiyh4ssLLaZNGIgFU/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM1NzY1/MzE0LTE3NjQxMjE3/NDctNTcxMi5qcGVn.jpeg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
+    "id": "jordan-playfair-consternation",
+    "type": "album",
+    "artist": "Jordan Playfair",
+    "title": "Consternation",
+    "label": "AD 93",
+    "releaseDate": "2025-07-17",
+    "description": "",
+    "tags": [],
+    "links": {
+      "bandcamp": "https://bandcamp.com/album/1993070728",
+      "spotify": "https://open.spotify.com/search/Jordan%20Playfair%20Consternation",
+      "soundcloud": "https://soundcloud.com/search?q=Jordan%20Playfair%20Consternation",
+      "youtube": "https://www.youtube.com/results?search_query=Jordan%20Playfair%20Consternation",
+      "deezer": "https://www.deezer.com/album/789739591"
+    },
+    "embed": {
+      "provider": "deezer",
+      "src": "https://widget.deezer.com/widget/light/album/789739591",
+      "height": 300
+    },
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://f4.bcbits.com/img/a2863248424_10.jpg",
     "cover": {
       "bg": "#111110",
       "fg": "#f2efe8",
@@ -21544,6 +22172,38 @@
     "pressMentions": []
   },
   {
+    "id": "biosphere-the-way-of-time",
+    "type": "album",
+    "artist": "Biosphere",
+    "title": "The Way of Time",
+    "label": "AD 93",
+    "releaseDate": "2025-06-20",
+    "description": "",
+    "tags": [],
+    "links": {
+      "bandcamp": "https://bandcamp.com/album/2949702433",
+      "spotify": "https://open.spotify.com/search/Biosphere%20The%20Way%20of%20Time",
+      "soundcloud": "https://soundcloud.com/search?q=Biosphere%20The%20Way%20of%20Time",
+      "youtube": "https://www.youtube.com/results?search_query=Biosphere%20The%20Way%20of%20Time",
+      "deezer": "https://www.deezer.com/album/747165371"
+    },
+    "embed": {
+      "provider": "deezer",
+      "src": "https://widget.deezer.com/widget/light/album/747165371",
+      "height": 300
+    },
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://f4.bcbits.com/img/a2005500448_10.jpg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
     "id": "masayoshi-fujita-smoking-tigers-original-score",
     "type": "album",
     "artist": "Masayoshi Fujita",
@@ -22444,6 +23104,38 @@
     "pressMentions": []
   },
   {
+    "id": "jordan-playfair-cherry-hill",
+    "type": "album",
+    "artist": "Jordan Playfair",
+    "title": "Cherry Hill",
+    "label": "AD 93",
+    "releaseDate": "2025-05-28",
+    "description": "",
+    "tags": [],
+    "links": {
+      "bandcamp": "https://bandcamp.com/album/160271056",
+      "spotify": "https://open.spotify.com/search/Jordan%20Playfair%20Cherry%20Hill",
+      "soundcloud": "https://soundcloud.com/search?q=Jordan%20Playfair%20Cherry%20Hill",
+      "youtube": "https://www.youtube.com/results?search_query=Jordan%20Playfair%20Cherry%20Hill",
+      "deezer": "https://www.deezer.com/album/752656111"
+    },
+    "embed": {
+      "provider": "deezer",
+      "src": "https://widget.deezer.com/widget/light/album/752656111",
+      "height": 300
+    },
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://f4.bcbits.com/img/a3266870573_10.jpg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
     "id": "claire-rousay-gretchen-korsmo-quilted-lament",
     "type": "album",
     "artist": "Claire Rousay & Gretchen Korsmo",
@@ -23012,6 +23704,38 @@
     "pressMentions": []
   },
   {
+    "id": "tracey-tracey-ep",
+    "type": "album",
+    "artist": "Tracey",
+    "title": "Tracey EP",
+    "label": "AD 93",
+    "releaseDate": "2025-05-16",
+    "description": "",
+    "tags": [],
+    "links": {
+      "bandcamp": "https://bandcamp.com/album/3936682939",
+      "spotify": "https://open.spotify.com/search/Tracey%20Tracey%20EP",
+      "soundcloud": "https://soundcloud.com/search?q=Tracey%20Tracey%20EP",
+      "youtube": "https://www.youtube.com/results?search_query=Tracey%20Tracey%20EP",
+      "deezer": "https://www.deezer.com/album/152583522"
+    },
+    "embed": {
+      "provider": "deezer",
+      "src": "https://widget.deezer.com/widget/light/album/152583522",
+      "height": 300
+    },
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://f4.bcbits.com/img/a1255077960_10.jpg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
     "id": "eiii-refractions",
     "type": "album",
     "artist": "EIII",
@@ -23335,6 +24059,38 @@
     "status": "pending",
     "approvedAt": null,
     "coverImageUrl": "https://i.discogs.com/wVkdP5ZSgiEoB3YdLrnA4ATOObJXI4-jrGoKpxibV-k/rs:fit/g:sm/q:90/h:419/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM0MDI5/NDY4LTE3NDk5MzQ4/MjktMjA3MC5qcGVn.jpeg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
+    "id": "moin-belly-up",
+    "type": "album",
+    "artist": "Moin",
+    "title": "Belly Up",
+    "label": "AD 93",
+    "releaseDate": "2025-05-09",
+    "description": "",
+    "tags": [],
+    "links": {
+      "bandcamp": "https://bandcamp.com/album/1724046970",
+      "spotify": "https://open.spotify.com/search/Moin%20Belly%20Up",
+      "soundcloud": "https://soundcloud.com/search?q=Moin%20Belly%20Up",
+      "youtube": "https://www.youtube.com/results?search_query=Moin%20Belly%20Up",
+      "deezer": "https://www.deezer.com/album/725636271"
+    },
+    "embed": {
+      "provider": "deezer",
+      "src": "https://widget.deezer.com/widget/light/album/725636271",
+      "height": 300
+    },
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://f4.bcbits.com/img/a2543771830_10.jpg",
     "cover": {
       "bg": "#111110",
       "fg": "#f2efe8",
@@ -24438,6 +25194,38 @@
     "status": "pending",
     "approvedAt": null,
     "coverImageUrl": "https://i.discogs.com/c9PRr0AnzeN4DwiPu4RHkAF1mBWRet70pUARrLgbx2E/rs:fit/g:sm/q:90/h:595/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTMzNzIz/NDE0LTE3NTI3MDA2/MTEtMjk4Ni5qcGVn.jpeg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
+    "id": "quade-the-foel-tower",
+    "type": "album",
+    "artist": "Quade",
+    "title": "The Foel Tower",
+    "label": "AD 93",
+    "releaseDate": "2025-04-18",
+    "description": "",
+    "tags": [],
+    "links": {
+      "bandcamp": "https://bandcamp.com/album/97000005",
+      "spotify": "https://open.spotify.com/search/Quade%20The%20Foel%20Tower",
+      "soundcloud": "https://soundcloud.com/search?q=Quade%20The%20Foel%20Tower",
+      "youtube": "https://www.youtube.com/results?search_query=Quade%20The%20Foel%20Tower",
+      "deezer": "https://www.deezer.com/album/707835731"
+    },
+    "embed": {
+      "provider": "deezer",
+      "src": "https://widget.deezer.com/widget/light/album/707835731",
+      "height": 300
+    },
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://f4.bcbits.com/img/a3873190023_10.jpg",
     "cover": {
       "bg": "#111110",
       "fg": "#f2efe8",
@@ -27206,6 +27994,38 @@
     "pressMentions": []
   },
   {
+    "id": "jordan-playfair-doctor-pain",
+    "type": "album",
+    "artist": "Jordan Playfair",
+    "title": "Doctor Pain",
+    "label": "AD 93",
+    "releaseDate": "2025-02-19",
+    "description": "",
+    "tags": [],
+    "links": {
+      "bandcamp": "https://bandcamp.com/album/88196218",
+      "spotify": "https://open.spotify.com/search/Jordan%20Playfair%20Doctor%20Pain",
+      "soundcloud": "https://soundcloud.com/search?q=Jordan%20Playfair%20Doctor%20Pain",
+      "youtube": "https://www.youtube.com/results?search_query=Jordan%20Playfair%20Doctor%20Pain",
+      "deezer": "https://www.deezer.com/album/709026741"
+    },
+    "embed": {
+      "provider": "deezer",
+      "src": "https://widget.deezer.com/widget/light/album/709026741",
+      "height": 300
+    },
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://f4.bcbits.com/img/a3377133227_10.jpg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
     "id": "bambinodj-silent-dispatch",
     "type": "album",
     "artist": "bambinodj",
@@ -28147,6 +28967,38 @@
     "status": "pending",
     "approvedAt": null,
     "coverImageUrl": "https://i.discogs.com/59uIU_4TLQW7j9avGQHt6a_2rLoLoWNxAuYQWykLXSs/rs:fit/g:sm/q:90/h:596/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTMzMDA4/MTAzLTE3MzgzNDIy/ODItMjIzMy5qcGVn.jpeg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
+    "id": "wojciech-rusin-honey-for-the-ants",
+    "type": "album",
+    "artist": "Wojciech Rusin",
+    "title": "Honey for the Ants",
+    "label": "AD 93",
+    "releaseDate": "2025-01-31",
+    "description": "",
+    "tags": [],
+    "links": {
+      "bandcamp": "https://bandcamp.com/album/1577836215",
+      "spotify": "https://open.spotify.com/search/Wojciech%20Rusin%20Honey%20for%20the%20Ants",
+      "soundcloud": "https://soundcloud.com/search?q=Wojciech%20Rusin%20Honey%20for%20the%20Ants",
+      "youtube": "https://www.youtube.com/results?search_query=Wojciech%20Rusin%20Honey%20for%20the%20Ants",
+      "deezer": "https://www.deezer.com/album/672433881"
+    },
+    "embed": {
+      "provider": "deezer",
+      "src": "https://widget.deezer.com/widget/light/album/672433881",
+      "height": 300
+    },
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://f4.bcbits.com/img/a646066964_10.jpg",
     "cover": {
       "bg": "#111110",
       "fg": "#f2efe8",
@@ -31103,6 +31955,33 @@
     "pressMentions": []
   },
   {
+    "id": "dylan-henner-x-files-covers-compositions-and-copyrighted-material-bc",
+    "type": "album",
+    "artist": "Dylan Henner",
+    "title": "X-Files: Covers, Compositions, and Copyrighted Material",
+    "label": "AD 93",
+    "releaseDate": "2024-12-26",
+    "description": "",
+    "tags": [],
+    "links": {
+      "bandcamp": "https://bandcamp.com/album/383765804",
+      "spotify": "https://open.spotify.com/search/Dylan%20Henner%20X-Files%3A%20Covers%2C%20Compositions%2C%20and%20Copyrighted%20Material",
+      "soundcloud": "https://soundcloud.com/search?q=Dylan%20Henner%20X-Files%3A%20Covers%2C%20Compositions%2C%20and%20Copyrighted%20Material",
+      "youtube": "https://www.youtube.com/results?search_query=Dylan%20Henner%20X-Files%3A%20Covers%2C%20Compositions%2C%20and%20Copyrighted%20Material"
+    },
+    "embed": null,
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://f4.bcbits.com/img/a3674489676_10.jpg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
     "id": "andy-stott-faith-in-strangers",
     "type": "album",
     "artist": "Andy Stott",
@@ -31336,6 +32215,38 @@
     "pressMentions": []
   },
   {
+    "id": "tsvi-dj-plead-caldo-verde",
+    "type": "album",
+    "artist": "TSVI & DJ Plead",
+    "title": "Caldo Verde",
+    "label": "AD 93",
+    "releaseDate": "2024-11-29",
+    "description": "",
+    "tags": [],
+    "links": {
+      "bandcamp": "https://bandcamp.com/album/4184440313",
+      "spotify": "https://open.spotify.com/search/TSVI%20%26%20DJ%20Plead%20Caldo%20Verde",
+      "soundcloud": "https://soundcloud.com/search?q=TSVI%20%26%20DJ%20Plead%20Caldo%20Verde",
+      "youtube": "https://www.youtube.com/results?search_query=TSVI%20%26%20DJ%20Plead%20Caldo%20Verde",
+      "deezer": "https://www.deezer.com/album/653894631"
+    },
+    "embed": {
+      "provider": "deezer",
+      "src": "https://widget.deezer.com/widget/light/album/653894631",
+      "height": 300
+    },
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://f4.bcbits.com/img/a3964890206_10.jpg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
     "id": "noisefarm-lose-yourself",
     "type": "single",
     "artist": "Noisefarm",
@@ -31492,6 +32403,38 @@
     "status": "pending",
     "approvedAt": null,
     "coverImageUrl": "https://i.discogs.com/3u4SNTqnQAgUMFx6Lej-yYDXWGY-59FsCmvo0NMG3XY/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTMyNDIw/MDc5LTE3MzI4MDE4/ODEtNjkzOS5qcGVn.jpeg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
+    "id": "jordan-playfair-from-the-heights",
+    "type": "album",
+    "artist": "Jordan Playfair",
+    "title": "from the heights",
+    "label": "AD 93",
+    "releaseDate": "2024-11-27",
+    "description": "",
+    "tags": [],
+    "links": {
+      "bandcamp": "https://bandcamp.com/album/3668567866",
+      "spotify": "https://open.spotify.com/search/Jordan%20Playfair%20from%20the%20heights",
+      "soundcloud": "https://soundcloud.com/search?q=Jordan%20Playfair%20from%20the%20heights",
+      "youtube": "https://www.youtube.com/results?search_query=Jordan%20Playfair%20from%20the%20heights",
+      "deezer": "https://www.deezer.com/album/665907001"
+    },
+    "embed": {
+      "provider": "deezer",
+      "src": "https://widget.deezer.com/widget/light/album/665907001",
+      "height": 300
+    },
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://f4.bcbits.com/img/a4150834896_10.jpg",
     "cover": {
       "bg": "#111110",
       "fg": "#f2efe8",
@@ -31716,7 +32659,8 @@
       "soundcloud": "https://soundcloud.com/search?q=Lifted%20(4)%20Trellis",
       "youtube": "https://www.youtube.com/results?search_query=Lifted%20(4)%20Trellis",
       "deezer": "https://www.deezer.com/album/659290001",
-      "apple": "https://music.apple.com/us/album/trellis/1774575646?uo=4"
+      "apple": "https://music.apple.com/us/album/trellis/1774575646?uo=4",
+      "tidal": "https://tidal.com/album/394005608"
     },
     "embed": {
       "provider": "apple",
@@ -31727,6 +32671,39 @@
     "status": "pending",
     "approvedAt": null,
     "coverImageUrl": "https://i.discogs.com/1O-LiaDFfO0dg7anHliKqnCR_ET_2YwBroSGUA-zMZg/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTMyNDAz/MTQxLTE3MzM4MjEy/NDUtOTI0Ni5qcGVn.jpeg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
+    "id": "bzdb-jump-ship-sit-lean-be-still-stand-tall",
+    "type": "album",
+    "artist": "BZDB",
+    "title": "Jump Ship, Sit Lean, Be Still, Stand Tall",
+    "label": "AD 93",
+    "releaseDate": "2024-11-22",
+    "description": "",
+    "tags": [],
+    "links": {
+      "bandcamp": "https://bandcamp.com/album/988281220",
+      "spotify": "https://open.spotify.com/search/BZDB%20Jump%20Ship%2C%20Sit%20Lean%2C%20Be%20Still%2C%20Stand%20Tall",
+      "soundcloud": "https://soundcloud.com/search?q=BZDB%20Jump%20Ship%2C%20Sit%20Lean%2C%20Be%20Still%2C%20Stand%20Tall",
+      "youtube": "https://www.youtube.com/results?search_query=BZDB%20Jump%20Ship%2C%20Sit%20Lean%2C%20Be%20Still%2C%20Stand%20Tall",
+      "deezer": "https://www.deezer.com/album/648557091",
+      "tidal": "https://tidal.com/album/389761709"
+    },
+    "embed": {
+      "provider": "deezer",
+      "src": "https://widget.deezer.com/widget/light/album/648557091",
+      "height": 300
+    },
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://f4.bcbits.com/img/a55102203_10.jpg",
     "cover": {
       "bg": "#111110",
       "fg": "#f2efe8",
@@ -31750,7 +32727,8 @@
       "spotify": "https://open.spotify.com/search/JANKA%20(5)%20%26%20CRZKNY%20YUKU046",
       "soundcloud": "https://soundcloud.com/search?q=JANKA%20(5)%20%26%20CRZKNY%20YUKU046",
       "youtube": "https://www.youtube.com/results?search_query=JANKA%20(5)%20%26%20CRZKNY%20YUKU046",
-      "apple": "https://music.apple.com/us/album/yuku046-ep/1776323950?uo=4"
+      "apple": "https://music.apple.com/us/album/yuku046-ep/1776323950?uo=4",
+      "tidal": "https://tidal.com/album/395633219"
     },
     "embed": {
       "provider": "apple",
@@ -31820,7 +32798,8 @@
       "soundcloud": "https://soundcloud.com/search?q=Home%20Baker%20Kitchen%20Songs",
       "youtube": "https://www.youtube.com/results?search_query=Home%20Baker%20Kitchen%20Songs",
       "deezer": "https://www.deezer.com/album/669831281",
-      "apple": "https://music.apple.com/us/album/kitchen-songs-ep/1779588195?uo=4"
+      "apple": "https://music.apple.com/us/album/kitchen-songs-ep/1779588195?uo=4",
+      "tidal": "https://tidal.com/album/399373139"
     },
     "embed": {
       "provider": "apple",
@@ -31837,6 +32816,41 @@
       "motif": "disc"
     },
     "pressMentions": []
+  },
+  {
+    "id": "james-k-hypersoft-lovejinx-junkdream",
+    "type": "album",
+    "artist": "james K",
+    "title": "Hypersoft Lovejinx Junkdream",
+    "label": "AD 93",
+    "releaseDate": "2024-11-19",
+    "description": "",
+    "tags": [],
+    "links": {
+      "bandcamp": "https://bandcamp.com/album/1814363559",
+      "spotify": "https://open.spotify.com/search/james%20K%20Hypersoft%20Lovejinx%20Junkdream",
+      "soundcloud": "https://soundcloud.com/search?q=james%20K%20Hypersoft%20Lovejinx%20Junkdream",
+      "youtube": "https://www.youtube.com/results?search_query=james%20K%20Hypersoft%20Lovejinx%20Junkdream",
+      "deezer": "https://www.deezer.com/album/663971341",
+      "tidal": "https://tidal.com/album/396881878"
+    },
+    "embed": {
+      "provider": "deezer",
+      "src": "https://widget.deezer.com/widget/light/album/663971341",
+      "height": 300
+    },
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://f4.bcbits.com/img/a4126571485_10.jpg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": [
+      "ra"
+    ]
   },
   {
     "id": "yazmin-lacey-the-feels",
@@ -31889,7 +32903,8 @@
       "soundcloud": "https://soundcloud.com/search?q=Michaela%20Turcerov%C3%A1%20Alene%20Et",
       "youtube": "https://www.youtube.com/results?search_query=Michaela%20Turcerov%C3%A1%20Alene%20Et",
       "deezer": "https://www.deezer.com/album/664269071",
-      "apple": "https://music.apple.com/us/album/alene-et/1774338548?uo=4"
+      "apple": "https://music.apple.com/us/album/alene-et/1774338548?uo=4",
+      "tidal": "https://tidal.com/album/396933515"
     },
     "embed": {
       "provider": "apple",
@@ -31924,7 +32939,8 @@
       "soundcloud": "https://soundcloud.com/search?q=Tyson%20(28)%20Chaos%20EP",
       "youtube": "https://www.youtube.com/results?search_query=Tyson%20(28)%20Chaos%20EP",
       "deezer": "https://www.deezer.com/album/607279502",
-      "apple": "https://music.apple.com/us/album/chaos-ep/1754196949?uo=4"
+      "apple": "https://music.apple.com/us/album/chaos-ep/1754196949?uo=4",
+      "tidal": "https://tidal.com/album/371700032"
     },
     "embed": {
       "provider": "apple",
@@ -31959,7 +32975,8 @@
       "soundcloud": "https://soundcloud.com/search?q=T%C3%A9n%C3%A8bre%20Basic%20Shapes",
       "youtube": "https://www.youtube.com/results?search_query=T%C3%A9n%C3%A8bre%20Basic%20Shapes",
       "deezer": "https://www.deezer.com/album/660327431",
-      "apple": "https://music.apple.com/us/album/basic-shapes-ep/1775526396?uo=4"
+      "apple": "https://music.apple.com/us/album/basic-shapes-ep/1775526396?uo=4",
+      "tidal": "https://tidal.com/album/394878395"
     },
     "embed": {
       "provider": "apple",
@@ -31970,6 +32987,38 @@
     "status": "pending",
     "approvedAt": null,
     "coverImageUrl": "https://i.discogs.com/YDPU0NPx5iJg8h_Zs_6LPuOT0L6I83eg-pDDru_vess/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTMzNjc0/NTY4LTE3NDQ0NTc5/MjEtMTU3MS5qcGVn.jpeg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
+    "id": "yhwh-nailgun-penetrator",
+    "type": "album",
+    "artist": "YHWH Nailgun",
+    "title": "Penetrator",
+    "label": "AD 93",
+    "releaseDate": "2024-11-14",
+    "description": "",
+    "tags": [],
+    "links": {
+      "bandcamp": "https://bandcamp.com/album/507988884",
+      "spotify": "https://open.spotify.com/search/YHWH%20Nailgun%20Penetrator",
+      "soundcloud": "https://soundcloud.com/search?q=YHWH%20Nailgun%20Penetrator",
+      "youtube": "https://www.youtube.com/results?search_query=YHWH%20Nailgun%20Penetrator",
+      "deezer": "https://www.deezer.com/album/660599001"
+    },
+    "embed": {
+      "provider": "deezer",
+      "src": "https://widget.deezer.com/widget/light/album/660599001",
+      "height": 300
+    },
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://f4.bcbits.com/img/a1175889737_10.jpg",
     "cover": {
       "bg": "#111110",
       "fg": "#f2efe8",
@@ -31994,7 +33043,8 @@
       "soundcloud": "https://soundcloud.com/search?q=mary%20in%20the%20junkyard%20This%20Is%20My%20California",
       "youtube": "https://www.youtube.com/results?search_query=mary%20in%20the%20junkyard%20This%20Is%20My%20California",
       "deezer": "https://www.deezer.com/album/666487971",
-      "apple": "https://music.apple.com/us/album/this-is-my-california-single/1775691535?uo=4"
+      "apple": "https://music.apple.com/us/album/this-is-my-california-single/1775691535?uo=4",
+      "tidal": "https://tidal.com/album/402142778"
     },
     "embed": {
       "provider": "apple",
@@ -32063,7 +33113,8 @@
       "soundcloud": "https://soundcloud.com/search?q=E%2FI%20Explicit%20Isolation",
       "youtube": "https://www.youtube.com/results?search_query=E%2FI%20Explicit%20Isolation",
       "deezer": "https://www.deezer.com/album/666966191",
-      "apple": "https://music.apple.com/us/album/explicit-isolation/1778511112?uo=4"
+      "apple": "https://music.apple.com/us/album/explicit-isolation/1778511112?uo=4",
+      "tidal": "https://tidal.com/album/398231727"
     },
     "embed": {
       "provider": "apple",
@@ -32098,7 +33149,8 @@
       "soundcloud": "https://soundcloud.com/search?q=990x%20Ruins",
       "youtube": "https://www.youtube.com/results?search_query=990x%20Ruins",
       "deezer": "https://www.deezer.com/album/777297961",
-      "apple": "https://music.apple.com/us/album/ruins/1822451144?uo=4"
+      "apple": "https://music.apple.com/us/album/ruins/1822451144?uo=4",
+      "tidal": "https://tidal.com/album/443933705"
     },
     "embed": {
       "provider": "apple",
@@ -32133,7 +33185,8 @@
       "soundcloud": "https://soundcloud.com/search?q=Antonina%20Car%20%26%20Niczos%20To%C5%84",
       "youtube": "https://www.youtube.com/results?search_query=Antonina%20Car%20%26%20Niczos%20To%C5%84",
       "deezer": "https://www.deezer.com/album/655392121",
-      "apple": "https://music.apple.com/us/album/to%C5%84/1773284972?uo=4"
+      "apple": "https://music.apple.com/us/album/to%C5%84/1773284972?uo=4",
+      "tidal": "https://tidal.com/album/392477112"
     },
     "embed": {
       "provider": "apple",
@@ -32167,7 +33220,8 @@
       "spotify": "https://open.spotify.com/search/Lamina%20(4)%20Sue%C3%B1os%20Acu%C3%A1ticos",
       "soundcloud": "https://soundcloud.com/search?q=Lamina%20(4)%20Sue%C3%B1os%20Acu%C3%A1ticos",
       "youtube": "https://www.youtube.com/results?search_query=Lamina%20(4)%20Sue%C3%B1os%20Acu%C3%A1ticos",
-      "deezer": "https://www.deezer.com/album/657872151"
+      "deezer": "https://www.deezer.com/album/657872151",
+      "tidal": "https://tidal.com/album/393757382"
     },
     "embed": {
       "provider": "deezer",
@@ -32201,7 +33255,8 @@
       "spotify": "https://open.spotify.com/search/Cybermission%20Zona",
       "soundcloud": "https://soundcloud.com/search?q=Cybermission%20Zona",
       "youtube": "https://www.youtube.com/results?search_query=Cybermission%20Zona",
-      "apple": "https://music.apple.com/us/album/zona-ep/1776802164?uo=4"
+      "apple": "https://music.apple.com/us/album/zona-ep/1776802164?uo=4",
+      "tidal": "https://tidal.com/album/396119414"
     },
     "embed": {
       "provider": "apple",
@@ -32235,7 +33290,8 @@
       "spotify": "https://open.spotify.com/search/Jack%20J%20Blue%20Desert",
       "soundcloud": "https://soundcloud.com/search?q=Jack%20J%20Blue%20Desert",
       "youtube": "https://www.youtube.com/results?search_query=Jack%20J%20Blue%20Desert",
-      "apple": "https://music.apple.com/us/album/blue-desert/1769722234?uo=4"
+      "apple": "https://music.apple.com/us/album/blue-desert/1769722234?uo=4",
+      "tidal": "https://tidal.com/album/388685605"
     },
     "embed": {
       "provider": "apple",
@@ -32351,6 +33407,39 @@
     "status": "pending",
     "approvedAt": null,
     "coverImageUrl": "https://i.discogs.com/wtJkN1nMBuWqfeJSU-VC663BuXgzY6G3LkqsfO_bDoY/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTMyMzU1/MjI4LTE3MzIyMjY2/MjQtNDM2Mi5qcGVn.jpeg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
+    "id": "gaister-gaister",
+    "type": "album",
+    "artist": "GAISTER",
+    "title": "GAISTER",
+    "label": "AD 93",
+    "releaseDate": "2024-11-01",
+    "description": "",
+    "tags": [],
+    "links": {
+      "bandcamp": "https://bandcamp.com/album/3218214393",
+      "spotify": "https://open.spotify.com/search/GAISTER%20GAISTER",
+      "soundcloud": "https://soundcloud.com/search?q=GAISTER%20GAISTER",
+      "youtube": "https://www.youtube.com/results?search_query=GAISTER%20GAISTER",
+      "deezer": "https://www.deezer.com/album/629104871",
+      "apple": "https://music.apple.com/us/album/gaister-feat-coby-sey-akihide-monna-olivia-salvadori/1762691019?uo=4"
+    },
+    "embed": {
+      "provider": "apple",
+      "src": "https://embed.music.apple.com/us/album/1762691019?theme=light",
+      "height": 450
+    },
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://f4.bcbits.com/img/a1820201299_10.jpg",
     "cover": {
       "bg": "#111110",
       "fg": "#f2efe8",
@@ -32490,6 +33579,39 @@
     "pressMentions": []
   },
   {
+    "id": "moin-you-never-end",
+    "type": "album",
+    "artist": "Moin",
+    "title": "You Never End",
+    "label": "AD 93",
+    "releaseDate": "2024-10-25",
+    "description": "",
+    "tags": [],
+    "links": {
+      "bandcamp": "https://bandcamp.com/album/2772763789",
+      "spotify": "https://open.spotify.com/search/Moin%20You%20Never%20End",
+      "soundcloud": "https://soundcloud.com/search?q=Moin%20You%20Never%20End",
+      "youtube": "https://www.youtube.com/results?search_query=Moin%20You%20Never%20End",
+      "deezer": "https://www.deezer.com/album/623392021",
+      "apple": "https://music.apple.com/us/album/you-never-end/1760529904?uo=4"
+    },
+    "embed": {
+      "provider": "apple",
+      "src": "https://embed.music.apple.com/us/album/1760529904?theme=light",
+      "height": 450
+    },
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://f4.bcbits.com/img/a1237846218_10.jpg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
     "id": "nathan-micay-blue-spring-5-year-epilogue",
     "type": "single",
     "artist": "Nathan Micay",
@@ -32585,6 +33707,38 @@
     "status": "pending",
     "approvedAt": null,
     "coverImageUrl": "https://i.discogs.com/AfQBLliy2iPv5fyjBrgg1EDIRI5j5HQ2mmwhl5VIjy0/rs:fit/g:sm/q:90/h:592/w:592/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM0ODY5/MzQxLTE3NTU2OTIy/MjYtMTUxMS5qcGVn.jpeg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
+    "id": "el-hardwick-process-of-elimination",
+    "type": "album",
+    "artist": "El Hardwick",
+    "title": "Process of Elimination",
+    "label": "AD 93",
+    "releaseDate": "2024-10-18",
+    "description": "",
+    "tags": [],
+    "links": {
+      "bandcamp": "https://bandcamp.com/album/2947374071",
+      "spotify": "https://open.spotify.com/search/El%20Hardwick%20Process%20of%20Elimination",
+      "soundcloud": "https://soundcloud.com/search?q=El%20Hardwick%20Process%20of%20Elimination",
+      "youtube": "https://www.youtube.com/results?search_query=El%20Hardwick%20Process%20of%20Elimination",
+      "deezer": "https://www.deezer.com/album/607729932"
+    },
+    "embed": {
+      "provider": "deezer",
+      "src": "https://widget.deezer.com/widget/light/album/607729932",
+      "height": 300
+    },
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://f4.bcbits.com/img/a1711853656_10.jpg",
     "cover": {
       "bg": "#111110",
       "fg": "#f2efe8",
@@ -32985,6 +34139,38 @@
     "pressMentions": []
   },
   {
+    "id": "james-william-blades-pare-de-sufrir",
+    "type": "album",
+    "artist": "James William Blades",
+    "title": "Pare De Sufrir",
+    "label": "AD 93",
+    "releaseDate": "2024-10-04",
+    "description": "",
+    "tags": [],
+    "links": {
+      "bandcamp": "https://bandcamp.com/album/1345193601",
+      "spotify": "https://open.spotify.com/search/James%20William%20Blades%20Pare%20De%20Sufrir",
+      "soundcloud": "https://soundcloud.com/search?q=James%20William%20Blades%20Pare%20De%20Sufrir",
+      "youtube": "https://www.youtube.com/results?search_query=James%20William%20Blades%20Pare%20De%20Sufrir",
+      "deezer": "https://www.deezer.com/album/729982361"
+    },
+    "embed": {
+      "provider": "deezer",
+      "src": "https://widget.deezer.com/widget/light/album/729982361",
+      "height": 300
+    },
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://f4.bcbits.com/img/a3941612110_10.jpg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
     "id": "the-aphex-twin-digeridoo-expanded-edition",
     "type": "album",
     "artist": "The Aphex Twin",
@@ -33243,6 +34429,39 @@
     "status": "pending",
     "approvedAt": null,
     "coverImageUrl": "https://i.discogs.com/Ilhvd0litnH0j46dwVd359MGNt66absniOk6gEkyTd0/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTMyOTIz/NDkxLTE3Mzc2MDUy/NTctNzIwNi5qcGVn.jpeg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
+    "id": "lice-third-time-at-the-beach",
+    "type": "album",
+    "artist": "LICE",
+    "title": "Third Time At The Beach",
+    "label": "AD 93",
+    "releaseDate": "2024-09-20",
+    "description": "",
+    "tags": [],
+    "links": {
+      "bandcamp": "https://bandcamp.com/album/2536932227",
+      "spotify": "https://open.spotify.com/search/LICE%20Third%20Time%20At%20The%20Beach",
+      "soundcloud": "https://soundcloud.com/search?q=LICE%20Third%20Time%20At%20The%20Beach",
+      "youtube": "https://www.youtube.com/results?search_query=LICE%20Third%20Time%20At%20The%20Beach",
+      "deezer": "https://www.deezer.com/album/568276381",
+      "apple": "https://music.apple.com/us/album/third-time-at-the-beach/1739147316?uo=4"
+    },
+    "embed": {
+      "provider": "apple",
+      "src": "https://embed.music.apple.com/us/album/1739147316?theme=light",
+      "height": 450
+    },
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://f4.bcbits.com/img/a2522692550_10.jpg",
     "cover": {
       "bg": "#111110",
       "fg": "#f2efe8",
@@ -33763,6 +34982,65 @@
     "pressMentions": []
   },
   {
+    "id": "damsel-elysium-whispers-and-speakings",
+    "type": "album",
+    "artist": "damsel Elysium",
+    "title": "Whispers and Speakings",
+    "label": "AD 93",
+    "releaseDate": "2024-08-27",
+    "description": "",
+    "tags": [],
+    "links": {
+      "bandcamp": "https://bandcamp.com/album/1554546247",
+      "spotify": "https://open.spotify.com/search/damsel%20Elysium%20Whispers%20and%20Speakings",
+      "soundcloud": "https://soundcloud.com/search?q=damsel%20Elysium%20Whispers%20and%20Speakings",
+      "youtube": "https://www.youtube.com/results?search_query=damsel%20Elysium%20Whispers%20and%20Speakings",
+      "deezer": "https://www.deezer.com/album/625617521"
+    },
+    "embed": {
+      "provider": "deezer",
+      "src": "https://widget.deezer.com/widget/light/album/625617521",
+      "height": 300
+    },
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://f4.bcbits.com/img/a3726702065_10.jpg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
+    "id": "holy-tongue-meets-shackleton-the-tumbling-psychic-joy-of-now",
+    "type": "album",
+    "artist": "Holy Tongue meets Shackleton",
+    "title": "The Tumbling Psychic Joy of Now",
+    "label": "AD 93",
+    "releaseDate": "2024-08-23",
+    "description": "",
+    "tags": [],
+    "links": {
+      "bandcamp": "https://bandcamp.com/album/214694550",
+      "spotify": "https://open.spotify.com/search/Holy%20Tongue%20meets%20Shackleton%20The%20Tumbling%20Psychic%20Joy%20of%20Now",
+      "soundcloud": "https://soundcloud.com/search?q=Holy%20Tongue%20meets%20Shackleton%20The%20Tumbling%20Psychic%20Joy%20of%20Now",
+      "youtube": "https://www.youtube.com/results?search_query=Holy%20Tongue%20meets%20Shackleton%20The%20Tumbling%20Psychic%20Joy%20of%20Now"
+    },
+    "embed": null,
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://f4.bcbits.com/img/a3035052640_10.jpg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
     "id": "hagen-stoll-rkustik",
     "type": "album",
     "artist": "Hagen Stoll",
@@ -34267,6 +35545,41 @@
       "motif": "disc"
     },
     "pressMentions": []
+  },
+  {
+    "id": "james-k-blinkmoth-july-mix",
+    "type": "album",
+    "artist": "james K",
+    "title": "Blinkmoth (July Mix)",
+    "label": "AD 93",
+    "releaseDate": "2024-07-25",
+    "description": "",
+    "tags": [],
+    "links": {
+      "bandcamp": "https://bandcamp.com/album/3099806840",
+      "spotify": "https://open.spotify.com/search/james%20K%20Blinkmoth%20(July%20Mix)",
+      "soundcloud": "https://soundcloud.com/search?q=james%20K%20Blinkmoth%20(July%20Mix)",
+      "youtube": "https://www.youtube.com/results?search_query=james%20K%20Blinkmoth%20(July%20Mix)",
+      "deezer": "https://www.deezer.com/album/610824482",
+      "apple": "https://music.apple.com/us/album/blinkmoth-july-mix-single/1755569094?uo=4"
+    },
+    "embed": {
+      "provider": "apple",
+      "src": "https://embed.music.apple.com/us/album/1755569094?theme=light",
+      "height": 450
+    },
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://f4.bcbits.com/img/a567102674_10.jpg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": [
+      "ra"
+    ]
   },
   {
     "id": "jonnine-southside-girl",
@@ -35085,6 +36398,39 @@
     "status": "pending",
     "approvedAt": null,
     "coverImageUrl": "https://i.discogs.com/zCw71Rr3BsRhDGd3nZhLvQVuV2XPymd1ip92bR0W3ck/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTMxMDE4/NzM4LTE3MTg5NjM5/NjItODcxOS5qcGVn.jpeg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
+    "id": "martha-skye-murphy-um",
+    "type": "album",
+    "artist": "Martha Skye Murphy",
+    "title": "Um",
+    "label": "AD 93",
+    "releaseDate": "2024-06-14",
+    "description": "",
+    "tags": [],
+    "links": {
+      "bandcamp": "https://bandcamp.com/album/3757374647",
+      "spotify": "https://open.spotify.com/search/Martha%20Skye%20Murphy%20Um",
+      "soundcloud": "https://soundcloud.com/search?q=Martha%20Skye%20Murphy%20Um",
+      "youtube": "https://www.youtube.com/results?search_query=Martha%20Skye%20Murphy%20Um",
+      "deezer": "https://www.deezer.com/album/565589451",
+      "apple": "https://music.apple.com/us/album/um/1738040729?uo=4"
+    },
+    "embed": {
+      "provider": "apple",
+      "src": "https://embed.music.apple.com/us/album/1738040729?theme=light",
+      "height": 450
+    },
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://f4.bcbits.com/img/a2355971316_10.jpg",
     "cover": {
       "bg": "#111110",
       "fg": "#f2efe8",
@@ -36209,6 +37555,38 @@
     "pressMentions": []
   },
   {
+    "id": "lanark-artefax-metallur",
+    "type": "album",
+    "artist": "Lanark Artefax",
+    "title": "Metallur",
+    "label": "AD 93",
+    "releaseDate": "2024-04-26",
+    "description": "",
+    "tags": [],
+    "links": {
+      "bandcamp": "https://bandcamp.com/album/486946640",
+      "spotify": "https://open.spotify.com/search/Lanark%20Artefax%20Metallur",
+      "soundcloud": "https://soundcloud.com/search?q=Lanark%20Artefax%20Metallur",
+      "youtube": "https://www.youtube.com/results?search_query=Lanark%20Artefax%20Metallur",
+      "deezer": "https://www.deezer.com/album/550345002"
+    },
+    "embed": {
+      "provider": "deezer",
+      "src": "https://widget.deezer.com/widget/light/album/550345002",
+      "height": 300
+    },
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://f4.bcbits.com/img/a269015519_10.jpg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
     "id": "bottoni-concerta",
     "type": "ep",
     "artist": "Bottoni",
@@ -36468,6 +37846,38 @@
     "status": "pending",
     "approvedAt": null,
     "coverImageUrl": "https://i.discogs.com/K4oE2xMhQnVSt__TYCJcTlAuKUFHAd9i3r0wNFe5KCk/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTMxNTMy/NzE2LTE3MjQyMTgz/NTYtODczNC5qcGVn.jpeg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
+    "id": "martha-skye-murphy-need-ft-roy-montgomery",
+    "type": "single",
+    "artist": "Martha Skye Murphy",
+    "title": "Need (ft. Roy Montgomery)",
+    "label": "AD 93",
+    "releaseDate": "2024-04-17",
+    "description": "",
+    "tags": [],
+    "links": {
+      "bandcamp": "https://bandcamp.com/track/2384196693",
+      "spotify": "https://open.spotify.com/search/Martha%20Skye%20Murphy%20Need%20(ft.%20Roy%20Montgomery)",
+      "soundcloud": "https://soundcloud.com/search?q=Martha%20Skye%20Murphy%20Need%20(ft.%20Roy%20Montgomery)",
+      "youtube": "https://www.youtube.com/results?search_query=Martha%20Skye%20Murphy%20Need%20(ft.%20Roy%20Montgomery)",
+      "deezer": "https://www.deezer.com/album/559300092"
+    },
+    "embed": {
+      "provider": "deezer",
+      "src": "https://widget.deezer.com/widget/light/album/559300092",
+      "height": 300
+    },
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://f4.bcbits.com/img/a891986646_10.jpg",
     "cover": {
       "bg": "#111110",
       "fg": "#f2efe8",
@@ -37488,6 +38898,71 @@
     "pressMentions": []
   },
   {
+    "id": "jasmine-wood-piano-reverb",
+    "type": "album",
+    "artist": "Jasmine Wood",
+    "title": "Piano Reverb",
+    "label": "AD 93",
+    "releaseDate": "2024-03-08",
+    "description": "",
+    "tags": [],
+    "links": {
+      "bandcamp": "https://bandcamp.com/album/4114890813",
+      "spotify": "https://open.spotify.com/search/Jasmine%20Wood%20Piano%20Reverb",
+      "soundcloud": "https://soundcloud.com/search?q=Jasmine%20Wood%20Piano%20Reverb",
+      "youtube": "https://www.youtube.com/results?search_query=Jasmine%20Wood%20Piano%20Reverb",
+      "deezer": "https://www.deezer.com/album/977963551"
+    },
+    "embed": {
+      "provider": "deezer",
+      "src": "https://widget.deezer.com/widget/light/album/977963551",
+      "height": 300
+    },
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://f4.bcbits.com/img/a325217327_10.jpg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
+    "id": "olof-dreijer-coral",
+    "type": "album",
+    "artist": "Olof Dreijer",
+    "title": "Coral",
+    "label": "AD 93",
+    "releaseDate": "2024-03-06",
+    "description": "",
+    "tags": [],
+    "links": {
+      "bandcamp": "https://bandcamp.com/album/1411025532",
+      "spotify": "https://open.spotify.com/search/Olof%20Dreijer%20Coral",
+      "soundcloud": "https://soundcloud.com/search?q=Olof%20Dreijer%20Coral",
+      "youtube": "https://www.youtube.com/results?search_query=Olof%20Dreijer%20Coral",
+      "deezer": "https://www.deezer.com/album/517474792",
+      "apple": "https://music.apple.com/us/album/coral-single/1718738300?uo=4"
+    },
+    "embed": {
+      "provider": "apple",
+      "src": "https://embed.music.apple.com/us/album/1718738300?theme=light",
+      "height": 450
+    },
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://f4.bcbits.com/img/a396362849_10.jpg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
     "id": "stas-czekalski-przygody",
     "type": "album",
     "artist": "Staś Czekalski",
@@ -38303,6 +39778,39 @@
     "status": "pending",
     "approvedAt": null,
     "coverImageUrl": "https://i.discogs.com/CQvLCTDkNRr0xghvWYDoUfmZzK90khPr2vtVUZHcx6Q/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI5NzQ1/NjY0LTE3MDc0ODI5/MDktNDE2Ni5qcGVn.jpeg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
+    "id": "damsel-elysium-whispers-from-ancient-vessels",
+    "type": "album",
+    "artist": "damsel Elysium",
+    "title": "Whispers from Ancient Vessels",
+    "label": "AD 93",
+    "releaseDate": "2024-02-02",
+    "description": "",
+    "tags": [],
+    "links": {
+      "bandcamp": "https://bandcamp.com/album/1882092910",
+      "spotify": "https://open.spotify.com/search/damsel%20Elysium%20Whispers%20from%20Ancient%20Vessels",
+      "soundcloud": "https://soundcloud.com/search?q=damsel%20Elysium%20Whispers%20from%20Ancient%20Vessels",
+      "youtube": "https://www.youtube.com/results?search_query=damsel%20Elysium%20Whispers%20from%20Ancient%20Vessels",
+      "deezer": "https://www.deezer.com/album/977963241",
+      "apple": "https://music.apple.com/us/album/whispers-from-ancient-vessels-ep/1716553912?uo=4"
+    },
+    "embed": {
+      "provider": "apple",
+      "src": "https://embed.music.apple.com/us/album/1716553912?theme=light",
+      "height": 450
+    },
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://f4.bcbits.com/img/a3650020593_10.jpg",
     "cover": {
       "bg": "#111110",
       "fg": "#f2efe8",
@@ -39238,6 +40746,3123 @@
     "status": "pending",
     "approvedAt": null,
     "coverImageUrl": "https://i.discogs.com/halTnzDTff5AP8R9FrRmpXoZpeBdqOKCZOKB8LGsYMA/rs:fit/g:sm/q:90/h:600/w:394/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI5ODk2/MjkxLTE3MDg2OTcz/MzUtNzQyNS5qcGVn.jpeg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
+    "id": "i-see-you-sicko",
+    "type": "album",
+    "artist": "I See You",
+    "title": "Sicko",
+    "label": "AD 93",
+    "releaseDate": "2023-12-15",
+    "description": "",
+    "tags": [],
+    "links": {
+      "bandcamp": "https://bandcamp.com/album/3900332395",
+      "spotify": "https://open.spotify.com/search/I%20See%20You%20Sicko",
+      "soundcloud": "https://soundcloud.com/search?q=I%20See%20You%20Sicko",
+      "youtube": "https://www.youtube.com/results?search_query=I%20See%20You%20Sicko"
+    },
+    "embed": null,
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://f4.bcbits.com/img/a4263449490_10.jpg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
+    "id": "quade-nacre",
+    "type": "album",
+    "artist": "Quade",
+    "title": "Nacre",
+    "label": "AD 93",
+    "releaseDate": "2023-11-17",
+    "description": "",
+    "tags": [],
+    "links": {
+      "bandcamp": "https://bandcamp.com/album/284315221",
+      "spotify": "https://open.spotify.com/search/Quade%20Nacre",
+      "soundcloud": "https://soundcloud.com/search?q=Quade%20Nacre",
+      "youtube": "https://www.youtube.com/results?search_query=Quade%20Nacre",
+      "deezer": "https://www.deezer.com/album/492925431",
+      "apple": "https://music.apple.com/us/album/nacre/1709099660?uo=4"
+    },
+    "embed": {
+      "provider": "apple",
+      "src": "https://embed.music.apple.com/us/album/1709099660?theme=light",
+      "height": 450
+    },
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://f4.bcbits.com/img/a3261005530_10.jpg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
+    "id": "clara-pulso",
+    "type": "album",
+    "artist": "Clara!",
+    "title": "Pulso",
+    "label": "AD 93",
+    "releaseDate": "2023-11-10",
+    "description": "",
+    "tags": [],
+    "links": {
+      "bandcamp": "https://bandcamp.com/album/3310180475",
+      "spotify": "https://open.spotify.com/search/Clara!%20Pulso",
+      "soundcloud": "https://soundcloud.com/search?q=Clara!%20Pulso",
+      "youtube": "https://www.youtube.com/results?search_query=Clara!%20Pulso",
+      "deezer": "https://www.deezer.com/album/492927781"
+    },
+    "embed": {
+      "provider": "deezer",
+      "src": "https://widget.deezer.com/widget/light/album/492927781",
+      "height": 300
+    },
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://f4.bcbits.com/img/a914899620_10.jpg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
+    "id": "yhwh-nailgun-tear-pusher",
+    "type": "single",
+    "artist": "YHWH Nailgun",
+    "title": "Tear Pusher",
+    "label": "AD 93",
+    "releaseDate": "2023-11-07",
+    "description": "",
+    "tags": [],
+    "links": {
+      "bandcamp": "https://bandcamp.com/track/2629108004",
+      "spotify": "https://open.spotify.com/search/YHWH%20Nailgun%20Tear%20Pusher",
+      "soundcloud": "https://soundcloud.com/search?q=YHWH%20Nailgun%20Tear%20Pusher",
+      "youtube": "https://www.youtube.com/results?search_query=YHWH%20Nailgun%20Tear%20Pusher",
+      "deezer": "https://www.deezer.com/album/680840251",
+      "apple": "https://music.apple.com/us/album/tear-pusher-single/1783398123?uo=4"
+    },
+    "embed": {
+      "provider": "apple",
+      "src": "https://embed.music.apple.com/us/album/1783398123?theme=light",
+      "height": 450
+    },
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://f4.bcbits.com/img/a229672175_10.jpg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
+    "id": "surusinghe-brake-fluid",
+    "type": "album",
+    "artist": "Surusinghe",
+    "title": "Brake Fluid",
+    "label": "AD 93",
+    "releaseDate": "2023-10-27",
+    "description": "",
+    "tags": [],
+    "links": {
+      "bandcamp": "https://bandcamp.com/album/3651653720",
+      "spotify": "https://open.spotify.com/search/Surusinghe%20Brake%20Fluid",
+      "soundcloud": "https://soundcloud.com/search?q=Surusinghe%20Brake%20Fluid",
+      "youtube": "https://www.youtube.com/results?search_query=Surusinghe%20Brake%20Fluid",
+      "deezer": "https://www.deezer.com/album/482594955",
+      "apple": "https://music.apple.com/us/album/brake-fluid-ep/1705223339?uo=4"
+    },
+    "embed": {
+      "provider": "apple",
+      "src": "https://embed.music.apple.com/us/album/1705223339?theme=light",
+      "height": 450
+    },
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://f4.bcbits.com/img/a1352879619_10.jpg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
+    "id": "yhwh-nailgun-castrato-raw-fullback",
+    "type": "single",
+    "artist": "YHWH Nailgun",
+    "title": "Castrato Raw (Fullback)",
+    "label": "AD 93",
+    "releaseDate": "2023-10-10",
+    "description": "",
+    "tags": [],
+    "links": {
+      "bandcamp": "https://bandcamp.com/track/982275591",
+      "spotify": "https://open.spotify.com/search/YHWH%20Nailgun%20Castrato%20Raw%20(Fullback)",
+      "soundcloud": "https://soundcloud.com/search?q=YHWH%20Nailgun%20Castrato%20Raw%20(Fullback)",
+      "youtube": "https://www.youtube.com/results?search_query=YHWH%20Nailgun%20Castrato%20Raw%20(Fullback)",
+      "deezer": "https://www.deezer.com/album/680838021"
+    },
+    "embed": {
+      "provider": "deezer",
+      "src": "https://widget.deezer.com/widget/light/album/680838021",
+      "height": 300
+    },
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://f4.bcbits.com/img/a627840728_10.jpg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
+    "id": "lord-of-the-isles-ellen-renton-my-noise-is-nothing",
+    "type": "album",
+    "artist": "Lord Of The Isles & Ellen Renton",
+    "title": "My Noise is Nothing",
+    "label": "AD 93",
+    "releaseDate": "2023-09-29",
+    "description": "",
+    "tags": [],
+    "links": {
+      "bandcamp": "https://bandcamp.com/album/3927850225",
+      "spotify": "https://open.spotify.com/search/Lord%20Of%20The%20Isles%20%26%20Ellen%20Renton%20My%20Noise%20is%20Nothing",
+      "soundcloud": "https://soundcloud.com/search?q=Lord%20Of%20The%20Isles%20%26%20Ellen%20Renton%20My%20Noise%20is%20Nothing",
+      "youtube": "https://www.youtube.com/results?search_query=Lord%20Of%20The%20Isles%20%26%20Ellen%20Renton%20My%20Noise%20is%20Nothing",
+      "deezer": "https://www.deezer.com/album/474833065",
+      "apple": "https://music.apple.com/us/album/my-noise-is-nothing/1702002948?uo=4"
+    },
+    "embed": {
+      "provider": "apple",
+      "src": "https://embed.music.apple.com/us/album/1702002948?theme=light",
+      "height": 450
+    },
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://f4.bcbits.com/img/a3648131083_10.jpg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
+    "id": "abyss-x-freedom-doll",
+    "type": "album",
+    "artist": "Abyss X",
+    "title": "Freedom Doll",
+    "label": "AD 93",
+    "releaseDate": "2023-09-08",
+    "description": "",
+    "tags": [],
+    "links": {
+      "bandcamp": "https://bandcamp.com/album/1479958998",
+      "spotify": "https://open.spotify.com/search/Abyss%20X%20Freedom%20Doll",
+      "soundcloud": "https://soundcloud.com/search?q=Abyss%20X%20Freedom%20Doll",
+      "youtube": "https://www.youtube.com/results?search_query=Abyss%20X%20Freedom%20Doll",
+      "deezer": "https://www.deezer.com/album/451043575"
+    },
+    "embed": {
+      "provider": "deezer",
+      "src": "https://widget.deezer.com/widget/light/album/451043575",
+      "height": 300
+    },
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://f4.bcbits.com/img/a2360914763_10.jpg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
+    "id": "hoodie-x-james-k-065-scorpio",
+    "type": "album",
+    "artist": "hoodie x james K",
+    "title": "065 (Scorpio)",
+    "label": "AD 93",
+    "releaseDate": "2023-07-26",
+    "description": "",
+    "tags": [],
+    "links": {
+      "bandcamp": "https://bandcamp.com/album/2801164323",
+      "spotify": "https://open.spotify.com/search/hoodie%20x%20james%20K%20065%20(Scorpio)",
+      "soundcloud": "https://soundcloud.com/search?q=hoodie%20x%20james%20K%20065%20(Scorpio)",
+      "youtube": "https://www.youtube.com/results?search_query=hoodie%20x%20james%20K%20065%20(Scorpio)"
+    },
+    "embed": null,
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://f4.bcbits.com/img/a3685906911_10.jpg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
+    "id": "moin-clocked-off",
+    "type": "album",
+    "artist": "Moin",
+    "title": "Clocked Off",
+    "label": "AD 93",
+    "releaseDate": "2023-07-05",
+    "description": "",
+    "tags": [],
+    "links": {
+      "bandcamp": "https://bandcamp.com/album/461636176",
+      "spotify": "https://open.spotify.com/search/Moin%20Clocked%20Off",
+      "soundcloud": "https://soundcloud.com/search?q=Moin%20Clocked%20Off",
+      "youtube": "https://www.youtube.com/results?search_query=Moin%20Clocked%20Off",
+      "deezer": "https://www.deezer.com/album/437436417"
+    },
+    "embed": {
+      "provider": "deezer",
+      "src": "https://widget.deezer.com/widget/light/album/437436417",
+      "height": 300
+    },
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://f4.bcbits.com/img/a2943677809_10.jpg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
+    "id": "v-z-suono-assente",
+    "type": "album",
+    "artist": "V/Z",
+    "title": "Suono Assente",
+    "label": "AD 93",
+    "releaseDate": "2023-06-23",
+    "description": "",
+    "tags": [],
+    "links": {
+      "bandcamp": "https://bandcamp.com/album/3680852569",
+      "spotify": "https://open.spotify.com/search/V%2FZ%20Suono%20Assente",
+      "soundcloud": "https://soundcloud.com/search?q=V%2FZ%20Suono%20Assente",
+      "youtube": "https://www.youtube.com/results?search_query=V%2FZ%20Suono%20Assente",
+      "deezer": "https://www.deezer.com/album/434913257"
+    },
+    "embed": {
+      "provider": "deezer",
+      "src": "https://widget.deezer.com/widget/light/album/434913257",
+      "height": 300
+    },
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://f4.bcbits.com/img/a198753022_10.jpg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
+    "id": "martha-skye-murphy-dogs",
+    "type": "album",
+    "artist": "Martha Skye Murphy",
+    "title": "Dogs",
+    "label": "AD 93",
+    "releaseDate": "2023-06-07",
+    "description": "",
+    "tags": [],
+    "links": {
+      "bandcamp": "https://bandcamp.com/album/2604172324",
+      "spotify": "https://open.spotify.com/search/Martha%20Skye%20Murphy%20Dogs",
+      "soundcloud": "https://soundcloud.com/search?q=Martha%20Skye%20Murphy%20Dogs",
+      "youtube": "https://www.youtube.com/results?search_query=Martha%20Skye%20Murphy%20Dogs",
+      "deezer": "https://www.deezer.com/album/440495737",
+      "apple": "https://music.apple.com/us/album/dogs-single/1687509304?uo=4"
+    },
+    "embed": {
+      "provider": "apple",
+      "src": "https://embed.music.apple.com/us/album/1687509304?theme=light",
+      "height": 450
+    },
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://f4.bcbits.com/img/a3344153842_10.jpg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
+    "id": "minor-science-064",
+    "type": "album",
+    "artist": "Minor Science",
+    "title": "064",
+    "label": "AD 93",
+    "releaseDate": "2023-05-05",
+    "description": "",
+    "tags": [],
+    "links": {
+      "bandcamp": "https://bandcamp.com/album/3603330018",
+      "spotify": "https://open.spotify.com/search/Minor%20Science%20064",
+      "soundcloud": "https://soundcloud.com/search?q=Minor%20Science%20064",
+      "youtube": "https://www.youtube.com/results?search_query=Minor%20Science%20064",
+      "deezer": "https://www.deezer.com/album/420055457"
+    },
+    "embed": {
+      "provider": "deezer",
+      "src": "https://widget.deezer.com/widget/light/album/420055457",
+      "height": 300
+    },
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://f4.bcbits.com/img/a599144123_10.jpg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
+    "id": "anunaku-063",
+    "type": "album",
+    "artist": "Anunaku",
+    "title": "063",
+    "label": "AD 93",
+    "releaseDate": "2023-04-14",
+    "description": "",
+    "tags": [],
+    "links": {
+      "bandcamp": "https://bandcamp.com/album/125351169",
+      "spotify": "https://open.spotify.com/search/Anunaku%20063",
+      "soundcloud": "https://soundcloud.com/search?q=Anunaku%20063",
+      "youtube": "https://www.youtube.com/results?search_query=Anunaku%20063",
+      "deezer": "https://www.deezer.com/album/412423337"
+    },
+    "embed": {
+      "provider": "deezer",
+      "src": "https://widget.deezer.com/widget/light/album/412423337",
+      "height": 300
+    },
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://f4.bcbits.com/img/a2285366283_10.jpg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
+    "id": "joanne-robertson-blue-car",
+    "type": "album",
+    "artist": "Joanne Robertson",
+    "title": "Blue Car",
+    "label": "AD 93",
+    "releaseDate": "2023-03-10",
+    "description": "",
+    "tags": [],
+    "links": {
+      "bandcamp": "https://bandcamp.com/album/2295510903",
+      "spotify": "https://open.spotify.com/search/Joanne%20Robertson%20Blue%20Car",
+      "soundcloud": "https://soundcloud.com/search?q=Joanne%20Robertson%20Blue%20Car",
+      "youtube": "https://www.youtube.com/results?search_query=Joanne%20Robertson%20Blue%20Car",
+      "deezer": "https://www.deezer.com/album/402381837"
+    },
+    "embed": {
+      "provider": "deezer",
+      "src": "https://widget.deezer.com/widget/light/album/402381837",
+      "height": 300
+    },
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://f4.bcbits.com/img/a2328132314_10.jpg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": [
+      "pitchfork_best_albums"
+    ]
+  },
+  {
+    "id": "pavel-milyakov-project-mirrors",
+    "type": "album",
+    "artist": "Pavel Milyakov",
+    "title": "project Mirrors",
+    "label": "AD 93",
+    "releaseDate": "2023-02-03",
+    "description": "",
+    "tags": [],
+    "links": {
+      "bandcamp": "https://bandcamp.com/album/493386438",
+      "spotify": "https://open.spotify.com/search/Pavel%20Milyakov%20project%20Mirrors",
+      "soundcloud": "https://soundcloud.com/search?q=Pavel%20Milyakov%20project%20Mirrors",
+      "youtube": "https://www.youtube.com/results?search_query=Pavel%20Milyakov%20project%20Mirrors",
+      "deezer": "https://www.deezer.com/album/388618967"
+    },
+    "embed": {
+      "provider": "deezer",
+      "src": "https://widget.deezer.com/widget/light/album/388618967",
+      "height": 300
+    },
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://f4.bcbits.com/img/a3423116601_10.jpg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
+    "id": "dylan-henner-you-always-will-be",
+    "type": "album",
+    "artist": "Dylan Henner",
+    "title": "You Always Will Be",
+    "label": "AD 93",
+    "releaseDate": "2022-12-09",
+    "description": "",
+    "tags": [],
+    "links": {
+      "bandcamp": "https://bandcamp.com/album/2390404927",
+      "spotify": "https://open.spotify.com/search/Dylan%20Henner%20You%20Always%20Will%20Be",
+      "soundcloud": "https://soundcloud.com/search?q=Dylan%20Henner%20You%20Always%20Will%20Be",
+      "youtube": "https://www.youtube.com/results?search_query=Dylan%20Henner%20You%20Always%20Will%20Be",
+      "deezer": "https://www.deezer.com/album/970682031",
+      "apple": "https://music.apple.com/us/album/you-always-will-be/1895653758?uo=4"
+    },
+    "embed": {
+      "provider": "apple",
+      "src": "https://embed.music.apple.com/us/album/1895653758?theme=light",
+      "height": 450
+    },
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://f4.bcbits.com/img/a3931796527_10.jpg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
+    "id": "olan-monk-dubplate-08",
+    "type": "album",
+    "artist": "Olan Monk",
+    "title": "Dubplate 08",
+    "label": "AD 93",
+    "releaseDate": "2022-11-24",
+    "description": "",
+    "tags": [],
+    "links": {
+      "bandcamp": "https://bandcamp.com/album/483660481",
+      "spotify": "https://open.spotify.com/search/Olan%20Monk%20Dubplate%2008",
+      "soundcloud": "https://soundcloud.com/search?q=Olan%20Monk%20Dubplate%2008",
+      "youtube": "https://www.youtube.com/results?search_query=Olan%20Monk%20Dubplate%2008",
+      "deezer": "https://www.deezer.com/album/375738167"
+    },
+    "embed": {
+      "provider": "deezer",
+      "src": "https://widget.deezer.com/widget/light/album/375738167",
+      "height": 300
+    },
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://f4.bcbits.com/img/a1720064622_10.jpg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
+    "id": "venus-ex-machina-doxa",
+    "type": "album",
+    "artist": "Venus Ex Machina",
+    "title": "Doxa",
+    "label": "AD 93",
+    "releaseDate": "2022-11-11",
+    "description": "",
+    "tags": [],
+    "links": {
+      "bandcamp": "https://bandcamp.com/album/3344860119",
+      "spotify": "https://open.spotify.com/search/Venus%20Ex%20Machina%20Doxa",
+      "soundcloud": "https://soundcloud.com/search?q=Venus%20Ex%20Machina%20Doxa",
+      "youtube": "https://www.youtube.com/results?search_query=Venus%20Ex%20Machina%20Doxa",
+      "deezer": "https://www.deezer.com/album/970682061"
+    },
+    "embed": {
+      "provider": "deezer",
+      "src": "https://widget.deezer.com/widget/light/album/970682061",
+      "height": 300
+    },
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://f4.bcbits.com/img/a3574964659_10.jpg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
+    "id": "moin-paste",
+    "type": "album",
+    "artist": "Moin",
+    "title": "Paste",
+    "label": "AD 93",
+    "releaseDate": "2022-10-28",
+    "description": "",
+    "tags": [],
+    "links": {
+      "bandcamp": "https://bandcamp.com/album/2622564160",
+      "spotify": "https://open.spotify.com/search/Moin%20Paste",
+      "soundcloud": "https://soundcloud.com/search?q=Moin%20Paste",
+      "youtube": "https://www.youtube.com/results?search_query=Moin%20Paste",
+      "deezer": "https://www.deezer.com/album/970682021"
+    },
+    "embed": {
+      "provider": "deezer",
+      "src": "https://widget.deezer.com/widget/light/album/970682021",
+      "height": 300
+    },
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://f4.bcbits.com/img/a190779692_10.jpg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
+    "id": "a-a-060",
+    "type": "album",
+    "artist": "A+A",
+    "title": "060",
+    "label": "AD 93",
+    "releaseDate": "2022-09-30",
+    "description": "",
+    "tags": [],
+    "links": {
+      "bandcamp": "https://bandcamp.com/album/3042889787",
+      "spotify": "https://open.spotify.com/search/A%2BA%20060",
+      "soundcloud": "https://soundcloud.com/search?q=A%2BA%20060",
+      "youtube": "https://www.youtube.com/results?search_query=A%2BA%20060",
+      "deezer": "https://www.deezer.com/album/344648627"
+    },
+    "embed": {
+      "provider": "deezer",
+      "src": "https://widget.deezer.com/widget/light/album/344648627",
+      "height": 300
+    },
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://f4.bcbits.com/img/a3818780817_10.jpg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
+    "id": "coby-sey-conduit",
+    "type": "album",
+    "artist": "Coby Sey",
+    "title": "Conduit",
+    "label": "AD 93",
+    "releaseDate": "2022-09-09",
+    "description": "",
+    "tags": [],
+    "links": {
+      "bandcamp": "https://bandcamp.com/album/213096362",
+      "spotify": "https://open.spotify.com/search/Coby%20Sey%20Conduit",
+      "soundcloud": "https://soundcloud.com/search?q=Coby%20Sey%20Conduit",
+      "youtube": "https://www.youtube.com/results?search_query=Coby%20Sey%20Conduit",
+      "deezer": "https://www.deezer.com/album/329177787"
+    },
+    "embed": {
+      "provider": "deezer",
+      "src": "https://widget.deezer.com/widget/light/album/329177787",
+      "height": 300
+    },
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://f4.bcbits.com/img/a974931449_10.jpg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
+    "id": "pessimist-blue-09",
+    "type": "album",
+    "artist": "Pessimist",
+    "title": "Blue 09",
+    "label": "AD 93",
+    "releaseDate": "2022-08-26",
+    "description": "",
+    "tags": [],
+    "links": {
+      "bandcamp": "https://bandcamp.com/album/2657266099",
+      "spotify": "https://open.spotify.com/search/Pessimist%20Blue%2009",
+      "soundcloud": "https://soundcloud.com/search?q=Pessimist%20Blue%2009",
+      "youtube": "https://www.youtube.com/results?search_query=Pessimist%20Blue%2009",
+      "deezer": "https://www.deezer.com/album/335969357"
+    },
+    "embed": {
+      "provider": "deezer",
+      "src": "https://widget.deezer.com/widget/light/album/335969357",
+      "height": 300
+    },
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://f4.bcbits.com/img/a3328676230_10.jpg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
+    "id": "placid-angles-056-the-lotus",
+    "type": "album",
+    "artist": "Placid Angles",
+    "title": "056 (The Lotus)",
+    "label": "AD 93",
+    "releaseDate": "2022-07-22",
+    "description": "",
+    "tags": [],
+    "links": {
+      "bandcamp": "https://bandcamp.com/album/488105199",
+      "spotify": "https://open.spotify.com/search/Placid%20Angles%20056%20(The%20Lotus)",
+      "soundcloud": "https://soundcloud.com/search?q=Placid%20Angles%20056%20(The%20Lotus)",
+      "youtube": "https://www.youtube.com/results?search_query=Placid%20Angles%20056%20(The%20Lotus)",
+      "deezer": "https://www.deezer.com/album/321559217"
+    },
+    "embed": {
+      "provider": "deezer",
+      "src": "https://widget.deezer.com/widget/light/album/321559217",
+      "height": 300
+    },
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://f4.bcbits.com/img/a1713821653_10.jpg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
+    "id": "moin-capable",
+    "type": "album",
+    "artist": "Moin",
+    "title": "Capable",
+    "label": "AD 93",
+    "releaseDate": "2022-07-15",
+    "description": "",
+    "tags": [],
+    "links": {
+      "bandcamp": "https://bandcamp.com/album/3541358950",
+      "spotify": "https://open.spotify.com/search/Moin%20Capable",
+      "soundcloud": "https://soundcloud.com/search?q=Moin%20Capable",
+      "youtube": "https://www.youtube.com/results?search_query=Moin%20Capable"
+    },
+    "embed": null,
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://f4.bcbits.com/img/a1565857283_10.jpg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
+    "id": "luis-057-schwyn",
+    "type": "album",
+    "artist": "Luis",
+    "title": "057 (Schwyn)",
+    "label": "AD 93",
+    "releaseDate": "2022-06-17",
+    "description": "",
+    "tags": [],
+    "links": {
+      "bandcamp": "https://bandcamp.com/album/3208545842",
+      "spotify": "https://open.spotify.com/search/Luis%20057%20(Schwyn)",
+      "soundcloud": "https://soundcloud.com/search?q=Luis%20057%20(Schwyn)",
+      "youtube": "https://www.youtube.com/results?search_query=Luis%20057%20(Schwyn)",
+      "deezer": "https://www.deezer.com/album/319448797"
+    },
+    "embed": {
+      "provider": "deezer",
+      "src": "https://widget.deezer.com/widget/light/album/319448797",
+      "height": 300
+    },
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://f4.bcbits.com/img/a1656797036_10.jpg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
+    "id": "tsvi-loraine-james-053",
+    "type": "album",
+    "artist": "TSVI & Loraine James",
+    "title": "053",
+    "label": "AD 93",
+    "releaseDate": "2022-05-13",
+    "description": "",
+    "tags": [],
+    "links": {
+      "bandcamp": "https://bandcamp.com/album/2226790670",
+      "spotify": "https://open.spotify.com/search/TSVI%20%26%20Loraine%20James%20053",
+      "soundcloud": "https://soundcloud.com/search?q=TSVI%20%26%20Loraine%20James%20053",
+      "youtube": "https://www.youtube.com/results?search_query=TSVI%20%26%20Loraine%20James%20053"
+    },
+    "embed": null,
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://f4.bcbits.com/img/a467213917_10.jpg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
+    "id": "ivvvo-bleached-butterfly",
+    "type": "album",
+    "artist": "IVVVO",
+    "title": "Bleached Butterfly",
+    "label": "AD 93",
+    "releaseDate": "2022-04-08",
+    "description": "",
+    "tags": [],
+    "links": {
+      "bandcamp": "https://bandcamp.com/album/2637623335",
+      "spotify": "https://open.spotify.com/search/IVVVO%20Bleached%20Butterfly",
+      "soundcloud": "https://soundcloud.com/search?q=IVVVO%20Bleached%20Butterfly",
+      "youtube": "https://www.youtube.com/results?search_query=IVVVO%20Bleached%20Butterfly",
+      "deezer": "https://www.deezer.com/album/970682001"
+    },
+    "embed": {
+      "provider": "deezer",
+      "src": "https://widget.deezer.com/widget/light/album/970682001",
+      "height": 300
+    },
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://f4.bcbits.com/img/a401957476_10.jpg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
+    "id": "lauren-duffus-dubplate-07",
+    "type": "album",
+    "artist": "Lauren Duffus",
+    "title": "Dubplate 07",
+    "label": "AD 93",
+    "releaseDate": "2022-03-16",
+    "description": "",
+    "tags": [],
+    "links": {
+      "bandcamp": "https://bandcamp.com/album/766487441",
+      "spotify": "https://open.spotify.com/search/Lauren%20Duffus%20Dubplate%2007",
+      "soundcloud": "https://soundcloud.com/search?q=Lauren%20Duffus%20Dubplate%2007",
+      "youtube": "https://www.youtube.com/results?search_query=Lauren%20Duffus%20Dubplate%2007",
+      "deezer": "https://www.deezer.com/album/301984887"
+    },
+    "embed": {
+      "provider": "deezer",
+      "src": "https://widget.deezer.com/widget/light/album/301984887",
+      "height": 300
+    },
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://f4.bcbits.com/img/a3519606204_10.jpg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
+    "id": "wojciech-rusin-syphon",
+    "type": "album",
+    "artist": "Wojciech Rusin",
+    "title": "Syphon",
+    "label": "AD 93",
+    "releaseDate": "2022-02-04",
+    "description": "",
+    "tags": [],
+    "links": {
+      "bandcamp": "https://bandcamp.com/album/1715774115",
+      "spotify": "https://open.spotify.com/search/Wojciech%20Rusin%20Syphon",
+      "soundcloud": "https://soundcloud.com/search?q=Wojciech%20Rusin%20Syphon",
+      "youtube": "https://www.youtube.com/results?search_query=Wojciech%20Rusin%20Syphon",
+      "deezer": "https://www.deezer.com/album/970607111"
+    },
+    "embed": {
+      "provider": "deezer",
+      "src": "https://widget.deezer.com/widget/light/album/970607111",
+      "height": 300
+    },
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://f4.bcbits.com/img/a969910379_10.jpg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
+    "id": "sky-h1-azure",
+    "type": "album",
+    "artist": "SKY H1",
+    "title": "Azure",
+    "label": "AD 93",
+    "releaseDate": "2021-12-03",
+    "description": "",
+    "tags": [],
+    "links": {
+      "bandcamp": "https://bandcamp.com/album/1571215930",
+      "spotify": "https://open.spotify.com/search/SKY%20H1%20Azure",
+      "soundcloud": "https://soundcloud.com/search?q=SKY%20H1%20Azure",
+      "youtube": "https://www.youtube.com/results?search_query=SKY%20H1%20Azure",
+      "deezer": "https://www.deezer.com/album/970607121"
+    },
+    "embed": {
+      "provider": "deezer",
+      "src": "https://widget.deezer.com/widget/light/album/970607121",
+      "height": 300
+    },
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://f4.bcbits.com/img/a172129100_10.jpg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
+    "id": "still-house-plants-dubplate-06",
+    "type": "album",
+    "artist": "Still House Plants",
+    "title": "Dubplate 06",
+    "label": "AD 93",
+    "releaseDate": "2021-11-26",
+    "description": "",
+    "tags": [],
+    "links": {
+      "bandcamp": "https://bandcamp.com/album/2952601753",
+      "spotify": "https://open.spotify.com/search/Still%20House%20Plants%20Dubplate%2006",
+      "soundcloud": "https://soundcloud.com/search?q=Still%20House%20Plants%20Dubplate%2006",
+      "youtube": "https://www.youtube.com/results?search_query=Still%20House%20Plants%20Dubplate%2006"
+    },
+    "embed": null,
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://f4.bcbits.com/img/a3718604116_10.jpg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
+    "id": "moin-flush",
+    "type": "album",
+    "artist": "Moin",
+    "title": "Flush",
+    "label": "AD 93",
+    "releaseDate": "2021-11-24",
+    "description": "",
+    "tags": [],
+    "links": {
+      "bandcamp": "https://bandcamp.com/album/1210172583",
+      "spotify": "https://open.spotify.com/search/Moin%20Flush",
+      "soundcloud": "https://soundcloud.com/search?q=Moin%20Flush",
+      "youtube": "https://www.youtube.com/results?search_query=Moin%20Flush"
+    },
+    "embed": null,
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://f4.bcbits.com/img/a142954431_10.jpg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
+    "id": "leif-9-airs",
+    "type": "album",
+    "artist": "Leif",
+    "title": "9 Airs",
+    "label": "AD 93",
+    "releaseDate": "2021-10-29",
+    "description": "",
+    "tags": [],
+    "links": {
+      "bandcamp": "https://bandcamp.com/album/1762882391",
+      "spotify": "https://open.spotify.com/search/Leif%209%20Airs",
+      "soundcloud": "https://soundcloud.com/search?q=Leif%209%20Airs",
+      "youtube": "https://www.youtube.com/results?search_query=Leif%209%20Airs",
+      "deezer": "https://www.deezer.com/album/970607091",
+      "apple": "https://music.apple.com/us/album/9-airs/1895643134?uo=4"
+    },
+    "embed": {
+      "provider": "apple",
+      "src": "https://embed.music.apple.com/us/album/1895643134?theme=light",
+      "height": 450
+    },
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://f4.bcbits.com/img/a1533390409_10.jpg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
+    "id": "christoph-de-babalon-044-hilf-dir-selbst",
+    "type": "album",
+    "artist": "Christoph de Babalon",
+    "title": "044 (Hilf Dir Selbst!)",
+    "label": "AD 93",
+    "releaseDate": "2021-09-24",
+    "description": "",
+    "tags": [],
+    "links": {
+      "bandcamp": "https://bandcamp.com/album/1283227994",
+      "spotify": "https://open.spotify.com/search/Christoph%20de%20Babalon%20044%20(Hilf%20Dir%20Selbst!)",
+      "soundcloud": "https://soundcloud.com/search?q=Christoph%20de%20Babalon%20044%20(Hilf%20Dir%20Selbst!)",
+      "youtube": "https://www.youtube.com/results?search_query=Christoph%20de%20Babalon%20044%20(Hilf%20Dir%20Selbst!)",
+      "deezer": "https://www.deezer.com/album/255503692"
+    },
+    "embed": {
+      "provider": "deezer",
+      "src": "https://widget.deezer.com/widget/light/album/255503692",
+      "height": 300
+    },
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://f4.bcbits.com/img/a2769895167_10.jpg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
+    "id": "aboutface-s",
+    "type": "album",
+    "artist": "Aboutface",
+    "title": "°s",
+    "label": "AD 93",
+    "releaseDate": "2021-09-03",
+    "description": "",
+    "tags": [],
+    "links": {
+      "bandcamp": "https://bandcamp.com/album/1714254215",
+      "spotify": "https://open.spotify.com/search/Aboutface%20%C2%B0s",
+      "soundcloud": "https://soundcloud.com/search?q=Aboutface%20%C2%B0s",
+      "youtube": "https://www.youtube.com/results?search_query=Aboutface%20%C2%B0s",
+      "deezer": "https://www.deezer.com/album/253902762",
+      "apple": "https://music.apple.com/us/album/s/1582864770?uo=4"
+    },
+    "embed": {
+      "provider": "apple",
+      "src": "https://embed.music.apple.com/us/album/1582864770?theme=light",
+      "height": 450
+    },
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://f4.bcbits.com/img/a50521981_10.jpg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
+    "id": "moin-moot",
+    "type": "album",
+    "artist": "Moin",
+    "title": "Moot!",
+    "label": "AD 93",
+    "releaseDate": "2021-07-09",
+    "description": "",
+    "tags": [],
+    "links": {
+      "bandcamp": "https://bandcamp.com/album/2614633534",
+      "spotify": "https://open.spotify.com/search/Moin%20Moot!",
+      "soundcloud": "https://soundcloud.com/search?q=Moin%20Moot!",
+      "youtube": "https://www.youtube.com/results?search_query=Moin%20Moot!",
+      "deezer": "https://www.deezer.com/album/257704402"
+    },
+    "embed": {
+      "provider": "deezer",
+      "src": "https://widget.deezer.com/widget/light/album/257704402",
+      "height": 300
+    },
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://f4.bcbits.com/img/a4103439597_10.jpg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
+    "id": "vivian-koch-beyond-contact",
+    "type": "album",
+    "artist": "Vivian Koch",
+    "title": "Beyond Contact",
+    "label": "AD 93",
+    "releaseDate": "2021-05-28",
+    "description": "",
+    "tags": [],
+    "links": {
+      "bandcamp": "https://bandcamp.com/album/1655872233",
+      "spotify": "https://open.spotify.com/search/Vivian%20Koch%20Beyond%20Contact",
+      "soundcloud": "https://soundcloud.com/search?q=Vivian%20Koch%20Beyond%20Contact",
+      "youtube": "https://www.youtube.com/results?search_query=Vivian%20Koch%20Beyond%20Contact",
+      "deezer": "https://www.deezer.com/album/970607041"
+    },
+    "embed": {
+      "provider": "deezer",
+      "src": "https://widget.deezer.com/widget/light/album/970607041",
+      "height": 300
+    },
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://f4.bcbits.com/img/a62188302_10.jpg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
+    "id": "maxwell-sterling-turn-of-phrase",
+    "type": "album",
+    "artist": "Maxwell Sterling",
+    "title": "Turn of Phrase",
+    "label": "AD 93",
+    "releaseDate": "2021-04-23",
+    "description": "",
+    "tags": [],
+    "links": {
+      "bandcamp": "https://bandcamp.com/album/1180563262",
+      "spotify": "https://open.spotify.com/search/Maxwell%20Sterling%20Turn%20of%20Phrase",
+      "soundcloud": "https://soundcloud.com/search?q=Maxwell%20Sterling%20Turn%20of%20Phrase",
+      "youtube": "https://www.youtube.com/results?search_query=Maxwell%20Sterling%20Turn%20of%20Phrase",
+      "deezer": "https://www.deezer.com/album/970607151"
+    },
+    "embed": {
+      "provider": "deezer",
+      "src": "https://widget.deezer.com/widget/light/album/970607151",
+      "height": 300
+    },
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://f4.bcbits.com/img/a3828781441_10.jpg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
+    "id": "anunaku-042",
+    "type": "album",
+    "artist": "Anunaku",
+    "title": "042",
+    "label": "AD 93",
+    "releaseDate": "2021-04-09",
+    "description": "",
+    "tags": [],
+    "links": {
+      "bandcamp": "https://bandcamp.com/album/2092476707",
+      "spotify": "https://open.spotify.com/search/Anunaku%20042",
+      "soundcloud": "https://soundcloud.com/search?q=Anunaku%20042",
+      "youtube": "https://www.youtube.com/results?search_query=Anunaku%20042",
+      "deezer": "https://www.deezer.com/album/257704482"
+    },
+    "embed": {
+      "provider": "deezer",
+      "src": "https://widget.deezer.com/widget/light/album/257704482",
+      "height": 300
+    },
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://f4.bcbits.com/img/a1550654355_10.jpg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
+    "id": "james-k-036",
+    "type": "album",
+    "artist": "james K",
+    "title": "036",
+    "label": "AD 93",
+    "releaseDate": "2021-03-19",
+    "description": "",
+    "tags": [],
+    "links": {
+      "bandcamp": "https://bandcamp.com/album/951122502",
+      "spotify": "https://open.spotify.com/search/james%20K%20036",
+      "soundcloud": "https://soundcloud.com/search?q=james%20K%20036",
+      "youtube": "https://www.youtube.com/results?search_query=james%20K%20036",
+      "deezer": "https://www.deezer.com/album/257699742"
+    },
+    "embed": {
+      "provider": "deezer",
+      "src": "https://widget.deezer.com/widget/light/album/257699742",
+      "height": 300
+    },
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://f4.bcbits.com/img/a3500263578_10.jpg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": [
+      "ra"
+    ]
+  },
+  {
+    "id": "amandra-035",
+    "type": "album",
+    "artist": "Amandra",
+    "title": "035",
+    "label": "AD 93",
+    "releaseDate": "2021-02-19",
+    "description": "",
+    "tags": [],
+    "links": {
+      "bandcamp": "https://bandcamp.com/album/3419414341",
+      "spotify": "https://open.spotify.com/search/Amandra%20035",
+      "soundcloud": "https://soundcloud.com/search?q=Amandra%20035",
+      "youtube": "https://www.youtube.com/results?search_query=Amandra%20035",
+      "deezer": "https://www.deezer.com/album/257699712"
+    },
+    "embed": {
+      "provider": "deezer",
+      "src": "https://widget.deezer.com/widget/light/album/257699712",
+      "height": 300
+    },
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://f4.bcbits.com/img/a4168941797_10.jpg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
+    "id": "venus-ex-machina-lux",
+    "type": "album",
+    "artist": "Venus Ex Machina",
+    "title": "Lux",
+    "label": "AD 93",
+    "releaseDate": "2021-01-29",
+    "description": "",
+    "tags": [],
+    "links": {
+      "bandcamp": "https://bandcamp.com/album/1736705953",
+      "spotify": "https://open.spotify.com/search/Venus%20Ex%20Machina%20Lux",
+      "soundcloud": "https://soundcloud.com/search?q=Venus%20Ex%20Machina%20Lux",
+      "youtube": "https://www.youtube.com/results?search_query=Venus%20Ex%20Machina%20Lux",
+      "deezer": "https://www.deezer.com/album/963803501"
+    },
+    "embed": {
+      "provider": "deezer",
+      "src": "https://widget.deezer.com/widget/light/album/963803501",
+      "height": 300
+    },
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://f4.bcbits.com/img/a333629621_10.jpg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
+    "id": "biosphere-angel-s-flight",
+    "type": "album",
+    "artist": "Biosphere",
+    "title": "Angel's Flight",
+    "label": "AD 93",
+    "releaseDate": "2021-01-22",
+    "description": "",
+    "tags": [],
+    "links": {
+      "bandcamp": "https://bandcamp.com/album/4147260326",
+      "spotify": "https://open.spotify.com/search/Biosphere%20Angel's%20Flight",
+      "soundcloud": "https://soundcloud.com/search?q=Biosphere%20Angel's%20Flight",
+      "youtube": "https://www.youtube.com/results?search_query=Biosphere%20Angel's%20Flight",
+      "deezer": "https://www.deezer.com/album/257705182"
+    },
+    "embed": {
+      "provider": "deezer",
+      "src": "https://widget.deezer.com/widget/light/album/257705182",
+      "height": 300
+    },
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://f4.bcbits.com/img/a1613733754_10.jpg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
+    "id": "avalon-emerson-040",
+    "type": "album",
+    "artist": "Avalon Emerson",
+    "title": "040",
+    "label": "AD 93",
+    "releaseDate": "2020-12-11",
+    "description": "",
+    "tags": [],
+    "links": {
+      "bandcamp": "https://bandcamp.com/album/4043447592",
+      "spotify": "https://open.spotify.com/search/Avalon%20Emerson%20040",
+      "soundcloud": "https://soundcloud.com/search?q=Avalon%20Emerson%20040",
+      "youtube": "https://www.youtube.com/results?search_query=Avalon%20Emerson%20040",
+      "deezer": "https://www.deezer.com/album/963104951"
+    },
+    "embed": {
+      "provider": "deezer",
+      "src": "https://widget.deezer.com/widget/light/album/963104951",
+      "height": 300
+    },
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://f4.bcbits.com/img/a1754839041_10.jpg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
+    "id": "bambounou-033",
+    "type": "album",
+    "artist": "Bambounou",
+    "title": "033",
+    "label": "AD 93",
+    "releaseDate": "2020-10-30",
+    "description": "",
+    "tags": [],
+    "links": {
+      "bandcamp": "https://bandcamp.com/album/3664525664",
+      "spotify": "https://open.spotify.com/search/Bambounou%20033",
+      "soundcloud": "https://soundcloud.com/search?q=Bambounou%20033",
+      "youtube": "https://www.youtube.com/results?search_query=Bambounou%20033",
+      "deezer": "https://www.deezer.com/album/972972371"
+    },
+    "embed": {
+      "provider": "deezer",
+      "src": "https://widget.deezer.com/widget/light/album/972972371",
+      "height": 300
+    },
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://f4.bcbits.com/img/a272917688_10.jpg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
+    "id": "andrew-hargreaves-syon5-pouring-salt-into-the-sea",
+    "type": "album",
+    "artist": "Andrew Hargreaves",
+    "title": "Syon5 - Pouring Salt into the Sea",
+    "label": "AD 93",
+    "releaseDate": "2020-10-02",
+    "description": "",
+    "tags": [],
+    "links": {
+      "bandcamp": "https://bandcamp.com/album/3557272263",
+      "spotify": "https://open.spotify.com/search/Andrew%20Hargreaves%20Syon5%20-%20Pouring%20Salt%20into%20the%20Sea",
+      "soundcloud": "https://soundcloud.com/search?q=Andrew%20Hargreaves%20Syon5%20-%20Pouring%20Salt%20into%20the%20Sea",
+      "youtube": "https://www.youtube.com/results?search_query=Andrew%20Hargreaves%20Syon5%20-%20Pouring%20Salt%20into%20the%20Sea"
+    },
+    "embed": null,
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://f4.bcbits.com/img/a4101373344_10.jpg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
+    "id": "mucho-sueno-bas-dobbelaer-martinou-sapphire-slows-blue-08",
+    "type": "album",
+    "artist": "Mucho Sueño / Bas Dobbelaer / Martinou / Sapphire Slows",
+    "title": "Blue 08",
+    "label": "AD 93",
+    "releaseDate": "2020-09-18",
+    "description": "",
+    "tags": [],
+    "links": {
+      "bandcamp": "https://bandcamp.com/album/577607695",
+      "spotify": "https://open.spotify.com/search/Mucho%20Sue%C3%B1o%20%2F%20Bas%20Dobbelaer%20%2F%20Martinou%20%2F%20Sapphire%20Slows%20Blue%2008",
+      "soundcloud": "https://soundcloud.com/search?q=Mucho%20Sue%C3%B1o%20%2F%20Bas%20Dobbelaer%20%2F%20Martinou%20%2F%20Sapphire%20Slows%20Blue%2008",
+      "youtube": "https://www.youtube.com/results?search_query=Mucho%20Sue%C3%B1o%20%2F%20Bas%20Dobbelaer%20%2F%20Martinou%20%2F%20Sapphire%20Slows%20Blue%2008"
+    },
+    "embed": null,
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://f4.bcbits.com/img/a524181849_10.jpg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
+    "id": "dylan-henner-the-invention-of-the-human",
+    "type": "album",
+    "artist": "Dylan Henner",
+    "title": "The Invention of the Human",
+    "label": "AD 93",
+    "releaseDate": "2020-08-28",
+    "description": "",
+    "tags": [],
+    "links": {
+      "bandcamp": "https://bandcamp.com/album/1800014801",
+      "spotify": "https://open.spotify.com/search/Dylan%20Henner%20The%20Invention%20of%20the%20Human",
+      "soundcloud": "https://soundcloud.com/search?q=Dylan%20Henner%20The%20Invention%20of%20the%20Human",
+      "youtube": "https://www.youtube.com/results?search_query=Dylan%20Henner%20The%20Invention%20of%20the%20Human",
+      "deezer": "https://www.deezer.com/album/257699722"
+    },
+    "embed": {
+      "provider": "deezer",
+      "src": "https://widget.deezer.com/widget/light/album/257699722",
+      "height": 300
+    },
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://f4.bcbits.com/img/a81438017_10.jpg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
+    "id": "anunaku-dj-plead-032",
+    "type": "album",
+    "artist": "Anunaku & DJ Plead",
+    "title": "032",
+    "label": "AD 93",
+    "releaseDate": "2020-07-17",
+    "description": "",
+    "tags": [],
+    "links": {
+      "bandcamp": "https://bandcamp.com/album/4066606907",
+      "spotify": "https://open.spotify.com/search/Anunaku%20%26%20DJ%20Plead%20032",
+      "soundcloud": "https://soundcloud.com/search?q=Anunaku%20%26%20DJ%20Plead%20032",
+      "youtube": "https://www.youtube.com/results?search_query=Anunaku%20%26%20DJ%20Plead%20032",
+      "deezer": "https://www.deezer.com/album/257699782"
+    },
+    "embed": {
+      "provider": "deezer",
+      "src": "https://widget.deezer.com/widget/light/album/257699782",
+      "height": 300
+    },
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://f4.bcbits.com/img/a973887639_10.jpg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
+    "id": "-whities-031",
+    "type": "album",
+    "artist": "тпсб",
+    "title": "Whities 031",
+    "label": "AD 93",
+    "releaseDate": "2020-06-26",
+    "description": "",
+    "tags": [],
+    "links": {
+      "bandcamp": "https://bandcamp.com/album/3482477931",
+      "spotify": "https://open.spotify.com/search/%D1%82%D0%BF%D1%81%D0%B1%20Whities%20031",
+      "soundcloud": "https://soundcloud.com/search?q=%D1%82%D0%BF%D1%81%D0%B1%20Whities%20031",
+      "youtube": "https://www.youtube.com/results?search_query=%D1%82%D0%BF%D1%81%D0%B1%20Whities%20031"
+    },
+    "embed": null,
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://f4.bcbits.com/img/a808530894_10.jpg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
+    "id": "s-s-gunver-ryberg-whities-030",
+    "type": "album",
+    "artist": "SØS Gunver Ryberg",
+    "title": "Whities 030",
+    "label": "AD 93",
+    "releaseDate": "2020-05-29",
+    "description": "",
+    "tags": [],
+    "links": {
+      "bandcamp": "https://bandcamp.com/album/2343850125",
+      "spotify": "https://open.spotify.com/search/S%C3%98S%20Gunver%20Ryberg%20Whities%20030",
+      "soundcloud": "https://soundcloud.com/search?q=S%C3%98S%20Gunver%20Ryberg%20Whities%20030",
+      "youtube": "https://www.youtube.com/results?search_query=S%C3%98S%20Gunver%20Ryberg%20Whities%20030",
+      "deezer": "https://www.deezer.com/album/261162052"
+    },
+    "embed": {
+      "provider": "deezer",
+      "src": "https://widget.deezer.com/widget/light/album/261162052",
+      "height": 300
+    },
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://f4.bcbits.com/img/a1787214219_10.jpg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
+    "id": "lord-of-the-isles-whities-029",
+    "type": "album",
+    "artist": "Lord Of The Isles",
+    "title": "Whities 029",
+    "label": "AD 93",
+    "releaseDate": "2020-05-01",
+    "description": "",
+    "tags": [],
+    "links": {
+      "bandcamp": "https://bandcamp.com/album/4206478486",
+      "spotify": "https://open.spotify.com/search/Lord%20Of%20The%20Isles%20Whities%20029",
+      "soundcloud": "https://soundcloud.com/search?q=Lord%20Of%20The%20Isles%20Whities%20029",
+      "youtube": "https://www.youtube.com/results?search_query=Lord%20Of%20The%20Isles%20Whities%20029",
+      "deezer": "https://www.deezer.com/album/257699662"
+    },
+    "embed": {
+      "provider": "deezer",
+      "src": "https://widget.deezer.com/widget/light/album/257699662",
+      "height": 300
+    },
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://f4.bcbits.com/img/a3995554264_10.jpg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
+    "id": "minor-science-second-language",
+    "type": "album",
+    "artist": "Minor Science",
+    "title": "Second Language",
+    "label": "AD 93",
+    "releaseDate": "2020-04-03",
+    "description": "",
+    "tags": [],
+    "links": {
+      "bandcamp": "https://bandcamp.com/album/3488178668",
+      "spotify": "https://open.spotify.com/search/Minor%20Science%20Second%20Language",
+      "soundcloud": "https://soundcloud.com/search?q=Minor%20Science%20Second%20Language",
+      "youtube": "https://www.youtube.com/results?search_query=Minor%20Science%20Second%20Language",
+      "deezer": "https://www.deezer.com/album/257705022"
+    },
+    "embed": {
+      "provider": "deezer",
+      "src": "https://widget.deezer.com/widget/light/album/257705022",
+      "height": 300
+    },
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://f4.bcbits.com/img/a4059916052_10.jpg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
+    "id": "leif-music-for-screen-tests",
+    "type": "album",
+    "artist": "Leif",
+    "title": "Music for Screen Tests",
+    "label": "AD 93",
+    "releaseDate": "2020-04-01",
+    "description": "",
+    "tags": [],
+    "links": {
+      "bandcamp": "https://bandcamp.com/album/883977615",
+      "spotify": "https://open.spotify.com/search/Leif%20Music%20for%20Screen%20Tests",
+      "soundcloud": "https://soundcloud.com/search?q=Leif%20Music%20for%20Screen%20Tests",
+      "youtube": "https://www.youtube.com/results?search_query=Leif%20Music%20for%20Screen%20Tests",
+      "deezer": "https://www.deezer.com/album/257704962"
+    },
+    "embed": {
+      "provider": "deezer",
+      "src": "https://widget.deezer.com/widget/light/album/257704962",
+      "height": 300
+    },
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://f4.bcbits.com/img/a706640298_10.jpg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
+    "id": "jasss-whities-027",
+    "type": "album",
+    "artist": "JASSS",
+    "title": "Whities 027",
+    "label": "AD 93",
+    "releaseDate": "2020-03-20",
+    "description": "",
+    "tags": [],
+    "links": {
+      "bandcamp": "https://bandcamp.com/album/388070923",
+      "spotify": "https://open.spotify.com/search/JASSS%20Whities%20027",
+      "soundcloud": "https://soundcloud.com/search?q=JASSS%20Whities%20027",
+      "youtube": "https://www.youtube.com/results?search_query=JASSS%20Whities%20027",
+      "deezer": "https://www.deezer.com/album/257704672"
+    },
+    "embed": {
+      "provider": "deezer",
+      "src": "https://widget.deezer.com/widget/light/album/257704672",
+      "height": 300
+    },
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://f4.bcbits.com/img/a3535619500_10.jpg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
+    "id": "various-artists-test-pressings",
+    "type": "album",
+    "artist": "Various Artists",
+    "title": "Test Pressings",
+    "label": "AD 93",
+    "releaseDate": "2020-03-18",
+    "description": "",
+    "tags": [],
+    "links": {
+      "bandcamp": "https://bandcamp.com/album/3687801641",
+      "spotify": "https://open.spotify.com/search/Various%20Artists%20Test%20Pressings",
+      "soundcloud": "https://soundcloud.com/search?q=Various%20Artists%20Test%20Pressings",
+      "youtube": "https://www.youtube.com/results?search_query=Various%20Artists%20Test%20Pressings"
+    },
+    "embed": null,
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://f4.bcbits.com/img/a2635588010_10.jpg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
+    "id": "neinzer-whities-025",
+    "type": "album",
+    "artist": "Neinzer",
+    "title": "Whities 025",
+    "label": "AD 93",
+    "releaseDate": "2020-02-28",
+    "description": "",
+    "tags": [],
+    "links": {
+      "bandcamp": "https://bandcamp.com/album/1839332007",
+      "spotify": "https://open.spotify.com/search/Neinzer%20Whities%20025",
+      "soundcloud": "https://soundcloud.com/search?q=Neinzer%20Whities%20025",
+      "youtube": "https://www.youtube.com/results?search_query=Neinzer%20Whities%20025",
+      "deezer": "https://www.deezer.com/album/257704452"
+    },
+    "embed": {
+      "provider": "deezer",
+      "src": "https://widget.deezer.com/widget/light/album/257704452",
+      "height": 300
+    },
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://f4.bcbits.com/img/a4261849891_10.jpg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
+    "id": "happa-blue-07",
+    "type": "album",
+    "artist": "Happa",
+    "title": "Blue 07",
+    "label": "AD 93",
+    "releaseDate": "2020-02-14",
+    "description": "",
+    "tags": [],
+    "links": {
+      "bandcamp": "https://bandcamp.com/album/1202608912",
+      "spotify": "https://open.spotify.com/search/Happa%20Blue%2007",
+      "soundcloud": "https://soundcloud.com/search?q=Happa%20Blue%2007",
+      "youtube": "https://www.youtube.com/results?search_query=Happa%20Blue%2007",
+      "deezer": "https://www.deezer.com/album/257704982"
+    },
+    "embed": {
+      "provider": "deezer",
+      "src": "https://widget.deezer.com/widget/light/album/257704982",
+      "height": 300
+    },
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://f4.bcbits.com/img/a1490342147_10.jpg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
+    "id": "quirke-steal-a-golden-hail",
+    "type": "album",
+    "artist": "Quirke",
+    "title": "Steal A Golden Hail",
+    "label": "AD 93",
+    "releaseDate": "2019-12-06",
+    "description": "",
+    "tags": [],
+    "links": {
+      "bandcamp": "https://bandcamp.com/album/378881092",
+      "spotify": "https://open.spotify.com/search/Quirke%20Steal%20A%20Golden%20Hail",
+      "soundcloud": "https://soundcloud.com/search?q=Quirke%20Steal%20A%20Golden%20Hail",
+      "youtube": "https://www.youtube.com/results?search_query=Quirke%20Steal%20A%20Golden%20Hail",
+      "deezer": "https://www.deezer.com/album/257704622"
+    },
+    "embed": {
+      "provider": "deezer",
+      "src": "https://widget.deezer.com/widget/light/album/257704622",
+      "height": 300
+    },
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://f4.bcbits.com/img/a315042250_10.jpg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
+    "id": "josquin-des-prez-syon4-la-deploration-de-johannes-ockeghem-dylan-henner-edit",
+    "type": "album",
+    "artist": "Josquin des Prez",
+    "title": "Syon4 - La Déploration de Johannes Ockeghem [Dylan Henner edit]",
+    "label": "AD 93",
+    "releaseDate": "2019-10-30",
+    "description": "",
+    "tags": [],
+    "links": {
+      "bandcamp": "https://bandcamp.com/album/538912654",
+      "spotify": "https://open.spotify.com/search/Josquin%20des%20Prez%20Syon4%20-%20La%20D%C3%A9ploration%20de%20Johannes%20Ockeghem%20%5BDylan%20Henner%20edit%5D",
+      "soundcloud": "https://soundcloud.com/search?q=Josquin%20des%20Prez%20Syon4%20-%20La%20D%C3%A9ploration%20de%20Johannes%20Ockeghem%20%5BDylan%20Henner%20edit%5D",
+      "youtube": "https://www.youtube.com/results?search_query=Josquin%20des%20Prez%20Syon4%20-%20La%20D%C3%A9ploration%20de%20Johannes%20Ockeghem%20%5BDylan%20Henner%20edit%5D"
+    },
+    "embed": null,
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://f4.bcbits.com/img/a3140978082_10.jpg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
+    "id": "anunaku-whities-024",
+    "type": "album",
+    "artist": "Anunaku",
+    "title": "Whities 024",
+    "label": "AD 93",
+    "releaseDate": "2019-10-18",
+    "description": "",
+    "tags": [],
+    "links": {
+      "bandcamp": "https://bandcamp.com/album/4268771003",
+      "spotify": "https://open.spotify.com/search/Anunaku%20Whities%20024",
+      "soundcloud": "https://soundcloud.com/search?q=Anunaku%20Whities%20024",
+      "youtube": "https://www.youtube.com/results?search_query=Anunaku%20Whities%20024",
+      "deezer": "https://www.deezer.com/album/257704542"
+    },
+    "embed": {
+      "provider": "deezer",
+      "src": "https://widget.deezer.com/widget/light/album/257704542",
+      "height": 300
+    },
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://f4.bcbits.com/img/a1502897931_10.jpg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
+    "id": "carl-gari-abdullah-miniawy-whities-023-the-act-of-falling-from-the-8th-floor",
+    "type": "album",
+    "artist": "Carl Gari & Abdullah Miniawy",
+    "title": "Whities 023 (The Act of Falling from the 8th Floor)",
+    "label": "AD 93",
+    "releaseDate": "2019-09-06",
+    "description": "",
+    "tags": [],
+    "links": {
+      "bandcamp": "https://bandcamp.com/album/1935444446",
+      "spotify": "https://open.spotify.com/search/Carl%20Gari%20%26%20Abdullah%20Miniawy%20Whities%20023%20(The%20Act%20of%20Falling%20from%20the%208th%20Floor)",
+      "soundcloud": "https://soundcloud.com/search?q=Carl%20Gari%20%26%20Abdullah%20Miniawy%20Whities%20023%20(The%20Act%20of%20Falling%20from%20the%208th%20Floor)",
+      "youtube": "https://www.youtube.com/results?search_query=Carl%20Gari%20%26%20Abdullah%20Miniawy%20Whities%20023%20(The%20Act%20of%20Falling%20from%20the%208th%20Floor)",
+      "deezer": "https://www.deezer.com/album/257699582"
+    },
+    "embed": {
+      "provider": "deezer",
+      "src": "https://widget.deezer.com/widget/light/album/257699582",
+      "height": 300
+    },
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://f4.bcbits.com/img/a2637908581_10.jpg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
+    "id": "sno-globe-syon3-shake-up",
+    "type": "album",
+    "artist": "Sno Globe",
+    "title": "Syon3 - Shake Up",
+    "label": "AD 93",
+    "releaseDate": "2019-08-08",
+    "description": "",
+    "tags": [],
+    "links": {
+      "bandcamp": "https://bandcamp.com/album/1308309668",
+      "spotify": "https://open.spotify.com/search/Sno%20Globe%20Syon3%20-%20Shake%20Up",
+      "soundcloud": "https://soundcloud.com/search?q=Sno%20Globe%20Syon3%20-%20Shake%20Up",
+      "youtube": "https://www.youtube.com/results?search_query=Sno%20Globe%20Syon3%20-%20Shake%20Up"
+    },
+    "embed": null,
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://f4.bcbits.com/img/a3025582956_10.jpg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
+    "id": "forest-drive-west-blue-05",
+    "type": "album",
+    "artist": "Forest Drive West",
+    "title": "Blue 05",
+    "label": "AD 93",
+    "releaseDate": "2019-07-19",
+    "description": "",
+    "tags": [],
+    "links": {
+      "bandcamp": "https://bandcamp.com/album/1962220577",
+      "spotify": "https://open.spotify.com/search/Forest%20Drive%20West%20Blue%2005",
+      "soundcloud": "https://soundcloud.com/search?q=Forest%20Drive%20West%20Blue%2005",
+      "youtube": "https://www.youtube.com/results?search_query=Forest%20Drive%20West%20Blue%2005",
+      "deezer": "https://www.deezer.com/album/257705442"
+    },
+    "embed": {
+      "provider": "deezer",
+      "src": "https://widget.deezer.com/widget/light/album/257705442",
+      "height": 300
+    },
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://f4.bcbits.com/img/a2747218658_10.jpg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
+    "id": "pugilist-blue-06",
+    "type": "album",
+    "artist": "Pugilist",
+    "title": "Blue 06",
+    "label": "AD 93",
+    "releaseDate": "2019-07-19",
+    "description": "",
+    "tags": [],
+    "links": {
+      "bandcamp": "https://bandcamp.com/album/1267398099",
+      "spotify": "https://open.spotify.com/search/Pugilist%20Blue%2006",
+      "soundcloud": "https://soundcloud.com/search?q=Pugilist%20Blue%2006",
+      "youtube": "https://www.youtube.com/results?search_query=Pugilist%20Blue%2006",
+      "deezer": "https://www.deezer.com/album/257704662"
+    },
+    "embed": {
+      "provider": "deezer",
+      "src": "https://widget.deezer.com/widget/light/album/257704662",
+      "height": 300
+    },
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://f4.bcbits.com/img/a2227567260_10.jpg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
+    "id": "leif-loom-dream",
+    "type": "album",
+    "artist": "Leif",
+    "title": "Loom Dream",
+    "label": "AD 93",
+    "releaseDate": "2019-06-21",
+    "description": "",
+    "tags": [],
+    "links": {
+      "bandcamp": "https://bandcamp.com/album/92107445",
+      "spotify": "https://open.spotify.com/search/Leif%20Loom%20Dream",
+      "soundcloud": "https://soundcloud.com/search?q=Leif%20Loom%20Dream",
+      "youtube": "https://www.youtube.com/results?search_query=Leif%20Loom%20Dream",
+      "deezer": "https://www.deezer.com/album/257707962"
+    },
+    "embed": {
+      "provider": "deezer",
+      "src": "https://widget.deezer.com/widget/light/album/257707962",
+      "height": 300
+    },
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://f4.bcbits.com/img/a2133169630_10.jpg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
+    "id": "rupert-clervaux-after-masterpieces",
+    "type": "album",
+    "artist": "Rupert Clervaux",
+    "title": "After Masterpieces",
+    "label": "AD 93",
+    "releaseDate": "2019-05-24",
+    "description": "",
+    "tags": [],
+    "links": {
+      "bandcamp": "https://bandcamp.com/album/3833330812",
+      "spotify": "https://open.spotify.com/search/Rupert%20Clervaux%20After%20Masterpieces",
+      "soundcloud": "https://soundcloud.com/search?q=Rupert%20Clervaux%20After%20Masterpieces",
+      "youtube": "https://www.youtube.com/results?search_query=Rupert%20Clervaux%20After%20Masterpieces",
+      "deezer": "https://www.deezer.com/album/963104981"
+    },
+    "embed": {
+      "provider": "deezer",
+      "src": "https://widget.deezer.com/widget/light/album/963104981",
+      "height": 300
+    },
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://f4.bcbits.com/img/a328817171_10.jpg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
+    "id": "bambounou-whities-021",
+    "type": "album",
+    "artist": "Bambounou",
+    "title": "Whities 021",
+    "label": "AD 93",
+    "releaseDate": "2019-02-22",
+    "description": "",
+    "tags": [],
+    "links": {
+      "bandcamp": "https://bandcamp.com/album/1200899495",
+      "spotify": "https://open.spotify.com/search/Bambounou%20Whities%20021",
+      "soundcloud": "https://soundcloud.com/search?q=Bambounou%20Whities%20021",
+      "youtube": "https://www.youtube.com/results?search_query=Bambounou%20Whities%20021",
+      "deezer": "https://www.deezer.com/album/963104941"
+    },
+    "embed": {
+      "provider": "deezer",
+      "src": "https://widget.deezer.com/widget/light/album/963104941",
+      "height": 300
+    },
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://f4.bcbits.com/img/a2588518280_10.jpg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
+    "id": "overmono-whities-019",
+    "type": "album",
+    "artist": "Overmono",
+    "title": "Whities 019",
+    "label": "AD 93",
+    "releaseDate": "2018-12-07",
+    "description": "",
+    "tags": [],
+    "links": {
+      "bandcamp": "https://bandcamp.com/album/2163828675",
+      "spotify": "https://open.spotify.com/search/Overmono%20Whities%20019",
+      "soundcloud": "https://soundcloud.com/search?q=Overmono%20Whities%20019",
+      "youtube": "https://www.youtube.com/results?search_query=Overmono%20Whities%20019",
+      "deezer": "https://www.deezer.com/album/257707972"
+    },
+    "embed": {
+      "provider": "deezer",
+      "src": "https://widget.deezer.com/widget/light/album/257707972",
+      "height": 300
+    },
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://f4.bcbits.com/img/a2703756227_10.jpg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
+    "id": "reckonwrong-whities-018",
+    "type": "album",
+    "artist": "Reckonwrong",
+    "title": "Whities 018",
+    "label": "AD 93",
+    "releaseDate": "2018-11-23",
+    "description": "",
+    "tags": [],
+    "links": {
+      "bandcamp": "https://bandcamp.com/album/1663734654",
+      "spotify": "https://open.spotify.com/search/Reckonwrong%20Whities%20018",
+      "soundcloud": "https://soundcloud.com/search?q=Reckonwrong%20Whities%20018",
+      "youtube": "https://www.youtube.com/results?search_query=Reckonwrong%20Whities%20018",
+      "deezer": "https://www.deezer.com/album/257707762"
+    },
+    "embed": {
+      "provider": "deezer",
+      "src": "https://widget.deezer.com/widget/light/album/257707762",
+      "height": 300
+    },
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://f4.bcbits.com/img/a369834861_10.jpg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
+    "id": "upsammy-bftt-blue-03",
+    "type": "album",
+    "artist": "upsammy / BFTT",
+    "title": "Blue 03",
+    "label": "AD 93",
+    "releaseDate": "2018-10-26",
+    "description": "",
+    "tags": [],
+    "links": {
+      "bandcamp": "https://bandcamp.com/album/4192125023",
+      "spotify": "https://open.spotify.com/search/upsammy%20%2F%20BFTT%20Blue%2003",
+      "soundcloud": "https://soundcloud.com/search?q=upsammy%20%2F%20BFTT%20Blue%2003",
+      "youtube": "https://www.youtube.com/results?search_query=upsammy%20%2F%20BFTT%20Blue%2003",
+      "deezer": "https://www.deezer.com/album/257704332"
+    },
+    "embed": {
+      "provider": "deezer",
+      "src": "https://widget.deezer.com/widget/light/album/257704332",
+      "height": 300
+    },
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://f4.bcbits.com/img/a3331630384_10.jpg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
+    "id": "e-talking-laksa-blue-04",
+    "type": "album",
+    "artist": "E-Talking / Laksa",
+    "title": "Blue 04",
+    "label": "AD 93",
+    "releaseDate": "2018-10-26",
+    "description": "",
+    "tags": [],
+    "links": {
+      "bandcamp": "https://bandcamp.com/album/853473821",
+      "spotify": "https://open.spotify.com/search/E-Talking%20%2F%20Laksa%20Blue%2004",
+      "soundcloud": "https://soundcloud.com/search?q=E-Talking%20%2F%20Laksa%20Blue%2004",
+      "youtube": "https://www.youtube.com/results?search_query=E-Talking%20%2F%20Laksa%20Blue%2004",
+      "deezer": "https://www.deezer.com/album/257705462"
+    },
+    "embed": {
+      "provider": "deezer",
+      "src": "https://widget.deezer.com/widget/light/album/257705462",
+      "height": 300
+    },
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://f4.bcbits.com/img/a13891463_10.jpg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
+    "id": "giant-swan-whities-016",
+    "type": "album",
+    "artist": "Giant Swan",
+    "title": "Whities 016",
+    "label": "AD 93",
+    "releaseDate": "2018-09-14",
+    "description": "",
+    "tags": [],
+    "links": {
+      "bandcamp": "https://bandcamp.com/album/2834733729",
+      "spotify": "https://open.spotify.com/search/Giant%20Swan%20Whities%20016",
+      "soundcloud": "https://soundcloud.com/search?q=Giant%20Swan%20Whities%20016",
+      "youtube": "https://www.youtube.com/results?search_query=Giant%20Swan%20Whities%20016",
+      "deezer": "https://www.deezer.com/album/963104971"
+    },
+    "embed": {
+      "provider": "deezer",
+      "src": "https://widget.deezer.com/widget/light/album/963104971",
+      "height": 300
+    },
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://f4.bcbits.com/img/a1869429969_10.jpg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
+    "id": "nathan-micay-whities-017",
+    "type": "album",
+    "artist": "Nathan Micay",
+    "title": "Whities 017",
+    "label": "AD 93",
+    "releaseDate": "2018-08-03",
+    "description": "",
+    "tags": [],
+    "links": {
+      "bandcamp": "https://bandcamp.com/album/1083861095",
+      "spotify": "https://open.spotify.com/search/Nathan%20Micay%20Whities%20017",
+      "soundcloud": "https://soundcloud.com/search?q=Nathan%20Micay%20Whities%20017",
+      "youtube": "https://www.youtube.com/results?search_query=Nathan%20Micay%20Whities%20017",
+      "deezer": "https://www.deezer.com/album/963803491"
+    },
+    "embed": {
+      "provider": "deezer",
+      "src": "https://widget.deezer.com/widget/light/album/963803491",
+      "height": 300
+    },
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://f4.bcbits.com/img/a281715608_10.jpg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
+    "id": "smx-koehler-blue-02",
+    "type": "album",
+    "artist": "SMX / Koehler",
+    "title": "Blue 02",
+    "label": "AD 93",
+    "releaseDate": "2018-05-03",
+    "description": "",
+    "tags": [],
+    "links": {
+      "bandcamp": "https://bandcamp.com/album/2058679308",
+      "spotify": "https://open.spotify.com/search/SMX%20%2F%20Koehler%20Blue%2002",
+      "soundcloud": "https://soundcloud.com/search?q=SMX%20%2F%20Koehler%20Blue%2002",
+      "youtube": "https://www.youtube.com/results?search_query=SMX%20%2F%20Koehler%20Blue%2002",
+      "deezer": "https://www.deezer.com/album/257704712"
+    },
+    "embed": {
+      "provider": "deezer",
+      "src": "https://widget.deezer.com/widget/light/album/257704712",
+      "height": 300
+    },
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://f4.bcbits.com/img/a1351776309_10.jpg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
+    "id": "ivan-zoloto-syon2-music-for-skiing",
+    "type": "album",
+    "artist": "Ivan Zoloto",
+    "title": "Syon2 - Music For Skiing",
+    "label": "AD 93",
+    "releaseDate": "2018-04-23",
+    "description": "",
+    "tags": [],
+    "links": {
+      "bandcamp": "https://bandcamp.com/album/977160186",
+      "spotify": "https://open.spotify.com/search/Ivan%20Zoloto%20Syon2%20-%20Music%20For%20Skiing",
+      "soundcloud": "https://soundcloud.com/search?q=Ivan%20Zoloto%20Syon2%20-%20Music%20For%20Skiing",
+      "youtube": "https://www.youtube.com/results?search_query=Ivan%20Zoloto%20Syon2%20-%20Music%20For%20Skiing"
+    },
+    "embed": null,
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://f4.bcbits.com/img/a2293978858_10.jpg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
+    "id": "quirke-whities-015",
+    "type": "album",
+    "artist": "Quirke",
+    "title": "Whities 015",
+    "label": "AD 93",
+    "releaseDate": "2018-04-13",
+    "description": "",
+    "tags": [],
+    "links": {
+      "bandcamp": "https://bandcamp.com/album/1082153615",
+      "spotify": "https://open.spotify.com/search/Quirke%20Whities%20015",
+      "soundcloud": "https://soundcloud.com/search?q=Quirke%20Whities%20015",
+      "youtube": "https://www.youtube.com/results?search_query=Quirke%20Whities%20015",
+      "deezer": "https://www.deezer.com/album/963104871"
+    },
+    "embed": {
+      "provider": "deezer",
+      "src": "https://widget.deezer.com/widget/light/album/963104871",
+      "height": 300
+    },
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://f4.bcbits.com/img/a2926080265_10.jpg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
+    "id": "jaures-whities-dubplate-05",
+    "type": "album",
+    "artist": "Jaures",
+    "title": "Whities Dubplate 05",
+    "label": "AD 93",
+    "releaseDate": "2018-04-02",
+    "description": "",
+    "tags": [],
+    "links": {
+      "bandcamp": "https://bandcamp.com/album/1076403462",
+      "spotify": "https://open.spotify.com/search/Jaures%20Whities%20Dubplate%2005",
+      "soundcloud": "https://soundcloud.com/search?q=Jaures%20Whities%20Dubplate%2005",
+      "youtube": "https://www.youtube.com/results?search_query=Jaures%20Whities%20Dubplate%2005"
+    },
+    "embed": null,
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://f4.bcbits.com/img/a4232440802_10.jpg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
+    "id": "tessela-lanark-artefax-blue-01",
+    "type": "album",
+    "artist": "Tessela / Lanark Artefax",
+    "title": "Blue 01",
+    "label": "AD 93",
+    "releaseDate": "2018-03-01",
+    "description": "",
+    "tags": [],
+    "links": {
+      "bandcamp": "https://bandcamp.com/album/873125138",
+      "spotify": "https://open.spotify.com/search/Tessela%20%2F%20Lanark%20Artefax%20Blue%2001",
+      "soundcloud": "https://soundcloud.com/search?q=Tessela%20%2F%20Lanark%20Artefax%20Blue%2001",
+      "youtube": "https://www.youtube.com/results?search_query=Tessela%20%2F%20Lanark%20Artefax%20Blue%2001",
+      "deezer": "https://www.deezer.com/album/257705222"
+    },
+    "embed": {
+      "provider": "deezer",
+      "src": "https://widget.deezer.com/widget/light/album/257705222",
+      "height": 300
+    },
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://f4.bcbits.com/img/a2258811708_10.jpg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
+    "id": "minor-science-absent-friends-vol-2",
+    "type": "album",
+    "artist": "Minor Science",
+    "title": "Absent Friends Vol. 2",
+    "label": "AD 93",
+    "releaseDate": "2017-12-05",
+    "description": "",
+    "tags": [],
+    "links": {
+      "bandcamp": "https://bandcamp.com/album/3292277562",
+      "spotify": "https://open.spotify.com/search/Minor%20Science%20Absent%20Friends%20Vol.%202",
+      "soundcloud": "https://soundcloud.com/search?q=Minor%20Science%20Absent%20Friends%20Vol.%202",
+      "youtube": "https://www.youtube.com/results?search_query=Minor%20Science%20Absent%20Friends%20Vol.%202",
+      "deezer": "https://www.deezer.com/album/455338125"
+    },
+    "embed": {
+      "provider": "deezer",
+      "src": "https://widget.deezer.com/widget/light/album/455338125",
+      "height": 300
+    },
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://f4.bcbits.com/img/a3526052399_10.jpg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
+    "id": "jules-venturini-whities-014",
+    "type": "album",
+    "artist": "Jules Venturini",
+    "title": "Whities 014",
+    "label": "AD 93",
+    "releaseDate": "2017-11-24",
+    "description": "",
+    "tags": [],
+    "links": {
+      "bandcamp": "https://bandcamp.com/album/3543742137",
+      "spotify": "https://open.spotify.com/search/Jules%20Venturini%20Whities%20014",
+      "soundcloud": "https://soundcloud.com/search?q=Jules%20Venturini%20Whities%20014",
+      "youtube": "https://www.youtube.com/results?search_query=Jules%20Venturini%20Whities%20014",
+      "deezer": "https://www.deezer.com/album/963616281"
+    },
+    "embed": {
+      "provider": "deezer",
+      "src": "https://widget.deezer.com/widget/light/album/963616281",
+      "height": 300
+    },
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://f4.bcbits.com/img/a1891840256_10.jpg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
+    "id": "avalon-emerson-whities-013",
+    "type": "album",
+    "artist": "Avalon Emerson",
+    "title": "Whities 013",
+    "label": "AD 93",
+    "releaseDate": "2017-11-03",
+    "description": "",
+    "tags": [],
+    "links": {
+      "bandcamp": "https://bandcamp.com/album/2229484045",
+      "spotify": "https://open.spotify.com/search/Avalon%20Emerson%20Whities%20013",
+      "soundcloud": "https://soundcloud.com/search?q=Avalon%20Emerson%20Whities%20013",
+      "youtube": "https://www.youtube.com/results?search_query=Avalon%20Emerson%20Whities%20013",
+      "deezer": "https://www.deezer.com/album/963104961"
+    },
+    "embed": {
+      "provider": "deezer",
+      "src": "https://widget.deezer.com/widget/light/album/963104961",
+      "height": 300
+    },
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://f4.bcbits.com/img/a1643301902_10.jpg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
+    "id": "bullion-whities-dubplate-04",
+    "type": "album",
+    "artist": "Bullion",
+    "title": "Whities Dubplate 04",
+    "label": "AD 93",
+    "releaseDate": "2017-10-02",
+    "description": "",
+    "tags": [],
+    "links": {
+      "bandcamp": "https://bandcamp.com/album/1312511224",
+      "spotify": "https://open.spotify.com/search/Bullion%20Whities%20Dubplate%2004",
+      "soundcloud": "https://soundcloud.com/search?q=Bullion%20Whities%20Dubplate%2004",
+      "youtube": "https://www.youtube.com/results?search_query=Bullion%20Whities%20Dubplate%2004"
+    },
+    "embed": null,
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://f4.bcbits.com/img/a2751610982_10.jpg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
+    "id": "minor-science-whities-012",
+    "type": "album",
+    "artist": "Minor Science",
+    "title": "Whities 012",
+    "label": "AD 93",
+    "releaseDate": "2017-09-15",
+    "description": "",
+    "tags": [],
+    "links": {
+      "bandcamp": "https://bandcamp.com/album/1745798478",
+      "spotify": "https://open.spotify.com/search/Minor%20Science%20Whities%20012",
+      "soundcloud": "https://soundcloud.com/search?q=Minor%20Science%20Whities%20012",
+      "youtube": "https://www.youtube.com/results?search_query=Minor%20Science%20Whities%20012",
+      "deezer": "https://www.deezer.com/album/958845371"
+    },
+    "embed": {
+      "provider": "deezer",
+      "src": "https://widget.deezer.com/widget/light/album/958845371",
+      "height": 300
+    },
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://f4.bcbits.com/img/a2769628333_10.jpg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
+    "id": "vista-whities-dubplate-03",
+    "type": "album",
+    "artist": "VÏSTA",
+    "title": "Whities Dubplate 03",
+    "label": "AD 93",
+    "releaseDate": "2017-06-20",
+    "description": "",
+    "tags": [],
+    "links": {
+      "bandcamp": "https://bandcamp.com/album/290455687",
+      "spotify": "https://open.spotify.com/search/V%C3%8FSTA%20Whities%20Dubplate%2003",
+      "soundcloud": "https://soundcloud.com/search?q=V%C3%8FSTA%20Whities%20Dubplate%2003",
+      "youtube": "https://www.youtube.com/results?search_query=V%C3%8FSTA%20Whities%20Dubplate%2003"
+    },
+    "embed": null,
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://f4.bcbits.com/img/a3369291508_10.jpg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
+    "id": "lanark-artefax-whities-011",
+    "type": "album",
+    "artist": "Lanark Artefax",
+    "title": "Whities 011",
+    "label": "AD 93",
+    "releaseDate": "2017-06-09",
+    "description": "",
+    "tags": [],
+    "links": {
+      "bandcamp": "https://bandcamp.com/album/1083452688",
+      "spotify": "https://open.spotify.com/search/Lanark%20Artefax%20Whities%20011",
+      "soundcloud": "https://soundcloud.com/search?q=Lanark%20Artefax%20Whities%20011",
+      "youtube": "https://www.youtube.com/results?search_query=Lanark%20Artefax%20Whities%20011",
+      "deezer": "https://www.deezer.com/album/42795311"
+    },
+    "embed": {
+      "provider": "deezer",
+      "src": "https://widget.deezer.com/widget/light/album/42795311",
+      "height": 300
+    },
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://f4.bcbits.com/img/a407403092_10.jpg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
+    "id": "coby-sey-whities-010",
+    "type": "album",
+    "artist": "Coby Sey",
+    "title": "Whities 010",
+    "label": "AD 93",
+    "releaseDate": "2017-04-07",
+    "description": "",
+    "tags": [],
+    "links": {
+      "bandcamp": "https://bandcamp.com/album/56028851",
+      "spotify": "https://open.spotify.com/search/Coby%20Sey%20Whities%20010",
+      "soundcloud": "https://soundcloud.com/search?q=Coby%20Sey%20Whities%20010",
+      "youtube": "https://www.youtube.com/results?search_query=Coby%20Sey%20Whities%20010",
+      "deezer": "https://www.deezer.com/album/15759240"
+    },
+    "embed": {
+      "provider": "deezer",
+      "src": "https://widget.deezer.com/widget/light/album/15759240",
+      "height": 300
+    },
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://f4.bcbits.com/img/a3987656253_10.jpg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
+    "id": "fergus-clark-syon1-ode-to-pescadoria",
+    "type": "album",
+    "artist": "Fergus Clark",
+    "title": "Syon1 - Ode To Pescadoria",
+    "label": "AD 93",
+    "releaseDate": "2017-02-24",
+    "description": "",
+    "tags": [],
+    "links": {
+      "bandcamp": "https://bandcamp.com/album/2002367617",
+      "spotify": "https://open.spotify.com/search/Fergus%20Clark%20Syon1%20-%20Ode%20To%20Pescadoria",
+      "soundcloud": "https://soundcloud.com/search?q=Fergus%20Clark%20Syon1%20-%20Ode%20To%20Pescadoria",
+      "youtube": "https://www.youtube.com/results?search_query=Fergus%20Clark%20Syon1%20-%20Ode%20To%20Pescadoria"
+    },
+    "embed": null,
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://f4.bcbits.com/img/a2670495235_10.jpg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
+    "id": "lanark-artefax-whities-dubplate-02",
+    "type": "album",
+    "artist": "Lanark Artefax",
+    "title": "Whities Dubplate 02",
+    "label": "AD 93",
+    "releaseDate": "2016-12-03",
+    "description": "",
+    "tags": [],
+    "links": {
+      "bandcamp": "https://bandcamp.com/album/2151731669",
+      "spotify": "https://open.spotify.com/search/Lanark%20Artefax%20Whities%20Dubplate%2002",
+      "soundcloud": "https://soundcloud.com/search?q=Lanark%20Artefax%20Whities%20Dubplate%2002",
+      "youtube": "https://www.youtube.com/results?search_query=Lanark%20Artefax%20Whities%20Dubplate%2002"
+    },
+    "embed": null,
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://f4.bcbits.com/img/a589231337_10.jpg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
+    "id": "reckonwrong-whities-009",
+    "type": "album",
+    "artist": "Reckonwrong",
+    "title": "Whities 009",
+    "label": "AD 93",
+    "releaseDate": "2016-11-04",
+    "description": "",
+    "tags": [],
+    "links": {
+      "bandcamp": "https://bandcamp.com/album/3837766854",
+      "spotify": "https://open.spotify.com/search/Reckonwrong%20Whities%20009",
+      "soundcloud": "https://soundcloud.com/search?q=Reckonwrong%20Whities%20009",
+      "youtube": "https://www.youtube.com/results?search_query=Reckonwrong%20Whities%20009",
+      "deezer": "https://www.deezer.com/album/14880507"
+    },
+    "embed": {
+      "provider": "deezer",
+      "src": "https://widget.deezer.com/widget/light/album/14880507",
+      "height": 300
+    },
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://f4.bcbits.com/img/a379503243_10.jpg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
+    "id": "minor-science-whities-008",
+    "type": "album",
+    "artist": "Minor Science",
+    "title": "Whities 008",
+    "label": "AD 93",
+    "releaseDate": "2016-07-29",
+    "description": "",
+    "tags": [],
+    "links": {
+      "bandcamp": "https://bandcamp.com/album/543556945",
+      "spotify": "https://open.spotify.com/search/Minor%20Science%20Whities%20008",
+      "soundcloud": "https://soundcloud.com/search?q=Minor%20Science%20Whities%20008",
+      "youtube": "https://www.youtube.com/results?search_query=Minor%20Science%20Whities%20008",
+      "deezer": "https://www.deezer.com/album/14880399"
+    },
+    "embed": {
+      "provider": "deezer",
+      "src": "https://widget.deezer.com/widget/light/album/14880399",
+      "height": 300
+    },
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://f4.bcbits.com/img/a3244386030_10.jpg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
+    "id": "quirke-whities-007",
+    "type": "album",
+    "artist": "Quirke",
+    "title": "Whities 007",
+    "label": "AD 93",
+    "releaseDate": "2016-06-24",
+    "description": "",
+    "tags": [],
+    "links": {
+      "bandcamp": "https://bandcamp.com/album/1584986175",
+      "spotify": "https://open.spotify.com/search/Quirke%20Whities%20007",
+      "soundcloud": "https://soundcloud.com/search?q=Quirke%20Whities%20007",
+      "youtube": "https://www.youtube.com/results?search_query=Quirke%20Whities%20007",
+      "deezer": "https://www.deezer.com/album/14880415"
+    },
+    "embed": {
+      "provider": "deezer",
+      "src": "https://widget.deezer.com/widget/light/album/14880415",
+      "height": 300
+    },
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://f4.bcbits.com/img/a3504929419_10.jpg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
+    "id": "mxms-whities-dubplate-01",
+    "type": "album",
+    "artist": "MXMS",
+    "title": "Whities Dubplate 01",
+    "label": "AD 93",
+    "releaseDate": "2016-04-02",
+    "description": "",
+    "tags": [],
+    "links": {
+      "bandcamp": "https://bandcamp.com/album/2604043442",
+      "spotify": "https://open.spotify.com/search/MXMS%20Whities%20Dubplate%2001",
+      "soundcloud": "https://soundcloud.com/search?q=MXMS%20Whities%20Dubplate%2001",
+      "youtube": "https://www.youtube.com/results?search_query=MXMS%20Whities%20Dubplate%2001"
+    },
+    "embed": null,
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://f4.bcbits.com/img/a3347190013_10.jpg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
+    "id": "avalon-emerson-whities-006",
+    "type": "album",
+    "artist": "Avalon Emerson",
+    "title": "Whities 006",
+    "label": "AD 93",
+    "releaseDate": "2016-03-07",
+    "description": "",
+    "tags": [],
+    "links": {
+      "bandcamp": "https://bandcamp.com/album/2064641615",
+      "spotify": "https://open.spotify.com/search/Avalon%20Emerson%20Whities%20006",
+      "soundcloud": "https://soundcloud.com/search?q=Avalon%20Emerson%20Whities%20006",
+      "youtube": "https://www.youtube.com/results?search_query=Avalon%20Emerson%20Whities%20006",
+      "deezer": "https://www.deezer.com/album/14879653"
+    },
+    "embed": {
+      "provider": "deezer",
+      "src": "https://widget.deezer.com/widget/light/album/14879653",
+      "height": 300
+    },
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://f4.bcbits.com/img/a1821820265_10.jpg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
+    "id": "reckonwrong-whities-005",
+    "type": "album",
+    "artist": "Reckonwrong",
+    "title": "Whities 005",
+    "label": "AD 93",
+    "releaseDate": "2015-10-09",
+    "description": "",
+    "tags": [],
+    "links": {
+      "bandcamp": "https://bandcamp.com/album/3438333828",
+      "spotify": "https://open.spotify.com/search/Reckonwrong%20Whities%20005",
+      "soundcloud": "https://soundcloud.com/search?q=Reckonwrong%20Whities%20005",
+      "youtube": "https://www.youtube.com/results?search_query=Reckonwrong%20Whities%20005",
+      "deezer": "https://www.deezer.com/album/14880623"
+    },
+    "embed": {
+      "provider": "deezer",
+      "src": "https://widget.deezer.com/widget/light/album/14880623",
+      "height": 300
+    },
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://f4.bcbits.com/img/a1067216696_10.jpg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
+    "id": "minor-science-whities-004",
+    "type": "album",
+    "artist": "Minor Science",
+    "title": "Whities 004",
+    "label": "AD 93",
+    "releaseDate": "2015-05-17",
+    "description": "",
+    "tags": [],
+    "links": {
+      "bandcamp": "https://bandcamp.com/album/231670527",
+      "spotify": "https://open.spotify.com/search/Minor%20Science%20Whities%20004",
+      "soundcloud": "https://soundcloud.com/search?q=Minor%20Science%20Whities%20004",
+      "youtube": "https://www.youtube.com/results?search_query=Minor%20Science%20Whities%20004",
+      "deezer": "https://www.deezer.com/album/10581893"
+    },
+    "embed": {
+      "provider": "deezer",
+      "src": "https://widget.deezer.com/widget/light/album/10581893",
+      "height": 300
+    },
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://f4.bcbits.com/img/a2550859397_10.jpg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
+    "id": "terron-whities-003",
+    "type": "album",
+    "artist": "Terron",
+    "title": "Whities 003",
+    "label": "AD 93",
+    "releaseDate": "2015-05-04",
+    "description": "",
+    "tags": [],
+    "links": {
+      "bandcamp": "https://bandcamp.com/album/867536406",
+      "spotify": "https://open.spotify.com/search/Terron%20Whities%20003",
+      "soundcloud": "https://soundcloud.com/search?q=Terron%20Whities%20003",
+      "youtube": "https://www.youtube.com/results?search_query=Terron%20Whities%20003",
+      "deezer": "https://www.deezer.com/album/10351968"
+    },
+    "embed": {
+      "provider": "deezer",
+      "src": "https://widget.deezer.com/widget/light/album/10351968",
+      "height": 300
+    },
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://f4.bcbits.com/img/a2503119259_10.jpg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
+    "id": "kowton-whities-002",
+    "type": "album",
+    "artist": "Kowton",
+    "title": "Whities 002",
+    "label": "AD 93",
+    "releaseDate": "2014-11-24",
+    "description": "",
+    "tags": [],
+    "links": {
+      "bandcamp": "https://bandcamp.com/album/3446507780",
+      "spotify": "https://open.spotify.com/search/Kowton%20Whities%20002",
+      "soundcloud": "https://soundcloud.com/search?q=Kowton%20Whities%20002",
+      "youtube": "https://www.youtube.com/results?search_query=Kowton%20Whities%20002",
+      "deezer": "https://www.deezer.com/album/11028002"
+    },
+    "embed": {
+      "provider": "deezer",
+      "src": "https://widget.deezer.com/widget/light/album/11028002",
+      "height": 300
+    },
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://f4.bcbits.com/img/a3248423136_10.jpg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
+    "id": "terron-whities-001",
+    "type": "album",
+    "artist": "Terron",
+    "title": "Whities 001",
+    "label": "AD 93",
+    "releaseDate": "2014-02-17",
+    "description": "",
+    "tags": [],
+    "links": {
+      "bandcamp": "https://bandcamp.com/album/52780932",
+      "spotify": "https://open.spotify.com/search/Terron%20Whities%20001",
+      "soundcloud": "https://soundcloud.com/search?q=Terron%20Whities%20001",
+      "youtube": "https://www.youtube.com/results?search_query=Terron%20Whities%20001",
+      "deezer": "https://www.deezer.com/album/11027676"
+    },
+    "embed": {
+      "provider": "deezer",
+      "src": "https://widget.deezer.com/widget/light/album/11027676",
+      "height": 300
+    },
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://f4.bcbits.com/img/a2521683165_10.jpg",
     "cover": {
       "bg": "#111110",
       "fg": "#f2efe8",
