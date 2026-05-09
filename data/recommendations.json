@@ -878,7 +878,8 @@
       "pitchfork_tracks",
       "pitchfork_best_tracks",
       "pitchfork_albums",
-      "pitchfork_best_albums"
+      "pitchfork_best_albums",
+      "bandcamp_daily"
     ]
   },
   {
@@ -1388,7 +1389,7 @@
     "type": "ep",
     "artist": "gyrofield",
     "title": "Your Fight",
-    "label": "",
+    "label": "Field Research",
     "releaseDate": "2026-05-06",
     "description": "Kimchi Tse continues operating in the seam between drum and bass, deconstructed club and the heavier end of leftfield bass, where most of her recent work has lived. Self, released territory by the looks of it, and worth a listen if you've been following her trajectory since the Critical sides.",
     "tags": [],
@@ -1449,7 +1450,8 @@
     "pressMentions": [
       "pitchfork_best_tracks",
       "pitchfork_albums",
-      "pitchfork_best_albums"
+      "pitchfork_best_albums",
+      "bandcamp_daily"
     ]
   },
   {
@@ -1477,6 +1479,39 @@
     "status": "pending",
     "approvedAt": null,
     "coverImageUrl": "https://cdn-images.dzcdn.net/images/cover/0ddfbbb04a794d893e2769a16382580a/1000x1000-000000-80-0-0.jpg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
+    "id": "coil-pull-me-closer-feat-ray",
+    "type": "album",
+    "artist": "Coil",
+    "title": "Pull me Closer (feat. Ray)",
+    "label": "",
+    "releaseDate": "2026-05-06",
+    "description": "Coil resurface in name on a 2026 album credited to a Ray feature, label unconfirmed. Approach with the usual caution reserved for posthumous Threshold House material; the catalogue's industrial-occult lineage speaks for itself.",
+    "tags": [],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=Coil%20Pull%20me%20Closer%20(feat.%20Ray)&item_type=a",
+      "spotify": "https://open.spotify.com/search/Coil%20Pull%20me%20Closer%20(feat.%20Ray)",
+      "soundcloud": "https://soundcloud.com/search?q=Coil%20Pull%20me%20Closer%20(feat.%20Ray)",
+      "youtube": "https://www.youtube.com/results?search_query=Coil%20Pull%20me%20Closer%20(feat.%20Ray)",
+      "deezer": "https://www.deezer.com/album/965211951",
+      "apple": "https://music.apple.com/us/album/pull-me-closer-feat-ray-single/1895218107?uo=4"
+    },
+    "embed": {
+      "provider": "apple",
+      "src": "https://embed.music.apple.com/us/album/1895218107?theme=light",
+      "height": 450
+    },
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": null,
     "cover": {
       "bg": "#111110",
       "fg": "#f2efe8",
@@ -1679,6 +1714,39 @@
     "status": "pending",
     "approvedAt": null,
     "coverImageUrl": "https://i.discogs.com/itL4GV4N9UdtVW4jNywCqJk4ZD3OVBHjsCeuF-x0lXE/rs:fit/g:sm/q:90/h:590/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM3MjY5/NTI1LTE3NzgxMDMz/MDctOTEzNy5qcGVn.jpeg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
+    "id": "lone-ok",
+    "type": "album",
+    "artist": "Lone",
+    "title": "ok*",
+    "label": "",
+    "releaseDate": "2026-05-05",
+    "description": "Lone returning to album length, which on past form means rave-memory melodics filtered through MPC-era hip hop and a fondness for 92 hardcore. Label still TBC, but the sonic territory rarely strays far.",
+    "tags": [],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=Lone%20ok*&item_type=a",
+      "spotify": "https://open.spotify.com/search/Lone%20ok*",
+      "soundcloud": "https://soundcloud.com/search?q=Lone%20ok*",
+      "youtube": "https://www.youtube.com/results?search_query=Lone%20ok*",
+      "deezer": "https://www.deezer.com/album/456918305",
+      "apple": "https://music.apple.com/us/album/were-not-ok-single/1870137780?uo=4"
+    },
+    "embed": {
+      "provider": "apple",
+      "src": "https://embed.music.apple.com/us/album/1870137780?theme=light",
+      "height": 450
+    },
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": null,
     "cover": {
       "bg": "#111110",
       "fg": "#f2efe8",
@@ -13326,6 +13394,35 @@
     ]
   },
   {
+    "id": "wasted-youth-3-good-evening-we-are-wasted-youth",
+    "type": "album",
+    "artist": "Wasted Youth (3)",
+    "title": "Good Evening We Are Wasted Youth",
+    "label": "Wasted Youth Records (2)",
+    "releaseDate": "2026-01-01",
+    "description": "Fourteen tracks of post-punk on the artist's own imprint, pressed in a limited run. Shelve next to the moodier end of the current Iceage / Protomartyr axis.",
+    "tags": [
+      "rock"
+    ],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=Wasted%20Youth%20(3)%20Good%20Evening%20We%20Are%20Wasted%20Youth&item_type=a",
+      "spotify": "https://open.spotify.com/search/Wasted%20Youth%20(3)%20Good%20Evening%20We%20Are%20Wasted%20Youth",
+      "soundcloud": "https://soundcloud.com/search?q=Wasted%20Youth%20(3)%20Good%20Evening%20We%20Are%20Wasted%20Youth",
+      "youtube": "https://www.youtube.com/results?search_query=Wasted%20Youth%20(3)%20Good%20Evening%20We%20Are%20Wasted%20Youth"
+    },
+    "embed": null,
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://i.discogs.com/4mZH_z6HpO0-NHYLw5BGzer-jy9_szw8OPMx7iRIMZQ/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM3Mjg2/MjMyLTE3NzgyNTk2/MDEtMzc1Ni5qcGVn.jpeg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
     "id": "tim-maia-racional-vol-1",
     "type": "album",
     "artist": "Tim Maia",
@@ -16435,7 +16532,7 @@
     "title": "1979",
     "label": "Balmat",
     "releaseDate": "2025-10-31",
-    "description": "",
+    "description": "Mike Paradinas turns toward long-form ambient for Balmat, fifteen pieces that trade the braindance fidget for something patient and pastel. Sits comfortably next to the label's Purelink output without sounding like anyone but him.",
     "tags": [
       "electronic"
     ],
@@ -16469,7 +16566,7 @@
     "title": "The Death Of Music",
     "label": "Orange Milk Records",
     "releaseDate": "2025-10-31",
-    "description": "",
+    "description": "Ten tracks of deconstructed club for Orange Milk, the label still doing more than anyone to map the seam between maximalist net-music and the dancefloor. Sits comfortably next to the Lillerne and Quantum Natives end of that conversation.",
     "tags": [
       "electronic"
     ],
@@ -16503,7 +16600,7 @@
     "title": "Now And Never",
     "label": "Isla",
     "releaseDate": "2025-10-31",
-    "description": "",
+    "description": "Eight tracks of cumbia slowed into ambient dub on Isla, the New York label that has made this particular crossing its house style. For anyone who keeps returning to DJ Python.",
     "tags": [
       "electronic"
     ],
@@ -16536,7 +16633,7 @@
     "title": "Interception",
     "label": "International Chrome",
     "releaseDate": "2025-10-31",
-    "description": "",
+    "description": "Ten tracks of high-impact electro and ghettotech from the International Chrome boss, the kind of muscular, peak-time material the label has built its catalogue around. Closer to DJ Stingray than to anything contemplative.",
     "tags": [
       "electronic"
     ],
@@ -16571,7 +16668,7 @@
     "title": "Fly In Amber",
     "label": "NAFF",
     "releaseDate": "2025-10-30",
-    "description": "",
+    "description": "Five tracks of ambient and dub techno from Cousin and Priori, paired up on NAFF for a 12\". Shelve near Topdown Dialectic if the slow-decay, dub-adjacent end of the spectrum is where you tend to land.",
     "tags": [
       "electronic"
     ],
@@ -16605,7 +16702,7 @@
     "title": "Is this a queue",
     "label": "AD 93",
     "releaseDate": "2025-10-29",
-    "description": "",
+    "description": "Alpha Maid lands on AD 93 with nine tracks of guitar-noise and electronics that refuse to settle into either rock or club shapes. The label's appetite for awkward, in-between records continues to pay off.",
     "tags": [],
     "links": {
       "bandcamp": "https://bandcamp.com/album/1025523587",
@@ -16638,7 +16735,7 @@
     "title": "Unruly Sun",
     "label": "Twin System",
     "releaseDate": "2025-10-28",
-    "description": "",
+    "description": "Two tracks from Floor Length Skirts on Twin System, sitting at the soul-leaning edge of trip hop with downtempo and Latin inflections threaded through. Issued as a limited mixtape object rather than a conventional single.",
     "tags": [
       "electronic"
     ],
@@ -16667,7 +16764,7 @@
     "title": "QQ (Second Edition)",
     "label": "Isla To Isla",
     "releaseDate": "2025-10-25",
-    "description": "",
+    "description": "Isla To Isla bring back punktò's QQ in a second edition, eight tracks of electroclash sitting close enough to synth-pop that the seams show. For anyone whose shelf already runs from Miss Kittin toward the brattier end of Italians Do It Better.",
     "tags": [
       "electronic"
     ],
@@ -16696,7 +16793,7 @@
     "title": "Exinfinite",
     "label": "Pan (3)",
     "releaseDate": "2025-10-24",
-    "description": "",
+    "description": "Nine tracks of industrial drone and post-rock erosion from Venera, landing on PAN where the electroacoustic and the corroded sit comfortably together. For listeners who file Emptyset and Puce Mary on the same shelf.",
     "tags": [
       "electronic"
     ],
@@ -16731,7 +16828,7 @@
     "title": "Fate In A Pleasant Mood",
     "label": "Pan-Am Records",
     "releaseDate": "2025-10-24",
-    "description": "",
+    "description": "A reissue of one of Sun Ra's early-60s Saturn sides, where the Arkestra is still leaning more swing than cosmic abstraction. Shelve next to Angels and Demons at Play if you need a pointer.",
     "tags": [
       "jazz"
     ],
@@ -16765,7 +16862,7 @@
     "title": "Teal Dreams",
     "label": "AMF Records (3)",
     "releaseDate": "2025-10-24",
-    "description": "",
+    "description": "Yazmin Lacey settles into a fourteen-track LP for AMF, the kind of unhurried neo-soul writing she has been quietly building a name on. For anyone who keeps Cleo Sol close to the turntable.",
     "tags": [
       "funk / soul"
     ],
@@ -16799,7 +16896,7 @@
     "title": "Right Here, Right Now",
     "label": "Long Branch Records",
     "releaseDate": "2025-10-24",
-    "description": "",
+    "description": "Nine tracks of measured, melodic prog from Our Oceans, the kind of patient, jazz-inflected writing Long Branch has been quietly cataloguing for years. Closer in temperament to latter-day Cynic than to anything overtly heavy.",
     "tags": [
       "rock"
     ],
@@ -17487,7 +17584,8 @@
       "soundcloud": "https://soundcloud.com/search?q=feeo%20Goodness",
       "youtube": "https://www.youtube.com/results?search_query=feeo%20Goodness",
       "deezer": "https://www.deezer.com/album/785908801",
-      "apple": "https://music.apple.com/us/album/goodness/1825867444?uo=4"
+      "apple": "https://music.apple.com/us/album/goodness/1825867444?uo=4",
+      "tidal": "https://tidal.com/album/447195972"
     },
     "embed": {
       "provider": "apple",
@@ -17523,7 +17621,8 @@
       "spotify": "https://open.spotify.com/search/Arkayla%20Don%E2%80%99t%20Look%20For%20Answers",
       "soundcloud": "https://soundcloud.com/search?q=Arkayla%20Don%E2%80%99t%20Look%20For%20Answers",
       "youtube": "https://www.youtube.com/results?search_query=Arkayla%20Don%E2%80%99t%20Look%20For%20Answers",
-      "deezer": "https://www.deezer.com/album/831649221"
+      "deezer": "https://www.deezer.com/album/831649221",
+      "tidal": "https://tidal.com/album/464578452"
     },
     "embed": {
       "provider": "deezer",
@@ -17557,7 +17656,8 @@
       "spotify": "https://open.spotify.com/search/Hatis%20Noit%20Aura%20Reworks",
       "soundcloud": "https://soundcloud.com/search?q=Hatis%20Noit%20Aura%20Reworks",
       "youtube": "https://www.youtube.com/results?search_query=Hatis%20Noit%20Aura%20Reworks",
-      "deezer": "https://www.deezer.com/album/781139781"
+      "deezer": "https://www.deezer.com/album/781139781",
+      "tidal": "https://tidal.com/album/445376505"
     },
     "embed": {
       "provider": "deezer",
@@ -17591,7 +17691,8 @@
       "spotify": "https://open.spotify.com/search/Kettel%20Through%20Friendly%20Waters",
       "soundcloud": "https://soundcloud.com/search?q=Kettel%20Through%20Friendly%20Waters",
       "youtube": "https://www.youtube.com/results?search_query=Kettel%20Through%20Friendly%20Waters",
-      "apple": "https://music.apple.com/us/album/through-friendly-waters-20th-anniversary-edition/1829677768?uo=4"
+      "apple": "https://music.apple.com/us/album/through-friendly-waters-20th-anniversary-edition/1829677768?uo=4",
+      "tidal": "https://tidal.com/album/106488862"
     },
     "embed": {
       "provider": "apple",
@@ -17626,7 +17727,8 @@
       "soundcloud": "https://soundcloud.com/search?q=Kettel%20Through%20Friendly%20Waters%20(20th%20Anniversary%20Edition)",
       "youtube": "https://www.youtube.com/results?search_query=Kettel%20Through%20Friendly%20Waters%20(20th%20Anniversary%20Edition)",
       "deezer": "https://www.deezer.com/album/795903791",
-      "apple": "https://music.apple.com/us/album/through-friendly-waters-20th-anniversary-edition/1829677768?uo=4"
+      "apple": "https://music.apple.com/us/album/through-friendly-waters-20th-anniversary-edition/1829677768?uo=4",
+      "tidal": "https://tidal.com/album/106488862"
     },
     "embed": {
       "provider": "apple",
@@ -17695,7 +17797,8 @@
       "soundcloud": "https://soundcloud.com/search?q=Trystero%20Humming%20Fuzz",
       "youtube": "https://www.youtube.com/results?search_query=Trystero%20Humming%20Fuzz",
       "deezer": "https://www.deezer.com/album/823517321",
-      "apple": "https://music.apple.com/us/album/humming-fuzz/1840481771?uo=4"
+      "apple": "https://music.apple.com/us/album/humming-fuzz/1840481771?uo=4",
+      "tidal": "https://tidal.com/album/461289482"
     },
     "embed": {
       "provider": "apple",
@@ -17730,7 +17833,8 @@
       "soundcloud": "https://soundcloud.com/search?q=Dario%20Zenker%20Configuration%20Support",
       "youtube": "https://www.youtube.com/results?search_query=Dario%20Zenker%20Configuration%20Support",
       "deezer": "https://www.deezer.com/album/835206072",
-      "apple": "https://music.apple.com/us/album/configuration-support-ep/1845135575?uo=4"
+      "apple": "https://music.apple.com/us/album/configuration-support-ep/1845135575?uo=4",
+      "tidal": "https://tidal.com/album/465927215"
     },
     "embed": {
       "provider": "apple",
@@ -17765,7 +17869,8 @@
       "soundcloud": "https://soundcloud.com/search?q=Car%20Culture%20Rest%20Here",
       "youtube": "https://www.youtube.com/results?search_query=Car%20Culture%20Rest%20Here",
       "deezer": "https://www.deezer.com/album/805948041",
-      "apple": "https://music.apple.com/us/album/rest-here/1840011012?uo=4"
+      "apple": "https://music.apple.com/us/album/rest-here/1840011012?uo=4",
+      "tidal": "https://tidal.com/album/460777491"
     },
     "embed": {
       "provider": "apple",
@@ -17835,7 +17940,8 @@
       "soundcloud": "https://soundcloud.com/search?q=Merzbow%2C%20Iggor%20Cavalera*%2C%20Eraldo%20Bernocchi%20Nocturnal%20Rainforest",
       "youtube": "https://www.youtube.com/results?search_query=Merzbow%2C%20Iggor%20Cavalera*%2C%20Eraldo%20Bernocchi%20Nocturnal%20Rainforest",
       "deezer": "https://www.deezer.com/album/809147151",
-      "apple": "https://music.apple.com/us/album/nocturnal-rainforest/1834940431?uo=4"
+      "apple": "https://music.apple.com/us/album/nocturnal-rainforest/1834940431?uo=4",
+      "tidal": "https://tidal.com/album/455735582"
     },
     "embed": {
       "provider": "apple",
@@ -17869,7 +17975,8 @@
       "spotify": "https://open.spotify.com/search/Cheap%20Perfume%20Don't%20Care.%20Didn't%20Ask.",
       "soundcloud": "https://soundcloud.com/search?q=Cheap%20Perfume%20Don't%20Care.%20Didn't%20Ask.",
       "youtube": "https://www.youtube.com/results?search_query=Cheap%20Perfume%20Don't%20Care.%20Didn't%20Ask.",
-      "deezer": "https://www.deezer.com/album/764069051"
+      "deezer": "https://www.deezer.com/album/764069051",
+      "tidal": "https://tidal.com/album/438535314"
     },
     "embed": {
       "provider": "deezer",
@@ -17904,7 +18011,8 @@
       "soundcloud": "https://soundcloud.com/search?q=Glass%20Beams%20Mahal",
       "youtube": "https://www.youtube.com/results?search_query=Glass%20Beams%20Mahal",
       "deezer": "https://www.deezer.com/album/550344462",
-      "apple": "https://music.apple.com/us/album/mahal-ep/1727145709?uo=4"
+      "apple": "https://music.apple.com/us/album/mahal-ep/1727145709?uo=4",
+      "tidal": "https://tidal.com/album/346496902"
     },
     "embed": {
       "provider": "apple",
@@ -17938,7 +18046,8 @@
       "spotify": "https://open.spotify.com/search/Akasha%20System%20Sun%20Archive",
       "soundcloud": "https://soundcloud.com/search?q=Akasha%20System%20Sun%20Archive",
       "youtube": "https://www.youtube.com/results?search_query=Akasha%20System%20Sun%20Archive",
-      "apple": "https://music.apple.com/us/album/sun-archive/1840368444?uo=4"
+      "apple": "https://music.apple.com/us/album/sun-archive/1840368444?uo=4",
+      "tidal": "https://tidal.com/album/461313944"
     },
     "embed": {
       "provider": "apple",
@@ -18008,7 +18117,8 @@
       "soundcloud": "https://soundcloud.com/search?q=Slomo%20(2)%20The%20Creep",
       "youtube": "https://www.youtube.com/results?search_query=Slomo%20(2)%20The%20Creep",
       "deezer": "https://www.deezer.com/album/784090571",
-      "apple": "https://music.apple.com/us/album/the-creep/1825133638?uo=4"
+      "apple": "https://music.apple.com/us/album/the-creep/1825133638?uo=4",
+      "tidal": "https://tidal.com/album/446513882"
     },
     "embed": {
       "provider": "apple",
@@ -18042,7 +18152,8 @@
       "spotify": "https://open.spotify.com/search/Aphex%20Twin%20Xylem%20Tube%20EP",
       "soundcloud": "https://soundcloud.com/search?q=Aphex%20Twin%20Xylem%20Tube%20EP",
       "youtube": "https://www.youtube.com/results?search_query=Aphex%20Twin%20Xylem%20Tube%20EP",
-      "apple": "https://music.apple.com/us/album/xylem-tube-ep/1114008470?uo=4"
+      "apple": "https://music.apple.com/us/album/xylem-tube-ep/1114008470?uo=4",
+      "tidal": "https://tidal.com/album/59878229"
     },
     "embed": {
       "provider": "apple",
@@ -18079,7 +18190,8 @@
       "soundcloud": "https://soundcloud.com/search?q=Richard%20Hronsk%C3%BD%20Pohreb",
       "youtube": "https://www.youtube.com/results?search_query=Richard%20Hronsk%C3%BD%20Pohreb",
       "deezer": "https://www.deezer.com/album/793657921",
-      "apple": "https://music.apple.com/us/album/pohreb/1828752122?uo=4"
+      "apple": "https://music.apple.com/us/album/pohreb/1828752122?uo=4",
+      "tidal": "https://tidal.com/album/450116371"
     },
     "embed": {
       "provider": "apple",
@@ -18143,7 +18255,8 @@
       "soundcloud": "https://soundcloud.com/search?q=Jeebus%20Meanwhile...On%20The%20Outside",
       "youtube": "https://www.youtube.com/results?search_query=Jeebus%20Meanwhile...On%20The%20Outside",
       "deezer": "https://www.deezer.com/album/784252131",
-      "apple": "https://music.apple.com/us/album/meanwhile-on-the-outside-ep/1825213916?uo=4"
+      "apple": "https://music.apple.com/us/album/meanwhile-on-the-outside-ep/1825213916?uo=4",
+      "tidal": "https://tidal.com/album/446580447"
     },
     "embed": {
       "provider": "apple",
@@ -20537,12 +20650,13 @@
       "spotify": "https://open.spotify.com/search/feeo%20The%20Mountain",
       "soundcloud": "https://soundcloud.com/search?q=feeo%20The%20Mountain",
       "youtube": "https://www.youtube.com/results?search_query=feeo%20The%20Mountain",
-      "deezer": "https://www.deezer.com/album/775219011"
+      "deezer": "https://www.deezer.com/album/775219011",
+      "apple": "https://music.apple.com/us/album/the-mountain-single/1821684930?uo=4"
     },
     "embed": {
-      "provider": "deezer",
-      "src": "https://widget.deezer.com/widget/light/album/775219011",
-      "height": 300
+      "provider": "apple",
+      "src": "https://embed.music.apple.com/us/album/1821684930?theme=light",
+      "height": 450
     },
     "musicVideoUrl": null,
     "status": "pending",
