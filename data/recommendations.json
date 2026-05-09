@@ -1755,6 +1755,33 @@
     "pressMentions": []
   },
   {
+    "id": "lone-bloodygreen",
+    "type": "album",
+    "artist": "Lone",
+    "title": "BloodyGreen",
+    "label": "",
+    "releaseDate": "2026-05-05",
+    "description": "Lone returns to album length, the Nottingham producer still operating in that bright, rave-archival lane between Boards of Canada warmth and old hardcore euphoria. Label details TBC; file alongside the R&S run.",
+    "tags": [],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=Lone%20BloodyGreen&item_type=a",
+      "spotify": "https://open.spotify.com/search/Lone%20BloodyGreen",
+      "soundcloud": "https://soundcloud.com/search?q=Lone%20BloodyGreen",
+      "youtube": "https://www.youtube.com/results?search_query=Lone%20BloodyGreen"
+    },
+    "embed": null,
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": null,
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
     "id": "kendrick-lamar-everybody-sensitive",
     "type": "album",
     "artist": "Kendrick Lamar",
@@ -16930,7 +16957,7 @@
     "title": "Achlys",
     "label": "Shelter Press",
     "releaseDate": "2025-10-24",
-    "description": "",
+    "description": "Eight pieces of slow, attenuated ambient from the Barn Owl half on Shelter Press, where minimalism tends to mean room tone and patience rather than melodic relief. For anyone tracking the label's quieter Sarah Davachi end.",
     "tags": [
       "electronic"
     ],
@@ -16964,7 +16991,7 @@
     "title": "Love Me! EP",
     "label": "Lapsus Music",
     "releaseDate": "2025-10-24",
-    "description": "",
+    "description": "Two cuts of trim, functional minimal techno from Bizza, landing on Lapsus in their usual digital-EP format. Built for the floor rather than the headphones, with the restraint the label tends to favor.",
     "tags": [
       "electronic"
     ],
@@ -16998,7 +17025,7 @@
     "title": "I Trust Pain",
     "label": "Fixed Abode",
     "releaseDate": "2025-10-24",
-    "description": "",
+    "description": "Eleven tracks of Culver's bleak spoken-word electronics, this time pulled toward drill's grey weight rather than industrial abstraction. Limited 12\" on his own Fixed Abode, and still recognisably the same voice muttering over the rubble.",
     "tags": [
       "electronic"
     ],
@@ -17032,7 +17059,7 @@
     "title": "Live Laugh Love",
     "label": "Warner Records",
     "releaseDate": "2025-10-24",
-    "description": "",
+    "description": "Eleven tracks of Earl in his familiar register: low-stakes drums, dust on the loops, verses delivered like he's the only one in the room. Warner pressing it to vinyl, which still feels slightly incongruous for music this interior.",
     "tags": [
       "hip hop"
     ],
@@ -17066,7 +17093,7 @@
     "title": "We're Here All The Time",
     "label": "Theory Therapy",
     "releaseDate": "2025-10-24",
-    "description": "",
+    "description": "Seven tracks of fractured breaks and ambient drift on Theory Therapy, sitting where IDM's nervous edits meet a softer, hazier middle distance. For listeners who still pull out Lone or early Bibio when the mood calls for it.",
     "tags": [
       "electronic"
     ],
@@ -17101,7 +17128,7 @@
     "title": "Don't Trust The Government",
     "label": "Double Helix Records (2)",
     "releaseDate": "2025-10-24",
-    "description": "",
+    "description": "Three tracks of plain-spoken punk from 84 Days on Double Helix, the title doing most of the rhetorical work before a note plays. Functional, unfussy, exactly what the sleeve advertises.",
     "tags": [
       "rock"
     ],
@@ -17135,7 +17162,7 @@
     "title": "Golden Microphone From Rainy Sicily",
     "label": "Muscut",
     "releaseDate": "2025-10-24",
-    "description": "",
+    "description": "Ten pieces of ambient dub and tape experiment from the Ukrainian sound artist, reissued on Kyiv's Muscut in a limited pressing. Shelve near Andrew Pekler if you need a pointer.",
     "tags": [
       "electronic"
     ],
@@ -17169,7 +17196,7 @@
     "title": "In Transit",
     "label": "FELT (3)",
     "releaseDate": "2025-10-24",
-    "description": "",
+    "description": "Six pieces of ambient on FELT, an outfit whose catalogue tends toward the patient and unhurried. Filed under project-name-as-album-title, which suits the contents.",
     "tags": [
       "electronic"
     ],
@@ -17203,7 +17230,7 @@
     "title": "The Spectral Citadel",
     "label": "Ilian Tape",
     "releaseDate": "2025-10-23",
-    "description": "",
+    "description": "Four tracks of techno on Ilian Tape, a label whose Munich house style has long favoured rugged drum programming over rigid grids. Sits comfortably alongside the Zenker Brothers end of the catalogue.",
     "tags": [
       "electronic"
     ],
@@ -17238,7 +17265,7 @@
     "title": "Rhythm Immortal",
     "label": "Modern Love",
     "releaseDate": "2025-10-22",
-    "description": "",
+    "description": "Eight tracks of percussive abstraction from Carrier on Modern Love, cut at 45 for the kind of detail the label tends to favor. Sits comfortably alongside Rainy Miller or Space Afrika on the shelf.",
     "tags": [
       "electronic"
     ],
@@ -17272,7 +17299,7 @@
     "title": "Petty Relics",
     "label": "Black Numbers",
     "releaseDate": "2025-10-17",
-    "description": "",
+    "description": "Eleven tracks of melodic punk from the Jersey lifers, landing on Black Numbers where their post-hardcore edges still get room to bruise the choruses. For anyone whose shelf already holds The Menzingers and Iron Chic.",
     "tags": [
       "rock"
     ],
@@ -17306,7 +17333,7 @@
     "title": "Nexus",
     "label": "Latency",
     "releaseDate": "2025-10-17",
-    "description": "",
+    "description": "Mortazavi's tombak and daf work continues to translate cleanly into electronic terms, here across nine pieces for Latency. The label suits him: percussion treated less as rhythm than as a tunable surface.",
     "tags": [
       "electronic"
     ],
@@ -17340,7 +17367,7 @@
     "title": "Classics",
     "label": "R & S Records",
     "releaseDate": "2025-10-17",
-    "description": "",
+    "description": "R & S brings the early Aphex compendium back to vinyl, remastered, gathering the rave-adjacent hardcore and bleep work that sat alongside the more contemplative SAW material. Useful context for anyone who only knows the later catalogue.",
     "tags": [
       "electronic"
     ],
@@ -17374,7 +17401,7 @@
     "title": "Meet The Family",
     "label": "SBÄM Records",
     "releaseDate": "2025-10-17",
-    "description": "",
+    "description": "Long-running Sydney punks back in print via Austria's SBÄM, eighteen tracks of the fast, sour, deeply unserious melodic punk they've made their trade for three decades. For the NOFX shelf, no apologies.",
     "tags": [
       "rock"
     ],
@@ -32127,7 +32154,8 @@
       "soundcloud": "https://soundcloud.com/search?q=MFSB%20Love%20Is%20The%20Message",
       "youtube": "https://www.youtube.com/results?search_query=MFSB%20Love%20Is%20The%20Message",
       "deezer": "https://www.deezer.com/album/112780",
-      "apple": "https://music.apple.com/us/album/love-is-the-message-the-best-of-mfsb/169959473?uo=4"
+      "apple": "https://music.apple.com/us/album/love-is-the-message-the-best-of-mfsb/169959473?uo=4",
+      "tidal": "https://tidal.com/album/1632490"
     },
     "embed": {
       "provider": "apple",
@@ -32197,7 +32225,8 @@
       "soundcloud": "https://soundcloud.com/search?q=Terno%20Rei%20Nenhuma%20Estrela",
       "youtube": "https://www.youtube.com/results?search_query=Terno%20Rei%20Nenhuma%20Estrela",
       "deezer": "https://www.deezer.com/album/725886371",
-      "apple": "https://music.apple.com/us/album/nenhuma-estrela/1801570568?uo=4"
+      "apple": "https://music.apple.com/us/album/nenhuma-estrela/1801570568?uo=4",
+      "tidal": "https://tidal.com/album/423363883"
     },
     "embed": {
       "provider": "apple",
@@ -32259,7 +32288,8 @@
       "soundcloud": "https://soundcloud.com/search?q=Andy%20Stott%20Faith%20In%20Strangers",
       "youtube": "https://www.youtube.com/results?search_query=Andy%20Stott%20Faith%20In%20Strangers",
       "deezer": "https://www.deezer.com/album/106861382",
-      "apple": "https://music.apple.com/us/album/faith-in-strangers/929273639?uo=4"
+      "apple": "https://music.apple.com/us/album/faith-in-strangers/929273639?uo=4",
+      "tidal": "https://tidal.com/album/176029639"
     },
     "embed": {
       "provider": "apple",
@@ -32322,7 +32352,8 @@
       "spotify": "https://open.spotify.com/search/Gleemer%20End%20Of%20The%20Nail",
       "soundcloud": "https://soundcloud.com/search?q=Gleemer%20End%20Of%20The%20Nail",
       "youtube": "https://www.youtube.com/results?search_query=Gleemer%20End%20Of%20The%20Nail",
-      "apple": "https://music.apple.com/us/album/end-of-the-nail/1765161026?uo=4"
+      "apple": "https://music.apple.com/us/album/end-of-the-nail/1765161026?uo=4",
+      "tidal": "https://tidal.com/album/383771584"
     },
     "embed": {
       "provider": "apple",
@@ -32389,7 +32420,8 @@
       "bandcamp": "https://rivalconsoles.bandcamp.com/track/if-not-now",
       "spotify": "https://open.spotify.com/search/Rival%20Consoles%20If%20Not%20Now",
       "soundcloud": "https://soundcloud.com/search?q=Rival%20Consoles%20If%20Not%20Now",
-      "youtube": "https://www.youtube.com/results?search_query=Rival%20Consoles%20If%20Not%20Now"
+      "youtube": "https://www.youtube.com/results?search_query=Rival%20Consoles%20If%20Not%20Now",
+      "tidal": "https://tidal.com/album/401800679"
     },
     "embed": {
       "provider": "apple",
@@ -32423,7 +32455,8 @@
       "soundcloud": "https://soundcloud.com/search?q=Earl%20Sweatshirt%20Feet%20Of%20Clay",
       "youtube": "https://www.youtube.com/results?search_query=Earl%20Sweatshirt%20Feet%20Of%20Clay",
       "deezer": "https://www.deezer.com/album/116822372",
-      "apple": "https://music.apple.com/us/album/feet-of-clay-deluxe/1523465473?uo=4"
+      "apple": "https://music.apple.com/us/album/feet-of-clay-deluxe/1523465473?uo=4",
+      "tidal": "https://tidal.com/album/148573332"
     },
     "embed": {
       "provider": "apple",
@@ -32457,7 +32490,8 @@
       "spotify": "https://open.spotify.com/search/Travellers%20Rest%20Midwinters%20Garrote",
       "soundcloud": "https://soundcloud.com/search?q=Travellers%20Rest%20Midwinters%20Garrote",
       "youtube": "https://www.youtube.com/results?search_query=Travellers%20Rest%20Midwinters%20Garrote",
-      "apple": "https://music.apple.com/us/album/midwinters-garrote/1790936937?uo=4"
+      "apple": "https://music.apple.com/us/album/midwinters-garrote/1790936937?uo=4",
+      "tidal": "https://tidal.com/album/411682306"
     },
     "embed": {
       "provider": "apple",
@@ -32489,7 +32523,8 @@
       "spotify": "https://open.spotify.com/search/TSVI%20%26%20DJ%20Plead%20Caldo%20Verde",
       "soundcloud": "https://soundcloud.com/search?q=TSVI%20%26%20DJ%20Plead%20Caldo%20Verde",
       "youtube": "https://www.youtube.com/results?search_query=TSVI%20%26%20DJ%20Plead%20Caldo%20Verde",
-      "deezer": "https://www.deezer.com/album/653894631"
+      "deezer": "https://www.deezer.com/album/653894631",
+      "tidal": "https://tidal.com/album/392049632"
     },
     "embed": {
       "provider": "deezer",
@@ -32523,7 +32558,8 @@
       "spotify": "https://open.spotify.com/search/Noisefarm%20Lose%20Yourself",
       "soundcloud": "https://soundcloud.com/search?q=Noisefarm%20Lose%20Yourself",
       "youtube": "https://www.youtube.com/results?search_query=Noisefarm%20Lose%20Yourself",
-      "deezer": "https://www.deezer.com/album/673329811"
+      "deezer": "https://www.deezer.com/album/673329811",
+      "tidal": "https://tidal.com/album/401031410"
     },
     "embed": {
       "provider": "deezer",
@@ -32653,7 +32689,8 @@
       "soundcloud": "https://soundcloud.com/search?q=pondlicker%20Soft%20Focus",
       "youtube": "https://www.youtube.com/results?search_query=pondlicker%20Soft%20Focus",
       "deezer": "https://www.deezer.com/album/667036441",
-      "apple": "https://music.apple.com/us/album/soft-focus-ep/1778537956?uo=4"
+      "apple": "https://music.apple.com/us/album/soft-focus-ep/1778537956?uo=4",
+      "tidal": "https://tidal.com/album/398273142"
     },
     "embed": {
       "provider": "apple",
@@ -32719,7 +32756,8 @@
       "spotify": "https://open.spotify.com/search/Beltrac%20Tek%20Code",
       "soundcloud": "https://soundcloud.com/search?q=Beltrac%20Tek%20Code",
       "youtube": "https://www.youtube.com/results?search_query=Beltrac%20Tek%20Code",
-      "apple": "https://music.apple.com/us/album/tek-code-ep/1782427259?uo=4"
+      "apple": "https://music.apple.com/us/album/tek-code-ep/1782427259?uo=4",
+      "tidal": "https://tidal.com/album/402543408"
     },
     "embed": {
       "provider": "apple",
@@ -32753,7 +32791,8 @@
       "spotify": "https://open.spotify.com/search/Relaxer%20(2)%20Break",
       "soundcloud": "https://soundcloud.com/search?q=Relaxer%20(2)%20Break",
       "youtube": "https://www.youtube.com/results?search_query=Relaxer%20(2)%20Break",
-      "apple": "https://music.apple.com/us/album/break/1774809783?uo=4"
+      "apple": "https://music.apple.com/us/album/break/1774809783?uo=4",
+      "tidal": "https://tidal.com/album/394195418"
     },
     "embed": {
       "provider": "apple",
@@ -32816,7 +32855,8 @@
       "spotify": "https://open.spotify.com/search/Chizawa%20Q%20Xenoverse",
       "soundcloud": "https://soundcloud.com/search?q=Chizawa%20Q%20Xenoverse",
       "youtube": "https://www.youtube.com/results?search_query=Chizawa%20Q%20Xenoverse",
-      "apple": "https://music.apple.com/us/album/xenoverse/1764300522?uo=4"
+      "apple": "https://music.apple.com/us/album/xenoverse/1764300522?uo=4",
+      "tidal": "https://tidal.com/album/382745890"
     },
     "embed": {
       "provider": "apple",
@@ -32850,7 +32890,8 @@
       "spotify": "https://open.spotify.com/search/Fan%20Club%20Orchestra%20VL_Stay",
       "soundcloud": "https://soundcloud.com/search?q=Fan%20Club%20Orchestra%20VL_Stay",
       "youtube": "https://www.youtube.com/results?search_query=Fan%20Club%20Orchestra%20VL_Stay",
-      "apple": "https://music.apple.com/us/album/vl-stay/1778070992?uo=4"
+      "apple": "https://music.apple.com/us/album/vl-stay/1778070992?uo=4",
+      "tidal": "https://tidal.com/album/397806573"
     },
     "embed": {
       "provider": "apple",
@@ -32885,7 +32926,8 @@
       "soundcloud": "https://soundcloud.com/search?q=Djrum%20Meaning's%20Edge",
       "youtube": "https://www.youtube.com/results?search_query=Djrum%20Meaning's%20Edge",
       "deezer": "https://www.deezer.com/album/639110261",
-      "apple": "https://music.apple.com/us/album/meanings-edge/1766762534?uo=4"
+      "apple": "https://music.apple.com/us/album/meanings-edge/1766762534?uo=4",
+      "tidal": "https://tidal.com/album/385530580"
     },
     "embed": {
       "provider": "apple",
@@ -37829,12 +37871,13 @@
       "spotify": "https://open.spotify.com/search/Lanark%20Artefax%20Metallur",
       "soundcloud": "https://soundcloud.com/search?q=Lanark%20Artefax%20Metallur",
       "youtube": "https://www.youtube.com/results?search_query=Lanark%20Artefax%20Metallur",
-      "deezer": "https://www.deezer.com/album/550345002"
+      "deezer": "https://www.deezer.com/album/550345002",
+      "apple": "https://music.apple.com/us/album/metallur-ep/1732090384?uo=4"
     },
     "embed": {
-      "provider": "deezer",
-      "src": "https://widget.deezer.com/widget/light/album/550345002",
-      "height": 300
+      "provider": "apple",
+      "src": "https://embed.music.apple.com/us/album/1732090384?theme=light",
+      "height": 450
     },
     "musicVideoUrl": null,
     "status": "pending",
@@ -39172,12 +39215,13 @@
       "spotify": "https://open.spotify.com/search/Jasmine%20Wood%20Piano%20Reverb",
       "soundcloud": "https://soundcloud.com/search?q=Jasmine%20Wood%20Piano%20Reverb",
       "youtube": "https://www.youtube.com/results?search_query=Jasmine%20Wood%20Piano%20Reverb",
-      "deezer": "https://www.deezer.com/album/977963551"
+      "deezer": "https://www.deezer.com/album/977963551",
+      "apple": "https://music.apple.com/us/album/piano-reverb/1726001565?uo=4"
     },
     "embed": {
-      "provider": "deezer",
-      "src": "https://widget.deezer.com/widget/light/album/977963551",
-      "height": 300
+      "provider": "apple",
+      "src": "https://embed.music.apple.com/us/album/1726001565?theme=light",
+      "height": 450
     },
     "musicVideoUrl": null,
     "status": "pending",
@@ -41186,12 +41230,13 @@
       "spotify": "https://open.spotify.com/search/YHWH%20Nailgun%20Castrato%20Raw%20(Fullback)",
       "soundcloud": "https://soundcloud.com/search?q=YHWH%20Nailgun%20Castrato%20Raw%20(Fullback)",
       "youtube": "https://www.youtube.com/results?search_query=YHWH%20Nailgun%20Castrato%20Raw%20(Fullback)",
-      "deezer": "https://www.deezer.com/album/680838021"
+      "deezer": "https://www.deezer.com/album/680838021",
+      "apple": "https://music.apple.com/us/album/castrato-raw-fullback-single/1783397409?uo=4"
     },
     "embed": {
-      "provider": "deezer",
-      "src": "https://widget.deezer.com/widget/light/album/680838021",
-      "height": 300
+      "provider": "apple",
+      "src": "https://embed.music.apple.com/us/album/1783397409?theme=light",
+      "height": 450
     },
     "musicVideoUrl": null,
     "status": "pending",
@@ -41342,12 +41387,13 @@
       "spotify": "https://open.spotify.com/search/V%2FZ%20Suono%20Assente",
       "soundcloud": "https://soundcloud.com/search?q=V%2FZ%20Suono%20Assente",
       "youtube": "https://www.youtube.com/results?search_query=V%2FZ%20Suono%20Assente",
-      "deezer": "https://www.deezer.com/album/434913257"
+      "deezer": "https://www.deezer.com/album/434913257",
+      "apple": "https://music.apple.com/us/album/suono-assente/1684938653?uo=4"
     },
     "embed": {
-      "provider": "deezer",
-      "src": "https://widget.deezer.com/widget/light/album/434913257",
-      "height": 300
+      "provider": "apple",
+      "src": "https://embed.music.apple.com/us/album/1684938653?theme=light",
+      "height": 450
     },
     "musicVideoUrl": null,
     "status": "pending",
@@ -41407,12 +41453,13 @@
       "spotify": "https://open.spotify.com/search/Minor%20Science%20064",
       "soundcloud": "https://soundcloud.com/search?q=Minor%20Science%20064",
       "youtube": "https://www.youtube.com/results?search_query=Minor%20Science%20064",
-      "deezer": "https://www.deezer.com/album/420055457"
+      "deezer": "https://www.deezer.com/album/420055457",
+      "apple": "https://music.apple.com/us/album/064-single/1678283752?uo=4"
     },
     "embed": {
-      "provider": "deezer",
-      "src": "https://widget.deezer.com/widget/light/album/420055457",
-      "height": 300
+      "provider": "apple",
+      "src": "https://embed.music.apple.com/us/album/1678283752?theme=light",
+      "height": 450
     },
     "musicVideoUrl": null,
     "status": "pending",
@@ -41439,12 +41486,13 @@
       "spotify": "https://open.spotify.com/search/Anunaku%20063",
       "soundcloud": "https://soundcloud.com/search?q=Anunaku%20063",
       "youtube": "https://www.youtube.com/results?search_query=Anunaku%20063",
-      "deezer": "https://www.deezer.com/album/412423337"
+      "deezer": "https://www.deezer.com/album/412423337",
+      "apple": "https://music.apple.com/us/album/063/1674769761?uo=4"
     },
     "embed": {
-      "provider": "deezer",
-      "src": "https://widget.deezer.com/widget/light/album/412423337",
-      "height": 300
+      "provider": "apple",
+      "src": "https://embed.music.apple.com/us/album/1674769761?theme=light",
+      "height": 450
     },
     "musicVideoUrl": null,
     "status": "pending",
@@ -41471,12 +41519,13 @@
       "spotify": "https://open.spotify.com/search/Joanne%20Robertson%20Blue%20Car",
       "soundcloud": "https://soundcloud.com/search?q=Joanne%20Robertson%20Blue%20Car",
       "youtube": "https://www.youtube.com/results?search_query=Joanne%20Robertson%20Blue%20Car",
-      "deezer": "https://www.deezer.com/album/402381837"
+      "deezer": "https://www.deezer.com/album/402381837",
+      "apple": "https://music.apple.com/us/album/blue-car/1669003169?uo=4"
     },
     "embed": {
-      "provider": "deezer",
-      "src": "https://widget.deezer.com/widget/light/album/402381837",
-      "height": 300
+      "provider": "apple",
+      "src": "https://embed.music.apple.com/us/album/1669003169?theme=light",
+      "height": 450
     },
     "musicVideoUrl": null,
     "status": "pending",
@@ -41505,12 +41554,13 @@
       "spotify": "https://open.spotify.com/search/Pavel%20Milyakov%20project%20Mirrors",
       "soundcloud": "https://soundcloud.com/search?q=Pavel%20Milyakov%20project%20Mirrors",
       "youtube": "https://www.youtube.com/results?search_query=Pavel%20Milyakov%20project%20Mirrors",
-      "deezer": "https://www.deezer.com/album/388618967"
+      "deezer": "https://www.deezer.com/album/388618967",
+      "apple": "https://music.apple.com/us/album/project-mirrors/1660788630?uo=4"
     },
     "embed": {
-      "provider": "deezer",
-      "src": "https://widget.deezer.com/widget/light/album/388618967",
-      "height": 300
+      "provider": "apple",
+      "src": "https://embed.music.apple.com/us/album/1660788630?theme=light",
+      "height": 450
     },
     "musicVideoUrl": null,
     "status": "pending",
@@ -41570,12 +41620,13 @@
       "spotify": "https://open.spotify.com/search/Olan%20Monk%20Dubplate%2008",
       "soundcloud": "https://soundcloud.com/search?q=Olan%20Monk%20Dubplate%2008",
       "youtube": "https://www.youtube.com/results?search_query=Olan%20Monk%20Dubplate%2008",
-      "deezer": "https://www.deezer.com/album/375738167"
+      "deezer": "https://www.deezer.com/album/375738167",
+      "apple": "https://music.apple.com/us/album/dubplate-08-single/1654730747?uo=4"
     },
     "embed": {
-      "provider": "deezer",
-      "src": "https://widget.deezer.com/widget/light/album/375738167",
-      "height": 300
+      "provider": "apple",
+      "src": "https://embed.music.apple.com/us/album/1654730747?theme=light",
+      "height": 450
     },
     "musicVideoUrl": null,
     "status": "pending",
@@ -41730,12 +41781,13 @@
       "spotify": "https://open.spotify.com/search/Pessimist%20Blue%2009",
       "soundcloud": "https://soundcloud.com/search?q=Pessimist%20Blue%2009",
       "youtube": "https://www.youtube.com/results?search_query=Pessimist%20Blue%2009",
-      "deezer": "https://www.deezer.com/album/335969357"
+      "deezer": "https://www.deezer.com/album/335969357",
+      "apple": "https://music.apple.com/us/album/blue-09-single/1634590744?uo=4"
     },
     "embed": {
-      "provider": "deezer",
-      "src": "https://widget.deezer.com/widget/light/album/335969357",
-      "height": 300
+      "provider": "apple",
+      "src": "https://embed.music.apple.com/us/album/1634590744?theme=light",
+      "height": 450
     },
     "musicVideoUrl": null,
     "status": "pending",
@@ -41880,12 +41932,13 @@
       "spotify": "https://open.spotify.com/search/IVVVO%20Bleached%20Butterfly",
       "soundcloud": "https://soundcloud.com/search?q=IVVVO%20Bleached%20Butterfly",
       "youtube": "https://www.youtube.com/results?search_query=IVVVO%20Bleached%20Butterfly",
-      "deezer": "https://www.deezer.com/album/970682001"
+      "deezer": "https://www.deezer.com/album/970682001",
+      "apple": "https://music.apple.com/us/album/bleached-butterfly/1895653515?uo=4"
     },
     "embed": {
-      "provider": "deezer",
-      "src": "https://widget.deezer.com/widget/light/album/970682001",
-      "height": 300
+      "provider": "apple",
+      "src": "https://embed.music.apple.com/us/album/1895653515?theme=light",
+      "height": 450
     },
     "musicVideoUrl": null,
     "status": "pending",
@@ -41976,12 +42029,13 @@
       "spotify": "https://open.spotify.com/search/SKY%20H1%20Azure",
       "soundcloud": "https://soundcloud.com/search?q=SKY%20H1%20Azure",
       "youtube": "https://www.youtube.com/results?search_query=SKY%20H1%20Azure",
-      "deezer": "https://www.deezer.com/album/970607121"
+      "deezer": "https://www.deezer.com/album/970607121",
+      "apple": "https://music.apple.com/us/album/azure/1895643094?uo=4"
     },
     "embed": {
-      "provider": "deezer",
-      "src": "https://widget.deezer.com/widget/light/album/970607121",
-      "height": 300
+      "provider": "apple",
+      "src": "https://embed.music.apple.com/us/album/1895643094?theme=light",
+      "height": 450
     },
     "musicVideoUrl": null,
     "status": "pending",
@@ -42095,12 +42149,13 @@
       "spotify": "https://open.spotify.com/search/Christoph%20de%20Babalon%20044%20(Hilf%20Dir%20Selbst!)",
       "soundcloud": "https://soundcloud.com/search?q=Christoph%20de%20Babalon%20044%20(Hilf%20Dir%20Selbst!)",
       "youtube": "https://www.youtube.com/results?search_query=Christoph%20de%20Babalon%20044%20(Hilf%20Dir%20Selbst!)",
-      "deezer": "https://www.deezer.com/album/255503692"
+      "deezer": "https://www.deezer.com/album/255503692",
+      "apple": "https://music.apple.com/us/album/044-hilf-dir-selbst-ep/1583753409?uo=4"
     },
     "embed": {
-      "provider": "deezer",
-      "src": "https://widget.deezer.com/widget/light/album/255503692",
-      "height": 300
+      "provider": "apple",
+      "src": "https://embed.music.apple.com/us/album/1583753409?theme=light",
+      "height": 450
     },
     "musicVideoUrl": null,
     "status": "pending",
@@ -42288,12 +42343,13 @@
       "spotify": "https://open.spotify.com/search/james%20K%20036",
       "soundcloud": "https://soundcloud.com/search?q=james%20K%20036",
       "youtube": "https://www.youtube.com/results?search_query=james%20K%20036",
-      "deezer": "https://www.deezer.com/album/257699742"
+      "deezer": "https://www.deezer.com/album/257699742",
+      "apple": "https://music.apple.com/us/album/036-ep/1585301123?uo=4"
     },
     "embed": {
-      "provider": "deezer",
-      "src": "https://widget.deezer.com/widget/light/album/257699742",
-      "height": 300
+      "provider": "apple",
+      "src": "https://embed.music.apple.com/us/album/1585301123?theme=light",
+      "height": 450
     },
     "musicVideoUrl": null,
     "status": "pending",
@@ -42354,12 +42410,13 @@
       "spotify": "https://open.spotify.com/search/Venus%20Ex%20Machina%20Lux",
       "soundcloud": "https://soundcloud.com/search?q=Venus%20Ex%20Machina%20Lux",
       "youtube": "https://www.youtube.com/results?search_query=Venus%20Ex%20Machina%20Lux",
-      "deezer": "https://www.deezer.com/album/963803501"
+      "deezer": "https://www.deezer.com/album/963803501",
+      "apple": "https://music.apple.com/us/album/lux/1894266034?uo=4"
     },
     "embed": {
-      "provider": "deezer",
-      "src": "https://widget.deezer.com/widget/light/album/963803501",
-      "height": 300
+      "provider": "apple",
+      "src": "https://embed.music.apple.com/us/album/1894266034?theme=light",
+      "height": 450
     },
     "musicVideoUrl": null,
     "status": "pending",
@@ -42418,12 +42475,13 @@
       "spotify": "https://open.spotify.com/search/Avalon%20Emerson%20040",
       "soundcloud": "https://soundcloud.com/search?q=Avalon%20Emerson%20040",
       "youtube": "https://www.youtube.com/results?search_query=Avalon%20Emerson%20040",
-      "deezer": "https://www.deezer.com/album/963104951"
+      "deezer": "https://www.deezer.com/album/963104951",
+      "apple": "https://music.apple.com/us/album/040-ep/1894029029?uo=4"
     },
     "embed": {
-      "provider": "deezer",
-      "src": "https://widget.deezer.com/widget/light/album/963104951",
-      "height": 300
+      "provider": "apple",
+      "src": "https://embed.music.apple.com/us/album/1894029029?theme=light",
+      "height": 450
     },
     "musicVideoUrl": null,
     "status": "pending",
@@ -42536,12 +42594,13 @@
       "spotify": "https://open.spotify.com/search/Dylan%20Henner%20The%20Invention%20of%20the%20Human",
       "soundcloud": "https://soundcloud.com/search?q=Dylan%20Henner%20The%20Invention%20of%20the%20Human",
       "youtube": "https://www.youtube.com/results?search_query=Dylan%20Henner%20The%20Invention%20of%20the%20Human",
-      "deezer": "https://www.deezer.com/album/257699722"
+      "deezer": "https://www.deezer.com/album/257699722",
+      "apple": "https://music.apple.com/us/album/the-invention-of-the-human/1585299004?uo=4"
     },
     "embed": {
-      "provider": "deezer",
-      "src": "https://widget.deezer.com/widget/light/album/257699722",
-      "height": 300
+      "provider": "apple",
+      "src": "https://embed.music.apple.com/us/album/1585299004?theme=light",
+      "height": 450
     },
     "musicVideoUrl": null,
     "status": "pending",
@@ -42627,12 +42686,13 @@
       "spotify": "https://open.spotify.com/search/S%C3%98S%20Gunver%20Ryberg%20Whities%20030",
       "soundcloud": "https://soundcloud.com/search?q=S%C3%98S%20Gunver%20Ryberg%20Whities%20030",
       "youtube": "https://www.youtube.com/results?search_query=S%C3%98S%20Gunver%20Ryberg%20Whities%20030",
-      "deezer": "https://www.deezer.com/album/261162052"
+      "deezer": "https://www.deezer.com/album/261162052",
+      "apple": "https://music.apple.com/us/album/whities-030-ep/1587343290?uo=4"
     },
     "embed": {
-      "provider": "deezer",
-      "src": "https://widget.deezer.com/widget/light/album/261162052",
-      "height": 300
+      "provider": "apple",
+      "src": "https://embed.music.apple.com/us/album/1587343290?theme=light",
+      "height": 450
     },
     "musicVideoUrl": null,
     "status": "pending",
@@ -42659,12 +42719,13 @@
       "spotify": "https://open.spotify.com/search/Lord%20Of%20The%20Isles%20Whities%20029",
       "soundcloud": "https://soundcloud.com/search?q=Lord%20Of%20The%20Isles%20Whities%20029",
       "youtube": "https://www.youtube.com/results?search_query=Lord%20Of%20The%20Isles%20Whities%20029",
-      "deezer": "https://www.deezer.com/album/257699662"
+      "deezer": "https://www.deezer.com/album/257699662",
+      "apple": "https://music.apple.com/us/album/whities-029-ep/1585301148?uo=4"
     },
     "embed": {
-      "provider": "deezer",
-      "src": "https://widget.deezer.com/widget/light/album/257699662",
-      "height": 300
+      "provider": "apple",
+      "src": "https://embed.music.apple.com/us/album/1585301148?theme=light",
+      "height": 450
     },
     "musicVideoUrl": null,
     "status": "pending",
@@ -42723,12 +42784,13 @@
       "spotify": "https://open.spotify.com/search/Leif%20Music%20for%20Screen%20Tests",
       "soundcloud": "https://soundcloud.com/search?q=Leif%20Music%20for%20Screen%20Tests",
       "youtube": "https://www.youtube.com/results?search_query=Leif%20Music%20for%20Screen%20Tests",
-      "deezer": "https://www.deezer.com/album/257704962"
+      "deezer": "https://www.deezer.com/album/257704962",
+      "apple": "https://music.apple.com/us/album/music-for-screen-tests/1585305573?uo=4"
     },
     "embed": {
-      "provider": "deezer",
-      "src": "https://widget.deezer.com/widget/light/album/257704962",
-      "height": 300
+      "provider": "apple",
+      "src": "https://embed.music.apple.com/us/album/1585305573?theme=light",
+      "height": 450
     },
     "musicVideoUrl": null,
     "status": "pending",
@@ -42755,12 +42817,13 @@
       "spotify": "https://open.spotify.com/search/JASSS%20Whities%20027",
       "soundcloud": "https://soundcloud.com/search?q=JASSS%20Whities%20027",
       "youtube": "https://www.youtube.com/results?search_query=JASSS%20Whities%20027",
-      "deezer": "https://www.deezer.com/album/257704672"
+      "deezer": "https://www.deezer.com/album/257704672",
+      "apple": "https://music.apple.com/us/album/whities-027-single/1585300830?uo=4"
     },
     "embed": {
-      "provider": "deezer",
-      "src": "https://widget.deezer.com/widget/light/album/257704672",
-      "height": 300
+      "provider": "apple",
+      "src": "https://embed.music.apple.com/us/album/1585300830?theme=light",
+      "height": 450
     },
     "musicVideoUrl": null,
     "status": "pending",
@@ -42846,12 +42909,13 @@
       "spotify": "https://open.spotify.com/search/Happa%20Blue%2007",
       "soundcloud": "https://soundcloud.com/search?q=Happa%20Blue%2007",
       "youtube": "https://www.youtube.com/results?search_query=Happa%20Blue%2007",
-      "deezer": "https://www.deezer.com/album/257704982"
+      "deezer": "https://www.deezer.com/album/257704982",
+      "apple": "https://music.apple.com/us/album/blue-07-single/1585305033?uo=4"
     },
     "embed": {
-      "provider": "deezer",
-      "src": "https://widget.deezer.com/widget/light/album/257704982",
-      "height": 300
+      "provider": "apple",
+      "src": "https://embed.music.apple.com/us/album/1585305033?theme=light",
+      "height": 450
     },
     "musicVideoUrl": null,
     "status": "pending",
@@ -43028,12 +43092,13 @@
       "spotify": "https://open.spotify.com/search/Forest%20Drive%20West%20Blue%2005",
       "soundcloud": "https://soundcloud.com/search?q=Forest%20Drive%20West%20Blue%2005",
       "youtube": "https://www.youtube.com/results?search_query=Forest%20Drive%20West%20Blue%2005",
-      "deezer": "https://www.deezer.com/album/257705442"
+      "deezer": "https://www.deezer.com/album/257705442",
+      "apple": "https://music.apple.com/us/album/blue-05-single/1585304762?uo=4"
     },
     "embed": {
-      "provider": "deezer",
-      "src": "https://widget.deezer.com/widget/light/album/257705442",
-      "height": 300
+      "provider": "apple",
+      "src": "https://embed.music.apple.com/us/album/1585304762?theme=light",
+      "height": 450
     },
     "musicVideoUrl": null,
     "status": "pending",
@@ -43092,12 +43157,13 @@
       "spotify": "https://open.spotify.com/search/Leif%20Loom%20Dream",
       "soundcloud": "https://soundcloud.com/search?q=Leif%20Loom%20Dream",
       "youtube": "https://www.youtube.com/results?search_query=Leif%20Loom%20Dream",
-      "deezer": "https://www.deezer.com/album/257707962"
+      "deezer": "https://www.deezer.com/album/257707962",
+      "apple": "https://music.apple.com/us/album/loom-dream/1585305198?uo=4"
     },
     "embed": {
-      "provider": "deezer",
-      "src": "https://widget.deezer.com/widget/light/album/257707962",
-      "height": 300
+      "provider": "apple",
+      "src": "https://embed.music.apple.com/us/album/1585305198?theme=light",
+      "height": 450
     },
     "musicVideoUrl": null,
     "status": "pending",
@@ -43156,12 +43222,13 @@
       "spotify": "https://open.spotify.com/search/Bambounou%20Whities%20021",
       "soundcloud": "https://soundcloud.com/search?q=Bambounou%20Whities%20021",
       "youtube": "https://www.youtube.com/results?search_query=Bambounou%20Whities%20021",
-      "deezer": "https://www.deezer.com/album/963104941"
+      "deezer": "https://www.deezer.com/album/963104941",
+      "apple": "https://music.apple.com/us/album/whities-021-single/1894028560?uo=4"
     },
     "embed": {
-      "provider": "deezer",
-      "src": "https://widget.deezer.com/widget/light/album/963104941",
-      "height": 300
+      "provider": "apple",
+      "src": "https://embed.music.apple.com/us/album/1894028560?theme=light",
+      "height": 450
     },
     "musicVideoUrl": null,
     "status": "pending",
