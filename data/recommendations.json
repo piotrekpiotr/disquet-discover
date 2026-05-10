@@ -471,6 +471,33 @@
     ]
   },
   {
+    "id": "cinna-peyghamy-music-for-tombak-amp-synth",
+    "type": "album",
+    "artist": "Cinna Peyghamy",
+    "title": "Music For Tombak &amp; Synth",
+    "label": "",
+    "releaseDate": "2026-06-05",
+    "description": "Peyghamy continues his ongoing dialogue between Persian frame drum and modular electronics, a pairing he has made his own across recent years. The title tells you the brief; the execution is where the interest sits.",
+    "tags": [],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=Cinna%20Peyghamy%20Music%20For%20Tombak%20%26amp%3B%20Synth&item_type=a",
+      "spotify": "https://open.spotify.com/search/Cinna%20Peyghamy%20Music%20For%20Tombak%20%26amp%3B%20Synth",
+      "soundcloud": "https://soundcloud.com/search?q=Cinna%20Peyghamy%20Music%20For%20Tombak%20%26amp%3B%20Synth",
+      "youtube": "https://www.youtube.com/results?search_query=Cinna%20Peyghamy%20Music%20For%20Tombak%20%26amp%3B%20Synth"
+    },
+    "embed": null,
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": null,
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
     "id": "boards-of-canada-inferno",
     "type": "album",
     "artist": "Boards of Canada",
@@ -1546,6 +1573,38 @@
     "status": "pending",
     "approvedAt": null,
     "coverImageUrl": null,
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
+    "id": "felicia-atkinson-les-yeux-ii",
+    "type": "single",
+    "artist": "Felicia Atkinson",
+    "title": "Les Yeux II",
+    "label": "",
+    "releaseDate": "2026-05-06",
+    "description": "Atkinson continues in the whispered, piano-and-voice register her Shelter Press work has lived in for years, where spoken French sits inside softly disturbed electronics. A standalone piece rather than an album cut.",
+    "tags": [],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=Felicia%20Atkinson%20Les%20Yeux%20II&item_type=a",
+      "spotify": "https://open.spotify.com/search/Felicia%20Atkinson%20Les%20Yeux%20II",
+      "soundcloud": "https://soundcloud.com/search?q=Felicia%20Atkinson%20Les%20Yeux%20II",
+      "youtube": "https://www.youtube.com/results?search_query=Felicia%20Atkinson%20Les%20Yeux%20II",
+      "deezer": "https://www.deezer.com/album/966372831"
+    },
+    "embed": {
+      "provider": "deezer",
+      "src": "https://widget.deezer.com/widget/light/album/966372831",
+      "height": 300
+    },
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://cdn-images.dzcdn.net/images/cover/891c7cb11841e539459e623165b7d532/1000x1000-000000-80-0-0.jpg",
     "cover": {
       "bg": "#111110",
       "fg": "#f2efe8",
@@ -17956,7 +18015,7 @@
     "title": "Puente Del Mundo",
     "label": "Son de Isla Verde",
     "releaseDate": "2025-10-09",
-    "description": "",
+    "description": "Self-released salsa from Son de Isla Verde, a single arriving without much fanfare and squarely in the traditional brass-and-clave register rather than any crossover lane. One for the salsa dura shelf.",
     "tags": [
       "latin"
     ],
@@ -17991,7 +18050,7 @@
     "title": "Nocturnal Rainforest",
     "label": "Pan (3)",
     "releaseDate": "2025-10-03",
-    "description": "",
+    "description": "Three-way summit on PAN: Masami Akita's noise grain, Cavalera's percussive instinct, and Bernocchi's dark-ambient long-form thinking, condensed into two pieces. Drone and abrasion treated as the same material.",
     "tags": [
       "electronic"
     ],
@@ -18027,7 +18086,7 @@
     "title": "Don't Care. Didn't Ask.",
     "label": "Snappy Little Numbers",
     "releaseDate": "2025-10-03",
-    "description": "",
+    "description": "Eleven tracks of Colorado punk on Snappy Little Numbers, where Cheap Perfume continue trading in the kind of plainspoken, politically pissed-off hooks that don't need decoding. Shelve near Mannequin Pussy if you need a pointer.",
     "tags": [
       "rock"
     ],
@@ -18062,7 +18121,7 @@
     "title": "Mahal",
     "label": "Ninja Tune",
     "releaseDate": "2025-10-03",
-    "description": "",
+    "description": "The masked Melbourne trio's Ninja Tune EP gets a repress, five tracks of looping eastern-tinged guitar figures and live-band funk that sit closer to library psych than to anything currently passing for fusion. For the Khruangbin shelf, but tighter wound.",
     "tags": [
       "rock"
     ],
@@ -18098,7 +18157,7 @@
     "title": "Sun Archive",
     "label": "100% Silk",
     "releaseDate": "2025-10-03",
-    "description": "",
+    "description": "Akasha System returns to 100% Silk for an eight-track downtempo set on cassette, holding to the sort of melodic, sun-faded electronics the label has long traded in. For anyone still reaching for Octo Octa's quieter detours.",
     "tags": [
       "electronic"
     ],
@@ -18133,7 +18192,7 @@
     "title": "Houzz 14",
     "label": "Balmat",
     "releaseDate": "2025-10-03",
-    "description": "",
+    "description": "Mike Paradinas drops a one-tracker on Balmat, a label more often associated with placid ambient than IDM brain-knots. Worth hearing what happens when a Planet Mu lifer turns up at that address.",
     "tags": [
       "electronic"
     ],
@@ -18168,7 +18227,7 @@
     "title": "The Creep",
     "label": "Ideologic Organ",
     "releaseDate": "2025-10-02",
-    "description": "",
+    "description": "Ideologic Organ reissues Slomo's long-form drone behemoth on a limited LP, two tracks of slow-burning doom-ambient that sit closer to a tectonic shift than a song. For anyone whose Sunn O))) shelf has room for the more meditative end.",
     "tags": [
       "electronic"
     ],
@@ -18204,7 +18263,7 @@
     "title": "Xylem Tube EP",
     "label": "R & S Records",
     "releaseDate": "2025-10-01",
-    "description": "",
+    "description": "R & S returns to the early Richard D. James catalogue, six tracks of acid-spiked breakbeat techno from the period when his vocabulary was still being assembled in real time. Remastered 12\", for anyone whose Analogue Bubblebath copies are getting tired.",
     "tags": [
       "electronic"
     ],
@@ -18241,7 +18300,7 @@
     "title": "Pohreb",
     "label": "mappa",
     "releaseDate": "2025-10-01",
-    "description": "",
+    "description": "Thirteen pieces of field recording, drone and ambient assembled for mappa, the Slovak imprint that treats documentary sound and composition as the same gesture. Sits comfortably alongside Jonáš Gruska's own catalogue work.",
     "tags": [
       "electronic"
     ],
@@ -18277,7 +18336,7 @@
     "title": "Jon Savage's 1986-1990 (Rollin' Under The Melody)",
     "label": "Ace",
     "releaseDate": "2025-09-26",
-    "description": "",
+    "description": "The writer-curator's late-80s sweep for Ace, 32 tracks pulling indie rock, early house and hip hop into one frame as it was actually heard at the time. More cultural diary than genre exercise.",
     "tags": [
       "electronic"
     ],
@@ -18306,7 +18365,7 @@
     "title": "Meanwhile...On The Outside",
     "label": "Death By Numbers",
     "releaseDate": "2025-09-26",
-    "description": "",
+    "description": "Four tracks of hypnagogic pop drift from Jeebus on Death By Numbers, sitting where bedroom new age leaks into something closer to indie songwriting. For listeners who keep going back to the softer corners of the 100% Silk catalog.",
     "tags": [
       "electronic"
     ],
@@ -18342,7 +18401,7 @@
     "title": "Behind Closed Doors/The Shadow Beneath...",
     "label": "Death By Numbers",
     "releaseDate": "2025-09-26",
-    "description": "",
+    "description": "Eight tracks of bossa, easy listening and indie pop filed under electronic, which tells you most of what you need about the angle Death By Numbers is taking here. Lounge moves rerouted through a producer's ear rather than a crate-digger's.",
     "tags": [
       "electronic"
     ],
@@ -18371,7 +18430,7 @@
     "title": "Find Your Way Back Home",
     "label": "Double Helix Records (2)",
     "releaseDate": "2025-09-26",
-    "description": "",
+    "description": "Two-track punk single from 84 Days on Double Helix, digital only. Short, direct, no frills attached.",
     "tags": [
       "rock"
     ],
@@ -28601,7 +28660,8 @@
       "soundcloud": "https://soundcloud.com/search?q=DJ%20Python%20Mas%20Amable",
       "youtube": "https://www.youtube.com/results?search_query=DJ%20Python%20Mas%20Amable",
       "deezer": "https://www.deezer.com/album/352632017",
-      "apple": "https://music.apple.com/us/album/mas-amable/1863045058?uo=4"
+      "apple": "https://music.apple.com/us/album/mas-amable/1863045058?uo=4",
+      "tidal": "https://tidal.com/album/246210225"
     },
     "embed": {
       "provider": "apple",
@@ -28635,7 +28695,8 @@
       "spotify": "https://open.spotify.com/search/Maciej%20Polak%201977",
       "soundcloud": "https://soundcloud.com/search?q=Maciej%20Polak%201977",
       "youtube": "https://www.youtube.com/results?search_query=Maciej%20Polak%201977",
-      "deezer": "https://www.deezer.com/album/697921311"
+      "deezer": "https://www.deezer.com/album/697921311",
+      "tidal": "https://tidal.com/album/411508749"
     },
     "embed": {
       "provider": "deezer",
@@ -28669,7 +28730,8 @@
       "spotify": "https://open.spotify.com/search/Maciek%20Polak%201977",
       "soundcloud": "https://soundcloud.com/search?q=Maciek%20Polak%201977",
       "youtube": "https://www.youtube.com/results?search_query=Maciek%20Polak%201977",
-      "apple": "https://music.apple.com/us/album/1977/1790414663?uo=4"
+      "apple": "https://music.apple.com/us/album/1977/1790414663?uo=4",
+      "tidal": "https://tidal.com/album/411508749"
     },
     "embed": {
       "provider": "apple",
@@ -28703,7 +28765,8 @@
       "spotify": "https://open.spotify.com/search/Rebuke%20(2)%20Things%20One%20Shouldn't%20Have%20To%20Say",
       "soundcloud": "https://soundcloud.com/search?q=Rebuke%20(2)%20Things%20One%20Shouldn't%20Have%20To%20Say",
       "youtube": "https://www.youtube.com/results?search_query=Rebuke%20(2)%20Things%20One%20Shouldn't%20Have%20To%20Say",
-      "deezer": "https://www.deezer.com/album/678862941"
+      "deezer": "https://www.deezer.com/album/678862941",
+      "tidal": "https://tidal.com/album/403357682"
     },
     "embed": {
       "provider": "deezer",
@@ -28737,7 +28800,8 @@
       "spotify": "https://open.spotify.com/search/Sharon%20Van%20Etten%20%26%20The%20Attachment%20Theory%20Sharon%20Van%20Etten%20%26%20The%20Attachment%20Theory",
       "soundcloud": "https://soundcloud.com/search?q=Sharon%20Van%20Etten%20%26%20The%20Attachment%20Theory%20Sharon%20Van%20Etten%20%26%20The%20Attachment%20Theory",
       "youtube": "https://www.youtube.com/results?search_query=Sharon%20Van%20Etten%20%26%20The%20Attachment%20Theory%20Sharon%20Van%20Etten%20%26%20The%20Attachment%20Theory",
-      "deezer": "https://www.deezer.com/album/648650981"
+      "deezer": "https://www.deezer.com/album/648650981",
+      "tidal": "https://tidal.com/album/389812256"
     },
     "embed": {
       "provider": "deezer",
@@ -28772,7 +28836,8 @@
       "soundcloud": "https://soundcloud.com/search?q=Fabiano%20Nascimento%20Solstice%20Concert",
       "youtube": "https://www.youtube.com/results?search_query=Fabiano%20Nascimento%20Solstice%20Concert",
       "deezer": "https://www.deezer.com/album/672995571",
-      "apple": "https://music.apple.com/us/album/solstice-concert-live/1780843827?uo=4"
+      "apple": "https://music.apple.com/us/album/solstice-concert-live/1780843827?uo=4",
+      "tidal": "https://tidal.com/album/400874396"
     },
     "embed": {
       "provider": "apple",
@@ -28807,7 +28872,8 @@
       "soundcloud": "https://soundcloud.com/search?q=Fabiano%20do%20Nascimento%20Solstice%20Concert",
       "youtube": "https://www.youtube.com/results?search_query=Fabiano%20do%20Nascimento%20Solstice%20Concert",
       "deezer": "https://www.deezer.com/album/672995571",
-      "apple": "https://music.apple.com/us/album/solstice-concert-live/1780843827?uo=4"
+      "apple": "https://music.apple.com/us/album/solstice-concert-live/1780843827?uo=4",
+      "tidal": "https://tidal.com/album/400874396"
     },
     "embed": {
       "provider": "apple",
@@ -28842,7 +28908,8 @@
       "soundcloud": "https://soundcloud.com/search?q=HTRK%20Marry%20Me%20Tonight",
       "youtube": "https://www.youtube.com/results?search_query=HTRK%20Marry%20Me%20Tonight",
       "deezer": "https://www.deezer.com/album/658295601",
-      "apple": "https://music.apple.com/us/album/marry-me-tonight/307767501?uo=4"
+      "apple": "https://music.apple.com/us/album/marry-me-tonight/307767501?uo=4",
+      "tidal": "https://tidal.com/album/6121693"
     },
     "embed": {
       "provider": "apple",
@@ -28877,7 +28944,8 @@
       "soundcloud": "https://soundcloud.com/search?q=Clima%20(9)%20Transient%20State",
       "youtube": "https://www.youtube.com/results?search_query=Clima%20(9)%20Transient%20State",
       "deezer": "https://www.deezer.com/album/691483121",
-      "apple": "https://music.apple.com/us/album/transient-state-ep/1788861964?uo=4"
+      "apple": "https://music.apple.com/us/album/transient-state-ep/1788861964?uo=4",
+      "tidal": "https://tidal.com/album/408697503"
     },
     "embed": {
       "provider": "apple",
@@ -28912,7 +28980,8 @@
       "soundcloud": "https://soundcloud.com/search?q=Teleself%20Eternal%20Game",
       "youtube": "https://www.youtube.com/results?search_query=Teleself%20Eternal%20Game",
       "deezer": "https://www.deezer.com/album/693949461",
-      "apple": "https://music.apple.com/us/album/eternal-game-ep/1788885033?uo=4"
+      "apple": "https://music.apple.com/us/album/eternal-game-ep/1788885033?uo=4",
+      "tidal": "https://tidal.com/album/409540488"
     },
     "embed": {
       "provider": "apple",
@@ -29008,7 +29077,8 @@
       "spotify": "https://open.spotify.com/search/Obliveon%20From%20This%20Day%20Forward",
       "soundcloud": "https://soundcloud.com/search?q=Obliveon%20From%20This%20Day%20Forward",
       "youtube": "https://www.youtube.com/results?search_query=Obliveon%20From%20This%20Day%20Forward",
-      "apple": "https://music.apple.com/us/album/from-this-day-forward-remastered-2023/1744764774?uo=4"
+      "apple": "https://music.apple.com/us/album/from-this-day-forward-remastered-2023/1744764774?uo=4",
+      "tidal": "https://tidal.com/album/361182945"
     },
     "embed": {
       "provider": "apple",
@@ -29042,7 +29112,8 @@
       "spotify": "https://open.spotify.com/search/Civilistj%C3%A4vel!%20F%C3%B6ljd",
       "soundcloud": "https://soundcloud.com/search?q=Civilistj%C3%A4vel!%20F%C3%B6ljd",
       "youtube": "https://www.youtube.com/results?search_query=Civilistj%C3%A4vel!%20F%C3%B6ljd",
-      "apple": "https://music.apple.com/us/album/f%C3%B6ljd/1794389557?uo=4"
+      "apple": "https://music.apple.com/us/album/f%C3%B6ljd/1794389557?uo=4",
+      "tidal": "https://tidal.com/album/415669677"
     },
     "embed": {
       "provider": "apple",
@@ -29140,7 +29211,8 @@
       "spotify": "https://open.spotify.com/search/Usof%20Stay%20Longer",
       "soundcloud": "https://soundcloud.com/search?q=Usof%20Stay%20Longer",
       "youtube": "https://www.youtube.com/results?search_query=Usof%20Stay%20Longer",
-      "apple": "https://music.apple.com/us/album/stay-longer/1791213789?uo=4"
+      "apple": "https://music.apple.com/us/album/stay-longer/1791213789?uo=4",
+      "tidal": "https://tidal.com/album/411901647"
     },
     "embed": {
       "provider": "apple",
@@ -29243,7 +29315,8 @@
       "soundcloud": "https://soundcloud.com/search?q=Joe%20McPhee%20I'm%20Just%20Say'n",
       "youtube": "https://www.youtube.com/results?search_query=Joe%20McPhee%20I'm%20Just%20Say'n",
       "deezer": "https://www.deezer.com/album/695840101",
-      "apple": "https://music.apple.com/us/album/im-just-sayn/1789837670?uo=4"
+      "apple": "https://music.apple.com/us/album/im-just-sayn/1789837670?uo=4",
+      "tidal": "https://tidal.com/album/410881941"
     },
     "embed": {
       "provider": "apple",
@@ -29278,7 +29351,8 @@
       "soundcloud": "https://soundcloud.com/search?q=Maribou%20State%20Hallucinating%20Love",
       "youtube": "https://www.youtube.com/results?search_query=Maribou%20State%20Hallucinating%20Love",
       "deezer": "https://www.deezer.com/album/651022381",
-      "apple": "https://music.apple.com/us/album/hallucinating-love/1716587925?uo=4"
+      "apple": "https://music.apple.com/us/album/hallucinating-love/1716587925?uo=4",
+      "tidal": "https://tidal.com/album/390810607"
     },
     "embed": {
       "provider": "apple",
@@ -29310,7 +29384,8 @@
       "spotify": "https://open.spotify.com/search/Wojciech%20Rusin%20Honey%20for%20the%20Ants",
       "soundcloud": "https://soundcloud.com/search?q=Wojciech%20Rusin%20Honey%20for%20the%20Ants",
       "youtube": "https://www.youtube.com/results?search_query=Wojciech%20Rusin%20Honey%20for%20the%20Ants",
-      "deezer": "https://www.deezer.com/album/672433881"
+      "deezer": "https://www.deezer.com/album/672433881",
+      "tidal": "https://tidal.com/album/400516635"
     },
     "embed": {
       "provider": "deezer",
@@ -29345,7 +29420,8 @@
       "soundcloud": "https://soundcloud.com/search?q=Sunareht%20Youth%20Remixes",
       "youtube": "https://www.youtube.com/results?search_query=Sunareht%20Youth%20Remixes",
       "deezer": "https://www.deezer.com/album/695586631",
-      "apple": "https://music.apple.com/us/album/youth-remixes-ep/1789758309?uo=4"
+      "apple": "https://music.apple.com/us/album/youth-remixes-ep/1789758309?uo=4",
+      "tidal": "https://tidal.com/album/410765449"
     },
     "embed": {
       "provider": "apple",
