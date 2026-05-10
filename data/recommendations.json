@@ -1385,6 +1385,40 @@
     "pressMentions": []
   },
   {
+    "id": "boards-of-canada-prophecy-at-1420-mhz",
+    "type": "single",
+    "artist": "Boards of Canada",
+    "title": "Prophecy At 1420 MHz",
+    "label": "Warp Records",
+    "releaseDate": "2026-05-07",
+    "description": "Two tracks from the Sandison brothers on Warp, the title nodding to the hydrogen line and the kind of deep-space numerology they have always quietly traded in. File alongside the warmer, more decayed end of their catalogue.",
+    "tags": [],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=Boards%20of%20Canada%20Prophecy%20At%201420%20MHz&item_type=a",
+      "spotify": "https://open.spotify.com/search/Boards%20of%20Canada%20Prophecy%20At%201420%20MHz",
+      "soundcloud": "https://soundcloud.com/search?q=Boards%20of%20Canada%20Prophecy%20At%201420%20MHz",
+      "youtube": "https://www.youtube.com/results?search_query=Boards%20of%20Canada%20Prophecy%20At%201420%20MHz",
+      "deezer": "https://www.deezer.com/album/977762521"
+    },
+    "embed": {
+      "provider": "deezer",
+      "src": "https://widget.deezer.com/widget/light/album/977762521",
+      "height": 300
+    },
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://cdn-images.dzcdn.net/images/cover/6242a9c9afd2e09e9529cd87285eb527/1000x1000-000000-80-0-0.jpg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": [
+      "pitchfork_tracks"
+    ]
+  },
+  {
     "id": "gyrofield-your-fight",
     "type": "ep",
     "artist": "gyrofield",
@@ -17435,7 +17469,7 @@
     "title": "Mov. Amplio",
     "label": "Isla Visión",
     "releaseDate": "2025-10-16",
-    "description": "",
+    "description": "Ten tracks of electroacoustic abstraction from El Piyi on Isla Visión, the Spanish imprint that's quietly become a reliable home for this kind of patient, processed listening. More room-tone than rhythm; shelve near the experimental end of the catalogue.",
     "tags": [
       "electronic"
     ],
@@ -17469,7 +17503,7 @@
     "title": "These Exact Days, These Peaceful Nights",
     "label": "Snappy Little Numbers",
     "releaseDate": "2025-10-14",
-    "description": "",
+    "description": "Twelve songs from the Edmonton songwriter for Denver's Snappy Little Numbers, sitting where acoustic folk rock meets the label's punk lineage. For anyone whose shelf already runs from Tim Barry to Chris Farren.",
     "tags": [
       "rock"
     ],
@@ -17503,7 +17537,7 @@
     "title": "Broken Glass Arch",
     "label": "R & S Records",
     "releaseDate": "2025-10-14",
-    "description": "",
+    "description": "Five tracks of Djrum's signature breadth, ambient drift sharing a sleeve with techno proper, repressed on R & S. For anyone who wore out Portrait With Firewood.",
     "tags": [
       "electronic"
     ],
@@ -17537,7 +17571,7 @@
     "title": "Fumarola",
     "label": "mappa",
     "releaseDate": "2025-10-14",
-    "description": "",
+    "description": "Eight pieces of slow, abstract drone from Kult Masek and Petr Vrba on Slovakia's mappa, the kind of patient acoustic-electronic smear the label has built its catalogue around. For anyone who keeps returning to Jonáš Gruska's own outings.",
     "tags": [
       "electronic"
     ],
@@ -17572,7 +17606,7 @@
     "title": "Beyond Knowhere",
     "label": "Good Morning Tapes",
     "releaseDate": "2025-10-10",
-    "description": "",
+    "description": "Three tracks of acid-laced Goa trance on Good Morning Tapes, a label more often associated with horizontal ambient than 303 workouts. The pairing is the interesting part; file alongside the recent Khotin if you want a softer landing strip nearby.",
     "tags": [
       "electronic"
     ],
@@ -17601,7 +17635,7 @@
     "title": "Goodness",
     "label": "AD 93",
     "releaseDate": "2025-10-10",
-    "description": "",
+    "description": "Eleven tracks of vocal-led ambient and experimental electronics from feeo on AD 93, the label continuing its quiet run of releases that sit between song-form and texture. For anyone tracking Coby Sey's corner of the catalogue.",
     "tags": [
       "electronic"
     ],
@@ -17639,7 +17673,7 @@
     "title": "Don’t Look For Answers",
     "label": "AMF Records (3)",
     "releaseDate": "2025-10-10",
-    "description": "",
+    "description": "Nine tracks of guitar-forward indie rock from Arkayla, pressed as a limited 12\" on AMF. Shelve with the contemporary end of the genre rather than its revivalist wing.",
     "tags": [
       "rock"
     ],
@@ -17674,7 +17708,7 @@
     "title": "Aura Reworks",
     "label": "Erased Tapes Records",
     "releaseDate": "2025-10-10",
-    "description": "",
+    "description": "Erased Tapes hands the Hatis Noit songbook over for reworking, her solo-vocal source material pulled into the ambient and experimental orbit the label tends to occupy. For listeners who keep returning to Aura rather than moving on from it.",
     "tags": [
       "electronic"
     ],
@@ -17709,7 +17743,7 @@
     "title": "Through Friendly Waters",
     "label": "Lapsus Records",
     "releaseDate": "2025-10-10",
-    "description": "",
+    "description": "Lapsus pulls a Kettel album back into print on remastered vinyl, eleven tracks of the melodic, sentimental IDM the Dutch producer has worked in for two decades. For anyone whose Rephlex shelf is missing a softer counterpoint.",
     "tags": [
       "electronic"
     ],
@@ -17744,7 +17778,7 @@
     "title": "Through Friendly Waters (20th Anniversary Edition)",
     "label": "Lapsus Records",
     "releaseDate": "2025-10-10",
-    "description": "",
+    "description": "Lapsus reissues Kettel's 2005 album of melodic, music-box IDM, remastered across eleven tracks. Still one of the warmer documents from that Sending Orbs/Rephlex axis, for anyone whose Bibio shelf could use deepening.",
     "tags": [
       "electronic"
     ],
@@ -17780,7 +17814,7 @@
     "title": "Wait A Minute",
     "label": "Lapsus Music",
     "releaseDate": "2025-10-10",
-    "description": "",
+    "description": "Two cuts of unfussy minimal techno from Mattia Red on Lapsus Music, the Barcelona label still mining the dry, functional end of the genre. Tool music for the second room.",
     "tags": [
       "electronic"
     ],
@@ -17814,7 +17848,7 @@
     "title": "Humming Fuzz",
     "label": "Knekelhuis",
     "releaseDate": "2025-10-10",
-    "description": "",
+    "description": "Seven tracks for Knekelhuis that sit awkwardly across acid rock, krautrock motorik and slow house, which is roughly where the label has been digging lately. Less a fusion than a shrug between rooms; for anyone who got on with the recent Lifted-adjacent end of the catalogue.",
     "tags": [
       "electronic"
     ],
@@ -17850,7 +17884,7 @@
     "title": "Configuration Support",
     "label": "Ilian Tape",
     "releaseDate": "2025-10-09",
-    "description": "",
+    "description": "Four tracks of Dario Zenker on the family label, which is to say bruised, off-grid techno cut with the broken-beat looseness Ilian Tape has made its house style. Sits comfortably next to anything Skee Mask has filed under the same logo.",
     "tags": [
       "electronic"
     ],
@@ -17886,7 +17920,7 @@
     "title": "Rest Here",
     "label": "NAFF",
     "releaseDate": "2025-10-09",
-    "description": "",
+    "description": "Twelve tracks of neofolk-leaning downtempo from Car Culture on NAFF, where acoustic textures sit comfortably alongside the label's usual leftfield electronic bent. Pressed to LP for those who like their pastoral music a little smudged.",
     "tags": [
       "electronic"
     ],
