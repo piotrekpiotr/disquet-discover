@@ -8,7 +8,7 @@
     "titleHints": [
       "“Addicted” [ft. Fivio Foreign]"
     ],
-    "mentions": 26,
+    "mentions": 27,
     "sourceLinks": {
       "pitchfork_tracks": "https://pitchfork.com/reviews/tracks/41-addicted-ft-fivio-foreign/"
     },
@@ -70,7 +70,7 @@
     "titleHints": [
       "LIVING TYPE DANGEROUS Vol. 1"
     ],
-    "mentions": 38,
+    "mentions": 39,
     "sourceLinks": {
       "pitchfork_albums": "https://pitchfork.com/reviews/albums/starker-living-type-dangerous-vol-1/",
       "pitchfork_best_albums": "https://pitchfork.com/reviews/albums/starker-living-type-dangerous-vol-1/"
@@ -95,7 +95,7 @@
     "titleHints": [
       "“Wisco”"
     ],
-    "mentions": 52,
+    "mentions": 54,
     "sourceLinks": {
       "pitchfork_tracks": "https://pitchfork.com/reviews/tracks/ppp-piezo-dj-plead-dj-python-wisco/",
       "pitchfork_best_tracks": "https://pitchfork.com/reviews/tracks/ppp-piezo-dj-plead-dj-python-wisco/"
@@ -114,7 +114,7 @@
     "titleHints": [
       "“Yo Baby”"
     ],
-    "mentions": 52,
+    "mentions": 54,
     "sourceLinks": {
       "pitchfork_tracks": "https://pitchfork.com/reviews/tracks/414junglebaby-yo-baby/",
       "pitchfork_best_tracks": "https://pitchfork.com/reviews/tracks/414junglebaby-yo-baby/"
@@ -132,7 +132,7 @@
     "titleHints": [
       "“Up Down”"
     ],
-    "mentions": 52,
+    "mentions": 54,
     "sourceLinks": {
       "pitchfork_tracks": "https://pitchfork.com/reviews/tracks/lightris-up-down/",
       "pitchfork_best_tracks": "https://pitchfork.com/reviews/tracks/lightris-up-down/"
@@ -156,7 +156,7 @@
     "titleHints": [
       "“Oh! Give me something to believe in”"
     ],
-    "mentions": 47,
+    "mentions": 48,
     "sourceLinks": {
       "pitchfork_tracks": "https://pitchfork.com/reviews/tracks/zayok-oh-give-me-something-to-believe-in/",
       "pitchfork_best_tracks": "https://pitchfork.com/reviews/tracks/zayok-oh-give-me-something-to-believe-in/"
@@ -208,7 +208,7 @@
       "An Undying Love For A Burning World",
       "An Undying Love for a Burning World"
     ],
-    "mentions": 33,
+    "mentions": 34,
     "sourceLinks": {
       "pitchfork_best_albums": "https://pitchfork.com/reviews/albums/neurosis-an-undying-love-for-a-burning-world/",
       "bandcamp-discover": "https://neurosis.bandcamp.com/album/an-undying-love-for-a-burning-world"
@@ -237,7 +237,7 @@
     "titleHints": [
       "Split With Klay Thompson, Exit From Moulin Rouge!"
     ],
-    "mentions": 25,
+    "mentions": 26,
     "sourceLinks": {
       "stereogum": "https://stereogum.com/2497163/megan-thee-stallion-announces-split-with-klay-thompson-exit-from-moulin-rouge/news/"
     },
@@ -261,7 +261,7 @@
       "Sd-3",
       "SD-3"
     ],
-    "mentions": 35,
+    "mentions": 36,
     "sourceLinks": {
       "pitchfork_albums": "https://pitchfork.com/reviews/albums/loukeman-sd-3/",
       "ra": "https://ra.co/reviews/36350"
@@ -287,7 +287,7 @@
     "titleHints": [
       "“Midnight Sun (Girls Trip)”"
     ],
-    "mentions": 36,
+    "mentions": 38,
     "sourceLinks": {
       "pitchfork_tracks": "https://pitchfork.com/reviews/tracks/zara-larsson-pinkpanthress-midnight-sun-girls-trip/",
       "pitchfork_best_tracks": "https://pitchfork.com/reviews/tracks/zara-larsson-pinkpanthress-midnight-sun-girls-trip/"
@@ -305,7 +305,7 @@
     "titleHints": [
       "American Football (LP4)"
     ],
-    "mentions": 32,
+    "mentions": 33,
     "bandcampUrl": "https://americanfootball.bandcamp.com/album/american-football-lp4",
     "sourceLinks": {
       "bandcamp-discover": "https://americanfootball.bandcamp.com/album/american-football-lp4",
@@ -334,7 +334,7 @@
     "titleHints": [
       "FENIAN"
     ],
-    "mentions": 33,
+    "mentions": 34,
     "sourceLinks": {
       "pitchfork_albums": "https://pitchfork.com/reviews/albums/kneecap-fenian/",
       "bandcamp_daily": "https://daily.bandcamp.com/album-of-the-day/kneecap-fenian-review"
@@ -359,7 +359,7 @@
     "titleHints": [
       "Setting"
     ],
-    "mentions": 11,
+    "mentions": 12,
     "sourceLinks": {
       "pitchfork_albums": "https://pitchfork.com/reviews/albums/setting-setting/",
       "bandcamp-discover": "https://setting.bandcamp.com/album/setting"
@@ -380,23 +380,53 @@
   },
   "Various Artists": {
     "firstSeen": "2026-04-25",
-    "lastSeen": "2026-05-07",
+    "lastSeen": "2026-05-11",
     "sources": [
       "ra",
       "bandcamp-discover"
     ],
     "titleHints": [
+      "House of House",
       "Cyberpunk 2077 Future Sound of Night City",
       "Djax-Up-Beats 1990-2005: Volume 1 - The Acid Trip",
       "When There Is No Sun"
     ],
-    "mentions": 12,
-    "bandcampUrl": "https://wereleasewhateverthefuckwewantrecords.bandcamp.com/album/cyberpunk-2077-future-sound-of-night-city",
+    "mentions": 13,
+    "bandcampUrl": "https://heistrecordings.bandcamp.com/album/house-of-house",
     "sourceLinks": {
-      "bandcamp-discover": "https://wereleasewhateverthefuckwewantrecords.bandcamp.com/album/cyberpunk-2077-future-sound-of-night-city"
+      "bandcamp-discover": "https://heistrecordings.bandcamp.com/album/house-of-house"
     },
     "primaryTitle": "Cyberpunk 2077 Future Sound of Night City",
-    "latestArticleDate": "2026-03-06",
+    "latestArticleDate": "2026-04-09",
+    "poolTags": [
+      "ambient",
+      "deep house",
+      "downtempo",
+      "drone",
+      "dub",
+      "dub techno",
+      "dubstep",
+      "electronic"
+    ]
+  },
+  "Cola": {
+    "firstSeen": "2026-05-10",
+    "lastSeen": "2026-05-11",
+    "sources": [
+      "pitchfork_albums",
+      "bandcamp-discover"
+    ],
+    "titleHints": [
+      "Cost of Living Adjustment"
+    ],
+    "mentions": 4,
+    "sourceLinks": {
+      "pitchfork_albums": "https://pitchfork.com/reviews/albums/cola-cost-of-living-adjustment/",
+      "bandcamp-discover": "https://bandcola.bandcamp.com/album/cost-of-living-adjustment"
+    },
+    "primaryTitle": "Cost of Living Adjustment",
+    "latestArticleDate": "2026-05-07",
+    "bandcampUrl": "https://bandcola.bandcamp.com/album/cost-of-living-adjustment",
     "poolTags": [
       "ambient",
       "deep house",
@@ -448,7 +478,7 @@
     "titleHints": [
       "Concrète Waves"
     ],
-    "mentions": 30,
+    "mentions": 31,
     "sourceLinks": {
       "ra": "https://ra.co/reviews/36345"
     },
@@ -464,7 +494,7 @@
     "titleHints": [
       "Written Into Changes"
     ],
-    "mentions": 30,
+    "mentions": 31,
     "sourceLinks": {
       "ra": "https://ra.co/reviews/36341"
     },
@@ -480,7 +510,7 @@
     "titleHints": [
       "Dying Is the Internet"
     ],
-    "mentions": 30,
+    "mentions": 31,
     "sourceLinks": {
       "ra": "https://ra.co/reviews/36340"
     },
@@ -496,7 +526,7 @@
     "titleHints": [
       "Prakasa"
     ],
-    "mentions": 30,
+    "mentions": 31,
     "sourceLinks": {
       "ra": "https://ra.co/reviews/36337"
     },
@@ -520,7 +550,7 @@
     "titleHints": [
       "No Lube So Rude"
     ],
-    "mentions": 30,
+    "mentions": 31,
     "sourceLinks": {
       "ra": "https://ra.co/reviews/36336"
     },
@@ -543,7 +573,7 @@
     "titleHints": [
       "15 Years of Butter Sessions"
     ],
-    "mentions": 30,
+    "mentions": 31,
     "sourceLinks": {
       "ra": "https://ra.co/reviews/36334"
     },
@@ -560,7 +590,7 @@
     "titleHints": [
       "Butterfly"
     ],
-    "mentions": 30,
+    "mentions": 31,
     "sourceLinks": {
       "ra": "https://ra.co/reviews/36333"
     },
@@ -584,7 +614,7 @@
     "titleHints": [
       "“Dum Maro Dum”"
     ],
-    "mentions": 26,
+    "mentions": 27,
     "sourceLinks": {
       "pitchfork_tracks": "https://pitchfork.com/reviews/tracks/asha-bhosle-dum-maro-dum/"
     },
@@ -608,7 +638,7 @@
     "titleHints": [
       "“Boots on the Ground”"
     ],
-    "mentions": 26,
+    "mentions": 27,
     "sourceLinks": {
       "pitchfork_tracks": "https://pitchfork.com/reviews/tracks/massive-attack-tom-waits-boots-on-the-ground/"
     },
@@ -625,7 +655,7 @@
     "titleHints": [
       "“Mob Untied”"
     ],
-    "mentions": 26,
+    "mentions": 27,
     "sourceLinks": {
       "pitchfork_tracks": "https://pitchfork.com/reviews/tracks/allstar-jr-mob-untied/"
     },
@@ -645,7 +675,7 @@
     "titleHints": [
       "“flee”"
     ],
-    "mentions": 26,
+    "mentions": 27,
     "sourceLinks": {
       "pitchfork_tracks": "https://pitchfork.com/reviews/tracks/undrcvr-hunnakay-flee/"
     },
@@ -661,7 +691,7 @@
     "titleHints": [
       "“Lived and Ive Learned”"
     ],
-    "mentions": 26,
+    "mentions": 27,
     "sourceLinks": {
       "pitchfork_tracks": "https://pitchfork.com/reviews/tracks/dyltwosix-lived-and-ive-learned/"
     },
@@ -684,7 +714,7 @@
     "titleHints": [
       "“Do the Ratchet”"
     ],
-    "mentions": 26,
+    "mentions": 27,
     "sourceLinks": {
       "pitchfork_tracks": "https://pitchfork.com/reviews/tracks/momo-dj-texas-trill-do-the-ratchet/"
     },
@@ -700,7 +730,7 @@
     "titleHints": [
       "“Fables of Faubus”"
     ],
-    "mentions": 26,
+    "mentions": 27,
     "sourceLinks": {
       "pitchfork_tracks": "https://pitchfork.com/reviews/tracks/charles-mingus-fables-of-faubus/"
     },
@@ -724,7 +754,7 @@
     "titleHints": [
       "“Golden”"
     ],
-    "mentions": 26,
+    "mentions": 27,
     "sourceLinks": {
       "pitchfork_tracks": "https://pitchfork.com/reviews/tracks/ejae-audrey-nuna-rei-ami-golden/"
     },
@@ -740,7 +770,7 @@
     "titleHints": [
       "“Ante Up (Robbing-Hoodz Theory)”"
     ],
-    "mentions": 26,
+    "mentions": 27,
     "sourceLinks": {
       "pitchfork_tracks": "https://pitchfork.com/reviews/tracks/mop-ante-up-robbing-hoodz-theory/"
     },
@@ -764,7 +794,7 @@
     "titleHints": [
       "TIGRAY FUNK"
     ],
-    "mentions": 26,
+    "mentions": 27,
     "sourceLinks": {
       "pitchfork_best_albums": "https://pitchfork.com/reviews/albums/sideshow-tigray-funk/"
     },
@@ -787,7 +817,7 @@
     "titleHints": [
       "Still Right Here"
     ],
-    "mentions": 26,
+    "mentions": 27,
     "sourceLinks": {
       "pitchfork_best_albums": "https://pitchfork.com/reviews/albums/zel-still-right-here/"
     },
@@ -809,7 +839,7 @@
     "titleHints": [
       "As of Now"
     ],
-    "mentions": 26,
+    "mentions": 27,
     "sourceLinks": {
       "pitchfork_best_albums": "https://pitchfork.com/reviews/albums/lord-jah-monte-ogbon-as-of-now/"
     },
@@ -826,7 +856,7 @@
     "titleHints": [
       "URGH"
     ],
-    "mentions": 26,
+    "mentions": 27,
     "sourceLinks": {
       "pitchfork_best_albums": "https://pitchfork.com/reviews/albums/mandy-indiana-urgh/"
     },
@@ -843,7 +873,7 @@
     "titleHints": [
       "Xavier"
     ],
-    "mentions": 26,
+    "mentions": 27,
     "sourceLinks": {
       "pitchfork_best_albums": "https://pitchfork.com/reviews/albums/xaviersobased-xavier/"
     },
@@ -866,7 +896,7 @@
     "titleHints": [
       "Peanut"
     ],
-    "mentions": 26,
+    "mentions": 27,
     "sourceLinks": {
       "pitchfork_best_albums": "https://pitchfork.com/reviews/albums/otto-benson-peanut/"
     },
@@ -890,7 +920,7 @@
       "No. 11110",
       "No. 11110 — https://wax10001.bandcamp.com/album/no-11110"
     ],
-    "mentions": 25,
+    "mentions": 26,
     "poolTags": [
       "ambient",
       "ambient-techno",
@@ -918,7 +948,7 @@
       "Caminhos de Água",
       "Caminhos de Água — https://kaatayra.bandcamp.com/album/caminhos-de-gua"
     ],
-    "mentions": 25,
+    "mentions": 26,
     "poolTags": [
       "ambient",
       "ambient-techno",
@@ -946,7 +976,7 @@
       "Paradise Metal",
       "Paradise Metal — https://heatcrimes.bandcamp.com/album/paradise-metal"
     ],
-    "mentions": 25,
+    "mentions": 26,
     "poolTags": [
       "ambient",
       "ambient-techno",
@@ -974,7 +1004,7 @@
       "Vol.II",
       "Vol.II — https://anginedepoitrine.bandcamp.com/album/vol-ii"
     ],
-    "mentions": 25,
+    "mentions": 26,
     "poolTags": [
       "ambient",
       "ambient-techno",
@@ -1002,7 +1032,7 @@
     "titleHints": [
       "Brooklyn Stories 1-5"
     ],
-    "mentions": 23,
+    "mentions": 24,
     "sourceLinks": {
       "bandcamp_daily": "https://daily.bandcamp.com/album-of-the-day/ayman-fanous-brooklyn-stories-1-5-review"
     },
@@ -1026,7 +1056,7 @@
     "titleHints": [
       "FENIAN"
     ],
-    "mentions": 23,
+    "mentions": 24,
     "bandcampUrl": "https://kneecap.bandcamp.com/album/fenian",
     "sourceLinks": {
       "bandcamp-discover": "https://kneecap.bandcamp.com/album/fenian"
@@ -1053,7 +1083,7 @@
     "titleHints": [
       "May a soft sun bless your sky while you wait for the inevitable"
     ],
-    "mentions": 22,
+    "mentions": 23,
     "sourceLinks": {
       "bandcamp_daily": "https://daily.bandcamp.com/album-of-the-day/charbel-harber-may-a-soft-sun-bless-your-sky-while-you-wait-for-the-inevitable-review"
     },
@@ -1067,7 +1097,7 @@
       "lastfm-tags"
     ],
     "titleHints": [],
-    "mentions": 21,
+    "mentions": 22,
     "poolTags": [
       "electronic",
       "electronica",
@@ -1084,7 +1114,7 @@
       "lastfm-tags"
     ],
     "titleHints": [],
-    "mentions": 21,
+    "mentions": 22,
     "poolTags": [
       "hip hop",
       "hip-hop",
@@ -1100,7 +1130,7 @@
       "lastfm-tags"
     ],
     "titleHints": [],
-    "mentions": 21,
+    "mentions": 22,
     "poolTags": [
       "ambient",
       "electronic",
@@ -1115,7 +1145,7 @@
       "lastfm-tags"
     ],
     "titleHints": [],
-    "mentions": 21,
+    "mentions": 22,
     "poolTags": [
       "hip hop",
       "hip-hop",
@@ -1131,7 +1161,7 @@
       "lastfm-tags"
     ],
     "titleHints": [],
-    "mentions": 21,
+    "mentions": 22,
     "poolTags": [
       "hip hop",
       "hip-hop",
@@ -1147,7 +1177,7 @@
       "lastfm-tags"
     ],
     "titleHints": [],
-    "mentions": 21,
+    "mentions": 22,
     "poolTags": [
       "electronic",
       "electronica",
@@ -1163,7 +1193,7 @@
       "lastfm-tags"
     ],
     "titleHints": [],
-    "mentions": 21,
+    "mentions": 22,
     "poolTags": [
       "hip hop",
       "hip-hop",
@@ -1179,7 +1209,7 @@
       "lastfm-tags"
     ],
     "titleHints": [],
-    "mentions": 21,
+    "mentions": 22,
     "poolTags": [
       "hip hop",
       "hip-hop",
@@ -1195,7 +1225,7 @@
       "lastfm-tags"
     ],
     "titleHints": [],
-    "mentions": 21,
+    "mentions": 22,
     "poolTags": [
       "hip hop",
       "hip-hop",
@@ -1210,7 +1240,7 @@
       "lastfm-tags"
     ],
     "titleHints": [],
-    "mentions": 21,
+    "mentions": 22,
     "poolTags": [
       "hip hop",
       "hip-hop",
@@ -1225,7 +1255,7 @@
       "lastfm-tags"
     ],
     "titleHints": [],
-    "mentions": 21,
+    "mentions": 22,
     "poolTags": [
       "hip hop",
       "hip-hop",
@@ -1240,7 +1270,7 @@
       "lastfm-tags"
     ],
     "titleHints": [],
-    "mentions": 21,
+    "mentions": 22,
     "poolTags": [
       "hip hop",
       "hip-hop",
@@ -1255,7 +1285,7 @@
       "lastfm-tags"
     ],
     "titleHints": [],
-    "mentions": 21,
+    "mentions": 22,
     "poolTags": [
       "hip hop",
       "hip-hop",
@@ -1270,7 +1300,7 @@
       "lastfm-tags"
     ],
     "titleHints": [],
-    "mentions": 21,
+    "mentions": 22,
     "poolTags": [
       "electronic",
       "experimental",
@@ -1285,7 +1315,7 @@
       "lastfm-tags"
     ],
     "titleHints": [],
-    "mentions": 21,
+    "mentions": 22,
     "poolTags": [
       "hip hop",
       "hip-hop",
@@ -1300,7 +1330,7 @@
       "lastfm-tags"
     ],
     "titleHints": [],
-    "mentions": 21,
+    "mentions": 22,
     "poolTags": [
       "electronic",
       "psychedelic",
@@ -1315,7 +1345,7 @@
       "lastfm-tags"
     ],
     "titleHints": [],
-    "mentions": 21,
+    "mentions": 22,
     "poolTags": [
       "hip hop",
       "hip-hop",
@@ -1330,7 +1360,7 @@
       "lastfm-tags"
     ],
     "titleHints": [],
-    "mentions": 21,
+    "mentions": 22,
     "poolTags": [
       "hip hop",
       "hip-hop",
@@ -1345,7 +1375,7 @@
       "lastfm-tags"
     ],
     "titleHints": [],
-    "mentions": 21,
+    "mentions": 22,
     "poolTags": [
       "hip hop",
       "hip-hop",
@@ -1360,7 +1390,7 @@
       "lastfm-tags"
     ],
     "titleHints": [],
-    "mentions": 21,
+    "mentions": 22,
     "poolTags": [
       "hip hop",
       "hip-hop",
@@ -1375,7 +1405,7 @@
       "lastfm-tags"
     ],
     "titleHints": [],
-    "mentions": 21,
+    "mentions": 22,
     "poolTags": [
       "idm",
       "minimal techno",
@@ -1390,7 +1420,7 @@
       "lastfm-tags"
     ],
     "titleHints": [],
-    "mentions": 21,
+    "mentions": 22,
     "poolTags": [
       "hip hop",
       "hip-hop",
@@ -1405,7 +1435,7 @@
       "lastfm-tags"
     ],
     "titleHints": [],
-    "mentions": 21,
+    "mentions": 22,
     "poolTags": [
       "ambient",
       "electronic",
@@ -1420,7 +1450,7 @@
       "lastfm-tags"
     ],
     "titleHints": [],
-    "mentions": 21,
+    "mentions": 22,
     "poolTags": [
       "hip hop",
       "hip-hop",
@@ -1435,7 +1465,7 @@
       "lastfm-tags"
     ],
     "titleHints": [],
-    "mentions": 21,
+    "mentions": 22,
     "poolTags": [
       "hip hop",
       "hip-hop",
@@ -1450,7 +1480,7 @@
       "lastfm-tags"
     ],
     "titleHints": [],
-    "mentions": 21,
+    "mentions": 22,
     "poolTags": [
       "electronic",
       "electronica",
@@ -1466,7 +1496,7 @@
       "lastfm-tags"
     ],
     "titleHints": [],
-    "mentions": 21,
+    "mentions": 22,
     "poolTags": [
       "ambient",
       "downtempo",
@@ -1482,7 +1512,7 @@
       "lastfm-tags"
     ],
     "titleHints": [],
-    "mentions": 21,
+    "mentions": 22,
     "poolTags": [
       "hip-hop",
       "rap"
@@ -1497,7 +1527,7 @@
       "lastfm-tags"
     ],
     "titleHints": [],
-    "mentions": 21,
+    "mentions": 22,
     "poolTags": [
       "hip hop",
       "hip-hop"
@@ -1512,7 +1542,7 @@
       "lastfm-tags"
     ],
     "titleHints": [],
-    "mentions": 21,
+    "mentions": 22,
     "poolTags": [
       "hip-hop",
       "rap"
@@ -1527,7 +1557,7 @@
       "lastfm-tags"
     ],
     "titleHints": [],
-    "mentions": 21,
+    "mentions": 22,
     "poolTags": [
       "electronic",
       "electronica"
@@ -1542,7 +1572,7 @@
       "lastfm-tags"
     ],
     "titleHints": [],
-    "mentions": 21,
+    "mentions": 22,
     "poolTags": [
       "hip hop",
       "rap"
@@ -1557,7 +1587,7 @@
       "lastfm-tags"
     ],
     "titleHints": [],
-    "mentions": 21,
+    "mentions": 22,
     "poolTags": [
       "hip hop",
       "hip-hop"
@@ -1572,7 +1602,7 @@
       "lastfm-tags"
     ],
     "titleHints": [],
-    "mentions": 21,
+    "mentions": 22,
     "poolTags": [
       "hip-hop",
       "rap"
@@ -1586,7 +1616,7 @@
       "lastfm-tags"
     ],
     "titleHints": [],
-    "mentions": 21,
+    "mentions": 22,
     "poolTags": [
       "glitch",
       "idm"
@@ -1601,7 +1631,7 @@
       "lastfm-tags"
     ],
     "titleHints": [],
-    "mentions": 21,
+    "mentions": 22,
     "poolTags": [
       "downtempo",
       "experimental"
@@ -1615,7 +1645,7 @@
       "lastfm-tags"
     ],
     "titleHints": [],
-    "mentions": 21,
+    "mentions": 22,
     "poolTags": [
       "minimal",
       "techno"
@@ -1630,7 +1660,7 @@
       "lastfm-tags"
     ],
     "titleHints": [],
-    "mentions": 21,
+    "mentions": 22,
     "poolTags": [
       "deep house",
       "minimal"
@@ -1644,7 +1674,7 @@
       "lastfm-tags"
     ],
     "titleHints": [],
-    "mentions": 21,
+    "mentions": 22,
     "poolTags": [
       "hip hop",
       "hip-hop",
@@ -1659,7 +1689,7 @@
       "lastfm-tags"
     ],
     "titleHints": [],
-    "mentions": 21,
+    "mentions": 22,
     "poolTags": [
       "hip-hop",
       "rap"
@@ -1673,7 +1703,7 @@
       "lastfm-tags"
     ],
     "titleHints": [],
-    "mentions": 21,
+    "mentions": 22,
     "poolTags": [
       "dub techno",
       "techno"
@@ -1687,7 +1717,7 @@
       "lastfm-tags"
     ],
     "titleHints": [],
-    "mentions": 21,
+    "mentions": 22,
     "poolTags": [
       "hip hop",
       "rap"
@@ -1701,7 +1731,7 @@
       "lastfm-tags"
     ],
     "titleHints": [],
-    "mentions": 21,
+    "mentions": 22,
     "poolTags": [
       "house",
       "techno"
@@ -1715,7 +1745,7 @@
       "lastfm-tags"
     ],
     "titleHints": [],
-    "mentions": 21,
+    "mentions": 22,
     "poolTags": [
       "ambient",
       "experimental"
@@ -1729,7 +1759,7 @@
       "lastfm-tags"
     ],
     "titleHints": [],
-    "mentions": 21,
+    "mentions": 22,
     "poolTags": [
       "electronic",
       "electronica"
@@ -1743,7 +1773,7 @@
       "lastfm-tags"
     ],
     "titleHints": [],
-    "mentions": 21,
+    "mentions": 22,
     "poolTags": [
       "hip-hop",
       "rap"
@@ -1757,7 +1787,7 @@
       "lastfm-tags"
     ],
     "titleHints": [],
-    "mentions": 21,
+    "mentions": 22,
     "poolTags": [
       "electronic",
       "electronica"
@@ -1771,7 +1801,7 @@
       "lastfm-tags"
     ],
     "titleHints": [],
-    "mentions": 21,
+    "mentions": 22,
     "poolTags": [
       "house",
       "techno"
@@ -1785,7 +1815,7 @@
       "lastfm-tags"
     ],
     "titleHints": [],
-    "mentions": 21,
+    "mentions": 22,
     "poolTags": [
       "electronic",
       "electronica"
@@ -1799,7 +1829,7 @@
       "lastfm-tags"
     ],
     "titleHints": [],
-    "mentions": 21,
+    "mentions": 22,
     "poolTags": [
       "electronic",
       "house",
@@ -1815,7 +1845,7 @@
       "lastfm-tags"
     ],
     "titleHints": [],
-    "mentions": 21,
+    "mentions": 22,
     "poolTags": [
       "deep house",
       "house"
@@ -1829,7 +1859,7 @@
       "lastfm-tags"
     ],
     "titleHints": [],
-    "mentions": 21,
+    "mentions": 22,
     "poolTags": [
       "electronic",
       "electronica"
@@ -1843,7 +1873,7 @@
       "lastfm-tags"
     ],
     "titleHints": [],
-    "mentions": 21,
+    "mentions": 22,
     "poolTags": [
       "ambient",
       "drone"
@@ -1857,7 +1887,7 @@
       "lastfm-tags"
     ],
     "titleHints": [],
-    "mentions": 21,
+    "mentions": 22,
     "poolTags": [
       "electronic",
       "experimental"
@@ -1871,7 +1901,7 @@
       "lastfm-tags"
     ],
     "titleHints": [],
-    "mentions": 21,
+    "mentions": 22,
     "poolTags": [
       "electronic",
       "house",
@@ -1886,7 +1916,7 @@
       "lastfm-tags"
     ],
     "titleHints": [],
-    "mentions": 21,
+    "mentions": 22,
     "poolTags": [
       "ambient",
       "drone"
@@ -1900,7 +1930,7 @@
       "lastfm-tags"
     ],
     "titleHints": [],
-    "mentions": 21,
+    "mentions": 22,
     "poolTags": [
       "hip hop",
       "rap"
@@ -1914,7 +1944,7 @@
       "lastfm-tags"
     ],
     "titleHints": [],
-    "mentions": 21,
+    "mentions": 22,
     "poolTags": [
       "hip hop",
       "hip-hop"
@@ -1928,7 +1958,7 @@
       "lastfm-tags"
     ],
     "titleHints": [],
-    "mentions": 21,
+    "mentions": 22,
     "poolTags": [
       "electronic",
       "electronica"
@@ -1942,7 +1972,7 @@
       "lastfm-tags"
     ],
     "titleHints": [],
-    "mentions": 21,
+    "mentions": 22,
     "poolTags": [
       "electronic",
       "experimental"
@@ -1956,7 +1986,7 @@
       "lastfm-tags"
     ],
     "titleHints": [],
-    "mentions": 21,
+    "mentions": 22,
     "poolTags": [
       "deep house",
       "house"
@@ -1970,7 +2000,7 @@
       "lastfm-tags"
     ],
     "titleHints": [],
-    "mentions": 21,
+    "mentions": 22,
     "poolTags": [
       "glitch",
       "idm"
@@ -1984,7 +2014,7 @@
       "lastfm-tags"
     ],
     "titleHints": [],
-    "mentions": 21,
+    "mentions": 22,
     "poolTags": [
       "hip hop",
       "rap"
@@ -1998,7 +2028,7 @@
       "lastfm-tags"
     ],
     "titleHints": [],
-    "mentions": 21,
+    "mentions": 22,
     "poolTags": [
       "downtempo",
       "house"
@@ -2012,7 +2042,7 @@
       "lastfm-tags"
     ],
     "titleHints": [],
-    "mentions": 21,
+    "mentions": 22,
     "poolTags": [
       "electronic",
       "electronica"
@@ -2026,7 +2056,7 @@
       "lastfm-tags"
     ],
     "titleHints": [],
-    "mentions": 21,
+    "mentions": 22,
     "poolTags": [
       "electronica",
       "glitch"
@@ -2040,7 +2070,7 @@
       "lastfm-tags"
     ],
     "titleHints": [],
-    "mentions": 21,
+    "mentions": 22,
     "poolTags": [
       "hip-hop",
       "rap"
@@ -2054,7 +2084,7 @@
       "lastfm-tags"
     ],
     "titleHints": [],
-    "mentions": 21,
+    "mentions": 22,
     "poolTags": [
       "hip hop",
       "rap"
@@ -2068,7 +2098,7 @@
       "lastfm-tags"
     ],
     "titleHints": [],
-    "mentions": 21,
+    "mentions": 22,
     "poolTags": [
       "electronic",
       "electronica"
@@ -2082,7 +2112,7 @@
       "lastfm-tags"
     ],
     "titleHints": [],
-    "mentions": 21,
+    "mentions": 22,
     "poolTags": [
       "glitch",
       "idm"
@@ -2096,7 +2126,7 @@
       "lastfm-tags"
     ],
     "titleHints": [],
-    "mentions": 21,
+    "mentions": 22,
     "poolTags": [
       "dub",
       "electronic"
@@ -2110,7 +2140,7 @@
       "lastfm-tags"
     ],
     "titleHints": [],
-    "mentions": 21,
+    "mentions": 22,
     "poolTags": [
       "deep house",
       "techno"
@@ -2124,7 +2154,7 @@
       "lastfm-tags"
     ],
     "titleHints": [],
-    "mentions": 21,
+    "mentions": 22,
     "poolTags": [
       "electronic",
       "psychedelic"
@@ -2138,7 +2168,7 @@
       "lastfm-tags"
     ],
     "titleHints": [],
-    "mentions": 21,
+    "mentions": 22,
     "poolTags": [
       "glitch",
       "idm"
@@ -2152,7 +2182,7 @@
       "lastfm-tags"
     ],
     "titleHints": [],
-    "mentions": 21,
+    "mentions": 22,
     "poolTags": [
       "hip hop",
       "hip-hop"
@@ -2166,7 +2196,7 @@
       "lastfm-tags"
     ],
     "titleHints": [],
-    "mentions": 21,
+    "mentions": 22,
     "poolTags": [
       "hip-hop",
       "rap"
@@ -2180,7 +2210,7 @@
       "lastfm-tags"
     ],
     "titleHints": [],
-    "mentions": 21,
+    "mentions": 22,
     "poolTags": [
       "idm",
       "techno"
@@ -2194,7 +2224,7 @@
       "lastfm-tags"
     ],
     "titleHints": [],
-    "mentions": 21,
+    "mentions": 22,
     "poolTags": [
       "electronic",
       "experimental"
@@ -2208,7 +2238,7 @@
       "lastfm-tags"
     ],
     "titleHints": [],
-    "mentions": 21,
+    "mentions": 22,
     "poolTags": [
       "hip-hop",
       "rap"
@@ -2222,7 +2252,7 @@
       "lastfm-tags"
     ],
     "titleHints": [],
-    "mentions": 21,
+    "mentions": 22,
     "poolTags": [
       "deep house",
       "house"
@@ -2236,7 +2266,7 @@
       "lastfm-tags"
     ],
     "titleHints": [],
-    "mentions": 21,
+    "mentions": 22,
     "poolTags": [
       "deep house",
       "house"
@@ -2250,7 +2280,7 @@
       "lastfm-tags"
     ],
     "titleHints": [],
-    "mentions": 21,
+    "mentions": 22,
     "poolTags": [
       "electronica",
       "glitch"
@@ -2264,7 +2294,7 @@
       "lastfm-tags"
     ],
     "titleHints": [],
-    "mentions": 21,
+    "mentions": 22,
     "poolTags": [
       "dubstep",
       "electronica"
@@ -2278,7 +2308,7 @@
       "lastfm-tags"
     ],
     "titleHints": [],
-    "mentions": 21,
+    "mentions": 22,
     "poolTags": [
       "hip-hop",
       "rap"
@@ -2292,7 +2322,7 @@
       "lastfm-tags"
     ],
     "titleHints": [],
-    "mentions": 21,
+    "mentions": 22,
     "poolTags": [
       "deep house",
       "minimal"
@@ -2306,7 +2336,7 @@
       "lastfm-tags"
     ],
     "titleHints": [],
-    "mentions": 21,
+    "mentions": 22,
     "poolTags": [
       "electronic",
       "electronica"
@@ -2320,7 +2350,7 @@
       "lastfm-tags"
     ],
     "titleHints": [],
-    "mentions": 21,
+    "mentions": 22,
     "poolTags": [
       "electronic",
       "house"
@@ -2334,7 +2364,7 @@
       "lastfm-tags"
     ],
     "titleHints": [],
-    "mentions": 21,
+    "mentions": 22,
     "poolTags": [
       "glitch",
       "idm"
@@ -2348,7 +2378,7 @@
       "lastfm-tags"
     ],
     "titleHints": [],
-    "mentions": 21,
+    "mentions": 22,
     "poolTags": [
       "electronic",
       "house"
@@ -2362,7 +2392,7 @@
       "lastfm-tags"
     ],
     "titleHints": [],
-    "mentions": 21,
+    "mentions": 22,
     "poolTags": [
       "hip-hop",
       "rap"
@@ -2376,7 +2406,7 @@
       "lastfm-tags"
     ],
     "titleHints": [],
-    "mentions": 21,
+    "mentions": 22,
     "poolTags": [
       "dubstep",
       "electronic"
@@ -2390,7 +2420,7 @@
       "lastfm-tags"
     ],
     "titleHints": [],
-    "mentions": 21,
+    "mentions": 22,
     "poolTags": [
       "hip-hop",
       "rap"
@@ -2404,7 +2434,7 @@
       "lastfm-tags"
     ],
     "titleHints": [],
-    "mentions": 21,
+    "mentions": 22,
     "poolTags": [
       "dubstep",
       "electronic"
@@ -2418,7 +2448,7 @@
       "lastfm-tags"
     ],
     "titleHints": [],
-    "mentions": 21,
+    "mentions": 22,
     "poolTags": [
       "electronica",
       "techno"
@@ -2432,7 +2462,7 @@
       "lastfm-tags"
     ],
     "titleHints": [],
-    "mentions": 21,
+    "mentions": 22,
     "poolTags": [
       "hip-hop",
       "rap"
@@ -2446,7 +2476,7 @@
       "lastfm-tags"
     ],
     "titleHints": [],
-    "mentions": 21,
+    "mentions": 22,
     "poolTags": [
       "hip-hop",
       "rap"
@@ -2460,7 +2490,7 @@
       "lastfm-tags"
     ],
     "titleHints": [],
-    "mentions": 21,
+    "mentions": 22,
     "poolTags": [
       "electronica",
       "techno"
@@ -2474,7 +2504,7 @@
       "lastfm-tags"
     ],
     "titleHints": [],
-    "mentions": 21,
+    "mentions": 22,
     "poolTags": [
       "dubstep",
       "idm"
@@ -2488,7 +2518,7 @@
       "lastfm-tags"
     ],
     "titleHints": [],
-    "mentions": 21,
+    "mentions": 22,
     "poolTags": [
       "ambient",
       "idm",
@@ -2503,7 +2533,7 @@
       "lastfm-tags"
     ],
     "titleHints": [],
-    "mentions": 21,
+    "mentions": 22,
     "poolTags": [
       "hip-hop",
       "rap"
@@ -2517,7 +2547,7 @@
       "lastfm-tags"
     ],
     "titleHints": [],
-    "mentions": 21,
+    "mentions": 22,
     "poolTags": [
       "hip-hop",
       "rap"
@@ -2531,7 +2561,7 @@
       "lastfm-tags"
     ],
     "titleHints": [],
-    "mentions": 21,
+    "mentions": 22,
     "poolTags": [
       "deep house",
       "minimal"
@@ -2545,7 +2575,7 @@
       "lastfm-tags"
     ],
     "titleHints": [],
-    "mentions": 21,
+    "mentions": 22,
     "poolTags": [
       "electronic",
       "house"
@@ -2559,7 +2589,7 @@
       "lastfm-tags"
     ],
     "titleHints": [],
-    "mentions": 21,
+    "mentions": 22,
     "poolTags": [
       "deep house",
       "house"
@@ -2575,7 +2605,7 @@
     "titleHints": [
       "A Great Day in Newcastle"
     ],
-    "mentions": 20,
+    "mentions": 21,
     "sourceLinks": {
       "pitchfork_albums": "https://pitchfork.com/reviews/albums/knats-a-great-day-in-newcastle/"
     },
@@ -2598,7 +2628,7 @@
     "titleHints": [
       "Bleak Days Ahead"
     ],
-    "mentions": 20,
+    "mentions": 21,
     "sourceLinks": {
       "bandcamp_daily": "https://daily.bandcamp.com/album-of-the-day/pure-wrath-bleak-days-ahead-review"
     },
@@ -2648,7 +2678,7 @@
     "titleHints": [
       "Theft World"
     ],
-    "mentions": 18,
+    "mentions": 19,
     "sourceLinks": {
       "pitchfork_albums": "https://pitchfork.com/reviews/albums/lip-critic-theft-world/"
     },
@@ -2671,7 +2701,7 @@
     "titleHints": [
       "“Mother”"
     ],
-    "mentions": 18,
+    "mentions": 19,
     "sourceLinks": {
       "pitchfork_tracks": "https://pitchfork.com/reviews/tracks/goldie-mother/"
     },
@@ -2694,7 +2724,7 @@
     "titleHints": [
       "“Runway”"
     ],
-    "mentions": 18,
+    "mentions": 19,
     "sourceLinks": {
       "pitchfork_tracks": "https://pitchfork.com/reviews/tracks/lady-gaga-doechii-runway/"
     },
@@ -2710,7 +2740,7 @@
     "titleHints": [
       "“Bring Your Love”"
     ],
-    "mentions": 18,
+    "mentions": 19,
     "sourceLinks": {
       "pitchfork_tracks": "https://pitchfork.com/reviews/tracks/madonna-sabrina-carpenter-bring-your-love/"
     },
@@ -2726,7 +2756,7 @@
     "titleHints": [
       "The Horizon Spirals / The Horizon Viral"
     ],
-    "mentions": 18,
+    "mentions": 19,
     "sourceLinks": {
       "bandcamp_daily": "https://daily.bandcamp.com/album-of-the-day/ooioo-lightning-bolt-the-horizon-spirals-the-horizon-viral-review"
     },
@@ -2823,7 +2853,7 @@
     "titleHints": [
       "Sigils for Survival"
     ],
-    "mentions": 12,
+    "mentions": 13,
     "sourceLinks": {
       "pitchfork_albums": "https://pitchfork.com/reviews/albums/octo-octa-sigils-for-survival/"
     },
@@ -2846,7 +2876,7 @@
     "titleHints": [
       "Serial Romantic"
     ],
-    "mentions": 12,
+    "mentions": 13,
     "sourceLinks": {
       "pitchfork_albums": "https://pitchfork.com/reviews/albums/jailen-josey-serial-romantic/"
     },
@@ -2945,7 +2975,7 @@
     "titleHints": [
       "SOULVINCI"
     ],
-    "mentions": 10,
+    "mentions": 11,
     "sourceLinks": {
       "pitchfork_albums": "https://pitchfork.com/reviews/albums/wifigawd-dylvinci-soulvinci/"
     },
@@ -2961,7 +2991,7 @@
     "titleHints": [
       "Resonance of Time (የጊዜ ቃና)"
     ],
-    "mentions": 10,
+    "mentions": 11,
     "sourceLinks": {
       "bandcamp_daily": "https://daily.bandcamp.com/album-of-the-day/wesenyeleh-mebreku-resonance-of-time-review"
     },
@@ -2975,7 +3005,7 @@
       "lastfm-tags"
     ],
     "titleHints": [],
-    "mentions": 10,
+    "mentions": 11,
     "poolTags": [
       "house",
       "techno"
@@ -2989,7 +3019,7 @@
       "lastfm-tags"
     ],
     "titleHints": [],
-    "mentions": 10,
+    "mentions": 11,
     "poolTags": [
       "hip hop",
       "hip-hop"
@@ -3003,7 +3033,7 @@
       "lastfm-tags"
     ],
     "titleHints": [],
-    "mentions": 10,
+    "mentions": 11,
     "poolTags": [
       "deep house",
       "house"
@@ -3128,7 +3158,7 @@
     "titleHints": [
       "“Bleed (Jane Remover Diss)”"
     ],
-    "mentions": 8,
+    "mentions": 9,
     "sourceLinks": {
       "pitchfork_tracks": "https://pitchfork.com/reviews/tracks/young-dabo-bleed-jane-remover-diss/"
     },
@@ -3198,7 +3228,7 @@
     "titleHints": [
       "sacrificio"
     ],
-    "mentions": 7,
+    "mentions": 8,
     "sourceLinks": {
       "pitchfork_albums": "https://pitchfork.com/reviews/albums/safety-trance-sacrificio/"
     },
@@ -3221,7 +3251,7 @@
     "titleHints": [
       "New Racehorse"
     ],
-    "mentions": 7,
+    "mentions": 8,
     "sourceLinks": {
       "pitchfork_albums": "https://pitchfork.com/reviews/albums/media-puzzle-new-racehorse/"
     },
@@ -3243,7 +3273,7 @@
     "titleHints": [
       "Cold Comfort"
     ],
-    "mentions": 7,
+    "mentions": 8,
     "sourceLinks": {
       "bandcamp_daily": "https://daily.bandcamp.com/album-of-the-day/stik-figa-heather-grey-cold-comfort-review"
     },
@@ -3259,7 +3289,7 @@
     "titleHints": [
       "Global Voyeur: Hear Four Tracks"
     ],
-    "mentions": 7,
+    "mentions": 8,
     "sourceLinks": {
       "stereogum": "https://stereogum.com/2498303/big-fat-head-announce-new-album-global-voyeur-hear-four-tracks/news/"
     },
@@ -3276,7 +3306,7 @@
       "lastfm-tags"
     ],
     "titleHints": [],
-    "mentions": 7,
+    "mentions": 8,
     "poolTags": [
       "electronic",
       "experimental"
@@ -3290,7 +3320,7 @@
       "lastfm-tags"
     ],
     "titleHints": [],
-    "mentions": 7,
+    "mentions": 8,
     "poolTags": [
       "electronic",
       "uk garage"
@@ -3304,7 +3334,7 @@
       "lastfm-tags"
     ],
     "titleHints": [],
-    "mentions": 7,
+    "mentions": 8,
     "poolTags": [
       "dubstep",
       "uk garage"
@@ -3318,7 +3348,7 @@
       "lastfm-tags"
     ],
     "titleHints": [],
-    "mentions": 7,
+    "mentions": 8,
     "poolTags": [
       "dubstep",
       "uk garage"
@@ -3442,7 +3472,7 @@
     "titleHints": [
       "Super Mario Galaxy / Super Mario Galaxy 2"
     ],
-    "mentions": 5,
+    "mentions": 6,
     "sourceLinks": {
       "pitchfork_albums": "https://pitchfork.com/reviews/albums/mahito-yokota-koji-kondo-super-mario-galaxy-super-mario-galaxy-2/"
     },
@@ -3458,7 +3488,7 @@
     "titleHints": [
       "Paradise"
     ],
-    "mentions": 5,
+    "mentions": 6,
     "sourceLinks": {
       "ra": "https://ra.co/reviews/36352"
     },
@@ -3474,7 +3504,7 @@
     "titleHints": [
       "Pre-Order All The Beauty (album)"
     ],
-    "mentions": 5,
+    "mentions": 6,
     "bandcampUrl": "https://peteyorn.bandcamp.com/album/pre-order-all-the-beauty-album",
     "sourceLinks": {
       "bandcamp-discover": "https://peteyorn.bandcamp.com/album/pre-order-all-the-beauty-album"
@@ -3501,7 +3531,7 @@
     "titleHints": [
       "HAUSDOGS02"
     ],
-    "mentions": 5,
+    "mentions": 6,
     "bandcampUrl": "https://soulmasstransitsystem.bandcamp.com/album/hausdogs02",
     "sourceLinks": {
       "bandcamp-discover": "https://soulmasstransitsystem.bandcamp.com/album/hausdogs02"
@@ -3555,7 +3585,7 @@
     "titleHints": [
       "Det Hjemsøkte Hjertet"
     ],
-    "mentions": 5,
+    "mentions": 6,
     "bandcampUrl": "https://thetruepanopticon.bandcamp.com/album/det-hjems-kte-hjertet",
     "sourceLinks": {
       "bandcamp-discover": "https://thetruepanopticon.bandcamp.com/album/det-hjems-kte-hjertet"
@@ -3582,7 +3612,7 @@
     "titleHints": [
       "Look For Your Mind!"
     ],
-    "mentions": 5,
+    "mentions": 6,
     "bandcampUrl": "https://thelemontwigs.bandcamp.com/album/look-for-your-mind",
     "sourceLinks": {
       "bandcamp-discover": "https://thelemontwigs.bandcamp.com/album/look-for-your-mind"
@@ -3609,7 +3639,7 @@
     "titleHints": [
       "In Somnolent Ruin"
     ],
-    "mentions": 5,
+    "mentions": 6,
     "bandcampUrl": "https://draconian.bandcamp.com/album/in-somnolent-ruin",
     "sourceLinks": {
       "bandcamp-discover": "https://draconian.bandcamp.com/album/in-somnolent-ruin"
@@ -3626,22 +3656,6 @@
       "dubstep",
       "electronic"
     ]
-  },
-  "Underscores": {
-    "firstSeen": "2026-05-09",
-    "lastSeen": "2026-05-11",
-    "sources": [
-      "pitchfork_best_albums"
-    ],
-    "titleHints": [
-      "U"
-    ],
-    "mentions": 4,
-    "sourceLinks": {
-      "pitchfork_best_albums": "https://pitchfork.com/reviews/albums/underscores-u/"
-    },
-    "primaryTitle": "U",
-    "latestArticleDate": "2026-03-23"
   },
   "Martin Stürtzer": {
     "firstSeen": "2026-05-02",
@@ -3669,70 +3683,6 @@
       "dubstep",
       "electronic"
     ]
-  },
-  "Santana": {
-    "firstSeen": "2026-05-10",
-    "lastSeen": "2026-05-11",
-    "sources": [
-      "pitchfork_albums"
-    ],
-    "titleHints": [
-      "Caravanserai"
-    ],
-    "mentions": 3,
-    "sourceLinks": {
-      "pitchfork_albums": "https://pitchfork.com/reviews/albums/santana-caravanserai/"
-    },
-    "primaryTitle": "Caravanserai",
-    "latestArticleDate": "2026-05-10"
-  },
-  "Zara Larsson": {
-    "firstSeen": "2026-05-10",
-    "lastSeen": "2026-05-11",
-    "sources": [
-      "pitchfork_albums"
-    ],
-    "titleHints": [
-      "Midnight Sun: Girls Trip"
-    ],
-    "mentions": 3,
-    "sourceLinks": {
-      "pitchfork_albums": "https://pitchfork.com/reviews/albums/zara-larsson-midnight-sun-girls-trip/"
-    },
-    "primaryTitle": "Midnight Sun: Girls Trip",
-    "latestArticleDate": "2026-05-07"
-  },
-  "The Black Keys": {
-    "firstSeen": "2026-05-10",
-    "lastSeen": "2026-05-11",
-    "sources": [
-      "pitchfork_albums"
-    ],
-    "titleHints": [
-      "Peaches!"
-    ],
-    "mentions": 3,
-    "sourceLinks": {
-      "pitchfork_albums": "https://pitchfork.com/reviews/albums/the-black-keys-peaches/"
-    },
-    "primaryTitle": "Peaches!",
-    "latestArticleDate": "2026-05-07"
-  },
-  "Angela Autumn": {
-    "firstSeen": "2026-05-10",
-    "lastSeen": "2026-05-11",
-    "sources": [
-      "pitchfork_tracks"
-    ],
-    "titleHints": [
-      "“trampstamp”"
-    ],
-    "mentions": 3,
-    "sourceLinks": {
-      "pitchfork_tracks": "https://pitchfork.com/reviews/tracks/angela-autumn-trampstamp/"
-    },
-    "primaryTitle": "“trampstamp”",
-    "latestArticleDate": "2026-04-16"
   },
   "Ayria": {
     "firstSeen": "2026-05-10",
@@ -3770,7 +3720,7 @@
     "titleHints": [
       "No Place Of Warmth (24-bit HD audio)"
     ],
-    "mentions": 3,
+    "mentions": 4,
     "bandcampUrl": "https://frozensoultx.bandcamp.com/album/no-place-of-warmth-24-bit-hd-audio",
     "sourceLinks": {
       "bandcamp-discover": "https://frozensoultx.bandcamp.com/album/no-place-of-warmth-24-bit-hd-audio"
@@ -3797,7 +3747,7 @@
     "titleHints": [
       "Dancing On The Wall"
     ],
-    "mentions": 3,
+    "mentions": 4,
     "bandcampUrl": "https://muna.bandcamp.com/album/dancing-on-the-wall",
     "sourceLinks": {
       "bandcamp-discover": "https://muna.bandcamp.com/album/dancing-on-the-wall"
@@ -3815,38 +3765,6 @@
       "electronic"
     ]
   },
-  "Cola": {
-    "firstSeen": "2026-05-10",
-    "lastSeen": "2026-05-11",
-    "sources": [
-      "pitchfork_albums"
-    ],
-    "titleHints": [
-      "Cost of Living Adjustment"
-    ],
-    "mentions": 2,
-    "sourceLinks": {
-      "pitchfork_albums": "https://pitchfork.com/reviews/albums/cola-cost-of-living-adjustment/"
-    },
-    "primaryTitle": "Cost of Living Adjustment",
-    "latestArticleDate": "2026-05-07"
-  },
-  "Julia Cumming": {
-    "firstSeen": "2026-05-10",
-    "lastSeen": "2026-05-11",
-    "sources": [
-      "pitchfork_albums"
-    ],
-    "titleHints": [
-      "Julia"
-    ],
-    "mentions": 2,
-    "sourceLinks": {
-      "pitchfork_albums": "https://pitchfork.com/reviews/albums/julia-cumming-julia/"
-    },
-    "primaryTitle": "Julia",
-    "latestArticleDate": "2026-05-05"
-  },
   "Maya Hawke": {
     "firstSeen": "2026-05-10",
     "lastSeen": "2026-05-11",
@@ -3856,7 +3774,7 @@
     "titleHints": [
       "MAITREYA CORSO"
     ],
-    "mentions": 2,
+    "mentions": 3,
     "sourceLinks": {
       "pitchfork_albums": "https://pitchfork.com/reviews/albums/maya-hawke-maitreya-corso/"
     },
@@ -3872,7 +3790,7 @@
     "titleHints": [
       "Romanticize the Dive"
     ],
-    "mentions": 2,
+    "mentions": 3,
     "sourceLinks": {
       "pitchfork_albums": "https://pitchfork.com/reviews/albums/metric-romanticize-the-dive/"
     },
@@ -3888,7 +3806,7 @@
     "titleHints": [
       "“Owner of a Lonely Heart”"
     ],
-    "mentions": 2,
+    "mentions": 3,
     "sourceLinks": {
       "pitchfork_tracks": "https://pitchfork.com/reviews/tracks/yes-owner-of-a-lonely-heart/"
     },
@@ -3904,7 +3822,7 @@
     "titleHints": [
       "Girlfriend"
     ],
-    "mentions": 2,
+    "mentions": 3,
     "sourceLinks": {
       "pitchfork_best_albums": "https://pitchfork.com/reviews/albums/grace-ives-girlfriend/"
     },
@@ -3920,7 +3838,7 @@
     "titleHints": [
       "Blame the Clown"
     ],
-    "mentions": 2,
+    "mentions": 3,
     "sourceLinks": {
       "pitchfork_best_albums": "https://pitchfork.com/reviews/albums/twisted-teens-blame-the-clown/"
     },
@@ -3936,7 +3854,7 @@
     "titleHints": [
       "Dancing on the Wall"
     ],
-    "mentions": 1,
+    "mentions": 2,
     "sourceLinks": {
       "pitchfork_albums": "https://pitchfork.com/reviews/albums/muna-dancing-on-the-wall/"
     },
@@ -3952,7 +3870,7 @@
     "titleHints": [
       "Sound Therapy"
     ],
-    "mentions": 1,
+    "mentions": 2,
     "sourceLinks": {
       "pitchfork_albums": "https://pitchfork.com/reviews/albums/jwords-sound-therapy/"
     },
@@ -3968,7 +3886,7 @@
     "titleHints": [
       "Play Monk"
     ],
-    "mentions": 1,
+    "mentions": 2,
     "sourceLinks": {
       "pitchfork_albums": "https://pitchfork.com/reviews/albums/ahmed-play-monk/"
     },
@@ -3984,7 +3902,7 @@
     "titleHints": [
       "“Rock Music”"
     ],
-    "mentions": 1,
+    "mentions": 2,
     "sourceLinks": {
       "pitchfork_tracks": "https://pitchfork.com/reviews/tracks/charli-xcx-rock-music/"
     },
@@ -4000,7 +3918,7 @@
     "titleHints": [
       "“Corona”"
     ],
-    "mentions": 1,
+    "mentions": 2,
     "sourceLinks": {
       "pitchfork_tracks": "https://pitchfork.com/reviews/tracks/minutemen-corona/"
     },
@@ -4016,7 +3934,7 @@
     "titleHints": [
       "Singin’ to an Empty Chair"
     ],
-    "mentions": 1,
+    "mentions": 2,
     "sourceLinks": {
       "pitchfork_best_albums": "https://pitchfork.com/reviews/albums/ratboys-singin-to-an-empty-chair/"
     },
@@ -4032,7 +3950,7 @@
     "titleHints": [
       "“There Goes My Heart”"
     ],
-    "mentions": 1,
+    "mentions": 2,
     "sourceLinks": {
       "pitchfork_best_tracks": "https://pitchfork.com/reviews/tracks/ella-mai-there-goes-my-heart/"
     },
@@ -4048,7 +3966,7 @@
     "titleHints": [
       "Surprise New EP Floral Arrangements"
     ],
-    "mentions": 1,
+    "mentions": 2,
     "sourceLinks": {
       "stereogum": "https://stereogum.com/2498403/welcome-strawberry-share-surprise-new-ep-floral-arrangements/music/"
     },
@@ -4064,7 +3982,7 @@
     "titleHints": [
       "Where Have All The Good Men Gone?: Hear Title Track"
     ],
-    "mentions": 1,
+    "mentions": 2,
     "sourceLinks": {
       "stereogum": "https://stereogum.com/2498395/debbii-dawson-announces-new-ep-where-have-all-the-good-men-gone-hear-title-track/music/"
     },
@@ -4080,7 +3998,7 @@
     "titleHints": [
       "Echelon Protocol"
     ],
-    "mentions": 1,
+    "mentions": 2,
     "bandcampUrl": "https://stateazure.bandcamp.com/album/echelon-protocol",
     "sourceLinks": {
       "bandcamp-discover": "https://stateazure.bandcamp.com/album/echelon-protocol"
@@ -4107,13 +4025,532 @@
     "titleHints": [
       "Pre- Historic metal"
     ],
-    "mentions": 1,
+    "mentions": 2,
     "bandcampUrl": "https://peaceville.bandcamp.com/album/pre-historic-metal",
     "sourceLinks": {
       "bandcamp-discover": "https://peaceville.bandcamp.com/album/pre-historic-metal"
     },
     "primaryTitle": "Pre- Historic metal",
     "latestArticleDate": "2026-03-20",
+    "poolTags": [
+      "ambient",
+      "deep house",
+      "downtempo",
+      "drone",
+      "dub",
+      "dub techno",
+      "dubstep",
+      "electronic"
+    ]
+  },
+  "Disguised": {
+    "firstSeen": "2026-05-10",
+    "lastSeen": "2026-05-11",
+    "sources": [
+      "bandcamp-discover"
+    ],
+    "titleHints": [
+      "Nightrun"
+    ],
+    "mentions": 3,
+    "bandcampUrl": "https://mutual-rytm.bandcamp.com/album/nightrun",
+    "sourceLinks": {
+      "bandcamp-discover": "https://mutual-rytm.bandcamp.com/album/nightrun"
+    },
+    "primaryTitle": "Nightrun",
+    "latestArticleDate": "2026-04-28",
+    "poolTags": [
+      "ambient",
+      "deep house",
+      "downtempo",
+      "drone",
+      "dub",
+      "dub techno",
+      "dubstep",
+      "electronic"
+    ]
+  },
+  "Dee-1": {
+    "firstSeen": "2026-04-28",
+    "lastSeen": "2026-05-11",
+    "sources": [
+      "bandcamp-discover"
+    ],
+    "titleHints": [
+      "The Shift",
+      "The Shift — https://dee1raps.bandcamp.com/album/the-shift"
+    ],
+    "mentions": 14,
+    "poolTags": [
+      "ambient",
+      "ambient-techno",
+      "deep-house",
+      "downtempo",
+      "dub",
+      "dub-techno",
+      "experimental-electronic",
+      "idm"
+    ],
+    "bandcampUrl": "https://dee1raps.bandcamp.com/album/the-shift",
+    "sourceLinks": {
+      "bandcamp-discover": "https://dee1raps.bandcamp.com/album/the-shift"
+    },
+    "primaryTitle": "The Shift",
+    "latestArticleDate": "2026-04-10",
+    "appleMusicUrl": "https://music.apple.com/us/album/superfly-soundtrack-from-the-motion-picture/1048472205?uo=4"
+  },
+  "Namasenda": {
+    "firstSeen": "2026-05-11",
+    "lastSeen": "2026-05-11",
+    "sources": [
+      "pitchfork_albums"
+    ],
+    "titleHints": [
+      "Limbo"
+    ],
+    "mentions": 1,
+    "sourceLinks": {
+      "pitchfork_albums": "https://pitchfork.com/reviews/albums/namasenda-limbo/"
+    },
+    "primaryTitle": "Limbo",
+    "latestArticleDate": "2026-05-08"
+  },
+  "Fanny": {
+    "firstSeen": "2026-05-11",
+    "lastSeen": "2026-05-11",
+    "sources": [
+      "pitchfork_albums"
+    ],
+    "titleHints": [
+      "Fanny Hill"
+    ],
+    "mentions": 1,
+    "sourceLinks": {
+      "pitchfork_albums": "https://pitchfork.com/reviews/albums/fanny-fanny-hill/"
+    },
+    "primaryTitle": "Fanny Hill",
+    "latestArticleDate": "2026-05-03"
+  },
+  "My New Band Believe": {
+    "firstSeen": "2026-05-11",
+    "lastSeen": "2026-05-11",
+    "sources": [
+      "pitchfork_best_albums"
+    ],
+    "titleHints": [
+      "My New Band Believe"
+    ],
+    "mentions": 1,
+    "sourceLinks": {
+      "pitchfork_best_albums": "https://pitchfork.com/reviews/albums/my-new-band-believe-my-new-band-believe/"
+    },
+    "primaryTitle": "My New Band Believe",
+    "latestArticleDate": "2026-04-10"
+  },
+  "Wendy Eisenberg": {
+    "firstSeen": "2026-05-11",
+    "lastSeen": "2026-05-11",
+    "sources": [
+      "pitchfork_best_albums"
+    ],
+    "titleHints": [
+      "Wendy Eisenberg"
+    ],
+    "mentions": 1,
+    "sourceLinks": {
+      "pitchfork_best_albums": "https://pitchfork.com/reviews/albums/wendy-eisenberg-wendy-eisenberg/"
+    },
+    "primaryTitle": "Wendy Eisenberg",
+    "latestArticleDate": "2026-04-09"
+  },
+  "Dumama": {
+    "firstSeen": "2026-05-11",
+    "lastSeen": "2026-05-11",
+    "sources": [
+      "bandcamp_daily"
+    ],
+    "titleHints": [
+      "Towards An Expanse"
+    ],
+    "mentions": 1,
+    "sourceLinks": {
+      "bandcamp_daily": "https://daily.bandcamp.com/album-of-the-day/dumama-towards-an-expanse-review"
+    },
+    "primaryTitle": "Towards An Expanse",
+    "latestArticleDate": "2026-05-11"
+  },
+  "Porches": {
+    "firstSeen": "2026-05-11",
+    "lastSeen": "2026-05-11",
+    "sources": [
+      "stereogum"
+    ],
+    "titleHints": [
+      "Mixtape MASK: Hear “Habit"
+    ],
+    "mentions": 1,
+    "sourceLinks": {
+      "stereogum": "https://stereogum.com/2498323/porches-announces-new-mixtape-mask-hear-habit/music/"
+    },
+    "primaryTitle": "Mixtape MASK: Hear “Habit",
+    "latestArticleDate": "2026-05-08"
+  },
+  "Paul McCartney & Ringo Starr": {
+    "firstSeen": "2026-05-11",
+    "lastSeen": "2026-05-11",
+    "sources": [
+      "stereogum"
+    ],
+    "titleHints": [
+      "First-Ever Duet “Home To Us"
+    ],
+    "mentions": 1,
+    "sourceLinks": {
+      "stereogum": "https://stereogum.com/2498365/paul-mccartney-ringo-starr-share-first-ever-duet-home-to-us/music/"
+    },
+    "primaryTitle": "First-Ever Duet “Home To Us",
+    "latestArticleDate": "2026-05-08"
+  },
+  "IMP Batch": {
+    "firstSeen": "2026-05-11",
+    "lastSeen": "2026-05-11",
+    "sources": [
+      "bandcamp-discover"
+    ],
+    "titleHints": [
+      "IMP BATCH - Respek / He Said She Said"
+    ],
+    "mentions": 1,
+    "bandcampUrl": "https://dream-eater-records.bandcamp.com/album/imp-batch-respek-he-said-she-said",
+    "sourceLinks": {
+      "bandcamp-discover": "https://dream-eater-records.bandcamp.com/album/imp-batch-respek-he-said-she-said"
+    },
+    "primaryTitle": "IMP BATCH - Respek / He Said She Said",
+    "latestArticleDate": "2026-05-10",
+    "poolTags": [
+      "ambient",
+      "deep house",
+      "downtempo",
+      "drone",
+      "dub",
+      "dub techno",
+      "dubstep",
+      "electronic"
+    ]
+  },
+  "Dirk Serries | Asmus Tietchens": {
+    "firstSeen": "2026-05-11",
+    "lastSeen": "2026-05-11",
+    "sources": [
+      "bandcamp-discover"
+    ],
+    "titleHints": [
+      "Die Regeninsel"
+    ],
+    "mentions": 1,
+    "bandcampUrl": "https://emerge.bandcamp.com/album/die-regeninsel",
+    "sourceLinks": {
+      "bandcamp-discover": "https://emerge.bandcamp.com/album/die-regeninsel"
+    },
+    "primaryTitle": "Die Regeninsel",
+    "latestArticleDate": "2026-05-10",
+    "poolTags": [
+      "ambient",
+      "deep house",
+      "downtempo",
+      "drone",
+      "dub",
+      "dub techno",
+      "dubstep",
+      "electronic"
+    ]
+  },
+  "Head Cleaner": {
+    "firstSeen": "2026-05-11",
+    "lastSeen": "2026-05-11",
+    "sources": [
+      "bandcamp-discover"
+    ],
+    "titleHints": [
+      "No Truth"
+    ],
+    "mentions": 1,
+    "bandcampUrl": "https://solarsonar.bandcamp.com/album/no-truth",
+    "sourceLinks": {
+      "bandcamp-discover": "https://solarsonar.bandcamp.com/album/no-truth"
+    },
+    "primaryTitle": "No Truth",
+    "latestArticleDate": "2026-05-10",
+    "poolTags": [
+      "ambient",
+      "deep house",
+      "downtempo",
+      "drone",
+      "dub",
+      "dub techno",
+      "dubstep",
+      "electronic"
+    ]
+  },
+  "Social Distortion": {
+    "firstSeen": "2026-05-11",
+    "lastSeen": "2026-05-11",
+    "sources": [
+      "bandcamp-discover"
+    ],
+    "titleHints": [
+      "Born to Kill"
+    ],
+    "mentions": 1,
+    "bandcampUrl": "https://socialdistortionmusic.bandcamp.com/album/born-to-kill",
+    "sourceLinks": {
+      "bandcamp-discover": "https://socialdistortionmusic.bandcamp.com/album/born-to-kill"
+    },
+    "primaryTitle": "Born to Kill",
+    "latestArticleDate": "2026-05-09",
+    "poolTags": [
+      "ambient",
+      "deep house",
+      "downtempo",
+      "drone",
+      "dub",
+      "dub techno",
+      "dubstep",
+      "electronic"
+    ]
+  },
+  "Dimetrodon": {
+    "firstSeen": "2026-05-11",
+    "lastSeen": "2026-05-11",
+    "sources": [
+      "bandcamp-discover"
+    ],
+    "titleHints": [
+      "Thunders of Laurentia"
+    ],
+    "mentions": 1,
+    "bandcampUrl": "https://conifmyst.bandcamp.com/album/thunders-of-laurentia",
+    "sourceLinks": {
+      "bandcamp-discover": "https://conifmyst.bandcamp.com/album/thunders-of-laurentia"
+    },
+    "primaryTitle": "Thunders of Laurentia",
+    "latestArticleDate": "2026-05-09",
+    "poolTags": [
+      "ambient",
+      "deep house",
+      "downtempo",
+      "drone",
+      "dub",
+      "dub techno",
+      "dubstep",
+      "electronic"
+    ]
+  },
+  "Andy Squyres": {
+    "firstSeen": "2026-05-11",
+    "lastSeen": "2026-05-11",
+    "sources": [
+      "bandcamp-discover"
+    ],
+    "titleHints": [
+      "Praise Songs"
+    ],
+    "mentions": 1,
+    "bandcampUrl": "https://andysquyres.bandcamp.com/album/praise-songs",
+    "sourceLinks": {
+      "bandcamp-discover": "https://andysquyres.bandcamp.com/album/praise-songs"
+    },
+    "primaryTitle": "Praise Songs",
+    "latestArticleDate": "2026-05-08",
+    "poolTags": [
+      "ambient",
+      "deep house",
+      "downtempo",
+      "drone",
+      "dub",
+      "dub techno",
+      "dubstep",
+      "electronic"
+    ]
+  },
+  "Ron Trent feat. Angel Figueroa & Pablo Color": {
+    "firstSeen": "2026-05-11",
+    "lastSeen": "2026-05-11",
+    "sources": [
+      "bandcamp-discover"
+    ],
+    "titleHints": [
+      "Electric Jungle"
+    ],
+    "mentions": 1,
+    "bandcampUrl": "https://sacredmedicine.bandcamp.com/album/electric-jungle",
+    "sourceLinks": {
+      "bandcamp-discover": "https://sacredmedicine.bandcamp.com/album/electric-jungle"
+    },
+    "primaryTitle": "Electric Jungle",
+    "latestArticleDate": "2026-05-08",
+    "poolTags": [
+      "ambient",
+      "deep house",
+      "downtempo",
+      "drone",
+      "dub",
+      "dub techno",
+      "dubstep",
+      "electronic"
+    ]
+  },
+  "MOR": {
+    "firstSeen": "2026-05-11",
+    "lastSeen": "2026-05-11",
+    "sources": [
+      "bandcamp-discover"
+    ],
+    "titleHints": [
+      "Sort Nat EP"
+    ],
+    "mentions": 1,
+    "bandcampUrl": "https://mor4ever.bandcamp.com/album/sort-nat-ep",
+    "sourceLinks": {
+      "bandcamp-discover": "https://mor4ever.bandcamp.com/album/sort-nat-ep"
+    },
+    "primaryTitle": "Sort Nat EP",
+    "latestArticleDate": "2026-05-07",
+    "poolTags": [
+      "ambient",
+      "deep house",
+      "downtempo",
+      "drone",
+      "dub",
+      "dub techno",
+      "dubstep",
+      "electronic"
+    ]
+  },
+  "Winterwraith": {
+    "firstSeen": "2026-05-11",
+    "lastSeen": "2026-05-11",
+    "sources": [
+      "bandcamp-discover"
+    ],
+    "titleHints": [
+      "Magic from an Ancient Time (promo 2026)"
+    ],
+    "mentions": 1,
+    "bandcampUrl": "https://winterwraith.bandcamp.com/album/magic-from-an-ancient-time-promo-2026",
+    "sourceLinks": {
+      "bandcamp-discover": "https://winterwraith.bandcamp.com/album/magic-from-an-ancient-time-promo-2026"
+    },
+    "primaryTitle": "Magic from an Ancient Time (promo 2026)",
+    "latestArticleDate": "2026-05-01",
+    "poolTags": [
+      "ambient",
+      "deep house",
+      "downtempo",
+      "drone",
+      "dub",
+      "dub techno",
+      "dubstep",
+      "electronic"
+    ]
+  },
+  "WU LYF": {
+    "firstSeen": "2026-05-11",
+    "lastSeen": "2026-05-11",
+    "sources": [
+      "bandcamp-discover"
+    ],
+    "titleHints": [
+      "A Wave That Will Never Break"
+    ],
+    "mentions": 1,
+    "bandcampUrl": "https://wulyf.bandcamp.com/album/a-wave-that-will-never-break",
+    "sourceLinks": {
+      "bandcamp-discover": "https://wulyf.bandcamp.com/album/a-wave-that-will-never-break"
+    },
+    "primaryTitle": "A Wave That Will Never Break",
+    "latestArticleDate": "2026-04-10",
+    "poolTags": [
+      "ambient",
+      "deep house",
+      "downtempo",
+      "drone",
+      "dub",
+      "dub techno",
+      "dubstep",
+      "electronic"
+    ]
+  },
+  "Died Pretty": {
+    "firstSeen": "2026-05-11",
+    "lastSeen": "2026-05-11",
+    "sources": [
+      "bandcamp-discover"
+    ],
+    "titleHints": [
+      "Doughboy Hollow"
+    ],
+    "mentions": 1,
+    "bandcampUrl": "https://eminentvinyl.bandcamp.com/album/doughboy-hollow",
+    "sourceLinks": {
+      "bandcamp-discover": "https://eminentvinyl.bandcamp.com/album/doughboy-hollow"
+    },
+    "primaryTitle": "Doughboy Hollow",
+    "latestArticleDate": "2026-03-29",
+    "poolTags": [
+      "ambient",
+      "deep house",
+      "downtempo",
+      "drone",
+      "dub",
+      "dub techno",
+      "dubstep",
+      "electronic"
+    ]
+  },
+  "Basement": {
+    "firstSeen": "2026-05-11",
+    "lastSeen": "2026-05-11",
+    "sources": [
+      "bandcamp-discover"
+    ],
+    "titleHints": [
+      "WIRED"
+    ],
+    "mentions": 1,
+    "bandcampUrl": "https://basement.bandcamp.com/album/wired",
+    "sourceLinks": {
+      "bandcamp-discover": "https://basement.bandcamp.com/album/wired"
+    },
+    "primaryTitle": "WIRED",
+    "latestArticleDate": "2026-03-01",
+    "poolTags": [
+      "ambient",
+      "deep house",
+      "downtempo",
+      "drone",
+      "dub",
+      "dub techno",
+      "dubstep",
+      "electronic"
+    ]
+  },
+  "Karmanjakah": {
+    "firstSeen": "2026-05-11",
+    "lastSeen": "2026-05-11",
+    "sources": [
+      "bandcamp-discover"
+    ],
+    "titleHints": [
+      "Diamond morning"
+    ],
+    "mentions": 1,
+    "bandcampUrl": "https://karmanjakah.bandcamp.com/album/diamond-morning",
+    "sourceLinks": {
+      "bandcamp-discover": "https://karmanjakah.bandcamp.com/album/diamond-morning"
+    },
+    "primaryTitle": "Diamond morning",
+    "latestArticleDate": "2026-02-26",
     "poolTags": [
       "ambient",
       "deep house",
@@ -4222,33 +4659,6 @@
     },
     "primaryTitle": "Farewell Tour",
     "latestArticleDate": "2026-05-07"
-  },
-  "Disguised": {
-    "firstSeen": "2026-05-10",
-    "lastSeen": "2026-05-10",
-    "sources": [
-      "bandcamp-discover"
-    ],
-    "titleHints": [
-      "Nightrun"
-    ],
-    "mentions": 2,
-    "bandcampUrl": "https://mutual-rytm.bandcamp.com/album/nightrun",
-    "sourceLinks": {
-      "bandcamp-discover": "https://mutual-rytm.bandcamp.com/album/nightrun"
-    },
-    "primaryTitle": "Nightrun",
-    "latestArticleDate": "2026-04-28",
-    "poolTags": [
-      "ambient",
-      "deep house",
-      "downtempo",
-      "drone",
-      "dub",
-      "dub techno",
-      "dubstep",
-      "electronic"
-    ]
   },
   "Nu Genea": {
     "firstSeen": "2026-05-01",
@@ -6004,35 +6414,6 @@
     "primaryTitle": "Boots on the Ground",
     "latestArticleDate": "2026-04-16",
     "appleMusicUrl": "https://music.apple.com/us/album/boots-on-the-ground-single/1614297681?uo=4"
-  },
-  "Dee-1": {
-    "firstSeen": "2026-04-28",
-    "lastSeen": "2026-05-04",
-    "sources": [
-      "bandcamp-discover"
-    ],
-    "titleHints": [
-      "The Shift",
-      "The Shift — https://dee1raps.bandcamp.com/album/the-shift"
-    ],
-    "mentions": 13,
-    "poolTags": [
-      "ambient",
-      "ambient-techno",
-      "deep-house",
-      "downtempo",
-      "dub",
-      "dub-techno",
-      "experimental-electronic",
-      "idm"
-    ],
-    "bandcampUrl": "https://dee1raps.bandcamp.com/album/the-shift",
-    "sourceLinks": {
-      "bandcamp-discover": "https://dee1raps.bandcamp.com/album/the-shift"
-    },
-    "primaryTitle": "The Shift",
-    "latestArticleDate": "2026-04-10",
-    "appleMusicUrl": "https://music.apple.com/us/album/superfly-soundtrack-from-the-motion-picture/1048472205?uo=4"
   },
   "Plini": {
     "firstSeen": "2026-04-28",
