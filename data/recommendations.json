@@ -563,6 +563,35 @@
     ]
   },
   {
+    "id": "mr-yt-universo-e-p",
+    "type": "ep",
+    "artist": "Mr. YT",
+    "title": "Universo E.P.",
+    "label": "Short Span",
+    "releaseDate": "2026-05-29",
+    "description": "Four tracks of deep techno and tech house from Mr. YT on Short Span, cut for both 33 and 45 play. Functional rather than showy, aimed at the long middle stretch of a set.",
+    "tags": [
+      "electronic"
+    ],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=Mr.%20YT%20Universo%20E.P.&item_type=a",
+      "spotify": "https://open.spotify.com/search/Mr.%20YT%20Universo%20E.P.",
+      "soundcloud": "https://soundcloud.com/search?q=Mr.%20YT%20Universo%20E.P.",
+      "youtube": "https://www.youtube.com/results?search_query=Mr.%20YT%20Universo%20E.P."
+    },
+    "embed": null,
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://i.discogs.com/A7oH14dGjRxCbHq7AhoPbMrgDm3f2oMnqxgV0-xbyWw/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM3MTQx/NTgxLTE3Nzg0Njcx/MzctNTI2MC5qcGVn.jpeg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
     "id": "visible-cloaks-paradessence",
     "type": "album",
     "artist": "Visible Cloaks",
@@ -803,6 +832,38 @@
     "pressMentions": []
   },
   {
+    "id": "xtclvr-passion",
+    "type": "single",
+    "artist": "xtclvr",
+    "title": "passion",
+    "label": "",
+    "releaseDate": "2026-05-11",
+    "description": "New xtclvr single, self-released as far as anyone can tell, continuing the project's run of blown-out, emo-leaning cloud rap that has built a quiet following outside the usual channels. File alongside the wider underground SoundCloud rap diaspora.",
+    "tags": [],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=xtclvr%20passion&item_type=a",
+      "spotify": "https://open.spotify.com/search/xtclvr%20passion",
+      "soundcloud": "https://soundcloud.com/search?q=xtclvr%20passion",
+      "youtube": "https://www.youtube.com/results?search_query=xtclvr%20passion",
+      "deezer": "https://www.deezer.com/album/972327531"
+    },
+    "embed": {
+      "provider": "deezer",
+      "src": "https://widget.deezer.com/widget/light/album/972327531",
+      "height": 300
+    },
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://cdn-images.dzcdn.net/images/cover/39ca72f55c842099cf80540dba3fedc7/1000x1000-000000-80-0-0.jpg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
     "id": "olof-dreijer-loud-bloom",
     "type": "album",
     "artist": "Olof Dreijer",
@@ -835,7 +896,9 @@
       "fg": "#f2efe8",
       "motif": "disc"
     },
-    "pressMentions": []
+    "pressMentions": [
+      "pitchfork_albums"
+    ]
   },
   {
     "id": "max-cooper-feeling-is-structure",
@@ -7387,7 +7450,9 @@
       "fg": "#f2efe8",
       "motif": "disc"
     },
-    "pressMentions": []
+    "pressMentions": [
+      "pitchfork_albums"
+    ]
   },
   {
     "id": "oma-totem-exercicis-ritmics-volum-2",
@@ -11951,6 +12016,41 @@
     "status": "pending",
     "approvedAt": null,
     "coverImageUrl": "https://i.discogs.com/xPsznObDUCOzWmfzps-J4QRw7GX6D1xquH50KpZnOSs/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM3MTgz/NjIwLTE3NzcyNDI3/MjMtOTM1MS5qcGVn.jpeg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
+    "id": "ari-lennox-vacancy",
+    "type": "album",
+    "artist": "Ari Lennox",
+    "title": "Vacancy",
+    "label": "Interscope Records",
+    "releaseDate": "2026-01-23",
+    "description": "Ari Lennox moves to Interscope for a fifteen-track R&B set pressed as a limited LP. Her Dreamville run already established the register, warm, conversational, unhurried; this one lands in the same neighborhood.",
+    "tags": [
+      "funk / soul"
+    ],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=Ari%20Lennox%20Vacancy&item_type=a",
+      "spotify": "https://open.spotify.com/search/Ari%20Lennox%20Vacancy",
+      "soundcloud": "https://soundcloud.com/search?q=Ari%20Lennox%20Vacancy",
+      "youtube": "https://www.youtube.com/results?search_query=Ari%20Lennox%20Vacancy",
+      "deezer": "https://www.deezer.com/album/901484752",
+      "apple": "https://music.apple.com/us/album/vacancy/1874740407?uo=4"
+    },
+    "embed": {
+      "provider": "apple",
+      "src": "https://embed.music.apple.com/us/album/1874740407?theme=light",
+      "height": 450
+    },
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://i.discogs.com/VBQrZHdiDq7miSfdONe9HRyzN9rcbxT41s1BTAYgQV0/rs:fit/g:sm/q:90/h:592/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM2MzQy/NDM2LTE3NzIyNDQ3/NTctOTQyNy5qcGVn.jpeg",
     "cover": {
       "bg": "#111110",
       "fg": "#f2efe8",
@@ -18464,7 +18564,7 @@
     "title": "No Scope",
     "label": "Ghostly International",
     "releaseDate": "2025-09-26",
-    "description": "",
+    "description": "Twelve tracks of hazed, guitar-leaning dream pop from Crushed, landing on Ghostly. The Britpop scaffolding under the gauze gives it more spine than the genre usually allows; try it next to Jane Remover's softer turns.",
     "tags": [
       "rock"
     ],
@@ -18499,7 +18599,7 @@
     "title": "Certain Things You Can't Explain (I'll Just Let Myself Go)",
     "label": "Brainfeeder",
     "releaseDate": "2025-09-24",
-    "description": "",
+    "description": "Kit Sebastian on Brainfeeder continues to make sense the more you sit with it: Anatolian psych filtered through bossa drift and lounge jazz, with none of the dust-fetish that usually attends the formula. A single, but it carries weight.",
     "tags": [
       "jazz"
     ],
@@ -18533,7 +18633,7 @@
     "title": "Iris Out / Jane Doe",
     "label": "Reissue Records",
     "releaseDate": "2025-09-24",
-    "description": "",
+    "description": "Two Kenshi Yonezu A-sides bundled for Reissue Records, the kind of widescreen J-pop/J-rock hybrid he has built a career on, here tied to anime theme duty. For listeners who already follow the Chainsaw Man pipeline.",
     "tags": [
       "rock"
     ],
@@ -18562,7 +18662,7 @@
     "title": "Reverse Acceleration Of Dragons",
     "label": "12th Isle",
     "releaseDate": "2025-09-22",
-    "description": "",
+    "description": "Five pieces of abstract ambient and drone from Radx, landing on 12th Isle in the becalmed, slightly off-map register the Glasgow label has made its own. Closer to weather than composition.",
     "tags": [
       "electronic"
     ],
@@ -18596,7 +18696,7 @@
     "title": "Comafields / Imaginary Festival",
     "label": "Hyperdub",
     "releaseDate": "2025-09-21",
-    "description": "",
+    "description": "Two more long-form pieces from Bevan on Hyperdub, sitting in the smeared ambient-bass register he has occupied for years now rather than the garage rhythms he came in on. For the faithful; no one else is making records quite like these.",
     "tags": [
       "electronic"
     ],
@@ -18630,7 +18730,7 @@
     "title": "Blurrr",
     "label": "AD 93",
     "releaseDate": "2025-09-19",
-    "description": "",
+    "description": "Robertson's hushed, smeared folk lands on AD 93, an unlikely but increasingly logical home for her guitar sketches and ghosted vocals. Nine tracks that sound less written than left out in the weather.",
     "tags": [
       "rock"
     ],
@@ -18666,7 +18766,7 @@
     "title": "The Aftermath",
     "label": "Death By Numbers",
     "releaseDate": "2025-09-17",
-    "description": "",
+    "description": "Eight tracks of power violence and thrash compressed into mini-album length on Death By Numbers, the limited pressing suiting the format. Short, blunt, no interest in stretching anything out.",
     "tags": [
       "rock"
     ],
@@ -18700,7 +18800,7 @@
     "title": "Silent Green",
     "label": "Cirrus (4)",
     "releaseDate": "2025-09-17",
-    "description": "",
+    "description": "Four tracks of slow, weighted ambient and downtempo from OK EG on Cirrus, the kind of record that sits with the curtains half-drawn. Pair it with the more interior corners of the Music From Memory orbit.",
     "tags": [
       "electronic"
     ],
@@ -18735,7 +18835,7 @@
     "title": "ASC - EP1",
     "label": "A Strange Child",
     "releaseDate": "2025-09-16",
-    "description": "",
+    "description": "Four techno cuts on A Strange Child, a label that has been quietly building a roster around stripped, club-functional 12\"s. Cut across 33 and 45rpm, which usually signals an A-side built for the floor and a B-side that wanders.",
     "tags": [
       "electronic"
     ],
@@ -18768,7 +18868,7 @@
     "title": "Found Songs",
     "label": "Erased Tapes Records",
     "releaseDate": "2025-09-12",
-    "description": "",
+    "description": "Erased Tapes reissues the 2009 piano-and-strings sketches that first marked out Arnalds' lane in modern classical, remastered and pressed to a pair of 45rpm 10\"s. Slight, unhurried, and still the clearest entry point to everything he made after.",
     "tags": [
       "electronic"
     ],
@@ -18803,7 +18903,7 @@
     "title": "II",
     "label": "Sferic",
     "releaseDate": "2025-09-12",
-    "description": "",
+    "description": "Nineteen tracks of cloud rap and trap dissolved into the kind of weather-system ambient Sferic usually presses to clear vinyl. An odd fit for the label on paper, but the smudged edges make sense once you're in it.",
     "tags": [
       "electronic"
     ],
@@ -18836,7 +18936,7 @@
     "title": "Shifted",
     "label": "Short Span",
     "releaseDate": "2025-09-12",
-    "description": "",
+    "description": "Three tracks of dub techno from Conna Haraway on Short Span, pressed as a 12\" EP at 33⅓. Chord stabs and tape hiss in the lineage you'd expect; file near Yagya if you need a shelf.",
     "tags": [
       "electronic"
     ],
@@ -21403,12 +21503,13 @@
       "spotify": "https://open.spotify.com/search/Jordan%20Playfair%20Consternation",
       "soundcloud": "https://soundcloud.com/search?q=Jordan%20Playfair%20Consternation",
       "youtube": "https://www.youtube.com/results?search_query=Jordan%20Playfair%20Consternation",
-      "deezer": "https://www.deezer.com/album/789739591"
+      "deezer": "https://www.deezer.com/album/789739591",
+      "apple": "https://music.apple.com/us/album/consternation-ep/1827246378?uo=4"
     },
     "embed": {
-      "provider": "deezer",
-      "src": "https://widget.deezer.com/widget/light/album/789739591",
-      "height": 300
+      "provider": "apple",
+      "src": "https://embed.music.apple.com/us/album/1827246378?theme=light",
+      "height": 450
     },
     "musicVideoUrl": null,
     "status": "pending",
@@ -22566,12 +22667,13 @@
       "spotify": "https://open.spotify.com/search/Biosphere%20The%20Way%20of%20Time",
       "soundcloud": "https://soundcloud.com/search?q=Biosphere%20The%20Way%20of%20Time",
       "youtube": "https://www.youtube.com/results?search_query=Biosphere%20The%20Way%20of%20Time",
-      "deezer": "https://www.deezer.com/album/747165371"
+      "deezer": "https://www.deezer.com/album/747165371",
+      "apple": "https://music.apple.com/us/album/the-way-of-time/1810444272?uo=4"
     },
     "embed": {
-      "provider": "deezer",
-      "src": "https://widget.deezer.com/widget/light/album/747165371",
-      "height": 300
+      "provider": "apple",
+      "src": "https://embed.music.apple.com/us/album/1810444272?theme=light",
+      "height": 450
     },
     "musicVideoUrl": null,
     "status": "pending",
@@ -23213,6 +23315,41 @@
     "pressMentions": []
   },
   {
+    "id": "drab-majesty-an-object-in-motion",
+    "type": "ep",
+    "artist": "Drab Majesty",
+    "title": "An Object In Motion",
+    "label": "Dais Records",
+    "releaseDate": "2025-06-01",
+    "description": "",
+    "tags": [
+      "electronic"
+    ],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=Drab%20Majesty%20An%20Object%20In%20Motion&item_type=a",
+      "spotify": "https://open.spotify.com/search/Drab%20Majesty%20An%20Object%20In%20Motion",
+      "soundcloud": "https://soundcloud.com/search?q=Drab%20Majesty%20An%20Object%20In%20Motion",
+      "youtube": "https://www.youtube.com/results?search_query=Drab%20Majesty%20An%20Object%20In%20Motion",
+      "deezer": "https://www.deezer.com/album/436408687",
+      "apple": "https://music.apple.com/us/album/an-object-in-motion/1685860740?uo=4"
+    },
+    "embed": {
+      "provider": "apple",
+      "src": "https://embed.music.apple.com/us/album/1685860740?theme=light",
+      "height": 450
+    },
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://i.discogs.com/7717HMy9rmwIWQANwAAjt380P79wtlGbyhiQIN94OVY/rs:fit/g:sm/q:90/h:600/w:589/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM1MzIy/MDEzLTE3Nzg0NDU2/NjMtMTIyNy5qcGVn.jpeg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
     "id": "rilla-schwarz-auf-wei",
     "type": "album",
     "artist": "Rilla",
@@ -23498,12 +23635,13 @@
       "spotify": "https://open.spotify.com/search/Jordan%20Playfair%20Cherry%20Hill",
       "soundcloud": "https://soundcloud.com/search?q=Jordan%20Playfair%20Cherry%20Hill",
       "youtube": "https://www.youtube.com/results?search_query=Jordan%20Playfair%20Cherry%20Hill",
-      "deezer": "https://www.deezer.com/album/752656111"
+      "deezer": "https://www.deezer.com/album/752656111",
+      "apple": "https://music.apple.com/us/album/cherry-hill-ep/1812703360?uo=4"
     },
     "embed": {
-      "provider": "deezer",
-      "src": "https://widget.deezer.com/widget/light/album/752656111",
-      "height": 300
+      "provider": "apple",
+      "src": "https://embed.music.apple.com/us/album/1812703360?theme=light",
+      "height": 450
     },
     "musicVideoUrl": null,
     "status": "pending",
@@ -24098,12 +24236,13 @@
       "spotify": "https://open.spotify.com/search/Tracey%20Tracey%20EP",
       "soundcloud": "https://soundcloud.com/search?q=Tracey%20Tracey%20EP",
       "youtube": "https://www.youtube.com/results?search_query=Tracey%20Tracey%20EP",
-      "deezer": "https://www.deezer.com/album/152583522"
+      "deezer": "https://www.deezer.com/album/152583522",
+      "apple": "https://music.apple.com/us/album/tracey-nelson-ep/1816167659?uo=4"
     },
     "embed": {
-      "provider": "deezer",
-      "src": "https://widget.deezer.com/widget/light/album/152583522",
-      "height": 300
+      "provider": "apple",
+      "src": "https://embed.music.apple.com/us/album/1816167659?theme=light",
+      "height": 450
     },
     "musicVideoUrl": null,
     "status": "pending",
@@ -24461,12 +24600,13 @@
       "spotify": "https://open.spotify.com/search/Moin%20Belly%20Up",
       "soundcloud": "https://soundcloud.com/search?q=Moin%20Belly%20Up",
       "youtube": "https://www.youtube.com/results?search_query=Moin%20Belly%20Up",
-      "deezer": "https://www.deezer.com/album/725636271"
+      "deezer": "https://www.deezer.com/album/725636271",
+      "apple": "https://music.apple.com/us/album/belly-up-ep/1801497703?uo=4"
     },
     "embed": {
-      "provider": "deezer",
-      "src": "https://widget.deezer.com/widget/light/album/725636271",
-      "height": 300
+      "provider": "apple",
+      "src": "https://embed.music.apple.com/us/album/1801497703?theme=light",
+      "height": 450
     },
     "musicVideoUrl": null,
     "status": "pending",
@@ -25596,12 +25736,13 @@
       "spotify": "https://open.spotify.com/search/Quade%20The%20Foel%20Tower",
       "soundcloud": "https://soundcloud.com/search?q=Quade%20The%20Foel%20Tower",
       "youtube": "https://www.youtube.com/results?search_query=Quade%20The%20Foel%20Tower",
-      "deezer": "https://www.deezer.com/album/707835731"
+      "deezer": "https://www.deezer.com/album/707835731",
+      "apple": "https://music.apple.com/us/album/the-foel-tower/1794348858?uo=4"
     },
     "embed": {
-      "provider": "deezer",
-      "src": "https://widget.deezer.com/widget/light/album/707835731",
-      "height": 300
+      "provider": "apple",
+      "src": "https://embed.music.apple.com/us/album/1794348858?theme=light",
+      "height": 450
     },
     "musicVideoUrl": null,
     "status": "pending",
@@ -28388,12 +28529,13 @@
       "spotify": "https://open.spotify.com/search/Jordan%20Playfair%20Doctor%20Pain",
       "soundcloud": "https://soundcloud.com/search?q=Jordan%20Playfair%20Doctor%20Pain",
       "youtube": "https://www.youtube.com/results?search_query=Jordan%20Playfair%20Doctor%20Pain",
-      "deezer": "https://www.deezer.com/album/709026741"
+      "deezer": "https://www.deezer.com/album/709026741",
+      "apple": "https://music.apple.com/us/album/doctor-pain-single/1794765877?uo=4"
     },
     "embed": {
-      "provider": "deezer",
-      "src": "https://widget.deezer.com/widget/light/album/709026741",
-      "height": 300
+      "provider": "apple",
+      "src": "https://embed.music.apple.com/us/album/1794765877?theme=light",
+      "height": 450
     },
     "musicVideoUrl": null,
     "status": "pending",
@@ -29385,12 +29527,13 @@
       "soundcloud": "https://soundcloud.com/search?q=Wojciech%20Rusin%20Honey%20for%20the%20Ants",
       "youtube": "https://www.youtube.com/results?search_query=Wojciech%20Rusin%20Honey%20for%20the%20Ants",
       "deezer": "https://www.deezer.com/album/672433881",
-      "tidal": "https://tidal.com/album/400516635"
+      "tidal": "https://tidal.com/album/400516635",
+      "apple": "https://music.apple.com/us/album/honey-for-the-ants/1780775847?uo=4"
     },
     "embed": {
-      "provider": "deezer",
-      "src": "https://widget.deezer.com/widget/light/album/672433881",
-      "height": 300
+      "provider": "apple",
+      "src": "https://embed.music.apple.com/us/album/1780775847?theme=light",
+      "height": 450
     },
     "musicVideoUrl": null,
     "status": "pending",
@@ -29455,7 +29598,8 @@
       "spotify": "https://open.spotify.com/search/Iro%20Aka%20Aural%20II",
       "soundcloud": "https://soundcloud.com/search?q=Iro%20Aka%20Aural%20II",
       "youtube": "https://www.youtube.com/results?search_query=Iro%20Aka%20Aural%20II",
-      "apple": "https://music.apple.com/us/album/aural-ii/1806711819?uo=4"
+      "apple": "https://music.apple.com/us/album/aural-ii/1806711819?uo=4",
+      "tidal": "https://tidal.com/album/428272372"
     },
     "embed": {
       "provider": "apple",
@@ -29489,7 +29633,8 @@
       "spotify": "https://open.spotify.com/search/Iro%20Aka%20Aural",
       "soundcloud": "https://soundcloud.com/search?q=Iro%20Aka%20Aural",
       "youtube": "https://www.youtube.com/results?search_query=Iro%20Aka%20Aural",
-      "apple": "https://music.apple.com/us/album/aural/1806693280?uo=4"
+      "apple": "https://music.apple.com/us/album/aural/1806693280?uo=4",
+      "tidal": "https://tidal.com/album/428272372"
     },
     "embed": {
       "provider": "apple",
@@ -29524,7 +29669,8 @@
       "soundcloud": "https://soundcloud.com/search?q=Salami%20Rose%20Joe%20Louis%20Zdenka%202080",
       "youtube": "https://www.youtube.com/results?search_query=Salami%20Rose%20Joe%20Louis%20Zdenka%202080",
       "deezer": "https://www.deezer.com/album/100955232",
-      "apple": "https://music.apple.com/us/album/zdenka-2080/1469654121?uo=4"
+      "apple": "https://music.apple.com/us/album/zdenka-2080/1469654121?uo=4",
+      "tidal": "https://tidal.com/album/113002553"
     },
     "embed": {
       "provider": "apple",
@@ -39375,7 +39521,9 @@
       "fg": "#f2efe8",
       "motif": "disc"
     },
-    "pressMentions": []
+    "pressMentions": [
+      "pitchfork_albums"
+    ]
   },
   {
     "id": "stas-czekalski-przygody",
