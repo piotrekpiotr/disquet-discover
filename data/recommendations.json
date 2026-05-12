@@ -864,6 +864,40 @@
     "pressMentions": []
   },
   {
+    "id": "andrea-111",
+    "type": "album",
+    "artist": "Andrea",
+    "title": "111",
+    "label": "",
+    "releaseDate": "2026-05-11",
+    "description": "Andrea returns to album length, presumably continuing the bruised, broken-beat techno he has been mapping since Ritorno. File alongside other Ilian Tape regulars if the title turns out to land there.",
+    "tags": [],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=Andrea%20111&item_type=a",
+      "spotify": "https://open.spotify.com/search/Andrea%20111",
+      "soundcloud": "https://soundcloud.com/search?q=Andrea%20111",
+      "youtube": "https://www.youtube.com/results?search_query=Andrea%20111",
+      "deezer": "https://www.deezer.com/album/974527641",
+      "apple": "https://music.apple.com/us/album/111/6765957996?uo=4",
+      "tidal": "https://tidal.com/album/521113574"
+    },
+    "embed": {
+      "provider": "apple",
+      "src": "https://embed.music.apple.com/us/album/6765957996?theme=light",
+      "height": 450
+    },
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://cdn-images.dzcdn.net/images/cover/fe4b202e5500ad64254b807e6d450520/1000x1000-000000-80-0-0.jpg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
     "id": "olof-dreijer-loud-bloom",
     "type": "album",
     "artist": "Olof Dreijer",
@@ -1367,6 +1401,41 @@
     "status": "pending",
     "approvedAt": null,
     "coverImageUrl": "https://cdn-images.dzcdn.net/images/cover/3b736c862632b7090e7790dc8ca65b1a/1000x1000-000000-80-0-0.jpg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
+    "id": "mano-le-tough-dj-koze-real-you-know",
+    "type": "single",
+    "artist": "Mano Le Tough & DJ Koze",
+    "title": "Real, You Know?!",
+    "label": "Maeve",
+    "releaseDate": "2026-05-08",
+    "description": "Mano Le Tough hosts DJ Koze on his own Maeve imprint, a pairing that more or less guarantees a certain register of left-of-centre dancefloor melancholy. File alongside the wonkier Pampa twelves.",
+    "tags": [
+      "dance"
+    ],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=Mano%20Le%20Tough%20%26%20DJ%20Koze%20Real%2C%20You%20Know%3F!&item_type=a",
+      "spotify": "https://open.spotify.com/search/Mano%20Le%20Tough%20%26%20DJ%20Koze%20Real%2C%20You%20Know%3F!",
+      "soundcloud": "https://soundcloud.com/search?q=Mano%20Le%20Tough%20%26%20DJ%20Koze%20Real%2C%20You%20Know%3F!",
+      "youtube": "https://www.youtube.com/results?search_query=Mano%20Le%20Tough%20%26%20DJ%20Koze%20Real%2C%20You%20Know%3F!",
+      "apple": "https://music.apple.com/us/album/real-you-know-single/1895149361",
+      "deezer": "https://www.deezer.com/album/967388681"
+    },
+    "embed": {
+      "provider": "apple",
+      "src": "https://embed.music.apple.com/us/album/1895149361?theme=light",
+      "height": 450
+    },
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/62/64/f8/6264f894-eeda-f078-373b-6516f44a96e1/4066004965499_3000.jpg/600x600bb.jpg",
     "cover": {
       "bg": "#111110",
       "fg": "#f2efe8",
@@ -2954,6 +3023,41 @@
     "pressMentions": [
       "stereogum"
     ]
+  },
+  {
+    "id": "deetron-presents-soulmate-sequence",
+    "type": "ep",
+    "artist": "Deetron presents Soulmate",
+    "title": "Sequence",
+    "label": "Ilian Tape",
+    "releaseDate": "2026-04-30",
+    "description": "Deetron's Soulmate alias lands on Ilian Tape for four tracks of functional, slightly bruised techno, which is exactly the register the Zenker brothers' label tends to sharpen. File alongside Skee Mask's straighter club work.",
+    "tags": [
+      "electronic"
+    ],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=Deetron%20presents%20Soulmate%20Sequence&item_type=a",
+      "spotify": "https://open.spotify.com/search/Deetron%20presents%20Soulmate%20Sequence",
+      "soundcloud": "https://soundcloud.com/search?q=Deetron%20presents%20Soulmate%20Sequence",
+      "youtube": "https://www.youtube.com/results?search_query=Deetron%20presents%20Soulmate%20Sequence",
+      "deezer": "https://www.deezer.com/album/977057001",
+      "apple": "https://music.apple.com/us/album/sequence-ep/6766958441?uo=4"
+    },
+    "embed": {
+      "provider": "apple",
+      "src": "https://embed.music.apple.com/us/album/6766958441?theme=light",
+      "height": 450
+    },
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://i.discogs.com/At2zRDH6SsRN2jYKxkW0V2XQIqkRkywQ5t0qQpAtawg/rs:fit/g:sm/q:90/h:600/w:596/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM3MjQy/ODY3LTE3Nzg1MzA1/ODctMTk5MS5qcGVn.jpeg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
   },
   {
     "id": "martyn-duval-timothy-no-one-plays-the-game",
@@ -19545,7 +19649,7 @@
     "title": "Barbara Togander - ·i·",
     "label": "Fort Evil Fruit",
     "releaseDate": "2025-09-05",
-    "description": "",
+    "description": "Eight pieces of free improvisation routed through Fort Evil Fruit, the Cork tape label's usual taste for the unpolished and uncategorisable holding firm. One for the Penultimate Press shelf.",
     "tags": [
       "electronic"
     ],
@@ -19611,7 +19715,7 @@
     "title": "Damn Right I Am Somebody",
     "label": "Strongly Felt",
     "releaseDate": "2025-09-05",
-    "description": "",
+    "description": "Polydor brings the 1974 JB's session back to wax, Wesley's trombone leading a band still operating inside the Brown organisation but writing their own bylaws. Horn-forward funk that has long since outlived its parent catalogue.",
     "tags": [
       "funk / soul"
     ],
@@ -19645,7 +19749,7 @@
     "title": "Rejuvenation",
     "label": "Strongly Felt",
     "releaseDate": "2025-09-05",
-    "description": "",
+    "description": "Reprise sends the 1974 New Orleans funk benchmark back to vinyl, nine tracks of Nocentelli, Porter, Modeliste and Neville locking into the groove that every subsequent rare-groove crate has tried to chase. Essential shelf furniture next to any Allen Toussaint production.",
     "tags": [
       "funk / soul"
     ],
@@ -19714,7 +19818,7 @@
     "title": "A Thousand Couple Times",
     "label": "Snappy Little Numbers",
     "releaseDate": "2025-09-03",
-    "description": "",
+    "description": "Eleven tracks of emo and post-hardcore from Model Martel, landing on Snappy Little Numbers in the register the Denver label has been quietly defending for years. For anyone still pulling out Joie De Vivre records.",
     "tags": [
       "rock"
     ],
@@ -19749,7 +19853,7 @@
     "title": "Inheritor Of The Forest Throne",
     "label": "Out Of Season",
     "releaseDate": "2025-09-01",
-    "description": "",
+    "description": "Out Of Season hands a vinyl pressing to Murgrind's woodland dungeon synth, all the cassette-tier keyboard pageantry the style was built on, now cut to LP. Sits comfortably next to Old Tower for anyone working that shelf.",
     "tags": [
       "electronic"
     ],
@@ -19816,7 +19920,7 @@
     "title": "True Than Nature",
     "label": "Ideologic Organ",
     "releaseDate": "2025-08-29",
-    "description": "",
+    "description": "Six pieces of drone and field recording from BJ Nilsen, landing on Stephen O'Malley's Ideologic Organ in a limited pressing. Weather, room tone and low-end mass arranged with the patience his Touch-era work trained you to expect.",
     "tags": [
       "electronic"
     ],
@@ -19879,7 +19983,7 @@
     "title": "Kansai Bruises",
     "label": "AD 93",
     "releaseDate": "2025-08-22",
-    "description": "",
+    "description": "Magaletti's percussion meets Koshiro Hino's circuit-noise instincts across eight tracks on AD 93, a duo record where neither player gives much ground. For anyone tracking Magaletti's run of collaborative LPs.",
     "tags": [
       "electronic"
     ],
@@ -19949,7 +20053,7 @@
     "title": "For Dancing In Quiet Light",
     "label": "Leaving Records",
     "releaseDate": "2025-08-22",
-    "description": "",
+    "description": "Three pieces of pedal-steel ambient from Luke Schneider, drifting toward new age and drone without quite settling in either. Leaving Records territory through and through; shelve near Chuck Johnson.",
     "tags": [
       "electronic"
     ],
@@ -20017,7 +20121,7 @@
     "title": "Signs",
     "label": "Peak Oil",
     "releaseDate": "2025-08-22",
-    "description": "",
+    "description": "Six tracks of the Chicago trio's drifting, vapor-thin dub techno, returning to Peak Oil where their sound first cohered. For anyone tracking the same lineage as Topdown Dialectic.",
     "tags": [
       "electronic"
     ],
@@ -20051,7 +20155,7 @@
     "title": "B Side",
     "label": "mappa",
     "releaseDate": "2025-08-21",
-    "description": "",
+    "description": "Nine pieces of experimental ambient from Areliz Ramos, issued in a limited edition by mappa, the Slovak imprint with a longstanding ear for hushed, processed field work. Sits comfortably alongside Olivia Block or anything else in the mappa catalogue.",
     "tags": [
       "electronic"
     ],
@@ -20086,7 +20190,7 @@
     "title": "Flustra",
     "label": "LuckyMe",
     "releaseDate": "2025-08-20",
-    "description": "",
+    "description": "Five tracks of bass-leaning electro and techno on LuckyMe, with enough experimental drift to keep it off the functional shelf. Sits comfortably next to the label's more abstract output, think Lanark Artefax adjacent without the gloss.",
     "tags": [
       "electronic"
     ],
@@ -20156,7 +20260,7 @@
     "title": "Everything's On Fire But I'm Fine",
     "label": "ADF Records",
     "releaseDate": "2025-08-15",
-    "description": "",
+    "description": "Self-released LP from the Nottingham four-piece, fourteen tracks straddling pop-punk hooks and a darker goth-rock edge that has crept into their palette over time. Limited pressing for the people who already know the words.",
     "tags": [
       "rock"
     ],
