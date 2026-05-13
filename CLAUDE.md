@@ -174,6 +174,54 @@ songwriter, noise (each expanded into Last.fm/Bandcamp variants).
 Manual artist blacklist for high-profile mismatches (Avicii,
 Foo Fighters, Vince Staples, etc.) — extend as new ones surface.
 
+## GitHub Actions cost / minutes
+
+Repo is **private**, on the GitHub Free plan: 2,000 Linux-runner
+minutes/month at no cost, $0.008/min thereafter (1× multiplier).
+
+**As of 2026-05-13** the workflow uses a two-job structure:
+- `check` job (~30-60s) runs on every trigger. Decides whether to
+  run the heavy job:
+  - `workflow_dispatch` → always run
+  - 04:00 UTC cron → always run (primary slot)
+  - 11:00 UTC cron → run ONLY if no `daily pool: new pending batch`
+    commit landed today (i.e. the 04:00 cron failed / crashed /
+    was rate-limited)
+- `generate` job (~25-35 min) — the heavy work. Gated on the
+  check's `should_run` output.
+
+This pattern saves ~30 min × ~80%+ of days = ~720 min/month vs.
+the previous always-twice-daily cadence. Estimated steady-state
+usage: ~900-1,100 min/month, comfortably under the 2,000 free tier.
+
+**Tradeoff to know about:** the previous twice-daily cron caught
+releases that dropped between 04:00 and 11:00 UTC same-day. With
+the conditional retry, those releases are caught at the next 04:00
+instead — max ~18 hour delay. No records are permanently missed.
+If the curator wants to catch a same-day mid-day release, they can
+manually trigger the workflow from the Actions tab.
+
+Also applied: `npm ci --omit=dev` (CI scripts use only Node
+built-ins, so devDeps like Tailwind/TypeScript are dead weight in
+CI), `timeout-minutes: 50` on the generate job (runaway-job
+guardrail, kills jobs stuck past typical-run+headroom).
+
+Spending limit is at github.com/settings/billing/spending_limit —
+default $0 means Actions just stop running once free quota hits;
+no surprise bill. The curator decides when to raise this.
+
+**If we hit the limit again** (e.g. artists+labels pool doubles):
+1. Flip the repo public for unlimited free Actions minutes (only
+   `data/` becomes visible — secrets stay encrypted in GitHub
+   Secrets).
+2. Drop the 11:00 cron entirely (currently conditional, would
+   become not-scheduled). Saves ~5-20 min/month from check-job
+   overhead. Loses the morning-failure recovery.
+3. Skip backfill scripts when sync produced 0 new records (NOT
+   currently done because backfills also catch up records stuck
+   without embeds from earlier days — would lose that catch-up
+   coverage).
+
 ## Pending / known gaps
 
 - **Spotify direct album URLs**: Songlink/Odesli has poor coverage for

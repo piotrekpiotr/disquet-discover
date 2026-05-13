@@ -1,26 +1,28 @@
 # Generate the next batch of pending recommendations every day.
 #
-# Schedule: twice daily at 04:00 and 11:00 UTC.
+# Schedule: 04:00 UTC primary, 11:00 UTC conditional retry.
 #
 #   04:00 UTC = 06:00 Warsaw CEST (summer) / 05:00 CET (winter) — the
-#   curator's target morning slot. This is the "real" run: scan every
-#   artist + every label + every press feed, commit, deploy.
+#   curator's target morning slot. ALWAYS runs the full generate job:
+#   scan every artist + every label + every press feed, commit, deploy.
 #
-#   11:00 UTC = 13:00 Warsaw CEST / 12:00 CET — insurance. Every sync
-#   script is idempotent (deduped by id + artist|title), so running a
-#   second pass a few hours later costs nothing if the morning run was
-#   clean, but recovers what was lost on days when Apple / Deezer /
-#   GitHub's runner IP range hit a throttle. Different runner, different
-#   IP — often unblocks what failed six hours earlier.
+#   11:00 UTC = 13:00 Warsaw CEST / 12:00 CET — recovery slot. Runs the
+#   full job ONLY when the 04:00 cron didn't produce a `daily pool: …`
+#   commit today (i.e. the morning run failed, was rate-limited, or
+#   crashed). On normal days the 11:00 trigger fires the lightweight
+#   `check` job which decides "nothing to do" in ~30s and skips the
+#   heavy generate job entirely. This halves typical-week minutes
+#   while preserving the iTunes-429 / IP-throttle recovery pattern.
 #
 # Any failed day still leaves the site running the previous day's pool,
 # because only the commit step modifies the repo and every script exits 0
-# even on a catastrophic crash. The only way for this workflow to fail
-# the whole run is the final health summary, and that only fires when
-# EVERY release source returned zero (i.e. genuinely nothing shipped).
+# even on a catastrophic crash. The only way the workflow can fail is
+# the final health summary, which only fires when EVERY release source
+# returned zero (i.e. a genuine zero day).
 #
-# Manual runs: use the "Run workflow" button on the Actions tab. Useful
-# for backfilling or testing without waiting for the schedule.
+# Manual runs: use the "Run workflow" button on the Actions tab. The
+# manual path bypasses the conditional check — useful for backfilling
+# or testing without waiting for the schedule.
 
 name: Generate daily recommendation pool
 
@@ -31,10 +33,67 @@ on:
   workflow_dispatch: {}
 
 jobs:
-  generate:
+  # Tiny up-front job that decides whether the heavy `generate` job
+  # should run. Costs ~30-60s of runner time per trigger (shallow
+  # checkout + a git log lookup), saves ~30 min when it skips. On a
+  # 04:00 firing OR manual dispatch it always returns `should_run=true`
+  # so the heavy job runs unchanged.
+  check:
     runs-on: ubuntu-latest
-    # One run at a time per branch: the second cron must wait for the first
-    # (or a manual run) to finish. Prevents two commits racing each other.
+    outputs:
+      should_run: ${{ steps.decide.outputs.should_run }}
+    steps:
+      - name: Check out (shallow)
+        uses: actions/checkout@v5
+        with:
+          # Only need enough history to see today's commits. The full
+          # generate job below does its own deeper checkout.
+          fetch-depth: 30
+
+      - name: Decide whether the heavy job should run
+        id: decide
+        run: |
+          # Manual dispatch always runs the heavy job — curator might
+          # be testing or backfilling, never gate this path.
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
+            echo "should_run=true" >> "$GITHUB_OUTPUT"
+            echo "::notice::Manual dispatch — heavy job will run."
+            exit 0
+          fi
+          # 04:00 primary cron always runs the heavy job.
+          if [ "${{ github.event.schedule }}" = "0 4 * * *" ]; then
+            echo "should_run=true" >> "$GITHUB_OUTPUT"
+            echo "::notice::04:00 primary cron — heavy job will run."
+            exit 0
+          fi
+          # 11:00 retry cron: only run if today has no daily-pool commit
+          # yet. The 04:00 cron succeeds on most days, so this branch
+          # short-circuits ~80%+ of mid-day triggers.
+          TODAY="$(date -u +%Y-%m-%d)"
+          LATEST_DAILY_POOL_DATE="$(
+            git log --grep='daily pool: new pending batch' \
+              -n 1 --pretty=format:%cI 2>/dev/null \
+              | cut -c1-10
+          )"
+          if [ "$LATEST_DAILY_POOL_DATE" = "$TODAY" ]; then
+            echo "should_run=false" >> "$GITHUB_OUTPUT"
+            echo "::notice::Skipping 11:00 retry — 04:00 cron already committed today ($TODAY)."
+          else
+            echo "should_run=true" >> "$GITHUB_OUTPUT"
+            echo "::notice::11:00 retry will run — no daily-pool commit found for $TODAY (last was $LATEST_DAILY_POOL_DATE)."
+          fi
+
+  generate:
+    needs: check
+    if: needs.check.outputs.should_run == 'true'
+    runs-on: ubuntu-latest
+    # Safety net: typical run is ~25-35 min after parallelisation.
+    # 50 min cap kills runaway jobs (stuck fetch, infinite retry) so a
+    # single bad day can't drain the monthly minutes budget.
+    timeout-minutes: 50
+    # One run at a time per branch: the conditional 11:00 retry must
+    # wait for the 04:00 run if it's still going. Prevents two commits
+    # racing each other.
     concurrency:
       group: daily-generate-${{ github.ref }}
       cancel-in-progress: false
@@ -72,7 +131,11 @@ jobs:
           cache: npm
 
       - name: Install dependencies
-        run: npm ci
+        # CI runs the cron scripts only — never `next build`, never TS
+        # compile. All cron scripts (.mjs) import only Node built-ins;
+        # none of next/react/typescript/tailwind/postcss are touched
+        # at runtime. Skipping devDependencies trims ~30s off install.
+        run: npm ci --omit=dev
 
       - name: Per-artist release sync (iTunes primary, Deezer fallback)
         # Scans EVERY artist in the pool (hardcoded ARTISTS + curator's
