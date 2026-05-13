@@ -182,6 +182,36 @@
     "pressMentions": []
   },
   {
+    "id": "2k88-lauren-duffus-rainy-miller-bianca-scout-everything-always-changes-for-we-re",
+    "type": "album",
+    "artist": "2K88, Lauren Duffus, Rainy Miller & Bianca Scout",
+    "title": "Everything Always Changes, For We’re Truly Here",
+    "label": "Fixed Abode & Unsound & Supernature",
+    "releaseDate": "2026-07-09",
+    "description": "A four-way collaboration between 2K88, Lauren Duffus, Rainy Miller and Bianca Scout, landing across Fixed Abode, Unsound and Supernature. Pitched somewhere in the bruised, vocal-led orbit Rainy Miller has been mapping out for a while now.",
+    "tags": [
+      "alternative"
+    ],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=2K88%2C%20Lauren%20Duffus%2C%20Rainy%20Miller%20%26%20Bianca%20Scout%20Everything%20Always%20Changes%2C%20For%20We%E2%80%99re%20Truly%20Here&item_type=a",
+      "spotify": "https://open.spotify.com/search/2K88%2C%20Lauren%20Duffus%2C%20Rainy%20Miller%20%26%20Bianca%20Scout%20Everything%20Always%20Changes%2C%20For%20We%E2%80%99re%20Truly%20Here",
+      "soundcloud": "https://soundcloud.com/search?q=2K88%2C%20Lauren%20Duffus%2C%20Rainy%20Miller%20%26%20Bianca%20Scout%20Everything%20Always%20Changes%2C%20For%20We%E2%80%99re%20Truly%20Here",
+      "youtube": "https://www.youtube.com/results?search_query=2K88%2C%20Lauren%20Duffus%2C%20Rainy%20Miller%20%26%20Bianca%20Scout%20Everything%20Always%20Changes%2C%20For%20We%E2%80%99re%20Truly%20Here",
+      "apple": "https://music.apple.com/us/album/everything-always-changes-for-were-truly-here/6767610046"
+    },
+    "embed": null,
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/f9/fd/3d/f9fd3d9c-6abc-ce9a-bc14-4c341487cd0e/5060644138199.png/600x600bb.jpg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
     "id": "lee-gamble-spray-spray",
     "type": "single",
     "artist": "Lee Gamble",
@@ -856,6 +886,200 @@
     "status": "pending",
     "approvedAt": null,
     "coverImageUrl": null,
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
+    "id": "2k88-lauren-duffus-rainy-miller-bianca-scout-poetic-fallacy",
+    "type": "single",
+    "artist": "2K88, Lauren Duffus, Rainy Miller & Bianca Scout",
+    "title": "Poetic Fallacy",
+    "label": "Fixed Abode & Unsound & Supernature",
+    "releaseDate": "2026-05-13",
+    "description": "Four-way credit linking 2K88, Lauren Duffus, Rainy Miller and Bianca Scout, arriving across Fixed Abode, Unsound and Supernature. The Rainy Miller axis tells you most of what you need to know: bruised, post-everything song-forms with the seams left visible.",
+    "tags": [
+      "alternative"
+    ],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=2K88%2C%20Lauren%20Duffus%2C%20Rainy%20Miller%20%26%20Bianca%20Scout%20Poetic%20Fallacy&item_type=a",
+      "spotify": "https://open.spotify.com/search/2K88%2C%20Lauren%20Duffus%2C%20Rainy%20Miller%20%26%20Bianca%20Scout%20Poetic%20Fallacy",
+      "soundcloud": "https://soundcloud.com/search?q=2K88%2C%20Lauren%20Duffus%2C%20Rainy%20Miller%20%26%20Bianca%20Scout%20Poetic%20Fallacy",
+      "youtube": "https://www.youtube.com/results?search_query=2K88%2C%20Lauren%20Duffus%2C%20Rainy%20Miller%20%26%20Bianca%20Scout%20Poetic%20Fallacy",
+      "apple": "https://music.apple.com/us/album/poetic-fallacy-single/6766835671",
+      "deezer": "https://www.deezer.com/album/973755251"
+    },
+    "embed": {
+      "provider": "apple",
+      "src": "https://embed.music.apple.com/us/album/6766835671?theme=light",
+      "height": 450
+    },
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/9d/5a/77/9d5a773e-3502-7e5c-6eee-d07346bc0ec7/5060644138205.png/600x600bb.jpg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
+    "id": "jacques-greene-umru-what-you-say-ft-umru",
+    "type": "single",
+    "artist": "Jacques Greene & umru",
+    "title": "What You Say (ft umru)",
+    "label": "LUCKYME®",
+    "releaseDate": "2026-05-13",
+    "description": "Jacques Greene links with umru on LuckyMe for a techno cut, the kind of pairing where Greene's emo-house lineage meets a producer raised on the hyperpop edit. Tagged techno, which for these two usually means rave shapes with the gloss left on.",
+    "tags": [
+      "techno"
+    ],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=Jacques%20Greene%20%26%20umru%20What%20You%20Say%20(ft%20umru)&item_type=a",
+      "spotify": "https://open.spotify.com/search/Jacques%20Greene%20%26%20umru%20What%20You%20Say%20(ft%20umru)",
+      "soundcloud": "https://soundcloud.com/search?q=Jacques%20Greene%20%26%20umru%20What%20You%20Say%20(ft%20umru)",
+      "youtube": "https://www.youtube.com/results?search_query=Jacques%20Greene%20%26%20umru%20What%20You%20Say%20(ft%20umru)",
+      "apple": "https://music.apple.com/us/album/what-you-say-ft-umru-single/1893297056"
+    },
+    "embed": null,
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/a3/55/0f/a3550fae-4b3a-fa3d-bc66-fd088ff58364/5056818809095.png/600x600bb.jpg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
+    "id": "rainy-miller-poetic-fallacy",
+    "type": "single",
+    "artist": "Rainy Miller",
+    "title": "Poetic Fallacy",
+    "label": "",
+    "releaseDate": "2026-05-13",
+    "description": "Rainy Miller in single form, that bruised, Auto-Tuned Preston gothic he has been mapping out across Fixed Abode releases and the Space Afrika collaborations. Sparse metadata, but the register is familiar: cracked devotional pop pulled through low cloud.",
+    "tags": [],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=Rainy%20Miller%20Poetic%20Fallacy&item_type=a",
+      "spotify": "https://open.spotify.com/search/Rainy%20Miller%20Poetic%20Fallacy",
+      "soundcloud": "https://soundcloud.com/search?q=Rainy%20Miller%20Poetic%20Fallacy",
+      "youtube": "https://www.youtube.com/results?search_query=Rainy%20Miller%20Poetic%20Fallacy",
+      "deezer": "https://www.deezer.com/album/973755251"
+    },
+    "embed": null,
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://cdn-images.dzcdn.net/images/cover/241f05e82a2c2986dcfaca6eaaa8e53e/1000x1000-000000-80-0-0.jpg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
+    "id": "overmono-lockup",
+    "type": "single",
+    "artist": "Overmono",
+    "title": "Lockup",
+    "label": "",
+    "releaseDate": "2026-05-12",
+    "description": "New Overmono single, label unattributed for now. Expect the Bailey brothers' usual trick of garage muscle threaded through pitched-up vocal fragments, sized for both car stereos and the bigger rooms.",
+    "tags": [],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=Overmono%20Lockup&item_type=a",
+      "spotify": "https://open.spotify.com/search/Overmono%20Lockup",
+      "soundcloud": "https://soundcloud.com/search?q=Overmono%20Lockup",
+      "youtube": "https://www.youtube.com/results?search_query=Overmono%20Lockup",
+      "deezer": "https://www.deezer.com/album/966100611"
+    },
+    "embed": {
+      "provider": "deezer",
+      "src": "https://widget.deezer.com/widget/light/album/966100611",
+      "height": 300
+    },
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://cdn-images.dzcdn.net/images/cover/bf2b9c0a24371135e955c9642af54817/1000x1000-000000-80-0-0.jpg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": [
+      "stereogum"
+    ]
+  },
+  {
+    "id": "danny-brown-lift-you-up-baauer-remix",
+    "type": "single",
+    "artist": "Danny Brown",
+    "title": "Lift You Up (Baauer Remix)",
+    "label": "",
+    "releaseDate": "2026-05-12",
+    "description": "Baauer takes a pass at Danny Brown's \"Lift You Up,\" which on paper is the kind of pairing that has been hovering in the air since Harlem Shake era trap met rap's more unhinged voices. Worth a listen on novelty grounds alone.",
+    "tags": [],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=Danny%20Brown%20Lift%20You%20Up%20(Baauer%20Remix)&item_type=a",
+      "spotify": "https://open.spotify.com/search/Danny%20Brown%20Lift%20You%20Up%20(Baauer%20Remix)",
+      "soundcloud": "https://soundcloud.com/search?q=Danny%20Brown%20Lift%20You%20Up%20(Baauer%20Remix)",
+      "youtube": "https://www.youtube.com/results?search_query=Danny%20Brown%20Lift%20You%20Up%20(Baauer%20Remix)",
+      "deezer": "https://www.deezer.com/album/967888031"
+    },
+    "embed": {
+      "provider": "deezer",
+      "src": "https://widget.deezer.com/widget/light/album/967888031",
+      "height": 300
+    },
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://cdn-images.dzcdn.net/images/cover/cf85dbc77d025c53a9929052d06d20ba/1000x1000-000000-80-0-0.jpg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
+    "id": "studio-2-life-s-a-beach",
+    "type": "single",
+    "artist": "Studio (2)",
+    "title": "Life's A Beach!",
+    "label": "Ghostly International",
+    "releaseDate": "2026-05-12",
+    "description": "Information dust off the Swedish duo's balearic-disco curio for digital reissue, a single track that's been quietly traded among DJs since its original pressing. Still the easiest entry point if Todd Terje's edits are already in the bag.",
+    "tags": [
+      "electronic"
+    ],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=Studio%20(2)%20Life's%20A%20Beach!&item_type=a",
+      "spotify": "https://open.spotify.com/search/Studio%20(2)%20Life's%20A%20Beach!",
+      "soundcloud": "https://soundcloud.com/search?q=Studio%20(2)%20Life's%20A%20Beach!",
+      "youtube": "https://www.youtube.com/results?search_query=Studio%20(2)%20Life's%20A%20Beach!",
+      "deezer": "https://www.deezer.com/album/926627481",
+      "apple": "https://music.apple.com/us/album/lifes-a-beach/1879891812?uo=4"
+    },
+    "embed": {
+      "provider": "apple",
+      "src": "https://embed.music.apple.com/us/album/1879891812?theme=light",
+      "height": 450
+    },
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://i.discogs.com/uNivLsZ00TjbC0CDlqdtZR5oPG4aberOsFmCUn5eGKI/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM3MzI0/NjUzLTE3Nzg2NDQ3/MzQtMTM1NS5qcGVn.jpeg",
     "cover": {
       "bg": "#111110",
       "fg": "#f2efe8",
@@ -3150,6 +3374,41 @@
     "status": "pending",
     "approvedAt": null,
     "coverImageUrl": "https://i.discogs.com/At2zRDH6SsRN2jYKxkW0V2XQIqkRkywQ5t0qQpAtawg/rs:fit/g:sm/q:90/h:600/w:596/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM3MjQy/ODY3LTE3Nzg1MzA1/ODctMTk5MS5qcGVn.jpeg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
+    "id": "burial-truant",
+    "type": "ep",
+    "artist": "Burial",
+    "title": "Truant",
+    "label": "Hyperdub",
+    "releaseDate": "2026-04-30",
+    "description": "Hyperdub puts the Truant 12\" back in print, two long pieces of cracked-vinyl dubstep from Bevan's mid-period stretch where the rhythms started fraying into ambient drift. Required shelving next to Kindred for anyone working through the run.",
+    "tags": [
+      "electronic"
+    ],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=Burial%20Truant&item_type=a",
+      "spotify": "https://open.spotify.com/search/Burial%20Truant",
+      "soundcloud": "https://soundcloud.com/search?q=Burial%20Truant",
+      "youtube": "https://www.youtube.com/results?search_query=Burial%20Truant",
+      "deezer": "https://www.deezer.com/album/8062912",
+      "apple": "https://music.apple.com/us/album/truant-ep/893702563?uo=4"
+    },
+    "embed": {
+      "provider": "apple",
+      "src": "https://embed.music.apple.com/us/album/893702563?theme=light",
+      "height": 450
+    },
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://i.discogs.com/NbiUha4RkwatogmXl8W8VTob2TLeJAnb04fDTb48dAM/rs:fit/g:sm/q:90/h:600/w:599/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM3MzEz/NDM5LTE3Nzg1OTIz/MTEtOTEwMy5qcGVn.jpeg",
     "cover": {
       "bg": "#111110",
       "fg": "#f2efe8",
@@ -6798,7 +7057,9 @@
       "fg": "#f2efe8",
       "motif": "disc"
     },
-    "pressMentions": []
+    "pressMentions": [
+      "pitchfork_albums"
+    ]
   },
   {
     "id": "gustav-kemps-lonesome-for-a-storm",
@@ -8397,6 +8658,64 @@
     "status": "pending",
     "approvedAt": null,
     "coverImageUrl": "https://i.discogs.com/qXdLJK_K2uO3vkfoyfBY3b-ig8IWHP28huSLcpH4zqg/rs:fit/g:sm/q:90/h:589/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM3MjQ5/NzcwLTE3Nzc5MTk4/NzMtMjg4NC5qcGVn.jpeg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
+    "id": "tor-lundvall-a-strangeness-in-motion-early-pop-recordings-1989-1999",
+    "type": "album",
+    "artist": "Tor Lundvall",
+    "title": "A Strangeness In Motion (Early Pop Recordings • 1989-1999)",
+    "label": "Dais Records",
+    "releaseDate": "2026-04-01",
+    "description": "Dais collects a decade of Lundvall's pop-leaning home recordings, a side of his catalog usually overshadowed by the painterly ambient work. Synth-pop in shape but recognizably his, muted, foggy, hesitant at the edges.",
+    "tags": [
+      "electronic"
+    ],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=Tor%20Lundvall%20A%20Strangeness%20In%20Motion%20(Early%20Pop%20Recordings%20%E2%80%A2%201989-1999)&item_type=a",
+      "spotify": "https://open.spotify.com/search/Tor%20Lundvall%20A%20Strangeness%20In%20Motion%20(Early%20Pop%20Recordings%20%E2%80%A2%201989-1999)",
+      "soundcloud": "https://soundcloud.com/search?q=Tor%20Lundvall%20A%20Strangeness%20In%20Motion%20(Early%20Pop%20Recordings%20%E2%80%A2%201989-1999)",
+      "youtube": "https://www.youtube.com/results?search_query=Tor%20Lundvall%20A%20Strangeness%20In%20Motion%20(Early%20Pop%20Recordings%20%E2%80%A2%201989-1999)"
+    },
+    "embed": null,
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://i.discogs.com/FxLY2kmqYj1wE1gSuI3ZVcmySPnXUFTvCj8QiZWmslQ/rs:fit/g:sm/q:90/h:595/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM3MDUw/MDU0LTE3Nzg2MTcy/NzctOTkxNi5qcGVn.jpeg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
+    "id": "subjects-7-half-alive-rehearsal",
+    "type": "album",
+    "artist": "Subjects (7)",
+    "title": "Half Alive Rehearsal",
+    "label": "Youth Attack",
+    "releaseDate": "2026-03-30",
+    "description": "Seven tracks of hardcore on Mark McCoy's Youth Attack, a label that has long preferred its aggression ugly, brittle, and badly behaved. Cassette only, which feels correct.",
+    "tags": [
+      "rock"
+    ],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=Subjects%20(7)%20Half%20Alive%20Rehearsal&item_type=a",
+      "spotify": "https://open.spotify.com/search/Subjects%20(7)%20Half%20Alive%20Rehearsal",
+      "soundcloud": "https://soundcloud.com/search?q=Subjects%20(7)%20Half%20Alive%20Rehearsal",
+      "youtube": "https://www.youtube.com/results?search_query=Subjects%20(7)%20Half%20Alive%20Rehearsal"
+    },
+    "embed": null,
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://i.discogs.com/AGkUgcCBB5zpIiL3_07Z-BL_qnpHEZe0RrPj9uPD0pE/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM3MzIx/MzI2LTE3Nzg2MDkz/NTYtMzkzMy5qcGVn.jpeg",
     "cover": {
       "bg": "#111110",
       "fg": "#f2efe8",
@@ -10014,7 +10333,10 @@
       "bg": "#111110",
       "fg": "#f2efe8",
       "motif": "disc"
-    }
+    },
+    "pressMentions": [
+      "pitchfork_albums"
+    ]
   },
   {
     "id": "peter-gabriel-what-lies-ahead-bright-side-mix",
@@ -20673,7 +20995,7 @@
     "title": "Rufusized",
     "label": "Strongly Felt",
     "releaseDate": "2025-08-08",
-    "description": "",
+    "description": "MCA reissues the 1974 Rufus and Chaka Khan LP, the one where the band fully tipped from rock-leaning soul into hard, clavinet-driven funk. Ten tracks; still the obvious entry point if you only know \"Tell Me Something Good\" from the radio.",
     "tags": [
       "funk / soul"
     ],
@@ -20707,7 +21029,7 @@
     "title": "Quiet Fire",
     "label": "Strongly Felt",
     "releaseDate": "2025-08-08",
-    "description": "",
+    "description": "Atlantic puts Flack's 1971 set back on wax, the one where her phrasing settled into the slow, deliberate gospel-jazz cadence that would define the rest of the decade. Eight tracks, stereo pressing, for the Donny Hathaway shelf.",
     "tags": [
       "funk / soul"
     ],
@@ -20742,7 +21064,7 @@
     "title": "Wizzdom",
     "label": "Felt Sense Recordings",
     "releaseDate": "2025-08-08",
-    "description": "",
+    "description": "Four tracks of dry, swung minimal from Rudolf C, sat squarely in the tech house lane he has been working since the Wisdom Teeth orbit. Tool music, sequenced for the back half of the night.",
     "tags": [
       "electronic"
     ],
@@ -20771,7 +21093,7 @@
     "title": "Chet Baker sings It Could Happen to You",
     "label": "Pan Am Records",
     "releaseDate": "2025-08-01",
-    "description": "",
+    "description": "Original Jazz Classics returns to the 1958 vocal date, remastered across stereo and mono. Baker's singing has always divided the room more than his trumpet did; this is the record that argument tends to circle back to.",
     "tags": [
       "jazz"
     ],
@@ -20805,7 +21127,7 @@
     "title": "Late Night Fantasy EP",
     "label": "Lapsus Music",
     "releaseDate": "2025-08-01",
-    "description": "",
+    "description": "Two tracks of minimal techno from ACA on Lapsus, the Barcelona label whose remit has steadily drifted toward the drier, more functional end of the floor. Built for the long stretch before sunrise rather than the peak.",
     "tags": [
       "electronic"
     ],
@@ -27542,7 +27864,9 @@
       "fg": "#f2efe8",
       "motif": "disc"
     },
-    "pressMentions": []
+    "pressMentions": [
+      "pitchfork_albums"
+    ]
   },
   {
     "id": "forest-drive-west-masking",
@@ -43858,7 +44182,9 @@
       "fg": "#f2efe8",
       "motif": "disc"
     },
-    "pressMentions": []
+    "pressMentions": [
+      "stereogum"
+    ]
   },
   {
     "id": "reckonwrong-whities-018",
