@@ -187,12 +187,22 @@ minutes/month at no cost, $0.008/min thereafter (1× multiplier).
   - 11:00 UTC cron → run ONLY if no `daily pool: new pending batch`
     commit landed today (i.e. the 04:00 cron failed / crashed /
     was rate-limited)
-- `generate` job (~25-35 min) — the heavy work. Gated on the
-  check's `should_run` output.
+- `generate` job (~75-85 min observed in production — sync-artists
+  alone is ~50 min over ~270 artists × 3 sources with rate-pacing).
+  Gated on the check's `should_run` output.
 
-This pattern saves ~30 min × ~80%+ of days = ~720 min/month vs.
-the previous always-twice-daily cadence. Estimated steady-state
-usage: ~900-1,100 min/month, comfortably under the 2,000 free tier.
+This pattern saves the 11:00 retry slot on most days (~75 min × ~80%
+of days = ~1,800 min/month avoided vs. always-twice-daily). Steady-
+state usage with the conditional retry: ~80 min × 30 days + a few
+retry days ≈ ~2,500-2,700 min/month. That's **over the 2,000 free
+tier** by ~500-700 min/month = ~$4-6/month at $0.008/min if the
+spending limit is raised. Without the conditional retry it would be
+double that.
+
+**2026-05-15 incident:** an earlier 50-min `timeout-minutes` cap was
+based on a wrong estimate of typical runtime; both runs on 2026-05-14
+hit the cap and produced no commit / no Railway deploy. Cap is now
+110 min. Document observed runtime here, not the wished-for one.
 
 **Tradeoff to know about:** the previous twice-daily cron caught
 releases that dropped between 04:00 and 11:00 UTC same-day. With
@@ -203,8 +213,8 @@ manually trigger the workflow from the Actions tab.
 
 Also applied: `npm ci --omit=dev` (CI scripts use only Node
 built-ins, so devDeps like Tailwind/TypeScript are dead weight in
-CI), `timeout-minutes: 50` on the generate job (runaway-job
-guardrail, kills jobs stuck past typical-run+headroom).
+CI), `timeout-minutes: 110` on the generate job (runaway-job
+guardrail, well above the observed ~80-min ceiling).
 
 Spending limit is at github.com/settings/billing/spending_limit —
 default $0 means Actions just stop running once free quota hits;

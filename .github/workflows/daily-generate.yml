@@ -87,10 +87,16 @@ jobs:
     needs: check
     if: needs.check.outputs.should_run == 'true'
     runs-on: ubuntu-latest
-    # Safety net: typical run is ~25-35 min after parallelisation.
-    # 50 min cap kills runaway jobs (stuck fetch, infinite retry) so a
-    # single bad day can't drain the monthly minutes budget.
-    timeout-minutes: 50
+    # Safety net: observed typical run is ~75-85 min (sync-artists is the
+    # long pole — 6 workers × ~270 artists × iTunes+Deezer+Last.fm with
+    # 250ms pacing). 110 min cap kills genuinely runaway jobs (stuck
+    # fetch, infinite retry) without clipping normal runs.
+    #
+    # History lesson: an earlier 50-minute cap (set 2026-05-13) killed
+    # two consecutive runs before anyone noticed Railway hadn't
+    # deployed for two days. Keep this comfortably above the observed
+    # ceiling, not the wishful one.
+    timeout-minutes: 110
     # One run at a time per branch: the conditional 11:00 retry must
     # wait for the 04:00 run if it's still going. Prevents two commits
     # racing each other.
