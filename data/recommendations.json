@@ -280,6 +280,40 @@
     "pressMentions": []
   },
   {
+    "id": "dj-plead-please",
+    "type": "album",
+    "artist": "DJ Plead",
+    "title": "Please",
+    "label": "Smalltown Supersound",
+    "releaseDate": "2026-06-26",
+    "description": "DJ Plead lands on Smalltown Supersound, bringing his lopsided percussion language and dembow-adjacent club instincts to a label more often associated with Nordic ambient and balearic edges. An odd fit on paper, which is probably the point.",
+    "tags": [
+      "electronic"
+    ],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=DJ%20Plead%20Please&item_type=a",
+      "spotify": "https://open.spotify.com/search/DJ%20Plead%20Please",
+      "soundcloud": "https://soundcloud.com/search?q=DJ%20Plead%20Please",
+      "youtube": "https://www.youtube.com/results?search_query=DJ%20Plead%20Please",
+      "apple": "https://music.apple.com/us/album/please/1895379422"
+    },
+    "embed": {
+      "provider": "apple",
+      "src": "https://embed.music.apple.com/us/album/1895379422?theme=light",
+      "height": 450
+    },
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/62/0b/ac/620bacdd-a46b-1cd5-a76d-203e79550bb9/65598.jpg/600x600bb.jpg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
     "id": "baauer-u",
     "type": "album",
     "artist": "Baauer",
@@ -741,6 +775,38 @@
     "pressMentions": []
   },
   {
+    "id": "fakemink-terrified",
+    "type": "album",
+    "artist": "fakemink",
+    "title": "Terrified .",
+    "label": "",
+    "releaseDate": "2026-05-22",
+    "description": "Self-released full-length from fakemink with no label attached and no copy to lean on, arriving cold. Worth a listen on the strength of the name alone if their earlier uploads are anything to go by.",
+    "tags": [],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=fakemink%20Terrified%20.&item_type=a",
+      "spotify": "https://open.spotify.com/search/fakemink%20Terrified%20.",
+      "soundcloud": "https://soundcloud.com/search?q=fakemink%20Terrified%20.",
+      "youtube": "https://www.youtube.com/results?search_query=fakemink%20Terrified%20.",
+      "deezer": "https://www.deezer.com/album/907282342"
+    },
+    "embed": {
+      "provider": "deezer",
+      "src": "https://widget.deezer.com/widget/light/album/907282342",
+      "height": 300
+    },
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": null,
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
     "id": "moin-pace-pe-pamant",
     "type": "album",
     "artist": "Moin",
@@ -839,7 +905,7 @@
     "type": "album",
     "artist": "The Field",
     "title": "Now You Exist",
-    "label": "",
+    "label": "Studio Barnhus",
     "releaseDate": "2026-05-15",
     "description": "Axel Willner returns under the Field name, the project long synonymous with looping micro, house stretched into something close to ambient. No label confirmed yet, but the sonic register is well established by now.",
     "tags": [],
@@ -847,13 +913,250 @@
       "bandcamp": "https://bandcamp.com/search?q=The%20Field%20Now%20You%20Exist&item_type=a",
       "spotify": "https://open.spotify.com/search/The%20Field%20Now%20You%20Exist",
       "soundcloud": "https://soundcloud.com/search?q=The%20Field%20Now%20You%20Exist",
-      "youtube": "https://www.youtube.com/results?search_query=The%20Field%20Now%20You%20Exist"
+      "youtube": "https://www.youtube.com/results?search_query=The%20Field%20Now%20You%20Exist",
+      "deezer": "https://www.deezer.com/album/891281252",
+      "apple": "https://music.apple.com/us/album/now-you-exist/1866648865?uo=4"
+    },
+    "embed": {
+      "provider": "apple",
+      "src": "https://embed.music.apple.com/us/album/1866648865?theme=light",
+      "height": 450
+    },
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": null,
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
+    "id": "yussef-dayes-chi-ave-a-love-letter-to-salvador",
+    "type": "single",
+    "artist": "Yussef Dayes",
+    "title": "Chi Ave/A Love Letter To Salvador",
+    "label": "",
+    "releaseDate": "2026-05-15",
+    "description": "Yussef Dayes turns in two more pieces in his ongoing line of jazz-rooted, percussion-led work, the drum kit still doing most of the talking. File alongside the broader Black Focus orbit.",
+    "tags": [],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=Yussef%20Dayes%20Chi%20Ave%2FA%20Love%20Letter%20To%20Salvador&item_type=a",
+      "spotify": "https://open.spotify.com/search/Yussef%20Dayes%20Chi%20Ave%2FA%20Love%20Letter%20To%20Salvador",
+      "soundcloud": "https://soundcloud.com/search?q=Yussef%20Dayes%20Chi%20Ave%2FA%20Love%20Letter%20To%20Salvador",
+      "youtube": "https://www.youtube.com/results?search_query=Yussef%20Dayes%20Chi%20Ave%2FA%20Love%20Letter%20To%20Salvador",
+      "deezer": "https://www.deezer.com/album/973633651",
+      "apple": "https://music.apple.com/us/album/chi-ave-a-love-letter-to-salvador-single/1896014426?uo=4"
+    },
+    "embed": {
+      "provider": "apple",
+      "src": "https://embed.music.apple.com/us/album/1896014426?theme=light",
+      "height": 450
+    },
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://cdn-images.dzcdn.net/images/cover/27e010b8badc1ea1a639ad2510b9afad/1000x1000-000000-80-0-0.jpg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
+    "id": "smerz-easy",
+    "type": "ep",
+    "artist": "Smerz",
+    "title": "Easy",
+    "label": "Escho",
+    "releaseDate": "2026-05-15",
+    "description": "The Norwegian duo continue their run on Escho with another short-form release, working the same uneasy seam between pop intuition and club abstraction they have made their own. For anyone still living inside Believer.",
+    "tags": [
+      "alternative"
+    ],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=Smerz%20Easy&item_type=a",
+      "spotify": "https://open.spotify.com/search/Smerz%20Easy",
+      "soundcloud": "https://soundcloud.com/search?q=Smerz%20Easy",
+      "youtube": "https://www.youtube.com/results?search_query=Smerz%20Easy",
+      "apple": "https://music.apple.com/us/album/easy-ep/1889579500",
+      "deezer": "https://www.deezer.com/album/951506531"
+    },
+    "embed": {
+      "provider": "apple",
+      "src": "https://embed.music.apple.com/us/album/1889579500?theme=light",
+      "height": 450
+    },
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/9b/d1/1c/9bd11cb2-2e5f-e322-a6c5-a0e17e58d593/cover.jpg/600x600bb.jpg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": [
+      "pitchfork_albums"
+    ]
+  },
+  {
+    "id": "nikita-the-wicked-do-as-i-say",
+    "type": "single",
+    "artist": "Nikita, the Wicked",
+    "title": "DO AS I SAY",
+    "label": "",
+    "releaseDate": "2026-05-15",
+    "description": "Nikita, the Wicked returns with a new single, label and lineage unannounced at the time of writing. File alongside the rest of her catalogue and wait for the surrounding context to fill in.",
+    "tags": [],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=Nikita%2C%20the%20Wicked%20DO%20AS%20I%20SAY&item_type=a",
+      "spotify": "https://open.spotify.com/search/Nikita%2C%20the%20Wicked%20DO%20AS%20I%20SAY",
+      "soundcloud": "https://soundcloud.com/search?q=Nikita%2C%20the%20Wicked%20DO%20AS%20I%20SAY",
+      "youtube": "https://www.youtube.com/results?search_query=Nikita%2C%20the%20Wicked%20DO%20AS%20I%20SAY",
+      "deezer": "https://www.deezer.com/album/972516011",
+      "apple": "https://music.apple.com/us/album/do-as-i-say-single/1895877648?uo=4"
+    },
+    "embed": {
+      "provider": "apple",
+      "src": "https://embed.music.apple.com/us/album/1895877648?theme=light",
+      "height": 450
+    },
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://cdn-images.dzcdn.net/images/cover/bea2c23297c72bdc7cd9cc670c27fb0d/1000x1000-000000-80-0-0.jpg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
+    "id": "christian-loffler-flow-free-surf-mesa-remix",
+    "type": "single",
+    "artist": "Christian Löffler",
+    "title": "Flow Free (Surf Mesa Remix)",
+    "label": "",
+    "releaseDate": "2026-05-15",
+    "description": "Surf Mesa takes a pass at Löffler's melodic, melancholy house template, which on paper is an unlikely pairing of pop-leaning remixer and Ki Records introspection. Worth a listen to see which side gives.",
+    "tags": [],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=Christian%20L%C3%B6ffler%20Flow%20Free%20(Surf%20Mesa%20Remix)&item_type=a",
+      "spotify": "https://open.spotify.com/search/Christian%20L%C3%B6ffler%20Flow%20Free%20(Surf%20Mesa%20Remix)",
+      "soundcloud": "https://soundcloud.com/search?q=Christian%20L%C3%B6ffler%20Flow%20Free%20(Surf%20Mesa%20Remix)",
+      "youtube": "https://www.youtube.com/results?search_query=Christian%20L%C3%B6ffler%20Flow%20Free%20(Surf%20Mesa%20Remix)",
+      "deezer": "https://www.deezer.com/album/957031241"
     },
     "embed": null,
     "musicVideoUrl": null,
     "status": "pending",
     "approvedAt": null,
-    "coverImageUrl": null,
+    "coverImageUrl": "https://cdn-images.dzcdn.net/images/cover/0600ccb32ee43e491a0b69132b6dd5ca/1000x1000-000000-80-0-0.jpg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
+    "id": "xexa-pluralidades",
+    "type": "single",
+    "artist": "Xexa",
+    "title": "Pluralidades",
+    "label": "",
+    "releaseDate": "2026-05-15",
+    "description": "Xexa continues in the vein of her Lisbon-rooted electronics, where Afro-diasporic percussion patterns sit against vocal processing and club abstraction. A single trailing whatever comes next; worth a listen for anyone tracking the Príncipe-adjacent fringes.",
+    "tags": [],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=Xexa%20Pluralidades&item_type=a",
+      "spotify": "https://open.spotify.com/search/Xexa%20Pluralidades",
+      "soundcloud": "https://soundcloud.com/search?q=Xexa%20Pluralidades",
+      "youtube": "https://www.youtube.com/results?search_query=Xexa%20Pluralidades",
+      "deezer": "https://www.deezer.com/album/980194761",
+      "apple": "https://music.apple.com/us/album/pluralidades-single/6768329903?uo=4"
+    },
+    "embed": {
+      "provider": "apple",
+      "src": "https://embed.music.apple.com/us/album/6768329903?theme=light",
+      "height": 450
+    },
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://cdn-images.dzcdn.net/images/cover/94a573bbcf43224fe8d701fe6cd59049/1000x1000-000000-80-0-0.jpg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
+    "id": "klein-bora-bora",
+    "type": "single",
+    "artist": "Klein",
+    "title": "Bora Bora",
+    "label": "",
+    "releaseDate": "2026-05-15",
+    "description": "Klein returns with a new single, the South London artist continuing to operate in her own corner of vocal collage, classical fragments and warped R&B that has resisted easy genre placement since Tommy. Self-released territory, going by the absent label info.",
+    "tags": [],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=Klein%20Bora%20Bora&item_type=a",
+      "spotify": "https://open.spotify.com/search/Klein%20Bora%20Bora",
+      "soundcloud": "https://soundcloud.com/search?q=Klein%20Bora%20Bora",
+      "youtube": "https://www.youtube.com/results?search_query=Klein%20Bora%20Bora",
+      "deezer": "https://www.deezer.com/album/979963951"
+    },
+    "embed": {
+      "provider": "deezer",
+      "src": "https://widget.deezer.com/widget/light/album/979963951",
+      "height": 300
+    },
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://cdn-images.dzcdn.net/images/cover/e155e353479c11c939802c9587c9121f/1000x1000-000000-80-0-0.jpg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
+    "id": "dove-ellis-blizzard",
+    "type": "album",
+    "artist": "Dove Ellis",
+    "title": "Blizzard",
+    "label": "Black Butter Records",
+    "releaseDate": "2026-05-15",
+    "description": "Ten tracks from Dove Ellis for Black Butter, sitting in the alt-rock and contemporary R&B overlap the label has been quietly stretching toward. Guitar-led but with the rhythm section doing most of the talking.",
+    "tags": [
+      "rock"
+    ],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=Dove%20Ellis%20Blizzard&item_type=a",
+      "spotify": "https://open.spotify.com/search/Dove%20Ellis%20Blizzard",
+      "soundcloud": "https://soundcloud.com/search?q=Dove%20Ellis%20Blizzard",
+      "youtube": "https://www.youtube.com/results?search_query=Dove%20Ellis%20Blizzard",
+      "deezer": "https://www.deezer.com/album/839367072",
+      "apple": "https://music.apple.com/us/album/blizzard/1846713536?uo=4"
+    },
+    "embed": {
+      "provider": "apple",
+      "src": "https://embed.music.apple.com/us/album/1846713536?theme=light",
+      "height": 450
+    },
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://i.discogs.com/LJSTf9lOrQqwKFnfU_rXHH53iY9AKA97s3C0a-t22lU/rs:fit/g:sm/q:90/h:599/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM3MzM1/NzI5LTE3Nzg3NTg0/NzMtMjY0NS5qcGVn.jpeg",
     "cover": {
       "bg": "#111110",
       "fg": "#f2efe8",
@@ -886,6 +1189,36 @@
     "status": "pending",
     "approvedAt": null,
     "coverImageUrl": null,
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
+    "id": "farhan-khan-moin-mujhe-rok-lo",
+    "type": "single",
+    "artist": "Farhan Khan & Moin",
+    "title": "Mujhe Rok Lo",
+    "label": "Farhan Khan",
+    "releaseDate": "2026-05-14",
+    "description": "A self-released Indian pop single credited to Farhan Khan with Moin, dated for mid-2026. Nothing here suggests a club context; file alongside the vocal-led end of the current Hindi indie pop wave.",
+    "tags": [
+      "indian pop"
+    ],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=Farhan%20Khan%20%26%20Moin%20Mujhe%20Rok%20Lo&item_type=a",
+      "spotify": "https://open.spotify.com/search/Farhan%20Khan%20%26%20Moin%20Mujhe%20Rok%20Lo",
+      "soundcloud": "https://soundcloud.com/search?q=Farhan%20Khan%20%26%20Moin%20Mujhe%20Rok%20Lo",
+      "youtube": "https://www.youtube.com/results?search_query=Farhan%20Khan%20%26%20Moin%20Mujhe%20Rok%20Lo",
+      "apple": "https://music.apple.com/us/album/mujhe-rok-lo-single/1895764348"
+    },
+    "embed": null,
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/b2/af/44/b2af4485-5117-0af0-bca5-6c3e8ca356ef/cover.jpg/600x600bb.jpg",
     "cover": {
       "bg": "#111110",
       "fg": "#f2efe8",
@@ -972,13 +1305,47 @@
       "spotify": "https://open.spotify.com/search/Rainy%20Miller%20Poetic%20Fallacy",
       "soundcloud": "https://soundcloud.com/search?q=Rainy%20Miller%20Poetic%20Fallacy",
       "youtube": "https://www.youtube.com/results?search_query=Rainy%20Miller%20Poetic%20Fallacy",
-      "deezer": "https://www.deezer.com/album/973755251"
+      "deezer": "https://www.deezer.com/album/973755251",
+      "apple": "https://music.apple.com/us/album/poetic-fallacy-single/6766835671?uo=4"
+    },
+    "embed": {
+      "provider": "apple",
+      "src": "https://embed.music.apple.com/us/album/6766835671?theme=light",
+      "height": 450
+    },
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://cdn-images.dzcdn.net/images/cover/241f05e82a2c2986dcfaca6eaaa8e53e/1000x1000-000000-80-0-0.jpg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
+    "id": "jacques-greene-umru-what-you-say",
+    "type": "single",
+    "artist": "Jacques Greene & umru",
+    "title": "What You Say",
+    "label": "LuckyMe",
+    "releaseDate": "2026-05-13",
+    "description": "Jacques Greene linking up with umru on LuckyMe, splitting the difference between Greene's club-romantic instincts and umru's more brittle, hyperpop-trained edit logic. One track, digital only, filed under techno but probably stranger than that implies.",
+    "tags": [
+      "electronic"
+    ],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=Jacques%20Greene%20%26%20umru%20What%20You%20Say&item_type=a",
+      "spotify": "https://open.spotify.com/search/Jacques%20Greene%20%26%20umru%20What%20You%20Say",
+      "soundcloud": "https://soundcloud.com/search?q=Jacques%20Greene%20%26%20umru%20What%20You%20Say",
+      "youtube": "https://www.youtube.com/results?search_query=Jacques%20Greene%20%26%20umru%20What%20You%20Say"
     },
     "embed": null,
     "musicVideoUrl": null,
     "status": "pending",
     "approvedAt": null,
-    "coverImageUrl": "https://cdn-images.dzcdn.net/images/cover/241f05e82a2c2986dcfaca6eaaa8e53e/1000x1000-000000-80-0-0.jpg",
+    "coverImageUrl": "https://i.discogs.com/Ia12DCdG4Zv9BZPVFu7HfcnJxgBmCemai0F06trubhM/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM3MzI4/MjUzLTE3Nzg2ODIx/MjctNDQxNS5qcGVn.jpeg",
     "cover": {
       "bg": "#111110",
       "fg": "#f2efe8",
@@ -1195,7 +1562,7 @@
     "type": "album",
     "artist": "Max Cooper",
     "title": "Feeling Is Structure",
-    "label": "",
+    "label": "Mesh (2)",
     "releaseDate": "2026-05-08",
     "description": "New Max Cooper LP, the British producer continuing his run of cerebral, generative, leaning electronics where the maths and the melody pull in roughly the same direction. Worth a look if Yearning for the Infinite still gets played.",
     "tags": [],
@@ -1703,6 +2070,40 @@
       "motif": "disc"
     },
     "pressMentions": []
+  },
+  {
+    "id": "black-milk-ceremonial",
+    "type": "album",
+    "artist": "Black Milk",
+    "title": "CEREMONIAL",
+    "label": "",
+    "releaseDate": "2026-05-08",
+    "description": "New full-length from the Detroit producer and MC whose own beat work has long sat closer to Dilla's lineage than to most rap craft of the last decade. Worth a listen for anyone still spinning FEVER.",
+    "tags": [],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=Black%20Milk%20CEREMONIAL&item_type=a",
+      "spotify": "https://open.spotify.com/search/Black%20Milk%20CEREMONIAL",
+      "soundcloud": "https://soundcloud.com/search?q=Black%20Milk%20CEREMONIAL",
+      "youtube": "https://www.youtube.com/results?search_query=Black%20Milk%20CEREMONIAL",
+      "deezer": "https://www.deezer.com/album/965825381"
+    },
+    "embed": {
+      "provider": "deezer",
+      "src": "https://widget.deezer.com/widget/light/album/965825381",
+      "height": 300
+    },
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://cdn-images.dzcdn.net/images/cover/593b4e8055b6f02fcb9f69f7d0e0c289/1000x1000-000000-80-0-0.jpg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": [
+      "bandcamp_daily"
+    ]
   },
   {
     "id": "james-blake-trying-times-a-colors-show",
@@ -3199,6 +3600,36 @@
     "status": "pending",
     "approvedAt": null,
     "coverImageUrl": "https://i.discogs.com/VADjY1vaafiz6ed7NYe4JxPuOpXKXg-EExoBnpswZxo/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM3Mjgz/NjQ2LTE3NzgyNDI1/NjItODQwMS5qcGVn.jpeg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
+    "id": "deadbeat-rooms-of-kairos-sessions-feat-paul-st-hilaire",
+    "type": "ep",
+    "artist": "Deadbeat",
+    "title": "Rooms of Kairos Sessions (feat. Paul St. Hilaire)",
+    "label": "Kontakt",
+    "releaseDate": "2026-05-01",
+    "description": "Scott Monteith reconvenes with Paul St. Hilaire, a pairing whose dub techno lineage barely needs spelling out at this point. Kontakt handling the release; for anyone who still plays Something Borrowed, Something Blue on rotation.",
+    "tags": [
+      "electronic"
+    ],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=Deadbeat%20Rooms%20of%20Kairos%20Sessions%20(feat.%20Paul%20St.%20Hilaire)&item_type=a",
+      "spotify": "https://open.spotify.com/search/Deadbeat%20Rooms%20of%20Kairos%20Sessions%20(feat.%20Paul%20St.%20Hilaire)",
+      "soundcloud": "https://soundcloud.com/search?q=Deadbeat%20Rooms%20of%20Kairos%20Sessions%20(feat.%20Paul%20St.%20Hilaire)",
+      "youtube": "https://www.youtube.com/results?search_query=Deadbeat%20Rooms%20of%20Kairos%20Sessions%20(feat.%20Paul%20St.%20Hilaire)",
+      "apple": "https://music.apple.com/us/album/rooms-of-kairos-sessions-feat-paul-st-hilaire-ep/1891610344"
+    },
+    "embed": null,
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/4e/e5/98/4ee59812-e2ae-43cd-99c6-c40d8619fd81/4260105046099.png/600x600bb.jpg",
     "cover": {
       "bg": "#111110",
       "fg": "#f2efe8",
@@ -4712,7 +5143,9 @@
       "fg": "#f2efe8",
       "motif": "disc"
     },
-    "pressMentions": []
+    "pressMentions": [
+      "pitchfork_albums"
+    ]
   },
   {
     "id": "forest-swords-wasteman-original-motion-picture-soundtrack",
@@ -7058,7 +7491,8 @@
       "motif": "disc"
     },
     "pressMentions": [
-      "pitchfork_albums"
+      "pitchfork_albums",
+      "bandcamp_daily"
     ]
   },
   {
@@ -8437,6 +8871,35 @@
     "pressMentions": []
   },
   {
+    "id": "earl-sweatshirt-mike-408-surf-gang-2-pompeii-utility-l",
+    "type": "album",
+    "artist": "Earl Sweatshirt, Mike (408), Surf Gang (2)",
+    "title": "Pompeii // Utility",
+    "label": "10K",
+    "releaseDate": "2026-04-03",
+    "description": "A 33-track double set pairing Earl Sweatshirt and MIKE with Surf Gang production, landing on 10K. The roster alone signals where it sits: the loop-bruised, interior end of New York rap that's been forming around this circle for a while now.",
+    "tags": [
+      "hip hop"
+    ],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=Earl%20Sweatshirt%2C%20Mike%20(408)%2C%20Surf%20Gang%20(2)%20Pompeii%20%2F%2F%20Utility&item_type=a",
+      "spotify": "https://open.spotify.com/search/Earl%20Sweatshirt%2C%20Mike%20(408)%2C%20Surf%20Gang%20(2)%20Pompeii%20%2F%2F%20Utility",
+      "soundcloud": "https://soundcloud.com/search?q=Earl%20Sweatshirt%2C%20Mike%20(408)%2C%20Surf%20Gang%20(2)%20Pompeii%20%2F%2F%20Utility",
+      "youtube": "https://www.youtube.com/results?search_query=Earl%20Sweatshirt%2C%20Mike%20(408)%2C%20Surf%20Gang%20(2)%20Pompeii%20%2F%2F%20Utility"
+    },
+    "embed": null,
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://i.discogs.com/rwrgbIDZNKiHLVhKoRSu7UI5YOIpkKasN52hHu485EE/rs:fit/g:sm/q:90/h:589/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM3MTA4/MzM1LTE3NzY4Nzcz/MjUtMjMzMS5qcGVn.jpeg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
     "id": "peter-gabriel-till-your-mind-is-shining-dark-side-mix",
     "type": "single",
     "artist": "Peter Gabriel",
@@ -8680,9 +9143,14 @@
       "bandcamp": "https://bandcamp.com/search?q=Tor%20Lundvall%20A%20Strangeness%20In%20Motion%20(Early%20Pop%20Recordings%20%E2%80%A2%201989-1999)&item_type=a",
       "spotify": "https://open.spotify.com/search/Tor%20Lundvall%20A%20Strangeness%20In%20Motion%20(Early%20Pop%20Recordings%20%E2%80%A2%201989-1999)",
       "soundcloud": "https://soundcloud.com/search?q=Tor%20Lundvall%20A%20Strangeness%20In%20Motion%20(Early%20Pop%20Recordings%20%E2%80%A2%201989-1999)",
-      "youtube": "https://www.youtube.com/results?search_query=Tor%20Lundvall%20A%20Strangeness%20In%20Motion%20(Early%20Pop%20Recordings%20%E2%80%A2%201989-1999)"
+      "youtube": "https://www.youtube.com/results?search_query=Tor%20Lundvall%20A%20Strangeness%20In%20Motion%20(Early%20Pop%20Recordings%20%E2%80%A2%201989-1999)",
+      "apple": "https://music.apple.com/us/album/a-strangeness-in-motion-early-pop-recordings-1989-1999/1473974525?uo=4"
     },
-    "embed": null,
+    "embed": {
+      "provider": "apple",
+      "src": "https://embed.music.apple.com/us/album/1473974525?theme=light",
+      "height": 450
+    },
     "musicVideoUrl": null,
     "status": "pending",
     "approvedAt": null,
@@ -10335,7 +10803,8 @@
       "motif": "disc"
     },
     "pressMentions": [
-      "pitchfork_albums"
+      "pitchfork_albums",
+      "bandcamp_daily"
     ]
   },
   {
@@ -14507,7 +14976,8 @@
       "spotify": "https://open.spotify.com/search/Rat%20Heart%20(2)%20Dancin'%20In%20The%20Streets",
       "soundcloud": "https://soundcloud.com/search?q=Rat%20Heart%20(2)%20Dancin'%20In%20The%20Streets",
       "youtube": "https://www.youtube.com/results?search_query=Rat%20Heart%20(2)%20Dancin'%20In%20The%20Streets",
-      "deezer": "https://www.deezer.com/album/839921712"
+      "deezer": "https://www.deezer.com/album/839921712",
+      "tidal": "https://tidal.com/album/467653030"
     },
     "embed": {
       "provider": "deezer",
@@ -14570,7 +15040,8 @@
       "spotify": "https://open.spotify.com/search/Hagen%20Stoll%20Talismann%202",
       "soundcloud": "https://soundcloud.com/search?q=Hagen%20Stoll%20Talismann%202",
       "youtube": "https://www.youtube.com/results?search_query=Hagen%20Stoll%20Talismann%202",
-      "apple": "https://music.apple.com/us/album/talismann-2/1860864017?uo=4"
+      "apple": "https://music.apple.com/us/album/talismann-2/1860864017?uo=4",
+      "tidal": "https://tidal.com/album/481225482"
     },
     "embed": {
       "provider": "apple",
@@ -14667,7 +15138,8 @@
       "spotify": "https://open.spotify.com/search/Hinako%20Omori%20Studies%20On%20A%20River",
       "soundcloud": "https://soundcloud.com/search?q=Hinako%20Omori%20Studies%20On%20A%20River",
       "youtube": "https://www.youtube.com/results?search_query=Hinako%20Omori%20Studies%20On%20A%20River",
-      "apple": "https://music.apple.com/us/album/studies-on-a-river/1867028864?uo=4"
+      "apple": "https://music.apple.com/us/album/studies-on-a-river/1867028864?uo=4",
+      "tidal": "https://tidal.com/album/487691374"
     },
     "embed": {
       "provider": "apple",
@@ -14733,7 +15205,8 @@
       "soundcloud": "https://soundcloud.com/search?q=Department%20(7)%20Department",
       "youtube": "https://www.youtube.com/results?search_query=Department%20(7)%20Department",
       "deezer": "https://www.deezer.com/album/627204171",
-      "apple": "https://music.apple.com/us/album/department-feat-staev-ep/1853658905?uo=4"
+      "apple": "https://music.apple.com/us/album/department-feat-staev-ep/1853658905?uo=4",
+      "tidal": "https://tidal.com/album/474803600"
     },
     "embed": {
       "provider": "apple",
@@ -14766,7 +15239,8 @@
       "spotify": "https://open.spotify.com/search/Fabiano%20Nascimento%20Cavejaz",
       "soundcloud": "https://soundcloud.com/search?q=Fabiano%20Nascimento%20Cavejaz",
       "youtube": "https://www.youtube.com/results?search_query=Fabiano%20Nascimento%20Cavejaz",
-      "apple": "https://music.apple.com/us/album/cavejaz/1837566395?uo=4"
+      "apple": "https://music.apple.com/us/album/cavejaz/1837566395?uo=4",
+      "tidal": "https://tidal.com/album/458302766"
     },
     "embed": {
       "provider": "apple",
@@ -14800,7 +15274,8 @@
       "spotify": "https://open.spotify.com/search/Leif%20Collide",
       "soundcloud": "https://soundcloud.com/search?q=Leif%20Collide",
       "youtube": "https://www.youtube.com/results?search_query=Leif%20Collide",
-      "apple": "https://music.apple.com/us/album/collide/1844668036?uo=4"
+      "apple": "https://music.apple.com/us/album/collide/1844668036?uo=4",
+      "tidal": "https://tidal.com/album/465457045"
     },
     "embed": {
       "provider": "apple",
@@ -14834,7 +15309,8 @@
       "spotify": "https://open.spotify.com/search/Mohammad%20Reza%20Mortazavi%20Swamp%20(Ricardo%20Villalobos%20Variation)",
       "soundcloud": "https://soundcloud.com/search?q=Mohammad%20Reza%20Mortazavi%20Swamp%20(Ricardo%20Villalobos%20Variation)",
       "youtube": "https://www.youtube.com/results?search_query=Mohammad%20Reza%20Mortazavi%20Swamp%20(Ricardo%20Villalobos%20Variation)",
-      "apple": "https://music.apple.com/us/album/swamp-ricardo-villalobos-version-ep/1852759583?uo=4"
+      "apple": "https://music.apple.com/us/album/swamp-ricardo-villalobos-version-ep/1852759583?uo=4",
+      "tidal": "https://tidal.com/album/473671847"
     },
     "embed": {
       "provider": "apple",
@@ -14896,7 +15372,8 @@
       "spotify": "https://open.spotify.com/search/Noon%20Unrili%C5%9Bcie",
       "soundcloud": "https://soundcloud.com/search?q=Noon%20Unrili%C5%9Bcie",
       "youtube": "https://www.youtube.com/results?search_query=Noon%20Unrili%C5%9Bcie",
-      "apple": "https://music.apple.com/us/album/unrili%C5%9Bcie/1856687051?uo=4"
+      "apple": "https://music.apple.com/us/album/unrili%C5%9Bcie/1856687051?uo=4",
+      "tidal": "https://tidal.com/album/477393908"
     },
     "embed": {
       "provider": "apple",
@@ -14929,7 +15406,8 @@
       "spotify": "https://open.spotify.com/search/Stara%20Rzeka%20Wyno%C5%9B%20Si%C4%99%20Z%20Mojego%20Domu",
       "soundcloud": "https://soundcloud.com/search?q=Stara%20Rzeka%20Wyno%C5%9B%20Si%C4%99%20Z%20Mojego%20Domu",
       "youtube": "https://www.youtube.com/results?search_query=Stara%20Rzeka%20Wyno%C5%9B%20Si%C4%99%20Z%20Mojego%20Domu",
-      "apple": "https://music.apple.com/us/album/wyno%C5%9B-si%C4%99-z-mojego-domu/1853199041?uo=4"
+      "apple": "https://music.apple.com/us/album/wyno%C5%9B-si%C4%99-z-mojego-domu/1853199041?uo=4",
+      "tidal": "https://tidal.com/album/474266307"
     },
     "embed": {
       "provider": "apple",
@@ -14995,7 +15473,8 @@
       "spotify": "https://open.spotify.com/search/Nicolas%20Jaar%20Pomegranates",
       "soundcloud": "https://soundcloud.com/search?q=Nicolas%20Jaar%20Pomegranates",
       "youtube": "https://www.youtube.com/results?search_query=Nicolas%20Jaar%20Pomegranates",
-      "apple": "https://music.apple.com/us/album/pomegranates/1744592881?uo=4"
+      "apple": "https://music.apple.com/us/album/pomegranates/1744592881?uo=4",
+      "tidal": "https://tidal.com/album/361106673"
     },
     "embed": {
       "provider": "apple",
@@ -15030,7 +15509,8 @@
       "soundcloud": "https://soundcloud.com/search?q=Various%20Late%20Shift%20Silk",
       "youtube": "https://www.youtube.com/results?search_query=Various%20Late%20Shift%20Silk",
       "deezer": "https://www.deezer.com/album/830919261",
-      "apple": "https://music.apple.com/us/album/late-shift-silk/1843215648?uo=4"
+      "apple": "https://music.apple.com/us/album/late-shift-silk/1843215648?uo=4",
+      "tidal": "https://tidal.com/album/464293200"
     },
     "embed": {
       "provider": "apple",
@@ -15064,7 +15544,8 @@
       "spotify": "https://open.spotify.com/search/Jessika%20Kenney%20%26%20Eyvind%20Kang%20The%20Face%20Of%20The%20Earth",
       "soundcloud": "https://soundcloud.com/search?q=Jessika%20Kenney%20%26%20Eyvind%20Kang%20The%20Face%20Of%20The%20Earth",
       "youtube": "https://www.youtube.com/results?search_query=Jessika%20Kenney%20%26%20Eyvind%20Kang%20The%20Face%20Of%20The%20Earth",
-      "apple": "https://music.apple.com/us/album/the-face-of-the-earth/1687730116?uo=4"
+      "apple": "https://music.apple.com/us/album/the-face-of-the-earth/1687730116?uo=4",
+      "tidal": "https://tidal.com/album/294677009"
     },
     "embed": {
       "provider": "apple",
@@ -15131,7 +15612,8 @@
       "spotify": "https://open.spotify.com/search/1morning%20Because%20I%20Told%20You%20So",
       "soundcloud": "https://soundcloud.com/search?q=1morning%20Because%20I%20Told%20You%20So",
       "youtube": "https://www.youtube.com/results?search_query=1morning%20Because%20I%20Told%20You%20So",
-      "apple": "https://music.apple.com/us/album/because-i-told-you-so-ep/1860007321?uo=4"
+      "apple": "https://music.apple.com/us/album/because-i-told-you-so-ep/1860007321?uo=4",
+      "tidal": "https://tidal.com/album/480408682"
     },
     "embed": {
       "provider": "apple",
@@ -15261,7 +15743,8 @@
       "spotify": "https://open.spotify.com/search/Musicentrydelete%20Selfless",
       "soundcloud": "https://soundcloud.com/search?q=Musicentrydelete%20Selfless",
       "youtube": "https://www.youtube.com/results?search_query=Musicentrydelete%20Selfless",
-      "apple": "https://music.apple.com/us/album/selfless/1846620506?uo=4"
+      "apple": "https://music.apple.com/us/album/selfless/1846620506?uo=4",
+      "tidal": "https://tidal.com/album/465027902"
     },
     "embed": {
       "provider": "apple",
@@ -16933,7 +17416,10 @@
       "bg": "#111110",
       "fg": "#f2efe8",
       "motif": "disc"
-    }
+    },
+    "pressMentions": [
+      "pitchfork_albums"
+    ]
   },
   {
     "id": "social-youth-cult-the-lighthouse",
@@ -21161,7 +21647,7 @@
     "title": "Globelight",
     "label": "Short Span",
     "releaseDate": "2025-08-01",
-    "description": "",
+    "description": "Three tracks of dub techno bleeding into ambient from Angel Hunt, landing on Short Span. The kind of release that rewards low volume and long evenings; try it alongside Topdown Dialectic.",
     "tags": [
       "electronic"
     ],
@@ -29919,9 +30405,14 @@
       "bandcamp": "https://bandcamp.com/search?q=Soo%20Joo%20Park%20No%20Ghost&item_type=a",
       "spotify": "https://open.spotify.com/search/Soo%20Joo%20Park%20No%20Ghost",
       "soundcloud": "https://soundcloud.com/search?q=Soo%20Joo%20Park%20No%20Ghost",
-      "youtube": "https://www.youtube.com/results?search_query=Soo%20Joo%20Park%20No%20Ghost"
+      "youtube": "https://www.youtube.com/results?search_query=Soo%20Joo%20Park%20No%20Ghost",
+      "apple": "https://music.apple.com/us/album/no-ghost-ep/1760196606?uo=4"
     },
-    "embed": null,
+    "embed": {
+      "provider": "apple",
+      "src": "https://embed.music.apple.com/us/album/1760196606?theme=light",
+      "height": 450
+    },
     "musicVideoUrl": null,
     "status": "pending",
     "approvedAt": null,
@@ -44638,12 +45129,13 @@
       "spotify": "https://open.spotify.com/search/Minor%20Science%20Whities%20012",
       "soundcloud": "https://soundcloud.com/search?q=Minor%20Science%20Whities%20012",
       "youtube": "https://www.youtube.com/results?search_query=Minor%20Science%20Whities%20012",
-      "deezer": "https://www.deezer.com/album/958845371"
+      "deezer": "https://www.deezer.com/album/958845371",
+      "apple": "https://music.apple.com/us/album/whities-012-single/1892439498?uo=4"
     },
     "embed": {
-      "provider": "deezer",
-      "src": "https://widget.deezer.com/widget/light/album/958845371",
-      "height": 300
+      "provider": "apple",
+      "src": "https://embed.music.apple.com/us/album/1892439498?theme=light",
+      "height": 450
     },
     "musicVideoUrl": null,
     "status": "pending",
