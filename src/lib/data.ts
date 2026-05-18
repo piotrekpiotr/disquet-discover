@@ -188,47 +188,48 @@ function feedKey(r: Recommendation): string {
 }
 
 /**
- * Get a public-feed page of 5: 2 singles + 3 albums-or-EPs.
+ * Get a public-feed page of up to PAGE_SIZE approved records, sorted
+ * by composite (releaseDate, id) descending. No type-mixing logic —
+ * whatever the curator publishes shows up in pure chronological order,
+ * single / EP / album all equal citizens.
  *
- * Records are ordered by composite (releaseDate, id) descending. The
- * `cursor` is the feedKey of the last item shown on the previous page;
- * a fresh request omits it. Records with the SAME releaseDate as the
- * cursor's record stay eligible for the next page so long as their id
- * is "smaller" — without this, same-day siblings vanish.
+ * Cursor is the feedKey of the last item on the previous page. The
+ * id tiebreaker in feedKey makes the order strictly monotonic, so the
+ * `feedKey(r) < cursor` filter is safe even inside a same-date cluster
+ * (no sibling vanishing).
  *
- * Backwards compat: if a caller still passes a bare YYYY-MM-DD string
- * (the old cursor shape), `key < cursor + "|"` happens to behave
- * identically for the date-discriminated common case, so legacy
- * cursors keep paginating the way they used to.
+ * (Older versions split each page into 2 singles + 3 longs with a
+ * per-bucket cursor pair. That shape silently orphaned records when a
+ * date cluster had more of one type than the bucket could hold —
+ * removed deliberately in favour of "click Publish, it appears.")
  */
+const FEED_PAGE_SIZE = 5;
+
 export async function getFeedPage(cursor?: string | null) {
   const approved = await getByStatus("approved");
-  // Strict monotonic order: newer date first, then larger id first.
   const sorted = [...approved].sort((a, b) =>
     feedKey(b).localeCompare(feedKey(a)),
   );
-  const filtered = cursor
-    ? sorted.filter((r) => feedKey(r) < cursor)
+
+  // Legacy two-part cursors (`<singleKey>~<longKey>`, left over from
+  // the old type-split pagination) collapse to their first half here.
+  // Both halves were always ≤ the date of the overall page tail, so
+  // the first half is a safe upper bound — at worst the visitor sees
+  // a small re-show of items they already saw on the previous page,
+  // not skipped records. Brand-new sessions use the new simple shape.
+  const effectiveCursor = cursor
+    ? cursor.includes("~")
+      ? cursor.split("~")[0] || null
+      : cursor
+    : null;
+
+  const filtered = effectiveCursor
+    ? sorted.filter((r) => feedKey(r) < effectiveCursor)
     : sorted;
-
-  const singles = filtered.filter((r) => r.type === "single");
-  const longs = filtered.filter((r) => r.type === "album" || r.type === "ep");
-
-  const pageSingles = singles.slice(0, 2);
-  const pageLongs = longs.slice(0, 3);
-  const items = [...pageSingles, ...pageLongs].sort((a, b) =>
-    feedKey(b).localeCompare(feedKey(a)),
-  );
-
+  const items = filtered.slice(0, FEED_PAGE_SIZE);
   const nextCursor =
     items.length > 0 ? feedKey(items[items.length - 1]) : null;
-  // hasMore: there must be enough remaining items of *each* required type
-  const remainingAfter = filtered.filter(
-    (r) => !items.find((i) => i.id === r.id),
-  );
-  const hasMore =
-    remainingAfter.filter((r) => r.type === "single").length >= 2 &&
-    remainingAfter.filter((r) => r.type !== "single").length >= 3;
+  const hasMore = filtered.length > items.length;
 
   return { items, nextCursor, hasMore };
 }
