@@ -59,6 +59,36 @@
     "pressMentions": []
   },
   {
+    "id": "overmono-pure-devotion",
+    "type": "album",
+    "artist": "Overmono",
+    "title": "Pure Devotion",
+    "label": "XL Recordings Ltd",
+    "releaseDate": "2026-08-07",
+    "description": "The Russell brothers land on XL for a full-length, their melodic, breakbeat-leaning club music presumably intact. File alongside Fred again.. if you have been tracking that lineage.",
+    "tags": [
+      "electronic"
+    ],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=Overmono%20Pure%20Devotion&item_type=a",
+      "spotify": "https://open.spotify.com/search/Overmono%20Pure%20Devotion",
+      "soundcloud": "https://soundcloud.com/search?q=Overmono%20Pure%20Devotion",
+      "youtube": "https://www.youtube.com/results?search_query=Overmono%20Pure%20Devotion",
+      "apple": "https://music.apple.com/us/album/pure-devotion/1894298100"
+    },
+    "embed": null,
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/6a/cd/25/6acd2504-b1ef-8988-8fe0-240a5a25e0bc/191404166871.png/600x600bb.jpg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
     "id": "nia-archives-emotional-junglist",
     "type": "album",
     "artist": "Nia Archives",
@@ -1050,7 +1080,9 @@
       "fg": "#f2efe8",
       "motif": "disc"
     },
-    "pressMentions": []
+    "pressMentions": [
+      "pitchfork_albums"
+    ]
   },
   {
     "id": "yussef-dayes-chi-ave-a-love-letter-to-salvador",
@@ -1651,13 +1683,47 @@
       "bandcamp": "https://bandcamp.com/search?q=Jacques%20Greene%20What%20You%20Say%20(ft%20umru)&item_type=a",
       "spotify": "https://open.spotify.com/search/Jacques%20Greene%20What%20You%20Say%20(ft%20umru)",
       "soundcloud": "https://soundcloud.com/search?q=Jacques%20Greene%20What%20You%20Say%20(ft%20umru)",
-      "youtube": "https://www.youtube.com/results?search_query=Jacques%20Greene%20What%20You%20Say%20(ft%20umru)"
+      "youtube": "https://www.youtube.com/results?search_query=Jacques%20Greene%20What%20You%20Say%20(ft%20umru)",
+      "deezer": "https://www.deezer.com/album/15337931",
+      "apple": "https://music.apple.com/us/album/what-you-say-ft-umru-single/1893297056?uo=4"
+    },
+    "embed": {
+      "provider": "apple",
+      "src": "https://embed.music.apple.com/us/album/1893297056?theme=light",
+      "height": 450
+    },
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": null,
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
+    "id": "bianca-scout-poetic-fallacy",
+    "type": "single",
+    "artist": "Bianca Scout",
+    "title": "Poetic Fallacy",
+    "label": "",
+    "releaseDate": "2026-05-13",
+    "description": "Bianca Scout in single form, continuing the spectral, half-theatrical chamber-pop drift she has been threading through Fractal Meat and PAN-adjacent corners. Tense, fragile, more staged than sung.",
+    "tags": [],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=Bianca%20Scout%20Poetic%20Fallacy&item_type=a",
+      "spotify": "https://open.spotify.com/search/Bianca%20Scout%20Poetic%20Fallacy",
+      "soundcloud": "https://soundcloud.com/search?q=Bianca%20Scout%20Poetic%20Fallacy",
+      "youtube": "https://www.youtube.com/results?search_query=Bianca%20Scout%20Poetic%20Fallacy",
+      "deezer": "https://www.deezer.com/album/973755251"
     },
     "embed": null,
     "musicVideoUrl": null,
     "status": "pending",
     "approvedAt": null,
-    "coverImageUrl": null,
+    "coverImageUrl": "https://cdn-images.dzcdn.net/images/cover/241f05e82a2c2986dcfaca6eaaa8e53e/1000x1000-000000-80-0-0.jpg",
     "cover": {
       "bg": "#111110",
       "fg": "#f2efe8",
@@ -4068,6 +4134,41 @@
     "status": "pending",
     "approvedAt": null,
     "coverImageUrl": "https://i.discogs.com/vjokIyDjgAaNPKcgWbQAE5_MP_w4vUFrsbTz2LgSGjI/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM3MzU4/NjczLTE3Nzg5NDk3/MTYtNzQ1Ni5qcGVn.jpeg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
+    "id": "trauma-ray-chameleon",
+    "type": "album",
+    "artist": "Trauma Ray",
+    "title": "Chameleon",
+    "label": "Dais Records",
+    "releaseDate": "2026-05-01",
+    "description": "Texas shoegaze outfit returns to Dais for a twelve-track LP, the kind of guitar-heavy, slow-burning rock the label has been quietly building a roster around. For anyone tracking Deafheaven's softer turns or the gauzier corners of the Numero shoegaze revival.",
+    "tags": [
+      "rock"
+    ],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=Trauma%20Ray%20Chameleon&item_type=a",
+      "spotify": "https://open.spotify.com/search/Trauma%20Ray%20Chameleon",
+      "soundcloud": "https://soundcloud.com/search?q=Trauma%20Ray%20Chameleon",
+      "youtube": "https://www.youtube.com/results?search_query=Trauma%20Ray%20Chameleon",
+      "deezer": "https://www.deezer.com/album/619009341",
+      "apple": "https://music.apple.com/us/album/chameleon/1758764376?uo=4"
+    },
+    "embed": {
+      "provider": "apple",
+      "src": "https://embed.music.apple.com/us/album/1758764376?theme=light",
+      "height": 450
+    },
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://i.discogs.com/qO45TYclrQW52nCIu-Cd4HSgnmx0FkVes0N9cEtlk8I/rs:fit/g:sm/q:90/h:450/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM3Mzcx/NTcwLTE3NzkwODIw/MjctNTQzOS5qcGVn.jpeg",
     "cover": {
       "bg": "#111110",
       "fg": "#f2efe8",
@@ -10115,9 +10216,15 @@
       "bandcamp": "https://bandcamp.com/search?q=G%20Version%20III%20Chapter%20II&item_type=a",
       "spotify": "https://open.spotify.com/search/G%20Version%20III%20Chapter%20II",
       "soundcloud": "https://soundcloud.com/search?q=G%20Version%20III%20Chapter%20II",
-      "youtube": "https://www.youtube.com/results?search_query=G%20Version%20III%20Chapter%20II"
+      "youtube": "https://www.youtube.com/results?search_query=G%20Version%20III%20Chapter%20II",
+      "deezer": "https://www.deezer.com/album/985197561",
+      "apple": "https://music.apple.com/us/album/chapter-ii/6770390962?uo=4"
     },
-    "embed": null,
+    "embed": {
+      "provider": "apple",
+      "src": "https://embed.music.apple.com/us/album/6770390962?theme=light",
+      "height": 450
+    },
     "musicVideoUrl": null,
     "status": "pending",
     "approvedAt": null,
@@ -12783,12 +12890,13 @@
       "spotify": "https://open.spotify.com/search/Uriel's%20Bath%20Uriel's%20Bath",
       "soundcloud": "https://soundcloud.com/search?q=Uriel's%20Bath%20Uriel's%20Bath",
       "youtube": "https://www.youtube.com/results?search_query=Uriel's%20Bath%20Uriel's%20Bath",
-      "deezer": "https://www.deezer.com/album/902049942"
+      "deezer": "https://www.deezer.com/album/902049942",
+      "apple": "https://music.apple.com/us/album/uriels-bath-ep/1870934128?uo=4"
     },
     "embed": {
-      "provider": "deezer",
-      "src": "https://widget.deezer.com/widget/light/album/902049942",
-      "height": 300
+      "provider": "apple",
+      "src": "https://embed.music.apple.com/us/album/1870934128?theme=light",
+      "height": 450
     },
     "musicVideoUrl": null,
     "status": "pending",
@@ -15135,6 +15243,40 @@
     "status": "pending",
     "approvedAt": null,
     "coverImageUrl": "https://i.discogs.com/4mZH_z6HpO0-NHYLw5BGzer-jy9_szw8OPMx7iRIMZQ/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM3Mjg2/MjMyLTE3NzgyNTk2/MDEtMzc1Ni5qcGVn.jpeg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
+    "id": "fink-wheels-turn-beneath-my-feet",
+    "type": "album",
+    "artist": "Fink",
+    "title": "Wheels Turn Beneath My Feet",
+    "label": "Ninja Tune",
+    "releaseDate": "2026-01-01",
+    "description": "Ninja Tune dust off Fink's live document of acoustic folk rock, here as a test pressing reissue across thirteen tracks. The label's quieter corner, for anyone who tracks where Bonobo's collaborators end up on their own time.",
+    "tags": [
+      "rock"
+    ],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=Fink%20Wheels%20Turn%20Beneath%20My%20Feet&item_type=a",
+      "spotify": "https://open.spotify.com/search/Fink%20Wheels%20Turn%20Beneath%20My%20Feet",
+      "soundcloud": "https://soundcloud.com/search?q=Fink%20Wheels%20Turn%20Beneath%20My%20Feet",
+      "youtube": "https://www.youtube.com/results?search_query=Fink%20Wheels%20Turn%20Beneath%20My%20Feet",
+      "deezer": "https://www.deezer.com/album/815510991"
+    },
+    "embed": {
+      "provider": "deezer",
+      "src": "https://widget.deezer.com/widget/light/album/815510991",
+      "height": 300
+    },
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://i.discogs.com/yLrtRTkmUSOY49IHp8jyBHLp2myvpjgETIiAiiWtMEY/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM3MzY4/NTQwLTE3NzkwNDQz/MTktNTAzMS5qcGVn.jpeg",
     "cover": {
       "bg": "#111110",
       "fg": "#f2efe8",
@@ -22751,7 +22893,7 @@
     "title": "Absolute(ly) Greed(y)",
     "label": "Doomsday Machine Records",
     "releaseDate": "2025-07-18",
-    "description": "",
+    "description": "Twenty-four track grindcore compilation from Human Greed on Doomsday Machine, collecting the project's blasts into a single LP. For anyone whose shelf already runs heavy on the shorter, faster end of the spectrum.",
     "tags": [
       "rock"
     ],
@@ -22784,7 +22926,7 @@
     "title": "A Study Of The English Countryside",
     "label": "Nice Weather For Airstrikes",
     "releaseDate": "2025-07-18",
-    "description": "",
+    "description": "Fifteen short pieces of ambient and field collage from VLMV, framed as soundtrack to a place rather than a film. Nice Weather For Airstrikes keeps it in keeping with their usual hushed, pastoral end of the spectrum.",
     "tags": [
       "electronic"
     ],
@@ -22813,7 +22955,7 @@
     "title": "A Study Of The English Countryside (Dolby Atmos Binaural Mix)",
     "label": "Nice Weather For Airstrikes",
     "releaseDate": "2025-07-18",
-    "description": "",
+    "description": "VLMV's English-countryside song cycle gets a binaural Atmos pass on Nice Weather For Airstrikes, fifteen tracks of shoegaze drift, post-rock swell and field-recording collage rebuilt for headphones. Closer in spirit to a Hammock record than a pastoral document.",
     "tags": [
       "electronic"
     ],
@@ -22842,7 +22984,7 @@
     "title": "Cale De Bou (Extended Mixes)",
     "label": "Lapsus Music",
     "releaseDate": "2025-07-18",
-    "description": "",
+    "description": "Two extended mixes of straight-down-the-line tech house from a pairing well versed in the format, landing on Lapsus. Functional rather than searching, aimed squarely at the floor.",
     "tags": [
       "electronic"
     ],
@@ -22876,7 +23018,7 @@
     "title": "TRUE MAGIC, DELUXE",
     "label": "Ninja Tune",
     "releaseDate": "2025-07-18",
-    "description": "",
+    "description": "Salute's Ninja Tune full-length expanded to 39 tracks, doubling down on the garage and dance-pop hybrid the original ran on. Deluxe-edition bloat aside, the writing holds up better at this length than you'd expect.",
     "tags": [
       "electronic"
     ],
@@ -22910,7 +23052,7 @@
     "title": "Beside Myself",
     "label": "Hyperdub",
     "releaseDate": "2025-07-18",
-    "description": "",
+    "description": "DJ Haram lands on Hyperdub with a fourteen-track LP pulling Jersey club, noise and rap production into the same frame she has been sharpening since Grace. Sits comfortably next to Loraine James on the shelf.",
     "tags": [
       "hip hop"
     ],
@@ -22944,7 +23086,7 @@
     "title": "Mother / Bow To The King",
     "label": "RidingEasy Records",
     "releaseDate": "2025-07-18",
-    "description": "",
+    "description": "RidingEasy continues its archival run with a limited reissue of the early-70s Philadelphia trio's pair of albums, eight tracks of unvarnished proto-doom hard rock that long predated its eventual collectors-market rediscovery. For the Pentagram and Sir Lord Baltimore shelf.",
     "tags": [
       "rock"
     ],
@@ -22978,7 +23120,7 @@
     "title": "Labège",
     "label": "Good Morning Tapes",
     "releaseDate": "2025-07-17",
-    "description": "",
+    "description": "A three-way meeting on Good Morning Tapes, six pieces of abstract ambient that lean into texture and decay rather than melody. Sits comfortably alongside the label's Ultramarine Tape Series if you've been following that thread.",
     "tags": [
       "electronic"
     ],
@@ -23012,7 +23154,7 @@
     "title": "Smile As One",
     "label": "Ilian Tape",
     "releaseDate": "2025-07-17",
-    "description": "",
+    "description": "Four tracks from Fireground on Ilian Tape, sitting in the familiar Munich seam where techno and house lean on broken drums rather than a straight four. For anyone still working through the Zenker brothers' catalogue.",
     "tags": [
       "electronic"
     ],
@@ -23047,7 +23189,7 @@
     "title": "Consternation",
     "label": "AD 93",
     "releaseDate": "2025-07-17",
-    "description": "",
+    "description": "Playfair lands on AD 93, a label whose roster tends to sit at the awkward seam between club functionality and listening-room patience. Expect that same restraint here, structure foregrounded, mood handled coolly.",
     "tags": [],
     "links": {
       "bandcamp": "https://bandcamp.com/album/1993070728",
@@ -23080,7 +23222,7 @@
     "title": "Bura",
     "label": "Instant Classic",
     "releaseDate": "2025-07-14",
-    "description": "",
+    "description": "Rogiński's spidery, blues-rooted guitar playing turned toward the Adriatic, recorded with Ružičnjak Tajni for Instant Classic across eleven pieces that sit closer to coastal folk abstraction than to anything resembling a song. For anyone who followed Plays Henry Purcell.",
     "tags": [
       "blues"
     ],
@@ -34494,7 +34636,8 @@
       "spotify": "https://open.spotify.com/search/Various%20Rock%20Christmas%20(The%20Very%20Best%20Of)",
       "soundcloud": "https://soundcloud.com/search?q=Various%20Rock%20Christmas%20(The%20Very%20Best%20Of)",
       "youtube": "https://www.youtube.com/results?search_query=Various%20Rock%20Christmas%20(The%20Very%20Best%20Of)",
-      "apple": "https://music.apple.com/us/album/classic-rock-christmas/1444029651?uo=4"
+      "apple": "https://music.apple.com/us/album/classic-rock-christmas/1444029651?uo=4",
+      "tidal": "https://tidal.com/album/53733144"
     },
     "embed": {
       "provider": "apple",
