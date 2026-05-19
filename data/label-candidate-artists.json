@@ -45,7 +45,8 @@
       "Jagjaguwar",
       "100% Silk",
       "Cirrus",
-      "PAN"
+      "PAN",
+      "WORLD MUSIC"
     ],
     "titleExamples": [
       "Mastery Quantum Sound",
@@ -8047,6 +8048,22 @@
     ],
     "titleExamples": [
       "Wheels Turn Beneath My Feet"
+    ]
+  },
+  "Auscultation": {
+    "seenOn": [
+      "100% Silk"
+    ],
+    "titleExamples": [
+      "IV"
+    ]
+  },
+  "Death's Dynamic Shroud.wmv, Galen Tipton": {
+    "seenOn": [
+      "Orange Milk Records"
+    ],
+    "titleExamples": [
+      "You Like Music"
     ]
   }
 }
