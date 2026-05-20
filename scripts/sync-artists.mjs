@@ -37,6 +37,8 @@ import { fetchMonitoringExtras, mergeUnique } from "./fetch-extras.mjs";
 import * as itunes from "./sources/itunes.mjs";
 import * as deezer from "./sources/deezer.mjs";
 import * as lastfmReleases from "./sources/lastfm-releases.mjs";
+import { TAG_BLACKLIST_STRICT } from "./sources/candidate-filter.mjs";
+import { extractAppleAlbumId } from "./lib/apple-url.mjs";
 
 const FILE = path.resolve("data/recommendations.json");
 const STATS_FILE = path.resolve("data/.sync-artists-stats.json");
@@ -56,6 +58,27 @@ const FRESH_SINCE = (() => {
 // average rate well below any published limit. ~250 artists × 250ms = 62s
 // of pacing per source, which is trivial inside a 6-hour job budget.
 const PER_ARTIST_SPACING_MS = 250;
+
+/**
+ * Genre-tag check. Returns true when the release should be DROPPED
+ * (its tag matches the STRICT curator blacklist — specific off-genre
+ * signals only, e.g. reggae, soundtrack, french pop, classical).
+ *
+ * Pool ingestion uses the STRICT subset, NOT the full TAG_BLACKLIST,
+ * because broad iTunes catch-all tags ("alternative", "pop", "dance")
+ * fire on legitimately-monitored artists (James Blake, Andrea, DJ
+ * Koze remixes). Trusting the curator's monitoring decision means
+ * letting those broad tags through; specific subgenre tags still
+ * reliably signal off-genre material that the source picked up via
+ * collaborator credits or name collisions.
+ *
+ * Untagged releases (most Last.fm-only ones) get a free pass — the
+ * cleanup script and per-record curator review catch them later.
+ */
+function tagIsBlacklisted(tag) {
+  if (!tag) return false;
+  return TAG_BLACKLIST_STRICT.has(String(tag).toLowerCase().trim());
+}
 
 function slugify(s) {
   return (s || "")
@@ -209,9 +232,21 @@ async function main() {
       (it) => `${normaliseArtist(it.artist)}|${(it.title || "").toLowerCase()}`,
     ),
   );
+  // Cross-source dedup by Apple Music album ID. Same release queried
+  // under different artist names (e.g. "2K88, Lauren Duffus, …" vs.
+  // "Rainy Miller" vs. "Bianca Scout") comes back with the SAME Apple
+  // `/album/<id>/<id>` numeric ID but differing artistName strings,
+  // so the (artist|title) key above misses cross-run dupes. Building
+  // this set from the pool's existing apple links catches that.
+  const existingAppleIds = new Set();
+  for (const it of items) {
+    const aid = extractAppleAlbumId(it.links?.apple);
+    if (aid) existingAppleIds.add(aid);
+  }
   // Track (source, sourceId) we've already added this run so one collab
   // release triggered by multiple tracked artists only creates one record.
   const addedSourceIds = new Set();
+  const stats_filtered = { byTag: 0, byAppleId: 0 };
 
   // Merge hardcoded ARTISTS with curator-added extras from /api/monitoring-extras.
   const extras = await fetchMonitoringExtras();
@@ -252,14 +287,44 @@ async function main() {
       const fresh = releases.filter((r) => r.releaseDate >= FRESH_SINCE);
       let addedForArtist = 0;
       for (const release of fresh) {
+        // Off-genre tag drop — applies to COLLAB releases only.
+        // Rationale: a solo release by a monitored artist comes back
+        // with releaseArtist === searchedArtist; we trust the
+        // curator's monitoring decision over a misleading iTunes
+        // tag in that case (e.g., Felicia Atkinson tagged
+        // "soundtrack" on a one-off score still belongs in pool).
+        // A collab release ("Alee & NooN") came back because the
+        // monitored artist is one credit among several — and the
+        // OVERALL release genre is exactly what we DO want to
+        // veto when iTunes calls it french pop / reggae / etc.
+        const isSolo =
+          normaliseArtist(release.artist) === normaliseArtist(artist);
+        if (!isSolo && tagIsBlacklisted(release.tag)) {
+          stats_filtered.byTag++;
+          continue;
+        }
         const key = `${normaliseArtist(release.artist)}|${release.title.toLowerCase()}`;
         if (existingKey.has(key)) continue;
         const sourceKey = `${release.source}:${release.sourceId}`;
         if (addedSourceIds.has(sourceKey)) continue;
+        // Cross-credit dedup by Apple album ID. If iTunes already
+        // gave us this release under a different artist credit
+        // (canonical "X & Y" vs. solo "X" billing), we skip the
+        // second occurrence so the pool shows one record per
+        // album instead of three or four near-duplicates.
+        const appleId =
+          release.source === "itunes" && release.externalUrl
+            ? extractAppleAlbumId(release.externalUrl)
+            : null;
+        if (appleId && existingAppleIds.has(appleId)) {
+          stats_filtered.byAppleId++;
+          continue;
+        }
         const rec = toRecommendation(release, existingIds);
         if (!rec) continue;
         existingIds.add(rec.id);
         existingKey.add(key);
+        if (appleId) existingAppleIds.add(appleId);
         addedSourceIds.add(sourceKey);
         items.push(rec);
         addedForArtist++;
@@ -292,6 +357,7 @@ async function main() {
   console.log(
     `[sync-artists] done: +${stats.addedTotal} record(s) across ` +
       `${stats.artistsWithAdditions} artist(s). ` +
+      `Filtered: ${stats_filtered.byTag} by tag, ${stats_filtered.byAppleId} as Apple-ID dup. ` +
       `iTunes: ${stats.itunes.succeeded}/${stats.itunes.attempted} ok ` +
       `(${stats.itunes.nonEmpty} had releases, ${stats.itunes.failed} failed). ` +
       `Deezer fallback: ${stats.deezer.attempted} attempted, ` +

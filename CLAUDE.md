@@ -168,11 +168,65 @@ When GitHub Desktop shows "Resolve conflicts before merge" on
 ## Genre / artist blacklist
 
 `scripts/sources/candidate-filter.mjs` — applied at-source in
-sync-media AND ad-hoc cleanups. User-specified off-genre tags:
-rock, alternative, indie, country, blues, reggae, pop, folk, EDM,
-songwriter, noise (each expanded into Last.fm/Bandcamp variants).
-Manual artist blacklist for high-profile mismatches (Avicii,
-Foo Fighters, Vince Staples, etc.) — extend as new ones surface.
+sync-media AND sync-artists (since 2026-05-20) AND ad-hoc cleanups.
+Three exports now:
+
+- `TAG_BLACKLIST_STRICT` — high-confidence off-genre tags (reggae,
+  french pop, soundtrack, classical, country, blues, folk, rock,
+  k-pop, j-pop, EDM festival variants, noise, songwriter, etc.).
+  Used by sync-artists ingestion and `scripts/cleanup-pool.mjs`.
+  Bare "alternative" / "indie" / "pop" / "dance" are EXCLUDED from
+  STRICT — iTunes uses these too broadly, real pool members get
+  tagged with them (James Blake, Andrea, DJ Koze remixes).
+- `TAG_BLACKLIST_BROAD` — adds those broad terms.
+- `TAG_BLACKLIST` — STRICT ∪ BROAD. Used by sync-media candidate
+  filtering (artist not yet curator-vetted, so we err strict).
+
+**Sync-artists tag filter (since 2026-05-20)**: only fires on COLLAB
+releases (releaseArtist ≠ searchedArtist after normalise). Solo
+releases by monitored artists pass regardless of tag — the curator's
+monitoring decision wins over a misleading iTunes catch-all. Catches
+the original bug shape "monitored Noon guesting on French Pop Alee
+& NooN's release" without losing one-off cross-genre work by pool
+members (Felicia Atkinson scoring a film, Ben Frost soundtrack, etc.).
+
+**Apple album-ID dedup (since 2026-05-20)**: sync-artists now also
+dedupes by Apple `/album/<id>` numeric ID across credit variants. iTunes
+returns the same release under "X & Y" full collab credit AND each
+solo "X" / "Y" query with the same album ID — we keep one record per
+Apple ID, preferring the most-credited canonical version. Shared
+helper: `scripts/lib/apple-url.mjs::extractAppleAlbumId`.
+
+**Article-text genre detection (since 2026-05-20)**: sync-media's
+press-feed loop scans `entry.title + entry.description` for compound
+off-genre phrases ("reggae album", "classical pianist", "soundtrack
+to …", k-pop / metal / americana / country singer / etc.) via
+regex patterns in `articleTextSignalsOffGenre`. A hit skips the
+mention for that entry only — the candidate never accumulates that
+article's evidence. Patterns require word-boundary multi-word
+context to avoid over-matching common prose ("rock bottom", "country
+roads" geo). Designed so a legit electronic artist mentioned in a
+reggae review just doesn't gain that one mention — they'll surface
+via other articles. An off-genre artist whose every mention is in
+off-genre prose never accumulates enough to auto-promote.
+
+**Cleanup script** (`scripts/cleanup-pool.mjs`): dry-run by default
+(`--apply` to write, makes a `.bak` first). Removes pending records
+with blacklisted tags / blacklisted artists / Apple-ID duplicates.
+Whitelists solo releases by monitored artists. Safe to re-run; backs
+up `data/recommendations.json` → `.bak`.
+
+Manual artist blacklist for high-profile mismatches (Avicii, Foo
+Fighters, Vince Staples, etc.) — extend as new ones surface. Off-
+genre auto-promotions caught 2026-05-20 (Quiet Light, Aldous Harding,
+Kevin Morby, Tara Clerkin Trio) parked here so sync-media can't
+re-promote them.
+
+**Known unfixed**: short common-name false matches ("Lone" matches
+both Matt Cutler's project and an unrelated hip-hop artist named
+Lone; same with "ear", "LOG", etc.). Fix requires per-artist
+Apple/Spotify ID disambiguation — significant data migration.
+Currently the curator dismisses manually from /admin.
 
 ## GitHub Actions cost / minutes
 

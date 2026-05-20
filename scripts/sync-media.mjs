@@ -53,7 +53,10 @@ import {
   topTagsForArtist as lastfmTopTagsForArtist,
 } from "./sources/lastfm-tags.mjs";
 import { findFreshReleases as findBandcampReleases } from "./sources/bandcamp-discover.mjs";
-import { reasonToReject as candidateRejectReason } from "./sources/candidate-filter.mjs";
+import {
+  reasonToReject as candidateRejectReason,
+  articleTextSignalsOffGenre,
+} from "./sources/candidate-filter.mjs";
 
 const RECS_FILE = path.resolve("data/recommendations.json");
 const CANDIDATES_FILE = path.resolve("data/media-candidates.json");
@@ -902,6 +905,7 @@ async function main() {
 
   let pressBoosts = 0;
   let candidateMentions = 0;
+  let candidateOffGenreSkips = 0;
   const today = new Date().toISOString().slice(0, 10);
 
   // Fetch every press feed CONCURRENTLY. Previously serial ~2-3 min
@@ -958,6 +962,22 @@ async function main() {
       // confidence is at least moderate.
       if (pooledSet.has(artistKey)) continue;
       if (parsed.confidence !== "high") continue;
+
+      // Article-text genre signal. If the entry's title or description
+      // reads as off-genre prose ("reggae album", "classical pianist",
+      // "soundtrack to …", k-pop / country / metal etc.), skip the
+      // mention. An artist who ONLY surfaces in off-genre articles
+      // won't accumulate enough mentions to auto-promote. Legit
+      // electronic artists get plenty of other on-genre mentions and
+      // surface normally. The patterns are tuned for press prose, not
+      // for poolTags (those are handled by candidateRejectReason
+      // below using TAG_BLACKLIST).
+      const articleText = `${entry.title || ""} ${entry.description || ""}`;
+      const offGenreHit = articleTextSignalsOffGenre(articleText);
+      if (offGenreHit) {
+        candidateOffGenreSkips++;
+        continue;
+      }
 
       const displayName = parsed.artist;
       const cur = candidates[displayName] || {
@@ -1327,6 +1347,7 @@ async function main() {
   console.log(
     `[sync-media] done. Press boosts added: ${pressBoosts}. ` +
       `Candidate mentions: ${candidateMentions}. ` +
+      `Off-genre article skips: ${candidateOffGenreSkips}. ` +
       `Candidates tracked: ${Object.keys(candidates).length} ` +
       `(${multiSourceCount} open multi-source, ${autoPromotedCount} auto-promoted this run).` +
       (autoPromotedCount > 0 ? ` Promoted: ${autoPromotedNames.join(", ")}` : ""),
