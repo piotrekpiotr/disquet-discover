@@ -234,7 +234,9 @@
       "Brainfeeder"
     ],
     "titleExamples": [
-      "Distracted"
+      "Distracted",
+      "Drunk",
+      "It Is What It Is"
     ]
   },
   "Flying Lotus": {
@@ -7351,7 +7353,8 @@
       "WORLD MUSIC"
     ],
     "titleExamples": [
-      "Bongo Fury (50th Anniversary Edition)"
+      "Bongo Fury (50th Anniversary Edition)",
+      "Bongo Fury 50th Anniversary Edition"
     ]
   },
   "John Coltrane": {
@@ -8064,6 +8067,22 @@
     ],
     "titleExamples": [
       "You Like Music"
+    ]
+  },
+  "Iztok Koren, Raphael Rogiński": {
+    "seenOn": [
+      "Instant Classic"
+    ],
+    "titleExamples": [
+      "Nocturnal Consolations"
+    ]
+  },
+  "GbClifford": {
+    "seenOn": [
+      "Mappa"
+    ],
+    "titleExamples": [
+      "Love, Diskito"
     ]
   }
 }

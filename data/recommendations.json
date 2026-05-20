@@ -951,6 +951,99 @@
     "pressMentions": []
   },
   {
+    "id": "baauer-supersonic-u-give-me-love",
+    "type": "single",
+    "artist": "Baauer",
+    "title": "Supersonic/U Give Me Love",
+    "label": "",
+    "releaseDate": "2026-05-20",
+    "description": "Two-tracker from Baauer, the trap-adjacent producer whose ear for blown-out low end and cartoonish drum work has stayed legible long past the Harlem Shake moment. File alongside the louder end of LuckyMe.",
+    "tags": [],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=Baauer%20Supersonic%2FU%20Give%20Me%20Love&item_type=a",
+      "spotify": "https://open.spotify.com/search/Baauer%20Supersonic%2FU%20Give%20Me%20Love",
+      "soundcloud": "https://soundcloud.com/search?q=Baauer%20Supersonic%2FU%20Give%20Me%20Love",
+      "youtube": "https://www.youtube.com/results?search_query=Baauer%20Supersonic%2FU%20Give%20Me%20Love",
+      "deezer": "https://www.deezer.com/album/953302381"
+    },
+    "embed": {
+      "provider": "deezer",
+      "src": "https://widget.deezer.com/widget/light/album/953302381",
+      "height": 300
+    },
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://cdn-images.dzcdn.net/images/cover/812be1c39256ba15647eb57f29c61e63/1000x1000-000000-80-0-0.jpg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
+    "id": "kavari-they-can-t-do-what-i-can",
+    "type": "single",
+    "artist": "KAVARI",
+    "title": "they can't do what i can",
+    "label": "",
+    "releaseDate": "2026-05-20",
+    "description": "KAVARI in solo mode again, which on past form means club tools built from breakbeat shrapnel, sub pressure, and the kind of vocal cutups that hit harder than the drums. Self-released and dated well ahead, so treat it as a flag planted rather than a finished story.",
+    "tags": [],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=KAVARI%20they%20can't%20do%20what%20i%20can&item_type=a",
+      "spotify": "https://open.spotify.com/search/KAVARI%20they%20can't%20do%20what%20i%20can",
+      "soundcloud": "https://soundcloud.com/search?q=KAVARI%20they%20can't%20do%20what%20i%20can",
+      "youtube": "https://www.youtube.com/results?search_query=KAVARI%20they%20can't%20do%20what%20i%20can",
+      "deezer": "https://www.deezer.com/album/981605551"
+    },
+    "embed": null,
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://cdn-images.dzcdn.net/images/cover/9f7df1da798cdbb5a4c9a696be54fd77/1000x1000-000000-80-0-0.jpg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
+    "id": "romare-computer-love",
+    "type": "single",
+    "artist": "Romare",
+    "title": "Computer Love",
+    "label": "",
+    "releaseDate": "2026-05-20",
+    "description": "Romare turns to a Kraftwerk standard, which on paper suits him: his catalogue has always treated old records as raw material rather than reverence. Worth a listen for anyone still playing Projections.",
+    "tags": [],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=Romare%20Computer%20Love&item_type=a",
+      "spotify": "https://open.spotify.com/search/Romare%20Computer%20Love",
+      "soundcloud": "https://soundcloud.com/search?q=Romare%20Computer%20Love",
+      "youtube": "https://www.youtube.com/results?search_query=Romare%20Computer%20Love",
+      "deezer": "https://www.deezer.com/album/963745481",
+      "apple": "https://music.apple.com/us/album/computer-love-single/1894244806?uo=4"
+    },
+    "embed": {
+      "provider": "apple",
+      "src": "https://embed.music.apple.com/us/album/1894244806?theme=light",
+      "height": 450
+    },
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://cdn-images.dzcdn.net/images/cover/faf6fe68fd10051a95c770888aec29f1/1000x1000-000000-80-0-0.jpg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
     "id": "dismiss-lost-transmissions-1995-1996",
     "type": "album",
     "artist": "Dismiss",
@@ -1043,6 +1136,41 @@
     "status": "pending",
     "approvedAt": null,
     "coverImageUrl": "https://cdn-images.dzcdn.net/images/cover/54940ec9bbdfd332246dddfa410c7035/1000x1000-000000-80-0-0.jpg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
+    "id": "gbclifford-love-diskito",
+    "type": "album",
+    "artist": "GbClifford",
+    "title": "Love, Diskito",
+    "label": "mappa",
+    "releaseDate": "2026-05-19",
+    "description": "Ten tracks of experimental ambient pop on mappa, the Slovak imprint with a steady ear for the wonkier edges of song form. File alongside the label's looser, vocal-leaning end rather than its drone catalogue.",
+    "tags": [
+      "electronic"
+    ],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=GbClifford%20Love%2C%20Diskito&item_type=a",
+      "spotify": "https://open.spotify.com/search/GbClifford%20Love%2C%20Diskito",
+      "soundcloud": "https://soundcloud.com/search?q=GbClifford%20Love%2C%20Diskito",
+      "youtube": "https://www.youtube.com/results?search_query=GbClifford%20Love%2C%20Diskito",
+      "deezer": "https://www.deezer.com/album/967260961",
+      "apple": "https://music.apple.com/us/album/love-diskito/1895158217?uo=4"
+    },
+    "embed": {
+      "provider": "apple",
+      "src": "https://embed.music.apple.com/us/album/1895158217?theme=light",
+      "height": 450
+    },
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://i.discogs.com/64mLUzbbRCdD2b-ie_Omdoe_az8yrKk5BTf67jSNf6o/rs:fit/g:sm/q:90/h:580/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM3Mzg1/ODY1LTE3NzkyMDc1/MjYtMzE2Ni5qcGVn.jpeg",
     "cover": {
       "bg": "#111110",
       "fg": "#f2efe8",
@@ -1152,7 +1280,7 @@
     "type": "album",
     "artist": "Martyn",
     "title": "Music for Existing",
-    "label": "",
+    "label": "3024",
     "releaseDate": "2026-05-15",
     "description": "Martyn returns to long, form, which usually means his particular read on broken techno, dub, and the slower edges of UK bass gets room to stretch. Label details are still thin, but his back catalogue is the reference point.",
     "tags": [],
@@ -1572,6 +1700,74 @@
     "status": "pending",
     "approvedAt": null,
     "coverImageUrl": null,
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
+    "id": "thundercat-drunk",
+    "type": "album",
+    "artist": "Thundercat",
+    "title": "Drunk",
+    "label": "Brainfeeder",
+    "releaseDate": "2026-05-15",
+    "description": "Brainfeeder pressing Stephen Bruner's sprawling jazz-funk songbook across a 23-track set of 10\" 45s, which is a fairly extravagant way to house music this restless. For anyone who prefers their bass virtuosity smuggled inside cartoonish R&B miniatures.",
+    "tags": [
+      "electronic"
+    ],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=Thundercat%20Drunk&item_type=a",
+      "spotify": "https://open.spotify.com/search/Thundercat%20Drunk",
+      "soundcloud": "https://soundcloud.com/search?q=Thundercat%20Drunk",
+      "youtube": "https://www.youtube.com/results?search_query=Thundercat%20Drunk",
+      "deezer": "https://www.deezer.com/album/15174133"
+    },
+    "embed": {
+      "provider": "deezer",
+      "src": "https://widget.deezer.com/widget/light/album/15174133",
+      "height": 300
+    },
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://i.discogs.com/SybkRcBZojOODbBdKUat9B45AF-dI-gm88oraKiH8vE/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM3Mzcx/OTEyLTE3NzkyNTc2/MjAtNTQwNi5qcGVn.jpeg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
+    "id": "thundercat-it-is-what-it-is",
+    "type": "album",
+    "artist": "Thundercat",
+    "title": "It Is What It Is",
+    "label": "Brainfeeder",
+    "releaseDate": "2026-05-15",
+    "description": "Stephen Bruner back on Brainfeeder for a fifteen-track LP that sits where his bass playing always has, between fusion chops, smeared R&B and the looser corners of LA beat music. For anyone who keeps Drunk in regular rotation.",
+    "tags": [
+      "electronic"
+    ],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=Thundercat%20It%20Is%20What%20It%20Is&item_type=a",
+      "spotify": "https://open.spotify.com/search/Thundercat%20It%20Is%20What%20It%20Is",
+      "soundcloud": "https://soundcloud.com/search?q=Thundercat%20It%20Is%20What%20It%20Is",
+      "youtube": "https://www.youtube.com/results?search_query=Thundercat%20It%20Is%20What%20It%20Is",
+      "deezer": "https://www.deezer.com/album/127010392"
+    },
+    "embed": {
+      "provider": "deezer",
+      "src": "https://widget.deezer.com/widget/light/album/127010392",
+      "height": 300
+    },
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://i.discogs.com/HOw9aPy8F49O8AjNcx1_kkBYkhGS8Ulgq7_UhoJgOak/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM3Mzcx/ODc5LTE3NzkyNTc1/MzgtMTU5MS5qcGVn.jpeg",
     "cover": {
       "bg": "#111110",
       "fg": "#f2efe8",
@@ -2577,7 +2773,9 @@
       "fg": "#f2efe8",
       "motif": "disc"
     },
-    "pressMentions": []
+    "pressMentions": [
+      "stereogum"
+    ]
   },
   {
     "id": "vladislav-delay-vd5",
@@ -10336,6 +10534,40 @@
     ]
   },
   {
+    "id": "iztok-koren-raphael-roginski-nocturnal-consolations-l",
+    "type": "album",
+    "artist": "Iztok Koren, Raphael Rogiński",
+    "title": "Nocturnal Consolations",
+    "label": "Instant Classic",
+    "releaseDate": "2026-03-26",
+    "description": "A duo session for Instant Classic pairing Iztok Koren's percussion with Raphael Rogiński's spectral, modal guitar playing, the latter a constant on the Polish label. Eleven pieces of after-dark folk abstraction, more conversation than composition.",
+    "tags": [
+      "folk, world, & country"
+    ],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=Iztok%20Koren%2C%20Raphael%20Rogi%C5%84ski%20Nocturnal%20Consolations&item_type=a",
+      "spotify": "https://open.spotify.com/search/Iztok%20Koren%2C%20Raphael%20Rogi%C5%84ski%20Nocturnal%20Consolations",
+      "soundcloud": "https://soundcloud.com/search?q=Iztok%20Koren%2C%20Raphael%20Rogi%C5%84ski%20Nocturnal%20Consolations",
+      "youtube": "https://www.youtube.com/results?search_query=Iztok%20Koren%2C%20Raphael%20Rogi%C5%84ski%20Nocturnal%20Consolations",
+      "deezer": "https://www.deezer.com/album/937868141"
+    },
+    "embed": {
+      "provider": "deezer",
+      "src": "https://widget.deezer.com/widget/light/album/937868141",
+      "height": 300
+    },
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://i.discogs.com/BTSY7VoJUH2nPutJUyRv7qlCgCbJNOxyxXvWZ6okD4U/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM3Mzg0/ODA5LTE3NzkyMDAy/MzEtNDk3NS5qcGVn.jpeg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
     "id": "psychicthrob-bursting-dementia",
     "type": "album",
     "artist": "Psychicthrob",
@@ -10661,6 +10893,35 @@
     "status": "pending",
     "approvedAt": null,
     "coverImageUrl": "https://i.discogs.com/-U6s9hzqWhUgvCcRDNrHT3bBkES52xAD8rz00gF_SEw/rs:fit/g:sm/q:90/h:600/w:591/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM2ODc3/NTkxLTE3NzQ0NzMy/MTktNTI0OC5qcGVn.jpeg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
+    "id": "zappa-beefheart-mothers-bongo-fury-50th-anniversary-edition-l",
+    "type": "album",
+    "artist": "Zappa* / Beefheart* / Mothers",
+    "title": "Bongo Fury 50th Anniversary Edition",
+    "label": "Zappa Records",
+    "releaseDate": "2026-03-20",
+    "description": "Zappa Records hauls the 1975 Austin live document back out for its fiftieth, expanded to a 78-track remastered set. The Beefheart and Zappa pairing remains the draw, whether you want it as theatre, parody, or the jazz-rock chassis underneath.",
+    "tags": [
+      "rock"
+    ],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=Zappa*%20%2F%20Beefheart*%20%2F%20Mothers%20Bongo%20Fury%2050th%20Anniversary%20Edition&item_type=a",
+      "spotify": "https://open.spotify.com/search/Zappa*%20%2F%20Beefheart*%20%2F%20Mothers%20Bongo%20Fury%2050th%20Anniversary%20Edition",
+      "soundcloud": "https://soundcloud.com/search?q=Zappa*%20%2F%20Beefheart*%20%2F%20Mothers%20Bongo%20Fury%2050th%20Anniversary%20Edition",
+      "youtube": "https://www.youtube.com/results?search_query=Zappa*%20%2F%20Beefheart*%20%2F%20Mothers%20Bongo%20Fury%2050th%20Anniversary%20Edition"
+    },
+    "embed": null,
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://i.discogs.com/YAHo13V0ehEnhRga9vBGsulLh0Me8G9BpcvpA9KvobY/rs:fit/g:sm/q:90/h:600/w:599/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM2ODIz/ODUyLTE3NzQwMjM3/NDAtNjcyNC5qcGVn.jpeg",
     "cover": {
       "bg": "#111110",
       "fg": "#f2efe8",
@@ -23757,7 +24018,7 @@
     "title": "Beloved",
     "label": "Epic",
     "releaseDate": "2025-07-11",
-    "description": "",
+    "description": "Fourteen tracks of Givēon's baritone-led contemporary R&B on Epic, the register he has been operating in since Take Time. Cleanly produced, ballad-heavy, shelf it next to Daniel Caesar.",
     "tags": [
       "funk / soul"
     ],
@@ -23792,7 +24053,7 @@
     "title": "Unnameable Glory",
     "label": "mappa",
     "releaseDate": "2025-07-08",
-    "description": "",
+    "description": "Ten tracks of song-form ambient drift on mappa, the Slovak imprint that keeps finding the seam between field recording and folk abstraction. Plume Girl works in close, voiced detail rather than wide gestures; for anyone tracking the label's run with Tomoko Sauvage.",
     "tags": [
       "electronic"
     ],
@@ -23826,7 +24087,7 @@
     "title": "Two Halves vol. 11",
     "label": "Pan Pan Pan {Avian Distress Call}",
     "releaseDate": "2025-07-05",
-    "description": "",
+    "description": "Twenty pairings on Pan Pan Pan's ongoing duets series, sprawling across hip hop, jazz, rock and electronics without bothering to reconcile them. Useful if you treat compilations as field guides rather than playlists.",
     "tags": [
       "electronic"
     ],
@@ -23892,7 +24153,7 @@
     "title": "E-Numbers 003",
     "label": "E-Numbers",
     "releaseDate": "2025-07-04",
-    "description": "",
+    "description": "Third entry in the white-label E-Numbers series, four tracks straddling techno, electro and a leaner strain of house. DJ tool territory rather than home listening, pressed for the kind of set where the labels stay covered.",
     "tags": [
       "electronic"
     ],
@@ -23921,7 +24182,7 @@
     "title": "Latency alla Villa Medici III",
     "label": "Latency",
     "releaseDate": "2025-07-04",
-    "description": "",
+    "description": "Third installment of Latency's Villa Medici residency series, four ambient pieces from the Paris label's extended orbit. Compilations like this tend to function as a snapshot of where the roster's heads are at; treat it accordingly.",
     "tags": [
       "electronic"
     ],
@@ -23955,7 +24216,7 @@
     "title": "Fronte Violeta",
     "label": "Other People",
     "releaseDate": "2025-07-04",
-    "description": "",
+    "description": "Ten pieces of field-recording-led drone and electroacoustic ambient on Nicolas Jaar's Other People, the Boregas/Toku duo working under the Fronte Violeta name. Patient, room-tone music; sits comfortably next to the label's quieter Lucrecia Dalt entries.",
     "tags": [
       "electronic"
     ],
@@ -23990,7 +24251,7 @@
     "title": "Don't Stop EP",
     "label": "Lapsus Music",
     "releaseDate": "2025-07-04",
-    "description": "",
+    "description": "Two cuts of pared-back minimal techno from Maqossa on Barcelona's Lapsus, the rhythm work doing most of the talking. Functional rather than ornamental, aimed squarely at the back half of the night.",
     "tags": [
       "electronic"
     ],
@@ -24467,9 +24728,14 @@
       "bandcamp": "https://bandcamp.com/search?q=Hotswing%20Forever%20EP&item_type=a",
       "spotify": "https://open.spotify.com/search/Hotswing%20Forever%20EP",
       "soundcloud": "https://soundcloud.com/search?q=Hotswing%20Forever%20EP",
-      "youtube": "https://www.youtube.com/results?search_query=Hotswing%20Forever%20EP"
+      "youtube": "https://www.youtube.com/results?search_query=Hotswing%20Forever%20EP",
+      "deezer": "https://www.deezer.com/album/764513551"
     },
-    "embed": null,
+    "embed": {
+      "provider": "deezer",
+      "src": "https://widget.deezer.com/widget/light/album/764513551",
+      "height": 300
+    },
     "musicVideoUrl": null,
     "status": "pending",
     "approvedAt": null,
