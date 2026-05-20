@@ -614,6 +614,35 @@
     "pressMentions": []
   },
   {
+    "id": "auscultation-iv",
+    "type": "album",
+    "artist": "Auscultation",
+    "title": "IV",
+    "label": "100% Silk",
+    "releaseDate": "2026-06-05",
+    "description": "Auscultation returns to 100% Silk with seven more tracks of foggy, romantic deep house, the kind of headphone-leaning material the label has quietly specialised in for over a decade. For anyone still spinning the Octo Octa end of the catalogue.",
+    "tags": [
+      "electronic"
+    ],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=Auscultation%20IV&item_type=a",
+      "spotify": "https://open.spotify.com/search/Auscultation%20IV",
+      "soundcloud": "https://soundcloud.com/search?q=Auscultation%20IV",
+      "youtube": "https://www.youtube.com/results?search_query=Auscultation%20IV"
+    },
+    "embed": null,
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://i.discogs.com/XmfovqCUK5E8sDubG99uP0RVNEdsNfiiWiuzuctT6x8/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM3Mzc3/MDg0LTE3NzkxMjU5/NjAtOTU1OC5qcGVn.jpeg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
     "id": "hooper-8-carry-your-own-saints",
     "type": "ep",
     "artist": "Hooper (8)",
@@ -936,13 +965,84 @@
       "bandcamp": "https://bandcamp.com/search?q=Dismiss%20Lost%20Transmissions%3A%201995-1996&item_type=a",
       "spotify": "https://open.spotify.com/search/Dismiss%20Lost%20Transmissions%3A%201995-1996",
       "soundcloud": "https://soundcloud.com/search?q=Dismiss%20Lost%20Transmissions%3A%201995-1996",
-      "youtube": "https://www.youtube.com/results?search_query=Dismiss%20Lost%20Transmissions%3A%201995-1996"
+      "youtube": "https://www.youtube.com/results?search_query=Dismiss%20Lost%20Transmissions%3A%201995-1996",
+      "deezer": "https://www.deezer.com/album/943502831",
+      "apple": "https://music.apple.com/us/album/lost-transmissions-1995-1996/1886511580?uo=4"
     },
-    "embed": null,
+    "embed": {
+      "provider": "apple",
+      "src": "https://embed.music.apple.com/us/album/1886511580?theme=light",
+      "height": 450
+    },
     "musicVideoUrl": null,
     "status": "pending",
     "approvedAt": null,
     "coverImageUrl": "https://i.discogs.com/EU-499ODC3nc7eGMjeIwFV-CVZiHvOZWzAFt7ProAqw/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM3MzYy/NTI1LTE3Nzg5ODY1/NDYtMTQzNS5qcGVn.jpeg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
+    "id": "tricky-because-i-don-t-know",
+    "type": "single",
+    "artist": "Tricky",
+    "title": "Because I Don't Know",
+    "label": "",
+    "releaseDate": "2026-05-19",
+    "description": "Tricky returns to single-track form, the Bristol voice still operating in that smoke-and-murmur register he has occupied since Maxinquaye. No label info surfaced yet, but the working mode is familiar enough.",
+    "tags": [],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=Tricky%20Because%20I%20Don't%20Know&item_type=a",
+      "spotify": "https://open.spotify.com/search/Tricky%20Because%20I%20Don't%20Know",
+      "soundcloud": "https://soundcloud.com/search?q=Tricky%20Because%20I%20Don't%20Know",
+      "youtube": "https://www.youtube.com/results?search_query=Tricky%20Because%20I%20Don't%20Know",
+      "deezer": "https://www.deezer.com/album/968077951",
+      "apple": "https://music.apple.com/us/album/because-i-dont-know-single/1895414417?uo=4"
+    },
+    "embed": {
+      "provider": "apple",
+      "src": "https://embed.music.apple.com/us/album/1895414417?theme=light",
+      "height": 450
+    },
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://cdn-images.dzcdn.net/images/cover/0965ad0e28dc78ff02b36c0ff9d382e8/1000x1000-000000-80-0-0.jpg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
+    "id": "visible-cloaks-steel",
+    "type": "album",
+    "artist": "Visible Cloaks",
+    "title": "Steel",
+    "label": "",
+    "releaseDate": "2026-05-19",
+    "description": "New Visible Cloaks long-player, label unconfirmed at time of writing. Expect the Portland duo's usual approach to MIDI-rendered exotica and fourth-world software studies; shelve near Spencer Doran's RVNG-era catalog.",
+    "tags": [],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=Visible%20Cloaks%20Steel&item_type=a",
+      "spotify": "https://open.spotify.com/search/Visible%20Cloaks%20Steel",
+      "soundcloud": "https://soundcloud.com/search?q=Visible%20Cloaks%20Steel",
+      "youtube": "https://www.youtube.com/results?search_query=Visible%20Cloaks%20Steel",
+      "deezer": "https://www.deezer.com/album/961303181"
+    },
+    "embed": {
+      "provider": "deezer",
+      "src": "https://widget.deezer.com/widget/light/album/961303181",
+      "height": 300
+    },
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://cdn-images.dzcdn.net/images/cover/54940ec9bbdfd332246dddfa410c7035/1000x1000-000000-80-0-0.jpg",
     "cover": {
       "bg": "#111110",
       "fg": "#f2efe8",
@@ -975,6 +1075,36 @@
     "status": "pending",
     "approvedAt": null,
     "coverImageUrl": "https://cdn-images.dzcdn.net/images/cover/bcdf49436897116d2411912f3858f154/1000x1000-000000-80-0-0.jpg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
+    "id": "dj-shadow-medoly-nautica-feat-black-coffee",
+    "type": "single",
+    "artist": "DJ Shadow & Medoly",
+    "title": "Nautica (feat. Black Coffee)",
+    "label": "Angelsounds / NGwide Media",
+    "releaseDate": "2026-05-16",
+    "description": "DJ Shadow and Medoly link with Black Coffee for a single on Angelsounds, a meeting of the Endtroducing architect's sample craft and Black Coffee's afro-house gravitational pull. File alongside the more song-shaped end of either catalogue.",
+    "tags": [
+      "worldwide"
+    ],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=DJ%20Shadow%20%26%20Medoly%20Nautica%20(feat.%20Black%20Coffee)&item_type=a",
+      "spotify": "https://open.spotify.com/search/DJ%20Shadow%20%26%20Medoly%20Nautica%20(feat.%20Black%20Coffee)",
+      "soundcloud": "https://soundcloud.com/search?q=DJ%20Shadow%20%26%20Medoly%20Nautica%20(feat.%20Black%20Coffee)",
+      "youtube": "https://www.youtube.com/results?search_query=DJ%20Shadow%20%26%20Medoly%20Nautica%20(feat.%20Black%20Coffee)",
+      "apple": "https://music.apple.com/us/album/nautica-feat-black-coffee-single/1887732875"
+    },
+    "embed": null,
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/f9/37/db/f937db16-0d9c-573a-396a-e2dd2ca71e20/4896010300256.jpg/600x600bb.jpg",
     "cover": {
       "bg": "#111110",
       "fg": "#f2efe8",
@@ -1594,9 +1724,14 @@
       "spotify": "https://open.spotify.com/search/Jacques%20Greene%20%26%20umru%20What%20You%20Say%20(ft%20umru)",
       "soundcloud": "https://soundcloud.com/search?q=Jacques%20Greene%20%26%20umru%20What%20You%20Say%20(ft%20umru)",
       "youtube": "https://www.youtube.com/results?search_query=Jacques%20Greene%20%26%20umru%20What%20You%20Say%20(ft%20umru)",
-      "apple": "https://music.apple.com/us/album/what-you-say-ft-umru-single/1893297056"
+      "apple": "https://music.apple.com/us/album/what-you-say-ft-umru-single/1893297056",
+      "deezer": "https://www.deezer.com/album/985420231"
     },
-    "embed": null,
+    "embed": {
+      "provider": "apple",
+      "src": "https://embed.music.apple.com/us/album/1893297056?theme=light",
+      "height": 450
+    },
     "musicVideoUrl": null,
     "status": "pending",
     "approvedAt": null,
@@ -1656,9 +1791,15 @@
       "bandcamp": "https://bandcamp.com/search?q=Jacques%20Greene%20%26%20umru%20What%20You%20Say&item_type=a",
       "spotify": "https://open.spotify.com/search/Jacques%20Greene%20%26%20umru%20What%20You%20Say",
       "soundcloud": "https://soundcloud.com/search?q=Jacques%20Greene%20%26%20umru%20What%20You%20Say",
-      "youtube": "https://www.youtube.com/results?search_query=Jacques%20Greene%20%26%20umru%20What%20You%20Say"
+      "youtube": "https://www.youtube.com/results?search_query=Jacques%20Greene%20%26%20umru%20What%20You%20Say",
+      "deezer": "https://www.deezer.com/album/985420231",
+      "apple": "https://music.apple.com/us/album/what-you-say-ft-umru-single/1893297056?uo=4"
     },
-    "embed": null,
+    "embed": {
+      "provider": "apple",
+      "src": "https://embed.music.apple.com/us/album/1893297056?theme=light",
+      "height": 450
+    },
     "musicVideoUrl": null,
     "status": "pending",
     "approvedAt": null,
@@ -1919,6 +2060,35 @@
     "status": "pending",
     "approvedAt": null,
     "coverImageUrl": "https://cdn-images.dzcdn.net/images/cover/fe4b202e5500ad64254b807e6d450520/1000x1000-000000-80-0-0.jpg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
+    "id": "various-peaky-blinders-the-immortal-man-soundtrack-from-the-netflix-film",
+    "type": "album",
+    "artist": "Various",
+    "title": "Peaky Blinders - The Immortal Man (Soundtrack From The Netflix Film)",
+    "label": "RCA",
+    "releaseDate": "2026-05-10",
+    "description": "Thirty-six cues collected from the Netflix film extension of the Peaky Blinders universe, spanning songs and score across a single LP issue on RCA. A soundtrack object first, listening record second.",
+    "tags": [
+      "stage & screen"
+    ],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=Various%20Peaky%20Blinders%20-%20The%20Immortal%20Man%20(Soundtrack%20From%20The%20Netflix%20Film)&item_type=a",
+      "spotify": "https://open.spotify.com/search/Various%20Peaky%20Blinders%20-%20The%20Immortal%20Man%20(Soundtrack%20From%20The%20Netflix%20Film)",
+      "soundcloud": "https://soundcloud.com/search?q=Various%20Peaky%20Blinders%20-%20The%20Immortal%20Man%20(Soundtrack%20From%20The%20Netflix%20Film)",
+      "youtube": "https://www.youtube.com/results?search_query=Various%20Peaky%20Blinders%20-%20The%20Immortal%20Man%20(Soundtrack%20From%20The%20Netflix%20Film)"
+    },
+    "embed": null,
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://i.discogs.com/bATHdOEdML_NpoqlaJc9ftvXJPgJGdtrbJcXgQuzB9M/rs:fit/g:sm/q:90/h:600/w:596/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM3MzQ4/NzU4LTE3NzkxMDMz/NTItNTE5NS5qcGVn.jpeg",
     "cover": {
       "bg": "#111110",
       "fg": "#f2efe8",
@@ -2838,6 +3008,39 @@
     "status": "pending",
     "approvedAt": null,
     "coverImageUrl": "https://cdn-images.dzcdn.net/images/cover/4388541311f665402f12282f131cf8d9/1000x1000-000000-80-0-0.jpg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
+    "id": "coil-pull-me-closer",
+    "type": "album",
+    "artist": "Coil",
+    "title": "Pull me Closer",
+    "label": "",
+    "releaseDate": "2026-05-06",
+    "description": "New Coil material surfacing in 2026 will raise eyebrows on its own terms, given the project's status as one of the more mythologized corners of British esoteric electronics. Approach with the usual caveats until the provenance is clear.",
+    "tags": [],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=Coil%20Pull%20me%20Closer&item_type=a",
+      "spotify": "https://open.spotify.com/search/Coil%20Pull%20me%20Closer",
+      "soundcloud": "https://soundcloud.com/search?q=Coil%20Pull%20me%20Closer",
+      "youtube": "https://www.youtube.com/results?search_query=Coil%20Pull%20me%20Closer",
+      "deezer": "https://www.deezer.com/album/965211951",
+      "apple": "https://music.apple.com/us/album/pull-me-closer-feat-ray-single/1895218107?uo=4"
+    },
+    "embed": {
+      "provider": "apple",
+      "src": "https://embed.music.apple.com/us/album/1895218107?theme=light",
+      "height": 450
+    },
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": null,
     "cover": {
       "bg": "#111110",
       "fg": "#f2efe8",
@@ -4169,6 +4372,35 @@
     "status": "pending",
     "approvedAt": null,
     "coverImageUrl": "https://i.discogs.com/qO45TYclrQW52nCIu-Cd4HSgnmx0FkVes0N9cEtlk8I/rs:fit/g:sm/q:90/h:450/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM3Mzcx/NTcwLTE3NzkwODIw/MjctNTQzOS5qcGVn.jpeg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
+    "id": "death-s-dynamic-shroud-wmv-galen-tipton-you-like-music",
+    "type": "album",
+    "artist": "Death's Dynamic Shroud.wmv, Galen Tipton",
+    "title": "You Like Music",
+    "label": "Orange Milk Records",
+    "releaseDate": "2026-05-01",
+    "description": "Death's Dynamic Shroud.wmv link up with Galen Tipton on Orange Milk for nine tracks of shredded plunderphonics pulled toward Jersey club and the more cracked end of deconstructed bass. Pure label DNA; for fans of Foodman.",
+    "tags": [
+      "electronic"
+    ],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=Death's%20Dynamic%20Shroud.wmv%2C%20Galen%20Tipton%20You%20Like%20Music&item_type=a",
+      "spotify": "https://open.spotify.com/search/Death's%20Dynamic%20Shroud.wmv%2C%20Galen%20Tipton%20You%20Like%20Music",
+      "soundcloud": "https://soundcloud.com/search?q=Death's%20Dynamic%20Shroud.wmv%2C%20Galen%20Tipton%20You%20Like%20Music",
+      "youtube": "https://www.youtube.com/results?search_query=Death's%20Dynamic%20Shroud.wmv%2C%20Galen%20Tipton%20You%20Like%20Music"
+    },
+    "embed": null,
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://i.discogs.com/vMx9F9cmqZC6BMtxNHJRHdq2CmfhKM0O5imv3Fkuhwg/rs:fit/g:sm/q:90/h:589/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM3Mzc4/NTk5LTE3NzkxNDA1/OTAtOTU5NC5qcGVn.jpeg",
     "cover": {
       "bg": "#111110",
       "fg": "#f2efe8",
@@ -11334,7 +11566,7 @@
     "type": "album",
     "artist": "Loraine James",
     "title": "Detached From The Rest Of You",
-    "label": "",
+    "label": "Hyperdub",
     "releaseDate": "2026-03-03",
     "description": "Loraine James returns to album length, presumably still threading her restless take on broken club rhythms, IDM and bruised vocal, led electronics. Whatever the home this time, the writing tends to feel like notebooks more than statements.",
     "tags": [
@@ -23255,7 +23487,7 @@
     "title": "Product",
     "label": "Numbers.",
     "releaseDate": "2025-07-11",
-    "description": "",
+    "description": "Numbers reissues the singles compilation that effectively codified what hyperpop would later sound like, latex-bright synths, sugar-rush hooks and bass weight pushed past the point of comfort. The deluxe LP gives it the shelf presence the CD never had.",
     "tags": [
       "electronic"
     ],
@@ -23289,7 +23521,7 @@
     "title": "How To Shoulder The Radiance Of Revelations",
     "label": "Opal Tapes",
     "releaseDate": "2025-07-11",
-    "description": "",
+    "description": "Dadub land on Opal Tapes for nine tracks of corroded techno abstraction, sliding between downtempo drift and the harsher textural work the duo have always favoured. Sits comfortably next to the label's bleaker Tropic of Cancer adjacent corners.",
     "tags": [
       "electronic"
     ],
@@ -23323,7 +23555,7 @@
     "title": "Clube Da Mariposa Mórbida",
     "label": "Nyege Nyege Tapes",
     "releaseDate": "2025-07-11",
-    "description": "",
+    "description": "A collaboration between Akira Umeda and Metal Preyers landing on Nyege Nyege Tapes, eleven tracks pulling modern classical figures into the label's usual zone of industrial textures and dislocated field recording. For anyone tracking the Florian TM Zeisig or Slikback end of the catalogue.",
     "tags": [
       "electronic"
     ],
@@ -23356,7 +23588,7 @@
     "title": "Blessed Loops",
     "label": "Sferic",
     "releaseDate": "2025-07-11",
-    "description": "",
+    "description": "Ten tracks of beat-music abstraction on Sferic, with trap residue smeared into ambient and dub. Sits comfortably next to the label's quieter end, think huerco-adjacent shelves rather than club racks.",
     "tags": [
       "electronic"
     ],
@@ -23390,7 +23622,7 @@
     "title": "Early Worm",
     "label": "Dais Records",
     "releaseDate": "2025-07-11",
-    "description": "",
+    "description": "Twelve pieces of lo-fi outsider folk reissued on Dais, scratched together in the kind of register that sits closer to Jandek than to anything currently shelved as Americana. Limited LP pressing for the curious.",
     "tags": [
       "rock"
     ],
@@ -23423,7 +23655,7 @@
     "title": "Loner",
     "label": "Ninja Tune",
     "releaseDate": "2025-07-11",
-    "description": "",
+    "description": "Barry Can't Swim's second LP for Ninja Tune, still oriented around the piano-led, club-adjacent house that broke him through, here stretched across twelve tracks. Plays comfortably alongside Bicep when the lights come up.",
     "tags": [
       "electronic"
     ],
@@ -23457,7 +23689,7 @@
     "title": "Hrafnamynd",
     "label": "Balmat",
     "releaseDate": "2025-07-11",
-    "description": "",
+    "description": "Eleven pieces of field-aware ambient from the Portland synthesist, landing on Balmat where this kind of patient, place-rooted work tends to belong. For listeners who got somewhere with Marine Eyes.",
     "tags": [
       "electronic"
     ],
@@ -23491,7 +23723,7 @@
     "title": "Our Fantasy Complex",
     "label": "3XL (2)",
     "releaseDate": "2025-07-11",
-    "description": "",
+    "description": "Five tracks of clouded ambient on 3XL, where Special Guest DJ trades club logic for something heavier and more interior. Sits comfortably alongside the label's Ulla and uon work, shelve there.",
     "tags": [
       "electronic"
     ],
