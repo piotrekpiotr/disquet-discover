@@ -36,78 +36,102 @@
  * Side-effects: writes outputPath. Does not delete inputs. The caller
  * (the API route) handles temp-file lifecycle.
  */
-import { spawn } from "node:child_process";
+import { spawn, spawnSync } from "node:child_process";
 import { accessSync, constants as fsConstants } from "node:fs";
 import path from "node:path";
 import ffmpegStaticPath from "ffmpeg-static";
 import ffprobeStatic from "ffprobe-static";
 
 /**
- * Resolve the ffmpeg binary path at module load.
+ * Resolve the ffmpeg / ffprobe binary paths at module load.
  *
  * Why this exists: the npm `ffmpeg-static` binary on Linux (John
  * Van Sickle's static build) is missing the `drawtext` filter
  * despite its configure line saying otherwise — production reels
  * blow up with `[AVFilterGraph] No such filter: 'drawtext'`. The
- * Debian apt-installed ffmpeg has a proper build, so on Railway we
- * install it via `nixpacks.toml` and pick it up here.
+ * Debian / Nix-installed ffmpeg has a proper build, so on Railway
+ * we install it via `nixpacks.toml` and pick it up here.
  *
  * Lookup order:
- *   1. $REEL_FFMPEG_PATH — explicit override (escape hatch for
- *      curators with a custom build).
- *   2. /usr/bin/ffmpeg, /usr/local/bin/ffmpeg — system installs.
- *      On Railway after the nixpacks change, /usr/bin/ffmpeg is
- *      present.
- *   3. ffmpeg-static — fallback for environments without a system
- *      ffmpeg (local dev on machines without brew / nix).
+ *   1. $REEL_FFMPEG_PATH — explicit override (escape hatch).
+ *   2. `which ffmpeg` — anywhere on PATH. Catches both Debian's
+ *      /usr/bin/ffmpeg and Nix's /nix/store/<hash>/bin/ffmpeg
+ *      (which is symlinked onto PATH).
+ *   3. Common hard-coded paths (defence in depth).
+ *   4. ffmpeg-static — last-resort fallback (works on local dev).
  *
- * The same dance applies to ffprobe (`pickFfprobe`).
+ * The picked path is exposed via `getResolvedBinaries()` so the
+ * API route can include it in error responses — turns "ffmpeg
+ * exited with code 8" into "ffmpeg @ /path exited…" which makes
+ * "wrong binary" failures debuggable from the browser without
+ * SSHing into the container.
  */
+function whichOnPath(name: string): string | null {
+  const r = spawnSync("which", [name], { encoding: "utf8" });
+  if (r.status === 0 && typeof r.stdout === "string") {
+    const p = r.stdout.trim();
+    if (p && p.length > 0) return p;
+  }
+  return null;
+}
+
+function isExecutable(p: string | null | undefined): boolean {
+  if (!p) return false;
+  try {
+    accessSync(p, fsConstants.X_OK);
+    return true;
+  } catch {
+    return false;
+  }
+}
+
 function pickFfmpeg(): string {
+  const fromPath = whichOnPath("ffmpeg");
   const candidates: Array<string | null | undefined> = [
     process.env.REEL_FFMPEG_PATH,
+    fromPath,
     "/usr/bin/ffmpeg",
     "/usr/local/bin/ffmpeg",
+    "/nix/var/nix/profiles/default/bin/ffmpeg",
     ffmpegStaticPath as string | null,
   ];
   for (const p of candidates) {
-    if (!p) continue;
-    try {
-      accessSync(p, fsConstants.X_OK);
-      return p;
-    } catch {
-      // Not present / not executable — try next.
-    }
+    if (isExecutable(p)) return p as string;
   }
   throw new Error(
-    "No ffmpeg binary found. Set REEL_FFMPEG_PATH, install /usr/bin/ffmpeg via apt, or ensure ffmpeg-static is in node_modules.",
+    "No ffmpeg binary found. Set REEL_FFMPEG_PATH or install ffmpeg via nixpacks.toml.",
   );
 }
 
 function pickFfprobe(): string {
+  const fromPath = whichOnPath("ffprobe");
   const candidates: Array<string | null | undefined> = [
     process.env.REEL_FFPROBE_PATH,
+    fromPath,
     "/usr/bin/ffprobe",
     "/usr/local/bin/ffprobe",
+    "/nix/var/nix/profiles/default/bin/ffprobe",
     ffprobeStatic.path,
   ];
   for (const p of candidates) {
-    if (!p) continue;
-    try {
-      accessSync(p, fsConstants.X_OK);
-      return p;
-    } catch {
-      // try next
-    }
+    if (isExecutable(p)) return p as string;
   }
   throw new Error("No ffprobe binary found.");
 }
 
-// Resolved once at module load. If the binary isn't found, this
-// throws BEFORE any request comes in — so the API route surfaces a
-// clean 500 with this message instead of a low-level spawn error.
 const FFMPEG_PATH = pickFfmpeg();
 const FFPROBE_PATH = pickFfprobe();
+
+/**
+ * Expose the resolved binary paths so the API route can mention
+ * them in error responses (useful when a render fails: the curator
+ * sees "ffmpeg @ /app/node_modules/ffmpeg-static/ffmpeg" and knows
+ * the static-binary fallback was picked — that's the wrong-binary
+ * signature for the drawtext issue).
+ */
+export function getResolvedBinaries(): { ffmpeg: string; ffprobe: string } {
+  return { ffmpeg: FFMPEG_PATH, ffprobe: FFPROBE_PATH };
+}
 
 // ----- Layout constants (must match MOCKUP_RECIPE.md) -----
 export const REEL_WIDTH = 1080;

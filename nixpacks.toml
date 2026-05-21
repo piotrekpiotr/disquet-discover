@@ -19,4 +19,15 @@
 # dev on machines without brew, CI, etc.)
 
 [phases.setup]
+# Try both flavours so Railway's nixpacks-version picks up whichever
+# it honours. `nixPkgs` is the canonical nixpacks mechanism (installs
+# via Nix into /nix/store/<hash>-ffmpeg-full/bin/ffmpeg, symlinked
+# onto PATH). `aptPkgs` is the Debian-style escape hatch and lands at
+# /usr/bin/ffmpeg. Whichever wins, the composer's `which ffmpeg`
+# lookup finds it on PATH.
+#
+# `ffmpeg-full` is the Nix package name for the full-featured build
+# (vs `ffmpeg` which is the slim variant — drawtext is in both).
+# `'...'` preserves nixpacks' auto-detected packages (Node, npm).
+nixPkgs = ["...", "ffmpeg-full"]
 aptPkgs = ["ffmpeg"]

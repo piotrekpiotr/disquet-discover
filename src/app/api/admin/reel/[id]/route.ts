@@ -35,7 +35,7 @@ import { promises as fs } from "node:fs";
 import os from "node:os";
 import path from "node:path";
 import { getById } from "@/lib/data";
-import { composeReel } from "@/lib/reel-composer";
+import { composeReel, getResolvedBinaries } from "@/lib/reel-composer";
 import {
   pathForAnimationIndex,
   takeNextAnimationIndex,
@@ -257,8 +257,23 @@ export async function GET(
     });
   } catch (e) {
     const msg = e instanceof Error ? e.message : String(e);
+    // Include the resolved binary paths in the response so
+    // wrong-binary failures (e.g., the ffmpeg-static fallback being
+    // picked despite nixpacks installing system ffmpeg) are
+    // diagnosable from the browser without inspecting Railway logs.
+    let bins: { ffmpeg?: string; ffprobe?: string } = {};
+    try {
+      bins = getResolvedBinaries();
+    } catch {
+      // resolver itself threw — nothing more to say than the error.
+    }
     return NextResponse.json(
-      { error: "reel render failed", detail: msg.slice(0, 2000) },
+      {
+        error: "reel render failed",
+        detail: msg.slice(0, 2000),
+        ffmpeg: bins.ffmpeg,
+        ffprobe: bins.ffprobe,
+      },
       { status: 500 },
     );
   } finally {
