@@ -87,8 +87,16 @@ export function AnimationsClient() {
             body: fd,
           });
           if (!r.ok) {
-            const j = await r.json().catch(() => ({ error: r.statusText }));
-            throw new Error(j.error || `HTTP ${r.status}`);
+            // Try the JSON body for `error` + `detail`; fall back to status
+            // text. Either way the row's tooltip surfaces the full message
+            // so the curator can decide whether to retry or escalate.
+            const j = await r
+              .json()
+              .catch(() => ({ error: r.statusText }) as { error?: string; detail?: string });
+            const msg =
+              [j.error, j.detail].filter(Boolean).join(" — ") ||
+              `HTTP ${r.status}`;
+            throw new Error(msg);
           }
           setUploads((u) =>
             u.map((row, ix) => (ix === i ? { ...row, status: "done" } : row)),
@@ -138,6 +146,31 @@ export function AnimationsClient() {
     },
     [refresh],
   );
+
+  const onSweepStubs = useCallback(async () => {
+    const stubs = items.filter((i) => i.size === 0);
+    if (stubs.length === 0) {
+      alert("No 0-byte stubs to remove.");
+      return;
+    }
+    if (
+      !confirm(
+        `Remove ${stubs.length} empty (0-byte) file(s) from the volume? They're leftovers from failed uploads; you'll be able to re-upload them after.`,
+      )
+    )
+      return;
+    const r = await fetch(`/api/admin/animations?sweep=stubs`, {
+      method: "DELETE",
+    });
+    if (!r.ok) {
+      const j = await r.json().catch(() => ({}));
+      alert(`Sweep failed: ${j.error || r.statusText}`);
+      return;
+    }
+    refresh();
+  }, [items, refresh]);
+
+  const stubCount = items.filter((i) => i.size === 0).length;
 
   const totalSize = items.reduce((acc, it) => acc + it.size, 0);
 
@@ -224,14 +257,36 @@ export function AnimationsClient() {
       )}
 
       <div className="mt-10">
-        <div className="flex justify-between items-baseline mb-3">
+        <div className="flex justify-between items-baseline mb-3 gap-3">
           <h2 className="font-mono text-[12px] uppercase tracking-widest">
             On server ({items.length} / 30)
           </h2>
-          <span className="font-mono text-[10px] uppercase tracking-widest text-mute">
+          <span className="font-mono text-[10px] uppercase tracking-widest text-mute truncate">
             {dir || "—"} · {humanSize(totalSize)}
           </span>
         </div>
+        {/* Sweep stubs prompt — visible only if there are 0-byte rows.
+            A previously-failed upload session leaves entries in the
+            listing with size 0 (the inline-write path used to write
+            a stub on truncation; the atomic-write path doesn't, but
+            we may still inherit stubs from older deploys). One click
+            removes them all so the curator can re-upload. */}
+        {stubCount > 0 && (
+          <div className="mb-3 border border-signal text-signal px-3 py-2 flex items-center justify-between gap-3">
+            <span className="font-mono text-[11px]">
+              {stubCount} empty 0-byte file{stubCount === 1 ? "" : "s"} from
+              a failed upload run — these aren&apos;t usable. Clear them
+              and re-upload.
+            </span>
+            <button
+              type="button"
+              onClick={onSweepStubs}
+              className="font-mono text-[10px] uppercase tracking-widest border border-signal px-3 py-1 hover:bg-signal hover:text-paper shrink-0"
+            >
+              Clear {stubCount} stub{stubCount === 1 ? "" : "s"}
+            </button>
+          </div>
+        )}
         {refreshing && items.length === 0 ? (
           <div className="font-mono text-[11px] text-mute">Loading…</div>
         ) : items.length === 0 ? (
@@ -240,24 +295,38 @@ export function AnimationsClient() {
           </div>
         ) : (
           <ul className="space-y-1">
-            {items.map((it) => (
-              <li
-                key={it.name}
-                className="flex justify-between items-center gap-3 border-b border-ink/10 py-1.5"
-              >
-                <span className="font-mono text-[13px] truncate">{it.name}</span>
-                <span className="font-mono text-[10px] uppercase tracking-widest text-mute">
-                  {humanSize(it.size)}
-                </span>
-                <button
-                  type="button"
-                  onClick={() => onDelete(it.name)}
-                  className="font-mono text-[10px] uppercase tracking-widest border border-ink px-2 py-1 hover:bg-signal hover:text-paper hover:border-signal"
+            {items.map((it) => {
+              const isStub = it.size === 0;
+              return (
+                <li
+                  key={it.name}
+                  className={`flex justify-between items-center gap-3 border-b border-ink/10 py-1.5 ${
+                    isStub ? "bg-signal/10" : ""
+                  }`}
                 >
-                  Delete
-                </button>
-              </li>
-            ))}
+                  <span
+                    className={`font-mono text-[13px] truncate ${isStub ? "text-signal" : ""}`}
+                  >
+                    {it.name}
+                    {isStub && (
+                      <span className="ml-2 font-mono text-[10px] uppercase tracking-widest">
+                        (empty — failed)
+                      </span>
+                    )}
+                  </span>
+                  <span className="font-mono text-[10px] uppercase tracking-widest text-mute">
+                    {humanSize(it.size)}
+                  </span>
+                  <button
+                    type="button"
+                    onClick={() => onDelete(it.name)}
+                    className="font-mono text-[10px] uppercase tracking-widest border border-ink px-2 py-1 hover:bg-signal hover:text-paper hover:border-signal"
+                  >
+                    Delete
+                  </button>
+                </li>
+              );
+            })}
           </ul>
         )}
       </div>

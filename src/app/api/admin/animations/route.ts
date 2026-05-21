@@ -28,6 +28,11 @@ import {
 
 export const runtime = "nodejs";
 export const dynamic = "force-dynamic";
+// Larger uploads (up to 80 MB) on slow uplinks can run past Next's
+// default route timeout (10s on some adapters, indefinite locally).
+// Hobby Railway allows long-running responses; the inline-Buffer
+// upload path can take ~30-90s for the larger animations.
+export const maxDuration = 120;
 
 const FILENAME_RE = /^\d{2}\.\s.+\.mp4$/i;
 // 80 MB — the largest of the 30 known animations is ~56 MB, so 80 MB
@@ -52,63 +57,144 @@ export async function GET() {
 }
 
 export async function POST(req: NextRequest) {
-  // Next.js' Edge-style FormData parsing works in the Node runtime
-  // for multipart bodies, no extra dependency needed.
-  let form: FormData;
+  // Wrap the whole handler so an upstream error (Cloudflare buffering
+  // truncation, ENOSPC on the volume, OOM on the Node process) turns
+  // into a meaningful JSON body instead of a generic 500 the browser
+  // can't act on. Every failure path below either returns inside the
+  // try (with the right status) or falls into the catch which logs +
+  // returns the message string.
   try {
-    form = await req.formData();
-  } catch (e) {
-    return NextResponse.json(
-      { error: "invalid multipart body", detail: String(e) },
-      { status: 400 },
-    );
-  }
-  const file = form.get("file");
-  if (!(file instanceof Blob)) {
-    return NextResponse.json(
-      { error: "file field missing or not a file" },
-      { status: 400 },
-    );
-  }
-  // formData files carry their original filename on the Blob.
-  // We need that to enforce the `NN. name.mp4` pattern.
-  const rawName =
-    typeof (file as Blob & { name?: string }).name === "string"
-      ? (file as Blob & { name: string }).name
-      : "";
-  const cleanName = rawName.replace(/[/\\]/g, "").trim();
-  if (!cleanName) {
-    return NextResponse.json(
-      { error: "file has no filename" },
-      { status: 400 },
-    );
-  }
-  if (!FILENAME_RE.test(cleanName)) {
-    return NextResponse.json(
-      {
-        error: `filename must match "NN. slug.mp4" (got "${cleanName}")`,
-      },
-      { status: 400 },
-    );
-  }
-  if (file.size > MAX_BYTES) {
-    return NextResponse.json(
-      {
-        error: `file too large (${file.size} bytes > ${MAX_BYTES} cap)`,
-      },
-      { status: 413 },
-    );
-  }
+    let form: FormData;
+    try {
+      form = await req.formData();
+    } catch (e) {
+      return NextResponse.json(
+        { error: "invalid multipart body", detail: String(e) },
+        { status: 400 },
+      );
+    }
+    const file = form.get("file");
+    if (!(file instanceof Blob)) {
+      return NextResponse.json(
+        { error: "file field missing or not a file" },
+        { status: 400 },
+      );
+    }
+    // formData files carry their original filename on the Blob.
+    // We need that to enforce the `NN. name.mp4` pattern.
+    const rawName =
+      typeof (file as Blob & { name?: string }).name === "string"
+        ? (file as Blob & { name: string }).name
+        : "";
+    const cleanName = rawName.replace(/[/\\]/g, "").trim();
+    if (!cleanName) {
+      return NextResponse.json(
+        { error: "file has no filename" },
+        { status: 400 },
+      );
+    }
+    if (!FILENAME_RE.test(cleanName)) {
+      return NextResponse.json(
+        {
+          error: `filename must match "NN. slug.mp4" (got "${cleanName}")`,
+        },
+        { status: 400 },
+      );
+    }
+    if (file.size === 0) {
+      // Catches Cloudflare / Railway partial-body truncation where the
+      // multipart parses but file content is empty. Without this guard
+      // we used to silently write a 0-byte stub that the GET endpoint
+      // would list, fooling the curator into thinking the upload
+      // succeeded.
+      return NextResponse.json(
+        { error: "uploaded file is empty (0 bytes) — retry the upload" },
+        { status: 400 },
+      );
+    }
+    if (file.size > MAX_BYTES) {
+      return NextResponse.json(
+        {
+          error: `file too large (${file.size} bytes > ${MAX_BYTES} cap)`,
+        },
+        { status: 413 },
+      );
+    }
 
-  // Ensure target dir exists. mkdir -p is no-op when it already does.
-  await fs.mkdir(ANIMATIONS_PRIMARY_DIR, { recursive: true });
-  const target = path.join(ANIMATIONS_PRIMARY_DIR, cleanName);
-  const buf = Buffer.from(await file.arrayBuffer());
-  await fs.writeFile(target, buf);
-  return NextResponse.json({ ok: true, name: cleanName, size: buf.length });
+    // Ensure target dir exists. mkdir -p is no-op when it already does.
+    await fs.mkdir(ANIMATIONS_PRIMARY_DIR, { recursive: true });
+    const target = path.join(ANIMATIONS_PRIMARY_DIR, cleanName);
+
+    // Atomic write: stage into a `<name>.uploading` tempfile and rename
+    // when fully written. A crash, OOM, or disconnect mid-write
+    // leaves only the `.uploading` stub (which neither the GET listing
+    // nor the cycler reads — both filter for the `NN. *.mp4` pattern,
+    // so anything ending in `.uploading` is invisible to them). Rename
+    // is atomic on the same filesystem, so the cycler can never read a
+    // half-written file.
+    const tmp = `${target}.uploading`;
+    const buf = Buffer.from(await file.arrayBuffer());
+    if (buf.length === 0) {
+      // Re-check post-parse — a Blob with non-zero `.size` can still
+      // resolve to an empty buffer if the body was truncated between
+      // header and content.
+      return NextResponse.json(
+        { error: "uploaded buffer is empty after parse — retry" },
+        { status: 400 },
+      );
+    }
+    await fs.writeFile(tmp, buf);
+    await fs.rename(tmp, target);
+    return NextResponse.json({ ok: true, name: cleanName, size: buf.length });
+  } catch (e) {
+    const msg = e instanceof Error ? e.message : String(e);
+    // Log on the server so Railway logs carry the real cause. Returning
+    // the message in the body too keeps the browser-side error message
+    // actionable ("ENOSPC", "ENOMEM", a body truncation message, etc.)
+    // instead of opaque 500.
+    console.error("[reel-upload] failed:", msg);
+    return NextResponse.json(
+      { error: "upload failed", detail: msg.slice(0, 500) },
+      { status: 500 },
+    );
+  }
 }
 
 export async function DELETE(req: NextRequest) {
+  // Sweep mode: ?sweep=stubs deletes every 0-byte file in the
+  // animations dir (orphan stubs from previously-failed uploads).
+  // Lets the curator recover from a half-finished upload session
+  // with one click instead of pressing Delete on each row.
+  if (req.nextUrl.searchParams.get("sweep") === "stubs") {
+    let removed: string[] = [];
+    try {
+      const all = await fs.readdir(ANIMATIONS_PRIMARY_DIR);
+      const candidates = all.filter(
+        (f) => FILENAME_RE.test(f) || f.endsWith(".uploading"),
+      );
+      for (const name of candidates) {
+        const p = path.join(ANIMATIONS_PRIMARY_DIR, name);
+        try {
+          const st = await fs.stat(p);
+          // Sweep: 0-byte mp4 files (failed inline writes) and any
+          // .uploading tempfiles (failed atomic-write stagers).
+          if (st.size === 0 || name.endsWith(".uploading")) {
+            await fs.unlink(p);
+            removed.push(name);
+          }
+        } catch {
+          // Ignore — file may have disappeared between readdir and stat.
+        }
+      }
+    } catch (e) {
+      return NextResponse.json(
+        { error: "sweep failed", detail: String(e) },
+        { status: 500 },
+      );
+    }
+    return NextResponse.json({ ok: true, removed });
+  }
+
   const name = req.nextUrl.searchParams.get("name");
   if (!name || !FILENAME_RE.test(name)) {
     return NextResponse.json(
