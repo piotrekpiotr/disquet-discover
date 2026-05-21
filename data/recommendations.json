@@ -951,6 +951,99 @@
     "pressMentions": []
   },
   {
+    "id": "baauer-supersonic-u-give-me-love",
+    "type": "single",
+    "artist": "Baauer",
+    "title": "Supersonic/U Give Me Love",
+    "label": "",
+    "releaseDate": "2026-05-20",
+    "description": "Two-tracker from Baauer, the trap-adjacent producer whose ear for blown-out low end and cartoonish drum work has stayed legible long past the Harlem Shake moment. File alongside the louder end of LuckyMe.",
+    "tags": [],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=Baauer%20Supersonic%2FU%20Give%20Me%20Love&item_type=a",
+      "spotify": "https://open.spotify.com/search/Baauer%20Supersonic%2FU%20Give%20Me%20Love",
+      "soundcloud": "https://soundcloud.com/search?q=Baauer%20Supersonic%2FU%20Give%20Me%20Love",
+      "youtube": "https://www.youtube.com/results?search_query=Baauer%20Supersonic%2FU%20Give%20Me%20Love",
+      "deezer": "https://www.deezer.com/album/953302381"
+    },
+    "embed": {
+      "provider": "deezer",
+      "src": "https://widget.deezer.com/widget/light/album/953302381",
+      "height": 300
+    },
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://cdn-images.dzcdn.net/images/cover/812be1c39256ba15647eb57f29c61e63/1000x1000-000000-80-0-0.jpg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
+    "id": "kavari-they-can-t-do-what-i-can",
+    "type": "single",
+    "artist": "KAVARI",
+    "title": "they can't do what i can",
+    "label": "",
+    "releaseDate": "2026-05-20",
+    "description": "KAVARI in solo mode again, which on past form means club tools built from breakbeat shrapnel, sub pressure, and the kind of vocal cutups that hit harder than the drums. Self-released and dated well ahead, so treat it as a flag planted rather than a finished story.",
+    "tags": [],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=KAVARI%20they%20can't%20do%20what%20i%20can&item_type=a",
+      "spotify": "https://open.spotify.com/search/KAVARI%20they%20can't%20do%20what%20i%20can",
+      "soundcloud": "https://soundcloud.com/search?q=KAVARI%20they%20can't%20do%20what%20i%20can",
+      "youtube": "https://www.youtube.com/results?search_query=KAVARI%20they%20can't%20do%20what%20i%20can",
+      "deezer": "https://www.deezer.com/album/981605551"
+    },
+    "embed": null,
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://cdn-images.dzcdn.net/images/cover/9f7df1da798cdbb5a4c9a696be54fd77/1000x1000-000000-80-0-0.jpg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
+    "id": "romare-computer-love",
+    "type": "single",
+    "artist": "Romare",
+    "title": "Computer Love",
+    "label": "",
+    "releaseDate": "2026-05-20",
+    "description": "Romare turns to a Kraftwerk standard, which on paper suits him: his catalogue has always treated old records as raw material rather than reverence. Worth a listen for anyone still playing Projections.",
+    "tags": [],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=Romare%20Computer%20Love&item_type=a",
+      "spotify": "https://open.spotify.com/search/Romare%20Computer%20Love",
+      "soundcloud": "https://soundcloud.com/search?q=Romare%20Computer%20Love",
+      "youtube": "https://www.youtube.com/results?search_query=Romare%20Computer%20Love",
+      "deezer": "https://www.deezer.com/album/963745481",
+      "apple": "https://music.apple.com/us/album/computer-love-single/1894244806?uo=4"
+    },
+    "embed": {
+      "provider": "apple",
+      "src": "https://embed.music.apple.com/us/album/1894244806?theme=light",
+      "height": 450
+    },
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://cdn-images.dzcdn.net/images/cover/faf6fe68fd10051a95c770888aec29f1/1000x1000-000000-80-0-0.jpg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
     "id": "dismiss-lost-transmissions-1995-1996",
     "type": "album",
     "artist": "Dismiss",
@@ -1043,6 +1136,73 @@
     "status": "pending",
     "approvedAt": null,
     "coverImageUrl": "https://cdn-images.dzcdn.net/images/cover/54940ec9bbdfd332246dddfa410c7035/1000x1000-000000-80-0-0.jpg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
+    "id": "gbclifford-love-diskito",
+    "type": "album",
+    "artist": "GbClifford",
+    "title": "Love, Diskito",
+    "label": "mappa",
+    "releaseDate": "2026-05-19",
+    "description": "Ten tracks of experimental ambient pop on mappa, the Slovak imprint with a steady ear for the wonkier edges of song form. File alongside the label's looser, vocal-leaning end rather than its drone catalogue.",
+    "tags": [
+      "electronic"
+    ],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=GbClifford%20Love%2C%20Diskito&item_type=a",
+      "spotify": "https://open.spotify.com/search/GbClifford%20Love%2C%20Diskito",
+      "soundcloud": "https://soundcloud.com/search?q=GbClifford%20Love%2C%20Diskito",
+      "youtube": "https://www.youtube.com/results?search_query=GbClifford%20Love%2C%20Diskito",
+      "deezer": "https://www.deezer.com/album/967260961",
+      "apple": "https://music.apple.com/us/album/love-diskito/1895158217?uo=4"
+    },
+    "embed": {
+      "provider": "apple",
+      "src": "https://embed.music.apple.com/us/album/1895158217?theme=light",
+      "height": 450
+    },
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://i.discogs.com/64mLUzbbRCdD2b-ie_Omdoe_az8yrKk5BTf67jSNf6o/rs:fit/g:sm/q:90/h:580/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM3Mzg1/ODY1LTE3NzkyMDc1/MjYtMzE2Ni5qcGVn.jpeg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
+    "id": "klein-make-you-happy",
+    "type": "single",
+    "artist": "Klein",
+    "title": "Make You Happy",
+    "label": "",
+    "releaseDate": "2026-05-19",
+    "description": "Klein returns in her usual unclassifiable mode, the South London producer whose work has long sat at an awkward angle to R&B, musique concrète and theatre. No label info yet, file alongside the rest of her catalogue and wait for the shape to reveal itself.",
+    "tags": [],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=Klein%20Make%20You%20Happy&item_type=a",
+      "spotify": "https://open.spotify.com/search/Klein%20Make%20You%20Happy",
+      "soundcloud": "https://soundcloud.com/search?q=Klein%20Make%20You%20Happy",
+      "youtube": "https://www.youtube.com/results?search_query=Klein%20Make%20You%20Happy",
+      "deezer": "https://www.deezer.com/album/987884911"
+    },
+    "embed": {
+      "provider": "deezer",
+      "src": "https://widget.deezer.com/widget/light/album/987884911",
+      "height": 300
+    },
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://cdn-images.dzcdn.net/images/cover/fc16cc9e3ae2d359c3485216578027ef/1000x1000-000000-80-0-0.jpg",
     "cover": {
       "bg": "#111110",
       "fg": "#f2efe8",
@@ -1152,7 +1312,7 @@
     "type": "album",
     "artist": "Martyn",
     "title": "Music for Existing",
-    "label": "",
+    "label": "3024",
     "releaseDate": "2026-05-15",
     "description": "Martyn returns to long, form, which usually means his particular read on broken techno, dub, and the slower edges of UK bass gets room to stretch. Label details are still thin, but his back catalogue is the reference point.",
     "tags": [],
@@ -1580,6 +1740,142 @@
     "pressMentions": []
   },
   {
+    "id": "thundercat-drunk",
+    "type": "album",
+    "artist": "Thundercat",
+    "title": "Drunk",
+    "label": "Brainfeeder",
+    "releaseDate": "2026-05-15",
+    "description": "Brainfeeder pressing Stephen Bruner's sprawling jazz-funk songbook across a 23-track set of 10\" 45s, which is a fairly extravagant way to house music this restless. For anyone who prefers their bass virtuosity smuggled inside cartoonish R&B miniatures.",
+    "tags": [
+      "electronic"
+    ],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=Thundercat%20Drunk&item_type=a",
+      "spotify": "https://open.spotify.com/search/Thundercat%20Drunk",
+      "soundcloud": "https://soundcloud.com/search?q=Thundercat%20Drunk",
+      "youtube": "https://www.youtube.com/results?search_query=Thundercat%20Drunk",
+      "deezer": "https://www.deezer.com/album/15174133"
+    },
+    "embed": {
+      "provider": "deezer",
+      "src": "https://widget.deezer.com/widget/light/album/15174133",
+      "height": 300
+    },
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://i.discogs.com/SybkRcBZojOODbBdKUat9B45AF-dI-gm88oraKiH8vE/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM3Mzcx/OTEyLTE3NzkyNTc2/MjAtNTQwNi5qcGVn.jpeg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
+    "id": "thundercat-it-is-what-it-is",
+    "type": "album",
+    "artist": "Thundercat",
+    "title": "It Is What It Is",
+    "label": "Brainfeeder",
+    "releaseDate": "2026-05-15",
+    "description": "Stephen Bruner back on Brainfeeder for a fifteen-track LP that sits where his bass playing always has, between fusion chops, smeared R&B and the looser corners of LA beat music. For anyone who keeps Drunk in regular rotation.",
+    "tags": [
+      "electronic"
+    ],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=Thundercat%20It%20Is%20What%20It%20Is&item_type=a",
+      "spotify": "https://open.spotify.com/search/Thundercat%20It%20Is%20What%20It%20Is",
+      "soundcloud": "https://soundcloud.com/search?q=Thundercat%20It%20Is%20What%20It%20Is",
+      "youtube": "https://www.youtube.com/results?search_query=Thundercat%20It%20Is%20What%20It%20Is",
+      "deezer": "https://www.deezer.com/album/127010392"
+    },
+    "embed": {
+      "provider": "deezer",
+      "src": "https://widget.deezer.com/widget/light/album/127010392",
+      "height": 300
+    },
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://i.discogs.com/HOw9aPy8F49O8AjNcx1_kkBYkhGS8Ulgq7_UhoJgOak/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM3Mzcx/ODc5LTE3NzkyNTc1/MzgtMTU5MS5qcGVn.jpeg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
+    "id": "lone-bedroom",
+    "type": "album",
+    "artist": "Lone",
+    "title": "bedroom",
+    "label": "",
+    "releaseDate": "2026-05-15",
+    "description": "Matt Cutler returns under the Lone name with a full-length called \"bedroom,\" title alone suggesting a turn inward from the rave-bright palette he's spent the last decade refining. Worth a listen for anyone who held onto Reality Testing.",
+    "tags": [],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=Lone%20bedroom&item_type=a",
+      "spotify": "https://open.spotify.com/search/Lone%20bedroom",
+      "soundcloud": "https://soundcloud.com/search?q=Lone%20bedroom",
+      "youtube": "https://www.youtube.com/results?search_query=Lone%20bedroom",
+      "deezer": "https://www.deezer.com/album/904812662",
+      "apple": "https://music.apple.com/us/album/rhodes-in-the-bedroom-single/1871510920?uo=4"
+    },
+    "embed": {
+      "provider": "apple",
+      "src": "https://embed.music.apple.com/us/album/1871510920?theme=light",
+      "height": 450
+    },
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": null,
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
+    "id": "k-wata-give-u-space",
+    "type": "album",
+    "artist": "K Wata",
+    "title": "Give U Space",
+    "label": "Short Span",
+    "releaseDate": "2026-05-15",
+    "description": "Eight tracks from K Wata on Short Span moving between dub techno, ambient drift and a more exploratory experimental edge. The dual-speed 12\" suggests a record meant to be sat with rather than mixed in passing.",
+    "tags": [
+      "electronic"
+    ],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=K%20Wata%20Give%20U%20Space&item_type=a",
+      "spotify": "https://open.spotify.com/search/K%20Wata%20Give%20U%20Space",
+      "soundcloud": "https://soundcloud.com/search?q=K%20Wata%20Give%20U%20Space",
+      "youtube": "https://www.youtube.com/results?search_query=K%20Wata%20Give%20U%20Space",
+      "deezer": "https://www.deezer.com/album/972790821",
+      "apple": "https://music.apple.com/us/album/give-u-space/1895910310?uo=4"
+    },
+    "embed": {
+      "provider": "apple",
+      "src": "https://embed.music.apple.com/us/album/1895910310?theme=light",
+      "height": 450
+    },
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://i.discogs.com/R-wLW87LPCTK38kcEoY9Pfdv4eMy_HdOzV7ZduxzK0c/rs:fit/g:sm/q:90/h:600/w:599/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM3Mzky/MjA0LTE3NzkyNzY3/MzgtOTY2MC5wbmc.jpeg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
     "id": "andrea-the-sound-of-his-truck",
     "type": "album",
     "artist": "Andrea",
@@ -1662,6 +1958,33 @@
       "src": "https://widget.deezer.com/widget/light/album/968848401",
       "height": 300
     },
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": null,
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
+    "id": "kaitlyn-aurelia-smith-beats-in-space-206-kaitlyn-aurelia-smith-dj-mix",
+    "type": "single",
+    "artist": "Kaitlyn Aurelia Smith",
+    "title": "Beats In Space 206: Kaitlyn Aurelia Smith (DJ Mix)",
+    "label": "",
+    "releaseDate": "2026-05-14",
+    "description": "Smith steps behind the decks for Tim Sweeney's Beats In Space, a context that tends to draw out the more outward-facing side of guests known mainly for studio work. Worth hearing for how her modular ear translates into someone else's mixing chair.",
+    "tags": [],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=Kaitlyn%20Aurelia%20Smith%20Beats%20In%20Space%20206%3A%20Kaitlyn%20Aurelia%20Smith%20(DJ%20Mix)&item_type=a",
+      "spotify": "https://open.spotify.com/search/Kaitlyn%20Aurelia%20Smith%20Beats%20In%20Space%20206%3A%20Kaitlyn%20Aurelia%20Smith%20(DJ%20Mix)",
+      "soundcloud": "https://soundcloud.com/search?q=Kaitlyn%20Aurelia%20Smith%20Beats%20In%20Space%20206%3A%20Kaitlyn%20Aurelia%20Smith%20(DJ%20Mix)",
+      "youtube": "https://www.youtube.com/results?search_query=Kaitlyn%20Aurelia%20Smith%20Beats%20In%20Space%20206%3A%20Kaitlyn%20Aurelia%20Smith%20(DJ%20Mix)"
+    },
+    "embed": null,
     "musicVideoUrl": null,
     "status": "pending",
     "approvedAt": null,
@@ -2577,7 +2900,9 @@
       "fg": "#f2efe8",
       "motif": "disc"
     },
-    "pressMentions": []
+    "pressMentions": [
+      "stereogum"
+    ]
   },
   {
     "id": "vladislav-delay-vd5",
@@ -3746,7 +4071,7 @@
     "type": "single",
     "artist": "Synkro",
     "title": "North Star",
-    "label": "",
+    "label": "Of Paradise",
     "releaseDate": "2026-05-01",
     "description": "Synkro back in single, track mode, which historically means the producer's long, running fold of garage residue, dub weight and Apollo, style ambience pulled into something closer to a club tool. Worth a check for anyone still spinning Changes.",
     "tags": [],
@@ -4401,6 +4726,40 @@
     "status": "pending",
     "approvedAt": null,
     "coverImageUrl": "https://i.discogs.com/vMx9F9cmqZC6BMtxNHJRHdq2CmfhKM0O5imv3Fkuhwg/rs:fit/g:sm/q:90/h:589/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM3Mzc4/NTk5LTE3NzkxNDA1/OTAtOTU5NC5qcGVn.jpeg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
+    "id": "reagan-youth-volume-2",
+    "type": "album",
+    "artist": "Reagan Youth",
+    "title": "Volume 2",
+    "label": "New Red Archives",
+    "releaseDate": "2026-05-01",
+    "description": "New Red Archives presses up Volume 2 again, the scrappier, post-hardcore half of the Reagan Youth catalog where the band leaned into glam and proto-grunge shapes. Less anthemic than the first LP, and the better record for it.",
+    "tags": [
+      "rock"
+    ],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=Reagan%20Youth%20Volume%202&item_type=a",
+      "spotify": "https://open.spotify.com/search/Reagan%20Youth%20Volume%202",
+      "soundcloud": "https://soundcloud.com/search?q=Reagan%20Youth%20Volume%202",
+      "youtube": "https://www.youtube.com/results?search_query=Reagan%20Youth%20Volume%202",
+      "deezer": "https://www.deezer.com/album/701774491"
+    },
+    "embed": {
+      "provider": "deezer",
+      "src": "https://widget.deezer.com/widget/light/album/701774491",
+      "height": 300
+    },
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://i.discogs.com/zjRXPLGhPPNN4e04eaB9edaoSXp1wEdfmlN61nOK3Ag/rs:fit/g:sm/q:90/h:600/w:594/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM3Mzk0/OTk0LTE3NzkyOTU0/NDQtMTA3NC5qcGVn.jpeg",
     "cover": {
       "bg": "#111110",
       "fg": "#f2efe8",
@@ -10336,6 +10695,40 @@
     ]
   },
   {
+    "id": "iztok-koren-raphael-roginski-nocturnal-consolations-l",
+    "type": "album",
+    "artist": "Iztok Koren, Raphael Rogiński",
+    "title": "Nocturnal Consolations",
+    "label": "Instant Classic",
+    "releaseDate": "2026-03-26",
+    "description": "A duo session for Instant Classic pairing Iztok Koren's percussion with Raphael Rogiński's spectral, modal guitar playing, the latter a constant on the Polish label. Eleven pieces of after-dark folk abstraction, more conversation than composition.",
+    "tags": [
+      "folk, world, & country"
+    ],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=Iztok%20Koren%2C%20Raphael%20Rogi%C5%84ski%20Nocturnal%20Consolations&item_type=a",
+      "spotify": "https://open.spotify.com/search/Iztok%20Koren%2C%20Raphael%20Rogi%C5%84ski%20Nocturnal%20Consolations",
+      "soundcloud": "https://soundcloud.com/search?q=Iztok%20Koren%2C%20Raphael%20Rogi%C5%84ski%20Nocturnal%20Consolations",
+      "youtube": "https://www.youtube.com/results?search_query=Iztok%20Koren%2C%20Raphael%20Rogi%C5%84ski%20Nocturnal%20Consolations",
+      "deezer": "https://www.deezer.com/album/937868141"
+    },
+    "embed": {
+      "provider": "deezer",
+      "src": "https://widget.deezer.com/widget/light/album/937868141",
+      "height": 300
+    },
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://i.discogs.com/BTSY7VoJUH2nPutJUyRv7qlCgCbJNOxyxXvWZ6okD4U/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM3Mzg0/ODA5LTE3NzkyMDAy/MzEtNDk3NS5qcGVn.jpeg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
     "id": "psychicthrob-bursting-dementia",
     "type": "album",
     "artist": "Psychicthrob",
@@ -10661,6 +11054,35 @@
     "status": "pending",
     "approvedAt": null,
     "coverImageUrl": "https://i.discogs.com/-U6s9hzqWhUgvCcRDNrHT3bBkES52xAD8rz00gF_SEw/rs:fit/g:sm/q:90/h:600/w:591/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM2ODc3/NTkxLTE3NzQ0NzMy/MTktNTI0OC5qcGVn.jpeg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
+    "id": "zappa-beefheart-mothers-bongo-fury-50th-anniversary-edition-l",
+    "type": "album",
+    "artist": "Zappa* / Beefheart* / Mothers",
+    "title": "Bongo Fury 50th Anniversary Edition",
+    "label": "Zappa Records",
+    "releaseDate": "2026-03-20",
+    "description": "Zappa Records hauls the 1975 Austin live document back out for its fiftieth, expanded to a 78-track remastered set. The Beefheart and Zappa pairing remains the draw, whether you want it as theatre, parody, or the jazz-rock chassis underneath.",
+    "tags": [
+      "rock"
+    ],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=Zappa*%20%2F%20Beefheart*%20%2F%20Mothers%20Bongo%20Fury%2050th%20Anniversary%20Edition&item_type=a",
+      "spotify": "https://open.spotify.com/search/Zappa*%20%2F%20Beefheart*%20%2F%20Mothers%20Bongo%20Fury%2050th%20Anniversary%20Edition",
+      "soundcloud": "https://soundcloud.com/search?q=Zappa*%20%2F%20Beefheart*%20%2F%20Mothers%20Bongo%20Fury%2050th%20Anniversary%20Edition",
+      "youtube": "https://www.youtube.com/results?search_query=Zappa*%20%2F%20Beefheart*%20%2F%20Mothers%20Bongo%20Fury%2050th%20Anniversary%20Edition"
+    },
+    "embed": null,
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://i.discogs.com/YAHo13V0ehEnhRga9vBGsulLh0Me8G9BpcvpA9KvobY/rs:fit/g:sm/q:90/h:600/w:599/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM2ODIz/ODUyLTE3NzQwMjM3/NDAtNjcyNC5qcGVn.jpeg",
     "cover": {
       "bg": "#111110",
       "fg": "#f2efe8",
@@ -13201,6 +13623,35 @@
     "status": "pending",
     "approvedAt": null,
     "coverImageUrl": "https://i.discogs.com/jKGfAZ3LJbtdTWEhyH7hov6kVIAOrtelV2R4N56sjdY/rs:fit/g:sm/q:90/h:582/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM2NDU1/OTc5LTE3NzI2Njky/OTUtODk0NS5qcGVn.jpeg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
+    "id": "chaz-live-from-the-gooseneck-lounge-vol-1",
+    "type": "single",
+    "artist": "Chaz",
+    "title": "Live From The Gooseneck Lounge Vol. 1",
+    "label": "Felt Sense Recordings",
+    "releaseDate": "2026-02-01",
+    "description": "Single-track minimal house outing from Chaz on Felt Sense, framed as a lounge set rather than a club tool. Functional, dry, the kind of thing you cue up for the back half of the night.",
+    "tags": [
+      "electronic"
+    ],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=Chaz%20Live%20From%20The%20Gooseneck%20Lounge%20Vol.%201&item_type=a",
+      "spotify": "https://open.spotify.com/search/Chaz%20Live%20From%20The%20Gooseneck%20Lounge%20Vol.%201",
+      "soundcloud": "https://soundcloud.com/search?q=Chaz%20Live%20From%20The%20Gooseneck%20Lounge%20Vol.%201",
+      "youtube": "https://www.youtube.com/results?search_query=Chaz%20Live%20From%20The%20Gooseneck%20Lounge%20Vol.%201"
+    },
+    "embed": null,
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://i.discogs.com/QH9NxzmarFPaYe9GM98B4P2CtfyhnRYGmKm1PTN9kYU/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM3Mzky/OTY5LTE3NzkyNzg3/OTUtOTc2Mi5wbmc.jpeg",
     "cover": {
       "bg": "#111110",
       "fg": "#f2efe8",
@@ -23757,7 +24208,7 @@
     "title": "Beloved",
     "label": "Epic",
     "releaseDate": "2025-07-11",
-    "description": "",
+    "description": "Fourteen tracks of Givēon's baritone-led contemporary R&B on Epic, the register he has been operating in since Take Time. Cleanly produced, ballad-heavy, shelf it next to Daniel Caesar.",
     "tags": [
       "funk / soul"
     ],
@@ -23792,7 +24243,7 @@
     "title": "Unnameable Glory",
     "label": "mappa",
     "releaseDate": "2025-07-08",
-    "description": "",
+    "description": "Ten tracks of song-form ambient drift on mappa, the Slovak imprint that keeps finding the seam between field recording and folk abstraction. Plume Girl works in close, voiced detail rather than wide gestures; for anyone tracking the label's run with Tomoko Sauvage.",
     "tags": [
       "electronic"
     ],
@@ -23826,7 +24277,7 @@
     "title": "Two Halves vol. 11",
     "label": "Pan Pan Pan {Avian Distress Call}",
     "releaseDate": "2025-07-05",
-    "description": "",
+    "description": "Twenty pairings on Pan Pan Pan's ongoing duets series, sprawling across hip hop, jazz, rock and electronics without bothering to reconcile them. Useful if you treat compilations as field guides rather than playlists.",
     "tags": [
       "electronic"
     ],
@@ -23892,7 +24343,7 @@
     "title": "E-Numbers 003",
     "label": "E-Numbers",
     "releaseDate": "2025-07-04",
-    "description": "",
+    "description": "Third entry in the white-label E-Numbers series, four tracks straddling techno, electro and a leaner strain of house. DJ tool territory rather than home listening, pressed for the kind of set where the labels stay covered.",
     "tags": [
       "electronic"
     ],
@@ -23921,7 +24372,7 @@
     "title": "Latency alla Villa Medici III",
     "label": "Latency",
     "releaseDate": "2025-07-04",
-    "description": "",
+    "description": "Third installment of Latency's Villa Medici residency series, four ambient pieces from the Paris label's extended orbit. Compilations like this tend to function as a snapshot of where the roster's heads are at; treat it accordingly.",
     "tags": [
       "electronic"
     ],
@@ -23955,7 +24406,7 @@
     "title": "Fronte Violeta",
     "label": "Other People",
     "releaseDate": "2025-07-04",
-    "description": "",
+    "description": "Ten pieces of field-recording-led drone and electroacoustic ambient on Nicolas Jaar's Other People, the Boregas/Toku duo working under the Fronte Violeta name. Patient, room-tone music; sits comfortably next to the label's quieter Lucrecia Dalt entries.",
     "tags": [
       "electronic"
     ],
@@ -23990,7 +24441,7 @@
     "title": "Don't Stop EP",
     "label": "Lapsus Music",
     "releaseDate": "2025-07-04",
-    "description": "",
+    "description": "Two cuts of pared-back minimal techno from Maqossa on Barcelona's Lapsus, the rhythm work doing most of the talking. Functional rather than ornamental, aimed squarely at the back half of the night.",
     "tags": [
       "electronic"
     ],
@@ -24019,7 +24470,7 @@
     "title": "Cale De Bou",
     "label": "Lapsus Music",
     "releaseDate": "2025-07-04",
-    "description": "",
+    "description": "Two tracks of functional deep house from the Cecille and 8bit veterans, landing on Lapsus in the kind of warm, rolling register both producers have built careers on. Tool music, unfussy, designed to work.",
     "tags": [
       "electronic"
     ],
@@ -24054,7 +24505,7 @@
     "title": "Dancing Shoes",
     "label": "Ninja Tune",
     "releaseDate": "2025-07-02",
-    "description": "",
+    "description": "Four tracks from Yanya on Ninja Tune, her guitar writing still tucked into that low-lit middle ground between indie rock and something closer to drift. Same voice, same restraint.",
     "tags": [
       "rock"
     ],
@@ -24089,7 +24540,7 @@
     "title": "Silver Globe",
     "label": "Felt Sense Recordings",
     "releaseDate": "2025-07-02",
-    "description": "",
+    "description": "Five tracks of electro and IDM from Louis Marlo on Felt Sense, leaning more toward the rhythmic-melodic end than the pure breakbeat side. Worth a look if the recent Lobster Theremin or Mechatronica catalogues still pull you in.",
     "tags": [
       "electronic"
     ],
@@ -24123,7 +24574,7 @@
     "title": "Pop Drunk Snot Bread",
     "label": "Double Helix Records (2)",
     "releaseDate": "2025-07-01",
-    "description": "",
+    "description": "A vinyl reissue of the 2022 Bowling For Soup LP, fifteen tracks of unrepentant Texan pop punk on Double Helix. Mall-era hooks played entirely straight, for anyone whose Bowling For Soup shelf already has a gap next to it.",
     "tags": [
       "pop"
     ],
@@ -24157,7 +24608,7 @@
     "title": "Black Antlers",
     "label": "Dais Records",
     "releaseDate": "2025-06-27",
-    "description": "",
+    "description": "Dais continues its Coil custodianship with a remastered pressing of the late-period set long stranded between catalog cracks. Balance and Christopherson at their most song-shaped, ritual electronics edging toward something almost gothic.",
     "tags": [
       "electronic"
     ],
@@ -24191,7 +24642,7 @@
     "title": "Drunk Dynasty",
     "label": "SBÄM Records",
     "releaseDate": "2025-06-27",
-    "description": "",
+    "description": "Eleven tracks of unrepentant Texas pop punk landing on Austria's SBÄM, a label that has quietly become the European home for this exact lineage. For anyone who never stopped filing Bowling For Soup next to MxPx.",
     "tags": [
       "rock"
     ],
@@ -24225,7 +24676,7 @@
     "title": "Ugh",
     "label": "Leaving Records",
     "releaseDate": "2025-06-27",
-    "description": "",
+    "description": "Eleven tracks of skewed, hyperpop-adjacent indie rock landing on Leaving Records, a slightly odd fit for a label more often associated with ambient and beat music. Limited LP pressing for the curious.",
     "tags": [
       "electronic"
     ],
@@ -24260,7 +24711,7 @@
     "title": "Sun",
     "label": "Smalltown Supersound",
     "releaseDate": "2025-06-27",
-    "description": "",
+    "description": "The young Tennessee saxophonist lands on Smalltown Supersound for a set of avant and free jazz, her spiritual-leaning tenor finding a home outside the usual NY loft circuit. Shelve near recent David S. Ware reissues if you want the lineage spelled out.",
     "tags": [
       "jazz"
     ],
@@ -24295,7 +24746,7 @@
     "title": "Omnis Festinatio Ex Parte Diaboli Est",
     "label": "West Mineral Ltd.",
     "releaseDate": "2025-06-26",
-    "description": "",
+    "description": "Nine pieces of fogged, breath-close ambient from Perila, with more grit and industrial scrape in the periphery than her recent vocal work. West Mineral remains the obvious home; sits naturally beside Pontiac Streator.",
     "tags": [
       "electronic"
     ],
@@ -24467,9 +24918,14 @@
       "bandcamp": "https://bandcamp.com/search?q=Hotswing%20Forever%20EP&item_type=a",
       "spotify": "https://open.spotify.com/search/Hotswing%20Forever%20EP",
       "soundcloud": "https://soundcloud.com/search?q=Hotswing%20Forever%20EP",
-      "youtube": "https://www.youtube.com/results?search_query=Hotswing%20Forever%20EP"
+      "youtube": "https://www.youtube.com/results?search_query=Hotswing%20Forever%20EP",
+      "deezer": "https://www.deezer.com/album/764513551"
     },
-    "embed": null,
+    "embed": {
+      "provider": "deezer",
+      "src": "https://widget.deezer.com/widget/light/album/764513551",
+      "height": 300
+    },
     "musicVideoUrl": null,
     "status": "pending",
     "approvedAt": null,
@@ -41767,7 +42223,8 @@
       "soundcloud": "https://soundcloud.com/search?q=Wrecked%20Lightship%20Antiposition",
       "youtube": "https://www.youtube.com/results?search_query=Wrecked%20Lightship%20Antiposition",
       "deezer": "https://www.deezer.com/album/535706412",
-      "apple": "https://music.apple.com/us/album/antiposition/1726079520?uo=4"
+      "apple": "https://music.apple.com/us/album/antiposition/1726079520?uo=4",
+      "tidal": "https://tidal.com/album/340301553"
     },
     "embed": {
       "provider": "apple",
@@ -41834,7 +42291,8 @@
       "spotify": "https://open.spotify.com/search/Helen%20Island%20Last%20Liasse",
       "soundcloud": "https://soundcloud.com/search?q=Helen%20Island%20Last%20Liasse",
       "youtube": "https://www.youtube.com/results?search_query=Helen%20Island%20Last%20Liasse",
-      "apple": "https://music.apple.com/us/album/last-liasse/1724834901?uo=4"
+      "apple": "https://music.apple.com/us/album/last-liasse/1724834901?uo=4",
+      "tidal": "https://tidal.com/album/338901805"
     },
     "embed": {
       "provider": "apple",
@@ -41897,7 +42355,8 @@
       "spotify": "https://open.spotify.com/search/Earl%20Sweatshirt%20%26%20The%20Alchemist%20Voir%20Dire",
       "soundcloud": "https://soundcloud.com/search?q=Earl%20Sweatshirt%20%26%20The%20Alchemist%20Voir%20Dire",
       "youtube": "https://www.youtube.com/results?search_query=Earl%20Sweatshirt%20%26%20The%20Alchemist%20Voir%20Dire",
-      "deezer": "https://www.deezer.com/album/485684855"
+      "deezer": "https://www.deezer.com/album/485684855",
+      "tidal": "https://tidal.com/album/315271342"
     },
     "embed": {
       "provider": "deezer",
@@ -41961,7 +42420,8 @@
       "soundcloud": "https://soundcloud.com/search?q=Chewlie%20Transforming%20Matter",
       "youtube": "https://www.youtube.com/results?search_query=Chewlie%20Transforming%20Matter",
       "deezer": "https://www.deezer.com/album/536459732",
-      "apple": "https://music.apple.com/us/album/transforming-matter-feat-fiesta-soundsystem-tinkah/1726343209?uo=4"
+      "apple": "https://music.apple.com/us/album/transforming-matter-feat-fiesta-soundsystem-tinkah/1726343209?uo=4",
+      "tidal": "https://tidal.com/album/340602517"
     },
     "embed": {
       "provider": "apple",
@@ -41996,7 +42456,8 @@
       "soundcloud": "https://soundcloud.com/search?q=mary%20in%20the%20junkyard%20Ghost",
       "youtube": "https://www.youtube.com/results?search_query=mary%20in%20the%20junkyard%20Ghost",
       "deezer": "https://www.deezer.com/album/545448922",
-      "apple": "https://music.apple.com/us/album/ghost-single/1727480604?uo=4"
+      "apple": "https://music.apple.com/us/album/ghost-single/1727480604?uo=4",
+      "tidal": "https://tidal.com/album/344415172"
     },
     "embed": {
       "provider": "apple",
@@ -42031,7 +42492,8 @@
       "soundcloud": "https://soundcloud.com/search?q=Normal%20Nada%20The%20Krakmaxter%20Tubo%20de%20Ensaio",
       "youtube": "https://www.youtube.com/results?search_query=Normal%20Nada%20The%20Krakmaxter%20Tubo%20de%20Ensaio",
       "deezer": "https://www.deezer.com/album/536724982",
-      "apple": "https://music.apple.com/us/album/tubo-de-ensaio/1726465931?uo=4"
+      "apple": "https://music.apple.com/us/album/tubo-de-ensaio/1726465931?uo=4",
+      "tidal": "https://tidal.com/album/340765283"
     },
     "embed": {
       "provider": "apple",
@@ -42131,7 +42593,8 @@
       "spotify": "https://open.spotify.com/search/EDN%20(4)%20a%20blue%20flower",
       "soundcloud": "https://soundcloud.com/search?q=EDN%20(4)%20a%20blue%20flower",
       "youtube": "https://www.youtube.com/results?search_query=EDN%20(4)%20a%20blue%20flower",
-      "deezer": "https://www.deezer.com/album/655836021"
+      "deezer": "https://www.deezer.com/album/655836021",
+      "tidal": "https://tidal.com/album/392774503"
     },
     "embed": {
       "provider": "deezer",
@@ -42165,7 +42628,8 @@
       "spotify": "https://open.spotify.com/search/Lakker%20Gateway",
       "soundcloud": "https://soundcloud.com/search?q=Lakker%20Gateway",
       "youtube": "https://www.youtube.com/results?search_query=Lakker%20Gateway",
-      "apple": "https://music.apple.com/us/album/gateway-ep/1726342654?uo=4"
+      "apple": "https://music.apple.com/us/album/gateway-ep/1726342654?uo=4",
+      "tidal": "https://tidal.com/album/340603473"
     },
     "embed": {
       "provider": "apple",
@@ -42261,7 +42725,8 @@
       "spotify": "https://open.spotify.com/search/sex%20(17)%20sex",
       "soundcloud": "https://soundcloud.com/search?q=sex%20(17)%20sex",
       "youtube": "https://www.youtube.com/results?search_query=sex%20(17)%20sex",
-      "deezer": "https://www.deezer.com/album/15605454"
+      "deezer": "https://www.deezer.com/album/15605454",
+      "tidal": "https://tidal.com/album/71819320"
     },
     "embed": {
       "provider": "deezer",
@@ -42296,7 +42761,8 @@
       "soundcloud": "https://soundcloud.com/search?q=Sunareht%20Youth%20EP",
       "youtube": "https://www.youtube.com/results?search_query=Sunareht%20Youth%20EP",
       "deezer": "https://www.deezer.com/album/517267852",
-      "apple": "https://music.apple.com/us/album/youth-ep/1718641264?uo=4"
+      "apple": "https://music.apple.com/us/album/youth-ep/1718641264?uo=4",
+      "tidal": "https://tidal.com/album/331493291"
     },
     "embed": {
       "provider": "apple",
@@ -42329,7 +42795,8 @@
       "soundcloud": "https://soundcloud.com/search?q=damsel%20Elysium%20Whispers%20from%20Ancient%20Vessels",
       "youtube": "https://www.youtube.com/results?search_query=damsel%20Elysium%20Whispers%20from%20Ancient%20Vessels",
       "deezer": "https://www.deezer.com/album/977963241",
-      "apple": "https://music.apple.com/us/album/whispers-from-ancient-vessels-ep/1716553912?uo=4"
+      "apple": "https://music.apple.com/us/album/whispers-from-ancient-vessels-ep/1716553912?uo=4",
+      "tidal": "https://tidal.com/album/328760408"
     },
     "embed": {
       "provider": "apple",
@@ -42364,7 +42831,8 @@
       "soundcloud": "https://soundcloud.com/search?q=Travellers%20Rest%20A%20Nighttime%20Ramble",
       "youtube": "https://www.youtube.com/results?search_query=Travellers%20Rest%20A%20Nighttime%20Ramble",
       "deezer": "https://www.deezer.com/album/697744731",
-      "apple": "https://music.apple.com/us/album/a-nighttime-ramble/1790978270?uo=4"
+      "apple": "https://music.apple.com/us/album/a-nighttime-ramble/1790978270?uo=4",
+      "tidal": "https://tidal.com/album/411681070"
     },
     "embed": {
       "provider": "apple",
@@ -42399,7 +42867,8 @@
       "soundcloud": "https://soundcloud.com/search?q=Alex%20Zhang%20Hungtai%20Young%20Gods%20Run%20Free",
       "youtube": "https://www.youtube.com/results?search_query=Alex%20Zhang%20Hungtai%20Young%20Gods%20Run%20Free",
       "deezer": "https://www.deezer.com/album/540006212",
-      "apple": "https://music.apple.com/us/album/young-gods-run-free/1727940455?uo=4"
+      "apple": "https://music.apple.com/us/album/young-gods-run-free/1727940455?uo=4",
+      "tidal": "https://tidal.com/album/342050956"
     },
     "embed": {
       "provider": "apple",
@@ -42433,7 +42902,8 @@
       "spotify": "https://open.spotify.com/search/Filmmaker%20(2)%20Land%20Of%20Hidden%20Variables",
       "soundcloud": "https://soundcloud.com/search?q=Filmmaker%20(2)%20Land%20Of%20Hidden%20Variables",
       "youtube": "https://www.youtube.com/results?search_query=Filmmaker%20(2)%20Land%20Of%20Hidden%20Variables",
-      "apple": "https://music.apple.com/us/album/land-of-hidden-variables/1734644880?uo=4"
+      "apple": "https://music.apple.com/us/album/land-of-hidden-variables/1734644880?uo=4",
+      "tidal": "https://tidal.com/album/349364130"
     },
     "embed": {
       "provider": "apple",
@@ -42502,7 +42972,8 @@
       "soundcloud": "https://soundcloud.com/search?q=Prayer%20(6)%20Now%20I%20Know%20Paradise",
       "youtube": "https://www.youtube.com/results?search_query=Prayer%20(6)%20Now%20I%20Know%20Paradise",
       "deezer": "https://www.deezer.com/album/532361592",
-      "apple": "https://music.apple.com/us/album/now-i-know-paradise/1724735264?uo=4"
+      "apple": "https://music.apple.com/us/album/now-i-know-paradise/1724735264?uo=4",
+      "tidal": "https://tidal.com/album/338852605"
     },
     "embed": {
       "provider": "apple",
@@ -42537,7 +43008,8 @@
       "soundcloud": "https://soundcloud.com/search?q=Trystero%20Sfumare%20e%20Vedere",
       "youtube": "https://www.youtube.com/results?search_query=Trystero%20Sfumare%20e%20Vedere",
       "deezer": "https://www.deezer.com/album/518353282",
-      "apple": "https://music.apple.com/us/album/sfumare-e-vedere/1718971605?uo=4"
+      "apple": "https://music.apple.com/us/album/sfumare-e-vedere/1718971605?uo=4",
+      "tidal": "https://tidal.com/album/332040734"
     },
     "embed": {
       "provider": "apple",
@@ -42571,7 +43043,8 @@
       "spotify": "https://open.spotify.com/search/Griffit%20Vigo%20EGM",
       "soundcloud": "https://soundcloud.com/search?q=Griffit%20Vigo%20EGM",
       "youtube": "https://www.youtube.com/results?search_query=Griffit%20Vigo%20EGM",
-      "apple": "https://music.apple.com/us/album/egm/1724730921?uo=4"
+      "apple": "https://music.apple.com/us/album/egm/1724730921?uo=4",
+      "tidal": "https://tidal.com/album/338847665"
     },
     "embed": {
       "provider": "apple",
@@ -42606,7 +43079,8 @@
       "soundcloud": "https://soundcloud.com/search?q=Piper%20Spray%20%26%20Lena%20Tsibizova%20Debtor%20Of%20Presence",
       "youtube": "https://www.youtube.com/results?search_query=Piper%20Spray%20%26%20Lena%20Tsibizova%20Debtor%20Of%20Presence",
       "deezer": "https://www.deezer.com/album/521520152",
-      "apple": "https://music.apple.com/us/album/debtor-of-presence/1720203622?uo=4"
+      "apple": "https://music.apple.com/us/album/debtor-of-presence/1720203622?uo=4",
+      "tidal": "https://tidal.com/album/333950424"
     },
     "embed": {
       "provider": "apple",
