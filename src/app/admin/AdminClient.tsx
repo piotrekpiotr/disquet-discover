@@ -5,6 +5,7 @@ import type { Recommendation, Status } from "@/lib/types";
 import { CoverArt } from "@/components/CoverArt";
 import { EmbedPlayer } from "@/components/EmbedPlayer";
 import { EditForm } from "@/components/admin/EditForm";
+import { ReelButton } from "@/components/admin/ReelButton";
 
 type Counts = {
   total: number;
@@ -912,26 +913,15 @@ export function AdminClient({
                     {/* Generate Instagram reel — server renders a 1080×1920
                         mp4 with cover + UI overlay + Apple preview audio,
                         cycling through the 30 background animations. Only
-                        offered for published records — generating one for a
-                        pending record would commit an animation slot the
-                        curator might not actually want to use.
+                        offered for published records.
 
-                        The render takes 8–20s end-to-end (download cover +
-                        preview, run ffmpeg). We open in a new tab so the
-                        browser shows the spinner / handles the download
-                        without locking the admin UI; a target=_blank
-                        anchor is also resilient to "render failed" 500s —
-                        the failure body renders in a tab the curator can
-                        inspect without disrupting the rest of /admin. */}
+                        Two-step UX: clicking the button reveals an inline
+                        track picker (fetched once on first open) so the
+                        curator can pick which song's 30-second preview
+                        feeds the reel. Single-track records (and albums
+                        where iTunes only previews one cut) auto-select. */}
                     {rec.status === "approved" && (
-                      <a
-                        href={`/api/admin/reel/${rec.id}`}
-                        target="_blank"
-                        rel="noopener"
-                        className="font-mono text-[10px] uppercase tracking-widest border border-ink px-3 py-2 hover:bg-ink hover:text-paper text-center"
-                      >
-                        Generate Reel ↓
-                      </a>
+                      <ReelButton recordId={rec.id} />
                     )}
                     {/* Newsletter queue toggle. Only appears on approved
                         records. Records that have shipped in previous

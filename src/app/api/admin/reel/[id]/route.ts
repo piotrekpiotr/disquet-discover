@@ -71,15 +71,30 @@ interface ITunesLookup {
   results: ITunesTrack[];
 }
 
+interface ReelOverrides {
+  // 1-indexed track number from the album. Falls back to track 1 if
+  // missing or if the chosen track has no preview. Validated to be
+  // a positive integer; arbitrary URL input doesn't reach the API.
+  trackNumber?: number;
+}
+
 /**
- * Ask iTunes Lookup for the album's tracks; return the FIRST track's
- * previewUrl. iTunes lookup honors `&entity=song` to include track
- * rows alongside the album row. We pick track 1 (or whichever track
- * has the lowest trackNumber and a previewUrl) so the reel features
- * a representative cut. Not every track has a preview — fall back
- * through the result list.
+ * Ask iTunes Lookup for the album's tracks; pick a preview URL +
+ * the matching trackName.
+ *
+ * `desiredTrackNumber` (1-indexed, optional) lets the curator pick a
+ * specific track from the album via the dropdown in /admin. If
+ * omitted, OR the requested track has no preview, OR the requested
+ * number doesn't exist, we fall through to the first
+ * preview-enabled track (lowest trackNumber). The selected track's
+ * name flows into the reel's title-line text — so curating
+ * "highlight the second cut" replaces both the audio AND the
+ * displayed title.
  */
-async function fetchApplePreviewUrl(albumId: string): Promise<string | null> {
+async function fetchApplePreview(
+  albumId: string,
+  desiredTrackNumber?: number,
+): Promise<{ previewUrl: string; trackName: string } | null> {
   const u = `https://itunes.apple.com/lookup?id=${encodeURIComponent(albumId)}&entity=song`;
   const res = await fetch(u, { headers: { "User-Agent": UA } });
   if (!res.ok) return null;
@@ -88,10 +103,20 @@ async function fetchApplePreviewUrl(albumId: string): Promise<string | null> {
     (r) => (r.wrapperType === "track" || r.kind === "song") && r.previewUrl,
   );
   if (tracks.length === 0) return null;
-  tracks.sort(
-    (a, b) => (a.trackNumber || 999) - (b.trackNumber || 999),
-  );
-  return tracks[0].previewUrl || null;
+  // Try the requested track first, if any.
+  if (desiredTrackNumber && Number.isFinite(desiredTrackNumber)) {
+    const hit = tracks.find((t) => t.trackNumber === desiredTrackNumber);
+    if (hit) {
+      return {
+        previewUrl: hit.previewUrl!,
+        trackName: hit.trackName || "",
+      };
+    }
+  }
+  // Default: lowest preview-enabled track.
+  tracks.sort((a, b) => (a.trackNumber || 999) - (b.trackNumber || 999));
+  const t = tracks[0];
+  return { previewUrl: t.previewUrl!, trackName: t.trackName || "" };
 }
 
 async function downloadTo(url: string, file: string): Promise<void> {
@@ -124,7 +149,7 @@ function slug(s: string): string {
 }
 
 export async function GET(
-  _req: NextRequest,
+  req: NextRequest,
   { params }: { params: { id: string } },
 ) {
   const rec = await getById(params.id);
@@ -143,8 +168,19 @@ export async function GET(
     );
   }
 
-  const previewUrl = await fetchApplePreviewUrl(albumId);
-  if (!previewUrl) {
+  // Optional ?track=N override (1-indexed). Validated, anything
+  // invalid is silently ignored so the URL stays composable.
+  const overrides: ReelOverrides = {};
+  const rawTrack = req.nextUrl.searchParams.get("track");
+  if (rawTrack) {
+    const n = Number(rawTrack);
+    if (Number.isInteger(n) && n > 0 && n < 1000) {
+      overrides.trackNumber = n;
+    }
+  }
+
+  const preview = await fetchApplePreview(albumId, overrides.trackNumber);
+  if (!preview) {
     return NextResponse.json(
       {
         error:
@@ -153,6 +189,15 @@ export async function GET(
       { status: 422 },
     );
   }
+  const previewUrl = preview.previewUrl;
+  // When the curator picked a specific track, swap the reel's
+  // displayed title from the album name to the track name so the
+  // visual (cover + bold title) matches the audio. If no override
+  // (or override = track 1 which often shares the album name), we
+  // keep the record's stored title.
+  const reelTitle = overrides.trackNumber
+    ? preview.trackName || rec.title
+    : rec.title;
   if (!rec.coverImageUrl) {
     return NextResponse.json(
       { error: "Record has no coverImageUrl — can't render album art." },
@@ -180,7 +225,7 @@ export async function GET(
 
     await composeReel({
       artist: rec.artist,
-      title: rec.title,
+      title: reelTitle,
       label: rec.label,
       animationPath,
       audioPath,
@@ -189,7 +234,11 @@ export async function GET(
     });
 
     const bytes = await fs.readFile(outputPath);
-    const filename = `${slug(rec.artist)}-${slug(rec.title)}.mp4`;
+    // Filename uses the actual reel title (which is the track name
+    // when the curator picked a specific track), so a curator who
+    // generates multiple reels for the same album gets distinct
+    // download filenames instead of "<artist>-<album>.mp4" thrice.
+    const filename = `${slug(rec.artist)}-${slug(reelTitle)}.mp4`;
 
     // Return the bytes inline. NextResponse with a Buffer body works
     // because Next.js wraps Node Buffers correctly for the
