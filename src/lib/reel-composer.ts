@@ -37,9 +37,77 @@
  * (the API route) handles temp-file lifecycle.
  */
 import { spawn } from "node:child_process";
+import { accessSync, constants as fsConstants } from "node:fs";
 import path from "node:path";
-import ffmpegPath from "ffmpeg-static";
+import ffmpegStaticPath from "ffmpeg-static";
 import ffprobeStatic from "ffprobe-static";
+
+/**
+ * Resolve the ffmpeg binary path at module load.
+ *
+ * Why this exists: the npm `ffmpeg-static` binary on Linux (John
+ * Van Sickle's static build) is missing the `drawtext` filter
+ * despite its configure line saying otherwise — production reels
+ * blow up with `[AVFilterGraph] No such filter: 'drawtext'`. The
+ * Debian apt-installed ffmpeg has a proper build, so on Railway we
+ * install it via `nixpacks.toml` and pick it up here.
+ *
+ * Lookup order:
+ *   1. $REEL_FFMPEG_PATH — explicit override (escape hatch for
+ *      curators with a custom build).
+ *   2. /usr/bin/ffmpeg, /usr/local/bin/ffmpeg — system installs.
+ *      On Railway after the nixpacks change, /usr/bin/ffmpeg is
+ *      present.
+ *   3. ffmpeg-static — fallback for environments without a system
+ *      ffmpeg (local dev on machines without brew / nix).
+ *
+ * The same dance applies to ffprobe (`pickFfprobe`).
+ */
+function pickFfmpeg(): string {
+  const candidates: Array<string | null | undefined> = [
+    process.env.REEL_FFMPEG_PATH,
+    "/usr/bin/ffmpeg",
+    "/usr/local/bin/ffmpeg",
+    ffmpegStaticPath as string | null,
+  ];
+  for (const p of candidates) {
+    if (!p) continue;
+    try {
+      accessSync(p, fsConstants.X_OK);
+      return p;
+    } catch {
+      // Not present / not executable — try next.
+    }
+  }
+  throw new Error(
+    "No ffmpeg binary found. Set REEL_FFMPEG_PATH, install /usr/bin/ffmpeg via apt, or ensure ffmpeg-static is in node_modules.",
+  );
+}
+
+function pickFfprobe(): string {
+  const candidates: Array<string | null | undefined> = [
+    process.env.REEL_FFPROBE_PATH,
+    "/usr/bin/ffprobe",
+    "/usr/local/bin/ffprobe",
+    ffprobeStatic.path,
+  ];
+  for (const p of candidates) {
+    if (!p) continue;
+    try {
+      accessSync(p, fsConstants.X_OK);
+      return p;
+    } catch {
+      // try next
+    }
+  }
+  throw new Error("No ffprobe binary found.");
+}
+
+// Resolved once at module load. If the binary isn't found, this
+// throws BEFORE any request comes in — so the API route surfaces a
+// clean 500 with this message instead of a low-level spawn error.
+const FFMPEG_PATH = pickFfmpeg();
+const FFPROBE_PATH = pickFfprobe();
 
 // ----- Layout constants (must match MOCKUP_RECIPE.md) -----
 export const REEL_WIDTH = 1080;
@@ -117,7 +185,7 @@ export async function probeDurationSec(file: string): Promise<number> {
       "default=noprint_wrappers=1:nokey=1",
       file,
     ];
-    const proc = spawn(ffprobeStatic.path, args);
+    const proc = spawn(FFPROBE_PATH, args);
     let out = "";
     proc.stdout.on("data", (b) => (out += b.toString()));
     proc.on("close", () => {
@@ -360,12 +428,10 @@ export async function composeReel(inputs: ReelInputs): Promise<void> {
     inputs.outputPath,
   ];
 
-  if (!ffmpegPath) {
-    throw new Error("ffmpeg-static binary path is missing");
-  }
-
+  // FFMPEG_PATH was resolved at module load (system ffmpeg preferred
+  // because ffmpeg-static's Linux binary lacks drawtext).
   await new Promise<void>((resolve, reject) => {
-    const proc = spawn(ffmpegPath as string, args, { stdio: ["ignore", "ignore", "pipe"] });
+    const proc = spawn(FFMPEG_PATH, args, { stdio: ["ignore", "ignore", "pipe"] });
     const tail: string[] = [];
     proc.stderr.on("data", (b) => {
       tail.push(b.toString());
