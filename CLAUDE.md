@@ -88,6 +88,42 @@ front of Railway as edge / CDN.
 - `label-candidate-artists.json` — non-pool artists seen on monitored labels.
 - `newsletter-queue.json` — curator's queue + sent history.
 
+## Instagram Reels generator (since 2026-05-21)
+
+One-click "Generate Reel ↓" button on every published record in
+/admin renders a 1080×1920 mp4 (30s, H.264 + AAC) with album cover,
+track / artist / label text, animated progress bar, over one of 30
+background animations, with the iTunes preview audio embedded.
+
+- API route: `GET /api/admin/reel/[id]` (auth-gated via `/api/admin`
+  prefix in `src/middleware.ts`).
+- Composer: `src/lib/reel-composer.ts` (ffmpeg-static shell-out, one
+  filter_complex pass).
+- Cycler: `src/lib/reel-counter.ts` reads/advances `data/reel-counter.json`
+  on the persistent volume; wraps 0..29.
+- Fonts: `assets/fonts/JetBrainsMono-{Medium,Light}.ttf` (OFL,
+  bundled, ~270 KB each).
+- Audio source: iTunes Lookup API
+  (`itunes.apple.com/lookup?id=<albumId>&entity=song`) → first
+  track's `previewUrl` (30s AAC m4a). Requires `links.apple` on the
+  record.
+- Animations: 30 mp4s at `data/animations/NN. *.mp4` (1080×1920,
+  45s, no audio). Curator-uploaded via `/admin/animations` drag-
+  drop UI. Lives on Railway's persistent volume under existing
+  `/app/data` mount — no extra Railway config needed. **NOT in git**
+  (~660 MB total). Local-dev fallback path: `animation backgrounds/`
+  at project root if `data/animations/` is empty.
+- ffmpeg-static + ffprobe-static are added to
+  `experimental.serverComponentsExternalPackages` in `next.config.js`
+  so webpack doesn't try to bundle their native binaries — without
+  this `spawn()` fails with ENOENT at `.next/server/vendor-chunks/ffmpeg`.
+- Temp files: composer writes to `os.tmpdir()/disquet-reel-XXXX/`,
+  the route reads the mp4 into a Buffer and `fs.rm`s the dir in
+  `finally`. Nothing reel-specific persists on disk.
+- Layout / ffmpeg filter-graph escape rules / drawtext gotchas: full
+  detail in `REEL_RECIPE.md`. Keep that file in sync if changing the
+  composer.
+
 ## Critical conventions
 
 - **Public feed sort: `releaseDate` desc** (not `approvedAt`). Reverted
@@ -300,6 +336,17 @@ no surprise bill. The curator decides when to raise this.
 - **iTunes 429 throttling**: reduces sync-artists hit rate by 5-10%
   on busy days. Second cron at 11:00 UTC (different runner IP) is
   the recovery mechanism. No further fix needed.
+
+## Terminology (the curator's own vocabulary)
+
+- **animation background** — one of the 30 mp4 files in
+  `animation backgrounds/` (1080×1920, 45s, no audio).
+- **ready reel** — the finished 1080×1920 mp4 the API returns,
+  containing animation + cover + UI + Apple preview audio.
+- **album cover** — the release artwork; `record.coverImageUrl`
+  (usually mzstatic).
+- **UI** — the on-canvas elements: track name, artist · label,
+  progress bar, time labels.
 
 ## Things the user has been clear about
 

@@ -36,6 +36,7 @@ const PROTECTED_EXACT = [
 ];
 const PROTECTED_PREFIXES = [
   "/admin",
+  "/api/admin",
   "/api/curate",
   "/api/edit",
   "/api/pool",

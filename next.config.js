@@ -93,6 +93,15 @@ const nextConfig = {
   reactStrictMode: true,
   // Strips the `X-Powered-By: Next.js` header that tells attackers the stack.
   poweredByHeader: false,
+  // ffmpeg-static / ffprobe-static ship native binaries. Webpack tries to
+  // inline them by rewriting __dirname, which leaves spawn() pointing at
+  // `.next/server/vendor-chunks/ffmpeg` — a path that doesn't exist. Marking
+  // both packages as server-external skips bundling entirely; the require
+  // resolves to the real binary inside node_modules at runtime. Server-only
+  // impact, the client bundle is unaffected. (Reel render flow.)
+  experimental: {
+    serverComponentsExternalPackages: ["ffmpeg-static", "ffprobe-static"],
+  },
   images: {
     remotePatterns: [
       { protocol: "https", hostname: "**.mzstatic.com" },

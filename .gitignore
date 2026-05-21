@@ -11,3 +11,17 @@ data-seed
 # Sidecar stats written by scripts/sync-artists.mjs for the workflow's
 # health summary step. Ephemeral per-run; never committed.
 data/.sync-artists-stats.json
+
+# Reel background animations — 30 mp4 files totaling ~660 MB. Kept
+# OUT of git deliberately: cloning a half-gig of binary blobs on
+# every CI run is wasteful + GitHub's recommended file-size limit
+# is 50 MB. Hosting strategy is documented in REEL_RECIPE.md; on
+# Railway they live on the persistent volume under `data/animations/`,
+# uploaded once via /admin/animations.
+/animation backgrounds/*.mp4
+/animation backgrounds/example ready reels/*.mp4
+/data/animations/*.mp4
+
+# Reel-cycling counter lives on the Railway persistent volume; the
+# local-dev copy is a fixture that shouldn't pollute commits.
+data/reel-counter.json

@@ -513,6 +513,12 @@ export function AdminClient({
               >
                 Candidates →
               </Link>
+              <Link
+                href="/admin/animations"
+                className="hover:text-ink underline"
+              >
+                Animations →
+              </Link>
               <LogoutButton />
             </div>
           </div>
@@ -903,6 +909,30 @@ export function AdminClient({
                     >
                       Reset to pool
                     </button>
+                    {/* Generate Instagram reel — server renders a 1080×1920
+                        mp4 with cover + UI overlay + Apple preview audio,
+                        cycling through the 30 background animations. Only
+                        offered for published records — generating one for a
+                        pending record would commit an animation slot the
+                        curator might not actually want to use.
+
+                        The render takes 8–20s end-to-end (download cover +
+                        preview, run ffmpeg). We open in a new tab so the
+                        browser shows the spinner / handles the download
+                        without locking the admin UI; a target=_blank
+                        anchor is also resilient to "render failed" 500s —
+                        the failure body renders in a tab the curator can
+                        inspect without disrupting the rest of /admin. */}
+                    {rec.status === "approved" && (
+                      <a
+                        href={`/api/admin/reel/${rec.id}`}
+                        target="_blank"
+                        rel="noopener"
+                        className="font-mono text-[10px] uppercase tracking-widest border border-ink px-3 py-2 hover:bg-ink hover:text-paper text-center"
+                      >
+                        Generate Reel ↓
+                      </a>
+                    )}
                     {/* Newsletter queue toggle. Only appears on approved
                         records. Records that have shipped in previous
                         newsletters CAN be re-queued — the badge surfaces
