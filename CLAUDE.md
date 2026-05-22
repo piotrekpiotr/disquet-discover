@@ -117,6 +117,14 @@ background animations, with the iTunes preview audio embedded.
   `experimental.serverComponentsExternalPackages` in `next.config.js`
   so webpack doesn't try to bundle their native binaries — without
   this `spawn()` fails with ENOENT at `.next/server/vendor-chunks/ffmpeg`.
+- **Railway uses `Dockerfile` (not nixpacks)** because nixpacks
+  ignored both `aptPkgs` and `nixPkgs` for ffmpeg installation. The
+  Dockerfile is multi-stage (deps → build → runtime) and does
+  `apt-get install ffmpeg` on `node:22-bookworm-slim` for the
+  drawtext filter. `pickFfmpeg()` in `reel-composer.ts` prefers
+  system ffmpeg (`which ffmpeg`) over the npm ffmpeg-static binary.
+  Local dev (macOS without system ffmpeg) still falls back to
+  ffmpeg-static cleanly.
 - Temp files: composer writes to `os.tmpdir()/disquet-reel-XXXX/`,
   the route reads the mp4 into a Buffer and `fs.rm`s the dir in
   `finally`. Nothing reel-specific persists on disk.

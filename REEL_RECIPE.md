@@ -158,6 +158,39 @@ In-process write queue (`writeQueue` promise chain in
 `reel-counter.ts`) serialises concurrent requests so two clicks never
 land on the same index.
 
+## ffmpeg binary — Dockerfile-installed, NOT ffmpeg-static
+
+The npm `ffmpeg-static` package ships John Van Sickle's static
+Linux build. That build advertises `--enable-libfreetype` in its
+configure line but the `drawtext` filter is silently absent —
+production reels fail at filter-graph parse time with `[AVFilterGraph]
+No such filter: 'drawtext'` (ffmpeg exit code 8).
+
+The fix: a `Dockerfile` at project root installs system ffmpeg
+(`apt-get install ffmpeg`) on top of `node:22-bookworm-slim`.
+Debian's ffmpeg has drawtext (and a full filter set generally).
+Railway auto-detects the Dockerfile and builds with it in preference
+to nixpacks.
+
+The composer's `pickFfmpeg()` resolver checks, in order:
+
+1. `$REEL_FFMPEG_PATH` — explicit escape-hatch env var.
+2. `which ffmpeg` — anywhere on PATH (catches Debian's
+   `/usr/bin/ffmpeg` and Nix-store paths alike).
+3. Hard-coded common paths (`/usr/bin/ffmpeg`, `/usr/local/bin/ffmpeg`,
+   `/nix/var/nix/profiles/default/bin/ffmpeg`).
+4. ffmpeg-static — last-resort fallback so local dev (macOS,
+   Windows) without a system ffmpeg still works.
+
+`getResolvedBinaries()` is exposed for the API route to mention the
+picked path in error responses — wrong-binary failures (the
+ffmpeg-static fallback being selected on Linux) are visible from
+the browser without inspecting Railway logs.
+
+We tried `nixpacks.toml` first with both `aptPkgs = ["ffmpeg"]`
+and `nixPkgs = ["...", "ffmpeg-full"]`. Neither produced a runtime
+image with system ffmpeg on PATH. Dockerfile is deterministic.
+
 ## Fonts
 
 Bundled in `assets/fonts/`:

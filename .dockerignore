@@ -1,0 +1,32 @@
+# Don't ship local-only / huge files into the Docker layer cache.
+# The runtime volume is what production reads from for these paths.
+
+# Local dev — these would bloat the image AND aren't used in prod.
+animation backgrounds/
+data/animations/
+
+# Build artifacts that get regenerated inside the image.
+node_modules/
+.next/
+data-seed/
+out/
+
+# Source-control metadata.
+.git/
+.gitignore
+
+# Editor / OS / log noise.
+.DS_Store
+*.log
+.vscode/
+.idea/
+
+# Local env files — Railway injects env vars its own way.
+.env
+.env.local
+
+# Skip everything in tmp/ that local-dev scripts spit out.
+tmp/
+
+# tsc incremental build cache (regenerated on each build).
+tsconfig.tsbuildinfo
