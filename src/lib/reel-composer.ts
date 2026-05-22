@@ -158,6 +158,70 @@ const FONT_LIGHT = path.join(FONT_DIR, "JetBrainsMono-Light.ttf");
 export const MIN_DURATION = 30;
 export const MAX_DURATION = 45;
 
+// Every animation in the pool fades up from a solid blank frame over
+// the first ~1.5 seconds. Without skipping it the reel opens with a
+// black flash before the pattern is visible. We seek 1.5s into the
+// animation at composition time so playback starts on already-revealed
+// content. The animations are 45s total, so we still have 43.5s of
+// usable material — plenty above the 30s output cap.
+const ANIMATION_LEAD_SKIP_SEC = 1.5;
+
+/**
+ * Per-animation theme: "dark" = mostly-dark background (paper-coloured
+ * text reads well), "light" = mostly-light background (ink-coloured
+ * text reads well). Indexed by the two-digit prefix of the filename
+ * — animations are uploaded as `NN. slug.mp4`, so the prefix is the
+ * authoritative ordinal.
+ *
+ * Source: curator's classification, 2026-05-22. Adjust here when
+ * adding / replacing animations; the reel renderer reads this map at
+ * compose time to pick the text + progress-bar colour palette.
+ */
+type AnimationTheme = "dark" | "light";
+const ANIMATION_THEMES: Record<string, AnimationTheme> = {
+  "01": "dark",
+  "02": "light",
+  "03": "dark",
+  "04": "light",
+  "05": "dark",
+  "06": "dark",
+  "07": "dark",
+  "08": "light",
+  "09": "dark",
+  "10": "dark",
+  "11": "dark",
+  "12": "light",
+  "13": "dark",
+  "14": "dark",
+  "15": "light",
+  "16": "dark",
+  "17": "light",
+  "18": "light",
+  "19": "dark",
+  "20": "light",
+  "21": "dark",
+  "22": "light",
+  "23": "dark",
+  "24": "dark",
+  "25": "light",
+  "26": "dark",
+  "27": "light",
+  "28": "light",
+  "29": "dark",
+  "30": "dark",
+};
+
+/** Resolve the theme for an animation file. Defaults to `dark` for
+ * any unknown prefix (the safer fallback — paper text on a paper bg
+ * is invisible; paper text on dark or paper bg is at worst muted).
+ */
+function themeForAnimation(animationPath: string): AnimationTheme {
+  const base = path.basename(animationPath);
+  const m = base.match(/^(\d{2})\./);
+  if (!m) return "dark";
+  return ANIMATION_THEMES[m[1]] ?? "dark";
+}
+
 export interface ReelInputs {
   artist: string;
   title: string;
@@ -249,11 +313,11 @@ function buildFilterGraph(opts: {
   duration: number;
   trackText: string;
   artistAlbumText: string;
-  bgY_for_progressBar: number;
   trackFontSize: number;
   artistFontSize: number;
+  theme: AnimationTheme;
 }): string {
-  const { duration, trackText, artistAlbumText, bgY_for_progressBar } = opts;
+  const { duration, trackText, artistAlbumText, theme } = opts;
 
   // Layout maths for stacked UI block. Track name baseline sits at
   // UI_TOP; artist line 16px under it; progress bar 36px under that
@@ -265,20 +329,35 @@ function buildFilterGraph(opts: {
   const BAR_H = 3;
   const TIME_Y = BAR_Y + 18;
 
-  // Colors: bright "paper" #f2efe8 for the track name + bar fill;
-  // muted #9a9690 for artist/album/time labels. Match the on-site
-  // palette so the reel reads as a Disquet artifact.
+  // Per-theme colour palette. We swap the dominant text/bar colour
+  // (paper on dark, ink on light) and the "muted" tone (the dim bar
+  // track + artist/album line). Border colour is the opposite of
+  // the text colour — a subtle 1px contrast halo that protects
+  // legibility when the animation has high-frequency detail under
+  // the text (moire patterns, signal grids, etc.).
+  //
+  // Removing the previous semi-opaque scrim block is intentional —
+  // the curator wants the text to sit on the animation itself, not
+  // on a "card". The 1px border is the entire defence against
+  // background noise.
   const COLOR_PAPER = "0xf2efe8";
-  const COLOR_MUTE = "0x9a9690";
-  // Each background animation has its own dominant color — some are
-  // black with paper accents (01. grid-breathe), some are paper with
-  // black accents (02. moire), some are mid-tone (06. signal). Single
-  // text color can't read universally. A semi-transparent dark "ink"
-  // stroke around the text (borderw=2:bordercolor=ink@0.55) keeps
-  // paper text crisp on light backgrounds without making it heavy on
-  // dark ones — the border just disappears into the dark bg there.
   const COLOR_INK = "0x111110";
-  const BORDER_W = 2;
+  const COLOR_MUTE_DARK_BG = "0x9a9690"; // mid-grey, reads on dark
+  const COLOR_MUTE_LIGHT_BG = "0x4a4843"; // dark-grey, reads on cream
+
+  const isLight = theme === "light";
+  const textColor = isLight ? COLOR_INK : COLOR_PAPER;
+  const borderColor = isLight ? COLOR_PAPER : COLOR_INK;
+  const muteColor = isLight ? COLOR_MUTE_LIGHT_BG : COLOR_MUTE_DARK_BG;
+  // Bar fill = same as the text colour (max contrast against bg).
+  // Bar track = the dimmer same-family tone (so the unfilled portion
+  // doesn't fight the filled portion visually).
+  const barFillColor = textColor;
+  const barTrackColor = muteColor;
+  // Borders are very subtle — 1 px is enough to differentiate text
+  // from a busy background without looking outlined / cartoon-y.
+  const BORDER_W = 1;
+  const BORDER_ALPHA = "@0.45";
 
   // The progress bar is one drawbox (full-width track) on top of
   // which we layer a SECOND drawbox whose width is `t/DUR * UI_W`.
@@ -286,16 +365,21 @@ function buildFilterGraph(opts: {
   const trackBarW = UI_W;
   const fillExpr = `min(t/${duration.toFixed(3)},1)*${UI_W}`;
 
-  // Cover overlay: scale to ART_W square, place at (ART_X, ART_Y).
-  // For Apple cover URLs (.jpg from is1-ssl.mzstatic.com) the source
-  // is square already; scale = enlarge to crisp at the reel res.
   const filters: string[] = [];
 
   // [0:v] = animation, [1:v] = cover image.
+  //
   // Animation: trim to duration, set fps to 30, scale to 1080x1920
   // (a defensive resize — animations are already 1080x1920 but
   // pinning the canvas avoids surprises if a future animation is
   // off-spec).
+  //
+  // Note: the actual fade-in skip is done with `-ss
+  // ANIMATION_LEAD_SKIP_SEC` BEFORE `-i animation.mp4` in
+  // composeReel(), not here. By the time the animation reaches this
+  // filter the first 1.5s of blank frames are already gone, so
+  // `setpts=PTS-STARTPTS` makes our local clock start at zero from
+  // the first useful frame.
   filters.push(
     `[0:v]trim=duration=${duration.toFixed(3)},setpts=PTS-STARTPTS,fps=${REEL_FPS},scale=${REEL_WIDTH}:${REEL_HEIGHT},setsar=1[bg]`,
   );
@@ -304,62 +388,29 @@ function buildFilterGraph(opts: {
   // non-square slips in we'd rather see a slight stretch than
   // letterboxing inside the album-art slot.
   filters.push(`[1:v]scale=${ART_W}:${ART_W}[cover]`);
-  filters.push(`[bg][cover]overlay=${ART_X}:${ART_Y}[vovr]`);
+  filters.push(`[bg][cover]overlay=${ART_X}:${ART_Y}[v0]`);
 
-  // UI SCRIM. A semi-transparent dark rectangle behind the entire
-  // text + progress-bar block so the UI reads on every animation —
-  // including the cream / pastel backgrounds (02. moire, 17. breath
-  // moss, etc.) where paper-colored text alone would vanish. The
-  // scrim is bigger than the strict UI bbox to give the text some
-  // breathing room and avoid a hard edge under the larger letters.
-  const SCRIM_X = UI_X - 24;
-  const SCRIM_Y = UI_TOP - 28;
-  const SCRIM_W = UI_W + 48;
-  const SCRIM_H = TIME_Y + 38 - SCRIM_Y;
+  // Track name (Medium 500, theme text colour).
   filters.push(
-    `[vovr]drawbox=x=${SCRIM_X}:y=${SCRIM_Y}:w=${SCRIM_W}:h=${SCRIM_H}:color=${COLOR_INK}@0.55:t=fill[v0]`,
+    `[v0]drawtext=fontfile='${FONT_MEDIUM}':text='${escapeDrawtext(trackText)}':x=${UI_X}:y=${TRACK_Y}:fontcolor=${textColor}:fontsize=${opts.trackFontSize}:bordercolor=${borderColor}${BORDER_ALPHA}:borderw=${BORDER_W}[v1]`,
+  );
+  // Artist · Album (Light 300, mute tone of the same theme family).
+  filters.push(
+    `[v1]drawtext=fontfile='${FONT_LIGHT}':text='${escapeDrawtext(artistAlbumText)}':x=${UI_X}:y=${ARTIST_Y}:fontcolor=${muteColor}:fontsize=${opts.artistFontSize}:bordercolor=${borderColor}${BORDER_ALPHA}:borderw=${BORDER_W}[v2]`,
   );
 
-  // Track name (Medium 500, paper color, auto-fit size, ink stroke).
+  // Progress-bar TRACK (dim full-width line at alpha 0.55 so it
+  // reads as a divider, not a solid bar).
   filters.push(
-    `[v0]drawtext=fontfile='${FONT_MEDIUM}':text='${escapeDrawtext(trackText)}':x=${UI_X}:y=${TRACK_Y}:fontcolor=${COLOR_PAPER}:fontsize=${opts.trackFontSize}:bordercolor=${COLOR_INK}@0.55:borderw=${BORDER_W}[v1]`,
-  );
-  // Artist · Album (Light 300, mute color, ink stroke).
-  filters.push(
-    `[v1]drawtext=fontfile='${FONT_LIGHT}':text='${escapeDrawtext(artistAlbumText)}':x=${UI_X}:y=${ARTIST_Y}:fontcolor=${COLOR_PAPER}:fontsize=${opts.artistFontSize}:bordercolor=${COLOR_INK}@0.55:borderw=${BORDER_W}[v2]`,
-  );
-
-  // Progress-bar TRACK and FILL.
-  //
-  // To read on both dark AND light animations, we layer:
-  //   1. A dark "shadow" rectangle (full bar width, alpha 0.5) under
-  //      everything — gives contrast against light backgrounds.
-  //   2. The dim mute-colored track on top of that (alpha 0.85).
-  //   3. The fill, which is paper-colored and expression-driven.
-  // The shadow ends up invisible on dark animations because the
-  // background is already dark; on light animations it does the
-  // legibility work.
-  filters.push(
-    `[v2]drawbox=x=${UI_X - 4}:y=${BAR_Y - 4}:w=${trackBarW + 8}:h=${BAR_H + 8}:color=${COLOR_INK}@0.35:t=fill[v2a]`,
-  );
-  filters.push(
-    `[v2a]drawbox=x=${UI_X}:y=${BAR_Y}:w=${trackBarW}:h=${BAR_H}:color=${COLOR_MUTE}@0.85:t=fill[v3]`,
+    `[v2]drawbox=x=${UI_X}:y=${BAR_Y}:w=${trackBarW}:h=${BAR_H}:color=${barTrackColor}@0.55:t=fill[v3]`,
   );
   // Expression-driven fill width. drawbox evaluates `t` (current
   // frame time, seconds) per frame so this single filter animates.
   filters.push(
-    `[v3]drawbox=x=${UI_X}:y=${BAR_Y}:w='${fillExpr}':h=${BAR_H}:color=${COLOR_PAPER}@1:t=fill[v4]`,
+    `[v3]drawbox=x=${UI_X}:y=${BAR_Y}:w='${fillExpr}':h=${BAR_H}:color=${barFillColor}@1:t=fill[v4]`,
   );
 
-  // Time labels.
-  // LEFT: dynamic current time via drawtext's pts variable.
-  //   `%{pts\\:hms}` formats as "0:00:00.000" — too verbose; we
-  //   instead compute a custom format by mod-ing pts. The math:
-  //     minutes = floor(pts/60)
-  //     seconds = mod(floor(pts),60), zero-padded
-  //   drawtext's expression mini-language supports both via the
-  //   `expansion=normal/strftime/none` modes — `text=%{eif:...}`
-  //   gives evaluated integer formatting.
+  // Time labels — current (left) + total (right).
   //
   //   eif inserts an integer with a width and base. Combined with two
   //   string-literal pieces we get "M:SS". The middle `:` between
@@ -369,14 +420,14 @@ function buildFilterGraph(opts: {
   const ptsCurrentTime =
     `%{eif\\:floor(t/60)\\:d}\\:%{eif\\:mod(floor(t)\\,60)\\:d\\:2}`;
   filters.push(
-    `[v4]drawtext=fontfile='${FONT_LIGHT}':text='${ptsCurrentTime}':x=${UI_X}:y=${TIME_Y}:fontcolor=${COLOR_PAPER}:fontsize=22:bordercolor=${COLOR_INK}@0.55:borderw=${BORDER_W}[v5]`,
+    `[v4]drawtext=fontfile='${FONT_LIGHT}':text='${ptsCurrentTime}':x=${UI_X}:y=${TIME_Y}:fontcolor=${muteColor}:fontsize=22:bordercolor=${borderColor}${BORDER_ALPHA}:borderw=${BORDER_W}[v5]`,
   );
   // RIGHT: static total duration. Right-edge alignment via tw (text
   // width) expression — `x=UI_X+UI_W-tw` puts the right edge of the
   // text at the right edge of the progress bar.
   const totalText = fmtTime(duration);
   filters.push(
-    `[v5]drawtext=fontfile='${FONT_LIGHT}':text='${escapeDrawtext(totalText)}':x=${UI_X}+${UI_W}-tw:y=${TIME_Y}:fontcolor=${COLOR_PAPER}:fontsize=22:bordercolor=${COLOR_INK}@0.55:borderw=${BORDER_W}[vout]`,
+    `[v5]drawtext=fontfile='${FONT_LIGHT}':text='${escapeDrawtext(totalText)}':x=${UI_X}+${UI_W}-tw:y=${TIME_Y}:fontcolor=${muteColor}:fontsize=22:bordercolor=${borderColor}${BORDER_ALPHA}:borderw=${BORDER_W}[vout]`,
   );
 
   return filters.join(";");
@@ -389,12 +440,17 @@ function buildFilterGraph(opts: {
  * error response readable.
  */
 export async function composeReel(inputs: ReelInputs): Promise<void> {
-  // Probe both inputs to know the true playable length.
+  // Probe both inputs to know the true playable length. The animation
+  // length we compare against is its full 45s — we'll skip the first
+  // 1.5s via `-ss` below, but the audio doesn't have a corresponding
+  // skip, so duration policy still operates on the full animation
+  // length minus the lead skip (43.5s usable).
   const [animDur, audioDur] = await Promise.all([
     probeDurationSec(inputs.animationPath),
     probeDurationSec(inputs.audioPath),
   ]);
-  const naturalDur = Math.min(animDur || MAX_DURATION, audioDur || MIN_DURATION);
+  const usableAnim = (animDur || MAX_DURATION) - ANIMATION_LEAD_SKIP_SEC;
+  const naturalDur = Math.min(usableAnim, audioDur || MIN_DURATION);
   const duration = Math.max(MIN_DURATION, Math.min(MAX_DURATION, naturalDur));
 
   // Auto-fit font sizes for the two text lines.
@@ -404,17 +460,27 @@ export async function composeReel(inputs: ReelInputs): Promise<void> {
     : inputs.artist;
   const artistFontSize = fitMonoFontSize(artistAlbum, UI_W, 34, 20);
 
+  const theme = themeForAnimation(inputs.animationPath);
+
   const filterGraph = buildFilterGraph({
     duration,
     trackText: inputs.title.toUpperCase(),
     artistAlbumText: artistAlbum,
-    bgY_for_progressBar: 0, // unused, kept for clarity
     trackFontSize,
     artistFontSize,
+    theme,
   });
 
   const args = [
     "-y",
+    // Per-input seek: skip the animation's lead-in fade. `-ss` BEFORE
+    // `-i` is the fast input-side seek; ffmpeg jumps to the nearest
+    // keyframe before the requested timestamp, which for our 30fps
+    // animations with default x264 GOPs lands at or very near 1.5s.
+    // Frame-perfect accuracy isn't required — we just want the first
+    // visible frame to be non-blank.
+    "-ss",
+    ANIMATION_LEAD_SKIP_SEC.toFixed(2),
     "-i",
     inputs.animationPath,
     "-i",

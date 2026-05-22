@@ -46,6 +46,34 @@ Each render:
 6. Reads the resulting mp4 into memory, returns as `Content-Disposition: attachment` body.
 7. `finally` block deletes the temp dir regardless of success/failure.
 
+## Per-animation theme
+
+Each of the 30 animations is classified as `dark` (mostly-dark
+background) or `light` (mostly-light background) in
+`ANIMATION_THEMES` inside `reel-composer.ts`. The renderer reads
+the file's two-digit prefix and picks a palette:
+
+- **dark** → paper (#f2efe8) text + paper bar fill + mid-grey
+  mute tone (#9a9690), 1px ink-coloured border at α 0.45.
+- **light** → ink (#111110) text + ink bar fill + dark-grey mute
+  tone (#4a4843), 1px paper-coloured border at α 0.45.
+
+No scrim. Text sits directly on the animation, with the thin
+border as the only legibility defence against busy bgs. This
+matches the curator's reference reels.
+
+Current classification (2026-05-22): 01,03,05–07,09–11,13,14,16,
+19,21,23,24,26,29,30 = dark; 02,04,08,12,15,17,18,20,22,25,27,
+28 = light. Edit the map when adding / replacing animations.
+
+## Fade-in skip
+
+Every animation in the curator's set fades up from a blank frame
+over ~1.5 seconds. The composer passes `-ss 1.5` BEFORE `-i <anim>`
+so the reel opens on already-revealed pattern. Animations are 45s
+long; after the skip we still have 43.5s of usable material above
+the 30s output cap.
+
 ## Layout constants (must match MOCKUP_RECIPE.md)
 
 ```ts
