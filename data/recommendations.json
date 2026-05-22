@@ -810,7 +810,8 @@
       "spotify": "https://open.spotify.com/search/Visible%20Cloaks%20Paradessence",
       "soundcloud": "https://soundcloud.com/search?q=Visible%20Cloaks%20Paradessence",
       "youtube": "https://www.youtube.com/results?search_query=Visible%20Cloaks%20Paradessence",
-      "apple": "https://music.apple.com/us/album/paradessence/1874379250"
+      "apple": "https://music.apple.com/us/album/paradessence/1874379250",
+      "tidal": "https://tidal.com/album/495661769"
     },
     "embed": {
       "provider": "apple",
@@ -826,7 +827,9 @@
       "fg": "#f2efe8",
       "motif": "disc"
     },
-    "pressMentions": []
+    "pressMentions": [
+      "pitchfork_albums"
+    ]
   },
   {
     "id": "clark-opponent-stims",
@@ -873,7 +876,8 @@
       "spotify": "https://open.spotify.com/search/One%20Leg%20One%20Eye%20CRONE",
       "soundcloud": "https://soundcloud.com/search?q=One%20Leg%20One%20Eye%20CRONE",
       "youtube": "https://www.youtube.com/results?search_query=One%20Leg%20One%20Eye%20CRONE",
-      "apple": "https://music.apple.com/us/album/crone/1887944768?uo=4"
+      "apple": "https://music.apple.com/us/album/crone/1887944768?uo=4",
+      "tidal": "https://tidal.com/album/520333438"
     },
     "embed": {
       "provider": "apple",
@@ -916,6 +920,109 @@
     "status": "pending",
     "approvedAt": null,
     "coverImageUrl": null,
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
+    "id": "conna-haraway-extropy",
+    "type": "single",
+    "artist": "Conna Haraway",
+    "title": "Extropy",
+    "label": "Second End Records",
+    "releaseDate": "2026-05-22",
+    "description": "Conna Haraway turns up on Second End with a single piece of ambient, the kind of long-form drift the label has been quietly building a catalogue around. Less event, more atmosphere to sit inside.",
+    "tags": [
+      "ambient"
+    ],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=Conna%20Haraway%20Extropy&item_type=a",
+      "spotify": "https://open.spotify.com/search/Conna%20Haraway%20Extropy",
+      "soundcloud": "https://soundcloud.com/search?q=Conna%20Haraway%20Extropy",
+      "youtube": "https://www.youtube.com/results?search_query=Conna%20Haraway%20Extropy",
+      "apple": "https://music.apple.com/us/album/extropy-single/1895264184",
+      "deezer": "https://www.deezer.com/album/965642261"
+    },
+    "embed": {
+      "provider": "apple",
+      "src": "https://embed.music.apple.com/us/album/1895264184?theme=light",
+      "height": 450
+    },
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/14/a4/49/14a4492e-1c4e-79fd-7509-8130aad2f907/cover.jpg/600x600bb.jpg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
+    "id": "dj-koze-spiralen",
+    "type": "single",
+    "artist": "DJ Koze",
+    "title": "Spiralen",
+    "label": "Pampa Records",
+    "releaseDate": "2026-05-22",
+    "description": "A one-tracker from Koze on his own Pampa, filed as deep house but unlikely to sit still inside it. Digital only, which suggests a sketch rather than a statement.",
+    "tags": [],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=DJ%20Koze%20Spiralen&item_type=a",
+      "spotify": "https://open.spotify.com/search/DJ%20Koze%20Spiralen",
+      "soundcloud": "https://soundcloud.com/search?q=DJ%20Koze%20Spiralen",
+      "youtube": "https://www.youtube.com/results?search_query=DJ%20Koze%20Spiralen",
+      "deezer": "https://www.deezer.com/album/951135791",
+      "apple": "https://music.apple.com/us/album/spiralen-single/1889364342?uo=4"
+    },
+    "embed": {
+      "provider": "apple",
+      "src": "https://embed.music.apple.com/us/album/1889364342?theme=light",
+      "height": 450
+    },
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://cdn-images.dzcdn.net/images/cover/ab36093ee2361ca444dfdabe5ac5f5ff/1000x1000-000000-80-0-0.jpg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
+    "id": "peach-25-soak-vol-1",
+    "type": "ep",
+    "artist": "Peach (25)",
+    "title": "Soak Vol. 1",
+    "label": "Mood Hut",
+    "releaseDate": "2026-05-22",
+    "description": "Five tracks of unhurried ambient and downtempo on Mood Hut, the Vancouver label still operating in its preferred register of warm rooms and slow weather. One for the Pender Street Steppers shelf.",
+    "tags": [
+      "electronic"
+    ],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=Peach%20(25)%20Soak%20Vol.%201&item_type=a",
+      "spotify": "https://open.spotify.com/search/Peach%20(25)%20Soak%20Vol.%201",
+      "soundcloud": "https://soundcloud.com/search?q=Peach%20(25)%20Soak%20Vol.%201",
+      "youtube": "https://www.youtube.com/results?search_query=Peach%20(25)%20Soak%20Vol.%201",
+      "deezer": "https://www.deezer.com/album/935628341",
+      "apple": "https://music.apple.com/us/album/soak-vol-1-ep/1883601495?uo=4"
+    },
+    "embed": {
+      "provider": "apple",
+      "src": "https://embed.music.apple.com/us/album/1883601495?theme=light",
+      "height": 450
+    },
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://i.discogs.com/Cf8k9nToEONd1T9nWRRSjq_-l5RKqrvJk9WlgLp6Skc/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM3NDAy/ODQyLTE3NzkzNzA2/NDctNzc2OC5qcGVn.jpeg",
     "cover": {
       "bg": "#111110",
       "fg": "#f2efe8",
@@ -1141,7 +1248,9 @@
       "fg": "#f2efe8",
       "motif": "disc"
     },
-    "pressMentions": []
+    "pressMentions": [
+      "pitchfork_albums"
+    ]
   },
   {
     "id": "gbclifford-love-diskito",
@@ -1211,6 +1320,40 @@
     "pressMentions": []
   },
   {
+    "id": "lavurn-baby-it-cold-outside",
+    "type": "album",
+    "artist": "Lavurn",
+    "title": "Baby it Cold Outside",
+    "label": "Motion Ward",
+    "releaseDate": "2026-05-19",
+    "description": "Twelve tracks of trip hop and downbeat R&B for Motion Ward, a label more often associated with hushed ambient than vocal-led material. The pairing is the interesting part; shelve near Dean Blunt if a pointer helps.",
+    "tags": [
+      "electronic"
+    ],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=Lavurn%20Baby%20it%20Cold%20Outside&item_type=a",
+      "spotify": "https://open.spotify.com/search/Lavurn%20Baby%20it%20Cold%20Outside",
+      "soundcloud": "https://soundcloud.com/search?q=Lavurn%20Baby%20it%20Cold%20Outside",
+      "youtube": "https://www.youtube.com/results?search_query=Lavurn%20Baby%20it%20Cold%20Outside",
+      "deezer": "https://www.deezer.com/album/958165451"
+    },
+    "embed": {
+      "provider": "deezer",
+      "src": "https://widget.deezer.com/widget/light/album/958165451",
+      "height": 300
+    },
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://i.discogs.com/T5-octqaXdn3-M3mKF2nTdtOQKP3m01pvVexSzjRaWM/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM3NDA4/NzA3LTE3Nzk0Mjc2/NDItNjYyNS5qcGVn.jpeg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
     "id": "jpegmafia-yen",
     "type": "single",
     "artist": "Jpegmafia",
@@ -1240,7 +1383,9 @@
       "fg": "#f2efe8",
       "motif": "disc"
     },
-    "pressMentions": []
+    "pressMentions": [
+      "stereogum"
+    ]
   },
   {
     "id": "dj-shadow-medoly-nautica-feat-black-coffee",
@@ -1305,7 +1450,9 @@
       "fg": "#f2efe8",
       "motif": "disc"
     },
-    "pressMentions": []
+    "pressMentions": [
+      "bandcamp_daily"
+    ]
   },
   {
     "id": "martyn-music-for-existing",
@@ -3007,6 +3154,41 @@
     ]
   },
   {
+    "id": "sans-merit-trolley-polly",
+    "type": "album",
+    "artist": "Sans Merit",
+    "title": "Trolley Polly",
+    "label": "Knekelhuis",
+    "releaseDate": "2026-05-08",
+    "description": "Ten tracks of shoegaze, grunge and neofolk smudged into hypnagogic pop, an unusually song-shaped detour for Knekelhuis. File next to the label's stranger guitar excursions rather than its dancefloor side.",
+    "tags": [
+      "electronic"
+    ],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=Sans%20Merit%20Trolley%20Polly&item_type=a",
+      "spotify": "https://open.spotify.com/search/Sans%20Merit%20Trolley%20Polly",
+      "soundcloud": "https://soundcloud.com/search?q=Sans%20Merit%20Trolley%20Polly",
+      "youtube": "https://www.youtube.com/results?search_query=Sans%20Merit%20Trolley%20Polly",
+      "deezer": "https://www.deezer.com/album/948725441",
+      "apple": "https://music.apple.com/us/album/trolley-polly/1888238626?uo=4"
+    },
+    "embed": {
+      "provider": "apple",
+      "src": "https://embed.music.apple.com/us/album/1888238626?theme=light",
+      "height": 450
+    },
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://i.discogs.com/1n86vny9cw9ao6RK2w5YxGZZ65kLXu5yJwCl0e_0fBA/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM3NDA5/ODA4LTE3Nzk0Mzgz/NzUtNjE1MS5qcGVn.jpeg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
     "id": "james-blake-trying-times-a-colors-show",
     "type": "single",
     "artist": "James Blake",
@@ -3240,7 +3422,9 @@
       "fg": "#f2efe8",
       "motif": "disc"
     },
-    "pressMentions": []
+    "pressMentions": [
+      "stereogum"
+    ]
   },
   {
     "id": "coil-pull-me-closer-feat-ray",
@@ -6744,7 +6928,9 @@
       "fg": "#f2efe8",
       "motif": "disc"
     },
-    "pressMentions": []
+    "pressMentions": [
+      "bandcamp_daily"
+    ]
   },
   {
     "id": "ppp-masduros",
@@ -8196,7 +8382,9 @@
       "fg": "#f2efe8",
       "motif": "disc"
     },
-    "pressMentions": []
+    "pressMentions": [
+      "pitchfork_albums"
+    ]
   },
   {
     "id": "rosalia-lux-complete-works",
@@ -10710,12 +10898,13 @@
       "spotify": "https://open.spotify.com/search/Iztok%20Koren%2C%20Raphael%20Rogi%C5%84ski%20Nocturnal%20Consolations",
       "soundcloud": "https://soundcloud.com/search?q=Iztok%20Koren%2C%20Raphael%20Rogi%C5%84ski%20Nocturnal%20Consolations",
       "youtube": "https://www.youtube.com/results?search_query=Iztok%20Koren%2C%20Raphael%20Rogi%C5%84ski%20Nocturnal%20Consolations",
-      "deezer": "https://www.deezer.com/album/937868141"
+      "deezer": "https://www.deezer.com/album/937868141",
+      "apple": "https://music.apple.com/us/album/nocturnal-consolations/1884439104?uo=4"
     },
     "embed": {
-      "provider": "deezer",
-      "src": "https://widget.deezer.com/widget/light/album/937868141",
-      "height": 300
+      "provider": "apple",
+      "src": "https://embed.music.apple.com/us/album/1884439104?theme=light",
+      "height": 450
     },
     "musicVideoUrl": null,
     "status": "pending",
@@ -15960,6 +16149,40 @@
     "status": "pending",
     "approvedAt": null,
     "coverImageUrl": "https://i.discogs.com/yLrtRTkmUSOY49IHp8jyBHLp2myvpjgETIiAiiWtMEY/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM3MzY4/NTQwLTE3NzkwNDQz/MTktNTAzMS5qcGVn.jpeg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
+    "id": "dua-saleh-of-earth-wires",
+    "type": "album",
+    "artist": "Dua Saleh",
+    "title": "Of Earth & Wires",
+    "label": "Ghostly International",
+    "releaseDate": "2026-01-01",
+    "description": "Dua Saleh lands on Ghostly with eleven tracks that pull their indie-pop instincts through the label's familiar electronic gauze. Genre tags sprawl wider than usual here; treat it as a songwriter's record routed through Ann Arbor's signal chain.",
+    "tags": [
+      "electronic"
+    ],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=Dua%20Saleh%20Of%20Earth%20%26%20Wires&item_type=a",
+      "spotify": "https://open.spotify.com/search/Dua%20Saleh%20Of%20Earth%20%26%20Wires",
+      "soundcloud": "https://soundcloud.com/search?q=Dua%20Saleh%20Of%20Earth%20%26%20Wires",
+      "youtube": "https://www.youtube.com/results?search_query=Dua%20Saleh%20Of%20Earth%20%26%20Wires",
+      "deezer": "https://www.deezer.com/album/896916022"
+    },
+    "embed": {
+      "provider": "deezer",
+      "src": "https://widget.deezer.com/widget/light/album/896916022",
+      "height": 300
+    },
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://i.discogs.com/iRdFtLQnwtQfyNuOQMs_VKF6Yu3GXs7Vot9Z4S0l8qQ/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM3NDA2/NjEzLTE3Nzk0MDk3/NTAtMzcwOS5qcGVn.jpeg",
     "cover": {
       "bg": "#111110",
       "fg": "#f2efe8",
@@ -24779,7 +25002,7 @@
     "title": "For The Early Hours Of A World In Bloom",
     "label": "Theory Therapy",
     "releaseDate": "2025-06-25",
-    "description": "",
+    "description": "Five tracks from Alien D for Theory Therapy, sliding between dub techno haze, downtempo drift and a slow house pulse. The kind of after-dark record that doesn't insist on a single tempo.",
     "tags": [
       "electronic"
     ],
@@ -24813,7 +25036,7 @@
     "title": "Watch This Liquid Pour Itself",
     "label": "Jagjaguwar",
     "releaseDate": "2025-06-25",
-    "description": "",
+    "description": "Fifteen tracks of Okay Kaya's wry, slack-limbed bedroom pop, this time on Jagjaguwar rather than Heavenly. Her writing remains deadpan and uncomfortably close to the mic; shelve near Dean Blunt's quieter song-form work.",
     "tags": [
       "electronic"
     ],
@@ -24847,7 +25070,7 @@
     "title": "Positive Mental Attitude",
     "label": "Good Morning Tapes",
     "releaseDate": "2025-06-21",
-    "description": "",
+    "description": "Two sides of conscious dub on Good Morning Tapes, the Blazer crew and RockersNYC trading in roots uplift rather than weight. Sits comfortably alongside the label's more sun-warmed cassette output.",
     "tags": [
       "electronic"
     ],
@@ -24876,7 +25099,7 @@
     "title": "Promenades",
     "label": "Shelter Press",
     "releaseDate": "2025-06-20",
-    "description": "",
+    "description": "Six pieces from Atkinson on her own Shelter Press, issued to cassette and sitting in her established register of whispered text, piano fragments and electronics in close conversation. For anyone tracking the label's modern-classical edge.",
     "tags": [
       "electronic"
     ],
@@ -24910,7 +25133,7 @@
     "title": "Forever EP",
     "label": "Lapsus Music",
     "releaseDate": "2025-06-20",
-    "description": "",
+    "description": "Two cuts of functional tech house from Hotswing on the Barcelona arm of Lapsus, built for rooms rather than headphones. Tooled rather than expressive, which is the point.",
     "tags": [
       "electronic"
     ],
@@ -24944,7 +25167,7 @@
     "title": "Gradually",
     "label": "Lapsus Records",
     "releaseDate": "2025-06-20",
-    "description": "",
+    "description": "Nine tracks from Julien Mier on Lapsus, threading broken beat and glitch through a softer Balearic ambient frame. Pressed to bioplastic LP, which feels in step with the label's recent run.",
     "tags": [
       "electronic"
     ],
@@ -24978,7 +25201,7 @@
     "title": "General Patterns",
     "label": "Short Span",
     "releaseDate": "2025-06-20",
-    "description": "",
+    "description": "Six tracks of dub techno from Mammo on Short Span, pressed to a 12\" album rather than the usual four-cut EP. Shelve next to Topdown Dialectic if you want a reference point.",
     "tags": [
       "electronic"
     ],
@@ -25012,7 +25235,7 @@
     "title": "One And, And, And, And One, And, And, Three And, And",
     "label": "Double Helix Records (2)",
     "releaseDate": "2025-06-20",
-    "description": "",
+    "description": "Fourteen tracks of melodic hardcore and pop punk on Double Helix, played straight rather than ironically. Lands closer to Jawbreaker than to anything currently chasing the revival.",
     "tags": [
       "rock"
     ],
@@ -25046,7 +25269,7 @@
     "title": "The Way of Time",
     "label": "AD 93",
     "releaseDate": "2025-06-20",
-    "description": "",
+    "description": "Geir Jenssen on AD 93, six pieces of the patient, glacier-scale ambient he has been mapping since Substrata. The label's first Biosphere LP sits comfortably alongside their Beatrice Dillon and Vegyn end of the catalogue without trying to belong to it.",
     "tags": [],
     "links": {
       "bandcamp": "https://bandcamp.com/album/2949702433",
