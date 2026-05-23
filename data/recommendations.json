@@ -1,5 +1,41 @@
 [
   {
+    "id": "kaitlyn-aurelia-smith-ruin-it-s-not-just-music",
+    "type": "album",
+    "artist": "Kaitlyn Aurelia Smith",
+    "title": "RUIN: It's Not Just Music",
+    "label": "",
+    "releaseDate": "2026-10-02",
+    "description": "Kaitlyn Aurelia Smith continues her work with the Buchla and processed voice, here under a title that gestures at something more conceptual than her recent records have let on. Whether it lands closer to The Kid or Tides remains to be heard.",
+    "tags": [],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=Kaitlyn%20Aurelia%20Smith%20RUIN%3A%20It's%20Not%20Just%20Music&item_type=a",
+      "spotify": "https://open.spotify.com/search/Kaitlyn%20Aurelia%20Smith%20RUIN%3A%20It's%20Not%20Just%20Music",
+      "soundcloud": "https://soundcloud.com/search?q=Kaitlyn%20Aurelia%20Smith%20RUIN%3A%20It's%20Not%20Just%20Music",
+      "youtube": "https://www.youtube.com/results?search_query=Kaitlyn%20Aurelia%20Smith%20RUIN%3A%20It's%20Not%20Just%20Music",
+      "deezer": "https://www.deezer.com/album/953070571",
+      "apple": "https://music.apple.com/us/album/ruin-its-not-just-music/1890182100?uo=4",
+      "tidal": "https://tidal.com/album/512548025"
+    },
+    "embed": {
+      "provider": "apple",
+      "src": "https://embed.music.apple.com/us/album/1890182100?theme=light",
+      "height": 450
+    },
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": null,
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": [
+      "stereogum"
+    ]
+  },
+  {
     "id": "romare-oblivion",
     "type": "album",
     "artist": "Romare",
@@ -704,7 +740,8 @@
       "motif": "disc"
     },
     "pressMentions": [
-      "pitchfork_tracks"
+      "pitchfork_tracks",
+      "ra"
     ]
   },
   {
@@ -733,7 +770,8 @@
       "motif": "disc"
     },
     "pressMentions": [
-      "pitchfork_tracks"
+      "pitchfork_tracks",
+      "ra"
     ]
   },
   {
@@ -795,6 +833,38 @@
     "pressMentions": []
   },
   {
+    "id": "xang-t-da-igual",
+    "type": "single",
+    "artist": "Xang",
+    "title": "t da igual",
+    "label": "",
+    "releaseDate": "2026-05-23",
+    "description": "Xang turns in another single under their own steam, untethered to a label as of writing. Worth a listen on name recognition alone if you have followed their previous output.",
+    "tags": [],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=Xang%20t%20da%20igual&item_type=a",
+      "spotify": "https://open.spotify.com/search/Xang%20t%20da%20igual",
+      "soundcloud": "https://soundcloud.com/search?q=Xang%20t%20da%20igual",
+      "youtube": "https://www.youtube.com/results?search_query=Xang%20t%20da%20igual",
+      "deezer": "https://www.deezer.com/album/987103841"
+    },
+    "embed": {
+      "provider": "deezer",
+      "src": "https://widget.deezer.com/widget/light/album/987103841",
+      "height": 300
+    },
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://cdn-images.dzcdn.net/images/cover/26f83a789cc65e7adf51080a551c5580/1000x1000-000000-80-0-0.jpg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
     "id": "visible-cloaks-paradessence",
     "type": "album",
     "artist": "Visible Cloaks",
@@ -836,7 +906,7 @@
     "type": "album",
     "artist": "Clark",
     "title": "Opponent Stims",
-    "label": "",
+    "label": "Throttle Records",
     "releaseDate": "2026-05-22",
     "description": "Clark in album mode again, which over the past two decades has meant restless, percussive electronics that rarely sit in one mood for long. Sparse details so far, but his Warp, era register is the safe assumption.",
     "tags": [],
@@ -1023,6 +1093,76 @@
     "status": "pending",
     "approvedAt": null,
     "coverImageUrl": "https://i.discogs.com/Cf8k9nToEONd1T9nWRRSjq_-l5RKqrvJk9WlgLp6Skc/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM3NDAy/ODQyLTE3NzkzNzA2/NDctNzc2OC5qcGVn.jpeg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
+    "id": "kaitlyn-aurelia-smith-ruin",
+    "type": "single",
+    "artist": "Kaitlyn Aurelia Smith",
+    "title": "Ruin",
+    "label": "",
+    "releaseDate": "2026-05-22",
+    "description": "Kaitlyn Aurelia Smith in single form, her Buchla-shaped melodic ambient pared down to a standalone piece. Worth a listen for anyone still working through The Kid or Euclid.",
+    "tags": [],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=Kaitlyn%20Aurelia%20Smith%20Ruin&item_type=a",
+      "spotify": "https://open.spotify.com/search/Kaitlyn%20Aurelia%20Smith%20Ruin",
+      "soundcloud": "https://soundcloud.com/search?q=Kaitlyn%20Aurelia%20Smith%20Ruin",
+      "youtube": "https://www.youtube.com/results?search_query=Kaitlyn%20Aurelia%20Smith%20Ruin",
+      "deezer": "https://www.deezer.com/album/953070631",
+      "apple": "https://music.apple.com/us/album/ruin-single/1890181339?uo=4"
+    },
+    "embed": {
+      "provider": "apple",
+      "src": "https://embed.music.apple.com/us/album/1890181339?theme=light",
+      "height": 450
+    },
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://cdn-images.dzcdn.net/images/cover/3c2d4eafea293209c0771f1d7ae7d01e/1000x1000-000000-80-0-0.jpg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": [
+      "stereogum"
+    ]
+  },
+  {
+    "id": "neil-young-and-crazy-horse-sleeps-with-angels",
+    "type": "album",
+    "artist": "Neil Young And Crazy Horse",
+    "title": "Sleeps With Angels",
+    "label": "Reprise Records",
+    "releaseDate": "2026-05-22",
+    "description": "Reprise revisits the 1994 Crazy Horse record that sat at the ragged intersection of grief and feedback, Young's response to a decade he was openly trying to read. Twelve tracks, the long title piece still the gravitational center.",
+    "tags": [
+      "rock"
+    ],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=Neil%20Young%20And%20Crazy%20Horse%20Sleeps%20With%20Angels&item_type=a",
+      "spotify": "https://open.spotify.com/search/Neil%20Young%20And%20Crazy%20Horse%20Sleeps%20With%20Angels",
+      "soundcloud": "https://soundcloud.com/search?q=Neil%20Young%20And%20Crazy%20Horse%20Sleeps%20With%20Angels",
+      "youtube": "https://www.youtube.com/results?search_query=Neil%20Young%20And%20Crazy%20Horse%20Sleeps%20With%20Angels",
+      "deezer": "https://www.deezer.com/album/90956",
+      "apple": "https://music.apple.com/us/album/sleeps-with-angels/72797981?uo=4"
+    },
+    "embed": {
+      "provider": "apple",
+      "src": "https://embed.music.apple.com/us/album/72797981?theme=light",
+      "height": 450
+    },
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://i.discogs.com/SMH1O-_u6kC3jmWVwP7xnYDYJTYrtDP3gGXIiOO8ABE/rs:fit/g:sm/q:90/h:596/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM3NDEx/NTYwLTE3Nzk0NTkz/NDktODg4OC5qcGVn.jpeg",
     "cover": {
       "bg": "#111110",
       "fg": "#f2efe8",
@@ -2141,7 +2281,9 @@
       "fg": "#f2efe8",
       "motif": "disc"
     },
-    "pressMentions": []
+    "pressMentions": [
+      "stereogum"
+    ]
   },
   {
     "id": "2k88-lauren-duffus-rainy-miller-bianca-scout-poetic-fallacy",
@@ -3319,7 +3461,8 @@
       "motif": "disc"
     },
     "pressMentions": [
-      "pitchfork_tracks"
+      "pitchfork_tracks",
+      "ra"
     ]
   },
   {
@@ -8646,6 +8789,41 @@
     ]
   },
   {
+    "id": "social-station-dissolve",
+    "type": "album",
+    "artist": "Social Station",
+    "title": "Dissolve",
+    "label": "Young And Cold Records",
+    "releaseDate": "2026-04-15",
+    "description": "Twelve tracks of guitar-led post-punk from Social Station, landing on Young And Cold in a white label pressing. Squarely in the label's wheelhouse if you have followed their darkwave and coldwave roster.",
+    "tags": [
+      "electronic"
+    ],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=Social%20Station%20Dissolve&item_type=a",
+      "spotify": "https://open.spotify.com/search/Social%20Station%20Dissolve",
+      "soundcloud": "https://soundcloud.com/search?q=Social%20Station%20Dissolve",
+      "youtube": "https://www.youtube.com/results?search_query=Social%20Station%20Dissolve",
+      "deezer": "https://www.deezer.com/album/861098002",
+      "apple": "https://music.apple.com/us/album/dissolve/1854747413?uo=4"
+    },
+    "embed": {
+      "provider": "apple",
+      "src": "https://embed.music.apple.com/us/album/1854747413?theme=light",
+      "height": 450
+    },
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://i.discogs.com/3Wdin9OkPmMDbVNGUj8e7zDtbRCY5yUOfq_Z6X5zkQA/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM3MjAw/MDk5LTE3Nzk1MzAw/NTktNjg0OC5qcGVn.jpeg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
     "id": "heith-tarawangsawelas-blue-kembang",
     "type": "single",
     "artist": "Heith & Tarawangsawelas",
@@ -9849,7 +10027,8 @@
       "motif": "disc"
     },
     "pressMentions": [
-      "pitchfork_tracks"
+      "pitchfork_tracks",
+      "ra"
     ]
   },
   {
@@ -12165,6 +12344,40 @@
     "status": "pending",
     "approvedAt": null,
     "coverImageUrl": "https://i.discogs.com/-IPQVUKMRtGYxOiLTc3rpLH7im6f4anmUHurHD0WPqQ/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM2Njc3/NzU4LTE3NzI2NDI2/NzctNDM0NS5qcGVn.jpeg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
+    "id": "qasim-naqvi-god-docks-at-death-harbor",
+    "type": "ep",
+    "artist": "Qasim Naqvi",
+    "title": "God Docks At Death Harbor",
+    "label": "Erased Tapes Records",
+    "releaseDate": "2026-03-04",
+    "description": "Three pieces from the Dawn of Midi drummer in his modular and orchestral mode, landing on Erased Tapes where that pairing makes obvious sense. For anyone tracking the label's Nils Frahm-adjacent compositional wing.",
+    "tags": [
+      "classical"
+    ],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=Qasim%20Naqvi%20God%20Docks%20At%20Death%20Harbor&item_type=a",
+      "spotify": "https://open.spotify.com/search/Qasim%20Naqvi%20God%20Docks%20At%20Death%20Harbor",
+      "soundcloud": "https://soundcloud.com/search?q=Qasim%20Naqvi%20God%20Docks%20At%20Death%20Harbor",
+      "youtube": "https://www.youtube.com/results?search_query=Qasim%20Naqvi%20God%20Docks%20At%20Death%20Harbor",
+      "deezer": "https://www.deezer.com/album/906367962"
+    },
+    "embed": {
+      "provider": "deezer",
+      "src": "https://widget.deezer.com/widget/light/album/906367962",
+      "height": 300
+    },
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://i.discogs.com/KMo4t2s4x6sBNhmb7Eb47l_GFuDCXZVhde8sKelq6NY/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM3NDE3/ODA5LTE3Nzk1MTA2/OTctMzg4MS5qcGVn.jpeg",
     "cover": {
       "bg": "#111110",
       "fg": "#f2efe8",
@@ -16090,7 +16303,8 @@
       "motif": "disc"
     },
     "pressMentions": [
-      "pitchfork_tracks"
+      "pitchfork_tracks",
+      "ra"
     ]
   },
   {
@@ -21080,7 +21294,8 @@
       "spotify": "https://open.spotify.com/search/Jeebus%20Behind%20Closed%20Doors%2FThe%20Shadow%20Beneath...",
       "soundcloud": "https://soundcloud.com/search?q=Jeebus%20Behind%20Closed%20Doors%2FThe%20Shadow%20Beneath...",
       "youtube": "https://www.youtube.com/results?search_query=Jeebus%20Behind%20Closed%20Doors%2FThe%20Shadow%20Beneath...",
-      "apple": "https://music.apple.com/us/album/the-shadow-beneath-ep/1802747227?uo=4"
+      "apple": "https://music.apple.com/us/album/the-shadow-beneath-ep/1802747227?uo=4",
+      "tidal": "https://tidal.com/album/424507893"
     },
     "embed": {
       "provider": "apple",
@@ -21114,7 +21329,8 @@
       "spotify": "https://open.spotify.com/search/84%20Days%20Find%20Your%20Way%20Back%20Home",
       "soundcloud": "https://soundcloud.com/search?q=84%20Days%20Find%20Your%20Way%20Back%20Home",
       "youtube": "https://www.youtube.com/results?search_query=84%20Days%20Find%20Your%20Way%20Back%20Home",
-      "apple": "https://music.apple.com/us/album/find-your-way-back-home-single/1832092765?uo=4"
+      "apple": "https://music.apple.com/us/album/find-your-way-back-home-single/1832092765?uo=4",
+      "tidal": "https://tidal.com/album/453065180"
     },
     "embed": {
       "provider": "apple",
@@ -21149,7 +21365,8 @@
       "soundcloud": "https://soundcloud.com/search?q=Crushed%20(4)%20No%20Scope",
       "youtube": "https://www.youtube.com/results?search_query=Crushed%20(4)%20No%20Scope",
       "deezer": "https://www.deezer.com/album/764958011",
-      "apple": "https://music.apple.com/us/album/no-scope/1817616700?uo=4"
+      "apple": "https://music.apple.com/us/album/no-scope/1817616700?uo=4",
+      "tidal": "https://tidal.com/album/439119689"
     },
     "embed": {
       "provider": "apple",
@@ -21183,7 +21400,8 @@
       "spotify": "https://open.spotify.com/search/Kit%20Sebastian%20Certain%20Things%20You%20Can't%20Explain%20(I'll%20Just%20Let%20Myself%20Go)",
       "soundcloud": "https://soundcloud.com/search?q=Kit%20Sebastian%20Certain%20Things%20You%20Can't%20Explain%20(I'll%20Just%20Let%20Myself%20Go)",
       "youtube": "https://www.youtube.com/results?search_query=Kit%20Sebastian%20Certain%20Things%20You%20Can't%20Explain%20(I'll%20Just%20Let%20Myself%20Go)",
-      "apple": "https://music.apple.com/us/album/certain-things-you-cant-explain-ill-just-let-myself/1833262777?uo=4"
+      "apple": "https://music.apple.com/us/album/certain-things-you-cant-explain-ill-just-let-myself/1833262777?uo=4",
+      "tidal": "https://tidal.com/album/454154379"
     },
     "embed": {
       "provider": "apple",
@@ -21246,7 +21464,8 @@
       "spotify": "https://open.spotify.com/search/Radx%20Reverse%20Acceleration%20Of%20Dragons",
       "soundcloud": "https://soundcloud.com/search?q=Radx%20Reverse%20Acceleration%20Of%20Dragons",
       "youtube": "https://www.youtube.com/results?search_query=Radx%20Reverse%20Acceleration%20Of%20Dragons",
-      "apple": "https://music.apple.com/us/album/reverse-acceleration-of-dragons/1835128688?uo=4"
+      "apple": "https://music.apple.com/us/album/reverse-acceleration-of-dragons/1835128688?uo=4",
+      "tidal": "https://tidal.com/album/455738642"
     },
     "embed": {
       "provider": "apple",
@@ -21280,7 +21499,8 @@
       "spotify": "https://open.spotify.com/search/Burial%20Comafields%20%2F%20Imaginary%20Festival",
       "soundcloud": "https://soundcloud.com/search?q=Burial%20Comafields%20%2F%20Imaginary%20Festival",
       "youtube": "https://www.youtube.com/results?search_query=Burial%20Comafields%20%2F%20Imaginary%20Festival",
-      "apple": "https://music.apple.com/us/album/comafields-imaginary-festival-ep/1826121102?uo=4"
+      "apple": "https://music.apple.com/us/album/comafields-imaginary-festival-ep/1826121102?uo=4",
+      "tidal": "https://tidal.com/album/447503109"
     },
     "embed": {
       "provider": "apple",
@@ -21314,7 +21534,8 @@
       "spotify": "https://open.spotify.com/search/Joanne%20Robertson%20Blurrr",
       "soundcloud": "https://soundcloud.com/search?q=Joanne%20Robertson%20Blurrr",
       "youtube": "https://www.youtube.com/results?search_query=Joanne%20Robertson%20Blurrr",
-      "apple": "https://music.apple.com/us/album/blurrr/1806107071?uo=4"
+      "apple": "https://music.apple.com/us/album/blurrr/1806107071?uo=4",
+      "tidal": "https://tidal.com/album/427745094"
     },
     "embed": {
       "provider": "apple",
@@ -21350,7 +21571,8 @@
       "spotify": "https://open.spotify.com/search/Honey%20Spider%20The%20Aftermath",
       "soundcloud": "https://soundcloud.com/search?q=Honey%20Spider%20The%20Aftermath",
       "youtube": "https://www.youtube.com/results?search_query=Honey%20Spider%20The%20Aftermath",
-      "deezer": "https://www.deezer.com/album/755242311"
+      "deezer": "https://www.deezer.com/album/755242311",
+      "tidal": "https://tidal.com/album/435317563"
     },
     "embed": {
       "provider": "deezer",
@@ -21385,7 +21607,8 @@
       "soundcloud": "https://soundcloud.com/search?q=OK%20EG%20Silent%20Green",
       "youtube": "https://www.youtube.com/results?search_query=OK%20EG%20Silent%20Green",
       "deezer": "https://www.deezer.com/album/825535061",
-      "apple": "https://music.apple.com/us/album/silent-green-ep/1847342973?uo=4"
+      "apple": "https://music.apple.com/us/album/silent-green-ep/1847342973?uo=4",
+      "tidal": "https://tidal.com/album/462164711"
     },
     "embed": {
       "provider": "apple",
@@ -21453,7 +21676,8 @@
       "soundcloud": "https://soundcloud.com/search?q=%C3%93lafur%20Arnalds%20Found%20Songs",
       "youtube": "https://www.youtube.com/results?search_query=%C3%93lafur%20Arnalds%20Found%20Songs",
       "deezer": "https://www.deezer.com/album/86038922",
-      "apple": "https://music.apple.com/us/album/found-songs/1451185311?uo=4"
+      "apple": "https://music.apple.com/us/album/found-songs/1451185311?uo=4",
+      "tidal": "https://tidal.com/album/103387189"
     },
     "embed": {
       "provider": "apple",
@@ -21520,7 +21744,8 @@
       "spotify": "https://open.spotify.com/search/Conna%20Haraway%20Shifted",
       "soundcloud": "https://soundcloud.com/search?q=Conna%20Haraway%20Shifted",
       "youtube": "https://www.youtube.com/results?search_query=Conna%20Haraway%20Shifted",
-      "apple": "https://music.apple.com/us/album/shifted-ep/1833878346?uo=4"
+      "apple": "https://music.apple.com/us/album/shifted-ep/1833878346?uo=4",
+      "tidal": "https://tidal.com/album/454652914"
     },
     "embed": {
       "provider": "apple",
@@ -21588,7 +21813,8 @@
       "spotify": "https://open.spotify.com/search/Ida%20Urd%20%26%20Ingri%20H%C3%B8yland%20Duvet",
       "soundcloud": "https://soundcloud.com/search?q=Ida%20Urd%20%26%20Ingri%20H%C3%B8yland%20Duvet",
       "youtube": "https://www.youtube.com/results?search_query=Ida%20Urd%20%26%20Ingri%20H%C3%B8yland%20Duvet",
-      "apple": "https://music.apple.com/us/album/duvet/1823018988?uo=4"
+      "apple": "https://music.apple.com/us/album/duvet/1823018988?uo=4",
+      "tidal": "https://tidal.com/album/444477068"
     },
     "embed": {
       "provider": "apple",
@@ -21622,7 +21848,8 @@
       "spotify": "https://open.spotify.com/search/L%C3%A9o%20La%20Nuit%20Le%20Don%20Des%20Larmes",
       "soundcloud": "https://soundcloud.com/search?q=L%C3%A9o%20La%20Nuit%20Le%20Don%20Des%20Larmes",
       "youtube": "https://www.youtube.com/results?search_query=L%C3%A9o%20La%20Nuit%20Le%20Don%20Des%20Larmes",
-      "apple": "https://music.apple.com/us/album/le-don-des-larmes/1833233219?uo=4"
+      "apple": "https://music.apple.com/us/album/le-don-des-larmes/1833233219?uo=4",
+      "tidal": "https://tidal.com/album/454125375"
     },
     "embed": {
       "provider": "apple",
@@ -21656,7 +21883,8 @@
       "spotify": "https://open.spotify.com/search/Joviale%20Mount%20Crystal",
       "soundcloud": "https://soundcloud.com/search?q=Joviale%20Mount%20Crystal",
       "youtube": "https://www.youtube.com/results?search_query=Joviale%20Mount%20Crystal",
-      "apple": "https://music.apple.com/us/album/mount-crystal/1814907883?uo=4"
+      "apple": "https://music.apple.com/us/album/mount-crystal/1814907883?uo=4",
+      "tidal": "https://tidal.com/album/436461975"
     },
     "embed": {
       "provider": "apple",
@@ -21690,7 +21918,8 @@
       "spotify": "https://open.spotify.com/search/Kara-Lis%20Coverdale%20A%20Series%20Of%20Actions%20In%20A%20Sphere%20Of%20Forever",
       "soundcloud": "https://soundcloud.com/search?q=Kara-Lis%20Coverdale%20A%20Series%20Of%20Actions%20In%20A%20Sphere%20Of%20Forever",
       "youtube": "https://www.youtube.com/results?search_query=Kara-Lis%20Coverdale%20A%20Series%20Of%20Actions%20In%20A%20Sphere%20Of%20Forever",
-      "apple": "https://music.apple.com/us/album/a-series-of-actions-in-a-sphere-of-forever/1816943293?uo=4"
+      "apple": "https://music.apple.com/us/album/a-series-of-actions-in-a-sphere-of-forever/1816943293?uo=4",
+      "tidal": "https://tidal.com/album/438446803"
     },
     "embed": {
       "provider": "apple",
@@ -21753,7 +21982,8 @@
       "bandcamp": "https://mountxlr.bandcamp.com/album/phase-i",
       "spotify": "https://open.spotify.com/search/Mount%20XLR%20Phase%20I",
       "soundcloud": "https://soundcloud.com/search?q=Mount%20XLR%20Phase%20I",
-      "youtube": "https://www.youtube.com/results?search_query=Mount%20XLR%20Phase%20I"
+      "youtube": "https://www.youtube.com/results?search_query=Mount%20XLR%20Phase%20I",
+      "tidal": "https://tidal.com/album/456853138"
     },
     "embed": {
       "provider": "apple",
@@ -21786,7 +22016,8 @@
       "spotify": "https://open.spotify.com/search/James%20K%20Friend",
       "soundcloud": "https://soundcloud.com/search?q=James%20K%20Friend",
       "youtube": "https://www.youtube.com/results?search_query=James%20K%20Friend",
-      "apple": "https://music.apple.com/us/album/friend/1807352076?uo=4"
+      "apple": "https://music.apple.com/us/album/friend/1807352076?uo=4",
+      "tidal": "https://tidal.com/album/428868102"
     },
     "embed": {
       "provider": "apple",
@@ -21822,7 +22053,8 @@
       "spotify": "https://open.spotify.com/search/FLUR%20(2)%20Plunge",
       "soundcloud": "https://soundcloud.com/search?q=FLUR%20(2)%20Plunge",
       "youtube": "https://www.youtube.com/results?search_query=FLUR%20(2)%20Plunge",
-      "apple": "https://music.apple.com/us/album/plunge/1823027759?uo=4"
+      "apple": "https://music.apple.com/us/album/plunge/1823027759?uo=4",
+      "tidal": "https://tidal.com/album/444485026"
     },
     "embed": {
       "provider": "apple",
@@ -25302,7 +25534,7 @@
     "title": "Smoking Tigers (Original Score)",
     "label": "Erased Tapes Music",
     "releaseDate": "2025-06-19",
-    "description": "",
+    "description": "Fujita scores Shelly Yo's film in the patient, vibraphone-led mode Erased Tapes listeners already know, with strings and electronics filling the spaces between mallets. Closer to his solo records than to most score work.",
     "tags": [
       "electronic"
     ],
@@ -25336,7 +25568,7 @@
     "title": "Nothingburger EP",
     "label": "NAFF",
     "releaseDate": "2025-06-19",
-    "description": "",
+    "description": "Four tracks from Car Culture on NAFF, sitting in the unusual overlap of downtempo and neofolk that the label has been quietly mapping. Slow, acoustic-leaning, and stranger than the title lets on.",
     "tags": [
       "electronic"
     ],
@@ -25403,7 +25635,7 @@
     "title": "Minecraft Volume Alpha / Minecraft Volume Beta",
     "label": "Ghostly International",
     "releaseDate": "2025-06-13",
-    "description": "",
+    "description": "Ghostly gathers Daniel Rosenfeld's two Minecraft soundtracks into a single sit-down listen, the piano sketches and granular pads that an entire generation now hears as default ambient. Functional music become canonical almost by accident.",
     "tags": [
       "electronic"
     ],
@@ -25437,7 +25669,7 @@
     "title": "Cherie On Top",
     "label": "Pan European Recording",
     "releaseDate": "2025-06-12",
-    "description": "",
+    "description": "Twelve tracks of glossy, sugar-rush hyperpop from Vickie Cherie on Pan European, the French label more often associated with leftfield indie now leaning fully into the candy-coated end of the spectrum. File next to anyone still working the post-PC Music seam.",
     "tags": [
       "electronic"
     ],
@@ -25471,7 +25703,7 @@
     "title": "Mega Mercy",
     "label": "Sferic",
     "releaseDate": "2025-06-12",
-    "description": "",
+    "description": "Seven tracks of experimental alt-pop on Sferic, a label more often associated with ambient and field recordings, which gives the placement an oblique edge. File alongside the quieter, song-shaped end of the Whities/AD 93 axis.",
     "tags": [
       "electronic"
     ],
@@ -25506,7 +25738,7 @@
     "title": "PAN002",
     "label": "Pan Records (24)",
     "releaseDate": "2025-06-10",
-    "description": "",
+    "description": "Four cuts of unfussy deep house on Pan Records, the kind of 12\" that turns up in a record bag without much ceremony and earns its keep through the night. Functional rather than ornamental.",
     "tags": [
       "electronic"
     ],
@@ -25535,7 +25767,7 @@
     "title": "The Heirloom (Original Motion Picture Soundtrack)",
     "label": "Ghostly International",
     "releaseDate": "2025-06-10",
-    "description": "",
+    "description": "Casey MQ's score for The Heirloom lands on Ghostly across sixteen cues, the Toronto composer's piano-and-voice instincts pressed into film-length form. Closer to the chamber end of the label's roster than the club one.",
     "tags": [
       "stage & screen"
     ],
@@ -25569,7 +25801,7 @@
     "title": "Useza",
     "label": "Nyege Nyege Tapes",
     "releaseDate": "2025-06-06",
-    "description": "",
+    "description": "Six pieces of Zimbabwean mbira music documented by Nyege Nyege Tapes, the Kampala label continuing its broader survey of East and Southern African traditions. Plays well next to anything from the Hakuna Kulala side of the catalogue if you want a pointer.",
     "tags": [
       "electronic"
     ],
@@ -25604,7 +25836,7 @@
     "title": "Flow EP",
     "label": "Lapsus Music",
     "releaseDate": "2025-06-06",
-    "description": "",
+    "description": "Three tracks of functional tech house from the Italian producer, landing on Lapsus Music where this kind of clean, club-facing groove has always been the house style. Tool music, sequenced for the back half of a set.",
     "tags": [
       "electronic"
     ],
