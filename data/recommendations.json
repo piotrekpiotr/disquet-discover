@@ -36,6 +36,35 @@
     ]
   },
   {
+    "id": "kaitlyn-aurelia-smith-ruin-it-39-s-not-just-music",
+    "type": "album",
+    "artist": "Kaitlyn Aurelia Smith",
+    "title": "RUIN: It&#39;s Not Just Music",
+    "label": "",
+    "releaseDate": "2026-10-02",
+    "description": "Kaitlyn Aurelia Smith continues her run of Buchla-led composition, here under the RUIN banner. Expect the patient, vowel-shaped synthesis she has worked in since Ears, framed as something more than a record per the title.",
+    "tags": [],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=Kaitlyn%20Aurelia%20Smith%20RUIN%3A%20It%26%2339%3Bs%20Not%20Just%20Music&item_type=a",
+      "spotify": "https://open.spotify.com/search/Kaitlyn%20Aurelia%20Smith%20RUIN%3A%20It%26%2339%3Bs%20Not%20Just%20Music",
+      "soundcloud": "https://soundcloud.com/search?q=Kaitlyn%20Aurelia%20Smith%20RUIN%3A%20It%26%2339%3Bs%20Not%20Just%20Music",
+      "youtube": "https://www.youtube.com/results?search_query=Kaitlyn%20Aurelia%20Smith%20RUIN%3A%20It%26%2339%3Bs%20Not%20Just%20Music"
+    },
+    "embed": null,
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": null,
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": [
+      "stereogum"
+    ]
+  },
+  {
     "id": "romare-oblivion",
     "type": "album",
     "artist": "Romare",
@@ -56,6 +85,33 @@
       "src": "https://embed.music.apple.com/us/album/1893607461?theme=light",
       "height": 450
     },
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": null,
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
+    "id": "amelie-lens-aura",
+    "type": "album",
+    "artist": "Amelie Lens",
+    "title": "Aura",
+    "label": "",
+    "releaseDate": "2026-09-04",
+    "description": "Lens in long-form mode, the Belgian techno headliner stretching her usual peak-time vocabulary across an album rather than a 12\". Expect the propulsive, vocal-streaked rave palette she has been refining through Lenske, sequenced for sit-down listening.",
+    "tags": [],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=Amelie%20Lens%20Aura&item_type=a",
+      "spotify": "https://open.spotify.com/search/Amelie%20Lens%20Aura",
+      "soundcloud": "https://soundcloud.com/search?q=Amelie%20Lens%20Aura",
+      "youtube": "https://www.youtube.com/results?search_query=Amelie%20Lens%20Aura"
+    },
+    "embed": null,
     "musicVideoUrl": null,
     "status": "pending",
     "approvedAt": null,
@@ -447,6 +503,33 @@
     "pressMentions": []
   },
   {
+    "id": "noon-rowing-my-boat",
+    "type": "album",
+    "artist": "Noon",
+    "title": "Rowing My Boat",
+    "label": "",
+    "releaseDate": "2026-06-12",
+    "description": "Noon turns up with a full-length called Rowing My Boat, label and tracklist still under wraps as of writing. Worth a flag for anyone tracking the project; the rest will have to be heard rather than read.",
+    "tags": [],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=Noon%20Rowing%20My%20Boat&item_type=a",
+      "spotify": "https://open.spotify.com/search/Noon%20Rowing%20My%20Boat",
+      "soundcloud": "https://soundcloud.com/search?q=Noon%20Rowing%20My%20Boat",
+      "youtube": "https://www.youtube.com/results?search_query=Noon%20Rowing%20My%20Boat"
+    },
+    "embed": null,
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": null,
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
     "id": "lyra-pramuk-hymnal-resung",
     "type": "ep",
     "artist": "Lyra Pramuk",
@@ -671,6 +754,33 @@
     "status": "pending",
     "approvedAt": null,
     "coverImageUrl": "https://i.discogs.com/XmfovqCUK5E8sDubG99uP0RVNEdsNfiiWiuzuctT6x8/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM3Mzc3/MDg0LTE3NzkxMjU5/NjAtOTU1OC5qcGVn.jpeg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
+    "id": "darkside-quasi-come-prima-feat-deddo",
+    "type": "album",
+    "artist": "Darkside",
+    "title": "Quasi come prima (feat. Deddo)",
+    "label": "",
+    "releaseDate": "2026-06-05",
+    "description": "Darkside in collaboration mode, with Deddo credited on the front, which puts this somewhere off the usual Nicolas Jaar / Dave Harrington axis of woozy psych-rock and patient electronics. Worth a listen for anyone who stayed with Spiral.",
+    "tags": [],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=Darkside%20Quasi%20come%20prima%20(feat.%20Deddo)&item_type=a",
+      "spotify": "https://open.spotify.com/search/Darkside%20Quasi%20come%20prima%20(feat.%20Deddo)",
+      "soundcloud": "https://soundcloud.com/search?q=Darkside%20Quasi%20come%20prima%20(feat.%20Deddo)",
+      "youtube": "https://www.youtube.com/results?search_query=Darkside%20Quasi%20come%20prima%20(feat.%20Deddo)"
+    },
+    "embed": null,
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": null,
     "cover": {
       "bg": "#111110",
       "fg": "#f2efe8",
@@ -1171,6 +1281,143 @@
     "pressMentions": []
   },
   {
+    "id": "tercet-imperial-prymat",
+    "type": "album",
+    "artist": "Tercet Imperial",
+    "title": "Prymat",
+    "label": "Instant Classic",
+    "releaseDate": "2026-05-22",
+    "description": "Tercet Imperial land on Instant Classic with a full-length that sits across the folk/electronic seam the Warsaw label has been working for years. Twelve tracks pressed to a single 12\", shelve near the more acoustic end of the roster.",
+    "tags": [
+      "electronic"
+    ],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=Tercet%20Imperial%20Prymat&item_type=a",
+      "spotify": "https://open.spotify.com/search/Tercet%20Imperial%20Prymat",
+      "soundcloud": "https://soundcloud.com/search?q=Tercet%20Imperial%20Prymat",
+      "youtube": "https://www.youtube.com/results?search_query=Tercet%20Imperial%20Prymat",
+      "deezer": "https://www.deezer.com/album/982772451",
+      "apple": "https://music.apple.com/us/album/prymat/6769414918?uo=4"
+    },
+    "embed": {
+      "provider": "apple",
+      "src": "https://embed.music.apple.com/us/album/6769414918?theme=light",
+      "height": 450
+    },
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://i.discogs.com/GhkKtXnztMJYaORCGnuIVaLJ7Qw1RdSEiv_fZf-lIvc/rs:fit/g:sm/q:90/h:600/w:594/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM3NDI0/MjQ3LTE3Nzk1NzEy/NDgtODEwMC5qcGVn.jpeg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
+    "id": "francois-bayle-jeita-ou-murmure-des-eaux",
+    "type": "album",
+    "artist": "François Bayle",
+    "title": "Jeîta Ou Murmure Des Eaux",
+    "label": "Recollection GRM",
+    "releaseDate": "2026-05-22",
+    "description": "Philips returns to Bayle's Lebanese cave piece, seventeen short movements of dripping water and tape manipulation from the GRM lineage. Essential shelving for anyone deep in Parmegiani or Henry.",
+    "tags": [
+      "electronic"
+    ],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=Fran%C3%A7ois%20Bayle%20Je%C3%AEta%20Ou%20Murmure%20Des%20Eaux&item_type=a",
+      "spotify": "https://open.spotify.com/search/Fran%C3%A7ois%20Bayle%20Je%C3%AEta%20Ou%20Murmure%20Des%20Eaux",
+      "soundcloud": "https://soundcloud.com/search?q=Fran%C3%A7ois%20Bayle%20Je%C3%AEta%20Ou%20Murmure%20Des%20Eaux",
+      "youtube": "https://www.youtube.com/results?search_query=Fran%C3%A7ois%20Bayle%20Je%C3%AEta%20Ou%20Murmure%20Des%20Eaux",
+      "deezer": "https://www.deezer.com/album/927423941",
+      "apple": "https://music.apple.com/us/album/je%C3%AEta-ou-murmure-des-eaux/1880172583?uo=4"
+    },
+    "embed": {
+      "provider": "apple",
+      "src": "https://embed.music.apple.com/us/album/1880172583?theme=light",
+      "height": 450
+    },
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://i.discogs.com/KflKtz-L8840QPWR5rHNg4YIBYUTshE-cqQRYDVu-24/rs:fit/g:sm/q:90/h:590/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM3NDEx/OTQ0LTE3Nzk0NTc2/NDItNDIyOC5qcGVn.jpeg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
+    "id": "jpegmafia-experimental-rap",
+    "type": "album",
+    "artist": "Jpegmafia",
+    "title": "EXPERIMENTAL RAP",
+    "label": "",
+    "releaseDate": "2026-05-21",
+    "description": "Peggy in album mode again, with a title that doubles as a thesis statement and dares you to take it at face value. Whatever shape it takes, expect the usual self-produced collisions and a tracklist that won't sit still.",
+    "tags": [],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=Jpegmafia%20EXPERIMENTAL%20RAP&item_type=a",
+      "spotify": "https://open.spotify.com/search/Jpegmafia%20EXPERIMENTAL%20RAP",
+      "soundcloud": "https://soundcloud.com/search?q=Jpegmafia%20EXPERIMENTAL%20RAP",
+      "youtube": "https://www.youtube.com/results?search_query=Jpegmafia%20EXPERIMENTAL%20RAP",
+      "deezer": "https://www.deezer.com/album/957463161"
+    },
+    "embed": {
+      "provider": "deezer",
+      "src": "https://widget.deezer.com/widget/light/album/957463161",
+      "height": 300
+    },
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://cdn-images.dzcdn.net/images/cover/b947d1b723d857aa458a4a2d6abc2347/1000x1000-000000-80-0-0.jpg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": [
+      "stereogum"
+    ]
+  },
+  {
+    "id": "lowra-you",
+    "type": "album",
+    "artist": "Lowra",
+    "title": "You",
+    "label": "",
+    "releaseDate": "2026-05-21",
+    "description": "Lowra returns with a full-length called You, label unannounced as of writing. Sparse metadata for now, worth a watch closer to the May date.",
+    "tags": [],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=Lowra%20You&item_type=a",
+      "spotify": "https://open.spotify.com/search/Lowra%20You",
+      "soundcloud": "https://soundcloud.com/search?q=Lowra%20You",
+      "youtube": "https://www.youtube.com/results?search_query=Lowra%20You",
+      "deezer": "https://www.deezer.com/album/976979501",
+      "apple": "https://music.apple.com/us/album/you-single/6766913849?uo=4"
+    },
+    "embed": {
+      "provider": "apple",
+      "src": "https://embed.music.apple.com/us/album/6766913849?theme=light",
+      "height": 450
+    },
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": null,
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
     "id": "moin-pace-pe-pamant",
     "type": "album",
     "artist": "Moin",
@@ -1289,6 +1536,40 @@
       "motif": "disc"
     },
     "pressMentions": []
+  },
+  {
+    "id": "jpegmafia-money",
+    "type": "single",
+    "artist": "Jpegmafia",
+    "title": "$ (Money)",
+    "label": "EQT Recordings",
+    "releaseDate": "2026-05-20",
+    "description": "Peggy in single mode on his own EQT imprint, leaning further into the cloud-rap edge of his palette rather than the abrasive one. One track, self-released, of a piece with the leaks-as-singles cadence he has been running for years.",
+    "tags": [],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=Jpegmafia%20%24%20(Money)&item_type=a",
+      "spotify": "https://open.spotify.com/search/Jpegmafia%20%24%20(Money)",
+      "soundcloud": "https://soundcloud.com/search?q=Jpegmafia%20%24%20(Money)",
+      "youtube": "https://www.youtube.com/results?search_query=Jpegmafia%20%24%20(Money)",
+      "deezer": "https://www.deezer.com/album/957980101"
+    },
+    "embed": {
+      "provider": "deezer",
+      "src": "https://widget.deezer.com/widget/light/album/957980101",
+      "height": 300
+    },
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://cdn-images.dzcdn.net/images/cover/f8a8537d1803231881a41fece7ab9e16/1000x1000-000000-80-0-0.jpg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": [
+      "stereogum"
+    ]
   },
   {
     "id": "dismiss-lost-transmissions-1995-1996",
@@ -1486,6 +1767,33 @@
     "status": "pending",
     "approvedAt": null,
     "coverImageUrl": "https://i.discogs.com/T5-octqaXdn3-M3mKF2nTdtOQKP3m01pvVexSzjRaWM/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM3NDA4/NzA3LTE3Nzk0Mjc2/NDItNjYyNS5qcGVn.jpeg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
+    "id": "malibu-united-in-flames-18-05-2026",
+    "type": "album",
+    "artist": "Malibu",
+    "title": "United in Flames 18/05/2026",
+    "label": "",
+    "releaseDate": "2026-05-18",
+    "description": "Malibu returns to her own foggy, lovelorn corner of ambient, the same emotional register that ran through One Life and her Yves Tumor collaborations. Headphone listening for anyone still working through Palm Songs.",
+    "tags": [],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=Malibu%20United%20in%20Flames%2018%2F05%2F2026&item_type=a",
+      "spotify": "https://open.spotify.com/search/Malibu%20United%20in%20Flames%2018%2F05%2F2026",
+      "soundcloud": "https://soundcloud.com/search?q=Malibu%20United%20in%20Flames%2018%2F05%2F2026",
+      "youtube": "https://www.youtube.com/results?search_query=Malibu%20United%20in%20Flames%2018%2F05%2F2026"
+    },
+    "embed": null,
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": null,
     "cover": {
       "bg": "#111110",
       "fg": "#f2efe8",
@@ -2155,6 +2463,33 @@
     "status": "pending",
     "approvedAt": null,
     "coverImageUrl": "https://i.discogs.com/R-wLW87LPCTK38kcEoY9Pfdv4eMy_HdOzV7ZduxzK0c/rs:fit/g:sm/q:90/h:600/w:599/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM3Mzky/MjA0LTE3NzkyNzY3/MzgtOTY2MC5wbmc.jpeg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
+    "id": "colour-haze-black-keys",
+    "type": "album",
+    "artist": "Colour Haze",
+    "title": "Black Keys",
+    "label": "",
+    "releaseDate": "2026-05-15",
+    "description": "Long-running Munich trio known for warm, fuzzed-out psych rock in the Colour Haze mould, the kind of guitar tone people still cite when arguing about valve amps. File alongside My Sleeping Karma.",
+    "tags": [],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=Colour%20Haze%20Black%20Keys&item_type=a",
+      "spotify": "https://open.spotify.com/search/Colour%20Haze%20Black%20Keys",
+      "soundcloud": "https://soundcloud.com/search?q=Colour%20Haze%20Black%20Keys",
+      "youtube": "https://www.youtube.com/results?search_query=Colour%20Haze%20Black%20Keys"
+    },
+    "embed": null,
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": null,
     "cover": {
       "bg": "#111110",
       "fg": "#f2efe8",
@@ -16405,6 +16740,40 @@
     "pressMentions": []
   },
   {
+    "id": "americania-saludos-de-americana",
+    "type": "album",
+    "artist": "Americania",
+    "title": "Saludos de Americana.",
+    "label": "Not On Label",
+    "releaseDate": "2026-01-01",
+    "description": "Twelve tracks of self-released alt-pop from Americania, landing without label support on a 2026 LP pressing. Files this one under postcard pop with a chip on its shoulder.",
+    "tags": [
+      "pop"
+    ],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=Americania%20Saludos%20de%20Americana.&item_type=a",
+      "spotify": "https://open.spotify.com/search/Americania%20Saludos%20de%20Americana.",
+      "soundcloud": "https://soundcloud.com/search?q=Americania%20Saludos%20de%20Americana.",
+      "youtube": "https://www.youtube.com/results?search_query=Americania%20Saludos%20de%20Americana.",
+      "deezer": "https://www.deezer.com/album/942420191"
+    },
+    "embed": {
+      "provider": "deezer",
+      "src": "https://widget.deezer.com/widget/light/album/942420191",
+      "height": 300
+    },
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://i.discogs.com/kQNQ1jcIZ8a5EdFgXlerQ98GojWM6pBvpM4K_uxDu2I/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM3NDI0/Njc2LTE3Nzk1NzQw/NTEtOTc0My5qcGVn.jpeg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
     "id": "tim-maia-racional-vol-1",
     "type": "album",
     "artist": "Tim Maia",
@@ -25865,7 +26234,7 @@
     "title": "Second",
     "label": "Balmat",
     "releaseDate": "2025-06-06",
-    "description": "",
+    "description": "Vitiello's electroacoustic drift meets the rhythm section instincts of Canty (Fugazi) and Hahn Rowe, eight tracks that sit closer to slow post-rock than to pure ambient. A good fit for Balmat's quieter end; shelve near Loscil.",
     "tags": [
       "electronic"
     ],
@@ -25899,7 +26268,7 @@
     "title": "The Lost Tape Vol. 3",
     "label": "Rhythm Section International",
     "releaseDate": "2025-06-06",
-    "description": "",
+    "description": "Twenty tracks of DC's dreamcastmoe in mixtape mode for Rhythm Section, his loose, smoke-warped soul still rubbing up against rap cadences. Less a studio statement than an unspooled notebook, which is the point.",
     "tags": [
       "hip hop"
     ],
@@ -25933,7 +26302,7 @@
     "title": "Faith",
     "label": "Peak Oil",
     "releaseDate": "2025-06-06",
-    "description": "",
+    "description": "Purelink stay in their Chicago lane on Peak Oil, six tracks of weightless ambient dub where the rhythm feels more implied than played. For anyone still working through Signs.",
     "tags": [
       "electronic"
     ],
@@ -27828,7 +28197,8 @@
       "soundcloud": "https://soundcloud.com/search?q=Pye%20Corner%20Audio%20Where%20Things%20Are%20Hollow%3A%20No%20Tomorrow",
       "youtube": "https://www.youtube.com/results?search_query=Pye%20Corner%20Audio%20Where%20Things%20Are%20Hollow%3A%20No%20Tomorrow",
       "deezer": "https://www.deezer.com/album/678908871",
-      "apple": "https://music.apple.com/us/album/where-things-are-hollow-no-tomorrow/1783525344?uo=4"
+      "apple": "https://music.apple.com/us/album/where-things-are-hollow-no-tomorrow/1783525344?uo=4",
+      "tidal": "https://tidal.com/album/403372565"
     },
     "embed": {
       "provider": "apple",
@@ -27920,7 +28290,8 @@
       "spotify": "https://open.spotify.com/search/Hinode%20Tapes%2C%20Hiroki%20Chiba%20Ita",
       "soundcloud": "https://soundcloud.com/search?q=Hinode%20Tapes%2C%20Hiroki%20Chiba%20Ita",
       "youtube": "https://www.youtube.com/results?search_query=Hinode%20Tapes%2C%20Hiroki%20Chiba%20Ita",
-      "apple": "https://music.apple.com/us/album/ita/1810245830?uo=4"
+      "apple": "https://music.apple.com/us/album/ita/1810245830?uo=4",
+      "tidal": "https://tidal.com/album/431763587"
     },
     "embed": {
       "provider": "apple",
@@ -27954,7 +28325,8 @@
       "spotify": "https://open.spotify.com/search/Hinode%20Tapes%20%26%20Hiroki%20Chiba%20Ita",
       "soundcloud": "https://soundcloud.com/search?q=Hinode%20Tapes%20%26%20Hiroki%20Chiba%20Ita",
       "youtube": "https://www.youtube.com/results?search_query=Hinode%20Tapes%20%26%20Hiroki%20Chiba%20Ita",
-      "apple": "https://music.apple.com/us/album/ita/1810245830?uo=4"
+      "apple": "https://music.apple.com/us/album/ita/1810245830?uo=4",
+      "tidal": "https://tidal.com/album/431763587"
     },
     "embed": {
       "provider": "apple",
@@ -27988,7 +28360,8 @@
       "spotify": "https://open.spotify.com/search/Xenia%20Reaper%20Gambling",
       "soundcloud": "https://soundcloud.com/search?q=Xenia%20Reaper%20Gambling",
       "youtube": "https://www.youtube.com/results?search_query=Xenia%20Reaper%20Gambling",
-      "apple": "https://music.apple.com/us/album/gambling/1806568831?uo=4"
+      "apple": "https://music.apple.com/us/album/gambling/1806568831?uo=4",
+      "tidal": "https://tidal.com/album/427898844"
     },
     "embed": {
       "provider": "apple",
@@ -28022,7 +28395,8 @@
       "spotify": "https://open.spotify.com/search/Salami%20Rose%20Joe%20Louis%20Lorings",
       "soundcloud": "https://soundcloud.com/search?q=Salami%20Rose%20Joe%20Louis%20Lorings",
       "youtube": "https://www.youtube.com/results?search_query=Salami%20Rose%20Joe%20Louis%20Lorings",
-      "deezer": "https://www.deezer.com/album/715690781"
+      "deezer": "https://www.deezer.com/album/715690781",
+      "tidal": "https://tidal.com/album/418979287"
     },
     "embed": {
       "provider": "deezer",
@@ -28056,7 +28430,8 @@
       "spotify": "https://open.spotify.com/search/Light-Space%20Modulator%20The%20Rising%20Wave",
       "soundcloud": "https://soundcloud.com/search?q=Light-Space%20Modulator%20The%20Rising%20Wave",
       "youtube": "https://www.youtube.com/results?search_query=Light-Space%20Modulator%20The%20Rising%20Wave",
-      "apple": "https://music.apple.com/us/album/the-rising-wave/1797626421?uo=4"
+      "apple": "https://music.apple.com/us/album/the-rising-wave/1797626421?uo=4",
+      "tidal": "https://tidal.com/album/419254268"
     },
     "embed": {
       "provider": "apple",
@@ -28090,7 +28465,8 @@
       "spotify": "https://open.spotify.com/search/Eliana%20Glass%20E",
       "soundcloud": "https://soundcloud.com/search?q=Eliana%20Glass%20E",
       "youtube": "https://www.youtube.com/results?search_query=Eliana%20Glass%20E",
-      "apple": "https://music.apple.com/us/album/e/1790880741?uo=4"
+      "apple": "https://music.apple.com/us/album/e/1790880741?uo=4",
+      "tidal": "https://tidal.com/album/412046838"
     },
     "embed": {
       "provider": "apple",
@@ -28158,7 +28534,8 @@
       "spotify": "https://open.spotify.com/search/Djrum%20Under%20Tangled%20Silence",
       "soundcloud": "https://soundcloud.com/search?q=Djrum%20Under%20Tangled%20Silence",
       "youtube": "https://www.youtube.com/results?search_query=Djrum%20Under%20Tangled%20Silence",
-      "apple": "https://music.apple.com/us/album/under-tangled-silence/1798265319?uo=4"
+      "apple": "https://music.apple.com/us/album/under-tangled-silence/1798265319?uo=4",
+      "tidal": "https://tidal.com/album/420061322"
     },
     "embed": {
       "provider": "apple",
@@ -28221,7 +28598,8 @@
       "spotify": "https://open.spotify.com/search/HTRK%20Rhinestones",
       "soundcloud": "https://soundcloud.com/search?q=HTRK%20Rhinestones",
       "youtube": "https://www.youtube.com/results?search_query=HTRK%20Rhinestones",
-      "deezer": "https://www.deezer.com/album/620928681"
+      "deezer": "https://www.deezer.com/album/620928681",
+      "tidal": "https://tidal.com/album/377664615"
     },
     "embed": {
       "provider": "deezer",
@@ -28255,7 +28633,8 @@
       "spotify": "https://open.spotify.com/search/Nazar%20(6)%20Demilitarize",
       "soundcloud": "https://soundcloud.com/search?q=Nazar%20(6)%20Demilitarize",
       "youtube": "https://www.youtube.com/results?search_query=Nazar%20(6)%20Demilitarize",
-      "apple": "https://music.apple.com/us/album/demilitarize/1795992061?uo=4"
+      "apple": "https://music.apple.com/us/album/demilitarize/1795992061?uo=4",
+      "tidal": "https://tidal.com/album/417581405"
     },
     "embed": {
       "provider": "apple",
@@ -28318,7 +28697,8 @@
       "spotify": "https://open.spotify.com/search/Skee%20Mask%20Stressmanagement",
       "soundcloud": "https://soundcloud.com/search?q=Skee%20Mask%20Stressmanagement",
       "youtube": "https://www.youtube.com/results?search_query=Skee%20Mask%20Stressmanagement",
-      "apple": "https://music.apple.com/us/album/stressmanagement-ep/1813427210?uo=4"
+      "apple": "https://music.apple.com/us/album/stressmanagement-ep/1813427210?uo=4",
+      "tidal": "https://tidal.com/album/435011694"
     },
     "embed": {
       "provider": "apple",
@@ -28352,7 +28732,8 @@
       "spotify": "https://open.spotify.com/search/The%20Narrator%20(9)%20Thingness%20Vol.%201",
       "soundcloud": "https://soundcloud.com/search?q=The%20Narrator%20(9)%20Thingness%20Vol.%201",
       "youtube": "https://www.youtube.com/results?search_query=The%20Narrator%20(9)%20Thingness%20Vol.%201",
-      "apple": "https://music.apple.com/us/album/thingness-vol-1/1893373662?uo=4"
+      "apple": "https://music.apple.com/us/album/thingness-vol-1/1893373662?uo=4",
+      "tidal": "https://tidal.com/album/515576034"
     },
     "embed": {
       "provider": "apple",
@@ -28416,7 +28797,8 @@
       "soundcloud": "https://soundcloud.com/search?q=Shell%20Company%20%26%20Older%20Brother%20Shards",
       "youtube": "https://www.youtube.com/results?search_query=Shell%20Company%20%26%20Older%20Brother%20Shards",
       "deezer": "https://www.deezer.com/album/736984311",
-      "apple": "https://music.apple.com/us/album/shards-ep/1810224842?uo=4"
+      "apple": "https://music.apple.com/us/album/shards-ep/1810224842?uo=4",
+      "tidal": "https://tidal.com/album/427755201"
     },
     "embed": {
       "provider": "apple",
@@ -28451,7 +28833,8 @@
       "soundcloud": "https://soundcloud.com/search?q=Ursula%20Sereghy%20Cordial",
       "youtube": "https://www.youtube.com/results?search_query=Ursula%20Sereghy%20Cordial",
       "deezer": "https://www.deezer.com/album/722717191",
-      "apple": "https://music.apple.com/us/album/cordial/1800249760?uo=4"
+      "apple": "https://music.apple.com/us/album/cordial/1800249760?uo=4",
+      "tidal": "https://tidal.com/album/422061583"
     },
     "embed": {
       "provider": "apple",
@@ -28485,7 +28868,8 @@
       "spotify": "https://open.spotify.com/search/quickly%2C%20quickly%20I%20Heard%20That%20Noise",
       "soundcloud": "https://soundcloud.com/search?q=quickly%2C%20quickly%20I%20Heard%20That%20Noise",
       "youtube": "https://www.youtube.com/results?search_query=quickly%2C%20quickly%20I%20Heard%20That%20Noise",
-      "apple": "https://music.apple.com/us/album/i-heard-that-noise/1783411803?uo=4"
+      "apple": "https://music.apple.com/us/album/i-heard-that-noise/1783411803?uo=4",
+      "tidal": "https://tidal.com/album/403704228"
     },
     "embed": {
       "provider": "apple",
@@ -28520,7 +28904,8 @@
       "soundcloud": "https://soundcloud.com/search?q=Hieroglyphic%20Being%20Dance%20Music%204%20Bad%20People",
       "youtube": "https://www.youtube.com/results?search_query=Hieroglyphic%20Being%20Dance%20Music%204%20Bad%20People",
       "deezer": "https://www.deezer.com/album/702707801",
-      "apple": "https://music.apple.com/us/album/dance-music-4-bad-people/1792436986?uo=4"
+      "apple": "https://music.apple.com/us/album/dance-music-4-bad-people/1792436986?uo=4",
+      "tidal": "https://tidal.com/album/413631110"
     },
     "embed": {
       "provider": "apple",
@@ -28555,7 +28940,8 @@
       "soundcloud": "https://soundcloud.com/search?q=Ash%20Fure%20Animal",
       "youtube": "https://www.youtube.com/results?search_query=Ash%20Fure%20Animal",
       "deezer": "https://www.deezer.com/album/750493241",
-      "apple": "https://music.apple.com/us/album/animal/1811835252?uo=4"
+      "apple": "https://music.apple.com/us/album/animal/1811835252?uo=4",
+      "tidal": "https://tidal.com/album/433305483"
     },
     "embed": {
       "provider": "apple",
@@ -28588,7 +28974,8 @@
       "soundcloud": "https://soundcloud.com/search?q=Quade%20The%20Foel%20Tower",
       "youtube": "https://www.youtube.com/results?search_query=Quade%20The%20Foel%20Tower",
       "deezer": "https://www.deezer.com/album/707835731",
-      "apple": "https://music.apple.com/us/album/the-foel-tower/1794348858?uo=4"
+      "apple": "https://music.apple.com/us/album/the-foel-tower/1794348858?uo=4",
+      "tidal": "https://tidal.com/album/415667031"
     },
     "embed": {
       "provider": "apple",
