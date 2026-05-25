@@ -8163,7 +8163,8 @@
       "PAN"
     ],
     "titleExamples": [
-      "Saludos de Americana."
+      "Saludos de Americana.",
+      "Saludos de Americania"
     ]
   },
   "François Bayle": {
@@ -8172,6 +8173,32 @@
     ],
     "titleExamples": [
       "Jeîta Ou Murmure Des Eaux"
+    ]
+  },
+  "Muadeep": {
+    "seenOn": [
+      "YUKU"
+    ],
+    "titleExamples": [
+      "Formido Linguae",
+      "Darker Than Illusions",
+      "Echoes Of Fury"
+    ]
+  },
+  "Artisoma": {
+    "seenOn": [
+      "YUKU"
+    ],
+    "titleExamples": [
+      "Pulse Box"
+    ]
+  },
+  "Baauer": {
+    "seenOn": [
+      "LuckyMe"
+    ],
+    "titleExamples": [
+      "Supersonic / U Give Me Love"
     ]
   }
 }

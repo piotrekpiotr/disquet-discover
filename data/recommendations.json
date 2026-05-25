@@ -975,6 +975,41 @@
     "pressMentions": []
   },
   {
+    "id": "andrea-sleepless-night",
+    "type": "single",
+    "artist": "Andrea",
+    "title": "Sleepless Night",
+    "label": "Andrea",
+    "releaseDate": "2026-05-23",
+    "description": "Two pieces of ambient experimental work for taâlem, the long-running French micro-label whose 3\" CDr series has quietly catalogued this corner of the music for decades. Numbered and limited, as the format demands.",
+    "tags": [
+      "alternative"
+    ],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=Andrea%20Sleepless%20Night&item_type=a",
+      "spotify": "https://open.spotify.com/search/Andrea%20Sleepless%20Night",
+      "soundcloud": "https://soundcloud.com/search?q=Andrea%20Sleepless%20Night",
+      "youtube": "https://www.youtube.com/results?search_query=Andrea%20Sleepless%20Night",
+      "apple": "https://music.apple.com/us/album/sleepless-night-single/1895363634",
+      "deezer": "https://www.deezer.com/album/968704391"
+    },
+    "embed": {
+      "provider": "apple",
+      "src": "https://embed.music.apple.com/us/album/1895363634?theme=light",
+      "height": 450
+    },
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/f0/2c/47/f02c47b9-71c4-6f5e-4fbf-dbfed1ccd35f/3667007234295_cover.jpg/600x600bb.jpg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
     "id": "visible-cloaks-paradessence",
     "type": "album",
     "artist": "Visible Cloaks",
@@ -1080,7 +1115,7 @@
     "type": "album",
     "artist": "fakemink",
     "title": "Terrified .",
-    "label": "",
+    "label": "Artist Partner Group, Inc.",
     "releaseDate": "2026-05-22",
     "description": "Self-released full-length from fakemink with no label attached and no copy to lean on, arriving cold. Worth a listen on the strength of the name alone if their earlier uploads are anything to go by.",
     "tags": [],
@@ -1449,7 +1484,7 @@
     "type": "single",
     "artist": "Baauer",
     "title": "Supersonic/U Give Me Love",
-    "label": "",
+    "label": "LuckyMe",
     "releaseDate": "2026-05-20",
     "description": "Two-tracker from Baauer, the trap-adjacent producer whose ear for blown-out low end and cartoonish drum work has stayed legible long past the Harlem Shake moment. File alongside the louder end of LuckyMe.",
     "tags": [],
@@ -1570,6 +1605,40 @@
     "pressMentions": [
       "stereogum"
     ]
+  },
+  {
+    "id": "baauer-supersonic-u-give-me-love-l",
+    "type": "single",
+    "artist": "Baauer",
+    "title": "Supersonic / U Give Me Love",
+    "label": "LuckyMe",
+    "releaseDate": "2026-05-20",
+    "description": "Two-tracker from Baauer back on LuckyMe, splitting the difference between house build and breakbeat snap. Built for the bigger rooms but at home next to Hudson Mohawke on the shelf.",
+    "tags": [
+      "electronic"
+    ],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=Baauer%20Supersonic%20%2F%20U%20Give%20Me%20Love&item_type=a",
+      "spotify": "https://open.spotify.com/search/Baauer%20Supersonic%20%2F%20U%20Give%20Me%20Love",
+      "soundcloud": "https://soundcloud.com/search?q=Baauer%20Supersonic%20%2F%20U%20Give%20Me%20Love",
+      "youtube": "https://www.youtube.com/results?search_query=Baauer%20Supersonic%20%2F%20U%20Give%20Me%20Love",
+      "deezer": "https://www.deezer.com/album/953302381"
+    },
+    "embed": {
+      "provider": "deezer",
+      "src": "https://widget.deezer.com/widget/light/album/953302381",
+      "height": 300
+    },
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://i.discogs.com/lUxVEkfrqsjh1usinQTjkW3Fyj-sPXqM2cr2muXoDo0/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM3NDM1/ODU3LTE3Nzk2OTM5/MjQtODY2OC5qcGVn.jpeg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
   },
   {
     "id": "dismiss-lost-transmissions-1995-1996",
@@ -10566,7 +10635,8 @@
       "spotify": "https://open.spotify.com/search/Bon%20Iver%20Volumes%20One%20(Selections%20From%20Music%20Concerts%202019-2023%20Bon%20Iver%206%20Piece%20Band)",
       "soundcloud": "https://soundcloud.com/search?q=Bon%20Iver%20Volumes%20One%20(Selections%20From%20Music%20Concerts%202019-2023%20Bon%20Iver%206%20Piece%20Band)",
       "youtube": "https://www.youtube.com/results?search_query=Bon%20Iver%20Volumes%20One%20(Selections%20From%20Music%20Concerts%202019-2023%20Bon%20Iver%206%20Piece%20Band)",
-      "deezer": "https://www.deezer.com/album/912670461"
+      "deezer": "https://www.deezer.com/album/912670461",
+      "tidal": "https://tidal.com/album/496281222"
     },
     "embed": {
       "provider": "deezer",
@@ -10655,7 +10725,8 @@
       "spotify": "https://open.spotify.com/search/Arlo%20Parks%20Ambiguous%20Desire",
       "soundcloud": "https://soundcloud.com/search?q=Arlo%20Parks%20Ambiguous%20Desire",
       "youtube": "https://www.youtube.com/results?search_query=Arlo%20Parks%20Ambiguous%20Desire",
-      "apple": "https://music.apple.com/us/album/ambiguous-desire/1862570378?uo=4"
+      "apple": "https://music.apple.com/us/album/ambiguous-desire/1862570378?uo=4",
+      "tidal": "https://tidal.com/album/511014665"
     },
     "embed": {
       "provider": "apple",
@@ -10781,7 +10852,8 @@
       "bandcamp": "https://maxcooper.bandcamp.com/track/ebb-and-flow",
       "spotify": "https://open.spotify.com/search/Max%20Cooper%20Ebb%20And%20Flow",
       "soundcloud": "https://soundcloud.com/search?q=Max%20Cooper%20Ebb%20And%20Flow",
-      "youtube": "https://www.youtube.com/results?search_query=Max%20Cooper%20Ebb%20And%20Flow"
+      "youtube": "https://www.youtube.com/results?search_query=Max%20Cooper%20Ebb%20And%20Flow",
+      "tidal": "https://tidal.com/album/497480881"
     },
     "embed": {
       "provider": "apple",
@@ -10814,7 +10886,8 @@
       "spotify": "https://open.spotify.com/search/Mammo%20(2)%20Lateral",
       "soundcloud": "https://soundcloud.com/search?q=Mammo%20(2)%20Lateral",
       "youtube": "https://www.youtube.com/results?search_query=Mammo%20(2)%20Lateral",
-      "apple": "https://music.apple.com/us/album/lateral/1878945840?uo=4"
+      "apple": "https://music.apple.com/us/album/lateral/1878945840?uo=4",
+      "tidal": "https://tidal.com/album/501811124"
     },
     "embed": {
       "provider": "apple",
@@ -10847,7 +10920,8 @@
       "spotify": "https://open.spotify.com/search/Kensuke%20Ushio%20Chainsaw%20Man%20The%20Movie%3A%20Reze%20Arc%20Original%20Soundtrack%20-%20Summer's%20End%20-",
       "soundcloud": "https://soundcloud.com/search?q=Kensuke%20Ushio%20Chainsaw%20Man%20The%20Movie%3A%20Reze%20Arc%20Original%20Soundtrack%20-%20Summer's%20End%20-",
       "youtube": "https://www.youtube.com/results?search_query=Kensuke%20Ushio%20Chainsaw%20Man%20The%20Movie%3A%20Reze%20Arc%20Original%20Soundtrack%20-%20Summer's%20End%20-",
-      "apple": "https://music.apple.com/us/album/chainsaw-man-the-movie-reze-arc-original-soundtrack/1837521647?uo=4"
+      "apple": "https://music.apple.com/us/album/chainsaw-man-the-movie-reze-arc-original-soundtrack/1837521647?uo=4",
+      "tidal": "https://tidal.com/album/458258734"
     },
     "embed": {
       "provider": "apple",
@@ -10908,7 +10982,8 @@
       "spotify": "https://open.spotify.com/search/Scotch%20Rolex*%2C%20Shackleton%20%26%20Omutaba%20The%20III%20Hands%20Of%20Doom",
       "soundcloud": "https://soundcloud.com/search?q=Scotch%20Rolex*%2C%20Shackleton%20%26%20Omutaba%20The%20III%20Hands%20Of%20Doom",
       "youtube": "https://www.youtube.com/results?search_query=Scotch%20Rolex*%2C%20Shackleton%20%26%20Omutaba%20The%20III%20Hands%20Of%20Doom",
-      "apple": "https://music.apple.com/us/album/three-hands-of-doom/1788928474?uo=4"
+      "apple": "https://music.apple.com/us/album/three-hands-of-doom/1788928474?uo=4",
+      "tidal": "https://tidal.com/album/409558703"
     },
     "embed": {
       "provider": "apple",
@@ -10942,7 +11017,8 @@
       "soundcloud": "https://soundcloud.com/search?q=Sixth%20June%20Everytime",
       "youtube": "https://www.youtube.com/results?search_query=Sixth%20June%20Everytime",
       "deezer": "https://www.deezer.com/album/77551092",
-      "apple": "https://music.apple.com/us/album/everytime/1338303164?uo=4"
+      "apple": "https://music.apple.com/us/album/everytime/1338303164?uo=4",
+      "tidal": "https://tidal.com/album/83681922"
     },
     "embed": {
       "provider": "apple",
@@ -10976,7 +11052,8 @@
       "spotify": "https://open.spotify.com/search/Tor%20Lundvall%20A%20Strangeness%20In%20Motion%20(Early%20Pop%20Recordings%20%E2%80%A2%201989-1999)",
       "soundcloud": "https://soundcloud.com/search?q=Tor%20Lundvall%20A%20Strangeness%20In%20Motion%20(Early%20Pop%20Recordings%20%E2%80%A2%201989-1999)",
       "youtube": "https://www.youtube.com/results?search_query=Tor%20Lundvall%20A%20Strangeness%20In%20Motion%20(Early%20Pop%20Recordings%20%E2%80%A2%201989-1999)",
-      "apple": "https://music.apple.com/us/album/a-strangeness-in-motion-early-pop-recordings-1989-1999/1473974525?uo=4"
+      "apple": "https://music.apple.com/us/album/a-strangeness-in-motion-early-pop-recordings-1989-1999/1473974525?uo=4",
+      "tidal": "https://tidal.com/album/114452644"
     },
     "embed": {
       "provider": "apple",
@@ -11039,7 +11116,8 @@
       "bandcamp": "https://plasticandsounds.bandcamp.com/album/silent-way",
       "spotify": "https://open.spotify.com/search/Shinichi%20Atobe%20Silent%20Way",
       "soundcloud": "https://soundcloud.com/search?q=Shinichi%20Atobe%20Silent%20Way",
-      "youtube": "https://www.youtube.com/results?search_query=Shinichi%20Atobe%20Silent%20Way"
+      "youtube": "https://www.youtube.com/results?search_query=Shinichi%20Atobe%20Silent%20Way",
+      "tidal": "https://tidal.com/album/489569497"
     },
     "embed": {
       "provider": "apple",
@@ -11072,7 +11150,8 @@
       "spotify": "https://open.spotify.com/search/Robyn%20Sexistential",
       "soundcloud": "https://soundcloud.com/search?q=Robyn%20Sexistential",
       "youtube": "https://www.youtube.com/results?search_query=Robyn%20Sexistential",
-      "deezer": "https://www.deezer.com/album/933146091"
+      "deezer": "https://www.deezer.com/album/933146091",
+      "tidal": "https://tidal.com/album/504477244"
     },
     "embed": {
       "provider": "deezer",
@@ -11109,7 +11188,8 @@
       "spotify": "https://open.spotify.com/search/ADULT.%20Kissing%20Luck%20Goodbye",
       "soundcloud": "https://soundcloud.com/search?q=ADULT.%20Kissing%20Luck%20Goodbye",
       "youtube": "https://www.youtube.com/results?search_query=ADULT.%20Kissing%20Luck%20Goodbye",
-      "deezer": "https://www.deezer.com/album/891233062"
+      "deezer": "https://www.deezer.com/album/891233062",
+      "tidal": "https://tidal.com/album/487176451"
     },
     "embed": {
       "provider": "deezer",
@@ -11142,7 +11222,8 @@
       "spotify": "https://open.spotify.com/search/Fcukers%20%C3%96",
       "soundcloud": "https://soundcloud.com/search?q=Fcukers%20%C3%96",
       "youtube": "https://www.youtube.com/results?search_query=Fcukers%20%C3%96",
-      "deezer": "https://www.deezer.com/album/896741442"
+      "deezer": "https://www.deezer.com/album/896741442",
+      "tidal": "https://tidal.com/album/489408952"
     },
     "embed": {
       "provider": "deezer",
@@ -11175,7 +11256,8 @@
       "spotify": "https://open.spotify.com/search/Iztok%20Koren%20%26%20Raphael%20Rogi%C5%84ski%20Nocturnal%20Consolations",
       "soundcloud": "https://soundcloud.com/search?q=Iztok%20Koren%20%26%20Raphael%20Rogi%C5%84ski%20Nocturnal%20Consolations",
       "youtube": "https://www.youtube.com/results?search_query=Iztok%20Koren%20%26%20Raphael%20Rogi%C5%84ski%20Nocturnal%20Consolations",
-      "apple": "https://music.apple.com/us/album/nocturnal-consolations/1884439104?uo=4"
+      "apple": "https://music.apple.com/us/album/nocturnal-consolations/1884439104?uo=4",
+      "tidal": "https://tidal.com/album/506299195"
     },
     "embed": {
       "provider": "apple",
@@ -11208,7 +11290,8 @@
       "spotify": "https://open.spotify.com/search/Crayon%20Home%20Safe",
       "soundcloud": "https://soundcloud.com/search?q=Crayon%20Home%20Safe",
       "youtube": "https://www.youtube.com/results?search_query=Crayon%20Home%20Safe",
-      "deezer": "https://www.deezer.com/album/778318301"
+      "deezer": "https://www.deezer.com/album/778318301",
+      "tidal": "https://tidal.com/album/444304283"
     },
     "embed": {
       "provider": "deezer",
@@ -11241,7 +11324,8 @@
       "spotify": "https://open.spotify.com/search/Foote%2FDickow%20High%20Cube",
       "soundcloud": "https://soundcloud.com/search?q=Foote%2FDickow%20High%20Cube",
       "youtube": "https://www.youtube.com/results?search_query=Foote%2FDickow%20High%20Cube",
-      "apple": "https://music.apple.com/us/album/high-cube/1875921928?uo=4"
+      "apple": "https://music.apple.com/us/album/high-cube/1875921928?uo=4",
+      "tidal": "https://tidal.com/album/497469863"
     },
     "embed": {
       "provider": "apple",
@@ -11274,7 +11358,8 @@
       "spotify": "https://open.spotify.com/search/Kinact%20Kinshasa%20In%20Action",
       "soundcloud": "https://soundcloud.com/search?q=Kinact%20Kinshasa%20In%20Action",
       "youtube": "https://www.youtube.com/results?search_query=Kinact%20Kinshasa%20In%20Action",
-      "apple": "https://music.apple.com/us/album/kinshasa-in-action/1886474264?uo=4"
+      "apple": "https://music.apple.com/us/album/kinshasa-in-action/1886474264?uo=4",
+      "tidal": "https://tidal.com/album/508450549"
     },
     "embed": {
       "provider": "apple",
@@ -11307,7 +11392,8 @@
       "spotify": "https://open.spotify.com/search/Augie%20March%20Moo%2C%20You%20Bloody%20Choir",
       "soundcloud": "https://soundcloud.com/search?q=Augie%20March%20Moo%2C%20You%20Bloody%20Choir",
       "youtube": "https://www.youtube.com/results?search_query=Augie%20March%20Moo%2C%20You%20Bloody%20Choir",
-      "apple": "https://music.apple.com/us/album/moo-you-bloody-choir/260915905?uo=4"
+      "apple": "https://music.apple.com/us/album/moo-you-bloody-choir/260915905?uo=4",
+      "tidal": "https://tidal.com/album/2854512"
     },
     "embed": {
       "provider": "apple",
@@ -16774,6 +16860,40 @@
     "pressMentions": []
   },
   {
+    "id": "americania-saludos-de-americania",
+    "type": "album",
+    "artist": "Americania",
+    "title": "Saludos de Americania",
+    "label": "Not On Label",
+    "releaseDate": "2026-01-01",
+    "description": "Twelve tracks of self-released alt-pop from Americania, arriving on LP with no label apparatus around it. Cards on the table: a record asking to be heard before it is contextualized.",
+    "tags": [
+      "pop"
+    ],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=Americania%20Saludos%20de%20Americania&item_type=a",
+      "spotify": "https://open.spotify.com/search/Americania%20Saludos%20de%20Americania",
+      "soundcloud": "https://soundcloud.com/search?q=Americania%20Saludos%20de%20Americania",
+      "youtube": "https://www.youtube.com/results?search_query=Americania%20Saludos%20de%20Americania",
+      "deezer": "https://www.deezer.com/album/942420191"
+    },
+    "embed": {
+      "provider": "deezer",
+      "src": "https://widget.deezer.com/widget/light/album/942420191",
+      "height": 300
+    },
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://i.discogs.com/kQNQ1jcIZ8a5EdFgXlerQ98GojWM6pBvpM4K_uxDu2I/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM3NDI0/Njc2LTE3Nzk1NzQw/NTEtOTc0My5qcGVn.jpeg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
     "id": "tim-maia-racional-vol-1",
     "type": "album",
     "artist": "Tim Maia",
@@ -17134,6 +17254,40 @@
     "status": "pending",
     "approvedAt": null,
     "coverImageUrl": "https://i.discogs.com/KDOsIXMMpATUP8FUAvbG8RUU-oNt-HP-GFk5InmvQNI/rs:fit/g:sm/q:90/h:600/w:458/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM1OTk0/MjExLTE3NjY0MzEz/MTYtNDI5NS5qcGVn.jpeg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
+    "id": "muadeep-formido-linguae",
+    "type": "ep",
+    "artist": "Muadeep",
+    "title": "Formido Linguae",
+    "label": "YUKU",
+    "releaseDate": "2025-12-18",
+    "description": "Eight tracks of breakbeat and weighted dubstep from Muadeep on YUKU, the label's usual interest in sound-design heft holding the shape together. Sits comfortably alongside the broader Sneaker Social Club end of UK bass.",
+    "tags": [
+      "electronic"
+    ],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=Muadeep%20Formido%20Linguae&item_type=a",
+      "spotify": "https://open.spotify.com/search/Muadeep%20Formido%20Linguae",
+      "soundcloud": "https://soundcloud.com/search?q=Muadeep%20Formido%20Linguae",
+      "youtube": "https://www.youtube.com/results?search_query=Muadeep%20Formido%20Linguae",
+      "deezer": "https://www.deezer.com/album/877684922"
+    },
+    "embed": {
+      "provider": "deezer",
+      "src": "https://widget.deezer.com/widget/light/album/877684922",
+      "height": 300
+    },
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://i.discogs.com/lLirUto7WhPtTvrGTj_zxXmiWv7YUhmJSybgvcxp6P8/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM3NDMz/MDQzLTE3Nzk2NTg3/MTItMzc5Mi5qcGVn.jpeg",
     "cover": {
       "bg": "#111110",
       "fg": "#f2efe8",
@@ -19500,6 +19654,40 @@
     "status": "pending",
     "approvedAt": null,
     "coverImageUrl": "https://i.discogs.com/9yN_aeivP5g1dnYPb5EsDWh6XtHC0ocvtiYzXTulvkM/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM1Njc1/NjIwLTE3NjMyNTY2/NTQtNjk5NC5qcGVn.jpeg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
+    "id": "artisoma-pulse-box",
+    "type": "ep",
+    "artist": "Artisoma",
+    "title": "Pulse Box",
+    "label": "YUKU",
+    "releaseDate": "2025-11-06",
+    "description": "Five tracks of breakbeat science from Artisoma on YUKU, the label's usual interest in low-end weight applied to drum programming that fidgets more than it locks. Sits comfortably alongside the bass-leaning end of the roster.",
+    "tags": [
+      "electronic"
+    ],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=Artisoma%20Pulse%20Box&item_type=a",
+      "spotify": "https://open.spotify.com/search/Artisoma%20Pulse%20Box",
+      "soundcloud": "https://soundcloud.com/search?q=Artisoma%20Pulse%20Box",
+      "youtube": "https://www.youtube.com/results?search_query=Artisoma%20Pulse%20Box",
+      "deezer": "https://www.deezer.com/album/845817292"
+    },
+    "embed": {
+      "provider": "deezer",
+      "src": "https://widget.deezer.com/widget/light/album/845817292",
+      "height": 300
+    },
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://i.discogs.com/ZSrG8wLepTrlVoosHQNOVuPZFCjXVWgPvEQwHbnj__c/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM3NDMz/MDc2LTE3Nzk2NTkw/MzEtODc1Ni5qcGVn.jpeg",
     "cover": {
       "bg": "#111110",
       "fg": "#f2efe8",
@@ -25597,6 +25785,35 @@
     "pressMentions": []
   },
   {
+    "id": "muadeep-darker-than-illusions",
+    "type": "ep",
+    "artist": "Muadeep",
+    "title": "Darker Than Illusions",
+    "label": "YUKU",
+    "releaseDate": "2025-06-26",
+    "description": "Four tracks of breakbeat and weighted low-end pressure on YUKU, the Polish outpost that keeps finding the bruised end of bass music. Sits comfortably next to label-mate Sicaria Sound.",
+    "tags": [
+      "electronic"
+    ],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=Muadeep%20Darker%20Than%20Illusions&item_type=a",
+      "spotify": "https://open.spotify.com/search/Muadeep%20Darker%20Than%20Illusions",
+      "soundcloud": "https://soundcloud.com/search?q=Muadeep%20Darker%20Than%20Illusions",
+      "youtube": "https://www.youtube.com/results?search_query=Muadeep%20Darker%20Than%20Illusions"
+    },
+    "embed": null,
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://i.discogs.com/Tfqr44Fq-R2snocuDw4mu4PXmhJ2sTJ6RWTq7wppMMY/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM3NDMz/MTMzLTE3Nzk2NTk1/NTYtOTU4NC5qcGVn.jpeg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
     "id": "alien-d-for-the-early-hours-of-a-world-in-bloom",
     "type": "ep",
     "artist": "Alien D",
@@ -26336,7 +26553,7 @@
     "title": "Unlimited Peace",
     "label": "Appendix.Files",
     "releaseDate": "2025-06-04",
-    "description": "",
+    "description": "Five tracks of experimental ambient and IDM from Feloneezy, pressed as a limited 12\" on Appendix.Files. The label's usual register holds: textural, room-aware, more interested in patience than punchline.",
     "tags": [
       "electronic"
     ],
@@ -26370,7 +26587,7 @@
     "title": "Xochicuicatl",
     "label": "Appendix.Files",
     "releaseDate": "2025-06-04",
-    "description": "",
+    "description": "Five tracks of fractured IDM and ambient drift from secret getii on Appendix.Files, the kind of slightly granular, slightly weightless construction the label tends to favor. Limited 12\" for the shelf next to your Yair Elazar Glotman sides.",
     "tags": [
       "electronic"
     ],
@@ -26404,7 +26621,7 @@
     "title": "Can's Gone Warm",
     "label": "AMF Records (3)",
     "releaseDate": "2025-06-03",
-    "description": "",
+    "description": "Six tracks of experimental electronics from Lauren Duffus on AMF, sitting closer to song-form sketches than club material. Digital only, worth the time if you follow the more vocal end of leftfield pop.",
     "tags": [
       "electronic"
     ],
@@ -26438,7 +26655,7 @@
     "title": "4 Forms",
     "label": "Erased Tapes Records",
     "releaseDate": "2025-06-01",
-    "description": "",
+    "description": "Four pieces of Ryan Lee West's patient analogue-synth work, pressed single-sided on white label for Erased Tapes. Sits in the ambient-IDM corner of his catalogue rather than the bigger-room material.",
     "tags": [
       "electronic"
     ],
@@ -26467,7 +26684,7 @@
     "title": "Modern Mirror",
     "label": "Dais Records",
     "releaseDate": "2025-06-01",
-    "description": "",
+    "description": "Dais reissues the 2019 Drab Majesty record, eight tracks of chorused guitar and patient drum machine in the lineage the Andrew Clinco project has been steadily perfecting. For the Cold Cave shelf.",
     "tags": [
       "electronic"
     ],
@@ -26501,7 +26718,7 @@
     "title": "Walls And Bridges",
     "label": "Capitol Records (2)",
     "releaseDate": "2025-06-01",
-    "description": "",
+    "description": "Capitol returns Lennon's 1974 album to LP, the New York session that yielded \"Whatever Gets You Thru The Night\" and a generally rougher, more harried set than the records bracketing it. Reissue pressing for the shelf, not the discovery pile.",
     "tags": [
       "rock"
     ],
@@ -26536,7 +26753,7 @@
     "title": "An Object In Motion",
     "label": "Dais Records",
     "releaseDate": "2025-06-01",
-    "description": "",
+    "description": "Four tracks of widescreen darkwave from the Deb Demure project, reissued on 12\" by Dais. Sits comfortably next to Cold Cave for anyone working that shelf.",
     "tags": [
       "electronic"
     ],
@@ -26571,7 +26788,7 @@
     "title": "Schwarz Auf Weiß",
     "label": "Plattenbau Ost",
     "releaseDate": "2025-05-30",
-    "description": "",
+    "description": "German street rap from Rilla on Plattenbau Ost, ten tracks of unvarnished gangsta posture delivered in the label's blunt, no-frills register. Strictly for the constituency that already knows what Plattenbau means.",
     "tags": [
       "hip hop"
     ],
@@ -26605,7 +26822,7 @@
     "title": "Endling",
     "label": "Erased Tapes Records",
     "releaseDate": "2025-05-30",
-    "description": "",
+    "description": "Naqvi's modular synthesis work lands on Erased Tapes in a limited LP pressing, eight pieces tracing the slow analog drift he's developed alongside his Dawn of Midi drumming. For listeners who keep returning to Kara-Lis Coverdale.",
     "tags": [
       "electronic"
     ],
@@ -35843,6 +36060,41 @@
     "pressMentions": []
   },
   {
+    "id": "muadeep-echoes-of-fury",
+    "type": "ep",
+    "artist": "Muadeep",
+    "title": "Echoes Of Fury",
+    "label": "YUKU",
+    "releaseDate": "2024-12-19",
+    "description": "",
+    "tags": [
+      "electronic"
+    ],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=Muadeep%20Echoes%20Of%20Fury&item_type=a",
+      "spotify": "https://open.spotify.com/search/Muadeep%20Echoes%20Of%20Fury",
+      "soundcloud": "https://soundcloud.com/search?q=Muadeep%20Echoes%20Of%20Fury",
+      "youtube": "https://www.youtube.com/results?search_query=Muadeep%20Echoes%20Of%20Fury",
+      "deezer": "https://www.deezer.com/album/679938481",
+      "apple": "https://music.apple.com/us/album/echoes-of-fury-ep/1783719523?uo=4"
+    },
+    "embed": {
+      "provider": "apple",
+      "src": "https://embed.music.apple.com/us/album/1783719523?theme=light",
+      "height": 450
+    },
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://i.discogs.com/-HSsyw47eCoI7Antzii4k96DLzGDq746OtnWUrG-Xgs/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM3NDMz/MTUxLTE3Nzk2NTk3/NTEtNzc4OC5qcGVn.jpeg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
     "id": "gleemer-end-of-the-nail",
     "type": "album",
     "artist": "Gleemer",
@@ -38925,6 +39177,41 @@
     "status": "pending",
     "approvedAt": null,
     "coverImageUrl": "https://i.discogs.com/9rXsXQPnESA6VP5PL4GXTz2DFwikfY41HodzBYqDn9o/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTMyMDkz/NTIwLTE3Mjk3ODU2/NTQtNTczMC5qcGVn.jpeg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
+    "id": "muadeep-connected",
+    "type": "album",
+    "artist": "Muadeep",
+    "title": "Connected",
+    "label": "YUKU",
+    "releaseDate": "2024-08-15",
+    "description": "",
+    "tags": [
+      "electronic"
+    ],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=Muadeep%20Connected&item_type=a",
+      "spotify": "https://open.spotify.com/search/Muadeep%20Connected",
+      "soundcloud": "https://soundcloud.com/search?q=Muadeep%20Connected",
+      "youtube": "https://www.youtube.com/results?search_query=Muadeep%20Connected",
+      "deezer": "https://www.deezer.com/album/619891451",
+      "apple": "https://music.apple.com/us/album/connected/1759433020?uo=4"
+    },
+    "embed": {
+      "provider": "apple",
+      "src": "https://embed.music.apple.com/us/album/1759433020?theme=light",
+      "height": 450
+    },
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://i.discogs.com/03coh5qbzM1lqOSX5ob8FmWZtt1Z8ADhqcD58cBDhuw/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM3NDMz/MTYzLTE3Nzk2NTk5/MDYtNjU5MS5qcGVn.jpeg",
     "cover": {
       "bg": "#111110",
       "fg": "#f2efe8",
