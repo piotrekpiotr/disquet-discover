@@ -46,7 +46,8 @@
       "100% Silk",
       "Cirrus",
       "PAN",
-      "WORLD MUSIC"
+      "WORLD MUSIC",
+      "YUKU"
     ],
     "titleExamples": [
       "Mastery Quantum Sound",
@@ -4310,7 +4311,8 @@
   },
   "Alex Zhang Hungtai": {
     "seenOn": [
-      "Modern Love"
+      "Modern Love",
+      "Shelter Press"
     ],
     "titleExamples": [
       "Young Gods Run Free",
@@ -8199,6 +8201,70 @@
     ],
     "titleExamples": [
       "Supersonic / U Give Me Love"
+    ]
+  },
+  "Sherlock Holmes Investigation": {
+    "seenOn": [
+      "FELT"
+    ],
+    "titleExamples": [
+      "Investigation N1"
+    ]
+  },
+  "Ela Stiles": {
+    "seenOn": [
+      "FELT"
+    ],
+    "titleExamples": [
+      "Rassberry"
+    ]
+  },
+  "Kjell Bjørgeengen, Lasse Marhaug": {
+    "seenOn": [
+      "Smalltown Supersound"
+    ],
+    "titleExamples": [
+      "Flood Coil"
+    ]
+  },
+  "Yoichi Kamimura & Olli Aarni": {
+    "seenOn": [
+      "Mappa"
+    ],
+    "titleExamples": [
+      "Kōri no ryokō / Jäämatkailu"
+    ]
+  },
+  "Martin Denny": {
+    "seenOn": [
+      "PAN"
+    ],
+    "titleExamples": [
+      "Quiet Village: The Exotic Sounds Of Martin Denny"
+    ]
+  },
+  "Babymetal": {
+    "seenOn": [
+      "WORLD MUSIC"
+    ],
+    "titleExamples": [
+      "Live At The O2 Arena - Highlights"
+    ]
+  },
+  "Maisie Peters": {
+    "seenOn": [
+      "WORLD MUSIC"
+    ],
+    "titleExamples": [
+      "Florescence"
+    ]
+  },
+  "Seefeel x KMRU": {
+    "seenOn": [
+      "Warp Records"
+    ],
+    "titleExamples": [
+      "Rapture To Rupt"
     ]
   }
 }

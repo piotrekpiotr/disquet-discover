@@ -818,6 +818,132 @@
     "pressMentions": []
   },
   {
+    "id": "the-chemical-brothers-go-apex-and-beyond",
+    "type": "album",
+    "artist": "The Chemical Brothers",
+    "title": "Go: Apex And Beyond",
+    "label": "",
+    "releaseDate": "2026-06-01",
+    "description": "The Chemical Brothers continue their decades-long run of widescreen, festival-scaled big beat, still operating in the lineage they helped define. No label confirmed yet; treat as advance notice rather than a finished picture.",
+    "tags": [],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=The%20Chemical%20Brothers%20Go%3A%20Apex%20And%20Beyond&item_type=a",
+      "spotify": "https://open.spotify.com/search/The%20Chemical%20Brothers%20Go%3A%20Apex%20And%20Beyond",
+      "soundcloud": "https://soundcloud.com/search?q=The%20Chemical%20Brothers%20Go%3A%20Apex%20And%20Beyond",
+      "youtube": "https://www.youtube.com/results?search_query=The%20Chemical%20Brothers%20Go%3A%20Apex%20And%20Beyond",
+      "deezer": "https://www.deezer.com/album/991725991",
+      "tidal": "https://tidal.com/album/528192957"
+    },
+    "embed": {
+      "provider": "deezer",
+      "src": "https://widget.deezer.com/widget/light/album/991725991",
+      "height": 300
+    },
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://cdn-images.dzcdn.net/images/cover/e9e4d103406cc78c4f18ba3ece04c312/1000x1000-000000-80-0-0.jpg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
+    "id": "dj-seinfeld-the-wave",
+    "type": "album",
+    "artist": "DJ Seinfeld",
+    "title": "The Wave",
+    "label": "",
+    "releaseDate": "2026-06-01",
+    "description": "A new full-length from DJ Seinfeld, the Swedish producer whose name remains tied to the lo-fi house wave of the late 2010s even as his recent work has drifted toward cleaner, vocal-led club music. Worth a listen if you followed him from Mirror to Spellbound.",
+    "tags": [],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=DJ%20Seinfeld%20The%20Wave&item_type=a",
+      "spotify": "https://open.spotify.com/search/DJ%20Seinfeld%20The%20Wave",
+      "soundcloud": "https://soundcloud.com/search?q=DJ%20Seinfeld%20The%20Wave",
+      "youtube": "https://www.youtube.com/results?search_query=DJ%20Seinfeld%20The%20Wave",
+      "deezer": "https://www.deezer.com/album/983629051",
+      "tidal": "https://tidal.com/album/525005582"
+    },
+    "embed": {
+      "provider": "deezer",
+      "src": "https://widget.deezer.com/widget/light/album/983629051",
+      "height": 300
+    },
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://cdn-images.dzcdn.net/images/cover/346b11549a430799b6f83ad22e7dac62/1000x1000-000000-80-0-0.jpg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
+    "id": "klein-ferra",
+    "type": "single",
+    "artist": "Klein",
+    "title": "FERRA",
+    "label": "",
+    "releaseDate": "2026-05-31",
+    "description": "Klein returns with FERRA, a self released single that arrives without the usual framing apparatus. Expect the same fractured choral and theatrical instincts that have made her work hard to file alongside anyone else.",
+    "tags": [],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=Klein%20FERRA&item_type=a",
+      "spotify": "https://open.spotify.com/search/Klein%20FERRA",
+      "soundcloud": "https://soundcloud.com/search?q=Klein%20FERRA",
+      "youtube": "https://www.youtube.com/results?search_query=Klein%20FERRA",
+      "deezer": "https://www.deezer.com/album/994131611"
+    },
+    "embed": null,
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://cdn-images.dzcdn.net/images/cover/d936908dba5e38c507f3229c58915f3e/1000x1000-000000-80-0-0.jpg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
+    "id": "martyn-21-26",
+    "type": "album",
+    "artist": "Martyn",
+    "title": "21/26",
+    "label": "",
+    "releaseDate": "2026-05-30",
+    "description": "New long-player from Martyn, the Dutch producer whose run through 3024 and Ostgut Ton has kept him orbiting the seam between dubstep's low-end logic and Detroit-leaning techno. Title and date are all that's confirmed; everything else waits on the needle.",
+    "tags": [],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=Martyn%2021%2F26&item_type=a",
+      "spotify": "https://open.spotify.com/search/Martyn%2021%2F26",
+      "soundcloud": "https://soundcloud.com/search?q=Martyn%2021%2F26",
+      "youtube": "https://www.youtube.com/results?search_query=Martyn%2021%2F26",
+      "deezer": "https://www.deezer.com/album/993326161"
+    },
+    "embed": {
+      "provider": "deezer",
+      "src": "https://widget.deezer.com/widget/light/album/993326161",
+      "height": 300
+    },
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://cdn-images.dzcdn.net/images/cover/1dfa28e4ac684dc207a798123f41ee66/1000x1000-000000-80-0-0.jpg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
     "id": "boards-of-canada-inferno",
     "type": "album",
     "artist": "Boards of Canada",
@@ -851,7 +977,9 @@
     },
     "pressMentions": [
       "pitchfork_tracks",
-      "ra"
+      "ra",
+      "pitchfork_albums",
+      "pitchfork_best_albums"
     ]
   },
   {
@@ -859,7 +987,7 @@
     "type": "single",
     "artist": "Boards of Canada",
     "title": "Inferno (Continuous Mix)",
-    "label": "",
+    "label": "Warp Records",
     "releaseDate": "2026-05-29",
     "description": "A continuous, mix single from the Sandison brothers, who have spent three decades refining the same hazy, half, corroded approach to melodic electronics. Long, form rather than track, by, track, which is the format their work has always rewarded.",
     "tags": [],
@@ -881,7 +1009,9 @@
     },
     "pressMentions": [
       "pitchfork_tracks",
-      "ra"
+      "ra",
+      "pitchfork_albums",
+      "pitchfork_best_albums"
     ]
   },
   {
@@ -914,6 +1044,354 @@
     "pressMentions": []
   },
   {
+    "id": "whatever-the-weather-up-and-down",
+    "type": "single",
+    "artist": "Whatever the Weather",
+    "title": "Up And Down",
+    "label": "",
+    "releaseDate": "2026-05-29",
+    "description": "Loraine James in her Whatever the Weather guise, where her usual rhythmic restlessness gives way to temperature readings and slower drift. A single trailing whatever comes next from the project that's lived on Ghostly.",
+    "tags": [],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=Whatever%20the%20Weather%20Up%20And%20Down&item_type=a",
+      "spotify": "https://open.spotify.com/search/Whatever%20the%20Weather%20Up%20And%20Down",
+      "soundcloud": "https://soundcloud.com/search?q=Whatever%20the%20Weather%20Up%20And%20Down",
+      "youtube": "https://www.youtube.com/results?search_query=Whatever%20the%20Weather%20Up%20And%20Down",
+      "deezer": "https://www.deezer.com/album/981050081",
+      "apple": "https://music.apple.com/us/album/up-and-down-single/6768757327?uo=4"
+    },
+    "embed": {
+      "provider": "apple",
+      "src": "https://embed.music.apple.com/us/album/6768757327?theme=light",
+      "height": 450
+    },
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://cdn-images.dzcdn.net/images/cover/160cc8314ae42eff980ef588d0f4354e/1000x1000-000000-80-0-0.jpg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
+    "id": "jan-jelinek-take-me-i-m-yours",
+    "type": "album",
+    "artist": "Jan Jelinek",
+    "title": "Take me, I’m yours",
+    "label": "",
+    "releaseDate": "2026-05-29",
+    "description": "Jelinek in long-player mode again, which historically means crackle, loops folded back on themselves, and the sense of a room rather than a track. File alongside the Faitiche catalogue and wait for the sleeve notes to explain the title.",
+    "tags": [],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=Jan%20Jelinek%20Take%20me%2C%20I%E2%80%99m%20yours&item_type=a",
+      "spotify": "https://open.spotify.com/search/Jan%20Jelinek%20Take%20me%2C%20I%E2%80%99m%20yours",
+      "soundcloud": "https://soundcloud.com/search?q=Jan%20Jelinek%20Take%20me%2C%20I%E2%80%99m%20yours",
+      "youtube": "https://www.youtube.com/results?search_query=Jan%20Jelinek%20Take%20me%2C%20I%E2%80%99m%20yours",
+      "deezer": "https://www.deezer.com/album/977210511",
+      "apple": "https://music.apple.com/us/album/take-me-im-yours/1895742678?uo=4"
+    },
+    "embed": {
+      "provider": "apple",
+      "src": "https://embed.music.apple.com/us/album/1895742678?theme=light",
+      "height": 450
+    },
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://cdn-images.dzcdn.net/images/cover/eb7d3b96873eae67b9e763065fb5f4d0/1000x1000-000000-80-0-0.jpg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
+    "id": "throwing-snow-welfare",
+    "type": "ep",
+    "artist": "Throwing Snow",
+    "title": "WELFARE",
+    "label": "",
+    "releaseDate": "2026-05-29",
+    "description": "New EP from Throwing Snow, the Houndstooth regular whose work tends to sit at the seam between UK bass mechanics and a more pensive, orchestral kind of dance music. Worth a look if you still play Mosaic.",
+    "tags": [],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=Throwing%20Snow%20WELFARE&item_type=a",
+      "spotify": "https://open.spotify.com/search/Throwing%20Snow%20WELFARE",
+      "soundcloud": "https://soundcloud.com/search?q=Throwing%20Snow%20WELFARE",
+      "youtube": "https://www.youtube.com/results?search_query=Throwing%20Snow%20WELFARE",
+      "deezer": "https://www.deezer.com/album/956743831"
+    },
+    "embed": null,
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://cdn-images.dzcdn.net/images/cover/3b439c20b45d6bdbdd91899ea7148d0f/1000x1000-000000-80-0-0.jpg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
+    "id": "dj-boring-keep-up",
+    "type": "single",
+    "artist": "DJ Boring",
+    "title": "Keep Up",
+    "label": "",
+    "releaseDate": "2026-05-29",
+    "description": "DJ Boring back in the racks with a new single, still operating in the lo-fi house lane that made the name. Label details thin on the ground for now; treat as a placeholder until the sleeve turns up.",
+    "tags": [],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=DJ%20Boring%20Keep%20Up&item_type=a",
+      "spotify": "https://open.spotify.com/search/DJ%20Boring%20Keep%20Up",
+      "soundcloud": "https://soundcloud.com/search?q=DJ%20Boring%20Keep%20Up",
+      "youtube": "https://www.youtube.com/results?search_query=DJ%20Boring%20Keep%20Up",
+      "deezer": "https://www.deezer.com/album/986573361"
+    },
+    "embed": null,
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://cdn-images.dzcdn.net/images/cover/3be9bfb57226bfacd9ca43ef56b7a6d9/1000x1000-000000-80-0-0.jpg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
+    "id": "ben-frost-the-wasp-factory",
+    "type": "album",
+    "artist": "Ben Frost",
+    "title": "The Wasp Factory",
+    "label": "Bedroom Community",
+    "releaseDate": "2026-05-29",
+    "description": "Frost's score for the chamber opera adaptation of Iain Banks finally surfaces on Bedroom Community, fifteen pieces sat between sustained dread and brittle folk figuration. Closer to his Sólaris work than the noise records, if you need a shelf.",
+    "tags": [],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=Ben%20Frost%20The%20Wasp%20Factory&item_type=a",
+      "spotify": "https://open.spotify.com/search/Ben%20Frost%20The%20Wasp%20Factory",
+      "soundcloud": "https://soundcloud.com/search?q=Ben%20Frost%20The%20Wasp%20Factory",
+      "youtube": "https://www.youtube.com/results?search_query=Ben%20Frost%20The%20Wasp%20Factory",
+      "deezer": "https://www.deezer.com/album/988074131",
+      "apple": "https://music.apple.com/us/album/the-wasp-factory/6774294244?uo=4"
+    },
+    "embed": {
+      "provider": "apple",
+      "src": "https://embed.music.apple.com/us/album/6774294244?theme=light",
+      "height": 450
+    },
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://cdn-images.dzcdn.net/images/cover/f2c62be72c7f67cba119ac478eb381ec/1000x1000-000000-80-0-0.jpg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
+    "id": "blawan-thistle",
+    "type": "single",
+    "artist": "Blawan",
+    "title": "Thistle",
+    "label": "",
+    "releaseDate": "2026-05-29",
+    "description": "New Blawan, label unconfirmed, which puts it back in the orbit of the bruised, rubbery techno he has been pulling apart since Karenn. File next to Pariah if you need a shelf.",
+    "tags": [],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=Blawan%20Thistle&item_type=a",
+      "spotify": "https://open.spotify.com/search/Blawan%20Thistle",
+      "soundcloud": "https://soundcloud.com/search?q=Blawan%20Thistle",
+      "youtube": "https://www.youtube.com/results?search_query=Blawan%20Thistle",
+      "deezer": "https://www.deezer.com/album/991791791"
+    },
+    "embed": null,
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://cdn-images.dzcdn.net/images/cover/30a3821f5744c248d0ec3b7df81e427a/1000x1000-000000-80-0-0.jpg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
+    "id": "blood-orange-essex-honey-mp3",
+    "type": "single",
+    "artist": "Blood Orange",
+    "title": "Essex_Honey.mp3",
+    "label": "RCA",
+    "releaseDate": "2026-05-29",
+    "description": "Dev Hynes in alt-pop mode with a breakbeat under it, which is less of a swerve than it reads on paper given how much percussion has been creeping into the Blood Orange palette. Filed alongside the more song-shaped end of his catalogue.",
+    "tags": [],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=Blood%20Orange%20Essex_Honey.mp3&item_type=a",
+      "spotify": "https://open.spotify.com/search/Blood%20Orange%20Essex_Honey.mp3",
+      "soundcloud": "https://soundcloud.com/search?q=Blood%20Orange%20Essex_Honey.mp3",
+      "youtube": "https://www.youtube.com/results?search_query=Blood%20Orange%20Essex_Honey.mp3",
+      "deezer": "https://www.deezer.com/album/986830271",
+      "apple": "https://music.apple.com/us/album/essex-honey-mp3-single/6771169151?uo=4"
+    },
+    "embed": {
+      "provider": "apple",
+      "src": "https://embed.music.apple.com/us/album/6771169151?theme=light",
+      "height": 450
+    },
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://cdn-images.dzcdn.net/images/cover/2b377050d4a9230c3778b826a5773528/1000x1000-000000-80-0-0.jpg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
+    "id": "eiii-emanations",
+    "type": "album",
+    "artist": "EIII",
+    "title": "Emanations",
+    "label": "Opal Tapes",
+    "releaseDate": "2026-05-28",
+    "description": "Eight tracks of corroded experimental industrial on Opal Tapes, a label that has long made room for noise that prefers texture to assault. Sits comfortably alongside the rougher end of the Basic House catalogue.",
+    "tags": [
+      "electronic"
+    ],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=EIII%20Emanations&item_type=a",
+      "spotify": "https://open.spotify.com/search/EIII%20Emanations",
+      "soundcloud": "https://soundcloud.com/search?q=EIII%20Emanations",
+      "youtube": "https://www.youtube.com/results?search_query=EIII%20Emanations",
+      "deezer": "https://www.deezer.com/album/987165831",
+      "apple": "https://music.apple.com/us/album/emanations/6771337748?uo=4"
+    },
+    "embed": {
+      "provider": "apple",
+      "src": "https://embed.music.apple.com/us/album/6771337748?theme=light",
+      "height": 450
+    },
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://i.discogs.com/wq0B-DbMyeOcAUcTlniXrMx1DgMPkvFwbLCp-Xbs-7U/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM3NDc3/OTQ3LTE3ODAwNzE0/MDktNTA5OS5qcGVn.jpeg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
+    "id": "h-lls-mahalia-fcuk",
+    "type": "single",
+    "artist": "H.LLS & Mahalia",
+    "title": "FCUK",
+    "label": "H.LLS, distributed by Queens Road Music",
+    "releaseDate": "2026-05-27",
+    "description": "A self-released collaboration between H.LLS and Mahalia, distributed via Queens Road, sitting in the alt-leaning pop register both have flirted with rather than the club end of either CV. File under after-hours rather than peak-time.",
+    "tags": [
+      "alternative"
+    ],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=H.LLS%20%26%20Mahalia%20FCUK&item_type=a",
+      "spotify": "https://open.spotify.com/search/H.LLS%20%26%20Mahalia%20FCUK",
+      "soundcloud": "https://soundcloud.com/search?q=H.LLS%20%26%20Mahalia%20FCUK",
+      "youtube": "https://www.youtube.com/results?search_query=H.LLS%20%26%20Mahalia%20FCUK",
+      "apple": "https://music.apple.com/us/album/fcuk-single/6773562320",
+      "deezer": "https://www.deezer.com/album/983259731"
+    },
+    "embed": {
+      "provider": "apple",
+      "src": "https://embed.music.apple.com/us/album/6773562320?theme=light",
+      "height": 450
+    },
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/b2/4a/6a/b24a6a5d-99c0-e278-e7a3-18e6b2373206/075679573353.jpg/600x600bb.jpg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
+    "id": "felicia-atkinson-sans-visage-i",
+    "type": "single",
+    "artist": "Felicia Atkinson",
+    "title": "Sans Visage I",
+    "label": "VIERNULVIER Records",
+    "releaseDate": "2026-05-27",
+    "description": "Atkinson lands on VIERNULVIER for an eleven-track set of breath-close ambient and drone, the kind of close-mic'd, half-spoken interior music she has spent the last decade refining. For anyone still living inside Image Language.",
+    "tags": [],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=Felicia%20Atkinson%20Sans%20Visage%20I&item_type=a",
+      "spotify": "https://open.spotify.com/search/Felicia%20Atkinson%20Sans%20Visage%20I",
+      "soundcloud": "https://soundcloud.com/search?q=Felicia%20Atkinson%20Sans%20Visage%20I",
+      "youtube": "https://www.youtube.com/results?search_query=Felicia%20Atkinson%20Sans%20Visage%20I",
+      "deezer": "https://www.deezer.com/album/966372901",
+      "apple": "https://music.apple.com/us/album/sans-visage/1895033862?uo=4"
+    },
+    "embed": {
+      "provider": "apple",
+      "src": "https://embed.music.apple.com/us/album/1895033862?theme=light",
+      "height": 450
+    },
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://cdn-images.dzcdn.net/images/cover/2ab49f888df8d0170ad60fb8ed3e8c70/1000x1000-000000-80-0-0.jpg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
+    "id": "ela-stiles-rassberry",
+    "type": "ep",
+    "artist": "Ela Stiles",
+    "title": "Rassberry",
+    "label": "Felt Sense Recordings",
+    "releaseDate": "2026-05-27",
+    "description": "Four tracks of slow, dub-shaded ambient from Ela Stiles on Felt Sense, where downtempo weight meets the kind of vaporous edges the label tends to favour. One for the Pole-into-Huerco S. shelf.",
+    "tags": [
+      "electronic"
+    ],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=Ela%20Stiles%20Rassberry&item_type=a",
+      "spotify": "https://open.spotify.com/search/Ela%20Stiles%20Rassberry",
+      "soundcloud": "https://soundcloud.com/search?q=Ela%20Stiles%20Rassberry",
+      "youtube": "https://www.youtube.com/results?search_query=Ela%20Stiles%20Rassberry"
+    },
+    "embed": null,
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://i.discogs.com/x99sV-lyT0cvFos-IsLnvwYmIe_vNqm71CX0meEtKS0/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM3NDU3/OTU1LTE3Nzk4ODcy/OTMtNTcxMS5qcGVn.jpeg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
     "id": "charlie-continental-snow-rain-b-w-untethered",
     "type": "single",
     "artist": "Charlie Continental",
@@ -928,13 +1406,83 @@
       "bandcamp": "https://bandcamp.com/search?q=Charlie%20Continental%20Snow%20%26%20Rain%20b%2Fw%20Untethered&item_type=a",
       "spotify": "https://open.spotify.com/search/Charlie%20Continental%20Snow%20%26%20Rain%20b%2Fw%20Untethered",
       "soundcloud": "https://soundcloud.com/search?q=Charlie%20Continental%20Snow%20%26%20Rain%20b%2Fw%20Untethered",
-      "youtube": "https://www.youtube.com/results?search_query=Charlie%20Continental%20Snow%20%26%20Rain%20b%2Fw%20Untethered"
+      "youtube": "https://www.youtube.com/results?search_query=Charlie%20Continental%20Snow%20%26%20Rain%20b%2Fw%20Untethered",
+      "deezer": "https://www.deezer.com/album/975068981",
+      "apple": "https://music.apple.com/us/album/snow-rain-b-w-untethered-single/6766138369?uo=4"
     },
-    "embed": null,
+    "embed": {
+      "provider": "apple",
+      "src": "https://embed.music.apple.com/us/album/6766138369?theme=light",
+      "height": 450
+    },
     "musicVideoUrl": null,
     "status": "pending",
     "approvedAt": null,
     "coverImageUrl": "https://i.discogs.com/nFqGjxJLv71Wfa2poWKWTJ2_ncpqdtLfiY2HFlTtlps/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM3MzYy/NjEyLTE3Nzg5ODc2/NDItMjA4Ni5qcGVn.jpeg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
+    "id": "xang-oh-well",
+    "type": "single",
+    "artist": "Xang",
+    "title": "Oh well",
+    "label": "",
+    "releaseDate": "2026-05-26",
+    "description": "",
+    "tags": [],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=Xang%20Oh%20well&item_type=a",
+      "spotify": "https://open.spotify.com/search/Xang%20Oh%20well",
+      "soundcloud": "https://soundcloud.com/search?q=Xang%20Oh%20well",
+      "youtube": "https://www.youtube.com/results?search_query=Xang%20Oh%20well",
+      "deezer": "https://www.deezer.com/album/990845671"
+    },
+    "embed": {
+      "provider": "deezer",
+      "src": "https://widget.deezer.com/widget/light/album/990845671",
+      "height": 300
+    },
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://cdn-images.dzcdn.net/images/cover/fef7e63541ab18e7e9a82e871f717829/1000x1000-000000-80-0-0.jpg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
+    "id": "substance-mum-is-dead",
+    "type": "album",
+    "artist": "Substance",
+    "title": "Mum is Dead",
+    "label": "",
+    "releaseDate": "2026-05-25",
+    "description": "",
+    "tags": [],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=Substance%20Mum%20is%20Dead&item_type=a",
+      "spotify": "https://open.spotify.com/search/Substance%20Mum%20is%20Dead",
+      "soundcloud": "https://soundcloud.com/search?q=Substance%20Mum%20is%20Dead",
+      "youtube": "https://www.youtube.com/results?search_query=Substance%20Mum%20is%20Dead",
+      "deezer": "https://www.deezer.com/album/991547731"
+    },
+    "embed": {
+      "provider": "deezer",
+      "src": "https://widget.deezer.com/widget/light/album/991547731",
+      "height": 300
+    },
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://cdn-images.dzcdn.net/images/cover/8d5e466a5b7bca75233f6632d543daff/1000x1000-000000-80-0-0.jpg",
     "cover": {
       "bg": "#111110",
       "fg": "#f2efe8",
@@ -1140,7 +1688,10 @@
       "fg": "#f2efe8",
       "motif": "disc"
     },
-    "pressMentions": []
+    "pressMentions": [
+      "pitchfork_albums",
+      "ra"
+    ]
   },
   {
     "id": "conna-haraway-extropy",
@@ -1386,6 +1937,40 @@
     "pressMentions": []
   },
   {
+    "id": "maisie-peters-florescence",
+    "type": "album",
+    "artist": "Maisie Peters",
+    "title": "Florescence",
+    "label": "Gingerbread Man Records",
+    "releaseDate": "2026-05-22",
+    "description": "",
+    "tags": [
+      "pop"
+    ],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=Maisie%20Peters%20Florescence&item_type=a",
+      "spotify": "https://open.spotify.com/search/Maisie%20Peters%20Florescence",
+      "soundcloud": "https://soundcloud.com/search?q=Maisie%20Peters%20Florescence",
+      "youtube": "https://www.youtube.com/results?search_query=Maisie%20Peters%20Florescence",
+      "deezer": "https://www.deezer.com/album/911235991"
+    },
+    "embed": {
+      "provider": "deezer",
+      "src": "https://widget.deezer.com/widget/light/album/911235991",
+      "height": 300
+    },
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://i.discogs.com/uKsXCYVsZ5o6LHnqCJ6IjxzKWoq-UDsHOCbh0xR1JCM/rs:fit/g:sm/q:90/h:589/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM3NDEx/NjUzLTE3Nzk0NTUx/MzctNjIxMC5qcGVn.jpeg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
     "id": "jpegmafia-experimental-rap",
     "type": "album",
     "artist": "Jpegmafia",
@@ -1416,7 +2001,8 @@
       "motif": "disc"
     },
     "pressMentions": [
-      "stereogum"
+      "stereogum",
+      "pitchfork_albums"
     ]
   },
   {
@@ -1465,9 +2051,14 @@
       "bandcamp": "https://bandcamp.com/search?q=Moin%20Pace%20pe%20p%C4%83m%C3%A2nt&item_type=a",
       "spotify": "https://open.spotify.com/search/Moin%20Pace%20pe%20p%C4%83m%C3%A2nt",
       "soundcloud": "https://soundcloud.com/search?q=Moin%20Pace%20pe%20p%C4%83m%C3%A2nt",
-      "youtube": "https://www.youtube.com/results?search_query=Moin%20Pace%20pe%20p%C4%83m%C3%A2nt"
+      "youtube": "https://www.youtube.com/results?search_query=Moin%20Pace%20pe%20p%C4%83m%C3%A2nt",
+      "deezer": "https://www.deezer.com/album/990503391"
     },
-    "embed": null,
+    "embed": {
+      "provider": "deezer",
+      "src": "https://widget.deezer.com/widget/light/album/990503391",
+      "height": 300
+    },
     "musicVideoUrl": null,
     "status": "pending",
     "approvedAt": null,
@@ -1603,7 +2194,8 @@
       "motif": "disc"
     },
     "pressMentions": [
-      "stereogum"
+      "stereogum",
+      "pitchfork_albums"
     ]
   },
   {
@@ -1791,12 +2383,13 @@
       "spotify": "https://open.spotify.com/search/Klein%20Make%20You%20Happy",
       "soundcloud": "https://soundcloud.com/search?q=Klein%20Make%20You%20Happy",
       "youtube": "https://www.youtube.com/results?search_query=Klein%20Make%20You%20Happy",
-      "deezer": "https://www.deezer.com/album/987884911"
+      "deezer": "https://www.deezer.com/album/987884911",
+      "apple": "https://music.apple.com/us/album/make-you-happy-single/6774191968?uo=4"
     },
     "embed": {
-      "provider": "deezer",
-      "src": "https://widget.deezer.com/widget/light/album/987884911",
-      "height": 300
+      "provider": "apple",
+      "src": "https://embed.music.apple.com/us/album/6774191968?theme=light",
+      "height": 450
     },
     "musicVideoUrl": null,
     "status": "pending",
@@ -1901,7 +2494,8 @@
       "motif": "disc"
     },
     "pressMentions": [
-      "stereogum"
+      "stereogum",
+      "pitchfork_albums"
     ]
   },
   {
@@ -2381,7 +2975,7 @@
     "type": "album",
     "artist": "Underworld",
     "title": "Arp12 - Underworld X KI/KI",
-    "label": "",
+    "label": "Smith Hyde Productions",
     "releaseDate": "2026-05-15",
     "description": "Underworld hand a track to KI/KI, the Amsterdam DJ whose sets lean harder and faster than most of Underworld's own catalogue would suggest. Curious on paper; worth hearing how the trance-tilted end of her sensibility lands on Hyde and Smith's machinery.",
     "tags": [],
@@ -3377,7 +3971,8 @@
       "soundcloud": "https://soundcloud.com/search?q=Vladislav%20Delay%20Quintet%20%26%20Vladislav%20Delay%20Vd5",
       "youtube": "https://www.youtube.com/results?search_query=Vladislav%20Delay%20Quintet%20%26%20Vladislav%20Delay%20Vd5",
       "apple": "https://music.apple.com/us/album/vd5/1878458957",
-      "deezer": "https://www.deezer.com/album/922793851"
+      "deezer": "https://www.deezer.com/album/922793851",
+      "tidal": "https://tidal.com/album/500430681"
     },
     "embed": {
       "provider": "apple",
@@ -3412,7 +4007,8 @@
       "soundcloud": "https://soundcloud.com/search?q=John%20Tejada%20%26%20Plaid%20Start%20Motion",
       "youtube": "https://www.youtube.com/results?search_query=John%20Tejada%20%26%20Plaid%20Start%20Motion",
       "apple": "https://music.apple.com/us/album/start-motion-single/1890497939",
-      "deezer": "https://www.deezer.com/album/953908261"
+      "deezer": "https://www.deezer.com/album/953908261",
+      "tidal": "https://tidal.com/album/512913045"
     },
     "embed": {
       "provider": "apple",
@@ -3612,7 +4208,8 @@
       "soundcloud": "https://soundcloud.com/search?q=Vladislav%20Delay%20vd5",
       "youtube": "https://www.youtube.com/results?search_query=Vladislav%20Delay%20vd5",
       "deezer": "https://www.deezer.com/album/922793851",
-      "apple": "https://music.apple.com/us/album/vd5/1878458957?uo=4"
+      "apple": "https://music.apple.com/us/album/vd5/1878458957?uo=4",
+      "tidal": "https://tidal.com/album/500430681"
     },
     "embed": {
       "provider": "apple",
@@ -3679,7 +4276,8 @@
       "spotify": "https://open.spotify.com/search/Black%20Milk%20CEREMONIAL",
       "soundcloud": "https://soundcloud.com/search?q=Black%20Milk%20CEREMONIAL",
       "youtube": "https://www.youtube.com/results?search_query=Black%20Milk%20CEREMONIAL",
-      "deezer": "https://www.deezer.com/album/965825381"
+      "deezer": "https://www.deezer.com/album/965825381",
+      "tidal": "https://tidal.com/album/517727375"
     },
     "embed": {
       "provider": "deezer",
@@ -3716,7 +4314,8 @@
       "soundcloud": "https://soundcloud.com/search?q=Sans%20Merit%20Trolley%20Polly",
       "youtube": "https://www.youtube.com/results?search_query=Sans%20Merit%20Trolley%20Polly",
       "deezer": "https://www.deezer.com/album/948725441",
-      "apple": "https://music.apple.com/us/album/trolley-polly/1888238626?uo=4"
+      "apple": "https://music.apple.com/us/album/trolley-polly/1888238626?uo=4",
+      "tidal": "https://tidal.com/album/510397619"
     },
     "embed": {
       "provider": "apple",
@@ -3848,7 +4447,8 @@
       "spotify": "https://open.spotify.com/search/Boards%20of%20Canada%20Prophecy%20At%201420%20MHz",
       "soundcloud": "https://soundcloud.com/search?q=Boards%20of%20Canada%20Prophecy%20At%201420%20MHz",
       "youtube": "https://www.youtube.com/results?search_query=Boards%20of%20Canada%20Prophecy%20At%201420%20MHz",
-      "deezer": "https://www.deezer.com/album/977762521"
+      "deezer": "https://www.deezer.com/album/977762521",
+      "tidal": "https://tidal.com/album/522342308"
     },
     "embed": {
       "provider": "deezer",
@@ -3866,7 +4466,9 @@
     },
     "pressMentions": [
       "pitchfork_tracks",
-      "ra"
+      "ra",
+      "pitchfork_albums",
+      "pitchfork_best_albums"
     ]
   },
   {
@@ -3970,7 +4572,8 @@
       "motif": "disc"
     },
     "pressMentions": [
-      "stereogum"
+      "stereogum",
+      "pitchfork_albums"
     ]
   },
   {
@@ -5499,6 +6102,35 @@
     "pressMentions": []
   },
   {
+    "id": "seefeel-x-kmru-rapture-to-rupt",
+    "type": "single",
+    "artist": "Seefeel x KMRU",
+    "title": "Rapture To Rupt",
+    "label": "Warp Records",
+    "releaseDate": "2026-05-01",
+    "description": "",
+    "tags": [
+      "electronic"
+    ],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=Seefeel%20x%20KMRU%20Rapture%20To%20Rupt&item_type=a",
+      "spotify": "https://open.spotify.com/search/Seefeel%20x%20KMRU%20Rapture%20To%20Rupt",
+      "soundcloud": "https://soundcloud.com/search?q=Seefeel%20x%20KMRU%20Rapture%20To%20Rupt",
+      "youtube": "https://www.youtube.com/results?search_query=Seefeel%20x%20KMRU%20Rapture%20To%20Rupt"
+    },
+    "embed": null,
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://i.discogs.com/SJKJoEKmdfAxVqXhf3FndTtAeStil9x6zFLuutNyayE/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM3NDc2/NTAxLTE3ODAwNzY0/NDUtNDc1NC5qcGVn.jpeg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
     "id": "jump-source-patrick-holland-priori-fold",
     "type": "album",
     "artist": "Jump Source, Patrick Holland & Priori",
@@ -5635,7 +6267,8 @@
       "motif": "disc"
     },
     "pressMentions": [
-      "stereogum"
+      "stereogum",
+      "pitchfork_albums"
     ]
   },
   {
@@ -6513,7 +7146,7 @@
     "type": "album",
     "artist": "Ólafur Arnalds",
     "title": "SAGES (Echoes Edition)",
-    "label": "",
+    "label": "Mercury KX",
     "releaseDate": "2026-04-24",
     "description": "An expanded edition of the Icelandic composer's latest, extending his familiar territory of piano figures, processed strings and small electronic gestures. For listeners who have stayed with him since Found Songs.",
     "tags": [],
@@ -7954,6 +8587,35 @@
     "pressMentions": []
   },
   {
+    "id": "babymetal-live-at-the-o2-arena-highlights",
+    "type": "album",
+    "artist": "Babymetal",
+    "title": "Live At The O2 Arena - Highlights",
+    "label": "Capitol Records",
+    "releaseDate": "2026-04-18",
+    "description": "",
+    "tags": [
+      "rock"
+    ],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=Babymetal%20Live%20At%20The%20O2%20Arena%20-%20Highlights&item_type=a",
+      "spotify": "https://open.spotify.com/search/Babymetal%20Live%20At%20The%20O2%20Arena%20-%20Highlights",
+      "soundcloud": "https://soundcloud.com/search?q=Babymetal%20Live%20At%20The%20O2%20Arena%20-%20Highlights",
+      "youtube": "https://www.youtube.com/results?search_query=Babymetal%20Live%20At%20The%20O2%20Arena%20-%20Highlights"
+    },
+    "embed": null,
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://i.discogs.com/z1ie9KCTH0l8IOAoBeMd04gIn5tZI_RRZ7vHSLolmYw/rs:fit/g:sm/q:90/h:589/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM3MTAw/MjE0LTE3NzY1MDE1/MzUtNjkyNC5qcGVn.jpeg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
     "id": "flying-lotus-1983",
     "type": "album",
     "artist": "Flying Lotus",
@@ -8291,7 +8953,10 @@
       "fg": "#f2efe8",
       "motif": "disc"
     },
-    "pressMentions": []
+    "pressMentions": [
+      "pitchfork_albums",
+      "ra"
+    ]
   },
   {
     "id": "peter-gabriel-till-your-mind-is-shining-bright-side-mix",
@@ -8649,7 +9314,7 @@
     "type": "single",
     "artist": "Ólafur Arnalds",
     "title": "Echoes",
-    "label": "",
+    "label": "Mercury KX",
     "releaseDate": "2026-04-17",
     "description": "Another single from the Icelandic composer whose neo, classical piano and processed strings have become a fixture of the post, Jóhannsson landscape. Expect restraint rather than reinvention.",
     "tags": [],
@@ -10132,6 +10797,40 @@
     "pressMentions": []
   },
   {
+    "id": "alex-zhang-hungtai-dras",
+    "type": "album",
+    "artist": "Alex Zhang Hungtai",
+    "title": "Dras",
+    "label": "Shelter Press",
+    "releaseDate": "2026-04-10",
+    "description": "",
+    "tags": [
+      "electronic"
+    ],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=Alex%20Zhang%20Hungtai%20Dras&item_type=a",
+      "spotify": "https://open.spotify.com/search/Alex%20Zhang%20Hungtai%20Dras",
+      "soundcloud": "https://soundcloud.com/search?q=Alex%20Zhang%20Hungtai%20Dras",
+      "youtube": "https://www.youtube.com/results?search_query=Alex%20Zhang%20Hungtai%20Dras",
+      "deezer": "https://www.deezer.com/album/891491192"
+    },
+    "embed": {
+      "provider": "deezer",
+      "src": "https://widget.deezer.com/widget/light/album/891491192",
+      "height": 300
+    },
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://i.discogs.com/zp2aUkA4cRC3qJidfQWhY1W5Ia7F4HCLQ5x3Ip6-VnQ/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM3NDk2/MzA0LTE3ODAyNTc4/NDAtOTg3MS5qcGVn.jpeg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
     "id": "aloisius-vernacular",
     "type": "album",
     "artist": "Aloisius",
@@ -10432,7 +11131,9 @@
     },
     "pressMentions": [
       "pitchfork_tracks",
-      "ra"
+      "ra",
+      "pitchfork_albums",
+      "pitchfork_best_albums"
     ]
   },
   {
@@ -11880,6 +12581,42 @@
     "pressMentions": []
   },
   {
+    "id": "oneohtrix-point-never-r-plus-seven",
+    "type": "album",
+    "artist": "Oneohtrix Point Never",
+    "title": "R Plus Seven",
+    "label": "Warp Records",
+    "releaseDate": "2026-03-20",
+    "description": "",
+    "tags": [
+      "electronic"
+    ],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=Oneohtrix%20Point%20Never%20R%20Plus%20Seven&item_type=a",
+      "spotify": "https://open.spotify.com/search/Oneohtrix%20Point%20Never%20R%20Plus%20Seven",
+      "soundcloud": "https://soundcloud.com/search?q=Oneohtrix%20Point%20Never%20R%20Plus%20Seven",
+      "youtube": "https://www.youtube.com/results?search_query=Oneohtrix%20Point%20Never%20R%20Plus%20Seven",
+      "deezer": "https://www.deezer.com/album/6974486"
+    },
+    "embed": {
+      "provider": "deezer",
+      "src": "https://widget.deezer.com/widget/light/album/6974486",
+      "height": 300
+    },
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://i.discogs.com/dz3FmctRhHFrjVbA0KQRcNCndRre18sn2TmrOF1dTK0/rs:fit/g:sm/q:90/h:600/w:585/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM2ODYw/OTkyLTE3Nzk3NzQ0/MjAtNzg4Ni5qcGVn.jpeg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": [
+      "pitchfork_best_albums"
+    ]
+  },
+  {
     "id": "shed-applications-ii",
     "type": "ep",
     "artist": "Shed",
@@ -12468,9 +13205,14 @@
       "bandcamp": "https://bandcamp.com/search?q=MJ%20Guider%20Another%2FWeird%20Dream&item_type=a",
       "spotify": "https://open.spotify.com/search/MJ%20Guider%20Another%2FWeird%20Dream",
       "soundcloud": "https://soundcloud.com/search?q=MJ%20Guider%20Another%2FWeird%20Dream",
-      "youtube": "https://www.youtube.com/results?search_query=MJ%20Guider%20Another%2FWeird%20Dream"
+      "youtube": "https://www.youtube.com/results?search_query=MJ%20Guider%20Another%2FWeird%20Dream",
+      "deezer": "https://www.deezer.com/album/991619621"
     },
-    "embed": null,
+    "embed": {
+      "provider": "deezer",
+      "src": "https://widget.deezer.com/widget/light/album/991619621",
+      "height": 300
+    },
     "musicVideoUrl": null,
     "status": "pending",
     "approvedAt": null,
@@ -16725,7 +17467,9 @@
     },
     "pressMentions": [
       "pitchfork_tracks",
-      "ra"
+      "ra",
+      "pitchfork_albums",
+      "pitchfork_best_albums"
     ]
   },
   {
@@ -16886,6 +17630,69 @@
     "status": "pending",
     "approvedAt": null,
     "coverImageUrl": "https://i.discogs.com/kQNQ1jcIZ8a5EdFgXlerQ98GojWM6pBvpM4K_uxDu2I/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM3NDI0/Njc2LTE3Nzk1NzQw/NTEtOTc0My5qcGVn.jpeg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
+    "id": "sherlock-holmes-investigation-investigation-n1",
+    "type": "album",
+    "artist": "Sherlock Holmes Investigation",
+    "title": "Investigation N1",
+    "label": "Strongly Felt",
+    "releaseDate": "2026-01-01",
+    "description": "",
+    "tags": [
+      "funk / soul"
+    ],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=Sherlock%20Holmes%20Investigation%20Investigation%20N1&item_type=a",
+      "spotify": "https://open.spotify.com/search/Sherlock%20Holmes%20Investigation%20Investigation%20N1",
+      "soundcloud": "https://soundcloud.com/search?q=Sherlock%20Holmes%20Investigation%20Investigation%20N1",
+      "youtube": "https://www.youtube.com/results?search_query=Sherlock%20Holmes%20Investigation%20Investigation%20N1",
+      "deezer": "https://www.deezer.com/album/1533811"
+    },
+    "embed": {
+      "provider": "deezer",
+      "src": "https://widget.deezer.com/widget/light/album/1533811",
+      "height": 300
+    },
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://i.discogs.com/zh0bGPRhd1L9jwjppoxwcL4LzRK2RQc-PbtqbAec5CI/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM3NDY1/MDA1LTE3Nzk5NTgy/NTctMjkyOS5qcGVn.jpeg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
+    "id": "martin-denny-quiet-village-the-exotic-sounds-of-martin-denny",
+    "type": "album",
+    "artist": "Martin Denny",
+    "title": "Quiet Village: The Exotic Sounds Of Martin Denny",
+    "label": "Pan-Am Records",
+    "releaseDate": "2026-01-01",
+    "description": "",
+    "tags": [
+      "jazz"
+    ],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=Martin%20Denny%20Quiet%20Village%3A%20The%20Exotic%20Sounds%20Of%20Martin%20Denny&item_type=a",
+      "spotify": "https://open.spotify.com/search/Martin%20Denny%20Quiet%20Village%3A%20The%20Exotic%20Sounds%20Of%20Martin%20Denny",
+      "soundcloud": "https://soundcloud.com/search?q=Martin%20Denny%20Quiet%20Village%3A%20The%20Exotic%20Sounds%20Of%20Martin%20Denny",
+      "youtube": "https://www.youtube.com/results?search_query=Martin%20Denny%20Quiet%20Village%3A%20The%20Exotic%20Sounds%20Of%20Martin%20Denny"
+    },
+    "embed": null,
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://i.discogs.com/lC20kP3X12uakFzvPOjGTKCWZhNKpFo80l5qAdMWaRY/rs:fit/g:sm/q:90/h:561/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM3NDg0/ODk4LTE3ODAxNTcz/MTEtODAxNy5qcGVn.jpeg",
     "cover": {
       "bg": "#111110",
       "fg": "#f2efe8",
@@ -19188,6 +19995,40 @@
     "status": "pending",
     "approvedAt": null,
     "coverImageUrl": "https://i.discogs.com/es28wAWnh3t-1EZzKL2jYO8O9dI35ET1UDm5X40PtLA/rs:fit/g:sm/q:90/h:585/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM1ODAx/MzM4LTE3NjQ0NzIw/NTAtNTIxNS5qcGVn.jpeg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
+    "id": "various-yuku-5-years-in-the-wild-iii",
+    "type": "album",
+    "artist": "Various",
+    "title": "YUKU: 5 Years In The Wild III",
+    "label": "YUKU",
+    "releaseDate": "2025-11-14",
+    "description": "",
+    "tags": [
+      "electronic"
+    ],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=Various%20YUKU%3A%205%20Years%20In%20The%20Wild%20III&item_type=a",
+      "spotify": "https://open.spotify.com/search/Various%20YUKU%3A%205%20Years%20In%20The%20Wild%20III",
+      "soundcloud": "https://soundcloud.com/search?q=Various%20YUKU%3A%205%20Years%20In%20The%20Wild%20III",
+      "youtube": "https://www.youtube.com/results?search_query=Various%20YUKU%3A%205%20Years%20In%20The%20Wild%20III",
+      "deezer": "https://www.deezer.com/album/854989312"
+    },
+    "embed": {
+      "provider": "deezer",
+      "src": "https://widget.deezer.com/widget/light/album/854989312",
+      "height": 300
+    },
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://i.discogs.com/kpFso3o0TxEoqob8x6-Cf9uevPNoYLcDRJy46kq09Xc/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM3NDQw/MTg2LTE3Nzk3MjY0/MjctMjM5MC5qcGVn.jpeg",
     "cover": {
       "bg": "#111110",
       "fg": "#f2efe8",
@@ -35960,6 +36801,64 @@
     "status": "pending",
     "approvedAt": null,
     "coverImageUrl": "https://i.discogs.com/rDley-slnSLQ2db1O5T3W8Y0ucJXrJHlSkEhEmPKQAo/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM0NDQy/MTcwLTE3NTE1NzM0/MTAtMjc1Ny5qcGVn.jpeg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
+    "id": "kjell-bj-rgeengen-lasse-marhaug-flood-coil",
+    "type": "single",
+    "artist": "Kjell Bjørgeengen, Lasse Marhaug",
+    "title": "Flood Coil",
+    "label": "Smalltown Supersound",
+    "releaseDate": "2025-01-01",
+    "description": "",
+    "tags": [
+      "electronic"
+    ],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=Kjell%20Bj%C3%B8rgeengen%2C%20Lasse%20Marhaug%20Flood%20Coil&item_type=a",
+      "spotify": "https://open.spotify.com/search/Kjell%20Bj%C3%B8rgeengen%2C%20Lasse%20Marhaug%20Flood%20Coil",
+      "soundcloud": "https://soundcloud.com/search?q=Kjell%20Bj%C3%B8rgeengen%2C%20Lasse%20Marhaug%20Flood%20Coil",
+      "youtube": "https://www.youtube.com/results?search_query=Kjell%20Bj%C3%B8rgeengen%2C%20Lasse%20Marhaug%20Flood%20Coil"
+    },
+    "embed": null,
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://i.discogs.com/feSa0yhpfF0V2VGlxFNScujSpu2L6kzXlKdY0kKofe0/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM3NDQ2/ODEwLTE3Nzk3ODg3/MDYtNTE4Ny5qcGVn.jpeg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
+    "id": "yoichi-kamimura-olli-aarni-kori-no-ryoko-jaamatkailu",
+    "type": "single",
+    "artist": "Yoichi Kamimura & Olli Aarni",
+    "title": "Kōri no ryokō / Jäämatkailu",
+    "label": "mappa",
+    "releaseDate": "2025-01-01",
+    "description": "",
+    "tags": [
+      "electronic"
+    ],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=Yoichi%20Kamimura%20%26%20Olli%20Aarni%20K%C5%8Dri%20no%20ryok%C5%8D%20%2F%20J%C3%A4%C3%A4matkailu&item_type=a",
+      "spotify": "https://open.spotify.com/search/Yoichi%20Kamimura%20%26%20Olli%20Aarni%20K%C5%8Dri%20no%20ryok%C5%8D%20%2F%20J%C3%A4%C3%A4matkailu",
+      "soundcloud": "https://soundcloud.com/search?q=Yoichi%20Kamimura%20%26%20Olli%20Aarni%20K%C5%8Dri%20no%20ryok%C5%8D%20%2F%20J%C3%A4%C3%A4matkailu",
+      "youtube": "https://www.youtube.com/results?search_query=Yoichi%20Kamimura%20%26%20Olli%20Aarni%20K%C5%8Dri%20no%20ryok%C5%8D%20%2F%20J%C3%A4%C3%A4matkailu"
+    },
+    "embed": null,
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://i.discogs.com/NlTlw9d07aa3lA-GyzIb_AouQOW254cy4YwsaJEYdWY/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM3NDky/NDcwLTE3ODAyMjY2/NTAtNjIyOC5qcGVn.jpeg",
     "cover": {
       "bg": "#111110",
       "fg": "#f2efe8",
