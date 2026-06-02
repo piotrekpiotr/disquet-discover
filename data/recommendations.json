@@ -803,9 +803,16 @@
       "bandcamp": "https://bandcamp.com/search?q=Hooper%20(8)%20Carry%20Your%20Own%20Saints&item_type=a",
       "spotify": "https://open.spotify.com/search/Hooper%20(8)%20Carry%20Your%20Own%20Saints",
       "soundcloud": "https://soundcloud.com/search?q=Hooper%20(8)%20Carry%20Your%20Own%20Saints",
-      "youtube": "https://www.youtube.com/results?search_query=Hooper%20(8)%20Carry%20Your%20Own%20Saints"
+      "youtube": "https://www.youtube.com/results?search_query=Hooper%20(8)%20Carry%20Your%20Own%20Saints",
+      "deezer": "https://www.deezer.com/album/966497501",
+      "apple": "https://music.apple.com/us/album/carry-your-own-saints-ep/1895056624?uo=4",
+      "tidal": "https://tidal.com/album/517987517"
     },
-    "embed": null,
+    "embed": {
+      "provider": "apple",
+      "src": "https://embed.music.apple.com/us/album/1895056624?theme=light",
+      "height": 450
+    },
     "musicVideoUrl": null,
     "status": "pending",
     "approvedAt": null,
@@ -959,7 +966,8 @@
       "bandcamp": "https://bandcamp.com/search?q=Boards%20of%20Canada%20Inferno&item_type=a",
       "spotify": "https://open.spotify.com/search/Boards%20of%20Canada%20Inferno",
       "soundcloud": "https://soundcloud.com/search?q=Boards%20of%20Canada%20Inferno",
-      "youtube": "https://www.youtube.com/results?search_query=Boards%20of%20Canada%20Inferno"
+      "youtube": "https://www.youtube.com/results?search_query=Boards%20of%20Canada%20Inferno",
+      "tidal": "https://tidal.com/album/528351285"
     },
     "embed": {
       "provider": "apple",
@@ -1377,9 +1385,15 @@
       "bandcamp": "https://bandcamp.com/search?q=Ela%20Stiles%20Rassberry&item_type=a",
       "spotify": "https://open.spotify.com/search/Ela%20Stiles%20Rassberry",
       "soundcloud": "https://soundcloud.com/search?q=Ela%20Stiles%20Rassberry",
-      "youtube": "https://www.youtube.com/results?search_query=Ela%20Stiles%20Rassberry"
+      "youtube": "https://www.youtube.com/results?search_query=Ela%20Stiles%20Rassberry",
+      "deezer": "https://www.deezer.com/album/990922071",
+      "apple": "https://music.apple.com/us/album/rassberry-ep/6773094928?uo=4"
     },
-    "embed": null,
+    "embed": {
+      "provider": "apple",
+      "src": "https://embed.music.apple.com/us/album/6773094928?theme=light",
+      "height": 450
+    },
     "musicVideoUrl": null,
     "status": "pending",
     "approvedAt": null,
@@ -1433,7 +1447,7 @@
     "title": "Oh well",
     "label": "",
     "releaseDate": "2026-05-26",
-    "description": "",
+    "description": "New Xang single arriving mid-2026, label still unannounced. Worth a flag for anyone who keeps an ear on the artist's left-of-center electronic output.",
     "tags": [],
     "links": {
       "bandcamp": "https://bandcamp.com/search?q=Xang%20Oh%20well&item_type=a",
@@ -1465,7 +1479,7 @@
     "title": "Mum is Dead",
     "label": "",
     "releaseDate": "2026-05-25",
-    "description": "",
+    "description": "Substance returning with a full-length called Mum is Dead, label details still unconfirmed at time of writing. On title alone, expect the bleaker, more interior end of the DJ Pete continuum rather than the dancefloor.",
     "tags": [],
     "links": {
       "bandcamp": "https://bandcamp.com/search?q=Substance%20Mum%20is%20Dead&item_type=a",
@@ -1943,7 +1957,7 @@
     "title": "Florescence",
     "label": "Gingerbread Man Records",
     "releaseDate": "2026-05-22",
-    "description": "",
+    "description": "This isn't really a Disquiet record. Maisie Peters is mainstream pop on Ed Sheeran's Gingerbread Man imprint, fifteen tracks of confessional songwriting aimed at radio rather than the listening room.",
     "tags": [
       "pop"
     ],
@@ -1963,6 +1977,40 @@
     "status": "pending",
     "approvedAt": null,
     "coverImageUrl": "https://i.discogs.com/uKsXCYVsZ5o6LHnqCJ6IjxzKWoq-UDsHOCbh0xR1JCM/rs:fit/g:sm/q:90/h:589/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM3NDEx/NjUzLTE3Nzk0NTUx/MzctNjIxMC5qcGVn.jpeg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
+    "id": "fire-toolz-lavender-networks",
+    "type": "album",
+    "artist": "Fire-Toolz",
+    "title": "Lavender Networks",
+    "label": "Warp Records",
+    "releaseDate": "2026-05-22",
+    "description": "Angel Marcloid's maximalist collage project lands on Warp, where the usual Fire-Toolz weather, blast beats, smooth-jazz sax, vaporwave UI gloss, MIDI sunsets, presumably still coexists in one frame. For listeners who treat Have A Nice Life and Kenny G as adjacent shelves.",
+    "tags": [
+      "electronic"
+    ],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=Fire-Toolz%20Lavender%20Networks&item_type=a",
+      "spotify": "https://open.spotify.com/search/Fire-Toolz%20Lavender%20Networks",
+      "soundcloud": "https://soundcloud.com/search?q=Fire-Toolz%20Lavender%20Networks",
+      "youtube": "https://www.youtube.com/results?search_query=Fire-Toolz%20Lavender%20Networks",
+      "deezer": "https://www.deezer.com/album/916889071"
+    },
+    "embed": {
+      "provider": "deezer",
+      "src": "https://widget.deezer.com/widget/light/album/916889071",
+      "height": 300
+    },
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://i.discogs.com/xBcIxOTItttM4F53VQNsljNPyl7ZSxjPfmhiUvvhAm0/rs:fit/g:sm/q:90/h:595/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM3NTA4/NTM1LTE3ODAzNTMx/MjktNzM2NS5qcGVn.jpeg",
     "cover": {
       "bg": "#111110",
       "fg": "#f2efe8",
@@ -2231,6 +2279,40 @@
       "motif": "disc"
     },
     "pressMentions": []
+  },
+  {
+    "id": "bladee-sulfur-surfer",
+    "type": "album",
+    "artist": "Bladee",
+    "title": "Sulfur Surfer",
+    "label": "Trash Island",
+    "releaseDate": "2026-05-20",
+    "description": "Thirteen tracks of Bladee on his own Trash Island imprint, the auto-tuned drift and pillowy melancholy more or less where you left it. For listeners still working through the Drain Gang catalogue.",
+    "tags": [],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=Bladee%20Sulfur%20Surfer&item_type=a",
+      "spotify": "https://open.spotify.com/search/Bladee%20Sulfur%20Surfer",
+      "soundcloud": "https://soundcloud.com/search?q=Bladee%20Sulfur%20Surfer",
+      "youtube": "https://www.youtube.com/results?search_query=Bladee%20Sulfur%20Surfer",
+      "deezer": "https://www.deezer.com/album/987284151"
+    },
+    "embed": {
+      "provider": "deezer",
+      "src": "https://widget.deezer.com/widget/light/album/987284151",
+      "height": 300
+    },
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://cdn-images.dzcdn.net/images/cover/f932bd48cd9587a5b1c9f4dd5c1ac291/1000x1000-000000-80-0-0.jpg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": [
+      "pitchfork_albums"
+    ]
   },
   {
     "id": "dismiss-lost-transmissions-1995-1996",
@@ -6108,7 +6190,7 @@
     "title": "Rapture To Rupt",
     "label": "Warp Records",
     "releaseDate": "2026-05-01",
-    "description": "",
+    "description": "Seefeel and KMRU meet on Warp for a single long-form piece, the former's dub-eroded guitar haze finding common ground with the Kenyan ambient producer's slower weather systems. Limited reissue pressing; one for the Quaristice shelf.",
     "tags": [
       "electronic"
     ],
@@ -8593,7 +8675,7 @@
     "title": "Live At The O2 Arena - Highlights",
     "label": "Capitol Records",
     "releaseDate": "2026-04-18",
-    "description": "",
+    "description": "Eight selections from Babymetal's O2 night, pressed for Record Store Day by Capitol. Squarely outside the usual lane here, but the kawaii-metal crossover remains its own genre of one.",
     "tags": [
       "rock"
     ],
@@ -10803,7 +10885,7 @@
     "title": "Dras",
     "label": "Shelter Press",
     "releaseDate": "2026-04-10",
-    "description": "",
+    "description": "Hungtai returns to Shelter Press with nine pieces drifting through the saxophone-and-drone territory he has staked out since shedding the Dirty Beaches name. Abstracted, slow-moving, closer to Stephen O'Malley's end of the catalogue than to jazz proper.",
     "tags": [
       "electronic"
     ],
@@ -12587,7 +12669,7 @@
     "title": "R Plus Seven",
     "label": "Warp Records",
     "releaseDate": "2026-03-20",
-    "description": "",
+    "description": "Lopatin's first Warp record gets a vinyl outing, ten pieces threading choral patches, MIDI presets and silence into something closer to musique concrète than synth music. Still the cleanest articulation of the OPN method.",
     "tags": [
       "electronic"
     ],
@@ -17619,12 +17701,13 @@
       "spotify": "https://open.spotify.com/search/Americania%20Saludos%20de%20Americania",
       "soundcloud": "https://soundcloud.com/search?q=Americania%20Saludos%20de%20Americania",
       "youtube": "https://www.youtube.com/results?search_query=Americania%20Saludos%20de%20Americania",
-      "deezer": "https://www.deezer.com/album/942420191"
+      "deezer": "https://www.deezer.com/album/942420191",
+      "apple": "https://music.apple.com/us/album/saludos-de-americania/1886099319?uo=4"
     },
     "embed": {
-      "provider": "deezer",
-      "src": "https://widget.deezer.com/widget/light/album/942420191",
-      "height": 300
+      "provider": "apple",
+      "src": "https://embed.music.apple.com/us/album/1886099319?theme=light",
+      "height": 450
     },
     "musicVideoUrl": null,
     "status": "pending",
@@ -17644,7 +17727,7 @@
     "title": "Investigation N1",
     "label": "Strongly Felt",
     "releaseDate": "2026-01-01",
-    "description": "",
+    "description": "Strongly Felt put a long out of print library-funk curio back into circulation, nine tracks of brassy, slightly cartoonish detective grooves credited to Sherlock Holmes Investigation. For the crates that already hold Janko Nilovic and KPM.",
     "tags": [
       "funk / soul"
     ],
@@ -17678,7 +17761,7 @@
     "title": "Quiet Village: The Exotic Sounds Of Martin Denny",
     "label": "Pan-Am Records",
     "releaseDate": "2026-01-01",
-    "description": "",
+    "description": "A reissue of the 1959 Liberty set that effectively codified exotica as a genre, bird calls, vibraphone and faux-Polynesian lounge arrangements intact. Mono pressing for the purists; shelve next to Les Baxter.",
     "tags": [
       "jazz"
     ],
@@ -17693,6 +17776,40 @@
     "status": "pending",
     "approvedAt": null,
     "coverImageUrl": "https://i.discogs.com/lC20kP3X12uakFzvPOjGTKCWZhNKpFo80l5qAdMWaRY/rs:fit/g:sm/q:90/h:561/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM3NDg0/ODk4LTE3ODAxNTcz/MTEtODAxNy5qcGVn.jpeg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
+    "id": "hayley-kiyoko-this-side-of-paradise-ep",
+    "type": "ep",
+    "artist": "Hayley Kiyoko",
+    "title": "This Side of Paradise - EP",
+    "label": "Rich Youth/Steel Wool Records",
+    "releaseDate": "2026-01-01",
+    "description": "Five tracks of Kiyoko's polished indie pop pressed to picture disc through Rich Youth/Steel Wool, an unofficial 12\" aimed squarely at collectors rather than the streaming crowd. Worth flagging for the format more than the format-breaking.",
+    "tags": [
+      "pop"
+    ],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=Hayley%20Kiyoko%20This%20Side%20of%20Paradise%20-%20EP&item_type=a",
+      "spotify": "https://open.spotify.com/search/Hayley%20Kiyoko%20This%20Side%20of%20Paradise%20-%20EP",
+      "soundcloud": "https://soundcloud.com/search?q=Hayley%20Kiyoko%20This%20Side%20of%20Paradise%20-%20EP",
+      "youtube": "https://www.youtube.com/results?search_query=Hayley%20Kiyoko%20This%20Side%20of%20Paradise%20-%20EP",
+      "deezer": "https://www.deezer.com/album/9532118"
+    },
+    "embed": {
+      "provider": "deezer",
+      "src": "https://widget.deezer.com/widget/light/album/9532118",
+      "height": 300
+    },
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://i.discogs.com/OB9TQIQDnVQuFftawAr2iZ0uw9Ec0jBWW3qRda2Cb_A/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM3NTA3/ODIxLTE3ODAzNDMw/NzQtMTEwNC5qcGVn.jpeg",
     "cover": {
       "bg": "#111110",
       "fg": "#f2efe8",
@@ -20009,7 +20126,7 @@
     "title": "YUKU: 5 Years In The Wild III",
     "label": "YUKU",
     "releaseDate": "2025-11-14",
-    "description": "",
+    "description": "Eight-track label survey from YUKU, plotting their usual coordinates between grime, dubstep weight, broken bass and outright experimental fare. For shelves that already make room for Sector 7 or Foul Play adjacent oddities.",
     "tags": [
       "electronic"
     ],
@@ -27698,7 +27815,7 @@
     "title": "Me, With You",
     "label": "co:clear",
     "releaseDate": "2025-05-30",
-    "description": "",
+    "description": "Seven tracks from Jonnnah on co:clear that swing between ambient drift, broken garage shuffle and the murkier residue of witch house. An odd combination on paper, more coherent in sequence.",
     "tags": [
       "electronic"
     ],
@@ -27733,7 +27850,7 @@
     "title": "Evangelic Girl Is a Gun",
     "label": "Ninja Tune",
     "releaseDate": "2025-05-30",
-    "description": "",
+    "description": "Yeule's Ninja Tune full-length leans further into glitch-pop territory, ten tracks of corroded melodies and digital damage held together by a pop instinct that keeps surfacing through the static. For anyone who followed the arc from Serotonin II onward.",
     "tags": [
       "electronic"
     ],
