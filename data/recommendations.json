@@ -789,6 +789,35 @@
     "pressMentions": []
   },
   {
+    "id": "matthew-herbert-worry-herbert-s-brahm-dub",
+    "type": "single",
+    "artist": "Matthew Herbert",
+    "title": "WORRY. (Herbert's Brahm Dub)",
+    "label": "",
+    "releaseDate": "2026-06-03",
+    "description": "Herbert in dub-rework mode, applying his long-running interest in micro-sampled detail and politicised pop deconstruction to a piece titled after Brahms. File alongside the rest of his Accidental-era reworks.",
+    "tags": [],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=Matthew%20Herbert%20WORRY.%20(Herbert's%20Brahm%20Dub)&item_type=a",
+      "spotify": "https://open.spotify.com/search/Matthew%20Herbert%20WORRY.%20(Herbert's%20Brahm%20Dub)",
+      "soundcloud": "https://soundcloud.com/search?q=Matthew%20Herbert%20WORRY.%20(Herbert's%20Brahm%20Dub)",
+      "youtube": "https://www.youtube.com/results?search_query=Matthew%20Herbert%20WORRY.%20(Herbert's%20Brahm%20Dub)",
+      "deezer": "https://www.deezer.com/album/962038461",
+      "tidal": "https://tidal.com/album/516092106"
+    },
+    "embed": null,
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://cdn-images.dzcdn.net/images/cover/fd73c22480fa23e5dd4a54b41fa01385/1000x1000-000000-80-0-0.jpg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
     "id": "hooper-8-carry-your-own-saints",
     "type": "ep",
     "artist": "Hooper (8)",
@@ -817,6 +846,42 @@
     "status": "pending",
     "approvedAt": null,
     "coverImageUrl": "https://i.discogs.com/tIitiVfCVlovBjI3RSK-Iiwc1G_ygD5c3oW-OK-z8UI/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM3MzYy/NTc5LTE3Nzg5ODcy/NjQtODY0Ny5qcGVn.jpeg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
+    "id": "saphileaum-heavenly-hills",
+    "type": "ep",
+    "artist": "Saphileaum",
+    "title": "Heavenly Hills",
+    "label": "Good Morning Tapes",
+    "releaseDate": "2026-06-02",
+    "description": "Five tracks of weightless ambient and downtempo from Saphileaum, landing on Good Morning Tapes where this register has long felt at home. Slot it next to Topdown Dialectic if you need the shelf.",
+    "tags": [
+      "electronic"
+    ],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=Saphileaum%20Heavenly%20Hills&item_type=a",
+      "spotify": "https://open.spotify.com/search/Saphileaum%20Heavenly%20Hills",
+      "soundcloud": "https://soundcloud.com/search?q=Saphileaum%20Heavenly%20Hills",
+      "youtube": "https://www.youtube.com/results?search_query=Saphileaum%20Heavenly%20Hills",
+      "deezer": "https://www.deezer.com/album/985200471",
+      "apple": "https://music.apple.com/us/album/heavenly-hills-ep/6770392241?uo=4",
+      "tidal": "https://tidal.com/album/525695167"
+    },
+    "embed": {
+      "provider": "apple",
+      "src": "https://embed.music.apple.com/us/album/6770392241?theme=light",
+      "height": 450
+    },
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://i.discogs.com/uoEdUykj_4qUaOV2_gtbzYM4aBWNO5vT3icuxiwZJN0/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM3NTIx/MDA2LTE3ODA0NzA3/NTQtMzE0MS5qcGVn.jpeg",
     "cover": {
       "bg": "#111110",
       "fg": "#f2efe8",
@@ -1295,6 +1360,38 @@
     "status": "pending",
     "approvedAt": null,
     "coverImageUrl": "https://i.discogs.com/wq0B-DbMyeOcAUcTlniXrMx1DgMPkvFwbLCp-Xbs-7U/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM3NDc3/OTQ3LTE3ODAwNzE0/MDktNTA5OS5qcGVn.jpeg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
+    "id": "eyedress-alone-at-night-feat-loren-rivera",
+    "type": "single",
+    "artist": "Eyedress",
+    "title": "Alone At Night (feat. Loren Rivera)",
+    "label": "",
+    "releaseDate": "2026-05-28",
+    "description": "Eyedress in collaborator mode again, Loren Rivera on the mic, that same lo-slung bedroom-pop drift he has been working since Manila Ice. File next to the moodier corners of the Lex catalogue.",
+    "tags": [],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=Eyedress%20Alone%20At%20Night%20(feat.%20Loren%20Rivera)&item_type=a",
+      "spotify": "https://open.spotify.com/search/Eyedress%20Alone%20At%20Night%20(feat.%20Loren%20Rivera)",
+      "soundcloud": "https://soundcloud.com/search?q=Eyedress%20Alone%20At%20Night%20(feat.%20Loren%20Rivera)",
+      "youtube": "https://www.youtube.com/results?search_query=Eyedress%20Alone%20At%20Night%20(feat.%20Loren%20Rivera)",
+      "deezer": "https://www.deezer.com/album/983005761"
+    },
+    "embed": {
+      "provider": "deezer",
+      "src": "https://widget.deezer.com/widget/light/album/983005761",
+      "height": 300
+    },
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://cdn-images.dzcdn.net/images/cover/69b682cb47766053f8452f7f4042ac16/1000x1000-000000-80-0-0.jpg",
     "cover": {
       "bg": "#111110",
       "fg": "#f2efe8",
@@ -2019,6 +2116,41 @@
     "pressMentions": []
   },
   {
+    "id": "daniele-baldelli-marco-fratty-marco-flash-positive-fit",
+    "type": "ep",
+    "artist": "Daniele Baldelli, Marco Fratty, Marco Flash",
+    "title": "Positive Fit",
+    "label": "Audio Music World",
+    "releaseDate": "2026-05-22",
+    "description": "Baldelli teams with Marco Fratty and Marco Flash for four tracks of Italian disco on Audio Music World, pressed as a 12\" EP. The Cosmic originator in straight dancefloor mode rather than the weirder cosmic register.",
+    "tags": [
+      "electronic"
+    ],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=Daniele%20Baldelli%2C%20Marco%20Fratty%2C%20Marco%20Flash%20Positive%20Fit&item_type=a",
+      "spotify": "https://open.spotify.com/search/Daniele%20Baldelli%2C%20Marco%20Fratty%2C%20Marco%20Flash%20Positive%20Fit",
+      "soundcloud": "https://soundcloud.com/search?q=Daniele%20Baldelli%2C%20Marco%20Fratty%2C%20Marco%20Flash%20Positive%20Fit",
+      "youtube": "https://www.youtube.com/results?search_query=Daniele%20Baldelli%2C%20Marco%20Fratty%2C%20Marco%20Flash%20Positive%20Fit",
+      "deezer": "https://www.deezer.com/album/934824991",
+      "apple": "https://music.apple.com/us/album/positive-fit-ep/1883338414?uo=4"
+    },
+    "embed": {
+      "provider": "apple",
+      "src": "https://embed.music.apple.com/us/album/1883338414?theme=light",
+      "height": 450
+    },
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://i.discogs.com/lIhqIBnyYwCDxJlIObF5VkuVNan02APeUF7KfY1vW5g/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM3NTE4/ODczLTE3ODA0NDA1/NDMtMTQ4OC5qcGVn.jpeg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
     "id": "jpegmafia-experimental-rap",
     "type": "album",
     "artist": "Jpegmafia",
@@ -2079,6 +2211,34 @@
     "status": "pending",
     "approvedAt": null,
     "coverImageUrl": null,
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
+    "id": "2k88-you",
+    "type": "single",
+    "artist": "2k88",
+    "title": "You",
+    "label": "",
+    "releaseDate": "2026-05-21",
+    "description": "A new 2k88 single landing mid-2026, label still unconfirmed. File alongside the rest of the project's clipped, vocal-leaning club sketches and wait for the sleeve to catch up.",
+    "tags": [],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=2k88%20You&item_type=a",
+      "spotify": "https://open.spotify.com/search/2k88%20You",
+      "soundcloud": "https://soundcloud.com/search?q=2k88%20You",
+      "youtube": "https://www.youtube.com/results?search_query=2k88%20You",
+      "deezer": "https://www.deezer.com/album/976979501"
+    },
+    "embed": null,
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://cdn-images.dzcdn.net/images/cover/5448b21b2179d66af9e14356d030af25/1000x1000-000000-80-0-0.jpg",
     "cover": {
       "bg": "#111110",
       "fg": "#f2efe8",
@@ -4272,7 +4432,8 @@
       "motif": "disc"
     },
     "pressMentions": [
-      "stereogum"
+      "stereogum",
+      "pitchfork_albums"
     ]
   },
   {
@@ -20135,12 +20296,13 @@
       "spotify": "https://open.spotify.com/search/Various%20YUKU%3A%205%20Years%20In%20The%20Wild%20III",
       "soundcloud": "https://soundcloud.com/search?q=Various%20YUKU%3A%205%20Years%20In%20The%20Wild%20III",
       "youtube": "https://www.youtube.com/results?search_query=Various%20YUKU%3A%205%20Years%20In%20The%20Wild%20III",
-      "deezer": "https://www.deezer.com/album/854989312"
+      "deezer": "https://www.deezer.com/album/854989312",
+      "apple": "https://music.apple.com/us/album/yuku-5-years-in-the-wild-iii/1852465193?uo=4"
     },
     "embed": {
-      "provider": "deezer",
-      "src": "https://widget.deezer.com/widget/light/album/854989312",
-      "height": 300
+      "provider": "apple",
+      "src": "https://embed.music.apple.com/us/album/1852465193?theme=light",
+      "height": 450
     },
     "musicVideoUrl": null,
     "status": "pending",
@@ -20635,12 +20797,13 @@
       "spotify": "https://open.spotify.com/search/Artisoma%20Pulse%20Box",
       "soundcloud": "https://soundcloud.com/search?q=Artisoma%20Pulse%20Box",
       "youtube": "https://www.youtube.com/results?search_query=Artisoma%20Pulse%20Box",
-      "deezer": "https://www.deezer.com/album/845817292"
+      "deezer": "https://www.deezer.com/album/845817292",
+      "apple": "https://music.apple.com/us/album/pulse-box-ep/1849137064?uo=4"
     },
     "embed": {
-      "provider": "deezer",
-      "src": "https://widget.deezer.com/widget/light/album/845817292",
-      "height": 300
+      "provider": "apple",
+      "src": "https://embed.music.apple.com/us/album/1849137064?theme=light",
+      "height": 450
     },
     "musicVideoUrl": null,
     "status": "pending",
@@ -27884,7 +28047,7 @@
     "title": "Illuminotecnica",
     "label": "3XL (2)",
     "releaseDate": "2025-05-30",
-    "description": "",
+    "description": "Cortex Of Light land on 3XL with ten tracks that pull freetekno's blunt force toward the label's usual hush, IDM mechanics dialled down to a minimal flicker. Worth a look if you've been following Ulla or Perila but want something with more grit underneath.",
     "tags": [
       "electronic"
     ],
@@ -27919,7 +28082,7 @@
     "title": "Staying (Leaving Records Aid To Artists Impacted By The Los Angeles Wildfires)",
     "label": "Leaving Records",
     "releaseDate": "2025-05-30",
-    "description": "",
+    "description": "A 25-track Leaving Records benefit assembled for artists displaced by the LA wildfires, drawing on the label's usual orbit of ambient, exotica and experimental drift. Proceeds aside, it doubles as a fair snapshot of the roster's current shape.",
     "tags": [
       "electronic"
     ],
@@ -27948,7 +28111,7 @@
     "title": "The Baby Huey Story",
     "label": "Strongly Felt",
     "releaseDate": "2025-05-30",
-    "description": "",
+    "description": "Curtom dusts off the lone Baby Huey LP, Curtis Mayfield's protégé caught somewhere between heavy psych-soul and proto-breakbeat fodder. Posthumous in 1971, still raided by samplers; this is the straight reissue to file next to your Mayfield originals.",
     "tags": [
       "funk / soul"
     ],
@@ -27983,7 +28146,7 @@
     "title": "Tidal Memory Exo",
     "label": "LuckyMe",
     "releaseDate": "2025-05-30",
-    "description": "",
+    "description": "Sixteen tracks of Iglooghost's hyper detailed world building for LuckyMe, the deconstructed club instincts still intact but pulled toward something closer to scored sci-fi. For listeners who tracked Neō Wax Bloom and never quite let it go.",
     "tags": [
       "electronic"
     ],
@@ -28018,7 +28181,7 @@
     "title": "Cherry Hill",
     "label": "AD 93",
     "releaseDate": "2025-05-28",
-    "description": "",
+    "description": "Jordan Playfair lands on AD 93, a home that has lately specialised in records that resist easy genre placement. Expect the label's usual instinct for the oblique rather than anything cleanly club-facing.",
     "tags": [],
     "links": {
       "bandcamp": "https://bandcamp.com/album/160271056",
@@ -28051,7 +28214,7 @@
     "title": "Quilted Lament",
     "label": "mappa",
     "releaseDate": "2025-05-27",
-    "description": "",
+    "description": "Rousay and Korsmo on Slovakian tape imprint mappa, working in the diaristic field-recording-and-ambient mode Rousay has made her own. Seven pieces spread across a cassette, closer to overheard rooms than to composition; for the Recital crowd.",
     "tags": [
       "electronic"
     ],
@@ -28085,7 +28248,7 @@
     "title": "New Wind / Change In My Head",
     "label": "Trust Records (11)",
     "releaseDate": "2025-05-23",
-    "description": "",
+    "description": "Trust Records pairs two late-80s 7 Seconds records into a single remastered set, catching Kevin Seconds and co. at the point where Reno hardcore was opening out toward melodic punk without quite letting go of the gang vocal. Thirty tracks, one limited pressing.",
     "tags": [
       "rock"
     ],
@@ -28114,7 +28277,7 @@
     "title": "Electric Boogie EP",
     "label": "Lapsus Music",
     "releaseDate": "2025-05-23",
-    "description": "",
+    "description": "Two cuts of straight-ahead house from the Italian duo on Lapsus Music's club-facing arm, leaning on the functional, peak-time end of their catalogue rather than anything ornamental. For DJs who still file Supernova next to early Defected.",
     "tags": [
       "electronic"
     ],
@@ -28148,7 +28311,7 @@
     "title": "Camouflage Heart",
     "label": "Dais Records",
     "releaseDate": "2025-05-23",
-    "description": "",
+    "description": "Dais brings Gordon Sharp's 1984 Cindytalk debut back into print, remastered, its bruised post-industrial howl still sitting closer to Coil's early work than to anything tidier. Limited LP for the noise-and-ruin shelf.",
     "tags": [
       "electronic"
     ],
@@ -28182,7 +28345,7 @@
     "title": "RV Lights",
     "label": "West Mineral Ltd.",
     "releaseDate": "2025-05-23",
-    "description": "",
+    "description": "Nine pieces of submerged, hiss-flecked ambient on West Mineral, the label's usual register of dub residue and slow-motion electronics fully intact. For anyone still living inside the uon catalogue.",
     "tags": [
       "electronic"
     ],
@@ -35113,7 +35276,9 @@
       "fg": "#f2efe8",
       "motif": "disc"
     },
-    "pressMentions": []
+    "pressMentions": [
+      "stereogum"
+    ]
   },
   {
     "id": "dylan-henner-x-files-covers-compositions-and-copyrighted-material",
@@ -38112,7 +38277,9 @@
       "fg": "#f2efe8",
       "motif": "disc"
     },
-    "pressMentions": []
+    "pressMentions": [
+      "stereogum"
+    ]
   },
   {
     "id": "mary-in-the-junkyard-this-is-my-california",
@@ -38716,7 +38883,8 @@
       "soundcloud": "https://soundcloud.com/search?q=Nathan%20Micay%20Blue%20Spring%3A%205%20Year%20Epilogue",
       "youtube": "https://www.youtube.com/results?search_query=Nathan%20Micay%20Blue%20Spring%3A%205%20Year%20Epilogue",
       "deezer": "https://www.deezer.com/album/633309041",
-      "apple": "https://music.apple.com/us/album/blue-spring-5-year-epilogue-single/1764646709?uo=4"
+      "apple": "https://music.apple.com/us/album/blue-spring-5-year-epilogue-single/1764646709?uo=4",
+      "tidal": "https://tidal.com/album/382946265"
     },
     "embed": {
       "provider": "apple",
@@ -38817,7 +38985,8 @@
       "soundcloud": "https://soundcloud.com/search?q=El%20Hardwick%20Process%20of%20Elimination",
       "youtube": "https://www.youtube.com/results?search_query=El%20Hardwick%20Process%20of%20Elimination",
       "deezer": "https://www.deezer.com/album/607729932",
-      "apple": "https://music.apple.com/us/album/process-of-elimination/1754356356?uo=4"
+      "apple": "https://music.apple.com/us/album/process-of-elimination/1754356356?uo=4",
+      "tidal": "https://tidal.com/album/522723036"
     },
     "embed": {
       "provider": "apple",
@@ -38910,7 +39079,8 @@
       "soundcloud": "https://soundcloud.com/search?q=Paul%20White%20(4)%20Peace%20In%20Chaos",
       "youtube": "https://www.youtube.com/results?search_query=Paul%20White%20(4)%20Peace%20In%20Chaos",
       "deezer": "https://www.deezer.com/album/538559162",
-      "apple": "https://music.apple.com/us/album/peace-in-chaos/1727147849?uo=4"
+      "apple": "https://music.apple.com/us/album/peace-in-chaos/1727147849?uo=4",
+      "tidal": "https://tidal.com/album/341535582"
     },
     "embed": {
       "provider": "apple",
@@ -38944,7 +39114,8 @@
       "spotify": "https://open.spotify.com/search/DJ%20Znobia%20Inventor%20Vol.%202",
       "soundcloud": "https://soundcloud.com/search?q=DJ%20Znobia%20Inventor%20Vol.%202",
       "youtube": "https://www.youtube.com/results?search_query=DJ%20Znobia%20Inventor%20Vol.%202",
-      "apple": "https://music.apple.com/us/album/inventor-vol-2/1751576101?uo=4"
+      "apple": "https://music.apple.com/us/album/inventor-vol-2/1751576101?uo=4",
+      "tidal": "https://tidal.com/album/368821807"
     },
     "embed": {
       "provider": "apple",
@@ -38979,7 +39150,8 @@
       "soundcloud": "https://soundcloud.com/search?q=Dregs%20(12)%20Dregs",
       "youtube": "https://www.youtube.com/results?search_query=Dregs%20(12)%20Dregs",
       "deezer": "https://www.deezer.com/album/237749242",
-      "apple": "https://music.apple.com/us/album/dregs/1711303195?uo=4"
+      "apple": "https://music.apple.com/us/album/dregs/1711303195?uo=4",
+      "tidal": "https://tidal.com/album/320999765"
     },
     "embed": {
       "provider": "apple",
@@ -39013,7 +39185,8 @@
       "spotify": "https://open.spotify.com/search/Daniel%20Szwed%20Sun's%20Mother",
       "soundcloud": "https://soundcloud.com/search?q=Daniel%20Szwed%20Sun's%20Mother",
       "youtube": "https://www.youtube.com/results?search_query=Daniel%20Szwed%20Sun's%20Mother",
-      "apple": "https://music.apple.com/us/album/suns-mother/1776609354?uo=4"
+      "apple": "https://music.apple.com/us/album/suns-mother/1776609354?uo=4",
+      "tidal": "https://tidal.com/album/396103438"
     },
     "embed": {
       "provider": "apple",
@@ -39145,7 +39318,8 @@
       "soundcloud": "https://soundcloud.com/search?q=Foreigner%20Turning%20Back%20The%20Time",
       "youtube": "https://www.youtube.com/results?search_query=Foreigner%20Turning%20Back%20The%20Time",
       "deezer": "https://www.deezer.com/album/646201751",
-      "apple": "https://music.apple.com/us/album/turning-back-the-time/1760797000?uo=4"
+      "apple": "https://music.apple.com/us/album/turning-back-the-time/1760797000?uo=4",
+      "tidal": "https://tidal.com/album/388694917"
     },
     "embed": {
       "provider": "apple",
@@ -39209,7 +39383,8 @@
       "soundcloud": "https://soundcloud.com/search?q=Coldplay%20Moon%20Music",
       "youtube": "https://www.youtube.com/results?search_query=Coldplay%20Moon%20Music",
       "deezer": "https://www.deezer.com/album/650278821",
-      "apple": "https://music.apple.com/us/album/moon-music/1751728791?uo=4"
+      "apple": "https://music.apple.com/us/album/moon-music/1751728791?uo=4",
+      "tidal": "https://tidal.com/album/390469439"
     },
     "embed": {
       "provider": "apple",
@@ -39242,7 +39417,8 @@
       "soundcloud": "https://soundcloud.com/search?q=James%20William%20Blades%20Pare%20De%20Sufrir",
       "youtube": "https://www.youtube.com/results?search_query=James%20William%20Blades%20Pare%20De%20Sufrir",
       "deezer": "https://www.deezer.com/album/729982361",
-      "apple": "https://music.apple.com/us/album/pare-de-sufrir-original-motion-picture-soundtrack/1803113804?uo=4"
+      "apple": "https://music.apple.com/us/album/pare-de-sufrir-original-motion-picture-soundtrack/1803113804?uo=4",
+      "tidal": "https://tidal.com/album/424937025"
     },
     "embed": {
       "provider": "apple",
@@ -39276,7 +39452,8 @@
       "spotify": "https://open.spotify.com/search/The%20Aphex%20Twin%20Digeridoo%20(Expanded%20Edition)",
       "soundcloud": "https://soundcloud.com/search?q=The%20Aphex%20Twin%20Digeridoo%20(Expanded%20Edition)",
       "youtube": "https://www.youtube.com/results?search_query=The%20Aphex%20Twin%20Digeridoo%20(Expanded%20Edition)",
-      "apple": "https://music.apple.com/us/album/digeridoo-expanded-edition/1744404233?uo=4"
+      "apple": "https://music.apple.com/us/album/digeridoo-expanded-edition/1744404233?uo=4",
+      "tidal": "https://tidal.com/album/360877378"
     },
     "embed": {
       "provider": "apple",
@@ -39310,7 +39487,8 @@
       "spotify": "https://open.spotify.com/search/DJ%20Strawberry%20Deceleration",
       "soundcloud": "https://soundcloud.com/search?q=DJ%20Strawberry%20Deceleration",
       "youtube": "https://www.youtube.com/results?search_query=DJ%20Strawberry%20Deceleration",
-      "apple": "https://music.apple.com/us/album/deceleration-ep/1778711796?uo=4"
+      "apple": "https://music.apple.com/us/album/deceleration-ep/1778711796?uo=4",
+      "tidal": "https://tidal.com/album/398439466"
     },
     "embed": {
       "provider": "apple",
@@ -39344,7 +39522,8 @@
       "spotify": "https://open.spotify.com/search/SSeq%20Intensity",
       "soundcloud": "https://soundcloud.com/search?q=SSeq%20Intensity",
       "youtube": "https://www.youtube.com/results?search_query=SSeq%20Intensity",
-      "deezer": "https://www.deezer.com/album/667866081"
+      "deezer": "https://www.deezer.com/album/667866081",
+      "tidal": "https://tidal.com/album/398439488"
     },
     "embed": {
       "provider": "deezer",
@@ -39407,7 +39586,8 @@
       "spotify": "https://open.spotify.com/search/High%20Parasite%20Forever%20We%20Burn",
       "soundcloud": "https://soundcloud.com/search?q=High%20Parasite%20Forever%20We%20Burn",
       "youtube": "https://www.youtube.com/results?search_query=High%20Parasite%20Forever%20We%20Burn",
-      "apple": "https://music.apple.com/us/album/forever-we-burn/1747272271?uo=4"
+      "apple": "https://music.apple.com/us/album/forever-we-burn/1747272271?uo=4",
+      "tidal": "https://tidal.com/album/388803804"
     },
     "embed": {
       "provider": "apple",
@@ -39441,7 +39621,8 @@
       "spotify": "https://open.spotify.com/search/Sound%20%26%20Company%20First%20Collection",
       "soundcloud": "https://soundcloud.com/search?q=Sound%20%26%20Company%20First%20Collection",
       "youtube": "https://www.youtube.com/results?search_query=Sound%20%26%20Company%20First%20Collection",
-      "apple": "https://music.apple.com/us/album/first-collection-single/1769025532?uo=4"
+      "apple": "https://music.apple.com/us/album/first-collection-single/1769025532?uo=4",
+      "tidal": "https://tidal.com/album/388025441"
     },
     "embed": {
       "provider": "apple",
@@ -39508,7 +39689,8 @@
       "spotify": "https://open.spotify.com/search/More%20Eaze%20Lacuna%20And%20Parlor",
       "soundcloud": "https://soundcloud.com/search?q=More%20Eaze%20Lacuna%20And%20Parlor",
       "youtube": "https://www.youtube.com/results?search_query=More%20Eaze%20Lacuna%20And%20Parlor",
-      "apple": "https://music.apple.com/us/album/lacuna-and-parlor/1763858276?uo=4"
+      "apple": "https://music.apple.com/us/album/lacuna-and-parlor/1763858276?uo=4",
+      "tidal": "https://tidal.com/album/383376073"
     },
     "embed": {
       "provider": "apple",
@@ -46029,7 +46211,9 @@
       "fg": "#f2efe8",
       "motif": "disc"
     },
-    "pressMentions": []
+    "pressMentions": [
+      "stereogum"
+    ]
   },
   {
     "id": "surusinghe-brake-fluid",
@@ -46095,7 +46279,9 @@
       "fg": "#f2efe8",
       "motif": "disc"
     },
-    "pressMentions": []
+    "pressMentions": [
+      "stereogum"
+    ]
   },
   {
     "id": "lord-of-the-isles-ellen-renton-my-noise-is-nothing",
