@@ -1013,7 +1013,9 @@
       "fg": "#f2efe8",
       "motif": "disc"
     },
-    "pressMentions": []
+    "pressMentions": [
+      "pitchfork_albums"
+    ]
   },
   {
     "id": "boards-of-canada-inferno",
@@ -1495,6 +1497,70 @@
     "status": "pending",
     "approvedAt": null,
     "coverImageUrl": "https://i.discogs.com/x99sV-lyT0cvFos-IsLnvwYmIe_vNqm71CX0meEtKS0/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM3NDU3/OTU1LTE3Nzk4ODcy/OTMtNTcxMS5qcGVn.jpeg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
+    "id": "madonna-i-m-breathless-music-from-and-inspired-by-the-film-dick-tracy",
+    "type": "album",
+    "artist": "Madonna",
+    "title": "I'm Breathless (Music From And Inspired By The Film Dick Tracy)",
+    "label": "Sire",
+    "releaseDate": "2026-05-27",
+    "description": "Sire reissues Madonna's 1990 Dick Tracy companion piece, the one where she crossed Sondheim show tunes with Shep Pettibone era dancefloor pop and somehow made it cohere. Stage and screen on one side, Vogue on the other.",
+    "tags": [
+      "electronic"
+    ],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=Madonna%20I'm%20Breathless%20(Music%20From%20And%20Inspired%20By%20The%20Film%20Dick%20Tracy)&item_type=a",
+      "spotify": "https://open.spotify.com/search/Madonna%20I'm%20Breathless%20(Music%20From%20And%20Inspired%20By%20The%20Film%20Dick%20Tracy)",
+      "soundcloud": "https://soundcloud.com/search?q=Madonna%20I'm%20Breathless%20(Music%20From%20And%20Inspired%20By%20The%20Film%20Dick%20Tracy)",
+      "youtube": "https://www.youtube.com/results?search_query=Madonna%20I'm%20Breathless%20(Music%20From%20And%20Inspired%20By%20The%20Film%20Dick%20Tracy)"
+    },
+    "embed": null,
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://i.discogs.com/6JutSzM2YTAHc63NA6T3cRB1N3VyTsDEcwIynSn7JtQ/rs:fit/g:sm/q:90/h:524/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM3NTIy/MDE3LTE3ODA0ODU4/NzUtNzE0Ni5qcGVn.jpeg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
+    "id": "madonna-who-s-that-girl-original-motion-picture-soundtrack",
+    "type": "album",
+    "artist": "Madonna",
+    "title": "Who's That Girl (Original Motion Picture Soundtrack)",
+    "label": "Sire",
+    "releaseDate": "2026-05-27",
+    "description": "Sire revisits the 1987 Who's That Girl soundtrack, with Madonna's four contributions sharing space with five tracks from the era's Sire and Warner roster. A reissue aimed at the period collectors more than the pop archivists.",
+    "tags": [
+      "rock"
+    ],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=Madonna%20Who's%20That%20Girl%20(Original%20Motion%20Picture%20Soundtrack)&item_type=a",
+      "spotify": "https://open.spotify.com/search/Madonna%20Who's%20That%20Girl%20(Original%20Motion%20Picture%20Soundtrack)",
+      "soundcloud": "https://soundcloud.com/search?q=Madonna%20Who's%20That%20Girl%20(Original%20Motion%20Picture%20Soundtrack)",
+      "youtube": "https://www.youtube.com/results?search_query=Madonna%20Who's%20That%20Girl%20(Original%20Motion%20Picture%20Soundtrack)",
+      "deezer": "https://www.deezer.com/album/381967",
+      "apple": "https://music.apple.com/us/album/whos-that-girl-soundtrack-from-the-motion-picture/953767?uo=4"
+    },
+    "embed": {
+      "provider": "apple",
+      "src": "https://embed.music.apple.com/us/album/953767?theme=light",
+      "height": 450
+    },
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://i.discogs.com/Q_J1PKWFYBiNuk9J_lZ3yymXXxavCH7huhBLzQQeNnM/rs:fit/g:sm/q:90/h:524/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM3NTIx/OTk5LTE3ODA0ODU4/NjUtMTA3Ny5qcGVn.jpeg",
     "cover": {
       "bg": "#111110",
       "fg": "#f2efe8",
@@ -2837,7 +2903,9 @@
       "fg": "#f2efe8",
       "motif": "disc"
     },
-    "pressMentions": []
+    "pressMentions": [
+      "pitchfork_albums"
+    ]
   },
   {
     "id": "the-field-now-you-exist",
@@ -9413,7 +9481,8 @@
       "spotify": "https://open.spotify.com/search/Synkro%20Look%20At%20Yourself",
       "soundcloud": "https://soundcloud.com/search?q=Synkro%20Look%20At%20Yourself",
       "youtube": "https://www.youtube.com/results?search_query=Synkro%20Look%20At%20Yourself",
-      "apple": "https://music.apple.com/us/album/look-at-yourself-ep/1892430981"
+      "apple": "https://music.apple.com/us/album/look-at-yourself-ep/1892430981",
+      "tidal": "https://tidal.com/album/514946726"
     },
     "embed": {
       "provider": "apple",
@@ -9567,7 +9636,8 @@
       "soundcloud": "https://soundcloud.com/search?q=%C3%93lafur%20Arnalds%20Echoes",
       "youtube": "https://www.youtube.com/results?search_query=%C3%93lafur%20Arnalds%20Echoes",
       "deezer": "https://www.deezer.com/album/958340611",
-      "apple": "https://music.apple.com/us/album/sages-echoes-edition/1889567505?uo=4"
+      "apple": "https://music.apple.com/us/album/sages-echoes-edition/1889567505?uo=4",
+      "tidal": "https://tidal.com/album/516642443"
     },
     "embed": {
       "provider": "apple",
@@ -9599,7 +9669,8 @@
       "spotify": "https://open.spotify.com/search/Tiga%20HOTLIFE",
       "soundcloud": "https://soundcloud.com/search?q=Tiga%20HOTLIFE",
       "youtube": "https://www.youtube.com/results?search_query=Tiga%20HOTLIFE",
-      "deezer": "https://www.deezer.com/album/830839131"
+      "deezer": "https://www.deezer.com/album/830839131",
+      "tidal": "https://tidal.com/album/464260802"
     },
     "embed": {
       "provider": "deezer",
@@ -9729,7 +9800,8 @@
       "spotify": "https://open.spotify.com/search/Karuzelkaaa%20LEPSZE%20DNI%20NAD%20PL",
       "soundcloud": "https://soundcloud.com/search?q=Karuzelkaaa%20LEPSZE%20DNI%20NAD%20PL",
       "youtube": "https://www.youtube.com/results?search_query=Karuzelkaaa%20LEPSZE%20DNI%20NAD%20PL",
-      "deezer": "https://www.deezer.com/album/956989461"
+      "deezer": "https://www.deezer.com/album/956989461",
+      "tidal": "https://tidal.com/album/513794295"
     },
     "embed": null,
     "musicVideoUrl": null,
@@ -9821,7 +9893,8 @@
       "spotify": "https://open.spotify.com/search/Visible%20Cloaks%20Intarsia",
       "soundcloud": "https://soundcloud.com/search?q=Visible%20Cloaks%20Intarsia",
       "youtube": "https://www.youtube.com/results?search_query=Visible%20Cloaks%20Intarsia",
-      "deezer": "https://www.deezer.com/album/897612442"
+      "deezer": "https://www.deezer.com/album/897612442",
+      "tidal": "https://tidal.com/album/495661769"
     },
     "embed": {
       "provider": "deezer",
@@ -9855,7 +9928,8 @@
       "spotify": "https://open.spotify.com/search/Rosal%C3%ADa%20LUX%20(Complete%20Works)",
       "soundcloud": "https://soundcloud.com/search?q=Rosal%C3%ADa%20LUX%20(Complete%20Works)",
       "youtube": "https://www.youtube.com/results?search_query=Rosal%C3%ADa%20LUX%20(Complete%20Works)",
-      "deezer": "https://www.deezer.com/album/961635041"
+      "deezer": "https://www.deezer.com/album/961635041",
+      "tidal": "https://tidal.com/album/515959051"
     },
     "embed": {
       "provider": "deezer",
@@ -9906,7 +9980,10 @@
       "bg": "#111110",
       "fg": "#f2efe8",
       "motif": "disc"
-    }
+    },
+    "pressMentions": [
+      "pitchfork_albums"
+    ]
   },
   {
     "id": "james-k-blinkmoth-july-mix-special-guest-dj-vip",
@@ -9990,7 +10067,8 @@
       "spotify": "https://open.spotify.com/search/Plaid%20Come%20Unprepared",
       "soundcloud": "https://soundcloud.com/search?q=Plaid%20Come%20Unprepared",
       "youtube": "https://www.youtube.com/results?search_query=Plaid%20Come%20Unprepared",
-      "apple": "https://music.apple.com/us/album/come-unprepared-single/1890556817?uo=4"
+      "apple": "https://music.apple.com/us/album/come-unprepared-single/1890556817?uo=4",
+      "tidal": "https://tidal.com/album/512974798"
     },
     "embed": {
       "provider": "apple",
@@ -10117,7 +10195,8 @@
       "soundcloud": "https://soundcloud.com/search?q=Social%20Station%20Dissolve",
       "youtube": "https://www.youtube.com/results?search_query=Social%20Station%20Dissolve",
       "deezer": "https://www.deezer.com/album/861098002",
-      "apple": "https://music.apple.com/us/album/dissolve/1854747413?uo=4"
+      "apple": "https://music.apple.com/us/album/dissolve/1854747413?uo=4",
+      "tidal": "https://tidal.com/album/475705817"
     },
     "embed": {
       "provider": "apple",
@@ -10151,7 +10230,8 @@
       "bandcamp": "https://stroomtv.bandcamp.com/track/blue-kembang",
       "spotify": "https://open.spotify.com/search/Heith%20%26%20Tarawangsawelas%20Blue%20Kembang",
       "soundcloud": "https://soundcloud.com/search?q=Heith%20%26%20Tarawangsawelas%20Blue%20Kembang",
-      "youtube": "https://www.youtube.com/results?search_query=Heith%20%26%20Tarawangsawelas%20Blue%20Kembang"
+      "youtube": "https://www.youtube.com/results?search_query=Heith%20%26%20Tarawangsawelas%20Blue%20Kembang",
+      "tidal": "https://tidal.com/album/506280743"
     },
     "embed": {
       "provider": "apple",
@@ -28380,7 +28460,7 @@
     "title": "From Bubbling To Dutch House",
     "label": "Nyege Nyege Tapes",
     "releaseDate": "2025-05-22",
-    "description": "",
+    "description": "Nyege Nyege Tapes traces a Rotterdam lineage from bubbling through Dutch house across ten tracks, with DJ Shaun-D as the guide. Diasporic club history filed as club music, not as archive; for anyone following the label's wider survey work.",
     "tags": [
       "electronic"
     ],
@@ -28415,7 +28495,7 @@
     "title": "89! Gloom",
     "label": "Ilian Tape",
     "releaseDate": "2025-05-22",
-    "description": "",
+    "description": "Two of the deep-dubstep canon's heaviest names link up on Ilian Tape, of all places, for three tracks of the murky, half-step weight you'd expect from either alone. Shelve next to the Skull Disco reissues.",
     "tags": [
       "electronic"
     ],
@@ -28448,7 +28528,7 @@
     "title": "Somoku - From The First Take",
     "label": "Brainfeeder",
     "releaseDate": "2025-05-22",
-    "description": "",
+    "description": "A live-to-tape rendering of Somoku for the First Take series, with Hasegawa's vocal phrasing colliding into the kind of abstract jazz-pop logic that earned the Brainfeeder co-sign in the first place. Single track, no edits to hide behind.",
     "tags": [
       "electronic"
     ],
@@ -28483,7 +28563,7 @@
     "title": "Outside (Soto) - From The First Take",
     "label": "Brainfeeder",
     "releaseDate": "2025-05-22",
-    "description": "",
+    "description": "A live-to-mic version of \"Outside (Soto)\" captured for the First Take series, Hasegawa's vocal acrobatics stripped of the studio scaffolding heard on the Brainfeeder LP. One take, one room, all the weirdness intact.",
     "tags": [
       "pop"
     ],
@@ -28518,7 +28598,7 @@
     "title": "Cantor's Paradise",
     "label": "FELT (3)",
     "releaseDate": "2025-05-21",
-    "description": "",
+    "description": "Nine pieces of experimental ambient dub from DJ Trystero on FELT, working that particular seam where processed low-end blurs into long-form drift. For anyone who keeps Topdown Dialectic close to the turntable.",
     "tags": [
       "electronic"
     ],
@@ -28553,7 +28633,7 @@
     "title": "Unknown",
     "label": "LuckyMe",
     "releaseDate": "2025-05-21",
-    "description": "",
+    "description": "Two-tracker pairing Nosaj Thing and Jacques Greene on LuckyMe, both producers stretching toward the techno end of their respective catalogues without quite leaving the emotional register either is known for. Sits comfortably next to Lone on the same shelf.",
     "tags": [
       "electronic"
     ],
@@ -28587,7 +28667,7 @@
     "title": "This but More (Loidis Reconfiguration)",
     "label": "NAFF",
     "releaseDate": "2025-05-20",
-    "description": "",
+    "description": "Loidis takes the knife to a Priori cut for NAFF, stretching it across two versions that sit between dub techno haze and the more skeletal end of tech house. Shelve near Huerco S. if you want a pointer.",
     "tags": [
       "electronic"
     ],
@@ -28621,7 +28701,7 @@
     "title": "This But More (Loidis Reconfiguration)",
     "label": "NAFF",
     "releaseDate": "2025-05-20",
-    "description": "",
+    "description": "Loidis takes a Priori track apart and rebuilds it for NAFF, drifting between dub techno haze and the kind of skeletal house Huerco S. tends to favor. Two versions across a 12\", best filed alongside the rest of Francis Latreille's catalogue.",
     "tags": [
       "electronic"
     ],
@@ -28655,7 +28735,7 @@
     "title": "Warmth In Cool",
     "label": "Good Morning Tapes",
     "releaseDate": "2025-05-19",
-    "description": "",
+    "description": "Two-track downtempo mix from Julien Dechery for Good Morning Tapes, threading Bollywood source material through the label's familiar haze. Files near Tom Recchion or anything else GMT have committed to tape.",
     "tags": [
       "electronic"
     ],
@@ -28684,7 +28764,7 @@
     "title": "Take Me Out To A Bar / What Am I, Gatsby?",
     "label": "Kill Rock Stars",
     "releaseDate": "2025-05-16",
-    "description": "",
+    "description": "Chadwick's bruised, piano-led songwriting lands on Kill Rock Stars in a limited LP pressing, nine tracks of the unsparing first-person writing she has built a catalog around. For anyone who keeps Cate Le Bon and Mary Margaret O'Hara on the same shelf.",
     "tags": [
       "rock"
     ],
@@ -28718,7 +28798,7 @@
     "title": "Orchid Mantis / Breach",
     "label": "Portraits GRM",
     "releaseDate": "2025-05-16",
-    "description": "",
+    "description": "A split LP on Portraits GRM, the INA-affiliated series that's quietly become the home for current musique concrète practice. Mackenzie & Maier on one side, Olivia Block on the other, all four ears trained on field recording and electroacoustic detail.",
     "tags": [
       "electronic"
     ],
@@ -28752,7 +28832,7 @@
     "title": "Burial",
     "label": "Hyperdub",
     "releaseDate": "2025-05-16",
-    "description": "",
+    "description": "Hyperdub returns the self-titled Burial debut to wax, eleven tracks of rain-streaked 2-step and crackle that still set the template for everything filed under \"Burial-adjacent.\" Required shelving next to anything on Keysound.",
     "tags": [
       "electronic"
     ],
@@ -28787,7 +28867,7 @@
     "title": "Tracey EP",
     "label": "AD 93",
     "releaseDate": "2025-05-16",
-    "description": "",
+    "description": "Four tracks pulling indie rock, grime and contemporary R&B into the same room, issued by AD 93 on a limited 12\". Sits closer to the label's Nick León end than its club-tools end.",
     "tags": [],
     "links": {
       "bandcamp": "https://bandcamp.com/album/3936682939",
