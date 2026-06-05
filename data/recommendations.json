@@ -640,7 +640,7 @@
     "type": "album",
     "artist": "DJ Seinfeld",
     "title": "If This Is It",
-    "label": "",
+    "label": "Ninja Tune",
     "releaseDate": "2026-06-05",
     "description": "DJ Seinfeld returns to the long, form, the format that has always suited his lovelorn house better than the single. Expect the same diary, entry sentimentality he has built a decade on, pitched somewhere near Ross From Friends if you need an aisle.",
     "tags": [],
@@ -684,7 +684,8 @@
       "spotify": "https://open.spotify.com/search/Tara%20Clerkin%20Trio%20Somewhere%20Good",
       "soundcloud": "https://soundcloud.com/search?q=Tara%20Clerkin%20Trio%20Somewhere%20Good",
       "youtube": "https://www.youtube.com/results?search_query=Tara%20Clerkin%20Trio%20Somewhere%20Good",
-      "apple": "https://music.apple.com/us/album/somewhere-good/1878495025"
+      "apple": "https://music.apple.com/us/album/somewhere-good/1878495025",
+      "tidal": "https://tidal.com/album/500553102"
     },
     "embed": {
       "provider": "apple",
@@ -702,7 +703,8 @@
     },
     "pressMentions": [
       "pitchfork_tracks",
-      "pitchfork_best_tracks"
+      "pitchfork_best_tracks",
+      "pitchfork_albums"
     ]
   },
   {
@@ -774,13 +776,347 @@
       "bandcamp": "https://bandcamp.com/search?q=Darkside%20Quasi%20come%20prima%20(feat.%20Deddo)&item_type=a",
       "spotify": "https://open.spotify.com/search/Darkside%20Quasi%20come%20prima%20(feat.%20Deddo)",
       "soundcloud": "https://soundcloud.com/search?q=Darkside%20Quasi%20come%20prima%20(feat.%20Deddo)",
-      "youtube": "https://www.youtube.com/results?search_query=Darkside%20Quasi%20come%20prima%20(feat.%20Deddo)"
+      "youtube": "https://www.youtube.com/results?search_query=Darkside%20Quasi%20come%20prima%20(feat.%20Deddo)",
+      "deezer": "https://www.deezer.com/album/985940251"
+    },
+    "embed": {
+      "provider": "deezer",
+      "src": "https://widget.deezer.com/widget/light/album/985940251",
+      "height": 300
+    },
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": null,
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
+    "id": "laurel-halo-meridian-laurel-halo-x-john-tejada-rework",
+    "type": "single",
+    "artist": "Laurel Halo",
+    "title": "Meridian (Laurel Halo x John Tejada Rework)",
+    "label": "",
+    "releaseDate": "2026-06-05",
+    "description": "Halo hands a piece of her own catalogue to John Tejada and gets it back rewired toward the dancefloor, his clean Palette-school techno discipline meeting her habitual murk. The two have been circling each other's worlds for years; here it finally lands as a single.",
+    "tags": [],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=Laurel%20Halo%20Meridian%20(Laurel%20Halo%20x%20John%20Tejada%20Rework)&item_type=a",
+      "spotify": "https://open.spotify.com/search/Laurel%20Halo%20Meridian%20(Laurel%20Halo%20x%20John%20Tejada%20Rework)",
+      "soundcloud": "https://soundcloud.com/search?q=Laurel%20Halo%20Meridian%20(Laurel%20Halo%20x%20John%20Tejada%20Rework)",
+      "youtube": "https://www.youtube.com/results?search_query=Laurel%20Halo%20Meridian%20(Laurel%20Halo%20x%20John%20Tejada%20Rework)",
+      "deezer": "https://www.deezer.com/album/951415261",
+      "tidal": "https://tidal.com/album/511711034"
     },
     "embed": null,
     "musicVideoUrl": null,
     "status": "pending",
     "approvedAt": null,
-    "coverImageUrl": null,
+    "coverImageUrl": "https://cdn-images.dzcdn.net/images/cover/b05e41ec07cf545401866c4c334059f1/1000x1000-000000-80-0-0.jpg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
+    "id": "lyra-pramuk-swallow-dumama-to-be-a-voice-rework",
+    "type": "single",
+    "artist": "Lyra Pramuk",
+    "title": "Swallow (Dumama To Be A Voice Rework)",
+    "label": "",
+    "releaseDate": "2026-06-05",
+    "description": "Dumama reworks one of Pramuk's vocal pieces, which suggests the wordless, body-first choralism of Fountain meeting the South African vocalist's earthier, narrative pull. Worth tracking if either of those registers means something to you.",
+    "tags": [],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=Lyra%20Pramuk%20Swallow%20(Dumama%20To%20Be%20A%20Voice%20Rework)&item_type=a",
+      "spotify": "https://open.spotify.com/search/Lyra%20Pramuk%20Swallow%20(Dumama%20To%20Be%20A%20Voice%20Rework)",
+      "soundcloud": "https://soundcloud.com/search?q=Lyra%20Pramuk%20Swallow%20(Dumama%20To%20Be%20A%20Voice%20Rework)",
+      "youtube": "https://www.youtube.com/results?search_query=Lyra%20Pramuk%20Swallow%20(Dumama%20To%20Be%20A%20Voice%20Rework)",
+      "deezer": "https://www.deezer.com/album/951415271",
+      "apple": "https://music.apple.com/us/album/swallow-dumama-to-be-a-voice-rework-single/1889570191?uo=4"
+    },
+    "embed": {
+      "provider": "apple",
+      "src": "https://embed.music.apple.com/us/album/1889570191?theme=light",
+      "height": 450
+    },
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://cdn-images.dzcdn.net/images/cover/b05e41ec07cf545401866c4c334059f1/1000x1000-000000-80-0-0.jpg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
+    "id": "lyra-pramuk-unchosen-tarta-relena-aspre-rework",
+    "type": "single",
+    "artist": "Lyra Pramuk",
+    "title": "Unchosen (Tarta Relena Aspre Rework)",
+    "label": "",
+    "releaseDate": "2026-06-05",
+    "description": "Tarta Relena take the knife to a Lyra Pramuk piece, which on paper is a near-ideal pairing: the Catalan duo's polyphonic vocal work meeting Pramuk's processed choral writing. One for anyone still playing Fountain.",
+    "tags": [],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=Lyra%20Pramuk%20Unchosen%20(Tarta%20Relena%20Aspre%20Rework)&item_type=a",
+      "spotify": "https://open.spotify.com/search/Lyra%20Pramuk%20Unchosen%20(Tarta%20Relena%20Aspre%20Rework)",
+      "soundcloud": "https://soundcloud.com/search?q=Lyra%20Pramuk%20Unchosen%20(Tarta%20Relena%20Aspre%20Rework)",
+      "youtube": "https://www.youtube.com/results?search_query=Lyra%20Pramuk%20Unchosen%20(Tarta%20Relena%20Aspre%20Rework)",
+      "deezer": "https://www.deezer.com/album/951418911",
+      "apple": "https://music.apple.com/us/album/unchosen-tarta-relena-aspre-rework-single/1889571970?uo=4"
+    },
+    "embed": {
+      "provider": "apple",
+      "src": "https://embed.music.apple.com/us/album/1889571970?theme=light",
+      "height": 450
+    },
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://cdn-images.dzcdn.net/images/cover/b05e41ec07cf545401866c4c334059f1/1000x1000-000000-80-0-0.jpg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
+    "id": "klein-bonnie-clyde",
+    "type": "single",
+    "artist": "Klein",
+    "title": "Bonnie & Clyde",
+    "label": "",
+    "releaseDate": "2026-06-05",
+    "description": "South London's Klein continues her unclassifiable run, where R&B fragments, theatre, and digital smear tend to collide without warning. Title aside, expect narrative slippage rather than anything resembling a duet.",
+    "tags": [],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=Klein%20Bonnie%20%26%20Clyde&item_type=a",
+      "spotify": "https://open.spotify.com/search/Klein%20Bonnie%20%26%20Clyde",
+      "soundcloud": "https://soundcloud.com/search?q=Klein%20Bonnie%20%26%20Clyde",
+      "youtube": "https://www.youtube.com/results?search_query=Klein%20Bonnie%20%26%20Clyde",
+      "deezer": "https://www.deezer.com/album/986780221"
+    },
+    "embed": {
+      "provider": "deezer",
+      "src": "https://widget.deezer.com/widget/light/album/986780221",
+      "height": 300
+    },
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://cdn-images.dzcdn.net/images/cover/61272ae0f3d0e1f9a1612143ac81c654/1000x1000-000000-80-0-0.jpg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
+    "id": "mr-yt-universo",
+    "type": "ep",
+    "artist": "Mr. YT",
+    "title": "Universo",
+    "label": "Short Span",
+    "releaseDate": "2026-06-05",
+    "description": "Four tracks from Mr. YT for Short Span, sitting in the overlap between deep house and the quieter, more functional end of techno. Late-night DJ tool material more than headphone listening.",
+    "tags": [
+      "electronic"
+    ],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=Mr.%20YT%20Universo&item_type=a",
+      "spotify": "https://open.spotify.com/search/Mr.%20YT%20Universo",
+      "soundcloud": "https://soundcloud.com/search?q=Mr.%20YT%20Universo",
+      "youtube": "https://www.youtube.com/results?search_query=Mr.%20YT%20Universo",
+      "deezer": "https://www.deezer.com/album/983425301",
+      "apple": "https://music.apple.com/us/album/universo-ep/6769713482?uo=4"
+    },
+    "embed": {
+      "provider": "apple",
+      "src": "https://embed.music.apple.com/us/album/6769713482?theme=light",
+      "height": 450
+    },
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://i.discogs.com/Gvr_GW0UOa8rCup6xwaJAZOFA4SDGmn5oTOKycqlYqw/rs:fit/g:sm/q:90/h:600/w:598/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM3NTM2/NDU2LTE3ODA1OTg4/NjgtNTkzMy5wbmc.jpeg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
+    "id": "bernardino-femminielli-memoires-d-un-auto-sabotage",
+    "type": "album",
+    "artist": "Bernardino Femminielli",
+    "title": "Mémoires d'un Auto-Sabotage",
+    "label": "Knekelhuis",
+    "releaseDate": "2026-06-05",
+    "description": "Femminielli returns to Knekelhuis with nine tracks of louche francophone disco and ballad-form chanson, his usual register of nightclub melodrama intact. For anyone still working through the Amsterdam label's leftfield pop sideline.",
+    "tags": [
+      "electronic"
+    ],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=Bernardino%20Femminielli%20M%C3%A9moires%20d'un%20Auto-Sabotage&item_type=a",
+      "spotify": "https://open.spotify.com/search/Bernardino%20Femminielli%20M%C3%A9moires%20d'un%20Auto-Sabotage",
+      "soundcloud": "https://soundcloud.com/search?q=Bernardino%20Femminielli%20M%C3%A9moires%20d'un%20Auto-Sabotage",
+      "youtube": "https://www.youtube.com/results?search_query=Bernardino%20Femminielli%20M%C3%A9moires%20d'un%20Auto-Sabotage",
+      "deezer": "https://www.deezer.com/album/981862131",
+      "apple": "https://music.apple.com/us/album/m%C3%A9moires-dun-auto-sabotage/6769541094?uo=4"
+    },
+    "embed": {
+      "provider": "apple",
+      "src": "https://embed.music.apple.com/us/album/6769541094?theme=light",
+      "height": 450
+    },
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://i.discogs.com/_NN2IM1c9OV00xPJahc3LALTY6qPkor8jYUA-Dq3snk/rs:fit/g:sm/q:90/h:585/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM3NTM2/ODgyLTE3ODA2MDIz/NTEtODEzOC5qcGVn.jpeg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
+    "id": "bamao-yende-boukan-records-helen-island-fae-sapienta-all-bout-u",
+    "type": "single",
+    "artist": "Bamao Yendé, Boukan Records, helen island & Fae Sapienta",
+    "title": "All Bout U",
+    "label": "Boukan Records",
+    "releaseDate": "2026-06-04",
+    "description": "Bamao Yendé links with helen island and Fae Sapienta on his own Boukan, a Paris node that has been quietly mapping a club music drawn from West African diasporic rhythm and UK breakbeat lineage. The collaboration sits exactly where you'd expect it to.",
+    "tags": [
+      "breakbeat"
+    ],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=Bamao%20Yend%C3%A9%2C%20Boukan%20Records%2C%20helen%20island%20%26%20Fae%20Sapienta%20All%20Bout%20U&item_type=a",
+      "spotify": "https://open.spotify.com/search/Bamao%20Yend%C3%A9%2C%20Boukan%20Records%2C%20helen%20island%20%26%20Fae%20Sapienta%20All%20Bout%20U",
+      "soundcloud": "https://soundcloud.com/search?q=Bamao%20Yend%C3%A9%2C%20Boukan%20Records%2C%20helen%20island%20%26%20Fae%20Sapienta%20All%20Bout%20U",
+      "youtube": "https://www.youtube.com/results?search_query=Bamao%20Yend%C3%A9%2C%20Boukan%20Records%2C%20helen%20island%20%26%20Fae%20Sapienta%20All%20Bout%20U",
+      "apple": "https://music.apple.com/us/album/all-bout-u-single/6773338298",
+      "deezer": "https://www.deezer.com/album/991512771"
+    },
+    "embed": {
+      "provider": "apple",
+      "src": "https://embed.music.apple.com/us/album/6773338298?theme=light",
+      "height": 450
+    },
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/3b/fe/2e/3bfe2efc-81f5-9e76-cf8f-8f35ad34bb9b/17589.jpg/600x600bb.jpg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
+    "id": "nia-archives-vertical",
+    "type": "single",
+    "artist": "Nia Archives",
+    "title": "Vertical",
+    "label": "",
+    "releaseDate": "2026-06-04",
+    "description": "Nia Archives in single mode again, which by now means jungle breaks pulled toward pop songwriting rather than dancefloor utility. File next to anything from the HIJINXX orbit.",
+    "tags": [],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=Nia%20Archives%20Vertical&item_type=a",
+      "spotify": "https://open.spotify.com/search/Nia%20Archives%20Vertical",
+      "soundcloud": "https://soundcloud.com/search?q=Nia%20Archives%20Vertical",
+      "youtube": "https://www.youtube.com/results?search_query=Nia%20Archives%20Vertical",
+      "deezer": "https://www.deezer.com/album/993311681"
+    },
+    "embed": {
+      "provider": "deezer",
+      "src": "https://widget.deezer.com/widget/light/album/993311681",
+      "height": 300
+    },
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://cdn-images.dzcdn.net/images/cover/467ce8bb909aa598558c25b2cb1d3407/1000x1000-000000-80-0-0.jpg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
+    "id": "xang-nadie",
+    "type": "single",
+    "artist": "Xang",
+    "title": "nadie +",
+    "label": "",
+    "releaseDate": "2026-06-04",
+    "description": "Xang returns with \"nadie +,\" a single arriving self-released or otherwise unaffiliated as far as the metadata shows. File alongside the artist's prior leftfield pop excursions and wait for context to fill in.",
+    "tags": [],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=Xang%20nadie%20%2B&item_type=a",
+      "spotify": "https://open.spotify.com/search/Xang%20nadie%20%2B",
+      "soundcloud": "https://soundcloud.com/search?q=Xang%20nadie%20%2B",
+      "youtube": "https://www.youtube.com/results?search_query=Xang%20nadie%20%2B",
+      "deezer": "https://www.deezer.com/album/993909091"
+    },
+    "embed": {
+      "provider": "deezer",
+      "src": "https://widget.deezer.com/widget/light/album/993909091",
+      "height": 300
+    },
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://cdn-images.dzcdn.net/images/cover/45f4617865fc4c1ba0b6b7eebf8621dc/1000x1000-000000-80-0-0.jpg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
+    "id": "machinedrum-bl00ms",
+    "type": "album",
+    "artist": "Machinedrum",
+    "title": "BL00MS",
+    "label": "",
+    "releaseDate": "2026-06-04",
+    "description": "Travis Stewart resurfaces with another full-length under the Machinedrum name, a project that has spent two decades skipping between footwork, jungle, R&B production and whatever the rave was doing that week. Expect restlessness rather than a settled mode.",
+    "tags": [],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=Machinedrum%20BL00MS&item_type=a",
+      "spotify": "https://open.spotify.com/search/Machinedrum%20BL00MS",
+      "soundcloud": "https://soundcloud.com/search?q=Machinedrum%20BL00MS",
+      "youtube": "https://www.youtube.com/results?search_query=Machinedrum%20BL00MS",
+      "deezer": "https://www.deezer.com/album/969665611",
+      "apple": "https://music.apple.com/us/album/bl00ms-ep/1895071168?uo=4"
+    },
+    "embed": {
+      "provider": "apple",
+      "src": "https://embed.music.apple.com/us/album/1895071168?theme=light",
+      "height": 450
+    },
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://cdn-images.dzcdn.net/images/cover/c0a076fe8afaeb75e496fb623f648fe1/1000x1000-000000-80-0-0.jpg",
     "cover": {
       "bg": "#111110",
       "fg": "#f2efe8",
@@ -810,6 +1146,36 @@
     "status": "pending",
     "approvedAt": null,
     "coverImageUrl": "https://cdn-images.dzcdn.net/images/cover/fd73c22480fa23e5dd4a54b41fa01385/1000x1000-000000-80-0-0.jpg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
+    "id": "captain-murphy-flying-lotus-little-snake-mudhole-from-the-furious",
+    "type": "single",
+    "artist": "Captain Murphy, Flying Lotus & Little Snake",
+    "title": "Mudhole (From \"The Furious\")",
+    "label": "Brainfeeder",
+    "releaseDate": "2026-06-03",
+    "description": "Flying Lotus revives the Captain Murphy alias alongside Little Snake for a track tied to The Furious, out on Brainfeeder. The rapper-producer pairing tends toward the grotesque end of the label's roster, which is presumably where this sits.",
+    "tags": [
+      "alternative"
+    ],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=Captain%20Murphy%2C%20Flying%20Lotus%20%26%20Little%20Snake%20Mudhole%20(From%20%22The%20Furious%22)&item_type=a",
+      "spotify": "https://open.spotify.com/search/Captain%20Murphy%2C%20Flying%20Lotus%20%26%20Little%20Snake%20Mudhole%20(From%20%22The%20Furious%22)",
+      "soundcloud": "https://soundcloud.com/search?q=Captain%20Murphy%2C%20Flying%20Lotus%20%26%20Little%20Snake%20Mudhole%20(From%20%22The%20Furious%22)",
+      "youtube": "https://www.youtube.com/results?search_query=Captain%20Murphy%2C%20Flying%20Lotus%20%26%20Little%20Snake%20Mudhole%20(From%20%22The%20Furious%22)",
+      "apple": "https://music.apple.com/us/album/mudhole-from-the-furious-single/6768693669"
+    },
+    "embed": null,
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/1a/a0/19/1aa01946-08ca-9ad3-a208-ac387422c90e/ticket.knqnfqxz.png/600x600bb.jpg",
     "cover": {
       "bg": "#111110",
       "fg": "#f2efe8",
@@ -1016,6 +1382,71 @@
     "pressMentions": [
       "pitchfork_albums"
     ]
+  },
+  {
+    "id": "plaid-im-not-alone",
+    "type": "album",
+    "artist": "Plaid",
+    "title": "Im Not Alone",
+    "label": "",
+    "releaseDate": "2026-05-30",
+    "description": "Plaid still operating in the melodic, faintly homesick corner of IDM they have occupied since the Black Dog days. Filed next to Boards of Canada for anyone who keeps that shelf tidy.",
+    "tags": [],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=Plaid%20Im%20Not%20Alone&item_type=a",
+      "spotify": "https://open.spotify.com/search/Plaid%20Im%20Not%20Alone",
+      "soundcloud": "https://soundcloud.com/search?q=Plaid%20Im%20Not%20Alone",
+      "youtube": "https://www.youtube.com/results?search_query=Plaid%20Im%20Not%20Alone",
+      "deezer": "https://www.deezer.com/album/961058841",
+      "apple": "https://music.apple.com/us/album/im-not-alone-single/1893254928?uo=4"
+    },
+    "embed": {
+      "provider": "apple",
+      "src": "https://embed.music.apple.com/us/album/1893254928?theme=light",
+      "height": 450
+    },
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": null,
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
+    "id": "klein-lcdt",
+    "type": "album",
+    "artist": "Klein",
+    "title": "LCDT",
+    "label": "",
+    "releaseDate": "2026-05-30",
+    "description": "Klein returns with another full-length, presumably more of the smeared, sample-collaged song-shapes she has been carving out since Tommy. Self-released territory by the looks of it, which usually means the strangeness is the point.",
+    "tags": [],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=Klein%20LCDT&item_type=a",
+      "spotify": "https://open.spotify.com/search/Klein%20LCDT",
+      "soundcloud": "https://soundcloud.com/search?q=Klein%20LCDT",
+      "youtube": "https://www.youtube.com/results?search_query=Klein%20LCDT",
+      "deezer": "https://www.deezer.com/album/991917271"
+    },
+    "embed": {
+      "provider": "deezer",
+      "src": "https://widget.deezer.com/widget/light/album/991917271",
+      "height": 300
+    },
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": null,
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
   },
   {
     "id": "boards-of-canada-inferno",
@@ -1335,6 +1766,73 @@
     "pressMentions": []
   },
   {
+    "id": "ear-rumspringa",
+    "type": "album",
+    "artist": "ear",
+    "title": "Rumspringa",
+    "label": "A24 Music",
+    "releaseDate": "2026-05-29",
+    "description": "Ten tracks of breakbeat and electro pitched toward pop legibility, landing on A24's music arm rather than a club imprint. The framing is cinematic by default; what ear does with that latitude is the question.",
+    "tags": [],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=ear%20Rumspringa&item_type=a",
+      "spotify": "https://open.spotify.com/search/ear%20Rumspringa",
+      "soundcloud": "https://soundcloud.com/search?q=ear%20Rumspringa",
+      "youtube": "https://www.youtube.com/results?search_query=ear%20Rumspringa",
+      "deezer": "https://www.deezer.com/album/976882981"
+    },
+    "embed": {
+      "provider": "deezer",
+      "src": "https://widget.deezer.com/widget/light/album/976882981",
+      "height": 300
+    },
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": null,
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": [
+      "pitchfork_albums"
+    ]
+  },
+  {
+    "id": "clark-twenty-one-hours",
+    "type": "album",
+    "artist": "Clark",
+    "title": "Twenty-One Hours",
+    "label": "",
+    "releaseDate": "2026-05-29",
+    "description": "Clark again, a producer whose register has shifted from Warp-era IDM crunch into the more orchestral, score-adjacent territory of his recent run. Take it as another entry in that arc rather than a left turn.",
+    "tags": [],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=Clark%20Twenty-One%20Hours&item_type=a",
+      "spotify": "https://open.spotify.com/search/Clark%20Twenty-One%20Hours",
+      "soundcloud": "https://soundcloud.com/search?q=Clark%20Twenty-One%20Hours",
+      "youtube": "https://www.youtube.com/results?search_query=Clark%20Twenty-One%20Hours",
+      "deezer": "https://www.deezer.com/album/993674431",
+      "apple": "https://music.apple.com/us/album/twenty-one-hours-single/6774457960?uo=4"
+    },
+    "embed": {
+      "provider": "apple",
+      "src": "https://embed.music.apple.com/us/album/6774457960?theme=light",
+      "height": 450
+    },
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": null,
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
     "id": "eiii-emanations",
     "type": "album",
     "artist": "EIII",
@@ -1561,6 +2059,39 @@
     "status": "pending",
     "approvedAt": null,
     "coverImageUrl": "https://i.discogs.com/Q_J1PKWFYBiNuk9J_lZ3yymXXxavCH7huhBLzQQeNnM/rs:fit/g:sm/q:90/h:524/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM3NTIx/OTk5LTE3ODA0ODU4/NjUtMTA3Ny5qcGVn.jpeg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
+    "id": "lone-rx",
+    "type": "album",
+    "artist": "Lone",
+    "title": "Rx",
+    "label": "",
+    "releaseDate": "2026-05-27",
+    "description": "",
+    "tags": [],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=Lone%20Rx&item_type=a",
+      "spotify": "https://open.spotify.com/search/Lone%20Rx",
+      "soundcloud": "https://soundcloud.com/search?q=Lone%20Rx",
+      "youtube": "https://www.youtube.com/results?search_query=Lone%20Rx",
+      "deezer": "https://www.deezer.com/album/992649591",
+      "apple": "https://music.apple.com/us/album/rx-of-luv-from-justified-single/608684952?uo=4"
+    },
+    "embed": {
+      "provider": "apple",
+      "src": "https://embed.music.apple.com/us/album/608684952?theme=light",
+      "height": 450
+    },
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": null,
     "cover": {
       "bg": "#111110",
       "fg": "#f2efe8",
@@ -2772,6 +3303,41 @@
     "pressMentions": []
   },
   {
+    "id": "p1-e-up-and-above-xxvi",
+    "type": "single",
+    "artist": "P1/E",
+    "title": "Up And Above XXVI",
+    "label": "Wild Youth Digital",
+    "releaseDate": "2026-05-18",
+    "description": "",
+    "tags": [
+      "electronic"
+    ],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=P1%2FE%20Up%20And%20Above%20XXVI&item_type=a",
+      "spotify": "https://open.spotify.com/search/P1%2FE%20Up%20And%20Above%20XXVI",
+      "soundcloud": "https://soundcloud.com/search?q=P1%2FE%20Up%20And%20Above%20XXVI",
+      "youtube": "https://www.youtube.com/results?search_query=P1%2FE%20Up%20And%20Above%20XXVI",
+      "deezer": "https://www.deezer.com/album/986375391",
+      "apple": "https://music.apple.com/us/album/up-and-above-xxvi-single/6770947758?uo=4"
+    },
+    "embed": {
+      "provider": "apple",
+      "src": "https://embed.music.apple.com/us/album/6770947758?theme=light",
+      "height": 450
+    },
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://i.discogs.com/CBc4MocwYg5rk_QqCGDS-uo6a0q-_M3f0eKM_RNuYf8/rs:fit/g:sm/q:90/h:500/w:500/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM3NTMz/NDYyLTE3ODA1Nzc0/NjktMzc2NC5qcGVn.jpeg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
     "id": "jpegmafia-yen",
     "type": "single",
     "artist": "Jpegmafia",
@@ -3463,6 +4029,41 @@
     "status": "pending",
     "approvedAt": null,
     "coverImageUrl": null,
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
+    "id": "shinetiac-not-all-who-wander-are-lost",
+    "type": "album",
+    "artist": "Shinetiac",
+    "title": "Not All Who Wander Are Lost",
+    "label": "West Mineral Ltd.",
+    "releaseDate": "2026-05-15",
+    "description": "",
+    "tags": [
+      "electronic"
+    ],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=Shinetiac%20Not%20All%20Who%20Wander%20Are%20Lost&item_type=a",
+      "spotify": "https://open.spotify.com/search/Shinetiac%20Not%20All%20Who%20Wander%20Are%20Lost",
+      "soundcloud": "https://soundcloud.com/search?q=Shinetiac%20Not%20All%20Who%20Wander%20Are%20Lost",
+      "youtube": "https://www.youtube.com/results?search_query=Shinetiac%20Not%20All%20Who%20Wander%20Are%20Lost",
+      "deezer": "https://www.deezer.com/album/631962671",
+      "apple": "https://music.apple.com/us/album/not-all-who-wander-are-lost-feat-ben-bondy-pontiac-streator/1763840713?uo=4"
+    },
+    "embed": {
+      "provider": "apple",
+      "src": "https://embed.music.apple.com/us/album/1763840713?theme=light",
+      "height": 450
+    },
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://i.discogs.com/y3LTvgUeGAFAWfdEAVTeaaDw95lbM8OlDLnBf_aN6hM/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM3NDY1/MDI2LTE3ODA2MDAy/MzctNjYyMC5qcGVn.jpeg",
     "cover": {
       "bg": "#111110",
       "fg": "#f2efe8",
@@ -6442,6 +7043,35 @@
     "pressMentions": []
   },
   {
+    "id": "amen-erric-20-quid-beef",
+    "type": "album",
+    "artist": "Amen Erric",
+    "title": "20 Quid Beef",
+    "label": "Youth",
+    "releaseDate": "2026-05-01",
+    "description": "",
+    "tags": [
+      "electronic"
+    ],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=Amen%20Erric%2020%20Quid%20Beef&item_type=a",
+      "spotify": "https://open.spotify.com/search/Amen%20Erric%2020%20Quid%20Beef",
+      "soundcloud": "https://soundcloud.com/search?q=Amen%20Erric%2020%20Quid%20Beef",
+      "youtube": "https://www.youtube.com/results?search_query=Amen%20Erric%2020%20Quid%20Beef"
+    },
+    "embed": null,
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://i.discogs.com/NeisQPyMfGm_WSCo75j_Vm_ORMHQTmoSddJSbyE1q0Q/rs:fit/g:sm/q:90/h:545/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM3NTM1/NDkwLTE3ODA1OTIx/MzEtOTg0NC5qcGVn.jpeg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
     "id": "jump-source-patrick-holland-priori-fold",
     "type": "album",
     "artist": "Jump Source, Patrick Holland & Priori",
@@ -9033,7 +9663,7 @@
     "type": "album",
     "artist": "mu tate",
     "title": "life of mu",
-    "label": "",
+    "label": "OST (5)",
     "releaseDate": "2026-04-17",
     "description": "A full length from mu tate arriving in April, with label, genre and tracklist all still undisclosed. Worth flagging now and circling back once more of it surfaces.",
     "tags": [
@@ -10175,7 +10805,8 @@
     },
     "pressMentions": [
       "pitchfork_tracks",
-      "pitchfork_best_tracks"
+      "pitchfork_best_tracks",
+      "pitchfork_albums"
     ]
   },
   {
@@ -11853,6 +12484,35 @@
     "status": "pending",
     "approvedAt": null,
     "coverImageUrl": "https://i.discogs.com/VkRaPrdK1nMsEL4mczRcB0Zw8xWTsEjqXn_Rk3534v0/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM2OTQ5/NTkwLTE3NzUxMTg2/NjMtNDEzMS5qcGVn.jpeg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
+    "id": "mono-45-upm-neue-deutsche-welle",
+    "type": "single",
+    "artist": "Mono/45 UPM",
+    "title": "Neue Deutsche Welle",
+    "label": "Wild Youth Digital",
+    "releaseDate": "2026-04-02",
+    "description": "",
+    "tags": [
+      "electronic"
+    ],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=Mono%2F45%20UPM%20Neue%20Deutsche%20Welle&item_type=a",
+      "spotify": "https://open.spotify.com/search/Mono%2F45%20UPM%20Neue%20Deutsche%20Welle",
+      "soundcloud": "https://soundcloud.com/search?q=Mono%2F45%20UPM%20Neue%20Deutsche%20Welle",
+      "youtube": "https://www.youtube.com/results?search_query=Mono%2F45%20UPM%20Neue%20Deutsche%20Welle"
+    },
+    "embed": null,
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://i.discogs.com/Z8AJ_EbM_mWHD75EytDV-U3ypDQIx973QC18Zhu3Tjk/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM3NTMz/MzQyLTE3ODA1NzY0/NjAtNjY1NS5qcGVn.jpeg",
     "cover": {
       "bg": "#111110",
       "fg": "#f2efe8",
@@ -17741,9 +18401,14 @@
       "bandcamp": "https://bandcamp.com/search?q=Cinna%20Peyghamy%20Music%20For%20Tombak%20%26%20Synth&item_type=a",
       "spotify": "https://open.spotify.com/search/Cinna%20Peyghamy%20Music%20For%20Tombak%20%26%20Synth",
       "soundcloud": "https://soundcloud.com/search?q=Cinna%20Peyghamy%20Music%20For%20Tombak%20%26%20Synth",
-      "youtube": "https://www.youtube.com/results?search_query=Cinna%20Peyghamy%20Music%20For%20Tombak%20%26%20Synth"
+      "youtube": "https://www.youtube.com/results?search_query=Cinna%20Peyghamy%20Music%20For%20Tombak%20%26%20Synth",
+      "deezer": "https://www.deezer.com/album/937673321"
     },
-    "embed": null,
+    "embed": {
+      "provider": "deezer",
+      "src": "https://widget.deezer.com/widget/light/album/937673321",
+      "height": 300
+    },
     "musicVideoUrl": null,
     "status": "pending",
     "approvedAt": null,
@@ -18059,6 +18724,40 @@
     "pressMentions": []
   },
   {
+    "id": "yungblud-3-idols-ii",
+    "type": "album",
+    "artist": "Yungblud (3)",
+    "title": "Idols II",
+    "label": "Capitol Records",
+    "releaseDate": "2026-01-01",
+    "description": "",
+    "tags": [
+      "rock"
+    ],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=Yungblud%20(3)%20Idols%20II&item_type=a",
+      "spotify": "https://open.spotify.com/search/Yungblud%20(3)%20Idols%20II",
+      "soundcloud": "https://soundcloud.com/search?q=Yungblud%20(3)%20Idols%20II",
+      "youtube": "https://www.youtube.com/results?search_query=Yungblud%20(3)%20Idols%20II",
+      "deezer": "https://www.deezer.com/album/771817871"
+    },
+    "embed": {
+      "provider": "deezer",
+      "src": "https://widget.deezer.com/widget/light/album/771817871",
+      "height": 300
+    },
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://i.discogs.com/tWt2aDDeH2VxWmHMJWIQI7vrpZKpsD2On8hwe5WOow0/rs:fit/g:sm/q:90/h:591/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM3NDM5/MTU0LTE3Nzk3MTk0/NjktMjcxOS5qcGVn.jpeg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
     "id": "tim-maia-racional-vol-1",
     "type": "album",
     "artist": "Tim Maia",
@@ -18309,7 +19008,8 @@
       "bandcamp": "https://lucreciadalt.bandcamp.com/album/caes-ep",
       "spotify": "https://open.spotify.com/search/Lucrecia%20Dalt%20caes",
       "soundcloud": "https://soundcloud.com/search?q=Lucrecia%20Dalt%20caes",
-      "youtube": "https://www.youtube.com/results?search_query=Lucrecia%20Dalt%20caes"
+      "youtube": "https://www.youtube.com/results?search_query=Lucrecia%20Dalt%20caes",
+      "tidal": "https://tidal.com/album/478437786"
     },
     "embed": {
       "provider": "apple",
@@ -18442,7 +19142,8 @@
       "spotify": "https://open.spotify.com/search/Muadeep%20Formido%20Linguae",
       "soundcloud": "https://soundcloud.com/search?q=Muadeep%20Formido%20Linguae",
       "youtube": "https://www.youtube.com/results?search_query=Muadeep%20Formido%20Linguae",
-      "deezer": "https://www.deezer.com/album/877684922"
+      "deezer": "https://www.deezer.com/album/877684922",
+      "tidal": "https://tidal.com/album/481800704"
     },
     "embed": {
       "provider": "deezer",
@@ -32063,6 +32764,40 @@
     "status": "pending",
     "approvedAt": null,
     "coverImageUrl": "https://i.discogs.com/5aGsM6Eu4xcVgT3_Dcyu_UCBB-iI97lylyzYi7HjpZc/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTMzMzk3/NzAwLTE3NDQ3NDcw/OTYtOTEyMi5qcGVn.jpeg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
+    "id": "pan-savyan-kwiaty-przyjemnosci",
+    "type": "album",
+    "artist": "Pan Savyan",
+    "title": "Kwiaty Przyjemności",
+    "label": "My Music",
+    "releaseDate": "2025-03-14",
+    "description": "",
+    "tags": [
+      "pop"
+    ],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=Pan%20Savyan%20Kwiaty%20Przyjemno%C5%9Bci&item_type=a",
+      "spotify": "https://open.spotify.com/search/Pan%20Savyan%20Kwiaty%20Przyjemno%C5%9Bci",
+      "soundcloud": "https://soundcloud.com/search?q=Pan%20Savyan%20Kwiaty%20Przyjemno%C5%9Bci",
+      "youtube": "https://www.youtube.com/results?search_query=Pan%20Savyan%20Kwiaty%20Przyjemno%C5%9Bci",
+      "deezer": "https://www.deezer.com/album/702651381"
+    },
+    "embed": {
+      "provider": "deezer",
+      "src": "https://widget.deezer.com/widget/light/album/702651381",
+      "height": 300
+    },
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://i.discogs.com/3bSABbhyXFYdbSeI6B7lw8l2gwVy4OQv1U9YriHUUD8/rs:fit/g:sm/q:90/h:544/w:544/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM2MTUz/NTE0LTE3NjgwNDE2/NDMtNzE5Ny5qcGVn.jpeg",
     "cover": {
       "bg": "#111110",
       "fg": "#f2efe8",
@@ -46161,6 +46896,40 @@
     "status": "pending",
     "approvedAt": null,
     "coverImageUrl": "https://i.discogs.com/halTnzDTff5AP8R9FrRmpXoZpeBdqOKCZOKB8LGsYMA/rs:fit/g:sm/q:90/h:600/w:394/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI5ODk2/MjkxLTE3MDg2OTcz/MzUtNzQyNS5qcGVn.jpeg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
+    "id": "gusanito-candela-te-voy-a-dar",
+    "type": "single",
+    "artist": "Gusanito",
+    "title": "Candela Te Voy A Dar",
+    "label": "La Isla Records",
+    "releaseDate": "2024-01-01",
+    "description": "",
+    "tags": [
+      "latin"
+    ],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=Gusanito%20Candela%20Te%20Voy%20A%20Dar&item_type=a",
+      "spotify": "https://open.spotify.com/search/Gusanito%20Candela%20Te%20Voy%20A%20Dar",
+      "soundcloud": "https://soundcloud.com/search?q=Gusanito%20Candela%20Te%20Voy%20A%20Dar",
+      "youtube": "https://www.youtube.com/results?search_query=Gusanito%20Candela%20Te%20Voy%20A%20Dar",
+      "deezer": "https://www.deezer.com/album/596855442"
+    },
+    "embed": {
+      "provider": "deezer",
+      "src": "https://widget.deezer.com/widget/light/album/596855442",
+      "height": 300
+    },
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://i.discogs.com/B93G9IKQmRKC_XmwvLNTG1Dt97h2Yp20mbyP8Bwi3yo/rs:fit/g:sm/q:90/h:591/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTMxNTE0/NTc2LTE3MjQwMzE2/MTAtNDQyOC5qcGVn.jpeg",
     "cover": {
       "bg": "#111110",
       "fg": "#f2efe8",
