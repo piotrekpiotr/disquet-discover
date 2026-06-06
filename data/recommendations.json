@@ -749,9 +749,16 @@
       "bandcamp": "https://bandcamp.com/search?q=Auscultation%20IV&item_type=a",
       "spotify": "https://open.spotify.com/search/Auscultation%20IV",
       "soundcloud": "https://soundcloud.com/search?q=Auscultation%20IV",
-      "youtube": "https://www.youtube.com/results?search_query=Auscultation%20IV"
+      "youtube": "https://www.youtube.com/results?search_query=Auscultation%20IV",
+      "deezer": "https://www.deezer.com/album/956055071",
+      "apple": "https://music.apple.com/us/album/iv/1889291892?uo=4",
+      "tidal": "https://tidal.com/album/513767649"
     },
-    "embed": null,
+    "embed": {
+      "provider": "apple",
+      "src": "https://embed.music.apple.com/us/album/1889291892?theme=light",
+      "height": 450
+    },
     "musicVideoUrl": null,
     "status": "pending",
     "approvedAt": null,
@@ -993,6 +1000,69 @@
     "pressMentions": []
   },
   {
+    "id": "lyra-pramuk-laurel-halo-john-tejada-meridian-laurel-halo-x-john-tejada-rework",
+    "type": "single",
+    "artist": "Lyra Pramuk, Laurel Halo & John Tejada",
+    "title": "Meridian (Laurel Halo X John Tejada Rework)",
+    "label": "7K - a division of K7 Music GmbH",
+    "releaseDate": "2026-06-05",
+    "description": "Halo and Tejada take a scalpel to Pramuk's vocal source material, the kind of restrained, club-aware rework you'd expect given the names involved. Filed near Awe.",
+    "tags": [
+      "electronic"
+    ],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=Lyra%20Pramuk%2C%20Laurel%20Halo%20%26%20John%20Tejada%20Meridian%20(Laurel%20Halo%20X%20John%20Tejada%20Rework)&item_type=a",
+      "spotify": "https://open.spotify.com/search/Lyra%20Pramuk%2C%20Laurel%20Halo%20%26%20John%20Tejada%20Meridian%20(Laurel%20Halo%20X%20John%20Tejada%20Rework)",
+      "soundcloud": "https://soundcloud.com/search?q=Lyra%20Pramuk%2C%20Laurel%20Halo%20%26%20John%20Tejada%20Meridian%20(Laurel%20Halo%20X%20John%20Tejada%20Rework)",
+      "youtube": "https://www.youtube.com/results?search_query=Lyra%20Pramuk%2C%20Laurel%20Halo%20%26%20John%20Tejada%20Meridian%20(Laurel%20Halo%20X%20John%20Tejada%20Rework)",
+      "apple": "https://music.apple.com/us/album/meridian-laurel-halo-x-john-tejada-rework-single/1889571848"
+    },
+    "embed": null,
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/88/b1/ec/88b1ec51-8dee-5110-255c-8e83b9f529bd/4062548141191.png/600x600bb.jpg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
+    "id": "lyra-pramuk-meridian-laurel-halo-x-john-tejada-rework",
+    "type": "single",
+    "artist": "Lyra Pramuk",
+    "title": "Meridian (Laurel Halo x John Tejada Rework)",
+    "label": "",
+    "releaseDate": "2026-06-05",
+    "description": "Pramuk's voice-as-instrument source material handed to Laurel Halo and John Tejada for joint rework, two producers whose paths through dub-leaning club abstraction rarely cross this directly. Worth watching for anyone tracking where Atlas of Heaven gets pulled next.",
+    "tags": [],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=Lyra%20Pramuk%20Meridian%20(Laurel%20Halo%20x%20John%20Tejada%20Rework)&item_type=a",
+      "spotify": "https://open.spotify.com/search/Lyra%20Pramuk%20Meridian%20(Laurel%20Halo%20x%20John%20Tejada%20Rework)",
+      "soundcloud": "https://soundcloud.com/search?q=Lyra%20Pramuk%20Meridian%20(Laurel%20Halo%20x%20John%20Tejada%20Rework)",
+      "youtube": "https://www.youtube.com/results?search_query=Lyra%20Pramuk%20Meridian%20(Laurel%20Halo%20x%20John%20Tejada%20Rework)",
+      "deezer": "https://www.deezer.com/album/951415261",
+      "apple": "https://music.apple.com/us/album/meridian-laurel-halo-x-john-tejada-rework-single/1889571848?uo=4"
+    },
+    "embed": {
+      "provider": "apple",
+      "src": "https://embed.music.apple.com/us/album/1889571848?theme=light",
+      "height": 450
+    },
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://cdn-images.dzcdn.net/images/cover/b05e41ec07cf545401866c4c334059f1/1000x1000-000000-80-0-0.jpg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
     "id": "bamao-yende-boukan-records-helen-island-fae-sapienta-all-bout-u",
     "type": "single",
     "artist": "Bamao Yendé, Boukan Records, helen island & Fae Sapienta",
@@ -1073,12 +1143,13 @@
       "spotify": "https://open.spotify.com/search/Xang%20nadie%20%2B",
       "soundcloud": "https://soundcloud.com/search?q=Xang%20nadie%20%2B",
       "youtube": "https://www.youtube.com/results?search_query=Xang%20nadie%20%2B",
-      "deezer": "https://www.deezer.com/album/993909091"
+      "deezer": "https://www.deezer.com/album/993909091",
+      "apple": "https://music.apple.com/us/album/nadie-feat-chilo-single/6774561503?uo=4"
     },
     "embed": {
-      "provider": "deezer",
-      "src": "https://widget.deezer.com/widget/light/album/993909091",
-      "height": 300
+      "provider": "apple",
+      "src": "https://embed.music.apple.com/us/album/6774561503?theme=light",
+      "height": 450
     },
     "musicVideoUrl": null,
     "status": "pending",
@@ -1320,6 +1391,42 @@
       "motif": "disc"
     },
     "pressMentions": []
+  },
+  {
+    "id": "kelela-point-blank",
+    "type": "single",
+    "artist": "Kelela",
+    "title": "Point Blank",
+    "label": "Warp Records",
+    "releaseDate": "2026-06-01",
+    "description": "Kelela on Warp, leaning further into the club-pop register she sketched on Raven, with the styles sheet pointing toward Jersey club skip and bass weight under the vocal. For anyone tracking where her writing meets the dancefloor.",
+    "tags": [
+      "electronic"
+    ],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=Kelela%20Point%20Blank&item_type=a",
+      "spotify": "https://open.spotify.com/search/Kelela%20Point%20Blank",
+      "soundcloud": "https://soundcloud.com/search?q=Kelela%20Point%20Blank",
+      "youtube": "https://www.youtube.com/results?search_query=Kelela%20Point%20Blank",
+      "deezer": "https://www.deezer.com/album/973765941"
+    },
+    "embed": {
+      "provider": "deezer",
+      "src": "https://widget.deezer.com/widget/light/album/973765941",
+      "height": 300
+    },
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://i.discogs.com/ft9k8lsYvTvT-GaS3YOIeYWWjvIQdFcyqwyWxk5rMFE/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM3NTAw/ODczLTE3ODAzNTUy/NzYtMjQwOC5qcGVn.jpeg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": [
+      "pitchfork_best_tracks"
+    ]
   },
   {
     "id": "klein-ferra",
@@ -1833,6 +1940,35 @@
     "pressMentions": []
   },
   {
+    "id": "boards-of-canada-inferno-l",
+    "type": "album",
+    "artist": "Boards Of Canada = ボーズ・オブ・カナダ",
+    "title": "Inferno = インフェルノ",
+    "label": "Warp Records",
+    "releaseDate": "2026-05-29",
+    "description": "Boards Of Canada return to Warp with a nineteen-track LP titled Inferno, the Japanese pressing arriving in late May. Whatever shape it takes, the Sandison brothers' degraded-tape, half-remembered palette is the only frame of reference that matters here.",
+    "tags": [
+      "electronic"
+    ],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=Boards%20Of%20Canada%20%3D%20%E3%83%9C%E3%83%BC%E3%82%BA%E3%83%BB%E3%82%AA%E3%83%96%E3%83%BB%E3%82%AB%E3%83%8A%E3%83%80%20Inferno%20%3D%20%E3%82%A4%E3%83%B3%E3%83%95%E3%82%A7%E3%83%AB%E3%83%8E&item_type=a",
+      "spotify": "https://open.spotify.com/search/Boards%20Of%20Canada%20%3D%20%E3%83%9C%E3%83%BC%E3%82%BA%E3%83%BB%E3%82%AA%E3%83%96%E3%83%BB%E3%82%AB%E3%83%8A%E3%83%80%20Inferno%20%3D%20%E3%82%A4%E3%83%B3%E3%83%95%E3%82%A7%E3%83%AB%E3%83%8E",
+      "soundcloud": "https://soundcloud.com/search?q=Boards%20Of%20Canada%20%3D%20%E3%83%9C%E3%83%BC%E3%82%BA%E3%83%BB%E3%82%AA%E3%83%96%E3%83%BB%E3%82%AB%E3%83%8A%E3%83%80%20Inferno%20%3D%20%E3%82%A4%E3%83%B3%E3%83%95%E3%82%A7%E3%83%AB%E3%83%8E",
+      "youtube": "https://www.youtube.com/results?search_query=Boards%20Of%20Canada%20%3D%20%E3%83%9C%E3%83%BC%E3%82%BA%E3%83%BB%E3%82%AA%E3%83%96%E3%83%BB%E3%82%AB%E3%83%8A%E3%83%80%20Inferno%20%3D%20%E3%82%A4%E3%83%B3%E3%83%95%E3%82%A7%E3%83%AB%E3%83%8E"
+    },
+    "embed": null,
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://i.discogs.com/y-qCPNuEnqM2MEwOcafnYpIzO5TWvKnaeUnx8CUKPqQ/rs:fit/g:sm/q:90/h:543/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM3NDcy/MTg3LTE3ODAwNTIw/MDQtNDIxNy5qcGVn.jpeg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
     "id": "eiii-emanations",
     "type": "album",
     "artist": "EIII",
@@ -1898,6 +2034,35 @@
       "motif": "disc"
     },
     "pressMentions": []
+  },
+  {
+    "id": "martyn-beats-in-space-208-martyn",
+    "type": "album",
+    "artist": "Martyn",
+    "title": "Beats in Space 208: Martyn",
+    "label": "",
+    "releaseDate": "2026-05-28",
+    "description": "Martyn turns up for a Beats in Space session, which historically means his usual fluency across dubstep lineage, Detroit techno and broken UK rhythms condensed into a mix hour. File alongside the 3024 catalogue.",
+    "tags": [],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=Martyn%20Beats%20in%20Space%20208%3A%20Martyn&item_type=a",
+      "spotify": "https://open.spotify.com/search/Martyn%20Beats%20in%20Space%20208%3A%20Martyn",
+      "soundcloud": "https://soundcloud.com/search?q=Martyn%20Beats%20in%20Space%20208%3A%20Martyn",
+      "youtube": "https://www.youtube.com/results?search_query=Martyn%20Beats%20in%20Space%20208%3A%20Martyn"
+    },
+    "embed": null,
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": null,
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": [
+      "pitchfork_albums"
+    ]
   },
   {
     "id": "h-lls-mahalia-fcuk",
@@ -2073,7 +2238,7 @@
     "title": "Rx",
     "label": "",
     "releaseDate": "2026-05-27",
-    "description": "",
+    "description": "Lone returning to album length, which on past form means rave nostalgia filtered through pastel-bright sample work and rolling breaks. Label and tracklist still unconfirmed; worth flagging for anyone who held onto Reality Testing.",
     "tags": [],
     "links": {
       "bandcamp": "https://bandcamp.com/search?q=Lone%20Rx&item_type=a",
@@ -3309,7 +3474,7 @@
     "title": "Up And Above XXVI",
     "label": "Wild Youth Digital",
     "releaseDate": "2026-05-18",
-    "description": "",
+    "description": "Another entry in P1/E's long-running Up And Above sequence for Wild Youth Digital, two tracks of synthwave delivered straight to digital. Functional rather than ornamental, aimed at listeners already inside the series.",
     "tags": [
       "electronic"
     ],
@@ -4043,7 +4208,7 @@
     "title": "Not All Who Wander Are Lost",
     "label": "West Mineral Ltd.",
     "releaseDate": "2026-05-15",
-    "description": "",
+    "description": "Shinetiac lands on West Mineral with an eight-track LP of abstract ambient that fits the label's smudged, drifting house style. Sits comfortably alongside the Pendant and uon end of the catalogue.",
     "tags": [
       "electronic"
     ],
@@ -6682,7 +6847,9 @@
       "fg": "#f2efe8",
       "motif": "disc"
     },
-    "pressMentions": []
+    "pressMentions": [
+      "stereogum"
+    ]
   },
   {
     "id": "noon-geschwister",
@@ -7049,7 +7216,7 @@
     "title": "20 Quid Beef",
     "label": "Youth",
     "releaseDate": "2026-05-01",
-    "description": "",
+    "description": "Eleven tracks of abstract electronics from Amen Erric, landing on Youth in stereo LP form. Sits closer to the sketchpad end of the catalogue than the dancefloor; play it through speakers, not earbuds.",
     "tags": [
       "electronic"
     ],
@@ -12498,7 +12665,7 @@
     "title": "Neue Deutsche Welle",
     "label": "Wild Youth Digital",
     "releaseDate": "2026-04-02",
-    "description": "",
+    "description": "Two tracks of stripped minimal electronics from Mono/45 UPM, the title nodding to a scene the project clearly orbits without quite belonging to. Wild Youth Digital keep it lean: WAV only, no ornament.",
     "tags": [
       "electronic"
     ],
@@ -13579,12 +13746,13 @@
       "spotify": "https://open.spotify.com/search/Oneohtrix%20Point%20Never%20R%20Plus%20Seven",
       "soundcloud": "https://soundcloud.com/search?q=Oneohtrix%20Point%20Never%20R%20Plus%20Seven",
       "youtube": "https://www.youtube.com/results?search_query=Oneohtrix%20Point%20Never%20R%20Plus%20Seven",
-      "deezer": "https://www.deezer.com/album/6974486"
+      "deezer": "https://www.deezer.com/album/6974486",
+      "apple": "https://music.apple.com/us/album/r-plus-seven/673970570?uo=4"
     },
     "embed": {
-      "provider": "deezer",
-      "src": "https://widget.deezer.com/widget/light/album/6974486",
-      "height": 300
+      "provider": "apple",
+      "src": "https://embed.music.apple.com/us/album/673970570?theme=light",
+      "height": 450
     },
     "musicVideoUrl": null,
     "status": "pending",
@@ -18730,7 +18898,7 @@
     "title": "Idols II",
     "label": "Capitol Records",
     "releaseDate": "2026-01-01",
-    "description": "",
+    "description": "This isn't really Disquiet territory: Yungblud's second Idols installment lands on Capitol as straight-ahead alt-rock for arena pop ears. File well away from the rest of the shelf.",
     "tags": [
       "rock"
     ],
@@ -18750,6 +18918,40 @@
     "status": "pending",
     "approvedAt": null,
     "coverImageUrl": "https://i.discogs.com/tWt2aDDeH2VxWmHMJWIQI7vrpZKpsD2On8hwe5WOow0/rs:fit/g:sm/q:90/h:591/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM3NDM5/MTU0LTE3Nzk3MTk0/NjktMjcxOS5qcGVn.jpeg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
+    "id": "dinosaur-jr-you-re-living-all-over-me",
+    "type": "album",
+    "artist": "Dinosaur Jr.",
+    "title": "You're Living All Over Me",
+    "label": "Jagjaguwar",
+    "releaseDate": "2026-01-01",
+    "description": "SST keeps the 1987 Dinosaur Jr. record in print, the one where J Mascis figured out how loud a melody could get before it dissolved. Essential second-shelf indie rock, even if you already own a copy.",
+    "tags": [
+      "rock"
+    ],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=Dinosaur%20Jr.%20You're%20Living%20All%20Over%20Me&item_type=a",
+      "spotify": "https://open.spotify.com/search/Dinosaur%20Jr.%20You're%20Living%20All%20Over%20Me",
+      "soundcloud": "https://soundcloud.com/search?q=Dinosaur%20Jr.%20You're%20Living%20All%20Over%20Me",
+      "youtube": "https://www.youtube.com/results?search_query=Dinosaur%20Jr.%20You're%20Living%20All%20Over%20Me",
+      "deezer": "https://www.deezer.com/album/129165772"
+    },
+    "embed": {
+      "provider": "deezer",
+      "src": "https://widget.deezer.com/widget/light/album/129165772",
+      "height": 300
+    },
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://i.discogs.com/2v0VX7M3z87erJ_cWgHcdHmxV8EJIyU5Fq7SnTAb9ns/rs:fit/g:sm/q:90/h:559/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM3NTQ2/NDkxLTE3ODA2ODYw/NTktNjk3OS5qcGVn.jpeg",
     "cover": {
       "bg": "#111110",
       "fg": "#f2efe8",
@@ -29601,7 +29803,7 @@
     "title": "Refractions",
     "label": "Opal Tapes",
     "releaseDate": "2025-05-13",
-    "description": "",
+    "description": "Seven ambient pieces issued on cassette via Opal Tapes, the Newcastle imprint still committed to noisier, more corroded ends of the genre. EIII works within that lineage rather than against it.",
     "tags": [
       "electronic"
     ],
@@ -29635,7 +29837,7 @@
     "title": "A Mirror Where The Image And The Mirror Wholly Coincided",
     "label": "mappa",
     "releaseDate": "2025-05-13",
-    "description": "",
+    "description": "Seven pieces of drone, field recording and slow ambient from the mappa co-runner himself, working in the patient, room-tone register the Slovak label has built its catalogue around. For listeners who reach for Áine O'Dwyer or Andrew Chalk when the light goes.",
     "tags": [
       "electronic"
     ],
@@ -29669,7 +29871,7 @@
     "title": "Selected Percussive Works Vol. IV",
     "label": "Opal Tapes",
     "releaseDate": "2025-05-12",
-    "description": "",
+    "description": "The Danish collagist turns up on Opal Tapes with six pieces splitting the difference between his usual ambient drift and a stiffer, minimal-techno pulse. Worth a look if Karen Gwyer's quieter side still gets shelf time.",
     "tags": [
       "electronic"
     ],
@@ -35176,7 +35378,8 @@
       "spotify": "https://open.spotify.com/search/Ale%20Hop%20%26%20Titi%20Bakorta%20Mapambazuko",
       "soundcloud": "https://soundcloud.com/search?q=Ale%20Hop%20%26%20Titi%20Bakorta%20Mapambazuko",
       "youtube": "https://www.youtube.com/results?search_query=Ale%20Hop%20%26%20Titi%20Bakorta%20Mapambazuko",
-      "apple": "https://music.apple.com/us/album/mapambazuko/1775219226?uo=4"
+      "apple": "https://music.apple.com/us/album/mapambazuko/1775219226?uo=4",
+      "tidal": "https://tidal.com/album/394683399"
     },
     "embed": {
       "provider": "apple",
@@ -35211,7 +35414,8 @@
       "soundcloud": "https://soundcloud.com/search?q=David%20Allred%20The%20Beautiful%20World",
       "youtube": "https://www.youtube.com/results?search_query=David%20Allred%20The%20Beautiful%20World",
       "deezer": "https://www.deezer.com/album/650680711",
-      "apple": "https://music.apple.com/us/album/the-beautiful-world/1771682157?uo=4"
+      "apple": "https://music.apple.com/us/album/the-beautiful-world/1771682157?uo=4",
+      "tidal": "https://tidal.com/album/390695483"
     },
     "embed": {
       "provider": "apple",
@@ -35246,7 +35450,8 @@
       "soundcloud": "https://soundcloud.com/search?q=Brueder%20Selke%20%26%20Midori%20Hirano%20Split%20Scale",
       "youtube": "https://www.youtube.com/results?search_query=Brueder%20Selke%20%26%20Midori%20Hirano%20Split%20Scale",
       "deezer": "https://www.deezer.com/album/645228151",
-      "apple": "https://music.apple.com/us/album/split-scale/1769450419?uo=4"
+      "apple": "https://music.apple.com/us/album/split-scale/1769450419?uo=4",
+      "tidal": "https://tidal.com/album/388242503"
     },
     "embed": {
       "provider": "apple",
@@ -35280,7 +35485,8 @@
       "spotify": "https://open.spotify.com/search/Black%20Taffy%20Out%20Moon",
       "soundcloud": "https://soundcloud.com/search?q=Black%20Taffy%20Out%20Moon",
       "youtube": "https://www.youtube.com/results?search_query=Black%20Taffy%20Out%20Moon",
-      "apple": "https://music.apple.com/us/album/out-moon/1785840723?uo=4"
+      "apple": "https://music.apple.com/us/album/out-moon/1785840723?uo=4",
+      "tidal": "https://tidal.com/album/406311664"
     },
     "embed": {
       "provider": "apple",
@@ -35348,7 +35554,8 @@
       "spotify": "https://open.spotify.com/search/Burial%20%2F%20Kode9%20Phoneglow%20%2F%20Eyes%20Go%20Blank",
       "soundcloud": "https://soundcloud.com/search?q=Burial%20%2F%20Kode9%20Phoneglow%20%2F%20Eyes%20Go%20Blank",
       "youtube": "https://www.youtube.com/results?search_query=Burial%20%2F%20Kode9%20Phoneglow%20%2F%20Eyes%20Go%20Blank",
-      "apple": "https://music.apple.com/us/album/phoneglow-eyes-go-blank-single/1747830913?uo=4"
+      "apple": "https://music.apple.com/us/album/phoneglow-eyes-go-blank-single/1747830913?uo=4",
+      "tidal": "https://tidal.com/album/364906886"
     },
     "embed": {
       "provider": "apple",
@@ -35382,7 +35589,8 @@
       "spotify": "https://open.spotify.com/search/Actress%20%D0%94%D0%B0%D1%80%D1%80%D0%B5%D0%BD%20%D0%94%D0%B6.%20%D0%9A%D0%B0%D0%BD%D0%BD%D1%96%D0%BD%D0%B3%D0%B5%D0%BC",
       "soundcloud": "https://soundcloud.com/search?q=Actress%20%D0%94%D0%B0%D1%80%D1%80%D0%B5%D0%BD%20%D0%94%D0%B6.%20%D0%9A%D0%B0%D0%BD%D0%BD%D1%96%D0%BD%D0%B3%D0%B5%D0%BC",
       "youtube": "https://www.youtube.com/results?search_query=Actress%20%D0%94%D0%B0%D1%80%D1%80%D0%B5%D0%BD%20%D0%94%D0%B6.%20%D0%9A%D0%B0%D0%BD%D0%BD%D1%96%D0%BD%D0%B3%D0%B5%D0%BC",
-      "apple": "https://music.apple.com/us/album/%D0%B4%D0%B0%D1%80%D1%80%D0%B5%D0%BD-%D0%B4%D0%B6-%D0%BA%D0%B0%D0%BD%D0%BD%D1%96%D0%BD%D0%B3%D0%B5%D0%BC/1769442788?uo=4"
+      "apple": "https://music.apple.com/us/album/%D0%B4%D0%B0%D1%80%D1%80%D0%B5%D0%BD-%D0%B4%D0%B6-%D0%BA%D0%B0%D0%BD%D0%BD%D1%96%D0%BD%D0%B3%D0%B5%D0%BC/1769442788?uo=4",
+      "tidal": "https://tidal.com/album/388412049"
     },
     "embed": {
       "provider": "apple",
@@ -35450,7 +35658,8 @@
       "spotify": "https://open.spotify.com/search/Nicolas%20Jaar%20Piedras",
       "soundcloud": "https://soundcloud.com/search?q=Nicolas%20Jaar%20Piedras",
       "youtube": "https://www.youtube.com/results?search_query=Nicolas%20Jaar%20Piedras",
-      "apple": "https://music.apple.com/us/album/archivos-de-radio-piedras/1743254029?uo=4"
+      "apple": "https://music.apple.com/us/album/archivos-de-radio-piedras/1743254029?uo=4",
+      "tidal": "https://tidal.com/album/359689002"
     },
     "embed": {
       "provider": "apple",
@@ -35484,7 +35693,8 @@
       "spotify": "https://open.spotify.com/search/Yo%20La%20Tengo%20Genius%20%2B%20Love%20%3D%20Yo%20La%20Tengo",
       "soundcloud": "https://soundcloud.com/search?q=Yo%20La%20Tengo%20Genius%20%2B%20Love%20%3D%20Yo%20La%20Tengo",
       "youtube": "https://www.youtube.com/results?search_query=Yo%20La%20Tengo%20Genius%20%2B%20Love%20%3D%20Yo%20La%20Tengo",
-      "apple": "https://music.apple.com/us/album/genius-love-yo-la-tengo/1589121530?uo=4"
+      "apple": "https://music.apple.com/us/album/genius-love-yo-la-tengo/1589121530?uo=4",
+      "tidal": "https://tidal.com/album/97465216"
     },
     "embed": {
       "provider": "apple",
@@ -35677,7 +35887,8 @@
       "spotify": "https://open.spotify.com/search/The%20Moonlandingz%20Interplanetary%20Class%20Classics",
       "soundcloud": "https://soundcloud.com/search?q=The%20Moonlandingz%20Interplanetary%20Class%20Classics",
       "youtube": "https://www.youtube.com/results?search_query=The%20Moonlandingz%20Interplanetary%20Class%20Classics",
-      "apple": "https://music.apple.com/us/album/interplanetary-class-classics-deluxe-edition/1454447022?uo=4"
+      "apple": "https://music.apple.com/us/album/interplanetary-class-classics-deluxe-edition/1454447022?uo=4",
+      "tidal": "https://tidal.com/album/83548455"
     },
     "embed": {
       "provider": "apple",
@@ -35711,7 +35922,8 @@
       "spotify": "https://open.spotify.com/search/Dorothy%20Carlos%20Ear%20World",
       "soundcloud": "https://soundcloud.com/search?q=Dorothy%20Carlos%20Ear%20World",
       "youtube": "https://www.youtube.com/results?search_query=Dorothy%20Carlos%20Ear%20World",
-      "apple": "https://music.apple.com/us/album/ear-world/1791459889?uo=4"
+      "apple": "https://music.apple.com/us/album/ear-world/1791459889?uo=4",
+      "tidal": "https://tidal.com/album/412589952"
     },
     "embed": {
       "provider": "apple",
@@ -35746,7 +35958,8 @@
       "soundcloud": "https://soundcloud.com/search?q=SNFU%20Let's%20Get%20It%20Right%20The%20First%20Time",
       "youtube": "https://www.youtube.com/results?search_query=SNFU%20Let's%20Get%20It%20Right%20The%20First%20Time",
       "deezer": "https://www.deezer.com/album/9353046",
-      "apple": "https://music.apple.com/us/album/lets-get-it-right-the-first-time/932612759?uo=4"
+      "apple": "https://music.apple.com/us/album/lets-get-it-right-the-first-time/932612759?uo=4",
+      "tidal": "https://tidal.com/album/39368962"
     },
     "embed": {
       "provider": "apple",
@@ -35780,7 +35993,8 @@
       "spotify": "https://open.spotify.com/search/Battery%20(3)%20Until%20The%20End",
       "soundcloud": "https://soundcloud.com/search?q=Battery%20(3)%20Until%20The%20End",
       "youtube": "https://www.youtube.com/results?search_query=Battery%20(3)%20Until%20The%20End",
-      "deezer": "https://www.deezer.com/album/753848031"
+      "deezer": "https://www.deezer.com/album/753848031",
+      "tidal": "https://tidal.com/album/434710468"
     },
     "embed": {
       "provider": "deezer",
@@ -35814,7 +36028,8 @@
       "spotify": "https://open.spotify.com/search/Bomb20%20Female%20EQ",
       "soundcloud": "https://soundcloud.com/search?q=Bomb20%20Female%20EQ",
       "youtube": "https://www.youtube.com/results?search_query=Bomb20%20Female%20EQ",
-      "apple": "https://music.apple.com/us/album/female-eq-mixtape-1997/1805993954?uo=4"
+      "apple": "https://music.apple.com/us/album/female-eq-mixtape-1997/1805993954?uo=4",
+      "tidal": "https://tidal.com/album/427626882"
     },
     "embed": {
       "provider": "apple",
@@ -35910,7 +36125,8 @@
       "spotify": "https://open.spotify.com/search/Louis%20Cole%20(2)%20Quality%20Over%20Opinion",
       "soundcloud": "https://soundcloud.com/search?q=Louis%20Cole%20(2)%20Quality%20Over%20Opinion",
       "youtube": "https://www.youtube.com/results?search_query=Louis%20Cole%20(2)%20Quality%20Over%20Opinion",
-      "deezer": "https://www.deezer.com/album/349284077"
+      "deezer": "https://www.deezer.com/album/349284077",
+      "tidal": "https://tidal.com/album/244580839"
     },
     "embed": {
       "provider": "deezer",
@@ -35944,7 +36160,8 @@
       "spotify": "https://open.spotify.com/search/Jameszoo%2C%20Asko%7CSch%C3%B6nberg%20Music%20For%2017%20Musicians",
       "soundcloud": "https://soundcloud.com/search?q=Jameszoo%2C%20Asko%7CSch%C3%B6nberg%20Music%20For%2017%20Musicians",
       "youtube": "https://www.youtube.com/results?search_query=Jameszoo%2C%20Asko%7CSch%C3%B6nberg%20Music%20For%2017%20Musicians",
-      "deezer": "https://www.deezer.com/album/742779641"
+      "deezer": "https://www.deezer.com/album/742779641",
+      "tidal": "https://tidal.com/album/430230341"
     },
     "embed": {
       "provider": "deezer",
@@ -43061,6 +43278,40 @@
     "status": "pending",
     "approvedAt": null,
     "coverImageUrl": "https://i.discogs.com/dKDiq-EnaxnIKxmpO1CFu8-iftibOBsTXr4KUb6Bo6I/rs:fit/g:sm/q:90/h:600/w:443/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTMzMzkz/NjgwLTE3NDE4NTk0/NjMtNTYzNy5qcGVn.jpeg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
+    "id": "gonemage-spell-piercings",
+    "type": "album",
+    "artist": "Gonemage",
+    "title": "Spell Piercings",
+    "label": "Lilang Isla",
+    "releaseDate": "2024-05-23",
+    "description": "",
+    "tags": [
+      "electronic"
+    ],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=Gonemage%20Spell%20Piercings&item_type=a",
+      "spotify": "https://open.spotify.com/search/Gonemage%20Spell%20Piercings",
+      "soundcloud": "https://soundcloud.com/search?q=Gonemage%20Spell%20Piercings",
+      "youtube": "https://www.youtube.com/results?search_query=Gonemage%20Spell%20Piercings",
+      "deezer": "https://www.deezer.com/album/541846712"
+    },
+    "embed": {
+      "provider": "deezer",
+      "src": "https://widget.deezer.com/widget/light/album/541846712",
+      "height": 300
+    },
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://i.discogs.com/x_Bp74C8iCrnncpgJkvrib4V5Dy39OymxufRqCYj_98/rs:fit/g:sm/q:90/h:600/w:599/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTMwODQ3/MDY4LTE3MTcyODI4/NDEtNjIzNC5qcGVn.jpeg",
     "cover": {
       "bg": "#111110",
       "fg": "#f2efe8",

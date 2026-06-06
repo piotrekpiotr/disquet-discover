@@ -364,7 +364,8 @@
     ],
     "titleExamples": [
       "Idea 1",
-      "Linknb"
+      "Linknb",
+      "Point Blank"
     ]
   },
   "Oneohtrix Point Never": {
@@ -8305,6 +8306,7 @@
     ],
     "titleExamples": [
       "Chainsaw Man The Movie: Reze Arc Original Soundtrack - Summer's End - = 劇場版「チェンソーマン レゼ篇」オリジナルサウンドトラック",
+      "Chainsaw Man The Movie: Reze Arc Original Soundtrack - Summer's End - = 劇場版「チェンソーマン レゼ篇」オリジナルサウンドトラック",
       "Chainsaw Man The Movie: Reze Arc Original Soundtrack - Summer's End - = 劇場版「チェンソーマン レゼ篇」オリジナルサウンドトラック"
     ]
   },
@@ -8323,6 +8325,7 @@
     ],
     "titleExamples": [
       "Chamber Music",
+      "Chamber Music",
       "Chamber Music"
     ]
   },
@@ -8339,6 +8342,7 @@
       "Balmat"
     ],
     "titleExamples": [
+      "Possible Utopias For Jazz Quintet",
       "Possible Utopias For Jazz Quintet"
     ]
   },
@@ -8388,6 +8392,30 @@
     ],
     "titleExamples": [
       "Up And Above XXVI"
+    ]
+  },
+  "Dinosaur Jr.": {
+    "seenOn": [
+      "Jagjaguwar"
+    ],
+    "titleExamples": [
+      "You're Living All Over Me"
+    ]
+  },
+  "Gonemage": {
+    "seenOn": [
+      "Isla"
+    ],
+    "titleExamples": [
+      "Spell Piercings"
+    ]
+  },
+  "Boards Of Canada = ボーズ・オブ・カナダ": {
+    "seenOn": [
+      "Warp Records"
+    ],
+    "titleExamples": [
+      "Inferno = インフェルノ"
     ]
   }
 }
