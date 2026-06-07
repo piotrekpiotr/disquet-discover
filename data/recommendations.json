@@ -1063,6 +1063,41 @@
     "pressMentions": []
   },
   {
+    "id": "jared-mattson-ruban-nielson-fear",
+    "type": "album",
+    "artist": "Jared Mattson, Ruban Nielson",
+    "title": "Fear",
+    "label": "Jagjaguwar",
+    "releaseDate": "2026-06-05",
+    "description": "The Mattson 2 guitarist and the Unknown Mortal Orchestra frontman pair up for seven tracks on Jagjaguwar, sitting where jazz instinct meets stoned psych-rock. For anyone who tracks both of their day jobs.",
+    "tags": [
+      "jazz"
+    ],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=Jared%20Mattson%2C%20Ruban%20Nielson%20Fear&item_type=a",
+      "spotify": "https://open.spotify.com/search/Jared%20Mattson%2C%20Ruban%20Nielson%20Fear",
+      "soundcloud": "https://soundcloud.com/search?q=Jared%20Mattson%2C%20Ruban%20Nielson%20Fear",
+      "youtube": "https://www.youtube.com/results?search_query=Jared%20Mattson%2C%20Ruban%20Nielson%20Fear",
+      "deezer": "https://www.deezer.com/album/954066461",
+      "apple": "https://music.apple.com/us/album/fear/1890546100?uo=4"
+    },
+    "embed": {
+      "provider": "apple",
+      "src": "https://embed.music.apple.com/us/album/1890546100?theme=light",
+      "height": 450
+    },
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://i.discogs.com/u-V3GSIazSnHklPkZBoybhNLzvxTUMbr0tUZ62GvN1Y/rs:fit/g:sm/q:90/h:589/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM3NTU1/MTEwLTE3ODA3NjQ1/NzYtMzY4OC5qcGVn.jpeg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
     "id": "bamao-yende-boukan-records-helen-island-fae-sapienta-all-bout-u",
     "type": "single",
     "artist": "Bamao Yendé, Boukan Records, helen island & Fae Sapienta",
@@ -1194,6 +1229,41 @@
       "motif": "disc"
     },
     "pressMentions": []
+  },
+  {
+    "id": "emma-ruth-rundle-powerless",
+    "type": "single",
+    "artist": "Emma Ruth Rundle",
+    "title": "Powerless",
+    "label": "",
+    "releaseDate": "2026-06-04",
+    "description": "Rundle in single form, which usually means her voice sat against guitar at its most exposed before the arrangements thicken around it. Worth a listen for anyone tracking the heavier edge of American songwriter rock.",
+    "tags": [],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=Emma%20Ruth%20Rundle%20Powerless&item_type=a",
+      "spotify": "https://open.spotify.com/search/Emma%20Ruth%20Rundle%20Powerless",
+      "soundcloud": "https://soundcloud.com/search?q=Emma%20Ruth%20Rundle%20Powerless",
+      "youtube": "https://www.youtube.com/results?search_query=Emma%20Ruth%20Rundle%20Powerless",
+      "deezer": "https://www.deezer.com/album/980183501",
+      "apple": "https://music.apple.com/us/album/powerless-single/6768225601?uo=4"
+    },
+    "embed": {
+      "provider": "apple",
+      "src": "https://embed.music.apple.com/us/album/6768225601?theme=light",
+      "height": 450
+    },
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://cdn-images.dzcdn.net/images/cover/0112badf83275bceeff30650ed96128a/1000x1000-000000-80-0-0.jpg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": [
+      "stereogum"
+    ]
   },
   {
     "id": "matthew-herbert-worry-herbert-s-brahm-dub",
@@ -1961,6 +2031,34 @@
     "status": "pending",
     "approvedAt": null,
     "coverImageUrl": "https://i.discogs.com/y-qCPNuEnqM2MEwOcafnYpIzO5TWvKnaeUnx8CUKPqQ/rs:fit/g:sm/q:90/h:543/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM3NDcy/MTg3LTE3ODAwNTIw/MDQtNDIxNy5qcGVn.jpeg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
+    "id": "malibu-aventuras-de-caramelo-2",
+    "type": "album",
+    "artist": "Malibu",
+    "title": "Aventuras de Caramelo 2",
+    "label": "",
+    "releaseDate": "2026-05-29",
+    "description": "Malibu returns to the windswept, sentiment-soaked ambient pop she has been building out since One Life, sequel logic aside, the register is the one her listeners already know. For anyone still inside the Yves Tumor adjacent corner of the form.",
+    "tags": [],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=Malibu%20Aventuras%20de%20Caramelo%202&item_type=a",
+      "spotify": "https://open.spotify.com/search/Malibu%20Aventuras%20de%20Caramelo%202",
+      "soundcloud": "https://soundcloud.com/search?q=Malibu%20Aventuras%20de%20Caramelo%202",
+      "youtube": "https://www.youtube.com/results?search_query=Malibu%20Aventuras%20de%20Caramelo%202",
+      "deezer": "https://www.deezer.com/album/993377301"
+    },
+    "embed": null,
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://cdn-images.dzcdn.net/images/cover/e55aa27c6d9ae8877d14e951f772935e/1000x1000-000000-80-0-0.jpg",
     "cover": {
       "bg": "#111110",
       "fg": "#f2efe8",
@@ -18570,12 +18668,13 @@
       "spotify": "https://open.spotify.com/search/Cinna%20Peyghamy%20Music%20For%20Tombak%20%26%20Synth",
       "soundcloud": "https://soundcloud.com/search?q=Cinna%20Peyghamy%20Music%20For%20Tombak%20%26%20Synth",
       "youtube": "https://www.youtube.com/results?search_query=Cinna%20Peyghamy%20Music%20For%20Tombak%20%26%20Synth",
-      "deezer": "https://www.deezer.com/album/937673321"
+      "deezer": "https://www.deezer.com/album/937673321",
+      "apple": "https://music.apple.com/us/album/music-for-tombak-synth/1884372776?uo=4"
     },
     "embed": {
-      "provider": "deezer",
-      "src": "https://widget.deezer.com/widget/light/album/937673321",
-      "height": 300
+      "provider": "apple",
+      "src": "https://embed.music.apple.com/us/album/1884372776?theme=light",
+      "height": 450
     },
     "musicVideoUrl": null,
     "status": "pending",
@@ -29904,7 +30003,7 @@
     "title": "Nikkei Pet Index",
     "label": "Wild Youth Digital",
     "releaseDate": "2025-05-09",
-    "description": "",
+    "description": "Eleven tracks of synth-pop tilted toward house from Stock Exchange Girls on Wild Youth Digital, the bright melodic line never quite letting go of the dancefloor underneath. For anyone working through the giddier corners of the Italians Do It Better catalogue.",
     "tags": [
       "electronic"
     ],
@@ -29938,7 +30037,7 @@
     "title": "Where Things Are Hollow: No Tomorrow",
     "label": "Lapsus Records",
     "releaseDate": "2025-05-09",
-    "description": "",
+    "description": "Lapsus revisits PCA's Where Things Are Hollow material across a 22-track 12\", moving between acid pressure, broken techno and longer ambient stretches without settling. For anyone tracking the Barcelona label's archival side alongside the new commissions.",
     "tags": [
       "electronic"
     ],
@@ -29967,7 +30066,7 @@
     "title": "Stuck In A Dream",
     "label": "Double Helix Records (2)",
     "releaseDate": "2025-05-09",
-    "description": "",
+    "description": "A one-track punk single from Scott Sellers on Double Helix, digital-only and built to the brisk dimensions the format implies. Files under rock at its most direct.",
     "tags": [
       "rock"
     ],
@@ -30002,7 +30101,7 @@
     "title": "Drained Strands",
     "label": "Peak Oil",
     "releaseDate": "2025-05-09",
-    "description": "",
+    "description": "Six tracks from Wrecked Lightship for Peak Oil, threading jungle breakage through ambient haze and weighted low-end. Sits comfortably next to the label's Topdown Dialectic material.",
     "tags": [
       "electronic"
     ],
@@ -30036,7 +30135,7 @@
     "title": "Cosmic Microwave / Stochastic Dynamics In Non-Linear Systems",
     "label": "Smalltown Supersound",
     "releaseDate": "2025-05-09",
-    "description": "",
+    "description": "Barker leaves Ostgut Ton territory for Smalltown Supersound with a two-tracker that pulls his kick-drum-averse techno further toward ambient drift. For anyone still living inside Utility.",
     "tags": [
       "electronic"
     ],
@@ -30065,7 +30164,7 @@
     "title": "From Where You Came",
     "label": "Smalltown Supersound",
     "releaseDate": "2025-05-09",
-    "description": "",
+    "description": "Coverdale lands on Smalltown Supersound with eleven pieces of choral-leaning ambient and modern classical, organ tones and processed voice handled with the same patience as her earlier Sentrax work. For anyone still wearing out Grafts.",
     "tags": [
       "electronic"
     ],
@@ -30099,7 +30198,7 @@
     "title": "Land's End Eternal",
     "label": "Leaving Records",
     "releaseDate": "2025-05-09",
-    "description": "",
+    "description": "Cole Pulice's processed saxophone work lands on Leaving in four extended pieces, sitting where solo horn improvisation bleeds into pedal-fed electronics. For anyone who followed Scoping Out the Lovely Drift of It All.",
     "tags": [
       "electronic"
     ],
@@ -30134,7 +30233,7 @@
     "title": "Belly Up",
     "label": "AD 93",
     "releaseDate": "2025-05-09",
-    "description": "",
+    "description": "Six tracks of Moin's continued slow-rub of post-hardcore guitar against electronic instinct, pressed white-label 45 by AD 93. Files alongside Raime if you have been tracking that lineage.",
     "tags": [],
     "links": {
       "bandcamp": "https://bandcamp.com/album/1724046970",
@@ -30167,7 +30266,7 @@
     "title": "Living Room",
     "label": "Ilian Tape",
     "releaseDate": "2025-05-08",
-    "description": "",
+    "description": "Twelve tracks from the Ilian Tape regular that pull breakbeat, ambient house and drum n bass into the same domestic frame the title suggests. Sits comfortably next to Skee Mask for anyone tracking the label's wider grammar.",
     "tags": [
       "electronic"
     ],
@@ -30201,7 +30300,7 @@
     "title": "Belly Up",
     "label": "AD 93",
     "releaseDate": "2025-05-08",
-    "description": "",
+    "description": "Six tracks of Moin's scraped post-rock on AD 93, the trio still working that seam where Raime's shadow meets actual guitars and drums. White label 12\", play it next to anything on Blackest Ever Black.",
     "tags": [
       "electronic"
     ],
@@ -30236,7 +30335,7 @@
     "title": "Ace Box Sneak / $100 Eldorado",
     "label": "Secret Stash Records",
     "releaseDate": "2025-05-02",
-    "description": "",
+    "description": "Two sides of instrumental soul-jazz cut to a 45 by Secret Stash, the Minneapolis shop reliably mining this exact lane. Built for the DJs who flip Daptone sevens between sets.",
     "tags": [
       "jazz"
     ],
@@ -30271,7 +30370,7 @@
     "title": "Joseph, What Have You Done?",
     "label": "Fixed Abode",
     "releaseDate": "2025-05-02",
-    "description": "",
+    "description": "Thirteen tracks of bruised, post-everything songwriting from the Preston producer on his own Fixed Abode, where digital scuff and rural English melancholy keep doing their work. For anyone tracking Space Afrika or the Blackhaine orbit.",
     "tags": [
       "electronic"
     ],
@@ -35344,7 +35443,8 @@
       "soundcloud": "https://soundcloud.com/search?q=Ale%20Hop%20And%20Titi%20Bakorta%20Mapambazuko",
       "youtube": "https://www.youtube.com/results?search_query=Ale%20Hop%20And%20Titi%20Bakorta%20Mapambazuko",
       "deezer": "https://www.deezer.com/album/660018911",
-      "apple": "https://music.apple.com/us/album/mapambazuko/1775219226?uo=4"
+      "apple": "https://music.apple.com/us/album/mapambazuko/1775219226?uo=4",
+      "tidal": "https://tidal.com/album/394683399"
     },
     "embed": {
       "provider": "apple",
