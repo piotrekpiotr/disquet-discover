@@ -4270,7 +4270,9 @@
       "fg": "#f2efe8",
       "motif": "disc"
     },
-    "pressMentions": []
+    "pressMentions": [
+      "pitchfork_albums"
+    ]
   },
   {
     "id": "colour-haze-black-keys",
@@ -8680,6 +8682,40 @@
     "pressMentions": []
   },
   {
+    "id": "seokolo-7-maramfa-musick-pro",
+    "type": "album",
+    "artist": "Seokolo 7",
+    "title": "Maramfa Musick Pro",
+    "label": "Nyege Nyege Tapes",
+    "releaseDate": "2026-04-24",
+    "description": "Ten tracks of African electronic music landing on Nyege Nyege Tapes, the Kampala label that has spent the better part of a decade mapping the continent's stranger club and folk hybrids. Limited LP pressing; sits comfortably next to Otim Alpha on the shelf.",
+    "tags": [
+      "electronic"
+    ],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=Seokolo%207%20Maramfa%20Musick%20Pro&item_type=a",
+      "spotify": "https://open.spotify.com/search/Seokolo%207%20Maramfa%20Musick%20Pro",
+      "soundcloud": "https://soundcloud.com/search?q=Seokolo%207%20Maramfa%20Musick%20Pro",
+      "youtube": "https://www.youtube.com/results?search_query=Seokolo%207%20Maramfa%20Musick%20Pro",
+      "deezer": "https://www.deezer.com/album/954075251"
+    },
+    "embed": {
+      "provider": "deezer",
+      "src": "https://widget.deezer.com/widget/light/album/954075251",
+      "height": 300
+    },
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://i.discogs.com/W98OGKp1I4AeP8BC2JHlNmDl07VU1DQLJXSCebKvdyA/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM3NTYw/MTgwLTE3ODA4MTky/NjctNzI5Ny5qcGVn.jpeg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
     "id": "matthew-herbert-rosebush-pruning-original-soundtrack-album",
     "type": "album",
     "artist": "Matthew Herbert",
@@ -10615,6 +10651,35 @@
     "pressMentions": []
   },
   {
+    "id": "lucy-liyou-mr-cobra",
+    "type": "album",
+    "artist": "Lucy Liyou",
+    "title": "Mr Cobra",
+    "label": "Orange Milk Records",
+    "releaseDate": "2026-04-17",
+    "description": "Lucy Liyou returns to Orange Milk for a twelve-track album of ambient electronics, the kind of fractured, voice-leaning composition the label has been quietly building a catalogue around. For anyone still tracking Foodman's stranger neighbors on the roster.",
+    "tags": [
+      "electronic"
+    ],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=Lucy%20Liyou%20Mr%20Cobra&item_type=a",
+      "spotify": "https://open.spotify.com/search/Lucy%20Liyou%20Mr%20Cobra",
+      "soundcloud": "https://soundcloud.com/search?q=Lucy%20Liyou%20Mr%20Cobra",
+      "youtube": "https://www.youtube.com/results?search_query=Lucy%20Liyou%20Mr%20Cobra"
+    },
+    "embed": null,
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://i.discogs.com/LIutcOhWiqHKZZQ6odiyZXS2u4bpMHzLuZQdnRDIWdw/rs:fit/g:sm/q:90/h:595/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM3NTQ1/ODEzLTE3ODA4NDky/MTQtNDg4MC5qcGVn.jpeg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
     "id": "h-lls-lucy-park-guerillaz",
     "type": "single",
     "artist": "H.LLS & Lucy Park",
@@ -12031,12 +12096,13 @@
       "spotify": "https://open.spotify.com/search/Alex%20Zhang%20Hungtai%20Dras",
       "soundcloud": "https://soundcloud.com/search?q=Alex%20Zhang%20Hungtai%20Dras",
       "youtube": "https://www.youtube.com/results?search_query=Alex%20Zhang%20Hungtai%20Dras",
-      "deezer": "https://www.deezer.com/album/891491192"
+      "deezer": "https://www.deezer.com/album/891491192",
+      "apple": "https://music.apple.com/us/album/dras/1866719695?uo=4"
     },
     "embed": {
-      "provider": "deezer",
-      "src": "https://widget.deezer.com/widget/light/album/891491192",
-      "height": 300
+      "provider": "apple",
+      "src": "https://embed.music.apple.com/us/album/1866719695?theme=light",
+      "height": 450
     },
     "musicVideoUrl": null,
     "status": "pending",
@@ -30404,7 +30470,7 @@
     "title": "Holding On To You",
     "label": "Helix Records (7)",
     "releaseDate": "2025-05-02",
-    "description": "",
+    "description": "A single deep house cut from Rules and Ross Quinn on Helix, leaning warm and vocal-led rather than tooled for peak-time. Late-evening shelving, somewhere near the rounder end of the genre.",
     "tags": [
       "electronic"
     ],
@@ -30438,7 +30504,7 @@
     "title": "Hold Me In A New Way",
     "label": "Modern Love",
     "releaseDate": "2025-05-02",
-    "description": "",
+    "description": "Two tracks from the Altered Hours and Crevice singer on Modern Love, pressed to 7\" and sitting closer to her solo songwriting than to the label's usual dub-techno orbit. Hushed, tape-warped pop for the Demdike Stare audience.",
     "tags": [
       "electronic"
     ],
@@ -30473,7 +30539,7 @@
     "title": "Iris Silver Mist",
     "label": "Su Tissue",
     "releaseDate": "2025-05-02",
-    "description": "",
+    "description": "Hval's latest for 4AD circles perfume, voice and the body in the oblique, half-spoken art-pop register she has been developing since Apocalypse, girl. Limited LP pressing; sits next to Holter on the shelf.",
     "tags": [
       "electronic"
     ],
@@ -30508,7 +30574,7 @@
     "title": "Eli Keszler",
     "label": "LuckyMe",
     "releaseDate": "2025-05-02",
-    "description": "",
+    "description": "A self-titled twelve-tracker for LuckyMe, Keszler still working that fine line between hyperactive percussion and a kind of ambient suspension. Closer to chamber music than the label's club instincts; for anyone holding onto Stadium.",
     "tags": [
       "electronic"
     ],
@@ -30543,7 +30609,7 @@
     "title": "Rkustik Trio",
     "label": "Plattenbau Ost",
     "releaseDate": "2025-05-01",
-    "description": "",
+    "description": "A 33-track acoustic set from the Haudegen vocalist, released through his own Plattenbau Ost. Strictly for the existing congregation; this site's readership is unlikely to be the target.",
     "tags": [
       "rock"
     ],
@@ -30572,7 +30638,7 @@
     "title": "Blue Veil",
     "label": "Ideologic Organ",
     "releaseDate": "2025-05-01",
-    "description": "",
+    "description": "Railton's cello and pipe organ work landing on Stephen O'Malley's Ideologic Organ, the obvious home for it. Modern classical drone that breathes slowly enough to register as ambient without ever quite settling there.",
     "tags": [
       "electronic"
     ],
@@ -30607,7 +30673,7 @@
     "title": "Where Things Are Hollow: No Tomorrow",
     "label": "Lapsus Records",
     "releaseDate": "2025-05-01",
-    "description": "",
+    "description": "Martin Jenkins back on Lapsus with a 12\" pulling the analogue-techno end of his catalogue closer to the acid and ambient edges he's always worked between. For anyone keeping shelf space next to Not Waving.",
     "tags": [
       "electronic"
     ],
@@ -30643,7 +30709,7 @@
     "title": "Rkustik III",
     "label": "Plattenbau Ost",
     "releaseDate": "2025-05-01",
-    "description": "",
+    "description": "Acoustic rock from the Haudegen co-founder, ten tracks on his own Plattenbau Ost imprint. Stripped to guitar and voice, aimed squarely at the audience that has followed the Berlin street-rock lineage from the start.",
     "tags": [
       "rock"
     ],
@@ -30672,7 +30738,7 @@
     "title": "Readyaa?",
     "label": "Good Morning Tapes",
     "releaseDate": "2025-04-28",
-    "description": "",
+    "description": "Dechery edits Tamil film fragments into a downtempo mixtape for Good Morning Tapes, the kind of slow, sun-warmed collage that label has made its register. A pointer toward Sun An or Carlos Niño if you need one.",
     "tags": [
       "electronic"
     ],
@@ -30701,7 +30767,7 @@
     "title": "Ita",
     "label": "Instant Classic",
     "releaseDate": "2025-04-25",
-    "description": "",
+    "description": "Four tracks of ambient and free-jazz crosswiring from Hinode Tapes with Hiroki Chiba, pressed in a limited run on Instant Classic. The Polish label continues to file improv and drift in the same drawer.",
     "tags": [
       "electronic"
     ],
@@ -30736,7 +30802,7 @@
     "title": "Ita",
     "label": "Instant Classic",
     "releaseDate": "2025-04-25",
-    "description": "",
+    "description": "Four tracks of ambient drift colliding with free jazz gesture, issued by Warsaw's Instant Classic in a limited LP run. Sits closer to the contemplative end of the label's catalogue than its noisier corners.",
     "tags": [
       "electronic"
     ],
@@ -30771,7 +30837,7 @@
     "title": "Gambling",
     "label": "INDEX:Records",
     "releaseDate": "2025-04-25",
-    "description": "",
+    "description": "Nine tracks for INDEX:Records that move between ambient drift, broken-beat pressure and the gauzier end of trance, sequenced as an album rather than a club tool. Limited LP; one for listeners following the Nina Kraviz adjacent rave-introspective lane.",
     "tags": [
       "electronic"
     ],
@@ -30806,7 +30872,7 @@
     "title": "Lorings",
     "label": "Brainfeeder Records",
     "releaseDate": "2025-04-25",
-    "description": "",
+    "description": "Seventeen tracks of Salami Rose Joe Louis's hand-built bedroom jazz-pop on Brainfeeder, where the sketches keep wandering off mid-thought before resolving somewhere stranger. For anyone who tracks the softer corners of the Flying Lotus orbit.",
     "tags": [
       "jazz"
     ],
@@ -37855,7 +37921,8 @@
       "soundcloud": "https://soundcloud.com/search?q=James%20Brown%20Hell",
       "youtube": "https://www.youtube.com/results?search_query=James%20Brown%20Hell",
       "deezer": "https://www.deezer.com/album/229920",
-      "apple": "https://music.apple.com/us/album/hell/1443909086?uo=4"
+      "apple": "https://music.apple.com/us/album/hell/1443909086?uo=4",
+      "tidal": "https://tidal.com/album/574282"
     },
     "embed": {
       "provider": "apple",
@@ -37889,7 +37956,8 @@
       "spotify": "https://open.spotify.com/search/Aretha%20Franklin%20This%20Girl's%20In%20Love%20With%20You",
       "soundcloud": "https://soundcloud.com/search?q=Aretha%20Franklin%20This%20Girl's%20In%20Love%20With%20You",
       "youtube": "https://www.youtube.com/results?search_query=Aretha%20Franklin%20This%20Girl's%20In%20Love%20With%20You",
-      "apple": "https://music.apple.com/us/album/this-girls-in-love-with-you/934618187?uo=4"
+      "apple": "https://music.apple.com/us/album/this-girls-in-love-with-you/934618187?uo=4",
+      "tidal": "https://tidal.com/album/1845225"
     },
     "embed": {
       "provider": "apple",
@@ -37924,7 +37992,8 @@
       "soundcloud": "https://soundcloud.com/search?q=Bill%20Withers%20Still%20Bill",
       "youtube": "https://www.youtube.com/results?search_query=Bill%20Withers%20Still%20Bill",
       "deezer": "https://www.deezer.com/album/10154728",
-      "apple": "https://music.apple.com/us/album/still-bill/989376986?uo=4"
+      "apple": "https://music.apple.com/us/album/still-bill/989376986?uo=4",
+      "tidal": "https://tidal.com/album/45105660"
     },
     "embed": {
       "provider": "apple",
@@ -37959,7 +38028,8 @@
       "soundcloud": "https://soundcloud.com/search?q=Magnum%20Fully%20Loaded",
       "youtube": "https://www.youtube.com/results?search_query=Magnum%20Fully%20Loaded",
       "deezer": "https://www.deezer.com/album/8999173",
-      "apple": "https://music.apple.com/us/album/fully-loaded/277923330?uo=4"
+      "apple": "https://music.apple.com/us/album/fully-loaded/277923330?uo=4",
+      "tidal": "https://tidal.com/album/37210144"
     },
     "embed": {
       "provider": "apple",
@@ -37993,7 +38063,8 @@
       "spotify": "https://open.spotify.com/search/Carrier%20(11)%20Fathom",
       "soundcloud": "https://soundcloud.com/search?q=Carrier%20(11)%20Fathom",
       "youtube": "https://www.youtube.com/results?search_query=Carrier%20(11)%20Fathom",
-      "apple": "https://music.apple.com/us/album/fathom-ep/1712819111?uo=4"
+      "apple": "https://music.apple.com/us/album/fathom-ep/1712819111?uo=4",
+      "tidal": "https://tidal.com/album/322957136"
     },
     "embed": {
       "provider": "apple",
@@ -38062,7 +38133,8 @@
       "spotify": "https://open.spotify.com/search/Arve%20Henriksen%20%26%20Robert%20J%C3%BCrjendal%20Haihara",
       "soundcloud": "https://soundcloud.com/search?q=Arve%20Henriksen%20%26%20Robert%20J%C3%BCrjendal%20Haihara",
       "youtube": "https://www.youtube.com/results?search_query=Arve%20Henriksen%20%26%20Robert%20J%C3%BCrjendal%20Haihara",
-      "apple": "https://music.apple.com/us/album/haihara/1848941501?uo=4"
+      "apple": "https://music.apple.com/us/album/haihara/1848941501?uo=4",
+      "tidal": "https://tidal.com/album/469636858"
     },
     "embed": {
       "provider": "apple",
@@ -38097,7 +38169,8 @@
       "soundcloud": "https://soundcloud.com/search?q=Ellen%20Williams%20(2)%20Lumina",
       "youtube": "https://www.youtube.com/results?search_query=Ellen%20Williams%20(2)%20Lumina",
       "deezer": "https://www.deezer.com/album/842513932",
-      "apple": "https://music.apple.com/us/album/lumina/1847907450?uo=4"
+      "apple": "https://music.apple.com/us/album/lumina/1847907450?uo=4",
+      "tidal": "https://tidal.com/album/468685457"
     },
     "embed": {
       "provider": "apple",
@@ -38389,7 +38462,8 @@
       "soundcloud": "https://soundcloud.com/search?q=Muadeep%20Echoes%20Of%20Fury",
       "youtube": "https://www.youtube.com/results?search_query=Muadeep%20Echoes%20Of%20Fury",
       "deezer": "https://www.deezer.com/album/679938481",
-      "apple": "https://music.apple.com/us/album/echoes-of-fury-ep/1783719523?uo=4"
+      "apple": "https://music.apple.com/us/album/echoes-of-fury-ep/1783719523?uo=4",
+      "tidal": "https://tidal.com/album/403875895"
     },
     "embed": {
       "provider": "apple",
