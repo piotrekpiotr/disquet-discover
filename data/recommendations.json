@@ -97,6 +97,33 @@
     "pressMentions": []
   },
   {
+    "id": "emma-ruth-rundle-these-killing-times",
+    "type": "album",
+    "artist": "Emma Ruth Rundle",
+    "title": "These Killing Times",
+    "label": "",
+    "releaseDate": "2026-09-18",
+    "description": "Rundle continues in the slow, hymnal mode that has defined her solo work since Marked for Death, where guitar drone and vocal carry equal weight. For listeners already settled into her catalogue rather than newcomers.",
+    "tags": [],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=Emma%20Ruth%20Rundle%20These%20Killing%20Times&item_type=a",
+      "spotify": "https://open.spotify.com/search/Emma%20Ruth%20Rundle%20These%20Killing%20Times",
+      "soundcloud": "https://soundcloud.com/search?q=Emma%20Ruth%20Rundle%20These%20Killing%20Times",
+      "youtube": "https://www.youtube.com/results?search_query=Emma%20Ruth%20Rundle%20These%20Killing%20Times"
+    },
+    "embed": null,
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": null,
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
     "id": "amelie-lens-aura",
     "type": "album",
     "artist": "Amelie Lens",
@@ -230,6 +257,33 @@
       "spotify": "https://open.spotify.com/search/Nia%20Archives%20Emotional%20Junglist%20%5BExplicit%5D",
       "soundcloud": "https://soundcloud.com/search?q=Nia%20Archives%20Emotional%20Junglist%20%5BExplicit%5D",
       "youtube": "https://www.youtube.com/results?search_query=Nia%20Archives%20Emotional%20Junglist%20%5BExplicit%5D"
+    },
+    "embed": null,
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": null,
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
+    "id": "sofie-birch-bivabippabualukka",
+    "type": "album",
+    "artist": "Sofie Birch",
+    "title": "Bivabippabualukka",
+    "label": "",
+    "releaseDate": "2026-07-21",
+    "description": "Birch in long form again, presumably more of the warm, slightly hazed Copenhagen ambient she has been quietly assembling across Posh Isolation and 15 Love. For anyone who keeps Holm nearby on the shelf.",
+    "tags": [],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=Sofie%20Birch%20Bivabippabualukka&item_type=a",
+      "spotify": "https://open.spotify.com/search/Sofie%20Birch%20Bivabippabualukka",
+      "soundcloud": "https://soundcloud.com/search?q=Sofie%20Birch%20Bivabippabualukka",
+      "youtube": "https://www.youtube.com/results?search_query=Sofie%20Birch%20Bivabippabualukka"
     },
     "embed": null,
     "musicVideoUrl": null,
@@ -522,6 +576,72 @@
     "status": "pending",
     "approvedAt": null,
     "coverImageUrl": null,
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
+    "id": "space-afrika-if-this-is-hell",
+    "type": "single",
+    "artist": "Space Afrika",
+    "title": "If This Is Hell",
+    "label": "",
+    "releaseDate": "2026-06-09",
+    "description": "Space Afrika in their familiar mode of smudged dub, half-caught voices and Manchester atmospherics rendered as something closer to a haze than a track. For anyone who has stayed with Honest Labour.",
+    "tags": [],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=Space%20Afrika%20If%20This%20Is%20Hell&item_type=a",
+      "spotify": "https://open.spotify.com/search/Space%20Afrika%20If%20This%20Is%20Hell",
+      "soundcloud": "https://soundcloud.com/search?q=Space%20Afrika%20If%20This%20Is%20Hell",
+      "youtube": "https://www.youtube.com/results?search_query=Space%20Afrika%20If%20This%20Is%20Hell",
+      "deezer": "https://www.deezer.com/album/983738661"
+    },
+    "embed": {
+      "provider": "deezer",
+      "src": "https://widget.deezer.com/widget/light/album/983738661",
+      "height": 300
+    },
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://cdn-images.dzcdn.net/images/cover/353c0bb07bb9c70ca207ff816c8a4d8a/1000x1000-000000-80-0-0.jpg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
+    "id": "tricky-still-see-me-there",
+    "type": "single",
+    "artist": "Tricky",
+    "title": "Still See Me There",
+    "label": "",
+    "releaseDate": "2026-06-09",
+    "description": "Tricky again, in the register he has held since Maxinquaye: smoke, low murmur, drums that sound like they were recorded in another room. Single only for now, label details still to surface.",
+    "tags": [],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=Tricky%20Still%20See%20Me%20There&item_type=a",
+      "spotify": "https://open.spotify.com/search/Tricky%20Still%20See%20Me%20There",
+      "soundcloud": "https://soundcloud.com/search?q=Tricky%20Still%20See%20Me%20There",
+      "youtube": "https://www.youtube.com/results?search_query=Tricky%20Still%20See%20Me%20There",
+      "deezer": "https://www.deezer.com/album/991428581",
+      "apple": "https://music.apple.com/us/album/still-see-me-there-single/6773523302?uo=4",
+      "tidal": "https://tidal.com/album/528059475"
+    },
+    "embed": {
+      "provider": "apple",
+      "src": "https://embed.music.apple.com/us/album/6773523302?theme=light",
+      "height": 450
+    },
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://cdn-images.dzcdn.net/images/cover/8f77a1a74533df01624b2b7e4eb56b7e/1000x1000-000000-80-0-0.jpg",
     "cover": {
       "bg": "#111110",
       "fg": "#f2efe8",
@@ -1015,9 +1135,14 @@
       "spotify": "https://open.spotify.com/search/Lyra%20Pramuk%2C%20Laurel%20Halo%20%26%20John%20Tejada%20Meridian%20(Laurel%20Halo%20X%20John%20Tejada%20Rework)",
       "soundcloud": "https://soundcloud.com/search?q=Lyra%20Pramuk%2C%20Laurel%20Halo%20%26%20John%20Tejada%20Meridian%20(Laurel%20Halo%20X%20John%20Tejada%20Rework)",
       "youtube": "https://www.youtube.com/results?search_query=Lyra%20Pramuk%2C%20Laurel%20Halo%20%26%20John%20Tejada%20Meridian%20(Laurel%20Halo%20X%20John%20Tejada%20Rework)",
-      "apple": "https://music.apple.com/us/album/meridian-laurel-halo-x-john-tejada-rework-single/1889571848"
+      "apple": "https://music.apple.com/us/album/meridian-laurel-halo-x-john-tejada-rework-single/1889571848",
+      "deezer": "https://www.deezer.com/album/951415261"
     },
-    "embed": null,
+    "embed": {
+      "provider": "apple",
+      "src": "https://embed.music.apple.com/us/album/1889571848?theme=light",
+      "height": 450
+    },
     "musicVideoUrl": null,
     "status": "pending",
     "approvedAt": null,
@@ -1090,6 +1215,67 @@
     "status": "pending",
     "approvedAt": null,
     "coverImageUrl": "https://i.discogs.com/u-V3GSIazSnHklPkZBoybhNLzvxTUMbr0tUZ62GvN1Y/rs:fit/g:sm/q:90/h:589/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM3NTU1/MTEwLTE3ODA3NjQ1/NzYtMzY4OC5qcGVn.jpeg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
+    "id": "klein-bonnie-amp-clyde",
+    "type": "album",
+    "artist": "Klein",
+    "title": "Bonnie &amp; Clyde",
+    "label": "",
+    "releaseDate": "2026-06-05",
+    "description": "Klein returns to long-form with Bonnie & Clyde, presumably more of her smudged, theatrical collage work where R&B fragments, classical gestures and dialogue all share the same warped tape. File alongside her South London peers if you need a shelving cue.",
+    "tags": [],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=Klein%20Bonnie%20%26amp%3B%20Clyde&item_type=a",
+      "spotify": "https://open.spotify.com/search/Klein%20Bonnie%20%26amp%3B%20Clyde",
+      "soundcloud": "https://soundcloud.com/search?q=Klein%20Bonnie%20%26amp%3B%20Clyde",
+      "youtube": "https://www.youtube.com/results?search_query=Klein%20Bonnie%20%26amp%3B%20Clyde"
+    },
+    "embed": null,
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": null,
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
+    "id": "bon-iver-for-emma-forever-ago",
+    "type": "album",
+    "artist": "Bon Iver",
+    "title": "For Emma, Forever Ago",
+    "label": "Jagjaguwar",
+    "releaseDate": "2026-06-05",
+    "description": "Jagjaguwar puts the Wisconsin cabin record back on the shelf, stereo LP, nine tracks, no editorial revisionism required. Still the template a generation of acoustic indie has been quietly working off.",
+    "tags": [
+      "rock"
+    ],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=Bon%20Iver%20For%20Emma%2C%20Forever%20Ago&item_type=a",
+      "spotify": "https://open.spotify.com/search/Bon%20Iver%20For%20Emma%2C%20Forever%20Ago",
+      "soundcloud": "https://soundcloud.com/search?q=Bon%20Iver%20For%20Emma%2C%20Forever%20Ago",
+      "youtube": "https://www.youtube.com/results?search_query=Bon%20Iver%20For%20Emma%2C%20Forever%20Ago",
+      "deezer": "https://www.deezer.com/album/7291105"
+    },
+    "embed": {
+      "provider": "deezer",
+      "src": "https://widget.deezer.com/widget/light/album/7291105",
+      "height": 300
+    },
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://i.discogs.com/u3aULvmERTLKd_HMzcbOAeLQOOFDHMsz2rzlxYQbZOc/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM3NTc0/ODQ0LTE3ODA5NTIw/NDEtNzI1Ny5qcGVn.jpeg",
     "cover": {
       "bg": "#111110",
       "fg": "#f2efe8",
@@ -1325,6 +1511,42 @@
     "pressMentions": []
   },
   {
+    "id": "tiga-ku-kan-selalu-disini",
+    "type": "album",
+    "artist": "Tiga",
+    "title": "Ku Kan Selalu Disini",
+    "label": "",
+    "releaseDate": "2026-06-03",
+    "description": "Tiga returns with a full-length whose title points somewhere warmer and more sentimental than the Turbo back catalogue might suggest. Label and tracklist still under wraps; worth watching if you have followed him from Sunglasses At Night through the harder electro years.",
+    "tags": [],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=Tiga%20Ku%20Kan%20Selalu%20Disini&item_type=a",
+      "spotify": "https://open.spotify.com/search/Tiga%20Ku%20Kan%20Selalu%20Disini",
+      "soundcloud": "https://soundcloud.com/search?q=Tiga%20Ku%20Kan%20Selalu%20Disini",
+      "youtube": "https://www.youtube.com/results?search_query=Tiga%20Ku%20Kan%20Selalu%20Disini",
+      "deezer": "https://www.deezer.com/album/997529971",
+      "apple": "https://music.apple.com/us/album/ku-kan-selalu-disini-single/6776263043?uo=4"
+    },
+    "embed": {
+      "provider": "apple",
+      "src": "https://embed.music.apple.com/us/album/6776263043?theme=light",
+      "height": 450
+    },
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": null,
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": [
+      "pitchfork_tracks",
+      "pitchfork_best_tracks"
+    ]
+  },
+  {
     "id": "hooper-8-carry-your-own-saints",
     "type": "ep",
     "artist": "Hooper (8)",
@@ -1497,6 +1719,33 @@
     "pressMentions": [
       "pitchfork_best_tracks"
     ]
+  },
+  {
+    "id": "clark-slingshot",
+    "type": "album",
+    "artist": "Clark",
+    "title": "SlingShot",
+    "label": "Tuna Recordings",
+    "releaseDate": "2026-06-01",
+    "description": "Clark pivots into drum and bass for a four track outing on his own Tuna Recordings, a long way from the Throttle Promoter days but still recognisably his hand on the faders. Worth a look for anyone tracking the Warp alumni's solo-label phase.",
+    "tags": [],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=Clark%20SlingShot&item_type=a",
+      "spotify": "https://open.spotify.com/search/Clark%20SlingShot",
+      "soundcloud": "https://soundcloud.com/search?q=Clark%20SlingShot",
+      "youtube": "https://www.youtube.com/results?search_query=Clark%20SlingShot"
+    },
+    "embed": null,
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": null,
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
   },
   {
     "id": "klein-ferra",
@@ -2067,6 +2316,41 @@
     "pressMentions": []
   },
   {
+    "id": "laurence-pike-possible-utopias-for-jazz-quintet",
+    "type": "album",
+    "artist": "Laurence Pike",
+    "title": "Possible Utopias For Jazz Quintet",
+    "label": "Balmat",
+    "releaseDate": "2026-05-29",
+    "description": "Pike continues his solo percussionist-as-composer project for Balmat, this time framing the writing through a jazz quintet lens while keeping the electroacoustic processing intact. Seven pieces that should sit comfortably next to anything Purelink has put on the label.",
+    "tags": [
+      "electronic"
+    ],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=Laurence%20Pike%20Possible%20Utopias%20For%20Jazz%20Quintet&item_type=a",
+      "spotify": "https://open.spotify.com/search/Laurence%20Pike%20Possible%20Utopias%20For%20Jazz%20Quintet",
+      "soundcloud": "https://soundcloud.com/search?q=Laurence%20Pike%20Possible%20Utopias%20For%20Jazz%20Quintet",
+      "youtube": "https://www.youtube.com/results?search_query=Laurence%20Pike%20Possible%20Utopias%20For%20Jazz%20Quintet",
+      "deezer": "https://www.deezer.com/album/941736301",
+      "apple": "https://music.apple.com/us/album/possible-utopias-for-jazz-quintet/1885865798?uo=4"
+    },
+    "embed": {
+      "provider": "apple",
+      "src": "https://embed.music.apple.com/us/album/1885865798?theme=light",
+      "height": 450
+    },
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://i.discogs.com/PJysYC6MZ8rblH76Z72HGj4H9YPs94pOlWVJgGOwRJY/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM3NTM1/MDg1LTE3ODA5Mjkz/MjEtNTIxOS5qcGVn.jpeg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
     "id": "eiii-emanations",
     "type": "album",
     "artist": "EIII",
@@ -2292,7 +2576,9 @@
       "fg": "#f2efe8",
       "motif": "disc"
     },
-    "pressMentions": []
+    "pressMentions": [
+      "stereogum"
+    ]
   },
   {
     "id": "madonna-who-s-that-girl-original-motion-picture-soundtrack",
@@ -2327,7 +2613,9 @@
       "fg": "#f2efe8",
       "motif": "disc"
     },
-    "pressMentions": []
+    "pressMentions": [
+      "stereogum"
+    ]
   },
   {
     "id": "lone-rx",
@@ -19397,6 +19685,40 @@
     ]
   },
   {
+    "id": "supernova-16-the-night-trip-ep",
+    "type": "ep",
+    "artist": "Supernova (16)",
+    "title": "The Night Trip EP",
+    "label": "Lapsus Music",
+    "releaseDate": "2025-12-19",
+    "description": "Two tracks of house from the Italian duo on Lapsus, sticking to the late-night, vocal-tinted register they have worked since the early 2000s. Functional rather than flashy.",
+    "tags": [
+      "electronic"
+    ],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=Supernova%20(16)%20The%20Night%20Trip%20EP&item_type=a",
+      "spotify": "https://open.spotify.com/search/Supernova%20(16)%20The%20Night%20Trip%20EP",
+      "soundcloud": "https://soundcloud.com/search?q=Supernova%20(16)%20The%20Night%20Trip%20EP",
+      "youtube": "https://www.youtube.com/results?search_query=Supernova%20(16)%20The%20Night%20Trip%20EP",
+      "deezer": "https://www.deezer.com/album/860568402"
+    },
+    "embed": {
+      "provider": "deezer",
+      "src": "https://widget.deezer.com/widget/light/album/860568402",
+      "height": 300
+    },
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://i.discogs.com/BibVhC9EzRoxwjqQlJJGV-HbzrdP8pVurEYrYCjWZJc/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM2MzIw/OTE0LTE3Njk0MTg5/NjgtNjMxOS5qcGVn.jpeg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
     "id": "fields-of-mist-beats-in-space-189-call-super-dj-mix",
     "type": "album",
     "artist": "Fields of Mist",
@@ -28018,7 +28340,9 @@
       "fg": "#f2efe8",
       "motif": "disc"
     },
-    "pressMentions": []
+    "pressMentions": [
+      "pitchfork_albums"
+    ]
   },
   {
     "id": "perila-omnis-festinatio-ex-parte-diaboli-est",
@@ -30907,7 +31231,7 @@
     "title": "The Rising Wave",
     "label": "AD 93",
     "releaseDate": "2025-04-25",
-    "description": "",
+    "description": "Eight tracks of ethereal electronic pop from Light-Space Modulator, landing on AD 93 where it slots in neatly beside the label's more song-shaped end. Closer to the Loraine James vocal axis than the club material.",
     "tags": [
       "electronic"
     ],
@@ -30942,7 +31266,7 @@
     "title": "E",
     "label": "Shelter Press",
     "releaseDate": "2025-04-25",
-    "description": "",
+    "description": "Eleven pieces of voice-and-piano writing from Eliana Glass on Shelter Press, sitting closer to song form than the label's usual ambient and composition catalog while keeping its quietness. For listeners who file Sibylle Baier near their free-improv shelf.",
     "tags": [
       "jazz"
     ],
@@ -30977,7 +31301,7 @@
     "title": "Broken Girl",
     "label": "Numero Group",
     "releaseDate": "2025-04-25",
-    "description": "",
+    "description": "Numero hauls the Eric's Trip alum's bedroom-folk solo work back into print across nineteen tracks, the kind of unvarnished four-track confessional their reissue arm tends to treat right. Sits comfortably next to early Mountain Goats on the shelf.",
     "tags": [
       "rock"
     ],
@@ -31011,7 +31335,7 @@
     "title": "Under Tangled Silence",
     "label": "Houndstooth",
     "releaseDate": "2025-04-25",
-    "description": "",
+    "description": "Eleven tracks of Djrum's restless, classically inflected club music on Houndstooth, sliding between broken beat, jungle, IDM and stretches of ambient piano. Sequenced like a set rather than a tracklist.",
     "tags": [
       "electronic"
     ],
@@ -31046,7 +31370,7 @@
     "title": "Red Rabbit Remix Rampage EP",
     "label": "3XL (2)",
     "releaseDate": "2025-04-25",
-    "description": "",
+    "description": "Four-track remix EP on 3XL, the Manchester outpost where ambient bleeds into downtempo abstraction without ever quite resolving. Sits comfortably next to the label's Ulla and Perila adjacents.",
     "tags": [
       "electronic"
     ],
@@ -39787,7 +40111,8 @@
       "soundcloud": "https://soundcloud.com/search?q=Sonic%20Youth%20Goodbye%2020th%20Century",
       "youtube": "https://www.youtube.com/results?search_query=Sonic%20Youth%20Goodbye%2020th%20Century",
       "deezer": "https://www.deezer.com/album/71777982",
-      "apple": "https://music.apple.com/us/album/goodbye-20th-century-syr-4-feat-william-winant-jim/1434455352?uo=4"
+      "apple": "https://music.apple.com/us/album/goodbye-20th-century-syr-4-feat-william-winant-jim/1434455352?uo=4",
+      "tidal": "https://tidal.com/album/94225633"
     },
     "embed": {
       "provider": "apple",
@@ -39823,7 +40148,8 @@
       "spotify": "https://open.spotify.com/search/Soshi%20Takeda%20Secret%20Communication",
       "soundcloud": "https://soundcloud.com/search?q=Soshi%20Takeda%20Secret%20Communication",
       "youtube": "https://www.youtube.com/results?search_query=Soshi%20Takeda%20Secret%20Communication",
-      "apple": "https://music.apple.com/us/album/secret-communication/1757602267?uo=4"
+      "apple": "https://music.apple.com/us/album/secret-communication/1757602267?uo=4",
+      "tidal": "https://tidal.com/album/375495889"
     },
     "embed": {
       "provider": "apple",
@@ -39857,7 +40183,8 @@
       "spotify": "https://open.spotify.com/search/Luke%20Wyland%20Kuma%20Cove",
       "soundcloud": "https://soundcloud.com/search?q=Luke%20Wyland%20Kuma%20Cove",
       "youtube": "https://www.youtube.com/results?search_query=Luke%20Wyland%20Kuma%20Cove",
-      "apple": "https://music.apple.com/us/album/kuma-cove/1764292904?uo=4"
+      "apple": "https://music.apple.com/us/album/kuma-cove/1764292904?uo=4",
+      "tidal": "https://tidal.com/album/382743905"
     },
     "embed": {
       "provider": "apple",
@@ -39890,7 +40217,8 @@
       "soundcloud": "https://soundcloud.com/search?q=GAISTER%20GAISTER",
       "youtube": "https://www.youtube.com/results?search_query=GAISTER%20GAISTER",
       "deezer": "https://www.deezer.com/album/629104871",
-      "apple": "https://music.apple.com/us/album/gaister-feat-coby-sey-akihide-monna-olivia-salvadori/1762691019?uo=4"
+      "apple": "https://music.apple.com/us/album/gaister-feat-coby-sey-akihide-monna-olivia-salvadori/1762691019?uo=4",
+      "tidal": "https://tidal.com/album/381086822"
     },
     "embed": {
       "provider": "apple",
@@ -39924,7 +40252,8 @@
       "spotify": "https://open.spotify.com/search/Atsushi%20Izumi%20Observable",
       "soundcloud": "https://soundcloud.com/search?q=Atsushi%20Izumi%20Observable",
       "youtube": "https://www.youtube.com/results?search_query=Atsushi%20Izumi%20Observable",
-      "apple": "https://music.apple.com/us/album/observable/1795928356?uo=4"
+      "apple": "https://music.apple.com/us/album/observable/1795928356?uo=4",
+      "tidal": "https://tidal.com/album/417519183"
     },
     "embed": {
       "provider": "apple",
@@ -39987,7 +40316,8 @@
       "spotify": "https://open.spotify.com/search/Nicolas%20Jaar%20Piedras%201",
       "soundcloud": "https://soundcloud.com/search?q=Nicolas%20Jaar%20Piedras%201",
       "youtube": "https://www.youtube.com/results?search_query=Nicolas%20Jaar%20Piedras%201",
-      "apple": "https://music.apple.com/us/album/piedras-1/1770305640?uo=4"
+      "apple": "https://music.apple.com/us/album/piedras-1/1770305640?uo=4",
+      "tidal": "https://tidal.com/album/389247856"
     },
     "embed": {
       "provider": "apple",
@@ -40021,7 +40351,8 @@
       "spotify": "https://open.spotify.com/search/Ike%20Zwanikken%20Greed%20Gave%20Me%20A%20Lily",
       "soundcloud": "https://soundcloud.com/search?q=Ike%20Zwanikken%20Greed%20Gave%20Me%20A%20Lily",
       "youtube": "https://www.youtube.com/results?search_query=Ike%20Zwanikken%20Greed%20Gave%20Me%20A%20Lily",
-      "apple": "https://music.apple.com/us/album/greed-gave-me-a-lily/1771582219?uo=4"
+      "apple": "https://music.apple.com/us/album/greed-gave-me-a-lily/1771582219?uo=4",
+      "tidal": "https://tidal.com/album/389982487"
     },
     "embed": {
       "provider": "apple",
@@ -40054,7 +40385,8 @@
       "soundcloud": "https://soundcloud.com/search?q=Moin%20You%20Never%20End",
       "youtube": "https://www.youtube.com/results?search_query=Moin%20You%20Never%20End",
       "deezer": "https://www.deezer.com/album/623392021",
-      "apple": "https://music.apple.com/us/album/you-never-end/1760529904?uo=4"
+      "apple": "https://music.apple.com/us/album/you-never-end/1760529904?uo=4",
+      "tidal": "https://tidal.com/album/378720434"
     },
     "embed": {
       "provider": "apple",
