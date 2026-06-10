@@ -584,6 +584,97 @@
     "pressMentions": []
   },
   {
+    "id": "2k88-lauren-duffus-rainy-miller-bianca-scout-salto",
+    "type": "single",
+    "artist": "2K88, Lauren Duffus, Rainy Miller & Bianca Scout",
+    "title": "Salto",
+    "label": "Fixed Abode & Unsound & Supernature",
+    "releaseDate": "2026-06-10",
+    "description": "A four-way collaboration landing across Fixed Abode, Unsound and Supernature, with Rainy Miller and Bianca Scout's gothic art-pop instincts pulling against whatever 2K88 and Lauren Duffus bring to the table. File next to the Astrid Sonne end of contemporary alt.",
+    "tags": [
+      "alternative"
+    ],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=2K88%2C%20Lauren%20Duffus%2C%20Rainy%20Miller%20%26%20Bianca%20Scout%20Salto&item_type=a",
+      "spotify": "https://open.spotify.com/search/2K88%2C%20Lauren%20Duffus%2C%20Rainy%20Miller%20%26%20Bianca%20Scout%20Salto",
+      "soundcloud": "https://soundcloud.com/search?q=2K88%2C%20Lauren%20Duffus%2C%20Rainy%20Miller%20%26%20Bianca%20Scout%20Salto",
+      "youtube": "https://www.youtube.com/results?search_query=2K88%2C%20Lauren%20Duffus%2C%20Rainy%20Miller%20%26%20Bianca%20Scout%20Salto",
+      "apple": "https://music.apple.com/us/album/salto-single/6766837041"
+    },
+    "embed": null,
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/9f/84/6b/9f846b00-55c3-9c80-de98-ab3c84894857/5060644138212.png/600x600bb.jpg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
+    "id": "baauer-calling-out-for-u-somebody",
+    "type": "album",
+    "artist": "Baauer",
+    "title": "Calling Out For U / Somebody",
+    "label": "",
+    "releaseDate": "2026-06-10",
+    "description": "Baauer in two-track mode, the Harlem Shake era long behind him and his recent work sitting closer to club-leaning pop production than viral trap. Worth a listen if you followed the PLANET'S MAD turn.",
+    "tags": [],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=Baauer%20Calling%20Out%20For%20U%20%2F%20Somebody&item_type=a",
+      "spotify": "https://open.spotify.com/search/Baauer%20Calling%20Out%20For%20U%20%2F%20Somebody",
+      "soundcloud": "https://soundcloud.com/search?q=Baauer%20Calling%20Out%20For%20U%20%2F%20Somebody",
+      "youtube": "https://www.youtube.com/results?search_query=Baauer%20Calling%20Out%20For%20U%20%2F%20Somebody",
+      "deezer": "https://www.deezer.com/album/990256021",
+      "tidal": "https://tidal.com/album/527649250"
+    },
+    "embed": {
+      "provider": "deezer",
+      "src": "https://widget.deezer.com/widget/light/album/990256021",
+      "height": 300
+    },
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://cdn-images.dzcdn.net/images/cover/d70584f385edf6f14562dbad98779db9/1000x1000-000000-80-0-0.jpg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
+    "id": "rainy-miller-salto",
+    "type": "single",
+    "artist": "Rainy Miller",
+    "title": "Salto",
+    "label": "",
+    "releaseDate": "2026-06-10",
+    "description": "Rainy Miller in single form, continuing the bruised, choral-leaning take on Northern post-club music he has been developing across the Fixed Abode orbit. Sentimental without softening.",
+    "tags": [],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=Rainy%20Miller%20Salto&item_type=a",
+      "spotify": "https://open.spotify.com/search/Rainy%20Miller%20Salto",
+      "soundcloud": "https://soundcloud.com/search?q=Rainy%20Miller%20Salto",
+      "youtube": "https://www.youtube.com/results?search_query=Rainy%20Miller%20Salto",
+      "deezer": "https://www.deezer.com/album/973755451"
+    },
+    "embed": null,
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://cdn-images.dzcdn.net/images/cover/241f05e82a2c2986dcfaca6eaaa8e53e/1000x1000-000000-80-0-0.jpg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
     "id": "space-afrika-if-this-is-hell",
     "type": "single",
     "artist": "Space Afrika",
@@ -642,6 +733,75 @@
     "status": "pending",
     "approvedAt": null,
     "coverImageUrl": "https://cdn-images.dzcdn.net/images/cover/8f77a1a74533df01624b2b7e4eb56b7e/1000x1000-000000-80-0-0.jpg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
+    "id": "superfan-picture-of-return",
+    "type": "album",
+    "artist": "Superfan",
+    "title": "Picture of Return",
+    "label": "AD 93",
+    "releaseDate": "2026-06-09",
+    "description": "Superfan lands on AD 93, a label that tends to draw out the more pensive, club-skirting side of whoever turns up on it. File alongside the rest of the imprint's catalogue and wait for the room to settle.",
+    "tags": [],
+    "links": {
+      "bandcamp": "https://bandcamp.com/album/1041476822",
+      "spotify": "https://open.spotify.com/search/Superfan%20Picture%20of%20Return",
+      "soundcloud": "https://soundcloud.com/search?q=Superfan%20Picture%20of%20Return",
+      "youtube": "https://www.youtube.com/results?search_query=Superfan%20Picture%20of%20Return",
+      "deezer": "https://www.deezer.com/album/986536711",
+      "apple": "https://music.apple.com/us/album/picture-of-return-single/6775580387?uo=4"
+    },
+    "embed": {
+      "provider": "apple",
+      "src": "https://embed.music.apple.com/us/album/6775580387?theme=light",
+      "height": 450
+    },
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://f4.bcbits.com/img/a3343023691_10.jpg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
+    "id": "ginte-preisaite-instruments-of-forgetting-and-the-singing-bone",
+    "type": "album",
+    "artist": "Gintė Preisaitė",
+    "title": "Instruments of Forgetting and the Singing Bone",
+    "label": "FELT (3)",
+    "releaseDate": "2026-06-08",
+    "description": "Eight tracks from Preisaitė for FELT, sitting where Baltic folk inflection meets ambient and a frayed indie-rock edge. Plays like songform slowly being misremembered into instrumental drift.",
+    "tags": [
+      "electronic"
+    ],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=Gint%C4%97%20Preisait%C4%97%20Instruments%20of%20Forgetting%20and%20the%20Singing%20Bone&item_type=a",
+      "spotify": "https://open.spotify.com/search/Gint%C4%97%20Preisait%C4%97%20Instruments%20of%20Forgetting%20and%20the%20Singing%20Bone",
+      "soundcloud": "https://soundcloud.com/search?q=Gint%C4%97%20Preisait%C4%97%20Instruments%20of%20Forgetting%20and%20the%20Singing%20Bone",
+      "youtube": "https://www.youtube.com/results?search_query=Gint%C4%97%20Preisait%C4%97%20Instruments%20of%20Forgetting%20and%20the%20Singing%20Bone",
+      "deezer": "https://www.deezer.com/album/980622061",
+      "apple": "https://music.apple.com/us/album/instruments-of-forgetting-and-the-singing-bone/6768532259?uo=4",
+      "tidal": "https://tidal.com/album/523628112"
+    },
+    "embed": {
+      "provider": "apple",
+      "src": "https://embed.music.apple.com/us/album/6768532259?theme=light",
+      "height": 450
+    },
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://i.discogs.com/r_DDMmeWJJ4g6dAURgV7b8lWpje6sJpiRD1owbytbtI/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM3NTgy/NjMyLTE3ODEwMjI4/NjItMzk4Mi5qcGVn.jpeg",
     "cover": {
       "bg": "#111110",
       "fg": "#f2efe8",
@@ -1276,6 +1436,41 @@
     "status": "pending",
     "approvedAt": null,
     "coverImageUrl": "https://i.discogs.com/u3aULvmERTLKd_HMzcbOAeLQOOFDHMsz2rzlxYQbZOc/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM3NTc0/ODQ0LTE3ODA5NTIw/NDEtNzI1Ny5qcGVn.jpeg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
+    "id": "nsync-no-strings-attached",
+    "type": "album",
+    "artist": "*NSYNC",
+    "title": "No Strings Attached",
+    "label": "RCA",
+    "releaseDate": "2026-06-05",
+    "description": "RCA wheels the millennial teen-pop monolith back out as a 12-track picture disc, Europop sheen and ballads intact. Less a reappraisal than a vinyl-shelf artifact for anyone whose 2000 is finally far enough away to revisit.",
+    "tags": [
+      "electronic"
+    ],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=*NSYNC%20No%20Strings%20Attached&item_type=a",
+      "spotify": "https://open.spotify.com/search/*NSYNC%20No%20Strings%20Attached",
+      "soundcloud": "https://soundcloud.com/search?q=*NSYNC%20No%20Strings%20Attached",
+      "youtube": "https://www.youtube.com/results?search_query=*NSYNC%20No%20Strings%20Attached",
+      "deezer": "https://www.deezer.com/album/6988309",
+      "apple": "https://music.apple.com/us/album/no-strings-attached/303171298?uo=4"
+    },
+    "embed": {
+      "provider": "apple",
+      "src": "https://embed.music.apple.com/us/album/303171298?theme=light",
+      "height": 450
+    },
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://i.discogs.com/d2f4Zb4QxkajukBxou38okCg7nn5lp3FKREPKoK_SPg/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM3NTg2/NTg5LTE3ODEwNTk5/MjItMjAwMS5qcGVn.jpeg",
     "cover": {
       "bg": "#111110",
       "fg": "#f2efe8",
@@ -17992,7 +18187,8 @@
       "soundcloud": "https://soundcloud.com/search?q=Monolake%20Hongkong",
       "youtube": "https://www.youtube.com/results?search_query=Monolake%20Hongkong",
       "deezer": "https://www.deezer.com/album/6595869",
-      "apple": "https://music.apple.com/us/album/hongkong-remastered/282384763?uo=4"
+      "apple": "https://music.apple.com/us/album/hongkong-remastered/282384763?uo=4",
+      "tidal": "https://tidal.com/album/25824858"
     },
     "embed": {
       "provider": "apple",
@@ -18025,7 +18221,8 @@
       "spotify": "https://open.spotify.com/search/Youth%20Avoiders%20Defiance",
       "soundcloud": "https://soundcloud.com/search?q=Youth%20Avoiders%20Defiance",
       "youtube": "https://www.youtube.com/results?search_query=Youth%20Avoiders%20Defiance",
-      "apple": "https://music.apple.com/us/album/defiance/1862463868?uo=4"
+      "apple": "https://music.apple.com/us/album/defiance/1862463868?uo=4",
+      "tidal": "https://tidal.com/album/482974410"
     },
     "embed": {
       "provider": "apple",
@@ -18086,7 +18283,8 @@
       "spotify": "https://open.spotify.com/search/Susumu%20Yokota%20The%20Boy%20And%20The%20Tree",
       "soundcloud": "https://soundcloud.com/search?q=Susumu%20Yokota%20The%20Boy%20And%20The%20Tree",
       "youtube": "https://www.youtube.com/results?search_query=Susumu%20Yokota%20The%20Boy%20And%20The%20Tree",
-      "apple": "https://music.apple.com/us/album/the-boy-and-the-tree-2025-remastered/1869031119?uo=4"
+      "apple": "https://music.apple.com/us/album/the-boy-and-the-tree-2025-remastered/1869031119?uo=4",
+      "tidal": "https://tidal.com/album/223331594"
     },
     "embed": {
       "provider": "apple",
@@ -18119,7 +18317,8 @@
       "spotify": "https://open.spotify.com/search/Autechre%20Confield",
       "soundcloud": "https://soundcloud.com/search?q=Autechre%20Confield",
       "youtube": "https://www.youtube.com/results?search_query=Autechre%20Confield",
-      "apple": "https://music.apple.com/us/album/confield/282571770?uo=4"
+      "apple": "https://music.apple.com/us/album/confield/282571770?uo=4",
+      "tidal": "https://tidal.com/album/16025517"
     },
     "embed": {
       "provider": "apple",
@@ -18152,7 +18351,8 @@
       "spotify": "https://open.spotify.com/search/Burial%20Kindred",
       "soundcloud": "https://soundcloud.com/search?q=Burial%20Kindred",
       "youtube": "https://www.youtube.com/results?search_query=Burial%20Kindred",
-      "apple": "https://music.apple.com/us/album/kindred-ep/892543151?uo=4"
+      "apple": "https://music.apple.com/us/album/kindred-ep/892543151?uo=4",
+      "tidal": "https://tidal.com/album/111935170"
     },
     "embed": {
       "provider": "apple",
@@ -18186,7 +18386,8 @@
       "soundcloud": "https://soundcloud.com/search?q=Trauma%20Ray%20Carnival",
       "youtube": "https://www.youtube.com/results?search_query=Trauma%20Ray%20Carnival",
       "deezer": "https://www.deezer.com/album/845481262",
-      "apple": "https://music.apple.com/us/album/carnival-ep/1849010586?uo=4"
+      "apple": "https://music.apple.com/us/album/carnival-ep/1849010586?uo=4",
+      "tidal": "https://tidal.com/album/469692849"
     },
     "embed": {
       "provider": "apple",
@@ -18251,7 +18452,8 @@
       "spotify": "https://open.spotify.com/search/Street%20Dogs%20Street%20Dogs",
       "soundcloud": "https://soundcloud.com/search?q=Street%20Dogs%20Street%20Dogs",
       "youtube": "https://www.youtube.com/results?search_query=Street%20Dogs%20Street%20Dogs",
-      "deezer": "https://www.deezer.com/album/43858291"
+      "deezer": "https://www.deezer.com/album/43858291",
+      "tidal": "https://tidal.com/album/121131453"
     },
     "embed": {
       "provider": "deezer",
@@ -18284,7 +18486,8 @@
       "spotify": "https://open.spotify.com/search/Dagmar%20Zuniga%20in%20filth%20your%20mystery%20is%20kingdom%20%2F%20far%20smile%20peasant%20in%20yellow%20music",
       "soundcloud": "https://soundcloud.com/search?q=Dagmar%20Zuniga%20in%20filth%20your%20mystery%20is%20kingdom%20%2F%20far%20smile%20peasant%20in%20yellow%20music",
       "youtube": "https://www.youtube.com/results?search_query=Dagmar%20Zuniga%20in%20filth%20your%20mystery%20is%20kingdom%20%2F%20far%20smile%20peasant%20in%20yellow%20music",
-      "apple": "https://music.apple.com/us/album/in-filth-your-mystery-is-kingdom-far-smile-peasant/1879872567?uo=4"
+      "apple": "https://music.apple.com/us/album/in-filth-your-mystery-is-kingdom-far-smile-peasant/1879872567?uo=4",
+      "tidal": "https://tidal.com/album/501997148"
     },
     "embed": {
       "provider": "apple",
@@ -18318,7 +18521,8 @@
       "soundcloud": "https://soundcloud.com/search?q=Soul%20Blind%20Feel%20It%20All%20Around",
       "youtube": "https://www.youtube.com/results?search_query=Soul%20Blind%20Feel%20It%20All%20Around",
       "deezer": "https://www.deezer.com/album/329356037",
-      "apple": "https://music.apple.com/us/album/feel-it-all-around/1631021988?uo=4"
+      "apple": "https://music.apple.com/us/album/feel-it-all-around/1631021988?uo=4",
+      "tidal": "https://tidal.com/album/234700652"
     },
     "embed": {
       "provider": "apple",
@@ -18468,7 +18672,8 @@
       "spotify": "https://open.spotify.com/search/Macha%20(3)%20%26%20Bedhead%20Macha%20Loved%20Bedhead%20%E2%80%A2%20Bedhead%20Loved%20Macha",
       "soundcloud": "https://soundcloud.com/search?q=Macha%20(3)%20%26%20Bedhead%20Macha%20Loved%20Bedhead%20%E2%80%A2%20Bedhead%20Loved%20Macha",
       "youtube": "https://www.youtube.com/results?search_query=Macha%20(3)%20%26%20Bedhead%20Macha%20Loved%20Bedhead%20%E2%80%A2%20Bedhead%20Loved%20Macha",
-      "apple": "https://music.apple.com/us/album/macha-loved-bedhead-bedhead-loved-macha/1857944365?uo=4"
+      "apple": "https://music.apple.com/us/album/macha-loved-bedhead-bedhead-loved-macha/1857944365?uo=4",
+      "tidal": "https://tidal.com/album/478331085"
     },
     "embed": {
       "provider": "apple",
@@ -18501,7 +18706,8 @@
       "spotify": "https://open.spotify.com/search/Patricia%20Wolf%20See-Through",
       "soundcloud": "https://soundcloud.com/search?q=Patricia%20Wolf%20See-Through",
       "youtube": "https://www.youtube.com/results?search_query=Patricia%20Wolf%20See-Through",
-      "apple": "https://music.apple.com/us/album/see-through/1612261853?uo=4"
+      "apple": "https://music.apple.com/us/album/see-through/1612261853?uo=4",
+      "tidal": "https://tidal.com/album/218899751"
     },
     "embed": {
       "provider": "apple",
@@ -18535,7 +18741,8 @@
       "soundcloud": "https://soundcloud.com/search?q=Black%20Heat%20No%20Time%20To%20Burn",
       "youtube": "https://www.youtube.com/results?search_query=Black%20Heat%20No%20Time%20To%20Burn",
       "deezer": "https://www.deezer.com/album/344894",
-      "apple": "https://music.apple.com/us/album/no-time-to-burn/276974821?uo=4"
+      "apple": "https://music.apple.com/us/album/no-time-to-burn/276974821?uo=4",
+      "tidal": "https://tidal.com/album/10919308"
     },
     "embed": {
       "provider": "apple",
@@ -18568,7 +18775,8 @@
       "spotify": "https://open.spotify.com/search/Aloisius%20(2)%20vernacular",
       "soundcloud": "https://soundcloud.com/search?q=Aloisius%20(2)%20vernacular",
       "youtube": "https://www.youtube.com/results?search_query=Aloisius%20(2)%20vernacular",
-      "apple": "https://music.apple.com/us/album/vernacular/1877677848?uo=4"
+      "apple": "https://music.apple.com/us/album/vernacular/1877677848?uo=4",
+      "tidal": "https://tidal.com/album/499436958"
     },
     "embed": {
       "provider": "apple",
@@ -18601,7 +18809,8 @@
       "spotify": "https://open.spotify.com/search/Gazzara%20The%20World%20Of%20Gazzara",
       "soundcloud": "https://soundcloud.com/search?q=Gazzara%20The%20World%20Of%20Gazzara",
       "youtube": "https://www.youtube.com/results?search_query=Gazzara%20The%20World%20Of%20Gazzara",
-      "apple": "https://music.apple.com/us/album/the-world-of-gazzara/1886081173?uo=4"
+      "apple": "https://music.apple.com/us/album/the-world-of-gazzara/1886081173?uo=4",
+      "tidal": "https://tidal.com/album/508063935"
     },
     "embed": {
       "provider": "apple",
@@ -18726,7 +18935,8 @@
       "soundcloud": "https://soundcloud.com/search?q=Jo%20Passed%20Away",
       "youtube": "https://www.youtube.com/results?search_query=Jo%20Passed%20Away",
       "deezer": "https://www.deezer.com/album/966174001",
-      "apple": "https://music.apple.com/us/album/away/1869351584?uo=4"
+      "apple": "https://music.apple.com/us/album/away/1869351584?uo=4",
+      "tidal": "https://tidal.com/album/517632743"
     },
     "embed": {
       "provider": "apple",
@@ -18790,7 +19000,8 @@
       "soundcloud": "https://soundcloud.com/search?q=Youth%20Of%20Today%20Break%20Down%20The%20Walls",
       "youtube": "https://www.youtube.com/results?search_query=Youth%20Of%20Today%20Break%20Down%20The%20Walls",
       "deezer": "https://www.deezer.com/album/1154778",
-      "apple": "https://music.apple.com/us/album/start-whenever-were-not-in-this-to-break-down-the-walls-alone/292566847?uo=4"
+      "apple": "https://music.apple.com/us/album/start-whenever-were-not-in-this-to-break-down-the-walls-alone/292566847?uo=4",
+      "tidal": "https://tidal.com/album/9641043"
     },
     "embed": {
       "provider": "apple",
@@ -18825,7 +19036,8 @@
       "soundcloud": "https://soundcloud.com/search?q=Bonobo%20The%20North%20Borders",
       "youtube": "https://www.youtube.com/results?search_query=Bonobo%20The%20North%20Borders",
       "deezer": "https://www.deezer.com/album/6367728",
-      "apple": "https://music.apple.com/us/album/the-north-borders-tour-live/911410971?uo=4"
+      "apple": "https://music.apple.com/us/album/the-north-borders-tour-live/911410971?uo=4",
+      "tidal": "https://tidal.com/album/33655159"
     },
     "embed": {
       "provider": "apple",
@@ -24076,6 +24288,38 @@
     "pressMentions": []
   },
   {
+    "id": "superfan-apeiron-fantasy-football",
+    "type": "single",
+    "artist": "Superfan",
+    "title": "Apeiron (Fantasy Football)",
+    "label": "AD 93",
+    "releaseDate": "2025-10-07",
+    "description": "Superfan turns up on AD 93, a label whose roster has long sat comfortably between club abstraction and pop daydream. Expect that same uneasy middle ground here, weightless on the surface, structurally odd underneath.",
+    "tags": [],
+    "links": {
+      "bandcamp": "https://bandcamp.com/track/3685344674",
+      "spotify": "https://open.spotify.com/search/Superfan%20Apeiron%20(Fantasy%20Football)",
+      "soundcloud": "https://soundcloud.com/search?q=Superfan%20Apeiron%20(Fantasy%20Football)",
+      "youtube": "https://www.youtube.com/results?search_query=Superfan%20Apeiron%20(Fantasy%20Football)",
+      "deezer": "https://www.deezer.com/album/816878521"
+    },
+    "embed": {
+      "provider": "deezer",
+      "src": "https://widget.deezer.com/widget/light/album/816878521",
+      "height": 300
+    },
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://f4.bcbits.com/img/a2911232489_10.jpg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
     "id": "merzbow-iggor-cavalera-eraldo-bernocchi-nocturnal-rainforest",
     "type": "single",
     "artist": "Merzbow, Iggor Cavalera*, Eraldo Bernocchi",
@@ -27130,6 +27374,38 @@
     "status": "pending",
     "approvedAt": null,
     "coverImageUrl": "https://i.discogs.com/Yh_x2iGuaKH3duRdq5LOpnQ8JluxU2cW3MUqJ9XoF8Y/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM0NjUw/OTczLTE3NTQ5Mzk2/ODUtNTMyOC5qcGVn.jpeg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
+    "id": "superfan-miss-w-jones",
+    "type": "single",
+    "artist": "Superfan",
+    "title": "Miss W Jones",
+    "label": "AD 93",
+    "releaseDate": "2025-07-25",
+    "description": "Superfan turns up on AD 93 with Miss W Jones, the kind of single that fits the label's ongoing interest in club music written sideways. File alongside the more song-shaped end of the roster.",
+    "tags": [],
+    "links": {
+      "bandcamp": "https://bandcamp.com/track/1950194448",
+      "spotify": "https://open.spotify.com/search/Superfan%20Miss%20W%20Jones",
+      "soundcloud": "https://soundcloud.com/search?q=Superfan%20Miss%20W%20Jones",
+      "youtube": "https://www.youtube.com/results?search_query=Superfan%20Miss%20W%20Jones",
+      "deezer": "https://www.deezer.com/album/997450491"
+    },
+    "embed": {
+      "provider": "deezer",
+      "src": "https://widget.deezer.com/widget/light/album/997450491",
+      "height": 300
+    },
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://f4.bcbits.com/img/a151887395_10.jpg",
     "cover": {
       "bg": "#111110",
       "fg": "#f2efe8",
@@ -31399,7 +31675,7 @@
     "title": "Rhinestones",
     "label": "Ghostly International",
     "releaseDate": "2025-04-25",
-    "description": "",
+    "description": "Ghostly reissues HTRK's acoustic detour, nine downtempo sketches where the duo's usual narcotic haze gets transposed onto fingerpicked guitar and close-mic'd vocal. Quieter and more rural than the Work (Work, Work) crowd might expect, but the mood holds.",
     "tags": [
       "rock"
     ],
@@ -31434,7 +31710,7 @@
     "title": "Demilitarize",
     "label": "Hyperdub",
     "releaseDate": "2025-04-25",
-    "description": "",
+    "description": "Nazar continues his rough kuduro project on Hyperdub, the Angolan style bent toward militarized texture and dream pop softness in equal measure. Sits alongside the more confrontational corners of the label's roster, closer to a war document than a club tool.",
     "tags": [
       "electronic"
     ],
@@ -31469,7 +31745,7 @@
     "title": "Destiny of Illusion",
     "label": "life is beautiful records",
     "releaseDate": "2025-04-24",
-    "description": "",
+    "description": "Twenty-four tracks of lo-fi collage from Pretty V, sliding between hip hop, rock detritus and sound art without committing to any of them. Life Is Beautiful pressing it to LP for those who treat tracklists as suggestions.",
     "tags": [
       "hip hop"
     ],
@@ -31498,7 +31774,7 @@
     "title": "Stressmanagement",
     "label": "Ilian Tape",
     "releaseDate": "2025-04-24",
-    "description": "",
+    "description": "Four tracks from the Munich producer back on Ilian Tape, the family operation that has hosted nearly all of his output. Expect the usual blur of broken techno, breakbeat residue and ambient drift; shelve near anything Zenker Brothers adjacent.",
     "tags": [
       "electronic"
     ],
@@ -31533,7 +31809,7 @@
     "title": "Thingness Vol. 1",
     "label": "life is beautiful records",
     "releaseDate": "2025-04-23",
-    "description": "",
+    "description": "Ten tracks of ambient, spoken word and sound art on life is beautiful records, leaning further into texture than narrative despite the project name. Limited pressing for those who shelve Chris Watson next to Eluvium.",
     "tags": [
       "electronic"
     ],
@@ -31568,7 +31844,7 @@
     "title": "Demostration I",
     "label": "Not On Label (Kataeb Youth Self-released)",
     "releaseDate": "2025-04-20",
-    "description": "",
+    "description": "Self-released digital EP that files itself under black metal, experimental, and Oi all at once, an unusual triangulation on paper that mostly just signals: handle with curiosity. Five tracks, no label cover, take it as found.",
     "tags": [
       "rock"
     ],
@@ -31597,7 +31873,7 @@
     "title": "Shards",
     "label": "Numbers.",
     "releaseDate": "2025-04-18",
-    "description": "",
+    "description": "Four tracks of spoken word laid over experimental alt-pop production, an unusual fit for Numbers. but not an unwelcome one. Sits closer to the label's leftfield outings than its dancefloor catalogue.",
     "tags": [
       "electronic"
     ],
