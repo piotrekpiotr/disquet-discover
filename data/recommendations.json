@@ -584,6 +584,38 @@
     "pressMentions": []
   },
   {
+    "id": "the-chemical-brothers-go-live-from-glastonbury",
+    "type": "single",
+    "artist": "The Chemical Brothers",
+    "title": "Go (Live from Glastonbury)",
+    "label": "",
+    "releaseDate": "2026-06-11",
+    "description": "A Glastonbury recording of one of the duo's most reliable festival weapons, dropped as a standalone single. The Chemical Brothers have spent thirty years calibrating exactly this kind of room, and Go remains the cleanest test case.",
+    "tags": [],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=The%20Chemical%20Brothers%20Go%20(Live%20from%20Glastonbury)&item_type=a",
+      "spotify": "https://open.spotify.com/search/The%20Chemical%20Brothers%20Go%20(Live%20from%20Glastonbury)",
+      "soundcloud": "https://soundcloud.com/search?q=The%20Chemical%20Brothers%20Go%20(Live%20from%20Glastonbury)",
+      "youtube": "https://www.youtube.com/results?search_query=The%20Chemical%20Brothers%20Go%20(Live%20from%20Glastonbury)",
+      "deezer": "https://www.deezer.com/album/997198411"
+    },
+    "embed": {
+      "provider": "deezer",
+      "src": "https://widget.deezer.com/widget/light/album/997198411",
+      "height": 300
+    },
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://cdn-images.dzcdn.net/images/cover/88b55550e6a60e942839fc556b7e5797/1000x1000-000000-80-0-0.jpg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
     "id": "2k88-lauren-duffus-rainy-miller-bianca-scout-salto",
     "type": "single",
     "artist": "2K88, Lauren Duffus, Rainy Miller & Bianca Scout",
@@ -667,6 +699,66 @@
     "status": "pending",
     "approvedAt": null,
     "coverImageUrl": "https://cdn-images.dzcdn.net/images/cover/241f05e82a2c2986dcfaca6eaaa8e53e/1000x1000-000000-80-0-0.jpg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
+    "id": "overmono-even-angels-ghost",
+    "type": "single",
+    "artist": "Overmono",
+    "title": "Even Angels Ghost",
+    "label": "",
+    "releaseDate": "2026-06-10",
+    "description": "Another Overmono single, the Russell brothers still working that seam between rave memory and pop-shaped vocal hooks they have made their own. Not much else to say until it's in the room.",
+    "tags": [],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=Overmono%20Even%20Angels%20Ghost&item_type=a",
+      "spotify": "https://open.spotify.com/search/Overmono%20Even%20Angels%20Ghost",
+      "soundcloud": "https://soundcloud.com/search?q=Overmono%20Even%20Angels%20Ghost",
+      "youtube": "https://www.youtube.com/results?search_query=Overmono%20Even%20Angels%20Ghost",
+      "deezer": "https://www.deezer.com/album/986231041"
+    },
+    "embed": {
+      "provider": "deezer",
+      "src": "https://widget.deezer.com/widget/light/album/986231041",
+      "height": 300
+    },
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://cdn-images.dzcdn.net/images/cover/bf2b9c0a24371135e955c9642af54817/1000x1000-000000-80-0-0.jpg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
+    "id": "eartheater-crown-jewel",
+    "type": "single",
+    "artist": "Eartheater",
+    "title": "Crown Jewel",
+    "label": "Chemical X (2)",
+    "releaseDate": "2026-06-10",
+    "description": "Eartheater on her own Chemical X, leaning further into the art-pop register she has been mapping since Phoenix. Downtempo enough to sit next to Arca's softer ballads without flinching.",
+    "tags": [],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=Eartheater%20Crown%20Jewel&item_type=a",
+      "spotify": "https://open.spotify.com/search/Eartheater%20Crown%20Jewel",
+      "soundcloud": "https://soundcloud.com/search?q=Eartheater%20Crown%20Jewel",
+      "youtube": "https://www.youtube.com/results?search_query=Eartheater%20Crown%20Jewel",
+      "deezer": "https://www.deezer.com/album/989294041"
+    },
+    "embed": null,
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://cdn-images.dzcdn.net/images/cover/5e8f217956b7977ca19975fe82a4fe58/1000x1000-000000-80-0-0.jpg",
     "cover": {
       "bg": "#111110",
       "fg": "#f2efe8",
@@ -2640,6 +2732,41 @@
     "pressMentions": [
       "pitchfork_albums"
     ]
+  },
+  {
+    "id": "gast-8-pond",
+    "type": "album",
+    "artist": "Gast (8)",
+    "title": "Pond",
+    "label": "Ilian Tape",
+    "releaseDate": "2026-05-28",
+    "description": "Nine tracks of ambient bass abstraction for Ilian Tape, sitting closer to the label's headphone fringe than its club output. For listeners following the Zenker brothers' more interior detours.",
+    "tags": [
+      "electronic"
+    ],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=Gast%20(8)%20Pond&item_type=a",
+      "spotify": "https://open.spotify.com/search/Gast%20(8)%20Pond",
+      "soundcloud": "https://soundcloud.com/search?q=Gast%20(8)%20Pond",
+      "youtube": "https://www.youtube.com/results?search_query=Gast%20(8)%20Pond",
+      "deezer": "https://www.deezer.com/album/988929271",
+      "apple": "https://music.apple.com/us/album/pond/6772517870?uo=4"
+    },
+    "embed": {
+      "provider": "apple",
+      "src": "https://embed.music.apple.com/us/album/6772517870?theme=light",
+      "height": 450
+    },
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://i.discogs.com/jE6WEzHv0zlhSe2XCHQPBKkq2z8KGbP29yGWpA6zGn0/rs:fit/g:sm/q:90/h:349/w:349/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM3NTk1/MTM2LTE3ODExNDYw/MzAtMjYyMC5wbmc.jpeg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
   },
   {
     "id": "h-lls-mahalia-fcuk",
@@ -5986,6 +6113,41 @@
     "status": "pending",
     "approvedAt": null,
     "coverImageUrl": "https://i.discogs.com/1n86vny9cw9ao6RK2w5YxGZZ65kLXu5yJwCl0e_0fBA/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM3NDA5/ODA4LTE3Nzk0Mzgz/NzUtNjE1MS5qcGVn.jpeg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
+    "id": "diskoria-intonesia",
+    "type": "album",
+    "artist": "Diskoria",
+    "title": "Intonesia",
+    "label": "Orange Cliff Records",
+    "releaseDate": "2026-05-08",
+    "description": "Jakarta duo Diskoria assemble eleven tracks of disco and dance-pop routed through their long-running affection for Indonesian pop of the 80s, issued by Orange Cliff in a limited album pressing. Lounge-glossy rather than retro-fetishist.",
+    "tags": [
+      "electronic"
+    ],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=Diskoria%20Intonesia&item_type=a",
+      "spotify": "https://open.spotify.com/search/Diskoria%20Intonesia",
+      "soundcloud": "https://soundcloud.com/search?q=Diskoria%20Intonesia",
+      "youtube": "https://www.youtube.com/results?search_query=Diskoria%20Intonesia",
+      "deezer": "https://www.deezer.com/album/737728881",
+      "apple": "https://music.apple.com/us/album/intonesia/1807822084?uo=4"
+    },
+    "embed": {
+      "provider": "apple",
+      "src": "https://embed.music.apple.com/us/album/1807822084?theme=light",
+      "height": 450
+    },
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://i.discogs.com/dsSThKp2VVb4l9ACnc-DY_e1Ky2LQtyY5ICX5C6Dr-k/rs:fit/g:sm/q:90/h:600/w:378/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM3NTg4/MzQ3LTE3ODEwODQ3/OTEtMjYzOC5wbmc.jpeg",
     "cover": {
       "bg": "#111110",
       "fg": "#f2efe8",
@@ -14180,7 +14342,10 @@
       "bg": "#111110",
       "fg": "#f2efe8",
       "motif": "disc"
-    }
+    },
+    "pressMentions": [
+      "stereogum"
+    ]
   },
   {
     "id": "green-house-hinterlands",
@@ -19053,7 +19218,9 @@
       "fg": "#f2efe8",
       "motif": "disc"
     },
-    "pressMentions": []
+    "pressMentions": [
+      "stereogum"
+    ]
   },
   {
     "id": "1000-rabbits-virgin-soil",
@@ -29651,6 +29818,40 @@
     "pressMentions": []
   },
   {
+    "id": "drab-majesty-the-demonstration",
+    "type": "album",
+    "artist": "Drab Majesty",
+    "title": "The Demonstration",
+    "label": "Dais Records",
+    "releaseDate": "2025-06-01",
+    "description": "Dais repress the Drab Majesty record that pulled their chorus-soaked darkwave into focus, all jangling guitar haze and deadpan male/male harmonies. Still the obvious entry point for anyone working backwards from Modern Mirror.",
+    "tags": [
+      "electronic"
+    ],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=Drab%20Majesty%20The%20Demonstration&item_type=a",
+      "spotify": "https://open.spotify.com/search/Drab%20Majesty%20The%20Demonstration",
+      "soundcloud": "https://soundcloud.com/search?q=Drab%20Majesty%20The%20Demonstration",
+      "youtube": "https://www.youtube.com/results?search_query=Drab%20Majesty%20The%20Demonstration",
+      "deezer": "https://www.deezer.com/album/104631132"
+    },
+    "embed": {
+      "provider": "deezer",
+      "src": "https://widget.deezer.com/widget/light/album/104631132",
+      "height": 300
+    },
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://i.discogs.com/dWYu0dQ0hoZIzYqrjCz3365LHQKoYOtKzI5pXLBTmgM/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM3NTkw/MTM1LTE3ODExMDIy/MDktOTA5Mi5qcGVn.jpeg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
     "id": "rilla-schwarz-auf-wei",
     "type": "album",
     "artist": "Rilla",
@@ -31909,7 +32110,7 @@
     "title": "Cordial",
     "label": "Mondoj",
     "releaseDate": "2025-04-18",
-    "description": "",
+    "description": "Sereghy's woodwind-and-electronics practice lands on Mondoj for eight tracks of experimental electronics that should sit comfortably alongside the label's Astrid Sonne side of the shelf.",
     "tags": [
       "electronic"
     ],
@@ -31945,7 +32146,7 @@
     "title": "I Heard That Noise",
     "label": "Ghostly International",
     "releaseDate": "2025-04-18",
-    "description": "",
+    "description": "Graham Jonson's bedroom-pop project takes a stranger turn for Ghostly, eleven tracks of folk and indie pop laced with noise and lo-fi haze. Sits comfortably alongside the more song-oriented end of the label's roster.",
     "tags": [
       "rock"
     ],
@@ -31980,7 +32181,7 @@
     "title": "Dance Music 4 Bad People",
     "label": "Smalltown Supersound",
     "releaseDate": "2025-04-18",
-    "description": "",
+    "description": "Jamal Moss back on Smalltown Supersound with eight tracks of his usual lopsided Chicago discipline, bleep and house pushed through techno that refuses to sit flat. For anyone still working through the Lifted records.",
     "tags": [
       "electronic"
     ],
@@ -32016,7 +32217,7 @@
     "title": "Animal",
     "label": "Smalltown Supersound",
     "releaseDate": "2025-04-18",
-    "description": "",
+    "description": "Six pieces of electroacoustic work from the composer Ash Fure, landing on Smalltown Supersound rather than a contemporary classical imprint, which tells you most of what you need to know about the textural intent. Bodily, abrasive, closer to installation than song.",
     "tags": [
       "electronic"
     ],
@@ -32052,7 +32253,7 @@
     "title": "The Foel Tower",
     "label": "AD 93",
     "releaseDate": "2025-04-18",
-    "description": "",
+    "description": "Bristol quartet Quade return to AD 93 with six pieces stretching post-rock into dub and back out again, guitars and space treated as equal weight. For anyone who followed Iceboy Violet's AD 93 side into stranger geometries.",
     "tags": [],
     "links": {
       "bandcamp": "https://bandcamp.com/album/97000005",
@@ -32086,7 +32287,7 @@
     "title": "Fusion",
     "label": "Ilian Tape",
     "releaseDate": "2025-04-17",
-    "description": "",
+    "description": "Ten instrumental hip hop sketches from Snares on Ilian Tape, the Zenker brothers' imprint stretching once again past its techno reputation into beat-tape territory. Downtempo and unhurried, for anyone still spinning Skee Mask's Pool in the small hours.",
     "tags": [
       "electronic"
     ],
@@ -32120,7 +32321,7 @@
     "title": "Rabbit Hole",
     "label": "Death By Numbers",
     "releaseDate": "2025-04-15",
-    "description": "",
+    "description": "Six tracks for Death By Numbers that sit at the unlikely junction of dungeon synth, darkwave and beat-tape abstraction. Closer in spirit to a basement RPG soundtrack than to anything Hip Hop tag would suggest, though both registers are present.",
     "tags": [
       "electronic"
     ],
@@ -32154,7 +32355,7 @@
     "title": "Greatest Hits: Everything Is Real",
     "label": "Tigersushi Records",
     "releaseDate": "2025-04-12",
-    "description": "",
+    "description": "A 17-track Tigersushi compilation drawing across the late Paris band's catalog, the bruised art-rock end of the label's roster rather than its dancefloor side. Pressed for Record Store Day; useful as an entry point if you only know them by reputation.",
     "tags": [
       "electronic"
     ],
@@ -32188,7 +32389,7 @@
     "title": "Howl",
     "label": "Erased Tapes Records",
     "releaseDate": "2025-04-12",
-    "description": "",
+    "description": "A Record Store Day repress of Ryan Lee West's 2018 Erased Tapes album, the one where his modular sketches started leaning harder on rhythm without abandoning the melancholy. For anyone shelving Nils Frahm's club-adjacent work nearby.",
     "tags": [
       "electronic"
     ],
@@ -37075,7 +37276,8 @@
       "motif": "disc"
     },
     "pressMentions": [
-      "stereogum"
+      "stereogum",
+      "pitchfork_albums"
     ]
   },
   {
@@ -40084,7 +40286,8 @@
       "motif": "disc"
     },
     "pressMentions": [
-      "stereogum"
+      "stereogum",
+      "pitchfork_albums"
     ]
   },
   {
@@ -48094,7 +48297,8 @@
       "motif": "disc"
     },
     "pressMentions": [
-      "stereogum"
+      "stereogum",
+      "pitchfork_albums"
     ]
   },
   {
@@ -48162,7 +48366,8 @@
       "motif": "disc"
     },
     "pressMentions": [
-      "stereogum"
+      "stereogum",
+      "pitchfork_albums"
     ]
   },
   {
