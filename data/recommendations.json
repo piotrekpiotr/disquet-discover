@@ -490,6 +490,68 @@
     "pressMentions": []
   },
   {
+    "id": "faltydl-body-me",
+    "type": "ep",
+    "artist": "FaltyDL",
+    "title": "Body Me",
+    "label": "",
+    "releaseDate": "2026-06-26",
+    "description": "FaltyDL returns with a new EP, still operating in that restless zone where UK garage residue, broken house and downtempo electronics keep colliding. Self-released by the look of it, which tracks with how Drew Lustman has tended to move lately.",
+    "tags": [],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=FaltyDL%20Body%20Me&item_type=a",
+      "spotify": "https://open.spotify.com/search/FaltyDL%20Body%20Me",
+      "soundcloud": "https://soundcloud.com/search?q=FaltyDL%20Body%20Me",
+      "youtube": "https://www.youtube.com/results?search_query=FaltyDL%20Body%20Me",
+      "deezer": "https://www.deezer.com/album/991428591",
+      "apple": "https://music.apple.com/us/album/body-me/6773519155?uo=4"
+    },
+    "embed": {
+      "provider": "apple",
+      "src": "https://embed.music.apple.com/us/album/6773519155?theme=light",
+      "height": 450
+    },
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": null,
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
+    "id": "takkak-takkak-abu",
+    "type": "album",
+    "artist": "Takkak Takkak",
+    "title": "Abu",
+    "label": "Nyege Nyege Tapes",
+    "releaseDate": "2026-06-26",
+    "description": "Ten tracks of gamelan, field recording and noise pulled into something closer to ritual than composition, issued by Nyege Nyege Tapes on LP. Sits comfortably alongside the label's Sisso and Duma catalogue for anyone tracking that lineage.",
+    "tags": [
+      "electronic"
+    ],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=Takkak%20Takkak%20Abu&item_type=a",
+      "spotify": "https://open.spotify.com/search/Takkak%20Takkak%20Abu",
+      "soundcloud": "https://soundcloud.com/search?q=Takkak%20Takkak%20Abu",
+      "youtube": "https://www.youtube.com/results?search_query=Takkak%20Takkak%20Abu"
+    },
+    "embed": null,
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://i.discogs.com/-BWHBYUubOUpzPhfn4a4dQ6XSjJ7pgf2Js92Dn5rKSU/rs:fit/g:sm/q:90/h:598/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM3NTk3/NzQ5LTE3ODExNzcw/MTgtNDkyNS5qcGVn.jpeg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
     "id": "baauer-u",
     "type": "album",
     "artist": "Baauer",
@@ -522,7 +584,9 @@
       "fg": "#f2efe8",
       "motif": "disc"
     },
-    "pressMentions": []
+    "pressMentions": [
+      "pitchfork_albums"
+    ]
   },
   {
     "id": "aya-nuclear-weapon",
@@ -569,9 +633,15 @@
       "bandcamp": "https://bandcamp.com/search?q=Noon%20Rowing%20My%20Boat&item_type=a",
       "spotify": "https://open.spotify.com/search/Noon%20Rowing%20My%20Boat",
       "soundcloud": "https://soundcloud.com/search?q=Noon%20Rowing%20My%20Boat",
-      "youtube": "https://www.youtube.com/results?search_query=Noon%20Rowing%20My%20Boat"
+      "youtube": "https://www.youtube.com/results?search_query=Noon%20Rowing%20My%20Boat",
+      "deezer": "https://www.deezer.com/album/985518851",
+      "apple": "https://music.apple.com/us/album/rowing-my-boat-single/6770572676?uo=4"
     },
-    "embed": null,
+    "embed": {
+      "provider": "apple",
+      "src": "https://embed.music.apple.com/us/album/6770572676?theme=light",
+      "height": 450
+    },
     "musicVideoUrl": null,
     "status": "pending",
     "approvedAt": null,
@@ -582,6 +652,257 @@
       "motif": "disc"
     },
     "pressMentions": []
+  },
+  {
+    "id": "smerz-dreams-guitar-version",
+    "type": "single",
+    "artist": "Smerz",
+    "title": "Dreams (guitar version)",
+    "label": "Escho",
+    "releaseDate": "2026-06-12",
+    "description": "Smerz revisit Dreams in a guitar arrangement for Escho, trading their usual fractured club textures for something closer to a song. Filed near Erika de Casier if you want a pointer to the wider Copenhagen alt-pop orbit.",
+    "tags": [
+      "alternative"
+    ],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=Smerz%20Dreams%20(guitar%20version)&item_type=a",
+      "spotify": "https://open.spotify.com/search/Smerz%20Dreams%20(guitar%20version)",
+      "soundcloud": "https://soundcloud.com/search?q=Smerz%20Dreams%20(guitar%20version)",
+      "youtube": "https://www.youtube.com/results?search_query=Smerz%20Dreams%20(guitar%20version)",
+      "apple": "https://music.apple.com/us/album/dreams-guitar-version-single/1882371609",
+      "deezer": "https://www.deezer.com/album/932619881"
+    },
+    "embed": {
+      "provider": "apple",
+      "src": "https://embed.music.apple.com/us/album/1882371609?theme=light",
+      "height": 450
+    },
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/10/78/1f/10781f6c-4f74-f3fc-db66-b5acb05fec95/cover.jpg/600x600bb.jpg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
+    "id": "madlib-bad-neighbor-10-year-anniversary-remaster",
+    "type": "album",
+    "artist": "Madlib",
+    "title": "Bad Neighbor (10 Year Anniversary Remaster)",
+    "label": "",
+    "releaseDate": "2026-06-12",
+    "description": "Madlib's 2015 collaborative LP gets a decade-on remaster, with all the dusty MPC swing and crate-rummaging instinct that's defined his beat work since Quasimoto. One for the Madvillain shelf, slightly buffed.",
+    "tags": [],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=Madlib%20Bad%20Neighbor%20(10%20Year%20Anniversary%20Remaster)&item_type=a",
+      "spotify": "https://open.spotify.com/search/Madlib%20Bad%20Neighbor%20(10%20Year%20Anniversary%20Remaster)",
+      "soundcloud": "https://soundcloud.com/search?q=Madlib%20Bad%20Neighbor%20(10%20Year%20Anniversary%20Remaster)",
+      "youtube": "https://www.youtube.com/results?search_query=Madlib%20Bad%20Neighbor%20(10%20Year%20Anniversary%20Remaster)",
+      "deezer": "https://www.deezer.com/album/989285681",
+      "tidal": "https://tidal.com/album/527320898"
+    },
+    "embed": null,
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://cdn-images.dzcdn.net/images/cover/7c73721a5486d4e8ab59862295269589/1000x1000-000000-80-0-0.jpg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
+    "id": "dj-koze-spiralen-wo-s-patric",
+    "type": "single",
+    "artist": "DJ Koze",
+    "title": "Spiralen & Wo´s Patric?!?",
+    "label": "",
+    "releaseDate": "2026-06-12",
+    "description": "Koze in single mode, which historically means anything from skewed house edits to sample-collage daydreams, so set expectations accordingly. Worth a look for anyone still pulling Pampa twelves off the shelf.",
+    "tags": [],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=DJ%20Koze%20Spiralen%20%26%20Wo%C2%B4s%20Patric%3F!%3F&item_type=a",
+      "spotify": "https://open.spotify.com/search/DJ%20Koze%20Spiralen%20%26%20Wo%C2%B4s%20Patric%3F!%3F",
+      "soundcloud": "https://soundcloud.com/search?q=DJ%20Koze%20Spiralen%20%26%20Wo%C2%B4s%20Patric%3F!%3F",
+      "youtube": "https://www.youtube.com/results?search_query=DJ%20Koze%20Spiralen%20%26%20Wo%C2%B4s%20Patric%3F!%3F",
+      "deezer": "https://www.deezer.com/album/957860001",
+      "apple": "https://music.apple.com/us/album/spiralen-wos-patric-single/1892112087?uo=4"
+    },
+    "embed": {
+      "provider": "apple",
+      "src": "https://embed.music.apple.com/us/album/1892112087?theme=light",
+      "height": 450
+    },
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://cdn-images.dzcdn.net/images/cover/e60da5b9a54dccf0a14021e14a23e365/1000x1000-000000-80-0-0.jpg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
+    "id": "faltydl-neurology-department",
+    "type": "single",
+    "artist": "FaltyDL",
+    "title": "Neurology Department",
+    "label": "",
+    "releaseDate": "2026-06-12",
+    "description": "FaltyDL in single mode, which over the years has meant anything from skewed UK garage to woozy post-Planet Mu electronics, rarely the same shape twice. Worth a listen for anyone still tracking where Drew Lustman's ear wanders.",
+    "tags": [],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=FaltyDL%20Neurology%20Department&item_type=a",
+      "spotify": "https://open.spotify.com/search/FaltyDL%20Neurology%20Department",
+      "soundcloud": "https://soundcloud.com/search?q=FaltyDL%20Neurology%20Department",
+      "youtube": "https://www.youtube.com/results?search_query=FaltyDL%20Neurology%20Department",
+      "deezer": "https://www.deezer.com/album/991426481",
+      "apple": "https://music.apple.com/us/album/neurology-department-single/6773518703?uo=4"
+    },
+    "embed": {
+      "provider": "apple",
+      "src": "https://embed.music.apple.com/us/album/6773518703?theme=light",
+      "height": 450
+    },
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://cdn-images.dzcdn.net/images/cover/f4659f2e8219f028047c83950adc3379/1000x1000-000000-80-0-0.jpg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
+    "id": "laurel-halo-shade",
+    "type": "single",
+    "artist": "Laurel Halo",
+    "title": "Shade",
+    "label": "",
+    "releaseDate": "2026-06-12",
+    "description": "Laurel Halo returns to single format, label unannounced, which given her recent Awe trajectory could mean almost anything from chamber ambient to displaced club music. Worth watching for anyone tracking the Atlas lineage.",
+    "tags": [],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=Laurel%20Halo%20Shade&item_type=a",
+      "spotify": "https://open.spotify.com/search/Laurel%20Halo%20Shade",
+      "soundcloud": "https://soundcloud.com/search?q=Laurel%20Halo%20Shade",
+      "youtube": "https://www.youtube.com/results?search_query=Laurel%20Halo%20Shade",
+      "deezer": "https://www.deezer.com/album/980436551",
+      "tidal": "https://tidal.com/album/523527331"
+    },
+    "embed": null,
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://cdn-images.dzcdn.net/images/cover/970f49bfedc53d4652a29622955039e3/1000x1000-000000-80-0-0.jpg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
+    "id": "priori-endlessly-feat-bea1991-radio-edit",
+    "type": "single",
+    "artist": "Priori",
+    "title": "Endlessly (feat. BEA1991) - Radio Edit",
+    "label": "",
+    "releaseDate": "2026-06-12",
+    "description": "A radio edit of Priori's \"Endlessly\" with BEA1991 on the mic, trimmed for circulation but still recognizably from the Montreal producer's vaporous, slightly off-grid corner of dance music. For anyone tracking the NAFF orbit.",
+    "tags": [],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=Priori%20Endlessly%20(feat.%20BEA1991)%20-%20Radio%20Edit&item_type=a",
+      "spotify": "https://open.spotify.com/search/Priori%20Endlessly%20(feat.%20BEA1991)%20-%20Radio%20Edit",
+      "soundcloud": "https://soundcloud.com/search?q=Priori%20Endlessly%20(feat.%20BEA1991)%20-%20Radio%20Edit",
+      "youtube": "https://www.youtube.com/results?search_query=Priori%20Endlessly%20(feat.%20BEA1991)%20-%20Radio%20Edit",
+      "deezer": "https://www.deezer.com/album/991667281"
+    },
+    "embed": null,
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://cdn-images.dzcdn.net/images/cover/c139dd42871c7cc5d85c1b1217e5b37f/1000x1000-000000-80-0-0.jpg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
+    "id": "xexa-candomble-sacred-rhythms-in-brazil",
+    "type": "album",
+    "artist": "Xexa",
+    "title": "Candomblé: Sacred Rhythms in Brazil",
+    "label": "",
+    "releaseDate": "2026-06-12",
+    "description": "Xexa turns toward Candomblé liturgy, a project framed around the percussive vocabulary of Bahia's terreiros rather than the club-facing electronics she is better known for. Approach it as ethnographic study filtered through a producer's ear.",
+    "tags": [],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=Xexa%20Candombl%C3%A9%3A%20Sacred%20Rhythms%20in%20Brazil&item_type=a",
+      "spotify": "https://open.spotify.com/search/Xexa%20Candombl%C3%A9%3A%20Sacred%20Rhythms%20in%20Brazil",
+      "soundcloud": "https://soundcloud.com/search?q=Xexa%20Candombl%C3%A9%3A%20Sacred%20Rhythms%20in%20Brazil",
+      "youtube": "https://www.youtube.com/results?search_query=Xexa%20Candombl%C3%A9%3A%20Sacred%20Rhythms%20in%20Brazil",
+      "deezer": "https://www.deezer.com/album/980202431"
+    },
+    "embed": null,
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://cdn-images.dzcdn.net/images/cover/94a573bbcf43224fe8d701fe6cd59049/1000x1000-000000-80-0-0.jpg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
+    "id": "tiga-love-don-t-dance-here-anymore",
+    "type": "single",
+    "artist": "Tiga",
+    "title": "Love Don't Dance Here Anymore",
+    "label": "Not On Label (Tiga)",
+    "releaseDate": "2026-06-12",
+    "description": "Tiga self releases a one-tracker into the techno feed, sidestepping the usual Turbo channels for an unofficial WAV promo. Closer to peak-time function than the camp pop edge of his bigger singles.",
+    "tags": [],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=Tiga%20Love%20Don't%20Dance%20Here%20Anymore&item_type=a",
+      "spotify": "https://open.spotify.com/search/Tiga%20Love%20Don't%20Dance%20Here%20Anymore",
+      "soundcloud": "https://soundcloud.com/search?q=Tiga%20Love%20Don't%20Dance%20Here%20Anymore",
+      "youtube": "https://www.youtube.com/results?search_query=Tiga%20Love%20Don't%20Dance%20Here%20Anymore",
+      "deezer": "https://www.deezer.com/album/987843851",
+      "apple": "https://music.apple.com/us/album/love-dont-dance-here-anymore-single/6771654644?uo=4"
+    },
+    "embed": {
+      "provider": "apple",
+      "src": "https://embed.music.apple.com/us/album/6771654644?theme=light",
+      "height": 450
+    },
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://cdn-images.dzcdn.net/images/cover/c741a18124b555710e052a414f002143/1000x1000-000000-80-0-0.jpg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": [
+      "pitchfork_tracks",
+      "pitchfork_best_tracks"
+    ]
   },
   {
     "id": "the-chemical-brothers-go-live-from-glastonbury",
@@ -616,6 +937,35 @@
     "pressMentions": []
   },
   {
+    "id": "fireground-2-core-waves",
+    "type": "ep",
+    "artist": "Fireground (2)",
+    "title": "Core Waves",
+    "label": "Ilian Tape",
+    "releaseDate": "2026-06-11",
+    "description": "Four tracks of techno on Ilian Tape, where the Zenker brothers' house style of grainy drum programming and unfussy weight remains the reference point. Cue alongside Skee Mask if you need a shelving pointer.",
+    "tags": [
+      "electronic"
+    ],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=Fireground%20(2)%20Core%20Waves&item_type=a",
+      "spotify": "https://open.spotify.com/search/Fireground%20(2)%20Core%20Waves",
+      "soundcloud": "https://soundcloud.com/search?q=Fireground%20(2)%20Core%20Waves",
+      "youtube": "https://www.youtube.com/results?search_query=Fireground%20(2)%20Core%20Waves"
+    },
+    "embed": null,
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://i.discogs.com/OFDdd1JxaNRmKgutM1__NThKOE6DfEJg4A5x6_g-jpE/rs:fit/g:sm/q:90/h:600/w:589/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM3NTQw/MzgzLTE3ODExODI3/NjYtMTQyNy5qcGVn.jpeg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
     "id": "2k88-lauren-duffus-rainy-miller-bianca-scout-salto",
     "type": "single",
     "artist": "2K88, Lauren Duffus, Rainy Miller & Bianca Scout",
@@ -631,9 +981,14 @@
       "spotify": "https://open.spotify.com/search/2K88%2C%20Lauren%20Duffus%2C%20Rainy%20Miller%20%26%20Bianca%20Scout%20Salto",
       "soundcloud": "https://soundcloud.com/search?q=2K88%2C%20Lauren%20Duffus%2C%20Rainy%20Miller%20%26%20Bianca%20Scout%20Salto",
       "youtube": "https://www.youtube.com/results?search_query=2K88%2C%20Lauren%20Duffus%2C%20Rainy%20Miller%20%26%20Bianca%20Scout%20Salto",
-      "apple": "https://music.apple.com/us/album/salto-single/6766837041"
+      "apple": "https://music.apple.com/us/album/salto-single/6766837041",
+      "deezer": "https://www.deezer.com/album/973755451"
     },
-    "embed": null,
+    "embed": {
+      "provider": "apple",
+      "src": "https://embed.music.apple.com/us/album/6766837041?theme=light",
+      "height": 450
+    },
     "musicVideoUrl": null,
     "status": "pending",
     "approvedAt": null,
@@ -676,7 +1031,9 @@
       "fg": "#f2efe8",
       "motif": "disc"
     },
-    "pressMentions": []
+    "pressMentions": [
+      "pitchfork_albums"
+    ]
   },
   {
     "id": "rainy-miller-salto",
@@ -752,9 +1109,14 @@
       "spotify": "https://open.spotify.com/search/Eartheater%20Crown%20Jewel",
       "soundcloud": "https://soundcloud.com/search?q=Eartheater%20Crown%20Jewel",
       "youtube": "https://www.youtube.com/results?search_query=Eartheater%20Crown%20Jewel",
-      "deezer": "https://www.deezer.com/album/989294041"
+      "deezer": "https://www.deezer.com/album/989294041",
+      "apple": "https://music.apple.com/us/album/crown-jewel-single/6772352875?uo=4"
     },
-    "embed": null,
+    "embed": {
+      "provider": "apple",
+      "src": "https://embed.music.apple.com/us/album/6772352875?theme=light",
+      "height": 450
+    },
     "musicVideoUrl": null,
     "status": "pending",
     "approvedAt": null,
@@ -894,6 +1256,35 @@
     "status": "pending",
     "approvedAt": null,
     "coverImageUrl": "https://i.discogs.com/r_DDMmeWJJ4g6dAURgV7b8lWpje6sJpiRD1owbytbtI/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM3NTgy/NjMyLTE3ODEwMjI4/NjItMzk4Mi5qcGVn.jpeg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
+    "id": "mary-kiani-reimagined",
+    "type": "album",
+    "artist": "Mary Kiani",
+    "title": "Reimagined",
+    "label": "Pumpin' UK Media",
+    "releaseDate": "2026-06-08",
+    "description": "Sixty-nine tracks of Mary Kiani reworked across Euro house, trance and Europop registers, issued on a memory stick by Pumpin' UK Media. A completist artifact rather than an album in any conventional sense, aimed squarely at the 90s vocal-trance faithful.",
+    "tags": [
+      "electronic"
+    ],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=Mary%20Kiani%20Reimagined&item_type=a",
+      "spotify": "https://open.spotify.com/search/Mary%20Kiani%20Reimagined",
+      "soundcloud": "https://soundcloud.com/search?q=Mary%20Kiani%20Reimagined",
+      "youtube": "https://www.youtube.com/results?search_query=Mary%20Kiani%20Reimagined"
+    },
+    "embed": null,
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://i.discogs.com/E0AEqXZumJ1YAkJ2ZuKAPI9jGh5eYNH3Gi4xKzyBcyg/rs:fit/g:sm/q:90/h:448/w:498/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM3NTcz/ODgxLTE3ODA5NDQ2/OTgtNjI3MC5wbmc.jpeg",
     "cover": {
       "bg": "#111110",
       "fg": "#f2efe8",
@@ -1218,7 +1609,8 @@
       "soundcloud": "https://soundcloud.com/search?q=Lyra%20Pramuk%20Swallow%20(Dumama%20To%20Be%20A%20Voice%20Rework)",
       "youtube": "https://www.youtube.com/results?search_query=Lyra%20Pramuk%20Swallow%20(Dumama%20To%20Be%20A%20Voice%20Rework)",
       "deezer": "https://www.deezer.com/album/951415271",
-      "apple": "https://music.apple.com/us/album/swallow-dumama-to-be-a-voice-rework-single/1889570191?uo=4"
+      "apple": "https://music.apple.com/us/album/swallow-dumama-to-be-a-voice-rework-single/1889570191?uo=4",
+      "tidal": "https://tidal.com/album/511709828"
     },
     "embed": {
       "provider": "apple",
@@ -1251,7 +1643,8 @@
       "soundcloud": "https://soundcloud.com/search?q=Lyra%20Pramuk%20Unchosen%20(Tarta%20Relena%20Aspre%20Rework)",
       "youtube": "https://www.youtube.com/results?search_query=Lyra%20Pramuk%20Unchosen%20(Tarta%20Relena%20Aspre%20Rework)",
       "deezer": "https://www.deezer.com/album/951418911",
-      "apple": "https://music.apple.com/us/album/unchosen-tarta-relena-aspre-rework-single/1889571970?uo=4"
+      "apple": "https://music.apple.com/us/album/unchosen-tarta-relena-aspre-rework-single/1889571970?uo=4",
+      "tidal": "https://tidal.com/album/511711199"
     },
     "embed": {
       "provider": "apple",
@@ -1318,7 +1711,8 @@
       "soundcloud": "https://soundcloud.com/search?q=Mr.%20YT%20Universo",
       "youtube": "https://www.youtube.com/results?search_query=Mr.%20YT%20Universo",
       "deezer": "https://www.deezer.com/album/983425301",
-      "apple": "https://music.apple.com/us/album/universo-ep/6769713482?uo=4"
+      "apple": "https://music.apple.com/us/album/universo-ep/6769713482?uo=4",
+      "tidal": "https://tidal.com/album/524935141"
     },
     "embed": {
       "provider": "apple",
@@ -1353,7 +1747,8 @@
       "soundcloud": "https://soundcloud.com/search?q=Bernardino%20Femminielli%20M%C3%A9moires%20d'un%20Auto-Sabotage",
       "youtube": "https://www.youtube.com/results?search_query=Bernardino%20Femminielli%20M%C3%A9moires%20d'un%20Auto-Sabotage",
       "deezer": "https://www.deezer.com/album/981862131",
-      "apple": "https://music.apple.com/us/album/m%C3%A9moires-dun-auto-sabotage/6769541094?uo=4"
+      "apple": "https://music.apple.com/us/album/m%C3%A9moires-dun-auto-sabotage/6769541094?uo=4",
+      "tidal": "https://tidal.com/album/524766230"
     },
     "embed": {
       "provider": "apple",
@@ -1388,7 +1783,8 @@
       "soundcloud": "https://soundcloud.com/search?q=Lyra%20Pramuk%2C%20Laurel%20Halo%20%26%20John%20Tejada%20Meridian%20(Laurel%20Halo%20X%20John%20Tejada%20Rework)",
       "youtube": "https://www.youtube.com/results?search_query=Lyra%20Pramuk%2C%20Laurel%20Halo%20%26%20John%20Tejada%20Meridian%20(Laurel%20Halo%20X%20John%20Tejada%20Rework)",
       "apple": "https://music.apple.com/us/album/meridian-laurel-halo-x-john-tejada-rework-single/1889571848",
-      "deezer": "https://www.deezer.com/album/951415261"
+      "deezer": "https://www.deezer.com/album/951415261",
+      "tidal": "https://tidal.com/album/511711034"
     },
     "embed": {
       "provider": "apple",
@@ -2769,6 +3165,41 @@
     "pressMentions": []
   },
   {
+    "id": "car-culture-rest-here-expanded",
+    "type": "album",
+    "artist": "Car Culture",
+    "title": "Rest Here - Expanded",
+    "label": "NAFF",
+    "releaseDate": "2026-05-28",
+    "description": "NAFF returns to Car Culture's Rest Here with a deluxe expansion, eighteen tracks spanning the neofolk and downtempo edges the project tends to occupy. For listeners who keep Grouper and Tim Hecker on the same shelf.",
+    "tags": [
+      "electronic"
+    ],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=Car%20Culture%20Rest%20Here%20-%20Expanded&item_type=a",
+      "spotify": "https://open.spotify.com/search/Car%20Culture%20Rest%20Here%20-%20Expanded",
+      "soundcloud": "https://soundcloud.com/search?q=Car%20Culture%20Rest%20Here%20-%20Expanded",
+      "youtube": "https://www.youtube.com/results?search_query=Car%20Culture%20Rest%20Here%20-%20Expanded",
+      "deezer": "https://www.deezer.com/album/966518481",
+      "apple": "https://music.apple.com/us/album/rest-here-expanded/1895058806?uo=4"
+    },
+    "embed": {
+      "provider": "apple",
+      "src": "https://embed.music.apple.com/us/album/1895058806?theme=light",
+      "height": 450
+    },
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://i.discogs.com/_qAJvoA4jTW9LCa7BzLxnL2P4uqldcWWAX2IL3u6iUw/rs:fit/g:sm/q:90/h:541/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM3NjAx/ODQ0LTE3ODEyMDg5/MzctNDY1OC5qcGVn.jpeg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
     "id": "h-lls-mahalia-fcuk",
     "type": "single",
     "artist": "H.LLS & Mahalia",
@@ -3778,7 +4209,9 @@
       "fg": "#f2efe8",
       "motif": "disc"
     },
-    "pressMentions": []
+    "pressMentions": [
+      "pitchfork_albums"
+    ]
   },
   {
     "id": "kavari-they-can-t-do-what-i-can",
@@ -3908,7 +4341,9 @@
       "fg": "#f2efe8",
       "motif": "disc"
     },
-    "pressMentions": []
+    "pressMentions": [
+      "pitchfork_albums"
+    ]
   },
   {
     "id": "bladee-sulfur-surfer",
@@ -5395,7 +5830,9 @@
       "fg": "#f2efe8",
       "motif": "disc"
     },
-    "pressMentions": []
+    "pressMentions": [
+      "pitchfork_albums"
+    ]
   },
   {
     "id": "xtclvr-passion",
@@ -9361,6 +9798,40 @@
     "pressMentions": []
   },
   {
+    "id": "serokolo-7-maramfa-musick-pro",
+    "type": "album",
+    "artist": "Serokolo 7",
+    "title": "Maramfa Musick Pro",
+    "label": "Nyege Nyege Tapes",
+    "releaseDate": "2026-04-24",
+    "description": "Ten tracks of African electronic music from Serokolo 7, landing on Nyege Nyege Tapes in a limited LP pressing. Slots in alongside the Kampala label's wider remit of regional club and folk hybrids.",
+    "tags": [
+      "electronic"
+    ],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=Serokolo%207%20Maramfa%20Musick%20Pro&item_type=a",
+      "spotify": "https://open.spotify.com/search/Serokolo%207%20Maramfa%20Musick%20Pro",
+      "soundcloud": "https://soundcloud.com/search?q=Serokolo%207%20Maramfa%20Musick%20Pro",
+      "youtube": "https://www.youtube.com/results?search_query=Serokolo%207%20Maramfa%20Musick%20Pro",
+      "deezer": "https://www.deezer.com/album/954075251"
+    },
+    "embed": {
+      "provider": "deezer",
+      "src": "https://widget.deezer.com/widget/light/album/954075251",
+      "height": 300
+    },
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://i.discogs.com/W98OGKp1I4AeP8BC2JHlNmDl07VU1DQLJXSCebKvdyA/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM3NTYw/MTgwLTE3ODA4MTky/NjctNzI5Ny5qcGVn.jpeg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
     "id": "matthew-herbert-rosebush-pruning-original-soundtrack-album",
     "type": "album",
     "artist": "Matthew Herbert",
@@ -10094,7 +10565,9 @@
       "fg": "#f2efe8",
       "motif": "disc"
     },
-    "pressMentions": []
+    "pressMentions": [
+      "pitchfork_albums"
+    ]
   },
   {
     "id": "fluxion-space",
@@ -24468,12 +24941,13 @@
       "spotify": "https://open.spotify.com/search/Superfan%20Apeiron%20(Fantasy%20Football)",
       "soundcloud": "https://soundcloud.com/search?q=Superfan%20Apeiron%20(Fantasy%20Football)",
       "youtube": "https://www.youtube.com/results?search_query=Superfan%20Apeiron%20(Fantasy%20Football)",
-      "deezer": "https://www.deezer.com/album/816878521"
+      "deezer": "https://www.deezer.com/album/816878521",
+      "apple": "https://music.apple.com/us/album/apeiron-fantasy-football-single/6776647251?uo=4"
     },
     "embed": {
-      "provider": "deezer",
-      "src": "https://widget.deezer.com/widget/light/album/816878521",
-      "height": 300
+      "provider": "apple",
+      "src": "https://embed.music.apple.com/us/album/6776647251?theme=light",
+      "height": 450
     },
     "musicVideoUrl": null,
     "status": "pending",
@@ -27562,12 +28036,13 @@
       "spotify": "https://open.spotify.com/search/Superfan%20Miss%20W%20Jones",
       "soundcloud": "https://soundcloud.com/search?q=Superfan%20Miss%20W%20Jones",
       "youtube": "https://www.youtube.com/results?search_query=Superfan%20Miss%20W%20Jones",
-      "deezer": "https://www.deezer.com/album/997450491"
+      "deezer": "https://www.deezer.com/album/997450491",
+      "apple": "https://music.apple.com/us/album/miss-w-jones-single/1823298615?uo=4"
     },
     "embed": {
-      "provider": "deezer",
-      "src": "https://widget.deezer.com/widget/light/album/997450491",
-      "height": 300
+      "provider": "apple",
+      "src": "https://embed.music.apple.com/us/album/1823298615?theme=light",
+      "height": 450
     },
     "musicVideoUrl": null,
     "status": "pending",
@@ -29833,12 +30308,13 @@
       "spotify": "https://open.spotify.com/search/Drab%20Majesty%20The%20Demonstration",
       "soundcloud": "https://soundcloud.com/search?q=Drab%20Majesty%20The%20Demonstration",
       "youtube": "https://www.youtube.com/results?search_query=Drab%20Majesty%20The%20Demonstration",
-      "deezer": "https://www.deezer.com/album/104631132"
+      "deezer": "https://www.deezer.com/album/104631132",
+      "apple": "https://music.apple.com/us/album/the-demonstration/1474112007?uo=4"
     },
     "embed": {
-      "provider": "deezer",
-      "src": "https://widget.deezer.com/widget/light/album/104631132",
-      "height": 300
+      "provider": "apple",
+      "src": "https://embed.music.apple.com/us/album/1474112007?theme=light",
+      "height": 450
     },
     "musicVideoUrl": null,
     "status": "pending",
@@ -32424,7 +32900,7 @@
     "title": "Ready, Set, Go! [Live, Riverside Studios '03]",
     "label": "ISO Records",
     "releaseDate": "2025-04-12",
-    "description": "",
+    "description": "Bowie's 2003 Riverside Studios rehearsal session, fourteen tracks across the Reality-era band, pressed for Record Store Day on ISO. A document of the room rather than the arena, useful if the official Reality tour live sets always felt too polished.",
     "tags": [
       "rock"
     ],
@@ -33955,12 +34431,13 @@
       "spotify": "https://open.spotify.com/search/Pan%20Savyan%20Kwiaty%20Przyjemno%C5%9Bci",
       "soundcloud": "https://soundcloud.com/search?q=Pan%20Savyan%20Kwiaty%20Przyjemno%C5%9Bci",
       "youtube": "https://www.youtube.com/results?search_query=Pan%20Savyan%20Kwiaty%20Przyjemno%C5%9Bci",
-      "deezer": "https://www.deezer.com/album/702651381"
+      "deezer": "https://www.deezer.com/album/702651381",
+      "apple": "https://music.apple.com/us/album/kwiaty-przyjemno%C5%9Bci/1793540847?uo=4"
     },
     "embed": {
-      "provider": "deezer",
-      "src": "https://widget.deezer.com/widget/light/album/702651381",
-      "height": 300
+      "provider": "apple",
+      "src": "https://embed.music.apple.com/us/album/1793540847?theme=light",
+      "height": 450
     },
     "musicVideoUrl": null,
     "status": "pending",
@@ -41179,6 +41656,35 @@
     "status": "pending",
     "approvedAt": null,
     "coverImageUrl": "https://i.discogs.com/_mkv-xoT3eTOrcnhLVdv8W-UQ0EJXUvFgxEHghEfbJc/rs:fit/g:sm/q:90/h:599/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTMxOTg1/MTQ0LTE3Mjg3ODQx/MjgtOTQwMy5qcGVn.jpeg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
+    "id": "lewi-boome-nosewise-visual-snow-between-cold-and-wet",
+    "type": "single",
+    "artist": "Lewi Boome / Nosewise",
+    "title": "Visual Snow / Between Cold And Wet",
+    "label": "Twin System",
+    "releaseDate": "2024-10-11",
+    "description": "",
+    "tags": [
+      "electronic"
+    ],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=Lewi%20Boome%20%2F%20Nosewise%20Visual%20Snow%20%2F%20Between%20Cold%20And%20Wet&item_type=a",
+      "spotify": "https://open.spotify.com/search/Lewi%20Boome%20%2F%20Nosewise%20Visual%20Snow%20%2F%20Between%20Cold%20And%20Wet",
+      "soundcloud": "https://soundcloud.com/search?q=Lewi%20Boome%20%2F%20Nosewise%20Visual%20Snow%20%2F%20Between%20Cold%20And%20Wet",
+      "youtube": "https://www.youtube.com/results?search_query=Lewi%20Boome%20%2F%20Nosewise%20Visual%20Snow%20%2F%20Between%20Cold%20And%20Wet"
+    },
+    "embed": null,
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://i.discogs.com/0H18PKvLdhVa5k-4PGbEPUpq1CKq_KU1XnNmXfzm2oA/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM3NjA1/MDk2LTE3ODEyNDk4/ODctMjMzMy5qcGVn.jpeg",
     "cover": {
       "bg": "#111110",
       "fg": "#f2efe8",
