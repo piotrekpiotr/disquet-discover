@@ -826,7 +826,8 @@
       "spotify": "https://open.spotify.com/search/Priori%20Endlessly%20(feat.%20BEA1991)%20-%20Radio%20Edit",
       "soundcloud": "https://soundcloud.com/search?q=Priori%20Endlessly%20(feat.%20BEA1991)%20-%20Radio%20Edit",
       "youtube": "https://www.youtube.com/results?search_query=Priori%20Endlessly%20(feat.%20BEA1991)%20-%20Radio%20Edit",
-      "deezer": "https://www.deezer.com/album/991667281"
+      "deezer": "https://www.deezer.com/album/991667281",
+      "tidal": "https://tidal.com/album/528140413"
     },
     "embed": null,
     "musicVideoUrl": null,
@@ -903,6 +904,75 @@
       "pitchfork_tracks",
       "pitchfork_best_tracks"
     ]
+  },
+  {
+    "id": "jump-source-endlessly-feat-bea1991-radio-edit",
+    "type": "single",
+    "artist": "Jump Source",
+    "title": "Endlessly (feat. BEA1991) - Radio Edit",
+    "label": "",
+    "releaseDate": "2026-06-12",
+    "description": "Jump Source pulls BEA1991 into a radio edit of \"Endlessly,\" trimming his Beats In Space lineage of woozy disco and post-punk-leaning club tracks into something built for shorter attention. File alongside the Public Possession crowd.",
+    "tags": [],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=Jump%20Source%20Endlessly%20(feat.%20BEA1991)%20-%20Radio%20Edit&item_type=a",
+      "spotify": "https://open.spotify.com/search/Jump%20Source%20Endlessly%20(feat.%20BEA1991)%20-%20Radio%20Edit",
+      "soundcloud": "https://soundcloud.com/search?q=Jump%20Source%20Endlessly%20(feat.%20BEA1991)%20-%20Radio%20Edit",
+      "youtube": "https://www.youtube.com/results?search_query=Jump%20Source%20Endlessly%20(feat.%20BEA1991)%20-%20Radio%20Edit",
+      "deezer": "https://www.deezer.com/album/991667281",
+      "apple": "https://music.apple.com/us/album/endlessly-feat-bea1991-radio-edit-single/6773408253?uo=4"
+    },
+    "embed": {
+      "provider": "apple",
+      "src": "https://embed.music.apple.com/us/album/6773408253?theme=light",
+      "height": 450
+    },
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://cdn-images.dzcdn.net/images/cover/c139dd42871c7cc5d85c1b1217e5b37f/1000x1000-000000-80-0-0.jpg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": [
+      "ra"
+    ]
+  },
+  {
+    "id": "rufio-dipshit",
+    "type": "single",
+    "artist": "Rufio",
+    "title": "Dipshit",
+    "label": "Double Helix Records (2)",
+    "releaseDate": "2026-06-12",
+    "description": "Rufio turn up on Double Helix with a one-track digital salvo, pop punk played by people who know exactly which decade they belong to. Title tells you most of what you need to know.",
+    "tags": [
+      "rock"
+    ],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=Rufio%20Dipshit&item_type=a",
+      "spotify": "https://open.spotify.com/search/Rufio%20Dipshit",
+      "soundcloud": "https://soundcloud.com/search?q=Rufio%20Dipshit",
+      "youtube": "https://www.youtube.com/results?search_query=Rufio%20Dipshit",
+      "deezer": "https://www.deezer.com/album/993492161"
+    },
+    "embed": {
+      "provider": "deezer",
+      "src": "https://widget.deezer.com/widget/light/album/993492161",
+      "height": 300
+    },
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://i.discogs.com/fEzPxsG3Qo8MjaksaiwRtINMa9X2HLIW-csXNUDJxWw/rs:fit/g:sm/q:90/h:500/w:500/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM3NjA2/OTIzLTE3ODEyNjQz/MjItODYzNC5qcGVn.jpeg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
   },
   {
     "id": "the-chemical-brothers-go-live-from-glastonbury",
@@ -1967,6 +2037,33 @@
     "pressMentions": []
   },
   {
+    "id": "boxcutter-demo",
+    "type": "album",
+    "artist": "Boxcutter",
+    "title": "Demo",
+    "label": "",
+    "releaseDate": "2026-06-05",
+    "description": "Barry Lynn surfacing under the Boxcutter name again, a project long associated with the broken, dubwise edge of Planet Mu's 2000s roster. No label info yet, so file it on faith for now.",
+    "tags": [],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=Boxcutter%20Demo&item_type=a",
+      "spotify": "https://open.spotify.com/search/Boxcutter%20Demo",
+      "soundcloud": "https://soundcloud.com/search?q=Boxcutter%20Demo",
+      "youtube": "https://www.youtube.com/results?search_query=Boxcutter%20Demo"
+    },
+    "embed": null,
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": null,
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
     "id": "bamao-yende-boukan-records-helen-island-fae-sapienta-all-bout-u",
     "type": "single",
     "artist": "Bamao Yendé, Boukan Records, helen island & Fae Sapienta",
@@ -2071,7 +2168,7 @@
     "type": "album",
     "artist": "Machinedrum",
     "title": "BL00MS",
-    "label": "",
+    "label": "IAMSIAM",
     "releaseDate": "2026-06-04",
     "description": "Travis Stewart resurfaces with another full-length under the Machinedrum name, a project that has spent two decades skipping between footwork, jungle, R&B production and whatever the rave was doing that week. Expect restlessness rather than a settled mode.",
     "tags": [],
@@ -9813,12 +9910,13 @@
       "spotify": "https://open.spotify.com/search/Serokolo%207%20Maramfa%20Musick%20Pro",
       "soundcloud": "https://soundcloud.com/search?q=Serokolo%207%20Maramfa%20Musick%20Pro",
       "youtube": "https://www.youtube.com/results?search_query=Serokolo%207%20Maramfa%20Musick%20Pro",
-      "deezer": "https://www.deezer.com/album/954075251"
+      "deezer": "https://www.deezer.com/album/954075251",
+      "apple": "https://music.apple.com/us/album/maramfa-musik-pro/1890549948?uo=4"
     },
     "embed": {
-      "provider": "deezer",
-      "src": "https://widget.deezer.com/widget/light/album/954075251",
-      "height": 300
+      "provider": "apple",
+      "src": "https://embed.music.apple.com/us/album/1890549948?theme=light",
+      "height": 450
     },
     "musicVideoUrl": null,
     "status": "pending",
@@ -20257,6 +20355,74 @@
     "status": "pending",
     "approvedAt": null,
     "coverImageUrl": "https://i.discogs.com/2v0VX7M3z87erJ_cWgHcdHmxV8EJIyU5Fq7SnTAb9ns/rs:fit/g:sm/q:90/h:559/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM3NTQ2/NDkxLTE3ODA2ODYw/NTktNjk3OS5qcGVn.jpeg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
+    "id": "skee-mask-junt",
+    "type": "ep",
+    "artist": "Skee Mask",
+    "title": "Junt",
+    "label": "Ilian Tape",
+    "releaseDate": "2026-01-01",
+    "description": "Four tracks from Skee Mask on Ilian Tape, pressed as a white label 12\". Same family as the broken-techno detours that have been his register for years; shelve with Sa Pa if you need a pointer.",
+    "tags": [
+      "electronic"
+    ],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=Skee%20Mask%20Junt&item_type=a",
+      "spotify": "https://open.spotify.com/search/Skee%20Mask%20Junt",
+      "soundcloud": "https://soundcloud.com/search?q=Skee%20Mask%20Junt",
+      "youtube": "https://www.youtube.com/results?search_query=Skee%20Mask%20Junt",
+      "deezer": "https://www.deezer.com/album/61287162"
+    },
+    "embed": {
+      "provider": "deezer",
+      "src": "https://widget.deezer.com/widget/light/album/61287162",
+      "height": 300
+    },
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://i.discogs.com/ibK5aG0_j3p-xjGgH-kHRRzdoIx0yyVk-8xZlo9K_YI/rs:fit/g:sm/q:90/h:451/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM3NjEy/Mjk5LTE3ODEyOTkx/MjEtNDUwMy5qcGVn.jpeg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
+    "id": "skee-mask-serum",
+    "type": "ep",
+    "artist": "Skee Mask",
+    "title": "Serum",
+    "label": "Ilian Tape",
+    "releaseDate": "2026-01-01",
+    "description": "Five tracks from the Munich producer on the family label, still working that seam between rave-literate techno and the dubbier, sound-system end of his catalogue. For anyone who has filed Pool next to Compro.",
+    "tags": [
+      "electronic"
+    ],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=Skee%20Mask%20Serum&item_type=a",
+      "spotify": "https://open.spotify.com/search/Skee%20Mask%20Serum",
+      "soundcloud": "https://soundcloud.com/search?q=Skee%20Mask%20Serum",
+      "youtube": "https://www.youtube.com/results?search_query=Skee%20Mask%20Serum",
+      "deezer": "https://www.deezer.com/album/61286282"
+    },
+    "embed": {
+      "provider": "deezer",
+      "src": "https://widget.deezer.com/widget/light/album/61286282",
+      "height": 300
+    },
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://i.discogs.com/mLVcfpaodDdSfyQYNJWJnzj8Oj3S7w77WoMSrtoNliE/rs:fit/g:sm/q:90/h:451/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM3NjEy/MjEyLTE3ODEyOTgy/NTYtMjMwOS5qcGVn.jpeg",
     "cover": {
       "bg": "#111110",
       "fg": "#f2efe8",
@@ -32929,7 +33095,7 @@
     "title": "Ready, Set, Go! (Live, Riverside Studios '03)",
     "label": "Parlophone",
     "releaseDate": "2025-04-12",
-    "description": "",
+    "description": "A Riverside Studios live set from the Reality-era band, pressed for Record Store Day on ISO. Fourteen tracks of Bowie working through the catalogue with a road-tight group; one for the completists rather than the curious.",
     "tags": [
       "rock"
     ],
@@ -32958,7 +33124,7 @@
     "title": "H.D. Reliquary",
     "label": "29 Speedway",
     "releaseDate": "2025-04-11",
-    "description": "",
+    "description": "Eleven tracks of brittle, processed ambient from Ben Shirken, landing on 29 Speedway. Abstract enough to reward close listening, weighted enough to sit alongside Felicia Atkinson on the shelf.",
     "tags": [
       "electronic"
     ],
@@ -32993,7 +33159,7 @@
     "title": "Sable, Fable",
     "label": "Jagjaguwar",
     "releaseDate": "2025-04-11",
-    "description": "",
+    "description": "Vernon back on Jagjaguwar with a fourteen-track LP that sits closer to the folk-rock pole of his catalogue than the processed-vocal abstractions of 22, A Million. Cut at 45 RPM, which suggests the label is taking the fidelity question seriously.",
     "tags": [
       "rock"
     ],
@@ -33027,7 +33193,7 @@
     "title": "Another Leaf",
     "label": "Brainfeeder",
     "releaseDate": "2025-04-09",
-    "description": "",
+    "description": "Artadi rewrites her own catalogue with a full Swedish big band behind her, the Brainfeeder pop sensibility now smeared across brass charts and fusion arrangements. Closer to Knower fans willing to follow her further out than anything resembling crossover jazz.",
     "tags": [
       "jazz"
     ],
@@ -33060,7 +33226,7 @@
     "title": "Singles & Jingles 2016-2021",
     "label": "Snappy Little Numbers",
     "releaseDate": "2025-04-08",
-    "description": "",
+    "description": "Five years of Charlie Continental's odds and ends gathered into one eight-track sweep, collected by Denver lifers Snappy Little Numbers. Punk in the workmanlike sense, short songs that were never meant to share a sleeve but sit together fine.",
     "tags": [
       "rock"
     ],
@@ -33095,7 +33261,7 @@
     "title": "Good Life + All Bent Out Of Shape",
     "label": "Snappy Little Numbers",
     "releaseDate": "2025-04-08",
-    "description": "",
+    "description": "Nine tracks of pop-punk and emo from No Dreams gathered onto one Snappy Little Numbers compilation, pulling the Good Life and All Bent Out Of Shape material into a single sitting. Filed next to the label's scrappier guitar output.",
     "tags": [
       "rock"
     ],
@@ -33128,7 +33294,7 @@
     "title": "Entrance",
     "label": "Shelter Press",
     "releaseDate": "2025-04-04",
-    "description": "",
+    "description": "John Wiese's grindcore-noise unit lands on Shelter Press for four pieces of cut-up musique concrète and pulverised debris. Closer in spirit to the label's harsher catalogue than its quieter ambient end.",
     "tags": [
       "electronic"
     ],
@@ -33163,7 +33329,7 @@
     "title": "Forever Howlong",
     "label": "Ninja Tune",
     "releaseDate": "2025-04-04",
-    "description": "",
+    "description": "Black Country, New Road's Ninja Tune full-length leans further into chamber folk and ensemble songwriting, with the post-rock scaffolding now mostly load-bearing rather than ornamental. Eleven tracks, pressed as a limited LP.",
     "tags": [
       "rock"
     ],
@@ -33197,7 +33363,7 @@
     "title": "In Opulence",
     "label": "100% Silk",
     "releaseDate": "2025-04-04",
-    "description": "",
+    "description": "Eleven tracks of house from Indopan for 100% Silk, the LA label still mining the cassette-warm, jacking lineage it built its reputation on. Sits comfortably next to Octo Octa for anyone tracking that corner of the catalogue.",
     "tags": [
       "electronic"
     ],
@@ -33232,7 +33398,7 @@
     "title": "Moonlight Beach",
     "label": "100% Silk",
     "releaseDate": "2025-04-04",
-    "description": "",
+    "description": "Ten tracks of unhurried house from patioworld on 100% Silk, the label still mining the same sunlit, lo-fi end of the dancefloor it has worked since the Not Not Fun days. For anyone with an Octo Octa shelf.",
     "tags": [
       "electronic"
     ],
