@@ -975,6 +975,68 @@
     "pressMentions": []
   },
   {
+    "id": "ricardo-villalobos-without-references-cindy-van-acker-ricardo-villalobos-variati",
+    "type": "album",
+    "artist": "Ricardo Villalobos",
+    "title": "Without References / Cindy van Acker (Ricardo Villalobos Variations)",
+    "label": "",
+    "releaseDate": "2026-06-12",
+    "description": "Villalobos reworks material tied to choreographer Cindy van Acker, which on past form means his minimal techno bent toward the rhythmically unsteady and structurally patient. File alongside the more abstract end of his Perlon catalogue.",
+    "tags": [],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=Ricardo%20Villalobos%20Without%20References%20%2F%20Cindy%20van%20Acker%20(Ricardo%20Villalobos%20Variations)&item_type=a",
+      "spotify": "https://open.spotify.com/search/Ricardo%20Villalobos%20Without%20References%20%2F%20Cindy%20van%20Acker%20(Ricardo%20Villalobos%20Variations)",
+      "soundcloud": "https://soundcloud.com/search?q=Ricardo%20Villalobos%20Without%20References%20%2F%20Cindy%20van%20Acker%20(Ricardo%20Villalobos%20Variations)",
+      "youtube": "https://www.youtube.com/results?search_query=Ricardo%20Villalobos%20Without%20References%20%2F%20Cindy%20van%20Acker%20(Ricardo%20Villalobos%20Variations)",
+      "deezer": "https://www.deezer.com/album/943344931",
+      "apple": "https://music.apple.com/us/album/without-references-cindy-van-acker-ricardo-villalobos/1886457200?uo=4"
+    },
+    "embed": {
+      "provider": "apple",
+      "src": "https://embed.music.apple.com/us/album/1886457200?theme=light",
+      "height": 450
+    },
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://cdn-images.dzcdn.net/images/cover/cd8dc764f9fb390d6d6622ba3aa3fd77/1000x1000-000000-80-0-0.jpg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
+    "id": "talla-2xlc-world-of-trance-21-extended-mixes",
+    "type": "album",
+    "artist": "Talla 2XLC",
+    "title": "World Of Trance 21 (Extended Mixes)",
+    "label": "ZYX Music",
+    "releaseDate": "2026-06-12",
+    "description": "The latest installment in Talla 2XLC's long-running ZYX series, eight extended cuts aimed squarely at the uplifting end of the German trance tradition he has been curating for decades. Functional rather than searching, and unembarrassed about it.",
+    "tags": [
+      "electronic"
+    ],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=Talla%202XLC%20World%20Of%20Trance%2021%20(Extended%20Mixes)&item_type=a",
+      "spotify": "https://open.spotify.com/search/Talla%202XLC%20World%20Of%20Trance%2021%20(Extended%20Mixes)",
+      "soundcloud": "https://soundcloud.com/search?q=Talla%202XLC%20World%20Of%20Trance%2021%20(Extended%20Mixes)",
+      "youtube": "https://www.youtube.com/results?search_query=Talla%202XLC%20World%20Of%20Trance%2021%20(Extended%20Mixes)"
+    },
+    "embed": null,
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://i.discogs.com/_2Ee6krpZ4GxKAmXnAmJCaY6LNFGk0JgdYbeKULLmMs/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM3NjE2/OTQzLTE3ODEzNTMz/OTEtMTM1OS5qcGVn.jpeg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
     "id": "the-chemical-brothers-go-live-from-glastonbury",
     "type": "single",
     "artist": "The Chemical Brothers",
@@ -9073,7 +9135,8 @@
       "spotify": "https://open.spotify.com/search/Daragh%20Fleming%20%26%20Throwing%20Snow%20THE%20WELFARE%20OF%20FORGOTTEN%20THINGS",
       "soundcloud": "https://soundcloud.com/search?q=Daragh%20Fleming%20%26%20Throwing%20Snow%20THE%20WELFARE%20OF%20FORGOTTEN%20THINGS",
       "youtube": "https://www.youtube.com/results?search_query=Daragh%20Fleming%20%26%20Throwing%20Snow%20THE%20WELFARE%20OF%20FORGOTTEN%20THINGS",
-      "apple": "https://music.apple.com/us/album/the-welfare-of-forgotten-things-single/1889572106"
+      "apple": "https://music.apple.com/us/album/the-welfare-of-forgotten-things-single/1889572106",
+      "tidal": "https://tidal.com/album/511762127"
     },
     "embed": {
       "provider": "apple",
@@ -9106,7 +9169,8 @@
       "soundcloud": "https://soundcloud.com/search?q=Throwing%20Snow%20THE%20WELFARE%20OF%20FORGOTTEN%20THINGS",
       "youtube": "https://www.youtube.com/results?search_query=Throwing%20Snow%20THE%20WELFARE%20OF%20FORGOTTEN%20THINGS",
       "deezer": "https://www.deezer.com/album/951818551",
-      "apple": "https://music.apple.com/us/album/the-welfare-of-forgotten-things-single/1889572106?uo=4"
+      "apple": "https://music.apple.com/us/album/the-welfare-of-forgotten-things-single/1889572106?uo=4",
+      "tidal": "https://tidal.com/album/511762127"
     },
     "embed": {
       "provider": "apple",
@@ -9239,7 +9303,8 @@
       "bandcamp": "https://bandcamp.com/search?q=SAGES%2C%20%C3%93lafur%20Arnalds%20%26%20Loreen%20SAGES%20(Echoes%20Edition)&item_type=a",
       "spotify": "https://open.spotify.com/search/SAGES%2C%20%C3%93lafur%20Arnalds%20%26%20Loreen%20SAGES%20(Echoes%20Edition)",
       "soundcloud": "https://soundcloud.com/search?q=SAGES%2C%20%C3%93lafur%20Arnalds%20%26%20Loreen%20SAGES%20(Echoes%20Edition)",
-      "youtube": "https://www.youtube.com/results?search_query=SAGES%2C%20%C3%93lafur%20Arnalds%20%26%20Loreen%20SAGES%20(Echoes%20Edition)"
+      "youtube": "https://www.youtube.com/results?search_query=SAGES%2C%20%C3%93lafur%20Arnalds%20%26%20Loreen%20SAGES%20(Echoes%20Edition)",
+      "tidal": "https://tidal.com/album/516642443"
     },
     "embed": {
       "provider": "apple",
@@ -9272,7 +9337,8 @@
       "soundcloud": "https://soundcloud.com/search?q=Noon%20Gravity",
       "youtube": "https://www.youtube.com/results?search_query=Noon%20Gravity",
       "deezer": "https://www.deezer.com/album/966479231",
-      "apple": "https://music.apple.com/us/album/gravity-single/1894920001?uo=4"
+      "apple": "https://music.apple.com/us/album/gravity-single/1894920001?uo=4",
+      "tidal": "https://tidal.com/album/517642945"
     },
     "embed": {
       "provider": "apple",
@@ -9339,7 +9405,8 @@
       "soundcloud": "https://soundcloud.com/search?q=james%20K%20Friend%20Remixes",
       "youtube": "https://www.youtube.com/results?search_query=james%20K%20Friend%20Remixes",
       "deezer": "https://www.deezer.com/album/968290261",
-      "apple": "https://music.apple.com/us/album/friend-remixes/1895294388?uo=4"
+      "apple": "https://music.apple.com/us/album/friend-remixes/1895294388?uo=4",
+      "tidal": "https://tidal.com/album/518683784"
     },
     "embed": {
       "provider": "apple",
@@ -9375,7 +9442,8 @@
       "spotify": "https://open.spotify.com/search/Eliana%20Glass%20E%20At%20Home",
       "soundcloud": "https://soundcloud.com/search?q=Eliana%20Glass%20E%20At%20Home",
       "youtube": "https://www.youtube.com/results?search_query=Eliana%20Glass%20E%20At%20Home",
-      "apple": "https://music.apple.com/us/album/e-at-home-ep/1885652043?uo=4"
+      "apple": "https://music.apple.com/us/album/e-at-home-ep/1885652043?uo=4",
+      "tidal": "https://tidal.com/album/507636900"
     },
     "embed": {
       "provider": "apple",
@@ -9409,7 +9477,8 @@
       "spotify": "https://open.spotify.com/search/Gia%20Margaret%20Singing",
       "soundcloud": "https://soundcloud.com/search?q=Gia%20Margaret%20Singing",
       "youtube": "https://www.youtube.com/results?search_query=Gia%20Margaret%20Singing",
-      "apple": "https://music.apple.com/us/album/singing/1869047383?uo=4"
+      "apple": "https://music.apple.com/us/album/singing/1869047383?uo=4",
+      "tidal": "https://tidal.com/album/489681644"
     },
     "embed": {
       "provider": "apple",
@@ -9445,7 +9514,8 @@
       "spotify": "https://open.spotify.com/search/NOON%20%26%20fatbasso%20Gravity",
       "soundcloud": "https://soundcloud.com/search?q=NOON%20%26%20fatbasso%20Gravity",
       "youtube": "https://www.youtube.com/results?search_query=NOON%20%26%20fatbasso%20Gravity",
-      "apple": "https://music.apple.com/us/album/gravity-single/1894920001"
+      "apple": "https://music.apple.com/us/album/gravity-single/1894920001",
+      "tidal": "https://tidal.com/album/517642945"
     },
     "embed": {
       "provider": "apple",
@@ -9510,7 +9580,8 @@
       "soundcloud": "https://soundcloud.com/search?q=Lone%20THIS%20ONE%20A%20KEEPER",
       "youtube": "https://www.youtube.com/results?search_query=Lone%20THIS%20ONE%20A%20KEEPER",
       "deezer": "https://www.deezer.com/album/966602851",
-      "apple": "https://music.apple.com/us/album/this-one-a-keeper/1895072796?uo=4"
+      "apple": "https://music.apple.com/us/album/this-one-a-keeper/1895072796?uo=4",
+      "tidal": "https://tidal.com/album/517999425"
     },
     "embed": {
       "provider": "apple",
@@ -9543,7 +9614,8 @@
       "soundcloud": "https://soundcloud.com/search?q=%C3%93lafur%20Arnalds%20SAGES%20(Echoes%20Edition)",
       "youtube": "https://www.youtube.com/results?search_query=%C3%93lafur%20Arnalds%20SAGES%20(Echoes%20Edition)",
       "deezer": "https://www.deezer.com/album/963244661",
-      "apple": "https://music.apple.com/us/album/sages-echoes-edition/1889567505?uo=4"
+      "apple": "https://music.apple.com/us/album/sages-echoes-edition/1889567505?uo=4",
+      "tidal": "https://tidal.com/album/516642443"
     },
     "embed": {
       "provider": "apple",
@@ -9643,7 +9715,8 @@
       "soundcloud": "https://soundcloud.com/search?q=The%2018th%20Parallel%20All%20Fruits%20Ripe",
       "youtube": "https://www.youtube.com/results?search_query=The%2018th%20Parallel%20All%20Fruits%20Ripe",
       "deezer": "https://www.deezer.com/album/905434522",
-      "apple": "https://music.apple.com/us/album/all-fruits-ripe/6768310927?uo=4"
+      "apple": "https://music.apple.com/us/album/all-fruits-ripe/6768310927?uo=4",
+      "tidal": "https://tidal.com/album/493004707"
     },
     "embed": {
       "provider": "apple",
@@ -33432,7 +33505,7 @@
     "title": "Calla",
     "label": "Orange Milk Records",
     "releaseDate": "2025-04-04",
-    "description": "",
+    "description": "NTsKi's second LP for Orange Milk gets a repress, fourteen tracks pulling J-pop song-form through ambient, club residue and outright abstraction. Sits comfortably near Foodman on the shelf.",
     "tags": [
       "electronic"
     ],
@@ -33467,7 +33540,7 @@
     "title": "Music Belongs To The Universe // Desert Mirror",
     "label": "Leaving Records",
     "releaseDate": "2025-04-04",
-    "description": "",
+    "description": "Seventeen tracks of keyboard-led ambient jazz from Nico Georis, landing on Leaving Records in a limited stereo LP. Sits comfortably next to Carlos Niño's orbit if you need a shelf.",
     "tags": [
       "electronic"
     ],
@@ -33501,7 +33574,7 @@
     "title": "On A Painted Ocean",
     "label": "Western Vinyl",
     "releaseDate": "2025-04-04",
-    "description": "",
+    "description": "New Orleans accordionist Walt McClements returns to Western Vinyl with seven pieces of bellows-driven drone that sit closer to the neo-classical end of his catalog than the folk one. For anyone tracking Mary Lattimore's orbit on the same label.",
     "tags": [
       "electronic"
     ],
@@ -33536,7 +33609,7 @@
     "title": "Matter Of Time",
     "label": "LuckyMe",
     "releaseDate": "2025-04-04",
-    "description": "",
+    "description": "Six tracks from the New York producer for LuckyMe, sat where hyperpop's metallic sugar rush bleeds into IDM detailing and a stiffer techno chassis. For anyone tracking the post-100 gecs producer class without losing the dancefloor.",
     "tags": [
       "electronic"
     ],
@@ -33571,7 +33644,7 @@
     "title": "greater honeyguide",
     "label": "mappa",
     "releaseDate": "2025-04-03",
-    "description": "",
+    "description": "Five electroacoustic pieces from the Anne Guthrie and Billy Gomberg duo, landing on Slovakia's mappa where this kind of patient, room-toned drone has a natural home. Field recording and instrument bleed into each other until you stop trying to tell them apart.",
     "tags": [
       "electronic"
     ],
@@ -33605,7 +33678,7 @@
     "title": "Stochastic Drift",
     "label": "Smalltown Supersound",
     "releaseDate": "2025-04-03",
-    "description": "",
+    "description": "Barker leaves Ostgut Ton for Smalltown Supersound and brings his kick-less techno logic with him, eight tracks of melodic propulsion that move without ever quite landing. For anyone who has worn out Utility.",
     "tags": [
       "electronic"
     ],
@@ -33640,7 +33713,7 @@
     "title": "Culture Shock",
     "label": "Youth Attack",
     "releaseDate": "2025-04-01",
-    "description": "",
+    "description": "Four tracks of hardcore on Youth Attack, pressed to a limited 7\" that will be gone by the time you remember to check. Mark McCoy's imprint remains the obvious shelf for this kind of thing.",
     "tags": [
       "rock"
     ],
@@ -33675,7 +33748,7 @@
     "title": "Instinct",
     "label": "Bam&Co - Heavy",
     "releaseDate": "2025-04-01",
-    "description": "",
+    "description": "Twelve tracks of Quebecois thrash from the long-running Anonymus, remastered for vinyl via Bam&Co. Heavy. Built for the pit, not the headphones.",
     "tags": [
       "rock"
     ],
@@ -33710,7 +33783,7 @@
     "title": "120 Days",
     "label": "Norske Albumklassikere",
     "releaseDate": "2025-04-01",
-    "description": "",
+    "description": "The 2006 Oslo krautrock-into-synth-pop debut returns via Norske Albumklassikere as a numbered, remastered LP. Long motorik builds and cold-room electronics that still sit comfortably next to early Lindstrøm.",
     "tags": [
       "electronic"
     ],
@@ -33744,7 +33817,7 @@
     "title": "Trônes Amoncelés",
     "label": "Opal Tapes",
     "releaseDate": "2025-03-28",
-    "description": "",
+    "description": "Augustin Braud lands on Opal Tapes with a single piece of electroacoustic musique concrète, stereo only, no physical edition implied. Sits closer to the label's harsher tape-collage end than its club excursions.",
     "tags": [
       "electronic"
     ],
@@ -33778,7 +33851,7 @@
     "title": "Kembo",
     "label": "Nyege Nyege Tapes",
     "releaseDate": "2025-03-28",
-    "description": "",
+    "description": "Nyege Nyege Tapes pressing of Kingdom Molongi material that sits between Congolese gospel, field recording and something stranger at the edges. Limited LP for shelves already holding Sorcerer or the label's Hakuna Kulala adjacencies.",
     "tags": [
       "electronic"
     ],
@@ -33812,7 +33885,7 @@
     "title": "Advanced Surface Habitat",
     "label": "Other People",
     "releaseDate": "2025-03-28",
-    "description": "",
+    "description": "Two cuts of dub techno from Surface Access on Nicolas Jaar's Other People, pressed at 45 for what little extra weight the format affords. Sits closer to the patient, room-tone end of the style than the club one.",
     "tags": [
       "electronic"
     ],
@@ -33846,7 +33919,7 @@
     "title": "2 Bobry I Zachód Słońca",
     "label": "Coastline Northern Cuts",
     "releaseDate": "2025-03-28",
-    "description": "",
+    "description": "Twelve tracks of jazz-funk leaning hip-hop from Klawo, pressed to limited LP by Coastline Northern Cuts. Warm horn-and-Rhodes territory for anyone who still files Apollo Brown next to Potatohead People.",
     "tags": [
       "hip hop"
     ],
@@ -39784,9 +39857,14 @@
       "bandcamp": "https://bandcamp.com/search?q=Yoichi%20Kamimura%20%26%20Olli%20Aarni%20K%C5%8Dri%20no%20ryok%C5%8D%20%2F%20J%C3%A4%C3%A4matkailu&item_type=a",
       "spotify": "https://open.spotify.com/search/Yoichi%20Kamimura%20%26%20Olli%20Aarni%20K%C5%8Dri%20no%20ryok%C5%8D%20%2F%20J%C3%A4%C3%A4matkailu",
       "soundcloud": "https://soundcloud.com/search?q=Yoichi%20Kamimura%20%26%20Olli%20Aarni%20K%C5%8Dri%20no%20ryok%C5%8D%20%2F%20J%C3%A4%C3%A4matkailu",
-      "youtube": "https://www.youtube.com/results?search_query=Yoichi%20Kamimura%20%26%20Olli%20Aarni%20K%C5%8Dri%20no%20ryok%C5%8D%20%2F%20J%C3%A4%C3%A4matkailu"
+      "youtube": "https://www.youtube.com/results?search_query=Yoichi%20Kamimura%20%26%20Olli%20Aarni%20K%C5%8Dri%20no%20ryok%C5%8D%20%2F%20J%C3%A4%C3%A4matkailu",
+      "deezer": "https://www.deezer.com/album/820009331"
     },
-    "embed": null,
+    "embed": {
+      "provider": "deezer",
+      "src": "https://widget.deezer.com/widget/light/album/820009331",
+      "height": 300
+    },
     "musicVideoUrl": null,
     "status": "pending",
     "approvedAt": null,
