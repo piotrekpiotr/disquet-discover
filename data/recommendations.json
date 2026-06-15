@@ -552,6 +552,40 @@
     "pressMentions": []
   },
   {
+    "id": "lone-affinity-versions",
+    "type": "single",
+    "artist": "Lone",
+    "title": "Affinity (Versions)",
+    "label": "",
+    "releaseDate": "2026-06-15",
+    "description": "Lone returns to the rave-tinted, sugar-rush palette he has trafficked in since Galaxy Garden, this time reframing Affinity through alternate versions. No label listed yet; one for the Magicwire and R&S faithful.",
+    "tags": [],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=Lone%20Affinity%20(Versions)&item_type=a",
+      "spotify": "https://open.spotify.com/search/Lone%20Affinity%20(Versions)",
+      "soundcloud": "https://soundcloud.com/search?q=Lone%20Affinity%20(Versions)",
+      "youtube": "https://www.youtube.com/results?search_query=Lone%20Affinity%20(Versions)",
+      "deezer": "https://www.deezer.com/album/988804061",
+      "apple": "https://music.apple.com/us/album/affinity-versions-single/6772127017?uo=4",
+      "tidal": "https://tidal.com/album/527068931"
+    },
+    "embed": {
+      "provider": "apple",
+      "src": "https://embed.music.apple.com/us/album/6772127017?theme=light",
+      "height": 450
+    },
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://cdn-images.dzcdn.net/images/cover/334e1a6fbacfbd0f252d0a8f5026e3d2/1000x1000-000000-80-0-0.jpg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
     "id": "baauer-u",
     "type": "album",
     "artist": "Baauer",
@@ -20504,6 +20538,35 @@
     "pressMentions": []
   },
   {
+    "id": "bonnie-gayle-i-can-t-change-my-skin",
+    "type": "single",
+    "artist": "Bonnie Gayle",
+    "title": "I Can't Change My Skin",
+    "label": "Black World",
+    "releaseDate": "2026-01-01",
+    "description": "A roots reggae 7\" repress on Black World, surfacing as a test pressing of a record that has lived mostly in collectors' boxes. Two sides, played at 45, aimed squarely at the Studio One and Pressure Sounds crowd.",
+    "tags": [
+      "reggae"
+    ],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=Bonnie%20Gayle%20I%20Can't%20Change%20My%20Skin&item_type=a",
+      "spotify": "https://open.spotify.com/search/Bonnie%20Gayle%20I%20Can't%20Change%20My%20Skin",
+      "soundcloud": "https://soundcloud.com/search?q=Bonnie%20Gayle%20I%20Can't%20Change%20My%20Skin",
+      "youtube": "https://www.youtube.com/results?search_query=Bonnie%20Gayle%20I%20Can't%20Change%20My%20Skin"
+    },
+    "embed": null,
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://i.discogs.com/7wGY_M2qRLJCuImoW4tO1ZRCm0BU4mYxkLRt1Kh2ZX0/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM3NjI2/NTA3LTE3ODE0NDY0/MTEtMjk1NS5qcGVn.jpeg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
     "id": "tim-maia-racional-vol-1",
     "type": "album",
     "artist": "Tim Maia",
@@ -29343,7 +29406,8 @@
       "spotify": "https://open.spotify.com/search/Bowling%20For%20Soup%20Pop%20Drunk%20Snot%20Bread",
       "soundcloud": "https://soundcloud.com/search?q=Bowling%20For%20Soup%20Pop%20Drunk%20Snot%20Bread",
       "youtube": "https://www.youtube.com/results?search_query=Bowling%20For%20Soup%20Pop%20Drunk%20Snot%20Bread",
-      "deezer": "https://www.deezer.com/album/292893792"
+      "deezer": "https://www.deezer.com/album/292893792",
+      "tidal": "https://tidal.com/album/215202250"
     },
     "embed": {
       "provider": "deezer",
@@ -29377,7 +29441,8 @@
       "spotify": "https://open.spotify.com/search/Coil%20Black%20Antlers",
       "soundcloud": "https://soundcloud.com/search?q=Coil%20Black%20Antlers",
       "youtube": "https://www.youtube.com/results?search_query=Coil%20Black%20Antlers",
-      "apple": "https://music.apple.com/us/album/black-antlers/1802022541?uo=4"
+      "apple": "https://music.apple.com/us/album/black-antlers/1802022541?uo=4",
+      "tidal": "https://tidal.com/album/423795342"
     },
     "embed": {
       "provider": "apple",
@@ -29411,7 +29476,8 @@
       "spotify": "https://open.spotify.com/search/Bowling%20For%20Soup%20Drunk%20Dynasty",
       "soundcloud": "https://soundcloud.com/search?q=Bowling%20For%20Soup%20Drunk%20Dynasty",
       "youtube": "https://www.youtube.com/results?search_query=Bowling%20For%20Soup%20Drunk%20Dynasty",
-      "deezer": "https://www.deezer.com/album/639657651"
+      "deezer": "https://www.deezer.com/album/639657651",
+      "tidal": "https://tidal.com/album/385788014"
     },
     "embed": {
       "provider": "deezer",
@@ -29446,7 +29512,8 @@
       "soundcloud": "https://soundcloud.com/search?q=Harry%20The%20Nightgown%20Ugh",
       "youtube": "https://www.youtube.com/results?search_query=Harry%20The%20Nightgown%20Ugh",
       "deezer": "https://www.deezer.com/album/698085651",
-      "apple": "https://music.apple.com/us/album/ugh/1789770510?uo=4"
+      "apple": "https://music.apple.com/us/album/ugh/1789770510?uo=4",
+      "tidal": "https://tidal.com/album/410782795"
     },
     "embed": {
       "provider": "apple",
@@ -29481,7 +29548,8 @@
       "soundcloud": "https://soundcloud.com/search?q=Zoh%20Amba%20Sun",
       "youtube": "https://www.youtube.com/results?search_query=Zoh%20Amba%20Sun",
       "deezer": "https://www.deezer.com/album/756327741",
-      "apple": "https://music.apple.com/us/album/sun/1814205029?uo=4"
+      "apple": "https://music.apple.com/us/album/sun/1814205029?uo=4",
+      "tidal": "https://tidal.com/album/435780363"
     },
     "embed": {
       "provider": "apple",
@@ -29579,7 +29647,8 @@
       "spotify": "https://open.spotify.com/search/Alien%20D%20For%20The%20Early%20Hours%20Of%20A%20World%20In%20Bloom",
       "soundcloud": "https://soundcloud.com/search?q=Alien%20D%20For%20The%20Early%20Hours%20Of%20A%20World%20In%20Bloom",
       "youtube": "https://www.youtube.com/results?search_query=Alien%20D%20For%20The%20Early%20Hours%20Of%20A%20World%20In%20Bloom",
-      "apple": "https://music.apple.com/us/album/for-the-early-hours-of-a-world-in-bloom/1812848463?uo=4"
+      "apple": "https://music.apple.com/us/album/for-the-early-hours-of-a-world-in-bloom/1812848463?uo=4",
+      "tidal": "https://tidal.com/album/434049443"
     },
     "embed": {
       "provider": "apple",
@@ -29613,7 +29682,8 @@
       "spotify": "https://open.spotify.com/search/Okay%20Kaya%20Watch%20This%20Liquid%20Pour%20Itself",
       "soundcloud": "https://soundcloud.com/search?q=Okay%20Kaya%20Watch%20This%20Liquid%20Pour%20Itself",
       "youtube": "https://www.youtube.com/results?search_query=Okay%20Kaya%20Watch%20This%20Liquid%20Pour%20Itself",
-      "apple": "https://music.apple.com/us/album/watch-this-liquid-pour-itself/1484716268?uo=4"
+      "apple": "https://music.apple.com/us/album/watch-this-liquid-pour-itself/1484716268?uo=4",
+      "tidal": "https://tidal.com/album/123376417"
     },
     "embed": {
       "provider": "apple",
@@ -29676,7 +29746,8 @@
       "spotify": "https://open.spotify.com/search/F%C3%A9licia%20Atkinson%20Promenades",
       "soundcloud": "https://soundcloud.com/search?q=F%C3%A9licia%20Atkinson%20Promenades",
       "youtube": "https://www.youtube.com/results?search_query=F%C3%A9licia%20Atkinson%20Promenades",
-      "apple": "https://music.apple.com/us/album/promenades-ep/1817257582?uo=4"
+      "apple": "https://music.apple.com/us/album/promenades-ep/1817257582?uo=4",
+      "tidal": "https://tidal.com/album/438786817"
     },
     "embed": {
       "provider": "apple",
@@ -29710,7 +29781,8 @@
       "spotify": "https://open.spotify.com/search/Hotswing%20Forever%20EP",
       "soundcloud": "https://soundcloud.com/search?q=Hotswing%20Forever%20EP",
       "youtube": "https://www.youtube.com/results?search_query=Hotswing%20Forever%20EP",
-      "deezer": "https://www.deezer.com/album/764513551"
+      "deezer": "https://www.deezer.com/album/764513551",
+      "tidal": "https://tidal.com/album/438729244"
     },
     "embed": {
       "provider": "deezer",
@@ -29744,7 +29816,8 @@
       "spotify": "https://open.spotify.com/search/Julien%20Mier%20Gradually",
       "soundcloud": "https://soundcloud.com/search?q=Julien%20Mier%20Gradually",
       "youtube": "https://www.youtube.com/results?search_query=Julien%20Mier%20Gradually",
-      "apple": "https://music.apple.com/us/album/gradually/1801557914?uo=4"
+      "apple": "https://music.apple.com/us/album/gradually/1801557914?uo=4",
+      "tidal": "https://tidal.com/album/423306631"
     },
     "embed": {
       "provider": "apple",
@@ -29778,7 +29851,8 @@
       "spotify": "https://open.spotify.com/search/Mammo%20(2)%20General%20Patterns",
       "soundcloud": "https://soundcloud.com/search?q=Mammo%20(2)%20General%20Patterns",
       "youtube": "https://www.youtube.com/results?search_query=Mammo%20(2)%20General%20Patterns",
-      "apple": "https://music.apple.com/us/album/general-patterns/1817150629?uo=4"
+      "apple": "https://music.apple.com/us/album/general-patterns/1817150629?uo=4",
+      "tidal": "https://tidal.com/album/438664272"
     },
     "embed": {
       "provider": "apple",
@@ -29812,7 +29886,8 @@
       "spotify": "https://open.spotify.com/search/Scott%20Sellers%20(3)%20One%20And%2C%20And%2C%20And%2C%20And%20One%2C%20And%2C%20And%2C%20Three%20And%2C%20And",
       "soundcloud": "https://soundcloud.com/search?q=Scott%20Sellers%20(3)%20One%20And%2C%20And%2C%20And%2C%20And%20One%2C%20And%2C%20And%2C%20Three%20And%2C%20And",
       "youtube": "https://www.youtube.com/results?search_query=Scott%20Sellers%20(3)%20One%20And%2C%20And%2C%20And%2C%20And%20One%2C%20And%2C%20And%2C%20Three%20And%2C%20And",
-      "apple": "https://music.apple.com/us/album/one-and-and-and-and-one-and-and-three-and-and/1814325452?uo=4"
+      "apple": "https://music.apple.com/us/album/one-and-and-and-and-one-and-and-three-and-and/1814325452?uo=4",
+      "tidal": "https://tidal.com/album/435820705"
     },
     "embed": {
       "provider": "apple",
@@ -29845,7 +29920,8 @@
       "soundcloud": "https://soundcloud.com/search?q=Biosphere%20The%20Way%20of%20Time",
       "youtube": "https://www.youtube.com/results?search_query=Biosphere%20The%20Way%20of%20Time",
       "deezer": "https://www.deezer.com/album/747165371",
-      "apple": "https://music.apple.com/us/album/the-way-of-time/1810444272?uo=4"
+      "apple": "https://music.apple.com/us/album/the-way-of-time/1810444272?uo=4",
+      "tidal": "https://tidal.com/album/431923381"
     },
     "embed": {
       "provider": "apple",
@@ -29879,7 +29955,8 @@
       "spotify": "https://open.spotify.com/search/Masayoshi%20Fujita%20Smoking%20Tigers%20(Original%20Score)",
       "soundcloud": "https://soundcloud.com/search?q=Masayoshi%20Fujita%20Smoking%20Tigers%20(Original%20Score)",
       "youtube": "https://www.youtube.com/results?search_query=Masayoshi%20Fujita%20Smoking%20Tigers%20(Original%20Score)",
-      "apple": "https://music.apple.com/us/album/smoking-tigers-original-score/1816912041?uo=4"
+      "apple": "https://music.apple.com/us/album/smoking-tigers-original-score/1816912041?uo=4",
+      "tidal": "https://tidal.com/album/438423941"
     },
     "embed": {
       "provider": "apple",
@@ -29913,7 +29990,8 @@
       "spotify": "https://open.spotify.com/search/Car%20Culture%20Nothingburger%20EP",
       "soundcloud": "https://soundcloud.com/search?q=Car%20Culture%20Nothingburger%20EP",
       "youtube": "https://www.youtube.com/results?search_query=Car%20Culture%20Nothingburger%20EP",
-      "apple": "https://music.apple.com/us/album/nothingburger-ep-ep/1816053267?uo=4"
+      "apple": "https://music.apple.com/us/album/nothingburger-ep-ep/1816053267?uo=4",
+      "tidal": "https://tidal.com/album/437567651"
     },
     "embed": {
       "provider": "apple",
@@ -29980,7 +30058,8 @@
       "spotify": "https://open.spotify.com/search/C418%20Minecraft%20Volume%20Alpha%20%2F%20Minecraft%20Volume%20Beta",
       "soundcloud": "https://soundcloud.com/search?q=C418%20Minecraft%20Volume%20Alpha%20%2F%20Minecraft%20Volume%20Beta",
       "youtube": "https://www.youtube.com/results?search_query=C418%20Minecraft%20Volume%20Alpha%20%2F%20Minecraft%20Volume%20Beta",
-      "apple": "https://music.apple.com/us/album/minecraft-volume-alpha/1867885113?uo=4"
+      "apple": "https://music.apple.com/us/album/minecraft-volume-alpha/1867885113?uo=4",
+      "tidal": "https://tidal.com/album/488529240"
     },
     "embed": {
       "provider": "apple",
@@ -30014,7 +30093,8 @@
       "spotify": "https://open.spotify.com/search/Vickie%20Cherie%20Cherie%20On%20Top",
       "soundcloud": "https://soundcloud.com/search?q=Vickie%20Cherie%20Cherie%20On%20Top",
       "youtube": "https://www.youtube.com/results?search_query=Vickie%20Cherie%20Cherie%20On%20Top",
-      "apple": "https://music.apple.com/us/album/cherie-on-top-friends-edition/1867453384?uo=4"
+      "apple": "https://music.apple.com/us/album/cherie-on-top-friends-edition/1867453384?uo=4",
+      "tidal": "https://tidal.com/album/488101264"
     },
     "embed": {
       "provider": "apple",
@@ -30049,7 +30129,8 @@
       "soundcloud": "https://soundcloud.com/search?q=Any%20(6)%20Mega%20Mercy",
       "youtube": "https://www.youtube.com/results?search_query=Any%20(6)%20Mega%20Mercy",
       "deezer": "https://www.deezer.com/album/765422671",
-      "apple": "https://music.apple.com/us/album/mega-mercy/1817789610?uo=4"
+      "apple": "https://music.apple.com/us/album/mega-mercy/1817789610?uo=4",
+      "tidal": "https://tidal.com/album/439303219"
     },
     "embed": {
       "provider": "apple",
@@ -33953,7 +34034,7 @@
     "title": "Postcard From A ParaHell Universe",
     "label": "SBÄM Records",
     "releaseDate": "2025-03-28",
-    "description": "",
+    "description": "Eleven tracks of melodic hardcore from Heathcliff on SBÄM, the Austrian label that has spent the last few years acting as a clearinghouse for everything orbiting Fat Wreck and Epitaph. Limited LP pressing; file alongside the rest of the SBÄM roster.",
     "tags": [
       "rock"
     ],
@@ -33987,7 +34068,7 @@
     "title": "IC-02 Bogota",
     "label": "Jagjaguwar",
     "releaseDate": "2025-03-28",
-    "description": "",
+    "description": "Ruban Nielson's Bogota sessions land on Jagjaguwar as the next entry in the IC instrumental series, eight pieces filed under psych rock and free improvisation rather than song-form. Closer to the wandering side of Multi-Love's offcuts than to any single.",
     "tags": [
       "rock"
     ],
@@ -34021,7 +34102,7 @@
     "title": "IC-02 Bogotá",
     "label": "Jagjaguwar",
     "releaseDate": "2025-03-28",
-    "description": "",
+    "description": "Ruban Nielson's Bogotá sessions land on Jagjaguwar as the second IC entry, eight tracks of free-improvised psych that wander rather than resolve. Closer to the instrumental fringes of his catalogue than to the singles, file accordingly.",
     "tags": [
       "rock"
     ],
@@ -34056,7 +34137,7 @@
     "title": "silence is priceless",
     "label": "Knekelhuis",
     "releaseDate": "2025-03-28",
-    "description": "",
+    "description": "Sixteen tracks of softly disoriented pop on Knekelhuis, sitting where ambient drifts into hypnagogic song-form before either resolves. Worth a listen if the dreamier corners of the label's catalogue have held your attention.",
     "tags": [
       "electronic"
     ],
@@ -34090,7 +34171,7 @@
     "title": "Hexed!",
     "label": "Hyperdub",
     "releaseDate": "2025-03-28",
-    "description": "",
+    "description": "Aya's second for Hyperdub keeps the cracked, talkative club abstractions of her earlier work intact while pulling harder toward noise and collage. Sits comfortably next to Loraine James if you need a shelving cue.",
     "tags": [
       "electronic"
     ],
@@ -34124,7 +34205,7 @@
     "title": "Where Your Quest Ends",
     "label": "WereGnome Records",
     "releaseDate": "2025-03-28",
-    "description": "",
+    "description": "Eight tracks of dungeon synth on WereGnome, the Pennsylvania label that has quietly become the genre's most consistent home for tavern-side, hearth-lit material. Sits comfortably next to Erang or Hole Dweller on the shelf.",
     "tags": [
       "electronic"
     ],
@@ -34158,7 +34239,7 @@
     "title": "Dream Of Heaven",
     "label": "YUKU",
     "releaseDate": "2025-03-27",
-    "description": "",
+    "description": "Twelve tracks on YUKU that pull breakbeat, jungle and hardcore through an ambient filter, the rave end of the spectrum but kept at arm's length. For anyone tracking the label's run with Sublunar or Ourman.",
     "tags": [
       "electronic"
     ],
@@ -34193,7 +34274,7 @@
     "title": "SC.001",
     "label": "Epitaph",
     "releaseDate": "2025-03-27",
-    "description": "",
+    "description": "Seven tracks of shoegaze haze welded to nu metal heft, collected on a 12\" through Epitaph. An odd fit for the label on paper, less so once the guitars start chugging under all that reverb.",
     "tags": [
       "rock"
     ],
@@ -34222,7 +34303,7 @@
     "title": "Challenge",
     "label": "Ilian Tape",
     "releaseDate": "2025-03-26",
-    "description": "",
+    "description": "Four tracks of Marco Zenker techno on the family label, leaning into the broken, dubbed-out swing Ilian Tape has spent the last decade making its house style. For anyone tracking the Zenker Brothers axis.",
     "tags": [
       "electronic"
     ],
@@ -34256,7 +34337,7 @@
     "title": "Waxcap",
     "label": "Houndstooth",
     "releaseDate": "2025-03-26",
-    "description": "",
+    "description": "Djrum stays on Houndstooth for a single piece that sits where his work usually does, somewhere between piano-led modern classical and the rougher end of breakbeat. A standalone digital cut rather than a 12\", but unmistakably his hand.",
     "tags": [
       "electronic"
     ],
@@ -34290,7 +34371,7 @@
     "title": "Positive Reality",
     "label": "Good Morning Tapes",
     "releaseDate": "2025-03-24",
-    "description": "",
+    "description": "Rockers NYC turn up on Good Morning Tapes with a two-track lovers rock and dub excursion, which is exactly the sort of leftfield sidestep the label has made its calling card. Limited mixtape pressing; file alongside the rest of the GMT catalogue rather than your roots shelf.",
     "tags": [
       "reggae"
     ],
@@ -34319,7 +34400,7 @@
     "title": "The Shadow Beneath...",
     "label": "Death By Numbers",
     "releaseDate": "2025-03-24",
-    "description": "",
+    "description": "Four tracks from Jeebus on Death By Numbers that sit somewhere between bossa nova phrasing and ambient drift, the rhythmic suggestion mostly implied rather than stated. Quiet listening, not background listening.",
     "tags": [
       "electronic"
     ],
@@ -34353,7 +34434,7 @@
     "title": "Without Us",
     "label": "Erased Tapes Records",
     "releaseDate": "2025-03-21",
-    "description": "",
+    "description": "The Brandt Brauer Frick member's solo album for Erased Tapes, nine tracks routing techno pulse through modern classical phrasing and the IDM end of his playing. Sits comfortably near Nils Frahm on the same shelf.",
     "tags": [
       "electronic"
     ],
