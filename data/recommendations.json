@@ -358,6 +358,33 @@
     "pressMentions": []
   },
   {
+    "id": "eartheater-heavenly-body-if-i-39-m-the-bottle-you-re-the-message",
+    "type": "album",
+    "artist": "Eartheater",
+    "title": "Heavenly Body: If I&#39;m The Bottle You’re The Message",
+    "label": "",
+    "releaseDate": "2026-07-14",
+    "description": "Eartheater returns to the long format she has spent the better part of a decade carving out, somewhere between digital folk, mangled pop and the operatic edge of PAN-era club music. Title sits in keeping with her usual register; expect the production to do the heavy lifting.",
+    "tags": [],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=Eartheater%20Heavenly%20Body%3A%20If%20I%26%2339%3Bm%20The%20Bottle%20You%E2%80%99re%20The%20Message&item_type=a",
+      "spotify": "https://open.spotify.com/search/Eartheater%20Heavenly%20Body%3A%20If%20I%26%2339%3Bm%20The%20Bottle%20You%E2%80%99re%20The%20Message",
+      "soundcloud": "https://soundcloud.com/search?q=Eartheater%20Heavenly%20Body%3A%20If%20I%26%2339%3Bm%20The%20Bottle%20You%E2%80%99re%20The%20Message",
+      "youtube": "https://www.youtube.com/results?search_query=Eartheater%20Heavenly%20Body%3A%20If%20I%26%2339%3Bm%20The%20Bottle%20You%E2%80%99re%20The%20Message"
+    },
+    "embed": null,
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": null,
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
     "id": "2k88-lauren-duffus-rainy-miller-bianca-scout-everything-always-changes-for-we-re",
     "type": "album",
     "artist": "2K88, Lauren Duffus, Rainy Miller & Bianca Scout",
@@ -578,6 +605,41 @@
     "status": "pending",
     "approvedAt": null,
     "coverImageUrl": "https://cdn-images.dzcdn.net/images/cover/334e1a6fbacfbd0f252d0a8f5026e3d2/1000x1000-000000-80-0-0.jpg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
+    "id": "deadbeat-3rd-strike-2026-remastered-version",
+    "type": "album",
+    "artist": "Deadbeat",
+    "title": "3rd Strike! (2026 Remastered Version)",
+    "label": "RADIOATIVO",
+    "releaseDate": "2026-06-15",
+    "description": "Scott Monteith's Deadbeat name has long sat in the dub techno lineage, so a remaster catalogued under \"alternative\" with no styles attached is a curious filing. Worth a listen on those terms alone.",
+    "tags": [
+      "alternative"
+    ],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=Deadbeat%203rd%20Strike!%20(2026%20Remastered%20Version)&item_type=a",
+      "spotify": "https://open.spotify.com/search/Deadbeat%203rd%20Strike!%20(2026%20Remastered%20Version)",
+      "soundcloud": "https://soundcloud.com/search?q=Deadbeat%203rd%20Strike!%20(2026%20Remastered%20Version)",
+      "youtube": "https://www.youtube.com/results?search_query=Deadbeat%203rd%20Strike!%20(2026%20Remastered%20Version)",
+      "apple": "https://music.apple.com/us/album/3rd-strike-2026-remastered-version/6780462359",
+      "deezer": "https://www.deezer.com/album/1006094351"
+    },
+    "embed": {
+      "provider": "apple",
+      "src": "https://embed.music.apple.com/us/album/6780462359?theme=light",
+      "height": 450
+    },
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/3c/95/a9/3c95a920-290c-1051-ef8a-44389ff86a17/7333583826525.jpg/600x600bb.jpg",
     "cover": {
       "bg": "#111110",
       "fg": "#f2efe8",
@@ -1459,6 +1521,33 @@
     "pressMentions": []
   },
   {
+    "id": "clark-step-in-step-out",
+    "type": "album",
+    "artist": "Clark",
+    "title": "Step In, Step Out?",
+    "label": "",
+    "releaseDate": "2026-06-08",
+    "description": "Clark again, prolific as ever, with a full-length whose title hints at the indecision baked into his recent work between bruised electronics and something closer to song form. Worth checking if the Playground In A Lake side of his catalogue still pulls you in.",
+    "tags": [],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=Clark%20Step%20In%2C%20Step%20Out%3F&item_type=a",
+      "spotify": "https://open.spotify.com/search/Clark%20Step%20In%2C%20Step%20Out%3F",
+      "soundcloud": "https://soundcloud.com/search?q=Clark%20Step%20In%2C%20Step%20Out%3F",
+      "youtube": "https://www.youtube.com/results?search_query=Clark%20Step%20In%2C%20Step%20Out%3F"
+    },
+    "embed": null,
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": null,
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
     "id": "lyra-pramuk-hymnal-resung",
     "type": "ep",
     "artist": "Lyra Pramuk",
@@ -2328,6 +2417,33 @@
     ]
   },
   {
+    "id": "xang-nadie-feat-chilo",
+    "type": "album",
+    "artist": "Xang",
+    "title": "nadie + (feat. Chilo)",
+    "label": "",
+    "releaseDate": "2026-06-04",
+    "description": "Xang returns with Chilo in tow on nadie +, a record arriving without label affiliation or genre tagging attached. File under reggaeton's stranger margins until more surfaces.",
+    "tags": [],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=Xang%20nadie%20%2B%20(feat.%20Chilo)&item_type=a",
+      "spotify": "https://open.spotify.com/search/Xang%20nadie%20%2B%20(feat.%20Chilo)",
+      "soundcloud": "https://soundcloud.com/search?q=Xang%20nadie%20%2B%20(feat.%20Chilo)",
+      "youtube": "https://www.youtube.com/results?search_query=Xang%20nadie%20%2B%20(feat.%20Chilo)"
+    },
+    "embed": null,
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": null,
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
     "id": "matthew-herbert-worry-herbert-s-brahm-dub",
     "type": "single",
     "artist": "Matthew Herbert",
@@ -2423,6 +2539,33 @@
     ]
   },
   {
+    "id": "ppp-resource",
+    "type": "album",
+    "artist": "PPP",
+    "title": "Resource",
+    "label": "",
+    "releaseDate": "2026-06-03",
+    "description": "PPP returns with Resource, label and tracklist still under wraps ahead of the June date. Given the initials cover a few different acts in this orbit, worth checking the matrix before you commit.",
+    "tags": [],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=PPP%20Resource&item_type=a",
+      "spotify": "https://open.spotify.com/search/PPP%20Resource",
+      "soundcloud": "https://soundcloud.com/search?q=PPP%20Resource",
+      "youtube": "https://www.youtube.com/results?search_query=PPP%20Resource"
+    },
+    "embed": null,
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": null,
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
     "id": "hooper-8-carry-your-own-saints",
     "type": "ep",
     "artist": "Hooper (8)",
@@ -2487,6 +2630,33 @@
     "status": "pending",
     "approvedAt": null,
     "coverImageUrl": "https://i.discogs.com/uoEdUykj_4qUaOV2_gtbzYM4aBWNO5vT3icuxiwZJN0/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM3NTIx/MDA2LTE3ODA0NzA3/NTQtMzE0MS5qcGVn.jpeg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
+    "id": "synkro-album",
+    "type": "album",
+    "artist": "Synkro",
+    "title": "Albüm",
+    "label": "",
+    "releaseDate": "2026-06-02",
+    "description": "Synkro in long-form mode, which historically means the slower, dub-leaning end of his catalogue where halfstep, ambient and 2-step all blur into one another. Label details still to surface, worth watching if Apollo or R&S releases remain in rotation.",
+    "tags": [],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=Synkro%20Alb%C3%BCm&item_type=a",
+      "spotify": "https://open.spotify.com/search/Synkro%20Alb%C3%BCm",
+      "soundcloud": "https://soundcloud.com/search?q=Synkro%20Alb%C3%BCm",
+      "youtube": "https://www.youtube.com/results?search_query=Synkro%20Alb%C3%BCm"
+    },
+    "embed": null,
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": null,
     "cover": {
       "bg": "#111110",
       "fg": "#f2efe8",
@@ -8606,6 +8776,40 @@
     "status": "pending",
     "approvedAt": null,
     "coverImageUrl": "https://i.discogs.com/NeisQPyMfGm_WSCo75j_Vm_ORMHQTmoSddJSbyE1q0Q/rs:fit/g:sm/q:90/h:545/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM3NTM1/NDkwLTE3ODA1OTIx/MzEtOTg0NC5qcGVn.jpeg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
+    "id": "smoked909-live-25",
+    "type": "album",
+    "artist": "Smoked909",
+    "title": "Live '25",
+    "label": "Mosh For Youth Records",
+    "releaseDate": "2026-05-01",
+    "description": "Fourteen tracks of hardcore/deathcore captured on stage, pressed to a single mixed 12\" by Mosh For Youth. Not a studio document, shelve it with the live tapes rather than the proper LPs.",
+    "tags": [
+      "rock"
+    ],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=Smoked909%20Live%20'25&item_type=a",
+      "spotify": "https://open.spotify.com/search/Smoked909%20Live%20'25",
+      "soundcloud": "https://soundcloud.com/search?q=Smoked909%20Live%20'25",
+      "youtube": "https://www.youtube.com/results?search_query=Smoked909%20Live%20'25",
+      "deezer": "https://www.deezer.com/album/974462051"
+    },
+    "embed": {
+      "provider": "deezer",
+      "src": "https://widget.deezer.com/widget/light/album/974462051",
+      "height": 300
+    },
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://i.discogs.com/DerneOkAXHiZgaBPGDgHqF5pa6mZKPnb2bOsm6qNKx4/rs:fit/g:sm/q:90/h:225/w:225/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM3NjM3/ODk4LTE3ODE1NTcx/MTUtNTMzMS5qcGVn.jpeg",
     "cover": {
       "bg": "#111110",
       "fg": "#f2efe8",
@@ -34468,7 +34672,7 @@
     "title": "Play With Ya",
     "label": "Lapsus Music",
     "releaseDate": "2025-03-21",
-    "description": "",
+    "description": "Two-tracker from Vanjee for Lapsus, sitting squarely in the Barcelona label's tech-leaning house remit. Functional rather than showy, aimed at the floor.",
     "tags": [
       "electronic"
     ],
@@ -34502,7 +34706,7 @@
     "title": "Spatial Fix",
     "label": "Theory Therapy",
     "releaseDate": "2025-03-21",
-    "description": "",
+    "description": "Four tracks from Conna Haraway for Theory Therapy, sliding between dub techno weight, ambient drift and a more downtempo, experimental edge. Limited LP; sits comfortably next to Topdown Dialectic on the shelf.",
     "tags": [
       "electronic"
     ],
@@ -34537,7 +34741,7 @@
     "title": "Tonky",
     "label": "Jagjaguwar",
     "releaseDate": "2025-03-21",
-    "description": "",
+    "description": "Holley's Jagjaguwar run continues with another long-form set of spoken testimony folded into avant-jazz and electronics, the voice doing most of the navigating. For anyone who stayed with MITH or Oh Me Oh My.",
     "tags": [
       "electronic"
     ],
@@ -34571,7 +34775,7 @@
     "title": "Every Video Without Your Face, Every Sound Without Your Name",
     "label": "Orange Milk Records",
     "releaseDate": "2025-03-21",
-    "description": "",
+    "description": "Seven pieces of fractured ambient and processed voice from Lucy Liyou, landing on Orange Milk in the diaristic, text-to-speech adjacent register she has carved out across the past few years. For anyone still working through Claire Rousay's quieter end.",
     "tags": [
       "electronic"
     ],
@@ -34607,7 +34811,7 @@
     "title": "Masking",
     "label": "Ilian Tape",
     "releaseDate": "2025-03-20",
-    "description": "",
+    "description": "Four tracks of Forest Drive West's pared-back drum and bass for Ilian Tape, where the breakbeats sit closer to sound design than rollage. Sits comfortably next to the Zenker Brothers' more shadowed material.",
     "tags": [
       "electronic"
     ],
@@ -34641,7 +34845,7 @@
     "title": "Holland Park / Hot Winter (Dreaming About Being Closer)",
     "label": "life is beautiful records",
     "releaseDate": "2025-03-18",
-    "description": "",
+    "description": "A two-sider on 7\" from the south London poet and DJ, filed under hip hop and jazz but tagged toward free improvisation rather than anything beat-driven. For listeners who follow Massiah's spoken-word work into stranger rooms.",
     "tags": [
       "hip hop"
     ],
@@ -34674,7 +34878,7 @@
     "title": "Without References / Cindy Van Acker",
     "label": "Latency",
     "releaseDate": "2025-03-14",
-    "description": "",
+    "description": "Two long-form pieces from Koshiro Hino's Goat project on Latency, with the second commissioned for choreographer Cindy Van Acker. Closer to the Tokyo group's rhythmic minimalism than to anything resembling rock; for listeners following GOAT (JP) or Group A.",
     "tags": [
       "electronic"
     ],
@@ -34708,7 +34912,7 @@
     "title": "Serpentine",
     "label": "Animalia (3)",
     "releaseDate": "2025-03-14",
-    "description": "",
+    "description": "A four-tracker pairing OK EG with Priori on Animalia, sat where deep techno softens into IDM and ambient drifts back in around the edges. For anyone tracking Priori's recent run on NAFF.",
     "tags": [
       "electronic"
     ],
