@@ -579,6 +579,136 @@
     "pressMentions": []
   },
   {
+    "id": "bot1500-the-black-sea",
+    "type": "album",
+    "artist": "Bot1500",
+    "title": "The Black Sea",
+    "label": "Short Span",
+    "releaseDate": "2026-06-19",
+    "description": "Seven tracks of IDM and ambient from Bot1500 for Short Span, pitched somewhere between programmed restlessness and longer drifting passages. Worth a look for anyone still working through the quieter end of the Skam catalogue.",
+    "tags": [
+      "electronic"
+    ],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=Bot1500%20The%20Black%20Sea&item_type=a",
+      "spotify": "https://open.spotify.com/search/Bot1500%20The%20Black%20Sea",
+      "soundcloud": "https://soundcloud.com/search?q=Bot1500%20The%20Black%20Sea",
+      "youtube": "https://www.youtube.com/results?search_query=Bot1500%20The%20Black%20Sea"
+    },
+    "embed": null,
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://i.discogs.com/h9JfIhNMcaamD0X9eVw4zzZVfrmH7rAbkDVBjIfbez4/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM3NjQx/Mzc4LTE3ODE2MDI4/NzMtNjYzNy5qcGVn.jpeg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
+    "id": "felicia-atkinson-sans-visage-iv",
+    "type": "single",
+    "artist": "Felicia Atkinson",
+    "title": "Sans Visage IV",
+    "label": "VIERNULVIER Records",
+    "releaseDate": "2026-06-17",
+    "description": "Atkinson's spoken-word ambient practice continues on VIERNULVIER, eleven pieces of drone and breath-close electronics pressed as a limited LP. For listeners who keep Hand In Hand or Image Langage within reach.",
+    "tags": [],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=Felicia%20Atkinson%20Sans%20Visage%20IV&item_type=a",
+      "spotify": "https://open.spotify.com/search/Felicia%20Atkinson%20Sans%20Visage%20IV",
+      "soundcloud": "https://soundcloud.com/search?q=Felicia%20Atkinson%20Sans%20Visage%20IV",
+      "youtube": "https://www.youtube.com/results?search_query=Felicia%20Atkinson%20Sans%20Visage%20IV",
+      "deezer": "https://www.deezer.com/album/966372971",
+      "apple": "https://music.apple.com/us/album/sans-visage/1895033862?uo=4"
+    },
+    "embed": {
+      "provider": "apple",
+      "src": "https://embed.music.apple.com/us/album/1895033862?theme=light",
+      "height": 450
+    },
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://cdn-images.dzcdn.net/images/cover/4244b0a63f793f3a46b00834ffea9852/1000x1000-000000-80-0-0.jpg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
+    "id": "dj-shadow-nobody-speak-part-2",
+    "type": "single",
+    "artist": "DJ Shadow",
+    "title": "Nobody Speak Part 2",
+    "label": "",
+    "releaseDate": "2026-06-17",
+    "description": "Shadow returns to the Nobody Speak template, the brass-stab, hip-hop-as-spaghetti-western mode he has been working in since Endtroducing got further and further away. Whether a sequel justifies itself usually depends on who's on the mic.",
+    "tags": [],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=DJ%20Shadow%20Nobody%20Speak%20Part%202&item_type=a",
+      "spotify": "https://open.spotify.com/search/DJ%20Shadow%20Nobody%20Speak%20Part%202",
+      "soundcloud": "https://soundcloud.com/search?q=DJ%20Shadow%20Nobody%20Speak%20Part%202",
+      "youtube": "https://www.youtube.com/results?search_query=DJ%20Shadow%20Nobody%20Speak%20Part%202",
+      "deezer": "https://www.deezer.com/album/994578841",
+      "apple": "https://music.apple.com/us/album/nobody-speak-single/1570361268?uo=4"
+    },
+    "embed": {
+      "provider": "apple",
+      "src": "https://embed.music.apple.com/us/album/1570361268?theme=light",
+      "height": 450
+    },
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://cdn-images.dzcdn.net/images/cover/d34bff751e89f8ac8374682e6b659524/1000x1000-000000-80-0-0.jpg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
+    "id": "deadbeat-press-to-return-2026-remastered-version",
+    "type": "album",
+    "artist": "Deadbeat",
+    "title": "Press to Return! (2026 Remastered Version)",
+    "label": "Radioativo",
+    "releaseDate": "2026-06-16",
+    "description": "Scott Monteith's Deadbeat alias revisited, with Press to Return! given a 2026 remaster on Radioativo. Familiar territory for anyone who's followed his dub-techno lineage, presented here under the project's more song-shaped guise.",
+    "tags": [
+      "alternative"
+    ],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=Deadbeat%20Press%20to%20Return!%20(2026%20Remastered%20Version)&item_type=a",
+      "spotify": "https://open.spotify.com/search/Deadbeat%20Press%20to%20Return!%20(2026%20Remastered%20Version)",
+      "soundcloud": "https://soundcloud.com/search?q=Deadbeat%20Press%20to%20Return!%20(2026%20Remastered%20Version)",
+      "youtube": "https://www.youtube.com/results?search_query=Deadbeat%20Press%20to%20Return!%20(2026%20Remastered%20Version)",
+      "apple": "https://music.apple.com/us/album/press-to-return-2026-remastered-version/6780885611",
+      "deezer": "https://www.deezer.com/album/1006942431"
+    },
+    "embed": {
+      "provider": "apple",
+      "src": "https://embed.music.apple.com/us/album/6780885611?theme=light",
+      "height": 450
+    },
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/0e/8c/1d/0e8c1d94-d934-20fa-96a4-69bd7944f890/7333583850124.jpg/600x600bb.jpg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
     "id": "lone-affinity-versions",
     "type": "single",
     "artist": "Lone",
@@ -640,6 +770,67 @@
     "status": "pending",
     "approvedAt": null,
     "coverImageUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/3c/95/a9/3c95a920-290c-1051-ef8a-44389ff86a17/7333583826525.jpg/600x600bb.jpg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
+    "id": "kosmos-",
+    "type": "single",
+    "artist": "KOSMOS",
+    "title": "Жизнь",
+    "label": "",
+    "releaseDate": "2026-06-13",
+    "description": "A single titled Жизнь from KOSMOS, surfacing without label or genre tags attached. File under wait-and-see until more context lands.",
+    "tags": [],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=KOSMOS%20%D0%96%D0%B8%D0%B7%D0%BD%D1%8C&item_type=a",
+      "spotify": "https://open.spotify.com/search/KOSMOS%20%D0%96%D0%B8%D0%B7%D0%BD%D1%8C",
+      "soundcloud": "https://soundcloud.com/search?q=KOSMOS%20%D0%96%D0%B8%D0%B7%D0%BD%D1%8C",
+      "youtube": "https://www.youtube.com/results?search_query=KOSMOS%20%D0%96%D0%B8%D0%B7%D0%BD%D1%8C",
+      "deezer": "https://www.deezer.com/album/1007202421"
+    },
+    "embed": null,
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://cdn-images.dzcdn.net/images/cover/316b254495eb82414487f919627e71b9/1000x1000-000000-80-0-0.jpg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
+    "id": "plaid-we-back-to-life",
+    "type": "album",
+    "artist": "Plaid",
+    "title": "We Back To Life",
+    "label": "",
+    "releaseDate": "2026-06-13",
+    "description": "New Plaid album, presumably landing through Warp as ever, which means another set of those bright, slightly off-axis melodic patterns the duo have been refining since the Black Dog days. File next to Boards of Canada if shelving by temperament rather than tempo.",
+    "tags": [],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=Plaid%20We%20Back%20To%20Life&item_type=a",
+      "spotify": "https://open.spotify.com/search/Plaid%20We%20Back%20To%20Life",
+      "soundcloud": "https://soundcloud.com/search?q=Plaid%20We%20Back%20To%20Life",
+      "youtube": "https://www.youtube.com/results?search_query=Plaid%20We%20Back%20To%20Life",
+      "deezer": "https://www.deezer.com/album/995827511",
+      "apple": "https://music.apple.com/us/album/we-back-to-life-single/6775437887?uo=4"
+    },
+    "embed": {
+      "provider": "apple",
+      "src": "https://embed.music.apple.com/us/album/6775437887?theme=light",
+      "height": 450
+    },
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": null,
     "cover": {
       "bg": "#111110",
       "fg": "#f2efe8",
@@ -1133,6 +1324,38 @@
     "pressMentions": []
   },
   {
+    "id": "alva-noto-berlin-orbit-4",
+    "type": "album",
+    "artist": "Alva Noto",
+    "title": "Berlin-orbit 4",
+    "label": "",
+    "releaseDate": "2026-06-12",
+    "description": "Carsten Nicolai continues his Berlin-orbit sequence, the long-running zone where his sine-wave minimalism edges closest to architecture and field recording. Expect the same precision economy of the Raster catalogue, with little ornament around it.",
+    "tags": [],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=Alva%20Noto%20Berlin-orbit%204&item_type=a",
+      "spotify": "https://open.spotify.com/search/Alva%20Noto%20Berlin-orbit%204",
+      "soundcloud": "https://soundcloud.com/search?q=Alva%20Noto%20Berlin-orbit%204",
+      "youtube": "https://www.youtube.com/results?search_query=Alva%20Noto%20Berlin-orbit%204",
+      "deezer": "https://www.deezer.com/album/956111521"
+    },
+    "embed": {
+      "provider": "deezer",
+      "src": "https://widget.deezer.com/widget/light/album/956111521",
+      "height": 300
+    },
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": null,
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
     "id": "the-chemical-brothers-go-live-from-glastonbury",
     "type": "single",
     "artist": "The Chemical Brothers",
@@ -1357,6 +1580,39 @@
     "pressMentions": []
   },
   {
+    "id": "2k88-salto",
+    "type": "single",
+    "artist": "2k88",
+    "title": "Salto",
+    "label": "",
+    "releaseDate": "2026-06-10",
+    "description": "2k88 returns with Salto, a single landing well ahead of the usual cycle and arriving without a label attached. Worth watching if you've been tracking their work in the harder, club-facing edges of contemporary electronics.",
+    "tags": [],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=2k88%20Salto&item_type=a",
+      "spotify": "https://open.spotify.com/search/2k88%20Salto",
+      "soundcloud": "https://soundcloud.com/search?q=2k88%20Salto",
+      "youtube": "https://www.youtube.com/results?search_query=2k88%20Salto",
+      "deezer": "https://www.deezer.com/album/973755451",
+      "apple": "https://music.apple.com/us/album/salto-single/6766837041?uo=4"
+    },
+    "embed": {
+      "provider": "apple",
+      "src": "https://embed.music.apple.com/us/album/6766837041?theme=light",
+      "height": 450
+    },
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://cdn-images.dzcdn.net/images/cover/241f05e82a2c2986dcfaca6eaaa8e53e/1000x1000-000000-80-0-0.jpg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
     "id": "space-afrika-if-this-is-hell",
     "type": "single",
     "artist": "Space Afrika",
@@ -1448,6 +1704,40 @@
     "status": "pending",
     "approvedAt": null,
     "coverImageUrl": "https://f4.bcbits.com/img/a3343023691_10.jpg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
+    "id": "big-wett-69",
+    "type": "single",
+    "artist": "BIG WETT",
+    "title": "69",
+    "label": "Helix Records (7)",
+    "releaseDate": "2026-06-09",
+    "description": "BIG WETT continues her run of brash, club-ready dance-pop on Helix, this one a single-track shot of bass-leaning innuendo built for the kind of room where subtlety would be a liability. Filed near Shygirl if you need a coordinate.",
+    "tags": [
+      "electronic"
+    ],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=BIG%20WETT%2069&item_type=a",
+      "spotify": "https://open.spotify.com/search/BIG%20WETT%2069",
+      "soundcloud": "https://soundcloud.com/search?q=BIG%20WETT%2069",
+      "youtube": "https://www.youtube.com/results?search_query=BIG%20WETT%2069",
+      "deezer": "https://www.deezer.com/album/987589291"
+    },
+    "embed": {
+      "provider": "deezer",
+      "src": "https://widget.deezer.com/widget/light/album/987589291",
+      "height": 300
+    },
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://i.discogs.com/2HXNv4L5XoGAedqH8ws-QPffdHk0YC2b7nt8uigc51g/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM3NjQz/NjEzLTE3ODE2MjIx/NDQtMjMwMy5qcGVn.jpeg",
     "cover": {
       "bg": "#111110",
       "fg": "#f2efe8",
@@ -2237,6 +2527,39 @@
       "youtube": "https://www.youtube.com/results?search_query=Boxcutter%20Demo"
     },
     "embed": null,
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": null,
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
+    "id": "pendant-puppenspiel-aus-fleisch-und-blut",
+    "type": "album",
+    "artist": "Pendant",
+    "title": "Puppenspiel Aus Fleisch Und Blut",
+    "label": "",
+    "releaseDate": "2026-06-05",
+    "description": "Pendant, the alias Huerco S. uses for his more eroded, grainy ambient work, surfaces again with a full-length whose label is yet to be confirmed. Expect the long, dust covered drift of the West Mineral orbit rather than anything resembling a club record.",
+    "tags": [],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=Pendant%20Puppenspiel%20Aus%20Fleisch%20Und%20Blut&item_type=a",
+      "spotify": "https://open.spotify.com/search/Pendant%20Puppenspiel%20Aus%20Fleisch%20Und%20Blut",
+      "soundcloud": "https://soundcloud.com/search?q=Pendant%20Puppenspiel%20Aus%20Fleisch%20Und%20Blut",
+      "youtube": "https://www.youtube.com/results?search_query=Pendant%20Puppenspiel%20Aus%20Fleisch%20Und%20Blut",
+      "deezer": "https://www.deezer.com/album/980123841",
+      "apple": "https://music.apple.com/us/album/puppenspiel-aus-fleisch-und-blut-ep/6768204347?uo=4"
+    },
+    "embed": {
+      "provider": "apple",
+      "src": "https://embed.music.apple.com/us/album/6768204347?theme=light",
+      "height": 450
+    },
     "musicVideoUrl": null,
     "status": "pending",
     "approvedAt": null,
@@ -3397,6 +3720,74 @@
     "pressMentions": []
   },
   {
+    "id": "boards-of-canada-tomorrow-s-harvest",
+    "type": "album",
+    "artist": "Boards Of Canada",
+    "title": "Tomorrow's Harvest",
+    "label": "Warp Records",
+    "releaseDate": "2026-05-29",
+    "description": "Warp represses the 2013 Boards Of Canada album, seventeen tracks of corroded synthwork and widescreen dread that still sounds like the soundtrack to a film nobody made. Shelve next to the rest of the catalogue and let it do its slow work.",
+    "tags": [
+      "electronic"
+    ],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=Boards%20Of%20Canada%20Tomorrow's%20Harvest&item_type=a",
+      "spotify": "https://open.spotify.com/search/Boards%20Of%20Canada%20Tomorrow's%20Harvest",
+      "soundcloud": "https://soundcloud.com/search?q=Boards%20Of%20Canada%20Tomorrow's%20Harvest",
+      "youtube": "https://www.youtube.com/results?search_query=Boards%20Of%20Canada%20Tomorrow's%20Harvest",
+      "deezer": "https://www.deezer.com/album/7046060",
+      "apple": "https://music.apple.com/us/album/tomorrows-harvest/641229267?uo=4"
+    },
+    "embed": {
+      "provider": "apple",
+      "src": "https://embed.music.apple.com/us/album/641229267?theme=light",
+      "height": 450
+    },
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://i.discogs.com/dNq7TbGBkVr7wStCFBsjhIIvP0dwV8VIt0_y6xtOTWY/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM3NjIy/Njc2LTE3ODE2NDg4/NDktMTQ5Mi5qcGVn.jpeg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": [
+      "pitchfork_tracks",
+      "pitchfork_best_albums",
+      "ra"
+    ]
+  },
+  {
+    "id": "boards-of-canada-geogaddi",
+    "type": "album",
+    "artist": "Boards Of Canada = ボーズ・オブ・カナダ",
+    "title": "Geogaddi = ジオガディ",
+    "label": "Warp Records",
+    "releaseDate": "2026-05-29",
+    "description": "Warp give the 2002 Boards Of Canada full-length another pressing, 24 tracks of woozy IDM and half-buried ambient still doing the thing nobody else quite managed. Shelve next to Music Has The Right To Children and leave room.",
+    "tags": [
+      "electronic"
+    ],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=Boards%20Of%20Canada%20%3D%20%E3%83%9C%E3%83%BC%E3%82%BA%E3%83%BB%E3%82%AA%E3%83%96%E3%83%BB%E3%82%AB%E3%83%8A%E3%83%80%20Geogaddi%20%3D%20%E3%82%B8%E3%82%AA%E3%82%AC%E3%83%87%E3%82%A3&item_type=a",
+      "spotify": "https://open.spotify.com/search/Boards%20Of%20Canada%20%3D%20%E3%83%9C%E3%83%BC%E3%82%BA%E3%83%BB%E3%82%AA%E3%83%96%E3%83%BB%E3%82%AB%E3%83%8A%E3%83%80%20Geogaddi%20%3D%20%E3%82%B8%E3%82%AA%E3%82%AC%E3%83%87%E3%82%A3",
+      "soundcloud": "https://soundcloud.com/search?q=Boards%20Of%20Canada%20%3D%20%E3%83%9C%E3%83%BC%E3%82%BA%E3%83%BB%E3%82%AA%E3%83%96%E3%83%BB%E3%82%AB%E3%83%8A%E3%83%80%20Geogaddi%20%3D%20%E3%82%B8%E3%82%AA%E3%82%AC%E3%83%87%E3%82%A3",
+      "youtube": "https://www.youtube.com/results?search_query=Boards%20Of%20Canada%20%3D%20%E3%83%9C%E3%83%BC%E3%82%BA%E3%83%BB%E3%82%AA%E3%83%96%E3%83%BB%E3%82%AB%E3%83%8A%E3%83%80%20Geogaddi%20%3D%20%E3%82%B8%E3%82%AA%E3%82%AC%E3%83%87%E3%82%A3"
+    },
+    "embed": null,
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://i.discogs.com/PSqH4faO2dUb_FS8xWLrB6bRW9TodpvNJV4knvITVl8/rs:fit/g:sm/q:90/h:508/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM3NjM5/ODM5LTE3ODE1ODI3/MzktODE5Ny5qcGVn.jpeg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
     "id": "eiii-emanations",
     "type": "album",
     "artist": "EIII",
@@ -3555,6 +3946,41 @@
     "status": "pending",
     "approvedAt": null,
     "coverImageUrl": "https://i.discogs.com/_qAJvoA4jTW9LCa7BzLxnL2P4uqldcWWAX2IL3u6iUw/rs:fit/g:sm/q:90/h:541/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM3NjAx/ODQ0LTE3ODEyMDg5/MzctNDY1OC5qcGVn.jpeg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
+    "id": "gast-pond",
+    "type": "album",
+    "artist": "Gast",
+    "title": "Pond",
+    "label": "Ilian Tape",
+    "releaseDate": "2026-05-28",
+    "description": "Nine tracks of ambient leaning bass experiments from Gast on Ilian Tape, the Munich label still letting its roster wander well outside the Zenker brothers' techno frame. For anyone who followed Skee Mask's deeper detours.",
+    "tags": [
+      "electronic"
+    ],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=Gast%20Pond&item_type=a",
+      "spotify": "https://open.spotify.com/search/Gast%20Pond",
+      "soundcloud": "https://soundcloud.com/search?q=Gast%20Pond",
+      "youtube": "https://www.youtube.com/results?search_query=Gast%20Pond",
+      "deezer": "https://www.deezer.com/album/988929271",
+      "apple": "https://music.apple.com/us/album/pond/6772517870?uo=4"
+    },
+    "embed": {
+      "provider": "apple",
+      "src": "https://embed.music.apple.com/us/album/6772517870?theme=light",
+      "height": 450
+    },
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://i.discogs.com/jE6WEzHv0zlhSe2XCHQPBKkq2z8KGbP29yGWpA6zGn0/rs:fit/g:sm/q:90/h:349/w:349/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM3NTk1/MTM2LTE3ODExNDYw/MzAtMjYyMC5wbmc.jpeg",
     "cover": {
       "bg": "#111110",
       "fg": "#f2efe8",
@@ -15462,6 +15888,40 @@
     ]
   },
   {
+    "id": "big-wett-girls",
+    "type": "single",
+    "artist": "BIG WETT",
+    "title": "Girls",
+    "label": "Helix Records (7)",
+    "releaseDate": "2026-03-20",
+    "description": "BIG WETT continues her run of brash, club-leaning dance-pop on Helix, where the bass is the joke and the punchline. One track, no subtlety intended.",
+    "tags": [
+      "electronic"
+    ],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=BIG%20WETT%20Girls&item_type=a",
+      "spotify": "https://open.spotify.com/search/BIG%20WETT%20Girls",
+      "soundcloud": "https://soundcloud.com/search?q=BIG%20WETT%20Girls",
+      "youtube": "https://www.youtube.com/results?search_query=BIG%20WETT%20Girls",
+      "deezer": "https://www.deezer.com/album/931235181"
+    },
+    "embed": {
+      "provider": "deezer",
+      "src": "https://widget.deezer.com/widget/light/album/931235181",
+      "height": 300
+    },
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://i.discogs.com/Qr2F6DqcYJBYvPVs9lQTkUncPJ2p9jEmK_uuct2OWso/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM3NjQz/NTY1LTE3ODE2MjE3/NjQtOTU0MS5qcGVn.jpeg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
     "id": "shed-applications-ii",
     "type": "ep",
     "artist": "Shed",
@@ -20557,9 +21017,14 @@
       "bandcamp": "https://bandcamp.com/search?q=Martin%20Denny%20Quiet%20Village%3A%20The%20Exotic%20Sounds%20Of%20Martin%20Denny&item_type=a",
       "spotify": "https://open.spotify.com/search/Martin%20Denny%20Quiet%20Village%3A%20The%20Exotic%20Sounds%20Of%20Martin%20Denny",
       "soundcloud": "https://soundcloud.com/search?q=Martin%20Denny%20Quiet%20Village%3A%20The%20Exotic%20Sounds%20Of%20Martin%20Denny",
-      "youtube": "https://www.youtube.com/results?search_query=Martin%20Denny%20Quiet%20Village%3A%20The%20Exotic%20Sounds%20Of%20Martin%20Denny"
+      "youtube": "https://www.youtube.com/results?search_query=Martin%20Denny%20Quiet%20Village%3A%20The%20Exotic%20Sounds%20Of%20Martin%20Denny",
+      "deezer": "https://www.deezer.com/album/318663"
     },
-    "embed": null,
+    "embed": {
+      "provider": "deezer",
+      "src": "https://widget.deezer.com/widget/light/album/318663",
+      "height": 300
+    },
     "musicVideoUrl": null,
     "status": "pending",
     "approvedAt": null,
@@ -20723,12 +21188,13 @@
       "spotify": "https://open.spotify.com/search/Skee%20Mask%20Serum",
       "soundcloud": "https://soundcloud.com/search?q=Skee%20Mask%20Serum",
       "youtube": "https://www.youtube.com/results?search_query=Skee%20Mask%20Serum",
-      "deezer": "https://www.deezer.com/album/61286282"
+      "deezer": "https://www.deezer.com/album/61286282",
+      "apple": "https://music.apple.com/us/album/serum-ep/930597433?uo=4"
     },
     "embed": {
-      "provider": "deezer",
-      "src": "https://widget.deezer.com/widget/light/album/61286282",
-      "height": 300
+      "provider": "apple",
+      "src": "https://embed.music.apple.com/us/album/930597433?theme=light",
+      "height": 450
     },
     "musicVideoUrl": null,
     "status": "pending",
@@ -21190,12 +21656,13 @@
       "soundcloud": "https://soundcloud.com/search?q=Muadeep%20Formido%20Linguae",
       "youtube": "https://www.youtube.com/results?search_query=Muadeep%20Formido%20Linguae",
       "deezer": "https://www.deezer.com/album/877684922",
-      "tidal": "https://tidal.com/album/481800704"
+      "tidal": "https://tidal.com/album/481800704",
+      "apple": "https://music.apple.com/us/album/formido-linguae/1862777772?uo=4"
     },
     "embed": {
-      "provider": "deezer",
-      "src": "https://widget.deezer.com/widget/light/album/877684922",
-      "height": 300
+      "provider": "apple",
+      "src": "https://embed.music.apple.com/us/album/1862777772?theme=light",
+      "height": 450
     },
     "musicVideoUrl": null,
     "status": "pending",
@@ -21995,7 +22462,8 @@
       "soundcloud": "https://soundcloud.com/search?q=Muskila%20Jah%20Nam",
       "youtube": "https://www.youtube.com/results?search_query=Muskila%20Jah%20Nam",
       "deezer": "https://www.deezer.com/album/822177801",
-      "apple": "https://music.apple.com/us/album/jah-nam-feat-hassan-abou-alam-aunty-razor-toumba/1840130823?uo=4"
+      "apple": "https://music.apple.com/us/album/jah-nam-feat-hassan-abou-alam-aunty-razor-toumba/1840130823?uo=4",
+      "tidal": "https://tidal.com/album/460977751"
     },
     "embed": {
       "provider": "apple",
@@ -22121,7 +22589,8 @@
       "soundcloud": "https://soundcloud.com/search?q=Asa%20(3)%20Leijonaa%20Mets%C3%A4st%C3%A4n",
       "youtube": "https://www.youtube.com/results?search_query=Asa%20(3)%20Leijonaa%20Mets%C3%A4st%C3%A4n",
       "deezer": "https://www.deezer.com/album/578865261",
-      "apple": "https://music.apple.com/us/album/leijonaa-mets%C3%A4st%C3%A4n/1743523315?uo=4"
+      "apple": "https://music.apple.com/us/album/leijonaa-mets%C3%A4st%C3%A4n/1743523315?uo=4",
+      "tidal": "https://tidal.com/album/359956273"
     },
     "embed": {
       "provider": "apple",
@@ -22189,7 +22658,8 @@
       "soundcloud": "https://soundcloud.com/search?q=Ken%20Ishii%20Garden%20On%20The%20Palm",
       "youtube": "https://www.youtube.com/results?search_query=Ken%20Ishii%20Garden%20On%20The%20Palm",
       "deezer": "https://www.deezer.com/album/822829631",
-      "apple": "https://music.apple.com/us/album/garden-on-the-palm/1840374135?uo=4"
+      "apple": "https://music.apple.com/us/album/garden-on-the-palm/1840374135?uo=4",
+      "tidal": "https://tidal.com/album/461199518"
     },
     "embed": {
       "provider": "apple",
@@ -22223,7 +22693,8 @@
       "spotify": "https://open.spotify.com/search/Ken%20Ishii%20Sleeping%20Madness",
       "soundcloud": "https://soundcloud.com/search?q=Ken%20Ishii%20Sleeping%20Madness",
       "youtube": "https://www.youtube.com/results?search_query=Ken%20Ishii%20Sleeping%20Madness",
-      "apple": "https://music.apple.com/us/album/sleeping-madness/1840374052?uo=4"
+      "apple": "https://music.apple.com/us/album/sleeping-madness/1840374052?uo=4",
+      "tidal": "https://tidal.com/album/461199539"
     },
     "embed": {
       "provider": "apple",
@@ -22258,7 +22729,8 @@
       "soundcloud": "https://soundcloud.com/search?q=Ken%20Ishii%20Innerelements",
       "youtube": "https://www.youtube.com/results?search_query=Ken%20Ishii%20Innerelements",
       "deezer": "https://www.deezer.com/album/822829731",
-      "apple": "https://music.apple.com/us/album/innerelements/1840374205?uo=4"
+      "apple": "https://music.apple.com/us/album/innerelements/1840374205?uo=4",
+      "tidal": "https://tidal.com/album/461199526"
     },
     "embed": {
       "provider": "apple",
@@ -22354,7 +22826,8 @@
       "spotify": "https://open.spotify.com/search/Kara-Lis%20Coverdale%20Changes%20In%20Air",
       "soundcloud": "https://soundcloud.com/search?q=Kara-Lis%20Coverdale%20Changes%20In%20Air",
       "youtube": "https://www.youtube.com/results?search_query=Kara-Lis%20Coverdale%20Changes%20In%20Air",
-      "apple": "https://music.apple.com/us/album/changes-in-air/1833241635?uo=4"
+      "apple": "https://music.apple.com/us/album/changes-in-air/1833241635?uo=4",
+      "tidal": "https://tidal.com/album/454135560"
     },
     "embed": {
       "provider": "apple",
@@ -22387,7 +22860,8 @@
       "bandcamp": "https://oneohtrixpointnever.bandcamp.com/album/tranquilizer",
       "spotify": "https://open.spotify.com/search/Oneohtrix%20Point%20Never%20Tranquilizer",
       "soundcloud": "https://soundcloud.com/search?q=Oneohtrix%20Point%20Never%20Tranquilizer",
-      "youtube": "https://www.youtube.com/results?search_query=Oneohtrix%20Point%20Never%20Tranquilizer"
+      "youtube": "https://www.youtube.com/results?search_query=Oneohtrix%20Point%20Never%20Tranquilizer",
+      "tidal": "https://tidal.com/album/461476354"
     },
     "embed": {
       "provider": "apple",
@@ -22424,7 +22898,8 @@
       "spotify": "https://open.spotify.com/search/Fabiano%20Do%20Nascimento%20Cavejaz",
       "soundcloud": "https://soundcloud.com/search?q=Fabiano%20Do%20Nascimento%20Cavejaz",
       "youtube": "https://www.youtube.com/results?search_query=Fabiano%20Do%20Nascimento%20Cavejaz",
-      "apple": "https://music.apple.com/us/album/cavejaz/1837566395?uo=4"
+      "apple": "https://music.apple.com/us/album/cavejaz/1837566395?uo=4",
+      "tidal": "https://tidal.com/album/458302766"
     },
     "embed": {
       "provider": "apple",
@@ -22457,7 +22932,8 @@
       "spotify": "https://open.spotify.com/search/Ken%20Ishii%20Jelly%20Tones",
       "soundcloud": "https://soundcloud.com/search?q=Ken%20Ishii%20Jelly%20Tones",
       "youtube": "https://www.youtube.com/results?search_query=Ken%20Ishii%20Jelly%20Tones",
-      "apple": "https://music.apple.com/us/album/jelly-tones/1114540793?uo=4"
+      "apple": "https://music.apple.com/us/album/jelly-tones/1114540793?uo=4",
+      "tidal": "https://tidal.com/album/60592160"
     },
     "embed": {
       "provider": "apple",
@@ -22520,7 +22996,8 @@
       "soundcloud": "https://soundcloud.com/search?q=Sallow%20Moth%20Deformity%20In%20Ceremony",
       "youtube": "https://www.youtube.com/results?search_query=Sallow%20Moth%20Deformity%20In%20Ceremony",
       "deezer": "https://www.deezer.com/album/855644022",
-      "apple": "https://music.apple.com/us/album/deformity-in-ceremony-ep/1853656298?uo=4"
+      "apple": "https://music.apple.com/us/album/deformity-in-ceremony-ep/1853656298?uo=4",
+      "tidal": "https://tidal.com/album/473633754"
     },
     "embed": {
       "provider": "apple",
@@ -22554,7 +23031,8 @@
       "spotify": "https://open.spotify.com/search/The%20Beatles%20Anthology%204",
       "soundcloud": "https://soundcloud.com/search?q=The%20Beatles%20Anthology%204",
       "youtube": "https://www.youtube.com/results?search_query=The%20Beatles%20Anthology%204",
-      "apple": "https://music.apple.com/us/album/anthology-4/1834473847?uo=4"
+      "apple": "https://music.apple.com/us/album/anthology-4/1834473847?uo=4",
+      "tidal": "https://tidal.com/album/474925913"
     },
     "embed": {
       "provider": "apple",
@@ -22589,7 +23067,8 @@
       "soundcloud": "https://soundcloud.com/search?q=Tristan%20Perich%2C%20James%20McVinnie%20Infinity%20Gradient",
       "youtube": "https://www.youtube.com/results?search_query=Tristan%20Perich%2C%20James%20McVinnie%20Infinity%20Gradient",
       "deezer": "https://www.deezer.com/album/822647921",
-      "apple": "https://music.apple.com/us/album/infinity-gradient/1840230751?uo=4"
+      "apple": "https://music.apple.com/us/album/infinity-gradient/1840230751?uo=4",
+      "tidal": "https://tidal.com/album/461202274"
     },
     "embed": {
       "provider": "apple",
@@ -22623,7 +23102,8 @@
       "spotify": "https://open.spotify.com/search/Sallow%20Moth%20Blue%20Permutations",
       "soundcloud": "https://soundcloud.com/search?q=Sallow%20Moth%20Blue%20Permutations",
       "youtube": "https://www.youtube.com/results?search_query=Sallow%20Moth%20Blue%20Permutations",
-      "apple": "https://music.apple.com/us/album/blue-permutations-ep/1854005974?uo=4"
+      "apple": "https://music.apple.com/us/album/blue-permutations-ep/1854005974?uo=4",
+      "tidal": "https://tidal.com/album/473771043"
     },
     "embed": {
       "provider": "apple",
@@ -22657,7 +23137,8 @@
       "spotify": "https://open.spotify.com/search/B.%20McQueen%2C%20Priori%20(2)%20Allergic",
       "soundcloud": "https://soundcloud.com/search?q=B.%20McQueen%2C%20Priori%20(2)%20Allergic",
       "youtube": "https://www.youtube.com/results?search_query=B.%20McQueen%2C%20Priori%20(2)%20Allergic",
-      "apple": "https://music.apple.com/us/album/allergic-single/1851293571?uo=4"
+      "apple": "https://music.apple.com/us/album/allergic-single/1851293571?uo=4",
+      "tidal": "https://tidal.com/album/472204708"
     },
     "embed": {
       "provider": "apple",
@@ -22725,7 +23206,8 @@
       "soundcloud": "https://soundcloud.com/search?q=Js%20Donny%20Death%20Folk",
       "youtube": "https://www.youtube.com/results?search_query=Js%20Donny%20Death%20Folk",
       "deezer": "https://www.deezer.com/album/846671802",
-      "apple": "https://music.apple.com/us/album/death-folk/1849461921?uo=4"
+      "apple": "https://music.apple.com/us/album/death-folk/1849461921?uo=4",
+      "tidal": "https://tidal.com/album/470148375"
     },
     "embed": {
       "provider": "apple",
@@ -34946,7 +35428,7 @@
     "title": "Kwiaty Przyjemności",
     "label": "My Music",
     "releaseDate": "2025-03-14",
-    "description": "",
+    "description": "Twelve tracks of Polish pop from Pan Savyan on My Music, leaning closer to the genre's mainstream centre than any club-adjacent margin. File next to whatever Polish vocal pop you already keep on the shelf.",
     "tags": [
       "pop"
     ],
@@ -49190,12 +49672,13 @@
       "spotify": "https://open.spotify.com/search/Gusanito%20Candela%20Te%20Voy%20A%20Dar",
       "soundcloud": "https://soundcloud.com/search?q=Gusanito%20Candela%20Te%20Voy%20A%20Dar",
       "youtube": "https://www.youtube.com/results?search_query=Gusanito%20Candela%20Te%20Voy%20A%20Dar",
-      "deezer": "https://www.deezer.com/album/596855442"
+      "deezer": "https://www.deezer.com/album/596855442",
+      "apple": "https://music.apple.com/us/album/candela-te-voy-a-dar-single/1750308966?uo=4"
     },
     "embed": {
-      "provider": "deezer",
-      "src": "https://widget.deezer.com/widget/light/album/596855442",
-      "height": 300
+      "provider": "apple",
+      "src": "https://embed.music.apple.com/us/album/1750308966?theme=light",
+      "height": 450
     },
     "musicVideoUrl": null,
     "status": "pending",
