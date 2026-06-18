@@ -151,6 +151,39 @@
     "pressMentions": []
   },
   {
+    "id": "floating-points-mere-mortals",
+    "type": "album",
+    "artist": "Floating Points",
+    "title": "Mere Mortals",
+    "label": "",
+    "releaseDate": "2026-08-28",
+    "description": "Sam Shepherd back in long-form mode, where the through line has always been jazz-literate electronics that move between club rooms and listening rooms without picking a side. Filed alongside Pharoah, Crush, Promises, depending on which one this turns out to be in conversation with.",
+    "tags": [],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=Floating%20Points%20Mere%20Mortals&item_type=a",
+      "spotify": "https://open.spotify.com/search/Floating%20Points%20Mere%20Mortals",
+      "soundcloud": "https://soundcloud.com/search?q=Floating%20Points%20Mere%20Mortals",
+      "youtube": "https://www.youtube.com/results?search_query=Floating%20Points%20Mere%20Mortals",
+      "deezer": "https://www.deezer.com/album/987911511",
+      "apple": "https://music.apple.com/us/album/mere-mortals/6771726136?uo=4"
+    },
+    "embed": {
+      "provider": "apple",
+      "src": "https://embed.music.apple.com/us/album/6771726136?theme=light",
+      "height": 450
+    },
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": null,
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
     "id": "gb-herzsprung",
     "type": "album",
     "artist": "GB",
@@ -608,6 +641,105 @@
     "pressMentions": []
   },
   {
+    "id": "noon-hier-op-het-terras",
+    "type": "single",
+    "artist": "Noon",
+    "title": "Hier op het Terras",
+    "label": "",
+    "releaseDate": "2026-06-18",
+    "description": "Noon turns up with a one-off single, label and lineage unannounced, which is about as much as anyone can honestly say at this stage. File under wait-and-see.",
+    "tags": [],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=Noon%20Hier%20op%20het%20Terras&item_type=a",
+      "spotify": "https://open.spotify.com/search/Noon%20Hier%20op%20het%20Terras",
+      "soundcloud": "https://soundcloud.com/search?q=Noon%20Hier%20op%20het%20Terras",
+      "youtube": "https://www.youtube.com/results?search_query=Noon%20Hier%20op%20het%20Terras",
+      "deezer": "https://www.deezer.com/album/1004617341",
+      "apple": "https://music.apple.com/us/album/hier-op-het-terras-single/6779872435?uo=4"
+    },
+    "embed": {
+      "provider": "apple",
+      "src": "https://embed.music.apple.com/us/album/6779872435?theme=light",
+      "height": 450
+    },
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://cdn-images.dzcdn.net/images/cover/a14ea2aff4801d3e4680ec83231380b5/1000x1000-000000-80-0-0.jpg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
+    "id": "martyn-horizon",
+    "type": "single",
+    "artist": "Martyn",
+    "title": "Horizon",
+    "label": "Fellside Recordings",
+    "releaseDate": "2026-06-18",
+    "description": "A sixteen track folk album on Fellside, the long-running Cumbrian label whose catalogue has always favoured plain-spoken songcraft over revivalist gloss. Filed alongside the rest of the house roster rather than anywhere near the producer of the same name.",
+    "tags": [],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=Martyn%20Horizon&item_type=a",
+      "spotify": "https://open.spotify.com/search/Martyn%20Horizon",
+      "soundcloud": "https://soundcloud.com/search?q=Martyn%20Horizon",
+      "youtube": "https://www.youtube.com/results?search_query=Martyn%20Horizon",
+      "deezer": "https://www.deezer.com/album/1003765951",
+      "apple": "https://music.apple.com/us/album/horizon-single/6779436879?uo=4"
+    },
+    "embed": {
+      "provider": "apple",
+      "src": "https://embed.music.apple.com/us/album/6779436879?theme=light",
+      "height": 450
+    },
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://cdn-images.dzcdn.net/images/cover/93a63d53c2e5fcf5f0caf935b5861648/1000x1000-000000-80-0-0.jpg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
+    "id": "fluxion-all-night-long",
+    "type": "single",
+    "artist": "Fluxion",
+    "title": "All Night Long",
+    "label": "",
+    "releaseDate": "2026-06-18",
+    "description": "Konstantinos Soublis returns under the Fluxion alias, where the Chain Reaction lineage of dub techno has always sat alongside a looser, more rhythmically curious streak. Sparse details for now, but the name alone tells you which shelf it belongs on.",
+    "tags": [],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=Fluxion%20All%20Night%20Long&item_type=a",
+      "spotify": "https://open.spotify.com/search/Fluxion%20All%20Night%20Long",
+      "soundcloud": "https://soundcloud.com/search?q=Fluxion%20All%20Night%20Long",
+      "youtube": "https://www.youtube.com/results?search_query=Fluxion%20All%20Night%20Long",
+      "deezer": "https://www.deezer.com/album/999335081",
+      "apple": "https://music.apple.com/us/album/all-night-long-single/6777652409?uo=4"
+    },
+    "embed": {
+      "provider": "apple",
+      "src": "https://embed.music.apple.com/us/album/6777652409?theme=light",
+      "height": 450
+    },
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://cdn-images.dzcdn.net/images/cover/49500f7e793774df7ca7c851b6e6b920/1000x1000-000000-80-0-0.jpg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
     "id": "felicia-atkinson-sans-visage-iv",
     "type": "single",
     "artist": "Felicia Atkinson",
@@ -666,6 +798,41 @@
     "status": "pending",
     "approvedAt": null,
     "coverImageUrl": "https://cdn-images.dzcdn.net/images/cover/d34bff751e89f8ac8374682e6b659524/1000x1000-000000-80-0-0.jpg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
+    "id": "mount-kimbie-monroe",
+    "type": "single",
+    "artist": "Mount Kimbie",
+    "title": "Monroe",
+    "label": "Warp Records Limited, Licensed Courtesy of Warp Records",
+    "releaseDate": "2026-06-17",
+    "description": "Mount Kimbie tagged as house on Warp, which already tells you most of what you need to know about where this one sits in their catalogue. Post-dubstep instincts pointed at the floor rather than away from it.",
+    "tags": [
+      "house"
+    ],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=Mount%20Kimbie%20Monroe&item_type=a",
+      "spotify": "https://open.spotify.com/search/Mount%20Kimbie%20Monroe",
+      "soundcloud": "https://soundcloud.com/search?q=Mount%20Kimbie%20Monroe",
+      "youtube": "https://www.youtube.com/results?search_query=Mount%20Kimbie%20Monroe",
+      "apple": "https://music.apple.com/us/album/monroe-single/6773788264",
+      "deezer": "https://www.deezer.com/album/992453121"
+    },
+    "embed": {
+      "provider": "apple",
+      "src": "https://embed.music.apple.com/us/album/6773788264?theme=light",
+      "height": 450
+    },
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/ee/77/8b/ee778b44-873a-7cc6-6b03-7d95bff069bc/cover.jpg/600x600bb.jpg",
     "cover": {
       "bg": "#111110",
       "fg": "#f2efe8",
@@ -770,6 +937,33 @@
     "status": "pending",
     "approvedAt": null,
     "coverImageUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/3c/95/a9/3c95a920-290c-1051-ef8a-44389ff86a17/7333583826525.jpg/600x600bb.jpg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
+    "id": "iglooghost-beige-pod",
+    "type": "album",
+    "artist": "Iglooghost",
+    "title": "Beige Pod",
+    "label": "Not On Label (Iglooghost Self-released)",
+    "releaseDate": "2026-06-14",
+    "description": "Iglooghost goes self-release for this one, a single-track AIFF dump filed loosely under IDM. The maximalist cartoon-grain palette he built across Brainfeeder and Gloo remains the obvious reference point.",
+    "tags": [],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=Iglooghost%20Beige%20Pod&item_type=a",
+      "spotify": "https://open.spotify.com/search/Iglooghost%20Beige%20Pod",
+      "soundcloud": "https://soundcloud.com/search?q=Iglooghost%20Beige%20Pod",
+      "youtube": "https://www.youtube.com/results?search_query=Iglooghost%20Beige%20Pod"
+    },
+    "embed": null,
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": null,
     "cover": {
       "bg": "#111110",
       "fg": "#f2efe8",
@@ -1356,6 +1550,40 @@
     "pressMentions": []
   },
   {
+    "id": "wiki-ancient-history",
+    "type": "album",
+    "artist": "Wiki",
+    "title": "Ancient History",
+    "label": "Wikset Enterprise",
+    "releaseDate": "2026-06-12",
+    "description": "Fourteen tracks of Wiki on his own Wikset imprint, the New York rapper still working that scuffed, conversational register he has been refining since Lil Me. Self-released and digital only for now.",
+    "tags": [],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=Wiki%20Ancient%20History&item_type=a",
+      "spotify": "https://open.spotify.com/search/Wiki%20Ancient%20History",
+      "soundcloud": "https://soundcloud.com/search?q=Wiki%20Ancient%20History",
+      "youtube": "https://www.youtube.com/results?search_query=Wiki%20Ancient%20History",
+      "deezer": "https://www.deezer.com/album/973640761"
+    },
+    "embed": {
+      "provider": "deezer",
+      "src": "https://widget.deezer.com/widget/light/album/973640761",
+      "height": 300
+    },
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://cdn-images.dzcdn.net/images/cover/25f1a64e5059fe07ae774c0a139987f4/1000x1000-000000-80-0-0.jpg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": [
+      "pitchfork_albums"
+    ]
+  },
+  {
     "id": "the-chemical-brothers-go-live-from-glastonbury",
     "type": "single",
     "artist": "The Chemical Brothers",
@@ -1402,13 +1630,46 @@
       "bandcamp": "https://bandcamp.com/search?q=Fireground%20(2)%20Core%20Waves&item_type=a",
       "spotify": "https://open.spotify.com/search/Fireground%20(2)%20Core%20Waves",
       "soundcloud": "https://soundcloud.com/search?q=Fireground%20(2)%20Core%20Waves",
-      "youtube": "https://www.youtube.com/results?search_query=Fireground%20(2)%20Core%20Waves"
+      "youtube": "https://www.youtube.com/results?search_query=Fireground%20(2)%20Core%20Waves",
+      "deezer": "https://www.deezer.com/album/1004200051",
+      "apple": "https://music.apple.com/us/album/core-waves-ep/6779668817?uo=4"
+    },
+    "embed": {
+      "provider": "apple",
+      "src": "https://embed.music.apple.com/us/album/6779668817?theme=light",
+      "height": 450
+    },
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://i.discogs.com/OFDdd1JxaNRmKgutM1__NThKOE6DfEJg4A5x6_g-jpE/rs:fit/g:sm/q:90/h:600/w:589/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM3NTQw/MzgzLTE3ODExODI3/NjYtMTQyNy5qcGVn.jpeg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
+    "id": "moor-mother-hundred-and-one-for-trane",
+    "type": "album",
+    "artist": "Moor Mother",
+    "title": "HUNDRED AND ONE FOR TRANE",
+    "label": "",
+    "releaseDate": "2026-06-11",
+    "description": "Moor Mother offers a record framed around Coltrane, which on past form will mean spoken word and free jazz worked through her usual archival, abrasive lens. Title aside, anything more specific would be guessing.",
+    "tags": [],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=Moor%20Mother%20HUNDRED%20AND%20ONE%20FOR%20TRANE&item_type=a",
+      "spotify": "https://open.spotify.com/search/Moor%20Mother%20HUNDRED%20AND%20ONE%20FOR%20TRANE",
+      "soundcloud": "https://soundcloud.com/search?q=Moor%20Mother%20HUNDRED%20AND%20ONE%20FOR%20TRANE",
+      "youtube": "https://www.youtube.com/results?search_query=Moor%20Mother%20HUNDRED%20AND%20ONE%20FOR%20TRANE"
     },
     "embed": null,
     "musicVideoUrl": null,
     "status": "pending",
     "approvedAt": null,
-    "coverImageUrl": "https://i.discogs.com/OFDdd1JxaNRmKgutM1__NThKOE6DfEJg4A5x6_g-jpE/rs:fit/g:sm/q:90/h:600/w:589/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM3NTQw/MzgzLTE3ODExODI3/NjYtMTQyNy5qcGVn.jpeg",
+    "coverImageUrl": null,
     "cover": {
       "bg": "#111110",
       "fg": "#f2efe8",
@@ -1738,6 +1999,35 @@
     "status": "pending",
     "approvedAt": null,
     "coverImageUrl": "https://i.discogs.com/2HXNv4L5XoGAedqH8ws-QPffdHk0YC2b7nt8uigc51g/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM3NjQz/NjEzLTE3ODE2MjIx/NDQtMjMwMy5qcGVn.jpeg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
+    "id": "duster-valentine-dial-212-061-92-2",
+    "type": "ep",
+    "artist": "Duster Valentine",
+    "title": "DIAL #212 061 92.2",
+    "label": "Youth",
+    "releaseDate": "2026-06-09",
+    "description": "Four house tracks from Duster Valentine on Youth, pressed to 12\". Functional rather than flashy, the kind of record that earns its keep across a long set.",
+    "tags": [
+      "electronic"
+    ],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=Duster%20Valentine%20DIAL%20%23212%20061%2092.2&item_type=a",
+      "spotify": "https://open.spotify.com/search/Duster%20Valentine%20DIAL%20%23212%20061%2092.2",
+      "soundcloud": "https://soundcloud.com/search?q=Duster%20Valentine%20DIAL%20%23212%20061%2092.2",
+      "youtube": "https://www.youtube.com/results?search_query=Duster%20Valentine%20DIAL%20%23212%20061%2092.2"
+    },
+    "embed": null,
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://i.discogs.com/zZvX5t_V2ztksas6KvchMGQtRHJg1bAI3457S9Jbq3E/rs:fit/g:sm/q:90/h:600/w:594/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM3NjUw/MzE1LTE3ODE2OTM5/NDYtNDMwNC5qcGVn.jpeg",
     "cover": {
       "bg": "#111110",
       "fg": "#f2efe8",
@@ -2767,6 +3057,40 @@
     "pressMentions": []
   },
   {
+    "id": "wiki-right-away",
+    "type": "single",
+    "artist": "Wiki",
+    "title": "Right Away",
+    "label": "",
+    "releaseDate": "2026-06-04",
+    "description": "New one from the New York rapper, arriving with no label info attached yet. Wiki's lane (loose, conversational, dusty-sample rap in the Ratking lineage) is well enough established that the surprise would be a swerve, not a continuation.",
+    "tags": [],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=Wiki%20Right%20Away&item_type=a",
+      "spotify": "https://open.spotify.com/search/Wiki%20Right%20Away",
+      "soundcloud": "https://soundcloud.com/search?q=Wiki%20Right%20Away",
+      "youtube": "https://www.youtube.com/results?search_query=Wiki%20Right%20Away",
+      "deezer": "https://www.deezer.com/album/973640891"
+    },
+    "embed": {
+      "provider": "deezer",
+      "src": "https://widget.deezer.com/widget/light/album/973640891",
+      "height": 300
+    },
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://cdn-images.dzcdn.net/images/cover/450f08643d18a72f242b68041cd604fe/1000x1000-000000-80-0-0.jpg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": [
+      "pitchfork_albums"
+    ]
+  },
+  {
     "id": "matthew-herbert-worry-herbert-s-brahm-dub",
     "type": "single",
     "artist": "Matthew Herbert",
@@ -3786,6 +4110,45 @@
       "motif": "disc"
     },
     "pressMentions": []
+  },
+  {
+    "id": "boards-of-canada-geogaddi-l",
+    "type": "album",
+    "artist": "Boards Of Canada",
+    "title": "Geogaddi",
+    "label": "Warp Records",
+    "releaseDate": "2026-05-29",
+    "description": "Warp keeps the Geogaddi pressing in circulation, twenty-three pieces of woozy, faintly occult Boards Of Canada at album length. Still the record their ambient and IDM tags were drawn around in the first place.",
+    "tags": [
+      "electronic"
+    ],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=Boards%20Of%20Canada%20Geogaddi&item_type=a",
+      "spotify": "https://open.spotify.com/search/Boards%20Of%20Canada%20Geogaddi",
+      "soundcloud": "https://soundcloud.com/search?q=Boards%20Of%20Canada%20Geogaddi",
+      "youtube": "https://www.youtube.com/results?search_query=Boards%20Of%20Canada%20Geogaddi",
+      "deezer": "https://www.deezer.com/album/2795621",
+      "apple": "https://music.apple.com/us/album/geogaddi/281208446?uo=4"
+    },
+    "embed": {
+      "provider": "apple",
+      "src": "https://embed.music.apple.com/us/album/281208446?theme=light",
+      "height": 450
+    },
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://i.discogs.com/jq2IkazwDze9Pl-7PX5CVjdA-ODMQcZXGsm12QcGU6g/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM3NjIy/NjU1LTE3ODE3MDQ0/MTUtNjUwMi5qcGVn.jpeg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": [
+      "pitchfork_tracks",
+      "pitchfork_best_albums",
+      "ra"
+    ]
   },
   {
     "id": "eiii-emanations",
@@ -15486,6 +15849,40 @@
     "pressMentions": []
   },
   {
+    "id": "sux-3-sux-sells",
+    "type": "album",
+    "artist": "Sux (3)",
+    "title": "SUX SELLS",
+    "label": "Youth Riot",
+    "releaseDate": "2026-03-26",
+    "description": "Twelve tracks of rock from Sux, cut at 45 RPM on Youth Riot, which tends to err on the louder, faster end of the catalogue. File under guitar music that wants the extra headroom.",
+    "tags": [
+      "rock"
+    ],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=Sux%20(3)%20SUX%20SELLS&item_type=a",
+      "spotify": "https://open.spotify.com/search/Sux%20(3)%20SUX%20SELLS",
+      "soundcloud": "https://soundcloud.com/search?q=Sux%20(3)%20SUX%20SELLS",
+      "youtube": "https://www.youtube.com/results?search_query=Sux%20(3)%20SUX%20SELLS",
+      "deezer": "https://www.deezer.com/album/988554711"
+    },
+    "embed": {
+      "provider": "deezer",
+      "src": "https://widget.deezer.com/widget/light/album/988554711",
+      "height": 300
+    },
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://i.discogs.com/4Kdq-oXnJRaSMGEy_D6bZXli7IcULHMKo3wl93JHr_M/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM3NjUz/OTYwLTE3ODE3MjQ4/OTktOTY4MC5qcGVn.jpeg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
     "id": "psychicthrob-bursting-dementia",
     "type": "album",
     "artist": "Psychicthrob",
@@ -21229,6 +21626,35 @@
     "status": "pending",
     "approvedAt": null,
     "coverImageUrl": "https://i.discogs.com/7wGY_M2qRLJCuImoW4tO1ZRCm0BU4mYxkLRt1Kh2ZX0/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM3NjI2/NTA3LTE3ODE0NDY0/MTEtMjk1NS5qcGVn.jpeg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
+    "id": "what-kind-of-sound-soundings",
+    "type": "ep",
+    "artist": "What Kind Of Sound?",
+    "title": "Soundings",
+    "label": "Vintage Youth",
+    "releaseDate": "2026-01-01",
+    "description": "Four tracks of ambient and IDM from What Kind Of Sound? on Vintage Youth, issued to cassette. Sits closer to the contemplative end of the genre than the fidgety one.",
+    "tags": [
+      "electronic"
+    ],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=What%20Kind%20Of%20Sound%3F%20Soundings&item_type=a",
+      "spotify": "https://open.spotify.com/search/What%20Kind%20Of%20Sound%3F%20Soundings",
+      "soundcloud": "https://soundcloud.com/search?q=What%20Kind%20Of%20Sound%3F%20Soundings",
+      "youtube": "https://www.youtube.com/results?search_query=What%20Kind%20Of%20Sound%3F%20Soundings"
+    },
+    "embed": null,
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://i.discogs.com/wMLf2qMyLPvt9HgP3ckCEQQECSTBMK2ktCxfqPdRGJU/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM3NjUx/OTU5LTE3ODE3MDc3/MzItMjcxNi5qcGVn.jpeg",
     "cover": {
       "bg": "#111110",
       "fg": "#f2efe8",
@@ -35463,7 +35889,7 @@
     "title": "APTID",
     "label": "YUKU",
     "releaseDate": "2025-03-13",
-    "description": "",
+    "description": "Eight tracks of bass-weight collage on YUKU, with Traka pulling at the seams between grime, dubstep and trip hop without settling into any of them. For anyone tracking the label's wonkier breakbeat output.",
     "tags": [
       "electronic"
     ],
@@ -35497,7 +35923,7 @@
     "title": "1st Light",
     "label": "LuckyMe",
     "releaseDate": "2025-03-12",
-    "description": "",
+    "description": "A two-track meeting of umru's hyperpop-leaning sound design and Jacques Greene's club melancholy, landing where both already live on LuckyMe. The pairing makes more sense the longer you sit with it.",
     "tags": [
       "electronic"
     ],
@@ -38876,7 +39302,8 @@
       "spotify": "https://open.spotify.com/search/Cheap%20Perfume%20Nailed%20It",
       "soundcloud": "https://soundcloud.com/search?q=Cheap%20Perfume%20Nailed%20It",
       "youtube": "https://www.youtube.com/results?search_query=Cheap%20Perfume%20Nailed%20It",
-      "deezer": "https://www.deezer.com/album/14358956"
+      "deezer": "https://www.deezer.com/album/14358956",
+      "tidal": "https://tidal.com/album/66261922"
     },
     "embed": {
       "provider": "deezer",
@@ -38945,7 +39372,8 @@
       "soundcloud": "https://soundcloud.com/search?q=Tarta%20Relena%20%C3%89s%20Pregunta",
       "youtube": "https://www.youtube.com/results?search_query=Tarta%20Relena%20%C3%89s%20Pregunta",
       "deezer": "https://www.deezer.com/album/771469251",
-      "apple": "https://music.apple.com/us/album/%C3%A9s-pregunta/1820153937?uo=4"
+      "apple": "https://music.apple.com/us/album/%C3%A9s-pregunta/1820153937?uo=4",
+      "tidal": "https://tidal.com/album/441673774"
     },
     "embed": {
       "provider": "apple",
@@ -38979,7 +39407,8 @@
       "spotify": "https://open.spotify.com/search/Jaydee%20Plastic%20Dreams",
       "soundcloud": "https://soundcloud.com/search?q=Jaydee%20Plastic%20Dreams",
       "youtube": "https://www.youtube.com/results?search_query=Jaydee%20Plastic%20Dreams",
-      "apple": "https://music.apple.com/us/album/plastic-dreams-remixes/780142738?uo=4"
+      "apple": "https://music.apple.com/us/album/plastic-dreams-remixes/780142738?uo=4",
+      "tidal": "https://tidal.com/album/85186140"
     },
     "embed": {
       "provider": "apple",
@@ -39013,7 +39442,8 @@
       "spotify": "https://open.spotify.com/search/DJ%20Anderson%20Do%20Paraiso%20Querid%C3%A3o",
       "soundcloud": "https://soundcloud.com/search?q=DJ%20Anderson%20Do%20Paraiso%20Querid%C3%A3o",
       "youtube": "https://www.youtube.com/results?search_query=DJ%20Anderson%20Do%20Paraiso%20Querid%C3%A3o",
-      "deezer": "https://www.deezer.com/album/532479002"
+      "deezer": "https://www.deezer.com/album/532479002",
+      "tidal": "https://tidal.com/album/338893111"
     },
     "embed": {
       "provider": "deezer",
@@ -39048,7 +39478,8 @@
       "soundcloud": "https://soundcloud.com/search?q=HHY%20%26%20The%20Kampala%20Unit%20Turbo%20Meltdown",
       "youtube": "https://www.youtube.com/results?search_query=HHY%20%26%20The%20Kampala%20Unit%20Turbo%20Meltdown",
       "deezer": "https://www.deezer.com/album/701170351",
-      "apple": "https://music.apple.com/us/album/turbo-meltdown/1791839566?uo=4"
+      "apple": "https://music.apple.com/us/album/turbo-meltdown/1791839566?uo=4",
+      "tidal": "https://tidal.com/album/413023274"
     },
     "embed": {
       "provider": "apple",
@@ -39111,7 +39542,8 @@
       "spotify": "https://open.spotify.com/search/Modern%20Color%20From%20The%20Leaves%20Of%20Your%20Garden",
       "soundcloud": "https://soundcloud.com/search?q=Modern%20Color%20From%20The%20Leaves%20Of%20Your%20Garden",
       "youtube": "https://www.youtube.com/results?search_query=Modern%20Color%20From%20The%20Leaves%20Of%20Your%20Garden",
-      "apple": "https://music.apple.com/us/album/from-the-leaves-of-your-garden/1504812635?uo=4"
+      "apple": "https://music.apple.com/us/album/from-the-leaves-of-your-garden/1504812635?uo=4",
+      "tidal": "https://tidal.com/album/135475080"
     },
     "embed": {
       "provider": "apple",
@@ -39145,7 +39577,8 @@
       "spotify": "https://open.spotify.com/search/Aylu%20Fobia",
       "soundcloud": "https://soundcloud.com/search?q=Aylu%20Fobia",
       "youtube": "https://www.youtube.com/results?search_query=Aylu%20Fobia",
-      "apple": "https://music.apple.com/us/album/fobia/1835932085?uo=4"
+      "apple": "https://music.apple.com/us/album/fobia/1835932085?uo=4",
+      "tidal": "https://tidal.com/album/456699342"
     },
     "embed": {
       "provider": "apple",
@@ -39179,7 +39612,8 @@
       "spotify": "https://open.spotify.com/search/Sary%20Moussa%20Wind%2C%20Again",
       "soundcloud": "https://soundcloud.com/search?q=Sary%20Moussa%20Wind%2C%20Again",
       "youtube": "https://www.youtube.com/results?search_query=Sary%20Moussa%20Wind%2C%20Again",
-      "apple": "https://music.apple.com/us/album/wind-again/1808983331?uo=4"
+      "apple": "https://music.apple.com/us/album/wind-again/1808983331?uo=4",
+      "tidal": "https://tidal.com/album/430503284"
     },
     "embed": {
       "provider": "apple",
@@ -39214,7 +39648,8 @@
       "soundcloud": "https://soundcloud.com/search?q=Master%20(2)%2040%20Years%20And%20Killing",
       "youtube": "https://www.youtube.com/results?search_query=Master%20(2)%2040%20Years%20And%20Killing",
       "deezer": "https://www.deezer.com/album/695127921",
-      "apple": "https://music.apple.com/us/album/40-years-and-killing-ep/1789584700?uo=4"
+      "apple": "https://music.apple.com/us/album/40-years-and-killing-ep/1789584700?uo=4",
+      "tidal": "https://tidal.com/album/410554694"
     },
     "embed": {
       "provider": "apple",
@@ -39248,7 +39683,8 @@
       "spotify": "https://open.spotify.com/search/Earl%20Sweatshirt%20I%20Don't%20Like%20Shit%2C%20I%20Don't%20Go%20Outside%3A%20An%20Album%20By%20Earl%20Sweatshirt",
       "soundcloud": "https://soundcloud.com/search?q=Earl%20Sweatshirt%20I%20Don't%20Like%20Shit%2C%20I%20Don't%20Go%20Outside%3A%20An%20Album%20By%20Earl%20Sweatshirt",
       "youtube": "https://www.youtube.com/results?search_query=Earl%20Sweatshirt%20I%20Don't%20Like%20Shit%2C%20I%20Don't%20Go%20Outside%3A%20An%20Album%20By%20Earl%20Sweatshirt",
-      "deezer": "https://www.deezer.com/album/9907414"
+      "deezer": "https://www.deezer.com/album/9907414",
+      "tidal": "https://tidal.com/album/43781056"
     },
     "embed": {
       "provider": "deezer",
@@ -39282,7 +39718,8 @@
       "spotify": "https://open.spotify.com/search/Anthony%20Naples%20Orbs",
       "soundcloud": "https://soundcloud.com/search?q=Anthony%20Naples%20Orbs",
       "youtube": "https://www.youtube.com/results?search_query=Anthony%20Naples%20Orbs",
-      "apple": "https://music.apple.com/us/album/orbs/1686408074?uo=4"
+      "apple": "https://music.apple.com/us/album/orbs/1686408074?uo=4",
+      "tidal": "https://tidal.com/album/524566204"
     },
     "embed": {
       "provider": "apple",
@@ -39316,7 +39753,8 @@
       "spotify": "https://open.spotify.com/search/High%20Vis%20Guided%20Tour",
       "soundcloud": "https://soundcloud.com/search?q=High%20Vis%20Guided%20Tour",
       "youtube": "https://www.youtube.com/results?search_query=High%20Vis%20Guided%20Tour",
-      "deezer": "https://www.deezer.com/album/617441381"
+      "deezer": "https://www.deezer.com/album/617441381",
+      "tidal": "https://tidal.com/album/375989054"
     },
     "embed": {
       "provider": "deezer",
@@ -39350,7 +39788,8 @@
       "spotify": "https://open.spotify.com/search/Kult%20Masek%20%26%20Petr%20Vrba%20Fumarola",
       "soundcloud": "https://soundcloud.com/search?q=Kult%20Masek%20%26%20Petr%20Vrba%20Fumarola",
       "youtube": "https://www.youtube.com/results?search_query=Kult%20Masek%20%26%20Petr%20Vrba%20Fumarola",
-      "apple": "https://music.apple.com/us/album/fumarola/1843671679?uo=4"
+      "apple": "https://music.apple.com/us/album/fumarola/1843671679?uo=4",
+      "tidal": "https://tidal.com/album/464485074"
     },
     "embed": {
       "provider": "apple",
@@ -39385,7 +39824,8 @@
       "soundcloud": "https://soundcloud.com/search?q=L%C3%A9nok%20Langue%20of%20Tongue",
       "youtube": "https://www.youtube.com/results?search_query=L%C3%A9nok%20Langue%20of%20Tongue",
       "deezer": "https://www.deezer.com/album/831423681",
-      "apple": "https://music.apple.com/us/album/langue-of-tongue/1843672138?uo=4"
+      "apple": "https://music.apple.com/us/album/langue-of-tongue/1843672138?uo=4",
+      "tidal": "https://tidal.com/album/464485061"
     },
     "embed": {
       "provider": "apple",
@@ -39419,7 +39859,8 @@
       "spotify": "https://open.spotify.com/search/Mart'N%C3%A1lia%20Pagode%20Da%20Mart%E2%80%99N%C3%A1lia",
       "soundcloud": "https://soundcloud.com/search?q=Mart'N%C3%A1lia%20Pagode%20Da%20Mart%E2%80%99N%C3%A1lia",
       "youtube": "https://www.youtube.com/results?search_query=Mart'N%C3%A1lia%20Pagode%20Da%20Mart%E2%80%99N%C3%A1lia",
-      "apple": "https://music.apple.com/us/album/pagode-da-martn%C3%A1lia/1776533522?uo=4"
+      "apple": "https://music.apple.com/us/album/pagode-da-martn%C3%A1lia/1776533522?uo=4",
+      "tidal": "https://tidal.com/album/396096203"
     },
     "embed": {
       "provider": "apple",
@@ -39453,7 +39894,8 @@
       "spotify": "https://open.spotify.com/search/Le%20Motel%20Odd%20Numbers%20%2F%20S%E1%BB%91%20L%E1%BA%BB",
       "soundcloud": "https://soundcloud.com/search?q=Le%20Motel%20Odd%20Numbers%20%2F%20S%E1%BB%91%20L%E1%BA%BB",
       "youtube": "https://www.youtube.com/results?search_query=Le%20Motel%20Odd%20Numbers%20%2F%20S%E1%BB%91%20L%E1%BA%BB",
-      "apple": "https://music.apple.com/us/album/odd-numbers-s%E1%BB%91-l%E1%BA%BB/1789558030?uo=4"
+      "apple": "https://music.apple.com/us/album/odd-numbers-s%E1%BB%91-l%E1%BA%BB/1789558030?uo=4",
+      "tidal": "https://tidal.com/album/410515217"
     },
     "embed": {
       "provider": "apple",
@@ -39487,7 +39929,8 @@
       "spotify": "https://open.spotify.com/search/DOVS%20Psychic%20Geography",
       "soundcloud": "https://soundcloud.com/search?q=DOVS%20Psychic%20Geography",
       "youtube": "https://www.youtube.com/results?search_query=DOVS%20Psychic%20Geography",
-      "apple": "https://music.apple.com/us/album/psychic-geography/1777347806?uo=4"
+      "apple": "https://music.apple.com/us/album/psychic-geography/1777347806?uo=4",
+      "tidal": "https://tidal.com/album/396882059"
     },
     "embed": {
       "provider": "apple",
@@ -39521,7 +39964,8 @@
       "spotify": "https://open.spotify.com/search/Galen%20Tipton%20%2F%20Shmu%20Dewclaws",
       "soundcloud": "https://soundcloud.com/search?q=Galen%20Tipton%20%2F%20Shmu%20Dewclaws",
       "youtube": "https://www.youtube.com/results?search_query=Galen%20Tipton%20%2F%20Shmu%20Dewclaws",
-      "apple": "https://music.apple.com/us/album/dewclaws/1809774082?uo=4"
+      "apple": "https://music.apple.com/us/album/dewclaws/1809774082?uo=4",
+      "tidal": "https://tidal.com/album/431263870"
     },
     "embed": {
       "provider": "apple",
@@ -40625,12 +41069,13 @@
       "spotify": "https://open.spotify.com/search/Yoichi%20Kamimura%20%26%20Olli%20Aarni%20K%C5%8Dri%20no%20ryok%C5%8D%20%2F%20J%C3%A4%C3%A4matkailu",
       "soundcloud": "https://soundcloud.com/search?q=Yoichi%20Kamimura%20%26%20Olli%20Aarni%20K%C5%8Dri%20no%20ryok%C5%8D%20%2F%20J%C3%A4%C3%A4matkailu",
       "youtube": "https://www.youtube.com/results?search_query=Yoichi%20Kamimura%20%26%20Olli%20Aarni%20K%C5%8Dri%20no%20ryok%C5%8D%20%2F%20J%C3%A4%C3%A4matkailu",
-      "deezer": "https://www.deezer.com/album/820009331"
+      "deezer": "https://www.deezer.com/album/820009331",
+      "apple": "https://music.apple.com/us/album/kori-no-ryoko-j%C3%A4%C3%A4matkailu/1837953535?uo=4"
     },
     "embed": {
-      "provider": "deezer",
-      "src": "https://widget.deezer.com/widget/light/album/820009331",
-      "height": 300
+      "provider": "apple",
+      "src": "https://embed.music.apple.com/us/album/1837953535?theme=light",
+      "height": 450
     },
     "musicVideoUrl": null,
     "status": "pending",
