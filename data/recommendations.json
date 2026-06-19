@@ -626,13 +626,178 @@
       "bandcamp": "https://bandcamp.com/search?q=Bot1500%20The%20Black%20Sea&item_type=a",
       "spotify": "https://open.spotify.com/search/Bot1500%20The%20Black%20Sea",
       "soundcloud": "https://soundcloud.com/search?q=Bot1500%20The%20Black%20Sea",
-      "youtube": "https://www.youtube.com/results?search_query=Bot1500%20The%20Black%20Sea"
+      "youtube": "https://www.youtube.com/results?search_query=Bot1500%20The%20Black%20Sea",
+      "deezer": "https://www.deezer.com/album/1002092171",
+      "apple": "https://music.apple.com/us/album/the-black-sea/6779073204?uo=4",
+      "tidal": "https://tidal.com/album/532269896"
+    },
+    "embed": {
+      "provider": "apple",
+      "src": "https://embed.music.apple.com/us/album/6779073204?theme=light",
+      "height": 450
+    },
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://i.discogs.com/h9JfIhNMcaamD0X9eVw4zzZVfrmH7rAbkDVBjIfbez4/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM3NjQx/Mzc4LTE3ODE2MDI4/NzMtNjYzNy5qcGVn.jpeg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
+    "id": "alva-noto-wave-weave-soni-obi",
+    "type": "ep",
+    "artist": "Alva Noto",
+    "title": "Wave Weave - Soni Obi",
+    "label": "NOTON",
+    "releaseDate": "2026-06-19",
+    "description": "Carsten Nicolai returns to his own NOTON imprint with another ambient study, the kind of grid-precise quiet he has been refining for two decades. Shelve near Ryuichi Sakamoto's collaborative work or Senking.",
+    "tags": [
+      "ambient"
+    ],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=Alva%20Noto%20Wave%20Weave%20-%20Soni%20Obi&item_type=a",
+      "spotify": "https://open.spotify.com/search/Alva%20Noto%20Wave%20Weave%20-%20Soni%20Obi",
+      "soundcloud": "https://soundcloud.com/search?q=Alva%20Noto%20Wave%20Weave%20-%20Soni%20Obi",
+      "youtube": "https://www.youtube.com/results?search_query=Alva%20Noto%20Wave%20Weave%20-%20Soni%20Obi",
+      "apple": "https://music.apple.com/us/album/wave-weave-soni-obi-ep/6778354292",
+      "deezer": "https://www.deezer.com/album/1001173681",
+      "tidal": "https://tidal.com/album/531958612"
+    },
+    "embed": {
+      "provider": "apple",
+      "src": "https://embed.music.apple.com/us/album/6778354292?theme=light",
+      "height": 450
+    },
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/55/60/06/55600658-3058-1ea6-28e3-b936346fafe7/4251804155632_cover.jpg/600x600bb.jpg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
+    "id": "noon-cut-you-off",
+    "type": "single",
+    "artist": "Noon",
+    "title": "Cut you off",
+    "label": "",
+    "releaseDate": "2026-06-19",
+    "description": "Single from Noon, label unconfirmed at time of writing. Filed here on name recognition alone, check back once the credits surface.",
+    "tags": [],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=Noon%20Cut%20you%20off&item_type=a",
+      "spotify": "https://open.spotify.com/search/Noon%20Cut%20you%20off",
+      "soundcloud": "https://soundcloud.com/search?q=Noon%20Cut%20you%20off",
+      "youtube": "https://www.youtube.com/results?search_query=Noon%20Cut%20you%20off",
+      "deezer": "https://www.deezer.com/album/984903701",
+      "apple": "https://music.apple.com/us/album/cut-you-off-single/6770433850?uo=4"
+    },
+    "embed": {
+      "provider": "apple",
+      "src": "https://embed.music.apple.com/us/album/6770433850?theme=light",
+      "height": 450
+    },
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://cdn-images.dzcdn.net/images/cover/338cac10d50312d62112de3e081d8718/1000x1000-000000-80-0-0.jpg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
+    "id": "k-lone-iluvu",
+    "type": "single",
+    "artist": "k-lone",
+    "title": "iluvu",
+    "label": "",
+    "releaseDate": "2026-06-19",
+    "description": "K-LONE off-Wisdom Teeth, with no label attached yet, which is itself worth noting given how tightly he usually keeps that orbit. Expect the same patient, dub-leaning club music he has been mapping out for years; for anyone tracking the Facta side of that catalogue.",
+    "tags": [],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=k-lone%20iluvu&item_type=a",
+      "spotify": "https://open.spotify.com/search/k-lone%20iluvu",
+      "soundcloud": "https://soundcloud.com/search?q=k-lone%20iluvu",
+      "youtube": "https://www.youtube.com/results?search_query=k-lone%20iluvu",
+      "deezer": "https://www.deezer.com/album/1002290201"
+    },
+    "embed": {
+      "provider": "deezer",
+      "src": "https://widget.deezer.com/widget/light/album/1002290201",
+      "height": 300
+    },
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://cdn-images.dzcdn.net/images/cover/32cb07df1180217831b8659473b6fd31/1000x1000-000000-80-0-0.jpg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
+    "id": "k-lone-tera-k-lone-remix",
+    "type": "single",
+    "artist": "k-lone",
+    "title": "Tera (K-LONE Remix)",
+    "label": "",
+    "releaseDate": "2026-06-19",
+    "description": "K-LONE turns in a remix in the register Wisdom Teeth listeners will recognise: weightless percussion, dub-leaning low end, melodic detail kept at arm's length. File alongside his own Cape Cira work.",
+    "tags": [],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=k-lone%20Tera%20(K-LONE%20Remix)&item_type=a",
+      "spotify": "https://open.spotify.com/search/k-lone%20Tera%20(K-LONE%20Remix)",
+      "soundcloud": "https://soundcloud.com/search?q=k-lone%20Tera%20(K-LONE%20Remix)",
+      "youtube": "https://www.youtube.com/results?search_query=k-lone%20Tera%20(K-LONE%20Remix)",
+      "deezer": "https://www.deezer.com/album/1002742341"
     },
     "embed": null,
     "musicVideoUrl": null,
     "status": "pending",
     "approvedAt": null,
-    "coverImageUrl": "https://i.discogs.com/h9JfIhNMcaamD0X9eVw4zzZVfrmH7rAbkDVBjIfbez4/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM3NjQx/Mzc4LTE3ODE2MDI4/NzMtNjYzNy5qcGVn.jpeg",
+    "coverImageUrl": "https://cdn-images.dzcdn.net/images/cover/5e98ee97c6155cf41e8c0492c36ffcd4/1000x1000-000000-80-0-0.jpg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
+    "id": "mr-fingers-toi-et-moi-mr-fingers-remixes",
+    "type": "single",
+    "artist": "Mr. Fingers",
+    "title": "Toi Et Moi - Mr. Fingers Remixes",
+    "label": "",
+    "releaseDate": "2026-06-19",
+    "description": "Larry Heard turning his hand to a Toi Et Moi remix, which more or less tells you the register: deep house with the chord voicings nobody else quite lands. File next to the long tail of Alleviated reworks.",
+    "tags": [],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=Mr.%20Fingers%20Toi%20Et%20Moi%20-%20Mr.%20Fingers%20Remixes&item_type=a",
+      "spotify": "https://open.spotify.com/search/Mr.%20Fingers%20Toi%20Et%20Moi%20-%20Mr.%20Fingers%20Remixes",
+      "soundcloud": "https://soundcloud.com/search?q=Mr.%20Fingers%20Toi%20Et%20Moi%20-%20Mr.%20Fingers%20Remixes",
+      "youtube": "https://www.youtube.com/results?search_query=Mr.%20Fingers%20Toi%20Et%20Moi%20-%20Mr.%20Fingers%20Remixes",
+      "deezer": "https://www.deezer.com/album/1003724791",
+      "tidal": "https://tidal.com/album/532843168"
+    },
+    "embed": null,
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://cdn-images.dzcdn.net/images/cover/f0938d4e184a1297c8b0ae61376bd827/1000x1000-000000-80-0-0.jpg",
     "cover": {
       "bg": "#111110",
       "fg": "#f2efe8",
@@ -738,6 +903,36 @@
       "motif": "disc"
     },
     "pressMentions": []
+  },
+  {
+    "id": "nourished-by-time-karma-sutra",
+    "type": "single",
+    "artist": "Nourished by Time",
+    "title": "Karma Sutra",
+    "label": "",
+    "releaseDate": "2026-06-18",
+    "description": "Marcus Brown back under the Nourished by Time name, where lo-fi R&B, sentimental synth-pop and bedroom dance music tend to bleed into one another. Worth a listen if Erotic Probiotic 2 stayed in rotation.",
+    "tags": [],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=Nourished%20by%20Time%20Karma%20Sutra&item_type=a",
+      "spotify": "https://open.spotify.com/search/Nourished%20by%20Time%20Karma%20Sutra",
+      "soundcloud": "https://soundcloud.com/search?q=Nourished%20by%20Time%20Karma%20Sutra",
+      "youtube": "https://www.youtube.com/results?search_query=Nourished%20by%20Time%20Karma%20Sutra",
+      "deezer": "https://www.deezer.com/album/1001711541"
+    },
+    "embed": null,
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://cdn-images.dzcdn.net/images/cover/7fcccf2a0dc5612157cfcce0a2c69664/1000x1000-000000-80-0-0.jpg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": [
+      "pitchfork_best_tracks"
+    ]
   },
   {
     "id": "felicia-atkinson-sans-visage-iv",
@@ -4352,6 +4547,41 @@
     "pressMentions": []
   },
   {
+    "id": "gast-19-pond",
+    "type": "album",
+    "artist": "Gast (19)",
+    "title": "Pond",
+    "label": "Ilian Tape",
+    "releaseDate": "2026-05-28",
+    "description": "Nine pieces of ambient and experimental electronics for Ilian Tape, a quieter corner of the Zenker brothers' catalogue than the techno it is known for. Sits closer to the label's Skee Mask detours than the dancefloor material.",
+    "tags": [
+      "electronic"
+    ],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=Gast%20(19)%20Pond&item_type=a",
+      "spotify": "https://open.spotify.com/search/Gast%20(19)%20Pond",
+      "soundcloud": "https://soundcloud.com/search?q=Gast%20(19)%20Pond",
+      "youtube": "https://www.youtube.com/results?search_query=Gast%20(19)%20Pond",
+      "deezer": "https://www.deezer.com/album/988929271",
+      "apple": "https://music.apple.com/us/album/pond/6772517870?uo=4"
+    },
+    "embed": {
+      "provider": "apple",
+      "src": "https://embed.music.apple.com/us/album/6772517870?theme=light",
+      "height": 450
+    },
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://i.discogs.com/jE6WEzHv0zlhSe2XCHQPBKkq2z8KGbP29yGWpA6zGn0/rs:fit/g:sm/q:90/h:349/w:349/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM3NTk1/MTM2LTE3ODExNDYw/MzAtMjYyMC5wbmc.jpeg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
     "id": "h-lls-mahalia-fcuk",
     "type": "single",
     "artist": "H.LLS & Mahalia",
@@ -4548,6 +4778,76 @@
     "status": "pending",
     "approvedAt": null,
     "coverImageUrl": null,
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
+    "id": "madonna-mdna",
+    "type": "album",
+    "artist": "Madonna",
+    "title": "MDNA",
+    "label": "Rhino Records (2)",
+    "releaseDate": "2026-05-27",
+    "description": "Interscope puts MDNA back into circulation, the Benassi-and-Solveig-leaning dance-pop record that found Madonna chasing the early-2010s festival sound rather than setting it. Twelve tracks, for completists more than converts.",
+    "tags": [
+      "electronic"
+    ],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=Madonna%20MDNA&item_type=a",
+      "spotify": "https://open.spotify.com/search/Madonna%20MDNA",
+      "soundcloud": "https://soundcloud.com/search?q=Madonna%20MDNA",
+      "youtube": "https://www.youtube.com/results?search_query=Madonna%20MDNA",
+      "deezer": "https://www.deezer.com/album/879734892",
+      "apple": "https://music.apple.com/us/album/mdna/1862324053?uo=4"
+    },
+    "embed": {
+      "provider": "apple",
+      "src": "https://embed.music.apple.com/us/album/1862324053?theme=light",
+      "height": 450
+    },
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://i.discogs.com/YRSGbc4b_EaVZpInkMEdPYoXyc1xFp-mNCffjU30KqA/rs:fit/g:sm/q:90/h:511/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM3NjU5/MTk1LTE3ODE3ODg4/NTMtMjE4Mi5qcGVn.jpeg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
+    "id": "madonna-madame-x",
+    "type": "album",
+    "artist": "Madonna",
+    "title": "Madame X",
+    "label": "Rhino Records (2)",
+    "releaseDate": "2026-05-27",
+    "description": "A Warner reissue of Madonna's Lisbon-era detour, where dance-pop gets routed through fado, batucada and reggaeton instead of the usual club furniture. Twenty-two tracks across an LP pressing, for anyone who took the Medellín turn seriously.",
+    "tags": [
+      "electronic"
+    ],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=Madonna%20Madame%20X&item_type=a",
+      "spotify": "https://open.spotify.com/search/Madonna%20Madame%20X",
+      "soundcloud": "https://soundcloud.com/search?q=Madonna%20Madame%20X",
+      "youtube": "https://www.youtube.com/results?search_query=Madonna%20Madame%20X",
+      "deezer": "https://www.deezer.com/album/879733492",
+      "apple": "https://music.apple.com/us/album/madame-x-deluxe/1862323917?uo=4"
+    },
+    "embed": {
+      "provider": "apple",
+      "src": "https://embed.music.apple.com/us/album/1862323917?theme=light",
+      "height": 450
+    },
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://i.discogs.com/hCQyHaJKjkuvc7KPnHn5-yuA0HYLqLdEGW1fCd88GB8/rs:fit/g:sm/q:90/h:514/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM3NjU5/MDAzLTE3ODE3ODg1/NzEtOTY3Ni5qcGVn.jpeg",
     "cover": {
       "bg": "#111110",
       "fg": "#f2efe8",
@@ -12130,9 +12430,14 @@
       "bandcamp": "https://bandcamp.com/search?q=Zodiac%20Youth%20Carnival%20Of%20Souls&item_type=a",
       "spotify": "https://open.spotify.com/search/Zodiac%20Youth%20Carnival%20Of%20Souls",
       "soundcloud": "https://soundcloud.com/search?q=Zodiac%20Youth%20Carnival%20Of%20Souls",
-      "youtube": "https://www.youtube.com/results?search_query=Zodiac%20Youth%20Carnival%20Of%20Souls"
+      "youtube": "https://www.youtube.com/results?search_query=Zodiac%20Youth%20Carnival%20Of%20Souls",
+      "deezer": "https://www.deezer.com/album/1007151861"
     },
-    "embed": null,
+    "embed": {
+      "provider": "deezer",
+      "src": "https://widget.deezer.com/widget/light/album/1007151861",
+      "height": 300
+    },
     "musicVideoUrl": null,
     "status": "pending",
     "approvedAt": null,
@@ -17830,7 +18135,8 @@
       "soundcloud": "https://soundcloud.com/search?q=Kassel%20Jaeger%20%26%20Stephan%20Mathieu%20%26%20Akira%20Rabelais%20Zauberberg",
       "youtube": "https://www.youtube.com/results?search_query=Kassel%20Jaeger%20%26%20Stephan%20Mathieu%20%26%20Akira%20Rabelais%20Zauberberg",
       "deezer": "https://www.deezer.com/album/951646001",
-      "apple": "https://music.apple.com/us/album/zauberberg/1868396997?uo=4"
+      "apple": "https://music.apple.com/us/album/zauberberg/1868396997?uo=4",
+      "tidal": "https://tidal.com/album/489077670"
     },
     "embed": {
       "provider": "apple",
@@ -17863,7 +18169,8 @@
       "spotify": "https://open.spotify.com/search/Nightmares%20On%20Wax%20Vs%20Adrian%20Sherwood%20Flippin'%20Eck",
       "soundcloud": "https://soundcloud.com/search?q=Nightmares%20On%20Wax%20Vs%20Adrian%20Sherwood%20Flippin'%20Eck",
       "youtube": "https://www.youtube.com/results?search_query=Nightmares%20On%20Wax%20Vs%20Adrian%20Sherwood%20Flippin'%20Eck",
-      "deezer": "https://www.deezer.com/album/898044192"
+      "deezer": "https://www.deezer.com/album/898044192",
+      "tidal": "https://tidal.com/album/489909880"
     },
     "embed": {
       "provider": "deezer",
@@ -17896,7 +18203,8 @@
       "spotify": "https://open.spotify.com/search/Kwes.%20Kinds",
       "soundcloud": "https://soundcloud.com/search?q=Kwes.%20Kinds",
       "youtube": "https://www.youtube.com/results?search_query=Kwes.%20Kinds",
-      "apple": "https://music.apple.com/us/album/kinds/1857771327?uo=4"
+      "apple": "https://music.apple.com/us/album/kinds/1857771327?uo=4",
+      "tidal": "https://tidal.com/album/478110291"
     },
     "embed": {
       "provider": "apple",
@@ -17958,7 +18266,8 @@
       "spotify": "https://open.spotify.com/search/Ben%20Vince%20Street%20Druid",
       "soundcloud": "https://soundcloud.com/search?q=Ben%20Vince%20Street%20Druid",
       "youtube": "https://www.youtube.com/results?search_query=Ben%20Vince%20Street%20Druid",
-      "apple": "https://music.apple.com/us/album/street-druid/1866888491?uo=4"
+      "apple": "https://music.apple.com/us/album/street-druid/1866888491?uo=4",
+      "tidal": "https://tidal.com/album/487557427"
     },
     "embed": {
       "provider": "apple",
@@ -17992,7 +18301,8 @@
       "soundcloud": "https://soundcloud.com/search?q=Chantal%20Michelle%20All%20Things%20Might%20Spill",
       "youtube": "https://www.youtube.com/results?search_query=Chantal%20Michelle%20All%20Things%20Might%20Spill",
       "deezer": "https://www.deezer.com/album/849605562",
-      "apple": "https://music.apple.com/us/album/all-things-might-spill/1850494273?uo=4"
+      "apple": "https://music.apple.com/us/album/all-things-might-spill/1850494273?uo=4",
+      "tidal": "https://tidal.com/album/471327161"
     },
     "embed": {
       "provider": "apple",
@@ -18026,7 +18336,8 @@
       "soundcloud": "https://soundcloud.com/search?q=TOPS%20(3)%20I%20Feel%20Alive",
       "youtube": "https://www.youtube.com/results?search_query=TOPS%20(3)%20I%20Feel%20Alive",
       "deezer": "https://www.deezer.com/album/771622831",
-      "apple": "https://music.apple.com/us/album/i-feel-alive/1820216359?uo=4"
+      "apple": "https://music.apple.com/us/album/i-feel-alive/1820216359?uo=4",
+      "tidal": "https://tidal.com/album/441735099"
     },
     "embed": {
       "provider": "apple",
@@ -18059,7 +18370,8 @@
       "spotify": "https://open.spotify.com/search/Midori%20Hirano%20Otonoma",
       "soundcloud": "https://soundcloud.com/search?q=Midori%20Hirano%20Otonoma",
       "youtube": "https://www.youtube.com/results?search_query=Midori%20Hirano%20Otonoma",
-      "apple": "https://music.apple.com/us/album/otonoma/1837277068?uo=4"
+      "apple": "https://music.apple.com/us/album/otonoma/1837277068?uo=4",
+      "tidal": "https://tidal.com/album/458042797"
     },
     "embed": {
       "provider": "apple",
@@ -18092,7 +18404,8 @@
       "spotify": "https://open.spotify.com/search/Danny%20Brown%20(2)%20Stardust",
       "soundcloud": "https://soundcloud.com/search?q=Danny%20Brown%20(2)%20Stardust",
       "youtube": "https://www.youtube.com/results?search_query=Danny%20Brown%20(2)%20Stardust",
-      "deezer": "https://www.deezer.com/album/816893031"
+      "deezer": "https://www.deezer.com/album/816893031",
+      "tidal": "https://tidal.com/album/458788779"
     },
     "embed": {
       "provider": "deezer",
@@ -18125,7 +18438,8 @@
       "spotify": "https://open.spotify.com/search/Black%20Marble%20It's%20Immaterial",
       "soundcloud": "https://soundcloud.com/search?q=Black%20Marble%20It's%20Immaterial",
       "youtube": "https://www.youtube.com/results?search_query=Black%20Marble%20It's%20Immaterial",
-      "apple": "https://music.apple.com/us/album/its-immaterial/1133654912?uo=4"
+      "apple": "https://music.apple.com/us/album/its-immaterial/1133654912?uo=4",
+      "tidal": "https://tidal.com/album/65117049"
     },
     "embed": {
       "provider": "apple",
@@ -35957,7 +36271,7 @@
     "title": "Non Nobis Domine",
     "label": "National Youth Choir Recordings",
     "releaseDate": "2025-03-07",
-    "description": "",
+    "description": "A standalone choral piece from the National Youth Choir of Great Britain under Joanna Tomlinson, issued through the choir's own imprint. Contemporary writing in the English cathedral tradition, filed alongside the Tenebrae Choir end of the shelf.",
     "tags": [
       "classical"
     ],
@@ -35991,7 +36305,7 @@
     "title": "The Fool",
     "label": "Short Span",
     "releaseDate": "2025-03-07",
-    "description": "",
+    "description": "Four tracks of Sa Pa's dub-leaning experimental work, pressed white-label for Short Span. Sits comfortably next to anything from the Anno or Kashual Plastik corners if that's your shelf.",
     "tags": [
       "electronic"
     ],
@@ -36026,7 +36340,7 @@
     "title": "Bolted (Deconstructed)",
     "label": "Ninja Tune",
     "releaseDate": "2025-03-07",
-    "description": "",
+    "description": "Matthew Barnes pulls apart his own 2023 LP and reissues it himself, the rhythms stripped back toward the smudged, half-buried ambient register he has worked in since Dagger Paths. Thirteen tracks on CD; sit it next to the quieter shelves of Tri Angle's catalogue.",
     "tags": [
       "electronic"
     ],
@@ -36061,7 +36375,7 @@
     "title": "Greyhound Days",
     "label": "Mondoj",
     "releaseDate": "2025-03-07",
-    "description": "",
+    "description": "Shiroishi's saxophone meets Kurek's organ haze across seven tracks for Mondoj, the label's quiet, slightly haunted house style suiting the pairing well. Shelve near Resina or the more reed-led corners of the catalogue.",
     "tags": [
       "electronic"
     ],
@@ -36096,7 +36410,7 @@
     "title": "Love-Fidelity Or Hiss Goodbye",
     "label": "Muscut",
     "releaseDate": "2025-03-07",
-    "description": "",
+    "description": "Dmytro Nikolaienko continues his fascination with degraded tape on his own Muscut, ten pieces of lo-fi sound art that wander toward easy-listening jazz before the hiss reclaims them. For anyone who held onto Rings of Saturn.",
     "tags": [
       "electronic"
     ],
@@ -36130,7 +36444,7 @@
     "title": "Laws Ov Nature",
     "label": "Knekelhuis",
     "releaseDate": "2025-03-07",
-    "description": "",
+    "description": "Eight tracks of slow, dub-leaning experimental rock for Knekelhuis, the Amsterdam outpost continuing to blur post-punk wreckage into ambient drift. Sits comfortably near the label's headier end.",
     "tags": [
       "electronic"
     ],
