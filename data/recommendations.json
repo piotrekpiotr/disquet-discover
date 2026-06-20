@@ -806,6 +806,78 @@
     "pressMentions": []
   },
   {
+    "id": "zsela-daniel-aged-taul-katz-4-dreams",
+    "type": "ep",
+    "artist": "Zsela, Daniel Aged, Taul Katz",
+    "title": "4 Dreams",
+    "label": "Latency",
+    "releaseDate": "2026-06-19",
+    "description": "Four ambient pieces from Zsela with Daniel Aged and Taul Katz, landing on Latency, whose catalogue already leans toward this kind of unhurried, vocal-adjacent quiet. A natural shelf neighbour to the softer corners of the label's roster.",
+    "tags": [
+      "electronic"
+    ],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=Zsela%2C%20Daniel%20Aged%2C%20Taul%20Katz%204%20Dreams&item_type=a",
+      "spotify": "https://open.spotify.com/search/Zsela%2C%20Daniel%20Aged%2C%20Taul%20Katz%204%20Dreams",
+      "soundcloud": "https://soundcloud.com/search?q=Zsela%2C%20Daniel%20Aged%2C%20Taul%20Katz%204%20Dreams",
+      "youtube": "https://www.youtube.com/results?search_query=Zsela%2C%20Daniel%20Aged%2C%20Taul%20Katz%204%20Dreams",
+      "deezer": "https://www.deezer.com/album/933408471",
+      "apple": "https://music.apple.com/us/album/4-dreams/1882769699?uo=4",
+      "tidal": "https://tidal.com/album/504572759"
+    },
+    "embed": {
+      "provider": "apple",
+      "src": "https://embed.music.apple.com/us/album/1882769699?theme=light",
+      "height": 450
+    },
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://i.discogs.com/AXkKOrHFA1is1RXG96wiTfprNiKSC3nawWbQgdrR6_s/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM3NjY2/NzI1LTE3ODE4NjU0/NTYtNDYyOS5qcGVn.jpeg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
+    "id": "penguin-cafe-the-red-book",
+    "type": "album",
+    "artist": "Penguin Cafe",
+    "title": "The Red Book",
+    "label": "Erased Tapes Records",
+    "releaseDate": "2026-06-19",
+    "description": "Eleven pieces of modern classical from Arthur Jeffes' continuation of his father's project, self-released on WAV. The jazz tag suggests the looser, swung end of the Penguin Cafe lineage rather than the chamber-minimalist side.",
+    "tags": [
+      "jazz"
+    ],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=Penguin%20Cafe%20The%20Red%20Book&item_type=a",
+      "spotify": "https://open.spotify.com/search/Penguin%20Cafe%20The%20Red%20Book",
+      "soundcloud": "https://soundcloud.com/search?q=Penguin%20Cafe%20The%20Red%20Book",
+      "youtube": "https://www.youtube.com/results?search_query=Penguin%20Cafe%20The%20Red%20Book",
+      "deezer": "https://www.deezer.com/album/968650501",
+      "apple": "https://music.apple.com/us/album/the-red-book/1895353707?uo=4",
+      "tidal": "https://tidal.com/album/518824914"
+    },
+    "embed": {
+      "provider": "apple",
+      "src": "https://embed.music.apple.com/us/album/1895353707?theme=light",
+      "height": 450
+    },
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://i.discogs.com/OoazR-e55issrBgx1klB_jJ1lOQ1xgIWjcercC8FDi0/rs:fit/g:sm/q:90/h:600/w:599/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM3NjY4/MjkxLTE3ODE4Nzkx/MTItNzgwMi5qcGVn.jpeg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
     "id": "noon-hier-op-het-terras",
     "type": "single",
     "artist": "Noon",
@@ -1028,6 +1100,36 @@
     "status": "pending",
     "approvedAt": null,
     "coverImageUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/ee/77/8b/ee778b44-873a-7cc6-6b03-7d95bff069bc/cover.jpg/600x600bb.jpg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
+    "id": "james-blake-james-blake-music-room",
+    "type": "album",
+    "artist": "James Blake",
+    "title": "James Blake: Music Room",
+    "label": "GOOD BOY RECORDS",
+    "releaseDate": "2026-06-17",
+    "description": "Blake on his own GOOD BOY imprint, tagged simply as alternative, which is about as much as anyone outside the room knows yet. Expect the same fractured vocal-and-piano songwriting he has been refining since Overgrown, but wait for the file before assuming a register.",
+    "tags": [
+      "alternative"
+    ],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=James%20Blake%20James%20Blake%3A%20Music%20Room&item_type=a",
+      "spotify": "https://open.spotify.com/search/James%20Blake%20James%20Blake%3A%20Music%20Room",
+      "soundcloud": "https://soundcloud.com/search?q=James%20Blake%20James%20Blake%3A%20Music%20Room",
+      "youtube": "https://www.youtube.com/results?search_query=James%20Blake%20James%20Blake%3A%20Music%20Room",
+      "apple": "https://music.apple.com/us/album/james-blake-music-room/6779919200"
+    },
+    "embed": null,
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/cc/af/27/ccaf2794-0d2a-abe7-9eb0-bb011e761c21/00823375232346_Cover.jpg/600x600bb.jpg",
     "cover": {
       "bg": "#111110",
       "fg": "#f2efe8",
@@ -1861,6 +1963,39 @@
       "youtube": "https://www.youtube.com/results?search_query=Moor%20Mother%20HUNDRED%20AND%20ONE%20FOR%20TRANE"
     },
     "embed": null,
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": null,
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
+    "id": "actress-live-by-you",
+    "type": "album",
+    "artist": "Actress",
+    "title": "Live By You",
+    "label": "",
+    "releaseDate": "2026-06-11",
+    "description": "Darren Cunningham returns to long-form, which historically means smudged house schematics, half-erased melodies, and rhythm tracks that sound like they have been left out in the rain. File alongside the rest of the Actress catalogue and wait for it to come into focus.",
+    "tags": [],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=Actress%20Live%20By%20You&item_type=a",
+      "spotify": "https://open.spotify.com/search/Actress%20Live%20By%20You",
+      "soundcloud": "https://soundcloud.com/search?q=Actress%20Live%20By%20You",
+      "youtube": "https://www.youtube.com/results?search_query=Actress%20Live%20By%20You",
+      "deezer": "https://www.deezer.com/album/980234771",
+      "apple": "https://music.apple.com/us/album/rockin-with-you-live-single/1889363796?uo=4"
+    },
+    "embed": {
+      "provider": "apple",
+      "src": "https://embed.music.apple.com/us/album/1889363796?theme=light",
+      "height": 450
+    },
     "musicVideoUrl": null,
     "status": "pending",
     "approvedAt": null,
@@ -4856,6 +4991,76 @@
     "pressMentions": []
   },
   {
+    "id": "madonna-music",
+    "type": "album",
+    "artist": "Madonna",
+    "title": "Music",
+    "label": "Maverick",
+    "releaseDate": "2026-05-27",
+    "description": "Maverick reissues Madonna's Mirwais-era pop record, still the moment a stadium artist let French filter-house and acoustic guitar collide on the same tracklist. Sits oddly well next to the Daft Punk and Air records it shared shelf space with.",
+    "tags": [
+      "electronic"
+    ],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=Madonna%20Music&item_type=a",
+      "spotify": "https://open.spotify.com/search/Madonna%20Music",
+      "soundcloud": "https://soundcloud.com/search?q=Madonna%20Music",
+      "youtube": "https://www.youtube.com/results?search_query=Madonna%20Music",
+      "deezer": "https://www.deezer.com/album/91485",
+      "apple": "https://music.apple.com/us/album/music/80815197?uo=4"
+    },
+    "embed": {
+      "provider": "apple",
+      "src": "https://embed.music.apple.com/us/album/80815197?theme=light",
+      "height": 450
+    },
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://i.discogs.com/STT_4lgI6I-k3Da7sLgPikbAtII0bTLPzCjiuEnNb1Q/rs:fit/g:sm/q:90/h:522/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM3Njcx/MzMwLTE3ODE5MDA0/MjEtODE2My5qcGVn.jpeg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
+    "id": "madonna-hard-candy",
+    "type": "album",
+    "artist": "Madonna",
+    "title": "Hard Candy",
+    "label": "Warner Records",
+    "releaseDate": "2026-05-27",
+    "description": "Warner repress of Madonna's 2008 Pharrell and Timbaland era dance-pop record, twelve tracks of glossy, hip-hop-leaning production from the moment she briefly pivoted away from the Stuart Price disco palette. For collectors filling the shelf gap between Confessions and MDNA.",
+    "tags": [
+      "pop"
+    ],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=Madonna%20Hard%20Candy&item_type=a",
+      "spotify": "https://open.spotify.com/search/Madonna%20Hard%20Candy",
+      "soundcloud": "https://soundcloud.com/search?q=Madonna%20Hard%20Candy",
+      "youtube": "https://www.youtube.com/results?search_query=Madonna%20Hard%20Candy",
+      "deezer": "https://www.deezer.com/album/92747",
+      "apple": "https://music.apple.com/us/album/hard-candy/278674426?uo=4"
+    },
+    "embed": {
+      "provider": "apple",
+      "src": "https://embed.music.apple.com/us/album/278674426?theme=light",
+      "height": 450
+    },
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://i.discogs.com/97BAAe221vHQf3KEA5gxeiaK_JqOsweAOIfg9A5NB9g/rs:fit/g:sm/q:90/h:524/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM3Njcx/NDUwLTE3ODE5MDEz/NzAtNzkxNy5qcGVn.jpeg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
     "id": "charlie-continental-snow-rain-b-w-untethered",
     "type": "single",
     "artist": "Charlie Continental",
@@ -5496,6 +5701,41 @@
     "status": "pending",
     "approvedAt": null,
     "coverImageUrl": "https://i.discogs.com/lIhqIBnyYwCDxJlIObF5VkuVNan02APeUF7KfY1vW5g/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM3NTE4/ODczLTE3ODA0NDA1/NDMtMTQ4OC5qcGVn.jpeg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
+    "id": "porcupine-tree-fear-of-a-blank-planet",
+    "type": "ep",
+    "artist": "Porcupine Tree",
+    "title": "Fear Of A Blank Planet",
+    "label": "Transmission Recordings",
+    "releaseDate": "2026-05-22",
+    "description": "Transmission reissue Steven Wilson's 2007 prog statement, remastered and stretched across a sprawling edition that dwarfs the original tracklist. Still the most Porcupine Tree of the Porcupine Tree records, for better and worse.",
+    "tags": [
+      "rock"
+    ],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=Porcupine%20Tree%20Fear%20Of%20A%20Blank%20Planet&item_type=a",
+      "spotify": "https://open.spotify.com/search/Porcupine%20Tree%20Fear%20Of%20A%20Blank%20Planet",
+      "soundcloud": "https://soundcloud.com/search?q=Porcupine%20Tree%20Fear%20Of%20A%20Blank%20Planet",
+      "youtube": "https://www.youtube.com/results?search_query=Porcupine%20Tree%20Fear%20Of%20A%20Blank%20Planet",
+      "deezer": "https://www.deezer.com/album/173835572",
+      "apple": "https://music.apple.com/us/album/fear-of-a-blank-planet-2024-remaster/1777064744?uo=4"
+    },
+    "embed": {
+      "provider": "apple",
+      "src": "https://embed.music.apple.com/us/album/1777064744?theme=light",
+      "height": 450
+    },
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://i.discogs.com/PsgF47XYXGLH1a2hMFOh3W2KRlQJOP0aTiyFRgKuieM/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM3NDE0/NjA1LTE3Nzk0NzYy/MDUtNzk1Mi5qcGVn.jpeg",
     "cover": {
       "bg": "#111110",
       "fg": "#f2efe8",
@@ -21865,12 +22105,13 @@
       "spotify": "https://open.spotify.com/search/Skee%20Mask%20Junt",
       "soundcloud": "https://soundcloud.com/search?q=Skee%20Mask%20Junt",
       "youtube": "https://www.youtube.com/results?search_query=Skee%20Mask%20Junt",
-      "deezer": "https://www.deezer.com/album/61287162"
+      "deezer": "https://www.deezer.com/album/61287162",
+      "apple": "https://music.apple.com/us/album/junt-ep/996584470?uo=4"
     },
     "embed": {
-      "provider": "deezer",
-      "src": "https://widget.deezer.com/widget/light/album/61287162",
-      "height": 300
+      "provider": "apple",
+      "src": "https://embed.music.apple.com/us/album/996584470?theme=light",
+      "height": 450
     },
     "musicVideoUrl": null,
     "status": "pending",
@@ -32526,7 +32767,8 @@
       "soundcloud": "https://soundcloud.com/search?q=Sleepdial%20RV%20Lights",
       "youtube": "https://www.youtube.com/results?search_query=Sleepdial%20RV%20Lights",
       "deezer": "https://www.deezer.com/album/760797231",
-      "apple": "https://music.apple.com/us/album/rv-lights/1816151162?uo=4"
+      "apple": "https://music.apple.com/us/album/rv-lights/1816151162?uo=4",
+      "tidal": "https://tidal.com/album/437414217"
     },
     "embed": {
       "provider": "apple",
@@ -32561,7 +32803,8 @@
       "soundcloud": "https://soundcloud.com/search?q=DJ%20Shaun-D%20From%20Bubbling%20To%20Dutch%20House",
       "youtube": "https://www.youtube.com/results?search_query=DJ%20Shaun-D%20From%20Bubbling%20To%20Dutch%20House",
       "deezer": "https://www.deezer.com/album/701654561",
-      "apple": "https://music.apple.com/us/album/from-bubbling-to-dutch-house/1792011376?uo=4"
+      "apple": "https://music.apple.com/us/album/from-bubbling-to-dutch-house/1792011376?uo=4",
+      "tidal": "https://tidal.com/album/413205131"
     },
     "embed": {
       "provider": "apple",
@@ -32629,7 +32872,8 @@
       "soundcloud": "https://soundcloud.com/search?q=Hakushi%20Hasegawa%20Somoku%20-%20From%20The%20First%20Take",
       "youtube": "https://www.youtube.com/results?search_query=Hakushi%20Hasegawa%20Somoku%20-%20From%20The%20First%20Take",
       "deezer": "https://www.deezer.com/album/746083531",
-      "apple": "https://music.apple.com/us/album/somoku-from-the-first-take-single/1810054518?uo=4"
+      "apple": "https://music.apple.com/us/album/somoku-from-the-first-take-single/1810054518?uo=4",
+      "tidal": "https://tidal.com/album/431497792"
     },
     "embed": {
       "provider": "apple",
@@ -32664,7 +32908,8 @@
       "soundcloud": "https://soundcloud.com/search?q=Hakushi%20Hasegawa%20Outside%20(Soto)%20-%20From%20The%20First%20Take",
       "youtube": "https://www.youtube.com/results?search_query=Hakushi%20Hasegawa%20Outside%20(Soto)%20-%20From%20The%20First%20Take",
       "deezer": "https://www.deezer.com/album/746076801",
-      "apple": "https://music.apple.com/us/album/outside-soto-from-the-first-take-single/1810054065?uo=4"
+      "apple": "https://music.apple.com/us/album/outside-soto-from-the-first-take-single/1810054065?uo=4",
+      "tidal": "https://tidal.com/album/431494892"
     },
     "embed": {
       "provider": "apple",
@@ -32699,7 +32944,8 @@
       "soundcloud": "https://soundcloud.com/search?q=DJ%20Trystero%20Cantor's%20Paradise",
       "youtube": "https://www.youtube.com/results?search_query=DJ%20Trystero%20Cantor's%20Paradise",
       "deezer": "https://www.deezer.com/album/741674081",
-      "apple": "https://music.apple.com/us/album/cantors-paradise/1808058088?uo=4"
+      "apple": "https://music.apple.com/us/album/cantors-paradise/1808058088?uo=4",
+      "tidal": "https://tidal.com/album/429576049"
     },
     "embed": {
       "provider": "apple",
@@ -32864,7 +33110,8 @@
       "spotify": "https://open.spotify.com/search/Sarah%20Mary%20Chadwick%20Take%20Me%20Out%20To%20A%20Bar%20%2F%20What%20Am%20I%2C%20Gatsby%3F",
       "soundcloud": "https://soundcloud.com/search?q=Sarah%20Mary%20Chadwick%20Take%20Me%20Out%20To%20A%20Bar%20%2F%20What%20Am%20I%2C%20Gatsby%3F",
       "youtube": "https://www.youtube.com/results?search_query=Sarah%20Mary%20Chadwick%20Take%20Me%20Out%20To%20A%20Bar%20%2F%20What%20Am%20I%2C%20Gatsby%3F",
-      "deezer": "https://www.deezer.com/album/701717861"
+      "deezer": "https://www.deezer.com/album/701717861",
+      "tidal": "https://tidal.com/album/413255536"
     },
     "embed": {
       "provider": "deezer",
@@ -32933,7 +33180,8 @@
       "soundcloud": "https://soundcloud.com/search?q=Burial%20Burial",
       "youtube": "https://www.youtube.com/results?search_query=Burial%20Burial",
       "deezer": "https://www.deezer.com/album/100535462",
-      "apple": "https://music.apple.com/us/album/burial/1674002850?uo=4"
+      "apple": "https://music.apple.com/us/album/burial/1674002850?uo=4",
+      "tidal": "https://tidal.com/album/111851454"
     },
     "embed": {
       "provider": "apple",
@@ -32966,7 +33214,8 @@
       "soundcloud": "https://soundcloud.com/search?q=Tracey%20Tracey%20EP",
       "youtube": "https://www.youtube.com/results?search_query=Tracey%20Tracey%20EP",
       "deezer": "https://www.deezer.com/album/152583522",
-      "apple": "https://music.apple.com/us/album/tracey-nelson-ep/1816167659?uo=4"
+      "apple": "https://music.apple.com/us/album/tracey-nelson-ep/1816167659?uo=4",
+      "tidal": "https://tidal.com/album/437403803"
     },
     "embed": {
       "provider": "apple",
@@ -33000,7 +33249,8 @@
       "spotify": "https://open.spotify.com/search/EIII%20Refractions",
       "soundcloud": "https://soundcloud.com/search?q=EIII%20Refractions",
       "youtube": "https://www.youtube.com/results?search_query=EIII%20Refractions",
-      "apple": "https://music.apple.com/us/album/refractions/1891342675?uo=4"
+      "apple": "https://music.apple.com/us/album/refractions/1891342675?uo=4",
+      "tidal": "https://tidal.com/album/513593728"
     },
     "embed": {
       "provider": "apple",
@@ -33034,7 +33284,8 @@
       "spotify": "https://open.spotify.com/search/Adam%20Bad%C3%AD%20Donoval%20A%20Mirror%20Where%20The%20Image%20And%20The%20Mirror%20Wholly%20Coincided",
       "soundcloud": "https://soundcloud.com/search?q=Adam%20Bad%C3%AD%20Donoval%20A%20Mirror%20Where%20The%20Image%20And%20The%20Mirror%20Wholly%20Coincided",
       "youtube": "https://www.youtube.com/results?search_query=Adam%20Bad%C3%AD%20Donoval%20A%20Mirror%20Where%20The%20Image%20And%20The%20Mirror%20Wholly%20Coincided",
-      "apple": "https://music.apple.com/us/album/a-mirror-where-the-image-and-the-mirror-wholly-coincided/1811664619?uo=4"
+      "apple": "https://music.apple.com/us/album/a-mirror-where-the-image-and-the-mirror-wholly-coincided/1811664619?uo=4",
+      "tidal": "https://tidal.com/album/433125186"
     },
     "embed": {
       "provider": "apple",
@@ -33101,7 +33352,8 @@
       "spotify": "https://open.spotify.com/search/Stock%20Exchange%20Girls%20Nikkei%20Pet%20Index",
       "soundcloud": "https://soundcloud.com/search?q=Stock%20Exchange%20Girls%20Nikkei%20Pet%20Index",
       "youtube": "https://www.youtube.com/results?search_query=Stock%20Exchange%20Girls%20Nikkei%20Pet%20Index",
-      "apple": "https://music.apple.com/us/album/nikkei-pet-index/1812675577?uo=4"
+      "apple": "https://music.apple.com/us/album/nikkei-pet-index/1812675577?uo=4",
+      "tidal": "https://tidal.com/album/434347813"
     },
     "embed": {
       "provider": "apple",
@@ -33199,7 +33451,8 @@
       "spotify": "https://open.spotify.com/search/Wrecked%20Lightship%20Drained%20Strands",
       "soundcloud": "https://soundcloud.com/search?q=Wrecked%20Lightship%20Drained%20Strands",
       "youtube": "https://www.youtube.com/results?search_query=Wrecked%20Lightship%20Drained%20Strands",
-      "apple": "https://music.apple.com/us/album/drained-strands/1800784937?uo=4"
+      "apple": "https://music.apple.com/us/album/drained-strands/1800784937?uo=4",
+      "tidal": "https://tidal.com/album/422553373"
     },
     "embed": {
       "provider": "apple",
@@ -33262,7 +33515,8 @@
       "spotify": "https://open.spotify.com/search/Kara-Lis%20Coverdale%20From%20Where%20You%20Came",
       "soundcloud": "https://soundcloud.com/search?q=Kara-Lis%20Coverdale%20From%20Where%20You%20Came",
       "youtube": "https://www.youtube.com/results?search_query=Kara-Lis%20Coverdale%20From%20Where%20You%20Came",
-      "apple": "https://music.apple.com/us/album/from-where-you-came/1798287130?uo=4"
+      "apple": "https://music.apple.com/us/album/from-where-you-came/1798287130?uo=4",
+      "tidal": "https://tidal.com/album/420005804"
     },
     "embed": {
       "provider": "apple",
@@ -33297,7 +33551,8 @@
       "soundcloud": "https://soundcloud.com/search?q=Cole%20Pulice%20Land's%20End%20Eternal",
       "youtube": "https://www.youtube.com/results?search_query=Cole%20Pulice%20Land's%20End%20Eternal",
       "deezer": "https://www.deezer.com/album/694478801",
-      "apple": "https://music.apple.com/us/album/lands-end-eternal/1789228850?uo=4"
+      "apple": "https://music.apple.com/us/album/lands-end-eternal/1789228850?uo=4",
+      "tidal": "https://tidal.com/album/410149387"
     },
     "embed": {
       "provider": "apple",
@@ -36479,7 +36734,7 @@
     "title": "Infiltrating Roku City",
     "label": "West Mineral Ltd.",
     "releaseDate": "2025-03-07",
-    "description": "",
+    "description": "Ten tracks of IDM and dub techno smeared into ambient on West Mineral, the kind of fogged, slightly off-grid production the label has staked its identity on. For anyone tracking the post-Pontiac Streator lineage.",
     "tags": [
       "electronic"
     ],
@@ -36513,7 +36768,7 @@
     "title": "Zero",
     "label": "Modern Love",
     "releaseDate": "2025-03-07",
-    "description": "",
+    "description": "A collaboration landing on Modern Love that pulls drone, shoegaze haze and dub weight into the same room across five tracks. Sits comfortably near the Demdike Stare end of the catalogue without quite resembling it.",
     "tags": [
       "electronic"
     ],
@@ -36542,7 +36797,7 @@
     "title": "A.M.",
     "label": "Double Helix Records (2)",
     "releaseDate": "2025-03-06",
-    "description": "",
+    "description": "This sits outside the usual remit, a straight rock single from the ALL/Drag the River vocalist's Peace Coalition project, issued digitally through Double Helix. One track, no frills, filed for the punk-adjacent songwriter crowd rather than the club shelf.",
     "tags": [
       "rock"
     ],
@@ -36575,7 +36830,7 @@
     "title": "Deux",
     "label": "YUKU",
     "releaseDate": "2025-03-04",
-    "description": "",
+    "description": "Ten tracks of leftfield techno and bass weight from Anmon on YUKU, the Polish imprint that has made a small specialty of percussive, post-club electronics. Sits comfortably next to the Tymon end of the catalogue.",
     "tags": [
       "electronic"
     ],
@@ -36609,7 +36864,7 @@
     "title": "3RMX82",
     "label": "Ninja Tune",
     "releaseDate": "2025-03-04",
-    "description": "",
+    "description": "Travis Stewart on Ninja Tune, sweeping his rave radar across drum and bass, garage, dubstep and tech house without settling in any of them for long. Twelve tracks of restless genre-tourism from a producer who's been doing exactly this, well, for decades.",
     "tags": [
       "electronic"
     ],
@@ -36643,7 +36898,7 @@
     "title": "Now And Then = 今与昔",
     "label": "Apple Records",
     "releaseDate": "2025-03-01",
-    "description": "",
+    "description": "The Chinese pressing of the Beatles' AI-assisted 2023 closer, expanded to four tracks on Apple. A curio for completists more than a listening session, though the title piece still lands stranger than expected.",
     "tags": [
       "rock"
     ],
@@ -36672,7 +36927,7 @@
     "title": "Vita Mors",
     "label": "SBÄM Records",
     "releaseDate": "2025-03-01",
-    "description": "",
+    "description": "Arizona trio's full-length for Austria's SBÄM, ten tracks of melodic hardcore pitched at the Fat Wreck end of the spectrum. The LP pressing is flagged as a misprint, which collectors will note.",
     "tags": [
       "rock"
     ],
@@ -36706,7 +36961,7 @@
     "title": "Irish Eyes (Cover)",
     "label": "Life Is Beautiful (5)",
     "releaseDate": "2025-02-28",
-    "description": "",
+    "description": "A single cover from Beth Morgan via Life Is Beautiful, filed under pop with no pretense otherwise. One track, digital only, the kind of release that lives or dies on the read of the vocal.",
     "tags": [
       "pop"
     ],
