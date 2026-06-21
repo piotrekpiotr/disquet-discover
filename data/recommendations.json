@@ -482,6 +482,33 @@
     "pressMentions": []
   },
   {
+    "id": "faltydl-be-my-baby-wild-rice",
+    "type": "album",
+    "artist": "FaltyDL",
+    "title": "Be My Baby / Wild Rice",
+    "label": "",
+    "releaseDate": "2026-07-03",
+    "description": "FaltyDL surfaces with a two-titled record that, on paper, points back toward the skewed garage and broken house he has worked in since the Planet Mu years. Worth a listen for anyone still tracking that lineage.",
+    "tags": [],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=FaltyDL%20Be%20My%20Baby%20%2F%20Wild%20Rice&item_type=a",
+      "spotify": "https://open.spotify.com/search/FaltyDL%20Be%20My%20Baby%20%2F%20Wild%20Rice",
+      "soundcloud": "https://soundcloud.com/search?q=FaltyDL%20Be%20My%20Baby%20%2F%20Wild%20Rice",
+      "youtube": "https://www.youtube.com/results?search_query=FaltyDL%20Be%20My%20Baby%20%2F%20Wild%20Rice"
+    },
+    "embed": null,
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": null,
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
     "id": "felicia-atkinson-sans-visage",
     "type": "album",
     "artist": "Felicia Atkinson",
@@ -870,6 +897,66 @@
     "status": "pending",
     "approvedAt": null,
     "coverImageUrl": "https://i.discogs.com/OoazR-e55issrBgx1klB_jJ1lOQ1xgIWjcercC8FDi0/rs:fit/g:sm/q:90/h:600/w:599/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM3NjY4/MjkxLTE3ODE4Nzkx/MTItNzgwMi5qcGVn.jpeg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
+    "id": "malibu-novocaine",
+    "type": "album",
+    "artist": "Malibu",
+    "title": "novocaine",
+    "label": "",
+    "releaseDate": "2026-06-19",
+    "description": "Malibu returns to the long-form, the register she has carved out since One Life sitting somewhere between trance residue, choral wash and emo-adjacent atmospherics. Label still TBC, which feels in keeping.",
+    "tags": [],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=Malibu%20novocaine&item_type=a",
+      "spotify": "https://open.spotify.com/search/Malibu%20novocaine",
+      "soundcloud": "https://soundcloud.com/search?q=Malibu%20novocaine",
+      "youtube": "https://www.youtube.com/results?search_query=Malibu%20novocaine"
+    },
+    "embed": null,
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": null,
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
+    "id": "clark-cry-love",
+    "type": "album",
+    "artist": "Clark",
+    "title": "Cry Love",
+    "label": "",
+    "releaseDate": "2026-06-19",
+    "description": "New Clark album with very little around it yet, no label confirmed and no tracklist surfaced. Expect the restless electronics he has been working through since Death Peak, somewhere between rave residue and orchestral processing.",
+    "tags": [],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=Clark%20Cry%20Love&item_type=a",
+      "spotify": "https://open.spotify.com/search/Clark%20Cry%20Love",
+      "soundcloud": "https://soundcloud.com/search?q=Clark%20Cry%20Love",
+      "youtube": "https://www.youtube.com/results?search_query=Clark%20Cry%20Love",
+      "deezer": "https://www.deezer.com/album/1007684901",
+      "apple": "https://music.apple.com/us/album/cry-love-single/6781519924?uo=4"
+    },
+    "embed": {
+      "provider": "apple",
+      "src": "https://embed.music.apple.com/us/album/6781519924?theme=light",
+      "height": 450
+    },
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": null,
     "cover": {
       "bg": "#111110",
       "fg": "#f2efe8",
@@ -6070,6 +6157,41 @@
     "pressMentions": [
       "pitchfork_albums"
     ]
+  },
+  {
+    "id": "matthewdavid-rare-music",
+    "type": "album",
+    "artist": "MatthewDavid",
+    "title": "Rare Music",
+    "label": "Leaving Records",
+    "releaseDate": "2026-05-20",
+    "description": "Nineteen tracks of MatthewDavid in compilation form on his own Leaving Records, gathering the beat-tape haze and new-age drift he has been threading together for years. Limited pressing, shelve next to Carlos Niño.",
+    "tags": [
+      "electronic"
+    ],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=MatthewDavid%20Rare%20Music&item_type=a",
+      "spotify": "https://open.spotify.com/search/MatthewDavid%20Rare%20Music",
+      "soundcloud": "https://soundcloud.com/search?q=MatthewDavid%20Rare%20Music",
+      "youtube": "https://www.youtube.com/results?search_query=MatthewDavid%20Rare%20Music",
+      "deezer": "https://www.deezer.com/album/985472571",
+      "apple": "https://music.apple.com/us/album/rare-music/6770509235?uo=4"
+    },
+    "embed": {
+      "provider": "apple",
+      "src": "https://embed.music.apple.com/us/album/6770509235?theme=light",
+      "height": 450
+    },
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://i.discogs.com/a-HgJlF4Wt69zPmfK16gNJqwgHpflpEqm0gi05CBAy4/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM3Njgw/Njk5LTE3ODIwMDYx/MTEtOTIyMC5qcGVn.jpeg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
   },
   {
     "id": "dismiss-lost-transmissions-1995-1996",
@@ -36995,7 +37117,7 @@
     "title": "They Will Leave Us With Nothing",
     "label": "Other People Records",
     "releaseDate": "2025-02-28",
-    "description": "",
+    "description": "Nine tracks of LA shoegaze on Nicolas Jaar's Other People, which is a less obvious home for guitar music but here we are. Pressed in a limited LP run; sits comfortably next to anything in the Julie or Wisp orbit.",
     "tags": [
       "rock"
     ],
@@ -37029,7 +37151,7 @@
     "title": "Hooks EP",
     "label": "Lapsus Music",
     "releaseDate": "2025-02-28",
-    "description": "",
+    "description": "Two cuts of pared-back minimal techno from Oravla Ziur for Lapsus, the Barcelona label still mining the seam between functional and headphone listening. Shelve near the lower-key end of their catalogue.",
     "tags": [
       "electronic"
     ],
@@ -37058,7 +37180,7 @@
     "title": "Wilder All The Time",
     "label": "KZZ Music",
     "releaseDate": "2025-02-28",
-    "description": "",
+    "description": "Ten tracks of country-leaning indie rock from Berardo on KZZ Music, the writing pitched somewhere between bar-band directness and the more reflective end of Americana. Shelve near Jason Isbell if you need a pointer.",
     "tags": [
       "rock"
     ],
@@ -37093,7 +37215,7 @@
     "title": "Poly Armour",
     "label": "LuckyMe",
     "releaseDate": "2025-02-28",
-    "description": "",
+    "description": "Four tracks of bass-leaning, broken techno from Sunareht on LuckyMe, sitting closer to the label's club-functional end than its pop instincts. For anyone tracking what Eclair has been doing in the same orbit.",
     "tags": [
       "electronic"
     ],
@@ -37128,7 +37250,7 @@
     "title": "MPU106",
     "label": "Ilian Tape",
     "releaseDate": "2025-02-27",
-    "description": "",
+    "description": "Ten tracks of ambient from MPU101, landing on Ilian Tape rather than the broken-beat territory the label is usually shelved under. Worth a look if you've been following Skee Mask's quieter excursions.",
     "tags": [
       "electronic"
     ],
@@ -37161,7 +37283,7 @@
     "title": "Grand Hotel - Πάμε Να Πιούμε Ένα Αστέρι",
     "label": "Heaven OST",
     "releaseDate": "2025-02-26",
-    "description": "",
+    "description": "Natasa Theodoridou contributes a laïkó vocal to the Heaven OST imprint's Grand Hotel soundtrack, the kind of full-throated Greek pop ballad her career has been built on. Sits with the screen music rather than the club racks.",
     "tags": [
       "folk, world, & country"
     ],
@@ -37190,7 +37312,7 @@
     "title": "Twende Dance Classics",
     "label": "Nyege Nyege Tapes",
     "releaseDate": "2025-02-26",
-    "description": "",
+    "description": "Four singeli sketches from the young Dar es Salaam producer, pressed to 7\" by Nyege Nyege Tapes at the tempo and density the label has built its reputation on. For anyone still working through Sisso's catalogue.",
     "tags": [
       "electronic"
     ],
@@ -37223,7 +37345,7 @@
     "title": "Three Foxes Chasing Each Other",
     "label": "Houndstooth",
     "releaseDate": "2025-02-26",
-    "description": "",
+    "description": "Djrum stays on Houndstooth for a single track that pulls his usual threads, hand percussion, broken low end, IDM detail, into one extended piece. For listeners who never quite stopped playing Portrait With Firewood.",
     "tags": [
       "electronic"
     ],
@@ -37258,7 +37380,7 @@
     "title": "I Am Jo",
     "label": "Heaven OST",
     "releaseDate": "2025-02-25",
-    "description": "",
+    "description": "Skylakaki's score for the film Heaven, fifteen cues spread across an album-length sit. Modern Greek screen composition, best filed alongside the more restrained end of contemporary chamber soundtrack work.",
     "tags": [
       "stage & screen"
     ],
@@ -37292,7 +37414,7 @@
     "title": "Live At Union Station",
     "label": "Leaving Records",
     "releaseDate": "2025-02-25",
-    "description": "",
+    "description": "Six pieces of Gendel doing his usual saxophone-into-processing routine, captured live and pressed by Leaving Records. Sits comfortably next to the Carlos Niño orbit if you need shelving advice.",
     "tags": [
       "electronic"
     ],
@@ -37326,7 +37448,7 @@
     "title": "Kind Regards",
     "label": "AD 93",
     "releaseDate": "2025-02-21",
-    "description": "",
+    "description": "Ambarchi's rotary guitar shimmer meets Thielemans' percussion on a two-track LP for AD 93, sitting closer to the abstract jazz end of his catalogue than the dancefloor experiments. For anyone tracking the Ghosted trio.",
     "tags": [
       "electronic"
     ],
