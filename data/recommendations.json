@@ -509,6 +509,33 @@
     "pressMentions": []
   },
   {
+    "id": "galcher-lustwerk-vestibule-remixes",
+    "type": "album",
+    "artist": "Galcher Lustwerk",
+    "title": "Vestibule Remixes",
+    "label": "",
+    "releaseDate": "2026-07-03",
+    "description": "Remixes of Lustwerk's Vestibule material, which means his murmured half-rapped vocals and unhurried deep house templates handed off for reinterpretation. Worth a look for anyone who has followed the Ghostly and White Material threads.",
+    "tags": [],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=Galcher%20Lustwerk%20Vestibule%20Remixes&item_type=a",
+      "spotify": "https://open.spotify.com/search/Galcher%20Lustwerk%20Vestibule%20Remixes",
+      "soundcloud": "https://soundcloud.com/search?q=Galcher%20Lustwerk%20Vestibule%20Remixes",
+      "youtube": "https://www.youtube.com/results?search_query=Galcher%20Lustwerk%20Vestibule%20Remixes"
+    },
+    "embed": null,
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": null,
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
     "id": "felicia-atkinson-sans-visage",
     "type": "album",
     "artist": "Felicia Atkinson",
@@ -16444,6 +16471,40 @@
     "pressMentions": []
   },
   {
+    "id": "kaazi-incidental-scenes",
+    "type": "album",
+    "artist": "Kaazi",
+    "title": "Incidental Scenes",
+    "label": "Leaving Records",
+    "releaseDate": "2026-03-27",
+    "description": "Sixteen short ambient pieces from Kaazi for Plancha, framed as soundtrack material without a film attached. The Tokyo label's usual register of restrained, slightly grainy stillness holds throughout.",
+    "tags": [
+      "electronic"
+    ],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=Kaazi%20Incidental%20Scenes&item_type=a",
+      "spotify": "https://open.spotify.com/search/Kaazi%20Incidental%20Scenes",
+      "soundcloud": "https://soundcloud.com/search?q=Kaazi%20Incidental%20Scenes",
+      "youtube": "https://www.youtube.com/results?search_query=Kaazi%20Incidental%20Scenes",
+      "deezer": "https://www.deezer.com/album/917928441"
+    },
+    "embed": {
+      "provider": "deezer",
+      "src": "https://widget.deezer.com/widget/light/album/917928441",
+      "height": 300
+    },
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://i.discogs.com/W4Q4Wk4HwPAKNQ7hRY8G-3IvKm3fwPuD5tbKNOSJx54/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM3Njgy/NzI3LTE3ODIwMzUx/MDQtMjExMC5qcGVn.jpeg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
     "id": "oneohtrix-point-never-dim-stars-for-residue-extended",
     "type": "single",
     "artist": "Oneohtrix Point Never",
@@ -22332,6 +22393,40 @@
     "status": "pending",
     "approvedAt": null,
     "coverImageUrl": "https://i.discogs.com/wMLf2qMyLPvt9HgP3ckCEQQECSTBMK2ktCxfqPdRGJU/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM3NjUx/OTU5LTE3ODE3MDc3/MzItMjcxNi5qcGVn.jpeg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
+    "id": "bobby-previte-second-arrow",
+    "type": "ep",
+    "artist": "Bobby Previte",
+    "title": "Second Arrow",
+    "label": "Unit Records (2)",
+    "releaseDate": "2026-01-01",
+    "description": "Six new pieces from the veteran drummer-composer Bobby Previte, landing on Swiss imprint Unit. Previte's writing has always sat between downtown improv and through-composed jazz, and the album format suits that long-form impulse.",
+    "tags": [
+      "jazz"
+    ],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=Bobby%20Previte%20Second%20Arrow&item_type=a",
+      "spotify": "https://open.spotify.com/search/Bobby%20Previte%20Second%20Arrow",
+      "soundcloud": "https://soundcloud.com/search?q=Bobby%20Previte%20Second%20Arrow",
+      "youtube": "https://www.youtube.com/results?search_query=Bobby%20Previte%20Second%20Arrow",
+      "deezer": "https://www.deezer.com/album/931725771"
+    },
+    "embed": {
+      "provider": "deezer",
+      "src": "https://widget.deezer.com/widget/light/album/931725771",
+      "height": 300
+    },
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://i.discogs.com/I8sC8CupeHIe5HJduJJNkJSePFfanLbEHNyPQq9nNQk/rs:fit/g:sm/q:90/h:593/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM3Njg5/NTQ5LTE3ODIxMTY1/MjgtODQ1NC5qcGVn.jpeg",
     "cover": {
       "bg": "#111110",
       "fg": "#f2efe8",
@@ -36212,7 +36307,8 @@
       "spotify": "https://open.spotify.com/search/Jeebus%20The%20Shadow%20Beneath...",
       "soundcloud": "https://soundcloud.com/search?q=Jeebus%20The%20Shadow%20Beneath...",
       "youtube": "https://www.youtube.com/results?search_query=Jeebus%20The%20Shadow%20Beneath...",
-      "apple": "https://music.apple.com/us/album/the-shadow-beneath-ep/1802747227?uo=4"
+      "apple": "https://music.apple.com/us/album/the-shadow-beneath-ep/1802747227?uo=4",
+      "tidal": "https://tidal.com/album/424507893"
     },
     "embed": {
       "provider": "apple",
@@ -36246,7 +36342,8 @@
       "spotify": "https://open.spotify.com/search/Daniel%20Brandt%20(2)%20Without%20Us",
       "soundcloud": "https://soundcloud.com/search?q=Daniel%20Brandt%20(2)%20Without%20Us",
       "youtube": "https://www.youtube.com/results?search_query=Daniel%20Brandt%20(2)%20Without%20Us",
-      "apple": "https://music.apple.com/us/album/without-us/1783590249?uo=4"
+      "apple": "https://music.apple.com/us/album/without-us/1783590249?uo=4",
+      "tidal": "https://tidal.com/album/403898360"
     },
     "embed": {
       "provider": "apple",
@@ -36315,7 +36412,8 @@
       "soundcloud": "https://soundcloud.com/search?q=Conna%20Haraway%20Spatial%20Fix",
       "youtube": "https://www.youtube.com/results?search_query=Conna%20Haraway%20Spatial%20Fix",
       "deezer": "https://www.deezer.com/album/711550241",
-      "apple": "https://music.apple.com/us/album/spatial-fix/1795514893?uo=4"
+      "apple": "https://music.apple.com/us/album/spatial-fix/1795514893?uo=4",
+      "tidal": "https://tidal.com/album/417098642"
     },
     "embed": {
       "provider": "apple",
@@ -36349,7 +36447,8 @@
       "spotify": "https://open.spotify.com/search/Lonnie%20Holley%20Tonky",
       "soundcloud": "https://soundcloud.com/search?q=Lonnie%20Holley%20Tonky",
       "youtube": "https://www.youtube.com/results?search_query=Lonnie%20Holley%20Tonky",
-      "apple": "https://music.apple.com/us/album/tonky/1784806410?uo=4"
+      "apple": "https://music.apple.com/us/album/tonky/1784806410?uo=4",
+      "tidal": "https://tidal.com/album/405209514"
     },
     "embed": {
       "provider": "apple",
@@ -36383,7 +36482,8 @@
       "spotify": "https://open.spotify.com/search/Lucy%20Liyou%20Every%20Video%20Without%20Your%20Face%2C%20Every%20Sound%20Without%20Your%20Name",
       "soundcloud": "https://soundcloud.com/search?q=Lucy%20Liyou%20Every%20Video%20Without%20Your%20Face%2C%20Every%20Sound%20Without%20Your%20Name",
       "youtube": "https://www.youtube.com/results?search_query=Lucy%20Liyou%20Every%20Video%20Without%20Your%20Face%2C%20Every%20Sound%20Without%20Your%20Name",
-      "deezer": "https://www.deezer.com/album/701137811"
+      "deezer": "https://www.deezer.com/album/701137811",
+      "tidal": "https://tidal.com/album/413011558"
     },
     "embed": {
       "provider": "deezer",
@@ -36419,7 +36519,8 @@
       "spotify": "https://open.spotify.com/search/Forest%20Drive%20West%20Masking",
       "soundcloud": "https://soundcloud.com/search?q=Forest%20Drive%20West%20Masking",
       "youtube": "https://www.youtube.com/results?search_query=Forest%20Drive%20West%20Masking",
-      "apple": "https://music.apple.com/us/album/masking-ep/1805861721?uo=4"
+      "apple": "https://music.apple.com/us/album/masking-ep/1805861721?uo=4",
+      "tidal": "https://tidal.com/album/427539214"
     },
     "embed": {
       "provider": "apple",
@@ -36486,7 +36587,8 @@
       "spotify": "https://open.spotify.com/search/Goat%20(jp)%20Without%20References%20%2F%20Cindy%20Van%20Acker",
       "soundcloud": "https://soundcloud.com/search?q=Goat%20(jp)%20Without%20References%20%2F%20Cindy%20Van%20Acker",
       "youtube": "https://www.youtube.com/results?search_query=Goat%20(jp)%20Without%20References%20%2F%20Cindy%20Van%20Acker",
-      "apple": "https://music.apple.com/us/album/without-references-cindy-van-acker/1797074934?uo=4"
+      "apple": "https://music.apple.com/us/album/without-references-cindy-van-acker/1797074934?uo=4",
+      "tidal": "https://tidal.com/album/418698535"
     },
     "embed": {
       "provider": "apple",
@@ -36520,7 +36622,8 @@
       "spotify": "https://open.spotify.com/search/OK%20EG%2C%20Priori%20(2)%20Serpentine",
       "soundcloud": "https://soundcloud.com/search?q=OK%20EG%2C%20Priori%20(2)%20Serpentine",
       "youtube": "https://www.youtube.com/results?search_query=OK%20EG%2C%20Priori%20(2)%20Serpentine",
-      "apple": "https://music.apple.com/us/album/serpentine-ep/1799248532?uo=4"
+      "apple": "https://music.apple.com/us/album/serpentine-ep/1799248532?uo=4",
+      "tidal": "https://tidal.com/album/421038175"
     },
     "embed": {
       "provider": "apple",
@@ -36555,7 +36658,8 @@
       "soundcloud": "https://soundcloud.com/search?q=Pan%20Savyan%20Kwiaty%20Przyjemno%C5%9Bci",
       "youtube": "https://www.youtube.com/results?search_query=Pan%20Savyan%20Kwiaty%20Przyjemno%C5%9Bci",
       "deezer": "https://www.deezer.com/album/702651381",
-      "apple": "https://music.apple.com/us/album/kwiaty-przyjemno%C5%9Bci/1793540847?uo=4"
+      "apple": "https://music.apple.com/us/album/kwiaty-przyjemno%C5%9Bci/1793540847?uo=4",
+      "tidal": "https://tidal.com/album/413611650"
     },
     "embed": {
       "provider": "apple",
@@ -36589,7 +36693,8 @@
       "spotify": "https://open.spotify.com/search/Traka%20(2)%20APTID",
       "soundcloud": "https://soundcloud.com/search?q=Traka%20(2)%20APTID",
       "youtube": "https://www.youtube.com/results?search_query=Traka%20(2)%20APTID",
-      "apple": "https://music.apple.com/us/album/aptid-feat-coido-muadeep/1789212700?uo=4"
+      "apple": "https://music.apple.com/us/album/aptid-feat-coido-muadeep/1789212700?uo=4",
+      "tidal": "https://tidal.com/album/410076625"
     },
     "embed": {
       "provider": "apple",
@@ -36623,7 +36728,8 @@
       "spotify": "https://open.spotify.com/search/umru%2C%20Jacques%20Greene%201st%20Light",
       "soundcloud": "https://soundcloud.com/search?q=umru%2C%20Jacques%20Greene%201st%20Light",
       "youtube": "https://www.youtube.com/results?search_query=umru%2C%20Jacques%20Greene%201st%20Light",
-      "deezer": "https://www.deezer.com/album/712660271"
+      "deezer": "https://www.deezer.com/album/712660271",
+      "tidal": "https://tidal.com/album/417800920"
     },
     "embed": {
       "provider": "deezer",
@@ -36692,7 +36798,8 @@
       "soundcloud": "https://soundcloud.com/search?q=Sa%20Pa%20The%20Fool",
       "youtube": "https://www.youtube.com/results?search_query=Sa%20Pa%20The%20Fool",
       "deezer": "https://www.deezer.com/album/761540441",
-      "apple": "https://music.apple.com/us/album/the-fool/1815564195?uo=4"
+      "apple": "https://music.apple.com/us/album/the-fool/1815564195?uo=4",
+      "tidal": "https://tidal.com/album/437480663"
     },
     "embed": {
       "provider": "apple",
@@ -36727,7 +36834,8 @@
       "soundcloud": "https://soundcloud.com/search?q=Forest%20Swords%20Bolted%20(Deconstructed)",
       "youtube": "https://www.youtube.com/results?search_query=Forest%20Swords%20Bolted%20(Deconstructed)",
       "deezer": "https://www.deezer.com/album/710774001",
-      "apple": "https://music.apple.com/us/album/bolted-deconstructed/1791806324?uo=4"
+      "apple": "https://music.apple.com/us/album/bolted-deconstructed/1791806324?uo=4",
+      "tidal": "https://tidal.com/album/417038411"
     },
     "embed": {
       "provider": "apple",
@@ -36762,7 +36870,8 @@
       "soundcloud": "https://soundcloud.com/search?q=Patrick%20Shiroishi%20%26%20Piotr%20Kurek%20Greyhound%20Days",
       "youtube": "https://www.youtube.com/results?search_query=Patrick%20Shiroishi%20%26%20Piotr%20Kurek%20Greyhound%20Days",
       "deezer": "https://www.deezer.com/album/716765891",
-      "apple": "https://music.apple.com/us/album/greyhound-days/1790993824?uo=4"
+      "apple": "https://music.apple.com/us/album/greyhound-days/1790993824?uo=4",
+      "tidal": "https://tidal.com/album/412133039"
     },
     "embed": {
       "provider": "apple",
@@ -36796,7 +36905,8 @@
       "spotify": "https://open.spotify.com/search/Nikolaienko%20Love-Fidelity%20Or%20Hiss%20Goodbye",
       "soundcloud": "https://soundcloud.com/search?q=Nikolaienko%20Love-Fidelity%20Or%20Hiss%20Goodbye",
       "youtube": "https://www.youtube.com/results?search_query=Nikolaienko%20Love-Fidelity%20Or%20Hiss%20Goodbye",
-      "apple": "https://music.apple.com/us/album/love-fidelity-or-hiss-goodbye/1792340990?uo=4"
+      "apple": "https://music.apple.com/us/album/love-fidelity-or-hiss-goodbye/1792340990?uo=4",
+      "tidal": "https://tidal.com/album/413439143"
     },
     "embed": {
       "provider": "apple",
@@ -36831,7 +36941,8 @@
       "soundcloud": "https://soundcloud.com/search?q=MOAB%20(6)%20Laws%20Ov%20Nature",
       "youtube": "https://www.youtube.com/results?search_query=MOAB%20(6)%20Laws%20Ov%20Nature",
       "deezer": "https://www.deezer.com/album/724335921",
-      "apple": "https://music.apple.com/us/album/laws-ov-nature/1797068428?uo=4"
+      "apple": "https://music.apple.com/us/album/laws-ov-nature/1797068428?uo=4",
+      "tidal": "https://tidal.com/album/418678683"
     },
     "embed": {
       "provider": "apple",
@@ -37483,7 +37594,7 @@
     "title": "Bye Bye Bird",
     "label": "Ideologic Organ",
     "releaseDate": "2025-02-21",
-    "description": "",
+    "description": "Nina Garcia's solo electric guitar work lands on Stephen O'Malley's Ideologic Organ, eight pieces of noise and free improvisation that prize physical detail over wall-of-sound. For anyone tracking the label's quieter, more abrasive side.",
     "tags": [
       "rock"
     ],
@@ -37517,7 +37628,7 @@
     "title": "In Rupture",
     "label": "Other People",
     "releaseDate": "2025-02-21",
-    "description": "",
+    "description": "Seven tracks of corroded electronics for Nicolas Jaar's Other People, sitting closer to the label's noise and musique concrète lineage than its club end. For listeners still working through Lugo or Tristan Arp.",
     "tags": [
       "electronic"
     ],
@@ -37551,7 +37662,7 @@
     "title": "Butterflies (Extended Mix)",
     "label": "Helix Records (7)",
     "releaseDate": "2025-02-21",
-    "description": "",
+    "description": "Green Velvet and Jamie Jones link up on Helix for a single extended cut, exactly the kind of acid-tinged, vocal-hook techno you'd expect from the pairing. Peak-time fodder, no surprises and none needed.",
     "tags": [
       "electronic"
     ],
@@ -37580,7 +37691,7 @@
     "title": "Soul Washed Bleach",
     "label": "Lilang Isla",
     "releaseDate": "2025-02-21",
-    "description": "",
+    "description": "Seven tracks of black metal, grind and progressive smear from Homeskin on Lilang Isla, issued in a limited pressing. Closer in spirit to the more unhinged end of contemporary one-person extreme metal than to anything trying to sound clean.",
     "tags": [
       "rock"
     ],
@@ -37614,7 +37725,7 @@
     "title": "IMN III",
     "label": "YUKU",
     "releaseDate": "2025-02-20",
-    "description": "",
+    "description": "Five tracks of skittering broken beat and weighted bass from Imaginary Number, pressed limited 12\" on YUKU. Sits comfortably next to the label's Ourman material if you need a shelving cue.",
     "tags": [
       "electronic"
     ],
@@ -37648,7 +37759,7 @@
     "title": "Give Up Channel",
     "label": "mappa",
     "releaseDate": "2025-02-20",
-    "description": "",
+    "description": "Twelve experimental sketches for Mappa, the Slovakian imprint that has built a reputation for hard-to-pin sound art and field-leaning electronics. Ploski's contributions sit comfortably in that lineage, more curiosity than statement.",
     "tags": [
       "electronic"
     ],
@@ -37683,7 +37794,7 @@
     "title": "Doctor Pain",
     "label": "AD 93",
     "releaseDate": "2025-02-19",
-    "description": "",
+    "description": "Jordan Playfair turns up on AD 93, a label whose roster (Loraine James, Special Request, Coby Sey) has settled into its own loose dialect of leftfield club and song-form electronics. Worth a listen on that basis alone.",
     "tags": [],
     "links": {
       "bandcamp": "https://bandcamp.com/album/88196218",
@@ -37716,7 +37827,7 @@
     "title": "Silent Dispatch",
     "label": "OST (5)",
     "releaseDate": "2025-02-14",
-    "description": "",
+    "description": "Eight tracks from bambinodj that file under both ambient and dancehall, which is a stranger pairing on paper than it sounds in practice. OST handles the release; expect riddim shapes hollowed out and left to drift.",
     "tags": [
       "electronic"
     ],
@@ -37751,7 +37862,7 @@
     "title": "Gnosis",
     "label": "Incienso",
     "releaseDate": "2025-02-14",
-    "description": "",
+    "description": "Eight tracks for Incienso that move between ambient haze, downtempo drift and a quieter strain of deep house and techno, never settling in one room for long. Sits comfortably alongside anything Anthony Naples has put out on the label.",
     "tags": [
       "electronic"
     ],
@@ -37786,7 +37897,7 @@
     "title": "Cala Serena",
     "label": "Ilian Tape",
     "releaseDate": "2025-02-14",
-    "description": "",
+    "description": "Four tracks of techno for Ilian Tape, the Zenker brothers' house dialect of broken drums and tunnelled low end fully intact. For anyone tracking the label's run from Skee Mask outward.",
     "tags": [
       "electronic"
     ],
@@ -37821,7 +37932,7 @@
     "title": "Fragments of Utopia",
     "label": "YUKU",
     "releaseDate": "2025-02-13",
-    "description": "",
+    "description": "Three tracks for YUKU that sit across the label's usual axis of broken percussion, dub weight and post-dubstep low end, with tribal accents pulling the rhythms off the grid. For anyone tracking the Yuku roster around ENA or Ourman.",
     "tags": [
       "electronic"
     ],
@@ -37855,7 +37966,7 @@
     "title": "◯",
     "label": "Good Morning Tapes",
     "releaseDate": "2025-02-13",
-    "description": "",
+    "description": "Kalma's long arc of breath-and-drone meditations meets the Asa Tone trio's softer take on fourth world on Good Morning Tapes, which is more or less the natural home for this kind of pairing. For shelves that already hold Laraaji or Sofie Birch.",
     "tags": [
       "electronic"
     ],
