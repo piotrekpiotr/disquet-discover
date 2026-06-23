@@ -651,13 +651,81 @@
       "bandcamp": "https://bandcamp.com/search?q=Takkak%20Takkak%20Abu&item_type=a",
       "spotify": "https://open.spotify.com/search/Takkak%20Takkak%20Abu",
       "soundcloud": "https://soundcloud.com/search?q=Takkak%20Takkak%20Abu",
-      "youtube": "https://www.youtube.com/results?search_query=Takkak%20Takkak%20Abu"
+      "youtube": "https://www.youtube.com/results?search_query=Takkak%20Takkak%20Abu",
+      "deezer": "https://www.deezer.com/album/1007296841",
+      "apple": "https://music.apple.com/us/album/abu/6781011729?uo=4",
+      "tidal": "https://tidal.com/album/534041717"
+    },
+    "embed": {
+      "provider": "apple",
+      "src": "https://embed.music.apple.com/us/album/6781011729?theme=light",
+      "height": 450
+    },
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://i.discogs.com/-BWHBYUubOUpzPhfn4a4dQ6XSjJ7pgf2Js92Dn5rKSU/rs:fit/g:sm/q:90/h:598/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM3NTk3/NzQ5LTE3ODExNzcw/MTgtNDkyNS5qcGVn.jpeg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
+    "id": "nosaj-thing-the-edge",
+    "type": "single",
+    "artist": "Nosaj Thing",
+    "title": "The Edge",
+    "label": "",
+    "releaseDate": "2026-06-23",
+    "description": "Nosaj Thing returns to single-format territory, the LA producer still working that quiet seam between melodic beat music and downcast ambient electronics he has been refining since Drift. One for the Jon Hopkins shelf.",
+    "tags": [],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=Nosaj%20Thing%20The%20Edge&item_type=a",
+      "spotify": "https://open.spotify.com/search/Nosaj%20Thing%20The%20Edge",
+      "soundcloud": "https://soundcloud.com/search?q=Nosaj%20Thing%20The%20Edge",
+      "youtube": "https://www.youtube.com/results?search_query=Nosaj%20Thing%20The%20Edge",
+      "deezer": "https://www.deezer.com/album/997944701"
     },
     "embed": null,
     "musicVideoUrl": null,
     "status": "pending",
     "approvedAt": null,
-    "coverImageUrl": "https://i.discogs.com/-BWHBYUubOUpzPhfn4a4dQ6XSjJ7pgf2Js92Dn5rKSU/rs:fit/g:sm/q:90/h:598/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM3NTk3/NzQ5LTE3ODExNzcw/MTgtNDkyNS5qcGVn.jpeg",
+    "coverImageUrl": "https://cdn-images.dzcdn.net/images/cover/8f82e69d9ed463b2b63102084c827dd2/1000x1000-000000-80-0-0.jpg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
+    "id": "croatian-amor-blue-house",
+    "type": "single",
+    "artist": "Croatian Amor",
+    "title": "Blue House",
+    "label": "",
+    "releaseDate": "2026-06-23",
+    "description": "Loke Rahbek in his Croatian Amor mode, where pop residue, processed voice and a kind of bruised digital sentimentality have long been the working palette. A single, label unconfirmed; file alongside the Posh Isolation lineage.",
+    "tags": [],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=Croatian%20Amor%20Blue%20House&item_type=a",
+      "spotify": "https://open.spotify.com/search/Croatian%20Amor%20Blue%20House",
+      "soundcloud": "https://soundcloud.com/search?q=Croatian%20Amor%20Blue%20House",
+      "youtube": "https://www.youtube.com/results?search_query=Croatian%20Amor%20Blue%20House",
+      "deezer": "https://www.deezer.com/album/997599291",
+      "apple": "https://music.apple.com/us/album/blue-house-single/6776692807?uo=4"
+    },
+    "embed": {
+      "provider": "apple",
+      "src": "https://embed.music.apple.com/us/album/6776692807?theme=light",
+      "height": 450
+    },
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://cdn-images.dzcdn.net/images/cover/330eab773def12437a7e1d6ddb8df41f/1000x1000-000000-80-0-0.jpg",
     "cover": {
       "bg": "#111110",
       "fg": "#f2efe8",
@@ -984,6 +1052,40 @@
     "status": "pending",
     "approvedAt": null,
     "coverImageUrl": null,
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
+    "id": "duckwrth-wishing-well",
+    "type": "single",
+    "artist": "Duckwrth",
+    "title": "Wishing Well",
+    "label": "Them Hellas",
+    "releaseDate": "2026-06-19",
+    "description": "Duckwrth keeps to his own lane on Them Hellas, a two-track single that splits the difference between rap cadence and soul phrasing without picking a side. For listeners who follow the looser, more melodic edge of West Coast hip hop.",
+    "tags": [
+      "hip hop"
+    ],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=Duckwrth%20Wishing%20Well&item_type=a",
+      "spotify": "https://open.spotify.com/search/Duckwrth%20Wishing%20Well",
+      "soundcloud": "https://soundcloud.com/search?q=Duckwrth%20Wishing%20Well",
+      "youtube": "https://www.youtube.com/results?search_query=Duckwrth%20Wishing%20Well",
+      "deezer": "https://www.deezer.com/album/982141441"
+    },
+    "embed": {
+      "provider": "deezer",
+      "src": "https://widget.deezer.com/widget/light/album/982141441",
+      "height": 300
+    },
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://i.discogs.com/futoQWp608LPUYrmG0REG5t6Scuv8KASMqEXem42jDs/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM3Njk2/NTAzLTE3ODIxNzU1/ODItNDgwNC5qcGVn.jpeg",
     "cover": {
       "bg": "#111110",
       "fg": "#f2efe8",
@@ -1995,6 +2097,70 @@
     ]
   },
   {
+    "id": "goat-jp-without-references-cindy-van-acker-ricardo-villalobos-variations",
+    "type": "ep",
+    "artist": "Goat (jp)",
+    "title": "Without References / Cindy Van Acker (Ricardo Villalobos Variations)",
+    "label": "Latency",
+    "releaseDate": "2026-06-12",
+    "description": "Tokyo's Goat lands on Latency with three tracks of their rigid, percussion-first minimalism, one of them handed to Villalobos for a predictably elongated rework. For anyone still mapping the space between Perlon and the Japanese post-rock end of the same name.",
+    "tags": [
+      "electronic"
+    ],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=Goat%20(jp)%20Without%20References%20%2F%20Cindy%20Van%20Acker%20(Ricardo%20Villalobos%20Variations)&item_type=a",
+      "spotify": "https://open.spotify.com/search/Goat%20(jp)%20Without%20References%20%2F%20Cindy%20Van%20Acker%20(Ricardo%20Villalobos%20Variations)",
+      "soundcloud": "https://soundcloud.com/search?q=Goat%20(jp)%20Without%20References%20%2F%20Cindy%20Van%20Acker%20(Ricardo%20Villalobos%20Variations)",
+      "youtube": "https://www.youtube.com/results?search_query=Goat%20(jp)%20Without%20References%20%2F%20Cindy%20Van%20Acker%20(Ricardo%20Villalobos%20Variations)"
+    },
+    "embed": null,
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://i.discogs.com/pYwU70Xec0isqgjBeUZGZGXNFJ3OPScMJKV2jjCdHuk/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM3Njk2/MTY3LTE3ODIxNzEy/MTYtOTk4NS5qcGVn.jpeg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
+    "id": "goat-jp-ricardo-villalobos-without-references-cindy-van-acker-ricardo-villalobos",
+    "type": "ep",
+    "artist": "Goat (jp)* & Ricardo Villalobos",
+    "title": "Without References/Cindy van Acker (Ricardo Villalobos Variations)",
+    "label": "Latency",
+    "releaseDate": "2026-06-12",
+    "description": "Tokyo's Goat handed over to Villalobos for a three-track Latency EP, the kind of pairing where percussion-led source material gets stretched into the producer's long, breathing minimal shapes. For anyone still working through the Perlon back catalogue.",
+    "tags": [
+      "electronic"
+    ],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=Goat%20(jp)*%20%26%20Ricardo%20Villalobos%20Without%20References%2FCindy%20van%20Acker%20(Ricardo%20Villalobos%20Variations)&item_type=a",
+      "spotify": "https://open.spotify.com/search/Goat%20(jp)*%20%26%20Ricardo%20Villalobos%20Without%20References%2FCindy%20van%20Acker%20(Ricardo%20Villalobos%20Variations)",
+      "soundcloud": "https://soundcloud.com/search?q=Goat%20(jp)*%20%26%20Ricardo%20Villalobos%20Without%20References%2FCindy%20van%20Acker%20(Ricardo%20Villalobos%20Variations)",
+      "youtube": "https://www.youtube.com/results?search_query=Goat%20(jp)*%20%26%20Ricardo%20Villalobos%20Without%20References%2FCindy%20van%20Acker%20(Ricardo%20Villalobos%20Variations)",
+      "deezer": "https://www.deezer.com/album/943344931",
+      "apple": "https://music.apple.com/us/album/without-references-cindy-van-acker-ricardo-villalobos/1886457200?uo=4"
+    },
+    "embed": {
+      "provider": "apple",
+      "src": "https://embed.music.apple.com/us/album/1886457200?theme=light",
+      "height": 450
+    },
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://i.discogs.com/fdZEEQu9zPyGXuS3F1BCeCyhBtaf9ziDcJiuRgalI2w/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM3Njkz/NDA3LTE3ODIxNDg3/MzYtNjUxNC5qcGVn.jpeg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
     "id": "the-chemical-brothers-go-live-from-glastonbury",
     "type": "single",
     "artist": "The Chemical Brothers",
@@ -2564,6 +2730,35 @@
     "status": "pending",
     "approvedAt": null,
     "coverImageUrl": null,
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
+    "id": "solarstone-orkidea-pure-trance-xi-limited-edition-sampler",
+    "type": "album",
+    "artist": "Solarstone & Orkidea",
+    "title": "Pure Trance XI (Limited Edition Sampler)",
+    "label": "Black Hole Recordings",
+    "releaseDate": "2026-06-08",
+    "description": "A twelve-track sampler from the long-running Pure Trance series, Solarstone and Orkidea curating in the uplifting, melodic register the franchise has held since the early 2010s. Black Hole pressing it to vinyl for the faithful.",
+    "tags": [
+      "electronic"
+    ],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=Solarstone%20%26%20Orkidea%20Pure%20Trance%20XI%20(Limited%20Edition%20Sampler)&item_type=a",
+      "spotify": "https://open.spotify.com/search/Solarstone%20%26%20Orkidea%20Pure%20Trance%20XI%20(Limited%20Edition%20Sampler)",
+      "soundcloud": "https://soundcloud.com/search?q=Solarstone%20%26%20Orkidea%20Pure%20Trance%20XI%20(Limited%20Edition%20Sampler)",
+      "youtube": "https://www.youtube.com/results?search_query=Solarstone%20%26%20Orkidea%20Pure%20Trance%20XI%20(Limited%20Edition%20Sampler)"
+    },
+    "embed": null,
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://i.discogs.com/-_Or3eRGXhINrMBTwooz8L9NHlsnu3HfWoGLE9J7kyM/rs:fit/g:sm/q:90/h:600/w:597/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM3NjMz/OTE0LTE3ODIxNTc2/NzUtNzE1Ni5qcGVn.jpeg",
     "cover": {
       "bg": "#111110",
       "fg": "#f2efe8",
@@ -17636,12 +17831,13 @@
       "spotify": "https://open.spotify.com/search/MJ%20Guider%20Another%2FWeird%20Dream",
       "soundcloud": "https://soundcloud.com/search?q=MJ%20Guider%20Another%2FWeird%20Dream",
       "youtube": "https://www.youtube.com/results?search_query=MJ%20Guider%20Another%2FWeird%20Dream",
-      "deezer": "https://www.deezer.com/album/991619621"
+      "deezer": "https://www.deezer.com/album/991619621",
+      "apple": "https://music.apple.com/us/album/another-weird-dream-single/6771425279?uo=4"
     },
     "embed": {
-      "provider": "deezer",
-      "src": "https://widget.deezer.com/widget/light/album/991619621",
-      "height": 300
+      "provider": "apple",
+      "src": "https://embed.music.apple.com/us/album/6771425279?theme=light",
+      "height": 450
     },
     "musicVideoUrl": null,
     "status": "pending",
@@ -38000,7 +38196,7 @@
     "title": "Mahavélouz",
     "label": "Nyege Nyege Tapes",
     "releaseDate": "2025-02-07",
-    "description": "",
+    "description": "Réunionnais producer Jako Maron continues his electronic recasting of maloya for Nyege Nyege Tapes, where the polyrhythms get pulled into drum machines without losing their gait. Limited LP; sits next to Konono Nº1 reissues or anything from the label's percussion-forward end.",
     "tags": [
       "electronic"
     ],
@@ -38035,7 +38231,7 @@
     "title": "Dance To The Rhythm",
     "label": "Lapsus Music",
     "releaseDate": "2025-02-07",
-    "description": "",
+    "description": "Two tracks of minimal techno from the Italian pair, landing on Barcelona's Lapsus Music where the rhythm-tool end of the catalogue lives. Functional rather than ornamental, aimed squarely at the floor.",
     "tags": [
       "electronic"
     ],
@@ -38069,7 +38265,7 @@
     "title": "Mas Amable",
     "label": "Incienso",
     "releaseDate": "2025-02-07",
-    "description": "",
+    "description": "Incienso represses the Brian Piñeyro full-length that codified deep reggaeton as a working idea: dembow patterns dissolved into ambient haze, mixed end to end so the record drifts as one. For anyone still working through Anthony Naples adjacencies.",
     "tags": [
       "electronic"
     ],
@@ -38105,7 +38301,7 @@
     "title": "1977",
     "label": "Coastline Northern Cuts",
     "releaseDate": "2025-02-07",
-    "description": "",
+    "description": "Twenty-three tracks of ambient, IDM and synthwave from Maciej Polak on Coastline Northern Cuts, a long sit rather than a quick listen. Worth a spin if you keep a shelf for the more melodic end of Polish electronics.",
     "tags": [
       "electronic"
     ],
@@ -38140,7 +38336,7 @@
     "title": "1977",
     "label": "Coastline Northern Cuts",
     "releaseDate": "2025-02-07",
-    "description": "",
+    "description": "Twenty-three tracks of ambient, IDM and synthwave from Maciek Polak, sprawling enough to function as a long sit rather than a sequence of singles. Coastline Northern Cuts giving it the full LP treatment.",
     "tags": [
       "electronic"
     ],
@@ -38175,7 +38371,7 @@
     "title": "Things One Shouldn't Have To Say",
     "label": "Lockjaw Records",
     "releaseDate": "2025-02-07",
-    "description": "",
+    "description": "Eighteen tracks of melodic hardcore from the UK quartet, landing on Lockjaw with the urgency the label tends to bank on. Punk economy stretched across an LP that doesn't seem inclined to slow down.",
     "tags": [
       "rock"
     ],
@@ -38210,7 +38406,7 @@
     "title": "Sharon Van Etten & The Attachment Theory",
     "label": "Jagjaguwar",
     "releaseDate": "2025-02-07",
-    "description": "",
+    "description": "Van Etten rebrands as a full band on Jagjaguwar, ten tracks of indie rock recorded with a working group rather than as a solo vehicle. The songwriting register is familiar, the framing is not.",
     "tags": [
       "rock"
     ],
@@ -38245,7 +38441,7 @@
     "title": "Solstice Concert",
     "label": "Leaving Records",
     "releaseDate": "2025-02-07",
-    "description": "",
+    "description": "Eight pieces of solo guitar from Nascimento, captured for Leaving Records in the kind of unhurried Brazilian-jazz idiom he has been working in for years. Issued as a test pressing LP; sits comfortably next to Carlos Niño's orbit on the label.",
     "tags": [
       "jazz"
     ],
@@ -38281,7 +38477,7 @@
     "title": "Solstice Concert",
     "label": "Leaving Records",
     "releaseDate": "2025-02-07",
-    "description": "",
+    "description": "Live nylon-string explorations from the Brazilian guitarist, captured for Leaving Records in their continuing run of acoustic-leaning Los Angeles fare. Sits comfortably beside Carlos Niño's gentler sessions.",
     "tags": [
       "jazz"
     ],
@@ -40801,7 +40997,8 @@
       "spotify": "https://open.spotify.com/search/Leaving%20Time%20Angel%20In%20The%20Sand",
       "soundcloud": "https://soundcloud.com/search?q=Leaving%20Time%20Angel%20In%20The%20Sand",
       "youtube": "https://www.youtube.com/results?search_query=Leaving%20Time%20Angel%20In%20The%20Sand",
-      "apple": "https://music.apple.com/us/album/angel-in-the-sand/1761216454?uo=4"
+      "apple": "https://music.apple.com/us/album/angel-in-the-sand/1761216454?uo=4",
+      "tidal": "https://tidal.com/album/379429563"
     },
     "embed": {
       "provider": "apple",
@@ -40836,7 +41033,8 @@
       "soundcloud": "https://soundcloud.com/search?q=Cole%20Pulice%20Land%E2%80%99s%20End%20Eternal",
       "youtube": "https://www.youtube.com/results?search_query=Cole%20Pulice%20Land%E2%80%99s%20End%20Eternal",
       "deezer": "https://www.deezer.com/album/694478801",
-      "apple": "https://music.apple.com/us/album/lands-end-eternal/1789228850?uo=4"
+      "apple": "https://music.apple.com/us/album/lands-end-eternal/1789228850?uo=4",
+      "tidal": "https://tidal.com/album/410149387"
     },
     "embed": {
       "provider": "apple",
@@ -41038,7 +41236,8 @@
       "soundcloud": "https://soundcloud.com/search?q=Galcher%20Lustwerk%20Information",
       "youtube": "https://www.youtube.com/results?search_query=Galcher%20Lustwerk%20Information",
       "deezer": "https://www.deezer.com/album/114789142",
-      "apple": "https://music.apple.com/us/album/information-redacted/1548298865?uo=4"
+      "apple": "https://music.apple.com/us/album/information-redacted/1548298865?uo=4",
+      "tidal": "https://tidal.com/album/169021573"
     },
     "embed": {
       "provider": "apple",
@@ -41073,7 +41272,8 @@
       "soundcloud": "https://soundcloud.com/search?q=Whatever%20The%20Weather%20Whatever%20The%20Weather%20II",
       "youtube": "https://www.youtube.com/results?search_query=Whatever%20The%20Weather%20Whatever%20The%20Weather%20II",
       "deezer": "https://www.deezer.com/album/686012521",
-      "apple": "https://music.apple.com/us/album/whatever-the-weather-ii/1786173473?uo=4"
+      "apple": "https://music.apple.com/us/album/whatever-the-weather-ii/1786173473?uo=4",
+      "tidal": "https://tidal.com/album/406639581"
     },
     "embed": {
       "provider": "apple",
@@ -41107,7 +41307,8 @@
       "spotify": "https://open.spotify.com/search/Jessy%20Lanza%20Slapped%20By%20My%20Life",
       "soundcloud": "https://soundcloud.com/search?q=Jessy%20Lanza%20Slapped%20By%20My%20Life",
       "youtube": "https://www.youtube.com/results?search_query=Jessy%20Lanza%20Slapped%20By%20My%20Life",
-      "apple": "https://music.apple.com/us/album/slapped-by-my-life-single/1838520668?uo=4"
+      "apple": "https://music.apple.com/us/album/slapped-by-my-life-single/1838520668?uo=4",
+      "tidal": "https://tidal.com/album/459310377"
     },
     "embed": {
       "provider": "apple",
@@ -41142,7 +41343,8 @@
       "soundcloud": "https://soundcloud.com/search?q=Burial%20Street%20Halo",
       "youtube": "https://www.youtube.com/results?search_query=Burial%20Street%20Halo",
       "deezer": "https://www.deezer.com/album/8045444",
-      "apple": "https://music.apple.com/us/album/street-halo-single/892571794?uo=4"
+      "apple": "https://music.apple.com/us/album/street-halo-single/892571794?uo=4",
+      "tidal": "https://tidal.com/album/111935719"
     },
     "embed": {
       "provider": "apple",
