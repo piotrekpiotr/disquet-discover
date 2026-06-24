@@ -65,6 +65,33 @@
     ]
   },
   {
+    "id": "space-afrika-quiet-storm-explicit",
+    "type": "album",
+    "artist": "Space Afrika",
+    "title": "Quiet Storm [Explicit]",
+    "label": "",
+    "releaseDate": "2026-09-25",
+    "description": "Space Afrika in album-length mode again, which on past form means smeared dub ambient and half-caught city radio bleeding into each other. File next to Loraine James' quieter excursions if you need a shelf.",
+    "tags": [],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=Space%20Afrika%20Quiet%20Storm%20%5BExplicit%5D&item_type=a",
+      "spotify": "https://open.spotify.com/search/Space%20Afrika%20Quiet%20Storm%20%5BExplicit%5D",
+      "soundcloud": "https://soundcloud.com/search?q=Space%20Afrika%20Quiet%20Storm%20%5BExplicit%5D",
+      "youtube": "https://www.youtube.com/results?search_query=Space%20Afrika%20Quiet%20Storm%20%5BExplicit%5D"
+    },
+    "embed": null,
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": null,
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
     "id": "romare-oblivion",
     "type": "album",
     "artist": "Romare",
@@ -137,6 +164,35 @@
       "spotify": "https://open.spotify.com/search/Amelie%20Lens%20Aura",
       "soundcloud": "https://soundcloud.com/search?q=Amelie%20Lens%20Aura",
       "youtube": "https://www.youtube.com/results?search_query=Amelie%20Lens%20Aura"
+    },
+    "embed": null,
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": null,
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
+    "id": "iglooghost-",
+    "type": "album",
+    "artist": "Iglooghost",
+    "title": "ᲘᲘ",
+    "label": "",
+    "releaseDate": "2026-09-04",
+    "description": "Iglooghost continues his hyper-detailed, lore-heavy strain of club-adjacent electronics, where every bar seems to be made of a hundred smaller ones. File alongside the more maximalist Brainfeeder graduates if you need bearings.",
+    "tags": [],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=Iglooghost%20%E1%B2%98%E1%B2%98&item_type=a",
+      "spotify": "https://open.spotify.com/search/Iglooghost%20%E1%B2%98%E1%B2%98",
+      "soundcloud": "https://soundcloud.com/search?q=Iglooghost%20%E1%B2%98%E1%B2%98",
+      "youtube": "https://www.youtube.com/results?search_query=Iglooghost%20%E1%B2%98%E1%B2%98",
+      "deezer": "https://www.deezer.com/album/1000335501",
+      "tidal": "https://tidal.com/album/531663022"
     },
     "embed": null,
     "musicVideoUrl": null,
@@ -601,7 +657,9 @@
       "fg": "#f2efe8",
       "motif": "disc"
     },
-    "pressMentions": []
+    "pressMentions": [
+      "pitchfork_albums"
+    ]
   },
   {
     "id": "faltydl-body-me",
@@ -673,6 +731,162 @@
     "pressMentions": []
   },
   {
+    "id": "iglooghost-knackered",
+    "type": "single",
+    "artist": "Iglooghost",
+    "title": "Knackered",
+    "label": "",
+    "releaseDate": "2026-06-24",
+    "description": "Iglooghost in single-track mode, which historically means hyper-detailed sound design crammed into a very short window. No label info attached yet, so treat this as a between-projects dispatch rather than anything more.",
+    "tags": [],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=Iglooghost%20Knackered&item_type=a",
+      "spotify": "https://open.spotify.com/search/Iglooghost%20Knackered",
+      "soundcloud": "https://soundcloud.com/search?q=Iglooghost%20Knackered",
+      "youtube": "https://www.youtube.com/results?search_query=Iglooghost%20Knackered",
+      "deezer": "https://www.deezer.com/album/1000335481"
+    },
+    "embed": null,
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://cdn-images.dzcdn.net/images/cover/5d8bb33ca422710e24919b01617e3ec3/1000x1000-000000-80-0-0.jpg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
+    "id": "olafur-arnalds-dawn",
+    "type": "single",
+    "artist": "Ólafur Arnalds",
+    "title": "Dawn",
+    "label": "OPIA Community",
+    "releaseDate": "2026-06-24",
+    "description": "Eight tracks of Arnalds' familiar piano-and-strings vocabulary, this time on his own OPIA Community imprint in a limited LP pressing. Sits comfortably alongside Nils Frahm if you need a shelving cue.",
+    "tags": [],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=%C3%93lafur%20Arnalds%20Dawn&item_type=a",
+      "spotify": "https://open.spotify.com/search/%C3%93lafur%20Arnalds%20Dawn",
+      "soundcloud": "https://soundcloud.com/search?q=%C3%93lafur%20Arnalds%20Dawn",
+      "youtube": "https://www.youtube.com/results?search_query=%C3%93lafur%20Arnalds%20Dawn",
+      "deezer": "https://www.deezer.com/album/996136431",
+      "tidal": "https://tidal.com/album/529869000"
+    },
+    "embed": null,
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://cdn-images.dzcdn.net/images/cover/0b79d6efcf377dfb6182ccc72135f011/1000x1000-000000-80-0-0.jpg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
+    "id": "sofie-birch-juaduddanya",
+    "type": "single",
+    "artist": "Sofie Birch",
+    "title": "Juaduddanya",
+    "label": "",
+    "releaseDate": "2026-06-24",
+    "description": "New Sofie Birch, working again in the soft-focus ambient register she has been quietly building out across Posh Isolation and 15 Love. A single, so treat it as a sketch rather than a statement.",
+    "tags": [],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=Sofie%20Birch%20Juaduddanya&item_type=a",
+      "spotify": "https://open.spotify.com/search/Sofie%20Birch%20Juaduddanya",
+      "soundcloud": "https://soundcloud.com/search?q=Sofie%20Birch%20Juaduddanya",
+      "youtube": "https://www.youtube.com/results?search_query=Sofie%20Birch%20Juaduddanya",
+      "deezer": "https://www.deezer.com/album/1001644831"
+    },
+    "embed": {
+      "provider": "deezer",
+      "src": "https://widget.deezer.com/widget/light/album/1001644831",
+      "height": 300
+    },
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://cdn-images.dzcdn.net/images/cover/34093cb184ce2accd013ebe7bbe66466/1000x1000-000000-80-0-0.jpg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
+    "id": "romare-breathe",
+    "type": "single",
+    "artist": "Romare",
+    "title": "Breathe",
+    "label": "",
+    "releaseDate": "2026-06-24",
+    "description": "Romare returns to the single format, sample-collage dance music still his calling card after the Ninja Tune run. No label info surfacing yet, so file it provisionally next to his earlier sleeve-deep edits.",
+    "tags": [],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=Romare%20Breathe&item_type=a",
+      "spotify": "https://open.spotify.com/search/Romare%20Breathe",
+      "soundcloud": "https://soundcloud.com/search?q=Romare%20Breathe",
+      "youtube": "https://www.youtube.com/results?search_query=Romare%20Breathe",
+      "deezer": "https://www.deezer.com/album/980254001",
+      "apple": "https://music.apple.com/us/album/breathe-single/6768253990?uo=4"
+    },
+    "embed": {
+      "provider": "apple",
+      "src": "https://embed.music.apple.com/us/album/6768253990?theme=light",
+      "height": 450
+    },
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://cdn-images.dzcdn.net/images/cover/faf6fe68fd10051a95c770888aec29f1/1000x1000-000000-80-0-0.jpg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
+    "id": "matthew-herbert-clay-bonus-edition",
+    "type": "album",
+    "artist": "Matthew Herbert",
+    "title": "Clay (Bonus Edition)",
+    "label": "",
+    "releaseDate": "2026-06-24",
+    "description": "Herbert in his long-running mode of building music from the sound of a single object, this time clay, with the bonus edition adding extra material to the original set. Conceptual sound art that still functions as listening; for anyone who followed One Pig or The End of Silence.",
+    "tags": [],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=Matthew%20Herbert%20Clay%20(Bonus%20Edition)&item_type=a",
+      "spotify": "https://open.spotify.com/search/Matthew%20Herbert%20Clay%20(Bonus%20Edition)",
+      "soundcloud": "https://soundcloud.com/search?q=Matthew%20Herbert%20Clay%20(Bonus%20Edition)",
+      "youtube": "https://www.youtube.com/results?search_query=Matthew%20Herbert%20Clay%20(Bonus%20Edition)",
+      "deezer": "https://www.deezer.com/album/987301941",
+      "apple": "https://music.apple.com/us/album/clay-bonus-edition/6771464235?uo=4",
+      "tidal": "https://tidal.com/album/526546596"
+    },
+    "embed": {
+      "provider": "apple",
+      "src": "https://embed.music.apple.com/us/album/6771464235?theme=light",
+      "height": 450
+    },
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://cdn-images.dzcdn.net/images/cover/2a8db16b1984cafee4d81780fcd3699f/1000x1000-000000-80-0-0.jpg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
     "id": "nosaj-thing-the-edge",
     "type": "single",
     "artist": "Nosaj Thing",
@@ -726,6 +940,74 @@
     "status": "pending",
     "approvedAt": null,
     "coverImageUrl": "https://cdn-images.dzcdn.net/images/cover/330eab773def12437a7e1d6ddb8df41f/1000x1000-000000-80-0-0.jpg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
+    "id": "tyson-nosaj-thing-coby-sey-the-edge",
+    "type": "single",
+    "artist": "TYSON, Nosaj Thing & Coby Sey",
+    "title": "The Edge",
+    "label": "Ladies Music Pub Records",
+    "releaseDate": "2026-06-23",
+    "description": "Three-way single on Ladies Music Pub: TYSON's vocal poise, Nosaj Thing's negative-space production, and Coby Sey's lower-register restraint pulling in roughly the same direction. Files alongside the AD 93 end of the shelf.",
+    "tags": [
+      "electronic"
+    ],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=TYSON%2C%20Nosaj%20Thing%20%26%20Coby%20Sey%20The%20Edge&item_type=a",
+      "spotify": "https://open.spotify.com/search/TYSON%2C%20Nosaj%20Thing%20%26%20Coby%20Sey%20The%20Edge",
+      "soundcloud": "https://soundcloud.com/search?q=TYSON%2C%20Nosaj%20Thing%20%26%20Coby%20Sey%20The%20Edge",
+      "youtube": "https://www.youtube.com/results?search_query=TYSON%2C%20Nosaj%20Thing%20%26%20Coby%20Sey%20The%20Edge",
+      "apple": "https://music.apple.com/us/album/the-edge-single/6776659920",
+      "deezer": "https://www.deezer.com/album/997944701"
+    },
+    "embed": {
+      "provider": "apple",
+      "src": "https://embed.music.apple.com/us/album/6776659920?theme=light",
+      "height": 450
+    },
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/42/d4/6b/42d46beb-2d93-ff96-888e-d03cd2d2c71c/5063961855596_cover.jpg/600x600bb.jpg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
+    "id": "andrea-oh-beautiful-trance",
+    "type": "album",
+    "artist": "Andrea",
+    "title": "Oh, Beautiful Trance!",
+    "label": "",
+    "releaseDate": "2026-06-20",
+    "description": "Andrea returns to album length with a title that telegraphs intent, the Ilian Tape regular's tangle of broken rhythm and lyrical melody now pointed squarely at the rave. For anyone who keeps Stargate in regular rotation.",
+    "tags": [],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=Andrea%20Oh%2C%20Beautiful%20Trance!&item_type=a",
+      "spotify": "https://open.spotify.com/search/Andrea%20Oh%2C%20Beautiful%20Trance!",
+      "soundcloud": "https://soundcloud.com/search?q=Andrea%20Oh%2C%20Beautiful%20Trance!",
+      "youtube": "https://www.youtube.com/results?search_query=Andrea%20Oh%2C%20Beautiful%20Trance!",
+      "deezer": "https://www.deezer.com/album/991339941",
+      "apple": "https://music.apple.com/us/album/oh-beautiful-trance-single/6773253960?uo=4"
+    },
+    "embed": {
+      "provider": "apple",
+      "src": "https://embed.music.apple.com/us/album/6773253960?theme=light",
+      "height": 450
+    },
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": null,
     "cover": {
       "bg": "#111110",
       "fg": "#f2efe8",
@@ -1094,6 +1376,124 @@
     "pressMentions": []
   },
   {
+    "id": "skee-mask-3xtra",
+    "type": "album",
+    "artist": "Skee Mask",
+    "title": "3xtra",
+    "label": "Not On Label (Skee Mask Self-released)",
+    "releaseDate": "2026-06-19",
+    "description": "Self-released three-tracker from the Ilian Tape regular, sitting in the same techno/breaks/ambient triangulation he has been mapping for years. Direct-to-FLAC, no label intermediary; for anyone still rotating Compro and Pool.",
+    "tags": [],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=Skee%20Mask%203xtra&item_type=a",
+      "spotify": "https://open.spotify.com/search/Skee%20Mask%203xtra",
+      "soundcloud": "https://soundcloud.com/search?q=Skee%20Mask%203xtra",
+      "youtube": "https://www.youtube.com/results?search_query=Skee%20Mask%203xtra"
+    },
+    "embed": null,
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": null,
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
+    "id": "log-",
+    "type": "album",
+    "artist": "LOG",
+    "title": "星屑のファンタジア",
+    "label": "",
+    "releaseDate": "2026-06-19",
+    "description": "LOG returns under the all-caps alias with an album whose title points toward the starry, slightly sentimental end of Japanese electronic pop. Label details still pending, worth flagging for anyone who tracks the country's quieter melodic producers.",
+    "tags": [],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=LOG%20%E6%98%9F%E5%B1%91%E3%81%AE%E3%83%95%E3%82%A1%E3%83%B3%E3%82%BF%E3%82%B8%E3%82%A2&item_type=a",
+      "spotify": "https://open.spotify.com/search/LOG%20%E6%98%9F%E5%B1%91%E3%81%AE%E3%83%95%E3%82%A1%E3%83%B3%E3%82%BF%E3%82%B8%E3%82%A2",
+      "soundcloud": "https://soundcloud.com/search?q=LOG%20%E6%98%9F%E5%B1%91%E3%81%AE%E3%83%95%E3%82%A1%E3%83%B3%E3%82%BF%E3%82%B8%E3%82%A2",
+      "youtube": "https://www.youtube.com/results?search_query=LOG%20%E6%98%9F%E5%B1%91%E3%81%AE%E3%83%95%E3%82%A1%E3%83%B3%E3%82%BF%E3%82%B8%E3%82%A2"
+    },
+    "embed": null,
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": null,
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
+    "id": "miles-davis-miles-56-remastered-2026",
+    "type": "album",
+    "artist": "Miles Davis",
+    "title": "Miles '56 (Remastered 2026)",
+    "label": "",
+    "releaseDate": "2026-06-19",
+    "description": "A 2026 remaster gathering Miles Davis's 1956 sessions, the year of the marathon Prestige dates that produced the four \"ings\" with the first great quintet. Catalog housekeeping rather than rediscovery, but the source material remains foundational.",
+    "tags": [],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=Miles%20Davis%20Miles%20'56%20(Remastered%202026)&item_type=a",
+      "spotify": "https://open.spotify.com/search/Miles%20Davis%20Miles%20'56%20(Remastered%202026)",
+      "soundcloud": "https://soundcloud.com/search?q=Miles%20Davis%20Miles%20'56%20(Remastered%202026)",
+      "youtube": "https://www.youtube.com/results?search_query=Miles%20Davis%20Miles%20'56%20(Remastered%202026)",
+      "deezer": "https://www.deezer.com/album/1003767841",
+      "apple": "https://music.apple.com/us/album/miles-56-remastered-2026/1885946918?uo=4"
+    },
+    "embed": {
+      "provider": "apple",
+      "src": "https://embed.music.apple.com/us/album/1885946918?theme=light",
+      "height": 450
+    },
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://cdn-images.dzcdn.net/images/cover/8c2ba4018dd634dff50da0a7a936d720/1000x1000-000000-80-0-0.jpg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": [
+      "pitchfork_albums"
+    ]
+  },
+  {
+    "id": "miles-davis-miles-39-56-remastered-2026",
+    "type": "album",
+    "artist": "Miles Davis",
+    "title": "Miles &#39;56 (Remastered 2026)",
+    "label": "",
+    "releaseDate": "2026-06-19",
+    "description": "This isn't electronic music and falls outside the site's remit, but for the record: a 2026 remaster of Miles Davis material from 1956, the year of the marathon Prestige quintet sessions. Pass to the jazz desk.",
+    "tags": [],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=Miles%20Davis%20Miles%20%26%2339%3B56%20(Remastered%202026)&item_type=a",
+      "spotify": "https://open.spotify.com/search/Miles%20Davis%20Miles%20%26%2339%3B56%20(Remastered%202026)",
+      "soundcloud": "https://soundcloud.com/search?q=Miles%20Davis%20Miles%20%26%2339%3B56%20(Remastered%202026)",
+      "youtube": "https://www.youtube.com/results?search_query=Miles%20Davis%20Miles%20%26%2339%3B56%20(Remastered%202026)"
+    },
+    "embed": null,
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": null,
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": [
+      "pitchfork_albums"
+    ]
+  },
+  {
     "id": "noon-hier-op-het-terras",
     "type": "single",
     "artist": "Noon",
@@ -1381,6 +1781,39 @@
     "status": "pending",
     "approvedAt": null,
     "coverImageUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/0e/8c/1d/0e8c1d94-d934-20fa-96a4-69bd7944f890/7333583850124.jpg/600x600bb.jpg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
+    "id": "aya-my-feelings-now",
+    "type": "album",
+    "artist": "aya",
+    "title": "My Feelings Now",
+    "label": "",
+    "releaseDate": "2026-06-16",
+    "description": "aya returns to long-form after im hole, the same dismantled club logic and processed voice she's been building in public since Hyperdawn. Expect deformation rather than resolution.",
+    "tags": [],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=aya%20My%20Feelings%20Now&item_type=a",
+      "spotify": "https://open.spotify.com/search/aya%20My%20Feelings%20Now",
+      "soundcloud": "https://soundcloud.com/search?q=aya%20My%20Feelings%20Now",
+      "youtube": "https://www.youtube.com/results?search_query=aya%20My%20Feelings%20Now",
+      "deezer": "https://www.deezer.com/album/1000033001",
+      "apple": "https://music.apple.com/us/album/my-feelings-now-single/6777868574?uo=4"
+    },
+    "embed": {
+      "provider": "apple",
+      "src": "https://embed.music.apple.com/us/album/6777868574?theme=light",
+      "height": 450
+    },
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": null,
     "cover": {
       "bg": "#111110",
       "fg": "#f2efe8",
@@ -2153,6 +2586,33 @@
     "status": "pending",
     "approvedAt": null,
     "coverImageUrl": "https://i.discogs.com/fdZEEQu9zPyGXuS3F1BCeCyhBtaf9ziDcJiuRgalI2w/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM3Njkz/NDA3LTE3ODIxNDg3/MzYtNjUxNC5qcGVn.jpeg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
+    "id": "dj-koze-spiralen-wo-39-s-patric",
+    "type": "album",
+    "artist": "DJ Koze",
+    "title": "Spiralen / Wo&#39;s Patric?!?",
+    "label": "",
+    "releaseDate": "2026-06-12",
+    "description": "New DJ Koze, which by his own long track record means oddball sample logic, deadpan humour, and pop instincts smuggled into house music. Shelve next to Pampa labelmates if it lands where his records usually do.",
+    "tags": [],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=DJ%20Koze%20Spiralen%20%2F%20Wo%26%2339%3Bs%20Patric%3F!%3F&item_type=a",
+      "spotify": "https://open.spotify.com/search/DJ%20Koze%20Spiralen%20%2F%20Wo%26%2339%3Bs%20Patric%3F!%3F",
+      "soundcloud": "https://soundcloud.com/search?q=DJ%20Koze%20Spiralen%20%2F%20Wo%26%2339%3Bs%20Patric%3F!%3F",
+      "youtube": "https://www.youtube.com/results?search_query=DJ%20Koze%20Spiralen%20%2F%20Wo%26%2339%3Bs%20Patric%3F!%3F"
+    },
+    "embed": null,
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": null,
     "cover": {
       "bg": "#111110",
       "fg": "#f2efe8",
@@ -4787,6 +5247,42 @@
       "pitchfork_tracks",
       "pitchfork_best_albums",
       "ra"
+    ]
+  },
+  {
+    "id": "fka-twigs-eusexua-afterglow-l",
+    "type": "album",
+    "artist": "FKA Twigs",
+    "title": "Eusexua  - Afterglow",
+    "label": "Young (5)",
+    "releaseDate": "2026-05-29",
+    "description": "",
+    "tags": [
+      "electronic"
+    ],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=FKA%20Twigs%20Eusexua%20%20-%20Afterglow&item_type=a",
+      "spotify": "https://open.spotify.com/search/FKA%20Twigs%20Eusexua%20%20-%20Afterglow",
+      "soundcloud": "https://soundcloud.com/search?q=FKA%20Twigs%20Eusexua%20%20-%20Afterglow",
+      "youtube": "https://www.youtube.com/results?search_query=FKA%20Twigs%20Eusexua%20%20-%20Afterglow",
+      "deezer": "https://www.deezer.com/album/848183372"
+    },
+    "embed": {
+      "provider": "deezer",
+      "src": "https://widget.deezer.com/widget/light/album/848183372",
+      "height": 300
+    },
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://i.discogs.com/9cnFQdtGOBqdZZJjX4PSVwbbGW_PhJtDhoXci8DIdlY/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM3NTY4/NDQ1LTE3ODE5MjE4/OTctNDU1Ni5qcGVn.jpeg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": [
+      "pitchfork_best_tracks"
     ]
   },
   {
@@ -7509,7 +8005,9 @@
       "fg": "#f2efe8",
       "motif": "disc"
     },
-    "pressMentions": []
+    "pressMentions": [
+      "pitchfork_albums"
+    ]
   },
   {
     "id": "kaitlyn-aurelia-smith-beats-in-space-206-kaitlyn-aurelia-smith-dj-mix",
@@ -10962,7 +11460,9 @@
       "fg": "#f2efe8",
       "motif": "disc"
     },
-    "pressMentions": []
+    "pressMentions": [
+      "pitchfork_albums"
+    ]
   },
   {
     "id": "andrea-comeback",
@@ -15084,7 +15584,9 @@
       "fg": "#f2efe8",
       "motif": "disc"
     },
-    "pressMentions": []
+    "pressMentions": [
+      "pitchfork_albums"
+    ]
   },
   {
     "id": "squarepusher-kammerkonzert-l",
@@ -35186,7 +35688,8 @@
       "spotify": "https://open.spotify.com/search/Snares%20(2)%20Fusion",
       "soundcloud": "https://soundcloud.com/search?q=Snares%20(2)%20Fusion",
       "youtube": "https://www.youtube.com/results?search_query=Snares%20(2)%20Fusion",
-      "apple": "https://music.apple.com/us/album/fusion/1811383446?uo=4"
+      "apple": "https://music.apple.com/us/album/fusion/1811383446?uo=4",
+      "tidal": "https://tidal.com/album/432877552"
     },
     "embed": {
       "provider": "apple",
@@ -35220,7 +35723,8 @@
       "spotify": "https://open.spotify.com/search/Dunes%20Day%20Rabbit%20Hole",
       "soundcloud": "https://soundcloud.com/search?q=Dunes%20Day%20Rabbit%20Hole",
       "youtube": "https://www.youtube.com/results?search_query=Dunes%20Day%20Rabbit%20Hole",
-      "deezer": "https://www.deezer.com/album/436548507"
+      "deezer": "https://www.deezer.com/album/436548507",
+      "tidal": "https://tidal.com/album/292534554"
     },
     "embed": {
       "provider": "deezer",
@@ -35289,7 +35793,8 @@
       "soundcloud": "https://soundcloud.com/search?q=Rival%20Consoles%20Howl",
       "youtube": "https://www.youtube.com/results?search_query=Rival%20Consoles%20Howl",
       "deezer": "https://www.deezer.com/album/86041372",
-      "apple": "https://music.apple.com/us/album/howl/1451054856?uo=4"
+      "apple": "https://music.apple.com/us/album/howl/1451054856?uo=4",
+      "tidal": "https://tidal.com/album/103386959"
     },
     "embed": {
       "provider": "apple",
@@ -35382,7 +35887,8 @@
       "soundcloud": "https://soundcloud.com/search?q=Ben%20Shirken%20H.D.%20Reliquary",
       "youtube": "https://www.youtube.com/results?search_query=Ben%20Shirken%20H.D.%20Reliquary",
       "deezer": "https://www.deezer.com/album/722773771",
-      "apple": "https://music.apple.com/us/album/h-d-reliquary/1801106021?uo=4"
+      "apple": "https://music.apple.com/us/album/h-d-reliquary/1801106021?uo=4",
+      "tidal": "https://tidal.com/album/422082359"
     },
     "embed": {
       "provider": "apple",
@@ -35416,7 +35922,8 @@
       "spotify": "https://open.spotify.com/search/Bon%20Iver%20Sable%2C%20Fable",
       "soundcloud": "https://soundcloud.com/search?q=Bon%20Iver%20Sable%2C%20Fable",
       "youtube": "https://www.youtube.com/results?search_query=Bon%20Iver%20Sable%2C%20Fable",
-      "deezer": "https://www.deezer.com/album/706058001"
+      "deezer": "https://www.deezer.com/album/706058001",
+      "tidal": "https://tidal.com/album/414984149"
     },
     "embed": {
       "provider": "deezer",
@@ -35484,7 +35991,8 @@
       "soundcloud": "https://soundcloud.com/search?q=Charlie%20Continental%20Singles%20%26%20Jingles%202016-2021",
       "youtube": "https://www.youtube.com/results?search_query=Charlie%20Continental%20Singles%20%26%20Jingles%202016-2021",
       "deezer": "https://www.deezer.com/album/718703851",
-      "apple": "https://music.apple.com/us/album/singles-jingles-2016-2021-remastered-2024/1798575343?uo=4"
+      "apple": "https://music.apple.com/us/album/singles-jingles-2016-2021-remastered-2024/1798575343?uo=4",
+      "tidal": "https://tidal.com/album/420340885"
     },
     "embed": {
       "provider": "apple",
@@ -35552,7 +36060,8 @@
       "soundcloud": "https://soundcloud.com/search?q=Sissy%20Spacek%20Entrance",
       "youtube": "https://www.youtube.com/results?search_query=Sissy%20Spacek%20Entrance",
       "deezer": "https://www.deezer.com/album/694546701",
-      "apple": "https://music.apple.com/us/album/entrance/1789365684?uo=4"
+      "apple": "https://music.apple.com/us/album/entrance/1789365684?uo=4",
+      "tidal": "https://tidal.com/album/410308370"
     },
     "embed": {
       "provider": "apple",
@@ -35586,7 +36095,8 @@
       "spotify": "https://open.spotify.com/search/Black%20Country%2C%20New%20Road%20Forever%20Howlong",
       "soundcloud": "https://soundcloud.com/search?q=Black%20Country%2C%20New%20Road%20Forever%20Howlong",
       "youtube": "https://www.youtube.com/results?search_query=Black%20Country%2C%20New%20Road%20Forever%20Howlong",
-      "deezer": "https://www.deezer.com/album/705585871"
+      "deezer": "https://www.deezer.com/album/705585871",
+      "tidal": "https://tidal.com/album/414719587"
     },
     "embed": {
       "provider": "deezer",
@@ -35621,7 +36131,8 @@
       "soundcloud": "https://soundcloud.com/search?q=Indopan%20In%20Opulence",
       "youtube": "https://www.youtube.com/results?search_query=Indopan%20In%20Opulence",
       "deezer": "https://www.deezer.com/album/707988601",
-      "apple": "https://music.apple.com/us/album/in-opulence/1794347393?uo=4"
+      "apple": "https://music.apple.com/us/album/in-opulence/1794347393?uo=4",
+      "tidal": "https://tidal.com/album/415829445"
     },
     "embed": {
       "provider": "apple",
@@ -35655,7 +36166,8 @@
       "spotify": "https://open.spotify.com/search/patioworld%20Moonlight%20Beach",
       "soundcloud": "https://soundcloud.com/search?q=patioworld%20Moonlight%20Beach",
       "youtube": "https://www.youtube.com/results?search_query=patioworld%20Moonlight%20Beach",
-      "apple": "https://music.apple.com/us/album/moonlight-beach/1794344932?uo=4"
+      "apple": "https://music.apple.com/us/album/moonlight-beach/1794344932?uo=4",
+      "tidal": "https://tidal.com/album/415829431"
     },
     "embed": {
       "provider": "apple",
@@ -35690,7 +36202,8 @@
       "soundcloud": "https://soundcloud.com/search?q=NTsKi%20Calla",
       "youtube": "https://www.youtube.com/results?search_query=NTsKi%20Calla",
       "deezer": "https://www.deezer.com/album/504195281",
-      "apple": "https://music.apple.com/us/album/calla/1713342212?uo=4"
+      "apple": "https://music.apple.com/us/album/calla/1713342212?uo=4",
+      "tidal": "https://tidal.com/album/323854618"
     },
     "embed": {
       "provider": "apple",
@@ -35724,7 +36237,8 @@
       "spotify": "https://open.spotify.com/search/Nico%20Georis%20Music%20Belongs%20To%20The%20Universe%20%2F%2F%20Desert%20Mirror",
       "soundcloud": "https://soundcloud.com/search?q=Nico%20Georis%20Music%20Belongs%20To%20The%20Universe%20%2F%2F%20Desert%20Mirror",
       "youtube": "https://www.youtube.com/results?search_query=Nico%20Georis%20Music%20Belongs%20To%20The%20Universe%20%2F%2F%20Desert%20Mirror",
-      "apple": "https://music.apple.com/us/album/music-belongs-to-the-universe/1784710525?uo=4"
+      "apple": "https://music.apple.com/us/album/music-belongs-to-the-universe/1784710525?uo=4",
+      "tidal": "https://tidal.com/album/405109964"
     },
     "embed": {
       "provider": "apple",
@@ -35759,7 +36273,8 @@
       "soundcloud": "https://soundcloud.com/search?q=Walt%20McClements%20On%20A%20Painted%20Ocean",
       "youtube": "https://www.youtube.com/results?search_query=Walt%20McClements%20On%20A%20Painted%20Ocean",
       "deezer": "https://www.deezer.com/album/693989101",
-      "apple": "https://music.apple.com/us/album/on-a-painted-ocean/1789163252?uo=4"
+      "apple": "https://music.apple.com/us/album/on-a-painted-ocean/1789163252?uo=4",
+      "tidal": "https://tidal.com/album/410092803"
     },
     "embed": {
       "provider": "apple",

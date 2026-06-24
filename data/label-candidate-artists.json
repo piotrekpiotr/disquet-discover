@@ -4066,10 +4066,12 @@
   },
   "FKA Twigs": {
     "seenOn": [
-      "YOUNG"
+      "YOUNG",
+      "Warp Records"
     ],
     "titleExamples": [
-      "Eusexua Afterglow"
+      "Eusexua Afterglow",
+      "Eusexua  - Afterglow"
     ]
   },
   "The Aphex Twin": {
@@ -8678,6 +8680,14 @@
     ],
     "titleExamples": [
       "Pure Trance XI (Limited Edition Sampler)"
+    ]
+  },
+  "Mina Moore": {
+    "seenOn": [
+      "Numbers"
+    ],
+    "titleExamples": [
+      "Heavy Load / When The Spirit Says Sing"
     ]
   }
 }
