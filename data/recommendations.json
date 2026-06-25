@@ -297,6 +297,33 @@
     "pressMentions": []
   },
   {
+    "id": "roy-montgomery-martha-skye-murphy-nebular",
+    "type": "album",
+    "artist": "Roy Montgomery & Martha Skye Murphy",
+    "title": "Nebular",
+    "label": "AD 93",
+    "releaseDate": "2026-08-07",
+    "description": "New Zealand guitar lifer Roy Montgomery joins forces with Martha Skye Murphy for AD 93, a pairing of long-tone drone playing and a voice that tends to sit somewhere uneasy in the mix. File alongside the label's more shadowed end.",
+    "tags": [],
+    "links": {
+      "bandcamp": "https://bandcamp.com/album/627882559",
+      "spotify": "https://open.spotify.com/search/Roy%20Montgomery%20%26%20Martha%20Skye%20Murphy%20Nebular",
+      "soundcloud": "https://soundcloud.com/search?q=Roy%20Montgomery%20%26%20Martha%20Skye%20Murphy%20Nebular",
+      "youtube": "https://www.youtube.com/results?search_query=Roy%20Montgomery%20%26%20Martha%20Skye%20Murphy%20Nebular"
+    },
+    "embed": null,
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://f4.bcbits.com/img/a3774257419_10.jpg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
     "id": "nia-archives-emotional-junglist",
     "type": "album",
     "artist": "Nia Archives",
@@ -731,6 +758,75 @@
     "pressMentions": []
   },
   {
+    "id": "rival-consoles-coda-loraine-james-remix",
+    "type": "single",
+    "artist": "Rival Consoles",
+    "title": "Coda (Loraine James Remix)",
+    "label": "Erased Tapes Records Ltd.",
+    "releaseDate": "2026-06-25",
+    "description": "Loraine James takes the scalpel to a Rival Consoles cut for Erased Tapes, which on paper alone tells you most of what you need: melodic studio electronics rerouted through her more restless, rhythmically uneasy hand.",
+    "tags": [
+      "electronic"
+    ],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=Rival%20Consoles%20Coda%20(Loraine%20James%20Remix)&item_type=a",
+      "spotify": "https://open.spotify.com/search/Rival%20Consoles%20Coda%20(Loraine%20James%20Remix)",
+      "soundcloud": "https://soundcloud.com/search?q=Rival%20Consoles%20Coda%20(Loraine%20James%20Remix)",
+      "youtube": "https://www.youtube.com/results?search_query=Rival%20Consoles%20Coda%20(Loraine%20James%20Remix)",
+      "apple": "https://music.apple.com/us/album/coda-loraine-james-remix-single/1895606719",
+      "deezer": "https://www.deezer.com/album/994116421",
+      "tidal": "https://tidal.com/album/529041114"
+    },
+    "embed": {
+      "provider": "apple",
+      "src": "https://embed.music.apple.com/us/album/1895606719?theme=light",
+      "height": 450
+    },
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/8e/45/fe/8e45fe0b-004e-648c-2481-45a366d2b016/3663729445933_cover.jpg/600x600bb.jpg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
+    "id": "martyn-mission",
+    "type": "single",
+    "artist": "Martyn",
+    "title": "Mission",
+    "label": "",
+    "releaseDate": "2026-06-25",
+    "description": "Martyn back in single mode, the Dutch producer still working that seam where Detroit techno, dubstep weight and broken UK rhythm meet. Label unannounced at time of writing.",
+    "tags": [],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=Martyn%20Mission&item_type=a",
+      "spotify": "https://open.spotify.com/search/Martyn%20Mission",
+      "soundcloud": "https://soundcloud.com/search?q=Martyn%20Mission",
+      "youtube": "https://www.youtube.com/results?search_query=Martyn%20Mission",
+      "deezer": "https://www.deezer.com/album/1004396181",
+      "apple": "https://music.apple.com/us/album/mission-single/6780435142?uo=4"
+    },
+    "embed": {
+      "provider": "apple",
+      "src": "https://embed.music.apple.com/us/album/6780435142?theme=light",
+      "height": 450
+    },
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://cdn-images.dzcdn.net/images/cover/62de218aa871d8017ae90f59cde377de/1000x1000-000000-80-0-0.jpg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
     "id": "iglooghost-knackered",
     "type": "single",
     "artist": "Iglooghost",
@@ -879,6 +975,34 @@
     "status": "pending",
     "approvedAt": null,
     "coverImageUrl": "https://cdn-images.dzcdn.net/images/cover/2a8db16b1984cafee4d81780fcd3699f/1000x1000-000000-80-0-0.jpg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
+    "id": "simo-cell-manetik",
+    "type": "single",
+    "artist": "Simo Cell",
+    "title": "MANETIK",
+    "label": "",
+    "releaseDate": "2026-06-24",
+    "description": "Simo Cell back with a new single, the French producer continuing his run of percussive, slightly off-grid club tracks that sit comfortably between TEMƎT regulars and the broader Livity Sound orbit. One to file with the rest of his 12\"s.",
+    "tags": [],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=Simo%20Cell%20MANETIK&item_type=a",
+      "spotify": "https://open.spotify.com/search/Simo%20Cell%20MANETIK",
+      "soundcloud": "https://soundcloud.com/search?q=Simo%20Cell%20MANETIK",
+      "youtube": "https://www.youtube.com/results?search_query=Simo%20Cell%20MANETIK",
+      "deezer": "https://www.deezer.com/album/998323891"
+    },
+    "embed": null,
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://cdn-images.dzcdn.net/images/cover/97257cdadd6fd6dd58a7ce505d34194f/1000x1000-000000-80-0-0.jpg",
     "cover": {
       "bg": "#111110",
       "fg": "#f2efe8",
@@ -1492,6 +1616,35 @@
     "pressMentions": [
       "pitchfork_albums"
     ]
+  },
+  {
+    "id": "carmen-villain-holding-a-shape",
+    "type": "single",
+    "artist": "Carmen Villain",
+    "title": "Holding A Shape",
+    "label": "Smalltown Supersound",
+    "releaseDate": "2026-06-19",
+    "description": "Three pieces from Carmen Villain for Smalltown Supersound, leaning further into the dub-techno end of her ambient-jazz practice. Pressed as a limited white label 12\"; shelve near Wolfgang Voigt if a pointer helps.",
+    "tags": [
+      "electronic"
+    ],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=Carmen%20Villain%20Holding%20A%20Shape&item_type=a",
+      "spotify": "https://open.spotify.com/search/Carmen%20Villain%20Holding%20A%20Shape",
+      "soundcloud": "https://soundcloud.com/search?q=Carmen%20Villain%20Holding%20A%20Shape",
+      "youtube": "https://www.youtube.com/results?search_query=Carmen%20Villain%20Holding%20A%20Shape"
+    },
+    "embed": null,
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://i.discogs.com/sbik9uP2W7gfcSGIN1vMf4x-FcpRBbkWXkmOHsEtxeg/rs:fit/g:sm/q:90/h:600/w:572/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM3NzA4/MTgyLTE3ODIzMTM0/NjctNzQyNy5qcGVn.jpeg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
   },
   {
     "id": "noon-hier-op-het-terras",
@@ -2734,6 +2887,39 @@
     "embed": {
       "provider": "apple",
       "src": "https://embed.music.apple.com/us/album/1889363796?theme=light",
+      "height": 450
+    },
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": null,
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
+    "id": "deadbeat-press-to-return",
+    "type": "album",
+    "artist": "Deadbeat",
+    "title": "Press to Return",
+    "label": "",
+    "releaseDate": "2026-06-11",
+    "description": "Scott Monteith back under the Deadbeat name, where the brief has long been dub techno bent toward the heavier, more Kingston-leaning end of the spectrum. Label details still to surface; one for anyone tracking the lineage from ~scape onward.",
+    "tags": [],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=Deadbeat%20Press%20to%20Return&item_type=a",
+      "spotify": "https://open.spotify.com/search/Deadbeat%20Press%20to%20Return",
+      "soundcloud": "https://soundcloud.com/search?q=Deadbeat%20Press%20to%20Return",
+      "youtube": "https://www.youtube.com/results?search_query=Deadbeat%20Press%20to%20Return",
+      "deezer": "https://www.deezer.com/album/1006942431",
+      "apple": "https://music.apple.com/us/album/press-to-return/6782254625?uo=4"
+    },
+    "embed": {
+      "provider": "apple",
+      "src": "https://embed.music.apple.com/us/album/6782254625?theme=light",
       "height": 450
     },
     "musicVideoUrl": null,
@@ -4396,9 +4582,14 @@
       "bandcamp": "https://bandcamp.com/search?q=Synkro%20Alb%C3%BCm&item_type=a",
       "spotify": "https://open.spotify.com/search/Synkro%20Alb%C3%BCm",
       "soundcloud": "https://soundcloud.com/search?q=Synkro%20Alb%C3%BCm",
-      "youtube": "https://www.youtube.com/results?search_query=Synkro%20Alb%C3%BCm"
+      "youtube": "https://www.youtube.com/results?search_query=Synkro%20Alb%C3%BCm",
+      "deezer": "https://www.deezer.com/album/1013351181"
     },
-    "embed": null,
+    "embed": {
+      "provider": "deezer",
+      "src": "https://widget.deezer.com/widget/light/album/1013351181",
+      "height": 300
+    },
     "musicVideoUrl": null,
     "status": "pending",
     "approvedAt": null,
@@ -5256,7 +5447,7 @@
     "title": "Eusexua  - Afterglow",
     "label": "Young (5)",
     "releaseDate": "2026-05-29",
-    "description": "",
+    "description": "Eleven tracks of dance-pop and alt-pop on Young, extending the club-leaning palette Twigs opened up on Eusexua proper. For listeners still circling Caroline Polachek's more sweat-soaked moments.",
     "tags": [
       "electronic"
     ],
@@ -23133,6 +23324,40 @@
     "pressMentions": []
   },
   {
+    "id": "mina-moore-heavy-load-when-the-spirit-says-sing",
+    "type": "single",
+    "artist": "Mina Moore",
+    "title": "Heavy Load / When The Spirit Says Sing",
+    "label": "Secret Stash Records",
+    "releaseDate": "2026-01-01",
+    "description": "A numbered 45 from Secret Stash, the Minneapolis label that has spent years quietly excavating and pressing up deep soul in the proper format. Two sides of vocal soul from Mina Moore, sized for the 7\" shelf.",
+    "tags": [
+      "funk / soul"
+    ],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=Mina%20Moore%20Heavy%20Load%20%2F%20When%20The%20Spirit%20Says%20Sing&item_type=a",
+      "spotify": "https://open.spotify.com/search/Mina%20Moore%20Heavy%20Load%20%2F%20When%20The%20Spirit%20Says%20Sing",
+      "soundcloud": "https://soundcloud.com/search?q=Mina%20Moore%20Heavy%20Load%20%2F%20When%20The%20Spirit%20Says%20Sing",
+      "youtube": "https://www.youtube.com/results?search_query=Mina%20Moore%20Heavy%20Load%20%2F%20When%20The%20Spirit%20Says%20Sing",
+      "deezer": "https://www.deezer.com/album/949091221"
+    },
+    "embed": {
+      "provider": "deezer",
+      "src": "https://widget.deezer.com/widget/light/album/949091221",
+      "height": 300
+    },
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://i.discogs.com/C4NYkphdBhRDEcKPuEML9iBuf2PMmoxH1qEFWk1VzoY/rs:fit/g:sm/q:90/h:593/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM3NzAz/NTcxLTE3ODIzMzkw/MDYtNDg3Ni5qcGVn.jpeg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
     "id": "tim-maia-racional-vol-1",
     "type": "album",
     "artist": "Tim Maia",
@@ -36721,7 +36946,8 @@
       "soundcloud": "https://soundcloud.com/search?q=Unknown%20Mortal%20Orchestra%20IC-02%20Bogot%C3%A1",
       "youtube": "https://www.youtube.com/results?search_query=Unknown%20Mortal%20Orchestra%20IC-02%20Bogot%C3%A1",
       "deezer": "https://www.deezer.com/album/683167071",
-      "apple": "https://music.apple.com/us/album/ic-02-bogot%C3%A1/1785033327?uo=4"
+      "apple": "https://music.apple.com/us/album/ic-02-bogot%C3%A1/1785033327?uo=4",
+      "tidal": "https://tidal.com/album/405446842"
     },
     "embed": {
       "provider": "apple",
@@ -36755,7 +36981,8 @@
       "spotify": "https://open.spotify.com/search/Helen%20Island%20silence%20is%20priceless",
       "soundcloud": "https://soundcloud.com/search?q=Helen%20Island%20silence%20is%20priceless",
       "youtube": "https://www.youtube.com/results?search_query=Helen%20Island%20silence%20is%20priceless",
-      "apple": "https://music.apple.com/us/album/silence-is-priceless/1796510087?uo=4"
+      "apple": "https://music.apple.com/us/album/silence-is-priceless/1796510087?uo=4",
+      "tidal": "https://tidal.com/album/418003176"
     },
     "embed": {
       "provider": "apple",
@@ -36789,7 +37016,8 @@
       "spotify": "https://open.spotify.com/search/Aya%20(44)%20Hexed!",
       "soundcloud": "https://soundcloud.com/search?q=Aya%20(44)%20Hexed!",
       "youtube": "https://www.youtube.com/results?search_query=Aya%20(44)%20Hexed!",
-      "deezer": "https://www.deezer.com/album/716687071"
+      "deezer": "https://www.deezer.com/album/716687071",
+      "tidal": "https://tidal.com/album/412845573"
     },
     "embed": {
       "provider": "deezer",
@@ -36823,7 +37051,8 @@
       "spotify": "https://open.spotify.com/search/Travellers%20Rest%20Where%20Your%20Quest%20Ends",
       "soundcloud": "https://soundcloud.com/search?q=Travellers%20Rest%20Where%20Your%20Quest%20Ends",
       "youtube": "https://www.youtube.com/results?search_query=Travellers%20Rest%20Where%20Your%20Quest%20Ends",
-      "apple": "https://music.apple.com/us/album/where-your-quest-ends/1821049425?uo=4"
+      "apple": "https://music.apple.com/us/album/where-your-quest-ends/1821049425?uo=4",
+      "tidal": "https://tidal.com/album/442526582"
     },
     "embed": {
       "provider": "apple",
@@ -36858,7 +37087,8 @@
       "soundcloud": "https://soundcloud.com/search?q=Prayer%20(6)%20Dream%20Of%20Heaven",
       "youtube": "https://www.youtube.com/results?search_query=Prayer%20(6)%20Dream%20Of%20Heaven",
       "deezer": "https://www.deezer.com/album/725622671",
-      "apple": "https://music.apple.com/us/album/dream-of-heaven/1801494265?uo=4"
+      "apple": "https://music.apple.com/us/album/dream-of-heaven/1801494265?uo=4",
+      "tidal": "https://tidal.com/album/423263406"
     },
     "embed": {
       "provider": "apple",
@@ -36921,7 +37151,8 @@
       "spotify": "https://open.spotify.com/search/Marco%20Zenker%20Challenge",
       "soundcloud": "https://soundcloud.com/search?q=Marco%20Zenker%20Challenge",
       "youtube": "https://www.youtube.com/results?search_query=Marco%20Zenker%20Challenge",
-      "apple": "https://music.apple.com/us/album/challenge-ep/1805863655?uo=4"
+      "apple": "https://music.apple.com/us/album/challenge-ep/1805863655?uo=4",
+      "tidal": "https://tidal.com/album/427539205"
     },
     "embed": {
       "provider": "apple",
@@ -39028,7 +39259,7 @@
     "title": "Marry Me Tonight",
     "label": "Ghostly International",
     "releaseDate": "2025-02-07",
-    "description": "",
+    "description": "Ghostly hands the HTRK debut another vinyl pressing, the Rowland S. Howard sessions still sounding like a band working out how to make rock music dissolve. For anyone whose Grouper shelf has crept toward the noisier end.",
     "tags": [
       "electronic"
     ],
@@ -39064,7 +39295,7 @@
     "title": "Transient State",
     "label": "Appendix.Files",
     "releaseDate": "2025-02-06",
-    "description": "",
+    "description": "Four tracks of ambient-leaning IDM from Clima on Appendix.Files, pressed as a limited 12\". Closer to the experimental, room-tone end of the label's catalogue than its club material.",
     "tags": [
       "electronic"
     ],
@@ -39100,7 +39331,7 @@
     "title": "Eternal Game",
     "label": "Appendix.Files",
     "releaseDate": "2025-02-06",
-    "description": "",
+    "description": "Six tracks from Teleself on Appendix.Files, sliding between trip hop drag and ambient suspension without committing fully to either. Limited 12\" pressing for the patient end of the experimental shelf.",
     "tags": [
       "electronic"
     ],
@@ -39136,7 +39367,7 @@
     "title": "A.C.A.B.",
     "label": "Last Year's Youth Records",
     "releaseDate": "2025-02-05",
-    "description": "",
+    "description": "Three-track 7\" of straight-ahead punk from The Rowdies, reissued through Last Year's Youth. Title tells you the posture; the format tells you the rest.",
     "tags": [
       "rock"
     ],
@@ -39165,7 +39396,7 @@
     "title": "All Avail",
     "label": "Good Morning Tapes",
     "releaseDate": "2025-02-05",
-    "description": "",
+    "description": "Six tracks of dub techno from X Or Size, landing on Good Morning Tapes, which is a slightly unusual fit given the label's usual New Age drift. Worth a look if GMT's quieter side and the Echocord lineage both sit on your shelf.",
     "tags": [
       "electronic"
     ],
@@ -39198,7 +39429,7 @@
     "title": "From This Day Forward",
     "label": "Floga Records",
     "releaseDate": "2025-02-01",
-    "description": "",
+    "description": "Floga repress the 1990 Obliveon LP, a record that sat early in the Quebec scene's pivot from thrash precision into something thornier and more technical. For anyone tracing the lineage that runs through Voivod and Gorguts.",
     "tags": [
       "rock"
     ],
@@ -39233,7 +39464,7 @@
     "title": "Följd",
     "label": "FELT (3)",
     "releaseDate": "2025-02-01",
-    "description": "",
+    "description": "The Swedish drone project returns to FELT for seven tracks of frostbitten ambient, more austere than atmospheric. Sits comfortably alongside the slower, greyer end of the Northern Electronics catalogue.",
     "tags": [
       "electronic"
     ],
