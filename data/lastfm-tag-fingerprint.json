@@ -1,10 +1,10 @@
 {
-  "builtAt": "2026-06-24T07:44:28.069Z",
-  "poolSize": 277,
+  "builtAt": "2026-06-26T07:51:56.406Z",
+  "poolSize": 278,
   "tagCounts": {
     "future garage": 8,
-    "dubstep": 25,
-    "electronic": 195,
+    "dubstep": 26,
+    "electronic": 196,
     "techno": 54,
     "ambient": 118,
     "breakbeat": 9,
@@ -12,7 +12,7 @@
     "hip hop": 15,
     "drone": 21,
     "experimental": 109,
-    "psychedelic": 11,
+    "psychedelic": 12,
     "new age": 6,
     "progressive electronic": 3,
     "film score": 1,
@@ -260,13 +260,14 @@
     "neo-psychedelia": 1,
     "portuguese": 1,
     "afrofuturism": 1,
-    "chillwave": 1,
+    "chillwave": 2,
     "power electronics": 1,
     "electroclash": 1,
     "drill": 1,
     "drain": 1,
     "minimal wave": 1,
     "freak folk": 1,
+    "glo-fi": 1,
     "vocal house": 1,
     "trumpet": 1,
     "bebop": 1,
@@ -292,6 +293,6 @@
     "glitch",
     "rap",
     "uk garage",
-    "minimal techno"
+    "psychedelic"
   ]
 }

@@ -634,7 +634,8 @@
       "spotify": "https://open.spotify.com/search/Felicia%20Atkinson%20Sans%20Visage",
       "soundcloud": "https://soundcloud.com/search?q=Felicia%20Atkinson%20Sans%20Visage",
       "youtube": "https://www.youtube.com/results?search_query=Felicia%20Atkinson%20Sans%20Visage",
-      "apple": "https://music.apple.com/us/album/sans-visage/1895033862"
+      "apple": "https://music.apple.com/us/album/sans-visage/1895033862",
+      "tidal": "https://tidal.com/album/517921665"
     },
     "embed": {
       "provider": "apple",
@@ -650,7 +651,9 @@
       "fg": "#f2efe8",
       "motif": "disc"
     },
-    "pressMentions": []
+    "pressMentions": [
+      "pitchfork_albums"
+    ]
   },
   {
     "id": "dj-plead-please",
@@ -668,7 +671,8 @@
       "spotify": "https://open.spotify.com/search/DJ%20Plead%20Please",
       "soundcloud": "https://soundcloud.com/search?q=DJ%20Plead%20Please",
       "youtube": "https://www.youtube.com/results?search_query=DJ%20Plead%20Please",
-      "apple": "https://music.apple.com/us/album/please/1895379422"
+      "apple": "https://music.apple.com/us/album/please/1895379422",
+      "tidal": "https://tidal.com/album/518880692"
     },
     "embed": {
       "provider": "apple",
@@ -703,7 +707,8 @@
       "soundcloud": "https://soundcloud.com/search?q=FaltyDL%20Body%20Me",
       "youtube": "https://www.youtube.com/results?search_query=FaltyDL%20Body%20Me",
       "deezer": "https://www.deezer.com/album/991428591",
-      "apple": "https://music.apple.com/us/album/body-me/6773519155?uo=4"
+      "apple": "https://music.apple.com/us/album/body-me/6773519155?uo=4",
+      "tidal": "https://tidal.com/album/528058944"
     },
     "embed": {
       "provider": "apple",
@@ -750,6 +755,238 @@
     "status": "pending",
     "approvedAt": null,
     "coverImageUrl": "https://i.discogs.com/-BWHBYUubOUpzPhfn4a4dQ6XSjJ7pgf2Js92Dn5rKSU/rs:fit/g:sm/q:90/h:598/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM3NTk3/NzQ5LTE3ODExNzcw/MTgtNDkyNS5qcGVn.jpeg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
+    "id": "whatever-the-weather-waxy-cake",
+    "type": "single",
+    "artist": "Whatever the Weather",
+    "title": "Waxy cake",
+    "label": "",
+    "releaseDate": "2026-06-26",
+    "description": "Loraine James under her Whatever the Weather alias, where the rhythmic restlessness of her main project softens into ambient with the grid still faintly visible. A single, label not yet listed.",
+    "tags": [],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=Whatever%20the%20Weather%20Waxy%20cake&item_type=a",
+      "spotify": "https://open.spotify.com/search/Whatever%20the%20Weather%20Waxy%20cake",
+      "soundcloud": "https://soundcloud.com/search?q=Whatever%20the%20Weather%20Waxy%20cake",
+      "youtube": "https://www.youtube.com/results?search_query=Whatever%20the%20Weather%20Waxy%20cake",
+      "deezer": "https://www.deezer.com/album/983202441",
+      "apple": "https://music.apple.com/us/album/waxy-cake-single/6769606634?uo=4"
+    },
+    "embed": {
+      "provider": "apple",
+      "src": "https://embed.music.apple.com/us/album/6769606634?theme=light",
+      "height": 450
+    },
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://cdn-images.dzcdn.net/images/cover/653908e3bd3ef24e1de847aa26c637b5/1000x1000-000000-80-0-0.jpg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
+    "id": "moor-mother-blankfor-ms-imaginary-lines",
+    "type": "single",
+    "artist": "Moor Mother & BlankFor.ms",
+    "title": "Imaginary Lines",
+    "label": "Red Hook Records",
+    "releaseDate": "2026-06-26",
+    "description": "Moor Mother in spoken word mode again, set against BlankFor.ms' textural electronics on Red Hook. The label has been quietly building a catalogue around exactly this kind of crossing, voice as instrument inside a sound design frame.",
+    "tags": [
+      "spoken word"
+    ],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=Moor%20Mother%20%26%20BlankFor.ms%20Imaginary%20Lines&item_type=a",
+      "spotify": "https://open.spotify.com/search/Moor%20Mother%20%26%20BlankFor.ms%20Imaginary%20Lines",
+      "soundcloud": "https://soundcloud.com/search?q=Moor%20Mother%20%26%20BlankFor.ms%20Imaginary%20Lines",
+      "youtube": "https://www.youtube.com/results?search_query=Moor%20Mother%20%26%20BlankFor.ms%20Imaginary%20Lines",
+      "apple": "https://music.apple.com/us/album/imaginary-lines-single/6770552759",
+      "deezer": "https://www.deezer.com/album/985550101"
+    },
+    "embed": {
+      "provider": "apple",
+      "src": "https://embed.music.apple.com/us/album/6770552759?theme=light",
+      "height": 450
+    },
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/d1/15/17/d115175b-1ad2-9f9c-b9dd-7e5c64d3c6a2/5391538080714_Cover.jpg/600x600bb.jpg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
+    "id": "kaitlyn-aurelia-smith-gtp",
+    "type": "single",
+    "artist": "Kaitlyn Aurelia Smith",
+    "title": "GTP!",
+    "label": "SOMEONE SPECIAL",
+    "releaseDate": "2026-06-26",
+    "description": "Kaitlyn Aurelia Smith heads to the dancefloor on her own SOMEONE SPECIAL imprint, the Buchla vocabulary she's spent a decade refining now pointed at something with a pulse. Tagged dance, which from her end of the room could mean almost anything.",
+    "tags": [
+      "dance"
+    ],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=Kaitlyn%20Aurelia%20Smith%20GTP!&item_type=a",
+      "spotify": "https://open.spotify.com/search/Kaitlyn%20Aurelia%20Smith%20GTP!",
+      "soundcloud": "https://soundcloud.com/search?q=Kaitlyn%20Aurelia%20Smith%20GTP!",
+      "youtube": "https://www.youtube.com/results?search_query=Kaitlyn%20Aurelia%20Smith%20GTP!",
+      "apple": "https://music.apple.com/us/album/gtp-single/1890180504",
+      "deezer": "https://www.deezer.com/album/953070331"
+    },
+    "embed": {
+      "provider": "apple",
+      "src": "https://embed.music.apple.com/us/album/1890180504?theme=light",
+      "height": 450
+    },
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/b5/f6/8f/b5f68f33-32f3-fa21-caf6-6453bc7fbbcb/3663729439130_cover.jpg/600x600bb.jpg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
+    "id": "ross-from-friends-i-m-summer-ross-from-friends-rework",
+    "type": "single",
+    "artist": "Ross from Friends",
+    "title": "I'm Summer (Ross from Friends Rework)",
+    "label": "",
+    "releaseDate": "2026-06-26",
+    "description": "Felix Clary Weatherall returns to the kind of sample-tugging house edit that made the Brainfeeder run feel like a left turn rather than a detour. File next to his Lobster Theremin lineage if you need a shelf.",
+    "tags": [],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=Ross%20from%20Friends%20I'm%20Summer%20(Ross%20from%20Friends%20Rework)&item_type=a",
+      "spotify": "https://open.spotify.com/search/Ross%20from%20Friends%20I'm%20Summer%20(Ross%20from%20Friends%20Rework)",
+      "soundcloud": "https://soundcloud.com/search?q=Ross%20from%20Friends%20I'm%20Summer%20(Ross%20from%20Friends%20Rework)",
+      "youtube": "https://www.youtube.com/results?search_query=Ross%20from%20Friends%20I'm%20Summer%20(Ross%20from%20Friends%20Rework)",
+      "deezer": "https://www.deezer.com/album/1002206811"
+    },
+    "embed": null,
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://cdn-images.dzcdn.net/images/cover/ef7b38ac4d250d9304ba2a457ae22615/1000x1000-000000-80-0-0.jpg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
+    "id": "fakemink-burn-it",
+    "type": "single",
+    "artist": "fakemink",
+    "title": "Burn It",
+    "label": "",
+    "releaseDate": "2026-06-26",
+    "description": "New fakemink single, self released as far as the metadata shows. File alongside the more bruised end of contemporary club edits and wait for the rest of the picture.",
+    "tags": [],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=fakemink%20Burn%20It&item_type=a",
+      "spotify": "https://open.spotify.com/search/fakemink%20Burn%20It",
+      "soundcloud": "https://soundcloud.com/search?q=fakemink%20Burn%20It",
+      "youtube": "https://www.youtube.com/results?search_query=fakemink%20Burn%20It",
+      "deezer": "https://www.deezer.com/album/1014817281"
+    },
+    "embed": null,
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://cdn-images.dzcdn.net/images/cover/c13b9f2d478dd36445d6d36915c21305/1000x1000-000000-80-0-0.jpg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": [
+      "ra"
+    ]
+  },
+  {
+    "id": "gold-panda-ton-up",
+    "type": "album",
+    "artist": "Gold Panda",
+    "title": "TON UP",
+    "label": "",
+    "releaseDate": "2026-06-26",
+    "description": "Gold Panda returns to the long-form, the register he has occupied since Lucky Shiner: chopped vocal fragments, hand-played loops, melancholy under the patterning. Label and tracklist still under wraps as of writing.",
+    "tags": [],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=Gold%20Panda%20TON%20UP&item_type=a",
+      "spotify": "https://open.spotify.com/search/Gold%20Panda%20TON%20UP",
+      "soundcloud": "https://soundcloud.com/search?q=Gold%20Panda%20TON%20UP",
+      "youtube": "https://www.youtube.com/results?search_query=Gold%20Panda%20TON%20UP",
+      "deezer": "https://www.deezer.com/album/944301951",
+      "apple": "https://music.apple.com/us/album/ton-up/1886789573?uo=4",
+      "tidal": "https://tidal.com/album/508895446"
+    },
+    "embed": {
+      "provider": "apple",
+      "src": "https://embed.music.apple.com/us/album/1886789573?theme=light",
+      "height": 450
+    },
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://cdn-images.dzcdn.net/images/cover/69501d398b8a835388aabfce2900dba2/1000x1000-000000-80-0-0.jpg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": [
+      "pitchfork_albums"
+    ]
+  },
+  {
+    "id": "disco-bambino-nile-rodgers-sophie-ellis-bextor-dancing-without-you",
+    "type": "single",
+    "artist": "Disco Bambino, Nile Rodgers, Sophie Ellis-Bextor",
+    "title": "Dancing Without You",
+    "label": "Helix Records (7)",
+    "releaseDate": "2026-06-26",
+    "description": "Disco Bambino calls in Nile Rodgers and Sophie Ellis-Bextor for a straight-faced disco single on Helix, with the lineage doing most of the talking. Filed next to the glossier end of Ellis-Bextor's post-Murder catalogue.",
+    "tags": [
+      "funk / soul"
+    ],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=Disco%20Bambino%2C%20Nile%20Rodgers%2C%20Sophie%20Ellis-Bextor%20Dancing%20Without%20You&item_type=a",
+      "spotify": "https://open.spotify.com/search/Disco%20Bambino%2C%20Nile%20Rodgers%2C%20Sophie%20Ellis-Bextor%20Dancing%20Without%20You",
+      "soundcloud": "https://soundcloud.com/search?q=Disco%20Bambino%2C%20Nile%20Rodgers%2C%20Sophie%20Ellis-Bextor%20Dancing%20Without%20You",
+      "youtube": "https://www.youtube.com/results?search_query=Disco%20Bambino%2C%20Nile%20Rodgers%2C%20Sophie%20Ellis-Bextor%20Dancing%20Without%20You",
+      "deezer": "https://www.deezer.com/album/1008390791",
+      "apple": "https://music.apple.com/us/album/dancing-without-you-single/6779745603?uo=4"
+    },
+    "embed": {
+      "provider": "apple",
+      "src": "https://embed.music.apple.com/us/album/6779745603?theme=light",
+      "height": 450
+    },
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://i.discogs.com/E5g3PXS3p0v0yex7t1ypIZiomn-x3dgXIjgB6GoAPcc/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM3NzIx/Njg1LTE3ODI0NDk2/NjgtOTgyOS5qcGVn.jpeg",
     "cover": {
       "bg": "#111110",
       "fg": "#f2efe8",
@@ -1011,6 +1248,41 @@
     "pressMentions": []
   },
   {
+    "id": "biosphere-winter-silence",
+    "type": "single",
+    "artist": "biosphere",
+    "title": "Winter Silence",
+    "label": "IQ Tunes",
+    "releaseDate": "2026-06-24",
+    "description": "Geir Jenssen returns to the kind of frozen, slow-breathing ambient he has been mapping since Substrata, this time for IQ Tunes. Headphone listening, low room temperature recommended.",
+    "tags": [
+      "ambient"
+    ],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=biosphere%20Winter%20Silence&item_type=a",
+      "spotify": "https://open.spotify.com/search/biosphere%20Winter%20Silence",
+      "soundcloud": "https://soundcloud.com/search?q=biosphere%20Winter%20Silence",
+      "youtube": "https://www.youtube.com/results?search_query=biosphere%20Winter%20Silence",
+      "apple": "https://music.apple.com/us/album/winter-silence-single/6784342137",
+      "deezer": "https://www.deezer.com/album/1014470451"
+    },
+    "embed": {
+      "provider": "apple",
+      "src": "https://embed.music.apple.com/us/album/6784342137?theme=light",
+      "height": 450
+    },
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/99/eb/bd/99ebbd43-e13e-04df-4fa3-4541662a0b3b/910.jpg/600x600bb.jpg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
     "id": "nosaj-thing-the-edge",
     "type": "single",
     "artist": "Nosaj Thing",
@@ -1099,6 +1371,38 @@
     "status": "pending",
     "approvedAt": null,
     "coverImageUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/42/d4/6b/42d46beb-2d93-ff96-888e-d03cd2d2c71c/5063961855596_cover.jpg/600x600bb.jpg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
+    "id": "clark-tha-best",
+    "type": "album",
+    "artist": "Clark",
+    "title": "Tha Best",
+    "label": "",
+    "releaseDate": "2026-06-21",
+    "description": "Clark in album mode again, which over the years has meant anything from corroded IDM to orchestral detours, so the title is doing some heavy lifting. Worth a listen before deciding what shelf it belongs on.",
+    "tags": [],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=Clark%20Tha%20Best&item_type=a",
+      "spotify": "https://open.spotify.com/search/Clark%20Tha%20Best",
+      "soundcloud": "https://soundcloud.com/search?q=Clark%20Tha%20Best",
+      "youtube": "https://www.youtube.com/results?search_query=Clark%20Tha%20Best",
+      "deezer": "https://www.deezer.com/album/1010699721"
+    },
+    "embed": {
+      "provider": "deezer",
+      "src": "https://widget.deezer.com/widget/light/album/1010699721",
+      "height": 300
+    },
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": null,
     "cover": {
       "bg": "#111110",
       "fg": "#f2efe8",
@@ -1418,9 +1722,14 @@
       "bandcamp": "https://bandcamp.com/search?q=Malibu%20novocaine&item_type=a",
       "spotify": "https://open.spotify.com/search/Malibu%20novocaine",
       "soundcloud": "https://soundcloud.com/search?q=Malibu%20novocaine",
-      "youtube": "https://www.youtube.com/results?search_query=Malibu%20novocaine"
+      "youtube": "https://www.youtube.com/results?search_query=Malibu%20novocaine",
+      "deezer": "https://www.deezer.com/album/1002050041"
     },
-    "embed": null,
+    "embed": {
+      "provider": "deezer",
+      "src": "https://widget.deezer.com/widget/light/album/1002050041",
+      "height": 300
+    },
     "musicVideoUrl": null,
     "status": "pending",
     "approvedAt": null,
@@ -1806,7 +2115,9 @@
       "fg": "#f2efe8",
       "motif": "disc"
     },
-    "pressMentions": []
+    "pressMentions": [
+      "pitchfork_albums"
+    ]
   },
   {
     "id": "dj-shadow-nobody-speak-part-2",
@@ -2760,6 +3071,33 @@
       "spotify": "https://open.spotify.com/search/DJ%20Koze%20Spiralen%20%2F%20Wo%26%2339%3Bs%20Patric%3F!%3F",
       "soundcloud": "https://soundcloud.com/search?q=DJ%20Koze%20Spiralen%20%2F%20Wo%26%2339%3Bs%20Patric%3F!%3F",
       "youtube": "https://www.youtube.com/results?search_query=DJ%20Koze%20Spiralen%20%2F%20Wo%26%2339%3Bs%20Patric%3F!%3F"
+    },
+    "embed": null,
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": null,
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
+    "id": "dj-koze-spiralen-amp-wo-s-patric",
+    "type": "album",
+    "artist": "DJ Koze",
+    "title": "Spiralen &amp; Wo´s Patric?!?",
+    "label": "",
+    "releaseDate": "2026-06-12",
+    "description": "New full length from DJ Koze, the Pampa boss whose productions have long sat at the oddball edge of house, full of sampled detours and unlikely emotional turns. File alongside the rest of his Pampa catalogue and expect the usual diversions.",
+    "tags": [],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=DJ%20Koze%20Spiralen%20%26amp%3B%20Wo%C2%B4s%20Patric%3F!%3F&item_type=a",
+      "spotify": "https://open.spotify.com/search/DJ%20Koze%20Spiralen%20%26amp%3B%20Wo%C2%B4s%20Patric%3F!%3F",
+      "soundcloud": "https://soundcloud.com/search?q=DJ%20Koze%20Spiralen%20%26amp%3B%20Wo%C2%B4s%20Patric%3F!%3F",
+      "youtube": "https://www.youtube.com/results?search_query=DJ%20Koze%20Spiralen%20%26amp%3B%20Wo%C2%B4s%20Patric%3F!%3F"
     },
     "embed": null,
     "musicVideoUrl": null,
@@ -5778,7 +6116,9 @@
       "fg": "#f2efe8",
       "motif": "disc"
     },
-    "pressMentions": []
+    "pressMentions": [
+      "pitchfork_albums"
+    ]
   },
   {
     "id": "ela-stiles-rassberry",
@@ -9623,7 +9963,9 @@
       "fg": "#f2efe8",
       "motif": "disc"
     },
-    "pressMentions": []
+    "pressMentions": [
+      "pitchfork_albums"
+    ]
   },
   {
     "id": "underworld-pearl-s-girl-r18-for2026",
@@ -13706,12 +14048,13 @@
       "spotify": "https://open.spotify.com/search/Zodiac%20Youth%20Carnival%20Of%20Souls",
       "soundcloud": "https://soundcloud.com/search?q=Zodiac%20Youth%20Carnival%20Of%20Souls",
       "youtube": "https://www.youtube.com/results?search_query=Zodiac%20Youth%20Carnival%20Of%20Souls",
-      "deezer": "https://www.deezer.com/album/1007151861"
+      "deezer": "https://www.deezer.com/album/1007151861",
+      "apple": "https://music.apple.com/us/album/carnival-of-souls/6781050529?uo=4"
     },
     "embed": {
-      "provider": "deezer",
-      "src": "https://widget.deezer.com/widget/light/album/1007151861",
-      "height": 300
+      "provider": "apple",
+      "src": "https://embed.music.apple.com/us/album/6781050529?theme=light",
+      "height": 450
     },
     "musicVideoUrl": null,
     "status": "pending",
@@ -29230,7 +29573,8 @@
       "spotify": "https://open.spotify.com/search/Okkyung%20Lee%20Just%20Like%20Any%20Other%20Day%20(%EC%96%B4%EB%8A%90%EB%82%A0)%3A%20Background%20Music%20For%20Your%20Mundane%20Activities",
       "soundcloud": "https://soundcloud.com/search?q=Okkyung%20Lee%20Just%20Like%20Any%20Other%20Day%20(%EC%96%B4%EB%8A%90%EB%82%A0)%3A%20Background%20Music%20For%20Your%20Mundane%20Activities",
       "youtube": "https://www.youtube.com/results?search_query=Okkyung%20Lee%20Just%20Like%20Any%20Other%20Day%20(%EC%96%B4%EB%8A%90%EB%82%A0)%3A%20Background%20Music%20For%20Your%20Mundane%20Activities",
-      "apple": "https://music.apple.com/us/album/just-like-any-other-day-%EC%96%B4%EB%8A%90%EB%82%A0-background-music-for-your/1816284329?uo=4"
+      "apple": "https://music.apple.com/us/album/just-like-any-other-day-%EC%96%B4%EB%8A%90%EB%82%A0-background-music-for-your/1816284329?uo=4",
+      "tidal": "https://tidal.com/album/437773982"
     },
     "embed": {
       "provider": "apple",
@@ -29264,7 +29608,8 @@
       "spotify": "https://open.spotify.com/search/Katokye%20Obuhangwa%20bwa%20Banyankore%20na%20Bahororo",
       "soundcloud": "https://soundcloud.com/search?q=Katokye%20Obuhangwa%20bwa%20Banyankore%20na%20Bahororo",
       "youtube": "https://www.youtube.com/results?search_query=Katokye%20Obuhangwa%20bwa%20Banyankore%20na%20Bahororo",
-      "apple": "https://music.apple.com/us/album/obuhangwa-bwa-banyankore-na-bahororo/1819806853?uo=4"
+      "apple": "https://music.apple.com/us/album/obuhangwa-bwa-banyankore-na-bahororo/1819806853?uo=4",
+      "tidal": "https://tidal.com/album/441322912"
     },
     "embed": {
       "provider": "apple",
@@ -29299,7 +29644,8 @@
       "soundcloud": "https://soundcloud.com/search?q=Deetron%20Presents%20Soulmate%20Code",
       "youtube": "https://www.youtube.com/results?search_query=Deetron%20Presents%20Soulmate%20Code",
       "deezer": "https://www.deezer.com/album/816722771",
-      "apple": "https://music.apple.com/us/album/code-ep/1837941368?uo=4"
+      "apple": "https://music.apple.com/us/album/code-ep/1837941368?uo=4",
+      "tidal": "https://tidal.com/album/458685309"
     },
     "embed": {
       "provider": "apple",
@@ -29333,7 +29679,8 @@
       "spotify": "https://open.spotify.com/search/Ren%C3%A9%20Najera%20Inner%20Arrangements",
       "soundcloud": "https://soundcloud.com/search?q=Ren%C3%A9%20Najera%20Inner%20Arrangements",
       "youtube": "https://www.youtube.com/results?search_query=Ren%C3%A9%20Najera%20Inner%20Arrangements",
-      "apple": "https://music.apple.com/us/album/inner-arrangements/1831230756?uo=4"
+      "apple": "https://music.apple.com/us/album/inner-arrangements/1831230756?uo=4",
+      "tidal": "https://tidal.com/album/452387608"
     },
     "embed": {
       "provider": "apple",
@@ -29435,7 +29782,8 @@
       "soundcloud": "https://soundcloud.com/search?q=Nikolajev%20Transplant%20Rejection",
       "youtube": "https://www.youtube.com/results?search_query=Nikolajev%20Transplant%20Rejection",
       "deezer": "https://www.deezer.com/album/349147967",
-      "apple": "https://music.apple.com/us/album/transplant-rejection/1641314640?uo=4"
+      "apple": "https://music.apple.com/us/album/transplant-rejection/1641314640?uo=4",
+      "tidal": "https://tidal.com/album/244541302"
     },
     "embed": {
       "provider": "apple",
@@ -32570,7 +32918,9 @@
       "fg": "#f2efe8",
       "motif": "disc"
     },
-    "pressMentions": []
+    "pressMentions": [
+      "pitchfork_albums"
+    ]
   },
   {
     "id": "hotswing-forever-ep",
@@ -39499,7 +39849,7 @@
     "title": "Grey Interiors",
     "label": "Smalltown Supersound",
     "releaseDate": "2025-02-01",
-    "description": "",
+    "description": "Cunningham turns up on Smalltown Supersound with a one-sided LP of the smudged, half-erased techno he has spent the last decade refining. Limited pressing; shelve with the Splazsh-era material rather than the dancefloor stuff.",
     "tags": [
       "electronic"
     ],
@@ -39534,7 +39884,7 @@
     "title": "No Ghost",
     "label": "LuckyMe",
     "releaseDate": "2025-02-01",
-    "description": "",
+    "description": "Five tracks of model-turned-vocalist dance-pop pitched to LuckyMe's more polished, pop-facing side, pressed as a numbered limited LP. Sits closer to Eclair Fifi's club edits than the label's beat catalogue.",
     "tags": [
       "electronic"
     ],
@@ -39568,7 +39918,7 @@
     "title": "Stay Longer",
     "label": "Theory Therapy",
     "releaseDate": "2025-01-31",
-    "description": "",
+    "description": "Eleven tracks of slow, room-tone ambient and downtempo from Usof, issued in a limited pressing on Theory Therapy. Music to leave running rather than to sit with, though it rewards either.",
     "tags": [
       "electronic"
     ],
@@ -39603,7 +39953,7 @@
     "title": "California",
     "label": "Helix Records (7)",
     "releaseDate": "2025-01-31",
-    "description": "",
+    "description": "Netsky in full vocal-DnB mode, teaming with Cloves for a polished single on Helix that aims squarely at radio rather than the rave. File alongside the more songwriterly end of Hospital's catalogue.",
     "tags": [
       "electronic"
     ],
@@ -39638,7 +39988,7 @@
     "title": "im hole",
     "label": "Hyperdub",
     "releaseDate": "2025-01-31",
-    "description": "",
+    "description": "Aya's full-length for Hyperdub, eleven tracks of voice, club detritus and abstracted production logic that keep slipping out of any one register. For anyone who has been following the Loraine James end of the label.",
     "tags": [
       "electronic"
     ],
