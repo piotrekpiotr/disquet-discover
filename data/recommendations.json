@@ -995,6 +995,39 @@
     "pressMentions": []
   },
   {
+    "id": "moor-mother-imaginary-lines",
+    "type": "single",
+    "artist": "Moor Mother",
+    "title": "Imaginary Lines",
+    "label": "",
+    "releaseDate": "2026-06-26",
+    "description": "Camae Ayewa in single form, which usually means the spoken-word and noise-rooted abrasion is concentrated rather than diffused across a longer arc. File alongside her Don Giovanni and ANTI- catalogue.",
+    "tags": [],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=Moor%20Mother%20Imaginary%20Lines&item_type=a",
+      "spotify": "https://open.spotify.com/search/Moor%20Mother%20Imaginary%20Lines",
+      "soundcloud": "https://soundcloud.com/search?q=Moor%20Mother%20Imaginary%20Lines",
+      "youtube": "https://www.youtube.com/results?search_query=Moor%20Mother%20Imaginary%20Lines",
+      "deezer": "https://www.deezer.com/album/985550101",
+      "apple": "https://music.apple.com/us/album/imaginary-lines-single/6770552759?uo=4"
+    },
+    "embed": {
+      "provider": "apple",
+      "src": "https://embed.music.apple.com/us/album/6770552759?theme=light",
+      "height": 450
+    },
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://cdn-images.dzcdn.net/images/cover/75566d3b44901ddfb4ad431215c744a9/1000x1000-000000-80-0-0.jpg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
     "id": "rival-consoles-coda-loraine-james-remix",
     "type": "single",
     "artist": "Rival Consoles",
@@ -1948,6 +1981,40 @@
     "status": "pending",
     "approvedAt": null,
     "coverImageUrl": "https://i.discogs.com/sbik9uP2W7gfcSGIN1vMf4x-FcpRBbkWXkmOHsEtxeg/rs:fit/g:sm/q:90/h:600/w:572/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM3NzA4/MTgyLTE3ODIzMTM0/NjctNzQyNy5qcGVn.jpeg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
+    "id": "sullivan-king-t-pain-zoey808-push-up",
+    "type": "single",
+    "artist": "Sullivan King, T-Pain, Zoey808",
+    "title": "Push Up",
+    "label": "Helix Records (7)",
+    "releaseDate": "2026-06-19",
+    "description": "Sullivan King pulls T-Pain and Zoey808 into a Helix-issued bass cut leaning on the metallic, riff-driven dubstep he's built his name on. Filed next to Virtual Riot for anyone tracking where rock-adjacent dubstep currently sits.",
+    "tags": [
+      "electronic"
+    ],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=Sullivan%20King%2C%20T-Pain%2C%20Zoey808%20Push%20Up&item_type=a",
+      "spotify": "https://open.spotify.com/search/Sullivan%20King%2C%20T-Pain%2C%20Zoey808%20Push%20Up",
+      "soundcloud": "https://soundcloud.com/search?q=Sullivan%20King%2C%20T-Pain%2C%20Zoey808%20Push%20Up",
+      "youtube": "https://www.youtube.com/results?search_query=Sullivan%20King%2C%20T-Pain%2C%20Zoey808%20Push%20Up",
+      "deezer": "https://www.deezer.com/album/997855701"
+    },
+    "embed": {
+      "provider": "deezer",
+      "src": "https://widget.deezer.com/widget/light/album/997855701",
+      "height": 300
+    },
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://i.discogs.com/UGHt7VrnH_wrpEF_SUa7qiSeepelZgbN7dziuORdZiE/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM3NzI5/MzAyLTE3ODI1MTYz/NDMtOTUzMy5qcGVn.jpeg",
     "cover": {
       "bg": "#111110",
       "fg": "#f2efe8",
@@ -11522,6 +11589,40 @@
     "pressMentions": []
   },
   {
+    "id": "goldenstar-chamber-music",
+    "type": "ep",
+    "artist": "goldenstar",
+    "title": "Chamber Music",
+    "label": "OST (5)",
+    "releaseDate": "2026-05-01",
+    "description": "Six tracks of slowcore-leaning indie rock from goldenstar, pressed in a limited run on OST. Hushed and unhurried, for the Duster shelf rather than the Codeine one.",
+    "tags": [
+      "rock"
+    ],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=goldenstar%20Chamber%20Music&item_type=a",
+      "spotify": "https://open.spotify.com/search/goldenstar%20Chamber%20Music",
+      "soundcloud": "https://soundcloud.com/search?q=goldenstar%20Chamber%20Music",
+      "youtube": "https://www.youtube.com/results?search_query=goldenstar%20Chamber%20Music",
+      "deezer": "https://www.deezer.com/album/936303281"
+    },
+    "embed": {
+      "provider": "deezer",
+      "src": "https://widget.deezer.com/widget/light/album/936303281",
+      "height": 300
+    },
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://i.discogs.com/sthIZMPzq5pcPJhkhFVMcqicr6Pj6sdQRGPKz58BQ9I/rs:fit/g:sm/q:90/h:588/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM3NTI1/MjQ4LTE3ODI0OTI0/MTMtNjYyNS5qcGVn.jpeg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
     "id": "jump-source-patrick-holland-priori-fold",
     "type": "album",
     "artist": "Jump Source, Patrick Holland & Priori",
@@ -20896,6 +20997,40 @@
     "pressMentions": []
   },
   {
+    "id": "hecker-natural-selection",
+    "type": "album",
+    "artist": "Hecker",
+    "title": "Natural Selection",
+    "label": "Pan (3)",
+    "releaseDate": "2026-02-01",
+    "description": "Nine pieces of computer music from Florian Hecker on PAN, working the usual axis of synthetic timbre, psychoacoustic trickery and concrète editing. For listeners still parsing Acid in the Style of David Tudor.",
+    "tags": [
+      "electronic"
+    ],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=Hecker%20Natural%20Selection&item_type=a",
+      "spotify": "https://open.spotify.com/search/Hecker%20Natural%20Selection",
+      "soundcloud": "https://soundcloud.com/search?q=Hecker%20Natural%20Selection",
+      "youtube": "https://www.youtube.com/results?search_query=Hecker%20Natural%20Selection",
+      "deezer": "https://www.deezer.com/album/861663982"
+    },
+    "embed": {
+      "provider": "deezer",
+      "src": "https://widget.deezer.com/widget/light/album/861663982",
+      "height": 300
+    },
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://i.discogs.com/flomH-nsWnuHAyUttCZkIKHbQXGJhHLL4HSNmSEL7ss/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM2NTE2/NTMyLTE3ODI0NzEw/MDgtOTgwMi5qcGVn.jpeg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
     "id": "kelly-moran-don-t-trust-mirrors",
     "type": "album",
     "artist": "Kelly Moran",
@@ -23693,6 +23828,40 @@
     "status": "pending",
     "approvedAt": null,
     "coverImageUrl": "https://i.discogs.com/C4NYkphdBhRDEcKPuEML9iBuf2PMmoxH1qEFWk1VzoY/rs:fit/g:sm/q:90/h:593/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM3NzAz/NTcxLTE3ODIzMzkw/MDYtNDg3Ni5qcGVn.jpeg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
+    "id": "chanel-beads-your-day-will-come",
+    "type": "album",
+    "artist": "Chanel Beads",
+    "title": "Your Day Will Come",
+    "label": "Jagjaguwar",
+    "releaseDate": "2026-01-01",
+    "description": "Chanel Beads land on Jagjaguwar with fourteen tracks of frayed alt-pop, the kind of half-collapsed song-craft that's defined the project since Your Day Will Come started circulating. Club Edition LP for shelving alongside Wisp or the quieter end of the label's roster.",
+    "tags": [
+      "electronic"
+    ],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=Chanel%20Beads%20Your%20Day%20Will%20Come&item_type=a",
+      "spotify": "https://open.spotify.com/search/Chanel%20Beads%20Your%20Day%20Will%20Come",
+      "soundcloud": "https://soundcloud.com/search?q=Chanel%20Beads%20Your%20Day%20Will%20Come",
+      "youtube": "https://www.youtube.com/results?search_query=Chanel%20Beads%20Your%20Day%20Will%20Come",
+      "deezer": "https://www.deezer.com/album/712574881"
+    },
+    "embed": {
+      "provider": "deezer",
+      "src": "https://widget.deezer.com/widget/light/album/712574881",
+      "height": 300
+    },
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://i.discogs.com/xJdAVKBpNbzI8nxFCeZfUa2Y3EcxV7pB-4eru2YZHaM/rs:fit/g:sm/q:90/h:600/w:591/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM3NzI2/MzUwLTE3ODI0OTAz/MTktOTU1NS5qcGVn.jpeg",
     "cover": {
       "bg": "#111110",
       "fg": "#f2efe8",
@@ -30584,7 +30753,8 @@
       "soundcloud": "https://soundcloud.com/search?q=Bendik%20Giske%20Remixed",
       "youtube": "https://www.youtube.com/results?search_query=Bendik%20Giske%20Remixed",
       "deezer": "https://www.deezer.com/album/807249861",
-      "apple": "https://music.apple.com/us/album/remixed/1834159861?uo=4"
+      "apple": "https://music.apple.com/us/album/remixed/1834159861?uo=4",
+      "tidal": "https://tidal.com/album/455029892"
     },
     "embed": {
       "provider": "apple",
@@ -30619,7 +30789,8 @@
       "soundcloud": "https://soundcloud.com/search?q=R.J.F.%20Cleaning%20Out%20The%20Empty%20Administration%20Building",
       "youtube": "https://www.youtube.com/results?search_query=R.J.F.%20Cleaning%20Out%20The%20Empty%20Administration%20Building",
       "deezer": "https://www.deezer.com/album/755761131",
-      "apple": "https://music.apple.com/us/album/cleaning-out-the-empty-administration-building/1813969501?uo=4"
+      "apple": "https://music.apple.com/us/album/cleaning-out-the-empty-administration-building/1813969501?uo=4",
+      "tidal": "https://tidal.com/album/435562833"
     },
     "embed": {
       "provider": "apple",
@@ -30683,7 +30854,8 @@
       "soundcloud": "https://soundcloud.com/search?q=Billy%20Paul%20360%20Degrees%20Of%20Billy%20Paul",
       "youtube": "https://www.youtube.com/results?search_query=Billy%20Paul%20360%20Degrees%20Of%20Billy%20Paul",
       "deezer": "https://www.deezer.com/album/105909992",
-      "apple": "https://music.apple.com/us/album/360-degrees-of-billy-paul-expanded-edition/1475125097?uo=4"
+      "apple": "https://music.apple.com/us/album/360-degrees-of-billy-paul-expanded-edition/1475125097?uo=4",
+      "tidal": "https://tidal.com/album/114560944"
     },
     "embed": {
       "provider": "apple",
@@ -30717,7 +30889,8 @@
       "spotify": "https://open.spotify.com/search/DJ%20K%20(19)%20Radio%20Libertadora%20!",
       "soundcloud": "https://soundcloud.com/search?q=DJ%20K%20(19)%20Radio%20Libertadora%20!",
       "youtube": "https://www.youtube.com/results?search_query=DJ%20K%20(19)%20Radio%20Libertadora%20!",
-      "deezer": "https://www.deezer.com/album/770420961"
+      "deezer": "https://www.deezer.com/album/770420961",
+      "tidal": "https://tidal.com/album/441268754"
     },
     "embed": {
       "provider": "deezer",
@@ -30786,7 +30959,8 @@
       "soundcloud": "https://soundcloud.com/search?q=Roberta%20Flack%20Quiet%20Fire",
       "youtube": "https://www.youtube.com/results?search_query=Roberta%20Flack%20Quiet%20Fire",
       "deezer": "https://www.deezer.com/album/596245",
-      "apple": "https://music.apple.com/us/album/quiet-fire-50th-anniversary-edition-2021-remaster/1573007139?uo=4"
+      "apple": "https://music.apple.com/us/album/quiet-fire-50th-anniversary-edition-2021-remaster/1573007139?uo=4",
+      "tidal": "https://tidal.com/album/188221849"
     },
     "embed": {
       "provider": "apple",
@@ -30849,7 +31023,8 @@
       "spotify": "https://open.spotify.com/search/Chet%20Baker%20Chet%20Baker%20sings%20It%20Could%20Happen%20to%20You",
       "soundcloud": "https://soundcloud.com/search?q=Chet%20Baker%20Chet%20Baker%20sings%20It%20Could%20Happen%20to%20You",
       "youtube": "https://www.youtube.com/results?search_query=Chet%20Baker%20Chet%20Baker%20sings%20It%20Could%20Happen%20to%20You",
-      "apple": "https://music.apple.com/us/album/chet-baker-sings-it-could-happen-to-you/1554009007?uo=4"
+      "apple": "https://music.apple.com/us/album/chet-baker-sings-it-could-happen-to-you/1554009007?uo=4",
+      "tidal": "https://tidal.com/album/175016935"
     },
     "embed": {
       "provider": "apple",
@@ -30883,7 +31058,8 @@
       "spotify": "https://open.spotify.com/search/ACA%20(YU)%20Late%20Night%20Fantasy%20EP",
       "soundcloud": "https://soundcloud.com/search?q=ACA%20(YU)%20Late%20Night%20Fantasy%20EP",
       "youtube": "https://www.youtube.com/results?search_query=ACA%20(YU)%20Late%20Night%20Fantasy%20EP",
-      "deezer": "https://www.deezer.com/album/782425411"
+      "deezer": "https://www.deezer.com/album/782425411",
+      "tidal": "https://tidal.com/album/445679936"
     },
     "embed": {
       "provider": "deezer",
@@ -30917,7 +31093,8 @@
       "spotify": "https://open.spotify.com/search/Angel%20Hunt%20Globelight",
       "soundcloud": "https://soundcloud.com/search?q=Angel%20Hunt%20Globelight",
       "youtube": "https://www.youtube.com/results?search_query=Angel%20Hunt%20Globelight",
-      "apple": "https://music.apple.com/us/album/globelight-single/1816994360?uo=4"
+      "apple": "https://music.apple.com/us/album/globelight-single/1816994360?uo=4",
+      "tidal": "https://tidal.com/album/438518585"
     },
     "embed": {
       "provider": "apple",
@@ -40021,7 +40198,7 @@
     "title": "I'm Just Say'n",
     "label": "Smalltown Supersound",
     "releaseDate": "2025-01-31",
-    "description": "",
+    "description": "McPhee on Smalltown Supersound, eleven pieces moving between free improvisation and spoken poetry. A statement record from an elder, shelve near Joshua Abrams if you need a contemporary anchor.",
     "tags": [
       "jazz"
     ],
@@ -40057,7 +40234,7 @@
     "title": "Hallucinating Love",
     "label": "Ninja Tune",
     "releaseDate": "2025-01-31",
-    "description": "",
+    "description": "Maribou State return to Ninja Tune in a softer register, the duo's downtempo songcraft pulled toward ambient house across ten tracks. Pressed as a limited LP for anyone who shelves Bonobo nearby.",
     "tags": [
       "electronic"
     ],
@@ -40093,7 +40270,7 @@
     "title": "Honey for the Ants",
     "label": "AD 93",
     "releaseDate": "2025-01-31",
-    "description": "",
+    "description": "Rusin's chamber-electronic compositions continue their slide toward the medieval and the synthetic at once, here stretched across ten pieces for AD 93. For anyone tracking the stranger edges of the label's modern classical roster.",
     "tags": [],
     "links": {
       "bandcamp": "https://bandcamp.com/album/1577836215",
@@ -40127,7 +40304,7 @@
     "title": "Youth Remixes",
     "label": "LuckyMe",
     "releaseDate": "2025-01-29",
-    "description": "",
+    "description": "Four reworks of Sunareht's Youth material handed out via LuckyMe, splitting the difference between bass-weight techno and the more abrasive end of breaks. Sits comfortably next to the label's Eclair Fifi adjacent club material.",
     "tags": [
       "electronic"
     ],
@@ -40163,7 +40340,7 @@
     "title": "Aural II",
     "label": "Hivern Discs",
     "releaseDate": "2025-01-28",
-    "description": "",
+    "description": "Six tracks from Iro Aka on Hivern Discs, sitting between low-slung techno, ambient drift and chillwave softness rather than committing to any of them. For shelves where John Talabot's label work already lives.",
     "tags": [
       "electronic"
     ],
@@ -40198,7 +40375,7 @@
     "title": "Aural",
     "label": "Hivern Discs",
     "releaseDate": "2025-01-28",
-    "description": "",
+    "description": "Five tracks for Hivern Discs that sit between ambient drift and a slower kind of techno, more atmospheric than functional. Worth a look if John Talabot's wider orbit usually catches you.",
     "tags": [
       "electronic"
     ],
@@ -40233,7 +40410,7 @@
     "title": "Zdenka 2080",
     "label": "Brainfeeder",
     "releaseDate": "2025-01-24",
-    "description": "",
+    "description": "Brainfeeder repress the 22-track sci-fi song cycle from the Bay Area keys player, sketchbook jazz-pop miniatures threaded into a loose climate-fiction narrative. For anyone whose Brainfeeder shelf leans more Georgia Anne Muldrow than Thundercat.",
     "tags": [
       "electronic"
     ],
@@ -40269,7 +40446,7 @@
     "title": "Sacrifice",
     "label": "Life Is Beautiful (5)",
     "releaseDate": "2025-01-24",
-    "description": "",
+    "description": "A single track on Life Is Beautiful, filed under pop without much in the way of qualifiers. Slim release, digital only, no styling to speak of in the metadata.",
     "tags": [
       "pop"
     ],
@@ -40303,7 +40480,7 @@
     "title": "Mapambazuko",
     "label": "Nyege Nyege Tapes",
     "releaseDate": "2025-01-24",
-    "description": "",
+    "description": "Peruvian guitarist Ale Hop and Congolese soukous player Titi Bakorta meet on Nyege Nyege Tapes for nine tracks of pedal-treated string interplay, well within the label's pan-continental experimentalism. For anyone tracking the Hakuna Kulala / Nyege axis.",
     "tags": [
       "electronic"
     ],
@@ -40339,7 +40516,7 @@
     "title": "Mapambazuko",
     "label": "Nyege Nyege Tapes",
     "releaseDate": "2025-01-24",
-    "description": "",
+    "description": "Peruvian guitarist Ale Hop meets Congolese soukous player Titi Bakorta on Nyege Nyege Tapes, nine tracks of fingerpicked circuitry and processed string work that sit closer to the label's experimental wing than its dancefloor one. For listeners already deep in Nihiloxica.",
     "tags": [
       "electronic"
     ],
