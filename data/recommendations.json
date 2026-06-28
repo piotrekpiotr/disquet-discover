@@ -1028,6 +1028,41 @@
     "pressMentions": []
   },
   {
+    "id": "jacques-greene-lily-pad",
+    "type": "single",
+    "artist": "Jacques Greene",
+    "title": "Lily Pad",
+    "label": "!K7 Records - a division of K7 Music GmbH",
+    "releaseDate": "2026-06-26",
+    "description": "Jacques Greene moves to !K7 with a one-off single, still working the same emotive house lineage that ran through Dawn Chorus and the LuckyMe years. For anyone who keeps returning to Koreless or Joy Orbison's softer end.",
+    "tags": [
+      "electronic"
+    ],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=Jacques%20Greene%20Lily%20Pad&item_type=a",
+      "spotify": "https://open.spotify.com/search/Jacques%20Greene%20Lily%20Pad",
+      "soundcloud": "https://soundcloud.com/search?q=Jacques%20Greene%20Lily%20Pad",
+      "youtube": "https://www.youtube.com/results?search_query=Jacques%20Greene%20Lily%20Pad",
+      "apple": "https://music.apple.com/us/album/lily-pad-single/6783820970",
+      "deezer": "https://www.deezer.com/album/1013312741"
+    },
+    "embed": {
+      "provider": "apple",
+      "src": "https://embed.music.apple.com/us/album/6783820970?theme=light",
+      "height": 450
+    },
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/ee/ae/f5/eeaef5c7-8462-850a-5847-958816847d3c/4062548147988.png/600x600bb.jpg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
     "id": "rival-consoles-coda-loraine-james-remix",
     "type": "single",
     "artist": "Rival Consoles",
@@ -1089,6 +1124,33 @@
     "status": "pending",
     "approvedAt": null,
     "coverImageUrl": "https://cdn-images.dzcdn.net/images/cover/62de218aa871d8017ae90f59cde377de/1000x1000-000000-80-0-0.jpg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
+    "id": "olof-dreijer-beats-in-space-212-olof-dreijer-dj-mix",
+    "type": "single",
+    "artist": "Olof Dreijer",
+    "title": "Beats In Space 212: Olof Dreijer (DJ Mix)",
+    "label": "",
+    "releaseDate": "2026-06-25",
+    "description": "One half of The Knife behind the decks for Tim Sweeney's long-running show, which usually means polyrhythms, oddball edits and a generous read of what counts as a dancefloor. File next to his Rabid and Pan output.",
+    "tags": [],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=Olof%20Dreijer%20Beats%20In%20Space%20212%3A%20Olof%20Dreijer%20(DJ%20Mix)&item_type=a",
+      "spotify": "https://open.spotify.com/search/Olof%20Dreijer%20Beats%20In%20Space%20212%3A%20Olof%20Dreijer%20(DJ%20Mix)",
+      "soundcloud": "https://soundcloud.com/search?q=Olof%20Dreijer%20Beats%20In%20Space%20212%3A%20Olof%20Dreijer%20(DJ%20Mix)",
+      "youtube": "https://www.youtube.com/results?search_query=Olof%20Dreijer%20Beats%20In%20Space%20212%3A%20Olof%20Dreijer%20(DJ%20Mix)"
+    },
+    "embed": null,
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": null,
     "cover": {
       "bg": "#111110",
       "fg": "#f2efe8",
@@ -1469,6 +1531,38 @@
     "status": "pending",
     "approvedAt": null,
     "coverImageUrl": null,
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
+    "id": "vainqueur-exile-in-my-mind",
+    "type": "single",
+    "artist": "Vainqueur",
+    "title": "Exile in my mind",
+    "label": "",
+    "releaseDate": "2026-06-20",
+    "description": "Vainqueur surfacing in 2026 is its own event, the Chain Reaction architect of Lyot and Reverberations remaining one of dub techno's quietest authorities. No label info yet, but the name alone is enough to clear the shelf next to Maurizio.",
+    "tags": [],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=Vainqueur%20Exile%20in%20my%20mind&item_type=a",
+      "spotify": "https://open.spotify.com/search/Vainqueur%20Exile%20in%20my%20mind",
+      "soundcloud": "https://soundcloud.com/search?q=Vainqueur%20Exile%20in%20my%20mind",
+      "youtube": "https://www.youtube.com/results?search_query=Vainqueur%20Exile%20in%20my%20mind",
+      "deezer": "https://www.deezer.com/album/1010287961"
+    },
+    "embed": {
+      "provider": "deezer",
+      "src": "https://widget.deezer.com/widget/light/album/1010287961",
+      "height": 300
+    },
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://cdn-images.dzcdn.net/images/cover/e00514c83ec3876f37254c6e741e1680/1000x1000-000000-80-0-0.jpg",
     "cover": {
       "bg": "#111110",
       "fg": "#f2efe8",
@@ -5880,6 +5974,35 @@
     "pressMentions": [
       "pitchfork_best_tracks"
     ]
+  },
+  {
+    "id": "boards-of-canada-tomorrow-s-harvest-l",
+    "type": "album",
+    "artist": "Boards Of Canada = ボーズ・オヴ・カナダ",
+    "title": "Tomorrow's Harvest  = トゥモローズ・ハーヴェスト",
+    "label": "Warp Records",
+    "releaseDate": "2026-05-29",
+    "description": "Warp repress of the 2013 Boards Of Canada album, this time with Japanese sleeve treatment. The cold-war synths and faded VHS dread sound, if anything, more apt now than on release.",
+    "tags": [
+      "electronic"
+    ],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=Boards%20Of%20Canada%20%3D%20%E3%83%9C%E3%83%BC%E3%82%BA%E3%83%BB%E3%82%AA%E3%83%B4%E3%83%BB%E3%82%AB%E3%83%8A%E3%83%80%20Tomorrow's%20Harvest%20%20%3D%20%E3%83%88%E3%82%A5%E3%83%A2%E3%83%AD%E3%83%BC%E3%82%BA%E3%83%BB%E3%83%8F%E3%83%BC%E3%83%B4%E3%82%A7%E3%82%B9%E3%83%88&item_type=a",
+      "spotify": "https://open.spotify.com/search/Boards%20Of%20Canada%20%3D%20%E3%83%9C%E3%83%BC%E3%82%BA%E3%83%BB%E3%82%AA%E3%83%B4%E3%83%BB%E3%82%AB%E3%83%8A%E3%83%80%20Tomorrow's%20Harvest%20%20%3D%20%E3%83%88%E3%82%A5%E3%83%A2%E3%83%AD%E3%83%BC%E3%82%BA%E3%83%BB%E3%83%8F%E3%83%BC%E3%83%B4%E3%82%A7%E3%82%B9%E3%83%88",
+      "soundcloud": "https://soundcloud.com/search?q=Boards%20Of%20Canada%20%3D%20%E3%83%9C%E3%83%BC%E3%82%BA%E3%83%BB%E3%82%AA%E3%83%B4%E3%83%BB%E3%82%AB%E3%83%8A%E3%83%80%20Tomorrow's%20Harvest%20%20%3D%20%E3%83%88%E3%82%A5%E3%83%A2%E3%83%AD%E3%83%BC%E3%82%BA%E3%83%BB%E3%83%8F%E3%83%BC%E3%83%B4%E3%82%A7%E3%82%B9%E3%83%88",
+      "youtube": "https://www.youtube.com/results?search_query=Boards%20Of%20Canada%20%3D%20%E3%83%9C%E3%83%BC%E3%82%BA%E3%83%BB%E3%82%AA%E3%83%B4%E3%83%BB%E3%82%AB%E3%83%8A%E3%83%80%20Tomorrow's%20Harvest%20%20%3D%20%E3%83%88%E3%82%A5%E3%83%A2%E3%83%AD%E3%83%BC%E3%82%BA%E3%83%BB%E3%83%8F%E3%83%BC%E3%83%B4%E3%82%A7%E3%82%B9%E3%83%88"
+    },
+    "embed": null,
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://i.discogs.com/dNq7TbGBkVr7wStCFBsjhIIvP0dwV8VIt0_y6xtOTWY/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM3NjIy/Njc2LTE3ODE2NDg4/NDktMTQ5Mi5qcGVn.jpeg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
   },
   {
     "id": "eiii-emanations",
@@ -28076,7 +28199,8 @@
       "spotify": "https://open.spotify.com/search/Seth%20Anderson%20These%20Exact%20Days%2C%20These%20Peaceful%20Nights",
       "soundcloud": "https://soundcloud.com/search?q=Seth%20Anderson%20These%20Exact%20Days%2C%20These%20Peaceful%20Nights",
       "youtube": "https://www.youtube.com/results?search_query=Seth%20Anderson%20These%20Exact%20Days%2C%20These%20Peaceful%20Nights",
-      "deezer": "https://www.deezer.com/album/797572941"
+      "deezer": "https://www.deezer.com/album/797572941",
+      "tidal": "https://tidal.com/album/451271488"
     },
     "embed": {
       "provider": "deezer",
@@ -28110,7 +28234,8 @@
       "spotify": "https://open.spotify.com/search/Djrum%20Broken%20Glass%20Arch",
       "soundcloud": "https://soundcloud.com/search?q=Djrum%20Broken%20Glass%20Arch",
       "youtube": "https://www.youtube.com/results?search_query=Djrum%20Broken%20Glass%20Arch",
-      "apple": "https://music.apple.com/us/album/broken-glass-arch-single/1289640776?uo=4"
+      "apple": "https://music.apple.com/us/album/broken-glass-arch-single/1289640776?uo=4",
+      "tidal": "https://tidal.com/album/79281244"
     },
     "embed": {
       "provider": "apple",
@@ -28145,7 +28270,8 @@
       "soundcloud": "https://soundcloud.com/search?q=Kult%20Masek%2C%20Petr%20Vrba%20Fumarola",
       "youtube": "https://www.youtube.com/results?search_query=Kult%20Masek%2C%20Petr%20Vrba%20Fumarola",
       "deezer": "https://www.deezer.com/album/831423761",
-      "apple": "https://music.apple.com/us/album/fumarola/1843671679?uo=4"
+      "apple": "https://music.apple.com/us/album/fumarola/1843671679?uo=4",
+      "tidal": "https://tidal.com/album/464485074"
     },
     "embed": {
       "provider": "apple",
@@ -28563,7 +28689,8 @@
       "soundcloud": "https://soundcloud.com/search?q=Superfan%20Apeiron%20(Fantasy%20Football)",
       "youtube": "https://www.youtube.com/results?search_query=Superfan%20Apeiron%20(Fantasy%20Football)",
       "deezer": "https://www.deezer.com/album/816878521",
-      "apple": "https://music.apple.com/us/album/apeiron-fantasy-football-single/6776647251?uo=4"
+      "apple": "https://music.apple.com/us/album/apeiron-fantasy-football-single/6776647251?uo=4",
+      "tidal": "https://tidal.com/album/458781419"
     },
     "embed": {
       "provider": "apple",
@@ -40551,7 +40678,7 @@
     "title": "The Beautiful World",
     "label": "Erased Tapes Records",
     "releaseDate": "2025-01-24",
-    "description": "",
+    "description": "Allred edges further from his songwriter origins into ambient and shoegaze territory, eleven pieces issued in a limited LP run on Erased Tapes. Sits comfortably alongside the label's quieter Penguin Cafe and Hatis Noit corners.",
     "tags": [
       "rock"
     ],
@@ -40587,7 +40714,7 @@
     "title": "Split Scale",
     "label": "Thrill Jockey",
     "releaseDate": "2025-01-24",
-    "description": "",
+    "description": "Eight pieces of prepared-piano and strings ambience from the Brueder Selke (Daniel and Sebastian) alongside Midori Hirano, landing on Thrill Jockey in a limited LP run. Modern-classical drift for the Nils Frahm shelf.",
     "tags": [
       "electronic"
     ],
@@ -40623,7 +40750,7 @@
     "title": "Out Moon",
     "label": "Leaving Records",
     "releaseDate": "2025-01-24",
-    "description": "",
+    "description": "Black Taffy returns to Leaving Records with twelve pieces of dust-caked sample collage, sitting where instrumental hip hop bleeds into musique concrète. For anyone who follows the more spectral end of the Leaving roster.",
     "tags": [
       "electronic"
     ],
@@ -40658,7 +40785,7 @@
     "title": "West Coast",
     "label": "Ghostly International",
     "releaseDate": "2025-01-24",
-    "description": "",
+    "description": "Ghostly reissues the Gothenburg duo's Balearic-leaning dub-disco set, remastered and stretched across an LP. Long, sun-warm guitar loops and slack basslines, still the obvious reference point for anyone working that Smalltown Supersound axis.",
     "tags": [
       "electronic"
     ],
@@ -40692,7 +40819,7 @@
     "title": "Phoneglow / Eyes Go Blank",
     "label": "Hyperdub",
     "releaseDate": "2025-01-24",
-    "description": "",
+    "description": "A split 12\" pairing the two architects of Hyperdub, with Burial and Kode9 each taking a side that nods to garage, footwork and drum n bass without settling on any of them. Cut at 45 for anyone tracking the label's house style at source.",
     "tags": [
       "electronic"
     ],
@@ -40727,7 +40854,7 @@
     "title": "Даррен Дж. Каннінгем",
     "label": "Smalltown Supersound",
     "releaseDate": "2025-01-24",
-    "description": "",
+    "description": "Cunningham turns up on Smalltown Supersound under his own name rendered in Cyrillic, which tells you most of what to expect: the smudged, half-erased techno he has been refining for over a decade, framed here as a single rather than an LP statement.",
     "tags": [
       "electronic"
     ],
@@ -40762,7 +40889,7 @@
     "title": "A Tune For Us",
     "label": "Houndstooth",
     "releaseDate": "2025-01-22",
-    "description": "",
+    "description": "Djrum back on Houndstooth with a single piece that sits across his usual axis of modern classical poise and broken rhythm. Digital only for now, but unmistakably his hand on the piano and the drums.",
     "tags": [
       "electronic"
     ],
@@ -40796,7 +40923,7 @@
     "title": "Piedras",
     "label": "Other People",
     "releaseDate": "2025-01-21",
-    "description": "",
+    "description": "Jaar collects 22 pieces under Piedras for his own Other People, sitting at the soundtrack-leaning end of his catalogue: Spanish-language fragments, dark ambient stretches, downtempo drift. Closer to Pomegranates than Sirens, if you need a pointer.",
     "tags": [
       "electronic"
     ],
@@ -40831,7 +40958,7 @@
     "title": "Genius + Love = Yo La Tengo",
     "label": "Matador",
     "releaseDate": "2025-01-17",
-    "description": "",
+    "description": "Matador represses the sprawling 30-track Yo La Tengo odds-and-ends double, drone exercises and rehearsal-room sketches sitting next to actual songs. More useful as a portrait of the band's margins than as an entry point.",
     "tags": [
       "rock"
     ],
@@ -40866,7 +40993,7 @@
     "title": "E-A-D-C",
     "label": "Opal Tapes",
     "releaseDate": "2025-01-10",
-    "description": "",
+    "description": "Nineteen-track Opal Tapes compilation surveying the label's current corner of the basement: acid corrosion, industrial pressure, noise, and the bassier end of their minimal remit. A useful map for anyone tracking where Stephen Bishop's roster has drifted post-tape era.",
     "tags": [
       "electronic"
     ],
@@ -40900,7 +41027,7 @@
     "title": "Heartless Places",
     "label": "Dais Records",
     "releaseDate": "2025-01-10",
-    "description": "",
+    "description": "The Swedish synth-pop duo team up with Nina Persson of The Cardigans for a single on Dais, a label increasingly comfortable housing widescreen pop alongside its darker fare. For anyone whose Kite shelf already sits next to Cold Cave.",
     "tags": [
       "electronic"
     ],
