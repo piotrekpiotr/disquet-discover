@@ -619,6 +619,78 @@
     "pressMentions": []
   },
   {
+    "id": "fields-of-mist-intergalactic-rose",
+    "type": "ep",
+    "artist": "Fields Of Mist",
+    "title": "Intergalactic Rose",
+    "label": "Ilian Tape",
+    "releaseDate": "2026-06-30",
+    "description": "Fields Of Mist land on Ilian Tape, a label that has spent the last decade making a virtue of broken-beat techno with jazz in its peripheral vision. Expect it to sit comfortably next to the Zenker Brothers end of the catalogue.",
+    "tags": [
+      "electronic"
+    ],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=Fields%20Of%20Mist%20Intergalactic%20Rose&item_type=a",
+      "spotify": "https://open.spotify.com/search/Fields%20Of%20Mist%20Intergalactic%20Rose",
+      "soundcloud": "https://soundcloud.com/search?q=Fields%20Of%20Mist%20Intergalactic%20Rose",
+      "youtube": "https://www.youtube.com/results?search_query=Fields%20Of%20Mist%20Intergalactic%20Rose",
+      "apple": "https://music.apple.com/us/album/intergalactic-rose-ep/6779216544",
+      "deezer": "https://www.deezer.com/album/1003344741",
+      "tidal": "https://tidal.com/album/532666644"
+    },
+    "embed": {
+      "provider": "apple",
+      "src": "https://embed.music.apple.com/us/album/6779216544?theme=light",
+      "height": 450
+    },
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/22/59/46/2259466b-7ba9-c018-d66b-dce3f096b9f2/820233576628.jpg/600x600bb.jpg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
+    "id": "tricky-i-m-yours",
+    "type": "ep",
+    "artist": "Tricky",
+    "title": "I'm Yours",
+    "label": "False Idols",
+    "releaseDate": "2026-06-30",
+    "description": "Tricky on his own False Idols imprint, working the same smoke-and-whisper register he has held onto since Maxinquaye. The \"alternative\" tag does a lot of quiet work here; expect bruised vocals over rhythm tracks that refuse to fully resolve.",
+    "tags": [
+      "alternative"
+    ],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=Tricky%20I'm%20Yours&item_type=a",
+      "spotify": "https://open.spotify.com/search/Tricky%20I'm%20Yours",
+      "soundcloud": "https://soundcloud.com/search?q=Tricky%20I'm%20Yours",
+      "youtube": "https://www.youtube.com/results?search_query=Tricky%20I'm%20Yours",
+      "apple": "https://music.apple.com/us/album/im-yours-ep/6778445586",
+      "deezer": "https://www.deezer.com/album/1001374831",
+      "tidal": "https://tidal.com/album/532018978"
+    },
+    "embed": {
+      "provider": "apple",
+      "src": "https://embed.music.apple.com/us/album/6778445586?theme=light",
+      "height": 450
+    },
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/52/80/2c/52802c4c-e991-2815-eb07-83bbe3a355dd/4062548147223.png/600x600bb.jpg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
     "id": "felicia-atkinson-sans-visage",
     "type": "album",
     "artist": "Felicia Atkinson",
@@ -1063,6 +1135,39 @@
     "pressMentions": []
   },
   {
+    "id": "clark-lake-escape",
+    "type": "album",
+    "artist": "Clark",
+    "title": "Lake Escape",
+    "label": "",
+    "releaseDate": "2026-06-26",
+    "description": "Chris Clark has spent two decades sliding between Warp's harsher industrial corners and its more pastoral, piano-led ones, and he tends to alternate registers album to album. Worth checking on release day to see which Clark shows up.",
+    "tags": [],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=Clark%20Lake%20Escape&item_type=a",
+      "spotify": "https://open.spotify.com/search/Clark%20Lake%20Escape",
+      "soundcloud": "https://soundcloud.com/search?q=Clark%20Lake%20Escape",
+      "youtube": "https://www.youtube.com/results?search_query=Clark%20Lake%20Escape",
+      "deezer": "https://www.deezer.com/album/1014820201",
+      "apple": "https://music.apple.com/us/album/lake-escape-single/6784557152?uo=4"
+    },
+    "embed": {
+      "provider": "apple",
+      "src": "https://embed.music.apple.com/us/album/6784557152?theme=light",
+      "height": 450
+    },
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": null,
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
     "id": "rival-consoles-coda-loraine-james-remix",
     "type": "single",
     "artist": "Rival Consoles",
@@ -1151,6 +1256,61 @@
     "status": "pending",
     "approvedAt": null,
     "coverImageUrl": null,
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
+    "id": "olof-dreijer-beats-in-space-212-olof-dreijer",
+    "type": "album",
+    "artist": "Olof Dreijer",
+    "title": "Beats in Space 212: Olof Dreijer",
+    "label": "",
+    "releaseDate": "2026-06-25",
+    "description": "Olof Dreijer takes a turn on Tim Sweeney's long-running Beats in Space, a setting that tends to bring out the more limber, percussive side of guests. Expect the loose, polyrhythmic dancefloor sensibility Dreijer has carried since the Knife and Oni Ayhun.",
+    "tags": [],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=Olof%20Dreijer%20Beats%20in%20Space%20212%3A%20Olof%20Dreijer&item_type=a",
+      "spotify": "https://open.spotify.com/search/Olof%20Dreijer%20Beats%20in%20Space%20212%3A%20Olof%20Dreijer",
+      "soundcloud": "https://soundcloud.com/search?q=Olof%20Dreijer%20Beats%20in%20Space%20212%3A%20Olof%20Dreijer",
+      "youtube": "https://www.youtube.com/results?search_query=Olof%20Dreijer%20Beats%20in%20Space%20212%3A%20Olof%20Dreijer"
+    },
+    "embed": null,
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": null,
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
+    "id": "klein-caracas-to-nottingham",
+    "type": "single",
+    "artist": "Klein",
+    "title": "CARACAS TO NOTTINGHAM",
+    "label": "",
+    "releaseDate": "2026-06-25",
+    "description": "Klein in single-track mode, which in her catalogue has tended to mean the most concentrated dose of her fractured, choral, half-collapsed production language. Title aside, take it as a postcard rather than a travelogue.",
+    "tags": [],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=Klein%20CARACAS%20TO%20NOTTINGHAM&item_type=a",
+      "spotify": "https://open.spotify.com/search/Klein%20CARACAS%20TO%20NOTTINGHAM",
+      "soundcloud": "https://soundcloud.com/search?q=Klein%20CARACAS%20TO%20NOTTINGHAM",
+      "youtube": "https://www.youtube.com/results?search_query=Klein%20CARACAS%20TO%20NOTTINGHAM",
+      "deezer": "https://www.deezer.com/album/997020631"
+    },
+    "embed": null,
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://cdn-images.dzcdn.net/images/cover/405df1dd1bebc31a4562ad195cd26bb3/1000x1000-000000-80-0-0.jpg",
     "cover": {
       "bg": "#111110",
       "fg": "#f2efe8",
@@ -1466,6 +1626,39 @@
     "status": "pending",
     "approvedAt": null,
     "coverImageUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/42/d4/6b/42d46beb-2d93-ff96-888e-d03cd2d2c71c/5063961855596_cover.jpg/600x600bb.jpg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
+    "id": "klein-una-senal-feat-neomai",
+    "type": "single",
+    "artist": "Klein",
+    "title": "UNA SEÑAL (feat. Neomai)",
+    "label": "",
+    "releaseDate": "2026-06-23",
+    "description": "Klein returns with a guest turn from Neomai, the kind of pairing that suggests her usual fractured, vocal-led collage will tilt somewhere new. No label confirmed yet; worth watching if Tommy Genesis or Eartheater hold your attention.",
+    "tags": [],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=Klein%20UNA%20SE%C3%91AL%20(feat.%20Neomai)&item_type=a",
+      "spotify": "https://open.spotify.com/search/Klein%20UNA%20SE%C3%91AL%20(feat.%20Neomai)",
+      "soundcloud": "https://soundcloud.com/search?q=Klein%20UNA%20SE%C3%91AL%20(feat.%20Neomai)",
+      "youtube": "https://www.youtube.com/results?search_query=Klein%20UNA%20SE%C3%91AL%20(feat.%20Neomai)",
+      "deezer": "https://www.deezer.com/album/1013673101",
+      "apple": "https://music.apple.com/us/album/una-se%C3%B1al-feat-neomai-single/6784549232?uo=4"
+    },
+    "embed": {
+      "provider": "apple",
+      "src": "https://embed.music.apple.com/us/album/6784549232?theme=light",
+      "height": 450
+    },
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://cdn-images.dzcdn.net/images/cover/9952c62b47d652e67f8a4bb00017f849/1000x1000-000000-80-0-0.jpg",
     "cover": {
       "bg": "#111110",
       "fg": "#f2efe8",
@@ -2109,6 +2302,35 @@
     "status": "pending",
     "approvedAt": null,
     "coverImageUrl": "https://i.discogs.com/UGHt7VrnH_wrpEF_SUa7qiSeepelZgbN7dziuORdZiE/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM3NzI5/MzAyLTE3ODI1MTYz/NDMtOTUzMy5qcGVn.jpeg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
+    "id": "dj-patwa-harara-baile",
+    "type": "single",
+    "artist": "DJ Patwa",
+    "title": "Harara Baile",
+    "label": "Nyege Nyege Tapes",
+    "releaseDate": "2026-06-19",
+    "description": "Two-track mixtape from DJ Patwa for Nyege Nyege, filed under plunderphonics but carrying the Kampala label's usual appetite for collision and edit. For anyone still working through the Hakuna Kulala side of the catalogue.",
+    "tags": [
+      "electronic"
+    ],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=DJ%20Patwa%20Harara%20Baile&item_type=a",
+      "spotify": "https://open.spotify.com/search/DJ%20Patwa%20Harara%20Baile",
+      "soundcloud": "https://soundcloud.com/search?q=DJ%20Patwa%20Harara%20Baile",
+      "youtube": "https://www.youtube.com/results?search_query=DJ%20Patwa%20Harara%20Baile"
+    },
+    "embed": null,
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://i.discogs.com/Zy8lTitr8AdKWxKMT6UQkpBZhySYGLvOUZXOrOqhWvw/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM3NzUz/MjAwLTE3ODI3NjYx/MzUtMzI1NS5qcGVn.jpeg",
     "cover": {
       "bg": "#111110",
       "fg": "#f2efe8",
@@ -23751,12 +23973,13 @@
       "spotify": "https://open.spotify.com/search/Martin%20Denny%20Quiet%20Village%3A%20The%20Exotic%20Sounds%20Of%20Martin%20Denny",
       "soundcloud": "https://soundcloud.com/search?q=Martin%20Denny%20Quiet%20Village%3A%20The%20Exotic%20Sounds%20Of%20Martin%20Denny",
       "youtube": "https://www.youtube.com/results?search_query=Martin%20Denny%20Quiet%20Village%3A%20The%20Exotic%20Sounds%20Of%20Martin%20Denny",
-      "deezer": "https://www.deezer.com/album/318663"
+      "deezer": "https://www.deezer.com/album/318663",
+      "apple": "https://music.apple.com/us/album/the-exotic-sounds-of-martin-denny/724844645?uo=4"
     },
     "embed": {
-      "provider": "deezer",
-      "src": "https://widget.deezer.com/widget/light/album/318663",
-      "height": 300
+      "provider": "apple",
+      "src": "https://embed.music.apple.com/us/album/724844645?theme=light",
+      "height": 450
     },
     "musicVideoUrl": null,
     "status": "pending",
@@ -23785,12 +24008,13 @@
       "spotify": "https://open.spotify.com/search/Hayley%20Kiyoko%20This%20Side%20of%20Paradise%20-%20EP",
       "soundcloud": "https://soundcloud.com/search?q=Hayley%20Kiyoko%20This%20Side%20of%20Paradise%20-%20EP",
       "youtube": "https://www.youtube.com/results?search_query=Hayley%20Kiyoko%20This%20Side%20of%20Paradise%20-%20EP",
-      "deezer": "https://www.deezer.com/album/9532118"
+      "deezer": "https://www.deezer.com/album/9532118",
+      "apple": "https://music.apple.com/us/album/this-side-of-paradise-blake-straus-remix-single/1079987655?uo=4"
     },
     "embed": {
-      "provider": "deezer",
-      "src": "https://widget.deezer.com/widget/light/album/9532118",
-      "height": 300
+      "provider": "apple",
+      "src": "https://embed.music.apple.com/us/album/1079987655?theme=light",
+      "height": 450
     },
     "musicVideoUrl": null,
     "status": "pending",
@@ -23853,12 +24077,13 @@
       "spotify": "https://open.spotify.com/search/Dinosaur%20Jr.%20You're%20Living%20All%20Over%20Me",
       "soundcloud": "https://soundcloud.com/search?q=Dinosaur%20Jr.%20You're%20Living%20All%20Over%20Me",
       "youtube": "https://www.youtube.com/results?search_query=Dinosaur%20Jr.%20You're%20Living%20All%20Over%20Me",
-      "deezer": "https://www.deezer.com/album/129165772"
+      "deezer": "https://www.deezer.com/album/129165772",
+      "apple": "https://music.apple.com/us/album/youre-living-all-over-me-bonus-track-version/1497701141?uo=4"
     },
     "embed": {
-      "provider": "deezer",
-      "src": "https://widget.deezer.com/widget/light/album/129165772",
-      "height": 300
+      "provider": "apple",
+      "src": "https://embed.music.apple.com/us/album/1497701141?theme=light",
+      "height": 450
     },
     "musicVideoUrl": null,
     "status": "pending",
@@ -24015,12 +24240,13 @@
       "spotify": "https://open.spotify.com/search/Bobby%20Previte%20Second%20Arrow",
       "soundcloud": "https://soundcloud.com/search?q=Bobby%20Previte%20Second%20Arrow",
       "youtube": "https://www.youtube.com/results?search_query=Bobby%20Previte%20Second%20Arrow",
-      "deezer": "https://www.deezer.com/album/931725771"
+      "deezer": "https://www.deezer.com/album/931725771",
+      "apple": "https://music.apple.com/us/album/second-arrow-feat-angelica-sanchez-wendy-eisenberg/1882056302?uo=4"
     },
     "embed": {
-      "provider": "deezer",
-      "src": "https://widget.deezer.com/widget/light/album/931725771",
-      "height": 300
+      "provider": "apple",
+      "src": "https://embed.music.apple.com/us/album/1882056302?theme=light",
+      "height": 450
     },
     "musicVideoUrl": null,
     "status": "pending",
@@ -24049,12 +24275,13 @@
       "spotify": "https://open.spotify.com/search/Mina%20Moore%20Heavy%20Load%20%2F%20When%20The%20Spirit%20Says%20Sing",
       "soundcloud": "https://soundcloud.com/search?q=Mina%20Moore%20Heavy%20Load%20%2F%20When%20The%20Spirit%20Says%20Sing",
       "youtube": "https://www.youtube.com/results?search_query=Mina%20Moore%20Heavy%20Load%20%2F%20When%20The%20Spirit%20Says%20Sing",
-      "deezer": "https://www.deezer.com/album/949091221"
+      "deezer": "https://www.deezer.com/album/949091221",
+      "apple": "https://music.apple.com/us/album/when-the-spirit-says-sing-single/1874337496?uo=4"
     },
     "embed": {
-      "provider": "deezer",
-      "src": "https://widget.deezer.com/widget/light/album/949091221",
-      "height": 300
+      "provider": "apple",
+      "src": "https://embed.music.apple.com/us/album/1874337496?theme=light",
+      "height": 450
     },
     "musicVideoUrl": null,
     "status": "pending",
@@ -24083,12 +24310,13 @@
       "spotify": "https://open.spotify.com/search/Chanel%20Beads%20Your%20Day%20Will%20Come",
       "soundcloud": "https://soundcloud.com/search?q=Chanel%20Beads%20Your%20Day%20Will%20Come",
       "youtube": "https://www.youtube.com/results?search_query=Chanel%20Beads%20Your%20Day%20Will%20Come",
-      "deezer": "https://www.deezer.com/album/712574881"
+      "deezer": "https://www.deezer.com/album/712574881",
+      "apple": "https://music.apple.com/us/album/your-day-will-come/1796190717?uo=4"
     },
     "embed": {
-      "provider": "deezer",
-      "src": "https://widget.deezer.com/widget/light/album/712574881",
-      "height": 300
+      "provider": "apple",
+      "src": "https://embed.music.apple.com/us/album/1796190717?theme=light",
+      "height": 450
     },
     "musicVideoUrl": null,
     "status": "pending",
@@ -31364,7 +31592,8 @@
       "spotify": "https://open.spotify.com/search/Olli%20Aarni%20Dimension%20Scrolling",
       "soundcloud": "https://soundcloud.com/search?q=Olli%20Aarni%20Dimension%20Scrolling",
       "youtube": "https://www.youtube.com/results?search_query=Olli%20Aarni%20Dimension%20Scrolling",
-      "apple": "https://music.apple.com/us/album/dimension-scrolling/1817223681?uo=4"
+      "apple": "https://music.apple.com/us/album/dimension-scrolling/1817223681?uo=4",
+      "tidal": "https://tidal.com/album/438753303"
     },
     "embed": {
       "provider": "apple",
@@ -31398,7 +31627,8 @@
       "spotify": "https://open.spotify.com/search/Stone%20(92)%20Dream%20Curtain%20Eternally%20Gentle",
       "soundcloud": "https://soundcloud.com/search?q=Stone%20(92)%20Dream%20Curtain%20Eternally%20Gentle",
       "youtube": "https://www.youtube.com/results?search_query=Stone%20(92)%20Dream%20Curtain%20Eternally%20Gentle",
-      "apple": "https://music.apple.com/us/album/dream-curtain-eternally-gentle/1829925176?uo=4"
+      "apple": "https://music.apple.com/us/album/dream-curtain-eternally-gentle/1829925176?uo=4",
+      "tidal": "https://tidal.com/album/451129580"
     },
     "embed": {
       "provider": "apple",
@@ -31432,7 +31662,8 @@
       "spotify": "https://open.spotify.com/search/Qur'an%20Shaheed%20Pulse",
       "soundcloud": "https://soundcloud.com/search?q=Qur'an%20Shaheed%20Pulse",
       "youtube": "https://www.youtube.com/results?search_query=Qur'an%20Shaheed%20Pulse",
-      "apple": "https://music.apple.com/us/album/pulse/1770094329?uo=4"
+      "apple": "https://music.apple.com/us/album/pulse/1770094329?uo=4",
+      "tidal": "https://tidal.com/album/388998618"
     },
     "embed": {
       "provider": "apple",
@@ -31466,7 +31697,8 @@
       "spotify": "https://open.spotify.com/search/Sallow%20Moth%20Mossbane%20Lantern",
       "soundcloud": "https://soundcloud.com/search?q=Sallow%20Moth%20Mossbane%20Lantern",
       "youtube": "https://www.youtube.com/results?search_query=Sallow%20Moth%20Mossbane%20Lantern",
-      "apple": "https://music.apple.com/us/album/mossbane-lantern/1817939187?uo=4"
+      "apple": "https://music.apple.com/us/album/mossbane-lantern/1817939187?uo=4",
+      "tidal": "https://tidal.com/album/439350203"
     },
     "embed": {
       "provider": "apple",
@@ -31567,7 +31799,8 @@
       "soundcloud": "https://soundcloud.com/search?q=Igor%20Dyachenko%20Post%20Ambient%20Lux",
       "youtube": "https://www.youtube.com/results?search_query=Igor%20Dyachenko%20Post%20Ambient%20Lux",
       "deezer": "https://www.deezer.com/album/779978601",
-      "apple": "https://music.apple.com/us/album/post-ambient-lux/1823643997?uo=4"
+      "apple": "https://music.apple.com/us/album/post-ambient-lux/1823643997?uo=4",
+      "tidal": "https://tidal.com/album/444821745"
     },
     "embed": {
       "provider": "apple",
@@ -31636,7 +31869,8 @@
       "spotify": "https://open.spotify.com/search/Ren%C3%A9%20Najera%20Painted%20Life",
       "soundcloud": "https://soundcloud.com/search?q=Ren%C3%A9%20Najera%20Painted%20Life",
       "youtube": "https://www.youtube.com/results?search_query=Ren%C3%A9%20Najera%20Painted%20Life",
-      "apple": "https://music.apple.com/us/album/painted-life/1817707626?uo=4"
+      "apple": "https://music.apple.com/us/album/painted-life/1817707626?uo=4",
+      "tidal": "https://tidal.com/album/439836537"
     },
     "embed": {
       "provider": "apple",
@@ -31703,7 +31937,8 @@
       "spotify": "https://open.spotify.com/search/Hagen%20Stoll%20Rkustik%20IV",
       "soundcloud": "https://soundcloud.com/search?q=Hagen%20Stoll%20Rkustik%20IV",
       "youtube": "https://www.youtube.com/results?search_query=Hagen%20Stoll%20Rkustik%20IV",
-      "deezer": "https://www.deezer.com/album/625511371"
+      "deezer": "https://www.deezer.com/album/625511371",
+      "tidal": "https://tidal.com/album/379536705"
     },
     "embed": {
       "provider": "deezer",
@@ -31770,7 +32005,8 @@
       "spotify": "https://open.spotify.com/search/Joey%20Beltram%20Classics",
       "soundcloud": "https://soundcloud.com/search?q=Joey%20Beltram%20Classics",
       "youtube": "https://www.youtube.com/results?search_query=Joey%20Beltram%20Classics",
-      "apple": "https://music.apple.com/us/album/classics/1105040878?uo=4"
+      "apple": "https://music.apple.com/us/album/classics/1105040878?uo=4",
+      "tidal": "https://tidal.com/album/59574899"
     },
     "embed": {
       "provider": "apple",
@@ -31840,7 +32076,8 @@
       "soundcloud": "https://soundcloud.com/search?q=Sa%20Pa%20Ambeesh",
       "youtube": "https://www.youtube.com/results?search_query=Sa%20Pa%20Ambeesh",
       "deezer": "https://www.deezer.com/album/786986421",
-      "apple": "https://music.apple.com/us/album/ambeesh/1826054194?uo=4"
+      "apple": "https://music.apple.com/us/album/ambeesh/1826054194?uo=4",
+      "tidal": "https://tidal.com/album/447438257"
     },
     "embed": {
       "provider": "apple",
@@ -31874,7 +32111,8 @@
       "spotify": "https://open.spotify.com/search/Folk%20Bitch%20Trio%20Now%20Would%20Be%20A%20Good%20Time",
       "soundcloud": "https://soundcloud.com/search?q=Folk%20Bitch%20Trio%20Now%20Would%20Be%20A%20Good%20Time",
       "youtube": "https://www.youtube.com/results?search_query=Folk%20Bitch%20Trio%20Now%20Would%20Be%20A%20Good%20Time",
-      "deezer": "https://www.deezer.com/album/744070971"
+      "deezer": "https://www.deezer.com/album/744070971",
+      "tidal": "https://tidal.com/album/430746501"
     },
     "embed": {
       "provider": "deezer",
@@ -31942,7 +32180,8 @@
       "soundcloud": "https://soundcloud.com/search?q=Giant%20Claw%20Decadent%20Stress%20Chamber",
       "youtube": "https://www.youtube.com/results?search_query=Giant%20Claw%20Decadent%20Stress%20Chamber",
       "deezer": "https://www.deezer.com/album/759610511",
-      "apple": "https://music.apple.com/us/album/decadent-stress-chamber/1815420428?uo=4"
+      "apple": "https://music.apple.com/us/album/decadent-stress-chamber/1815420428?uo=4",
+      "tidal": "https://tidal.com/album/436955511"
     },
     "embed": {
       "provider": "apple",
@@ -41569,7 +41808,7 @@
     "title": "Cell",
     "label": "Good Morning Tapes",
     "releaseDate": "2025-01-01",
-    "description": "",
+    "description": "Two pieces of slow, weather-worn ambient on a Good Morning Tapes mixtape, working the hazy meditative zone the label has staked out for years. Filed near Ulla if you need a coordinate.",
     "tags": [
       "electronic"
     ],
@@ -41598,7 +41837,7 @@
     "title": "The Impressions",
     "label": "Pan Am Records",
     "releaseDate": "2025-01-01",
-    "description": "",
+    "description": "WaxTime reissue of the Curtis Mayfield-era Chicago soul group, fourteen tracks pressed in stereo on LP. Gospel-rooted harmonies and the kind of arrangements that quietly shaped what northern soul collectors would later chase.",
     "tags": [
       "funk / soul"
     ],
@@ -41632,7 +41871,7 @@
     "title": "Chet Baker Sings",
     "label": "Pan Am Records",
     "releaseDate": "2025-01-01",
-    "description": "",
+    "description": "Another pass at the 1956 Pacific Jazz vocal sides, the ones that turned a West Coast trumpeter into a fragile, slightly haunted crooner. Still the obvious entry point if you have somehow avoided it.",
     "tags": [
       "jazz"
     ],
@@ -41666,7 +41905,7 @@
     "title": "45 Pounds",
     "label": "Many Hats Endeavors",
     "releaseDate": "2025-01-01",
-    "description": "",
+    "description": "Ten tracks of noise rock filtered through the AD 93 sensibility, where post-hardcore impulses meet the label's usual interest in rhythm as texture. Closer to Show Me The Body than anything in the imprint's club catalogue, but the kinship makes sense once you sit with it.",
     "tags": [
       "electronic"
     ],
@@ -41703,7 +41942,7 @@
     "title": "X-Files: Covers, Compositions And Copyrighted Material",
     "label": "AD 93",
     "releaseDate": "2025-01-01",
-    "description": "",
+    "description": "Henner lands on AD 93 with a two-tracker that pulls his ambient instincts toward something stranger: cut-up vocal fragments, traces of house, an abstracted nod to the source material in the title. Limited pressing, shelve near Lord Of The Isles.",
     "tags": [
       "electronic"
     ],
@@ -41736,7 +41975,7 @@
     "title": "Grand Morbid Funeral",
     "label": "Peaceville",
     "releaseDate": "2025-01-01",
-    "description": "",
+    "description": "Peaceville reissues the 2014 Bloodbath full-length, eleven tracks of unreconstructed Swedish death metal cut with the band's usual reverence for the Sunlight Studio template. For anyone still working through the Entombed back catalogue.",
     "tags": [
       "rock"
     ],
@@ -41771,7 +42010,7 @@
     "title": "10 Years Of Motion Ward",
     "label": "Motion Ward",
     "releaseDate": "2025-01-01",
-    "description": "",
+    "description": "Eighteen tracks marking a decade of Motion Ward, the LA label whose remit has always run from dub techno and downtempo through dream pop and abstract ambient without choosing a lane. A fair survey for anyone tracking the West Coast's quieter experimental edges.",
     "tags": [
       "electronic"
     ],
@@ -41800,7 +42039,7 @@
     "title": "Nailed It",
     "label": "Snappy Little Numbers",
     "releaseDate": "2025-01-01",
-    "description": "",
+    "description": "Twelve tracks of plainspoken, politically pointed punk from the Colorado Springs band, repressed on Snappy Little Numbers. Files alongside the louder end of the label's roster if you want a shelving cue.",
     "tags": [
       "rock"
     ],
