@@ -619,6 +619,73 @@
     "pressMentions": []
   },
   {
+    "id": "jon-hopkins-reckoning",
+    "type": "single",
+    "artist": "Jon Hopkins",
+    "title": "Reckoning",
+    "label": "",
+    "releaseDate": "2026-07-01",
+    "description": "New Jon Hopkins single, arriving with no label attached yet, which is unusual enough to note. Expect the widescreen, piano-anchored electronics he has been working in since Singularity, though anything more specific is guesswork until it lands.",
+    "tags": [],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=Jon%20Hopkins%20Reckoning&item_type=a",
+      "spotify": "https://open.spotify.com/search/Jon%20Hopkins%20Reckoning",
+      "soundcloud": "https://soundcloud.com/search?q=Jon%20Hopkins%20Reckoning",
+      "youtube": "https://www.youtube.com/results?search_query=Jon%20Hopkins%20Reckoning",
+      "deezer": "https://www.deezer.com/album/1001678181",
+      "apple": "https://music.apple.com/us/album/reckoning-single/6778537870?uo=4"
+    },
+    "embed": {
+      "provider": "apple",
+      "src": "https://embed.music.apple.com/us/album/6778537870?theme=light",
+      "height": 450
+    },
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://cdn-images.dzcdn.net/images/cover/c8da0598c9438cd6fc2f36d8486e1d3e/1000x1000-000000-80-0-0.jpg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
+    "id": "baauer-gravity-chaos-flow",
+    "type": "single",
+    "artist": "Baauer",
+    "title": "Gravity / Chaos Flow",
+    "label": "LuckyMe",
+    "releaseDate": "2026-07-01",
+    "description": "Two-tracker from Baauer on LuckyMe, splitting the difference between a house tempo and something heavier and more low-slung. The label continues to indulge his wider-than-club instincts.",
+    "tags": [],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=Baauer%20Gravity%20%2F%20Chaos%20Flow&item_type=a",
+      "spotify": "https://open.spotify.com/search/Baauer%20Gravity%20%2F%20Chaos%20Flow",
+      "soundcloud": "https://soundcloud.com/search?q=Baauer%20Gravity%20%2F%20Chaos%20Flow",
+      "youtube": "https://www.youtube.com/results?search_query=Baauer%20Gravity%20%2F%20Chaos%20Flow",
+      "deezer": "https://www.deezer.com/album/998357171",
+      "apple": "https://music.apple.com/us/album/gravity-chaos-flow-single/6779242670?uo=4",
+      "tidal": "https://tidal.com/album/530976592"
+    },
+    "embed": {
+      "provider": "apple",
+      "src": "https://embed.music.apple.com/us/album/6779242670?theme=light",
+      "height": 450
+    },
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://cdn-images.dzcdn.net/images/cover/ff36b603bce61a6fd079c84eb0df56e2/1000x1000-000000-80-0-0.jpg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
     "id": "fields-of-mist-intergalactic-rose",
     "type": "ep",
     "artist": "Fields Of Mist",
@@ -683,6 +750,33 @@
     "status": "pending",
     "approvedAt": null,
     "coverImageUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/52/80/2c/52802c4c-e991-2815-eb07-83bbe3a355dd/4062548147223.png/600x600bb.jpg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
+    "id": "lone-infinite-unity",
+    "type": "album",
+    "artist": "Lone",
+    "title": "Infinite Unity",
+    "label": "",
+    "releaseDate": "2026-06-30",
+    "description": "New Lone album, no label attached to the file yet, arriving mid-2026. Expect the rave-adjacent, rainbow-hued production he has been trading in since Galaxy Garden, though anything more specific will have to wait for the record.",
+    "tags": [],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=Lone%20Infinite%20Unity&item_type=a",
+      "spotify": "https://open.spotify.com/search/Lone%20Infinite%20Unity",
+      "soundcloud": "https://soundcloud.com/search?q=Lone%20Infinite%20Unity",
+      "youtube": "https://www.youtube.com/results?search_query=Lone%20Infinite%20Unity"
+    },
+    "embed": null,
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": null,
     "cover": {
       "bg": "#111110",
       "fg": "#f2efe8",
@@ -1160,6 +1254,107 @@
     "status": "pending",
     "approvedAt": null,
     "coverImageUrl": null,
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
+    "id": "arca-shout-to-the-lord-live",
+    "type": "album",
+    "artist": "Arca",
+    "title": "Shout To The Lord (Live)",
+    "label": "",
+    "releaseDate": "2026-06-26",
+    "description": "A live document from Arca, arriving under a title that reads as either sincere or provocation depending on where you stand. Expect the maximal, voice-first digital opera she has been building toward across the KiCk sequence, captured in the room.",
+    "tags": [],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=Arca%20Shout%20To%20The%20Lord%20(Live)&item_type=a",
+      "spotify": "https://open.spotify.com/search/Arca%20Shout%20To%20The%20Lord%20(Live)",
+      "soundcloud": "https://soundcloud.com/search?q=Arca%20Shout%20To%20The%20Lord%20(Live)",
+      "youtube": "https://www.youtube.com/results?search_query=Arca%20Shout%20To%20The%20Lord%20(Live)",
+      "apple": "https://music.apple.com/us/album/shout-to-the-lord-live-single/6784235876?uo=4"
+    },
+    "embed": {
+      "provider": "apple",
+      "src": "https://embed.music.apple.com/us/album/6784235876?theme=light",
+      "height": 450
+    },
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": null,
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
+    "id": "alia-where-the-echoes-bloom",
+    "type": "album",
+    "artist": "Alia",
+    "title": "Where The Echoes Bloom",
+    "label": "Leaving Records",
+    "releaseDate": "2026-06-26",
+    "description": "Nine tracks of acoustic-leaning material from Alia, landing on Leaving Records, a label that has spent years blurring the seam between new age, ambient and folk practice. Sits comfortably alongside the Green-House end of the roster.",
+    "tags": [
+      "folk, world, & country"
+    ],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=Alia%20Where%20The%20Echoes%20Bloom&item_type=a",
+      "spotify": "https://open.spotify.com/search/Alia%20Where%20The%20Echoes%20Bloom",
+      "soundcloud": "https://soundcloud.com/search?q=Alia%20Where%20The%20Echoes%20Bloom",
+      "youtube": "https://www.youtube.com/results?search_query=Alia%20Where%20The%20Echoes%20Bloom",
+      "apple": "https://music.apple.com/us/album/where-the-echoes-bloom/1884166309?uo=4"
+    },
+    "embed": {
+      "provider": "apple",
+      "src": "https://embed.music.apple.com/us/album/1884166309?theme=light",
+      "height": 450
+    },
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://i.discogs.com/pbqhLfFsi7liiMBZBySYNxYavewTcCvcr35BMyruGSw/rs:fit/g:sm/q:90/h:594/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM3NjQy/ODI3LTE3ODE2MTYx/MTUtMzg0NS5qcGVn.jpeg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
+    "id": "jaga-jazzist-a-livingroom-hush",
+    "type": "album",
+    "artist": "Jaga Jazzist",
+    "title": "A Livingroom Hush",
+    "label": "Ninja Tune",
+    "releaseDate": "2026-06-26",
+    "description": "Ninja Tune reissue the record that first pulled the Jaga collective into wider view, ten tracks of tightly arranged future jazz for a large ensemble that still plays like a laptop record. Shelve near Cinematic Orchestra.",
+    "tags": [
+      "electronic"
+    ],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=Jaga%20Jazzist%20A%20Livingroom%20Hush&item_type=a",
+      "spotify": "https://open.spotify.com/search/Jaga%20Jazzist%20A%20Livingroom%20Hush",
+      "soundcloud": "https://soundcloud.com/search?q=Jaga%20Jazzist%20A%20Livingroom%20Hush",
+      "youtube": "https://www.youtube.com/results?search_query=Jaga%20Jazzist%20A%20Livingroom%20Hush",
+      "deezer": "https://www.deezer.com/album/936184",
+      "apple": "https://music.apple.com/us/album/a-living-room-hush/416345894?uo=4"
+    },
+    "embed": {
+      "provider": "apple",
+      "src": "https://embed.music.apple.com/us/album/416345894?theme=light",
+      "height": 450
+    },
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://i.discogs.com/zvde-PbYepLWaoRslE_EbgRiEQXSMDd5fov88eSu_M8/rs:fit/g:sm/q:90/h:450/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM3NzQw/NTU4LTE3ODI5NDQx/NTAtNzE0NS5qcGVn.jpeg",
     "cover": {
       "bg": "#111110",
       "fg": "#f2efe8",
@@ -12054,12 +12249,13 @@
       "spotify": "https://open.spotify.com/search/goldenstar%20Chamber%20Music",
       "soundcloud": "https://soundcloud.com/search?q=goldenstar%20Chamber%20Music",
       "youtube": "https://www.youtube.com/results?search_query=goldenstar%20Chamber%20Music",
-      "deezer": "https://www.deezer.com/album/936303281"
+      "deezer": "https://www.deezer.com/album/936303281",
+      "apple": "https://music.apple.com/us/album/chamber-music-ep/1883844623?uo=4"
     },
     "embed": {
-      "provider": "deezer",
-      "src": "https://widget.deezer.com/widget/light/album/936303281",
-      "height": 300
+      "provider": "apple",
+      "src": "https://embed.music.apple.com/us/album/1883844623?theme=light",
+      "height": 450
     },
     "musicVideoUrl": null,
     "status": "pending",
@@ -18268,12 +18464,13 @@
       "spotify": "https://open.spotify.com/search/Kaazi%20Incidental%20Scenes",
       "soundcloud": "https://soundcloud.com/search?q=Kaazi%20Incidental%20Scenes",
       "youtube": "https://www.youtube.com/results?search_query=Kaazi%20Incidental%20Scenes",
-      "deezer": "https://www.deezer.com/album/917928441"
+      "deezer": "https://www.deezer.com/album/917928441",
+      "apple": "https://music.apple.com/us/album/incidental-scenes/1876989272?uo=4"
     },
     "embed": {
-      "provider": "deezer",
-      "src": "https://widget.deezer.com/widget/light/album/917928441",
-      "height": 300
+      "provider": "apple",
+      "src": "https://embed.music.apple.com/us/album/1876989272?theme=light",
+      "height": 450
     },
     "musicVideoUrl": null,
     "status": "pending",
@@ -18810,12 +19007,13 @@
       "spotify": "https://open.spotify.com/search/BIG%20WETT%20Girls",
       "soundcloud": "https://soundcloud.com/search?q=BIG%20WETT%20Girls",
       "youtube": "https://www.youtube.com/results?search_query=BIG%20WETT%20Girls",
-      "deezer": "https://www.deezer.com/album/931235181"
+      "deezer": "https://www.deezer.com/album/931235181",
+      "apple": "https://music.apple.com/us/album/girls-single/1881730665?uo=4"
     },
     "embed": {
-      "provider": "deezer",
-      "src": "https://widget.deezer.com/widget/light/album/931235181",
-      "height": 300
+      "provider": "apple",
+      "src": "https://embed.music.apple.com/us/album/1881730665?theme=light",
+      "height": 450
     },
     "musicVideoUrl": null,
     "status": "pending",
@@ -21462,12 +21660,13 @@
       "spotify": "https://open.spotify.com/search/Hecker%20Natural%20Selection",
       "soundcloud": "https://soundcloud.com/search?q=Hecker%20Natural%20Selection",
       "youtube": "https://www.youtube.com/results?search_query=Hecker%20Natural%20Selection",
-      "deezer": "https://www.deezer.com/album/861663982"
+      "deezer": "https://www.deezer.com/album/861663982",
+      "apple": "https://music.apple.com/us/album/natural-selection/1854910808?uo=4"
     },
     "embed": {
-      "provider": "deezer",
-      "src": "https://widget.deezer.com/widget/light/album/861663982",
-      "height": 300
+      "provider": "apple",
+      "src": "https://embed.music.apple.com/us/album/1854910808?theme=light",
+      "height": 450
     },
     "musicVideoUrl": null,
     "status": "pending",
@@ -24094,7 +24293,9 @@
       "fg": "#f2efe8",
       "motif": "disc"
     },
-    "pressMentions": []
+    "pressMentions": [
+      "stereogum"
+    ]
   },
   {
     "id": "skee-mask-junt",
@@ -24322,6 +24523,40 @@
     "status": "pending",
     "approvedAt": null,
     "coverImageUrl": "https://i.discogs.com/xJdAVKBpNbzI8nxFCeZfUa2Y3EcxV7pB-4eru2YZHaM/rs:fit/g:sm/q:90/h:600/w:591/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM3NzI2/MzUwLTE3ODI0OTAz/MTktOTU1NS5qcGVn.jpeg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
+    "id": "the-1975-being-funny-in-a-foreign-language",
+    "type": "album",
+    "artist": "The 1975",
+    "title": "Being Funny In A Foreign Language",
+    "label": "Dirty Hit",
+    "releaseDate": "2026-01-01",
+    "description": "Matty Healy and co pared back to eleven tracks with Jack Antonoff at the desk, and the record sits closer to their softer 80s-pop instincts than the maximalist sprawl of Notes On A Conditional Form. Dirty Hit doing the tidy vinyl edition.",
+    "tags": [
+      "rock"
+    ],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=The%201975%20Being%20Funny%20In%20A%20Foreign%20Language&item_type=a",
+      "spotify": "https://open.spotify.com/search/The%201975%20Being%20Funny%20In%20A%20Foreign%20Language",
+      "soundcloud": "https://soundcloud.com/search?q=The%201975%20Being%20Funny%20In%20A%20Foreign%20Language",
+      "youtube": "https://www.youtube.com/results?search_query=The%201975%20Being%20Funny%20In%20A%20Foreign%20Language",
+      "deezer": "https://www.deezer.com/album/848104422"
+    },
+    "embed": {
+      "provider": "deezer",
+      "src": "https://widget.deezer.com/widget/light/album/848104422",
+      "height": 300
+    },
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://i.discogs.com/hGrsfeu-r6EyDAJbqRxrwLeMgI3v70WlhaC-O8D27ck/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM3MzEw/NDk2LTE3ODI4MDYx/NDItMTIyMy5qcGVn.jpeg",
     "cover": {
       "bg": "#111110",
       "fg": "#f2efe8",
@@ -42074,7 +42309,7 @@
     "title": "Emahoy Tsege-Mariam Gebru Played By Maya Dunietz & String Ensemble Live In Paris",
     "label": "Latency",
     "releaseDate": "2025-01-01",
-    "description": "",
+    "description": "Maya Dunietz reads the Emahoy songbook with a string ensemble in a Paris room, translating the Ethiopian nun-composer's solo piano miniatures into chamber arrangements. Latency handling it with the care the material asks for.",
     "tags": [
       "jazz"
     ],
@@ -42108,7 +42343,7 @@
     "title": "És Pregunta",
     "label": "Latency",
     "releaseDate": "2025-01-01",
-    "description": "",
+    "description": "The Barcelona duo's vocal work lands on Latency, threading Sephardic and Mediterranean traditional song through electronics and contemporary composition. Eleven pieces that treat early music as raw material rather than heritage.",
     "tags": [
       "electronic"
     ],
@@ -42144,7 +42379,7 @@
     "title": "Plastic Dreams",
     "label": "R & S Records",
     "releaseDate": "2025-01-01",
-    "description": "",
+    "description": "R & S puts the Hammond-riding 1992 anthem back on wax, one-sided and limited, exactly the kind of artefact it always should have been. Still the template every deep house record made after it is measured against.",
     "tags": [
       "electronic"
     ],
@@ -42179,7 +42414,7 @@
     "title": "Queridão",
     "label": "Nyege Nyege Tapes",
     "releaseDate": "2025-01-01",
-    "description": "",
+    "description": "Seventeen tracks of Belo Horizonte bruxaria funk landing on Nyege Nyege, all metallic percussion, sub pressure and the eerie negative space the style is built around. For anyone tracking the label's ongoing interest in regional club dialects.",
     "tags": [
       "electronic"
     ],
@@ -42214,7 +42449,7 @@
     "title": "Turbo Meltdown",
     "label": "Nyege Nyege Tapes",
     "releaseDate": "2025-01-01",
-    "description": "",
+    "description": "Jonathan Uliel Saldanha's brass-and-percussion collective returns to Nyege Nyege for another set of dub-warped horn processionals cut with Kampalan street percussion. Ceremonial in shape, corroded at the edges; for anyone still spinning Lithium Blast.",
     "tags": [
       "electronic"
     ],
@@ -42250,7 +42485,7 @@
     "title": "Ta Ka Gaza",
     "label": "Nyege Nyege Tapes",
     "releaseDate": "2025-01-01",
-    "description": "",
+    "description": "Six tracks of South African house filtered through Nyege Nyege's usual appetite for regional dance mutations, synth-pop sheen laid over the rhythm bed rather than smoothing it out. Sits comfortably next to the label's Sisso and Duke output.",
     "tags": [
       "electronic"
     ],
@@ -42279,7 +42514,7 @@
     "title": "From The Leaves Of Your Garden",
     "label": "Other People Records",
     "releaseDate": "2025-01-01",
-    "description": "",
+    "description": "Twelve tracks of guitar-forward shoegaze with the emotional wiring of late-90s emo, repressed by Other People. Filed closer to Nothing or Whirr than to anything in the label's usual electronic remit.",
     "tags": [
       "rock"
     ],
@@ -42314,7 +42549,7 @@
     "title": "Fobia",
     "label": "Other People",
     "releaseDate": "2025-01-01",
-    "description": "",
+    "description": "Nine pieces of electroacoustic ambient from the Buenos Aires producer, arriving on Nicolas Jaar's Other People in a stereo 12\". Fragmented, close-mic'd, more room-tone than club, sits comfortably next to Lucy Railton on the shelf.",
     "tags": [
       "electronic"
     ],
@@ -43211,7 +43446,8 @@
       "motif": "disc"
     },
     "pressMentions": [
-      "ra"
+      "ra",
+      "pitchfork_albums"
     ]
   },
   {
@@ -47499,7 +47735,8 @@
       "spotify": "https://open.spotify.com/search/Modern%20Color%20There%20Goes%20The%20Dream",
       "soundcloud": "https://soundcloud.com/search?q=Modern%20Color%20There%20Goes%20The%20Dream",
       "youtube": "https://www.youtube.com/results?search_query=Modern%20Color%20There%20Goes%20The%20Dream",
-      "deezer": "https://www.deezer.com/album/620563741"
+      "deezer": "https://www.deezer.com/album/620563741",
+      "tidal": "https://tidal.com/album/353037206"
     },
     "embed": {
       "provider": "deezer",
@@ -47533,7 +47770,8 @@
       "spotify": "https://open.spotify.com/search/Throwing%20Snow%20Isthmus",
       "soundcloud": "https://soundcloud.com/search?q=Throwing%20Snow%20Isthmus",
       "youtube": "https://www.youtube.com/results?search_query=Throwing%20Snow%20Isthmus",
-      "apple": "https://music.apple.com/us/album/isthmus/1751886599?uo=4"
+      "apple": "https://music.apple.com/us/album/isthmus/1751886599?uo=4",
+      "tidal": "https://tidal.com/album/369170480"
     },
     "embed": {
       "provider": "apple",
@@ -47567,7 +47805,8 @@
       "spotify": "https://open.spotify.com/search/Ciel%20(5)%2C%20CCL%20(4)%20Tilda's%20Goat%20Stare",
       "soundcloud": "https://soundcloud.com/search?q=Ciel%20(5)%2C%20CCL%20(4)%20Tilda's%20Goat%20Stare",
       "youtube": "https://www.youtube.com/results?search_query=Ciel%20(5)%2C%20CCL%20(4)%20Tilda's%20Goat%20Stare",
-      "apple": "https://music.apple.com/us/album/tildas-goat-stare-ep/1756205639?uo=4"
+      "apple": "https://music.apple.com/us/album/tildas-goat-stare-ep/1756205639?uo=4",
+      "tidal": "https://tidal.com/album/374073705"
     },
     "embed": {
       "provider": "apple",
@@ -47637,7 +47876,8 @@
       "soundcloud": "https://soundcloud.com/search?q=Jonnine%20Southside%20Girl",
       "youtube": "https://www.youtube.com/results?search_query=Jonnine%20Southside%20Girl",
       "deezer": "https://www.deezer.com/album/618990391",
-      "apple": "https://music.apple.com/us/album/southside-girl/1758415948?uo=4"
+      "apple": "https://music.apple.com/us/album/southside-girl/1758415948?uo=4",
+      "tidal": "https://tidal.com/album/376695737"
     },
     "embed": {
       "provider": "apple",
@@ -47672,7 +47912,8 @@
       "soundcloud": "https://soundcloud.com/search?q=Body%20San%20Hilly%20Blue",
       "youtube": "https://www.youtube.com/results?search_query=Body%20San%20Hilly%20Blue",
       "deezer": "https://www.deezer.com/album/596989022",
-      "apple": "https://music.apple.com/us/album/hilly-blue/1750295449?uo=4"
+      "apple": "https://music.apple.com/us/album/hilly-blue/1750295449?uo=4",
+      "tidal": "https://tidal.com/album/367409681"
     },
     "embed": {
       "provider": "apple",
@@ -47706,7 +47947,8 @@
       "spotify": "https://open.spotify.com/search/Jupiter%20Jax%20Summer%20Grey",
       "soundcloud": "https://soundcloud.com/search?q=Jupiter%20Jax%20Summer%20Grey",
       "youtube": "https://www.youtube.com/results?search_query=Jupiter%20Jax%20Summer%20Grey",
-      "apple": "https://music.apple.com/us/album/summer-grey/1750296419?uo=4"
+      "apple": "https://music.apple.com/us/album/summer-grey/1750296419?uo=4",
+      "tidal": "https://tidal.com/album/367409691"
     },
     "embed": {
       "provider": "apple",
@@ -47741,7 +47983,8 @@
       "soundcloud": "https://soundcloud.com/search?q=REV%20DICA",
       "youtube": "https://www.youtube.com/results?search_query=REV%20DICA",
       "deezer": "https://www.deezer.com/album/613502672",
-      "apple": "https://music.apple.com/us/album/dica/1756473769?uo=4"
+      "apple": "https://music.apple.com/us/album/dica/1756473769?uo=4",
+      "tidal": "https://tidal.com/album/374395051"
     },
     "embed": {
       "provider": "apple",
@@ -47775,7 +48018,8 @@
       "spotify": "https://open.spotify.com/search/Henrique%20Vaz%20De%20Silenti%20Natura",
       "soundcloud": "https://soundcloud.com/search?q=Henrique%20Vaz%20De%20Silenti%20Natura",
       "youtube": "https://www.youtube.com/results?search_query=Henrique%20Vaz%20De%20Silenti%20Natura",
-      "apple": "https://music.apple.com/us/album/de-silenti-natura-ep/1759352793?uo=4"
+      "apple": "https://music.apple.com/us/album/de-silenti-natura-ep/1759352793?uo=4",
+      "tidal": "https://tidal.com/album/377343605"
     },
     "embed": {
       "provider": "apple",
@@ -47810,7 +48054,8 @@
       "soundcloud": "https://soundcloud.com/search?q=John%20Lennon%20Mind%20Games",
       "youtube": "https://www.youtube.com/results?search_query=John%20Lennon%20Mind%20Games",
       "deezer": "https://www.deezer.com/album/660827",
-      "apple": "https://music.apple.com/us/album/mind-games-meditation-mixes/1762446082?uo=4"
+      "apple": "https://music.apple.com/us/album/mind-games-meditation-mixes/1762446082?uo=4",
+      "tidal": "https://tidal.com/album/390758371"
     },
     "embed": {
       "provider": "apple",
@@ -47844,7 +48089,8 @@
       "spotify": "https://open.spotify.com/search/Burial%20Ghost%20Hardware",
       "soundcloud": "https://soundcloud.com/search?q=Burial%20Ghost%20Hardware",
       "youtube": "https://www.youtube.com/results?search_query=Burial%20Ghost%20Hardware",
-      "deezer": "https://www.deezer.com/album/8045432"
+      "deezer": "https://www.deezer.com/album/8045432",
+      "tidal": "https://tidal.com/album/111935743"
     },
     "embed": {
       "provider": "deezer",
@@ -47879,7 +48125,8 @@
       "soundcloud": "https://soundcloud.com/search?q=Ku%C4%8Dka%20Can%20You%20Hear%20Me%20Dreaming%3F",
       "youtube": "https://www.youtube.com/results?search_query=Ku%C4%8Dka%20Can%20You%20Hear%20Me%20Dreaming%3F",
       "deezer": "https://www.deezer.com/album/557167902",
-      "apple": "https://music.apple.com/us/album/can-you-hear-me-dreaming/1734797360?uo=4"
+      "apple": "https://music.apple.com/us/album/can-you-hear-me-dreaming/1734797360?uo=4",
+      "tidal": "https://tidal.com/album/349563904"
     },
     "embed": {
       "provider": "apple",
@@ -47913,7 +48160,8 @@
       "spotify": "https://open.spotify.com/search/Downstairs%20People%20DSP",
       "soundcloud": "https://soundcloud.com/search?q=Downstairs%20People%20DSP",
       "youtube": "https://www.youtube.com/results?search_query=Downstairs%20People%20DSP",
-      "deezer": "https://www.deezer.com/album/578477691"
+      "deezer": "https://www.deezer.com/album/578477691",
+      "tidal": "https://tidal.com/album/359620227"
     },
     "embed": {
       "provider": "deezer",
@@ -47947,7 +48195,8 @@
       "spotify": "https://open.spotify.com/search/Antonina%20Nowacka%20Sylphine%20Soporifera",
       "soundcloud": "https://soundcloud.com/search?q=Antonina%20Nowacka%20Sylphine%20Soporifera",
       "youtube": "https://www.youtube.com/results?search_query=Antonina%20Nowacka%20Sylphine%20Soporifera",
-      "apple": "https://music.apple.com/us/album/sylphine-soporifera/1751929056?uo=4"
+      "apple": "https://music.apple.com/us/album/sylphine-soporifera/1751929056?uo=4",
+      "tidal": "https://tidal.com/album/368488220"
     },
     "embed": {
       "provider": "apple",
@@ -47982,7 +48231,8 @@
       "soundcloud": "https://soundcloud.com/search?q=Shinetiac%20Starfrog%20Slipmoded",
       "youtube": "https://www.youtube.com/results?search_query=Shinetiac%20Starfrog%20Slipmoded",
       "deezer": "https://www.deezer.com/album/607798732",
-      "apple": "https://music.apple.com/us/album/starfrog-slipmoded-feat-ben-bondy/1754382109?uo=4"
+      "apple": "https://music.apple.com/us/album/starfrog-slipmoded-feat-ben-bondy/1754382109?uo=4",
+      "tidal": "https://tidal.com/album/371896101"
     },
     "embed": {
       "provider": "apple",
@@ -48016,7 +48266,8 @@
       "spotify": "https://open.spotify.com/search/Patrick%20Higgins%20(2)%20Versus",
       "soundcloud": "https://soundcloud.com/search?q=Patrick%20Higgins%20(2)%20Versus",
       "youtube": "https://www.youtube.com/results?search_query=Patrick%20Higgins%20(2)%20Versus",
-      "apple": "https://music.apple.com/us/album/versus/1740427813?uo=4"
+      "apple": "https://music.apple.com/us/album/versus/1740427813?uo=4",
+      "tidal": "https://tidal.com/album/355447321"
     },
     "embed": {
       "provider": "apple",
@@ -48050,7 +48301,8 @@
       "spotify": "https://open.spotify.com/search/Hiatus%20Kaiyote%20Love%20Heart%20Cheat%20Code",
       "soundcloud": "https://soundcloud.com/search?q=Hiatus%20Kaiyote%20Love%20Heart%20Cheat%20Code",
       "youtube": "https://www.youtube.com/results?search_query=Hiatus%20Kaiyote%20Love%20Heart%20Cheat%20Code",
-      "deezer": "https://www.deezer.com/album/565763381"
+      "deezer": "https://www.deezer.com/album/565763381",
+      "tidal": "https://tidal.com/album/353916137"
     },
     "embed": {
       "provider": "deezer",
@@ -48084,7 +48336,8 @@
       "spotify": "https://open.spotify.com/search/Bartosz%20Kruczy%C5%84ski%20Dreams%20%26%20Whispers",
       "soundcloud": "https://soundcloud.com/search?q=Bartosz%20Kruczy%C5%84ski%20Dreams%20%26%20Whispers",
       "youtube": "https://www.youtube.com/results?search_query=Bartosz%20Kruczy%C5%84ski%20Dreams%20%26%20Whispers",
-      "apple": "https://music.apple.com/us/album/dreams-whispers/1745091060?uo=4"
+      "apple": "https://music.apple.com/us/album/dreams-whispers/1745091060?uo=4",
+      "tidal": "https://tidal.com/album/361808453"
     },
     "embed": {
       "provider": "apple",
@@ -48119,7 +48372,8 @@
       "soundcloud": "https://soundcloud.com/search?q=Maude%20V%C3%B4s%205th%20Generation%20Angel",
       "youtube": "https://www.youtube.com/results?search_query=Maude%20V%C3%B4s%205th%20Generation%20Angel",
       "deezer": "https://www.deezer.com/album/596213972",
-      "apple": "https://music.apple.com/us/album/5th-generation-angel-feat-alice-km-ep/1749941773?uo=4"
+      "apple": "https://music.apple.com/us/album/5th-generation-angel-feat-alice-km-ep/1749941773?uo=4",
+      "tidal": "https://tidal.com/album/367034696"
     },
     "embed": {
       "provider": "apple",
