@@ -474,6 +474,38 @@
     "pressMentions": []
   },
   {
+    "id": "faltydl-be-my-baby-ep",
+    "type": "ep",
+    "artist": "FaltyDL",
+    "title": "Be My Baby EP",
+    "label": "",
+    "releaseDate": "2026-07-17",
+    "description": "FaltyDL returns with a short EP under a title borrowed from the Spector standard, the kind of pop-memory feint he has always folded into his skittish, sample-worn take on club music. Sits closer to the Blueberry Records end of his catalogue than the Planet Mu one.",
+    "tags": [],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=FaltyDL%20Be%20My%20Baby%20EP&item_type=a",
+      "spotify": "https://open.spotify.com/search/FaltyDL%20Be%20My%20Baby%20EP",
+      "soundcloud": "https://soundcloud.com/search?q=FaltyDL%20Be%20My%20Baby%20EP",
+      "youtube": "https://www.youtube.com/results?search_query=FaltyDL%20Be%20My%20Baby%20EP",
+      "deezer": "https://www.deezer.com/album/998695861"
+    },
+    "embed": {
+      "provider": "deezer",
+      "src": "https://widget.deezer.com/widget/light/album/998695861",
+      "height": 300
+    },
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": null,
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
     "id": "eartheater-heavenly-body-if-i-39-m-the-bottle-you-re-the-message",
     "type": "album",
     "artist": "Eartheater",
@@ -577,9 +609,16 @@
       "bandcamp": "https://bandcamp.com/search?q=FaltyDL%20Be%20My%20Baby%20%2F%20Wild%20Rice&item_type=a",
       "spotify": "https://open.spotify.com/search/FaltyDL%20Be%20My%20Baby%20%2F%20Wild%20Rice",
       "soundcloud": "https://soundcloud.com/search?q=FaltyDL%20Be%20My%20Baby%20%2F%20Wild%20Rice",
-      "youtube": "https://www.youtube.com/results?search_query=FaltyDL%20Be%20My%20Baby%20%2F%20Wild%20Rice"
+      "youtube": "https://www.youtube.com/results?search_query=FaltyDL%20Be%20My%20Baby%20%2F%20Wild%20Rice",
+      "deezer": "https://www.deezer.com/album/998695891",
+      "apple": "https://music.apple.com/us/album/be-my-baby-wild-rice-single/6777246645?uo=4",
+      "tidal": "https://tidal.com/album/531032911"
     },
-    "embed": null,
+    "embed": {
+      "provider": "apple",
+      "src": "https://embed.music.apple.com/us/album/6777246645?theme=light",
+      "height": 450
+    },
     "musicVideoUrl": null,
     "status": "pending",
     "approvedAt": null,
@@ -604,13 +643,271 @@
       "bandcamp": "https://bandcamp.com/search?q=Galcher%20Lustwerk%20Vestibule%20Remixes&item_type=a",
       "spotify": "https://open.spotify.com/search/Galcher%20Lustwerk%20Vestibule%20Remixes",
       "soundcloud": "https://soundcloud.com/search?q=Galcher%20Lustwerk%20Vestibule%20Remixes",
-      "youtube": "https://www.youtube.com/results?search_query=Galcher%20Lustwerk%20Vestibule%20Remixes"
+      "youtube": "https://www.youtube.com/results?search_query=Galcher%20Lustwerk%20Vestibule%20Remixes",
+      "deezer": "https://www.deezer.com/album/1000800511",
+      "apple": "https://music.apple.com/us/album/vestibule-remixes/6778193392?uo=4",
+      "tidal": "https://tidal.com/album/531832136"
+    },
+    "embed": {
+      "provider": "apple",
+      "src": "https://embed.music.apple.com/us/album/6778193392?theme=light",
+      "height": 450
+    },
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": null,
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
+    "id": "madhur-sharma-moin-nusrat-fateh-ali-khan-dil-pe-zakham",
+    "type": "single",
+    "artist": "Madhur Sharma, Moin & Nusrat Fateh Ali Khan",
+    "title": "Dil Pe Zakham",
+    "label": "Oriental Star Agencies Ltd, A division of Universal Music Group",
+    "releaseDate": "2026-07-03",
+    "description": "A three-way credit pairing contemporary voices with archival Nusrat Fateh Ali Khan material, out through Oriental Star, the Birmingham imprint that has housed his catalogue for decades. How much is new and how much is estate remains for the listener to work out.",
+    "tags": [
+      "worldwide"
+    ],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=Madhur%20Sharma%2C%20Moin%20%26%20Nusrat%20Fateh%20Ali%20Khan%20Dil%20Pe%20Zakham&item_type=a",
+      "spotify": "https://open.spotify.com/search/Madhur%20Sharma%2C%20Moin%20%26%20Nusrat%20Fateh%20Ali%20Khan%20Dil%20Pe%20Zakham",
+      "soundcloud": "https://soundcloud.com/search?q=Madhur%20Sharma%2C%20Moin%20%26%20Nusrat%20Fateh%20Ali%20Khan%20Dil%20Pe%20Zakham",
+      "youtube": "https://www.youtube.com/results?search_query=Madhur%20Sharma%2C%20Moin%20%26%20Nusrat%20Fateh%20Ali%20Khan%20Dil%20Pe%20Zakham",
+      "apple": "https://music.apple.com/us/album/dil-pe-zakham-single/6782017873"
     },
     "embed": null,
     "musicVideoUrl": null,
     "status": "pending",
     "approvedAt": null,
-    "coverImageUrl": null,
+    "coverImageUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/56/10/fd/5610fd08-d693-2975-0ec4-fbb51326674c/26UMGIM79023.rgb.jpg/600x600bb.jpg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
+    "id": "kosmos-vreeth",
+    "type": "album",
+    "artist": "KOSMOS",
+    "title": "Vreeth",
+    "label": "",
+    "releaseDate": "2026-07-03",
+    "description": "KOSMOS returns with Vreeth, a full-length landing in mid-2026 with no label attached yet. Details are thin on the ground; worth flagging early for anyone tracking the project.",
+    "tags": [],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=KOSMOS%20Vreeth&item_type=a",
+      "spotify": "https://open.spotify.com/search/KOSMOS%20Vreeth",
+      "soundcloud": "https://soundcloud.com/search?q=KOSMOS%20Vreeth",
+      "youtube": "https://www.youtube.com/results?search_query=KOSMOS%20Vreeth",
+      "deezer": "https://www.deezer.com/album/1019375971",
+      "tidal": "https://tidal.com/album/539352539"
+    },
+    "embed": null,
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://cdn-images.dzcdn.net/images/cover/dc8acea414f763a2c1176eaf50de77ae/1000x1000-000000-80-0-0.jpg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
+    "id": "xang-salute",
+    "type": "single",
+    "artist": "Xang",
+    "title": "salute",
+    "label": "",
+    "releaseDate": "2026-07-03",
+    "description": "A new Xang single dropped without label attribution, which is usually how his cloud-rap adjacent sketches surface before anyone catches up. Worth a listen if the more melodic corners of French internet rap still hold your attention.",
+    "tags": [],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=Xang%20salute&item_type=a",
+      "spotify": "https://open.spotify.com/search/Xang%20salute",
+      "soundcloud": "https://soundcloud.com/search?q=Xang%20salute",
+      "youtube": "https://www.youtube.com/results?search_query=Xang%20salute",
+      "deezer": "https://www.deezer.com/album/1017917671"
+    },
+    "embed": null,
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://cdn-images.dzcdn.net/images/cover/ae605e81b1b81476d11c43267b5cad86/1000x1000-000000-80-0-0.jpg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
+    "id": "richie-culver-c-side",
+    "type": "single",
+    "artist": "Richie Culver",
+    "title": "C-SIDE",
+    "label": "",
+    "releaseDate": "2026-07-03",
+    "description": "Culver in single form, which in his hands usually means blunt spoken text laid over industrial residue and hollowed-out club scaffolding. Same register as the Participant material, if that's your shelf.",
+    "tags": [],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=Richie%20Culver%20C-SIDE&item_type=a",
+      "spotify": "https://open.spotify.com/search/Richie%20Culver%20C-SIDE",
+      "soundcloud": "https://soundcloud.com/search?q=Richie%20Culver%20C-SIDE",
+      "youtube": "https://www.youtube.com/results?search_query=Richie%20Culver%20C-SIDE",
+      "deezer": "https://www.deezer.com/album/967970061",
+      "apple": "https://music.apple.com/us/album/c-side-single/1895412337?uo=4"
+    },
+    "embed": {
+      "provider": "apple",
+      "src": "https://embed.music.apple.com/us/album/1895412337?theme=light",
+      "height": 450
+    },
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://cdn-images.dzcdn.net/images/cover/3df5dcaa3150126424d129ed2ea2b49a/1000x1000-000000-80-0-0.jpg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
+    "id": "matthew-herbert-american-dream-herbert-s-edibles-dub",
+    "type": "single",
+    "artist": "Matthew Herbert",
+    "title": "American Dream (Herbert's Edibles Dub)",
+    "label": "",
+    "releaseDate": "2026-07-03",
+    "description": "Herbert in dub mode, which historically means found-sound micro-edits reassembled into something that still swings. No label attached yet, but his edit habit is well documented across two decades of house records.",
+    "tags": [],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=Matthew%20Herbert%20American%20Dream%20(Herbert's%20Edibles%20Dub)&item_type=a",
+      "spotify": "https://open.spotify.com/search/Matthew%20Herbert%20American%20Dream%20(Herbert's%20Edibles%20Dub)",
+      "soundcloud": "https://soundcloud.com/search?q=Matthew%20Herbert%20American%20Dream%20(Herbert's%20Edibles%20Dub)",
+      "youtube": "https://www.youtube.com/results?search_query=Matthew%20Herbert%20American%20Dream%20(Herbert's%20Edibles%20Dub)",
+      "deezer": "https://www.deezer.com/album/1017634471"
+    },
+    "embed": null,
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://cdn-images.dzcdn.net/images/cover/ad691a85b5447ccddebf57cb435496ac/1000x1000-000000-80-0-0.jpg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
+    "id": "black-milk-fin",
+    "type": "single",
+    "artist": "Black Milk",
+    "title": "FIN",
+    "label": "",
+    "releaseDate": "2026-07-03",
+    "description": "The Detroit producer and MC returns in his usual mode, drums pushed high, live-band swing baked into the beat programming. Worth a listen for anyone who kept Tronic or No Poison No Paradise in rotation.",
+    "tags": [],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=Black%20Milk%20FIN&item_type=a",
+      "spotify": "https://open.spotify.com/search/Black%20Milk%20FIN",
+      "soundcloud": "https://soundcloud.com/search?q=Black%20Milk%20FIN",
+      "youtube": "https://www.youtube.com/results?search_query=Black%20Milk%20FIN",
+      "deezer": "https://www.deezer.com/album/1006242001",
+      "apple": "https://music.apple.com/us/album/fin-single/6780587257?uo=4"
+    },
+    "embed": {
+      "provider": "apple",
+      "src": "https://embed.music.apple.com/us/album/6780587257?theme=light",
+      "height": 450
+    },
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://cdn-images.dzcdn.net/images/cover/cfced91b3b41d7c8e4aaf794b86d90fc/1000x1000-000000-80-0-0.jpg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
+    "id": "djrum-i-wander-iv-v",
+    "type": "single",
+    "artist": "Djrum",
+    "title": "I Wander (IV + V)",
+    "label": "Houndstooth",
+    "releaseDate": "2026-07-02",
+    "description": "Djrum stays on Houndstooth for another dispatch from the drum and bass end of his catalogue, where breaks tend to arrive framed by piano rather than the other way around. Filed alongside the more introspective Fabric residents.",
+    "tags": [
+      "jungle/drum'n'bass"
+    ],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=Djrum%20I%20Wander%20(IV%20%2B%20V)&item_type=a",
+      "spotify": "https://open.spotify.com/search/Djrum%20I%20Wander%20(IV%20%2B%20V)",
+      "soundcloud": "https://soundcloud.com/search?q=Djrum%20I%20Wander%20(IV%20%2B%20V)",
+      "youtube": "https://www.youtube.com/results?search_query=Djrum%20I%20Wander%20(IV%20%2B%20V)",
+      "apple": "https://music.apple.com/us/album/i-wander-iv-v-single/6780842085",
+      "deezer": "https://www.deezer.com/album/1006927781"
+    },
+    "embed": {
+      "provider": "apple",
+      "src": "https://embed.music.apple.com/us/album/6780842085?theme=light",
+      "height": 450
+    },
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/6e/0a/ec/6e0aec63-ac80-3782-9cb1-0e7665e9ce78/cover.jpg/600x600bb.jpg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": [
+      "stereogum"
+    ]
+  },
+  {
+    "id": "noon-dark-bells",
+    "type": "single",
+    "artist": "Noon",
+    "title": "Dark Bells",
+    "label": "",
+    "releaseDate": "2026-07-02",
+    "description": "Noon returns with \"Dark Bells,\" arriving self-released or through channels not yet catalogued. Sparse metadata, so take it on the artist's name and see where it lands.",
+    "tags": [],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=Noon%20Dark%20Bells&item_type=a",
+      "spotify": "https://open.spotify.com/search/Noon%20Dark%20Bells",
+      "soundcloud": "https://soundcloud.com/search?q=Noon%20Dark%20Bells",
+      "youtube": "https://www.youtube.com/results?search_query=Noon%20Dark%20Bells",
+      "deezer": "https://www.deezer.com/album/1019634141",
+      "apple": "https://music.apple.com/us/album/dark-bells-single/6786669243?uo=4"
+    },
+    "embed": {
+      "provider": "apple",
+      "src": "https://embed.music.apple.com/us/album/6786669243?theme=light",
+      "height": 450
+    },
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://cdn-images.dzcdn.net/images/cover/721b9a55f4fc529fe13722cabd005878/1000x1000-000000-80-0-0.jpg",
     "cover": {
       "bg": "#111110",
       "fg": "#f2efe8",
@@ -678,6 +975,41 @@
     "status": "pending",
     "approvedAt": null,
     "coverImageUrl": "https://cdn-images.dzcdn.net/images/cover/ff36b603bce61a6fd079c84eb0df56e2/1000x1000-000000-80-0-0.jpg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
+    "id": "son-de-isla-verde-buco-chen-chen",
+    "type": "album",
+    "artist": "Son de Isla Verde",
+    "title": "Buco Chen Chen",
+    "label": "Son de Isla Verde",
+    "releaseDate": "2026-07-01",
+    "description": "Eight tracks of straight-ahead salsa self-released under the band's own name, no crossover angle, no retro framing. Shelve with the working dance-floor Latin section rather than the crate-digger reissues.",
+    "tags": [
+      "latin"
+    ],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=Son%20de%20Isla%20Verde%20Buco%20Chen%20Chen&item_type=a",
+      "spotify": "https://open.spotify.com/search/Son%20de%20Isla%20Verde%20Buco%20Chen%20Chen",
+      "soundcloud": "https://soundcloud.com/search?q=Son%20de%20Isla%20Verde%20Buco%20Chen%20Chen",
+      "youtube": "https://www.youtube.com/results?search_query=Son%20de%20Isla%20Verde%20Buco%20Chen%20Chen",
+      "deezer": "https://www.deezer.com/album/978035411",
+      "apple": "https://music.apple.com/us/album/buco-chen-chen-feat-tony-vel%C3%A1zquez/6767338669?uo=4"
+    },
+    "embed": {
+      "provider": "apple",
+      "src": "https://embed.music.apple.com/us/album/6767338669?theme=light",
+      "height": 450
+    },
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://i.discogs.com/9rJdwNqFnb_DGjhiXfxQaM2qd6J5tX5DKPrRsHIT0OA/rs:fit/g:sm/q:90/h:596/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM3Nzc1/MTkzLTE3ODI5OTg0/ODItOTM5My5qcGVn.jpeg",
     "cover": {
       "bg": "#111110",
       "fg": "#f2efe8",
@@ -777,6 +1109,39 @@
     "status": "pending",
     "approvedAt": null,
     "coverImageUrl": null,
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
+    "id": "aya-pretty-little-fool-acoustic-live-session-acoustic-live",
+    "type": "ep",
+    "artist": "aya",
+    "title": "Pretty Little Fool Acoustic Live session (Acoustic Live)",
+    "label": "",
+    "releaseDate": "2026-06-30",
+    "description": "aya in acoustic mode, some distance from the shredded club abstractions of im hole. Worth hearing what her voice does when the processing steps back.",
+    "tags": [],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=aya%20Pretty%20Little%20Fool%20Acoustic%20Live%20session%20(Acoustic%20Live)&item_type=a",
+      "spotify": "https://open.spotify.com/search/aya%20Pretty%20Little%20Fool%20Acoustic%20Live%20session%20(Acoustic%20Live)",
+      "soundcloud": "https://soundcloud.com/search?q=aya%20Pretty%20Little%20Fool%20Acoustic%20Live%20session%20(Acoustic%20Live)",
+      "youtube": "https://www.youtube.com/results?search_query=aya%20Pretty%20Little%20Fool%20Acoustic%20Live%20session%20(Acoustic%20Live)",
+      "deezer": "https://www.deezer.com/album/1017243721",
+      "apple": "https://music.apple.com/us/album/pretty-little-fool-acoustic-live-session-acoustic-live-ep/6785493105?uo=4"
+    },
+    "embed": {
+      "provider": "apple",
+      "src": "https://embed.music.apple.com/us/album/6785493105?theme=light",
+      "height": 450
+    },
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://cdn-images.dzcdn.net/images/cover/95296d64a04fe1a1b9c5f8cac6d14112/1000x1000-000000-80-0-0.jpg",
     "cover": {
       "bg": "#111110",
       "fg": "#f2efe8",
@@ -3717,6 +4082,41 @@
     "status": "pending",
     "approvedAt": null,
     "coverImageUrl": "https://i.discogs.com/fdZEEQu9zPyGXuS3F1BCeCyhBtaf9ziDcJiuRgalI2w/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM3Njkz/NDA3LTE3ODIxNDg3/MzYtNjUxNC5qcGVn.jpeg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
+    "id": "nidia-valentina-estradas-versions",
+    "type": "album",
+    "artist": "Nídia & Valentina",
+    "title": "Estradas (Versions)",
+    "label": "Latency",
+    "releaseDate": "2026-06-12",
+    "description": "Nídia and Valentina return to Latency with a versions LP that reroutes their Estradas material through house, dub and jungle frames. A collaborative record that treats the remix as continuation rather than commentary.",
+    "tags": [
+      "electronic"
+    ],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=N%C3%ADdia%20%26%20Valentina%20Estradas%20(Versions)&item_type=a",
+      "spotify": "https://open.spotify.com/search/N%C3%ADdia%20%26%20Valentina%20Estradas%20(Versions)",
+      "soundcloud": "https://soundcloud.com/search?q=N%C3%ADdia%20%26%20Valentina%20Estradas%20(Versions)",
+      "youtube": "https://www.youtube.com/results?search_query=N%C3%ADdia%20%26%20Valentina%20Estradas%20(Versions)",
+      "deezer": "https://www.deezer.com/album/770917541",
+      "apple": "https://music.apple.com/us/album/estradas-versions/1819931392?uo=4"
+    },
+    "embed": {
+      "provider": "apple",
+      "src": "https://embed.music.apple.com/us/album/1819931392?theme=light",
+      "height": 450
+    },
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://i.discogs.com/zo3EiJLCAZWLESW8U3TV9xg3qjCmJyxkdlkWrEVwS7I/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM3NTc1/MTkyLTE3ODI5ODg5/MDItNjAzNi5qcGVn.jpeg",
     "cover": {
       "bg": "#111110",
       "fg": "#f2efe8",
@@ -6860,7 +7260,8 @@
       "motif": "disc"
     },
     "pressMentions": [
-      "stereogum"
+      "stereogum",
+      "pitchfork_albums"
     ]
   },
   {
@@ -6897,7 +7298,8 @@
       "motif": "disc"
     },
     "pressMentions": [
-      "stereogum"
+      "stereogum",
+      "pitchfork_albums"
     ]
   },
   {
@@ -6966,7 +7368,9 @@
       "fg": "#f2efe8",
       "motif": "disc"
     },
-    "pressMentions": []
+    "pressMentions": [
+      "pitchfork_albums"
+    ]
   },
   {
     "id": "madonna-madame-x",
@@ -7001,7 +7405,9 @@
       "fg": "#f2efe8",
       "motif": "disc"
     },
-    "pressMentions": []
+    "pressMentions": [
+      "pitchfork_albums"
+    ]
   },
   {
     "id": "madonna-music",
@@ -7036,7 +7442,9 @@
       "fg": "#f2efe8",
       "motif": "disc"
     },
-    "pressMentions": []
+    "pressMentions": [
+      "pitchfork_albums"
+    ]
   },
   {
     "id": "madonna-hard-candy",
@@ -7071,7 +7479,9 @@
       "fg": "#f2efe8",
       "motif": "disc"
     },
-    "pressMentions": []
+    "pressMentions": [
+      "pitchfork_albums"
+    ]
   },
   {
     "id": "madonna-ray-of-light",
@@ -7106,7 +7516,9 @@
       "fg": "#f2efe8",
       "motif": "disc"
     },
-    "pressMentions": []
+    "pressMentions": [
+      "pitchfork_albums"
+    ]
   },
   {
     "id": "charlie-continental-snow-rain-b-w-untethered",
@@ -24565,6 +24977,35 @@
     "pressMentions": []
   },
   {
+    "id": "the-rituals-5-non-ritual",
+    "type": "ep",
+    "artist": "The Rituals (5)",
+    "title": "Non Ritual",
+    "label": "A Sky Full Of Numbers",
+    "releaseDate": "2026-01-01",
+    "description": "The Rituals turn up on A Sky Full Of Numbers with an EP whose title suggests a step sideways from whatever framework the name implies. Sparse metadata, but the label's leftfield-electronic remit is a fair guide to where this sits.",
+    "tags": [
+      "electronic"
+    ],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=The%20Rituals%20(5)%20Non%20Ritual&item_type=a",
+      "spotify": "https://open.spotify.com/search/The%20Rituals%20(5)%20Non%20Ritual",
+      "soundcloud": "https://soundcloud.com/search?q=The%20Rituals%20(5)%20Non%20Ritual",
+      "youtube": "https://www.youtube.com/results?search_query=The%20Rituals%20(5)%20Non%20Ritual"
+    },
+    "embed": null,
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://i.discogs.com/_I19URrNsjfmwEEcoYLCoizWJMcGdv7mBkswYe-j5eE/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM3NzY4/MzA1LTE3ODI5MTc5/MzYtNjAyNi5qcGVn.jpeg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
     "id": "tim-maia-racional-vol-1",
     "type": "album",
     "artist": "Tim Maia",
@@ -25578,7 +26019,10 @@
       "bg": "#111110",
       "fg": "#f2efe8",
       "motif": "disc"
-    }
+    },
+    "pressMentions": [
+      "stereogum"
+    ]
   },
   {
     "id": "1morning-because-i-told-you-so",
@@ -28823,7 +29267,9 @@
       "fg": "#f2efe8",
       "motif": "disc"
     },
-    "pressMentions": []
+    "pressMentions": [
+      "stereogum"
+    ]
   },
   {
     "id": "kult-masek-petr-vrba-fumarola",
@@ -36692,7 +37138,9 @@
       "fg": "#f2efe8",
       "motif": "disc"
     },
-    "pressMentions": []
+    "pressMentions": [
+      "stereogum"
+    ]
   },
   {
     "id": "venison-man-x-st-mozelle-red-rabbit-remix-rampage-ep",
@@ -38439,7 +38887,9 @@
       "fg": "#f2efe8",
       "motif": "disc"
     },
-    "pressMentions": []
+    "pressMentions": [
+      "stereogum"
+    ]
   },
   {
     "id": "rockers-nyc-positive-reality",
@@ -39661,7 +40111,9 @@
       "fg": "#f2efe8",
       "motif": "disc"
     },
-    "pressMentions": []
+    "pressMentions": [
+      "stereogum"
+    ]
   },
   {
     "id": "irene-skylakaki-i-am-jo",
@@ -41497,7 +41949,9 @@
       "fg": "#f2efe8",
       "motif": "disc"
     },
-    "pressMentions": []
+    "pressMentions": [
+      "stereogum"
+    ]
   },
   {
     "id": "nicolas-jaar-piedras",
@@ -42584,7 +43038,7 @@
     "title": "Wind, Again",
     "label": "Other People",
     "releaseDate": "2025-01-01",
-    "description": "",
+    "description": "Six electroacoustic pieces from the Beirut-based producer, landing on Nicolas Jaar's Other People and leaning on the label's taste for processed field recording and slow harmonic drift. For anyone tracking the quieter edges of the roster.",
     "tags": [
       "electronic"
     ],
@@ -42619,7 +43073,7 @@
     "title": "40 Years And Killing",
     "label": "Hammerheart Records",
     "releaseDate": "2025-01-01",
-    "description": "",
+    "description": "Paul Speckmann's Master mark four decades of blunt-force death metal with an eight-track EP for Hammerheart, pressed in a limited run. Still the same crustpunk-inflected thrash he's been drilling since Chicago, 1983, no concessions offered.",
     "tags": [
       "rock"
     ],
@@ -44819,7 +45273,9 @@
       "fg": "#f2efe8",
       "motif": "disc"
     },
-    "pressMentions": []
+    "pressMentions": [
+      "stereogum"
+    ]
   },
   {
     "id": "lifted-4-trellis",
@@ -45245,7 +45701,9 @@
       "fg": "#f2efe8",
       "motif": "disc"
     },
-    "pressMentions": []
+    "pressMentions": [
+      "bandcamp_daily"
+    ]
   },
   {
     "id": "gina-birch-listen-the-snow-is-falling",
@@ -49202,7 +49660,9 @@
       "fg": "#f2efe8",
       "motif": "disc"
     },
-    "pressMentions": []
+    "pressMentions": [
+      "bandcamp_daily"
+    ]
   },
   {
     "id": "rilla-inkognito-13-gegenpol",
@@ -50791,7 +51251,9 @@
       "fg": "#f2efe8",
       "motif": "disc"
     },
-    "pressMentions": []
+    "pressMentions": [
+      "bandcamp_daily"
+    ]
   },
   {
     "id": "fletcher-19-in-search-of-the-antidote",
@@ -51819,7 +52281,9 @@
       "fg": "#f2efe8",
       "motif": "disc"
     },
-    "pressMentions": []
+    "pressMentions": [
+      "bandcamp_daily"
+    ]
   },
   {
     "id": "normal-nada-the-krakmaxter-tubo-de-ensaio",
