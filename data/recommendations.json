@@ -1,5 +1,32 @@
 [
   {
+    "id": "coil-gold-is-the-metal-with-the-broadest-shoulders-2026-remaster",
+    "type": "album",
+    "artist": "Coil",
+    "title": "Gold Is The Metal (With The Broadest Shoulders) [2026 Remaster]",
+    "label": "",
+    "releaseDate": "2026-10-30",
+    "description": "A fresh remaster of Coil's companion-piece to Horse Rotorvator, long treated by devotees as the group's stray-sketch archive rather than a proper album. Whether the 2026 pass tames or sharpens its ritual-industrial murk is the question worth showing up for.",
+    "tags": [],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=Coil%20Gold%20Is%20The%20Metal%20(With%20The%20Broadest%20Shoulders)%20%5B2026%20Remaster%5D&item_type=a",
+      "spotify": "https://open.spotify.com/search/Coil%20Gold%20Is%20The%20Metal%20(With%20The%20Broadest%20Shoulders)%20%5B2026%20Remaster%5D",
+      "soundcloud": "https://soundcloud.com/search?q=Coil%20Gold%20Is%20The%20Metal%20(With%20The%20Broadest%20Shoulders)%20%5B2026%20Remaster%5D",
+      "youtube": "https://www.youtube.com/results?search_query=Coil%20Gold%20Is%20The%20Metal%20(With%20The%20Broadest%20Shoulders)%20%5B2026%20Remaster%5D"
+    },
+    "embed": null,
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": null,
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
     "id": "kaitlyn-aurelia-smith-ruin-it-s-not-just-music",
     "type": "album",
     "artist": "Kaitlyn Aurelia Smith",
@@ -506,6 +533,40 @@
     "pressMentions": []
   },
   {
+    "id": "faltydl-be-my-baby",
+    "type": "album",
+    "artist": "FaltyDL",
+    "title": "Be My Baby",
+    "label": "",
+    "releaseDate": "2026-07-17",
+    "description": "FaltyDL returns with a full length, the New York producer's long running practice of smudging garage, hip hop and pop signifiers into something more diffuse still the throughline. Label unannounced at time of writing.",
+    "tags": [],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=FaltyDL%20Be%20My%20Baby&item_type=a",
+      "spotify": "https://open.spotify.com/search/FaltyDL%20Be%20My%20Baby",
+      "soundcloud": "https://soundcloud.com/search?q=FaltyDL%20Be%20My%20Baby",
+      "youtube": "https://www.youtube.com/results?search_query=FaltyDL%20Be%20My%20Baby",
+      "deezer": "https://www.deezer.com/album/998695861",
+      "apple": "https://music.apple.com/us/album/be-my-baby-wild-rice-single/6777246645?uo=4",
+      "tidal": "https://tidal.com/album/531032911"
+    },
+    "embed": {
+      "provider": "apple",
+      "src": "https://embed.music.apple.com/us/album/6777246645?theme=light",
+      "height": 450
+    },
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": null,
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
     "id": "eartheater-heavenly-body-if-i-39-m-the-bottle-you-re-the-message",
     "type": "album",
     "artist": "Eartheater",
@@ -846,6 +907,104 @@
     "pressMentions": []
   },
   {
+    "id": "gas-november-89",
+    "type": "album",
+    "artist": "GAS",
+    "title": "November 89",
+    "label": "Kompakt",
+    "releaseDate": "2026-07-03",
+    "description": "Wolfgang Voigt returns to the GAS project on Kompakt, five long-form pieces of orchestral fog and pulsing forest-floor rhythm. The formula is unchanged for a reason.",
+    "tags": [],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=GAS%20November%2089&item_type=a",
+      "spotify": "https://open.spotify.com/search/GAS%20November%2089",
+      "soundcloud": "https://soundcloud.com/search?q=GAS%20November%2089",
+      "youtube": "https://www.youtube.com/results?search_query=GAS%20November%2089",
+      "deezer": "https://www.deezer.com/album/1012365971",
+      "apple": "https://music.apple.com/us/album/november-89/6783298076?uo=4"
+    },
+    "embed": {
+      "provider": "apple",
+      "src": "https://embed.music.apple.com/us/album/6783298076?theme=light",
+      "height": 450
+    },
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://cdn-images.dzcdn.net/images/cover/87d7ca88900a527d3021f0794f8dc208/1000x1000-000000-80-0-0.jpg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
+    "id": "j-bailey-beton-brut-ost",
+    "type": "single",
+    "artist": "J Bailey",
+    "title": "Beton Brut OST",
+    "label": "Good Morning Tapes",
+    "releaseDate": "2026-07-03",
+    "description": "Two long-form pieces from J Bailey framed as a soundtrack, sitting where Good Morning Tapes usually sits: ambient drift with a new age tilt, more devotional than pastoral. Limited pressing, for the GMT faithful.",
+    "tags": [
+      "electronic"
+    ],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=J%20Bailey%20Beton%20Brut%20OST&item_type=a",
+      "spotify": "https://open.spotify.com/search/J%20Bailey%20Beton%20Brut%20OST",
+      "soundcloud": "https://soundcloud.com/search?q=J%20Bailey%20Beton%20Brut%20OST",
+      "youtube": "https://www.youtube.com/results?search_query=J%20Bailey%20Beton%20Brut%20OST"
+    },
+    "embed": null,
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://i.discogs.com/6CVgPw0HiUV7HTVV1PXWJtQqu4Ww8arJHxk1FI-yl2E/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM3Nzg0/NjcwLTE3ODMwODgx/NDMtOTUyNy5qcGVn.jpeg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
+    "id": "mary-in-the-junkyard-role-model-hermit",
+    "type": "album",
+    "artist": "mary in the junkyard",
+    "title": "Role Model Hermit",
+    "label": "AMF Records (3)",
+    "releaseDate": "2026-07-03",
+    "description": "Eleven tracks of art rock from the London trio on AMF, arriving in a limited LP pressing. If Black Country, New Road's quieter passages appealed, this occupies adjacent shelf space.",
+    "tags": [
+      "rock"
+    ],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=mary%20in%20the%20junkyard%20Role%20Model%20Hermit&item_type=a",
+      "spotify": "https://open.spotify.com/search/mary%20in%20the%20junkyard%20Role%20Model%20Hermit",
+      "soundcloud": "https://soundcloud.com/search?q=mary%20in%20the%20junkyard%20Role%20Model%20Hermit",
+      "youtube": "https://www.youtube.com/results?search_query=mary%20in%20the%20junkyard%20Role%20Model%20Hermit",
+      "deezer": "https://www.deezer.com/album/927180181"
+    },
+    "embed": {
+      "provider": "deezer",
+      "src": "https://widget.deezer.com/widget/light/album/927180181",
+      "height": 300
+    },
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://i.discogs.com/b8ZCBw6pRBqSQXvUlQYgvyhERmt0H4AIL6ntr3ErA1Q/rs:fit/g:sm/q:90/h:600/w:588/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM3Nzg1/MDg3LTE3ODMwOTEw/OTctMTQ0MS5qcGVn.jpeg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": [
+      "bandcamp_daily"
+    ]
+  },
+  {
     "id": "djrum-i-wander-iv-v",
     "type": "single",
     "artist": "Djrum",
@@ -1142,6 +1301,70 @@
     "status": "pending",
     "approvedAt": null,
     "coverImageUrl": "https://cdn-images.dzcdn.net/images/cover/95296d64a04fe1a1b9c5f8cac6d14112/1000x1000-000000-80-0-0.jpg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
+    "id": "plaid-flow-motion",
+    "type": "album",
+    "artist": "Plaid",
+    "title": "Flow Motion",
+    "label": "",
+    "releaseDate": "2026-06-29",
+    "description": "Plaid remain among the more melodically inclined lifers on the Warp roster, and a new full-length from the duo tends to mean the same fastidious approach to counterpoint and pattern that has kept their catalogue quietly consistent for decades. File next to Boards of Canada if shelving by temperament.",
+    "tags": [],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=Plaid%20Flow%20Motion&item_type=a",
+      "spotify": "https://open.spotify.com/search/Plaid%20Flow%20Motion",
+      "soundcloud": "https://soundcloud.com/search?q=Plaid%20Flow%20Motion",
+      "youtube": "https://www.youtube.com/results?search_query=Plaid%20Flow%20Motion",
+      "deezer": "https://www.deezer.com/album/1017188901"
+    },
+    "embed": {
+      "provider": "deezer",
+      "src": "https://widget.deezer.com/widget/light/album/1017188901",
+      "height": 300
+    },
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": null,
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
+    "id": "clark-on-tha-way-up",
+    "type": "album",
+    "artist": "Clark",
+    "title": "On Tha Way Up",
+    "label": "",
+    "releaseDate": "2026-06-28",
+    "description": "Clark surfaces with another full-length, label unannounced as yet, extending the bruised, IDM-descended electronics he has been sculpting since the Warp years. File next to Bibio if you need a shelf.",
+    "tags": [],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=Clark%20On%20Tha%20Way%20Up&item_type=a",
+      "spotify": "https://open.spotify.com/search/Clark%20On%20Tha%20Way%20Up",
+      "soundcloud": "https://soundcloud.com/search?q=Clark%20On%20Tha%20Way%20Up",
+      "youtube": "https://www.youtube.com/results?search_query=Clark%20On%20Tha%20Way%20Up",
+      "deezer": "https://www.deezer.com/album/1016305421"
+    },
+    "embed": {
+      "provider": "deezer",
+      "src": "https://widget.deezer.com/widget/light/album/1016305421",
+      "height": 300
+    },
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": null,
     "cover": {
       "bg": "#111110",
       "fg": "#f2efe8",
@@ -43109,7 +43332,7 @@
     "title": "I Don't Like Shit, I Don't Go Outside: An Album By Earl Sweatshirt",
     "label": "Columbia",
     "releaseDate": "2025-01-01",
-    "description": "",
+    "description": "Columbia keeps the 2015 Earl record in print: ten tracks of curdled, low-lit rap production and the mumbled interior monologue that reset expectations for a generation of Odd Future watchers. Still the one people reach for first.",
     "tags": [
       "hip hop"
     ],
@@ -43144,7 +43367,7 @@
     "title": "Orbs",
     "label": "ANS",
     "releaseDate": "2025-01-01",
-    "description": "",
+    "description": "Naples on his own ANS imprint, working the seam between downtempo, deep techno and ambient that has become his lane since Chameleon. Ten tracks that lean more towards drift than dancefloor; a repress for anyone who missed it first time.",
     "tags": [
       "electronic"
     ],
@@ -43179,7 +43402,7 @@
     "title": "Guided Tour",
     "label": "Dais Records",
     "releaseDate": "2025-01-01",
-    "description": "",
+    "description": "High Vis land on Dais with an eleven-track LP that keeps their footing in post-punk with the melodic edges of UK guitar music intact. Repress on limited vinyl for anyone who missed the first run.",
     "tags": [
       "rock"
     ],
@@ -43214,7 +43437,7 @@
     "title": "Fumarola",
     "label": "mappa",
     "releaseDate": "2025-01-01",
-    "description": "",
+    "description": "Eight studies in slow-moving drone and abstract ambient from the duo, landing on Slovakia's mappa in a limited pressing. Suited to anyone tracking the quieter, more research-minded end of the label's catalogue.",
     "tags": [
       "electronic"
     ],
@@ -43249,7 +43472,7 @@
     "title": "Langue of Tongue",
     "label": "mappa",
     "releaseDate": "2025-01-01",
-    "description": "",
+    "description": "Twelve pieces of fractured ambient and glitch from Lénok, landing on mappa, whose Slovak catalogue has long favoured this kind of textural, half-legible electronics. Sits near recent Sabiwa if you want a shelving cue.",
     "tags": [
       "electronic"
     ],
@@ -43285,7 +43508,7 @@
     "title": "Pagode Da Mart’Nália",
     "label": "Três Selos",
     "releaseDate": "2025-01-01",
-    "description": "",
+    "description": "Twelve tracks of Mart'Nália in full pagode mode, reissued on vinyl by Três Selos. Roda music built for the room rather than the crate, though the pressing is limited enough to warrant one.",
     "tags": [
       "latin"
     ],
@@ -43320,7 +43543,7 @@
     "title": "Odd Numbers / Số Lẻ",
     "label": "Balmat",
     "releaseDate": "2025-01-01",
-    "description": "",
+    "description": "Fifteen pieces of ambient, field recording and spoken word from Le Motel on Balmat, the Barcelona label's usual soft-focus remit stretched toward something more documentary. For anyone shelving Chihei Hatakeyama next to Green-House.",
     "tags": [
       "electronic"
     ],
@@ -43355,7 +43578,7 @@
     "title": "Psychic Geography",
     "label": "Balmat",
     "releaseDate": "2025-01-01",
-    "description": "",
+    "description": "Nine pieces of abstract ambient on Balmat, the Barcelona imprint that has quietly become a reliable address for this sort of drift. Shelve near Pepo Galán or anything else Philip Sherburne has tipped in the last two years.",
     "tags": [
       "electronic"
     ],
