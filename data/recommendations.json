@@ -1005,6 +1005,76 @@
     ]
   },
   {
+    "id": "play-time-magic-object",
+    "type": "album",
+    "artist": "Play Time",
+    "title": "Magic Object",
+    "label": "Balmat",
+    "releaseDate": "2026-07-03",
+    "description": "Nine tracks of experimental jazz-inflected downtempo for Balmat, a label whose remit has quietly widened past pure ambient over the last few years. Sits comfortably next to Purelink for anyone tracking that drift.",
+    "tags": [
+      "electronic"
+    ],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=Play%20Time%20Magic%20Object&item_type=a",
+      "spotify": "https://open.spotify.com/search/Play%20Time%20Magic%20Object",
+      "soundcloud": "https://soundcloud.com/search?q=Play%20Time%20Magic%20Object",
+      "youtube": "https://www.youtube.com/results?search_query=Play%20Time%20Magic%20Object",
+      "deezer": "https://www.deezer.com/album/971290151",
+      "apple": "https://music.apple.com/us/album/magic-object/1895742456?uo=4"
+    },
+    "embed": {
+      "provider": "apple",
+      "src": "https://embed.music.apple.com/us/album/1895742456?theme=light",
+      "height": 450
+    },
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://i.discogs.com/qEPd2gMYK6wCSmEoZoS6y_0yeGNsqGjUOgnnPRxHqLw/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM3Nzg0/MDQ5LTE3ODMxNzYx/MDctMTczMi5qcGVn.jpeg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
+    "id": "kiasmos-ii-reworked",
+    "type": "album",
+    "artist": "Kiasmos",
+    "title": "II Reworked",
+    "label": "Erased Tapes Records",
+    "releaseDate": "2026-07-03",
+    "description": "Erased Tapes hands the second Kiasmos LP over to a remix cast, keeping the duo's minimal-techno-meets-strings frame but letting other hands stretch it toward the ambient and neo-classical edges of the roster. For anyone who lives inside the Ólafur Arnalds orbit.",
+    "tags": [
+      "electronic"
+    ],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=Kiasmos%20II%20Reworked&item_type=a",
+      "spotify": "https://open.spotify.com/search/Kiasmos%20II%20Reworked",
+      "soundcloud": "https://soundcloud.com/search?q=Kiasmos%20II%20Reworked",
+      "youtube": "https://www.youtube.com/results?search_query=Kiasmos%20II%20Reworked",
+      "deezer": "https://www.deezer.com/album/985800591",
+      "apple": "https://music.apple.com/us/album/ii-reworked/6774126842?uo=4"
+    },
+    "embed": {
+      "provider": "apple",
+      "src": "https://embed.music.apple.com/us/album/6774126842?theme=light",
+      "height": 450
+    },
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://i.discogs.com/TepmAjg3XeeezEA2fC9-VVa3UeSXEvIel7_ypwfCXtw/rs:fit/g:sm/q:90/h:598/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM3Nzkx/MTM1LTE3ODMxNzA4/MDItODQ5MS5qcGVn.jpeg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
     "id": "djrum-i-wander-iv-v",
     "type": "single",
     "artist": "Djrum",
@@ -2313,6 +2383,34 @@
     "status": "pending",
     "approvedAt": null,
     "coverImageUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/99/eb/bd/99ebbd43-e13e-04df-4fa3-4541662a0b3b/910.jpg/600x600bb.jpg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
+    "id": "simo-cell-manetik-simo-cell-remix",
+    "type": "single",
+    "artist": "Simo Cell",
+    "title": "MANETIK (Simo Cell Remix)",
+    "label": "",
+    "releaseDate": "2026-06-24",
+    "description": "Simo Cell turns in a remix of MANETIK, the TEMET boss applying his usual sideways approach to rhythm where sound design does the work percussion usually would. File next to anything on Livity Sound.",
+    "tags": [],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=Simo%20Cell%20MANETIK%20(Simo%20Cell%20Remix)&item_type=a",
+      "spotify": "https://open.spotify.com/search/Simo%20Cell%20MANETIK%20(Simo%20Cell%20Remix)",
+      "soundcloud": "https://soundcloud.com/search?q=Simo%20Cell%20MANETIK%20(Simo%20Cell%20Remix)",
+      "youtube": "https://www.youtube.com/results?search_query=Simo%20Cell%20MANETIK%20(Simo%20Cell%20Remix)",
+      "deezer": "https://www.deezer.com/album/998323891"
+    },
+    "embed": null,
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://cdn-images.dzcdn.net/images/cover/97257cdadd6fd6dd58a7ce505d34194f/1000x1000-000000-80-0-0.jpg",
     "cover": {
       "bg": "#111110",
       "fg": "#f2efe8",
@@ -7107,6 +7205,41 @@
     "status": "pending",
     "approvedAt": null,
     "coverImageUrl": "https://i.discogs.com/dNq7TbGBkVr7wStCFBsjhIIvP0dwV8VIt0_y6xtOTWY/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM3NjIy/Njc2LTE3ODE2NDg4/NDktMTQ5Mi5qcGVn.jpeg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
+    "id": "milo-passier-patience-ep",
+    "type": "ep",
+    "artist": "Milo Passier",
+    "title": "Patience EP",
+    "label": "Cécille Numbers",
+    "releaseDate": "2026-05-29",
+    "description": "Five tracks of house from Milo Passier for Cécille Numbers, a label that has long favoured the tidier, more melodic end of the dancefloor. Patient in the literal sense, built for the middle of the night rather than its peak.",
+    "tags": [
+      "electronic"
+    ],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=Milo%20Passier%20Patience%20EP&item_type=a",
+      "spotify": "https://open.spotify.com/search/Milo%20Passier%20Patience%20EP",
+      "soundcloud": "https://soundcloud.com/search?q=Milo%20Passier%20Patience%20EP",
+      "youtube": "https://www.youtube.com/results?search_query=Milo%20Passier%20Patience%20EP",
+      "deezer": "https://www.deezer.com/album/981432781",
+      "apple": "https://music.apple.com/us/album/patience-ep/6768760661?uo=4"
+    },
+    "embed": {
+      "provider": "apple",
+      "src": "https://embed.music.apple.com/us/album/6768760661?theme=light",
+      "height": 450
+    },
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://i.discogs.com/pxj_52vzN-ioJChEK6oXEA-XdqHa6NIUwF9Xe1za_sk/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM3Nzk1/NTMzLTE3ODMxOTUy/MTgtMzMyNC5qcGVn.jpeg",
     "cover": {
       "bg": "#111110",
       "fg": "#f2efe8",
@@ -35361,6 +35494,40 @@
     "pressMentions": []
   },
   {
+    "id": "john-lennon-imagine",
+    "type": "album",
+    "artist": "John Lennon",
+    "title": "Imagine",
+    "label": "Apple Records",
+    "releaseDate": "2025-06-01",
+    "description": "Another catalog pass at the 1971 Lennon LP, this time as a 172-track box stretched across sessions, demos, and stereo remasters. For completists only; casual listeners already own the songs three times over.",
+    "tags": [
+      "rock"
+    ],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=John%20Lennon%20Imagine&item_type=a",
+      "spotify": "https://open.spotify.com/search/John%20Lennon%20Imagine",
+      "soundcloud": "https://soundcloud.com/search?q=John%20Lennon%20Imagine",
+      "youtube": "https://www.youtube.com/results?search_query=John%20Lennon%20Imagine",
+      "deezer": "https://www.deezer.com/album/664237"
+    },
+    "embed": {
+      "provider": "deezer",
+      "src": "https://widget.deezer.com/widget/light/album/664237",
+      "height": 300
+    },
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://i.discogs.com/3RMHj04FnnJSk820ziNXcIWrDcRaIjuVl6GZa9N0URU/rs:fit/g:sm/q:90/h:595/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM3Nzg1/NzAyLTE3ODMxOTAx/NzAtODQ5My5qcGVn.jpeg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
     "id": "rilla-schwarz-auf-wei",
     "type": "album",
     "artist": "Rilla",
@@ -43613,7 +43780,7 @@
     "title": "Dewclaws",
     "label": "Orange Milk Records",
     "releaseDate": "2025-01-01",
-    "description": "",
+    "description": "A Galen Tipton and Shmu collaboration on Orange Milk, where the label's usual hyper-detailed pop-collage instincts get pulled toward club deconstruction. Sits comfortably next to Seth Graham's own output on the roster.",
     "tags": [
       "electronic"
     ],
@@ -43648,7 +43815,7 @@
     "title": "Angel In The Sand",
     "label": "Sunday Drive Records",
     "releaseDate": "2025-01-01",
-    "description": "",
+    "description": "Ten tracks of guitar-blurred shoegaze from Leaving Time, back in print on Sunday Drive as a limited repress LP. For anyone still filing Whirr and Nothing next to the Slowdive shelf.",
     "tags": [
       "rock"
     ],
@@ -43683,7 +43850,7 @@
     "title": "Land’s End Eternal",
     "label": "Leaving Records",
     "releaseDate": "2025-01-01",
-    "description": "",
+    "description": "Four pieces of processed saxophone from Cole Pulice on Leaving Records, tape delays and pitch-shifters bending the horn into something closer to weather than melody. Sits comfortably alongside the label's ambient-jazz tilt under Carlos Niño.",
     "tags": [
       "jazz"
     ],
@@ -43719,7 +43886,7 @@
     "title": "Vasilar",
     "label": "La Isla Records",
     "releaseDate": "2025-01-01",
-    "description": "",
+    "description": "Salsa move from the Jose De Rico and Rasel camp, teaming with Gusanito for La Isla Records. Reggaeton-adjacent pop personnel working in a straighter Latin idiom than usual.",
     "tags": [
       "latin"
     ],
@@ -43754,7 +43921,7 @@
     "title": "Disorder",
     "label": "Empty 6 Pack Cassettes",
     "releaseDate": "2025-01-01",
-    "description": "",
+    "description": "Seven tracks of glitch-strewn ambient from QBRNTHSS on Empty 6 Pack Cassettes, more corroded than pretty. Sits comfortably next to the Crystalline Morphologies end of the abstract-electronics shelf.",
     "tags": [
       "electronic"
     ],
@@ -43783,7 +43950,7 @@
     "title": "Miraditas",
     "label": "La Isla Records",
     "releaseDate": "2025-01-01",
-    "description": "",
+    "description": "Three-way flamenco cut on La Isla, closer to the palo-meets-urbano lane that's been reshaping the genre from Seville outward than to anything trad. For anyone tracking where nuevo flamenco keeps landing after Rosalía cracked the door.",
     "tags": [
       "latin"
     ],
@@ -43818,7 +43985,7 @@
     "title": "La Rica Fruta",
     "label": "La Isla Records",
     "releaseDate": "2025-01-01",
-    "description": "",
+    "description": "Gusanito and Sak Luke turn in a single for La Isla, a small Latin cut that sits closer to street-level folk-pop than club fare. Digital only, in and out quickly.",
     "tags": [
       "latin"
     ],
@@ -43852,7 +44019,7 @@
     "title": "Esto Es Lo Que Quiero",
     "label": "La Isla Records",
     "releaseDate": "2025-01-01",
-    "description": "",
+    "description": "This sits outside the usual Disquiet remit, a straight Latin pop single on La Isla Records with none of the electronic scaffolding the site typically tracks. Filed for completeness rather than as a pointer.",
     "tags": [
       "latin"
     ],
@@ -43886,7 +44053,7 @@
     "title": "Information",
     "label": "Ghostly International",
     "releaseDate": "2025-01-01",
-    "description": "",
+    "description": "Ghostly reissues Lustwerk's murmured-house full-length, eleven tracks of half-lit deep house and stoned hip-house delivered in that same monotone drift he trademarked on White Material. For anyone whose Dark Energy 12\"s never left the shelf.",
     "tags": [
       "electronic"
     ],
@@ -43922,7 +44089,7 @@
     "title": "Whatever The Weather II",
     "label": "Ghostly International",
     "releaseDate": "2025-01-01",
-    "description": "",
+    "description": "Loraine James returns to her ambient-facing alias for Ghostly, twelve tracks that keep the temperature-titled conceit and her tendency to let melodic fragments hover before the drums decide whether to arrive. For anyone who kept the first one close.",
     "tags": [
       "electronic"
     ],
