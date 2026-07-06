@@ -294,6 +294,41 @@
     "pressMentions": []
   },
   {
+    "id": "djrum-i-wander",
+    "type": "album",
+    "artist": "Djrum",
+    "title": "I Wander",
+    "label": "",
+    "releaseDate": "2026-08-14",
+    "description": "Another long-player from Djrum, whose broken-beat and neoclassical excursions have long sat awkwardly between the club and the listening room. Untagged as yet, but the pedigree points where it usually points.",
+    "tags": [],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=Djrum%20I%20Wander&item_type=a",
+      "spotify": "https://open.spotify.com/search/Djrum%20I%20Wander",
+      "soundcloud": "https://soundcloud.com/search?q=Djrum%20I%20Wander",
+      "youtube": "https://www.youtube.com/results?search_query=Djrum%20I%20Wander",
+      "deezer": "https://www.deezer.com/album/1006927781",
+      "apple": "https://music.apple.com/us/album/i-wander-iv-v-single/6780842085?uo=4"
+    },
+    "embed": {
+      "provider": "apple",
+      "src": "https://embed.music.apple.com/us/album/6780842085?theme=light",
+      "height": 450
+    },
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": null,
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": [
+      "stereogum"
+    ]
+  },
+  {
     "id": "overmono-pure-devotion",
     "type": "album",
     "artist": "Overmono",
@@ -921,7 +956,8 @@
       "soundcloud": "https://soundcloud.com/search?q=GAS%20November%2089",
       "youtube": "https://www.youtube.com/results?search_query=GAS%20November%2089",
       "deezer": "https://www.deezer.com/album/1012365971",
-      "apple": "https://music.apple.com/us/album/november-89/6783298076?uo=4"
+      "apple": "https://music.apple.com/us/album/november-89/6783298076?uo=4",
+      "tidal": "https://tidal.com/album/535875154"
     },
     "embed": {
       "provider": "apple",
@@ -984,7 +1020,8 @@
       "spotify": "https://open.spotify.com/search/mary%20in%20the%20junkyard%20Role%20Model%20Hermit",
       "soundcloud": "https://soundcloud.com/search?q=mary%20in%20the%20junkyard%20Role%20Model%20Hermit",
       "youtube": "https://www.youtube.com/results?search_query=mary%20in%20the%20junkyard%20Role%20Model%20Hermit",
-      "deezer": "https://www.deezer.com/album/927180181"
+      "deezer": "https://www.deezer.com/album/927180181",
+      "tidal": "https://tidal.com/album/502218696"
     },
     "embed": {
       "provider": "deezer",
@@ -1021,7 +1058,8 @@
       "soundcloud": "https://soundcloud.com/search?q=Play%20Time%20Magic%20Object",
       "youtube": "https://www.youtube.com/results?search_query=Play%20Time%20Magic%20Object",
       "deezer": "https://www.deezer.com/album/971290151",
-      "apple": "https://music.apple.com/us/album/magic-object/1895742456?uo=4"
+      "apple": "https://music.apple.com/us/album/magic-object/1895742456?uo=4",
+      "tidal": "https://tidal.com/album/519810388"
     },
     "embed": {
       "provider": "apple",
@@ -1056,7 +1094,8 @@
       "soundcloud": "https://soundcloud.com/search?q=Kiasmos%20II%20Reworked",
       "youtube": "https://www.youtube.com/results?search_query=Kiasmos%20II%20Reworked",
       "deezer": "https://www.deezer.com/album/985800591",
-      "apple": "https://music.apple.com/us/album/ii-reworked/6774126842?uo=4"
+      "apple": "https://music.apple.com/us/album/ii-reworked/6774126842?uo=4",
+      "tidal": "https://tidal.com/album/526072800"
     },
     "embed": {
       "provider": "apple",
@@ -1430,6 +1469,39 @@
       "provider": "deezer",
       "src": "https://widget.deezer.com/widget/light/album/1016305421",
       "height": 300
+    },
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": null,
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
+    "id": "andrea-damar-opo-lilin",
+    "type": "album",
+    "artist": "Andrea",
+    "title": "Damar Opo Lilin",
+    "label": "",
+    "releaseDate": "2026-06-28",
+    "description": "Andrea returning to album form, still working the seam between broken UK rhythm tracks and the more diffuse Ilian Tape end of things. Details thin on the ground for now; worth flagging early for anyone tracking the label's orbit.",
+    "tags": [],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=Andrea%20Damar%20Opo%20Lilin&item_type=a",
+      "spotify": "https://open.spotify.com/search/Andrea%20Damar%20Opo%20Lilin",
+      "soundcloud": "https://soundcloud.com/search?q=Andrea%20Damar%20Opo%20Lilin",
+      "youtube": "https://www.youtube.com/results?search_query=Andrea%20Damar%20Opo%20Lilin",
+      "deezer": "https://www.deezer.com/album/1017700491",
+      "apple": "https://music.apple.com/us/album/damar-opo-lilin-single/6785743645?uo=4"
+    },
+    "embed": {
+      "provider": "apple",
+      "src": "https://embed.music.apple.com/us/album/6785743645?theme=light",
+      "height": 450
     },
     "musicVideoUrl": null,
     "status": "pending",
@@ -2021,6 +2093,39 @@
     "pressMentions": []
   },
   {
+    "id": "chanel-beads-your-day-will-come-2",
+    "type": "album",
+    "artist": "Chanel Beads",
+    "title": "Your Day Will Come 2",
+    "label": "Jagjaguwar",
+    "releaseDate": "2026-06-26",
+    "description": "Shane Lavers returns to Jagjaguwar with fourteen more tracks of his blurred, laptop-smudged take on pop, where song form keeps dissolving into ambient drift and then reassembling. For anyone who found the first Your Day Will Come oddly stubborn.",
+    "tags": [],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=Chanel%20Beads%20Your%20Day%20Will%20Come%202&item_type=a",
+      "spotify": "https://open.spotify.com/search/Chanel%20Beads%20Your%20Day%20Will%20Come%202",
+      "soundcloud": "https://soundcloud.com/search?q=Chanel%20Beads%20Your%20Day%20Will%20Come%202",
+      "youtube": "https://www.youtube.com/results?search_query=Chanel%20Beads%20Your%20Day%20Will%20Come%202",
+      "deezer": "https://www.deezer.com/album/956370211",
+      "apple": "https://music.apple.com/us/album/your-day-will-come/1796190717?uo=4"
+    },
+    "embed": {
+      "provider": "apple",
+      "src": "https://embed.music.apple.com/us/album/1796190717?theme=light",
+      "height": 450
+    },
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": null,
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
     "id": "rival-consoles-coda-loraine-james-remix",
     "type": "single",
     "artist": "Rival Consoles",
@@ -2572,6 +2677,41 @@
     "status": "pending",
     "approvedAt": null,
     "coverImageUrl": null,
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
+    "id": "sean-hendley-let-peace-brood-over-this-carcass-rust-belt-guitar-soli",
+    "type": "album",
+    "artist": "Sean Hendley",
+    "title": "Let Peace Brood Over This Carcass: Rust Belt Guitar Soli",
+    "label": "Gnostic Recordings For Pan",
+    "releaseDate": "2026-06-21",
+    "description": "Twelve solo acoustic guitar pieces from Sean Hendley, framed as Rust Belt primitivism and issued via Gnostic Recordings For Pan. Sits closer to the Fahey/Basho lineage than anything trying to update it.",
+    "tags": [
+      "rock"
+    ],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=Sean%20Hendley%20Let%20Peace%20Brood%20Over%20This%20Carcass%3A%20Rust%20Belt%20Guitar%20Soli&item_type=a",
+      "spotify": "https://open.spotify.com/search/Sean%20Hendley%20Let%20Peace%20Brood%20Over%20This%20Carcass%3A%20Rust%20Belt%20Guitar%20Soli",
+      "soundcloud": "https://soundcloud.com/search?q=Sean%20Hendley%20Let%20Peace%20Brood%20Over%20This%20Carcass%3A%20Rust%20Belt%20Guitar%20Soli",
+      "youtube": "https://www.youtube.com/results?search_query=Sean%20Hendley%20Let%20Peace%20Brood%20Over%20This%20Carcass%3A%20Rust%20Belt%20Guitar%20Soli",
+      "deezer": "https://www.deezer.com/album/982820751",
+      "apple": "https://music.apple.com/us/album/let-peace-brood-over-this-carcass-rust-belt-guitar-soli/6769464431?uo=4"
+    },
+    "embed": {
+      "provider": "apple",
+      "src": "https://embed.music.apple.com/us/album/6769464431?theme=light",
+      "height": 450
+    },
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://i.discogs.com/vnVVX_WPSMyBKC0HbTgb0mvZqoAkxAjv6xblIBTFuRY/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM3ODAw/MTUzLTE3ODMyNTI4/NDktNjQzNC5qcGVn.jpeg",
     "cover": {
       "bg": "#111110",
       "fg": "#f2efe8",
@@ -13029,6 +13169,40 @@
     "status": "pending",
     "approvedAt": null,
     "coverImageUrl": "https://i.discogs.com/sthIZMPzq5pcPJhkhFVMcqicr6Pj6sdQRGPKz58BQ9I/rs:fit/g:sm/q:90/h:588/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM3NTI1/MjQ4LTE3ODI0OTI0/MTMtNjYyNS5qcGVn.jpeg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
+    "id": "bizza-londonground-even-you-ep",
+    "type": "ep",
+    "artist": "BizZa & LondonGround",
+    "title": "Even You EP",
+    "label": "Cécille Numbers",
+    "releaseDate": "2026-05-01",
+    "description": "Five tracks of straight-ahead house from BizZa and LondonGround, landing on Cécille Numbers where the brief tends toward peaktime tools with a bit of swing. Functional shelf, next to the rest of the Cécille catalogue.",
+    "tags": [
+      "electronic"
+    ],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=BizZa%20%26%20LondonGround%20Even%20You%20EP&item_type=a",
+      "spotify": "https://open.spotify.com/search/BizZa%20%26%20LondonGround%20Even%20You%20EP",
+      "soundcloud": "https://soundcloud.com/search?q=BizZa%20%26%20LondonGround%20Even%20You%20EP",
+      "youtube": "https://www.youtube.com/results?search_query=BizZa%20%26%20LondonGround%20Even%20You%20EP",
+      "deezer": "https://www.deezer.com/album/973713871"
+    },
+    "embed": {
+      "provider": "deezer",
+      "src": "https://widget.deezer.com/widget/light/album/973713871",
+      "height": 300
+    },
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://i.discogs.com/ZsDfrJq-_b1rSHmmSYTl03jEWho4aKLGh9liFGqQ6Qo/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM3ODAz/NjUxLTE3ODMyNzkz/NzktODA0OC5qcGVn.jpeg",
     "cover": {
       "bg": "#111110",
       "fg": "#f2efe8",
@@ -44125,7 +44299,7 @@
     "title": "Slapped By My Life",
     "label": "Hyperdub",
     "releaseDate": "2025-01-01",
-    "description": "",
+    "description": "Four tracks from Lanza on Hyperdub that push her pop instincts further into breakbeat and drum & bass than usual, without letting go of the airy top end she is known for. For anyone still playing the Loraine James remix work.",
     "tags": [
       "electronic"
     ],
@@ -44160,7 +44334,7 @@
     "title": "Street Halo",
     "label": "Hyperdub",
     "releaseDate": "2025-01-01",
-    "description": "",
+    "description": "Hyperdub press up the Street Halo EP again, three tracks from the point where Burial's garage ghosts started stretching into longer, house-tempo shapes. Still the same rain on the same window, if you want the pointer.",
     "tags": [
       "electronic"
     ],
@@ -44196,7 +44370,7 @@
     "title": "Untrue",
     "label": "Hyperdub",
     "releaseDate": "2025-01-01",
-    "description": "",
+    "description": "Hyperdub keeps Untrue in circulation with another 12\" repress, the record that fixed Burial's vocabulary of pitched vocal scraps, vinyl hiss and rain-lit garage rhythms into something everyone has since tried to approximate. Still the reference point.",
     "tags": [
       "electronic"
     ],
@@ -44230,7 +44404,7 @@
     "title": "The Fan Dance",
     "label": "Modern Love",
     "releaseDate": "2025-01-01",
-    "description": "",
+    "description": "A two-track 7\" from Carrier on Modern Love, sitting where abstract dub and dubstep's slower, greyer end tend to meet on the label. Cut at 45, so expect the low end to do most of the talking.",
     "tags": [
       "electronic"
     ],
@@ -44264,7 +44438,7 @@
     "title": "Desaceleradas",
     "label": "Modern Love",
     "releaseDate": "2025-01-01",
-    "description": "",
+    "description": "Debit lands on Modern Love with eleven pieces that pull her Latin-percussive research into slower, more diffuse ambient territory. Sits comfortably alongside Rainy Miller or Space Afrika on the shelf.",
     "tags": [
       "electronic"
     ],
@@ -44301,7 +44475,7 @@
     "title": "Housearrest",
     "label": "Not On Label (Modern Love Story Self-released)",
     "releaseDate": "2025-01-01",
-    "description": "",
+    "description": "Twelve tracks of self-released hardcore punk from Modern Love Story, no label backing, no framing apparatus. Files it next to whatever DIY 7\"s are currently stacked by the turntable.",
     "tags": [
       "rock"
     ],
@@ -44334,7 +44508,7 @@
     "title": "Back Stabbers",
     "label": "Strongly Felt",
     "releaseDate": "2025-01-01",
-    "description": "",
+    "description": "The Gamble and Huff production template in its most fully realized form, back on Philadelphia International in a stereo LP reissue. Ten tracks of paranoid, string-laden Philly soul that still sets the bar for the sound.",
     "tags": [
       "funk / soul"
     ],
@@ -44369,7 +44543,7 @@
     "title": "Spinners",
     "label": "Strongly Felt",
     "releaseDate": "2025-01-01",
-    "description": "",
+    "description": "The 1973 Atlantic debut restored to Blu-ray with the original quadraphonic mix intact, Thom Bell's Philly arrangements finally given the room they were built for. A format upgrade aimed squarely at the surround-sound faithful.",
     "tags": [
       "funk / soul"
     ],
@@ -44403,7 +44577,7 @@
     "title": "The Payback",
     "label": "Strongly Felt",
     "releaseDate": "2025-01-01",
-    "description": "",
+    "description": "Polydor puts the 1973 double back on the shelf, still Brown's grittiest long-form workout: bandleader mode, minor-key vamps, grievance as groove. A cornerstone that reads less like soul and more like the blueprint for everything sampled after it.",
     "tags": [
       "funk / soul"
     ],
@@ -44438,7 +44612,7 @@
     "title": "Wild And Peaceful",
     "label": "Strongly Felt",
     "releaseDate": "2025-01-01",
-    "description": "",
+    "description": "The 1973 De-Lite session back on wax, the record where Kool & The Gang's horn-driven funk hardened into something tight enough to bankroll a decade of hip-hop breaks. Jungle Boogie and Funky Stuff still do the work.",
     "tags": [
       "funk / soul"
     ],
