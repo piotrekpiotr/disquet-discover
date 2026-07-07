@@ -1163,7 +1163,8 @@
     ],
     "titleExamples": [
       "Black Sands",
-      "The North Borders"
+      "The North Borders",
+      "Drift / Memory Signal"
     ]
   },
   "Anthony Naples": {
@@ -8813,6 +8814,22 @@
     ],
     "titleExamples": [
       "Let Peace Brood Over This Carcass: Rust Belt Guitar Soli"
+    ]
+  },
+  "James K = ジェームス・K": {
+    "seenOn": [
+      "AD 93"
+    ],
+    "titleExamples": [
+      "Friend = フレンド"
+    ]
+  },
+  "TIBSLC": {
+    "seenOn": [
+      "co:clear"
+    ],
+    "titleExamples": [
+      "City of Something"
     ]
   }
 }

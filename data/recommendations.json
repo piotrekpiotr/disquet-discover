@@ -659,6 +659,66 @@
     "pressMentions": []
   },
   {
+    "id": "log-log",
+    "type": "album",
+    "artist": "LOG",
+    "title": "LOG сипь гармоніка",
+    "label": "",
+    "releaseDate": "2026-07-04",
+    "description": "LOG surfaces with another cryptically titled full-length, the Cyrillic phrasing and absent label of a piece with the project's habit of arriving without ceremony. File alongside the more inward corners of Eastern European experimental electronics.",
+    "tags": [],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=LOG%20LOG%20%D1%81%D0%B8%D0%BF%D1%8C%20%D0%B3%D0%B0%D1%80%D0%BC%D0%BE%D0%BD%D1%96%D0%BA%D0%B0&item_type=a",
+      "spotify": "https://open.spotify.com/search/LOG%20LOG%20%D1%81%D0%B8%D0%BF%D1%8C%20%D0%B3%D0%B0%D1%80%D0%BC%D0%BE%D0%BD%D1%96%D0%BA%D0%B0",
+      "soundcloud": "https://soundcloud.com/search?q=LOG%20LOG%20%D1%81%D0%B8%D0%BF%D1%8C%20%D0%B3%D0%B0%D1%80%D0%BC%D0%BE%D0%BD%D1%96%D0%BA%D0%B0",
+      "youtube": "https://www.youtube.com/results?search_query=LOG%20LOG%20%D1%81%D0%B8%D0%BF%D1%8C%20%D0%B3%D0%B0%D1%80%D0%BC%D0%BE%D0%BD%D1%96%D0%BA%D0%B0",
+      "deezer": "https://www.deezer.com/album/1009308131",
+      "apple": "https://music.apple.com/us/album/log-%D1%81%D0%B8%D0%BF%D1%8C-%D0%B3%D0%B0%D1%80%D0%BC%D0%BE%D0%BD%D1%96%D0%BA%D0%B0-single/6780756158?uo=4"
+    },
+    "embed": {
+      "provider": "apple",
+      "src": "https://embed.music.apple.com/us/album/6780756158?theme=light",
+      "height": 450
+    },
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": null,
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
+    "id": "dijon-",
+    "type": "album",
+    "artist": "Dijon",
+    "title": "Времени Мало",
+    "label": "",
+    "releaseDate": "2026-07-04",
+    "description": "New long-player from Dijon, arriving with almost no attached information beyond the Cyrillic title. Given his run of ragged, room-recorded soul-adjacent songcraft, expect something closer to a document than a product.",
+    "tags": [],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=Dijon%20%D0%92%D1%80%D0%B5%D0%BC%D0%B5%D0%BD%D0%B8%20%D0%9C%D0%B0%D0%BB%D0%BE&item_type=a",
+      "spotify": "https://open.spotify.com/search/Dijon%20%D0%92%D1%80%D0%B5%D0%BC%D0%B5%D0%BD%D0%B8%20%D0%9C%D0%B0%D0%BB%D0%BE",
+      "soundcloud": "https://soundcloud.com/search?q=Dijon%20%D0%92%D1%80%D0%B5%D0%BC%D0%B5%D0%BD%D0%B8%20%D0%9C%D0%B0%D0%BB%D0%BE",
+      "youtube": "https://www.youtube.com/results?search_query=Dijon%20%D0%92%D1%80%D0%B5%D0%BC%D0%B5%D0%BD%D0%B8%20%D0%9C%D0%B0%D0%BB%D0%BE"
+    },
+    "embed": null,
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": null,
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
     "id": "lee-gamble-spray-spray",
     "type": "single",
     "artist": "Lee Gamble",
@@ -973,7 +1033,9 @@
       "fg": "#f2efe8",
       "motif": "disc"
     },
-    "pressMentions": []
+    "pressMentions": [
+      "pitchfork_albums"
+    ]
   },
   {
     "id": "j-bailey-beton-brut-ost",
@@ -1114,6 +1176,72 @@
     "pressMentions": []
   },
   {
+    "id": "andrea-oh-the-raven",
+    "type": "album",
+    "artist": "Andrea",
+    "title": "Oh, The raven",
+    "label": "",
+    "releaseDate": "2026-07-03",
+    "description": "Andrea's work for Ilian Tape has long sat at the point where breakbeat pressure gives way to something quieter and more corroded, and any new full-length from him is worth watching on those terms alone. Label unconfirmed at time of writing.",
+    "tags": [],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=Andrea%20Oh%2C%20The%20raven&item_type=a",
+      "spotify": "https://open.spotify.com/search/Andrea%20Oh%2C%20The%20raven",
+      "soundcloud": "https://soundcloud.com/search?q=Andrea%20Oh%2C%20The%20raven",
+      "youtube": "https://www.youtube.com/results?search_query=Andrea%20Oh%2C%20The%20raven",
+      "deezer": "https://www.deezer.com/album/998271561",
+      "apple": "https://music.apple.com/us/album/oh-the-raven-single/6777025104?uo=4"
+    },
+    "embed": {
+      "provider": "apple",
+      "src": "https://embed.music.apple.com/us/album/6777025104?theme=light",
+      "height": 450
+    },
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": null,
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
+    "id": "substance-madame",
+    "type": "album",
+    "artist": "Substance",
+    "title": "Madame",
+    "label": "",
+    "releaseDate": "2026-07-03",
+    "description": "Substance returns with a full-length titled Madame, arriving mid-2026 with label and format details still to surface. Worth watching if the DJ Pete / Basic Channel adjacent lineage is your corner of the shelf.",
+    "tags": [],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=Substance%20Madame&item_type=a",
+      "spotify": "https://open.spotify.com/search/Substance%20Madame",
+      "soundcloud": "https://soundcloud.com/search?q=Substance%20Madame",
+      "youtube": "https://www.youtube.com/results?search_query=Substance%20Madame",
+      "deezer": "https://www.deezer.com/album/1019528831",
+      "apple": "https://music.apple.com/us/album/madame-single/6786988459?uo=4"
+    },
+    "embed": {
+      "provider": "apple",
+      "src": "https://embed.music.apple.com/us/album/6786988459?theme=light",
+      "height": 450
+    },
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": null,
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
     "id": "djrum-i-wander-iv-v",
     "type": "single",
     "artist": "Djrum",
@@ -1188,7 +1316,7 @@
     "type": "single",
     "artist": "Jon Hopkins",
     "title": "Reckoning",
-    "label": "",
+    "label": "Megaphonic Records",
     "releaseDate": "2026-07-01",
     "description": "New Jon Hopkins single, arriving with no label attached yet, which is unusual enough to note. Expect the widescreen, piano-anchored electronics he has been working in since Singularity, though anything more specific is guesswork until it lands.",
     "tags": [],
@@ -1824,7 +1952,7 @@
     "type": "album",
     "artist": "Gold Panda",
     "title": "TON UP",
-    "label": "",
+    "label": "Studio Barnhus",
     "releaseDate": "2026-06-26",
     "description": "Gold Panda returns to the long-form, the register he has occupied since Lucky Shiner: chopped vocal fragments, hand-played loops, melancholy under the patterning. Label and tracklist still under wraps as of writing.",
     "tags": [],
@@ -2114,6 +2242,33 @@
       "src": "https://embed.music.apple.com/us/album/1796190717?theme=light",
       "height": 450
     },
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": null,
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
+    "id": "four-tet-2025-06-13-sonar-2025-fira-de-barcelona-gran-via-l-39-hospitalet-de-llo",
+    "type": "album",
+    "artist": "Four Tet",
+    "title": "2025-06-13: Sónar 2025 - Fira de Barcelona - Gran Via - L&#39;Hospitalet de Llobregat, Catalonia, ES",
+    "label": "",
+    "releaseDate": "2026-06-26",
+    "description": "A full board-recording of Kieran Hebden's Sónar 2025 set surfacing as a self-documented live album, the same folk-adjacent house and edit-heavy DJ instincts he's been running in festival slots for years. One for completists filing next to the Alexandra Palace tapes.",
+    "tags": [],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=Four%20Tet%202025-06-13%3A%20S%C3%B3nar%202025%20-%20Fira%20de%20Barcelona%20-%20Gran%20Via%20-%20L%26%2339%3BHospitalet%20de%20Llobregat%2C%20Catalonia%2C%20ES&item_type=a",
+      "spotify": "https://open.spotify.com/search/Four%20Tet%202025-06-13%3A%20S%C3%B3nar%202025%20-%20Fira%20de%20Barcelona%20-%20Gran%20Via%20-%20L%26%2339%3BHospitalet%20de%20Llobregat%2C%20Catalonia%2C%20ES",
+      "soundcloud": "https://soundcloud.com/search?q=Four%20Tet%202025-06-13%3A%20S%C3%B3nar%202025%20-%20Fira%20de%20Barcelona%20-%20Gran%20Via%20-%20L%26%2339%3BHospitalet%20de%20Llobregat%2C%20Catalonia%2C%20ES",
+      "youtube": "https://www.youtube.com/results?search_query=Four%20Tet%202025-06-13%3A%20S%C3%B3nar%202025%20-%20Fira%20de%20Barcelona%20-%20Gran%20Via%20-%20L%26%2339%3BHospitalet%20de%20Llobregat%2C%20Catalonia%2C%20ES"
+    },
+    "embed": null,
     "musicVideoUrl": null,
     "status": "pending",
     "approvedAt": null,
@@ -3294,7 +3449,9 @@
       "fg": "#f2efe8",
       "motif": "disc"
     },
-    "pressMentions": []
+    "pressMentions": [
+      "stereogum"
+    ]
   },
   {
     "id": "sullivan-king-t-pain-zoey808-push-up",
@@ -11972,7 +12129,9 @@
       "fg": "#f2efe8",
       "motif": "disc"
     },
-    "pressMentions": []
+    "pressMentions": [
+      "pitchfork_albums"
+    ]
   },
   {
     "id": "kendrick-lamar-everybody-sensitive",
@@ -12584,7 +12743,9 @@
       "fg": "#f2efe8",
       "motif": "disc"
     },
-    "pressMentions": []
+    "pressMentions": [
+      "pitchfork_albums"
+    ]
   },
   {
     "id": "massive-attack-teardrop-future-funk-squad-remix",
@@ -12815,7 +12976,9 @@
       "fg": "#f2efe8",
       "motif": "disc"
     },
-    "pressMentions": []
+    "pressMentions": [
+      "pitchfork_albums"
+    ]
   },
   {
     "id": "hekt-forever",
@@ -15238,7 +15401,9 @@
       "fg": "#f2efe8",
       "motif": "disc"
     },
-    "pressMentions": []
+    "pressMentions": [
+      "pitchfork_albums"
+    ]
   },
   {
     "id": "ital-tek-kill-switch",
@@ -40430,7 +40595,8 @@
       "spotify": "https://open.spotify.com/search/Soft%20Blue%20Shimmer%20They%20Will%20Leave%20Us%20With%20Nothing",
       "soundcloud": "https://soundcloud.com/search?q=Soft%20Blue%20Shimmer%20They%20Will%20Leave%20Us%20With%20Nothing",
       "youtube": "https://www.youtube.com/results?search_query=Soft%20Blue%20Shimmer%20They%20Will%20Leave%20Us%20With%20Nothing",
-      "apple": "https://music.apple.com/us/album/they-will-leave-us-with-nothing/1767684126?uo=4"
+      "apple": "https://music.apple.com/us/album/they-will-leave-us-with-nothing/1767684126?uo=4",
+      "tidal": "https://tidal.com/album/386525438"
     },
     "embed": {
       "provider": "apple",
@@ -40494,7 +40660,8 @@
       "soundcloud": "https://soundcloud.com/search?q=Chris%20Berardo%20Wilder%20All%20The%20Time",
       "youtube": "https://www.youtube.com/results?search_query=Chris%20Berardo%20Wilder%20All%20The%20Time",
       "deezer": "https://www.deezer.com/album/678540471",
-      "apple": "https://music.apple.com/us/album/wilder-all-the-time/1782963825?uo=4"
+      "apple": "https://music.apple.com/us/album/wilder-all-the-time/1782963825?uo=4",
+      "tidal": "https://tidal.com/album/403199810"
     },
     "embed": {
       "provider": "apple",
@@ -40529,7 +40696,8 @@
       "soundcloud": "https://soundcloud.com/search?q=Sunareht%20Poly%20Armour",
       "youtube": "https://www.youtube.com/results?search_query=Sunareht%20Poly%20Armour",
       "deezer": "https://www.deezer.com/album/672984131",
-      "apple": "https://music.apple.com/us/album/poly-armour-ep/1781014519?uo=4"
+      "apple": "https://music.apple.com/us/album/poly-armour-ep/1781014519?uo=4",
+      "tidal": "https://tidal.com/album/400881432"
     },
     "embed": {
       "provider": "apple",
@@ -40695,7 +40863,8 @@
       "spotify": "https://open.spotify.com/search/Irene%20Skylakaki%20I%20Am%20Jo",
       "soundcloud": "https://soundcloud.com/search?q=Irene%20Skylakaki%20I%20Am%20Jo",
       "youtube": "https://www.youtube.com/results?search_query=Irene%20Skylakaki%20I%20Am%20Jo",
-      "apple": "https://music.apple.com/us/album/i-am-jo-original-series-soundtrack/1797289160?uo=4"
+      "apple": "https://music.apple.com/us/album/i-am-jo-original-series-soundtrack/1797289160?uo=4",
+      "tidal": "https://tidal.com/album/418711490"
     },
     "embed": {
       "provider": "apple",
@@ -40729,7 +40898,8 @@
       "spotify": "https://open.spotify.com/search/Sam%20Gendel%20Live%20At%20Union%20Station",
       "soundcloud": "https://soundcloud.com/search?q=Sam%20Gendel%20Live%20At%20Union%20Station",
       "youtube": "https://www.youtube.com/results?search_query=Sam%20Gendel%20Live%20At%20Union%20Station",
-      "apple": "https://music.apple.com/us/album/live-at-union-station-ep/1789614638?uo=4"
+      "apple": "https://music.apple.com/us/album/live-at-union-station-ep/1789614638?uo=4",
+      "tidal": "https://tidal.com/album/410581944"
     },
     "embed": {
       "provider": "apple",
@@ -40764,7 +40934,8 @@
       "soundcloud": "https://soundcloud.com/search?q=Oren%20Ambarchi%20%26%20Eric%20Thielemans%20Kind%20Regards",
       "youtube": "https://www.youtube.com/results?search_query=Oren%20Ambarchi%20%26%20Eric%20Thielemans%20Kind%20Regards",
       "deezer": "https://www.deezer.com/album/673382291",
-      "apple": "https://music.apple.com/us/album/kind-regards/1781209938?uo=4"
+      "apple": "https://music.apple.com/us/album/kind-regards/1781209938?uo=4",
+      "tidal": "https://tidal.com/album/525877386"
     },
     "embed": {
       "provider": "apple",
@@ -40798,7 +40969,8 @@
       "spotify": "https://open.spotify.com/search/Nina%20Garcia%20(2)%20Bye%20Bye%20Bird",
       "soundcloud": "https://soundcloud.com/search?q=Nina%20Garcia%20(2)%20Bye%20Bye%20Bird",
       "youtube": "https://www.youtube.com/results?search_query=Nina%20Garcia%20(2)%20Bye%20Bye%20Bird",
-      "apple": "https://music.apple.com/us/album/bye-bye-bird/1780398001?uo=4"
+      "apple": "https://music.apple.com/us/album/bye-bye-bird/1780398001?uo=4",
+      "tidal": "https://tidal.com/album/400370790"
     },
     "embed": {
       "provider": "apple",
@@ -40832,7 +41004,8 @@
       "spotify": "https://open.spotify.com/search/Enxin%20%2F%20Onyx%20In%20Rupture",
       "soundcloud": "https://soundcloud.com/search?q=Enxin%20%2F%20Onyx%20In%20Rupture",
       "youtube": "https://www.youtube.com/results?search_query=Enxin%20%2F%20Onyx%20In%20Rupture",
-      "apple": "https://music.apple.com/us/album/in-rupture/1781320330?uo=4"
+      "apple": "https://music.apple.com/us/album/in-rupture/1781320330?uo=4",
+      "tidal": "https://tidal.com/album/401349982"
     },
     "embed": {
       "provider": "apple",
@@ -40895,7 +41068,8 @@
       "spotify": "https://open.spotify.com/search/Homeskin%20Soul%20Washed%20Bleach",
       "soundcloud": "https://soundcloud.com/search?q=Homeskin%20Soul%20Washed%20Bleach",
       "youtube": "https://www.youtube.com/results?search_query=Homeskin%20Soul%20Washed%20Bleach",
-      "apple": "https://music.apple.com/us/album/soul-washed-bleach/1792116407?uo=4"
+      "apple": "https://music.apple.com/us/album/soul-washed-bleach/1792116407?uo=4",
+      "tidal": "https://tidal.com/album/412915935"
     },
     "embed": {
       "provider": "apple",
@@ -40929,7 +41103,8 @@
       "spotify": "https://open.spotify.com/search/Imaginary%20Number%20IMN%20III",
       "soundcloud": "https://soundcloud.com/search?q=Imaginary%20Number%20IMN%20III",
       "youtube": "https://www.youtube.com/results?search_query=Imaginary%20Number%20IMN%20III",
-      "apple": "https://music.apple.com/us/album/imn-iii-feat-synkro-ep/1794549049?uo=4"
+      "apple": "https://music.apple.com/us/album/imn-iii-feat-synkro-ep/1794549049?uo=4",
+      "tidal": "https://tidal.com/album/415945662"
     },
     "embed": {
       "provider": "apple",
@@ -40964,7 +41139,8 @@
       "soundcloud": "https://soundcloud.com/search?q=julek%20ploski%20Give%20Up%20Channel",
       "youtube": "https://www.youtube.com/results?search_query=julek%20ploski%20Give%20Up%20Channel",
       "deezer": "https://www.deezer.com/album/716766631",
-      "apple": "https://music.apple.com/us/album/give-up-channel/1795917862?uo=4"
+      "apple": "https://music.apple.com/us/album/give-up-channel/1795917862?uo=4",
+      "tidal": "https://tidal.com/album/417514909"
     },
     "embed": {
       "provider": "apple",
@@ -40997,7 +41173,8 @@
       "soundcloud": "https://soundcloud.com/search?q=Jordan%20Playfair%20Doctor%20Pain",
       "youtube": "https://www.youtube.com/results?search_query=Jordan%20Playfair%20Doctor%20Pain",
       "deezer": "https://www.deezer.com/album/709026741",
-      "apple": "https://music.apple.com/us/album/doctor-pain-single/1794765877?uo=4"
+      "apple": "https://music.apple.com/us/album/doctor-pain-single/1794765877?uo=4",
+      "tidal": "https://tidal.com/album/416247879"
     },
     "embed": {
       "provider": "apple",
@@ -41032,7 +41209,8 @@
       "soundcloud": "https://soundcloud.com/search?q=bambinodj%20Silent%20Dispatch",
       "youtube": "https://www.youtube.com/results?search_query=bambinodj%20Silent%20Dispatch",
       "deezer": "https://www.deezer.com/album/707171151",
-      "apple": "https://music.apple.com/us/album/silent-dispatch/1794102741?uo=4"
+      "apple": "https://music.apple.com/us/album/silent-dispatch/1794102741?uo=4",
+      "tidal": "https://tidal.com/album/415400759"
     },
     "embed": {
       "provider": "apple",
@@ -41067,7 +41245,8 @@
       "soundcloud": "https://soundcloud.com/search?q=Raven%20(126)%20Gnosis",
       "youtube": "https://www.youtube.com/results?search_query=Raven%20(126)%20Gnosis",
       "deezer": "https://www.deezer.com/album/695576421",
-      "apple": "https://music.apple.com/us/album/gnosis/1790887791?uo=4"
+      "apple": "https://music.apple.com/us/album/gnosis/1790887791?uo=4",
+      "tidal": "https://tidal.com/album/524567154"
     },
     "embed": {
       "provider": "apple",
@@ -41102,7 +41281,8 @@
       "soundcloud": "https://soundcloud.com/search?q=Operator%20(17)%20Cala%20Serena",
       "youtube": "https://www.youtube.com/results?search_query=Operator%20(17)%20Cala%20Serena",
       "deezer": "https://www.deezer.com/album/716588981",
-      "apple": "https://music.apple.com/us/album/cala-serena-ep/1797758421?uo=4"
+      "apple": "https://music.apple.com/us/album/cala-serena-ep/1797758421?uo=4",
+      "tidal": "https://tidal.com/album/419404434"
     },
     "embed": {
       "provider": "apple",
@@ -41136,7 +41316,8 @@
       "spotify": "https://open.spotify.com/search/Soreab%20Fragments%20of%20Utopia",
       "soundcloud": "https://soundcloud.com/search?q=Soreab%20Fragments%20of%20Utopia",
       "youtube": "https://www.youtube.com/results?search_query=Soreab%20Fragments%20of%20Utopia",
-      "apple": "https://music.apple.com/us/album/fragments-of-utopia-single/1789092848?uo=4"
+      "apple": "https://music.apple.com/us/album/fragments-of-utopia-single/1789092848?uo=4",
+      "tidal": "https://tidal.com/album/409972649"
     },
     "embed": {
       "provider": "apple",
@@ -41170,7 +41351,8 @@
       "spotify": "https://open.spotify.com/search/Ariel%20Kalma%20%26%20Asa%20Tone%20%E2%97%AF",
       "soundcloud": "https://soundcloud.com/search?q=Ariel%20Kalma%20%26%20Asa%20Tone%20%E2%97%AF",
       "youtube": "https://www.youtube.com/results?search_query=Ariel%20Kalma%20%26%20Asa%20Tone%20%E2%97%AF",
-      "apple": "https://music.apple.com/us/album/o/1791954069?uo=4"
+      "apple": "https://music.apple.com/us/album/o/1791954069?uo=4",
+      "tidal": "https://tidal.com/album/413240615"
     },
     "embed": {
       "provider": "apple",
@@ -44646,7 +44828,7 @@
     "title": "Hell",
     "label": "Strongly Felt",
     "releaseDate": "2025-01-01",
-    "description": "",
+    "description": "Polydor puts the 1974 double back into circulation, cut down to a single LP of fourteen tracks. Late-period JB band at full stretch, Fred Wesley charts, ballads sitting next to the harder rhythm workouts.",
     "tags": [
       "funk / soul"
     ],
@@ -44682,7 +44864,7 @@
     "title": "This Girl's In Love With You",
     "label": "Strongly Felt",
     "releaseDate": "2025-01-01",
-    "description": "",
+    "description": "Atlantic reissues the 1970 Franklin LP on vinyl, a ten-track set caught between the Muscle Shoals grit of the late 60s work and the softer arrangements creeping in behind her. Essential shelf material for anyone still working through the Jerry Wexler years.",
     "tags": [
       "funk / soul"
     ],
@@ -44717,7 +44899,7 @@
     "title": "Still Bill",
     "label": "Strongly Felt",
     "releaseDate": "2025-01-01",
-    "description": "",
+    "description": "Mobile Fidelity gives Withers' 1972 set the audiophile treatment it has long deserved, numbered and remastered for the shelf where the Original Master Recording pressings live. The songs need no introduction; the pressing is the point.",
     "tags": [
       "funk / soul"
     ],
@@ -44753,7 +44935,7 @@
     "title": "Fully Loaded",
     "label": "Strongly Felt",
     "releaseDate": "2025-01-01",
-    "description": "",
+    "description": "Seven-track soul and funk set from Magnum, pulled back into circulation via Fine Music Records on an unofficial LP reissue. One for collectors who chase pressings rather than provenance.",
     "tags": [
       "funk / soul"
     ],
@@ -44789,7 +44971,7 @@
     "title": "Fathom",
     "label": "FELT (3)",
     "releaseDate": "2025-01-01",
-    "description": "",
+    "description": "Four tracks of jittery techno and broken beat with the edges left rough, repressed on FELT. IDM-adjacent in the way it treats percussion as something to be dismantled rather than programmed.",
     "tags": [
       "electronic"
     ],
@@ -44824,7 +45006,7 @@
     "title": "Kelly Lee Owens",
     "label": "Vertigo Vinyl",
     "releaseDate": "2025-01-01",
-    "description": "",
+    "description": "Kelly Lee Owens' self-titled arrives on Vertigo in a numbered LP pressing, ten tracks pulling her club instincts toward darker, more pop-shaped territory. For anyone who followed Inner Song into stranger rooms.",
     "tags": [
       "electronic"
     ],
@@ -44859,7 +45041,7 @@
     "title": "Haihara",
     "label": "Smalltown Supersound",
     "releaseDate": "2025-01-01",
-    "description": "",
+    "description": "Henriksen's breath-thin trumpet meets Jürjendal's treated guitar across seven pieces for Smalltown Supersound, closer to slow-drifting chamber electronics than to anything you would file under contemporary jazz. For anyone still living inside Chiaroscuro.",
     "tags": [
       "electronic"
     ],
@@ -44894,7 +45076,7 @@
     "title": "Lumina",
     "label": "Felt",
     "releaseDate": "2025-01-01",
-    "description": "",
+    "description": "Ten tracks of chamber-leaning classical pop from Ellen Williams on Felt, sitting closer to art song than to anything club-adjacent. Best filed with the quieter, string-forward end of modern composition.",
     "tags": [
       "pop"
     ],
@@ -44930,7 +45112,7 @@
     "title": "Love Is The Message",
     "label": "Strongly Felt",
     "releaseDate": "2025-01-01",
-    "description": "",
+    "description": "An unofficial 12\" pressing of the Philly International cornerstone, cut for the floor rather than the archive. Two versions of the Gamble and Huff standard, sitting where disco edits and DJ tools have always overlapped.",
     "tags": [
       "funk / soul"
     ],
@@ -44966,7 +45148,7 @@
     "title": "4-Wheel Vibe",
     "label": "SBÄM Records",
     "releaseDate": "2025-01-01",
-    "description": "",
+    "description": "Bracket's late-90s pop-punk on wax again via SBÄM, sixteen tracks of the sort of melodic, self-deprecating songwriting that put them in conversation with Sicko and early Nerf Herder. Reissue territory for anyone still working through the Fat Wreck margins.",
     "tags": [
       "rock"
     ],
