@@ -8821,6 +8821,7 @@
       "AD 93"
     ],
     "titleExamples": [
+      "Friend = フレンド",
       "Friend = フレンド"
     ]
   },
@@ -8829,7 +8830,16 @@
       "co:clear"
     ],
     "titleExamples": [
+      "City of Something",
       "City of Something"
+    ]
+  },
+  "Piezo (2)": {
+    "seenOn": [
+      "NAFF"
+    ],
+    "titleExamples": [
+      "Sky Burial"
     ]
   }
 }

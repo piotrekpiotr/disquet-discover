@@ -656,6 +656,103 @@
       "fg": "#f2efe8",
       "motif": "disc"
     },
+    "pressMentions": [
+      "bandcamp_daily"
+    ]
+  },
+  {
+    "id": "jacques-greene-closer-ft-dj-boring",
+    "type": "single",
+    "artist": "Jacques Greene",
+    "title": "Closer (ft DJ BORING)",
+    "label": "",
+    "releaseDate": "2026-07-08",
+    "description": "Jacques Greene links with DJ BORING on a single that sits comfortably between the former's vocal-chop house lineage and the latter's lo-fi club instincts. A pairing that more or less writes itself, which is presumably the point.",
+    "tags": [],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=Jacques%20Greene%20Closer%20(ft%20DJ%20BORING)&item_type=a",
+      "spotify": "https://open.spotify.com/search/Jacques%20Greene%20Closer%20(ft%20DJ%20BORING)",
+      "soundcloud": "https://soundcloud.com/search?q=Jacques%20Greene%20Closer%20(ft%20DJ%20BORING)",
+      "youtube": "https://www.youtube.com/results?search_query=Jacques%20Greene%20Closer%20(ft%20DJ%20BORING)",
+      "deezer": "https://www.deezer.com/album/1006945091",
+      "apple": "https://music.apple.com/us/album/closer-ft-dj-boring-single/6780873314?uo=4",
+      "tidal": "https://tidal.com/album/533920608"
+    },
+    "embed": {
+      "provider": "apple",
+      "src": "https://embed.music.apple.com/us/album/6780873314?theme=light",
+      "height": 450
+    },
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://cdn-images.dzcdn.net/images/cover/c3329918fa4490e2a36bee1b86b230c9/1000x1000-000000-80-0-0.jpg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
+    "id": "klein-zone-3",
+    "type": "single",
+    "artist": "Klein",
+    "title": "ZONE 3",
+    "label": "",
+    "releaseDate": "2026-07-07",
+    "description": "Klein back in her own orbit, where R&B, musique concrète and West End theatre tend to collide without warning. Self-released, no label attached, which tracks with how she's operated for years.",
+    "tags": [],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=Klein%20ZONE%203&item_type=a",
+      "spotify": "https://open.spotify.com/search/Klein%20ZONE%203",
+      "soundcloud": "https://soundcloud.com/search?q=Klein%20ZONE%203",
+      "youtube": "https://www.youtube.com/results?search_query=Klein%20ZONE%203",
+      "deezer": "https://www.deezer.com/album/1023662871"
+    },
+    "embed": {
+      "provider": "deezer",
+      "src": "https://widget.deezer.com/widget/light/album/1023662871",
+      "height": 300
+    },
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://cdn-images.dzcdn.net/images/cover/c27bdde762524cc14f0108a8766b25b2/1000x1000-000000-80-0-0.jpg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
+    "id": "bonobo-drift-memory-signal",
+    "type": "single",
+    "artist": "Bonobo",
+    "title": "Drift / Memory Signal",
+    "label": "Ninja Tune",
+    "releaseDate": "2026-07-06",
+    "description": "A two-tracker from Bonobo on Ninja Tune, splitting the difference between deep house and the softer ambient palette he tends to save for interludes. Limited 45 RPM 12\"; shelve near Maribou State.",
+    "tags": [
+      "electronic"
+    ],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=Bonobo%20Drift%20%2F%20Memory%20Signal&item_type=a",
+      "spotify": "https://open.spotify.com/search/Bonobo%20Drift%20%2F%20Memory%20Signal",
+      "soundcloud": "https://soundcloud.com/search?q=Bonobo%20Drift%20%2F%20Memory%20Signal",
+      "youtube": "https://www.youtube.com/results?search_query=Bonobo%20Drift%20%2F%20Memory%20Signal"
+    },
+    "embed": null,
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://i.discogs.com/euFUKp6ZvrzKFyoygr_atCK3GXuR638BiLz5X4NcVe8/rs:fit/g:sm/q:90/h:587/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM3ODEz/ODI3LTE3ODM0NDg4/ODUtOTI1MC5qcGVn.jpeg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
     "pressMentions": []
   },
   {
@@ -791,7 +888,7 @@
     "type": "album",
     "artist": "Galcher Lustwerk",
     "title": "Vestibule Remixes",
-    "label": "",
+    "label": "Stratasonic",
     "releaseDate": "2026-07-03",
     "description": "Remixes of Lustwerk's Vestibule material, which means his murmured half-rapped vocals and unhurried deep house templates handed off for reinterpretation. Worth a look for anyone who has followed the Ghostly and White Material threads.",
     "tags": [],
@@ -4935,7 +5032,9 @@
       "fg": "#f2efe8",
       "motif": "disc"
     },
-    "pressMentions": []
+    "pressMentions": [
+      "bandcamp_daily"
+    ]
   },
   {
     "id": "baauer-calling-out-for-u-somebody",
@@ -10379,7 +10478,9 @@
       "fg": "#f2efe8",
       "motif": "disc"
     },
-    "pressMentions": []
+    "pressMentions": [
+      "bandcamp_daily"
+    ]
   },
   {
     "id": "jacques-greene-umru-what-you-say-ft-umru",
@@ -45183,7 +45284,7 @@
     "title": "Nenhuma Estrela",
     "label": "Balaclava Records",
     "releaseDate": "2025-01-01",
-    "description": "",
+    "description": "São Paulo's Terno Rei stay in their lane on Balaclava, thirteen tracks of soft-focus dream pop that lean more indie than shoegaze. For anyone whose Beach Fossils records still get rotated.",
     "tags": [
       "rock"
     ],
@@ -45219,7 +45320,7 @@
     "title": "Flood Coil",
     "label": "Smalltown Supersound",
     "releaseDate": "2025-01-01",
-    "description": "",
+    "description": "Two slabs of harsh noise wall from Marhaug in collaboration with video artist Kjell Bjørgeengen, arriving on Smalltown Supersound in LP form. Static as sustained architecture rather than event; file with Vomir if you need a pointer.",
     "tags": [
       "electronic"
     ],
@@ -45248,7 +45349,7 @@
     "title": "Kōri no ryokō / Jäämatkailu",
     "label": "mappa",
     "releaseDate": "2025-01-01",
-    "description": "",
+    "description": "A two-part collaboration between Yoichi Kamimura and Olli Aarni for Slovakia's mappa, pairing field-recording ambient with the kind of quiet electronic drift both are known for. Shelve near Ourania or the softer edges of the label's catalogue.",
     "tags": [
       "electronic"
     ],
@@ -45283,7 +45384,7 @@
     "title": "X-Files: Covers, Compositions, and Copyrighted Material",
     "label": "AD 93",
     "releaseDate": "2024-12-26",
-    "description": "",
+    "description": "Dylan Henner's AD 93 outing rummages through covers, original pieces and lifted material across two long tracks, splicing ambient drift into future house shapes and back out again. Closer to a mixtape logic than an album one, and better for it.",
     "tags": [],
     "links": {
       "bandcamp": "https://bandcamp.com/album/383765804",
@@ -45310,7 +45411,7 @@
     "title": "Faith In Strangers",
     "label": "Modern Love",
     "releaseDate": "2024-12-20",
-    "description": "",
+    "description": "Modern Love repress the 2014 Stott LP that pushed his corroded techno toward something closer to song form, all detuned pianos, sub-weight and Alison Skidmore's vocal at the centre. Still the obvious entry point if Faith Coloccia's work on Passed Me By hit.",
     "tags": [
       "electronic"
     ],
@@ -45346,7 +45447,7 @@
     "title": "brave new world",
     "label": "life is beautiful records",
     "releaseDate": "2024-12-19",
-    "description": "",
+    "description": "Twelve tracks of art-rock pulled through industrial grit and krautrock repetition, issued on Life Is Beautiful. Sits closer to noise-rock corrosion than motorik reverie, though both are in play.",
     "tags": [
       "rock"
     ],
@@ -45375,7 +45476,7 @@
     "title": "Echoes Of Fury",
     "label": "YUKU",
     "releaseDate": "2024-12-19",
-    "description": "",
+    "description": "Five tracks of breakbeat and bass pressure for YUKU, the Lyon label that has spent the last few years mapping the murkier edges of the form. Sits comfortably next to Sinistarr or the label's own Tam-e catalogue.",
     "tags": [
       "electronic"
     ],
@@ -45411,7 +45512,7 @@
     "title": "End Of The Nail",
     "label": "Other People Records",
     "releaseDate": "2024-12-06",
-    "description": "",
+    "description": "Eleven tracks of Fort Collins shoegaze from Gleemer, their guitars still doing that patient, corroded-but-melodic thing they've been sharpening across the last decade. For anyone who kept Anymore in rotation.",
     "tags": [
       "rock"
     ],
@@ -45446,7 +45547,7 @@
     "title": "Live At Venue Mot 24.10.24",
     "label": "life is beautiful records",
     "releaseDate": "2024-12-05",
-    "description": "",
+    "description": "A single-track document of inuri's October set at Venue Mot, arriving digitally on Life Is Beautiful Records. Chiptune abraded into noise, closer to a soundboard artifact than a studio piece.",
     "tags": [
       "electronic"
     ],
@@ -45513,7 +45614,7 @@
     "title": "Feet Of Clay",
     "label": "Tan Cressida",
     "releaseDate": "2024-11-29",
-    "description": "",
+    "description": "Tan Cressida returns the 2019 EP to vinyl for RSD in a deluxe stereo pressing, gathering the abbreviated, murk-lidded verses Earl was working through between full-lengths. A useful sit for anyone still picking apart the Some Rap Songs era.",
     "tags": [
       "hip hop"
     ],
@@ -45549,7 +45650,7 @@
     "title": "Midwinters Garrote",
     "label": "Winding Stair Records",
     "releaseDate": "2024-11-29",
-    "description": "",
+    "description": "Nine tracks of dungeon synth from Travellers Rest, arriving on Winding Stair in a limited edition. Cold, medieval-adjacent atmospheres for the Old Tower and Erang shelf.",
     "tags": [
       "electronic"
     ],
@@ -45584,7 +45685,7 @@
     "title": "Caldo Verde",
     "label": "AD 93",
     "releaseDate": "2024-11-29",
-    "description": "",
+    "description": "Five tracks of percussion-forward club music from the Nervous Horizon boss and the Sydney-via-Berlin drum specialist, landing on AD 93. UK funky as a starting grid rather than a destination; for anyone still working through Anunaku's rhythm imports.",
     "tags": [],
     "links": {
       "bandcamp": "https://bandcamp.com/album/4184440313",
@@ -55224,7 +55325,8 @@
       "spotify": "https://open.spotify.com/search/TSVI%20%26%20Loraine%20James%20053",
       "soundcloud": "https://soundcloud.com/search?q=TSVI%20%26%20Loraine%20James%20053",
       "youtube": "https://www.youtube.com/results?search_query=TSVI%20%26%20Loraine%20James%20053",
-      "apple": "https://music.apple.com/us/album/053-ep/1895653091?uo=4"
+      "apple": "https://music.apple.com/us/album/053-ep/1895653091?uo=4",
+      "tidal": "https://tidal.com/album/519575720"
     },
     "embed": {
       "provider": "apple",
@@ -55325,7 +55427,8 @@
       "soundcloud": "https://soundcloud.com/search?q=Wojciech%20Rusin%20Syphon",
       "youtube": "https://www.youtube.com/results?search_query=Wojciech%20Rusin%20Syphon",
       "deezer": "https://www.deezer.com/album/970607111",
-      "apple": "https://music.apple.com/us/album/syphon/1895643487?uo=4"
+      "apple": "https://music.apple.com/us/album/syphon/1895643487?uo=4",
+      "tidal": "https://tidal.com/album/519543812"
     },
     "embed": {
       "provider": "apple",
@@ -55358,7 +55461,8 @@
       "soundcloud": "https://soundcloud.com/search?q=SKY%20H1%20Azure",
       "youtube": "https://www.youtube.com/results?search_query=SKY%20H1%20Azure",
       "deezer": "https://www.deezer.com/album/970607121",
-      "apple": "https://music.apple.com/us/album/azure/1895643094?uo=4"
+      "apple": "https://music.apple.com/us/album/azure/1895643094?uo=4",
+      "tidal": "https://tidal.com/album/519543139"
     },
     "embed": {
       "provider": "apple",
@@ -55445,7 +55549,8 @@
       "soundcloud": "https://soundcloud.com/search?q=Leif%209%20Airs",
       "youtube": "https://www.youtube.com/results?search_query=Leif%209%20Airs",
       "deezer": "https://www.deezer.com/album/970607091",
-      "apple": "https://music.apple.com/us/album/9-airs/1895643134?uo=4"
+      "apple": "https://music.apple.com/us/album/9-airs/1895643134?uo=4",
+      "tidal": "https://tidal.com/album/519543222"
     },
     "embed": {
       "provider": "apple",
@@ -55478,7 +55583,8 @@
       "soundcloud": "https://soundcloud.com/search?q=Christoph%20de%20Babalon%20044%20(Hilf%20Dir%20Selbst!)",
       "youtube": "https://www.youtube.com/results?search_query=Christoph%20de%20Babalon%20044%20(Hilf%20Dir%20Selbst!)",
       "deezer": "https://www.deezer.com/album/255503692",
-      "apple": "https://music.apple.com/us/album/044-hilf-dir-selbst-ep/1583753409?uo=4"
+      "apple": "https://music.apple.com/us/album/044-hilf-dir-selbst-ep/1583753409?uo=4",
+      "tidal": "https://tidal.com/album/195957019"
     },
     "embed": {
       "provider": "apple",
@@ -55544,7 +55650,8 @@
       "soundcloud": "https://soundcloud.com/search?q=Moin%20Moot!",
       "youtube": "https://www.youtube.com/results?search_query=Moin%20Moot!",
       "deezer": "https://www.deezer.com/album/257704402",
-      "apple": "https://music.apple.com/us/album/moot/1585302581?uo=4"
+      "apple": "https://music.apple.com/us/album/moot/1585302581?uo=4",
+      "tidal": "https://tidal.com/album/197231316"
     },
     "embed": {
       "provider": "apple",
@@ -55577,7 +55684,8 @@
       "soundcloud": "https://soundcloud.com/search?q=Vivian%20Koch%20Beyond%20Contact",
       "youtube": "https://www.youtube.com/results?search_query=Vivian%20Koch%20Beyond%20Contact",
       "deezer": "https://www.deezer.com/album/970607041",
-      "apple": "https://music.apple.com/us/album/beyond-contact/1895642040?uo=4"
+      "apple": "https://music.apple.com/us/album/beyond-contact/1895642040?uo=4",
+      "tidal": "https://tidal.com/album/519542513"
     },
     "embed": {
       "provider": "apple",
@@ -55610,7 +55718,8 @@
       "soundcloud": "https://soundcloud.com/search?q=Maxwell%20Sterling%20Turn%20of%20Phrase",
       "youtube": "https://www.youtube.com/results?search_query=Maxwell%20Sterling%20Turn%20of%20Phrase",
       "deezer": "https://www.deezer.com/album/970607151",
-      "apple": "https://music.apple.com/us/album/turn-of-phrase/1895642911?uo=4"
+      "apple": "https://music.apple.com/us/album/turn-of-phrase/1895642911?uo=4",
+      "tidal": "https://tidal.com/album/519543121"
     },
     "embed": {
       "provider": "apple",
@@ -55643,7 +55752,8 @@
       "soundcloud": "https://soundcloud.com/search?q=Anunaku%20042",
       "youtube": "https://www.youtube.com/results?search_query=Anunaku%20042",
       "deezer": "https://www.deezer.com/album/257704482",
-      "apple": "https://music.apple.com/us/album/042-single/1585302592?uo=4"
+      "apple": "https://music.apple.com/us/album/042-single/1585302592?uo=4",
+      "tidal": "https://tidal.com/album/197231331"
     },
     "embed": {
       "provider": "apple",
@@ -55676,7 +55786,8 @@
       "soundcloud": "https://soundcloud.com/search?q=james%20K%20036",
       "youtube": "https://www.youtube.com/results?search_query=james%20K%20036",
       "deezer": "https://www.deezer.com/album/257699742",
-      "apple": "https://music.apple.com/us/album/036-ep/1585301123?uo=4"
+      "apple": "https://music.apple.com/us/album/036-ep/1585301123?uo=4",
+      "tidal": "https://tidal.com/album/197231167"
     },
     "embed": {
       "provider": "apple",
@@ -55711,7 +55822,8 @@
       "soundcloud": "https://soundcloud.com/search?q=Amandra%20035",
       "youtube": "https://www.youtube.com/results?search_query=Amandra%20035",
       "deezer": "https://www.deezer.com/album/257699712",
-      "apple": "https://music.apple.com/us/album/035-single/1585299080?uo=4"
+      "apple": "https://music.apple.com/us/album/035-single/1585299080?uo=4",
+      "tidal": "https://tidal.com/album/197231162"
     },
     "embed": {
       "provider": "apple",
@@ -55744,7 +55856,8 @@
       "soundcloud": "https://soundcloud.com/search?q=Venus%20Ex%20Machina%20Lux",
       "youtube": "https://www.youtube.com/results?search_query=Venus%20Ex%20Machina%20Lux",
       "deezer": "https://www.deezer.com/album/963803501",
-      "apple": "https://music.apple.com/us/album/lux/1894266034?uo=4"
+      "apple": "https://music.apple.com/us/album/lux/1894266034?uo=4",
+      "tidal": "https://tidal.com/album/516816468"
     },
     "embed": {
       "provider": "apple",
