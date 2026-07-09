@@ -644,9 +644,15 @@
       "spotify": "https://open.spotify.com/search/2K88%2C%20Lauren%20Duffus%2C%20Rainy%20Miller%20%26%20Bianca%20Scout%20Everything%20Always%20Changes%2C%20For%20We%E2%80%99re%20Truly%20Here",
       "soundcloud": "https://soundcloud.com/search?q=2K88%2C%20Lauren%20Duffus%2C%20Rainy%20Miller%20%26%20Bianca%20Scout%20Everything%20Always%20Changes%2C%20For%20We%E2%80%99re%20Truly%20Here",
       "youtube": "https://www.youtube.com/results?search_query=2K88%2C%20Lauren%20Duffus%2C%20Rainy%20Miller%20%26%20Bianca%20Scout%20Everything%20Always%20Changes%2C%20For%20We%E2%80%99re%20Truly%20Here",
-      "apple": "https://music.apple.com/us/album/everything-always-changes-for-were-truly-here/6767610046"
+      "apple": "https://music.apple.com/us/album/everything-always-changes-for-were-truly-here/6767610046",
+      "deezer": "https://www.deezer.com/album/973758651",
+      "tidal": "https://tidal.com/album/520820517"
     },
-    "embed": null,
+    "embed": {
+      "provider": "apple",
+      "src": "https://embed.music.apple.com/us/album/6767610046?theme=light",
+      "height": 450
+    },
     "musicVideoUrl": null,
     "status": "pending",
     "approvedAt": null,
@@ -659,6 +665,35 @@
     "pressMentions": [
       "bandcamp_daily"
     ]
+  },
+  {
+    "id": "rainy-miller-everything-always-changes-for-we-re-truly-here",
+    "type": "album",
+    "artist": "Rainy Miller",
+    "title": "Everything Always Changes, For We’re Truly Here",
+    "label": "",
+    "releaseDate": "2026-07-09",
+    "description": "The Preston vocalist and producer returns to the format where his bruised, auto-tuned devotional writing has always sat best. Expect the same fog of processed voice, gospel residue and northern English melancholy that has defined his work with Space Afrika and Blackhaine.",
+    "tags": [],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=Rainy%20Miller%20Everything%20Always%20Changes%2C%20For%20We%E2%80%99re%20Truly%20Here&item_type=a",
+      "spotify": "https://open.spotify.com/search/Rainy%20Miller%20Everything%20Always%20Changes%2C%20For%20We%E2%80%99re%20Truly%20Here",
+      "soundcloud": "https://soundcloud.com/search?q=Rainy%20Miller%20Everything%20Always%20Changes%2C%20For%20We%E2%80%99re%20Truly%20Here",
+      "youtube": "https://www.youtube.com/results?search_query=Rainy%20Miller%20Everything%20Always%20Changes%2C%20For%20We%E2%80%99re%20Truly%20Here",
+      "deezer": "https://www.deezer.com/album/973758651",
+      "tidal": "https://tidal.com/album/520820517"
+    },
+    "embed": null,
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://cdn-images.dzcdn.net/images/cover/241f05e82a2c2986dcfaca6eaaa8e53e/1000x1000-000000-80-0-0.jpg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
   },
   {
     "id": "jacques-greene-closer-ft-dj-boring",
@@ -695,6 +730,107 @@
     "pressMentions": []
   },
   {
+    "id": "deadbeat-let-the-city-burn",
+    "type": "ep",
+    "artist": "Deadbeat",
+    "title": "Let the city burn...",
+    "label": "RADIOATIVO",
+    "releaseDate": "2026-07-08",
+    "description": "Scott Monteith in his Deadbeat guise, dub techno's most patient miniaturist, turning up on RADIOATIVO with an EP tagged simply alternative. Expect the low-end shuffle and Kingston-via-Berlin haze that has been his register for two decades.",
+    "tags": [
+      "alternative"
+    ],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=Deadbeat%20Let%20the%20city%20burn...&item_type=a",
+      "spotify": "https://open.spotify.com/search/Deadbeat%20Let%20the%20city%20burn...",
+      "soundcloud": "https://soundcloud.com/search?q=Deadbeat%20Let%20the%20city%20burn...",
+      "youtube": "https://www.youtube.com/results?search_query=Deadbeat%20Let%20the%20city%20burn...",
+      "apple": "https://music.apple.com/us/album/let-the-city-burn-ep/6788691881",
+      "deezer": "https://www.deezer.com/album/1024025621",
+      "tidal": "https://tidal.com/album/541286046"
+    },
+    "embed": {
+      "provider": "apple",
+      "src": "https://embed.music.apple.com/us/album/6788691881?theme=light",
+      "height": 450
+    },
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/11/46/5b/11465b04-f26d-377e-7f15-4b2afc25ed9e/7333591153835.jpg/600x600bb.jpg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
+    "id": "deadbeat-let-the-city-slow-burn",
+    "type": "ep",
+    "artist": "Deadbeat",
+    "title": "Let the city SLOW burn...",
+    "label": "RADIOATIVO",
+    "releaseDate": "2026-07-08",
+    "description": "Scott Monteith turning up on RADIOATIVO under the Deadbeat name is an unusual filing, though the dub-techno instincts he has worked in for twenty years tend to travel well. Tagged simply as alternative, which reads as a hint to shelve it loosely.",
+    "tags": [
+      "alternative"
+    ],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=Deadbeat%20Let%20the%20city%20SLOW%20burn...&item_type=a",
+      "spotify": "https://open.spotify.com/search/Deadbeat%20Let%20the%20city%20SLOW%20burn...",
+      "soundcloud": "https://soundcloud.com/search?q=Deadbeat%20Let%20the%20city%20SLOW%20burn...",
+      "youtube": "https://www.youtube.com/results?search_query=Deadbeat%20Let%20the%20city%20SLOW%20burn...",
+      "apple": "https://music.apple.com/us/album/let-the-city-slow-burn-ep/6788718219",
+      "deezer": "https://www.deezer.com/album/1024071391",
+      "tidal": "https://tidal.com/album/541286046"
+    },
+    "embed": {
+      "provider": "apple",
+      "src": "https://embed.music.apple.com/us/album/6788718219?theme=light",
+      "height": 450
+    },
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/12/a5/9b/12a59b5f-5a7d-fd8f-c300-9a20ea0a8f79/7333591156683.jpg/600x600bb.jpg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
+    "id": "dj-boring-closer-ft-dj-boring",
+    "type": "single",
+    "artist": "DJ Boring",
+    "title": "Closer (ft DJ BORING)",
+    "label": "",
+    "releaseDate": "2026-07-08",
+    "description": "DJ Boring credited as featured artist on his own track, which is either a joke or a re-edit situation. Expect the same nostalgic, lo-fi house register that made Winona a streaming-era outlier.",
+    "tags": [],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=DJ%20Boring%20Closer%20(ft%20DJ%20BORING)&item_type=a",
+      "spotify": "https://open.spotify.com/search/DJ%20Boring%20Closer%20(ft%20DJ%20BORING)",
+      "soundcloud": "https://soundcloud.com/search?q=DJ%20Boring%20Closer%20(ft%20DJ%20BORING)",
+      "youtube": "https://www.youtube.com/results?search_query=DJ%20Boring%20Closer%20(ft%20DJ%20BORING)",
+      "deezer": "https://www.deezer.com/album/1006945091",
+      "tidal": "https://tidal.com/album/533920608"
+    },
+    "embed": null,
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://cdn-images.dzcdn.net/images/cover/5a8c9516095938444261c108660089c7/1000x1000-000000-80-0-0.jpg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
     "id": "klein-zone-3",
     "type": "single",
     "artist": "Klein",
@@ -719,6 +855,35 @@
     "status": "pending",
     "approvedAt": null,
     "coverImageUrl": "https://cdn-images.dzcdn.net/images/cover/c27bdde762524cc14f0108a8766b25b2/1000x1000-000000-80-0-0.jpg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
+    "id": "arooj-aftab-fire-on-the-water-drift",
+    "type": "single",
+    "artist": "Arooj Aftab",
+    "title": "Fire on the Water / Drift",
+    "label": "",
+    "releaseDate": "2026-07-07",
+    "description": "Two new pieces from Arooj Aftab, working in the same hushed, jazz-tilted register that has defined her records since Vulture Prince. Voice, string figures, plenty of held air.",
+    "tags": [],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=Arooj%20Aftab%20Fire%20on%20the%20Water%20%2F%20Drift&item_type=a",
+      "spotify": "https://open.spotify.com/search/Arooj%20Aftab%20Fire%20on%20the%20Water%20%2F%20Drift",
+      "soundcloud": "https://soundcloud.com/search?q=Arooj%20Aftab%20Fire%20on%20the%20Water%20%2F%20Drift",
+      "youtube": "https://www.youtube.com/results?search_query=Arooj%20Aftab%20Fire%20on%20the%20Water%20%2F%20Drift",
+      "deezer": "https://www.deezer.com/album/1009686661",
+      "tidal": "https://tidal.com/album/534919438"
+    },
+    "embed": null,
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://cdn-images.dzcdn.net/images/cover/416356e611b7451414928e84b2e22a41/1000x1000-000000-80-0-0.jpg",
     "cover": {
       "bg": "#111110",
       "fg": "#f2efe8",
@@ -804,6 +969,38 @@
       "youtube": "https://www.youtube.com/results?search_query=Dijon%20%D0%92%D1%80%D0%B5%D0%BC%D0%B5%D0%BD%D0%B8%20%D0%9C%D0%B0%D0%BB%D0%BE"
     },
     "embed": null,
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": null,
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
+    "id": "lone-somethings-wrong-with-me",
+    "type": "album",
+    "artist": "Lone",
+    "title": "Somethings wrong with me",
+    "label": "",
+    "releaseDate": "2026-07-04",
+    "description": "Lone returns to album length, presumably still working the seam between rave euphoria and pastel Boards of Canada haze that has defined his catalogue since Galaxy Garden. Label details thin for now; worth watching if Ambivert Tools kept you interested.",
+    "tags": [],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=Lone%20Somethings%20wrong%20with%20me&item_type=a",
+      "spotify": "https://open.spotify.com/search/Lone%20Somethings%20wrong%20with%20me",
+      "soundcloud": "https://soundcloud.com/search?q=Lone%20Somethings%20wrong%20with%20me",
+      "youtube": "https://www.youtube.com/results?search_query=Lone%20Somethings%20wrong%20with%20me",
+      "deezer": "https://www.deezer.com/album/1021288571"
+    },
+    "embed": {
+      "provider": "deezer",
+      "src": "https://widget.deezer.com/widget/light/album/1021288571",
+      "height": 300
+    },
     "musicVideoUrl": null,
     "status": "pending",
     "approvedAt": null,
@@ -1337,6 +1534,41 @@
       "motif": "disc"
     },
     "pressMentions": []
+  },
+  {
+    "id": "topdown-dialectic-false-lp-a",
+    "type": "album",
+    "artist": "Topdown Dialectic",
+    "title": "False LP A",
+    "label": "False Aralia",
+    "releaseDate": "2026-07-03",
+    "description": "Sixteen untitled sketches from the anonymous project, sat in their familiar zone of eroded dub, low-lit ambient and quietly abrasive rhythm work. For anyone who has followed the numbered LPs on Peak Oil.",
+    "tags": [],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=Topdown%20Dialectic%20False%20LP%20A&item_type=a",
+      "spotify": "https://open.spotify.com/search/Topdown%20Dialectic%20False%20LP%20A",
+      "soundcloud": "https://soundcloud.com/search?q=Topdown%20Dialectic%20False%20LP%20A",
+      "youtube": "https://www.youtube.com/results?search_query=Topdown%20Dialectic%20False%20LP%20A",
+      "deezer": "https://www.deezer.com/album/978810431",
+      "apple": "https://music.apple.com/us/album/false-lp-a/6767693199?uo=4"
+    },
+    "embed": {
+      "provider": "apple",
+      "src": "https://embed.music.apple.com/us/album/6767693199?theme=light",
+      "height": 450
+    },
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://cdn-images.dzcdn.net/images/cover/8b72680a9496e75968959d75755e7640/1000x1000-000000-80-0-0.jpg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": [
+      "pitchfork_albums"
+    ]
   },
   {
     "id": "djrum-i-wander-iv-v",
@@ -4840,6 +5072,41 @@
     "pressMentions": []
   },
   {
+    "id": "earth-trax-everlasting-flame",
+    "type": "album",
+    "artist": "Earth Trax",
+    "title": "Everlasting Flame",
+    "label": "Lapsus Records",
+    "releaseDate": "2026-06-12",
+    "description": "Fourteen tracks from the Warsaw producer for Lapsus, pulling his dub techno instincts through grime weight and longer ambient stretches. Broader in scope than the club sides, still recognisably his.",
+    "tags": [
+      "electronic"
+    ],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=Earth%20Trax%20Everlasting%20Flame&item_type=a",
+      "spotify": "https://open.spotify.com/search/Earth%20Trax%20Everlasting%20Flame",
+      "soundcloud": "https://soundcloud.com/search?q=Earth%20Trax%20Everlasting%20Flame",
+      "youtube": "https://www.youtube.com/results?search_query=Earth%20Trax%20Everlasting%20Flame",
+      "deezer": "https://www.deezer.com/album/961255311",
+      "apple": "https://music.apple.com/us/album/everlasting-flame/1893369333?uo=4"
+    },
+    "embed": {
+      "provider": "apple",
+      "src": "https://embed.music.apple.com/us/album/1893369333?theme=light",
+      "height": 450
+    },
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://i.discogs.com/wwXN0MaLcfpM9mJ-vYr1v-S0olnTogvLb0cRWQdw0pQ/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM3ODI5/NDUxLTE3ODM1MTk0/NjMtNDA3Mi5qcGVn.jpeg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
     "id": "the-chemical-brothers-go-live-from-glastonbury",
     "type": "single",
     "artist": "The Chemical Brothers",
@@ -6768,7 +7035,8 @@
       "motif": "disc"
     },
     "pressMentions": [
-      "pitchfork_best_tracks"
+      "pitchfork_best_tracks",
+      "ra"
     ]
   },
   {
@@ -11434,7 +11702,7 @@
     "type": "album",
     "artist": "Black Milk",
     "title": "CEREMONIAL",
-    "label": "",
+    "label": "Computer Ugly",
     "releaseDate": "2026-05-08",
     "description": "New full-length from the Detroit producer and MC whose own beat work has long sat closer to Dilla's lineage than to most rap craft of the last decade. Worth a listen for anyone still spinning FEVER.",
     "tags": [],
@@ -12081,7 +12349,8 @@
     "pressMentions": [
       "pitchfork_tracks",
       "pitchfork_best_tracks",
-      "stereogum"
+      "stereogum",
+      "ra"
     ]
   },
   {
@@ -16269,7 +16538,8 @@
       "bandcamp": "https://benfrost.bandcamp.com/album/palestine-36-original-score",
       "spotify": "https://open.spotify.com/search/Ben%20Frost%20Palestine%2036",
       "soundcloud": "https://soundcloud.com/search?q=Ben%20Frost%20Palestine%2036",
-      "youtube": "https://www.youtube.com/results?search_query=Ben%20Frost%20Palestine%2036"
+      "youtube": "https://www.youtube.com/results?search_query=Ben%20Frost%20Palestine%2036",
+      "tidal": "https://tidal.com/album/514574127"
     },
     "embed": {
       "provider": "apple",
@@ -16339,7 +16609,8 @@
       "soundcloud": "https://soundcloud.com/search?q=Jessie%20Ware%20Superbloom",
       "youtube": "https://www.youtube.com/results?search_query=Jessie%20Ware%20Superbloom",
       "deezer": "https://www.deezer.com/album/958349621",
-      "apple": "https://music.apple.com/us/album/superbloom/1869414259?uo=4"
+      "apple": "https://music.apple.com/us/album/superbloom/1869414259?uo=4",
+      "tidal": "https://tidal.com/album/514701923"
     },
     "embed": {
       "provider": "apple",
@@ -16444,7 +16715,8 @@
       "spotify": "https://open.spotify.com/search/Anderson%20.Paak%20Malibu",
       "soundcloud": "https://soundcloud.com/search?q=Anderson%20.Paak%20Malibu",
       "youtube": "https://www.youtube.com/results?search_query=Anderson%20.Paak%20Malibu",
-      "apple": "https://music.apple.com/us/album/malibu/1074098515?uo=4"
+      "apple": "https://music.apple.com/us/album/malibu/1074098515?uo=4",
+      "tidal": "https://tidal.com/album/56201467"
     },
     "embed": {
       "provider": "apple",
@@ -16572,7 +16844,8 @@
       "spotify": "https://open.spotify.com/search/Harry%20Romero%20Feels%20Good%20EP",
       "soundcloud": "https://soundcloud.com/search?q=Harry%20Romero%20Feels%20Good%20EP",
       "youtube": "https://www.youtube.com/results?search_query=Harry%20Romero%20Feels%20Good%20EP",
-      "apple": "https://music.apple.com/us/album/feel-good-feat-jessica-eve-ep/1298641094?uo=4"
+      "apple": "https://music.apple.com/us/album/feel-good-feat-jessica-eve-ep/1298641094?uo=4",
+      "tidal": "https://tidal.com/album/80225417"
     },
     "embed": {
       "provider": "apple",
@@ -18379,7 +18652,8 @@
     "pressMentions": [
       "pitchfork_tracks",
       "pitchfork_best_tracks",
-      "stereogum"
+      "stereogum",
+      "ra"
     ]
   },
   {
@@ -23211,6 +23485,40 @@
     "status": "pending",
     "approvedAt": null,
     "coverImageUrl": "https://i.discogs.com/sgPFkiR4KeBMe2t_2P7BidG3emQ4srYjd9ZpoAoZUR8/rs:fit/g:sm/q:90/h:587/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM2Njc1/OTYxLTE3NzI2MjY2/MzgtOTIwNy5qcGVn.jpeg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
+    "id": "hector-couto-kirik-2-magic-ep",
+    "type": "ep",
+    "artist": "Hector Couto & Kirik (2)",
+    "title": "Magic EP",
+    "label": "Cécille Numbers",
+    "releaseDate": "2026-01-30",
+    "description": "Five-track house EP for Cécille Numbers, the digital arm of Nick Curly's imprint that tends to specialise in the kind of functional, minimal-leaning grooves aimed squarely at the floor. Couto and Kirik keep it lean.",
+    "tags": [
+      "electronic"
+    ],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=Hector%20Couto%20%26%20Kirik%20(2)%20Magic%20EP&item_type=a",
+      "spotify": "https://open.spotify.com/search/Hector%20Couto%20%26%20Kirik%20(2)%20Magic%20EP",
+      "soundcloud": "https://soundcloud.com/search?q=Hector%20Couto%20%26%20Kirik%20(2)%20Magic%20EP",
+      "youtube": "https://www.youtube.com/results?search_query=Hector%20Couto%20%26%20Kirik%20(2)%20Magic%20EP",
+      "deezer": "https://www.deezer.com/album/896029972"
+    },
+    "embed": {
+      "provider": "deezer",
+      "src": "https://widget.deezer.com/widget/light/album/896029972",
+      "height": 300
+    },
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://i.discogs.com/rI6BkyIrF5A8xZPl0zg48c8pltjnRhp4cL8vscKMXSE/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM3ODMy/MDc5LTE3ODM1NDEz/MTUtNTcxMy5qcGVn.jpeg",
     "cover": {
       "bg": "#111110",
       "fg": "#f2efe8",
@@ -45719,7 +46027,7 @@
     "title": "Lose Yourself",
     "label": "Heaven OST",
     "releaseDate": "2024-11-28",
-    "description": "",
+    "description": "Two-track soundtrack cut from Noisefarm on Heaven OST, filed under rock but arriving via a stage and screen context rather than a straight band release. Short, functional, sits closer to score than single.",
     "tags": [
       "rock"
     ],
@@ -45754,7 +46062,7 @@
     "title": "Pareidol Detarutas",
     "label": "Opal Tapes",
     "releaseDate": "2024-11-28",
-    "description": "",
+    "description": "Six tracks of corroded industrial noise from Xorgett, landing on Opal Tapes where this kind of scorched experimentalism has always felt at home. For anyone tracking the label's harsher outer edge.",
     "tags": [
       "electronic"
     ],
@@ -45787,7 +46095,7 @@
     "title": "Sing Nightingale",
     "label": "mappa",
     "releaseDate": "2024-11-28",
-    "description": "",
+    "description": "Percussion and double bass improvisations from Antalová and Myhr, released by mappa as an eleven-track LP that sits closer to folk-inflected free playing than to any recognisable jazz idiom. For anyone who follows the label's quieter, more acoustic side.",
     "tags": [
       "jazz"
     ],
@@ -45820,7 +46128,7 @@
     "title": "Rock Christmas (The Very Best Of)",
     "label": "Polystar (3)",
     "releaseDate": "2024-11-28",
-    "description": "",
+    "description": "A 48-track holiday compilation from Polystar, spanning rock and roll, R&B, Europop and the rest of the Christmas-radio food chain. Strictly for the tree-and-eggnog shelf, not the listening chair.",
     "tags": [
       "electronic"
     ],
@@ -45855,7 +46163,7 @@
     "title": "Soft Focus",
     "label": "NAFF",
     "releaseDate": "2024-11-28",
-    "description": "",
+    "description": "Five tracks of ambient-leaning dub techno on NAFF, minimal in the strict sense: repetition doing most of the work, atmosphere doing the rest. Shelve alongside Topdown Dialectic if you want a rough coordinate.",
     "tags": [
       "electronic"
     ],
@@ -45891,7 +46199,7 @@
     "title": "from the heights",
     "label": "AD 93",
     "releaseDate": "2024-11-27",
-    "description": "",
+    "description": "Playfair lands on AD 93, a label with an ear for the softer, more diaristic end of club-adjacent electronics. Expect the same restraint that runs through the imprint's Nueen and Loraine James corners.",
     "tags": [],
     "links": {
       "bandcamp": "https://bandcamp.com/album/3668567866",

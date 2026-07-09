@@ -8822,6 +8822,7 @@
     ],
     "titleExamples": [
       "Friend = フレンド",
+      "Friend = フレンド",
       "Friend = フレンド"
     ]
   },
@@ -8831,6 +8832,7 @@
     ],
     "titleExamples": [
       "City of Something",
+      "City of Something",
       "City of Something"
     ]
   },
@@ -8839,7 +8841,24 @@
       "NAFF"
     ],
     "titleExamples": [
+      "Sky Burial",
       "Sky Burial"
+    ]
+  },
+  "Hector Couto & Kirik (2)": {
+    "seenOn": [
+      "Numbers"
+    ],
+    "titleExamples": [
+      "Magic EP"
+    ]
+  },
+  "Earth Trax": {
+    "seenOn": [
+      "Lapsus"
+    ],
+    "titleExamples": [
+      "Everlasting Flame"
     ]
   }
 }
