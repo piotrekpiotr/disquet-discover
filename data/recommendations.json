@@ -629,6 +629,168 @@
     "pressMentions": []
   },
   {
+    "id": "substance-levels-ep",
+    "type": "album",
+    "artist": "Substance",
+    "title": "Levels EP",
+    "label": "",
+    "releaseDate": "2026-07-10",
+    "description": "Substance returns with Levels EP, the DJ Pete alias that has long trafficked in stripped, dubby techno of the Hard Wax lineage. Expect functional room tools rather than statement pieces.",
+    "tags": [],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=Substance%20Levels%20EP&item_type=a",
+      "spotify": "https://open.spotify.com/search/Substance%20Levels%20EP",
+      "soundcloud": "https://soundcloud.com/search?q=Substance%20Levels%20EP",
+      "youtube": "https://www.youtube.com/results?search_query=Substance%20Levels%20EP",
+      "deezer": "https://www.deezer.com/album/1004202181",
+      "tidal": "https://tidal.com/album/533010795"
+    },
+    "embed": {
+      "provider": "deezer",
+      "src": "https://widget.deezer.com/widget/light/album/1004202181",
+      "height": 300
+    },
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://cdn-images.dzcdn.net/images/cover/2e65113d3b8ddd287685d2d72d2892a8/1000x1000-000000-80-0-0.jpg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
+    "id": "dj-koze-elvau-dj-koze-remix",
+    "type": "single",
+    "artist": "DJ Koze",
+    "title": "Elvau (DJ Koze Remix)",
+    "label": "",
+    "releaseDate": "2026-07-10",
+    "description": "Koze in remix mode, which historically means the source track gets affectionately dismantled and reassembled around some unlikely hook. Whether Pampa is involved or not, the fingerprints tend to be audible within the first minute.",
+    "tags": [],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=DJ%20Koze%20Elvau%20(DJ%20Koze%20Remix)&item_type=a",
+      "spotify": "https://open.spotify.com/search/DJ%20Koze%20Elvau%20(DJ%20Koze%20Remix)",
+      "soundcloud": "https://soundcloud.com/search?q=DJ%20Koze%20Elvau%20(DJ%20Koze%20Remix)",
+      "youtube": "https://www.youtube.com/results?search_query=DJ%20Koze%20Elvau%20(DJ%20Koze%20Remix)",
+      "deezer": "https://www.deezer.com/album/992431351"
+    },
+    "embed": null,
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://cdn-images.dzcdn.net/images/cover/cad9d0639a1e732dff65ec29294e0fa9/1000x1000-000000-80-0-0.jpg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
+    "id": "nia-archives-get-me-down",
+    "type": "single",
+    "artist": "Nia Archives",
+    "title": "Get Me Down",
+    "label": "",
+    "releaseDate": "2026-07-10",
+    "description": "New single from Nia Archives, still working the seam between jungle breakbeat science and Britpop-inflected songwriting she has made her own lane. For anyone tracking the current UK rave-pop crossover.",
+    "tags": [],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=Nia%20Archives%20Get%20Me%20Down&item_type=a",
+      "spotify": "https://open.spotify.com/search/Nia%20Archives%20Get%20Me%20Down",
+      "soundcloud": "https://soundcloud.com/search?q=Nia%20Archives%20Get%20Me%20Down",
+      "youtube": "https://www.youtube.com/results?search_query=Nia%20Archives%20Get%20Me%20Down",
+      "deezer": "https://www.deezer.com/album/1020145241"
+    },
+    "embed": {
+      "provider": "deezer",
+      "src": "https://widget.deezer.com/widget/light/album/1020145241",
+      "height": 300
+    },
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://cdn-images.dzcdn.net/images/cover/467ce8bb909aa598558c25b2cb1d3407/1000x1000-000000-80-0-0.jpg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
+    "id": "klein-man-in-the-mirror",
+    "type": "single",
+    "artist": "Klein",
+    "title": "man in the mirror",
+    "label": "",
+    "releaseDate": "2026-07-10",
+    "description": "Klein returns with a new single, self-released judging by the missing label credit, which tracks with her long habit of routing work outside the usual channels. Expect the same fractured, vocal-forward collage her Ijeoma / Pentecostal Party listeners already know.",
+    "tags": [],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=Klein%20man%20in%20the%20mirror&item_type=a",
+      "spotify": "https://open.spotify.com/search/Klein%20man%20in%20the%20mirror",
+      "soundcloud": "https://soundcloud.com/search?q=Klein%20man%20in%20the%20mirror",
+      "youtube": "https://www.youtube.com/results?search_query=Klein%20man%20in%20the%20mirror",
+      "deezer": "https://www.deezer.com/album/1025311952",
+      "apple": "https://music.apple.com/us/album/man-in-the-mirror/6789140376?uo=4",
+      "tidal": "https://tidal.com/album/94902737"
+    },
+    "embed": {
+      "provider": "apple",
+      "src": "https://embed.music.apple.com/us/album/6789140376?theme=light",
+      "height": 450
+    },
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://cdn-images.dzcdn.net/images/cover/772d95d2472f63145c6ce8ce6b9f4130/1000x1000-000000-80-0-0.jpg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
+    "id": "tiga-party-time-feat-aatig",
+    "type": "single",
+    "artist": "Tiga",
+    "title": "Party Time (feat. Aatig)",
+    "label": "",
+    "releaseDate": "2026-07-10",
+    "description": "Tiga returns to the vocal-led, tongue-in-cheek electro-house register he has been trading in since Turbo's earliest years, this time with Aatig on the mic. File next to the more knowing end of his own catalogue.",
+    "tags": [],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=Tiga%20Party%20Time%20(feat.%20Aatig)&item_type=a",
+      "spotify": "https://open.spotify.com/search/Tiga%20Party%20Time%20(feat.%20Aatig)",
+      "soundcloud": "https://soundcloud.com/search?q=Tiga%20Party%20Time%20(feat.%20Aatig)",
+      "youtube": "https://www.youtube.com/results?search_query=Tiga%20Party%20Time%20(feat.%20Aatig)",
+      "deezer": "https://www.deezer.com/album/1011845671",
+      "apple": "https://music.apple.com/us/album/party-time-feat-aatig-feat-aatig-single/6783016394?uo=4"
+    },
+    "embed": {
+      "provider": "apple",
+      "src": "https://embed.music.apple.com/us/album/6783016394?theme=light",
+      "height": 450
+    },
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://cdn-images.dzcdn.net/images/cover/38dde3d63c200061df211157e2f3f8e8/1000x1000-000000-80-0-0.jpg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": [
+      "pitchfork_best_tracks"
+    ]
+  },
+  {
     "id": "2k88-lauren-duffus-rainy-miller-bianca-scout-everything-always-changes-for-we-re",
     "type": "album",
     "artist": "2K88, Lauren Duffus, Rainy Miller & Bianca Scout",
@@ -823,6 +985,38 @@
     "status": "pending",
     "approvedAt": null,
     "coverImageUrl": "https://cdn-images.dzcdn.net/images/cover/5a8c9516095938444261c108660089c7/1000x1000-000000-80-0-0.jpg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
+    "id": "space-afrika-mln",
+    "type": "single",
+    "artist": "Space Afrika",
+    "title": "MLN",
+    "label": "",
+    "releaseDate": "2026-07-08",
+    "description": "The Manchester duo return to single-length form, and if past work is any guide expect the same smoke-damaged ambient dub and half-buried voices that carried Honest Labour. Shelve near Dean Blunt if you need a pointer.",
+    "tags": [],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=Space%20Afrika%20MLN&item_type=a",
+      "spotify": "https://open.spotify.com/search/Space%20Afrika%20MLN",
+      "soundcloud": "https://soundcloud.com/search?q=Space%20Afrika%20MLN",
+      "youtube": "https://www.youtube.com/results?search_query=Space%20Afrika%20MLN",
+      "deezer": "https://www.deezer.com/album/1017309041"
+    },
+    "embed": {
+      "provider": "deezer",
+      "src": "https://widget.deezer.com/widget/light/album/1017309041",
+      "height": 300
+    },
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://cdn-images.dzcdn.net/images/cover/353c0bb07bb9c70ca207ff816c8a4d8a/1000x1000-000000-80-0-0.jpg",
     "cover": {
       "bg": "#111110",
       "fg": "#f2efe8",
@@ -1569,6 +1763,33 @@
     "pressMentions": [
       "pitchfork_albums"
     ]
+  },
+  {
+    "id": "olafur-arnalds-song-for-grandma",
+    "type": "album",
+    "artist": "Ólafur Arnalds",
+    "title": "Song For Grandma",
+    "label": "",
+    "releaseDate": "2026-07-03",
+    "description": "Arnalds in the register he has become synonymous with: piano miniatures cross-hatched with strings and quiet electronics, framed here around a dedication in the title. File next to Nils Frahm for the obvious pointer.",
+    "tags": [],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=%C3%93lafur%20Arnalds%20Song%20For%20Grandma&item_type=a",
+      "spotify": "https://open.spotify.com/search/%C3%93lafur%20Arnalds%20Song%20For%20Grandma",
+      "soundcloud": "https://soundcloud.com/search?q=%C3%93lafur%20Arnalds%20Song%20For%20Grandma",
+      "youtube": "https://www.youtube.com/results?search_query=%C3%93lafur%20Arnalds%20Song%20For%20Grandma"
+    },
+    "embed": null,
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": null,
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
   },
   {
     "id": "djrum-i-wander-iv-v",
@@ -8699,6 +8920,41 @@
     "status": "pending",
     "approvedAt": null,
     "coverImageUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/f0/2c/47/f02c47b9-71c4-6f5e-4fbf-dbfed1ccd35f/3667007234295_cover.jpg/600x600bb.jpg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
+    "id": "susana-santos-silva-vasco-trilla-mushin",
+    "type": "single",
+    "artist": "Susana Santos Silva • Vasco Trilla",
+    "title": "Mushin",
+    "label": "Defkaz Records",
+    "releaseDate": "2026-05-23",
+    "description": "Trumpet and percussion in open dialogue from two of the more restless voices on the European free improv circuit, delivered as two long-form sides on Defkaz. Sit it near the AMM/Rowe axis rather than anything swinging.",
+    "tags": [
+      "jazz"
+    ],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=Susana%20Santos%20Silva%20%E2%80%A2%20Vasco%20Trilla%20Mushin&item_type=a",
+      "spotify": "https://open.spotify.com/search/Susana%20Santos%20Silva%20%E2%80%A2%20Vasco%20Trilla%20Mushin",
+      "soundcloud": "https://soundcloud.com/search?q=Susana%20Santos%20Silva%20%E2%80%A2%20Vasco%20Trilla%20Mushin",
+      "youtube": "https://www.youtube.com/results?search_query=Susana%20Santos%20Silva%20%E2%80%A2%20Vasco%20Trilla%20Mushin",
+      "deezer": "https://www.deezer.com/album/942740461",
+      "apple": "https://music.apple.com/us/album/mushin/1886219257?uo=4"
+    },
+    "embed": {
+      "provider": "apple",
+      "src": "https://embed.music.apple.com/us/album/1886219257?theme=light",
+      "height": 450
+    },
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://i.discogs.com/HRPgeljaSekhr-NKXKus6KUsPYdYF3E4xH7xiKJxe6M/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM3ODQw/MTA0LTE3ODM2MjU3/NDUtNjcxMS5qcGVn.jpeg",
     "cover": {
       "bg": "#111110",
       "fg": "#f2efe8",
@@ -26102,6 +26358,35 @@
     "status": "pending",
     "approvedAt": null,
     "coverImageUrl": "https://i.discogs.com/_I19URrNsjfmwEEcoYLCoizWJMcGdv7mBkswYe-j5eE/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM3NzY4/MzA1LTE3ODI5MTc5/MzYtNjAyNi5qcGVn.jpeg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
+    "id": "sonic-youth-at-the-9-30-club",
+    "type": "single",
+    "artist": "Sonic Youth",
+    "title": "At The 9:30 Club",
+    "label": "Not On Label (Sonic Youth)",
+    "releaseDate": "2026-01-01",
+    "description": "An unofficial, numbered 7\" of Sonic Youth caught live at DC's 9:30 Club, two tracks pressed for the collectors' shelf rather than the canon. Bootleg territory, priced and packaged accordingly.",
+    "tags": [
+      "rock"
+    ],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=Sonic%20Youth%20At%20The%209%3A30%20Club&item_type=a",
+      "spotify": "https://open.spotify.com/search/Sonic%20Youth%20At%20The%209%3A30%20Club",
+      "soundcloud": "https://soundcloud.com/search?q=Sonic%20Youth%20At%20The%209%3A30%20Club",
+      "youtube": "https://www.youtube.com/results?search_query=Sonic%20Youth%20At%20The%209%3A30%20Club"
+    },
+    "embed": null,
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://i.discogs.com/v0jywEsQZgkIR0v89YHH-LJowQWu6xy8GzGawbL-Dso/rs:fit/g:sm/q:90/h:595/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM3ODQw/MDY4LTE3ODM2MjUx/NzktNjA3NS5qcGVn.jpeg",
     "cover": {
       "bg": "#111110",
       "fg": "#f2efe8",
@@ -43690,7 +43975,8 @@
       "spotify": "https://open.spotify.com/search/The%20Impressions%20The%20Impressions",
       "soundcloud": "https://soundcloud.com/search?q=The%20Impressions%20The%20Impressions",
       "youtube": "https://www.youtube.com/results?search_query=The%20Impressions%20The%20Impressions",
-      "apple": "https://music.apple.com/us/album/the-impressions/1562395604?uo=4"
+      "apple": "https://music.apple.com/us/album/the-impressions/1562395604?uo=4",
+      "tidal": "https://tidal.com/album/180123079"
     },
     "embed": {
       "provider": "apple",
@@ -43724,7 +44010,8 @@
       "spotify": "https://open.spotify.com/search/Chet%20Baker%20Chet%20Baker%20Sings",
       "soundcloud": "https://soundcloud.com/search?q=Chet%20Baker%20Chet%20Baker%20Sings",
       "youtube": "https://www.youtube.com/results?search_query=Chet%20Baker%20Chet%20Baker%20Sings",
-      "apple": "https://music.apple.com/us/album/the-best-of-chet-baker-sings/726137633?uo=4"
+      "apple": "https://music.apple.com/us/album/the-best-of-chet-baker-sings/726137633?uo=4",
+      "tidal": "https://tidal.com/album/146795"
     },
     "embed": {
       "provider": "apple",
@@ -43758,7 +44045,8 @@
       "spotify": "https://open.spotify.com/search/YHWH%20Nailgun%2045%20Pounds",
       "soundcloud": "https://soundcloud.com/search?q=YHWH%20Nailgun%2045%20Pounds",
       "youtube": "https://www.youtube.com/results?search_query=YHWH%20Nailgun%2045%20Pounds",
-      "apple": "https://music.apple.com/us/album/45-pounds/1788987931?uo=4"
+      "apple": "https://music.apple.com/us/album/45-pounds/1788987931?uo=4",
+      "tidal": "https://tidal.com/album/409676002"
     },
     "embed": {
       "provider": "apple",
@@ -43829,7 +44117,8 @@
       "soundcloud": "https://soundcloud.com/search?q=Bloodbath%20Grand%20Morbid%20Funeral",
       "youtube": "https://www.youtube.com/results?search_query=Bloodbath%20Grand%20Morbid%20Funeral",
       "deezer": "https://www.deezer.com/album/8929577",
-      "apple": "https://music.apple.com/us/album/grand-morbid-funeral/930602791?uo=4"
+      "apple": "https://music.apple.com/us/album/grand-morbid-funeral/930602791?uo=4",
+      "tidal": "https://tidal.com/album/36863937"
     },
     "embed": {
       "provider": "apple",
@@ -46232,7 +46521,7 @@
     "title": "Tek Code",
     "label": "ONO Records (3)",
     "releaseDate": "2024-11-24",
-    "description": "",
+    "description": "Five tracks from Beltrac on ONO Records that treat tech house, dub techno, breaks and trance as adjacent rooms rather than separate scenes. A 12\" that leans functional, with enough dub weight to keep it from feeling like a straight tool.",
     "tags": [
       "electronic"
     ],
@@ -46267,7 +46556,7 @@
     "title": "Break",
     "label": "29 Speedway",
     "releaseDate": "2024-11-22",
-    "description": "",
+    "description": "Seven tracks of grubby breaks and industrial-leaning techno from Relaxer, issued on cassette by 29 Speedway. Sits comfortably next to the harder edges of the West Mineral extended family.",
     "tags": [
       "electronic"
     ],
@@ -46302,7 +46591,7 @@
     "title": "Η Μάγισσα - Φλεγόμενη Καρδιά Season 2 - Original Television Soundtrack",
     "label": "Heaven OST",
     "releaseDate": "2024-11-22",
-    "description": "",
+    "description": "Alex Sid's score for the second season of the Greek drama Η Μάγισσα, collected on Heaven OST. Television music read as an album, functional cues sat next to longer electronic passages.",
     "tags": [
       "electronic"
     ],
@@ -46331,7 +46620,7 @@
     "title": "Xenoverse",
     "label": "R & S Records",
     "releaseDate": "2024-11-22",
-    "description": "",
+    "description": "Ten tracks of IDM, techno and drum and bass from Chizawa Q, landing on R & S in a shape that suits the label's long-running interest in bass-weight electronics that still think like listening music. For anyone tracking the Lone end of the catalogue.",
     "tags": [
       "electronic"
     ],
@@ -46366,7 +46655,7 @@
     "title": "VL_Stay",
     "label": "12th Isle",
     "releaseDate": "2024-11-22",
-    "description": "",
+    "description": "Eight pieces of ambient and future-jazz drift on 12th Isle, a label that has always been comfortable letting folk and stage-and-screen textures wander into its electronics. For anyone still reaching for Nightids or the quieter corners of the catalogue.",
     "tags": [
       "electronic"
     ],
@@ -46401,7 +46690,7 @@
     "title": "Meaning's Edge",
     "label": "Houndstooth",
     "releaseDate": "2024-11-22",
-    "description": "",
+    "description": "Five tracks from Djrum on Houndstooth, spanning the ambient, IDM, dubstep and techno poles he has always moved between rather than settling on. Restless in the usual way, which is to say patient.",
     "tags": [
       "electronic"
     ],
