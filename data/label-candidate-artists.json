@@ -8543,7 +8543,8 @@
       "Helix Records"
     ],
     "titleExamples": [
-      "Dipshit"
+      "Dipshit",
+      "Maps"
     ]
   },
   "Bonnie Gayle": {
@@ -8868,6 +8869,22 @@
     ],
     "titleExamples": [
       "Mushin"
+    ]
+  },
+  "Akusmi": {
+    "seenOn": [
+      "Erased Tapes"
+    ],
+    "titleExamples": [
+      "Terra Incognita"
+    ]
+  },
+  "Kassel Jaeger": {
+    "seenOn": [
+      "Shelter Press"
+    ],
+    "titleExamples": [
+      "Sub Re"
     ]
   }
 }

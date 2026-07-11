@@ -791,6 +791,140 @@
     ]
   },
   {
+    "id": "dj-shadow-the-mountain-will-fall-10th-anniversary-deluxe-edition",
+    "type": "album",
+    "artist": "DJ Shadow",
+    "title": "The Mountain Will Fall (10th Anniversary Deluxe Edition)",
+    "label": "",
+    "releaseDate": "2026-07-10",
+    "description": "Josh Davis revisits the 2016 record that broke his sample-collage habit in favor of something more synthetic and searching. A decade on, the deluxe treatment invites a second hearing from anyone who filed it too quickly next to Endtroducing.",
+    "tags": [],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=DJ%20Shadow%20The%20Mountain%20Will%20Fall%20(10th%20Anniversary%20Deluxe%20Edition)&item_type=a",
+      "spotify": "https://open.spotify.com/search/DJ%20Shadow%20The%20Mountain%20Will%20Fall%20(10th%20Anniversary%20Deluxe%20Edition)",
+      "soundcloud": "https://soundcloud.com/search?q=DJ%20Shadow%20The%20Mountain%20Will%20Fall%20(10th%20Anniversary%20Deluxe%20Edition)",
+      "youtube": "https://www.youtube.com/results?search_query=DJ%20Shadow%20The%20Mountain%20Will%20Fall%20(10th%20Anniversary%20Deluxe%20Edition)",
+      "deezer": "https://www.deezer.com/album/1014372751",
+      "tidal": "https://tidal.com/album/536803178"
+    },
+    "embed": {
+      "provider": "deezer",
+      "src": "https://widget.deezer.com/widget/light/album/1014372751",
+      "height": 300
+    },
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://cdn-images.dzcdn.net/images/cover/c1e60f46e3a2a3aa8a4d071d44a6af7d/1000x1000-000000-80-0-0.jpg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
+    "id": "ppp-enchufao-the-mixtape",
+    "type": "album",
+    "artist": "PPP",
+    "title": "Enchufao the mixtape",
+    "label": "",
+    "releaseDate": "2026-07-10",
+    "description": "Little to go on here beyond the title, which points toward something in the Latin club continuum. File next to whatever DJ Python or TraTraTrax adjacent record you last reached for, pending confirmation.",
+    "tags": [],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=PPP%20Enchufao%20the%20mixtape&item_type=a",
+      "spotify": "https://open.spotify.com/search/PPP%20Enchufao%20the%20mixtape",
+      "soundcloud": "https://soundcloud.com/search?q=PPP%20Enchufao%20the%20mixtape",
+      "youtube": "https://www.youtube.com/results?search_query=PPP%20Enchufao%20the%20mixtape",
+      "deezer": "https://www.deezer.com/album/1004100451",
+      "tidal": "https://tidal.com/album/532982825"
+    },
+    "embed": {
+      "provider": "deezer",
+      "src": "https://widget.deezer.com/widget/light/album/1004100451",
+      "height": 300
+    },
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://cdn-images.dzcdn.net/images/cover/c18fd4c7f3db5b6d5e76c5ec298e2366/1000x1000-000000-80-0-0.jpg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
+    "id": "klein-czemu-patrzysz-tak-na-mnie",
+    "type": "single",
+    "artist": "Klein",
+    "title": "Czemu patrzysz tak na mnie",
+    "label": "",
+    "releaseDate": "2026-07-10",
+    "description": "Klein continues her run of collage-logic songcraft, where R&B, musique concrète and choral fragments sit next to each other without argument. Title in Polish, everything else pure Klein.",
+    "tags": [],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=Klein%20Czemu%20patrzysz%20tak%20na%20mnie&item_type=a",
+      "spotify": "https://open.spotify.com/search/Klein%20Czemu%20patrzysz%20tak%20na%20mnie",
+      "soundcloud": "https://soundcloud.com/search?q=Klein%20Czemu%20patrzysz%20tak%20na%20mnie",
+      "youtube": "https://www.youtube.com/results?search_query=Klein%20Czemu%20patrzysz%20tak%20na%20mnie",
+      "deezer": "https://www.deezer.com/album/1021061841",
+      "apple": "https://music.apple.com/us/album/czemu-patrzysz-tak-na-mnie-single/6787490113?uo=4"
+    },
+    "embed": {
+      "provider": "apple",
+      "src": "https://embed.music.apple.com/us/album/6787490113?theme=light",
+      "height": 450
+    },
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://cdn-images.dzcdn.net/images/cover/89ae499a5613e1b895a7c50efac8f7ab/1000x1000-000000-80-0-0.jpg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
+    "id": "rufio-maps",
+    "type": "single",
+    "artist": "Rufio",
+    "title": "Maps",
+    "label": "Double Helix Records (2)",
+    "releaseDate": "2026-07-10",
+    "description": "Rufio return to Double Helix with a one-track digital single, keeping to the melodic, fast-fingered pop punk they built a following on in the early 2000s. For anyone still spinning Perhaps, I Suppose.",
+    "tags": [
+      "rock"
+    ],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=Rufio%20Maps&item_type=a",
+      "spotify": "https://open.spotify.com/search/Rufio%20Maps",
+      "soundcloud": "https://soundcloud.com/search?q=Rufio%20Maps",
+      "youtube": "https://www.youtube.com/results?search_query=Rufio%20Maps",
+      "deezer": "https://www.deezer.com/album/1007942501",
+      "apple": "https://music.apple.com/us/album/maps-single/6781247275?uo=4"
+    },
+    "embed": {
+      "provider": "apple",
+      "src": "https://embed.music.apple.com/us/album/6781247275?theme=light",
+      "height": 450
+    },
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://i.discogs.com/wPmXersnWz4OA7nbsvShcoGOSP_SyJMVD5-ZoVqcifc/rs:fit/g:sm/q:90/h:500/w:500/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM3ODQ2/MTg1LTE3ODM2OTIx/MDUtNDI0MC5qcGVn.jpeg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
     "id": "2k88-lauren-duffus-rainy-miller-bianca-scout-everything-always-changes-for-we-re",
     "type": "album",
     "artist": "2K88, Lauren Duffus, Rainy Miller & Bianca Scout",
@@ -1195,6 +1329,33 @@
       "src": "https://widget.deezer.com/widget/light/album/1021288571",
       "height": 300
     },
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": null,
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
+    "id": "baauer-2026-07-04-bbc-radio-1-essential-mix",
+    "type": "single",
+    "artist": "Baauer",
+    "title": "2026-07-04: BBC Radio 1 Essential Mix",
+    "label": "",
+    "releaseDate": "2026-07-04",
+    "description": "Baauer takes the Essential Mix chair, which historically means his club-rap-adjacent sensibility gets stretched across two hours of BBC prime time. Expect the wider net he tends to cast on radio dates rather than a straight festival set.",
+    "tags": [],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=Baauer%202026-07-04%3A%20BBC%20Radio%201%20Essential%20Mix&item_type=a",
+      "spotify": "https://open.spotify.com/search/Baauer%202026-07-04%3A%20BBC%20Radio%201%20Essential%20Mix",
+      "soundcloud": "https://soundcloud.com/search?q=Baauer%202026-07-04%3A%20BBC%20Radio%201%20Essential%20Mix",
+      "youtube": "https://www.youtube.com/results?search_query=Baauer%202026-07-04%3A%20BBC%20Radio%201%20Essential%20Mix"
+    },
+    "embed": null,
     "musicVideoUrl": null,
     "status": "pending",
     "approvedAt": null,
@@ -1792,6 +1953,41 @@
     "pressMentions": []
   },
   {
+    "id": "akusmi-terra-incognita",
+    "type": "album",
+    "artist": "Akusmi",
+    "title": "Terra Incognita",
+    "label": "Tonal Union",
+    "releaseDate": "2026-07-03",
+    "description": "Akusmi returns to Tonal Union with six pieces threading spiritual jazz, Afrobeat pulse and layered electronics into something closer to composed suite than club record. Sits comfortably next to Nathan Fake's more polyrhythmic work.",
+    "tags": [
+      "electronic"
+    ],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=Akusmi%20Terra%20Incognita&item_type=a",
+      "spotify": "https://open.spotify.com/search/Akusmi%20Terra%20Incognita",
+      "soundcloud": "https://soundcloud.com/search?q=Akusmi%20Terra%20Incognita",
+      "youtube": "https://www.youtube.com/results?search_query=Akusmi%20Terra%20Incognita",
+      "deezer": "https://www.deezer.com/album/943610091",
+      "apple": "https://music.apple.com/us/album/terra-incognita/1886425149?uo=4"
+    },
+    "embed": {
+      "provider": "apple",
+      "src": "https://embed.music.apple.com/us/album/1886425149?theme=light",
+      "height": 450
+    },
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://i.discogs.com/HMrB1kZwmpwvf6LYueYhL69zYag4pX_iEMSRGEdHJ5w/rs:fit/g:sm/q:90/h:600/w:599/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM3ODMy/NzcyLTE3ODM2ODQy/NjUtNDU1NC5qcGVn.jpeg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
     "id": "djrum-i-wander-iv-v",
     "type": "single",
     "artist": "Djrum",
@@ -1945,7 +2141,8 @@
       "soundcloud": "https://soundcloud.com/search?q=Son%20de%20Isla%20Verde%20Buco%20Chen%20Chen",
       "youtube": "https://www.youtube.com/results?search_query=Son%20de%20Isla%20Verde%20Buco%20Chen%20Chen",
       "deezer": "https://www.deezer.com/album/978035411",
-      "apple": "https://music.apple.com/us/album/buco-chen-chen-feat-tony-vel%C3%A1zquez/6767338669?uo=4"
+      "apple": "https://music.apple.com/us/album/buco-chen-chen-feat-tony-vel%C3%A1zquez/6767338669?uo=4",
+      "tidal": "https://tidal.com/album/522499647"
     },
     "embed": {
       "provider": "apple",
@@ -2077,7 +2274,8 @@
       "soundcloud": "https://soundcloud.com/search?q=aya%20Pretty%20Little%20Fool%20Acoustic%20Live%20session%20(Acoustic%20Live)",
       "youtube": "https://www.youtube.com/results?search_query=aya%20Pretty%20Little%20Fool%20Acoustic%20Live%20session%20(Acoustic%20Live)",
       "deezer": "https://www.deezer.com/album/1017243721",
-      "apple": "https://music.apple.com/us/album/pretty-little-fool-acoustic-live-session-acoustic-live-ep/6785493105?uo=4"
+      "apple": "https://music.apple.com/us/album/pretty-little-fool-acoustic-live-session-acoustic-live-ep/6785493105?uo=4",
+      "tidal": "https://tidal.com/album/538204274"
     },
     "embed": {
       "provider": "apple",
@@ -2109,7 +2307,8 @@
       "spotify": "https://open.spotify.com/search/Plaid%20Flow%20Motion",
       "soundcloud": "https://soundcloud.com/search?q=Plaid%20Flow%20Motion",
       "youtube": "https://www.youtube.com/results?search_query=Plaid%20Flow%20Motion",
-      "deezer": "https://www.deezer.com/album/1017188901"
+      "deezer": "https://www.deezer.com/album/1017188901",
+      "tidal": "https://tidal.com/album/538269419"
     },
     "embed": {
       "provider": "deezer",
@@ -36542,12 +36741,13 @@
       "spotify": "https://open.spotify.com/search/John%20Lennon%20Imagine",
       "soundcloud": "https://soundcloud.com/search?q=John%20Lennon%20Imagine",
       "youtube": "https://www.youtube.com/results?search_query=John%20Lennon%20Imagine",
-      "deezer": "https://www.deezer.com/album/664237"
+      "deezer": "https://www.deezer.com/album/664237",
+      "apple": "https://music.apple.com/us/album/imagine-the-elements-mixes/1709169680?uo=4"
     },
     "embed": {
-      "provider": "deezer",
-      "src": "https://widget.deezer.com/widget/light/album/664237",
-      "height": 300
+      "provider": "apple",
+      "src": "https://embed.music.apple.com/us/album/1709169680?theme=light",
+      "height": 450
     },
     "musicVideoUrl": null,
     "status": "pending",
@@ -46728,7 +46928,7 @@
     "title": "Trellis",
     "label": "Peak Oil",
     "releaseDate": "2024-11-22",
-    "description": "",
+    "description": "The Lifted collective reconvenes on Peak Oil for another set of loose, small-group ambient that keeps drifting toward jazz and post rock without settling in either. Seven tracks pressed as a white label LP, natural shelf partner to anything by Motion Graphics or Ulla.",
     "tags": [
       "electronic"
     ],
@@ -46764,7 +46964,7 @@
     "title": "Jump Ship, Sit Lean, Be Still, Stand Tall",
     "label": "AD 93",
     "releaseDate": "2024-11-22",
-    "description": "",
+    "description": "BZDB lands on AD 93 with an album that sits between sound poetry, contemporary composition and diasporic African vernacular, ten pieces closer to installation work than dancefloor. One for the shelf next to Still House Plants or Ben Vince.",
     "tags": [],
     "links": {
       "bandcamp": "https://bandcamp.com/album/988281220",
@@ -46798,7 +46998,7 @@
     "title": "YUKU046",
     "label": "YUKU",
     "releaseDate": "2024-11-21",
-    "description": "",
+    "description": "Three tracks from JANKA and CRZKNY on YUKU, splicing juke and footwork skitter into the label's more chamber-lit dub techno lineage. For anyone tracking where Chicago velocities meet Berlin haze.",
     "tags": [
       "electronic"
     ],
@@ -46833,7 +47033,7 @@
     "title": "All Made Up",
     "label": "Heaven OST",
     "releaseDate": "2024-11-21",
-    "description": "",
+    "description": "A one-track soundtrack cut from Noisefarm on Heaven OST, filed under rock but landing in the odd territory where screen music borrows a band's shape without quite behaving like one. Short, functional, worth a listen if you follow the label's stray transmissions.",
     "tags": [
       "rock"
     ],
@@ -46868,7 +47068,7 @@
     "title": "Kitchen Songs",
     "label": "Mondoj",
     "releaseDate": "2024-11-21",
-    "description": "",
+    "description": "Six short pieces of domestic ambient miniatures on Mondoj, a label that has made a house style out of exactly this kind of unhurried, slightly cracked electronic sketching. For anyone who reaches for Ulla when the room gets quiet.",
     "tags": [
       "electronic"
     ],
@@ -46904,7 +47104,7 @@
     "title": "Hypersoft Lovejinx Junkdream",
     "label": "AD 93",
     "releaseDate": "2024-11-19",
-    "description": "",
+    "description": "Two long tracks from James K on AD 93, extending the smeared, vocal-forward trip hop of her recent work into something closer to a single mood held under glass. For anyone still playing Random Girl on repeat.",
     "tags": [],
     "links": {
       "bandcamp": "https://bandcamp.com/album/1814363559",
@@ -46940,7 +47140,7 @@
     "title": "The Feels",
     "label": "AMF Records (2)",
     "releaseDate": "2024-11-18",
-    "description": "",
+    "description": "A standalone single from the Nottingham vocalist on her own AMF imprint, sitting in the warm, unhurried corner of contemporary R&B she has been quietly building out since Voice Notes. For anyone still returning to Cleo Sol.",
     "tags": [
       "funk / soul"
     ],
@@ -46974,7 +47174,7 @@
     "title": "Alene Et",
     "label": "mappa",
     "releaseDate": "2024-11-18",
-    "description": "",
+    "description": "Solo saxophone improvisations from Turcerová on Slovakia's mappa, thirteen short studies in breath, reed noise and circular phrasing. For anyone still pulling Colin Stetson or Bendik Giske off the shelf.",
     "tags": [
       "jazz"
     ],
@@ -47010,7 +47210,7 @@
     "title": "Chaos EP",
     "label": "LuckyMe",
     "releaseDate": "2024-11-15",
-    "description": "",
+    "description": "Tyson's downtempo R&B lands on LuckyMe as a thirteen-track 12\", the label leaning further into song-form territory without abandoning its production instincts. For anyone tracking the Sega Bodega end of the roster.",
     "tags": [
       "electronic"
     ],
