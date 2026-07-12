@@ -602,6 +602,39 @@
     "pressMentions": []
   },
   {
+    "id": "andrea-my-name-is-andrea",
+    "type": "album",
+    "artist": "Andrea",
+    "title": "MY NAME IS ANDREA",
+    "label": "",
+    "releaseDate": "2026-07-17",
+    "description": "Ilian Tape's Andrea Belfi-adjacent regular returns to the long-player format, and if past form holds this will sit in the same territory as his Ilian sides: broken-beat pressure with a producer's ear for detail. File near Skee Mask.",
+    "tags": [],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=Andrea%20MY%20NAME%20IS%20ANDREA&item_type=a",
+      "spotify": "https://open.spotify.com/search/Andrea%20MY%20NAME%20IS%20ANDREA",
+      "soundcloud": "https://soundcloud.com/search?q=Andrea%20MY%20NAME%20IS%20ANDREA",
+      "youtube": "https://www.youtube.com/results?search_query=Andrea%20MY%20NAME%20IS%20ANDREA",
+      "deezer": "https://www.deezer.com/album/4172831",
+      "apple": "https://music.apple.com/us/album/my-name-single/1896178413?uo=4"
+    },
+    "embed": {
+      "provider": "apple",
+      "src": "https://embed.music.apple.com/us/album/1896178413?theme=light",
+      "height": 450
+    },
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": null,
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
     "id": "eartheater-heavenly-body-if-i-39-m-the-bottle-you-re-the-message",
     "type": "album",
     "artist": "Eartheater",
@@ -925,6 +958,131 @@
     "pressMentions": []
   },
   {
+    "id": "dj-shadow-the-mountain-will-fall-10th-anniversary-deluxe-edition-explicit",
+    "type": "album",
+    "artist": "DJ Shadow",
+    "title": "The Mountain Will Fall (10th Anniversary Deluxe Edition) [Explicit]",
+    "label": "",
+    "releaseDate": "2026-07-10",
+    "description": "Ten years on from the record that pulled Josh Davis away from strict crate-digging into brasher, more synthetic territory, expanded here with the usual anniversary trimmings. For anyone whose Endtroducing loyalty has always been quietly negotiable.",
+    "tags": [],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=DJ%20Shadow%20The%20Mountain%20Will%20Fall%20(10th%20Anniversary%20Deluxe%20Edition)%20%5BExplicit%5D&item_type=a",
+      "spotify": "https://open.spotify.com/search/DJ%20Shadow%20The%20Mountain%20Will%20Fall%20(10th%20Anniversary%20Deluxe%20Edition)%20%5BExplicit%5D",
+      "soundcloud": "https://soundcloud.com/search?q=DJ%20Shadow%20The%20Mountain%20Will%20Fall%20(10th%20Anniversary%20Deluxe%20Edition)%20%5BExplicit%5D",
+      "youtube": "https://www.youtube.com/results?search_query=DJ%20Shadow%20The%20Mountain%20Will%20Fall%20(10th%20Anniversary%20Deluxe%20Edition)%20%5BExplicit%5D"
+    },
+    "embed": null,
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": null,
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
+    "id": "aya-",
+    "type": "album",
+    "artist": "aya",
+    "title": "Катастрофа",
+    "label": "",
+    "releaseDate": "2026-07-10",
+    "description": "aya in album mode, following the Hyperdub run that turned her deconstructed club instincts inward toward voice, text and inside-joke dread. Approach it as writing first, rhythm second.",
+    "tags": [],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=aya%20%D0%9A%D0%B0%D1%82%D0%B0%D1%81%D1%82%D1%80%D0%BE%D1%84%D0%B0&item_type=a",
+      "spotify": "https://open.spotify.com/search/aya%20%D0%9A%D0%B0%D1%82%D0%B0%D1%81%D1%82%D1%80%D0%BE%D1%84%D0%B0",
+      "soundcloud": "https://soundcloud.com/search?q=aya%20%D0%9A%D0%B0%D1%82%D0%B0%D1%81%D1%82%D1%80%D0%BE%D1%84%D0%B0",
+      "youtube": "https://www.youtube.com/results?search_query=aya%20%D0%9A%D0%B0%D1%82%D0%B0%D1%81%D1%82%D1%80%D0%BE%D1%84%D0%B0"
+    },
+    "embed": null,
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": null,
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
+    "id": "kelela-new-avatar",
+    "type": "album",
+    "artist": "Kelela",
+    "title": "New Avatar",
+    "label": "Warp Records",
+    "releaseDate": "2026-07-10",
+    "description": "Kelela lands on Warp with twelve tracks that pull her R&B instincts toward shoegaze haze and bass weight, a wider palette than the club-facing work she's known for. File alongside Tirzah for anyone tracking how neo-soul is currently mutating at the edges.",
+    "tags": [
+      "electronic"
+    ],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=Kelela%20New%20Avatar&item_type=a",
+      "spotify": "https://open.spotify.com/search/Kelela%20New%20Avatar",
+      "soundcloud": "https://soundcloud.com/search?q=Kelela%20New%20Avatar",
+      "youtube": "https://www.youtube.com/results?search_query=Kelela%20New%20Avatar",
+      "deezer": "https://www.deezer.com/album/949008581"
+    },
+    "embed": {
+      "provider": "deezer",
+      "src": "https://widget.deezer.com/widget/light/album/949008581",
+      "height": 300
+    },
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://i.discogs.com/2WWFRJ_U5BCDaA_o3LhCdMRxZbPiyqPnLIGRyex8Es4/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM3ODQ2/ODIxLTE3ODM3NjM0/NTYtNjIyMC5qcGVn.jpeg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": [
+      "pitchfork_best_tracks",
+      "ra"
+    ]
+  },
+  {
+    "id": "kassel-jaeger-sub-re",
+    "type": "single",
+    "artist": "Kassel Jaeger",
+    "title": "Sub Re",
+    "label": "Shelter Press",
+    "releaseDate": "2026-07-10",
+    "description": "Two long-form pieces from the GRM affiliate on Shelter Press, sitting where electroacoustic drift meets deep-listening ambient. For anyone still living with Swamps/Things or the Stephan Mathieu collaborations.",
+    "tags": [
+      "electronic"
+    ],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=Kassel%20Jaeger%20Sub%20Re&item_type=a",
+      "spotify": "https://open.spotify.com/search/Kassel%20Jaeger%20Sub%20Re",
+      "soundcloud": "https://soundcloud.com/search?q=Kassel%20Jaeger%20Sub%20Re",
+      "youtube": "https://www.youtube.com/results?search_query=Kassel%20Jaeger%20Sub%20Re",
+      "apple": "https://music.apple.com/us/album/sub-re/1894900652?uo=4"
+    },
+    "embed": {
+      "provider": "apple",
+      "src": "https://embed.music.apple.com/us/album/1894900652?theme=light",
+      "height": 450
+    },
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://i.discogs.com/7aQQIV9KHY9CYpoNScs_mbZY0b6eVmLoQYPzMgIP1cs/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM3ODQ3/MDQwLTE3ODM3ODAx/MjEtMjc1MC5qcGVn.jpeg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
     "id": "2k88-lauren-duffus-rainy-miller-bianca-scout-everything-always-changes-for-we-re",
     "type": "album",
     "artist": "2K88, Lauren Duffus, Rainy Miller & Bianca Scout",
@@ -1220,6 +1378,38 @@
     "pressMentions": []
   },
   {
+    "id": "plaid-this-idea-came-true",
+    "type": "album",
+    "artist": "Plaid",
+    "title": "THIS IDEA CAME TRUE",
+    "label": "",
+    "releaseDate": "2026-07-07",
+    "description": "Plaid keep doing what they have done since Not For Threes: melodic, mechanically precise electronics with a slightly wistful edge. New long-player, no label details surfaced yet, but the register is the one Warp listeners already know how to shelve.",
+    "tags": [],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=Plaid%20THIS%20IDEA%20CAME%20TRUE&item_type=a",
+      "spotify": "https://open.spotify.com/search/Plaid%20THIS%20IDEA%20CAME%20TRUE",
+      "soundcloud": "https://soundcloud.com/search?q=Plaid%20THIS%20IDEA%20CAME%20TRUE",
+      "youtube": "https://www.youtube.com/results?search_query=Plaid%20THIS%20IDEA%20CAME%20TRUE",
+      "apple": "https://music.apple.com/us/album/this-idea-came-true-single/6778846443?uo=4"
+    },
+    "embed": {
+      "provider": "apple",
+      "src": "https://embed.music.apple.com/us/album/6778846443?theme=light",
+      "height": 450
+    },
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": null,
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
     "id": "bonobo-drift-memory-signal",
     "type": "single",
     "artist": "Bonobo",
@@ -1247,6 +1437,40 @@
       "motif": "disc"
     },
     "pressMentions": []
+  },
+  {
+    "id": "gas-atrevido",
+    "type": "album",
+    "artist": "GAS",
+    "title": "ATREVIDO",
+    "label": "",
+    "releaseDate": "2026-07-06",
+    "description": "Wolfgang Voigt's GAS project has long meant one thing in practice: forest-deep, orchestral loops swallowed in low-end fog. Metadata is thin on this one, so shelve on trust next to Königsforst and wait to hear what's inside.",
+    "tags": [],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=GAS%20ATREVIDO&item_type=a",
+      "spotify": "https://open.spotify.com/search/GAS%20ATREVIDO",
+      "soundcloud": "https://soundcloud.com/search?q=GAS%20ATREVIDO",
+      "youtube": "https://www.youtube.com/results?search_query=GAS%20ATREVIDO",
+      "apple": "https://music.apple.com/us/album/atrevido-single/6788207877?uo=4"
+    },
+    "embed": {
+      "provider": "apple",
+      "src": "https://embed.music.apple.com/us/album/6788207877?theme=light",
+      "height": 450
+    },
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": null,
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": [
+      "pitchfork_albums"
+    ]
   },
   {
     "id": "log-log",
@@ -1356,6 +1580,38 @@
       "youtube": "https://www.youtube.com/results?search_query=Baauer%202026-07-04%3A%20BBC%20Radio%201%20Essential%20Mix"
     },
     "embed": null,
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": null,
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
+    "id": "clark-fire-cracker",
+    "type": "album",
+    "artist": "Clark",
+    "title": "Fire Cracker",
+    "label": "",
+    "releaseDate": "2026-07-04",
+    "description": "Clark on album duty again, which historically means bracing sound design pushed toward something almost songlike, then pulled back before it settles. Little else confirmed about the release, so treat the title as a placeholder until it lands.",
+    "tags": [],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=Clark%20Fire%20Cracker&item_type=a",
+      "spotify": "https://open.spotify.com/search/Clark%20Fire%20Cracker",
+      "soundcloud": "https://soundcloud.com/search?q=Clark%20Fire%20Cracker",
+      "youtube": "https://www.youtube.com/results?search_query=Clark%20Fire%20Cracker",
+      "deezer": "https://www.deezer.com/album/1021221691"
+    },
+    "embed": {
+      "provider": "deezer",
+      "src": "https://widget.deezer.com/widget/light/album/1021221691",
+      "height": 300
+    },
     "musicVideoUrl": null,
     "status": "pending",
     "approvedAt": null,
@@ -7829,7 +8085,8 @@
       "spotify": "https://open.spotify.com/search/Throwing%20Snow%20WELFARE",
       "soundcloud": "https://soundcloud.com/search?q=Throwing%20Snow%20WELFARE",
       "youtube": "https://www.youtube.com/results?search_query=Throwing%20Snow%20WELFARE",
-      "deezer": "https://www.deezer.com/album/956743831"
+      "deezer": "https://www.deezer.com/album/956743831",
+      "tidal": "https://tidal.com/album/513966205"
     },
     "embed": null,
     "musicVideoUrl": null,
@@ -7886,7 +8143,8 @@
       "soundcloud": "https://soundcloud.com/search?q=Ben%20Frost%20The%20Wasp%20Factory",
       "youtube": "https://www.youtube.com/results?search_query=Ben%20Frost%20The%20Wasp%20Factory",
       "deezer": "https://www.deezer.com/album/988074131",
-      "apple": "https://music.apple.com/us/album/the-wasp-factory/6774294244?uo=4"
+      "apple": "https://music.apple.com/us/album/the-wasp-factory/6774294244?uo=4",
+      "tidal": "https://tidal.com/album/527155123"
     },
     "embed": {
       "provider": "apple",
@@ -7979,7 +8237,8 @@
       "spotify": "https://open.spotify.com/search/ear%20Rumspringa",
       "soundcloud": "https://soundcloud.com/search?q=ear%20Rumspringa",
       "youtube": "https://www.youtube.com/results?search_query=ear%20Rumspringa",
-      "deezer": "https://www.deezer.com/album/976882981"
+      "deezer": "https://www.deezer.com/album/976882981",
+      "tidal": "https://tidal.com/album/522250418"
     },
     "embed": {
       "provider": "deezer",
@@ -8075,7 +8334,8 @@
       "spotify": "https://open.spotify.com/search/Malibu%20Aventuras%20de%20Caramelo%202",
       "soundcloud": "https://soundcloud.com/search?q=Malibu%20Aventuras%20de%20Caramelo%202",
       "youtube": "https://www.youtube.com/results?search_query=Malibu%20Aventuras%20de%20Caramelo%202",
-      "deezer": "https://www.deezer.com/album/993377301"
+      "deezer": "https://www.deezer.com/album/993377301",
+      "tidal": "https://tidal.com/album/528779111"
     },
     "embed": null,
     "musicVideoUrl": null,
@@ -8106,7 +8366,8 @@
       "soundcloud": "https://soundcloud.com/search?q=Laurence%20Pike%20Possible%20Utopias%20For%20Jazz%20Quintet",
       "youtube": "https://www.youtube.com/results?search_query=Laurence%20Pike%20Possible%20Utopias%20For%20Jazz%20Quintet",
       "deezer": "https://www.deezer.com/album/941736301",
-      "apple": "https://music.apple.com/us/album/possible-utopias-for-jazz-quintet/1885865798?uo=4"
+      "apple": "https://music.apple.com/us/album/possible-utopias-for-jazz-quintet/1885865798?uo=4",
+      "tidal": "https://tidal.com/album/507840083"
     },
     "embed": {
       "provider": "apple",
@@ -8141,7 +8402,8 @@
       "soundcloud": "https://soundcloud.com/search?q=Boards%20Of%20Canada%20Tomorrow's%20Harvest",
       "youtube": "https://www.youtube.com/results?search_query=Boards%20Of%20Canada%20Tomorrow's%20Harvest",
       "deezer": "https://www.deezer.com/album/7046060",
-      "apple": "https://music.apple.com/us/album/tomorrows-harvest/641229267?uo=4"
+      "apple": "https://music.apple.com/us/album/tomorrows-harvest/641229267?uo=4",
+      "tidal": "https://tidal.com/album/20589791"
     },
     "embed": {
       "provider": "apple",
@@ -8209,7 +8471,8 @@
       "soundcloud": "https://soundcloud.com/search?q=Boards%20Of%20Canada%20Geogaddi",
       "youtube": "https://www.youtube.com/results?search_query=Boards%20Of%20Canada%20Geogaddi",
       "deezer": "https://www.deezer.com/album/2795621",
-      "apple": "https://music.apple.com/us/album/geogaddi/281208446?uo=4"
+      "apple": "https://music.apple.com/us/album/geogaddi/281208446?uo=4",
+      "tidal": "https://tidal.com/album/16026216"
     },
     "embed": {
       "provider": "apple",
@@ -8247,7 +8510,8 @@
       "spotify": "https://open.spotify.com/search/FKA%20Twigs%20Eusexua%20%20-%20Afterglow",
       "soundcloud": "https://soundcloud.com/search?q=FKA%20Twigs%20Eusexua%20%20-%20Afterglow",
       "youtube": "https://www.youtube.com/results?search_query=FKA%20Twigs%20Eusexua%20%20-%20Afterglow",
-      "deezer": "https://www.deezer.com/album/848183372"
+      "deezer": "https://www.deezer.com/album/848183372",
+      "tidal": "https://tidal.com/album/470872494"
     },
     "embed": {
       "provider": "deezer",
@@ -8313,7 +8577,8 @@
       "soundcloud": "https://soundcloud.com/search?q=Milo%20Passier%20Patience%20EP",
       "youtube": "https://www.youtube.com/results?search_query=Milo%20Passier%20Patience%20EP",
       "deezer": "https://www.deezer.com/album/981432781",
-      "apple": "https://music.apple.com/us/album/patience-ep/6768760661?uo=4"
+      "apple": "https://music.apple.com/us/album/patience-ep/6768760661?uo=4",
+      "tidal": "https://tidal.com/album/526632364"
     },
     "embed": {
       "provider": "apple",
@@ -47246,7 +47511,7 @@
     "title": "Basic Shapes",
     "label": "YUKU",
     "releaseDate": "2024-11-14",
-    "description": "",
+    "description": "Five tracks from Ténèbre on YUKU, sitting where broken techno starts leaning into IDM without fully committing to either. Angular rhythm work for the Zamilska and Nueen shelf.",
     "tags": [
       "electronic"
     ],
@@ -47282,7 +47547,7 @@
     "title": "Penetrator",
     "label": "AD 93",
     "releaseDate": "2024-11-14",
-    "description": "",
+    "description": "Brooklyn quartet's full-length for AD 93, all jagged rhythmic contortion, vocal seizure and industrial-adjacent noise rock pulled toward the dancefloor's edge. The label continues drifting further from its club-tools origin.",
     "tags": [],
     "links": {
       "bandcamp": "https://bandcamp.com/album/507988884",
@@ -47318,7 +47583,7 @@
     "title": "This Is My California",
     "label": "AMF Records (3)",
     "releaseDate": "2024-11-13",
-    "description": "",
+    "description": "The London trio's AMF single sits in the fragile, dynamics-first corner of UK indie rock, closer to Black Country, New Road's quieter passages than to anything anthemic. Restraint held until it isn't.",
     "tags": [
       "rock"
     ],
@@ -47356,7 +47621,7 @@
     "title": "Listen, The Snow Is Falling",
     "label": "Third Man Records",
     "releaseDate": "2024-11-13",
-    "description": "",
+    "description": "The Raincoats co-founder covers Yoko Ono for Third Man, a seasonal ballad handled with the plainspoken directness Birch has kept intact since 1979. More hush than gesture.",
     "tags": [
       "rock"
     ],
@@ -47390,7 +47655,7 @@
     "title": "Explicit Isolation",
     "label": "mappa",
     "releaseDate": "2024-11-12",
-    "description": "",
+    "description": "Three pieces on mappa sitting between contemporary classical and electronic experiment, the Slovak label's usual territory of small runs and quiet risks. Filed alongside Andrea Belfi or Jules Reidy if you're mapping the terrain.",
     "tags": [
       "electronic"
     ],
@@ -47426,7 +47691,7 @@
     "title": "Ruins",
     "label": "Sferic",
     "releaseDate": "2024-11-08",
-    "description": "",
+    "description": "Eight tracks that pull trap and drill percussion into the fogged ambient headspace Sferic tends to catalogue, closer to a room recording than a rap record. For anyone tracking the Ulla-adjacent side of the label.",
     "tags": [
       "electronic"
     ],
@@ -47462,7 +47727,7 @@
     "title": "Toń",
     "label": "Coastline Northern Cuts",
     "releaseDate": "2024-11-08",
-    "description": "",
+    "description": "Ten pieces of electroacoustic folk-ambient from the Polish duo, voices and processed field material worked into something closer to ritual than song. Coastline Northern Cuts continuing to map the quieter edges of Central European experimental music.",
     "tags": [
       "electronic"
     ],
