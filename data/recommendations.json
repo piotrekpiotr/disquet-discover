@@ -662,6 +662,39 @@
     "pressMentions": []
   },
   {
+    "id": "xtclvr-pretty-cuts-drank-button",
+    "type": "single",
+    "artist": "xtclvr",
+    "title": "Pretty Cuts / Drank Button",
+    "label": "",
+    "releaseDate": "2026-07-13",
+    "description": "Two-tracker from xtclvr with no label attached, arriving as a straight digital drop. Worth a listen if you follow the more melted end of underground club and cloud-adjacent production.",
+    "tags": [],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=xtclvr%20Pretty%20Cuts%20%2F%20Drank%20Button&item_type=a",
+      "spotify": "https://open.spotify.com/search/xtclvr%20Pretty%20Cuts%20%2F%20Drank%20Button",
+      "soundcloud": "https://soundcloud.com/search?q=xtclvr%20Pretty%20Cuts%20%2F%20Drank%20Button",
+      "youtube": "https://www.youtube.com/results?search_query=xtclvr%20Pretty%20Cuts%20%2F%20Drank%20Button",
+      "deezer": "https://www.deezer.com/album/1019147801",
+      "tidal": "https://tidal.com/album/539267572"
+    },
+    "embed": {
+      "provider": "deezer",
+      "src": "https://widget.deezer.com/widget/light/album/1019147801",
+      "height": 300
+    },
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://cdn-images.dzcdn.net/images/cover/068d138a83748d8ed0cddea7bc911e7e/1000x1000-000000-80-0-0.jpg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
     "id": "substance-levels-ep",
     "type": "album",
     "artist": "Substance",
@@ -2241,7 +2274,9 @@
       "fg": "#f2efe8",
       "motif": "disc"
     },
-    "pressMentions": []
+    "pressMentions": [
+      "pitchfork_albums"
+    ]
   },
   {
     "id": "djrum-i-wander-iv-v",
@@ -24228,12 +24263,13 @@
       "spotify": "https://open.spotify.com/search/Hector%20Couto%20%26%20Kirik%20(2)%20Magic%20EP",
       "soundcloud": "https://soundcloud.com/search?q=Hector%20Couto%20%26%20Kirik%20(2)%20Magic%20EP",
       "youtube": "https://www.youtube.com/results?search_query=Hector%20Couto%20%26%20Kirik%20(2)%20Magic%20EP",
-      "deezer": "https://www.deezer.com/album/896029972"
+      "deezer": "https://www.deezer.com/album/896029972",
+      "apple": "https://music.apple.com/us/album/magic-ep/1868448003?uo=4"
     },
     "embed": {
-      "provider": "deezer",
-      "src": "https://widget.deezer.com/widget/light/album/896029972",
-      "height": 300
+      "provider": "apple",
+      "src": "https://embed.music.apple.com/us/album/1868448003?theme=light",
+      "height": 450
     },
     "musicVideoUrl": null,
     "status": "pending",
@@ -24587,7 +24623,8 @@
       "soundcloud": "https://soundcloud.com/search?q=Ari%20Lennox%20Vacancy",
       "youtube": "https://www.youtube.com/results?search_query=Ari%20Lennox%20Vacancy",
       "deezer": "https://www.deezer.com/album/901484752",
-      "apple": "https://music.apple.com/us/album/vacancy/1874740407?uo=4"
+      "apple": "https://music.apple.com/us/album/vacancy/1874740407?uo=4",
+      "tidal": "https://tidal.com/album/496053292"
     },
     "embed": {
       "provider": "apple",
@@ -24684,7 +24721,8 @@
       "spotify": "https://open.spotify.com/search/Vangelis%20Blade%20Runner",
       "soundcloud": "https://soundcloud.com/search?q=Vangelis%20Blade%20Runner",
       "youtube": "https://www.youtube.com/results?search_query=Vangelis%20Blade%20Runner",
-      "apple": "https://music.apple.com/us/album/blade-runner-original-score-from-the-motion-picture/73327394?uo=4"
+      "apple": "https://music.apple.com/us/album/blade-runner-original-score-from-the-motion-picture/73327394?uo=4",
+      "tidal": "https://tidal.com/album/198197"
     },
     "embed": {
       "provider": "apple",
@@ -24752,7 +24790,8 @@
       "spotify": "https://open.spotify.com/search/Der%20W%C3%BCrfler%20I%20Love%20The%20Darkness%20Remixed",
       "soundcloud": "https://soundcloud.com/search?q=Der%20W%C3%BCrfler%20I%20Love%20The%20Darkness%20Remixed",
       "youtube": "https://www.youtube.com/results?search_query=Der%20W%C3%BCrfler%20I%20Love%20The%20Darkness%20Remixed",
-      "apple": "https://music.apple.com/us/album/i-love-the-darkness-remixed-single/1871248535?uo=4"
+      "apple": "https://music.apple.com/us/album/i-love-the-darkness-remixed-single/1871248535?uo=4",
+      "tidal": "https://tidal.com/album/492174369"
     },
     "embed": {
       "provider": "apple",
@@ -24785,7 +24824,8 @@
       "spotify": "https://open.spotify.com/search/xavisphone%20balan%C3%A7a%20e%20paix%C3%A3o",
       "soundcloud": "https://soundcloud.com/search?q=xavisphone%20balan%C3%A7a%20e%20paix%C3%A3o",
       "youtube": "https://www.youtube.com/results?search_query=xavisphone%20balan%C3%A7a%20e%20paix%C3%A3o",
-      "deezer": "https://www.deezer.com/album/902957642"
+      "deezer": "https://www.deezer.com/album/902957642",
+      "tidal": "https://tidal.com/album/491953544"
     },
     "embed": {
       "provider": "deezer",
@@ -24818,7 +24858,8 @@
       "spotify": "https://open.spotify.com/search/Surface%20Access%20Transfer",
       "soundcloud": "https://soundcloud.com/search?q=Surface%20Access%20Transfer",
       "youtube": "https://www.youtube.com/results?search_query=Surface%20Access%20Transfer",
-      "apple": "https://music.apple.com/us/album/transfer-single/1835935327?uo=4"
+      "apple": "https://music.apple.com/us/album/transfer-single/1835935327?uo=4",
+      "tidal": "https://tidal.com/album/456701335"
     },
     "embed": {
       "provider": "apple",
@@ -24852,7 +24893,8 @@
       "soundcloud": "https://soundcloud.com/search?q=Rain%20Dogs%20(3)%20Under%20the%20Influence",
       "youtube": "https://www.youtube.com/results?search_query=Rain%20Dogs%20(3)%20Under%20the%20Influence",
       "deezer": "https://www.deezer.com/album/884157452",
-      "apple": "https://music.apple.com/us/album/under-the-influence-ep/1864064840?uo=4"
+      "apple": "https://music.apple.com/us/album/under-the-influence-ep/1864064840?uo=4",
+      "tidal": "https://tidal.com/album/484585882"
     },
     "embed": {
       "provider": "apple",
@@ -24885,7 +24927,8 @@
       "spotify": "https://open.spotify.com/search/Echo%20%26%20The%20Bunnymen%20Heaven%20Up%20Here",
       "soundcloud": "https://soundcloud.com/search?q=Echo%20%26%20The%20Bunnymen%20Heaven%20Up%20Here",
       "youtube": "https://www.youtube.com/results?search_query=Echo%20%26%20The%20Bunnymen%20Heaven%20Up%20Here",
-      "apple": "https://music.apple.com/us/album/do-it-clean-crocodiles-heaven-up-here-live/479862547?uo=4"
+      "apple": "https://music.apple.com/us/album/do-it-clean-crocodiles-heaven-up-here-live/479862547?uo=4",
+      "tidal": "https://tidal.com/album/10644003"
     },
     "embed": {
       "provider": "apple",
@@ -24918,7 +24961,8 @@
       "spotify": "https://open.spotify.com/search/Travellers%20Rest%20Pilgrimage%20Of%20The%20Dark%20Friar",
       "soundcloud": "https://soundcloud.com/search?q=Travellers%20Rest%20Pilgrimage%20Of%20The%20Dark%20Friar",
       "youtube": "https://www.youtube.com/results?search_query=Travellers%20Rest%20Pilgrimage%20Of%20The%20Dark%20Friar",
-      "apple": "https://music.apple.com/us/album/pilgrimage-of-the-dark-friar/1894410086?uo=4"
+      "apple": "https://music.apple.com/us/album/pilgrimage-of-the-dark-friar/1894410086?uo=4",
+      "tidal": "https://tidal.com/album/517037734"
     },
     "embed": {
       "provider": "apple",
@@ -24951,7 +24995,8 @@
       "spotify": "https://open.spotify.com/search/Burning%20Pyre%20Imago",
       "soundcloud": "https://soundcloud.com/search?q=Burning%20Pyre%20Imago",
       "youtube": "https://www.youtube.com/results?search_query=Burning%20Pyre%20Imago",
-      "apple": "https://music.apple.com/us/album/imago/1861914324?uo=4"
+      "apple": "https://music.apple.com/us/album/imago/1861914324?uo=4",
+      "tidal": "https://tidal.com/album/482406491"
     },
     "embed": {
       "provider": "apple",
@@ -24984,7 +25029,8 @@
       "spotify": "https://open.spotify.com/search/Popbot%20Simulated%20Microcosm",
       "soundcloud": "https://soundcloud.com/search?q=Popbot%20Simulated%20Microcosm",
       "youtube": "https://www.youtube.com/results?search_query=Popbot%20Simulated%20Microcosm",
-      "apple": "https://music.apple.com/us/album/simulated-microcosm/1733803618?uo=4"
+      "apple": "https://music.apple.com/us/album/simulated-microcosm/1733803618?uo=4",
+      "tidal": "https://tidal.com/album/348968637"
     },
     "embed": {
       "provider": "apple",
@@ -25017,7 +25063,8 @@
       "spotify": "https://open.spotify.com/search/Dry%20Cleaning%20Secret%20Love",
       "soundcloud": "https://soundcloud.com/search?q=Dry%20Cleaning%20Secret%20Love",
       "youtube": "https://www.youtube.com/results?search_query=Dry%20Cleaning%20Secret%20Love",
-      "deezer": "https://www.deezer.com/album/879970272"
+      "deezer": "https://www.deezer.com/album/879970272",
+      "tidal": "https://tidal.com/album/482925845"
     },
     "embed": {
       "provider": "deezer",
@@ -47763,7 +47810,7 @@
     "title": "Sueños Acuáticos",
     "label": "mappa",
     "releaseDate": "2024-11-04",
-    "description": "",
+    "description": "Eight pieces of experimental electronics on mappa, the Slovak imprint that has become a reliable home for field-work and quiet abstraction. Sits comfortably next to the label's Zimoun or Andrew Pekler shelves.",
     "tags": [
       "electronic"
     ],
@@ -47798,7 +47845,7 @@
     "title": "Zona",
     "label": "INDEX:Records",
     "releaseDate": "2024-11-01",
-    "description": "",
+    "description": "Five tracks for INDEX:Records that pull drum'n'bass, electro and broken beat through a downtempo IDM filter, weighted more toward atmosphere than dancefloor. One for the Skee Mask shelf.",
     "tags": [
       "electronic"
     ],
@@ -47833,7 +47880,7 @@
     "title": "Blue Desert",
     "label": "Mood Hut",
     "releaseDate": "2024-11-01",
-    "description": "",
+    "description": "Jack J returns to Mood Hut with eleven songs that push further into his soft-focus vocal downtempo, closer to bedroom dream pop than the label's dancefloor lineage. For anyone who kept Opening Up in rotation.",
     "tags": [
       "electronic"
     ],
@@ -47868,7 +47915,7 @@
     "title": "Goodbye 20th Century",
     "label": "Sonic Youth Records",
     "releaseDate": "2024-11-01",
-    "description": "",
+    "description": "Sonic Youth's readings of Cage, Wolff, Oliveros and the wider Fluxus canon, back on their own imprint. A document more than a rock record, and better for it.",
     "tags": [
       "electronic"
     ],
@@ -47906,7 +47953,7 @@
     "title": "Secret Communication",
     "label": "100% Silk",
     "releaseDate": "2024-11-01",
-    "description": "",
+    "description": "Takeda's soft-focus deep house lands on 100% Silk, six tracks of pastel pads and unhurried drum programming pitched somewhere between the dancefloor and the couch. For anyone still spinning Floating Points' quieter moments.",
     "tags": [
       "electronic"
     ],
@@ -47941,7 +47988,7 @@
     "title": "Kuma Cove",
     "label": "Balmat",
     "releaseDate": "2024-11-01",
-    "description": "",
+    "description": "Wyland's electroacoustic ambient lands neatly in Balmat's wheelhouse: nine pieces of prepared piano, tape and processed drift that reward close listening. For anyone tracking the label's run since the Purelink LP.",
     "tags": [
       "electronic"
     ],
@@ -47976,7 +48023,7 @@
     "title": "GAISTER",
     "label": "AD 93",
     "releaseDate": "2024-11-01",
-    "description": "",
+    "description": "Eight pieces of electroacoustic ambient with opera and spoken poetry threaded through, landing on AD 93 where this sort of avant-classical crossover has become house style. For anyone tracking Nueen or the stranger corners of the catalogue.",
     "tags": [],
     "links": {
       "bandcamp": "https://bandcamp.com/album/3218214393",
@@ -48010,7 +48057,7 @@
     "title": "Observable",
     "label": "Opal Tapes",
     "releaseDate": "2024-10-31",
-    "description": "",
+    "description": "Eight tracks of corroded rhythmic noise and industrial abstraction from Atsushi Izumi, landing on Opal Tapes where that kind of grit has always felt at home. For anyone still working through Basic House or Karen Gwyer's rougher end.",
     "tags": [
       "electronic"
     ],
@@ -48045,7 +48092,7 @@
     "title": "Life Is Strange: Double Exposure",
     "label": "Square Enix",
     "releaseDate": "2024-10-29",
-    "description": "",
+    "description": "Square Enix issues the licensed soundtrack to the fourth Life Is Strange installment, thirteen tracks of the acoustic indie-folk the series has always leaned on for its emotional bookmarks. A limited LP for players who kept the earlier volumes on the shelf.",
     "tags": [
       "rock"
     ],
@@ -48074,7 +48121,7 @@
     "title": "Piedras 1",
     "label": "Other People",
     "releaseDate": "2024-10-25",
-    "description": "",
+    "description": "Score material from Jaar's Santiago radio play arriving on his own Other People, sitting closer to the dark ambient and downtempo edges of his catalog than the club end. For anyone who kept returning to Cenizas.",
     "tags": [
       "electronic"
     ],
@@ -48109,7 +48156,7 @@
     "title": "Greed Gave Me A Lily",
     "label": "Theory Therapy",
     "releaseDate": "2024-10-25",
-    "description": "",
+    "description": "Eight pieces of ambient and experimental work from Ike Zwanikken on Theory Therapy, issued as a limited edition. Sits closer to the quieter, textural end of the label's catalogue than its clubbier moments.",
     "tags": [
       "electronic"
     ],
@@ -48144,7 +48191,7 @@
     "title": "You Never End",
     "label": "AD 93",
     "releaseDate": "2024-10-25",
-    "description": "",
+    "description": "Moin's AD 93 outing pushes their post-rock skeleton further toward song, with guest vocalists threaded through the usual scraped guitars and clipped drum patterns. For anyone who followed Paint Misbehavin' and wondered where the group could take actual voices.",
     "tags": [],
     "links": {
       "bandcamp": "https://bandcamp.com/album/2772763789",
@@ -48178,7 +48225,7 @@
     "title": "Blue Spring: 5 Year Epilogue",
     "label": "LuckyMe",
     "releaseDate": "2024-10-23",
-    "description": "",
+    "description": "Micay revisits the world of his 2019 Blue Spring LP with a short epilogue for LuckyMe, sticking to the widescreen, rave-conservatoire techno that record mapped out. Three tracks, digital only, for anyone still playing Hex Cloud out.",
     "tags": [
       "electronic"
     ],
@@ -48214,7 +48261,7 @@
     "title": "Enough For Me To Remain",
     "label": "Geographic North",
     "releaseDate": "2024-10-22",
-    "description": "",
+    "description": "Six pieces of avant-garde jazz for Geographic North, a label better known for its ambient roster, which makes the fit interesting. Folk and rock edges keep pulling the horns off-course; shelve alongside the more searching end of the Atlanta imprint's catalogue.",
     "tags": [
       "jazz"
     ],
