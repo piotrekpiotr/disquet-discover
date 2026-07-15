@@ -1276,7 +1276,8 @@
       "Short Span"
     ],
     "titleExamples": [
-      "Eeeeeeee"
+      "Eeeeeeee",
+      "Uuuuuuuu"
     ]
   },
   "Mammo (2)": {
@@ -8894,7 +8895,32 @@
     ],
     "titleExamples": [
       "Razlad",
+      "Razlad",
       "Razlad"
+    ]
+  },
+  "GBC": {
+    "seenOn": [
+      "Mappa"
+    ],
+    "titleExamples": [
+      "Love, Diskito"
+    ]
+  },
+  "Pride Of Lions": {
+    "seenOn": [
+      "WORLD MUSIC"
+    ],
+    "titleExamples": [
+      "Unbridled"
+    ]
+  },
+  "Yaka": {
+    "seenOn": [
+      "Appendix.Files"
+    ],
+    "titleExamples": [
+      "Dream Big"
     ]
   }
 }

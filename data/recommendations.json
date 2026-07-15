@@ -12,9 +12,50 @@
       "bandcamp": "https://bandcamp.com/search?q=Coil%20Gold%20Is%20The%20Metal%20(With%20The%20Broadest%20Shoulders)%20%5B2026%20Remaster%5D&item_type=a",
       "spotify": "https://open.spotify.com/search/Coil%20Gold%20Is%20The%20Metal%20(With%20The%20Broadest%20Shoulders)%20%5B2026%20Remaster%5D",
       "soundcloud": "https://soundcloud.com/search?q=Coil%20Gold%20Is%20The%20Metal%20(With%20The%20Broadest%20Shoulders)%20%5B2026%20Remaster%5D",
-      "youtube": "https://www.youtube.com/results?search_query=Coil%20Gold%20Is%20The%20Metal%20(With%20The%20Broadest%20Shoulders)%20%5B2026%20Remaster%5D"
+      "youtube": "https://www.youtube.com/results?search_query=Coil%20Gold%20Is%20The%20Metal%20(With%20The%20Broadest%20Shoulders)%20%5B2026%20Remaster%5D",
+      "deezer": "https://www.deezer.com/album/1009094021",
+      "apple": "https://music.apple.com/us/album/gold-is-the-metal-with-the-broadest-shoulders-2026-remaster/6781755814?uo=4",
+      "tidal": "https://tidal.com/album/534680833"
     },
-    "embed": null,
+    "embed": {
+      "provider": "apple",
+      "src": "https://embed.music.apple.com/us/album/6781755814?theme=light",
+      "height": 450
+    },
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": null,
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
+    "id": "coil-gold-is-the-metal-with-the-broadest-shoulders-2026-remaster-dz",
+    "type": "album",
+    "artist": "Coil",
+    "title": "Gold Is The Metal (With The Broadest Shoulders) (2026 Remaster)",
+    "label": "",
+    "releaseDate": "2026-10-30",
+    "description": "A fresh remaster of Coil's companion piece to Horse Rotorvator, arriving in late 2026. Long treated as an off-cuts ledger from the Gold Is The Metal era but really its own strange devotional artefact; approach as sibling rather than footnote.",
+    "tags": [],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=Coil%20Gold%20Is%20The%20Metal%20(With%20The%20Broadest%20Shoulders)%20(2026%20Remaster)&item_type=a",
+      "spotify": "https://open.spotify.com/search/Coil%20Gold%20Is%20The%20Metal%20(With%20The%20Broadest%20Shoulders)%20(2026%20Remaster)",
+      "soundcloud": "https://soundcloud.com/search?q=Coil%20Gold%20Is%20The%20Metal%20(With%20The%20Broadest%20Shoulders)%20(2026%20Remaster)",
+      "youtube": "https://www.youtube.com/results?search_query=Coil%20Gold%20Is%20The%20Metal%20(With%20The%20Broadest%20Shoulders)%20(2026%20Remaster)",
+      "deezer": "https://www.deezer.com/album/1009094021",
+      "apple": "https://music.apple.com/us/album/gold-is-the-metal-with-the-broadest-shoulders-2026-remaster/6781755814?uo=4",
+      "tidal": "https://tidal.com/album/534680833"
+    },
+    "embed": {
+      "provider": "apple",
+      "src": "https://embed.music.apple.com/us/album/6781755814?theme=light",
+      "height": 450
+    },
     "musicVideoUrl": null,
     "status": "pending",
     "approvedAt": null,
@@ -480,7 +521,7 @@
     "type": "album",
     "artist": "Tricky",
     "title": "Different When It's Silent",
-    "label": "",
+    "label": "False Idols",
     "releaseDate": "2026-07-17",
     "description": "New Tricky, three decades into a catalogue still defined by smoke, hush, and bruised trip, hop. He has rarely sounded comfortable on a record, and there is no reason to expect he starts now.",
     "tags": [],
@@ -635,6 +676,34 @@
     "pressMentions": []
   },
   {
+    "id": "karuzelkaaa-wzorzec",
+    "type": "single",
+    "artist": "Karuzelkaaa",
+    "title": "WZORZEC",
+    "label": "",
+    "releaseDate": "2026-07-15",
+    "description": "Karuzelkaaa surfaces with WZORZEC, a single arriving without label attribution or genre paperwork, which is increasingly how her material tends to land. Take it on the artist's word for now.",
+    "tags": [],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=Karuzelkaaa%20WZORZEC&item_type=a",
+      "spotify": "https://open.spotify.com/search/Karuzelkaaa%20WZORZEC",
+      "soundcloud": "https://soundcloud.com/search?q=Karuzelkaaa%20WZORZEC",
+      "youtube": "https://www.youtube.com/results?search_query=Karuzelkaaa%20WZORZEC",
+      "deezer": "https://www.deezer.com/album/1023108291"
+    },
+    "embed": null,
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://cdn-images.dzcdn.net/images/cover/98d4c20232a06dfb1e0a7874c5e3ccbb/1000x1000-000000-80-0-0.jpg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
     "id": "eartheater-heavenly-body-if-i-39-m-the-bottle-you-re-the-message",
     "type": "album",
     "artist": "Eartheater",
@@ -654,6 +723,73 @@
     "status": "pending",
     "approvedAt": null,
     "coverImageUrl": null,
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
+    "id": "alva-noto-ryuichi-sakamoto-conversation-3",
+    "type": "single",
+    "artist": "Alva Noto & Ryuichi Sakamoto",
+    "title": "Conversation 3",
+    "label": "NOTON",
+    "releaseDate": "2026-07-14",
+    "description": "Another entry in the Carsten Nicolai and Sakamoto dialogue, released posthumously through NOTON in the sparse register the pair spent two decades refining. Piano touches suspended in Nicolai's fine-grained electronics, as ever.",
+    "tags": [
+      "ambient"
+    ],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=Alva%20Noto%20%26%20Ryuichi%20Sakamoto%20Conversation%203&item_type=a",
+      "spotify": "https://open.spotify.com/search/Alva%20Noto%20%26%20Ryuichi%20Sakamoto%20Conversation%203",
+      "soundcloud": "https://soundcloud.com/search?q=Alva%20Noto%20%26%20Ryuichi%20Sakamoto%20Conversation%203",
+      "youtube": "https://www.youtube.com/results?search_query=Alva%20Noto%20%26%20Ryuichi%20Sakamoto%20Conversation%203",
+      "apple": "https://music.apple.com/us/album/conversation-3-single/6785535239",
+      "deezer": "https://www.deezer.com/album/1017193461"
+    },
+    "embed": {
+      "provider": "apple",
+      "src": "https://embed.music.apple.com/us/album/6785535239?theme=light",
+      "height": 450
+    },
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/a0/e1/fb/a0e1fb5a-15ec-64af-62b5-00acfb1617c4/4251804155748_cover.jpg/600x600bb.jpg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
+    "id": "coil-cardinal-points-2026-remaster",
+    "type": "single",
+    "artist": "Coil",
+    "title": "Cardinal Points (2026 Remaster)",
+    "label": "",
+    "releaseDate": "2026-07-14",
+    "description": "A 2026 remaster from the Coil vault, arriving without much in the way of accompanying detail. Approach as you would any late-period Coil transmission: patiently, and preferably in the dark.",
+    "tags": [],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=Coil%20Cardinal%20Points%20(2026%20Remaster)&item_type=a",
+      "spotify": "https://open.spotify.com/search/Coil%20Cardinal%20Points%20(2026%20Remaster)",
+      "soundcloud": "https://soundcloud.com/search?q=Coil%20Cardinal%20Points%20(2026%20Remaster)",
+      "youtube": "https://www.youtube.com/results?search_query=Coil%20Cardinal%20Points%20(2026%20Remaster)",
+      "deezer": "https://www.deezer.com/album/951935221"
+    },
+    "embed": {
+      "provider": "deezer",
+      "src": "https://widget.deezer.com/widget/light/album/951935221",
+      "height": 300
+    },
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://cdn-images.dzcdn.net/images/cover/0613dc911169d67a11deb8b09f4a4fa2/1000x1000-000000-80-0-0.jpg",
     "cover": {
       "bg": "#111110",
       "fg": "#f2efe8",
@@ -687,6 +823,38 @@
     "status": "pending",
     "approvedAt": null,
     "coverImageUrl": "https://cdn-images.dzcdn.net/images/cover/068d138a83748d8ed0cddea7bc911e7e/1000x1000-000000-80-0-0.jpg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
+    "id": "overmono-knight-in-shining-prada",
+    "type": "single",
+    "artist": "Overmono",
+    "title": "Knight In Shining Prada",
+    "label": "",
+    "releaseDate": "2026-07-13",
+    "description": "Overmono continue their run of vocal-forward club tools, the Bailey brothers' since-Whities register of chopped R&B lines pressed against rave residue. One to file next to their recent Poly Kicks material.",
+    "tags": [],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=Overmono%20Knight%20In%20Shining%20Prada&item_type=a",
+      "spotify": "https://open.spotify.com/search/Overmono%20Knight%20In%20Shining%20Prada",
+      "soundcloud": "https://soundcloud.com/search?q=Overmono%20Knight%20In%20Shining%20Prada",
+      "youtube": "https://www.youtube.com/results?search_query=Overmono%20Knight%20In%20Shining%20Prada",
+      "deezer": "https://www.deezer.com/album/1012274291"
+    },
+    "embed": {
+      "provider": "deezer",
+      "src": "https://widget.deezer.com/widget/light/album/1012274291",
+      "height": 300
+    },
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://cdn-images.dzcdn.net/images/cover/bf2b9c0a24371135e955c9642af54817/1000x1000-000000-80-0-0.jpg",
     "cover": {
       "bg": "#111110",
       "fg": "#f2efe8",
@@ -1116,6 +1284,73 @@
     "pressMentions": []
   },
   {
+    "id": "eartheater-heavenly-body-if-i-m-the-bottle-you-re-the-message",
+    "type": "album",
+    "artist": "Eartheater",
+    "title": "Heavenly Body: If I'm The Bottle You’re The Message",
+    "label": "Chemical X (2)",
+    "releaseDate": "2026-07-10",
+    "description": "Eartheater on Chemical X, eleven tracks pitched somewhere between alt-pop songcraft and the more diffuse, downtempo end of her catalog. The trip-hop framing sits comfortably next to the ambient drift she has been circling for years.",
+    "tags": [],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=Eartheater%20Heavenly%20Body%3A%20If%20I'm%20The%20Bottle%20You%E2%80%99re%20The%20Message&item_type=a",
+      "spotify": "https://open.spotify.com/search/Eartheater%20Heavenly%20Body%3A%20If%20I'm%20The%20Bottle%20You%E2%80%99re%20The%20Message",
+      "soundcloud": "https://soundcloud.com/search?q=Eartheater%20Heavenly%20Body%3A%20If%20I'm%20The%20Bottle%20You%E2%80%99re%20The%20Message",
+      "youtube": "https://www.youtube.com/results?search_query=Eartheater%20Heavenly%20Body%3A%20If%20I'm%20The%20Bottle%20You%E2%80%99re%20The%20Message",
+      "deezer": "https://www.deezer.com/album/972274851"
+    },
+    "embed": {
+      "provider": "deezer",
+      "src": "https://widget.deezer.com/widget/light/album/972274851",
+      "height": 300
+    },
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://cdn-images.dzcdn.net/images/cover/d8a89d7f6e4c769ca6c8a7eb5683f862/1000x1000-000000-80-0-0.jpg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
+    "id": "pride-of-lions-unbridled",
+    "type": "album",
+    "artist": "Pride Of Lions",
+    "title": "Unbridled",
+    "label": "Frontiers Music SRL",
+    "releaseDate": "2026-07-10",
+    "description": "Twelve tracks of AOR and melodic hard rock from the Jim Peterik led project, landing on Frontiers where this lane has been the house specialty for two decades. For anyone still spinning Survivor B-sides or the Work of Art records.",
+    "tags": [
+      "rock"
+    ],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=Pride%20Of%20Lions%20Unbridled&item_type=a",
+      "spotify": "https://open.spotify.com/search/Pride%20Of%20Lions%20Unbridled",
+      "soundcloud": "https://soundcloud.com/search?q=Pride%20Of%20Lions%20Unbridled",
+      "youtube": "https://www.youtube.com/results?search_query=Pride%20Of%20Lions%20Unbridled",
+      "deezer": "https://www.deezer.com/album/960512651",
+      "apple": "https://music.apple.com/us/album/unbridled/1893085364?uo=4"
+    },
+    "embed": {
+      "provider": "apple",
+      "src": "https://embed.music.apple.com/us/album/1893085364?theme=light",
+      "height": 450
+    },
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://i.discogs.com/mMjqRSPvXQVOwHZRcS3YqkxVk9ZeFBDVjA981wOOlBw/rs:fit/g:sm/q:90/h:539/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM3ODg1/ODE4LTE3ODQxMDk1/MjgtNjUxNS5qcGVn.jpeg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
     "id": "2k88-lauren-duffus-rainy-miller-bianca-scout-everything-always-changes-for-we-re",
     "type": "album",
     "artist": "2K88, Lauren Duffus, Rainy Miller & Bianca Scout",
@@ -1169,6 +1404,34 @@
       "youtube": "https://www.youtube.com/results?search_query=Rainy%20Miller%20Everything%20Always%20Changes%2C%20For%20We%E2%80%99re%20Truly%20Here",
       "deezer": "https://www.deezer.com/album/973758651",
       "tidal": "https://tidal.com/album/520820517"
+    },
+    "embed": null,
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://cdn-images.dzcdn.net/images/cover/241f05e82a2c2986dcfaca6eaaa8e53e/1000x1000-000000-80-0-0.jpg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
+    "id": "bianca-scout-everything-always-changes-for-we-re-truly-here",
+    "type": "album",
+    "artist": "Bianca Scout",
+    "title": "Everything Always Changes, For We’re Truly Here",
+    "label": "",
+    "releaseDate": "2026-07-09",
+    "description": "Bianca Scout continues her drift through ballet, spoken word and haunted club forms, the collage instincts of her Trilogy Tapes and PAN work carried into something closer to chamber music. File alongside Nika Son if you need an anchor.",
+    "tags": [],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=Bianca%20Scout%20Everything%20Always%20Changes%2C%20For%20We%E2%80%99re%20Truly%20Here&item_type=a",
+      "spotify": "https://open.spotify.com/search/Bianca%20Scout%20Everything%20Always%20Changes%2C%20For%20We%E2%80%99re%20Truly%20Here",
+      "soundcloud": "https://soundcloud.com/search?q=Bianca%20Scout%20Everything%20Always%20Changes%2C%20For%20We%E2%80%99re%20Truly%20Here",
+      "youtube": "https://www.youtube.com/results?search_query=Bianca%20Scout%20Everything%20Always%20Changes%2C%20For%20We%E2%80%99re%20Truly%20Here",
+      "deezer": "https://www.deezer.com/album/973758651"
     },
     "embed": null,
     "musicVideoUrl": null,
@@ -2279,6 +2542,41 @@
     ]
   },
   {
+    "id": "yaka-dream-big",
+    "type": "album",
+    "artist": "Yaka",
+    "title": "Dream Big",
+    "label": "Appendix.Files",
+    "releaseDate": "2026-07-03",
+    "description": "Eight tracks from Yaka on Appendix.Files, splitting the difference between ambient drift and broken rhythm without leaning too hard on either. The kind of LP that rewards being played end to end rather than sampled.",
+    "tags": [
+      "electronic"
+    ],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=Yaka%20Dream%20Big&item_type=a",
+      "spotify": "https://open.spotify.com/search/Yaka%20Dream%20Big",
+      "soundcloud": "https://soundcloud.com/search?q=Yaka%20Dream%20Big",
+      "youtube": "https://www.youtube.com/results?search_query=Yaka%20Dream%20Big",
+      "deezer": "https://www.deezer.com/album/946211451",
+      "apple": "https://music.apple.com/us/album/dream-big/1887749450?uo=4"
+    },
+    "embed": {
+      "provider": "apple",
+      "src": "https://embed.music.apple.com/us/album/1887749450?theme=light",
+      "height": 450
+    },
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://i.discogs.com/zXhz70oAyprljgwUSKWEyF3fJe-2RLiruipPWnwfh18/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM3ODcy/NDA1LTE3ODM5NTg2/MTQtNDY2MS5qcGVn.jpeg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
     "id": "djrum-i-wander-iv-v",
     "type": "single",
     "artist": "Djrum",
@@ -2444,6 +2742,39 @@
     "status": "pending",
     "approvedAt": null,
     "coverImageUrl": "https://i.discogs.com/9rJdwNqFnb_DGjhiXfxQaM2qd6J5tX5DKPrRsHIT0OA/rs:fit/g:sm/q:90/h:596/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM3Nzc1/MTkzLTE3ODI5OTg0/ODItOTM5My5qcGVn.jpeg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
+    "id": "coil-skyfall-schranz-vision",
+    "type": "single",
+    "artist": "Coil",
+    "title": "Skyfall (Schranz vision)",
+    "label": "",
+    "releaseDate": "2026-07-01",
+    "description": "Coil under a Schranz banner is not a pairing anyone had on the card, and with no label attached this reads more like a rumour than a release. Approach accordingly.",
+    "tags": [],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=Coil%20Skyfall%20(Schranz%20vision)&item_type=a",
+      "spotify": "https://open.spotify.com/search/Coil%20Skyfall%20(Schranz%20vision)",
+      "soundcloud": "https://soundcloud.com/search?q=Coil%20Skyfall%20(Schranz%20vision)",
+      "youtube": "https://www.youtube.com/results?search_query=Coil%20Skyfall%20(Schranz%20vision)",
+      "deezer": "https://www.deezer.com/album/1012979581",
+      "apple": "https://music.apple.com/us/album/skyfall-schranz-vision-single/6784265649?uo=4"
+    },
+    "embed": {
+      "provider": "apple",
+      "src": "https://embed.music.apple.com/us/album/6784265649?theme=light",
+      "height": 450
+    },
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://cdn-images.dzcdn.net/images/cover/9ee5ebd7d01da8a695b692907c0d9230/1000x1000-000000-80-0-0.jpg",
     "cover": {
       "bg": "#111110",
       "fg": "#f2efe8",
@@ -10538,6 +10869,35 @@
     "status": "pending",
     "approvedAt": null,
     "coverImageUrl": "https://i.discogs.com/T5-octqaXdn3-M3mKF2nTdtOQKP3m01pvVexSzjRaWM/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM3NDA4/NzA3LTE3Nzk0Mjc2/NDItNjYyNS5qcGVn.jpeg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
+    "id": "gbc-love-diskito",
+    "type": "album",
+    "artist": "GBC",
+    "title": "Love, Diskito",
+    "label": "mappa",
+    "releaseDate": "2026-05-19",
+    "description": "Ten tracks of ambient-adjacent experimental pop landing on mappa, a label that continues to prefer the strange over the tidy. File somewhere between song-form and sound-work.",
+    "tags": [
+      "electronic"
+    ],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=GBC%20Love%2C%20Diskito&item_type=a",
+      "spotify": "https://open.spotify.com/search/GBC%20Love%2C%20Diskito",
+      "soundcloud": "https://soundcloud.com/search?q=GBC%20Love%2C%20Diskito",
+      "youtube": "https://www.youtube.com/results?search_query=GBC%20Love%2C%20Diskito"
+    },
+    "embed": null,
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://i.discogs.com/2a7-BhpmLJ4QeMaVNPVBRwij80NF8WmxfFXiGss6leU/rs:fit/g:sm/q:90/h:600/w:380/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM3ODc4/NjMwLTE3ODQwMjI4/OTMtNDA5My5qcGVn.jpeg",
     "cover": {
       "bg": "#111110",
       "fg": "#f2efe8",
@@ -26898,6 +27258,35 @@
     "status": "pending",
     "approvedAt": null,
     "coverImageUrl": "https://i.discogs.com/v0jywEsQZgkIR0v89YHH-LJowQWu6xy8GzGawbL-Dso/rs:fit/g:sm/q:90/h:595/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM3ODQw/MDY4LTE3ODM2MjUx/NzktNjA3NS5qcGVn.jpeg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
+    "id": "picture-6-uuuuuuuu",
+    "type": "album",
+    "artist": "Picture (6)",
+    "title": "Uuuuuuuu",
+    "label": "Short Span",
+    "releaseDate": "2026-01-01",
+    "description": "Seven techno tracks from Picture on Short Span, pressed to LP. The label's usual tilt toward the rougher, more sketch-like end of the genre should tell you where to file it.",
+    "tags": [
+      "electronic"
+    ],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=Picture%20(6)%20Uuuuuuuu&item_type=a",
+      "spotify": "https://open.spotify.com/search/Picture%20(6)%20Uuuuuuuu",
+      "soundcloud": "https://soundcloud.com/search?q=Picture%20(6)%20Uuuuuuuu",
+      "youtube": "https://www.youtube.com/results?search_query=Picture%20(6)%20Uuuuuuuu"
+    },
+    "embed": null,
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://i.discogs.com/csmwM-tSelAL8qz7-XE2K4wO3EgxF-LaPd_o7BZL0cs/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM3ODgx/ODQ5LTE3ODQwNDk2/MDEtNDMxMy5qcGVn.jpeg",
     "cover": {
       "bg": "#111110",
       "fg": "#f2efe8",
@@ -48295,7 +48684,7 @@
     "title": "Shy Love",
     "label": "Life Is Beautiful (5)",
     "releaseDate": "2024-10-18",
-    "description": "",
+    "description": "A single pop track from Beth Morgan on Life Is Beautiful, digital only. Short, straightforward, no extras to weigh it down.",
     "tags": [
       "pop"
     ],
@@ -48329,7 +48718,7 @@
     "title": "Process of Elimination",
     "label": "AD 93",
     "releaseDate": "2024-10-18",
-    "description": "",
+    "description": "Nine tracks for AD 93 that sit between dream pop, avant-song and IDM texture, with Hardwick's voice threaded through processed strings and grainy electronics. One for the shelf where ethereal writing meets Ecko Bazz-era label experimentation.",
     "tags": [],
     "links": {
       "bandcamp": "https://bandcamp.com/album/2947374071",
@@ -48363,7 +48752,7 @@
     "title": "Love On A Mountain Top",
     "label": "Good Morning Tapes",
     "releaseDate": "2024-10-17",
-    "description": "",
+    "description": "Good Morning Tapes step sideways into lovers rock and roots territory, a two-track mixtape edit from Vera Dvale that keeps the label's slow, incense-lit temperament intact. Dub weight, but softened at the edges.",
     "tags": [
       "electronic"
     ],
@@ -52312,7 +52701,8 @@
       "soundcloud": "https://soundcloud.com/search?q=Lanark%20Artefax%20Metallur",
       "youtube": "https://www.youtube.com/results?search_query=Lanark%20Artefax%20Metallur",
       "deezer": "https://www.deezer.com/album/550345002",
-      "apple": "https://music.apple.com/us/album/metallur-ep/1732090384?uo=4"
+      "apple": "https://music.apple.com/us/album/metallur-ep/1732090384?uo=4",
+      "tidal": "https://tidal.com/album/522659336"
     },
     "embed": {
       "provider": "apple",
@@ -52412,7 +52802,8 @@
       "spotify": "https://open.spotify.com/search/Various%20In%20The%20Slush",
       "soundcloud": "https://soundcloud.com/search?q=Various%20In%20The%20Slush",
       "youtube": "https://www.youtube.com/results?search_query=Various%20In%20The%20Slush",
-      "apple": "https://music.apple.com/us/album/in-the-slush-iii/1771642704?uo=4"
+      "apple": "https://music.apple.com/us/album/in-the-slush-iii/1771642704?uo=4",
+      "tidal": "https://tidal.com/album/390609413"
     },
     "embed": {
       "provider": "apple",
@@ -52510,7 +52901,8 @@
       "spotify": "https://open.spotify.com/search/Alto%20Aria%20Some%20Things%20Are%20Not%20Meant%20To%20Hold",
       "soundcloud": "https://soundcloud.com/search?q=Alto%20Aria%20Some%20Things%20Are%20Not%20Meant%20To%20Hold",
       "youtube": "https://www.youtube.com/results?search_query=Alto%20Aria%20Some%20Things%20Are%20Not%20Meant%20To%20Hold",
-      "apple": "https://music.apple.com/us/album/some-things-are-not-meant-to-hold-single/1739387609?uo=4"
+      "apple": "https://music.apple.com/us/album/some-things-are-not-meant-to-hold-single/1739387609?uo=4",
+      "tidal": "https://tidal.com/album/384144148"
     },
     "embed": {
       "provider": "apple",
@@ -52545,7 +52937,8 @@
       "soundcloud": "https://soundcloud.com/search?q=Dim%20Fumes%20Bright%20Spots",
       "youtube": "https://www.youtube.com/results?search_query=Dim%20Fumes%20Bright%20Spots",
       "deezer": "https://www.deezer.com/album/569064351",
-      "apple": "https://music.apple.com/us/album/moved-by-you-bright-spots-feat-no-bloom-now-thrived-single/1745667711?uo=4"
+      "apple": "https://music.apple.com/us/album/moved-by-you-bright-spots-feat-no-bloom-now-thrived-single/1745667711?uo=4",
+      "tidal": "https://tidal.com/album/362450060"
     },
     "embed": {
       "provider": "apple",
@@ -52579,7 +52972,8 @@
       "spotify": "https://open.spotify.com/search/Ulla*%20%26%20Ultrafog%20It%20Means%20A%20Lot",
       "soundcloud": "https://soundcloud.com/search?q=Ulla*%20%26%20Ultrafog%20It%20Means%20A%20Lot",
       "youtube": "https://www.youtube.com/results?search_query=Ulla*%20%26%20Ultrafog%20It%20Means%20A%20Lot",
-      "apple": "https://music.apple.com/us/album/it-means-a-lot/1738932960?uo=4"
+      "apple": "https://music.apple.com/us/album/it-means-a-lot/1738932960?uo=4",
+      "tidal": "https://tidal.com/album/354742072"
     },
     "embed": {
       "provider": "apple",
@@ -52646,7 +53040,8 @@
       "soundcloud": "https://soundcloud.com/search?q=Eden%20Aurelius%20Plateau",
       "youtube": "https://www.youtube.com/results?search_query=Eden%20Aurelius%20Plateau",
       "deezer": "https://www.deezer.com/album/562748502",
-      "apple": "https://music.apple.com/us/album/plateau-ep/1736772588?uo=4"
+      "apple": "https://music.apple.com/us/album/plateau-ep/1736772588?uo=4",
+      "tidal": "https://tidal.com/album/352169295"
     },
     "embed": {
       "provider": "apple",
@@ -52681,7 +53076,8 @@
       "soundcloud": "https://soundcloud.com/search?q=Low%20End%20Activist%20Airdrop",
       "youtube": "https://www.youtube.com/results?search_query=Low%20End%20Activist%20Airdrop",
       "deezer": "https://www.deezer.com/album/837926982",
-      "apple": "https://music.apple.com/us/album/airdrop/1734348916?uo=4"
+      "apple": "https://music.apple.com/us/album/airdrop/1734348916?uo=4",
+      "tidal": "https://tidal.com/album/349062408"
     },
     "embed": {
       "provider": "apple",
@@ -52718,7 +53114,8 @@
       "soundcloud": "https://soundcloud.com/search?q=Lakker%20Pathway",
       "youtube": "https://www.youtube.com/results?search_query=Lakker%20Pathway",
       "deezer": "https://www.deezer.com/album/578110151",
-      "apple": "https://music.apple.com/us/album/pathway-ep/1743171346?uo=4"
+      "apple": "https://music.apple.com/us/album/pathway-ep/1743171346?uo=4",
+      "tidal": "https://tidal.com/album/359649018"
     },
     "embed": {
       "provider": "apple",
@@ -52753,7 +53150,8 @@
       "soundcloud": "https://soundcloud.com/search?q=Coral%20Morphologic%20%26%20Nick%20Le%C3%B3n%20Projections%20Of%20A%20Coral%20City",
       "youtube": "https://www.youtube.com/results?search_query=Coral%20Morphologic%20%26%20Nick%20Le%C3%B3n%20Projections%20Of%20A%20Coral%20City",
       "deezer": "https://www.deezer.com/album/539459102",
-      "apple": "https://music.apple.com/us/album/projections-of-a-coral-city-ep/1727555323?uo=4"
+      "apple": "https://music.apple.com/us/album/projections-of-a-coral-city-ep/1727555323?uo=4",
+      "tidal": "https://tidal.com/album/341945186"
     },
     "embed": {
       "provider": "apple",
@@ -52788,7 +53186,8 @@
       "soundcloud": "https://soundcloud.com/search?q=NUG%20(4)%20Bong%20Boat",
       "youtube": "https://www.youtube.com/results?search_query=NUG%20(4)%20Bong%20Boat",
       "deezer": "https://www.deezer.com/album/578726931",
-      "apple": "https://music.apple.com/us/album/bong-boat/1743290295?uo=4"
+      "apple": "https://music.apple.com/us/album/bong-boat/1743290295?uo=4",
+      "tidal": "https://tidal.com/album/361538292"
     },
     "embed": {
       "provider": "apple",
@@ -52822,7 +53221,8 @@
       "spotify": "https://open.spotify.com/search/Oro%20Azul%20Water%20Seeds",
       "soundcloud": "https://soundcloud.com/search?q=Oro%20Azul%20Water%20Seeds",
       "youtube": "https://www.youtube.com/results?search_query=Oro%20Azul%20Water%20Seeds",
-      "apple": "https://music.apple.com/us/album/water-seeds-ep/1730408799?uo=4"
+      "apple": "https://music.apple.com/us/album/water-seeds-ep/1730408799?uo=4",
+      "tidal": "https://tidal.com/album/344957783"
     },
     "embed": {
       "provider": "apple",
@@ -52856,7 +53256,8 @@
       "spotify": "https://open.spotify.com/search/Ways%20Away%20Torch%20Songs",
       "soundcloud": "https://soundcloud.com/search?q=Ways%20Away%20Torch%20Songs",
       "youtube": "https://www.youtube.com/results?search_query=Ways%20Away%20Torch%20Songs",
-      "deezer": "https://www.deezer.com/album/479650735"
+      "deezer": "https://www.deezer.com/album/479650735",
+      "tidal": "https://tidal.com/album/312380923"
     },
     "embed": {
       "provider": "deezer",
@@ -52919,7 +53320,8 @@
       "spotify": "https://open.spotify.com/search/Xenia%20Reaper%20Luvaphy",
       "soundcloud": "https://soundcloud.com/search?q=Xenia%20Reaper%20Luvaphy",
       "youtube": "https://www.youtube.com/results?search_query=Xenia%20Reaper%20Luvaphy",
-      "apple": "https://music.apple.com/us/album/luvaphy/1732929965?uo=4"
+      "apple": "https://music.apple.com/us/album/luvaphy/1732929965?uo=4",
+      "tidal": "https://tidal.com/album/346673026"
     },
     "embed": {
       "provider": "apple",
@@ -52953,7 +53355,8 @@
       "spotify": "https://open.spotify.com/search/Crown%20Of%20Cerberus%20Rabih",
       "soundcloud": "https://soundcloud.com/search?q=Crown%20Of%20Cerberus%20Rabih",
       "youtube": "https://www.youtube.com/results?search_query=Crown%20Of%20Cerberus%20Rabih",
-      "apple": "https://music.apple.com/us/album/rabih/1734804581?uo=4"
+      "apple": "https://music.apple.com/us/album/rabih/1734804581?uo=4",
+      "tidal": "https://tidal.com/album/349572611"
     },
     "embed": {
       "provider": "apple",
@@ -53020,7 +53423,8 @@
       "spotify": "https://open.spotify.com/search/Bianca%20Scout%20Pattern%20Damage",
       "soundcloud": "https://soundcloud.com/search?q=Bianca%20Scout%20Pattern%20Damage",
       "youtube": "https://www.youtube.com/results?search_query=Bianca%20Scout%20Pattern%20Damage",
-      "deezer": "https://www.deezer.com/album/568349681"
+      "deezer": "https://www.deezer.com/album/568349681",
+      "tidal": "https://tidal.com/album/355034686"
     },
     "embed": {
       "provider": "deezer",
@@ -53054,7 +53458,8 @@
       "spotify": "https://open.spotify.com/search/Grammar%20Of%20Movement%20Double%20Figure%20%2F%20No%20Sleep",
       "soundcloud": "https://soundcloud.com/search?q=Grammar%20Of%20Movement%20Double%20Figure%20%2F%20No%20Sleep",
       "youtube": "https://www.youtube.com/results?search_query=Grammar%20Of%20Movement%20Double%20Figure%20%2F%20No%20Sleep",
-      "apple": "https://music.apple.com/us/album/double-figure-no-sleep-single/1734795888?uo=4"
+      "apple": "https://music.apple.com/us/album/double-figure-no-sleep-single/1734795888?uo=4",
+      "tidal": "https://tidal.com/album/349563000"
     },
     "embed": {
       "provider": "apple",
@@ -53088,7 +53493,8 @@
       "spotify": "https://open.spotify.com/search/pent%20trepidation%20cycles",
       "soundcloud": "https://soundcloud.com/search?q=pent%20trepidation%20cycles",
       "youtube": "https://www.youtube.com/results?search_query=pent%20trepidation%20cycles",
-      "apple": "https://music.apple.com/us/album/trepidation-cycles/1734870159?uo=4"
+      "apple": "https://music.apple.com/us/album/trepidation-cycles/1734870159?uo=4",
+      "tidal": "https://tidal.com/album/349634179"
     },
     "embed": {
       "provider": "apple",
