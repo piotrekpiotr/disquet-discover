@@ -442,7 +442,8 @@
       "spotify": "https://open.spotify.com/search/Nia%20Archives%20Emotional%20Junglist",
       "soundcloud": "https://soundcloud.com/search?q=Nia%20Archives%20Emotional%20Junglist",
       "youtube": "https://www.youtube.com/results?search_query=Nia%20Archives%20Emotional%20Junglist",
-      "apple": "https://music.apple.com/us/album/emotional-junglist/1892437345"
+      "apple": "https://music.apple.com/us/album/emotional-junglist/1892437345",
+      "tidal": "https://tidal.com/album/541782743"
     },
     "embed": {
       "provider": "apple",
@@ -590,7 +591,8 @@
       "spotify": "https://open.spotify.com/search/FaltyDL%20Be%20My%20Baby%20EP",
       "soundcloud": "https://soundcloud.com/search?q=FaltyDL%20Be%20My%20Baby%20EP",
       "youtube": "https://www.youtube.com/results?search_query=FaltyDL%20Be%20My%20Baby%20EP",
-      "deezer": "https://www.deezer.com/album/998695861"
+      "deezer": "https://www.deezer.com/album/998695861",
+      "tidal": "https://tidal.com/album/531032903"
     },
     "embed": {
       "provider": "deezer",
@@ -668,6 +670,204 @@
     "status": "pending",
     "approvedAt": null,
     "coverImageUrl": null,
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
+    "id": "noon-green-mile",
+    "type": "single",
+    "artist": "Noon",
+    "title": "Green Mile",
+    "label": "",
+    "releaseDate": "2026-07-17",
+    "description": "Noon returns with \"Green Mile,\" a single arriving mid-2026 without a label attached yet. File under wait-and-see until more surfaces.",
+    "tags": [],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=Noon%20Green%20Mile&item_type=a",
+      "spotify": "https://open.spotify.com/search/Noon%20Green%20Mile",
+      "soundcloud": "https://soundcloud.com/search?q=Noon%20Green%20Mile",
+      "youtube": "https://www.youtube.com/results?search_query=Noon%20Green%20Mile",
+      "deezer": "https://www.deezer.com/album/1021061901",
+      "apple": "https://music.apple.com/us/album/green-mile-single/6787488450?uo=4"
+    },
+    "embed": {
+      "provider": "apple",
+      "src": "https://embed.music.apple.com/us/album/6787488450?theme=light",
+      "height": 450
+    },
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://cdn-images.dzcdn.net/images/cover/00f66c4bffd5cda6e1c66a556c680d6c/1000x1000-000000-80-0-0.jpg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
+    "id": "olafur-arnalds-a-dawning-choir-versions",
+    "type": "single",
+    "artist": "Ólafur Arnalds",
+    "title": "A Dawning - choir versions",
+    "label": "",
+    "releaseDate": "2026-07-17",
+    "description": "Arnalds revisits \"A Dawning\" through massed voices, the neoclassical piano-and-strings palette he has been working through since Found Songs pared back in favour of choir. Sits comfortably next to anything on Erased Tapes.",
+    "tags": [],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=%C3%93lafur%20Arnalds%20A%20Dawning%20-%20choir%20versions&item_type=a",
+      "spotify": "https://open.spotify.com/search/%C3%93lafur%20Arnalds%20A%20Dawning%20-%20choir%20versions",
+      "soundcloud": "https://soundcloud.com/search?q=%C3%93lafur%20Arnalds%20A%20Dawning%20-%20choir%20versions",
+      "youtube": "https://www.youtube.com/results?search_query=%C3%93lafur%20Arnalds%20A%20Dawning%20-%20choir%20versions",
+      "deezer": "https://www.deezer.com/album/1025523392",
+      "apple": "https://music.apple.com/us/album/a-dawning-choir-versions-single/6787050035?uo=4",
+      "tidal": "https://tidal.com/album/541781001"
+    },
+    "embed": {
+      "provider": "apple",
+      "src": "https://embed.music.apple.com/us/album/6787050035?theme=light",
+      "height": 450
+    },
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://cdn-images.dzcdn.net/images/cover/caa5d79300b51da29173e03b944bfed8/1000x1000-000000-80-0-0.jpg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
+    "id": "photek-30-seconds-out",
+    "type": "single",
+    "artist": "Photek",
+    "title": "30 Seconds Out",
+    "label": "",
+    "releaseDate": "2026-07-17",
+    "description": "Photek in 2026, still trading in the precise, forensic drum programming that defined his Science years. No label info yet, but the name alone is enough to warrant a hold.",
+    "tags": [],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=Photek%2030%20Seconds%20Out&item_type=a",
+      "spotify": "https://open.spotify.com/search/Photek%2030%20Seconds%20Out",
+      "soundcloud": "https://soundcloud.com/search?q=Photek%2030%20Seconds%20Out",
+      "youtube": "https://www.youtube.com/results?search_query=Photek%2030%20Seconds%20Out",
+      "deezer": "https://www.deezer.com/album/1019138501",
+      "apple": "https://music.apple.com/us/album/30-seconds-out-single/6786383529?uo=4"
+    },
+    "embed": {
+      "provider": "apple",
+      "src": "https://embed.music.apple.com/us/album/6786383529?theme=light",
+      "height": 450
+    },
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://cdn-images.dzcdn.net/images/cover/e40970e91bd9606681542d479885aa2a/1000x1000-000000-80-0-0.jpg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
+    "id": "matt-proxy-teenage-genius-3",
+    "type": "single",
+    "artist": "Matt Proxy",
+    "title": "teenage genius 3",
+    "label": "LISTEN TO THE KIDS",
+    "releaseDate": "2026-07-17",
+    "description": "Third entry in Matt Proxy's teenage genius series on LISTEN TO THE KIDS, filed under experimental hip hop and left at a single track. Short-form, not a statement piece.",
+    "tags": [],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=Matt%20Proxy%20teenage%20genius%203&item_type=a",
+      "spotify": "https://open.spotify.com/search/Matt%20Proxy%20teenage%20genius%203",
+      "soundcloud": "https://soundcloud.com/search?q=Matt%20Proxy%20teenage%20genius%203",
+      "youtube": "https://www.youtube.com/results?search_query=Matt%20Proxy%20teenage%20genius%203",
+      "deezer": "https://www.deezer.com/album/1024297541"
+    },
+    "embed": {
+      "provider": "deezer",
+      "src": "https://widget.deezer.com/widget/light/album/1024297541",
+      "height": 300
+    },
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://cdn-images.dzcdn.net/images/cover/941430d5e439ba3fd441d4a9996cc3c5/1000x1000-000000-80-0-0.jpg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
+    "id": "nikita-the-wicked-ceremony",
+    "type": "single",
+    "artist": "Nikita, the Wicked",
+    "title": "CEREMONY",
+    "label": "",
+    "releaseDate": "2026-07-16",
+    "description": "Nikita, the Wicked returns with CEREMONY, a single sitting somewhere in the shadowed pop territory she has been mapping for a while now. Details are thin ahead of release; take it as a marker rather than a full picture.",
+    "tags": [],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=Nikita%2C%20the%20Wicked%20CEREMONY&item_type=a",
+      "spotify": "https://open.spotify.com/search/Nikita%2C%20the%20Wicked%20CEREMONY",
+      "soundcloud": "https://soundcloud.com/search?q=Nikita%2C%20the%20Wicked%20CEREMONY",
+      "youtube": "https://www.youtube.com/results?search_query=Nikita%2C%20the%20Wicked%20CEREMONY",
+      "deezer": "https://www.deezer.com/album/1017347931",
+      "apple": "https://music.apple.com/us/album/ceremony-single/6785597230?uo=4"
+    },
+    "embed": {
+      "provider": "apple",
+      "src": "https://embed.music.apple.com/us/album/6785597230?theme=light",
+      "height": 450
+    },
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://cdn-images.dzcdn.net/images/cover/1a3f6e2a35f7b8df86eec1b42e707b86/1000x1000-000000-80-0-0.jpg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
+    "id": "sofie-birch-miarai",
+    "type": "single",
+    "artist": "Sofie Birch",
+    "title": "Miarai",
+    "label": "",
+    "releaseDate": "2026-07-16",
+    "description": "Birch working again in the pastoral ambient register she has quietly built up across Posh Isolation and Mondoj, this time as a standalone piece. Slot alongside Astrid Sonne if a pointer helps.",
+    "tags": [],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=Sofie%20Birch%20Miarai&item_type=a",
+      "spotify": "https://open.spotify.com/search/Sofie%20Birch%20Miarai",
+      "soundcloud": "https://soundcloud.com/search?q=Sofie%20Birch%20Miarai",
+      "youtube": "https://www.youtube.com/results?search_query=Sofie%20Birch%20Miarai",
+      "deezer": "https://www.deezer.com/album/1012563191",
+      "tidal": "https://tidal.com/album/535948828"
+    },
+    "embed": {
+      "provider": "deezer",
+      "src": "https://widget.deezer.com/widget/light/album/1012563191",
+      "height": 300
+    },
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://cdn-images.dzcdn.net/images/cover/ed47111fa2bf4009bf3cdd83d2fa2ab7/1000x1000-000000-80-0-0.jpg",
     "cover": {
       "bg": "#111110",
       "fg": "#f2efe8",
@@ -1246,7 +1446,8 @@
     },
     "pressMentions": [
       "pitchfork_best_tracks",
-      "ra"
+      "ra",
+      "pitchfork_albums"
     ]
   },
   {
@@ -1343,6 +1544,76 @@
     "status": "pending",
     "approvedAt": null,
     "coverImageUrl": "https://i.discogs.com/mMjqRSPvXQVOwHZRcS3YqkxVk9ZeFBDVjA981wOOlBw/rs:fit/g:sm/q:90/h:539/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM3ODg1/ODE4LTE3ODQxMDk1/MjgtNjUxNS5qcGVn.jpeg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
+    "id": "tiga-ai-ga-nanda",
+    "type": "single",
+    "artist": "Tiga",
+    "title": "ai ga nanda",
+    "label": "",
+    "releaseDate": "2026-07-10",
+    "description": "Tiga in single mode, which historically means an oversized hook delivered with a straight face and just enough camp to keep the dancefloor honest. Label details still to surface.",
+    "tags": [],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=Tiga%20ai%20ga%20nanda&item_type=a",
+      "spotify": "https://open.spotify.com/search/Tiga%20ai%20ga%20nanda",
+      "soundcloud": "https://soundcloud.com/search?q=Tiga%20ai%20ga%20nanda",
+      "youtube": "https://www.youtube.com/results?search_query=Tiga%20ai%20ga%20nanda",
+      "deezer": "https://www.deezer.com/album/1017198871",
+      "apple": "https://music.apple.com/us/album/ai-ga-nanda-single/6785536571?uo=4"
+    },
+    "embed": {
+      "provider": "apple",
+      "src": "https://embed.music.apple.com/us/album/6785536571?theme=light",
+      "height": 450
+    },
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://cdn-images.dzcdn.net/images/cover/2b4cee73fb98098defb74f2f2e7d6bbd/1000x1000-000000-80-0-0.jpg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": [
+      "pitchfork_best_tracks"
+    ]
+  },
+  {
+    "id": "ebbb-shallow-hits",
+    "type": "album",
+    "artist": "Ebbb",
+    "title": "Shallow Hits",
+    "label": "Ninja Tune",
+    "releaseDate": "2026-07-10",
+    "description": "Eleven tracks of vocal-forward electronic pop from Ebbb, landing on Ninja Tune in a limited LP. Sits at the songwriterly edge of the label's roster rather than the club end.",
+    "tags": [
+      "electronic"
+    ],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=Ebbb%20Shallow%20Hits&item_type=a",
+      "spotify": "https://open.spotify.com/search/Ebbb%20Shallow%20Hits",
+      "soundcloud": "https://soundcloud.com/search?q=Ebbb%20Shallow%20Hits",
+      "youtube": "https://www.youtube.com/results?search_query=Ebbb%20Shallow%20Hits",
+      "deezer": "https://www.deezer.com/album/977561621",
+      "apple": "https://music.apple.com/us/album/shallow-hits/1891493439?uo=4"
+    },
+    "embed": {
+      "provider": "apple",
+      "src": "https://embed.music.apple.com/us/album/1891493439?theme=light",
+      "height": 450
+    },
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://i.discogs.com/BI2rCLXHbKqFxq6ZF7tnJTgLLpldDdAWph2VifbISsg/rs:fit/g:sm/q:90/h:589/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM3ODk1/MjExLTE3ODQxOTg5/MDktOTc5Mi5qcGVn.jpeg",
     "cover": {
       "bg": "#111110",
       "fg": "#f2efe8",
@@ -1767,6 +2038,38 @@
     "pressMentions": [
       "pitchfork_albums"
     ]
+  },
+  {
+    "id": "tricky-todo-en-la-mesa",
+    "type": "single",
+    "artist": "Tricky",
+    "title": "Todo en la Mesa",
+    "label": "",
+    "releaseDate": "2026-07-05",
+    "description": "Tricky returns with a new single, still working the smoke-and-murmur register that has defined his output since Maxinquaye. Sparse metadata for now; take it on the artist's long-standing terms.",
+    "tags": [],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=Tricky%20Todo%20en%20la%20Mesa&item_type=a",
+      "spotify": "https://open.spotify.com/search/Tricky%20Todo%20en%20la%20Mesa",
+      "soundcloud": "https://soundcloud.com/search?q=Tricky%20Todo%20en%20la%20Mesa",
+      "youtube": "https://www.youtube.com/results?search_query=Tricky%20Todo%20en%20la%20Mesa",
+      "deezer": "https://www.deezer.com/album/1019973121"
+    },
+    "embed": {
+      "provider": "deezer",
+      "src": "https://widget.deezer.com/widget/light/album/1019973121",
+      "height": 300
+    },
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://cdn-images.dzcdn.net/images/cover/19cc6e5a78b8bcdab8f8f6bb374befef/1000x1000-000000-80-0-0.jpg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
   },
   {
     "id": "log-log",
@@ -6273,7 +6576,9 @@
       "fg": "#f2efe8",
       "motif": "disc"
     },
-    "pressMentions": []
+    "pressMentions": [
+      "stereogum"
+    ]
   },
   {
     "id": "deadbeat-press-to-return",
@@ -8078,7 +8383,8 @@
     },
     "pressMentions": [
       "pitchfork_best_tracks",
-      "ra"
+      "ra",
+      "pitchfork_albums"
     ]
   },
   {
@@ -13465,7 +13771,8 @@
       "pitchfork_tracks",
       "pitchfork_best_tracks",
       "stereogum",
-      "ra"
+      "ra",
+      "pitchfork_albums"
     ]
   },
   {
@@ -19768,7 +20075,8 @@
       "pitchfork_tracks",
       "pitchfork_best_tracks",
       "stereogum",
-      "ra"
+      "ra",
+      "pitchfork_albums"
     ]
   },
   {
@@ -25303,7 +25611,10 @@
       "bg": "#111110",
       "fg": "#f2efe8",
       "motif": "disc"
-    }
+    },
+    "pressMentions": [
+      "stereogum"
+    ]
   },
   {
     "id": "travellers-rest-pilgrimage-of-the-dark-friar",
@@ -25440,7 +25751,9 @@
       "fg": "#f2efe8",
       "motif": "disc"
     },
-    "pressMentions": []
+    "pressMentions": [
+      "stereogum"
+    ]
   },
   {
     "id": "talla-2xlc-world-of-trance-02-limited-vinyl-edition",
@@ -27287,6 +27600,74 @@
     "status": "pending",
     "approvedAt": null,
     "coverImageUrl": "https://i.discogs.com/csmwM-tSelAL8qz7-XE2K4wO3EgxF-LaPd_o7BZL0cs/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM3ODgx/ODQ5LTE3ODQwNDk2/MDEtNDMxMy5qcGVn.jpeg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
+    "id": "lutece-lockness-le-cha",
+    "type": "ep",
+    "artist": "Lutèce Lockness",
+    "title": "Le Châ",
+    "label": "Pan European Recording",
+    "releaseDate": "2026-01-01",
+    "description": "Four tracks from Lutèce Lockness on Pan European, pressed in a limited LP run and filed under experimental electronics. The label's usual left-of-pop instincts remain the surest guide to where this one sits.",
+    "tags": [
+      "electronic"
+    ],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=Lut%C3%A8ce%20Lockness%20Le%20Ch%C3%A2&item_type=a",
+      "spotify": "https://open.spotify.com/search/Lut%C3%A8ce%20Lockness%20Le%20Ch%C3%A2",
+      "soundcloud": "https://soundcloud.com/search?q=Lut%C3%A8ce%20Lockness%20Le%20Ch%C3%A2",
+      "youtube": "https://www.youtube.com/results?search_query=Lut%C3%A8ce%20Lockness%20Le%20Ch%C3%A2",
+      "deezer": "https://www.deezer.com/album/982045031"
+    },
+    "embed": {
+      "provider": "deezer",
+      "src": "https://widget.deezer.com/widget/light/album/982045031",
+      "height": 300
+    },
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://i.discogs.com/DH6amhZjcy62WUVuQXfcya2JByzeOXQSTVziF5BGZ9Q/rs:fit/g:sm/q:90/h:587/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM3ODkw/NDc0LTE3ODQxNDEz/MDYtOTQwMC5qcGVn.jpeg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
+    "id": "billy-paul-war-of-the-gods",
+    "type": "ep",
+    "artist": "Billy Paul",
+    "title": "War Of The Gods",
+    "label": "Strongly Felt",
+    "releaseDate": "2026-01-01",
+    "description": "Columbia dust off Billy Paul's cosmically inclined Philly soul document, six sides of orchestrated R&B that always sat further out than the Me And Mrs. Jones crowd remembered. For anyone who works backward from Gamble and Huff into the weirder corners of the catalog.",
+    "tags": [
+      "funk / soul"
+    ],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=Billy%20Paul%20War%20Of%20The%20Gods&item_type=a",
+      "spotify": "https://open.spotify.com/search/Billy%20Paul%20War%20Of%20The%20Gods",
+      "soundcloud": "https://soundcloud.com/search?q=Billy%20Paul%20War%20Of%20The%20Gods",
+      "youtube": "https://www.youtube.com/results?search_query=Billy%20Paul%20War%20Of%20The%20Gods",
+      "deezer": "https://www.deezer.com/album/104932872"
+    },
+    "embed": {
+      "provider": "deezer",
+      "src": "https://widget.deezer.com/widget/light/album/104932872",
+      "height": 300
+    },
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://i.discogs.com/yXTdgekJFRbWb3ELX1y3-U3fwgnCvVhbFhib9ZTOJSg/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM3ODg4/NjY4LTE3ODQxMjcx/NzItNTc0Ni5wbmc.jpeg",
     "cover": {
       "bg": "#111110",
       "fg": "#f2efe8",
@@ -43555,7 +43936,9 @@
       "fg": "#f2efe8",
       "motif": "disc"
     },
-    "pressMentions": []
+    "pressMentions": [
+      "stereogum"
+    ]
   },
   {
     "id": "soo-joo-park-no-ghost",
@@ -44256,7 +44639,9 @@
       "fg": "#f2efe8",
       "motif": "disc"
     },
-    "pressMentions": []
+    "pressMentions": [
+      "stereogum"
+    ]
   },
   {
     "id": "djrum-a-tune-for-us",
@@ -48781,7 +49166,7 @@
     "title": "Chainsaw Man (Original Series Soundtrack)",
     "label": "Milan",
     "releaseDate": "2024-10-15",
-    "description": "",
+    "description": "Ushio's score for the MAPPA adaptation lands on Milan across 49 cues, moving between industrial abrasion and the muted ambient writing he's known for from his agraph work. For anyone who followed his Devilman Crybaby or Chihayafuru scores in.",
     "tags": [
       "stage & screen"
     ],
@@ -48810,7 +49195,7 @@
     "title": "Peace In Chaos",
     "label": "R & S Records",
     "releaseDate": "2024-10-11",
-    "description": "",
+    "description": "Paul White lands on R & S with an eleven-track LP that stretches from ambient into synth-pop and a little house shuffle, further from the beat-tape lineage he's known for. Broader palette than expected, still recognisably his ear for texture.",
     "tags": [
       "electronic"
     ],
@@ -48846,7 +49231,7 @@
     "title": "Inventor Vol. 2",
     "label": "Nyege Nyege Tapes",
     "releaseDate": "2024-10-11",
-    "description": "",
+    "description": "Nyege Nyege continues its excavation of DJ Znobia's archive, ten tracks tracing the Luandan producer's foundational role in early kuduro's rhythmic logic. Filed under techno here, but the pulse is elsewhere.",
     "tags": [
       "electronic"
     ],
@@ -48881,7 +49266,7 @@
     "title": "Dregs",
     "label": "Purely Physical Teeny Tapes",
     "releaseDate": "2024-10-11",
-    "description": "",
+    "description": "Six tracks of murky trip hop and dub on Purely Physical Teeny Tapes, tilted more toward smoke than swing. Downtempo for anyone still working through the slower, weirder edges of the Bristol lineage.",
     "tags": [
       "electronic"
     ],
@@ -51636,7 +52021,9 @@
       "fg": "#f2efe8",
       "motif": "disc"
     },
-    "pressMentions": []
+    "pressMentions": [
+      "stereogum"
+    ]
   },
   {
     "id": "adaa-img",
@@ -57405,7 +57792,8 @@
       "soundcloud": "https://soundcloud.com/search?q=Biosphere%20Angel's%20Flight",
       "youtube": "https://www.youtube.com/results?search_query=Biosphere%20Angel's%20Flight",
       "deezer": "https://www.deezer.com/album/257705182",
-      "apple": "https://music.apple.com/us/album/angels-flight/6767584269?uo=4"
+      "apple": "https://music.apple.com/us/album/angels-flight/6767584269?uo=4",
+      "tidal": "https://tidal.com/album/522722938"
     },
     "embed": {
       "provider": "apple",
@@ -57438,7 +57826,8 @@
       "soundcloud": "https://soundcloud.com/search?q=Avalon%20Emerson%20040",
       "youtube": "https://www.youtube.com/results?search_query=Avalon%20Emerson%20040",
       "deezer": "https://www.deezer.com/album/963104951",
-      "apple": "https://music.apple.com/us/album/040-ep/1894029029?uo=4"
+      "apple": "https://music.apple.com/us/album/040-ep/1894029029?uo=4",
+      "tidal": "https://tidal.com/album/516542095"
     },
     "embed": {
       "provider": "apple",
@@ -57471,7 +57860,8 @@
       "soundcloud": "https://soundcloud.com/search?q=Bambounou%20033",
       "youtube": "https://www.youtube.com/results?search_query=Bambounou%20033",
       "deezer": "https://www.deezer.com/album/972972371",
-      "apple": "https://music.apple.com/us/album/033-ep/6764833691?uo=4"
+      "apple": "https://music.apple.com/us/album/033-ep/6764833691?uo=4",
+      "tidal": "https://tidal.com/album/520387341"
     },
     "embed": {
       "provider": "apple",
@@ -57558,7 +57948,8 @@
       "soundcloud": "https://soundcloud.com/search?q=Dylan%20Henner%20The%20Invention%20of%20the%20Human",
       "youtube": "https://www.youtube.com/results?search_query=Dylan%20Henner%20The%20Invention%20of%20the%20Human",
       "deezer": "https://www.deezer.com/album/257699722",
-      "apple": "https://music.apple.com/us/album/the-invention-of-the-human/1585299004?uo=4"
+      "apple": "https://music.apple.com/us/album/the-invention-of-the-human/1585299004?uo=4",
+      "tidal": "https://tidal.com/album/197231152"
     },
     "embed": {
       "provider": "apple",
@@ -57591,7 +57982,8 @@
       "soundcloud": "https://soundcloud.com/search?q=Anunaku%20%26%20DJ%20Plead%20032",
       "youtube": "https://www.youtube.com/results?search_query=Anunaku%20%26%20DJ%20Plead%20032",
       "deezer": "https://www.deezer.com/album/257699782",
-      "apple": "https://music.apple.com/us/album/032-single/1585298775?uo=4"
+      "apple": "https://music.apple.com/us/album/032-single/1585298775?uo=4",
+      "tidal": "https://tidal.com/album/197229664"
     },
     "embed": {
       "provider": "apple",
@@ -57623,7 +58015,8 @@
       "spotify": "https://open.spotify.com/search/%D1%82%D0%BF%D1%81%D0%B1%20Whities%20031",
       "soundcloud": "https://soundcloud.com/search?q=%D1%82%D0%BF%D1%81%D0%B1%20Whities%20031",
       "youtube": "https://www.youtube.com/results?search_query=%D1%82%D0%BF%D1%81%D0%B1%20Whities%20031",
-      "apple": "https://music.apple.com/us/album/whities-031-single/1585298829?uo=4"
+      "apple": "https://music.apple.com/us/album/whities-031-single/1585298829?uo=4",
+      "tidal": "https://tidal.com/album/197230252"
     },
     "embed": {
       "provider": "apple",
