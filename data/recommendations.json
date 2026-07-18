@@ -1063,6 +1063,38 @@
     "pressMentions": []
   },
   {
+    "id": "clark-tha-s-o-u-r-c-e",
+    "type": "album",
+    "artist": "Clark",
+    "title": "Tha S O U R C E",
+    "label": "",
+    "releaseDate": "2026-07-11",
+    "description": "Long-running Warp fixture Chris Clark surfaces with another album, no label yet attached, extending the bruised, machine-detailed electronics he has been shaping since Body Riddle. File next to Bibio if you need shelving logic.",
+    "tags": [],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=Clark%20Tha%20S%20O%20U%20R%20C%20E&item_type=a",
+      "spotify": "https://open.spotify.com/search/Clark%20Tha%20S%20O%20U%20R%20C%20E",
+      "soundcloud": "https://soundcloud.com/search?q=Clark%20Tha%20S%20O%20U%20R%20C%20E",
+      "youtube": "https://www.youtube.com/results?search_query=Clark%20Tha%20S%20O%20U%20R%20C%20E",
+      "deezer": "https://www.deezer.com/album/1027121262"
+    },
+    "embed": {
+      "provider": "deezer",
+      "src": "https://widget.deezer.com/widget/light/album/1027121262",
+      "height": 300
+    },
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": null,
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
     "id": "substance-levels-ep",
     "type": "album",
     "artist": "Substance",
@@ -1614,6 +1646,35 @@
     "status": "pending",
     "approvedAt": null,
     "coverImageUrl": "https://i.discogs.com/BI2rCLXHbKqFxq6ZF7tnJTgLLpldDdAWph2VifbISsg/rs:fit/g:sm/q:90/h:589/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM3ODk1/MjExLTE3ODQxOTg5/MDktOTc5Mi5qcGVn.jpeg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
+    "id": "kelela-new-avatar-l",
+    "type": "album",
+    "artist": "Kelela = ケレラ",
+    "title": "New Avatar = ニュー・アバター",
+    "label": "Warp Records",
+    "releaseDate": "2026-07-10",
+    "description": "Kelela on Warp with an LP that reaches well past the club, its style tags pointing toward shoegaze and indie rock alongside her usual neo-soul and bass-weight instincts. A wider palette than Raven, on paper at least.",
+    "tags": [
+      "electronic"
+    ],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=Kelela%20%3D%20%E3%82%B1%E3%83%AC%E3%83%A9%20New%20Avatar%20%3D%20%E3%83%8B%E3%83%A5%E3%83%BC%E3%83%BB%E3%82%A2%E3%83%90%E3%82%BF%E3%83%BC&item_type=a",
+      "spotify": "https://open.spotify.com/search/Kelela%20%3D%20%E3%82%B1%E3%83%AC%E3%83%A9%20New%20Avatar%20%3D%20%E3%83%8B%E3%83%A5%E3%83%BC%E3%83%BB%E3%82%A2%E3%83%90%E3%82%BF%E3%83%BC",
+      "soundcloud": "https://soundcloud.com/search?q=Kelela%20%3D%20%E3%82%B1%E3%83%AC%E3%83%A9%20New%20Avatar%20%3D%20%E3%83%8B%E3%83%A5%E3%83%BC%E3%83%BB%E3%82%A2%E3%83%90%E3%82%BF%E3%83%BC",
+      "youtube": "https://www.youtube.com/results?search_query=Kelela%20%3D%20%E3%82%B1%E3%83%AC%E3%83%A9%20New%20Avatar%20%3D%20%E3%83%8B%E3%83%A5%E3%83%BC%E3%83%BB%E3%82%A2%E3%83%90%E3%82%BF%E3%83%BC"
+    },
+    "embed": null,
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://i.discogs.com/O9uwhJfhB-LBvVwQi9fTUZI27WbERUlg-45CrId4Tcw/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM3ODY4/Njg4LTE3ODQyNjA1/MDctNTYyNS5qcGVn.jpeg",
     "cover": {
       "bg": "#111110",
       "fg": "#f2efe8",
@@ -2872,6 +2933,41 @@
     "status": "pending",
     "approvedAt": null,
     "coverImageUrl": "https://i.discogs.com/zXhz70oAyprljgwUSKWEyF3fJe-2RLiruipPWnwfh18/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM3ODcy/NDA1LTE3ODM5NTg2/MTQtNDY2MS5qcGVn.jpeg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
+    "id": "dino-lenny-heartbeat-changes",
+    "type": "ep",
+    "artist": "Dino Lenny",
+    "title": "Heartbeat Changes",
+    "label": "R & S Records",
+    "releaseDate": "2026-07-03",
+    "description": "Three tracks from Dino Lenny for R & S, spread across techno, house and breaks rather than settling into any one of them. Fits the label's long habit of signing producers who treat genre as a loose starting position.",
+    "tags": [
+      "electronic"
+    ],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=Dino%20Lenny%20Heartbeat%20Changes&item_type=a",
+      "spotify": "https://open.spotify.com/search/Dino%20Lenny%20Heartbeat%20Changes",
+      "soundcloud": "https://soundcloud.com/search?q=Dino%20Lenny%20Heartbeat%20Changes",
+      "youtube": "https://www.youtube.com/results?search_query=Dino%20Lenny%20Heartbeat%20Changes",
+      "deezer": "https://www.deezer.com/album/1001208261",
+      "apple": "https://music.apple.com/us/album/heartbeat-changes-single/6778559895?uo=4"
+    },
+    "embed": {
+      "provider": "apple",
+      "src": "https://embed.music.apple.com/us/album/6778559895?theme=light",
+      "height": 450
+    },
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://i.discogs.com/vQngs487fNWB0u3FWCX4V-46TBqHiUoN02-5_Yy-PuA/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM3OTA0/MTcyLTE3ODQyOTAz/MjYtOTEyNi5qcGVn.jpeg",
     "cover": {
       "bg": "#111110",
       "fg": "#f2efe8",
@@ -6444,6 +6540,41 @@
     "status": "pending",
     "approvedAt": null,
     "coverImageUrl": "https://i.discogs.com/wwXN0MaLcfpM9mJ-vYr1v-S0olnTogvLb0cRWQdw0pQ/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM3ODI5/NDUxLTE3ODM1MTk0/NjMtNDA3Mi5qcGVn.jpeg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
+    "id": "labi-siffre-crying-laughing-loving-lying",
+    "type": "album",
+    "artist": "Labi Siffre",
+    "title": "Crying Laughing Loving Lying",
+    "label": "Strongly Felt",
+    "releaseDate": "2026-06-12",
+    "description": "Demon reissues Siffre's 1972 songwriter set for Record Store Day, remastered across 20 tracks and pressed as a limited LP. Folk-leaning soul from the years before \"I Got The...\" rewired him for a sampling generation.",
+    "tags": [
+      "funk / soul"
+    ],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=Labi%20Siffre%20Crying%20Laughing%20Loving%20Lying&item_type=a",
+      "spotify": "https://open.spotify.com/search/Labi%20Siffre%20Crying%20Laughing%20Loving%20Lying",
+      "soundcloud": "https://soundcloud.com/search?q=Labi%20Siffre%20Crying%20Laughing%20Loving%20Lying",
+      "youtube": "https://www.youtube.com/results?search_query=Labi%20Siffre%20Crying%20Laughing%20Loving%20Lying",
+      "deezer": "https://www.deezer.com/album/10696744",
+      "apple": "https://music.apple.com/us/album/crying-laughing-loving-lying-deluxe-edition/1010789754?uo=4"
+    },
+    "embed": {
+      "provider": "apple",
+      "src": "https://embed.music.apple.com/us/album/1010789754?theme=light",
+      "height": 450
+    },
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://i.discogs.com/2Y7moFLNkndSf94JLEbxbizBsWtZh3Et5u8oe5bMyCw/rs:fit/g:sm/q:90/h:600/w:589/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM3OTA0/Mjg5LTE3ODQyOTA4/ODItMjMxNi5qcGVn.jpeg",
     "cover": {
       "bg": "#111110",
       "fg": "#f2efe8",
@@ -10080,7 +10211,8 @@
       "soundcloud": "https://soundcloud.com/search?q=Susana%20Santos%20Silva%20%E2%80%A2%20Vasco%20Trilla%20Mushin",
       "youtube": "https://www.youtube.com/results?search_query=Susana%20Santos%20Silva%20%E2%80%A2%20Vasco%20Trilla%20Mushin",
       "deezer": "https://www.deezer.com/album/942740461",
-      "apple": "https://music.apple.com/us/album/mushin/1886219257?uo=4"
+      "apple": "https://music.apple.com/us/album/mushin/1886219257?uo=4",
+      "tidal": "https://tidal.com/album/508202508"
     },
     "embed": {
       "provider": "apple",
@@ -10319,7 +10451,8 @@
       "soundcloud": "https://soundcloud.com/search?q=Peach%20(25)%20Soak%20Vol.%201",
       "youtube": "https://www.youtube.com/results?search_query=Peach%20(25)%20Soak%20Vol.%201",
       "deezer": "https://www.deezer.com/album/935628341",
-      "apple": "https://music.apple.com/us/album/soak-vol-1-ep/1883601495?uo=4"
+      "apple": "https://music.apple.com/us/album/soak-vol-1-ep/1883601495?uo=4",
+      "tidal": "https://tidal.com/album/505452061"
     },
     "embed": {
       "provider": "apple",
@@ -10424,7 +10557,8 @@
       "soundcloud": "https://soundcloud.com/search?q=Tercet%20Imperial%20Prymat",
       "youtube": "https://www.youtube.com/results?search_query=Tercet%20Imperial%20Prymat",
       "deezer": "https://www.deezer.com/album/982772451",
-      "apple": "https://music.apple.com/us/album/prymat/6769414918?uo=4"
+      "apple": "https://music.apple.com/us/album/prymat/6769414918?uo=4",
+      "tidal": "https://tidal.com/album/524630449"
     },
     "embed": {
       "provider": "apple",
@@ -10459,7 +10593,8 @@
       "soundcloud": "https://soundcloud.com/search?q=Fran%C3%A7ois%20Bayle%20Je%C3%AEta%20Ou%20Murmure%20Des%20Eaux",
       "youtube": "https://www.youtube.com/results?search_query=Fran%C3%A7ois%20Bayle%20Je%C3%AEta%20Ou%20Murmure%20Des%20Eaux",
       "deezer": "https://www.deezer.com/album/927423941",
-      "apple": "https://music.apple.com/us/album/je%C3%AEta-ou-murmure-des-eaux/1880172583?uo=4"
+      "apple": "https://music.apple.com/us/album/je%C3%AEta-ou-murmure-des-eaux/1880172583?uo=4",
+      "tidal": "https://tidal.com/album/502317949"
     },
     "embed": {
       "provider": "apple",
@@ -10493,7 +10628,8 @@
       "spotify": "https://open.spotify.com/search/Maisie%20Peters%20Florescence",
       "soundcloud": "https://soundcloud.com/search?q=Maisie%20Peters%20Florescence",
       "youtube": "https://www.youtube.com/results?search_query=Maisie%20Peters%20Florescence",
-      "deezer": "https://www.deezer.com/album/911235991"
+      "deezer": "https://www.deezer.com/album/911235991",
+      "tidal": "https://tidal.com/album/520858208"
     },
     "embed": {
       "provider": "deezer",
@@ -10527,7 +10663,8 @@
       "spotify": "https://open.spotify.com/search/Fire-Toolz%20Lavender%20Networks",
       "soundcloud": "https://soundcloud.com/search?q=Fire-Toolz%20Lavender%20Networks",
       "youtube": "https://www.youtube.com/results?search_query=Fire-Toolz%20Lavender%20Networks",
-      "deezer": "https://www.deezer.com/album/916889071"
+      "deezer": "https://www.deezer.com/album/916889071",
+      "tidal": "https://tidal.com/album/498205348"
     },
     "embed": {
       "provider": "deezer",
@@ -10562,7 +10699,8 @@
       "soundcloud": "https://soundcloud.com/search?q=Daniele%20Baldelli%2C%20Marco%20Fratty%2C%20Marco%20Flash%20Positive%20Fit",
       "youtube": "https://www.youtube.com/results?search_query=Daniele%20Baldelli%2C%20Marco%20Fratty%2C%20Marco%20Flash%20Positive%20Fit",
       "deezer": "https://www.deezer.com/album/934824991",
-      "apple": "https://music.apple.com/us/album/positive-fit-ep/1883338414?uo=4"
+      "apple": "https://music.apple.com/us/album/positive-fit-ep/1883338414?uo=4",
+      "tidal": "https://tidal.com/album/505077517"
     },
     "embed": {
       "provider": "apple",
@@ -10597,7 +10735,8 @@
       "soundcloud": "https://soundcloud.com/search?q=Porcupine%20Tree%20Fear%20Of%20A%20Blank%20Planet",
       "youtube": "https://www.youtube.com/results?search_query=Porcupine%20Tree%20Fear%20Of%20A%20Blank%20Planet",
       "deezer": "https://www.deezer.com/album/173835572",
-      "apple": "https://music.apple.com/us/album/fear-of-a-blank-planet-2024-remaster/1777064744?uo=4"
+      "apple": "https://music.apple.com/us/album/fear-of-a-blank-planet-2024-remaster/1777064744?uo=4",
+      "tidal": "https://tidal.com/album/396664061"
     },
     "embed": {
       "provider": "apple",
@@ -10629,7 +10768,8 @@
       "spotify": "https://open.spotify.com/search/Jpegmafia%20EXPERIMENTAL%20RAP",
       "soundcloud": "https://soundcloud.com/search?q=Jpegmafia%20EXPERIMENTAL%20RAP",
       "youtube": "https://www.youtube.com/results?search_query=Jpegmafia%20EXPERIMENTAL%20RAP",
-      "deezer": "https://www.deezer.com/album/957463161"
+      "deezer": "https://www.deezer.com/album/957463161",
+      "tidal": "https://tidal.com/album/533976219"
     },
     "embed": {
       "provider": "deezer",
@@ -27623,12 +27763,13 @@
       "spotify": "https://open.spotify.com/search/Lut%C3%A8ce%20Lockness%20Le%20Ch%C3%A2",
       "soundcloud": "https://soundcloud.com/search?q=Lut%C3%A8ce%20Lockness%20Le%20Ch%C3%A2",
       "youtube": "https://www.youtube.com/results?search_query=Lut%C3%A8ce%20Lockness%20Le%20Ch%C3%A2",
-      "deezer": "https://www.deezer.com/album/982045031"
+      "deezer": "https://www.deezer.com/album/982045031",
+      "apple": "https://music.apple.com/us/album/le-ch%C3%A2/6769050477?uo=4"
     },
     "embed": {
-      "provider": "deezer",
-      "src": "https://widget.deezer.com/widget/light/album/982045031",
-      "height": 300
+      "provider": "apple",
+      "src": "https://embed.music.apple.com/us/album/6769050477?theme=light",
+      "height": 450
     },
     "musicVideoUrl": null,
     "status": "pending",
@@ -27657,12 +27798,13 @@
       "spotify": "https://open.spotify.com/search/Billy%20Paul%20War%20Of%20The%20Gods",
       "soundcloud": "https://soundcloud.com/search?q=Billy%20Paul%20War%20Of%20The%20Gods",
       "youtube": "https://www.youtube.com/results?search_query=Billy%20Paul%20War%20Of%20The%20Gods",
-      "deezer": "https://www.deezer.com/album/104932872"
+      "deezer": "https://www.deezer.com/album/104932872",
+      "apple": "https://music.apple.com/us/album/war-of-the-gods-expanded-edition/1474139999?uo=4"
     },
     "embed": {
-      "provider": "deezer",
-      "src": "https://widget.deezer.com/widget/light/album/104932872",
-      "height": 300
+      "provider": "apple",
+      "src": "https://embed.music.apple.com/us/album/1474139999?theme=light",
+      "height": 450
     },
     "musicVideoUrl": null,
     "status": "pending",
@@ -49302,7 +49444,7 @@
     "title": "Visual Snow / Between Cold And Wet",
     "label": "Twin System",
     "releaseDate": "2024-10-11",
-    "description": "",
+    "description": "A split single on Twin System pairing Lewi Boome and Nosewise across two pieces of experimental ambient, textural rather than melodic, more concerned with weather than structure. Worth a look if the label's quieter drift-focused end is already on your shelf.",
     "tags": [
       "electronic"
     ],
@@ -49331,7 +49473,7 @@
     "title": "Sun's Mother",
     "label": "Instant Classic",
     "releaseDate": "2024-10-04",
-    "description": "",
+    "description": "Eight tracks from Daniel Szwed for Warsaw's Instant Classic, sitting across ambient drone, industrial noise and the heavier end of metal without settling on any of them. Limited LP for those who file Prurient next to Sunn O))).",
     "tags": [
       "electronic"
     ],
@@ -49366,7 +49508,7 @@
     "title": "City 17",
     "label": "Theory Therapy",
     "releaseDate": "2024-10-04",
-    "description": "",
+    "description": "A single ambient piece from painter and musician Lucas Dupuy, out on Theory Therapy as a digital one-off. Slow, textural work in the same register his LPs for the label have staked out.",
     "tags": [
       "electronic"
     ],
@@ -49395,7 +49537,7 @@
     "title": "Night Of Fire",
     "label": "Orange Milk Records",
     "releaseDate": "2024-10-04",
-    "description": "",
+    "description": "XL reissues the ---__--____ record on remastered vinyl, thirteen tracks that swerve between garage rock scrape, disco pulse and funk mechanics without ever quite settling. A cult item that always sat awkwardly next to the label's more obvious catalogue.",
     "tags": [
       "electronic"
     ],
@@ -49429,7 +49571,7 @@
     "title": "Night Of Fire",
     "label": "Orange Milk Records",
     "releaseDate": "2024-10-04",
-    "description": "",
+    "description": "XL reissues the ---__--___ album on remastered vinyl, thirteen tracks that swerve between garage rock scrappiness, disco-funk motorik and something more circuit-fried. Sits comfortably next to the weirder end of the label's guitar roster.",
     "tags": [
       "electronic"
     ],
@@ -49463,7 +49605,7 @@
     "title": "Turning Back The Time",
     "label": "Atlantic",
     "releaseDate": "2024-10-04",
-    "description": "",
+    "description": "An eighteen-track Atlantic compilation drawing from the Foreigner catalogue, arena-rock staples repackaged for the LP shelf. For anyone who wants \"Cold as Ice\" and \"Waiting for a Girl Like You\" on wax without hunting the originals.",
     "tags": [
       "rock"
     ],
@@ -49499,7 +49641,7 @@
     "title": "Calgary",
     "label": "Not On Label (Fucked Up Self-released)",
     "releaseDate": "2024-10-04",
-    "description": "",
+    "description": "Self-released three-tracker from the Toronto hardcore lifers, digital only in a limited FLAC edition rather than the usual Merge or Tankcrimes vinyl route. Ancillary rather than event, but worth the pull for anyone tracking the David Comes To Life crew's between-album ephemera.",
     "tags": [
       "rock"
     ],
@@ -49528,7 +49670,7 @@
     "title": "Moon Music",
     "label": "Parlophone",
     "releaseDate": "2024-10-04",
-    "description": "",
+    "description": "This is stadium-scale Coldplay on Parlophone, tagged electronic but sitting firmly in the synth-pop and alt-pop lane the band has occupied for over a decade. The limited numbered LP is the reason to bother if you're already on board.",
     "tags": [
       "electronic"
     ],
@@ -49564,7 +49706,7 @@
     "title": "Pare De Sufrir",
     "label": "AD 93",
     "releaseDate": "2024-10-04",
-    "description": "",
+    "description": "Eighteen short pieces filed under soundtrack on AD 93, which tells you most of what you need to know about the register: score fragments rather than songs, sequenced for atmosphere. Sits close to the label's more austere corners.",
     "tags": [],
     "links": {
       "bandcamp": "https://bandcamp.com/album/1345193601",
@@ -49598,7 +49740,7 @@
     "title": "Digeridoo (Expanded Edition)",
     "label": "R & S Records",
     "releaseDate": "2024-10-01",
-    "description": "",
+    "description": "R & S expands the 1992 Digeridoo EP into a twelve-track remaster, gathering the era's breaks, acid and rave abstractions around the title piece. Essential rather than revelatory; the source material still does most of the talking.",
     "tags": [
       "electronic"
     ],
@@ -49633,7 +49775,7 @@
     "title": "Deceleration",
     "label": "Appendix.Files",
     "releaseDate": "2024-10-01",
-    "description": "",
+    "description": "Five tracks of frayed breakbeat and ambient drift on Appendix.Files, the kind of IDM that keeps loosening its grip rather than tightening it. Limited 12\" for anyone still tracking the label's quieter, more textural edge.",
     "tags": [
       "electronic"
     ],

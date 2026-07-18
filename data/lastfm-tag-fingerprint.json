@@ -1,6 +1,6 @@
 {
-  "builtAt": "2026-07-15T12:28:47.157Z",
-  "poolSize": 281,
+  "builtAt": "2026-07-18T06:06:52.386Z",
+  "poolSize": 282,
   "tagCounts": {
     "future garage": 8,
     "dubstep": 25,
@@ -11,8 +11,8 @@
     "drum and bass": 9,
     "hip hop": 17,
     "drone": 21,
-    "experimental": 110,
-    "psychedelic": 12,
+    "experimental": 111,
+    "psychedelic": 13,
     "new age": 6,
     "progressive electronic": 3,
     "film score": 1,
@@ -72,7 +72,7 @@
     "korean": 1,
     "glitch": 14,
     "instrumental hip-hop": 3,
-    "jazz": 9,
+    "jazz": 10,
     "electro": 5,
     "folk": 5,
     "singer-songwriter": 7,
@@ -276,7 +276,9 @@
     "drumless": 2,
     "trumpet": 1,
     "bebop": 1,
-    "blues": 1
+    "blues": 1,
+    "los angeles": 1,
+    "schranz": 1
   },
   "fingerprint": [
     "electronic",
