@@ -810,6 +810,100 @@
     "pressMentions": []
   },
   {
+    "id": "dj-shadow-nobody-wants-to-die",
+    "type": "single",
+    "artist": "DJ Shadow",
+    "title": "Nobody Wants To Die",
+    "label": "",
+    "releaseDate": "2026-07-17",
+    "description": "Josh Davis in single-serving mode, the format he has always used to test ideas between the bigger statements. Approach accordingly.",
+    "tags": [],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=DJ%20Shadow%20Nobody%20Wants%20To%20Die&item_type=a",
+      "spotify": "https://open.spotify.com/search/DJ%20Shadow%20Nobody%20Wants%20To%20Die",
+      "soundcloud": "https://soundcloud.com/search?q=DJ%20Shadow%20Nobody%20Wants%20To%20Die",
+      "youtube": "https://www.youtube.com/results?search_query=DJ%20Shadow%20Nobody%20Wants%20To%20Die",
+      "deezer": "https://www.deezer.com/album/1028102842",
+      "tidal": "https://tidal.com/album/542729108"
+    },
+    "embed": {
+      "provider": "deezer",
+      "src": "https://widget.deezer.com/widget/light/album/1028102842",
+      "height": 300
+    },
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://cdn-images.dzcdn.net/images/cover/92fdb6dde8425c7ea8f3c11b14d12e3c/1000x1000-000000-80-0-0.jpg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
+    "id": "whatever-the-weather-i-was-a-boy",
+    "type": "single",
+    "artist": "Whatever the Weather",
+    "title": "I was a Boy",
+    "label": "",
+    "releaseDate": "2026-07-17",
+    "description": "Loraine James under her more diffuse, tempo-agnostic alias, where beats dissolve into weather-system ambient rather than resolving into anything you could grid. A single trailing a 2026 release; file next to her Ghostly work.",
+    "tags": [],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=Whatever%20the%20Weather%20I%20was%20a%20Boy&item_type=a",
+      "spotify": "https://open.spotify.com/search/Whatever%20the%20Weather%20I%20was%20a%20Boy",
+      "soundcloud": "https://soundcloud.com/search?q=Whatever%20the%20Weather%20I%20was%20a%20Boy",
+      "youtube": "https://www.youtube.com/results?search_query=Whatever%20the%20Weather%20I%20was%20a%20Boy",
+      "deezer": "https://www.deezer.com/album/983232011",
+      "apple": "https://music.apple.com/us/album/i-was-a-boy-single/6769645766?uo=4"
+    },
+    "embed": {
+      "provider": "apple",
+      "src": "https://embed.music.apple.com/us/album/6769645766?theme=light",
+      "height": 450
+    },
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://cdn-images.dzcdn.net/images/cover/3b442880496c35eba40a29d98a7a7d29/1000x1000-000000-80-0-0.jpg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
+    "id": "gas-back-to-wave-iii",
+    "type": "album",
+    "artist": "GAS",
+    "title": "BACK TO WAVE III",
+    "label": "",
+    "releaseDate": "2026-07-17",
+    "description": "Wolfgang Voigt returns to the GAS project, the forest-and-loop construct that has defined ambient techno's most reverent corner since Kompakt's earliest years. Expect orchestral haze pressed into a slow four-four pulse, and very little else by way of explanation.",
+    "tags": [],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=GAS%20BACK%20TO%20WAVE%20III&item_type=a",
+      "spotify": "https://open.spotify.com/search/GAS%20BACK%20TO%20WAVE%20III",
+      "soundcloud": "https://soundcloud.com/search?q=GAS%20BACK%20TO%20WAVE%20III",
+      "youtube": "https://www.youtube.com/results?search_query=GAS%20BACK%20TO%20WAVE%20III",
+      "deezer": "https://www.deezer.com/album/1014418701"
+    },
+    "embed": null,
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://cdn-images.dzcdn.net/images/cover/ddd41bed22f97e68a4d3aeaa9103bc59/1000x1000-000000-80-0-0.jpg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
     "id": "nikita-the-wicked-ceremony",
     "type": "single",
     "artist": "Nikita, the Wicked",
@@ -25286,6 +25380,40 @@
     "pressMentions": []
   },
   {
+    "id": "coral-springs-don-t-turn-off-the-lights",
+    "type": "album",
+    "artist": "Coral Springs",
+    "title": "Don't Turn Off The Lights",
+    "label": "Lockjaw Records",
+    "releaseDate": "2026-01-25",
+    "description": "Thirteen tracks of pop punk from Coral Springs, landing on Lockjaw, a label that has been quietly stocking the UK end of this shelf for years. Straightforward business for anyone still keeping tabs on the genre.",
+    "tags": [
+      "rock"
+    ],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=Coral%20Springs%20Don't%20Turn%20Off%20The%20Lights&item_type=a",
+      "spotify": "https://open.spotify.com/search/Coral%20Springs%20Don't%20Turn%20Off%20The%20Lights",
+      "soundcloud": "https://soundcloud.com/search?q=Coral%20Springs%20Don't%20Turn%20Off%20The%20Lights",
+      "youtube": "https://www.youtube.com/results?search_query=Coral%20Springs%20Don't%20Turn%20Off%20The%20Lights",
+      "deezer": "https://www.deezer.com/album/882888572"
+    },
+    "embed": {
+      "provider": "deezer",
+      "src": "https://widget.deezer.com/widget/light/album/882888572",
+      "height": 300
+    },
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://i.discogs.com/iqj8grF_OMC5qBDXfQ2Clpqvthx-V0SvlDjNoA9lOGA/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM3OTE2/MzU1LTE3ODQ0MDgx/OTctNTEwOS5qcGVn.jpeg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
     "id": "los-playboys-2-los-roger-s-play-boy-descarga-roger-s",
     "type": "single",
     "artist": "Los Playboys (2) / Los Roger's",
@@ -27810,6 +27938,35 @@
     "status": "pending",
     "approvedAt": null,
     "coverImageUrl": "https://i.discogs.com/yXTdgekJFRbWb3ELX1y3-U3fwgnCvVhbFhib9ZTOJSg/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM3ODg4/NjY4LTE3ODQxMjcx/NzItNTc0Ni5wbmc.jpeg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
+    "id": "jonathan-young-7-caleb-hyles-the-greatest-showman-meets-metal",
+    "type": "album",
+    "artist": "Jonathan Young (7), Caleb Hyles",
+    "title": "The Greatest Showman Meets Metal",
+    "label": "Not On Label (Jonathan Young (7) Self-released)",
+    "releaseDate": "2026-01-01",
+    "description": "Self-released covers project running the Greatest Showman songbook through a heavy metal filter, courtesy of two YouTube-era vocalists who have made a career of exactly this kind of exercise. Strictly for the show-tunes-to-double-kick crowd.",
+    "tags": [
+      "rock"
+    ],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=Jonathan%20Young%20(7)%2C%20Caleb%20Hyles%20The%20Greatest%20Showman%20Meets%20Metal&item_type=a",
+      "spotify": "https://open.spotify.com/search/Jonathan%20Young%20(7)%2C%20Caleb%20Hyles%20The%20Greatest%20Showman%20Meets%20Metal",
+      "soundcloud": "https://soundcloud.com/search?q=Jonathan%20Young%20(7)%2C%20Caleb%20Hyles%20The%20Greatest%20Showman%20Meets%20Metal",
+      "youtube": "https://www.youtube.com/results?search_query=Jonathan%20Young%20(7)%2C%20Caleb%20Hyles%20The%20Greatest%20Showman%20Meets%20Metal"
+    },
+    "embed": null,
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://i.discogs.com/xUelJXgPanK62_LZRi6iQWZebHs1DCwMRQ6R8K_V7pI/rs:fit/g:sm/q:90/h:593/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM3ODgw/NDYwLTE3ODQwMzk5/OTEtNjc2OC5qcGVn.jpeg",
     "cover": {
       "bg": "#111110",
       "fg": "#f2efe8",
@@ -49810,7 +49967,7 @@
     "title": "Intensity",
     "label": "Appendix.Files",
     "releaseDate": "2024-10-01",
-    "description": "",
+    "description": "Eight tracks of experimental IDM and ambient from SSeq, cut to a limited 12\" mini-album for Appendix.Files. Sits comfortably next to the label's more abstracted side; recommended if Ryo Murakami's ambient work still gets shelf time.",
     "tags": [
       "electronic"
     ],
@@ -49845,7 +50002,7 @@
     "title": "Frog Is God",
     "label": "Good Morning Tapes",
     "releaseDate": "2024-09-27",
-    "description": "",
+    "description": "Two pieces of amphibian-themed ambient from the Perks and Mini co-founder, arriving via Good Morning Tapes in their usual mixtape format. Sits comfortably alongside the label's Ulla or Uon material if you need a shelving cue.",
     "tags": [
       "electronic"
     ],
@@ -49874,7 +50031,7 @@
     "title": "Forever We Burn",
     "label": "Candlelight Records",
     "releaseDate": "2024-09-27",
-    "description": "",
+    "description": "High Parasite land on Spinefarm with ten tracks straddling gothic metal, black metal and industrial, the kind of Peaceville-lineage gloom that leans as much on melody as on grit. For anyone whose shelf already holds Paradise Lost.",
     "tags": [
       "rock"
     ],
@@ -49909,7 +50066,7 @@
     "title": "First Collection",
     "label": "Posh Isolation",
     "releaseDate": "2024-09-27",
-    "description": "",
+    "description": "Sound & Company land on Posh Isolation, a home that has long favored gauzy, emotionally frayed electronics over anything approaching the dancefloor. Expect it filed near Croatian Amor rather than any recent techno concern.",
     "tags": [
       "electronic"
     ],
@@ -49944,7 +50101,7 @@
     "title": "Sunset, She Exclaims",
     "label": "Modern Love",
     "releaseDate": "2024-09-27",
-    "description": "",
+    "description": "Three short pieces from the Glasgow vocalist on Modern Love, her processed voice pushed through the label's usual grain and reverb. A 7\" is an unexpected format for this catalogue, and it suits the compressed scale of the writing.",
     "tags": [
       "electronic"
     ],
@@ -49977,7 +50134,7 @@
     "title": "Lacuna And Parlor",
     "label": "Mondoj",
     "releaseDate": "2024-09-20",
-    "description": "",
+    "description": "More Eaze on Mondoj, working the seam between autotuned country balladry and laptop experimentalism she has been mapping for years. Seven tracks that sit closer to song than sketch; try it next to Claire Rousay.",
     "tags": [
       "electronic"
     ],
@@ -50012,7 +50169,7 @@
     "title": "Third Time At The Beach",
     "label": "AD 93",
     "releaseDate": "2024-09-20",
-    "description": "",
+    "description": "Bristol post-punks LICE turn up on AD 93, a label better known for club abstraction than guitar music, which tells you something about where their edges land. Ten tracks of nervy, literate rock for anyone still tracking Squid or black midi.",
     "tags": [],
     "links": {
       "bandcamp": "https://bandcamp.com/album/2536932227",
@@ -50045,7 +50202,7 @@
     "title": "Coma Salv (Nap Mix)",
     "label": "ambient tweets",
     "releaseDate": "2024-09-19",
-    "description": "",
+    "description": "Sega Bodega recasts material from Coma Salv in a slower, softer register for the ambient tweets platform, trading the vocal drama of his Nuxxe work for something closer to eyelid weight. Two tracks, digital only.",
     "tags": [
       "electronic"
     ],
@@ -50079,7 +50236,7 @@
     "title": "NoLand",
     "label": "Knekelhuis",
     "releaseDate": "2024-09-18",
-    "description": "",
+    "description": "The Geneva duo turn in a full-length of chanson bent through synth-pop and leftfield pop instincts, landing on Knekelhuis where that kind of oblique European songcraft tends to make sense. Torch-song delivery with the wiring exposed.",
     "tags": [
       "electronic"
     ],
@@ -50113,7 +50270,7 @@
     "title": "Estradas",
     "label": "Latency",
     "releaseDate": "2024-09-13",
-    "description": "",
+    "description": "A duo LP on Latency pairing Príncipe's Nídia with Valentina Magaletti, kuduro rhythmic logic rubbing up against post-punk percussion in ways that stay resolutely uncrowded. For anyone tracking Magaletti's Vanishing Twin orbit or DJ Marfox's wider circle.",
     "tags": [
       "electronic"
     ],
@@ -50463,7 +50620,8 @@
       "spotify": "https://open.spotify.com/search/Vasco%20Trilla%20The%20Bell%20Slept%20Long%20In%20Its%20Tower",
       "soundcloud": "https://soundcloud.com/search?q=Vasco%20Trilla%20The%20Bell%20Slept%20Long%20In%20Its%20Tower",
       "youtube": "https://www.youtube.com/results?search_query=Vasco%20Trilla%20The%20Bell%20Slept%20Long%20In%20Its%20Tower",
-      "apple": "https://music.apple.com/us/album/the-bell-slept-long-in-its-tower/1748890741?uo=4"
+      "apple": "https://music.apple.com/us/album/the-bell-slept-long-in-its-tower/1748890741?uo=4",
+      "tidal": "https://tidal.com/album/366046338"
     },
     "embed": {
       "provider": "apple",
@@ -50532,7 +50690,8 @@
       "soundcloud": "https://soundcloud.com/search?q=P%C3%A4fgens%20Aspect%20Of%20What",
       "youtube": "https://www.youtube.com/results?search_query=P%C3%A4fgens%20Aspect%20Of%20What",
       "deezer": "https://www.deezer.com/album/625966231",
-      "apple": "https://music.apple.com/us/album/aspect-of-what/1761488476?uo=4"
+      "apple": "https://music.apple.com/us/album/aspect-of-what/1761488476?uo=4",
+      "tidal": "https://tidal.com/album/379474612"
     },
     "embed": {
       "provider": "apple",
@@ -50565,7 +50724,8 @@
       "soundcloud": "https://soundcloud.com/search?q=damsel%20Elysium%20Whispers%20and%20Speakings",
       "youtube": "https://www.youtube.com/results?search_query=damsel%20Elysium%20Whispers%20and%20Speakings",
       "deezer": "https://www.deezer.com/album/625617521",
-      "apple": "https://music.apple.com/us/album/whispers-and-speakings-ep/1761347518?uo=4"
+      "apple": "https://music.apple.com/us/album/whispers-and-speakings-ep/1761347518?uo=4",
+      "tidal": "https://tidal.com/album/526510564"
     },
     "embed": {
       "provider": "apple",
@@ -50627,7 +50787,8 @@
       "soundcloud": "https://soundcloud.com/search?q=Hagen%20Stoll%20Rkustik",
       "youtube": "https://www.youtube.com/results?search_query=Hagen%20Stoll%20Rkustik",
       "deezer": "https://www.deezer.com/album/625511371",
-      "apple": "https://music.apple.com/us/album/rkustik-2/1773758999?uo=4"
+      "apple": "https://music.apple.com/us/album/rkustik-2/1773758999?uo=4",
+      "tidal": "https://tidal.com/album/393064463"
     },
     "embed": {
       "provider": "apple",
@@ -50661,7 +50822,8 @@
       "spotify": "https://open.spotify.com/search/Family%20Dinner%20(2)%20God%20Looks%20Out%20For%20Fools",
       "soundcloud": "https://soundcloud.com/search?q=Family%20Dinner%20(2)%20God%20Looks%20Out%20For%20Fools",
       "youtube": "https://www.youtube.com/results?search_query=Family%20Dinner%20(2)%20God%20Looks%20Out%20For%20Fools",
-      "deezer": "https://www.deezer.com/album/573665271"
+      "deezer": "https://www.deezer.com/album/573665271",
+      "tidal": "https://tidal.com/album/357466677"
     },
     "embed": {
       "provider": "deezer",
@@ -50696,7 +50858,8 @@
       "soundcloud": "https://soundcloud.com/search?q=Muadeep%20Connected",
       "youtube": "https://www.youtube.com/results?search_query=Muadeep%20Connected",
       "deezer": "https://www.deezer.com/album/619891451",
-      "apple": "https://music.apple.com/us/album/connected/1759433020?uo=4"
+      "apple": "https://music.apple.com/us/album/connected/1759433020?uo=4",
+      "tidal": "https://tidal.com/album/377121402"
     },
     "embed": {
       "provider": "apple",
@@ -50730,7 +50893,8 @@
       "spotify": "https://open.spotify.com/search/Austyn%20Wohlers%20Bodymelt%20in%20the%20Garden%20of%20Death",
       "soundcloud": "https://soundcloud.com/search?q=Austyn%20Wohlers%20Bodymelt%20in%20the%20Garden%20of%20Death",
       "youtube": "https://www.youtube.com/results?search_query=Austyn%20Wohlers%20Bodymelt%20in%20the%20Garden%20of%20Death",
-      "apple": "https://music.apple.com/us/album/bodymelt-in-the-garden-of-death/1755194338?uo=4"
+      "apple": "https://music.apple.com/us/album/bodymelt-in-the-garden-of-death/1755194338?uo=4",
+      "tidal": "https://tidal.com/album/372722803"
     },
     "embed": {
       "provider": "apple",
@@ -50797,7 +50961,8 @@
       "spotify": "https://open.spotify.com/search/Alan%20Johnson%20(9)%20Glory%20Days",
       "soundcloud": "https://soundcloud.com/search?q=Alan%20Johnson%20(9)%20Glory%20Days",
       "youtube": "https://www.youtube.com/results?search_query=Alan%20Johnson%20(9)%20Glory%20Days",
-      "apple": "https://music.apple.com/us/album/glory-days/1726343166?uo=4"
+      "apple": "https://music.apple.com/us/album/glory-days/1726343166?uo=4",
+      "tidal": "https://tidal.com/album/340603697"
     },
     "embed": {
       "provider": "apple",
@@ -50831,7 +50996,8 @@
       "spotify": "https://open.spotify.com/search/Loidis%20One%20Day",
       "soundcloud": "https://soundcloud.com/search?q=Loidis%20One%20Day",
       "youtube": "https://www.youtube.com/results?search_query=Loidis%20One%20Day",
-      "apple": "https://music.apple.com/us/album/one-day/1753668133?uo=4"
+      "apple": "https://music.apple.com/us/album/one-day/1753668133?uo=4",
+      "tidal": "https://tidal.com/album/524567039"
     },
     "embed": {
       "provider": "apple",
@@ -50895,7 +51061,8 @@
       "soundcloud": "https://soundcloud.com/search?q=Galen%20Tipton%20%26%20Holly%20Waxwing%20KeepsakeFM",
       "youtube": "https://www.youtube.com/results?search_query=Galen%20Tipton%20%26%20Holly%20Waxwing%20KeepsakeFM",
       "deezer": "https://www.deezer.com/album/608392022",
-      "apple": "https://music.apple.com/us/album/keepsakefm/1754662527?uo=4"
+      "apple": "https://music.apple.com/us/album/keepsakefm/1754662527?uo=4",
+      "tidal": "https://tidal.com/album/372211365"
     },
     "embed": {
       "provider": "apple",
@@ -50929,7 +51096,8 @@
       "spotify": "https://open.spotify.com/search/Traka%20(2)%20Zuma%20%26%20Mokuba",
       "soundcloud": "https://soundcloud.com/search?q=Traka%20(2)%20Zuma%20%26%20Mokuba",
       "youtube": "https://www.youtube.com/results?search_query=Traka%20(2)%20Zuma%20%26%20Mokuba",
-      "apple": "https://music.apple.com/us/album/zuma-mokuba-single/1759430737?uo=4"
+      "apple": "https://music.apple.com/us/album/zuma-mokuba-single/1759430737?uo=4",
+      "tidal": "https://tidal.com/album/377118325"
     },
     "embed": {
       "provider": "apple",
@@ -50963,7 +51131,8 @@
       "spotify": "https://open.spotify.com/search/04%20AM%20Service%20Service%201",
       "soundcloud": "https://soundcloud.com/search?q=04%20AM%20Service%20Service%201",
       "youtube": "https://www.youtube.com/results?search_query=04%20AM%20Service%20Service%201",
-      "deezer": "https://www.deezer.com/album/613123622"
+      "deezer": "https://www.deezer.com/album/613123622",
+      "tidal": "https://tidal.com/album/374195697"
     },
     "embed": {
       "provider": "deezer",
@@ -50997,7 +51166,8 @@
       "spotify": "https://open.spotify.com/search/Hatti%20Vatti%20Zeit",
       "soundcloud": "https://soundcloud.com/search?q=Hatti%20Vatti%20Zeit",
       "youtube": "https://www.youtube.com/results?search_query=Hatti%20Vatti%20Zeit",
-      "apple": "https://music.apple.com/us/album/zeit/1734600746?uo=4"
+      "apple": "https://music.apple.com/us/album/zeit/1734600746?uo=4",
+      "tidal": "https://tidal.com/album/349313905"
     },
     "embed": {
       "provider": "apple",
@@ -51031,7 +51201,8 @@
       "spotify": "https://open.spotify.com/search/Feiertag%20Movement%20EP",
       "soundcloud": "https://soundcloud.com/search?q=Feiertag%20Movement%20EP",
       "youtube": "https://www.youtube.com/results?search_query=Feiertag%20Movement%20EP",
-      "deezer": "https://www.deezer.com/album/603103272"
+      "deezer": "https://www.deezer.com/album/603103272",
+      "tidal": "https://tidal.com/album/369870126"
     },
     "embed": {
       "provider": "deezer",
