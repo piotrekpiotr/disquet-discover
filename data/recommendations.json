@@ -460,7 +460,8 @@
       "motif": "disc"
     },
     "pressMentions": [
-      "stereogum"
+      "stereogum",
+      "pitchfork_albums"
     ]
   },
   {
@@ -488,7 +489,9 @@
       "fg": "#f2efe8",
       "motif": "disc"
     },
-    "pressMentions": []
+    "pressMentions": [
+      "pitchfork_albums"
+    ]
   },
   {
     "id": "sofie-birch-bivabippabualukka",
@@ -510,6 +513,73 @@
     "status": "pending",
     "approvedAt": null,
     "coverImageUrl": null,
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
+    "id": "eyedress-miss-universe",
+    "type": "single",
+    "artist": "Eyedress",
+    "title": "Miss Universe",
+    "label": "Psychedelic Industries",
+    "releaseDate": "2026-07-20",
+    "description": "Eyedress on his own Psychedelic Industries imprint, still working the lo-fi bedroom pop and slacker alt-rock register he has built a following on. One for the Mac DeMarco shelf.",
+    "tags": [
+      "alternative"
+    ],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=Eyedress%20Miss%20Universe&item_type=a",
+      "spotify": "https://open.spotify.com/search/Eyedress%20Miss%20Universe",
+      "soundcloud": "https://soundcloud.com/search?q=Eyedress%20Miss%20Universe",
+      "youtube": "https://www.youtube.com/results?search_query=Eyedress%20Miss%20Universe",
+      "apple": "https://music.apple.com/us/album/miss-universe-single/6792107048",
+      "deezer": "https://www.deezer.com/album/1031897012"
+    },
+    "embed": {
+      "provider": "apple",
+      "src": "https://embed.music.apple.com/us/album/6792107048?theme=light",
+      "height": 450
+    },
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/3a/76/54/3a7654cc-48ae-acce-2517-85b7b0d30692/075679565150.jpg/600x600bb.jpg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
+    "id": "ppp-lipless",
+    "type": "single",
+    "artist": "PPP",
+    "title": "Lipless",
+    "label": "",
+    "releaseDate": "2026-07-19",
+    "description": "New PPP surfacing with no label attached and almost nothing on the sleeve to go by. File under wait-and-see; the name has covered enough ground over the years that a single track title is not much of a map.",
+    "tags": [],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=PPP%20Lipless&item_type=a",
+      "spotify": "https://open.spotify.com/search/PPP%20Lipless",
+      "soundcloud": "https://soundcloud.com/search?q=PPP%20Lipless",
+      "youtube": "https://www.youtube.com/results?search_query=PPP%20Lipless",
+      "deezer": "https://www.deezer.com/album/1033167002"
+    },
+    "embed": {
+      "provider": "deezer",
+      "src": "https://widget.deezer.com/widget/light/album/1033167002",
+      "height": 300
+    },
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://cdn-images.dzcdn.net/images/cover/049559cdb9068878f98ee6616d7cd694/1000x1000-000000-80-0-0.jpg",
     "cover": {
       "bg": "#111110",
       "fg": "#f2efe8",
@@ -904,6 +974,38 @@
     "pressMentions": []
   },
   {
+    "id": "nueen-searchtiers",
+    "type": "single",
+    "artist": "nueen",
+    "title": "Searchtiers",
+    "label": "",
+    "releaseDate": "2026-07-17",
+    "description": "Nueen in single form, which historically has meant softly diffused ambient with a light rhythmic pulse rather than full beat structure. File alongside the Balearic-adjacent end of Quiet Time.",
+    "tags": [],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=nueen%20Searchtiers&item_type=a",
+      "spotify": "https://open.spotify.com/search/nueen%20Searchtiers",
+      "soundcloud": "https://soundcloud.com/search?q=nueen%20Searchtiers",
+      "youtube": "https://www.youtube.com/results?search_query=nueen%20Searchtiers",
+      "deezer": "https://www.deezer.com/album/1028570412"
+    },
+    "embed": {
+      "provider": "deezer",
+      "src": "https://widget.deezer.com/widget/light/album/1028570412",
+      "height": 300
+    },
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://cdn-images.dzcdn.net/images/cover/1eb2b79e1cc2229c302ba156d9c004eb/1000x1000-000000-80-0-0.jpg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
     "id": "nikita-the-wicked-ceremony",
     "type": "single",
     "artist": "Nikita, the Wicked",
@@ -1279,7 +1381,9 @@
       "fg": "#f2efe8",
       "motif": "disc"
     },
-    "pressMentions": []
+    "pressMentions": [
+      "pitchfork_albums"
+    ]
   },
   {
     "id": "klein-man-in-the-mirror",
@@ -1769,6 +1873,35 @@
     "status": "pending",
     "approvedAt": null,
     "coverImageUrl": "https://i.discogs.com/O9uwhJfhB-LBvVwQi9fTUZI27WbERUlg-45CrId4Tcw/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM3ODY4/Njg4LTE3ODQyNjA1/MDctNTYyNS5qcGVn.jpeg",
+    "cover": {
+      "bg": "#111110",
+      "fg": "#f2efe8",
+      "motif": "disc"
+    },
+    "pressMentions": []
+  },
+  {
+    "id": "-new-avatar",
+    "type": "album",
+    "artist": "ケレラ",
+    "title": "New Avatar = ニュー・アバター",
+    "label": "Warp Records",
+    "releaseDate": "2026-07-10",
+    "description": "Kelela's Warp full-length lands with a genre spread wider than her club-adjacent R&B usually admits, indie rock and shoegaze pressed up against neo soul and low-end weight. Limited LP; shelve near FKA twigs if you need a coordinate.",
+    "tags": [
+      "electronic"
+    ],
+    "links": {
+      "bandcamp": "https://bandcamp.com/search?q=%E3%82%B1%E3%83%AC%E3%83%A9%20New%20Avatar%20%3D%20%E3%83%8B%E3%83%A5%E3%83%BC%E3%83%BB%E3%82%A2%E3%83%90%E3%82%BF%E3%83%BC&item_type=a",
+      "spotify": "https://open.spotify.com/search/%E3%82%B1%E3%83%AC%E3%83%A9%20New%20Avatar%20%3D%20%E3%83%8B%E3%83%A5%E3%83%BC%E3%83%BB%E3%82%A2%E3%83%90%E3%82%BF%E3%83%BC",
+      "soundcloud": "https://soundcloud.com/search?q=%E3%82%B1%E3%83%AC%E3%83%A9%20New%20Avatar%20%3D%20%E3%83%8B%E3%83%A5%E3%83%BC%E3%83%BB%E3%82%A2%E3%83%90%E3%82%BF%E3%83%BC",
+      "youtube": "https://www.youtube.com/results?search_query=%E3%82%B1%E3%83%AC%E3%83%A9%20New%20Avatar%20%3D%20%E3%83%8B%E3%83%A5%E3%83%BC%E3%83%BB%E3%82%A2%E3%83%90%E3%82%BF%E3%83%BC"
+    },
+    "embed": null,
+    "musicVideoUrl": null,
+    "status": "pending",
+    "approvedAt": null,
+    "coverImageUrl": "https://i.discogs.com/fI_DE6SeD_R37DfMAToIClkLqxFnDCo7VmSV80TCOyk/rs:fit/g:sm/q:90/h:502/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM3OTIw/NDIwLTE3ODQ0NjI2/NjYtNTQyMy5qcGVn.jpeg",
     "cover": {
       "bg": "#111110",
       "fg": "#f2efe8",
@@ -5715,7 +5848,7 @@
     "type": "single",
     "artist": "Lone",
     "title": "Affinity (Versions)",
-    "label": "",
+    "label": "Greco-Roman",
     "releaseDate": "2026-06-15",
     "description": "Lone returns to the rave-tinted, sugar-rush palette he has trafficked in since Galaxy Garden, this time reframing Affinity through alternate versions. No label listed yet; one for the Magicwire and R&S faithful.",
     "tags": [],
@@ -8118,7 +8251,9 @@
       "fg": "#f2efe8",
       "motif": "disc"
     },
-    "pressMentions": []
+    "pressMentions": [
+      "pitchfork_albums"
+    ]
   },
   {
     "id": "xang-nadie",
@@ -15741,7 +15876,9 @@
       "fg": "#f2efe8",
       "motif": "disc"
     },
-    "pressMentions": []
+    "pressMentions": [
+      "pitchfork_albums"
+    ]
   },
   {
     "id": "robyn-ca7riel-paco-amoroso-blow-my-mind-ca7riel-paco-amoroso-version",
@@ -50304,7 +50441,7 @@
     "title": "Some Things Are Not Meant To Hold II",
     "label": "Posh Isolation",
     "releaseDate": "2024-09-13",
-    "description": "",
+    "description": "A two-track 7\" on Posh Isolation, the Copenhagen label whose grey-zone between neoclassical, ambient and industrial has long been its signature. Alto Aria sits comfortably inside that lineage; file near Croatian Amor if you need bearings.",
     "tags": [
       "electronic"
     ],
@@ -50338,7 +50475,7 @@
     "title": "29 Speedway: UltraBody",
     "label": "29 Speedway",
     "releaseDate": "2024-09-10",
-    "description": "",
+    "description": "Thirteen tracks of experimental electronics gathered under the 29 Speedway banner, the New York imprint continuing to map its own quietly weird corner of club and post-club music. Compilation as scene snapshot, best treated as one long transmission.",
     "tags": [
       "electronic"
     ],
@@ -50372,7 +50509,7 @@
     "title": "Orsova",
     "label": "12th Isle",
     "releaseDate": "2024-09-09",
-    "description": "",
+    "description": "A six-track 12th Isle compilation moving through dub, bleep and downtempo without ever quite committing to any of them, which is roughly the Glasgow label's whole thesis. For anyone still working through the Fergus Clark end of the catalogue.",
     "tags": [
       "electronic"
     ],
@@ -50407,7 +50544,7 @@
     "title": "DRUM MACHINE",
     "label": "Nyege Nyege Tapes",
     "releaseDate": "2024-09-06",
-    "description": "",
+    "description": "Six tracks of stripped, kinetic electro from Arsenal Mikebe, pressed by Nyege Nyege Tapes in a limited LP run. Sits closer to the label's raw drum-tool end than its outer-limit exotica; file next to Otim Alpha if you need a shelving cue.",
     "tags": [
       "electronic"
     ],
@@ -50441,7 +50578,7 @@
     "title": "Shyness",
     "label": "Theory Therapy",
     "releaseDate": "2024-09-06",
-    "description": "",
+    "description": "Ten pieces from chantssss on Theory Therapy, sitting where ambient softens into modern classical without ever quite committing to either. A quiet record by design, pressed in a limited LP run for those who shelve Grouper next to Nils Frahm.",
     "tags": [
       "electronic"
     ],
@@ -50474,7 +50611,7 @@
     "title": "Chamber Of Tears",
     "label": "Geographic North",
     "releaseDate": "2024-09-06",
-    "description": "",
+    "description": "Cohen (Pharaohs, Languis) turns to Geographic North for a set of songs that read as folk more than club, filed under Latin but sitting closer to the label's slower, more pensive corners. Thirteen tracks, unhurried.",
     "tags": [
       "latin"
     ],
@@ -50508,7 +50645,7 @@
     "title": "West Pontoon Bridge",
     "label": "100% Silk",
     "releaseDate": "2024-09-06",
-    "description": "",
+    "description": "Fourteen tracks of low-lit deep house on 100% Silk, the LA label still working the seam between bedroom tape hiss and functional dancefloor tools. Sits comfortably next to the Octo Octa end of the roster.",
     "tags": [
       "electronic"
     ],
@@ -50542,7 +50679,7 @@
     "title": "Simple Gifts",
     "label": "Latency",
     "releaseDate": "2024-08-30",
-    "description": "",
+    "description": "Three tracks on Latency where noise rock scree gets threaded through acoustic and contemporary classical figures, more juxtaposition than fusion. For anyone still working through the label's Nour Mobarak side of the catalogue.",
     "tags": [
       "electronic"
     ],
@@ -50576,7 +50713,7 @@
     "title": "Rugs/Carpets",
     "label": "Coastline Northern Cuts",
     "releaseDate": "2024-08-30",
-    "description": "",
+    "description": "Ten pieces of ambient IDM from Papior on Coastline Northern Cuts, pressed to a limited LP. Textural rather than rhythmic for the most part, closer to the label's more introspective end.",
     "tags": [
       "electronic"
     ],
@@ -50611,7 +50748,7 @@
     "title": "The Bell Slept Long In Its Tower",
     "label": "Thanatosis Produktion",
     "releaseDate": "2024-08-30",
-    "description": "",
+    "description": "Solo percussion from the Barcelona drummer, released through Stockholm's Thanatosis, where resonance and decay do most of the compositional work. For anyone who followed Ingar Zach down that same patient corridor.",
     "tags": [
       "jazz"
     ],
@@ -50646,7 +50783,7 @@
     "title": "Slob Air",
     "label": "Hyperdub",
     "releaseDate": "2024-08-30",
-    "description": "",
+    "description": "A one-sided 12\" from Mica Levi on Hyperdub, sitting somewhere between the composerly drift of the Under the Skin work and the scrappier end of their pop instincts. Filed under experimental with a nod toward ambient, but too restless to sit still in either.",
     "tags": [
       "electronic"
     ],

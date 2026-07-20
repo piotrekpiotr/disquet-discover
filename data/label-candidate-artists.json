@@ -8968,6 +8968,7 @@
       "Mood Hut"
     ],
     "titleExamples": [
+      "In Lieu",
       "In Lieu"
     ]
   },
@@ -8977,6 +8978,14 @@
     ],
     "titleExamples": [
       "Don't Turn Off The Lights"
+    ]
+  },
+  "ケレラ": {
+    "seenOn": [
+      "Warp Records"
+    ],
+    "titleExamples": [
+      "New Avatar = ニュー・アバター"
     ]
   }
 }
